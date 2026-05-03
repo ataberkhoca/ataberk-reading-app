@@ -1770,14 +1770,25 @@ function loadStats() {
   try { return JSON.parse(raw); } catch(e) { return {}; }
 }
 
-function saveActivityStats(topic, skill, correct, wrong, stars) {
+function saveActivityStats(topic, skill, score, total, stars) {
   const stats = loadStats();
-  if (!stats[topic]) stats[topic] = {};
-  if (!stats[topic][skill]) stats[topic][skill] = { correct:0, wrong:0, stars:0, count:0 };
-  stats[topic][skill].correct += correct;
-  stats[topic][skill].wrong   += wrong;
-  stats[topic][skill].stars   += stars;
-  stats[topic][skill].count   += 1;
+  const prev = stats[topic]?.[skill];
+  const isFirstTime = !prev;
+  const isBetter = prev && score > prev.bestScore;
+
+  if (isFirstTime || isBetter) {
+    if (!stats[topic]) stats[topic] = {};
+    stats[topic][skill] = {
+      bestScore: score,
+      total: total,
+      stars: stars,
+      attempts: (prev?.attempts || 0) + 1,
+      lastPlayed: Date.now()
+    };
+  } else if (prev) {
+    // Yeni deneme — sadece attempts sayacını artır
+    stats[topic][skill].attempts = (prev.attempts || 0) + 1;
+  }
   localStorage.setItem('ataberk_stats', JSON.stringify(stats));
 }
 
@@ -1786,14 +1797,14 @@ function renderStats() {
   const stats  = loadStats();
   const scroll = document.getElementById('stats-scroll');
 
-  // Toplam hesapla
+  // Toplam hesapla — sadece en iyi skorlar
   let totalStars=0, totalCorrect=0, totalWrong=0, totalDone=0;
-  Object.values(stats).forEach(topic => {
-    Object.values(topic).forEach(sk => {
-      totalStars   += sk.stars;
-      totalCorrect += sk.correct;
-      totalWrong   += sk.wrong;
-      totalDone    += sk.count;
+  Object.values(stats).forEach(topicData => {
+    Object.values(topicData).forEach(sk => {
+      totalStars   += sk.stars    || 0;
+      totalCorrect += sk.bestScore || 0;
+      totalWrong   += Math.max(0, (sk.total || 0) - (sk.bestScore || 0));
+      totalDone    += 1;
     });
   });
 
@@ -1837,7 +1848,11 @@ function renderStats() {
     const isDone = allSkills.every(s => topicData[s]);
     const cls = isDone ? 'done' : 'pending';
     const badge = isDone ? '✅' : '⏳';
-    const detail = skills.map(s => SKILL_META[s]).join(', ');
+    const detail = skills.map(s => {
+      const sk = topicData[s];
+      const pct = sk.total ? Math.round(sk.bestScore / sk.total * 100) : 0;
+      return `${SKILL_META[s]} %${pct}`;
+    }).join(' · ');
     topicsHTML += `
       <div class="topic-stat-row ${cls}">
         <div class="topic-stat-icon">${meta.icon}</div>
@@ -1862,11 +1877,11 @@ function handleBadgeClick() {
 // Etkinlik bitince otomatik kaydet — showResult'u wrap et
 const _origShowResult = showResult;
 showResult = function() {
-  // Şu an sadece school-life aktif
   const topic = 'school-life';
-  const pct = score / DATA[cur].questions.length;
-  let stars = pct === 1 ? 3 : pct >= .67 ? 3 : pct >= .4 ? 2 : 1;
-  saveActivityStats(topic, cur, score, DATA[cur].questions.length - score, stars);
+  const total = DATA[cur].questions.length;
+  const pct = score / total;
+  const stars = pct === 1 ? 3 : pct >= .67 ? 3 : pct >= .4 ? 2 : 1;
+  saveActivityStats(topic, cur, score, total, stars);
   _origShowResult();
 };
 
