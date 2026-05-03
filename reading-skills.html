@@ -464,6 +464,84 @@ body::before{
   font-size: 11px;
 }
 
+
+/* ══════════════════════════════
+   ETKİNLİK SEÇİMİ EKRANI
+══════════════════════════════ */
+#screen-etkinlik {
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 0 40px;
+}
+.etkinlik-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 20px 0;
+}
+.etkinlik-card {
+  background: #fff;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 16px 20px;
+  box-shadow: 4px 4px 0 #1A1A1A;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+  animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
+}
+.etkinlik-card:nth-child(1){animation-delay:.05s;}
+.etkinlik-card:nth-child(2){animation-delay:.10s;}
+.etkinlik-card:nth-child(3){animation-delay:.15s;}
+.etkinlik-card:nth-child(4){animation-delay:.20s;}
+.etkinlik-card:hover  { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 #1A1A1A; }
+.etkinlik-card:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
+.etkinlik-icon {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  border: 2.5px solid #1A1A1A;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.etkinlik-info { flex: 1; display: flex; flex-direction: column; gap: 3px; }
+.etkinlik-en {
+  font-size: 11px; font-weight: 800;
+  color: #AAA; letter-spacing: .04em;
+}
+.etkinlik-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px; color: #1A1A1A; line-height: 1;
+}
+.etkinlik-desc {
+  font-size: 12px; font-weight: 700;
+  color: #666; line-height: 1.45; margin-top: 2px;
+}
+.etkinlik-arrow {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px; color: #CCC; flex-shrink: 0;
+}
+
+/* OYUN EKRANI — üst header */
+.game-topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 16px 0;
+  flex-shrink: 0;
+}
+.game-topbar-info { display: flex; flex-direction: column; gap: 2px; }
+.game-topbar-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px; color: #1A1A1A; line-height: 1;
+}
+.game-topbar-sub {
+  font-size: 12px; font-weight: 700; color: #AAA;
+}
+
 </style>
 </head>
 <body>
@@ -493,6 +571,13 @@ body::before{
 </div>
 
 <div class="screen" id="screen-game">
+  <div class="game-topbar">
+    <button class="back-btn" onclick="showScreen('screen-etkinlik')">←</button>
+    <div class="game-topbar-info">
+      <div class="game-topbar-title" id="game-topbar-title">Tarama</div>
+      <div class="game-topbar-sub">School Life</div>
+    </div>
+  </div>
   <div class="switcher">
     <button class="sw active" onclick="sw(this,'scan')"><span class="sw-icon">🔍</span>Scan</button>
     <button class="sw" onclick="sw(this,'skim')"><span class="sw-icon">⚡</span>Skim</button>
@@ -532,6 +617,55 @@ body::before{
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
   <button class="intro-btn" onclick="handleStart()">🚀 Başla</button>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
+</div>
+
+<!-- ETKİNLİK SEÇİMİ EKRANI -->
+<div class="screen" id="screen-etkinlik">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-theme')">←</button>
+    <div>
+      <div class="screen-header-title">Etkinlik Seçimi</div>
+      <div class="screen-header-sub">Ne çalışmak istersin?</div>
+    </div>
+  </div>
+  <div class="etkinlik-list">
+    <div class="etkinlik-card" onclick="startSkill('scan')">
+      <div class="etkinlik-icon" style="background:#FFF0F0;">🔍</div>
+      <div class="etkinlik-info">
+        <div class="etkinlik-en">Scanning</div>
+        <div class="etkinlik-name">Tarama</div>
+        <div class="etkinlik-desc">Metni baştan sona okumadan aradığın bilgiyi bul. Bir isim, yer ya da sayıyı hızlıca bulmak için kullanırsın.</div>
+      </div>
+      <div class="etkinlik-arrow">›</div>
+    </div>
+    <div class="etkinlik-card" onclick="startSkill('skim')">
+      <div class="etkinlik-icon" style="background:#E6F9FD;">⚡</div>
+      <div class="etkinlik-info">
+        <div class="etkinlik-en">Skimming</div>
+        <div class="etkinlik-name">Hızlı Okuma</div>
+        <div class="etkinlik-desc">Metni hızlıca gözden geçirerek genel konuyu anla. Her kelimeyi okumana gerek yok, sadece ana fikri yakala.</div>
+      </div>
+      <div class="etkinlik-arrow">›</div>
+    </div>
+    <div class="etkinlik-card" onclick="startSkill('int')">
+      <div class="etkinlik-icon" style="background:#F4EAFF;">🔬</div>
+      <div class="etkinlik-info">
+        <div class="etkinlik-en">Intensive Reading</div>
+        <div class="etkinlik-name">Dikkatli Okuma</div>
+        <div class="etkinlik-desc">Metni baştan sona dikkatli oku ve her cümleyi anlamaya çalış. Detaylar önemli!</div>
+      </div>
+      <div class="etkinlik-arrow">›</div>
+    </div>
+    <div class="etkinlik-card" onclick="startSkill('inf')">
+      <div class="etkinlik-icon" style="background:#FFF4E8;">🧩</div>
+      <div class="etkinlik-info">
+        <div class="etkinlik-en">Inference</div>
+        <div class="etkinlik-name">Çıkarım</div>
+        <div class="etkinlik-desc">Metinde doğrudan yazılmayan şeyleri düşün ve tahmin et. İpuçlarını kullanarak sonuca ulaş.</div>
+      </div>
+      <div class="etkinlik-arrow">›</div>
+    </div>
+  </div>
 </div>
 
 <!-- SINIF SEÇİMİ EKRANI -->
@@ -582,7 +716,7 @@ body::before{
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="showScreen('screen-game')">
+    <div class="theme-card aktif" onclick="showScreen('screen-etkinlik')">
       <div class="theme-left">
         <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
         <div class="theme-info">
@@ -872,6 +1006,17 @@ function confetti(){
 function shuffle(a){const r=[...a];for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]];}return r;}
 
 setVars('scan');renderStory();renderQ();
+
+function startSkill(sk) {
+  const titles = {scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli Okuma', inf:'Çıkarım'};
+  document.getElementById('game-topbar-title').textContent = titles[sk] || sk;
+  showScreen('screen-game');
+  const btn = document.querySelector(`.sw[onclick*="'${sk}'"]`);
+  if (btn) sw(btn, sk);
+}
+
+// Başlangıç
+showScreen('screen-intro');
 </script>
 </body>
 </html>
