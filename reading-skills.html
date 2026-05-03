@@ -107,13 +107,17 @@ body::before{
 .choice.wrong .choice-letter{background:#FF6B6B;color:#fff;border-color:#FF6B6B;}
 @keyframes wShake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px) rotate(-2deg)}75%{transform:translateX(6px) rotate(2deg)}}
 @keyframes choiceSlideUp{0%{opacity:0;transform:translateY(20px);}100%{opacity:1;transform:translateY(0);}}
-.choice.reveal{background:rgba(107,203,119,.15);border-color:#6BCB77;color:#2D7A38;opacity:.75;box-shadow:2px 2px 0 #6BCB77;}
+
 .choice:disabled{cursor:default;}
 
-.feedback{margin-top:12px;border-radius:16px;padding:13px 15px;font-size:13px;font-weight:800;line-height:1.5;border:2.5px solid #1A1A1A;animation:cardPop .3s cubic-bezier(.34,1.56,.64,1);}
-.feedback.correct{background:#6BCB77;color:#fff;box-shadow:3px 3px 0 #1A1A1A;}
-.feedback.wrong{background:#fff;color:#CC2222;box-shadow:3px 3px 0 #1A1A1A;}
-.fb-title{font-family:'Fredoka One',cursive;font-size:18px;margin-bottom:3px;}
+.feedback{display:none;}
+.next-btn{margin-top:10px;width:100%;background:#FFD93D;color:#1A1A1A;font-family:'Fredoka One',cursive;font-size:17px;border-radius:16px;padding:14px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s;}
+.next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
+.next-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
+.choice.correct{background:#6BCB77;border-color:#1A1A1A;color:#fff;box-shadow:4px 4px 0 #1A1A1A;animation:cPop .4s cubic-bezier(.34,1.56,.64,1);}
+.choice.correct .choice-letter{background:#fff;color:#1A1A1A;border-color:#1A1A1A;}
+.choice.wrong{border-color:#FF6B6B;background:#FFF0F0;color:#CC2222;animation:wShake .35s ease;box-shadow:4px 4px 0 #FF6B6B;}
+.choice.wrong .choice-letter{background:#FF6B6B;color:#fff;border-color:#FF6B6B;}
 
 .next-btn{margin-top:12px;width:100%;background:#FFD93D;color:#1A1A1A;font-family:'Fredoka One',cursive;font-size:17px;border-radius:16px;padding:15px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s;}
 .next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
@@ -1408,7 +1412,7 @@ function pick(btn){
     locked=true;btn.classList.add('correct');score++;
     document.getElementById('score-chip').textContent=`⭐ ${score}`;
     const isLast=qIdx+1>=DATA[cur].questions.length;
-    document.getElementById('feedback-zone').innerHTML=`<div class="feedback correct"><div class="fb-title">✅ Doğru!</div>Harika!</div><button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
+    document.getElementById('feedback-zone').innerHTML=`<button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
   } else {
     attempts++;btn.classList.add('wrong');btn.disabled=true;
     setTimeout(()=>{btn.classList.remove('wrong');if(attempts<2){document.querySelectorAll('.choice:not(.correct)').forEach(b=>b.disabled=false);btn.disabled=true;}},420);
@@ -1417,9 +1421,15 @@ function pick(btn){
       if(!missedQuestions.includes(q)) missedQuestions.push(q);
       restoreHL(q.hl);
       setTimeout(()=>{
-        document.querySelectorAll('.choice').forEach(b=>{b.disabled=true;if(b.dataset.correct==='1')b.classList.add('reveal');});
+        document.querySelectorAll('.choice').forEach(b=>{
+          b.disabled=true;
+          if(b.dataset.correct==='1') {
+            b.classList.remove('wrong');
+            b.classList.add('correct');
+          }
+        });
         const isLast=qIdx+1>=DATA[cur].questions.length;
-        document.getElementById('feedback-zone').innerHTML=`<div class="feedback wrong"><div class="fb-title">❌ Neredeyse!</div>Sarı ile işaretli cümleye bak.</div><button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
+        document.getElementById('feedback-zone').innerHTML=`<button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
       },350);
     }
   }
