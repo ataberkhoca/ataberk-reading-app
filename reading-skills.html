@@ -1004,6 +1004,15 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
 .celeb-retry:hover { color: #fff; }
 
 
+
+/* ── BUTTON RESET ── */
+button.tr-close, button.intro-link-pill,
+button.celeb-retry, button.intro-profil-edit {
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
 /* ── FOCUS STATES ── */
 :focus-visible {
   outline: 3px solid #FF6B6B;
@@ -1040,7 +1049,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
 <div class="tr-popup" id="tr-popup">
   <div class="tr-en" id="tr-en"></div>
   <div class="tr-tr" id="tr-tr"></div>
-  <div class="tr-close" onclick="closeTrPopup()">×</div>
+  <button class="tr-close" onclick="closeTrPopup()" aria-label="Kapat">×</button>
 </div>
 
 <div class="result-overlay" id="result-overlay">
@@ -1095,17 +1104,17 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   </div>
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
   <div id="intro-profil-wrap" style="display:none; width:100%; max-width:280px;">
-    <div class="intro-profil-badge" onclick="handleBadgeClick()" id="intro-profil-badge">
+    <div class="intro-profil-badge" onclick="handleBadgeClick()" id="intro-profil-badge" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')handleBadgeClick()">
       <div class="intro-profil-avatar" id="intro-av">🐱</div>
       <div class="intro-profil-name" id="intro-name">İsim</div>
       <div style="width:2px;height:22px;background:#1A1A1A;flex-shrink:0;margin:0 4px;border-radius:99px;"></div>
-      <div class="intro-profil-edit" onclick="event.stopPropagation(); showScreen('screen-profil')">✏️</div>
+      <button class="intro-profil-edit" onclick="event.stopPropagation(); showScreen('screen-profil')" aria-label="Profili düzenle">✏️</button>
     </div>
   </div>
   <button class="intro-btn" onclick="handleStart()">🚀 Başla</button>
   <div class="intro-link-row">
-    <div class="intro-link-pill" onclick="showScreen('screen-nasil')">Nasıl Kullanılır ❓</div>
-    <div class="intro-link-pill" onclick="showScreen('screen-hakkinda')">Hakkımızda</div>
+    <button class="intro-link-pill" onclick="showScreen('screen-nasil')">Nasıl Kullanılır ❓</button>
+    <button class="intro-link-pill" onclick="showScreen('screen-hakkinda')">Hakkımızda</button>
   </div>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
 </div>
@@ -1160,7 +1169,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Profilim</div>
       <div class="screen-header-sub">İlerleme durumun</div>
     </div>
-    <div class="header-profil" id="hp-stats" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-stats" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-stats">🐱</div>
       <div class="header-profil-name" id="hp-name-stats">Profil</div>
     </div>
@@ -1178,7 +1187,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   <div class="celeb-sub" id="celeb-sub">4 etkinliği de tamamladın!</div>
   <div class="celeb-skills" id="celeb-skills"></div>
   <button class="celeb-btn" onclick="showScreen('screen-theme')">🗺️ Yeni Konu Seç</button>
-  <div class="celeb-retry" onclick="retryFromCeleb()">↻ Tekrar Dene</div>
+  <button class="celeb-retry" onclick="retryFromCeleb()">↻ Tekrar Dene</button>
 </div>
 
 <!-- NASIL KULLANILIR EKRANI -->
@@ -1189,7 +1198,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Nasıl Kullanılır?</div>
       <div class="screen-header-sub">Adım adım rehber</div>
     </div>
-    <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-nasil">🐱</div>
       <div class="header-profil-name" id="hp-name-nasil">Profil</div>
     </div>
@@ -1231,7 +1240,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Hakkımızda</div>
       <div class="screen-header-sub">Ataberk Hoca</div>
     </div>
-    <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-hakkinda">🐱</div>
       <div class="header-profil-name" id="hp-name-hakkinda">Profil</div>
     </div>
@@ -1267,13 +1276,13 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Etkinlik Seçimi</div>
       <div class="screen-header-sub">Ne çalışmak istersin?</div>
     </div>
-    <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-etkinlik">🐱</div>
       <div class="header-profil-name" id="hp-name-etkinlik">Profil</div>
     </div>
   </div>
   <div class="etkinlik-list">
-    <div class="etkinlik-card" onclick="startSkill('scan')">
+    <div class="etkinlik-card" onclick="startSkill('scan')" role="button" tabindex="0" aria-label="Tarama etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('scan')">
       <div class="etkinlik-icon" style="background:#FFF0F0;">🔍</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Scanning</div>
@@ -1282,7 +1291,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('skim')">
+    <div class="etkinlik-card" onclick="startSkill('skim')" role="button" tabindex="0" aria-label="Hızlı Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('skim')">
       <div class="etkinlik-icon" style="background:#E6F9FD;">⚡</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Skimming</div>
@@ -1291,7 +1300,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('int')">
+    <div class="etkinlik-card" onclick="startSkill('int')" role="button" tabindex="0" aria-label="Dikkatli Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('int')">
       <div class="etkinlik-icon" style="background:#F4EAFF;">🔬</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Intensive Reading</div>
@@ -1300,7 +1309,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('inf')">
+    <div class="etkinlik-card" onclick="startSkill('inf')" role="button" tabindex="0" aria-label="Çıkarım etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('inf')">
       <div class="etkinlik-icon" style="background:#FFF4E8;">🧩</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Inference</div>
@@ -1320,14 +1329,14 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Sınıf Seçimi</div>
       <div class="screen-header-sub">Hangi sınıftasın?</div>
     </div>
-    <div class="header-profil" id="hp-sinif" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-sinif" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-sinif">🐱</div>
       <div class="header-profil-name" id="hp-name-sinif">Profil</div>
     </div>
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" onclick="showScreen('screen-theme')">
+    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')showScreen('screen-theme')">
       <div class="sinif-left">
         <div class="sinif-num">2. Sınıf</div>
         <div class="sinif-sub">Primary 2</div>
@@ -1361,14 +1370,14 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="screen-header-title">Konu Seçimi</div>
       <div class="screen-header-sub">Hangi konuyu çalışmak istersin?</div>
     </div>
-    <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()">
+    <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-theme">🐱</div>
       <div class="header-profil-name" id="hp-name-theme">Profil</div>
     </div>
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="selectTopic('school-life')">
+    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')selectTopic('school-life')">
       <div class="theme-left">
         <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
         <div class="theme-info">
