@@ -71,7 +71,7 @@ body::before{
 .tr-popup::before{content:'🌐';position:absolute;top:-13px;left:12px;background:#1E40AF;color:#fff;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;border:2px solid #1A1A1A;}
 .tr-en{color:#7DDFF0;font-size:11px;font-weight:700;margin-bottom:3px;}
 .tr-tr{color:#fff;font-size:14px;font-weight:900;}
-.tr-close{position:absolute;top:-9px;right:-9px;background:#FF6B6B;color:#fff;width:22px;height:22px;border-radius:50%;border:2px solid #1A1A1A;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;cursor:pointer;line-height:1;}
+.tr-close{position:absolute;top:-12px;right:-12px;background:#FF6B6B;color:#fff;width:36px;height:36px;border-radius:50%;border:2px solid #1A1A1A;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;cursor:pointer;line-height:1;}
 
 /* QUESTION CARD */
 .q-card{background:var(--ac);border-radius:24px;border:3px solid #1A1A1A;box-shadow:5px 5px 0 #1A1A1A;padding:20px 18px 18px;transition:background .3s;animation:cardPop .4s .08s cubic-bezier(.34,1.56,.64,1) backwards;}
@@ -682,12 +682,13 @@ body::before{
 
 .avatar-grid {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
 }
 
 .avatar-opt {
-  width: 58px; height: 58px;
+  width: 64px; height: 64px;
   border-radius: 50%;
   border: 3px solid #CCC;
   background: #fff;
