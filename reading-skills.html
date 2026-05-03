@@ -1021,10 +1021,8 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
 <div class="result-overlay" id="result-overlay">
   <div class="result-emoji" id="res-emoji">🎉</div>
   <div class="result-title" id="res-title">Harika!</div>
-  <div class="result-score"><em id="res-num">3</em> / <span id="res-tot">4</span></div>
-  <div class="result-stars" id="res-stars">⭐⭐⭐</div>
-  <div class="result-msg" id="res-msg">Great reading!</div>
-  <div id="res-feedback" style="font-size:13px;font-weight:700;color:rgba(255,255,255,.9);max-width:280px;line-height:1.55;background:rgba(0,0,0,.12);border-radius:14px;padding:12px 16px;text-align:left;margin-top:4px;"></div>
+  <div class="result-stars" id="res-stars-combined">⭐⭐⭐ · <em id="res-num">3</em>/<span id="res-tot">4</span></div>
+  <div class="result-msg" id="res-msg"></div>
   <div class="result-actions">
     <button class="r-btn r-btn-primary" onclick="retrySkill()">↻ Tekrar Dene</button>
     <button class="r-btn r-btn-secondary" onclick="nextSkill()">→ Sonraki Beceri</button>
@@ -1640,11 +1638,9 @@ function showResult(){
   document.getElementById('res-title').textContent=title;
   document.getElementById('res-num').textContent=score;
   document.getElementById('res-tot').textContent=tot;
-  document.getElementById('res-stars').textContent=stars;
-  document.getElementById('res-msg').textContent=msg;
+  document.getElementById('res-stars-combined').innerHTML=stars + (stars ? ' · ' : '') + '<em id="res-num">' + score + '</em>/<span id="res-tot">' + tot + '</span>';
   const fbText = generateFeedback(cur, score, tot, missedQuestions);
-  const fbEl = document.getElementById('res-feedback');
-  if(fbEl) fbEl.textContent = fbText;
+  document.getElementById('res-msg').textContent = fbText || msg;
   document.getElementById('result-overlay').classList.add('visible');
   if(pct===1)confetti();
   onActivityComplete(score, tot, cur, currentTopic);
