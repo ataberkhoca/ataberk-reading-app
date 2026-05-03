@@ -260,20 +260,50 @@ body::before{
 }
 
 .back-btn {
-  width: 44px; height: 44px;
-  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px 8px 10px;
+  border-radius: 99px;
   border: 3px solid #1A1A1A;
   background: #fff;
   box-shadow: 3px 3px 0 #1A1A1A;
-  font-size: 18px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 14px;
+  color: #1A1A1A;
   cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
   transition: all .15s;
   -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
 }
+.back-btn::before { content: '←'; font-size: 16px; }
 .back-btn:hover  { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #1A1A1A; }
 .back-btn:active { transform: translate(2px,2px);  box-shadow: 1px 1px 0 #1A1A1A; }
+
+/* Header profil rozeti */
+.header-profil {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 2.5px solid #1A1A1A;
+  border-radius: 99px;
+  padding: 6px 12px 6px 8px;
+  box-shadow: 2px 2px 0 #1A1A1A;
+  cursor: pointer;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+  flex-shrink: 0;
+}
+.header-profil:hover  { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 #1A1A1A; }
+.header-profil:active { transform: translate(1px,1px);  box-shadow: 1px 1px 0 #1A1A1A; }
+.header-profil-av { font-size: 18px; line-height: 1; }
+.header-profil-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px; color: #1A1A1A;
+}
 
 .screen-header-title {
   font-family: 'Fredoka One', cursive;
@@ -912,7 +942,7 @@ body::before{
 
 <div class="screen" id="screen-game">
   <div class="game-topbar">
-    <button class="back-btn" onclick="showScreen('screen-etkinlik')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-etkinlik')">Etkinlikler</button>
     <div class="game-topbar-info">
       <div class="game-topbar-title" id="game-topbar-title">Tarama</div>
       <div class="game-topbar-sub">School Life</div>
@@ -950,16 +980,17 @@ body::before{
   </div>
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
   <div id="intro-profil-wrap" style="display:none; width:100%; max-width:280px;">
-    <div class="intro-profil-badge" onclick="handleBadgeClick()">
+    <div class="intro-profil-badge" onclick="handleBadgeClick()" id="intro-profil-badge">
       <div class="intro-profil-avatar" id="intro-av">🐱</div>
       <div class="intro-profil-name" id="intro-name">İsim</div>
-      <div class="intro-profil-edit">✏️</div>
+      <div style="width:2px;height:22px;background:#1A1A1A;flex-shrink:0;margin:0 4px;border-radius:99px;"></div>
+      <div class="intro-profil-edit" onclick="event.stopPropagation(); showScreen('screen-profil')">✏️</div>
     </div>
   </div>
   <button class="intro-btn" onclick="handleStart()">🚀 Başla</button>
   <div class="intro-link-row">
-    <div class="intro-link-pill" onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</div>
-    <div class="intro-link-pill" onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</div>
+    <div class="intro-link-pill" onclick="showScreen('screen-nasil')">Nasıl Kullanılır ❓</div>
+    <div class="intro-link-pill" onclick="showScreen('screen-hakkinda')">Hakkımızda</div>
   </div>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
 </div>
@@ -967,7 +998,7 @@ body::before{
 <!-- PROFİL OLUŞTURMA EKRANI -->
 <div class="screen" id="screen-profil">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Profilini Oluştur</div>
       <div class="screen-header-sub">Hadi tanışalım!</div>
@@ -997,10 +1028,14 @@ body::before{
 <!-- PROFİL İSTATİSTİK EKRANI -->
 <div class="screen" id="screen-stats">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Profilim</div>
       <div class="screen-header-sub">İlerleme durumun</div>
+    <div class="header-profil" id="hp-stats" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-stats">🐱</div>
+      <div class="header-profil-name" id="hp-name-stats">Profil</div>
+    </div>
     </div>
   </div>
   <div class="stats-scroll" id="stats-scroll">
@@ -1011,10 +1046,14 @@ body::before{
 <!-- NASIL KULLANILIR EKRANI -->
 <div class="screen" id="screen-nasil">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Nasıl Kullanılır?</div>
       <div class="screen-header-sub">Adım adım rehber</div>
+    <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-nasil">🐱</div>
+      <div class="header-profil-name" id="hp-name-nasil">Profil</div>
+    </div>
     </div>
   </div>
   <div class="info-scroll">
@@ -1049,10 +1088,14 @@ body::before{
 <!-- HAKKIMIZDA EKRANI -->
 <div class="screen" id="screen-hakkinda">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Hakkımızda</div>
       <div class="screen-header-sub">Ataberk Hoca</div>
+    <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-hakkinda">🐱</div>
+      <div class="header-profil-name" id="hp-name-hakkinda">Profil</div>
+    </div>
     </div>
   </div>
   <div class="info-scroll">
@@ -1081,10 +1124,14 @@ body::before{
 <!-- ETKİNLİK SEÇİMİ EKRANI -->
 <div class="screen" id="screen-etkinlik">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-theme')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-theme')">Konular</button>
     <div>
       <div class="screen-header-title">Etkinlik Seçimi</div>
       <div class="screen-header-sub">Ne çalışmak istersin?</div>
+    <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-etkinlik">🐱</div>
+      <div class="header-profil-name" id="hp-name-etkinlik">Profil</div>
+    </div>
     </div>
   </div>
   <div class="etkinlik-list">
@@ -1130,10 +1177,14 @@ body::before{
 <!-- SINIF SEÇİMİ EKRANI -->
 <div class="screen" id="screen-sinif">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Sınıf Seçimi</div>
       <div class="screen-header-sub">Hangi sınıftasın?</div>
+    <div class="header-profil" id="hp-sinif" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-sinif">🐱</div>
+      <div class="header-profil-name" id="hp-name-sinif">Profil</div>
+    </div>
     </div>
   </div>
 
@@ -1167,10 +1218,14 @@ body::before{
 <!-- THEME SEÇİMİ EKRANI -->
 <div class="screen" id="screen-theme">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-sinif')">←</button>
+    <button class="back-btn" onclick="showScreen('screen-sinif')">Sınıf</button>
     <div>
       <div class="screen-header-title">Konu Seçimi</div>
       <div class="screen-header-sub">Hangi konuyu çalışmak istersin?</div>
+    <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-theme">🐱</div>
+      <div class="header-profil-name" id="hp-name-theme">Profil</div>
+    </div>
     </div>
   </div>
 
@@ -1461,18 +1516,15 @@ function showResult(){
 }
 function retrySkill(){document.getElementById('result-overlay').classList.remove('visible');qIdx=0;score=0;locked=false;attempts=0;document.getElementById('score-chip').textContent='⭐ 0';renderStory();renderQ();}
 function nextSkill(){
-  // Sıradaki beceriye geç (scan→skim→int→inf→scan)
   const order=['scan','skim','int','inf'];
   const nextIdx=(order.indexOf(cur)+1)%order.length;
   const nextSk=order[nextIdx];
   document.getElementById('result-overlay').classList.remove('visible');
-  const btn=document.querySelector(`.sw[onclick*="'${nextSk}'"]`);
-  if(btn)sw(btn,nextSk);
+  startSkill(nextSk);
 }
 function goToSkillsMenu(){
-  // V1 tek ekran olduğu için skill-select ekranı yok — switcher'a scroll yap, overlay'i kapat
   document.getElementById('result-overlay').classList.remove('visible');
-  document.querySelector('.switcher').scrollIntoView({behavior:'smooth',block:'start'});
+  showScreen('screen-etkinlik');
 }
 function confetti(){
   const wrap=document.getElementById('confetti-wrap');wrap.innerHTML='';
@@ -1647,11 +1699,24 @@ function loadProfil() {
 }
 
 function updateIntroProfilBadge(profil) {
+  // Giriş ekranı rozeti
   const wrap = document.getElementById('intro-profil-wrap');
-  if (!profil) { wrap.style.display = 'none'; return; }
-  wrap.style.display = 'flex';
-  document.getElementById('intro-av').textContent   = profil.avatar;
-  document.getElementById('intro-name').textContent = profil.name;
+  if (wrap) {
+    if (!profil) { wrap.style.display = 'none'; }
+    else {
+      wrap.style.display = 'flex';
+      document.getElementById('intro-av').textContent   = profil.avatar;
+      document.getElementById('intro-name').textContent = profil.name;
+    }
+  }
+  // Header rozetleri
+  const ids = ['sinif','theme','etkinlik','nasil','hakkinda','stats'];
+  ids.forEach(sid => {
+    const avEl   = document.getElementById('hp-av-'   + sid);
+    const nameEl = document.getElementById('hp-name-' + sid);
+    if (avEl && profil)   avEl.textContent   = profil.avatar;
+    if (nameEl && profil) nameEl.textContent = profil.name;
+  });
 }
 
 // handleStart — profil yoksa profil ekranına, varsa sınıf seçimine
