@@ -1001,19 +1001,31 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   </div>
   <div class="profil-form">
     <div>
-      <div class="profil-section-title">Avatarını seç</div>
-      <div class="avatar-grid">
-        <div class="avatar-opt selected" data-av="🐱" onclick="selectAvatar(this)">🐱</div>
-        <div class="avatar-opt" data-av="🐶" onclick="selectAvatar(this)">🐶</div>
-        <div class="avatar-opt" data-av="🦊" onclick="selectAvatar(this)">🦊</div>
-        <div class="avatar-opt" data-av="🐸" onclick="selectAvatar(this)">🐸</div>
-        <div class="avatar-opt" data-av="🦁" onclick="selectAvatar(this)">🦁</div>
+      <div class="profil-section-title" id="avatar-label">Avatarını seç</div>
+      <div class="avatar-grid" role="radiogroup" aria-labelledby="avatar-label">
+        <div class="avatar-opt selected" data-av="🐱" onclick="selectAvatar(this)"
+             role="radio" aria-checked="true" tabindex="0"
+             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐱</div>
+        <div class="avatar-opt" data-av="🐶" onclick="selectAvatar(this)"
+             role="radio" aria-checked="false" tabindex="-1"
+             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐶</div>
+        <div class="avatar-opt" data-av="🦊" onclick="selectAvatar(this)"
+             role="radio" aria-checked="false" tabindex="-1"
+             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🦊</div>
+        <div class="avatar-opt" data-av="🐸" onclick="selectAvatar(this)"
+             role="radio" aria-checked="false" tabindex="-1"
+             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐸</div>
+        <div class="avatar-opt" data-av="🦁" onclick="selectAvatar(this)"
+             role="radio" aria-checked="false" tabindex="-1"
+             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🦁</div>
       </div>
     </div>
     <div>
-      <div class="profil-section-title">Adın ne?</div>
+      <label class="profil-section-title" for="profil-input">Adın ne?</label>
       <div class="profil-input-wrap">
-        <input class="profil-input" id="profil-input" type="text" placeholder="Adını yaz..." maxlength="20" />
+        <input class="profil-input" id="profil-input" type="text"
+               placeholder="Adını yaz..." maxlength="20"
+               autocomplete="given-name" autocapitalize="words" />
       </div>
     </div>
     <button class="profil-save-btn" onclick="saveProfil()">✅ Hazır!</button>
@@ -1671,8 +1683,15 @@ function generateFeedback(skill, score, total, missedQuestions) {
 let selectedAvatar = '🐱';
 
 function selectAvatar(el) {
-  document.querySelectorAll('.avatar-opt').forEach(a => a.classList.remove('selected'));
+  document.querySelectorAll('.avatar-opt').forEach(a => {
+    a.classList.remove('selected');
+    a.setAttribute('aria-checked', 'false');
+    a.setAttribute('tabindex', '-1');
+  });
   el.classList.add('selected');
+  el.setAttribute('aria-checked', 'true');
+  el.setAttribute('tabindex', '0');
+  el.focus();
   selectedAvatar = el.dataset.av;
 }
 
