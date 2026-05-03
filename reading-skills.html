@@ -1482,9 +1482,15 @@ setVars('scan');renderStory();renderQ();
 function startSkill(sk) {
   const titles = {scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli Okuma', inf:'Çıkarım'};
   document.getElementById('game-topbar-title').textContent = titles[sk] || sk;
+  // Switcher kaldırıldı — doğrudan sw() mantığını çalıştır
+  clearTimeout(hlTimer); clearInterval(timerInt);
+  cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = [];
+  setVars(sk);
+  document.getElementById('skill-label').textContent = CFG[sk].label;
+  document.getElementById('score-chip').textContent = '⭐ 0';
   showScreen('screen-game');
-  const btn = document.querySelector(`.sw[onclick*="'${sk}'"]`);
-  if (btn) sw(btn, sk);
+  renderStory();
+  renderQ();
 }
 
 
