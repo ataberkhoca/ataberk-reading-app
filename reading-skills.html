@@ -1372,7 +1372,7 @@ button.celeb-retry {
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')showScreen('screen-theme')">
+    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScreen('screen-theme');}">
       <div class="sinif-left">
         <div class="sinif-num">2. Sınıf</div>
         <div class="sinif-sub">Primary 2</div>
@@ -1413,7 +1413,7 @@ button.celeb-retry {
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')selectTopic('school-life')">
+    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();selectTopic('school-life');}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
         <div class="theme-info">
@@ -1424,7 +1424,7 @@ button.celeb-retry {
       <div class="theme-badge">Başla →</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')showYakindaToast()">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">📚</div>
         <div class="theme-info">
@@ -1435,7 +1435,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')showYakindaToast()">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">😊</div>
         <div class="theme-info">
@@ -1446,7 +1446,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')showYakindaToast()">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">👨‍👩‍👧</div>
         <div class="theme-info">
@@ -1457,7 +1457,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')showYakindaToast()">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">🏠</div>
         <div class="theme-info">
@@ -1468,7 +1468,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')showYakindaToast()">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">🌆</div>
         <div class="theme-info">
@@ -2164,10 +2164,31 @@ function showYakindaToast() {
   _yakindaTimer = setTimeout(() => t.classList.remove('show'), 2000);
 }
 
+
+// ════════════════════════════════════════
+//  KEYBOARD HELPER
+// ════════════════════════════════════════
+function makeKeyboardClickable(el) {
+  if (!el) return;
+  el.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      el.click();
+    }
+  });
+}
+
+// Tüm role="button" elementlerine uygula — DOM hazır olunca
+function initKeyboardNav() {
+  document.querySelectorAll('[role="button"]').forEach(makeKeyboardClickable);
+  document.querySelectorAll('[role="radio"]').forEach(makeKeyboardClickable);
+}
+
 // Başlangıç
 const _profilInit = loadProfil();
 updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
+initKeyboardNav();
 </script>
 
 <div class="yakinda-toast" id="yakinda-toast">🚀 Yakında geliyor!</div>
