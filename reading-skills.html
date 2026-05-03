@@ -1243,7 +1243,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="showScreen('screen-etkinlik')">
+    <div class="theme-card aktif" onclick="selectTopic('school-life')">
       <div class="theme-left">
         <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
         <div class="theme-info">
@@ -1340,6 +1340,9 @@ const TITLES = {
   int:  'Dikkatli Okuma',
   inf:  'Çıkarım',
 };
+
+// Aktif tema — theme seçiminde güncellenir
+let currentTopic = 'school-life';
 
 const DATA={
   scan:{hlMode:'always',hintMode:'always',choices:3,cast:[{e:'👧',n:'Ruby'},{e:'👩‍🏫',n:'Mrs Hopkins'},{e:'👦',n:'Bobby'}],sentences:["Hi! My name is Ruby.","I am a pupil.","Mrs Hopkins is my teacher.","She is in the classroom.","Bobby is my friend.","He is a boy.","Bobby is in the garden.","The garden is big.","My school is nice.","I am happy at school."],translations:["Selam! Benim adım Ruby.","Ben bir öğrenciyim.","Mrs Hopkins benim öğretmenim.","O sınıfta.","Bobby benim arkadaşım.","O bir erkek.","Bobby bahçede.","Bahçe büyük.","Okulum güzel.","Okulda mutluyum."],questions:[{q:"Where is Bobby?",correct:"in the garden",wrong:["in the classroom","in the library"],hint:"Bobby nerede?",hl:[6]},{q:"Who is Mrs Hopkins?",correct:"a teacher",wrong:["a pupil","a friend"],hint:"Mrs Hopkins kim?",hl:[2]},{q:"Who is Ruby?",correct:"a pupil",wrong:["a teacher","a headmistress"],hint:"Ruby kim?",hl:[1]},{q:"Is the garden big?",correct:"Yes, it is!",wrong:["No, it isn't.","The text doesn't say."],hint:"Bahçe cümlesi",hl:[7]}]},
@@ -1456,7 +1459,7 @@ function renderQ(){
   const letters=['A','B','C','D'];
   document.getElementById('choices').innerHTML=pool.map((c,i)=>`<button class="choice" data-correct="${c===q.correct?'1':'0'}" onclick="pick(this)" style="animation:choiceSlideUp .35s ${i*.1}s cubic-bezier(.4,0,.2,1) backwards"><span class="choice-letter">${letters[i]}</span>${c}</button>`).join('');
   applyHL(q.hl);
-  if(d.timer&&qIdx===0){let left=d.timer;timerInt=setInterval(()=>{left--;if(left<=0)clearInterval(timerInt);},1000);}
+  if(d.timer){let left=d.timer;timerInt=setInterval(()=>{left--;if(left<=0)clearInterval(timerInt);},1000);}
 }
 function showHint(t){document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
 let missedQuestions = [];
@@ -1544,6 +1547,11 @@ function confetti(){
 function shuffle(a){const r=[...a];for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]];}return r;}
 
 setVars('scan');renderStory();renderQ();
+
+function selectTopic(topicKey) {
+  currentTopic = topicKey;
+  showScreen('screen-etkinlik');
+}
 
 function startSkill(sk) {
   const titles = {scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli Okuma', inf:'Çıkarım'};
@@ -1893,7 +1901,7 @@ function handleBadgeClick() {
 // Etkinlik bitince otomatik kaydet — showResult'u wrap et
 const _origShowResult = showResult;
 showResult = function() {
-  const topic = 'school-life';
+  const topic = currentTopic;
   const total = DATA[cur].questions.length;
   const pct = score / total;
   const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
