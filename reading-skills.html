@@ -58,9 +58,9 @@ body::before{
 .cast-pill:nth-child(5){animation-delay:.48s;}
 @keyframes pillPop{from{opacity:0;transform:scale(.7) rotate(-8deg)}to{opacity:1;transform:scale(1) rotate(0)}}
 .story-body{padding:14px 16px 18px;font-size:15.5px;font-weight:700;color:#1A1A1A;line-height:2;}
-.s{display:inline-block;padding:2px 4px;border-radius:6px;cursor:pointer;transition:background .15s,transform .15s;}
-.s:hover{background:rgba(0,0,0,.05);transform:rotate(-1deg);}
-.s.sys-hl{background:#FFD93D;box-shadow:0 0 0 3px #1A1A1A;transform:rotate(-1.5deg) scale(1.04);animation:sHL .25s ease;}
+.s{display:inline;padding:2px 4px;border-radius:6px;cursor:pointer;transition:background .15s;}
+.s:hover{background:rgba(0,0,0,.07);}
+.s.sys-hl{background:#FFD93D;box-shadow:0 0 0 3px #1A1A1A;animation:sHL .25s ease;}
 .s.user-hl{background:#BDE0FE;box-shadow:0 0 0 3px #1E40AF;transform:rotate(-1deg) scale(1.03);animation:sHL .25s ease;}
 @keyframes sHL{0%{transform:rotate(-1.5deg) scale(.9)}60%{transform:rotate(2deg) scale(1.09)}100%{transform:rotate(-1.5deg) scale(1.04)}}
 
@@ -1044,7 +1044,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="header-profil-av" id="hp-av-stats">🐱</div>
       <div class="header-profil-name" id="hp-name-stats">Profil</div>
     </div>
-    </div>
   </div>
   <div class="stats-scroll" id="stats-scroll">
     <!-- JS tarafından doldurulur -->
@@ -1062,7 +1061,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
     <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-nasil">🐱</div>
       <div class="header-profil-name" id="hp-name-nasil">Profil</div>
-    </div>
     </div>
   </div>
   <div class="info-scroll">
@@ -1106,7 +1104,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="header-profil-av" id="hp-av-hakkinda">🐱</div>
       <div class="header-profil-name" id="hp-name-hakkinda">Profil</div>
     </div>
-    </div>
   </div>
   <div class="info-scroll">
     <div class="hakkinda-hero">
@@ -1142,7 +1139,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
     <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-etkinlik">🐱</div>
       <div class="header-profil-name" id="hp-name-etkinlik">Profil</div>
-    </div>
     </div>
   </div>
   <div class="etkinlik-list">
@@ -1197,7 +1193,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
       <div class="header-profil-av" id="hp-av-sinif">🐱</div>
       <div class="header-profil-name" id="hp-name-sinif">Profil</div>
     </div>
-    </div>
   </div>
 
   <div class="sinif-list">
@@ -1238,7 +1233,6 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
     <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()">
       <div class="header-profil-av" id="hp-av-theme">🐱</div>
       <div class="header-profil-name" id="hp-name-theme">Profil</div>
-    </div>
     </div>
   </div>
 
@@ -1321,10 +1315,7 @@ function showScreen(id) {
   document.getElementById(id).classList.add('active');
 }
 
-function handleStart() {
-  // Profil kontrolü ileride buraya gelecek
-  showScreen('screen-sinif');
-}
+// handleStart — profil sistemi JS bloğunda tanımlı
 
 
 const CFG={
