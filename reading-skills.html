@@ -30,19 +30,7 @@ body::before{
 
 .app{width:100%;max-width:430px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;position:relative;z-index:1;}
 
-/* SWITCHER */
-.switcher{display:flex;gap:8px;padding:16px 16px 0;flex-shrink:0;}
-.sw{
-  flex:1;padding:10px 4px 9px;border-radius:16px;
-  font-family:'Fredoka One',cursive;font-size:12px;letter-spacing:.02em;
-  cursor:pointer;border:3px solid #1A1A1A;background:#fff;color:#1A1A1A;
-  box-shadow:3px 3px 0 #1A1A1A;transition:all .15s ease;
-  display:flex;flex-direction:column;align-items:center;gap:3px;
-}
-.sw .sw-icon{font-size:16px;line-height:1;}
-.sw:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #1A1A1A;}
-.sw:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1A1A1A;}
-.sw.active{background:var(--ac);color:#fff;transform:translate(-2px,-2px);box-shadow:5px 5px 0 #1A1A1A;}
+
 
 /* PROGRESS */
 .progress-wrap{padding:14px 16px 0;flex-shrink:0;}
@@ -1352,16 +1340,7 @@ function setVars(k){
   r.style.setProperty('--ac-mid',c.mid);
   r.style.setProperty('--ac-lt',c.lt);
 }
-function sw(btn,sk){
-  clearTimeout(hlTimer);clearInterval(timerInt);
-  cur=sk;qIdx=0;score=0;locked=false;attempts=0;
-  document.querySelectorAll('.sw').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  setVars(sk);
-  document.getElementById('skill-label').textContent=CFG[sk].label;
-  document.getElementById('score-chip').textContent='⭐ 0';
-  renderStory();renderQ();
-}
+
 function renderStory(){
   const d=DATA[cur];
   document.getElementById('cast-panel').innerHTML=d.cast.map(c=>`<div class="cast-pill">${c.e} ${c.n}</div>`).join('');
