@@ -898,6 +898,7 @@ body::before{
   <div class="result-score"><em id="res-num">3</em> / <span id="res-tot">4</span></div>
   <div class="result-stars" id="res-stars">⭐⭐⭐</div>
   <div class="result-msg" id="res-msg">Great reading!</div>
+  <div id="res-feedback" style="font-size:13px;font-weight:700;color:rgba(255,255,255,.9);max-width:280px;line-height:1.55;background:rgba(0,0,0,.12);border-radius:14px;padding:12px 16px;text-align:left;margin-top:4px;"></div>
   <div class="result-actions">
     <button class="r-btn r-btn-primary" onclick="retrySkill()">↻ Tekrar Dene</button>
     <button class="r-btn r-btn-secondary" onclick="nextSkill()">→ Sonraki Beceri</button>
@@ -1378,6 +1379,7 @@ function restoreHL(idx){clearHL();(idx||[]).forEach(i=>{const el=document.queryS
 function renderQ(){
   clearTimeout(hlTimer);clearInterval(timerInt);
   locked=false;attempts=0;
+  if(qIdx===0) missedQuestions=[];
   const d=DATA[cur];const q=d.questions[qIdx];const tot=d.questions.length;
   document.getElementById('story-body').style.opacity='1';
   document.getElementById('q-label').textContent=`${TITLES[cur]} — S${qIdx+1}`;
@@ -1394,6 +1396,8 @@ function renderQ(){
   if(d.timer&&qIdx===0){let left=d.timer;timerInt=setInterval(()=>{left--;if(left<=0)clearInterval(timerInt);},1000);}
 }
 function showHint(t){document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
+let missedQuestions = [];
+
 function pick(btn){
   if(locked)return;
   const q=DATA[cur].questions[qIdx];
@@ -1409,7 +1413,9 @@ function pick(btn){
     attempts++;btn.classList.add('wrong');btn.disabled=true;
     setTimeout(()=>{btn.classList.remove('wrong');if(attempts<2){document.querySelectorAll('.choice:not(.correct)').forEach(b=>b.disabled=false);btn.disabled=true;}},420);
     if(attempts>=2){
-      locked=true;restoreHL(q.hl);
+      locked=true;
+      if(!missedQuestions.includes(q)) missedQuestions.push(q);
+      restoreHL(q.hl);
       setTimeout(()=>{
         document.querySelectorAll('.choice').forEach(b=>{b.disabled=true;if(b.dataset.correct==='1')b.classList.add('reveal');});
         const isLast=qIdx+1>=DATA[cur].questions.length;
@@ -1436,6 +1442,10 @@ function showResult(){
   document.getElementById('res-tot').textContent=tot;
   document.getElementById('res-stars').textContent=stars;
   document.getElementById('res-msg').textContent=msg;
+  // Feedback
+  const fbText = generateFeedback(cur, score, tot, missedQuestions);
+  const fbEl = document.getElementById('res-feedback');
+  if(fbEl) fbEl.textContent = fbText;
   document.getElementById('result-overlay').classList.add('visible');
   if(pct>=.67)confetti();
 }
@@ -1477,6 +1487,118 @@ function startSkill(sk) {
   if (btn) sw(btn, sk);
 }
 
+
+
+// ════════════════════════════════════════
+//  FEEDBACK SİSTEMİ
+// ════════════════════════════════════════
+
+// Soru kategorisi belirle
+function getQuestionCategory(q) {
+  const text = q.q.toLowerCase();
+  if (text.startsWith('where'))              return 'where';
+  if (text.startsWith('who'))                return 'who';
+  if (text.startsWith('what is this mainly')) return 'main-idea';
+  if (text.startsWith('is ') || text.startsWith('are ') || text.startsWith('has ')) return 'yes-no';
+  if (text.startsWith('how'))                return 'how';
+  return 'general';
+}
+
+// Etkinlik bazında feedback şablonları
+const FEEDBACK_TEMPLATES = {
+  scan: {
+    perfect: [
+      "Harika! Metinde aradığın bilgiyi çok hızlı buldun. Tarama becerin çok güçlü! 🎯",
+      "Mükemmel! Tüm soruları doğru cevapladın. Metni baştan sona okumadan doğru yerlere baktın! 🔍",
+    ],
+    good: [
+      "Çok iyi gidiyorsun! Küçük bir ipucu: Tarama yaparken önce soruyu oku, sonra o kelimeyi metinde ara.",
+      "Güzel iş! Kaçırdığın sorularda metindeki anahtar kelimeleri bulmaya çalış.",
+    ],
+    where_miss: "Yer sorularında dikkat et! 'in', 'at', 'on' gibi kelimelerin yanındaki yerlere bak.",
+    who_miss:   "Kim sorularında karakterlerin rollerini bul — öğretmen mi, öğrenci mi, müdür mü?",
+    yesno_miss: "Evet/Hayır sorularında cevabı doğrudan metinde ara. Sarı cümle sana ipucu verir!",
+    general:    "Metni tekrar oku ve her cümlenin ne söylediğine dikkat et.",
+  },
+  skim: {
+    perfect: [
+      "Süper! Metni hızlıca okuyup ana konuyu çok iyi yakaladın! ⚡",
+      "Harika! Hızlı okuma becerin gerçekten çok iyi. Her kelimeyi okumadan ana fikri buldun!",
+    ],
+    good: [
+      "İyi gidiyorsun! Hızlı okumada ilk ve son cümlelere özellikle dikkat et — genellikle ana fikir orada olur.",
+      "Güzel! Bir sonraki seferde başlıklara ve ilk cümlelere hızlıca göz at.",
+    ],
+    mainidea_miss: "Ana fikir sorularında metnin tamamına bak — tek bir cümle değil, genel konu nedir?",
+    general:       "Hızlı okumada tüm metni okumak zorunda değilsin — sadece önemli yerlere odaklan.",
+  },
+  int: {
+    perfect: [
+      "Mükemmel! Metni çok dikkatli okudun ve hiçbir detayı kaçırmadın! 🔬",
+      "Harika! Dikkatli okuma becerin çok güçlü. Her cümleyi anlayarak okudun!",
+    ],
+    good: [
+      "Çok iyi! Dikkatli okumada her cümleyi anlamaya çalış — bazen cevap tek bir kelimede saklı olabilir.",
+      "Güzel iş! Kaçırdığın sorularda sarı vurgulu cümleleri tekrar oku.",
+    ],
+    where_miss: "Yer sorularında 'in the...', 'at the...' ifadelerine dikkat et.",
+    who_miss:   "Dikkatli oku — her karakter farklı bir role sahip. Onları birbirine karıştırmamaya çalış.",
+    general:    "Her cümleyi dikkatlice oku. Bazen cevap çok kısa ve net bir cümlede saklıdır.",
+  },
+  inf: {
+    perfect: [
+      "Olağanüstü! Metinde yazılmayanları düşünerek harika çıkarımlar yaptın! 🧩",
+      "Süper! Çıkarım yapmak çok zor bir beceri ama sen çok iyi başardın!",
+    ],
+    good: [
+      "Çıkarım yapmak zor ama sen iyi deniyorsun! İpucu: Metinde yazılmayanı bulmak için yazılanları birleştir.",
+      "Güzel deneme! Çıkarım sorularında 'metinde ne yazıyor?' ve 'bu ne anlama gelir?' diye sor kendine.",
+    ],
+    general: "Çıkarım sorularında metinde doğrudan cevap aramak yerine ipuçlarını birleştirmeye çalış.",
+  },
+};
+
+// Yanlış soruların kategorilerini analiz et
+function analyzeMissedQuestions(missedQuestions, skill) {
+  if (!missedQuestions.length) return null;
+
+  const templates = FEEDBACK_TEMPLATES[skill] || FEEDBACK_TEMPLATES.scan;
+  const categories = missedQuestions.map(q => getQuestionCategory(q));
+
+  // En çok yanlış yapılan kategori
+  const catCount = {};
+  categories.forEach(c => { catCount[c] = (catCount[c]||0) + 1; });
+  const topCat = Object.entries(catCount).sort((a,b)=>b[1]-a[1])[0][0];
+
+  // Kategori bazlı özel mesaj
+  if (topCat === 'where' && templates.where_miss) return templates.where_miss;
+  if (topCat === 'who'   && templates.who_miss)   return templates.who_miss;
+  if (topCat === 'yes-no' && templates.yesno_miss) return templates.yesno_miss;
+  if (topCat === 'main-idea' && templates.mainidea_miss) return templates.mainidea_miss;
+  return templates.general;
+}
+
+function generateFeedback(skill, score, total, missedQuestions) {
+  const templates = FEEDBACK_TEMPLATES[skill] || FEEDBACK_TEMPLATES.scan;
+  const pct = score / total;
+
+  if (pct === 1) {
+    // Mükemmel — rastgele bir perfect mesaj
+    const msgs = templates.perfect;
+    return msgs[Math.floor(Math.random() * msgs.length)];
+  }
+
+  if (pct >= 0.67) {
+    // İyi — genel iyi mesaj + kategori analizi
+    const base = templates.good[Math.floor(Math.random() * templates.good.length)];
+    const specific = analyzeMissedQuestions(missedQuestions, skill);
+    return specific ? base + ' ' + specific : base;
+  }
+
+  // Zayıf — kategori bazlı yönlendirme
+  const specific = analyzeMissedQuestions(missedQuestions, skill);
+  return specific || templates.general;
+}
 
 // ════════════════════════════════════════
 //  PROFİL SİSTEMİ
