@@ -1500,7 +1500,7 @@ function showResult(){
   if(pct===1){emoji='🏆';title='Mükemmel!';stars='⭐⭐⭐';msg='Harika! Tüm soruları doğru cevapladın!';}
   else if(pct>=.67){emoji='🎉';title='Harika!';stars='⭐⭐⭐';msg='Güzel okudun — mükemmel için tekrar dene!';}
   else if(pct>=.4){emoji='😊';title='İyi Deneme!';stars='⭐⭐';msg='Metni bir daha oku ve tekrar dene.';}
-  else{emoji='💪';title='Devam Et!';stars='⭐';msg='Pratik yaparsan başarırsın!';}
+  else{emoji='💪';title='Tekrar Dene!';stars='';msg='Pratik yaparsan başarırsın!';}
   document.getElementById('res-emoji').textContent=emoji;
   document.getElementById('res-title').textContent=title;
   document.getElementById('res-num').textContent=score;
@@ -1651,21 +1651,26 @@ function generateFeedback(skill, score, total, missedQuestions) {
   const pct = score / total;
 
   if (pct === 1) {
-    // Mükemmel — rastgele bir perfect mesaj
+    // 3 yıldız — mükemmel
     const msgs = templates.perfect;
     return msgs[Math.floor(Math.random() * msgs.length)];
   }
 
   if (pct >= 0.67) {
-    // İyi — genel iyi mesaj + kategori analizi
+    // 2 yıldız — iyi ama mükemmel değil
     const base = templates.good[Math.floor(Math.random() * templates.good.length)];
     const specific = analyzeMissedQuestions(missedQuestions, skill);
     return specific ? base + ' ' + specific : base;
   }
 
-  // Zayıf — kategori bazlı yönlendirme
-  const specific = analyzeMissedQuestions(missedQuestions, skill);
-  return specific || templates.general;
+  if (pct >= 0.4) {
+    // 1 yıldız — kategori bazlı yönlendirme
+    const specific = analyzeMissedQuestions(missedQuestions, skill);
+    return specific || templates.general;
+  }
+
+  // 0 yıldız — teşvik edici
+  return templates.general + ' Tekrar denemekten çekinme, her seferinde daha iyi olacaksın! 💪';
 }
 
 // ════════════════════════════════════════
@@ -1880,7 +1885,7 @@ showResult = function() {
   const topic = 'school-life';
   const total = DATA[cur].questions.length;
   const pct = score / total;
-  const stars = pct === 1 ? 3 : pct >= .67 ? 3 : pct >= .4 ? 2 : 1;
+  const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
   saveActivityStats(topic, cur, score, total, stars);
   _origShowResult();
 };
