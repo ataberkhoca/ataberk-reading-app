@@ -35,7 +35,9 @@ body::before{
 /* PROGRESS */
 .progress-wrap{padding:14px 16px 0;flex-shrink:0;}
 .progress-meta{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
-.skill-label{font-family:'Fredoka One',cursive;font-size:28px;color:var(--ac);text-shadow:3px 3px 0 #1A1A1A;transition:color .3s;}
+.skill-label{display:flex;flex-direction:column;line-height:1;}
+#skill-tr{font-family:'Fredoka One',cursive;font-size:28px;color:var(--ac);text-shadow:3px 3px 0 #1A1A1A;transition:color .3s;}
+#skill-en{font-family:'Fredoka One',cursive;font-size:13px;color:rgba(0,0,0,.35);letter-spacing:.04em;}
 .score-chip{font-family:'Fredoka One',cursive;font-size:15px;background:#FFD93D;color:#1A1A1A;padding:5px 14px;border-radius:99px;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;}
 .progress-track{height:14px;background:#fff;border-radius:99px;border:2.5px solid #1A1A1A;overflow:hidden;box-shadow:2px 2px 0 #1A1A1A;}
 .progress-fill{height:100%;background:var(--ac);border-radius:99px;transition:width .3s cubic-bezier(.4,0,.2,1),background .3s;position:relative;}
@@ -1074,7 +1076,7 @@ button.celeb-retry, button.intro-profil-edit {
   </div>
   <div class="progress-wrap">
     <div class="progress-meta">
-      <div class="skill-label" id="skill-label">Scanning</div>
+      <div class="skill-label" id="skill-label"><span id="skill-tr">Tarama</span><span id="skill-en">Scanning</span></div>
       <div class="score-chip" id="score-chip">⭐ 0</div>
     </div>
     <div class="progress-track"><div class="progress-fill" id="prog" style="width:0%"></div></div>
@@ -1728,7 +1730,8 @@ function startSkill(sk) {
   clearTimeout(hlTimer); clearInterval(timerInt);
   cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = [];
   setVars(sk);
-  document.getElementById('skill-label').textContent = CFG[sk].label;
+  document.getElementById('skill-tr').textContent = TITLES[sk] || CFG[sk].label;
+  document.getElementById('skill-en').textContent = CFG[sk].label;
   document.getElementById('score-chip').textContent = '⭐ 0';
   showScreen('screen-game');
   renderStory();
