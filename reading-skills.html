@@ -542,6 +542,98 @@ body::before{
   font-size: 12px; font-weight: 700; color: #AAA;
 }
 
+
+/* ── GİRİŞ EKRANI LİNKLER ── */
+.intro-link-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+.intro-link-pill {
+  font-family: 'Fredoka One', cursive;
+  font-size: 12px;
+  padding: 7px 14px;
+  border-radius: 99px;
+  border: 2.5px solid #1A1A1A;
+  background: #fff;
+  color: #1A1A1A;
+  box-shadow: 2px 2px 0 #1A1A1A;
+  cursor: pointer;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.intro-link-pill:hover  { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 #1A1A1A; }
+.intro-link-pill:active { transform: translate(1px,1px);  box-shadow: 1px 1px 0 #1A1A1A; }
+
+
+/* ══════════════════════════════
+   NASIL KULLANILIR & HAKKIMIZDA
+══════════════════════════════ */
+#screen-nasil, #screen-hakkinda {
+  flex-direction: column;
+  padding: 0 0 40px;
+}
+
+.info-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.info-scroll::-webkit-scrollbar { display: none; }
+
+.info-card {
+  background: #fff;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 16px 18px;
+  box-shadow: 4px 4px 0 #1A1A1A;
+  animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
+}
+.info-card:nth-child(1){animation-delay:.05s;}
+.info-card:nth-child(2){animation-delay:.10s;}
+.info-card:nth-child(3){animation-delay:.15s;}
+.info-card:nth-child(4){animation-delay:.20s;}
+.info-card:nth-child(5){animation-delay:.25s;}
+
+.info-card-icon { font-size: 28px; margin-bottom: 8px; }
+.info-card-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 17px;
+  color: #1A1A1A;
+  margin-bottom: 5px;
+}
+.info-card-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+  line-height: 1.6;
+}
+
+.hakkinda-hero {
+  background: #FF6B6B;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 20px 18px;
+  box-shadow: 4px 4px 0 #1A1A1A;
+  text-align: center;
+  animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
+}
+.hakkinda-hero-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.hakkinda-hero-sub {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255,255,255,.8);
+}
+
 </style>
 </head>
 <body>
@@ -578,12 +670,6 @@ body::before{
       <div class="game-topbar-sub">School Life</div>
     </div>
   </div>
-  <div class="switcher">
-    <button class="sw active" onclick="sw(this,'scan')"><span class="sw-icon">🔍</span>Scan</button>
-    <button class="sw" onclick="sw(this,'skim')"><span class="sw-icon">⚡</span>Skim</button>
-    <button class="sw" onclick="sw(this,'int')"><span class="sw-icon">🔬</span>Read</button>
-    <button class="sw" onclick="sw(this,'inf')"><span class="sw-icon">🧩</span>Infer</button>
-  </div>
   <div class="progress-wrap">
     <div class="progress-meta">
       <div class="skill-label" id="skill-label">Scanning</div>
@@ -616,7 +702,81 @@ body::before{
   </div>
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
   <button class="intro-btn" onclick="handleStart()">🚀 Başla</button>
+  <div class="intro-link-row">
+    <div class="intro-link-pill" onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</div>
+    <div class="intro-link-pill" onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</div>
+  </div>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
+</div>
+
+<!-- NASIL KULLANILIR EKRANI -->
+<div class="screen" id="screen-nasil">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <div>
+      <div class="screen-header-title">Nasıl Kullanılır?</div>
+      <div class="screen-header-sub">Adım adım rehber</div>
+    </div>
+  </div>
+  <div class="info-scroll">
+    <div class="info-card">
+      <div class="info-card-icon">1️⃣</div>
+      <div class="info-card-title">Sınıfını seç</div>
+      <div class="info-card-text">Ana ekrandan "Başla" butonuna bas ve sınıfını seç. Şu an için 2. Sınıf içerikleri hazır.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">2️⃣</div>
+      <div class="info-card-title">Konuyu seç</div>
+      <div class="info-card-text">Çalışmak istediğin konuyu seç. Her konu farklı hikayeler ve sorular içerir.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">3️⃣</div>
+      <div class="info-card-title">Etkinliği seç</div>
+      <div class="info-card-text">Dört farklı okuma etkinliği var — Tarama, Hızlı Okuma, Dikkatli Okuma ve Çıkarım. Her biri farklı bir beceri geliştirir.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">4️⃣</div>
+      <div class="info-card-title">Soruları cevapla</div>
+      <div class="info-card-text">Metni oku ve soruları cevapla. İpucu butonuna basarak yardım alabilirsin. Her doğru cevap sana bir yıldız kazandırır!</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">💡</div>
+      <div class="info-card-title">İpucu</div>
+      <div class="info-card-text">Sarı ile vurgulanan cümleler sorunun cevabını bulmana yardımcı olur. Cümlelere tıklayarak Türkçe çevirisini görebilirsin.</div>
+    </div>
+  </div>
+</div>
+
+<!-- HAKKIMIZDA EKRANI -->
+<div class="screen" id="screen-hakkinda">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <div>
+      <div class="screen-header-title">Hakkımızda</div>
+      <div class="screen-header-sub">Ataberk Hoca</div>
+    </div>
+  </div>
+  <div class="info-scroll">
+    <div class="hakkinda-hero">
+      <div class="hakkinda-hero-title">📚 Ataberk Hoca</div>
+      <div class="hakkinda-hero-sub">Reading Skills</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">🎯</div>
+      <div class="info-card-title">Amacımız</div>
+      <div class="info-card-text">İngilizceyi eğlenceli ve etkili bir şekilde öğrenmek için tasarlandık. MEB müfredatına uygun içeriklerimizle öğrencilerin okuma becerilerini geliştiriyoruz.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">👨‍🏫</div>
+      <div class="info-card-title">Kim Yaptı?</div>
+      <div class="info-card-text">Bu uygulama Ataberk Hoca tarafından öğrencileri için tasarlanmış ve geliştirilmiştir.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">🚀</div>
+      <div class="info-card-title">Yeni Neler Geliyor?</div>
+      <div class="info-card-text">3. ve 4. sınıf içerikleri, yeni temalar ve daha fazla etkinlik yakında ekleniyor. Takipte kal!</div>
+    </div>
+  </div>
 </div>
 
 <!-- ETKİNLİK SEÇİMİ EKRANI -->
