@@ -651,7 +651,7 @@ body::before{
 
 <div class="result-overlay" id="result-overlay">
   <div class="result-emoji" id="res-emoji">🎉</div>
-  <div class="result-title" id="res-title">Well done!</div>
+  <div class="result-title" id="res-title">Harika!</div>
   <div class="result-score"><em id="res-num">3</em> / <span id="res-tot">4</span></div>
   <div class="result-stars" id="res-stars">⭐⭐⭐</div>
   <div class="result-msg" id="res-msg">Great reading!</div>
@@ -966,6 +966,14 @@ const CFG={
   int:{label:'Intensive',ac:'#7B2FBE',dark:'#4A1478',mid:'#BB8AE0',lt:'#F4EAFF'},
   inf:{label:'Inference',ac:'#F4A261',dark:'#8B4E0E',mid:'#F9C49A',lt:'#FFF4E8'},
 };
+
+const TITLES = {
+  scan: 'Tarama',
+  skim: 'Hızlı Okuma',
+  int:  'Dikkatli Okuma',
+  inf:  'Çıkarım',
+};
+
 const DATA={
   scan:{hlMode:'always',hintMode:'always',choices:3,cast:[{e:'👧',n:'Ruby'},{e:'👩‍🏫',n:'Mrs Hopkins'},{e:'👦',n:'Bobby'}],sentences:["Hi! My name is Ruby.","I am a pupil.","Mrs Hopkins is my teacher.","She is in the classroom.","Bobby is my friend.","He is a boy.","Bobby is in the garden.","The garden is big.","My school is nice.","I am happy at school."],translations:["Selam! Benim adım Ruby.","Ben bir öğrenciyim.","Mrs Hopkins benim öğretmenim.","O sınıfta.","Bobby benim arkadaşım.","O bir erkek.","Bobby bahçede.","Bahçe büyük.","Okulum güzel.","Okulda mutluyum."],questions:[{q:"Where is Bobby?",correct:"in the garden",wrong:["in the classroom","in the library"],hint:"Bobby nerede?",hl:[6]},{q:"Who is Mrs Hopkins?",correct:"a teacher",wrong:["a pupil","a friend"],hint:"Mrs Hopkins kim?",hl:[2]},{q:"Who is Ruby?",correct:"a pupil",wrong:["a teacher","a headmistress"],hint:"Ruby kim?",hl:[1]},{q:"Is the garden big?",correct:"Yes, it is!",wrong:["No, it isn't.","The text doesn't say."],hint:"Bahçe cümlesi",hl:[7]}]},
   skim:{hlMode:'fade10',hintMode:'tap',choices:3,timer:10,cast:[{e:'👨‍💼',n:'Mr Green'},{e:'👦',n:'Sam'},{e:'👧',n:'Lily'}],sentences:["My name is Mr Green.","I am the headmaster.","This is my school.","Sam is a pupil.","He is in the library.","Sam is a good kid.","Lily is a pupil too.","She is in the canteen.","The canteen is nice.","Sam and Lily are friends."],translations:["Benim adım Mr Green.","Ben okul müdürüyüm.","Bu benim okulum.","Sam bir öğrenci.","O kütüphanede.","Sam iyi bir çocuk.","Lily de bir öğrenci.","O yemekhanede.","Yemekhane güzel.","Sam ve Lily arkadaş."],questions:[{q:"What is this mainly about?",correct:"A school and its people",wrong:["A library","A canteen"],hint:"Genel konu ne?",hl:[0,2]},{q:"Who is Mr Green?",correct:"the headmaster",wrong:["a teacher","a pupil"],hint:"Mr Green kim?",hl:[1]},{q:"Are Sam and Lily friends?",correct:"Yes, they are!",wrong:["No, they aren't.","Maybe."],hint:"Son cümle",hl:[9]}]},
@@ -1078,9 +1086,9 @@ function renderQ(){
   locked=false;attempts=0;
   const d=DATA[cur];const q=d.questions[qIdx];const tot=d.questions.length;
   document.getElementById('story-body').style.opacity='1';
-  document.getElementById('q-label').textContent=`${CFG[cur].label} — Q${qIdx+1}`;
+  document.getElementById('q-label').textContent=`${TITLES[cur]} — S${qIdx+1}`;
   document.getElementById('q-text').textContent=q.q;
-  document.getElementById('q-num').textContent=`Q ${qIdx+1} / ${tot}`;
+  document.getElementById('q-num').textContent=`Soru ${qIdx+1} / ${tot}`;
   document.getElementById('prog').style.width=`${(qIdx/tot)*100}%`;
   const hz=document.getElementById('hint-zone');
   hz.innerHTML=d.hintMode==='always'?`<div class="hint-visible">💡 ${q.hint}</div>`:`<button class="hint-btn" onclick="showHint('${q.hint.replace(/'/g,"\\'")}')">💡 İpucu göster</button>`;
@@ -1102,7 +1110,7 @@ function pick(btn){
     locked=true;btn.classList.add('correct');score++;
     document.getElementById('score-chip').textContent=`⭐ ${score}`;
     const isLast=qIdx+1>=DATA[cur].questions.length;
-    document.getElementById('feedback-zone').innerHTML=`<div class="feedback correct"><div class="fb-title">✅ Correct!</div>Well done!</div><button class="next-btn" onclick="advQ()">${isLast?'See Results 🎉':'Next Question →'}</button>`;
+    document.getElementById('feedback-zone').innerHTML=`<div class="feedback correct"><div class="fb-title">✅ Doğru!</div>Harika!</div><button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
   } else {
     attempts++;btn.classList.add('wrong');btn.disabled=true;
     setTimeout(()=>{btn.classList.remove('wrong');if(attempts<2){document.querySelectorAll('.choice:not(.correct)').forEach(b=>b.disabled=false);btn.disabled=true;}},420);
@@ -1111,7 +1119,7 @@ function pick(btn){
       setTimeout(()=>{
         document.querySelectorAll('.choice').forEach(b=>{b.disabled=true;if(b.dataset.correct==='1')b.classList.add('reveal');});
         const isLast=qIdx+1>=DATA[cur].questions.length;
-        document.getElementById('feedback-zone').innerHTML=`<div class="feedback wrong"><div class="fb-title">❌ Not quite!</div>Check the highlighted sentence.</div><button class="next-btn" onclick="advQ()">${isLast?'See Results 🎉':'Next Question →'}</button>`;
+        document.getElementById('feedback-zone').innerHTML=`<div class="feedback wrong"><div class="fb-title">❌ Neredeyse!</div>Sarı ile işaretli cümleye bak.</div><button class="next-btn" onclick="advQ()">${isLast?'Sonuçları Gör 🎉':'Sonraki Soru →'}</button>`;
       },350);
     }
   }
@@ -1124,10 +1132,10 @@ function advQ(){
 function showResult(){
   const tot=DATA[cur].questions.length;const pct=score/tot;
   let emoji,title,stars,msg;
-  if(pct===1){emoji='🏆';title='Perfect!';stars='⭐⭐⭐';msg='Flawless! Every answer right!';}
-  else if(pct>=.67){emoji='🎉';title='Well done!';stars='⭐⭐⭐';msg='Great reading — try again for perfect!';}
-  else if(pct>=.4){emoji='😊';title='Good try!';stars='⭐⭐';msg='Read the story again and try once more.';}
-  else{emoji='💪';title='Keep going!';stars='⭐';msg='Practice makes perfect!';}
+  if(pct===1){emoji='🏆';title='Mükemmel!';stars='⭐⭐⭐';msg='Harika! Tüm soruları doğru cevapladın!';}
+  else if(pct>=.67){emoji='🎉';title='Harika!';stars='⭐⭐⭐';msg='Güzel okudun — mükemmel için tekrar dene!';}
+  else if(pct>=.4){emoji='😊';title='İyi Deneme!';stars='⭐⭐';msg='Metni bir daha oku ve tekrar dene.';}
+  else{emoji='💪';title='Devam Et!';stars='⭐';msg='Pratik yaparsan başarırsın!';}
   document.getElementById('res-emoji').textContent=emoji;
   document.getElementById('res-title').textContent=title;
   document.getElementById('res-num').textContent=score;
