@@ -634,6 +634,125 @@ body::before{
   color: rgba(255,255,255,.8);
 }
 
+
+/* ══════════════════════════════
+   PROFİL OLUŞTURMA EKRANI
+══════════════════════════════ */
+#screen-profil {
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 0 40px;
+}
+
+.profil-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 20px 0;
+}
+
+.profil-section-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.avatar-grid {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.avatar-opt {
+  width: 58px; height: 58px;
+  border-radius: 50%;
+  border: 3px solid #CCC;
+  background: #fff;
+  font-size: 28px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: all .15s;
+  box-shadow: 2px 2px 0 #CCC;
+  -webkit-tap-highlight-color: transparent;
+}
+.avatar-opt:hover { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 #AAA; border-color: #AAA; }
+.avatar-opt.selected {
+  border-color: #FF6B6B;
+  box-shadow: 3px 3px 0 #FF6B6B;
+  transform: scale(1.08);
+}
+
+.profil-input-wrap {
+  background: #fff;
+  border: 3px solid #1A1A1A;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0 #1A1A1A;
+  overflow: hidden;
+}
+.profil-input {
+  width: 100%;
+  padding: 16px 18px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1A1A1A;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.profil-input::placeholder { color: #BBB; }
+
+.profil-save-btn {
+  width: 100%;
+  background: #6BCB77;
+  color: #fff;
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 5px 5px 0 #1A1A1A;
+  cursor: pointer;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.profil-save-btn:hover  { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 #1A1A1A; }
+.profil-save-btn:active { transform: translate(2px,2px);  box-shadow: 3px 3px 0 #1A1A1A; }
+
+/* Giriş ekranı — profil rozeti */
+.intro-profil-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 280px;
+}
+.intro-profil-badge {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 2.5px solid #1A1A1A;
+  border-radius: 99px;
+  padding: 8px 14px;
+  box-shadow: 3px 3px 0 #1A1A1A;
+  cursor: pointer;
+  transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.intro-profil-badge:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #1A1A1A; }
+.intro-profil-badge:active { transform: translate(1px,1px); box-shadow: 2px 2px 0 #1A1A1A; }
+.intro-profil-avatar { font-size: 20px; line-height: 1; }
+.intro-profil-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 14px;
+  color: #1A1A1A;
+  flex: 1;
+}
+.intro-profil-edit { font-size: 12px; color: #AAA; }
+
 </style>
 </head>
 <body>
@@ -701,12 +820,49 @@ body::before{
     <div class="intro-title">Reading<br><span>Skills</span></div>
   </div>
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
+  <div id="intro-profil-wrap" style="display:none; width:100%; max-width:280px;">
+    <div class="intro-profil-badge" onclick="showScreen('screen-profil')">
+      <div class="intro-profil-avatar" id="intro-av">🐱</div>
+      <div class="intro-profil-name" id="intro-name">İsim</div>
+      <div class="intro-profil-edit">✏️</div>
+    </div>
+  </div>
   <button class="intro-btn" onclick="handleStart()">🚀 Başla</button>
   <div class="intro-link-row">
     <div class="intro-link-pill" onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</div>
     <div class="intro-link-pill" onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</div>
   </div>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
+</div>
+
+<!-- PROFİL OLUŞTURMA EKRANI -->
+<div class="screen" id="screen-profil">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-intro')">←</button>
+    <div>
+      <div class="screen-header-title">Profilini Oluştur</div>
+      <div class="screen-header-sub">Hadi tanışalım!</div>
+    </div>
+  </div>
+  <div class="profil-form">
+    <div>
+      <div class="profil-section-title">Avatarını seç</div>
+      <div class="avatar-grid">
+        <div class="avatar-opt selected" data-av="🐱" onclick="selectAvatar(this)">🐱</div>
+        <div class="avatar-opt" data-av="🐶" onclick="selectAvatar(this)">🐶</div>
+        <div class="avatar-opt" data-av="🦊" onclick="selectAvatar(this)">🦊</div>
+        <div class="avatar-opt" data-av="🐸" onclick="selectAvatar(this)">🐸</div>
+        <div class="avatar-opt" data-av="🦁" onclick="selectAvatar(this)">🦁</div>
+      </div>
+    </div>
+    <div>
+      <div class="profil-section-title">Adın ne?</div>
+      <div class="profil-input-wrap">
+        <input class="profil-input" id="profil-input" type="text" placeholder="Adını yaz..." maxlength="20" />
+      </div>
+    </div>
+    <button class="profil-save-btn" onclick="saveProfil()">✅ Hazır!</button>
+  </div>
 </div>
 
 <!-- NASIL KULLANILIR EKRANI -->
@@ -1183,7 +1339,74 @@ function startSkill(sk) {
   if (btn) sw(btn, sk);
 }
 
+
+// ════════════════════════════════════════
+//  PROFİL SİSTEMİ
+// ════════════════════════════════════════
+let selectedAvatar = '🐱';
+
+function selectAvatar(el) {
+  document.querySelectorAll('.avatar-opt').forEach(a => a.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedAvatar = el.dataset.av;
+}
+
+function saveProfil() {
+  const name = document.getElementById('profil-input').value.trim();
+  if (!name) {
+    document.getElementById('profil-input').placeholder = 'Lütfen adını yaz! 👇';
+    document.getElementById('profil-input').focus();
+    return;
+  }
+  const profil = { name, avatar: selectedAvatar };
+  localStorage.setItem('ataberk_profil', JSON.stringify(profil));
+  updateIntroProfilBadge(profil);
+  showScreen('screen-sinif');
+}
+
+function loadProfil() {
+  const raw = localStorage.getItem('ataberk_profil');
+  if (!raw) return null;
+  try { return JSON.parse(raw); } catch(e) { return null; }
+}
+
+function updateIntroProfilBadge(profil) {
+  const wrap = document.getElementById('intro-profil-wrap');
+  if (!profil) { wrap.style.display = 'none'; return; }
+  wrap.style.display = 'flex';
+  document.getElementById('intro-av').textContent   = profil.avatar;
+  document.getElementById('intro-name').textContent = profil.name;
+}
+
+// handleStart — profil yoksa profil ekranına, varsa sınıf seçimine
+function handleStart() {
+  const profil = loadProfil();
+  if (!profil) {
+    showScreen('screen-profil');
+  } else {
+    showScreen('screen-sinif');
+  }
+}
+
+// Profil ekranı açılınca mevcut profili doldur
+const _origShowScreen = showScreen;
+showScreen = function(id) {
+  if (id === 'screen-profil') {
+    const profil = loadProfil();
+    if (profil) {
+      document.getElementById('profil-input').value = profil.name;
+      selectedAvatar = profil.avatar;
+      document.querySelectorAll('.avatar-opt').forEach(a => {
+        a.classList.toggle('selected', a.dataset.av === profil.avatar);
+      });
+    }
+  }
+  _origShowScreen(id);
+};
+
 // Başlangıç
+const _profilInit = loadProfil();
+updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
 </script>
 </body>
