@@ -557,6 +557,172 @@ body::before{
   font-size: 20px; color: #CCC; flex-shrink: 0;
 }
 
+/* ═══════════════════════════════════════ */
+/*  METİN SEÇİM EKRANI — Sticker book stili */
+/* ═══════════════════════════════════════ */
+.text-select-intro {
+  background: var(--ac, #FF6B6B);
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 #1A1A1A;
+  padding: 16px 18px;
+  margin: 14px 16px 4px;
+  color: #fff;
+  animation: cardPop .4s cubic-bezier(.34,1.56,.64,1);
+}
+.text-select-intro-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  text-shadow: 3px 3px 0 #1A1A1A;
+  margin-bottom: 4px;
+}
+.text-select-intro-sub {
+  font-size: 13px;
+  font-weight: 700;
+  opacity: .92;
+  line-height: 1.4;
+}
+
+.text-select-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.text-select-list::-webkit-scrollbar { display: none; }
+
+.text-card {
+  background: #fff;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 #1A1A1A;
+  padding: 14px 14px 12px;
+  cursor: pointer;
+  transition: all .15s;
+  position: relative;
+  animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
+  overflow: hidden;
+}
+.text-card:nth-child(1) { animation-delay: .05s; }
+.text-card:nth-child(2) { animation-delay: .12s; }
+.text-card:nth-child(3) { animation-delay: .19s; }
+.text-card:hover  { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 #1A1A1A; }
+.text-card:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
+
+.text-card-top-stripe {
+  height: 6px;
+  background: var(--ac, #FF6B6B);
+  margin: -14px -14px 12px;
+  border-bottom: 2px solid #1A1A1A;
+}
+
+.text-card-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.text-card-icon {
+  width: 54px;
+  height: 54px;
+  background: var(--ac-lt, #FFF0F0);
+  border: 2.5px solid #1A1A1A;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  flex-shrink: 0;
+  box-shadow: 2px 2px 0 #1A1A1A;
+}
+.text-card-info { flex: 1; min-width: 0; }
+.text-card-label {
+  font-size: 10px;
+  font-weight: 900;
+  color: var(--ac-dark, #8B1C26);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.text-card-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px;
+  color: #1A1A1A;
+  line-height: 1.15;
+  margin: 1px 0 3px;
+}
+.text-card-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  line-height: 1.3;
+}
+
+.text-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 2px dashed #DDD0BC;
+}
+.text-card-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 5px 11px;
+  border-radius: 99px;
+  border: 2px solid #1A1A1A;
+  box-shadow: 2px 2px 0 #1A1A1A;
+}
+.text-card-status.new {
+  background: #FFD93D;
+  color: #1A1A1A;
+}
+.text-card-status.done {
+  background: #6BCB77;
+  color: #fff;
+}
+.text-card-status.tried {
+  background: #BDE0FE;
+  color: #1E40AF;
+}
+.text-card-stars {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.text-card-stars .empty { opacity: .25; filter: grayscale(1); }
+.text-card-score {
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  color: #1A1A1A;
+  background: #FFD93D;
+  border: 2px solid #1A1A1A;
+  box-shadow: 2px 2px 0 #1A1A1A;
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+/* "Recommended start" tag — first card */
+.text-card-recommended {
+  position: absolute;
+  top: 14px;
+  right: -2px;
+  background: #FF6B6B;
+  color: #fff;
+  font-family: 'Fredoka One', cursive;
+  font-size: 10px;
+  padding: 4px 10px;
+  border: 2px solid #1A1A1A;
+  border-right: none;
+  border-radius: 99px 0 0 99px;
+  box-shadow: -2px 2px 0 #1A1A1A;
+  letter-spacing: .05em;
+}
+
 /* OYUN EKRANI — üst header */
 .game-topbar {
   display: flex;
@@ -1101,7 +1267,7 @@ button.celeb-retry {
 
 <div class="screen" id="screen-game">
   <div class="game-topbar">
-    <button class="back-btn" onclick="showScreen('screen-etkinlik')">Etkinlikler</button>
+    <button class="back-btn" onclick="goBackFromGame()">Metinler</button>
     <div class="game-topbar-info">
       <div class="game-topbar-title" id="game-topbar-title">Tarama</div>
       <div class="game-topbar-sub">School Life</div>
@@ -1318,7 +1484,7 @@ button.celeb-retry {
     </div>
   </div>
   <div class="etkinlik-list">
-    <div class="etkinlik-card" onclick="startSkill('scan')" role="button" tabindex="0" aria-label="Tarama etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('scan')">
+    <div class="etkinlik-card" onclick="selectSkill('scan')" role="button" tabindex="0" aria-label="Tarama etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('scan')">
       <div class="etkinlik-icon" style="background:#FFF0F0;">🔍</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Scanning</div>
@@ -1327,7 +1493,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('skim')" role="button" tabindex="0" aria-label="Hızlı Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('skim')">
+    <div class="etkinlik-card" onclick="selectSkill('skim')" role="button" tabindex="0" aria-label="Hızlı Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('skim')">
       <div class="etkinlik-icon" style="background:#E6F9FD;">⚡</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Skimming</div>
@@ -1336,7 +1502,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('int')" role="button" tabindex="0" aria-label="Dikkatli Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('int')">
+    <div class="etkinlik-card" onclick="selectSkill('int')" role="button" tabindex="0" aria-label="Dikkatli Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('int')">
       <div class="etkinlik-icon" style="background:#F4EAFF;">🔬</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Intensive Reading</div>
@@ -1345,7 +1511,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="startSkill('inf')" role="button" tabindex="0" aria-label="Çıkarım etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')startSkill('inf')">
+    <div class="etkinlik-card" onclick="selectSkill('inf')" role="button" tabindex="0" aria-label="Çıkarım etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('inf')">
       <div class="etkinlik-icon" style="background:#FFF4E8;">🧩</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Inference</div>
@@ -1354,6 +1520,30 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
+  </div>
+</div>
+
+<!-- METİN SEÇİMİ EKRANI -->
+<div class="screen" id="screen-text-select">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-etkinlik')">Etkinlikler</button>
+    <div>
+      <div class="screen-header-title" id="ts-title">Metin Seçimi</div>
+      <div class="screen-header-sub" id="ts-sub">Hangi hikayeyi okumak istersin?</div>
+    </div>
+    <div class="header-profil" id="hp-textselect" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+      <div class="header-profil-av" id="hp-av-textselect">🐱</div>
+      <div class="header-profil-name" id="hp-name-textselect">Profil</div>
+    </div>
+  </div>
+
+  <div class="text-select-intro" id="ts-intro">
+    <div class="text-select-intro-title" id="ts-intro-title">🔍 Tarama</div>
+    <div class="text-select-intro-sub" id="ts-intro-sub">Aralarından bir hikaye seç ve okumaya başla! İstediğin sırayla yapabilirsin.</div>
+  </div>
+
+  <div class="text-select-list" id="ts-list">
+    <!-- Metin kartları JS ile dinamik olarak buraya basılır -->
   </div>
 </div>
 
@@ -1504,6 +1694,10 @@ function onActivityComplete(score, total, skill, topic) {
   const pct = score / total;
   const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
   saveActivityStats(topic, skill, score, total, stars);
+  // Metin bazında da kaydet (yeni — çoklu metin desteği)
+  if (typeof currentTextId !== 'undefined' && currentTextId) {
+    saveTextStats(topic, skill, currentTextId, score, total, stars);
+  }
 }
 
 function onScreenChange(screenId) {
@@ -1541,11 +1735,247 @@ const TITLES = {
 let currentTopic = 'school-life';
 
 let DATA = null;
+let TOPIC_TEXTS = null;        // Tüm metinler — beceri başına array
+let currentTextId = null;      // Şu an oynanmakta olan metnin id'si
 
 async function loadTopicData(topic, grade='grade2') {
-  const res = await fetch(`data/${grade}/${topic}.json`);
-  if (!res.ok) throw new Error(`Veri yüklenemedi: ${topic}`);
-  DATA = await res.json();
+  // STANDALONE DEMO MODE — DATA inline (fetch yok)
+  // Yeni yapı: her beceri altında texts[] array'i, her text bağımsız bir metin
+  TOPIC_TEXTS = {
+    "scan": [
+      {
+        "id": "scan-1",
+        "title": "Ruby and Bobby",
+        "subtitle": "Ruby ve arkadaşı Bobby",
+        "icon": "👧",
+        "hlMode": "always",
+        "hintMode": "always",
+        "choices": 3,
+        "cast": [
+          { "e": "👧", "n": "Ruby" },
+          { "e": "👩‍🏫", "n": "Mrs Hopkins" },
+          { "e": "👦", "n": "Bobby" }
+        ],
+        "sentences": [
+          "Hi! My name is Ruby.",
+          "I am a pupil.",
+          "Mrs Hopkins is my teacher.",
+          "She is in the classroom.",
+          "Bobby is my friend.",
+          "He is a boy.",
+          "Bobby is in the garden.",
+          "The garden is big.",
+          "My school is nice.",
+          "I am happy at school."
+        ],
+        "translations": [
+          "Selam! Benim adım Ruby.",
+          "Ben bir öğrenciyim.",
+          "Mrs Hopkins benim öğretmenim.",
+          "O sınıfta.",
+          "Bobby benim arkadaşım.",
+          "O bir erkek.",
+          "Bobby bahçede.",
+          "Bahçe büyük.",
+          "Okulum güzel.",
+          "Okulda mutluyum."
+        ],
+        "questions": [
+          { "q": "Where is Bobby?", "correct": "in the garden", "wrong": ["in the classroom", "in the library"], "hint": "Bobby nerede?", "hl": [6] },
+          { "q": "Who is Mrs Hopkins?", "correct": "a teacher", "wrong": ["a pupil", "a friend"], "hint": "Mrs Hopkins kim?", "hl": [2] },
+          { "q": "Who is Ruby?", "correct": "a pupil", "wrong": ["a teacher", "a headmistress"], "hint": "Ruby kim?", "hl": [1] },
+          { "q": "Is the garden big?", "correct": "Yes, it is!", "wrong": ["No, it isn't.", "The text doesn't say."], "hint": "Bahçe cümlesi", "hl": [7] }
+        ]
+      },
+      {
+        "id": "scan-2",
+        "title": "My Friend Ada",
+        "subtitle": "Leo, Mr Brown ve Ada",
+        "icon": "👦",
+        "hlMode": "always",
+        "hintMode": "always",
+        "choices": 3,
+        "cast": [
+          { "e": "👦", "n": "Leo" },
+          { "e": "👨‍💼", "n": "Mr Brown" },
+          { "e": "👧", "n": "Ada" }
+        ],
+        "sentences": [
+          "Hello! My name is Leo.",
+          "I am a pupil at this school.",
+          "Mr Brown is the headmaster.",
+          "He is in the teacher's room.",
+          "Ada is my friend.",
+          "She is a girl.",
+          "Ada is in the library.",
+          "The library is big.",
+          "My school is nice.",
+          "Ada is my new friend."
+        ],
+        "translations": [
+          "Merhaba! Benim adım Leo.",
+          "Ben bu okulda bir öğrenciyim.",
+          "Mr Brown okul müdürü.",
+          "O öğretmen odasında.",
+          "Ada benim arkadaşım.",
+          "O bir kız.",
+          "Ada kütüphanede.",
+          "Kütüphane büyük.",
+          "Okulum güzel.",
+          "Ada benim yeni arkadaşım."
+        ],
+        "questions": [
+          { "q": "Where is Ada?", "correct": "in the library", "wrong": ["in the canteen", "in the garden"], "hint": "Ada nerede?", "hl": [6] },
+          { "q": "Who is Mr Brown?", "correct": "the headmaster", "wrong": ["a teacher", "a pupil"], "hint": "Mr Brown kim?", "hl": [2] },
+          { "q": "Where is Mr Brown?", "correct": "in the teacher's room", "wrong": ["in the classroom", "in the sports hall"], "hint": "Mr Brown nerede?", "hl": [3] },
+          { "q": "Is the library big?", "correct": "Yes, it is!", "wrong": ["No, it isn't.", "The text doesn't say."], "hint": "Kütüphane hakkındaki cümle", "hl": [7] }
+        ]
+      }
+    ],
+    "skim": [
+      {
+        "id": "skim-1",
+        "title": "Mr Green's School",
+        "subtitle": "Mr Green, Sam ve Lily",
+        "icon": "👨‍💼",
+        "hlMode": "fade10",
+        "hintMode": "tap",
+        "choices": 3,
+        "timer": 10,
+        "cast": [
+          { "e": "👨‍💼", "n": "Mr Green" },
+          { "e": "👦", "n": "Sam" },
+          { "e": "👧", "n": "Lily" }
+        ],
+        "sentences": [
+          "My name is Mr Green.",
+          "I am the headmaster.",
+          "This is my school.",
+          "Sam is a pupil.",
+          "He is in the library.",
+          "Sam is a good kid.",
+          "Lily is a pupil too.",
+          "She is in the canteen.",
+          "The canteen is nice.",
+          "Sam and Lily are friends."
+        ],
+        "translations": [
+          "Benim adım Mr Green.",
+          "Ben okul müdürüyüm.",
+          "Bu benim okulum.",
+          "Sam bir öğrenci.",
+          "O kütüphanede.",
+          "Sam iyi bir çocuk.",
+          "Lily de bir öğrenci.",
+          "O yemekhanede.",
+          "Yemekhane güzel.",
+          "Sam ve Lily arkadaş."
+        ],
+        "questions": [
+          { "q": "What is this mainly about?", "correct": "A school and its people", "wrong": ["A library", "A canteen"], "hint": "Genel konu ne?", "hl": [0, 2] },
+          { "q": "Who is Mr Green?", "correct": "the headmaster", "wrong": ["a teacher", "a pupil"], "hint": "Mr Green kim?", "hl": [1] },
+          { "q": "Are Sam and Lily friends?", "correct": "Yes, they are!", "wrong": ["No, they aren't.", "Maybe."], "hint": "Son cümle", "hl": [9] }
+        ]
+      }
+    ],
+    "int": [
+      {
+        "id": "int-1",
+        "title": "Tom's New School",
+        "subtitle": "Tom, Anna ve Miss White",
+        "icon": "👦",
+        "hlMode": "fade3",
+        "hintMode": "tap",
+        "choices": 4,
+        "cast": [
+          { "e": "👦", "n": "Tom" },
+          { "e": "👧", "n": "Anna" },
+          { "e": "👩‍💼", "n": "Miss White" }
+        ],
+        "sentences": [
+          "Hi! My name is Tom.",
+          "I am a new pupil.",
+          "This is my new school.",
+          "Anna is my friend.",
+          "She is a girl.",
+          "Anna is my new friend.",
+          "Miss White is the headmistress.",
+          "She is in the teacher's room.",
+          "The teacher's room is big.",
+          "Anna is in the sports hall.",
+          "The sports hall is great!"
+        ],
+        "translations": [
+          "Selam! Benim adım Tom.",
+          "Ben yeni bir öğrenciyim.",
+          "Bu benim yeni okulum.",
+          "Anna benim arkadaşım.",
+          "O bir kız.",
+          "Anna benim yeni arkadaşım.",
+          "Miss White okul müdiresi.",
+          "O öğretmen odasında.",
+          "Öğretmen odası büyük.",
+          "Anna spor salonunda.",
+          "Spor salonu harika!"
+        ],
+        "questions": [
+          { "q": "Who is Tom?", "correct": "a new pupil", "wrong": ["a teacher", "a headmaster", "a friend"], "hint": "Tom kim?", "hl": [1] },
+          { "q": "Who is Miss White?", "correct": "the headmistress", "wrong": ["a teacher", "a pupil", "a friend"], "hint": "Miss White kim?", "hl": [6] },
+          { "q": "Where is Miss White?", "correct": "in the teacher's room", "wrong": ["in the library", "in the canteen", "in the classroom"], "hint": "Miss White nerede?", "hl": [7] },
+          { "q": "Where is Anna?", "correct": "in the sports hall", "wrong": ["in the garden", "in the playground", "in the classroom"], "hint": "Anna nerede?", "hl": [9] }
+        ]
+      }
+    ],
+    "inf": [
+      {
+        "id": "inf-1",
+        "title": "A Closed Door",
+        "subtitle": "Mia, Mr Stone ve Ben",
+        "icon": "🚪",
+        "hlMode": "none",
+        "hintMode": "tap",
+        "choices": 3,
+        "cast": [
+          { "e": "👧", "n": "Mia" },
+          { "e": "👨‍🏫", "n": "Mr Stone" },
+          { "e": "👦", "n": "Ben" }
+        ],
+        "sentences": [
+          "It is Monday morning.",
+          "Mia is at school.",
+          "She has got her bag and her book.",
+          "Mr Stone is not in the classroom.",
+          "The classroom door is closed.",
+          "Ben is outside.",
+          "He is sitting on the bench.",
+          "Ben is not happy."
+        ],
+        "translations": [
+          "Pazartesi sabahı.",
+          "Mia okulda.",
+          "Çantası ve kitabı yanında.",
+          "Mr Stone sınıfta değil.",
+          "Sınıf kapısı kapalı.",
+          "Ben dışarıda.",
+          "Bankta oturuyor.",
+          "Ben mutlu değil."
+        ],
+        "questions": [
+          { "q": "Has the school day started yet?", "correct": "No, not yet.", "wrong": ["Yes, it has.", "It is lunchtime."], "hint": "Kapı kapalı — öğretmen yok", "hl": [] },
+          { "q": "How does Ben probably feel?", "correct": "Unhappy.", "wrong": ["Very happy.", "Excited."], "hint": "Ben hakkındaki son cümle", "hl": [] },
+          { "q": "Where is Mr Stone probably?", "correct": "Not at school yet.", "wrong": ["In the library.", "In the canteen."], "hint": "Sınıfta değil — peki nerede?", "hl": [] }
+        ]
+      }
+    ]
+  };
+  // DATA still works as before — points to currently selected text
+  // Default: first text of each skill (geriye dönük uyumluluk)
+  DATA = {
+    scan: TOPIC_TEXTS.scan[0],
+    skim: TOPIC_TEXTS.skim[0],
+    int:  TOPIC_TEXTS.int[0],
+    inf:  TOPIC_TEXTS.inf[0]
+  };
 }
 
 
@@ -1729,11 +2159,22 @@ function nextSkill(){
     showCelebration(currentTopic);
     return;
   }
-  startSkill(nextSk);
+  // Yeni: metin seçim ekranına git (otomatik başlatma yerine)
+  selectSkill(nextSk);
 }
 function goToSkillsMenu(){
   document.getElementById('result-overlay').classList.remove('visible');
   showScreen('screen-etkinlik');
+}
+function goBackFromGame(){
+  // Oyun ekranından "Metinler" butonu — şu anki becerinin metin seçimine dön
+  // ve listeyi yenile (stats güncel olsun)
+  if (cur && TOPIC_TEXTS) {
+    renderTextSelect(cur);
+    showScreen('screen-text-select');
+  } else {
+    showScreen('screen-etkinlik');
+  }
 }
 function confetti(){
   const wrap=document.getElementById('confetti-wrap');wrap.innerHTML='';
@@ -1760,11 +2201,11 @@ function selectTopic(topicKey) {
   showScreen('screen-etkinlik');
 }
 
-async function startSkill(sk) {
+async function startSkill(sk, textId) {
   const titles = {scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli Okuma', inf:'Çıkarım'};
   document.getElementById('game-topbar-title').textContent = titles[sk] || sk;
   // Veri yükle — henüz yüklenmediyse
-  if (!DATA) {
+  if (!TOPIC_TEXTS) {
     try {
       await loadTopicData(currentTopic);
     } catch(e) {
@@ -1772,15 +2213,167 @@ async function startSkill(sk) {
       return;
     }
   }
+  // Doğru metni seç (textId verildiyse onu, verilmediyse ilkini)
+  const skillTexts = TOPIC_TEXTS[sk] || [];
+  let chosen = null;
+  if (textId) {
+    chosen = skillTexts.find(t => t.id === textId) || null;
+  }
+  if (!chosen) chosen = skillTexts[0] || null;
+  if (!chosen) {
+    alert('Bu beceri için metin bulunamadı.');
+    return;
+  }
+  // DATA'yı seçilen metne ayarla — render fonksiyonları DATA[sk] üzerinden çalışır
+  DATA[sk] = chosen;
+  currentTextId = chosen.id;
+
   clearTimeout(hlTimer); clearInterval(timerInt);
   cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = [];
   setVars(sk);
   document.getElementById('skill-tr').textContent = TITLES[sk] || CFG[sk].label;
   document.getElementById('skill-en').textContent = CFG[sk].label;
   document.getElementById('score-chip').textContent = '⭐ 0';
+  // Game topbar'a metin başlığını da ekle (alt satır olarak)
+  const topbarTitle = document.getElementById('game-topbar-title');
+  if (topbarTitle) topbarTitle.textContent = (titles[sk] || sk) + ' · ' + chosen.title;
   showScreen('screen-game');
   renderStory();
   renderQ();
+}
+
+// ════════════════════════════════════════
+//  METİN SEÇİM EKRANI
+// ════════════════════════════════════════
+const SKILL_INTRO = {
+  scan: { emoji: '🔍', label: 'Tarama',         help: 'Aşağıdaki hikayelerden birini seç. İstediğin sırayla yapabilirsin!' },
+  skim: { emoji: '⚡', label: 'Hızlı Okuma',    help: 'Aşağıdaki hikayelerden birini seç. Her birinde 10 saniye okuma süren olacak!' },
+  int:  { emoji: '🔬', label: 'Dikkatli Okuma', help: 'Aşağıdaki hikayelerden birini seç. Her cümleyi dikkatlice oku!' },
+  inf:  { emoji: '🧩', label: 'Çıkarım',        help: 'Aşağıdaki hikayelerden birini seç. İpuçlarına dikkat et!' },
+};
+
+async function selectSkill(sk) {
+  // Veri yükle — henüz yüklenmediyse
+  if (!TOPIC_TEXTS) {
+    try {
+      await loadTopicData(currentTopic);
+    } catch(e) {
+      alert('İçerik yüklenemedi. Lütfen tekrar deneyin.');
+      return;
+    }
+  }
+  cur = sk;
+  setVars(sk);
+  renderTextSelect(sk);
+  showScreen('screen-text-select');
+}
+
+function renderTextSelect(sk) {
+  const intro = SKILL_INTRO[sk];
+  const cfg = CFG[sk];
+  const texts = TOPIC_TEXTS[sk] || [];
+
+  // Üst başlık
+  document.getElementById('ts-title').textContent = intro.label;
+  document.getElementById('ts-sub').textContent = 'Hangi hikayeyi okumak istersin?';
+  document.getElementById('ts-intro-title').textContent = intro.emoji + ' ' + intro.label;
+  document.getElementById('ts-intro-sub').textContent = intro.help;
+
+  // Profil avatarını da güncelle (diğer ekranlarla tutarlılık)
+  const profil = (typeof loadProfil === 'function') ? loadProfil() : null;
+  if (profil) {
+    const avEl = document.getElementById('hp-av-textselect');
+    const nameEl = document.getElementById('hp-name-textselect');
+    if (avEl) avEl.textContent = profil.avatar;
+    if (nameEl) nameEl.textContent = profil.name;
+  }
+
+  // Kart listesini bas
+  const list = document.getElementById('ts-list');
+  list.innerHTML = texts.map((t, idx) => {
+    const stats = getTextStats(currentTopic, sk, t.id);
+    return buildTextCardHTML(sk, t, idx, stats);
+  }).join('');
+}
+
+function buildTextCardHTML(sk, text, idx, stats) {
+  // Status: new / tried / done
+  let statusHTML = '<span class="text-card-status new">🆕 YENİ</span>';
+  let starsHTML = '';
+  let scoreHTML = '';
+
+  if (stats && stats.attempts > 0) {
+    const filled = stats.bestStars || 0;
+    const empty = 3 - filled;
+    starsHTML = '<div class="text-card-stars">' +
+      '⭐'.repeat(filled) +
+      '<span class="empty">' + '⭐'.repeat(empty) + '</span>' +
+    '</div>';
+
+    if (filled === 3) {
+      statusHTML = '<span class="text-card-status done">✓ TAMAM</span>';
+    } else {
+      statusHTML = '<span class="text-card-status tried">↻ TEKRAR</span>';
+    }
+    scoreHTML = '<div class="text-card-score">' + (stats.bestScore || 0) + '/' + (stats.bestTotal || '?') + '</div>';
+  }
+
+  const recommended = (idx === 0 && (!stats || stats.attempts === 0))
+    ? '<div class="text-card-recommended">⭐ Başlangıç</div>'
+    : '';
+
+  return `
+    <div class="text-card" onclick="startSkill('${sk}', '${text.id}')" role="button" tabindex="0"
+         onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();startSkill('${sk}', '${text.id}');}">
+      <div class="text-card-top-stripe"></div>
+      ${recommended}
+      <div class="text-card-row">
+        <div class="text-card-icon">${text.icon || '📖'}</div>
+        <div class="text-card-info">
+          <div class="text-card-label">METİN ${idx + 1}</div>
+          <div class="text-card-title">${text.title}</div>
+          <div class="text-card-subtitle">${text.subtitle || ''}</div>
+        </div>
+      </div>
+      <div class="text-card-meta">
+        ${statusHTML}
+        <div style="display:flex;align-items:center;gap:8px;">
+          ${starsHTML}
+          ${scoreHTML}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Metin başına stats (localStorage)
+function getTextStats(topic, skill, textId) {
+  try {
+    const key = 'textStats_v1';
+    const all = JSON.parse(localStorage.getItem(key) || '{}');
+    return (all[topic] && all[topic][skill] && all[topic][skill][textId]) || null;
+  } catch(e) { return null; }
+}
+
+function saveTextStats(topic, skill, textId, score, total, stars) {
+  try {
+    const key = 'textStats_v1';
+    const all = JSON.parse(localStorage.getItem(key) || '{}');
+    if (!all[topic]) all[topic] = {};
+    if (!all[topic][skill]) all[topic][skill] = {};
+    const cur = all[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0 };
+    cur.attempts = (cur.attempts || 0) + 1;
+    if (score > (cur.bestScore || 0)) {
+      cur.bestScore = score;
+      cur.bestTotal = total;
+      cur.bestStars = stars;
+    } else if (stars > (cur.bestStars || 0)) {
+      cur.bestStars = stars;
+    }
+    cur.lastPlayed = Date.now();
+    all[topic][skill][textId] = cur;
+    localStorage.setItem(key, JSON.stringify(all));
+  } catch(e) { /* sessizce yut */ }
 }
 
 
@@ -2004,6 +2597,10 @@ function onActivityComplete(score, total, skill, topic) {
   const pct = score / total;
   const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
   saveActivityStats(topic, skill, score, total, stars);
+  // Metin bazında da kaydet (yeni — çoklu metin desteği)
+  if (typeof currentTextId !== 'undefined' && currentTextId) {
+    saveTextStats(topic, skill, currentTextId, score, total, stars);
+  }
 }
 
 function onScreenChange(screenId) {
