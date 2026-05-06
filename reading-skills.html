@@ -1197,8 +1197,8 @@ button.celeb-retry {
 }
 
 
-/* ── YAKINDA TOAST ── */
-.yakinda-toast {
+/* ── TOAST ── */
+.toast {
   position: fixed;
   bottom: 32px;
   left: 50%;
@@ -1211,15 +1211,21 @@ button.celeb-retry {
   border-radius: 99px;
   border: 2.5px solid #1A1A1A;
   box-shadow: 3px 3px 0 rgba(0,0,0,.2);
-  white-space: nowrap;
+  max-width: calc(100% - 32px);
+  text-align: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity .2s, transform .2s;
   z-index: 999;
 }
-.yakinda-toast.show {
+.toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+.toast.error {
+  background: #FF6B6B;
+  border-color: #1A1A1A;
+  box-shadow: 3px 3px 0 #1A1A1A;
 }
 
 </style>
@@ -2173,7 +2179,10 @@ setVars('scan'); // CSS renk değişkenlerini ayarla — DATA olmadan render etm
 
 function selectTopic(topicKey) {
   currentTopic = topicKey;
-  DATA = null; // Yeni tema için sıfırla
+  // Yeni tema için tüm veriyi sıfırla — startSkill çağrıldığında loadTopicData
+  // yeniden tetiklenir ve DATA da yeniden inşa edilir.
+  TOPIC_TEXTS = null;
+  DATA = null;
   showScreen('screen-etkinlik');
 }
 
@@ -2184,7 +2193,7 @@ async function startSkill(sk, textId) {
     try {
       await loadTopicData(currentTopic);
     } catch(e) {
-      alert('İçerik yüklenemedi. Lütfen tekrar deneyin.');
+      showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
       return;
     }
   }
@@ -2196,7 +2205,7 @@ async function startSkill(sk, textId) {
   }
   if (!chosen) chosen = skillTexts[0] || null;
   if (!chosen) {
-    alert('Bu beceri için metin bulunamadı.');
+    showToast('Bu beceri için metin bulunamadı.', 'error', 3000);
     return;
   }
   // DATA'yı seçilen metne ayarla — render fonksiyonları DATA[sk] üzerinden çalışır
@@ -2227,7 +2236,7 @@ async function selectSkill(sk) {
     try {
       await loadTopicData(currentTopic);
     } catch(e) {
-      alert('İçerik yüklenemedi. Lütfen tekrar deneyin.');
+      showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
       return;
     }
   }
@@ -2689,13 +2698,21 @@ function handleBadgeClick() {
   showScreen('screen-stats');
 }
 
-// Yakında toast
-let _yakindaTimer = null;
-function showYakindaToast() {
-  const t = document.getElementById('yakinda-toast');
+// Toast bildirim sistemi — kısa süreli bildirim göstermek için
+let _toastTimer = null;
+function showToast(message, type = 'info', duration = 2000) {
+  const t = document.getElementById('toast');
+  t.textContent = message;
+  t.classList.remove('error'); // önce sıfırla
+  if (type === 'error') t.classList.add('error');
   t.classList.add('show');
-  clearTimeout(_yakindaTimer);
-  _yakindaTimer = setTimeout(() => t.classList.remove('show'), 2000);
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => t.classList.remove('show'), duration);
+}
+
+// Yakında toast — geriye dönük uyumluluk için (HTML'de onclick'ler var)
+function showYakindaToast() {
+  showToast('🚀 Yakında geliyor!', 'info');
 }
 
 
@@ -2725,6 +2742,6 @@ showScreen('screen-intro');
 initKeyboardNav();
 </script>
 
-<div class="yakinda-toast" id="yakinda-toast">🚀 Yakında geliyor!</div>
+<div class="toast" id="toast"></div>
 </body>
 </html>
