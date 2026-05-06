@@ -1,310 +1,471 @@
 {
-  "scan": {
-    "hlMode": "always",
-    "hintMode": "always",
-    "choices": 3,
-    "cast": [
-      { "e": "👦", "n": "Kerem" },
-      { "e": "👧", "n": "Zeynep" },
-      { "e": "👩‍💼", "n": "Miss Clark" }
-    ],
-    "sentences": [
-      "Hi! My name is Kerem.",
-      "I am a pupil at Star School.",
-      "Miss Clark is the headmistress.",
-      "She is in the teacher's room.",
-      "Zeynep is my friend.",
-      "She is a girl.",
-      "Zeynep is in the library.",
-      "The library is big.",
-      "I am in the playground.",
-      "Star School is my school."
-    ],
-    "translations": [
-      "Merhaba! Benim adım Kerem.",
-      "Ben Star School'da bir öğrenciyim.",
-      "Miss Clark okul müdiresi.",
-      "O öğretmenler odasında.",
-      "Zeynep benim arkadaşım.",
-      "O bir kız.",
-      "Zeynep kütüphanede.",
-      "Kütüphane büyük.",
-      "Ben oyun alanındayım.",
-      "Star School benim okulum."
-    ],
-    "questions": [
-      {
-        "q": "Where is Zeynep?",
-        "correct": "in the library",
-        "wrong": [
-          "in the canteen",
-          "in the garden"
-        ],
-        "hint": "Zeynep nerede?",
-        "hl": [6]
-      },
-      {
-        "q": "Where is Miss Clark?",
-        "correct": "in the teacher's room",
-        "wrong": [
-          "in the classroom",
-          "in the sports hall"
-        ],
-        "hint": "Miss Clark nerede?",
-        "hl": [3]
-      },
-      {
-        "q": "Who is Miss Clark?",
-        "correct": "the headmistress",
-        "wrong": [
-          "a teacher",
-          "a pupil"
-        ],
-        "hint": "Miss Clark kim?",
-        "hl": [2]
-      },
-      {
-        "q": "Where is Kerem?",
-        "correct": "in the playground",
-        "wrong": [
-          "in the library",
-          "in the lunch hall"
-        ],
-        "hint": "Kerem nerede?",
-        "hl": [8]
-      }
-    ]
-  },
-
-  "skim": {
-    "hlMode": "fade10",
-    "hintMode": "tap",
-    "choices": 3,
-    "timer": 10,
-    "cast": [
-      { "e": "👨‍💼", "n": "Mr Yılmaz" },
-      { "e": "👧", "n": "Elif" },
-      { "e": "👦", "n": "Jack" }
-    ],
-    "sentences": [
-      "My name is Mr Yılmaz.",
-      "I am the headmaster.",
-      "This is Sun School.",
-      "Elif is a pupil.",
-      "She is in the canteen.",
-      "Jack is a pupil too.",
-      "He is in the classroom.",
-      "Elif and Jack are friends.",
-      "Sun School is a big school.",
-      "This is a happy school."
-    ],
-    "translations": [
-      "Benim adım Mr Yılmaz.",
-      "Ben okul müdürüyüm.",
-      "Bu Sun School.",
-      "Elif bir öğrenci.",
-      "O kantinde.",
-      "Jack de bir öğrenci.",
-      "O sınıfta.",
-      "Elif ve Jack arkadaş.",
-      "Sun School büyük bir okul.",
-      "Bu mutlu bir okul."
-    ],
-    "questions": [
-      {
-        "q": "What is this text mainly about?",
-        "correct": "A school and its people",
-        "wrong": [
-          "A canteen",
-          "A classroom"
-        ],
-        "hint": "Genel konu ne?",
-        "hl": [0, 2]
-      },
-      {
-        "q": "Who is telling the story?",
-        "correct": "the headmaster",
-        "wrong": [
-          "a teacher",
-          "a pupil"
-        ],
-        "hint": "Hikayeyi kim anlatıyor?",
-        "hl": [0, 1]
-      },
-      {
-        "q": "How many pupils are in the story?",
-        "correct": "Two",
-        "wrong": [
-          "One",
-          "Three"
-        ],
-        "hint": "Kaç öğrenci var?",
-        "hl": [3, 5]
-      },
-      {
-        "q": "Which school is in the story?",
-        "correct": "Sun School",
-        "wrong": [
-          "Star School",
-          "Moon School"
-        ],
-        "hint": "Okul ismi ne?",
-        "hl": [2]
-      }
-    ]
-  },
-
-  "int": {
-    "hlMode": "fade3",
-    "hintMode": "tap",
-    "choices": 4,
-    "cast": [
-      { "e": "👧", "n": "Selin" },
-      { "e": "👦", "n": "Noah" },
-      { "e": "👨‍🏫", "n": "Mr Demir" }
-    ],
-    "sentences": [
-      "Hi! My name is Selin.",
-      "I am a new pupil at Moon School.",
-      "Mr Demir is my teacher.",
-      "He is in the classroom.",
-      "Noah is my friend.",
-      "He is a boy.",
-      "Noah is in the sports hall.",
-      "The sports hall is big.",
-      "Mr Demir is my teacher at Moon School.",
-      "Moon School is my school."
-    ],
-    "translations": [
-      "Merhaba! Benim adım Selin.",
-      "Ben Moon School'da yeni bir öğrenciyim.",
-      "Mr Demir benim öğretmenim.",
-      "O sınıfta.",
-      "Noah benim arkadaşım.",
-      "O bir erkek.",
-      "Noah spor salonunda.",
-      "Spor salonu büyük.",
-      "Mr Demir Moon School'da benim öğretmenim.",
-      "Moon School benim okulum."
-    ],
-    "questions": [
-      {
-        "q": "Who is Selin?",
-        "correct": "a new pupil",
-        "wrong": [
-          "a teacher",
-          "a headmistress",
-          "a headmaster"
-        ],
-        "hint": "Selin kim?",
-        "hl": [1]
-      },
-      {
-        "q": "Who is Mr Demir?",
-        "correct": "a teacher",
-        "wrong": [
-          "a headmaster",
-          "a pupil",
-          "a friend"
-        ],
-        "hint": "Mr Demir kim?",
-        "hl": [2]
-      },
-      {
-        "q": "Where is Noah?",
-        "correct": "in the sports hall",
-        "wrong": [
-          "in the garden",
-          "in the library",
-          "in the classroom"
-        ],
-        "hint": "Noah nerede?",
-        "hl": [6]
-      },
-      {
-        "q": "Is Noah a girl?",
-        "correct": "No, he isn't!",
-        "wrong": [
-          "Yes, she is!",
-          "He is a teacher.",
-          "He is a headmaster."
-        ],
-        "hint": "Noah erkek mi kız mı?",
-        "hl": [5]
-      }
-    ]
-  },
-
-  "inf": {
-    "hlMode": "none",
-    "hintMode": "tap",
-    "choices": 3,
-    "cast": [
-      { "e": "👧", "n": "Mia" },
-      { "e": "👦", "n": "Can" },
-      { "e": "👩‍🏫", "n": "Mrs Lake" }
-    ],
-    "sentences": [
-      "It is Monday morning.",
-      "Mia is at school.",
-      "Her bag is in the classroom.",
-      "Can is in the garden.",
-      "He is not in the classroom.",
-      "The classroom door is closed.",
-      "Mrs Lake is not here.",
-      "Can is not happy."
-    ],
-    "translations": [
-      "Pazartesi sabahı.",
-      "Mia okulda.",
-      "Çantası sınıfta.",
-      "Can bahçede.",
-      "O sınıfta değil.",
-      "Sınıfın kapısı kapalı.",
-      "Mrs Lake burada değil.",
-      "Can mutlu değil."
-    ],
-    "questions": [
-      {
-        "q": "Has the school day started yet?",
-        "correct": "No, not yet.",
-        "wrong": [
-          "Yes, it has.",
-          "It is lunchtime."
-        ],
-        "hint": "Kapı kapalı — öğretmen yok",
-        "hl": []
-      },
-      {
-        "q": "How does Can probably feel?",
-        "correct": "Unhappy.",
-        "wrong": [
-          "Very happy.",
-          "Excited."
-        ],
-        "hint": "Can hakkındaki son cümle",
-        "hl": []
-      },
-      {
-        "q": "Where is Mrs Lake probably?",
-        "correct": "Not at school yet.",
-        "wrong": [
-          "In the library.",
-          "In the canteen."
-        ],
-        "hint": "Sınıfta değil — peki nerede?",
-        "hl": []
-      },
-      {
-        "q": "Is Mia ready for school?",
-        "correct": "Yes, her bag is in the classroom.",
-        "wrong": [
-          "No, she is in the garden.",
-          "No, she is not at school."
-        ],
-        "hint": "Mia'nın çantası nerede?",
-        "hl": []
-      }
-    ]
-  }
+  "theme": "School Life",
+  "themeNumber": 1,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Ruby and Bobby",
+      "subtitle": "Ruby ve arkadaşı Bobby",
+      "icon": "👧",
+      "hlMode": "always",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Ruby"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Mrs Hopkins"
+        },
+        {
+          "e": "👦",
+          "n": "Bobby"
+        }
+      ],
+      "sentences": [
+        "Hi! My name is Ruby.",
+        "I am a pupil.",
+        "Mrs Hopkins is my teacher.",
+        "She is in the classroom.",
+        "Bobby is my friend.",
+        "He is a boy.",
+        "Bobby is in the garden.",
+        "The garden is big.",
+        "My school is nice.",
+        "I am happy at school."
+      ],
+      "translations": [
+        "Selam! Benim adım Ruby.",
+        "Ben bir öğrenciyim.",
+        "Mrs Hopkins benim öğretmenim.",
+        "O sınıfta.",
+        "Bobby benim arkadaşım.",
+        "O bir erkek.",
+        "Bobby bahçede.",
+        "Bahçe büyük.",
+        "Okulum güzel.",
+        "Okulda mutluyum."
+      ],
+      "questions": [
+        {
+          "q": "Where is Bobby?",
+          "correct": "in the garden",
+          "wrong": [
+            "in the classroom",
+            "in the library"
+          ],
+          "hint": "Bobby nerede?",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Who is Mrs Hopkins?",
+          "correct": "a teacher",
+          "wrong": [
+            "a pupil",
+            "a friend"
+          ],
+          "hint": "Mrs Hopkins kim?",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is Ruby?",
+          "correct": "a pupil",
+          "wrong": [
+            "a teacher",
+            "a headmistress"
+          ],
+          "hint": "Ruby kim?",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is the garden big?",
+          "correct": "Yes, it is!",
+          "wrong": [
+            "No, it isn't.",
+            "The text doesn't say."
+          ],
+          "hint": "Bahçe cümlesi",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "My Friend Ada",
+      "subtitle": "Leo, Mr Brown ve Ada",
+      "icon": "👦",
+      "hlMode": "always",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👨‍💼",
+          "n": "Mr Brown"
+        },
+        {
+          "e": "👧",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "Hello! My name is Leo.",
+        "I am a pupil at this school.",
+        "Mr Brown is the headmaster.",
+        "He is in the teacher's room.",
+        "Ada is my friend.",
+        "She is a girl.",
+        "Ada is in the library.",
+        "The library is big.",
+        "My school is nice.",
+        "Ada is my new friend."
+      ],
+      "translations": [
+        "Merhaba! Benim adım Leo.",
+        "Ben bu okulda bir öğrenciyim.",
+        "Mr Brown okul müdürü.",
+        "O öğretmen odasında.",
+        "Ada benim arkadaşım.",
+        "O bir kız.",
+        "Ada kütüphanede.",
+        "Kütüphane büyük.",
+        "Okulum güzel.",
+        "Ada benim yeni arkadaşım."
+      ],
+      "questions": [
+        {
+          "q": "Where is Ada?",
+          "correct": "in the library",
+          "wrong": [
+            "in the canteen",
+            "in the garden"
+          ],
+          "hint": "Ada nerede?",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Who is Mr Brown?",
+          "correct": "the headmaster",
+          "wrong": [
+            "a teacher",
+            "a pupil"
+          ],
+          "hint": "Mr Brown kim?",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Mr Brown?",
+          "correct": "in the teacher's room",
+          "wrong": [
+            "in the classroom",
+            "in the sports hall"
+          ],
+          "hint": "Mr Brown nerede?",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is the library big?",
+          "correct": "Yes, it is!",
+          "wrong": [
+            "No, it isn't.",
+            "The text doesn't say."
+          ],
+          "hint": "Kütüphane hakkındaki cümle",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "Mr Green's School",
+      "subtitle": "Mr Green, Sam ve Lily",
+      "icon": "👨‍💼",
+      "hlMode": "fade10",
+      "hintMode": "tap",
+      "choices": 3,
+      "timer": 10,
+      "cast": [
+        {
+          "e": "👨‍💼",
+          "n": "Mr Green"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Lily"
+        }
+      ],
+      "sentences": [
+        "My name is Mr Green.",
+        "I am the headmaster.",
+        "This is my school.",
+        "Sam is a pupil.",
+        "He is in the library.",
+        "Sam is a good kid.",
+        "Lily is a pupil too.",
+        "She is in the canteen.",
+        "The canteen is nice.",
+        "Sam and Lily are friends."
+      ],
+      "translations": [
+        "Benim adım Mr Green.",
+        "Ben okul müdürüyüm.",
+        "Bu benim okulum.",
+        "Sam bir öğrenci.",
+        "O kütüphanede.",
+        "Sam iyi bir çocuk.",
+        "Lily de bir öğrenci.",
+        "O yemekhanede.",
+        "Yemekhane güzel.",
+        "Sam ve Lily arkadaş."
+      ],
+      "questions": [
+        {
+          "q": "What is this mainly about?",
+          "correct": "A school and its people",
+          "wrong": [
+            "A library",
+            "A canteen"
+          ],
+          "hint": "Genel konu ne?",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "Who is Mr Green?",
+          "correct": "the headmaster",
+          "wrong": [
+            "a teacher",
+            "a pupil"
+          ],
+          "hint": "Mr Green kim?",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Are Sam and Lily friends?",
+          "correct": "Yes, they are!",
+          "wrong": [
+            "No, they aren't.",
+            "Maybe."
+          ],
+          "hint": "Son cümle",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Tom's New School",
+      "subtitle": "Tom, Anna ve Miss White",
+      "icon": "👦",
+      "hlMode": "fade3",
+      "hintMode": "tap",
+      "choices": 4,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Anna"
+        },
+        {
+          "e": "👩‍💼",
+          "n": "Miss White"
+        }
+      ],
+      "sentences": [
+        "Hi! My name is Tom.",
+        "I am a new pupil.",
+        "This is my new school.",
+        "Anna is my friend.",
+        "She is a girl.",
+        "Anna is my new friend.",
+        "Miss White is the headmistress.",
+        "She is in the teacher's room.",
+        "The teacher's room is big.",
+        "Anna is in the sports hall.",
+        "The sports hall is great!"
+      ],
+      "translations": [
+        "Selam! Benim adım Tom.",
+        "Ben yeni bir öğrenciyim.",
+        "Bu benim yeni okulum.",
+        "Anna benim arkadaşım.",
+        "O bir kız.",
+        "Anna benim yeni arkadaşım.",
+        "Miss White okul müdiresi.",
+        "O öğretmen odasında.",
+        "Öğretmen odası büyük.",
+        "Anna spor salonunda.",
+        "Spor salonu harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is Tom?",
+          "correct": "a new pupil",
+          "wrong": [
+            "a teacher",
+            "a headmaster",
+            "a friend"
+          ],
+          "hint": "Tom kim?",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is Miss White?",
+          "correct": "the headmistress",
+          "wrong": [
+            "a teacher",
+            "a pupil",
+            "a friend"
+          ],
+          "hint": "Miss White kim?",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where is Miss White?",
+          "correct": "in the teacher's room",
+          "wrong": [
+            "in the library",
+            "in the canteen",
+            "in the classroom"
+          ],
+          "hint": "Miss White nerede?",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Where is Anna?",
+          "correct": "in the sports hall",
+          "wrong": [
+            "in the garden",
+            "in the playground",
+            "in the classroom"
+          ],
+          "hint": "Anna nerede?",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "A Closed Door",
+      "subtitle": "Mia, Mr Stone ve Ben",
+      "icon": "🚪",
+      "hlMode": "none",
+      "hintMode": "tap",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Mia"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr Stone"
+        },
+        {
+          "e": "👦",
+          "n": "Ben"
+        }
+      ],
+      "sentences": [
+        "It is Monday morning.",
+        "Mia is at school.",
+        "She has got her bag and her book.",
+        "Mr Stone is not in the classroom.",
+        "The classroom door is closed.",
+        "Ben is outside.",
+        "He is sitting on the bench.",
+        "Ben is not happy."
+      ],
+      "translations": [
+        "Pazartesi sabahı.",
+        "Mia okulda.",
+        "Çantası ve kitabı yanında.",
+        "Mr Stone sınıfta değil.",
+        "Sınıf kapısı kapalı.",
+        "Ben dışarıda.",
+        "Bankta oturuyor.",
+        "Ben mutlu değil."
+      ],
+      "questions": [
+        {
+          "q": "Has the school day started yet?",
+          "correct": "No, not yet.",
+          "wrong": [
+            "Yes, it has.",
+            "It is lunchtime."
+          ],
+          "hint": "Kapı kapalı — öğretmen yok",
+          "hl": []
+        },
+        {
+          "q": "How does Ben probably feel?",
+          "correct": "Unhappy.",
+          "wrong": [
+            "Very happy.",
+            "Excited."
+          ],
+          "hint": "Ben hakkındaki son cümle",
+          "hl": []
+        },
+        {
+          "q": "Where is Mr Stone probably?",
+          "correct": "Not at school yet.",
+          "wrong": [
+            "In the library.",
+            "In the canteen."
+          ],
+          "hint": "Sınıfta değil — peki nerede?",
+          "hl": []
+        }
+      ]
+    }
+  ]
 }
