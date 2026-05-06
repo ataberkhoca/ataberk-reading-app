@@ -100,7 +100,6 @@ body::before{
 
 .choice:disabled{cursor:default;}
 
-.feedback{display:none;}
 .next-btn{margin-top:12px;width:100%;background:#FFD93D;color:#1A1A1A;font-family:'Fredoka One',cursive;font-size:17px;border-radius:16px;padding:15px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s;}
 .next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
 .next-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
@@ -912,13 +911,6 @@ body::before{
 .profil-save-btn:active { transform: translate(2px,2px);  box-shadow: 3px 3px 0 #1A1A1A; }
 
 /* Giriş ekranı — profil rozeti */
-.intro-profil-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  max-width: 280px;
-}
 .intro-profil-badge {
   flex: 1;
   display: flex;
@@ -1700,9 +1692,6 @@ function onScreenChange(screenId) {
     }
   }
 }
-
-// handleStart — profil sistemi JS bloğunda tanımlı
-
 
 const CFG={
   scan:{label:'Scanning',ac:'#FF6B6B',dark:'#8B1C26',mid:'#FFB3B3',lt:'#FFF0F0'},
@@ -2699,10 +2688,6 @@ function handleBadgeClick() {
   renderStats();
   showScreen('screen-stats');
 }
-
-// Etkinlik bitince otomatik kaydet — showResult'u wrap et
-
-
 
 // Yakında toast
 let _yakindaTimer = null;
