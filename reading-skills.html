@@ -1298,7 +1298,7 @@ button.celeb-retry {
   </div>
   <div class="intro-slogan">İngilizceyi sevmenin<br>en güzel yolu.</div>
   <div id="intro-profil-wrap" style="display:none; width:100%; max-width:280px;">
-    <div class="intro-profil-badge" onclick="handleBadgeClick()" id="intro-profil-badge" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')handleBadgeClick()">
+    <div class="intro-profil-badge" onclick="handleBadgeClick()" id="intro-profil-badge" role="button" tabindex="0">
       <div class="intro-profil-avatar" id="intro-av">🐱</div>
       <div class="intro-profil-name" id="intro-name">İsim</div>
       <div style="width:2px;height:22px;background:#1A1A1A;flex-shrink:0;margin:0 4px;border-radius:99px;"></div>
@@ -1327,20 +1327,15 @@ button.celeb-retry {
       <div class="profil-section-title" id="avatar-label">Avatarını seç</div>
       <div class="avatar-grid" role="radiogroup" aria-labelledby="avatar-label">
         <div class="avatar-opt selected" data-av="🐱" onclick="selectAvatar(this)"
-             role="radio" aria-checked="true" tabindex="0"
-             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐱</div>
+             role="radio" aria-checked="true" tabindex="0">🐱</div>
         <div class="avatar-opt" data-av="🐶" onclick="selectAvatar(this)"
-             role="radio" aria-checked="false" tabindex="-1"
-             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐶</div>
+             role="radio" aria-checked="false" tabindex="-1">🐶</div>
         <div class="avatar-opt" data-av="🦊" onclick="selectAvatar(this)"
-             role="radio" aria-checked="false" tabindex="-1"
-             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🦊</div>
+             role="radio" aria-checked="false" tabindex="-1">🦊</div>
         <div class="avatar-opt" data-av="🐸" onclick="selectAvatar(this)"
-             role="radio" aria-checked="false" tabindex="-1"
-             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🐸</div>
+             role="radio" aria-checked="false" tabindex="-1">🐸</div>
         <div class="avatar-opt" data-av="🦁" onclick="selectAvatar(this)"
-             role="radio" aria-checked="false" tabindex="-1"
-             onkeydown="if(event.key==='Enter'||event.key===' ')selectAvatar(this)">🦁</div>
+             role="radio" aria-checked="false" tabindex="-1">🦁</div>
       </div>
     </div>
     <div>
@@ -1363,7 +1358,7 @@ button.celeb-retry {
       <div class="screen-header-title">Profilim</div>
       <div class="screen-header-sub">İlerleme durumun</div>
     </div>
-    <div class="header-profil" id="hp-stats" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-stats" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-stats">🐱</div>
       <div class="header-profil-name" id="hp-name-stats">Profil</div>
     </div>
@@ -1392,7 +1387,7 @@ button.celeb-retry {
       <div class="screen-header-title">Nasıl Kullanılır?</div>
       <div class="screen-header-sub">Adım adım rehber</div>
     </div>
-    <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-nasil" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-nasil">🐱</div>
       <div class="header-profil-name" id="hp-name-nasil">Profil</div>
     </div>
@@ -1434,7 +1429,7 @@ button.celeb-retry {
       <div class="screen-header-title">Hakkımızda</div>
       <div class="screen-header-sub">Ataberk Hoca</div>
     </div>
-    <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-hakkinda">🐱</div>
       <div class="header-profil-name" id="hp-name-hakkinda">Profil</div>
     </div>
@@ -1470,13 +1465,13 @@ button.celeb-retry {
       <div class="screen-header-title">Etkinlik Seçimi</div>
       <div class="screen-header-sub">Ne çalışmak istersin?</div>
     </div>
-    <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-etkinlik" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-etkinlik">🐱</div>
       <div class="header-profil-name" id="hp-name-etkinlik">Profil</div>
     </div>
   </div>
   <div class="etkinlik-list">
-    <div class="etkinlik-card" onclick="selectSkill('scan')" role="button" tabindex="0" aria-label="Tarama etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('scan')">
+    <div class="etkinlik-card" onclick="selectSkill('scan')" role="button" tabindex="0" aria-label="Tarama etkinliği">
       <div class="etkinlik-icon" style="background:#FFF0F0;">🔍</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Scanning</div>
@@ -1485,7 +1480,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="selectSkill('skim')" role="button" tabindex="0" aria-label="Hızlı Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('skim')">
+    <div class="etkinlik-card" onclick="selectSkill('skim')" role="button" tabindex="0" aria-label="Hızlı Okuma etkinliği">
       <div class="etkinlik-icon" style="background:#E6F9FD;">⚡</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Skimming</div>
@@ -1494,7 +1489,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="selectSkill('int')" role="button" tabindex="0" aria-label="Dikkatli Okuma etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('int')">
+    <div class="etkinlik-card" onclick="selectSkill('int')" role="button" tabindex="0" aria-label="Dikkatli Okuma etkinliği">
       <div class="etkinlik-icon" style="background:#F4EAFF;">🔬</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Intensive Reading</div>
@@ -1503,7 +1498,7 @@ button.celeb-retry {
       </div>
       <div class="etkinlik-arrow">›</div>
     </div>
-    <div class="etkinlik-card" onclick="selectSkill('inf')" role="button" tabindex="0" aria-label="Çıkarım etkinliği" onkeydown="if(event.key==='Enter'||event.key===' ')selectSkill('inf')">
+    <div class="etkinlik-card" onclick="selectSkill('inf')" role="button" tabindex="0" aria-label="Çıkarım etkinliği">
       <div class="etkinlik-icon" style="background:#FFF4E8;">🧩</div>
       <div class="etkinlik-info">
         <div class="etkinlik-en">Inference</div>
@@ -1523,7 +1518,7 @@ button.celeb-retry {
       <div class="screen-header-title" id="ts-title">Metin Seçimi</div>
       <div class="screen-header-sub" id="ts-sub">Hangi hikayeyi okumak istersin?</div>
     </div>
-    <div class="header-profil" id="hp-textselect" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-textselect" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-textselect">🐱</div>
       <div class="header-profil-name" id="hp-name-textselect">Profil</div>
     </div>
@@ -1547,14 +1542,14 @@ button.celeb-retry {
       <div class="screen-header-title">Sınıf Seçimi</div>
       <div class="screen-header-sub">Hangi sınıftasın?</div>
     </div>
-    <div class="header-profil" id="hp-sinif" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-sinif" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-sinif">🐱</div>
       <div class="header-profil-name" id="hp-name-sinif">Profil</div>
     </div>
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showScreen('screen-theme');}">
+    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-num">2. Sınıf</div>
         <div class="sinif-sub">Primary 2</div>
@@ -1588,14 +1583,14 @@ button.celeb-retry {
       <div class="screen-header-title">Konu Seçimi</div>
       <div class="screen-header-sub">Hangi konuyu çalışmak istersin?</div>
     </div>
-    <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \')handleBadgeClick()">
+    <div class="header-profil" id="hp-theme" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-theme">🐱</div>
       <div class="header-profil-name" id="hp-name-theme">Profil</div>
     </div>
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();selectTopic('school-life');}">
+    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
         <div class="theme-info">
@@ -1606,7 +1601,7 @@ button.celeb-retry {
       <div class="theme-badge">Başla →</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">📚</div>
         <div class="theme-info">
@@ -1617,7 +1612,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">😊</div>
         <div class="theme-info">
@@ -1628,7 +1623,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">👨‍👩‍👧</div>
         <div class="theme-info">
@@ -1639,7 +1634,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">🏠</div>
         <div class="theme-info">
@@ -1650,7 +1645,7 @@ button.celeb-retry {
       <div class="theme-badge">Yakında</div>
     </div>
 
-    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showYakindaToast();}">
+    <div class="theme-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon" style="background:#F0F0F0;">🌆</div>
         <div class="theme-info">
@@ -1716,11 +1711,11 @@ const CFG={
   inf:{label:'Inference',ac:'#F4A261',dark:'#8B4E0E',mid:'#F9C49A',lt:'#FFF4E8'},
 };
 
-const TITLES = {
-  scan: 'Tarama',
-  skim: 'Hızlı Okuma',
-  int:  'Dikkatli Okuma',
-  inf:  'Çıkarım',
+const SKILLS = {
+  scan: { emoji: '🔍', label: 'Tarama',         help: 'Aşağıdaki hikayelerden birini seç. İstediğin sırayla yapabilirsin!' },
+  skim: { emoji: '⚡', label: 'Hızlı Okuma',    help: 'Aşağıdaki hikayelerden birini seç. Her birinde 10 saniye okuma süren olacak!' },
+  int:  { emoji: '🔬', label: 'Dikkatli Okuma', help: 'Aşağıdaki hikayelerden birini seç. Her cümleyi dikkatlice oku!' },
+  inf:  { emoji: '🧩', label: 'Çıkarım',        help: 'Aşağıdaki hikayelerden birini seç. İpuçlarına dikkat et!' },
 };
 
 // Aktif tema — theme seçiminde güncellenir
@@ -2068,7 +2063,7 @@ function renderQ(){
   if(qIdx===0) missedQuestions=[];
   const d=DATA[cur];const q=d.questions[qIdx];const tot=d.questions.length;
   document.getElementById('story-body').style.opacity='1';
-  document.getElementById('q-label').textContent=`${TITLES[cur]} — S${qIdx+1}`;
+  document.getElementById('q-label').textContent=`${SKILLS[cur].label} — S${qIdx+1}`;
   document.getElementById('q-text').textContent=q.q;
   document.getElementById('q-num').textContent=`Soru ${qIdx+1} / ${tot}`;
   document.getElementById('prog').style.width=`${(qIdx/tot)*100}%`;
@@ -2194,8 +2189,7 @@ function selectTopic(topicKey) {
 }
 
 async function startSkill(sk, textId) {
-  const titles = {scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli Okuma', inf:'Çıkarım'};
-  document.getElementById('game-topbar-title').textContent = titles[sk] || sk;
+  document.getElementById('game-topbar-title').textContent = SKILLS[sk].label;
   // Veri yükle — henüz yüklenmediyse
   if (!TOPIC_TEXTS) {
     try {
@@ -2223,12 +2217,12 @@ async function startSkill(sk, textId) {
   clearTimeout(hlTimer); clearInterval(timerInt);
   cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = [];
   setVars(sk);
-  document.getElementById('skill-tr').textContent = TITLES[sk] || CFG[sk].label;
+  document.getElementById('skill-tr').textContent = SKILLS[sk].label;
   document.getElementById('skill-en').textContent = CFG[sk].label;
   document.getElementById('score-chip').textContent = '⭐ 0';
   // Game topbar'a metin başlığını da ekle (alt satır olarak)
   const topbarTitle = document.getElementById('game-topbar-title');
-  if (topbarTitle) topbarTitle.textContent = (titles[sk] || sk) + ' · ' + chosen.title;
+  if (topbarTitle) topbarTitle.textContent = SKILLS[sk].label + ' · ' + chosen.title;
   showScreen('screen-game');
   renderStory();
   renderQ();
@@ -2237,12 +2231,6 @@ async function startSkill(sk, textId) {
 // ════════════════════════════════════════
 //  METİN SEÇİM EKRANI
 // ════════════════════════════════════════
-const SKILL_INTRO = {
-  scan: { emoji: '🔍', label: 'Tarama',         help: 'Aşağıdaki hikayelerden birini seç. İstediğin sırayla yapabilirsin!' },
-  skim: { emoji: '⚡', label: 'Hızlı Okuma',    help: 'Aşağıdaki hikayelerden birini seç. Her birinde 10 saniye okuma süren olacak!' },
-  int:  { emoji: '🔬', label: 'Dikkatli Okuma', help: 'Aşağıdaki hikayelerden birini seç. Her cümleyi dikkatlice oku!' },
-  inf:  { emoji: '🧩', label: 'Çıkarım',        help: 'Aşağıdaki hikayelerden birini seç. İpuçlarına dikkat et!' },
-};
 
 async function selectSkill(sk) {
   // Veri yükle — henüz yüklenmediyse
@@ -2261,8 +2249,7 @@ async function selectSkill(sk) {
 }
 
 function renderTextSelect(sk) {
-  const intro = SKILL_INTRO[sk];
-  const cfg = CFG[sk];
+  const intro = SKILLS[sk];
   const texts = TOPIC_TEXTS[sk] || [];
 
   // Üst başlık
@@ -2286,6 +2273,8 @@ function renderTextSelect(sk) {
     const stats = getTextStats(currentTopic, sk, t.id);
     return buildTextCardHTML(sk, t, idx, stats);
   }).join('');
+  // Dinamik eklenen kartlara klavye desteği
+  list.querySelectorAll('[role="button"]').forEach(makeKeyboardClickable);
 }
 
 function buildTextCardHTML(sk, text, idx, stats) {
@@ -2315,8 +2304,7 @@ function buildTextCardHTML(sk, text, idx, stats) {
     : '';
 
   return `
-    <div class="text-card" onclick="startSkill('${sk}', '${text.id}')" role="button" tabindex="0"
-         onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();startSkill('${sk}', '${text.id}');}">
+    <div class="text-card" onclick="startSkill('${sk}', '${text.id}')" role="button" tabindex="0">
       <div class="text-card-top-stripe"></div>
       ${recommended}
       <div class="text-card-row">
@@ -2494,7 +2482,7 @@ function isTopicComplete(topic) {
   const stats = loadStats();
   const topicData = stats[topic];
   if (!topicData) return false;
-  return Object.keys(SKILL_META).every(sk => topicData[sk]);
+  return Object.keys(SKILLS).every(sk => topicData[sk]);
 }
 
 function showCelebration(topic) {
@@ -2506,9 +2494,9 @@ function showCelebration(topic) {
   document.getElementById('celeb-sub').textContent = '4 etkinliği de tamamladın!';
 
   const skillsEl = document.getElementById('celeb-skills');
-  skillsEl.innerHTML = Object.entries(SKILL_META).map(([sk, name]) => {
+  skillsEl.innerHTML = Object.entries(SKILLS).map(([sk, info]) => {
     const done = topicData[sk];
-    return `<div class="celeb-skill-pill">${name} ${done ? '✓' : '○'}</div>`;
+    return `<div class="celeb-skill-pill">${info.label} ${done ? '✓' : '○'}</div>`;
   }).join('');
 
   showScreen('screen-celeb');
@@ -2602,11 +2590,6 @@ const TOPIC_META = {
   'life-in-city':    { icon:'🌆', name:'Life in the City' },
 };
 
-const SKILL_META = {
-  scan: 'Tarama', skim: 'Hızlı Okuma',
-  int: 'Dikkatli Okuma', inf: 'Çıkarım'
-};
-
 function loadStats() {
   const raw = localStorage.getItem('ataberk_stats');
   if (!raw) return {};
@@ -2687,14 +2670,14 @@ function renderStats() {
       return;
     }
     const skills = Object.keys(topicData);
-    const allSkills = Object.keys(SKILL_META);
+    const allSkills = Object.keys(SKILLS);
     const isDone = allSkills.every(s => topicData[s]);
     const cls = isDone ? 'done' : 'pending';
     const badge = isDone ? '✅' : '⏳';
     const detail = skills.map(s => {
       const sk = topicData[s];
       const pct = sk.total ? Math.round(sk.bestScore / sk.total * 100) : 0;
-      return `${SKILL_META[s]} %${pct}`;
+      return `${SKILLS[s].label} %${pct}`;
     }).join(' · ');
     topicsHTML += `
       <div class="topic-stat-row ${cls}">
