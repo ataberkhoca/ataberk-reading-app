@@ -1228,6 +1228,101 @@ button.celeb-retry {
   box-shadow: 3px 3px 0 #1A1A1A;
 }
 
+/* ── PROFİL SEÇİM EKRANI ── */
+.profile-select-wrap {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 20px;
+}
+.profile-select-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 28px;
+  color: #1A1A1A;
+  text-align: center;
+  margin-top: 8px;
+}
+.profile-select-sub {
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  margin-top: -16px;
+}
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  width: 100%;
+}
+.profile-card {
+  background: #fff;
+  border: 3px solid #1A1A1A;
+  border-radius: 22px;
+  box-shadow: 5px 5px 0 #1A1A1A;
+  padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+  min-height: 130px;
+  position: relative;
+  user-select: none;
+}
+.profile-card:hover {
+  transform: translate(-2px,-2px);
+  box-shadow: 7px 7px 0 #1A1A1A;
+}
+.profile-card:active {
+  transform: translate(2px,2px);
+  box-shadow: 3px 3px 0 #1A1A1A;
+}
+.profile-card-avatar {
+  font-size: 48px;
+  line-height: 1;
+}
+.profile-card-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 16px;
+  color: #1A1A1A;
+  text-align: center;
+  word-break: break-word;
+  max-width: 100%;
+}
+.profile-card.empty {
+  background: #F4F4F4;
+  border-style: dashed;
+  border-color: #999;
+  box-shadow: none;
+  color: #888;
+}
+.profile-card.empty:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.profile-card.empty .profile-card-avatar {
+  font-size: 42px;
+  color: #888;
+}
+.profile-card.empty .profile-card-name {
+  color: #888;
+  font-size: 14px;
+}
+.profile-select-back {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 12px;
+  text-decoration: underline;
+}
+.profile-select-back:hover { color: #1A1A1A; }
+
 </style>
 </head>
 <body>
@@ -1309,6 +1404,21 @@ button.celeb-retry {
     <button class="intro-link-pill" onclick="showScreen('screen-hakkinda')">Hakkımızda</button>
   </div>
   <div class="intro-footer">Ataberk Hoca © 2025</div>
+</div>
+
+<!-- PROFİL SEÇİM EKRANI -->
+<div class="screen" id="screen-profile-select">
+  <div class="profile-select-wrap">
+    <button class="profile-select-back" onclick="showScreen('screen-intro')">↰ Giriş</button>
+    <div class="profile-select-title">Kim oynuyor?</div>
+    <div class="profile-select-sub">Profilini seç veya yeni bir profil oluştur</div>
+    <div class="profile-grid" id="profile-grid">
+      <!-- renderProfileSelect() tarafından doldurulur -->
+    </div>
+    <button class="intro-link-pill" id="profile-select-stats-btn"
+            style="display:none; margin-top:8px;"
+            onclick="goToActiveProfileStats()">📊 İstatistiklerim</button>
+  </div>
 </div>
 
 <!-- PROFİL OLUŞTURMA EKRANI -->
@@ -1686,16 +1796,20 @@ function onActivityComplete(score, total, skill, topic) {
 }
 
 function onScreenChange(screenId) {
-  // Profil ekranı açılınca mevcut profili doldur
+  // Profil seçim ekranı açılınca grid'i yeniden render et
+  if (screenId === 'screen-profile-select') {
+    renderProfileSelect();
+  }
+  // Profil oluşturma ekranı açılınca formu sıfırla (yeni profil yaratıyoruz)
   if (screenId === 'screen-profil') {
-    const profil = loadProfil();
-    if (profil) {
-      document.getElementById('profil-input').value = profil.name;
-      selectedAvatar = profil.avatar;
-      document.querySelectorAll('.avatar-opt').forEach(a => {
-        a.classList.toggle('selected', a.dataset.av === profil.avatar);
-      });
-    }
+    const input = document.getElementById('profil-input');
+    if (input) input.value = '';
+    selectedAvatar = '🐱';
+    document.querySelectorAll('.avatar-opt').forEach(a => {
+      a.classList.toggle('selected', a.dataset.av === '🐱');
+      a.setAttribute('aria-checked', a.dataset.av === '🐱' ? 'true' : 'false');
+      a.setAttribute('tabindex', a.dataset.av === '🐱' ? '0' : '-1');
+    });
   }
 }
 
@@ -2043,7 +2157,7 @@ function renderTextSelect(sk) {
   document.getElementById('ts-intro-sub').textContent = intro.help;
 
   // Profil avatarını da güncelle (diğer ekranlarla tutarlılık)
-  const profil = (typeof loadProfil === 'function') ? loadProfil() : null;
+  const profil = getActiveProfile();
   if (profil) {
     const avEl = document.getElementById('hp-av-textselect');
     const nameEl = document.getElementById('hp-name-textselect');
@@ -2110,22 +2224,28 @@ function buildTextCardHTML(sk, text, idx, stats) {
   `;
 }
 
-// Metin başına stats (localStorage)
+// Metin başına stats — aktif profil için (localStorage)
+// Yapı: ataberk_text_stats[profileId][topic][skill][textId] = {attempts, bestScore, ...}
 function getTextStats(topic, skill, textId) {
   try {
-    const key = 'textStats_v1';
-    const all = JSON.parse(localStorage.getItem(key) || '{}');
-    return (all[topic] && all[topic][skill] && all[topic][skill][textId]) || null;
+    const profile = getActiveProfile();
+    if (!profile) return null;
+    const all = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
+    const profileData = all[profile.id];
+    return (profileData && profileData[topic] && profileData[topic][skill] && profileData[topic][skill][textId]) || null;
   } catch(e) { return null; }
 }
 
 function saveTextStats(topic, skill, textId, score, total, stars) {
   try {
-    const key = 'textStats_v1';
-    const all = JSON.parse(localStorage.getItem(key) || '{}');
-    if (!all[topic]) all[topic] = {};
-    if (!all[topic][skill]) all[topic][skill] = {};
-    const cur = all[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0 };
+    const profile = getActiveProfile();
+    if (!profile) return; // Aktif profil yoksa kayıt yapma
+    const all = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
+    if (!all[profile.id]) all[profile.id] = {};
+    const profileData = all[profile.id];
+    if (!profileData[topic]) profileData[topic] = {};
+    if (!profileData[topic][skill]) profileData[topic][skill] = {};
+    const cur = profileData[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0 };
     cur.attempts = (cur.attempts || 0) + 1;
     if (score > (cur.bestScore || 0)) {
       cur.bestScore = score;
@@ -2135,8 +2255,8 @@ function saveTextStats(topic, skill, textId, score, total, stars) {
       cur.bestStars = stars;
     }
     cur.lastPlayed = Date.now();
-    all[topic][skill][textId] = cur;
-    localStorage.setItem(key, JSON.stringify(all));
+    profileData[topic][skill][textId] = cur;
+    localStorage.setItem('ataberk_text_stats', JSON.stringify(all));
   } catch(e) { /* sessizce yut */ }
 }
 
@@ -2292,9 +2412,79 @@ function retryFromCeleb() {
 }
 
 // ════════════════════════════════════════
-//  PROFİL SİSTEMİ
+//  PROFİL SİSTEMİ — Çoklu profil (max 4)
 // ════════════════════════════════════════
+//
+// Veri yapısı (localStorage):
+//   ataberk_profiles        → [{id, name, avatar, createdAt}, ...]
+//   ataberk_active_profile  → "p_1714234567" (aktif profil id'si)
+//
+// API:
+//   loadProfiles() / saveProfiles() — tüm profiller
+//   getActiveProfile() / setActiveProfile() — aktif profil yönetimi
+//   createProfile() / deleteProfile() — yeni profil + silme
+
+const MAX_PROFILES = 4;
 let selectedAvatar = '🐱';
+
+// ── Yeni API ──
+
+function loadProfiles() {
+  const raw = localStorage.getItem('ataberk_profiles');
+  if (!raw) return [];
+  try { return JSON.parse(raw) || []; } catch(e) { return []; }
+}
+
+function saveProfiles(profiles) {
+  localStorage.setItem('ataberk_profiles', JSON.stringify(profiles));
+}
+
+function getActiveProfile() {
+  const activeId = localStorage.getItem('ataberk_active_profile');
+  if (!activeId) return null;
+  const profiles = loadProfiles();
+  return profiles.find(p => p.id === activeId) || null;
+}
+
+function setActiveProfile(profileId) {
+  localStorage.setItem('ataberk_active_profile', profileId);
+}
+
+function createProfile(name, avatar) {
+  const profiles = loadProfiles();
+  if (profiles.length >= MAX_PROFILES) {
+    return { ok: false, error: 'max-reached' };
+  }
+  const profile = {
+    id: 'p_' + Date.now(),
+    name: name.trim(),
+    avatar: avatar,
+    createdAt: Date.now()
+  };
+  profiles.push(profile);
+  saveProfiles(profiles);
+  setActiveProfile(profile.id);
+  return { ok: true, profile };
+}
+
+function deleteProfile(profileId) {
+  // Profili sil + ilgili istatistikleri de temizle
+  const profiles = loadProfiles().filter(p => p.id !== profileId);
+  saveProfiles(profiles);
+  // Aktif profil siliniyorsa, aktifliği kaldır
+  if (localStorage.getItem('ataberk_active_profile') === profileId) {
+    localStorage.removeItem('ataberk_active_profile');
+  }
+  // Stats temizliği — hem activity hem text-level
+  const stats = JSON.parse(localStorage.getItem('ataberk_stats') || '{}');
+  delete stats[profileId];
+  localStorage.setItem('ataberk_stats', JSON.stringify(stats));
+  const textStats = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
+  delete textStats[profileId];
+  localStorage.setItem('ataberk_text_stats', JSON.stringify(textStats));
+}
+
+// ── UI handlers ──
 
 function selectAvatar(el) {
   document.querySelectorAll('.avatar-opt').forEach(a => {
@@ -2310,22 +2500,22 @@ function selectAvatar(el) {
 }
 
 function saveProfil() {
+  // "Profili Kaydet" butonu — yeni profil oluşturur veya max kontrolü yapar
   const name = document.getElementById('profil-input').value.trim();
   if (!name) {
     document.getElementById('profil-input').placeholder = 'Lütfen adını yaz! 👇';
     document.getElementById('profil-input').focus();
     return;
   }
-  const profil = { name, avatar: selectedAvatar };
-  localStorage.setItem('ataberk_profil', JSON.stringify(profil));
-  updateIntroProfilBadge(profil);
+  const result = createProfile(name, selectedAvatar);
+  if (!result.ok) {
+    if (result.error === 'max-reached') {
+      showToast(`En fazla ${MAX_PROFILES} profil olabilir.`, 'error', 3000);
+    }
+    return;
+  }
+  updateIntroProfilBadge(result.profile);
   showScreen('screen-sinif');
-}
-
-function loadProfil() {
-  const raw = localStorage.getItem('ataberk_profil');
-  if (!raw) return null;
-  try { return JSON.parse(raw); } catch(e) { return null; }
 }
 
 function updateIntroProfilBadge(profil) {
@@ -2340,7 +2530,7 @@ function updateIntroProfilBadge(profil) {
     }
   }
   // Header rozetleri
-  const ids = ['sinif','theme','etkinlik','nasil','hakkinda','stats'];
+  const ids = ['sinif','theme','etkinlik','nasil','hakkinda','stats','textselect'];
   ids.forEach(sid => {
     const avEl   = document.getElementById('hp-av-'   + sid);
     const nameEl = document.getElementById('hp-name-' + sid);
@@ -2349,14 +2539,87 @@ function updateIntroProfilBadge(profil) {
   });
 }
 
+// ── Profil seçim ekranı ──
 
-// handleStart — profil yoksa profil ekranına, varsa sınıf seçimine
+function renderProfileSelect() {
+  const grid = document.getElementById('profile-grid');
+  if (!grid) return;
+  const profiles = loadProfiles();
+
+  // Önce dolu profiller, sonra "+ Yeni" boş slotlar (toplam MAX_PROFILES kadar)
+  const cards = [];
+  profiles.forEach(p => {
+    cards.push(`
+      <div class="profile-card" onclick="selectProfile('${p.id}')"
+           role="button" tabindex="0" data-profile-id="${p.id}"
+           aria-label="${p.name} profili ile oyna">
+        <div class="profile-card-avatar">${p.avatar}</div>
+        <div class="profile-card-name">${escapeHtml(p.name)}</div>
+      </div>
+    `);
+  });
+  // Boş slot sayısı = MAX_PROFILES - mevcut profil sayısı (en az 1 boş slot olsun ki yeni eklenebilsin)
+  const emptySlots = Math.max(0, MAX_PROFILES - profiles.length);
+  for (let i = 0; i < emptySlots; i++) {
+    cards.push(`
+      <div class="profile-card empty" onclick="startNewProfile()"
+           role="button" tabindex="0" aria-label="Yeni profil oluştur">
+        <div class="profile-card-avatar">+</div>
+        <div class="profile-card-name">Yeni Profil</div>
+      </div>
+    `);
+  }
+  grid.innerHTML = cards.join('');
+  // Dinamik eklenen kartlara klavye desteği bağla
+  grid.querySelectorAll('[role="button"]').forEach(makeKeyboardClickable);
+
+  // İstatistikler butonu — sadece aktif profil varsa görünür
+  const statsBtn = document.getElementById('profile-select-stats-btn');
+  if (statsBtn) {
+    const active = getActiveProfile();
+    statsBtn.style.display = active ? 'inline-block' : 'none';
+  }
+}
+
+// XSS koruması — kullanıcı profil adı için
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function selectProfile(profileId) {
+  setActiveProfile(profileId);
+  const profile = getActiveProfile();
+  if (!profile) return; // savunmacı kontrol — profil bir şekilde silinmişse
+  updateIntroProfilBadge(profile);
+  showScreen('screen-sinif');
+}
+
+function startNewProfile() {
+  // Profil oluşturma ekranına git (mevcut screen-profil)
+  // saveProfil() içindeki MAX_PROFILES kontrolü zaten var
+  showScreen('screen-profil');
+}
+
+function goToActiveProfileStats() {
+  // Profil seçim ekranındaki "İstatistiklerim" butonu için
+  if (!getActiveProfile()) return;
+  renderStats();
+  showScreen('screen-stats');
+}
+
+
+// handleStart — Hiç profil yoksa profil oluşturma ekranına, en az 1 profil varsa profil seçim ekranına
 function handleStart() {
-  const profil = loadProfil();
-  if (!profil) {
+  const profiles = loadProfiles();
+  if (profiles.length === 0) {
     showScreen('screen-profil');
   } else {
-    showScreen('screen-sinif');
+    showScreen('screen-profile-select');
   }
 }
 
@@ -2374,14 +2637,26 @@ const TOPIC_META = {
   'life-in-city':    { icon:'🌆', name:'Life in the City' },
 };
 
+// Activity-level stats — aktif profil için
+// Yapı: ataberk_stats[profileId][topic][skill] = {bestScore, total, stars, attempts, lastPlayed}
+// loadStats() aktif profilin tema-beceri stats'ını döndürür (eski API ile uyumlu)
 function loadStats() {
-  const raw = localStorage.getItem('ataberk_stats');
-  if (!raw) return {};
-  try { return JSON.parse(raw); } catch(e) { return {}; }
+  const profile = getActiveProfile();
+  if (!profile) return {};
+  try {
+    const all = JSON.parse(localStorage.getItem('ataberk_stats') || '{}');
+    return all[profile.id] || {};
+  } catch(e) { return {}; }
 }
 
 function saveActivityStats(topic, skill, score, total, stars) {
-  const stats = loadStats();
+  const profile = getActiveProfile();
+  if (!profile) return; // Aktif profil yoksa kayıt yapma
+
+  const all = JSON.parse(localStorage.getItem('ataberk_stats') || '{}');
+  if (!all[profile.id]) all[profile.id] = {};
+  const stats = all[profile.id];
+
   const prev = stats[topic]?.[skill];
   const isFirstTime = !prev;
   const isBetter = prev && score > prev.bestScore;
@@ -2399,11 +2674,11 @@ function saveActivityStats(topic, skill, score, total, stars) {
     // Yeni deneme — sadece attempts sayacını artır
     stats[topic][skill].attempts = (prev.attempts || 0) + 1;
   }
-  localStorage.setItem('ataberk_stats', JSON.stringify(stats));
+  localStorage.setItem('ataberk_stats', JSON.stringify(all));
 }
 
 function renderStats() {
-  const profil = loadProfil();
+  const profil = getActiveProfile();
   const stats  = loadStats();
   const scroll = document.getElementById('stats-scroll');
 
@@ -2474,14 +2749,15 @@ function renderStats() {
       </div>`;
   });
 
-  const editHTML = `<button class="stats-edit-btn" onclick="showScreen('screen-profil')">✏️ Profili Düzenle</button>`;
+  const editHTML = `<button class="stats-edit-btn" onclick="showScreen('screen-profile-select')">🔄 Profil Değiştir</button>`;
 
   scroll.innerHTML = heroHTML + gridHTML + topicsHTML + editHTML;
 }
 
+// Header rozetine tıklayınca profil seçim ekranına git (profil değiştirmek için).
+// Stats için renderStats içindeki ayrı butonu kullanıyoruz.
 function handleBadgeClick() {
-  renderStats();
-  showScreen('screen-stats');
+  showScreen('screen-profile-select');
 }
 
 // Toast bildirim sistemi — kısa süreli bildirim göstermek için
@@ -2522,7 +2798,7 @@ function initKeyboardNav() {
 }
 
 // Başlangıç
-const _profilInit = loadProfil();
+const _profilInit = getActiveProfile();
 updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
 initKeyboardNav();
