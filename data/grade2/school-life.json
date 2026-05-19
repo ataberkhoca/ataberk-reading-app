@@ -4,195 +4,73 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "Ruby and Bobby",
-      "subtitle": "Ruby ve arkadaşı Bobby",
-      "icon": "👧",
-      "hlMode": "always",
-      "hintMode": "always",
+      "title": "A Day at Jungle School",
+      "subtitle": "Find the right person and place!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "👧",
-          "n": "Ruby"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Mrs Hopkins"
-        },
-        {
-          "e": "👦",
-          "n": "Bobby"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
-        "Hi! My name is Ruby.",
-        "I am a pupil.",
-        "Mrs Hopkins is my teacher.",
-        "She is in the classroom.",
-        "Bobby is my friend.",
-        "He is a boy.",
-        "Bobby is in the garden.",
-        "The garden is big.",
-        "My school is nice.",
-        "I am happy at school."
+        "Hi! I am Lily.",
+        "I am a pupil at Jungle School.",
+        "Max is my friend.",
+        "He is in the playground.",
+        "Mr Green is our teacher.",
+        "He is in the classroom.",
+        "Mrs Brown is our headmistress.",
+        "She is in the library."
       ],
       "translations": [
-        "Selam! Benim adım Ruby.",
-        "Ben bir öğrenciyim.",
-        "Mrs Hopkins benim öğretmenim.",
+        "Merhaba! Ben Lily.",
+        "Jungle School'da bir öğrenciyim.",
+        "Max benim arkadaşım.",
+        "O oyun alanında.",
+        "Mr Green bizim öğretmenimiz.",
         "O sınıfta.",
-        "Bobby benim arkadaşım.",
-        "O bir erkek.",
-        "Bobby bahçede.",
-        "Bahçe büyük.",
-        "Okulum güzel.",
-        "Okulda mutluyum."
+        "Mrs Brown bizim müdiremiz.",
+        "O kütüphanede."
       ],
       "questions": [
         {
-          "q": "Where is Bobby?",
-          "correct": "in the garden",
-          "wrong": [
-            "in the classroom",
-            "in the library"
-          ],
-          "hint": "Bobby nerede?",
-          "hl": [
-            6
-          ]
+          "q": "Where is Max?",
+          "correct": "In the playground",
+          "wrong": ["In the classroom", "In the library"],
+          "hint": "Find Max in the text.",
+          "hl": [3]
         },
         {
-          "q": "Who is Mrs Hopkins?",
-          "correct": "a teacher",
-          "wrong": [
-            "a pupil",
-            "a friend"
-          ],
-          "hint": "Mrs Hopkins kim?",
-          "hl": [
-            2
-          ]
+          "q": "Who is in the classroom?",
+          "correct": "Mr Green",
+          "wrong": ["Mrs Brown", "Lily"],
+          "hint": "Look for the word classroom in the text.",
+          "hl": [5]
         },
         {
-          "q": "Who is Ruby?",
-          "correct": "a pupil",
-          "wrong": [
-            "a teacher",
-            "a headmistress"
-          ],
-          "hint": "Ruby kim?",
-          "hl": [
-            1
-          ]
+          "q": "Where is Mrs Brown?",
+          "correct": "In the library",
+          "wrong": ["In the playground", "In the classroom"],
+          "hint": "Find Mrs Brown in the text.",
+          "hl": [7]
         },
         {
-          "q": "Is the garden big?",
-          "correct": "Yes, it is!",
-          "wrong": [
-            "No, it isn't.",
-            "The text doesn't say."
-          ],
-          "hint": "Bahçe cümlesi",
-          "hl": [
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scan-2",
-      "title": "My Friend Ada",
-      "subtitle": "Leo, Mr Brown ve Ada",
-      "icon": "👦",
-      "hlMode": "always",
-      "hintMode": "always",
-      "choices": 3,
-      "cast": [
-        {
-          "e": "👦",
-          "n": "Leo"
+          "q": "Who is the headmistress?",
+          "correct": "Mrs Brown",
+          "wrong": ["Mr Green", "Max"],
+          "hint": "Look for the word headmistress.",
+          "hl": [6]
         },
         {
-          "e": "👨‍💼",
-          "n": "Mr Brown"
-        },
-        {
-          "e": "👧",
-          "n": "Ada"
-        }
-      ],
-      "sentences": [
-        "Hello! My name is Leo.",
-        "I am a pupil at this school.",
-        "Mr Brown is the headmaster.",
-        "He is in the teacher's room.",
-        "Ada is my friend.",
-        "She is a girl.",
-        "Ada is in the library.",
-        "The library is big.",
-        "My school is nice.",
-        "Ada is my new friend."
-      ],
-      "translations": [
-        "Merhaba! Benim adım Leo.",
-        "Ben bu okulda bir öğrenciyim.",
-        "Mr Brown okul müdürü.",
-        "O öğretmen odasında.",
-        "Ada benim arkadaşım.",
-        "O bir kız.",
-        "Ada kütüphanede.",
-        "Kütüphane büyük.",
-        "Okulum güzel.",
-        "Ada benim yeni arkadaşım."
-      ],
-      "questions": [
-        {
-          "q": "Where is Ada?",
-          "correct": "in the library",
-          "wrong": [
-            "in the canteen",
-            "in the garden"
-          ],
-          "hint": "Ada nerede?",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "Who is Mr Brown?",
-          "correct": "the headmaster",
-          "wrong": [
-            "a teacher",
-            "a pupil"
-          ],
-          "hint": "Mr Brown kim?",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Where is Mr Brown?",
-          "correct": "in the teacher's room",
-          "wrong": [
-            "in the classroom",
-            "in the sports hall"
-          ],
-          "hint": "Mr Brown nerede?",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Is the library big?",
-          "correct": "Yes, it is!",
-          "wrong": [
-            "No, it isn't.",
-            "The text doesn't say."
-          ],
-          "hint": "Kütüphane hakkındaki cümle",
-          "hl": [
-            7
-          ]
+          "q": "What is Lily?",
+          "correct": "A pupil",
+          "wrong": ["A teacher", "A headmistress"],
+          "hint": "Read the second sentence carefully.",
+          "hl": [1]
         }
       ]
     }
@@ -200,88 +78,81 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "Mr Green's School",
-      "subtitle": "Mr Green, Sam ve Lily",
-      "icon": "👨‍💼",
-      "hlMode": "fade10",
-      "hintMode": "tap",
+      "title": "A New Day at Jungle School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👋",
+      "hlMode": "always",
+      "hintMode": "button",
       "choices": 3,
-      "timer": 10,
       "cast": [
-        {
-          "e": "👨‍💼",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
-          "e": "👧",
-          "n": "Lily"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
-        "My name is Mr Green.",
-        "I am the headmaster.",
-        "This is my school.",
-        "Sam is a pupil.",
-        "He is in the library.",
-        "Sam is a good kid.",
-        "Lily is a pupil too.",
-        "She is in the canteen.",
-        "The canteen is nice.",
-        "Sam and Lily are friends."
+        "Good morning!",
+        "I am Lily.",
+        "This is my friend Max.",
+        "Hello Max!",
+        "Today is a new day at Jungle School.",
+        "Meet Mr Green!",
+        "He is our teacher.",
+        "Hello Mr Green!",
+        "Meet Mrs Brown!",
+        "She is our headmistress.",
+        "Hello Mrs Brown!",
+        "We love Jungle School!"
       ],
       "translations": [
-        "Benim adım Mr Green.",
-        "Ben okul müdürüyüm.",
-        "Bu benim okulum.",
-        "Sam bir öğrenci.",
-        "O kütüphanede.",
-        "Sam iyi bir çocuk.",
-        "Lily de bir öğrenci.",
-        "O yemekhanede.",
-        "Yemekhane güzel.",
-        "Sam ve Lily arkadaş."
+        "Günaydın!",
+        "Ben Lily.",
+        "Bu benim arkadaşım Max.",
+        "Merhaba Max!",
+        "Bugün Jungle School'da yeni bir gün.",
+        "Mr Green ile tanışın!",
+        "O bizim öğretmenimiz.",
+        "Merhaba Mr Green!",
+        "Mrs Brown ile tanışın!",
+        "O bizim müdiremiz.",
+        "Merhaba Mrs Brown!",
+        "Jungle School'u seviyoruz!"
       ],
       "questions": [
         {
-          "q": "What is this mainly about?",
-          "correct": "A school and its people",
-          "wrong": [
-            "A library",
-            "A canteen"
-          ],
-          "hint": "Genel konu ne?",
-          "hl": [
-            0,
-            2
-          ]
+          "q": "What is the text mainly about?",
+          "correct": "Meeting people at school",
+          "wrong": ["Days of the week", "Places at school"],
+          "hint": "Look at the greetings in the text. What is happening?",
+          "hl": [3, 7, 10]
         },
         {
-          "q": "Who is Mr Green?",
-          "correct": "the headmaster",
-          "wrong": [
-            "a teacher",
-            "a pupil"
-          ],
-          "hint": "Mr Green kim?",
-          "hl": [
-            1
-          ]
+          "q": "Who are in the text?",
+          "correct": "Lily, Max, Mr Green and Mrs Brown",
+          "wrong": ["Lily, Max and Tom", "Mr Green, Mrs Brown and Sam"],
+          "hint": "Find all the names in the text.",
+          "hl": [1, 2, 5, 8]
         },
         {
-          "q": "Are Sam and Lily friends?",
-          "correct": "Yes, they are!",
-          "wrong": [
-            "No, they aren't.",
-            "Maybe."
-          ],
-          "hint": "Son cümle",
-          "hl": [
-            9
-          ]
+          "q": "Where does the story happen?",
+          "correct": "At Jungle School",
+          "wrong": ["At home", "In the playground"],
+          "hint": "Look for the name of the school.",
+          "hl": [4]
+        },
+        {
+          "q": "What kind of text is this?",
+          "correct": "A greeting story",
+          "wrong": ["A school timetable", "A celebration story"],
+          "hint": "Look at how people talk to each other.",
+          "hl": [0, 3, 7, 10]
+        },
+        {
+          "q": "How does Lily feel about Jungle School?",
+          "correct": "She loves it",
+          "wrong": ["She is sad", "She is scared"],
+          "hint": "Read the last sentence.",
+          "hl": [11]
         }
       ]
     }
@@ -289,104 +160,79 @@
   "int": [
     {
       "id": "int-1",
-      "title": "Tom's New School",
-      "subtitle": "Tom, Anna ve Miss White",
-      "icon": "👦",
+      "title": "Our School Week",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📅",
       "hlMode": "fade3",
-      "hintMode": "tap",
-      "choices": 4,
+      "hintMode": "button",
+      "choices": 3,
       "cast": [
-        {
-          "e": "👦",
-          "n": "Tom"
-        },
-        {
-          "e": "👧",
-          "n": "Anna"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Miss White"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
-        "Hi! My name is Tom.",
-        "I am a new pupil.",
-        "This is my new school.",
-        "Anna is my friend.",
-        "She is a girl.",
-        "Anna is my new friend.",
-        "Miss White is the headmistress.",
-        "She is in the teacher's room.",
-        "The teacher's room is big.",
-        "Anna is in the sports hall.",
-        "The sports hall is great!"
+        "Today is Monday.",
+        "Lily and Max are at school.",
+        "Tuesday is art day.",
+        "Lily loves art.",
+        "Wednesday is sports day.",
+        "Max loves sports.",
+        "Thursday is library day.",
+        "Mrs Brown is in the library.",
+        "Friday is the last school day.",
+        "Mr Green says goodbye.",
+        "Saturday and Sunday are not school days."
       ],
       "translations": [
-        "Selam! Benim adım Tom.",
-        "Ben yeni bir öğrenciyim.",
-        "Bu benim yeni okulum.",
-        "Anna benim arkadaşım.",
-        "O bir kız.",
-        "Anna benim yeni arkadaşım.",
-        "Miss White okul müdiresi.",
-        "O öğretmen odasında.",
-        "Öğretmen odası büyük.",
-        "Anna spor salonunda.",
-        "Spor salonu harika!"
+        "Bugün Pazartesi.",
+        "Lily ve Max okulda.",
+        "Salı sanat günü.",
+        "Lily sanatı seviyor.",
+        "Çarşamba spor günü.",
+        "Max sporu seviyor.",
+        "Perşembe kütüphane günü.",
+        "Mrs Brown kütüphanede.",
+        "Cuma son okul günü.",
+        "Mr Green hoşça kal diyor.",
+        "Cumartesi ve Pazar okul günü değil."
       ],
       "questions": [
         {
-          "q": "Who is Tom?",
-          "correct": "a new pupil",
-          "wrong": [
-            "a teacher",
-            "a headmaster",
-            "a friend"
-          ],
-          "hint": "Tom kim?",
-          "hl": [
-            1
-          ]
+          "q": "What day is today?",
+          "correct": "Monday",
+          "wrong": ["Tuesday", "Friday"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
         },
         {
-          "q": "Who is Miss White?",
-          "correct": "the headmistress",
-          "wrong": [
-            "a teacher",
-            "a pupil",
-            "a friend"
-          ],
-          "hint": "Miss White kim?",
-          "hl": [
-            6
-          ]
+          "q": "What is Wednesday?",
+          "correct": "Sports day",
+          "wrong": ["Art day", "Library day"],
+          "hint": "Find Wednesday in the text.",
+          "hl": [4]
         },
         {
-          "q": "Where is Miss White?",
-          "correct": "in the teacher's room",
-          "wrong": [
-            "in the library",
-            "in the canteen",
-            "in the classroom"
-          ],
-          "hint": "Miss White nerede?",
-          "hl": [
-            7
-          ]
+          "q": "Who is in the library on Thursday?",
+          "correct": "Mrs Brown",
+          "wrong": ["Mr Green", "Max"],
+          "hint": "Find Thursday in the text.",
+          "hl": [6, 7]
         },
         {
-          "q": "Where is Anna?",
-          "correct": "in the sports hall",
-          "wrong": [
-            "in the garden",
-            "in the playground",
-            "in the classroom"
-          ],
-          "hint": "Anna nerede?",
-          "hl": [
-            9
-          ]
+          "q": "Which days are not school days?",
+          "correct": "Saturday and Sunday",
+          "wrong": ["Friday and Saturday", "Thursday and Friday"],
+          "hint": "Read the last sentence.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Mr Green do on Friday?",
+          "correct": "He says goodbye",
+          "wrong": ["He goes to the library", "He plays sports"],
+          "hint": "Find Mr Green in the text.",
+          "hl": [8, 9]
         }
       ]
     }
@@ -394,76 +240,75 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "A Closed Door",
-      "subtitle": "Mia, Mr Stone ve Ben",
-      "icon": "🚪",
-      "hlMode": "none",
-      "hintMode": "tap",
+      "title": "A Special Day at Jungle School",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
       "choices": 3,
       "cast": [
-        {
-          "e": "👧",
-          "n": "Mia"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Stone"
-        },
-        {
-          "e": "👦",
-          "n": "Ben"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
-        "It is Monday morning.",
-        "Mia is at school.",
-        "She has got her bag and her book.",
-        "Mr Stone is not in the classroom.",
-        "The classroom door is closed.",
-        "Ben is outside.",
-        "He is sitting on the bench.",
-        "Ben is not happy."
+        "Today is a special day at Jungle School.",
+        "There are flags everywhere.",
+        "Lily is smiling.",
+        "Max is very excited.",
+        "Mr Green says: \"This is our national day!\"",
+        "Mrs Brown is happy.",
+        "She has a big cake.",
+        "All the pupils are together.",
+        "Everyone is celebrating!"
       ],
       "translations": [
-        "Pazartesi sabahı.",
-        "Mia okulda.",
-        "Çantası ve kitabı yanında.",
-        "Mr Stone sınıfta değil.",
-        "Sınıf kapısı kapalı.",
-        "Ben dışarıda.",
-        "Bankta oturuyor.",
-        "Ben mutlu değil."
+        "Bugün Jungle School'da özel bir gün.",
+        "Her yerde bayraklar var.",
+        "Lily gülümsüyor.",
+        "Max çok heyecanlı.",
+        "Mr Green diyor ki: \"Bu bizim milli günümüz!\"",
+        "Mrs Brown mutlu.",
+        "Onun büyük bir pastası var.",
+        "Bütün öğrenciler bir arada.",
+        "Herkes kutluyor!"
       ],
       "questions": [
         {
-          "q": "Has the school day started yet?",
-          "correct": "No, not yet.",
-          "wrong": [
-            "Yes, it has.",
-            "It is lunchtime."
-          ],
-          "hint": "Kapı kapalı — öğretmen yok",
-          "hl": []
+          "q": "How does Lily feel?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Scared"],
+          "hint": "Look at what Lily is doing.",
+          "hl": [2]
         },
         {
-          "q": "How does Ben probably feel?",
-          "correct": "Unhappy.",
-          "wrong": [
-            "Very happy.",
-            "Excited."
-          ],
-          "hint": "Ben hakkındaki son cümle",
-          "hl": []
+          "q": "Why is today a special day?",
+          "correct": "It is a national day",
+          "wrong": ["It is a sports day", "It is a library day"],
+          "hint": "What does Mr Green say?",
+          "hl": [4]
         },
         {
-          "q": "Where is Mr Stone probably?",
-          "correct": "Not at school yet.",
-          "wrong": [
-            "In the library.",
-            "In the canteen."
-          ],
-          "hint": "Sınıfta değil — peki nerede?",
-          "hl": []
+          "q": "How does Mrs Brown feel?",
+          "correct": "Happy",
+          "wrong": ["Tired", "Angry"],
+          "hint": "Find Mrs Brown in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What are the pupils doing together?",
+          "correct": "Celebrating",
+          "wrong": ["Studying", "Playing sports"],
+          "hint": "Read the last sentence.",
+          "hl": [7, 8]
+        },
+        {
+          "q": "What kind of day is it at Jungle School?",
+          "correct": "A celebration day",
+          "wrong": ["A normal school day", "A sports day"],
+          "hint": "Look at the flags, the cake and what Mr Green says.",
+          "hl": [1, 4, 6]
         }
       ]
     }

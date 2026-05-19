@@ -1,0 +1,300 @@
+{
+  "theme": "Classroom Life",
+  "themeNumber": 2,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "In Our Classroom",
+      "subtitle": "Find the right object and person!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "This is our classroom.",
+        "There is a whiteboard.",
+        "There is a big desk.",
+        "There are twenty chairs.",
+        "Lily has a red bag.",
+        "Max has a pencil case.",
+        "There is a clock on the wall.",
+        "Mr Green has a book."
+      ],
+      "translations": [
+        "Bu bizim sınıfımız.",
+        "Bir beyaz tahta var.",
+        "Büyük bir sıra var.",
+        "Yirmi sandalye var.",
+        "Lily'nin kırmızı bir çantası var.",
+        "Max'in bir kalem kutusu var.",
+        "Duvarda bir saat var.",
+        "Mr Green'in bir kitabı var."
+      ],
+      "questions": [
+        {
+          "q": "What does Lily have?",
+          "correct": "A red bag",
+          "wrong": ["A pencil case", "A book"],
+          "hint": "Find Lily in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Who has a book?",
+          "correct": "Mr Green",
+          "wrong": ["Lily", "Max"],
+          "hint": "Look for the word book in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What is on the wall?",
+          "correct": "A clock",
+          "wrong": ["A picture", "A whiteboard"],
+          "hint": "Find the word wall in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How many chairs are there?",
+          "correct": "Twenty",
+          "wrong": ["Ten", "Five"],
+          "hint": "Look for the word chairs in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Max have?",
+          "correct": "A pencil case",
+          "wrong": ["A bag", "A book"],
+          "hint": "Find Max in the text.",
+          "hl": [5]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "Colours in Our Classroom",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌈",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "Our classroom is very colourful!",
+        "The whiteboard is white.",
+        "The chairs are yellow.",
+        "Lily's bag is red.",
+        "Max's pencil is blue.",
+        "Mr Green's book is green.",
+        "The clock is orange.",
+        "We love our colourful classroom!"
+      ],
+      "translations": [
+        "Sınıfımız çok renkli!",
+        "Beyaz tahta beyaz.",
+        "Sandalyeler sarı.",
+        "Lily'nin çantası kırmızı.",
+        "Max'in kalemi mavi.",
+        "Mr Green'in kitabı yeşil.",
+        "Saat turuncu.",
+        "Renkli sınıfımızı seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Colours in the classroom",
+          "wrong": ["Classroom objects", "Classroom instructions"],
+          "hint": "Look at the colours in the text. What do you see?",
+          "hl": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "q": "How is the classroom?",
+          "correct": "Colourful",
+          "wrong": ["Small", "Dark"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "Who are in the text?",
+          "correct": "Lily, Max and Mr Green",
+          "wrong": ["Lily, Max and Mrs Brown", "Max, Mr Green and Mrs Brown"],
+          "hint": "Find all the names in the text.",
+          "hl": [3, 4, 5]
+        },
+        {
+          "q": "What kind of text is this?",
+          "correct": "A description of a classroom",
+          "wrong": ["A school timetable", "A greeting story"],
+          "hint": "Look at what the text describes.",
+          "hl": [0, 1, 2, 3, 4, 5, 6]
+        },
+        {
+          "q": "How do the pupils feel about their classroom?",
+          "correct": "They love it",
+          "wrong": ["They are sad", "They are bored"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "A Busy Morning in Class",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📖",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "Mr Green is in the classroom.",
+        "He says: \"Sit down, please!\"",
+        "Lily sits down.",
+        "Mr Green says: \"Open your books!\"",
+        "Max opens his book.",
+        "Mr Green says: \"Listen carefully!\"",
+        "The pupils listen.",
+        "Mr Green says: \"Well done!\"",
+        "Everyone is happy."
+      ],
+      "translations": [
+        "Mr Green sınıfta.",
+        "O diyor ki: \"Lütfen oturun!\"",
+        "Lily oturuyor.",
+        "Mr Green diyor ki: \"Kitaplarınızı açın!\"",
+        "Max kitabını açıyor.",
+        "Mr Green diyor ki: \"Dikkatlice dinleyin!\"",
+        "Öğrenciler dinliyor.",
+        "Mr Green diyor ki: \"Aferin!\"",
+        "Herkes mutlu."
+      ],
+      "questions": [
+        {
+          "q": "What does Mr Green say first?",
+          "correct": "Sit down, please!",
+          "wrong": ["Open your books!", "Listen carefully!"],
+          "hint": "Read the second sentence.",
+          "hl": [1]
+        },
+        {
+          "q": "Who opens a book?",
+          "correct": "Max",
+          "wrong": ["Lily", "Mr Green"],
+          "hint": "Find the word book in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Lily do?",
+          "correct": "She sits down",
+          "wrong": ["She opens her book", "She listens"],
+          "hint": "Find Lily in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Mr Green say after \"Open your books!\"?",
+          "correct": "Listen carefully!",
+          "wrong": ["Sit down, please!", "Well done!"],
+          "hint": "Find 'Open your books!' and read the next sentence.",
+          "hl": [3, 5]
+        },
+        {
+          "q": "How does everyone feel at the end?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Tired"],
+          "hint": "Read the last sentence.",
+          "hl": [8]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "A Special Lesson",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎁",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "Today is a special day in class.",
+        "Mr Green has a big box.",
+        "Lily is very curious.",
+        "Max is smiling.",
+        "Mr Green opens the box.",
+        "There is a smart board inside!",
+        "Mr Green says: \"Look at this!\"",
+        "The pupils raise their hands.",
+        "Everyone is excited."
+      ],
+      "translations": [
+        "Bugün sınıfta özel bir gün.",
+        "Mr Green'in büyük bir kutusu var.",
+        "Lily çok meraklı.",
+        "Max gülümsüyor.",
+        "Mr Green kutuyu açıyor.",
+        "İçinde bir akıllı tahta var!",
+        "Mr Green diyor ki: \"Buna bakın!\"",
+        "Öğrenciler ellerini kaldırıyor.",
+        "Herkes heyecanlı."
+      ],
+      "questions": [
+        {
+          "q": "How does Lily feel?",
+          "correct": "Curious",
+          "wrong": ["Sad", "Tired"],
+          "hint": "Look at what Lily is doing.",
+          "hl": [2]
+        },
+        {
+          "q": "What is in the box?",
+          "correct": "A smart board",
+          "wrong": ["A book", "A clock"],
+          "hint": "Find the word box in the text.",
+          "hl": [4, 5]
+        },
+        {
+          "q": "How do the pupils feel about the smart board?",
+          "correct": "Excited",
+          "wrong": ["Bored", "Scared"],
+          "hint": "Read the last sentence.",
+          "hl": [8]
+        },
+        {
+          "q": "Why do the pupils raise their hands?",
+          "correct": "They are excited and want to use it",
+          "wrong": ["They want to go outside", "They want to sit down"],
+          "hint": "Look at what happens after Mr Green opens the box.",
+          "hl": [5, 6, 7]
+        },
+        {
+          "q": "What kind of lesson is this?",
+          "correct": "A fun and exciting lesson",
+          "wrong": ["A boring lesson", "A difficult lesson"],
+          "hint": "Look at how everyone feels in the text.",
+          "hl": [0, 2, 3, 8]
+        }
+      ]
+    }
+  ]
+}
