@@ -1,0 +1,299 @@
+{
+  "theme": "Personal Life",
+  "themeNumber": 3,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "My Body",
+      "subtitle": "Find the right information!",
+      "icon": "🧒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" }
+      ],
+      "sentences": [
+        "Hi! I am Lily.",
+        "I have got one head and one face.",
+        "I have got two eyes and two ears.",
+        "My hair is long and blonde.",
+        "I have got one nose and one mouth.",
+        "I have got two arms and two hands.",
+        "I have got two legs.",
+        "My body is great!"
+      ],
+      "translations": [
+        "Merhaba! Ben Lily.",
+        "Bir başım ve bir yüzüm var.",
+        "İki gözüm ve iki kulağım var.",
+        "Saçlarım uzun ve sarı.",
+        "Bir burnum ve bir ağzım var.",
+        "İki kolum ve iki elim var.",
+        "İki bacağım var.",
+        "Vücudum harika!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is Lily's hair?",
+          "correct": "Blonde",
+          "wrong": ["Dark", "Brown"],
+          "hint": "Find the word hair in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How many arms has Lily got?",
+          "correct": "Two",
+          "wrong": ["One", "Three"],
+          "hint": "Find the word arms in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What does Lily say about her hair?",
+          "correct": "It is long and blonde",
+          "wrong": ["It is short and dark", "It is long and dark"],
+          "hint": "Find the word hair in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How many heads has Lily got?",
+          "correct": "One",
+          "wrong": ["Two", "Three"],
+          "hint": "Find the word head in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Lily say about her body?",
+          "correct": "It is great",
+          "wrong": ["It is small", "It is tall"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "My Favourite Clothes",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👗",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "Today is my birthday!",
+        "I have got new clothes.",
+        "I have got a pink dress.",
+        "My shoes are white.",
+        "Max has got a blue t-shirt.",
+        "His trousers are brown.",
+        "Mr Green has got a green jacket.",
+        "We all look great today!"
+      ],
+      "translations": [
+        "Bugün benim doğum günüm!",
+        "Yeni kıyafetlerim var.",
+        "Pembe bir elbisem var.",
+        "Ayakkabılarım beyaz.",
+        "Max'in mavi bir tişörtü var.",
+        "Onun pantolonu kahverengi.",
+        "Mr Green'in yeşil bir ceketi var.",
+        "Hepimiz bugün harika görünüyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Clothes and colours",
+          "wrong": ["Parts of the body", "Weather conditions"],
+          "hint": "Look at the clothes and colours in the text.",
+          "hl": [2, 3, 4, 5, 6]
+        },
+        {
+          "q": "What is special about today?",
+          "correct": "It is Lily's birthday",
+          "wrong": ["It is a national day", "It is a sports day"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "Who are in the text?",
+          "correct": "Lily, Max and Mr Green",
+          "wrong": ["Lily, Max and Mrs Brown", "Max, Mr Green and Mrs Brown"],
+          "hint": "Find all the names in the text.",
+          "hl": [2, 4, 6]
+        },
+        {
+          "q": "What kind of text is this?",
+          "correct": "A description of clothes",
+          "wrong": ["A greeting story", "A school timetable"],
+          "hint": "Look at what the text describes.",
+          "hl": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "q": "How does everyone feel today?",
+          "correct": "Great",
+          "wrong": ["Sad", "Tired"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "What's the Weather Like?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌤️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" }
+      ],
+      "sentences": [
+        "Today is Monday.",
+        "It is cold and rainy.",
+        "Lily has got a coat and an umbrella.",
+        "Max has got a hat and a scarf.",
+        "It is snowing on Tuesday.",
+        "Mr Green has got a big jacket.",
+        "On Wednesday it is hot and sunny.",
+        "Lily has got a t-shirt and a dress.",
+        "Everyone loves sunny days!"
+      ],
+      "translations": [
+        "Bugün Pazartesi.",
+        "Hava soğuk ve yağmurlu.",
+        "Lily'nin bir paltosu ve şemsiyesi var.",
+        "Max'in bir şapkası ve atkısı var.",
+        "Salı günü kar yağıyor.",
+        "Mr Green'in büyük bir ceketi var.",
+        "Çarşamba günü hava sıcak ve güneşli.",
+        "Lily'nin bir tişörtü ve elbisesi var.",
+        "Herkes güneşli günleri seviyor!"
+      ],
+      "questions": [
+        {
+          "q": "What is the weather like on Monday?",
+          "correct": "Cold and rainy",
+          "wrong": ["Hot and sunny", "Cold and snowy"],
+          "hint": "Find Monday in the text.",
+          "hl": [0, 1]
+        },
+        {
+          "q": "What has Lily got on Monday?",
+          "correct": "A coat and an umbrella",
+          "wrong": ["A hat and a scarf", "A t-shirt and a dress"],
+          "hint": "Find Lily in the first part of the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What is the weather like on Tuesday?",
+          "correct": "Snowing",
+          "wrong": ["Rainy", "Sunny"],
+          "hint": "Find Tuesday in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Lily wear on Wednesday?",
+          "correct": "A t-shirt and a dress",
+          "wrong": ["A coat and an umbrella", "A hat and a scarf"],
+          "hint": "Find Wednesday in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "Who has got a hat and a scarf?",
+          "correct": "Max",
+          "wrong": ["Lily", "Mr Green"],
+          "hint": "Find the words hat and scarf in the text.",
+          "hl": [3]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Happy Birthday, Lily!",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎂",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
+      ],
+      "sentences": [
+        "Today is a special day.",
+        "Lily is seven years old today.",
+        "There is a big cake on the table.",
+        "Max has got a gift for Lily.",
+        "Lily is smiling and very happy.",
+        "Mr Green says: \"Happy birthday, Lily!\"",
+        "Mrs Brown has got balloons.",
+        "Everyone is together.",
+        "What a great day!"
+      ],
+      "translations": [
+        "Bugün özel bir gün.",
+        "Lily bugün yedi yaşında.",
+        "Masada büyük bir pasta var.",
+        "Max'in Lily için bir hediyesi var.",
+        "Lily gülümsüyor ve çok mutlu.",
+        "Mr Green diyor ki: \"İyi ki doğdun, Lily!\"",
+        "Mrs Brown'un balonları var.",
+        "Herkes bir arada.",
+        "Ne harika bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Lily today?",
+          "correct": "Seven",
+          "wrong": ["Six", "Eight"],
+          "hint": "Find Lily's age in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Why has Max got a gift?",
+          "correct": "It is Lily's birthday",
+          "wrong": ["It is a national day", "It is a sports day"],
+          "hint": "Look at what Mr Green says.",
+          "hl": [3, 5]
+        },
+        {
+          "q": "How does Lily feel?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Scared"],
+          "hint": "Find Lily in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What kind of day is it?",
+          "correct": "A birthday celebration",
+          "wrong": ["A normal school day", "A sports day"],
+          "hint": "Look at the cake, the balloons and what Mr Green says.",
+          "hl": [2, 5, 6]
+        },
+        {
+          "q": "Why is everyone together?",
+          "correct": "They are celebrating Lily's birthday",
+          "wrong": ["They are studying", "They are playing sports"],
+          "hint": "Look at what is happening in the text.",
+          "hl": [1, 3, 5, 7]
+        }
+      ]
+    }
+  ]
+}
