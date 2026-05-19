@@ -1,0 +1,298 @@
+{
+  "theme": "Homes & Houses",
+  "themeNumber": 5,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Our House",
+      "subtitle": "Find the right room and furniture!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" }
+      ],
+      "sentences": [
+        "We have got a big house.",
+        "There is a bedroom.",
+        "The bed is in the bedroom.",
+        "There is a kitchen.",
+        "The coffee table is in the sitting room.",
+        "There is a bathroom.",
+        "The sofa is in the sitting room.",
+        "We love our house!"
+      ],
+      "translations": [
+        "Büyük bir evimiz var.",
+        "Bir yatak odası var.",
+        "Yatak, yatak odasında.",
+        "Bir mutfak var.",
+        "Sehpa, oturma odasında.",
+        "Bir banyo var.",
+        "Kanepe, oturma odasında.",
+        "Evimizi seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the bed?",
+          "correct": "In the bedroom",
+          "wrong": ["In the kitchen", "In the bathroom"],
+          "hint": "Find the word bed in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What is in the sitting room?",
+          "correct": "The sofa and the coffee table",
+          "wrong": ["The bed and the sofa", "The coffee table and the bed"],
+          "hint": "Find the words sitting room in the text.",
+          "hl": [4, 6]
+        },
+        {
+          "q": "How many rooms are mentioned in the text?",
+          "correct": "Four",
+          "wrong": ["Three", "Five"],
+          "hint": "Count the rooms in the text.",
+          "hl": [1, 3, 5, 6]
+        },
+        {
+          "q": "What kind of house do they have?",
+          "correct": "A big house",
+          "wrong": ["A small house", "An old house"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "What does the family say about their house?",
+          "correct": "They love it",
+          "wrong": ["It is small", "It is old"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "Welcome to Our Home!",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🚪",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" }
+      ],
+      "sentences": [
+        "Welcome to our home!",
+        "We have got a lovely house.",
+        "There is a big kitchen.",
+        "There is a cosy sitting room.",
+        "There is a nice bedroom.",
+        "There is a small bathroom.",
+        "We have got a beautiful garden.",
+        "We love our home!"
+      ],
+      "translations": [
+        "Evimize hoş geldiniz!",
+        "Güzel bir evimiz var.",
+        "Büyük bir mutfak var.",
+        "Rahat bir oturma odası var.",
+        "Güzel bir yatak odası var.",
+        "Küçük bir banyo var.",
+        "Güzel bir bahçemiz var.",
+        "Evimizi seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A house and its rooms",
+          "wrong": ["A family and its members", "A school and its classrooms"],
+          "hint": "Look at all the rooms in the text.",
+          "hl": [2, 3, 4, 5, 6]
+        },
+        {
+          "q": "How many rooms are mentioned in the text?",
+          "correct": "Five",
+          "wrong": ["Four", "Six"],
+          "hint": "Count the rooms in the text.",
+          "hl": [2, 3, 4, 5, 6]
+        },
+        {
+          "q": "What kind of house do they have?",
+          "correct": "A lovely house",
+          "wrong": ["A big house", "An old house"],
+          "hint": "Read the second sentence.",
+          "hl": [1]
+        },
+        {
+          "q": "What is outside the house?",
+          "correct": "A beautiful garden",
+          "wrong": ["A playground", "A balcony"],
+          "hint": "Find the word garden in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How does the family feel about their home?",
+          "correct": "They love it",
+          "wrong": ["They are sad", "They are bored"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Our Pets",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐾",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🐱", "n": "Mimi" },
+        { "e": "🐶", "n": "Rex" },
+        { "e": "🐰", "n": "Fluffy" }
+      ],
+      "sentences": [
+        "We have got three pets.",
+        "Our cat's name is Mimi.",
+        "Mimi is in the sitting room.",
+        "Our dog's name is Rex.",
+        "Rex is in the garden.",
+        "Our rabbit's name is Fluffy.",
+        "Fluffy is in the bedroom.",
+        "Mimi and Rex are funny.",
+        "We love our pets!"
+      ],
+      "translations": [
+        "Üç evcil hayvanımız var.",
+        "Kedimizin adı Mimi.",
+        "Mimi oturma odasında.",
+        "Köpeğimizin adı Rex.",
+        "Rex bahçede.",
+        "Tavşanımızın adı Fluffy.",
+        "Fluffy yatak odasında.",
+        "Mimi ve Rex çok komik.",
+        "Evcil hayvanlarımızı seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "How many pets do they have?",
+          "correct": "Three",
+          "wrong": ["Two", "Four"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "Where is Mimi?",
+          "correct": "In the sitting room",
+          "wrong": ["In the garden", "In the bedroom"],
+          "hint": "Find Mimi in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "Where is Rex?",
+          "correct": "In the garden",
+          "wrong": ["In the sitting room", "In the bedroom"],
+          "hint": "Find Rex in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What is the rabbit's name?",
+          "correct": "Fluffy",
+          "wrong": ["Mimi", "Rex"],
+          "hint": "Find the word rabbit in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Which pets are funny?",
+          "correct": "Mimi and Rex",
+          "wrong": ["Rex and Fluffy", "Mimi and Fluffy"],
+          "hint": "Find the word funny in the text.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "A Cosy Evening at Home",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🌙",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Tom" },
+        { "e": "🐱", "n": "Mimi" }
+      ],
+      "sentences": [
+        "It is evening at Lily's house.",
+        "Lily's mother is cooking in the kitchen.",
+        "The food smells wonderful.",
+        "Lily's father is reading in the sitting room.",
+        "The sofa is very comfortable.",
+        "Lily is playing with Mimi the cat.",
+        "Mimi is purring.",
+        "Lily's brother Tom is dancing.",
+        "Everyone is at home together."
+      ],
+      "translations": [
+        "Lily'nin evinde akşam vakti.",
+        "Lily'nin annesi mutfakta yemek yapıyor.",
+        "Yemek harika kokuyor.",
+        "Lily'nin babası oturma odasında kitap okuyor.",
+        "Kanepe çok rahat.",
+        "Lily, Mimi adlı kediyle oynuyor.",
+        "Mimi mırıldanıyor.",
+        "Lily'nin kardeşi Tom dans ediyor.",
+        "Herkes evde bir arada."
+      ],
+      "questions": [
+        {
+          "q": "How does the house feel?",
+          "correct": "Warm and cosy",
+          "wrong": ["Cold and empty", "Noisy and busy"],
+          "hint": "Look at what everyone is doing at home.",
+          "hl": [3, 4, 5, 6]
+        },
+        {
+          "q": "How does Lily feel about Mimi?",
+          "correct": "She likes playing with Mimi",
+          "wrong": ["She is scared of Mimi", "She is bored of Mimi"],
+          "hint": "Find Lily and Mimi in the text.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What kind of evening is this?",
+          "correct": "A happy and peaceful evening",
+          "wrong": ["A sad and quiet evening", "A busy and tiring evening"],
+          "hint": "Look at how everyone feels in the text.",
+          "hl": [2, 4, 7, 8]
+        },
+        {
+          "q": "How does Lily's father feel?",
+          "correct": "Relaxed",
+          "wrong": ["Tired", "Hungry"],
+          "hint": "Find Lily's father in the text.",
+          "hl": [3, 4]
+        },
+        {
+          "q": "Why is everyone at home?",
+          "correct": "It is evening and the family is together",
+          "wrong": ["It is a school day", "It is raining outside"],
+          "hint": "Read the first and last sentences.",
+          "hl": [0, 8]
+        }
+      ]
+    }
+  ]
+}

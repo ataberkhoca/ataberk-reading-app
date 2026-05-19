@@ -1,0 +1,297 @@
+{
+  "theme": "Life in the City & the World",
+  "themeNumber": 6,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "In the Kitchen",
+      "subtitle": "Find the right food and place!",
+      "icon": "🍎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" }
+      ],
+      "sentences": [
+        "There is a banana on the table.",
+        "There are some apples in the basket.",
+        "There is an orange on the table.",
+        "There are some carrots in the fridge.",
+        "There is a tomato in the basket.",
+        "There are some grapes on the table.",
+        "There is no bread in the kitchen."
+      ],
+      "translations": [
+        "Masada bir muz var.",
+        "Sepette biraz elma var.",
+        "Masada bir portakal var.",
+        "Buzdolabında biraz havuç var.",
+        "Sepette bir domates var.",
+        "Masada biraz üzüm var.",
+        "Mutfakta ekmek yok."
+      ],
+      "questions": [
+        {
+          "q": "Where is the banana?",
+          "correct": "On the table",
+          "wrong": ["In the basket", "In the fridge"],
+          "hint": "Find the word banana in the text.",
+          "hl": [0]
+        },
+        {
+          "q": "Where are the carrots?",
+          "correct": "In the fridge",
+          "wrong": ["In the basket", "On the table"],
+          "hint": "Find the word carrots in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What is in the basket?",
+          "correct": "Apples and a tomato",
+          "wrong": ["Grapes and a banana", "Carrots and an orange"],
+          "hint": "Find the word basket in the text.",
+          "hl": [1, 4]
+        },
+        {
+          "q": "How many different fruits are on the table?",
+          "correct": "Three",
+          "wrong": ["Two", "Four"],
+          "hint": "Find all the things on the table.",
+          "hl": [0, 2, 5]
+        },
+        {
+          "q": "Is there any bread in the kitchen?",
+          "correct": "No, there isn't",
+          "wrong": ["Yes, there is", "Yes, there are"],
+          "hint": "Find the word bread in the text.",
+          "hl": [6]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "My Food Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍽️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" }
+      ],
+      "sentences": [
+        "I love food!",
+        "For breakfast I have got some eggs and bread.",
+        "I drink milk for breakfast.",
+        "For lunch I have got some chicken and vegetables.",
+        "The vegetables are delicious!",
+        "For dinner I have got some fish and potatoes.",
+        "Dinner is my favourite meal.",
+        "Food is yummy!"
+      ],
+      "translations": [
+        "Yemeği seviyorum!",
+        "Kahvaltıda biraz yumurta ve ekmek yiyorum.",
+        "Kahvaltıda süt içiyorum.",
+        "Öğle yemeğinde biraz tavuk ve sebze yiyorum.",
+        "Sebzeler çok lezzetli!",
+        "Akşam yemeğinde biraz balık ve patates yiyorum.",
+        "Akşam yemeği benim en sevdiğim öğün.",
+        "Yemek çok yummy!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Meals and food",
+          "wrong": ["Fruits and vegetables", "Food shopping"],
+          "hint": "Look at all the meals and food in the text.",
+          "hl": [1, 3, 5]
+        },
+        {
+          "q": "How many meals are mentioned in the text?",
+          "correct": "Three",
+          "wrong": ["Two", "Four"],
+          "hint": "Find all the meal names in the text.",
+          "hl": [1, 3, 5]
+        },
+        {
+          "q": "What is the writer's favourite meal?",
+          "correct": "Dinner",
+          "wrong": ["Breakfast", "Lunch"],
+          "hint": "Find the word favourite in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "What does the writer think about the vegetables?",
+          "correct": "They are delicious",
+          "wrong": ["They are yummy", "They are horrible"],
+          "hint": "Find the word vegetables in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "How does the writer feel about food?",
+          "correct": "The writer loves food",
+          "wrong": ["The writer hates food", "The writer is bored of food"],
+          "hint": "Read the first and last sentences.",
+          "hl": [0, 7]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "At the Market",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🛒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
+      ],
+      "sentences": [
+        "Lily and Max are at the market.",
+        "Lily has got apples and carrots in her basket.",
+        "Max has got bread and eggs in his basket.",
+        "Mr Green says: \"Can I have some bread, please?\"",
+        "Max says: \"Yes, you can!\"",
+        "Mrs Brown has got milk and chicken.",
+        "Mrs Brown says: \"Can I have some tomatoes, please?\"",
+        "The market man says: \"No, there aren't any tomatoes today.\""
+      ],
+      "translations": [
+        "Lily ve Max markette.",
+        "Lily'nin sepetinde elmalar ve havuçlar var.",
+        "Max'in sepetinde ekmek ve yumurtalar var.",
+        "Mr Green diyor ki: \"Biraz ekmek alabilir miyim, lütfen?\"",
+        "Max diyor ki: \"Evet, alabilirsin!\"",
+        "Mrs Brown'un sütü ve tavuğu var.",
+        "Mrs Brown diyor ki: \"Biraz domates alabilir miyim, lütfen?\"",
+        "Pazar adamı diyor ki: \"Hayır, bugün domates yok.\""
+      ],
+      "questions": [
+        {
+          "q": "What has Lily got in her basket?",
+          "correct": "Apples and carrots",
+          "wrong": ["Bread and eggs", "Milk and chicken"],
+          "hint": "Find Lily in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Who has got bread in their basket?",
+          "correct": "Max",
+          "wrong": ["Lily", "Mrs Brown"],
+          "hint": "Find the word bread in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Mr Green ask for?",
+          "correct": "Some bread",
+          "wrong": ["Some eggs", "Some milk"],
+          "hint": "Find Mr Green in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Mrs Brown ask for?",
+          "correct": "Some tomatoes",
+          "wrong": ["Some carrots", "Some apples"],
+          "hint": "Find Mrs Brown in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "Can Mrs Brown get tomatoes?",
+          "correct": "No, there aren't any tomatoes today",
+          "wrong": ["Yes, she can have some tomatoes", "Yes, there are tomatoes in the basket"],
+          "hint": "Read the last sentence.",
+          "hl": [7]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Lunchtime at Jungle School",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🍽️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
+      ],
+      "sentences": [
+        "It is lunchtime at Jungle School.",
+        "Lily looks at her plate.",
+        "There is chicken and broccoli on her plate.",
+        "Lily smiles and says: \"I love chicken!\"",
+        "Max looks at his plate.",
+        "There are beans and spinach on his plate.",
+        "Max is not happy.",
+        "Mr Green says: \"Eat your vegetables! They are good for you.\"",
+        "Mrs Brown is drinking tea and eating bread.",
+        "Everyone is hungry!"
+      ],
+      "translations": [
+        "Jungle School'da öğle yemeği zamanı.",
+        "Lily tabağına bakıyor.",
+        "Tabağında tavuk ve brokoli var.",
+        "Lily gülümsüyor ve diyor ki: \"Tavuğu seviyorum!\"",
+        "Max tabağına bakıyor.",
+        "Tabağında fasulye ve ıspanak var.",
+        "Max mutlu değil.",
+        "Mr Green diyor ki: \"Sebzelerini ye! Sana iyi gelir.\"",
+        "Mrs Brown çay içiyor ve ekmek yiyor.",
+        "Herkes aç!"
+      ],
+      "questions": [
+        {
+          "q": "Does Lily like chicken?",
+          "correct": "Yes, she does",
+          "wrong": ["No, she doesn't", "She doesn't know"],
+          "hint": "Look at what Lily says.",
+          "hl": [3]
+        },
+        {
+          "q": "How does Max feel about his food?",
+          "correct": "He doesn't like it",
+          "wrong": ["He loves it", "He is excited"],
+          "hint": "Find Max in the text.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "Why does Mr Green say \"Eat your vegetables\"?",
+          "correct": "Because Max is not happy about his food",
+          "wrong": ["Because Lily loves chicken", "Because Mrs Brown is drinking tea"],
+          "hint": "Look at Max and Mr Green in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "How does everyone feel at lunchtime?",
+          "correct": "Hungry",
+          "wrong": ["Full", "Tired"],
+          "hint": "Read the last sentence.",
+          "hl": [9]
+        },
+        {
+          "q": "What kind of meal is this?",
+          "correct": "A school lunch with different foods",
+          "wrong": ["A birthday dinner", "A breakfast at home"],
+          "hint": "Look at where they are and what they are eating.",
+          "hl": [0, 2, 5, 8]
+        }
+      ]
+    }
+  ]
+}
