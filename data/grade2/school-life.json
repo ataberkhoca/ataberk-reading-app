@@ -73,6 +73,156 @@
           "hl": [1]
         }
       ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Around Jungle School",
+      "subtitle": "Find the right place!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
+      ],
+      "sentences": [
+        "Look! This is Jungle School.",
+        "What is this? It is a canteen.",
+        "What is it? It is a lunch hall.",
+        "This is the sports hall.",
+        "Max is in the sports hall.",
+        "What is this? It is the teacher's room.",
+        "Mr Green is in the teacher's room.",
+        "Where is Mrs Brown? She is in the garden.",
+        "It is a big garden.",
+        "Nice!"
+      ],
+      "translations": [
+        "Bak! Burası Jungle School.",
+        "Bu nedir? Bu bir kantin.",
+        "O nedir? O bir yemekhane.",
+        "Burası spor salonu.",
+        "Max spor salonunda.",
+        "Bu nedir? Burası öğretmenler odası.",
+        "Mr Green öğretmenler odasında.",
+        "Mrs Brown nerede? O bahçede.",
+        "Burası büyük bir bahçe.",
+        "Çok güzel!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Max?",
+          "correct": "In the sports hall",
+          "wrong": ["In the garden", "In the canteen"],
+          "hint": "Find Max in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Where is Mrs Brown?",
+          "correct": "In the garden",
+          "wrong": ["In the sports hall", "In the canteen"],
+          "hint": "Look for the word garden.",
+          "hl": [7]
+        },
+        {
+          "q": "Who is in the teacher's room?",
+          "correct": "Mr Green",
+          "wrong": ["Mrs Brown", "Max"],
+          "hint": "Find the teacher's room in the text.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What is the garden like?",
+          "correct": "Big",
+          "wrong": ["Small", "New"],
+          "hint": "Read the sentence about the garden.",
+          "hl": [8]
+        },
+        {
+          "q": "Which place is for sports?",
+          "correct": "The sports hall",
+          "wrong": ["The canteen", "The garden"],
+          "hint": "Look for the word sports.",
+          "hl": [3]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Our Special Days",
+      "subtitle": "Find the right day!",
+      "icon": "🎌",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
+      ],
+      "sentences": [
+        "We have special days at school.",
+        "On 23 April, it is National Sovereignty and Children's Day.",
+        "On 19 May, it is Commemoration of Atatürk, Youth and Sports Day.",
+        "On 15 July, it is Democracy and National Unity Day.",
+        "On 30 August, it is Victory Day.",
+        "On 29 October, it is Republic Day.",
+        "Eid al-Fitr is a happy day, too.",
+        "Festival of Sacrifice is a special day, too.",
+        "We love our special days!"
+      ],
+      "translations": [
+        "Okulda özel günlerimiz var.",
+        "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır.",
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı'dır.",
+        "15 Temmuz Demokrasi ve Millî Birlik Günü'dür.",
+        "30 Ağustos Zafer Bayramı'dır.",
+        "29 Ekim Cumhuriyet Bayramı'dır.",
+        "Ramazan Bayramı da mutlu bir gündür.",
+        "Kurban Bayramı da özel bir gündür.",
+        "Özel günlerimizi seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "When is Republic Day?",
+          "correct": "29 October",
+          "wrong": ["23 April", "30 August"],
+          "hint": "Find Republic Day in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What is on 23 April?",
+          "correct": "National Sovereignty and Children's Day",
+          "wrong": ["Victory Day", "Republic Day"],
+          "hint": "Find 23 April in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "When is Victory Day?",
+          "correct": "30 August",
+          "wrong": ["19 May", "15 July"],
+          "hint": "Look for Victory Day.",
+          "hl": [4]
+        },
+        {
+          "q": "Which day is on 19 May?",
+          "correct": "Commemoration of Atatürk, Youth and Sports Day",
+          "wrong": ["Democracy and National Unity Day", "Children's Day"],
+          "hint": "Find 19 May in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "Which day is in the text?",
+          "correct": "Eid al-Fitr",
+          "wrong": ["New Year's Day", "Teacher's Day"],
+          "hint": "Look near the end of the text.",
+          "hl": [6]
+        }
+      ]
     }
   ],
   "skim": [
@@ -155,6 +305,92 @@
           "hl": [11]
         }
       ]
+    },
+    {
+      "id": "skim-2",
+      "title": "A New Friend",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🤝",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👧", "n": "Zara" }
+      ],
+      "sentences": [
+        "Good morning everybody!",
+        "We have a new girl today.",
+        "What is your name?",
+        "My name is Zara.",
+        "Hello! I am a new kid here.",
+        "Welcome, Zara!",
+        "How are you?",
+        "I am fine, thanks! And you?",
+        "Who is he?",
+        "He is Max. He is a boy in our class.",
+        "Nice to meet you, Max!",
+        "Can I sit here?",
+        "Sure!",
+        "Oh! Excuse me! Sorry!",
+        "That's OK! Now they are friends."
+      ],
+      "translations": [
+        "Herkese günaydın!",
+        "Bugün yeni bir kızımız var.",
+        "Adın ne?",
+        "Benim adım Zara.",
+        "Merhaba! Ben burada yeni bir çocuğum.",
+        "Hoş geldin, Zara!",
+        "Nasılsın?",
+        "İyiyim, teşekkürler! Ya sen?",
+        "O kim?",
+        "O Max. O sınıfımızda bir erkek çocuk.",
+        "Tanıştığımıza memnun oldum, Max!",
+        "Buraya oturabilir miyim?",
+        "Tabii ki!",
+        "Ah! Pardon! Özür dilerim!",
+        "Sorun değil! Artık onlar arkadaş."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A new friend at school",
+          "wrong": ["A school trip", "A sports day"],
+          "hint": "Look at what happens with Zara.",
+          "hl": [1, 9, 14]
+        },
+        {
+          "q": "Who is the new pupil?",
+          "correct": "Zara",
+          "wrong": ["Lily", "Max"],
+          "hint": "Find the new name in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How does Zara feel?",
+          "correct": "Fine",
+          "wrong": ["Sad", "Tired"],
+          "hint": "Read what Zara says about herself.",
+          "hl": [7]
+        },
+        {
+          "q": "What kind of text is this?",
+          "correct": "An introduction story",
+          "wrong": ["A timetable", "A celebration story"],
+          "hint": "Look at how people meet and talk.",
+          "hl": [2, 3, 10]
+        },
+        {
+          "q": "Are Zara and Max friends at the end?",
+          "correct": "Yes",
+          "wrong": ["No", "We don't know"],
+          "hint": "Read the last sentence.",
+          "hl": [14]
+        }
+      ]
     }
   ],
   "int": [
@@ -235,6 +471,88 @@
           "hl": [8, 9]
         }
       ]
+    },
+    {
+      "id": "int-2",
+      "title": "In the Classroom",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📚",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👧", "n": "Zara" }
+      ],
+      "sentences": [
+        "Good morning everybody!",
+        "What day is it today?",
+        "It is Monday today.",
+        "Let's start!",
+        "Lily, come here, please.",
+        "Look at the new word.",
+        "Read it, please.",
+        "Thank you, Lily.",
+        "Well done!",
+        "Now Max and Zara read too.",
+        "They read very well.",
+        "It is home time now.",
+        "See you tomorrow! Bye!"
+      ],
+      "translations": [
+        "Herkese günaydın!",
+        "Bugün günlerden ne?",
+        "Bugün Pazartesi.",
+        "Hadi başlayalım!",
+        "Lily, buraya gel lütfen.",
+        "Yeni kelimeye bak.",
+        "Onu oku lütfen.",
+        "Teşekkürler, Lily.",
+        "Aferin!",
+        "Şimdi Max ve Zara da okuyor.",
+        "Onlar çok güzel okuyor.",
+        "Şimdi eve gitme zamanı.",
+        "Yarın görüşürüz! Hoşça kalın!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "Monday",
+          "wrong": ["Tuesday", "Sunday"],
+          "hint": "Read the second sentence.",
+          "hl": [1, 2]
+        },
+        {
+          "q": "What does Mr Green say to Lily?",
+          "correct": "Come here, please",
+          "wrong": ["Go home, please", "Sit down, please"],
+          "hint": "Find Lily in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Who reads very well?",
+          "correct": "Max and Zara",
+          "wrong": ["Lily and Max", "Mr Green"],
+          "hint": "Find the names before 'They read very well'.",
+          "hl": [9, 10]
+        },
+        {
+          "q": "What does Mr Green say after Lily reads?",
+          "correct": "Thank you",
+          "wrong": ["Sorry", "Goodbye"],
+          "hint": "Read the sentence after Lily reads.",
+          "hl": [7]
+        },
+        {
+          "q": "What do they say at the end?",
+          "correct": "See you tomorrow",
+          "wrong": ["Good morning", "Welcome"],
+          "hint": "Read the last sentence.",
+          "hl": [12]
+        }
+      ]
     }
   ],
   "inf": [
@@ -309,6 +627,82 @@
           "wrong": ["A normal school day", "A sports day"],
           "hint": "Look at the flags, the cake and what Mr Green says.",
           "hl": [1, 4, 6]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎈",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👧", "n": "Zara" }
+      ],
+      "sentences": [
+        "It is a sunny day in April.",
+        "There are flags everywhere at school.",
+        "The children sing and dance.",
+        "Look! They wear nice clothes.",
+        "Lily says: \"This is our special day!\"",
+        "Max says: \"Really?\"",
+        "Lily says: \"Yes! This day is for all children!\"",
+        "Hurray!",
+        "Mr Green says: \"That's great!\"",
+        "Everyone is very happy."
+      ],
+      "translations": [
+        "Nisan'da güneşli bir gün.",
+        "Okulda her yerde bayraklar var.",
+        "Çocuklar şarkı söylüyor ve dans ediyor.",
+        "Bak! Onlar güzel kıyafetler giyiyor.",
+        "Lily diyor ki: \"Bu bizim özel günümüz!\"",
+        "Max diyor ki: \"Gerçekten mi?\"",
+        "Lily diyor ki: \"Evet! Bu gün bütün çocuklar için!\"",
+        "Yaşasın!",
+        "Mr Green diyor ki: \"Harika!\"",
+        "Herkes çok mutlu."
+      ],
+      "questions": [
+        {
+          "q": "Which special day is it?",
+          "correct": "Children's Day",
+          "wrong": ["Victory Day", "Republic Day"],
+          "hint": "Look at the month and who celebrates.",
+          "hl": [0, 6]
+        },
+        {
+          "q": "What month is it?",
+          "correct": "April",
+          "wrong": ["May", "October"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "How does everyone feel?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Tired"],
+          "hint": "Read the last sentence.",
+          "hl": [9]
+        },
+        {
+          "q": "Why are there flags at school?",
+          "correct": "It is a celebration",
+          "wrong": ["It is a sports day", "It is a normal day"],
+          "hint": "Look at the flags, songs and dances.",
+          "hl": [1, 2]
+        },
+        {
+          "q": "Who is this day for?",
+          "correct": "All children",
+          "wrong": ["Only teachers", "Only Lily"],
+          "hint": "What does Lily say?",
+          "hl": [6]
         }
       ]
     }
