@@ -70,6 +70,82 @@
           "hl": [7]
         }
       ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Who Is He?",
+      "subtitle": "Find the right person!",
+      "icon": "👪",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👩", "n": "Sarah" },
+        { "e": "👨", "n": "David" },
+        { "e": "👵", "n": "Rose" }
+      ],
+      "sentences": [
+        "Look! This is my family photo.",
+        "Who is he? He's my father.",
+        "Hi, Dad!",
+        "Who is she? She's my mother.",
+        "Hi, Mum!",
+        "Look! Over there!",
+        "Who is she? She's my grandmother.",
+        "Dad says: \"Lily is my daughter.\"",
+        "\"Tom is my son.\"",
+        "I love my family!"
+      ],
+      "translations": [
+        "Bak! Bu benim aile fotoğrafım.",
+        "O kim? O benim babam.",
+        "Merhaba, baba!",
+        "O kim? O benim annem.",
+        "Merhaba, anne!",
+        "Bak! Şurada!",
+        "O kim? O benim büyükannem.",
+        "Babam diyor ki: \"Lily benim kızım.\"",
+        "\"Tom benim oğlum.\"",
+        "Ailemi seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "Who is the man in the photo?",
+          "correct": "Lily's father",
+          "wrong": ["Lily's brother", "Lily's grandfather"],
+          "hint": "Read 'Who is he?'",
+          "hl": [1]
+        },
+        {
+          "q": "Who is over there?",
+          "correct": "Lily's grandmother",
+          "wrong": ["Lily's mother", "Lily's father"],
+          "hint": "Read after 'Over there!'",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What does Lily call her mother?",
+          "correct": "Mum",
+          "wrong": ["Dad", "Grandma"],
+          "hint": "Find 'Hi' in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Who is Dad's daughter?",
+          "correct": "Lily",
+          "wrong": ["Tom", "Sarah"],
+          "hint": "Find the word daughter.",
+          "hl": [7]
+        },
+        {
+          "q": "Who is Dad's son?",
+          "correct": "Tom",
+          "wrong": ["Lily", "David"],
+          "hint": "Find the word son.",
+          "hl": [8]
+        }
+      ]
     }
   ],
   "skim": [
@@ -143,6 +219,81 @@
           "wrong": ["She is sad", "She is bored"],
           "hint": "Read the last sentence.",
           "hl": [9]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "Sorry, Mum!",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🤗",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Tom" },
+        { "e": "👩", "n": "Sarah" }
+      ],
+      "sentences": [
+        "Tom and Lily are at home.",
+        "Oh no! Tom drops a cup.",
+        "Tom says: \"I'm sorry, Mum!\"",
+        "Mum says: \"That's fine!\"",
+        "\"It's all right!\"",
+        "Lily says: \"I'm sorry, too!\"",
+        "\"All right!\"",
+        "Tom says: \"What about me?\"",
+        "Mum smiles at everyone.",
+        "Everyone is happy again."
+      ],
+      "translations": [
+        "Tom ve Lily evde.",
+        "Eyvah! Tom bir bardak düşürüyor.",
+        "Tom diyor ki: \"Özür dilerim, anne!\"",
+        "Annesi diyor ki: \"Sorun değil!\"",
+        "\"Önemli değil!\"",
+        "Lily diyor ki: \"Ben de özür dilerim!\"",
+        "\"Tamam!\"",
+        "Tom diyor ki: \"Peki ya ben?\"",
+        "Annesi herkese gülümsüyor.",
+        "Herkes yine mutlu."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Saying sorry and making up",
+          "wrong": ["A birthday party", "A family photo"],
+          "hint": "Look at what Tom and Lily say.",
+          "hl": [2, 5]
+        },
+        {
+          "q": "What does Tom drop?",
+          "correct": "A cup",
+          "wrong": ["A book", "A plate"],
+          "hint": "Read the second sentence.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Mum say to Tom?",
+          "correct": "That's fine!",
+          "wrong": ["What about me?", "I'm sorry!"],
+          "hint": "Read what Mum says after Tom is sorry.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "How does the family feel at the end?",
+          "correct": "Happy",
+          "wrong": ["Angry", "Sad"],
+          "hint": "Read the last sentence.",
+          "hl": [9]
+        },
+        {
+          "q": "What kind of text is this?",
+          "correct": "A family making up after a small accident",
+          "wrong": ["A weather report", "A school timetable"],
+          "hint": "Look at the accident and the kind words.",
+          "hl": [1, 3, 4]
         }
       ]
     }
@@ -221,6 +372,86 @@
           "hl": [4, 8]
         }
       ]
+    },
+    {
+      "id": "int-2",
+      "title": "She's Got Blue Eyes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👀",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👧", "n": "Mia" },
+        { "e": "👩", "n": "Sarah" },
+        { "e": "👨", "n": "David" }
+      ],
+      "sentences": [
+        "This is my family album.",
+        "This is my friend Mia.",
+        "She's got blue eyes.",
+        "She's got long blond hair.",
+        "You look great!",
+        "This is my mother.",
+        "My mother's got brown eyes.",
+        "She's got short dark hair.",
+        "This is my father.",
+        "He's got green eyes.",
+        "It's very lovely!",
+        "I love my beautiful family!"
+      ],
+      "translations": [
+        "Bu benim aile albümüm.",
+        "Bu benim arkadaşım Mia.",
+        "Onun mavi gözleri var.",
+        "Onun uzun sarı saçları var.",
+        "Harika görünüyorsun!",
+        "Bu benim annem.",
+        "Annemin kahverengi gözleri var.",
+        "Onun kısa koyu saçları var.",
+        "Bu benim babam.",
+        "Onun yeşil gözleri var.",
+        "Çok güzel!",
+        "Güzel ailemi seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What colour eyes has Mia got?",
+          "correct": "Blue",
+          "wrong": ["Brown", "Green"],
+          "hint": "Find Mia in the text.",
+          "hl": [1, 2]
+        },
+        {
+          "q": "What colour eyes has Lily's mother got?",
+          "correct": "Brown",
+          "wrong": ["Blue", "Green"],
+          "hint": "Find the word mother.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What is Mia's hair like?",
+          "correct": "Long and blond",
+          "wrong": ["Short and dark", "Short and white"],
+          "hint": "Find Mia's hair.",
+          "hl": [3]
+        },
+        {
+          "q": "What colour eyes has Lily's father got?",
+          "correct": "Green",
+          "wrong": ["Brown", "Blue"],
+          "hint": "Find the word father.",
+          "hl": [8, 9]
+        },
+        {
+          "q": "What does Lily say about Mia?",
+          "correct": "You look great!",
+          "wrong": ["What about me?", "It's lunchtime!"],
+          "hint": "Find the kind words after Mia's hair.",
+          "hl": [4]
+        }
+      ]
     }
   ],
   "inf": [
@@ -295,6 +526,82 @@
           "wrong": ["It is a school day", "It is Lily's birthday"],
           "hint": "Read the last two sentences.",
           "hl": [7, 8]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "It's Lunchtime!",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🍽️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Tom" },
+        { "e": "👩", "n": "Sarah" },
+        { "e": "👨", "n": "David" }
+      ],
+      "sentences": [
+        "It's lunchtime!",
+        "Mum is in the kitchen.",
+        "The food smells good.",
+        "Tom says: \"I'm hungry!\"",
+        "\"Me too!\" says Lily.",
+        "Dad brings the plates.",
+        "Grandma and Grandpa are here.",
+        "Everyone sits at the table.",
+        "The family eats together.",
+        "What a happy lunch!"
+      ],
+      "translations": [
+        "Öğle yemeği zamanı!",
+        "Annem mutfakta.",
+        "Yemek güzel kokuyor.",
+        "Tom diyor ki: \"Acıktım!\"",
+        "\"Ben de!\" diyor Lily.",
+        "Babam tabakları getiriyor.",
+        "Büyükanne ve büyükbaba burada.",
+        "Herkes masaya oturuyor.",
+        "Aile birlikte yemek yiyor.",
+        "Ne mutlu bir öğle yemeği!"
+      ],
+      "questions": [
+        {
+          "q": "Why does Tom say \"I'm hungry!\"?",
+          "correct": "Because it is lunchtime",
+          "wrong": ["Because it is bedtime", "Because it is a school day"],
+          "hint": "Read the first sentences.",
+          "hl": [0, 3]
+        },
+        {
+          "q": "Where is Mum?",
+          "correct": "In the kitchen",
+          "wrong": ["At school", "In the garden"],
+          "hint": "Find Mum in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "How does the family feel?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Angry"],
+          "hint": "Read the last sentence.",
+          "hl": [9]
+        },
+        {
+          "q": "What are they going to do?",
+          "correct": "Eat lunch together",
+          "wrong": ["Go to school", "Go to sleep"],
+          "hint": "Look at the table and the food.",
+          "hl": [7, 8]
+        },
+        {
+          "q": "Who comes to the lunch?",
+          "correct": "The whole family",
+          "wrong": ["Only Tom", "Only Mum and Dad"],
+          "hint": "Look for the family members in the text.",
+          "hl": [6, 7, 8]
         }
       ]
     }
