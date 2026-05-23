@@ -1323,6 +1323,105 @@ button.celeb-retry {
 }
 .profile-select-back:hover { color: #1A1A1A; }
 
+/* Profil silme butonu */
+.profile-card-delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #FF6B6B;
+  border: 2px solid #1A1A1A;
+  color: white;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity .2s;
+  z-index: 10;
+}
+.profile-card:hover .profile-card-delete { opacity: 1; }
+.profile-card { position: relative; }
+
+/* Silme onay modalı */
+.delete-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn .2s ease;
+}
+.delete-modal-overlay.hidden { display: none; }
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+.delete-modal {
+  background: #FFFBF0;
+  border: 3px solid #1A1A1A;
+  border-radius: 20px;
+  box-shadow: 6px 6px 0 #1A1A1A;
+  padding: 28px 24px;
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+.delete-modal-icon { font-size: 3rem; margin-bottom: 12px; }
+.delete-modal-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.3rem;
+  color: #1A1A1A;
+  margin-bottom: 8px;
+}
+.delete-modal-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.1rem;
+  color: #FF6B6B;
+  margin-bottom: 12px;
+}
+.delete-modal-warning {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 600;
+  line-height: 1.5;
+  background: #FFF0F0;
+  border: 2px solid #FFD0D0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+}
+.delete-modal-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.delete-modal-btn {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1rem;
+  padding: 10px 22px;
+  border-radius: 12px;
+  border: 2.5px solid #1A1A1A;
+  cursor: pointer;
+  transition: all .15s;
+  font-weight: 700;
+}
+.delete-modal-btn:active { transform: translate(2px,2px); }
+.delete-modal-btn.cancel {
+  background: white;
+  color: #1A1A1A;
+}
+.delete-modal-btn.cancel:hover { background: #f0f0f0; }
+.delete-modal-btn.confirm {
+  background: #FF6B6B;
+  color: white;
+}
+.delete-modal-btn.confirm:hover { background: #e05555; }
+
 </style>
 </head>
 <body>
@@ -1336,6 +1435,22 @@ button.celeb-retry {
   <div class="tr-en" id="tr-en"></div>
   <div class="tr-tr" id="tr-tr"></div>
   <button class="tr-close" onclick="closeTrPopup()" aria-label="Kapat">×</button>
+</div>
+
+<!-- Profil silme onay modalı -->
+<div class="delete-modal-overlay hidden" id="delete-modal-overlay">
+  <div class="delete-modal">
+    <div class="delete-modal-icon">⚠️</div>
+    <div class="delete-modal-title">Profili Sil</div>
+    <div class="delete-modal-name" id="delete-modal-profile-name"></div>
+    <div class="delete-modal-warning">
+      Bu profili silersen tüm ilerlemen ve puanların kalıcı olarak silinecek. Bu işlem geri alınamaz!
+    </div>
+    <div class="delete-modal-btns">
+      <button class="delete-modal-btn cancel" onclick="cancelDeleteProfile()">Vazgeç</button>
+      <button class="delete-modal-btn confirm" onclick="confirmDeleteProfile()">Evet, Sil</button>
+    </div>
+  </div>
 </div>
 
 <div class="result-overlay" id="result-overlay">
@@ -2478,6 +2593,28 @@ function deleteProfile(profileId) {
   localStorage.setItem('ataberk_text_stats', JSON.stringify(textStats));
 }
 
+let _pendingDeleteId = null;
+
+function showDeleteModal(profileId, profileName) {
+  _pendingDeleteId = profileId;
+  document.getElementById('delete-modal-profile-name').textContent = profileName;
+  document.getElementById('delete-modal-overlay').classList.remove('hidden');
+}
+
+function cancelDeleteProfile() {
+  _pendingDeleteId = null;
+  document.getElementById('delete-modal-overlay').classList.add('hidden');
+}
+
+function confirmDeleteProfile() {
+  if (!_pendingDeleteId) return;
+  deleteProfile(_pendingDeleteId);
+  _pendingDeleteId = null;
+  document.getElementById('delete-modal-overlay').classList.add('hidden');
+  renderProfileSelect();
+  updateAllProfileBadges();
+}
+
 // ── UI handlers ──
 
 function selectAvatar(el) {
@@ -2549,6 +2686,7 @@ function renderProfileSelect() {
            aria-label="${p.name} profili ile oyna">
         <div class="profile-card-avatar">${p.avatar}</div>
         <div class="profile-card-name">${escapeHtml(p.name)}</div>
+        <button class="profile-card-delete" onclick="event.stopPropagation(); showDeleteModal('${p.id}', '${escapeHtml(p.name)}')" aria-label="${p.name} profilini sil" title="Profili sil">×</button>
       </div>
     `);
   });
