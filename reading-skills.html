@@ -1422,6 +1422,168 @@ button.celeb-retry {
 }
 .delete-modal-btn.confirm:hover { background: #e05555; }
 
+/* ════════════════════════════════════════
+   ROZET SİSTEMİ
+════════════════════════════════════════ */
+
+/* Rozet Ekranı */
+#screen-badges { background: #FFFBF0; }
+.badges-scroll { padding: 0 16px 24px; overflow-y: auto; flex: 1; }
+.badge-category { margin-bottom: 24px; }
+.badge-cat-title {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  margin-bottom: 10px;
+}
+.badge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.badge-card {
+  background: white;
+  border: 2.5px solid #1A1A1A;
+  border-radius: 16px;
+  padding: 14px 10px;
+  box-shadow: 3px 3px 0 #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.badge-card.locked {
+  background: #F5F5F5;
+  border-color: #CCC;
+  box-shadow: 2px 2px 0 #CCC;
+}
+.badge-card-icon { font-size: 2rem; line-height: 1; }
+.badge-card.locked .badge-card-icon { filter: grayscale(1); opacity: 0.35; }
+.badge-card-name { font-size: 13px; font-weight: 800; color: #1A1A1A; }
+.badge-card.locked .badge-card-name { color: #AAA; }
+.badge-card-desc { font-size: 11px; color: #888; line-height: 1.4; }
+.badge-card.locked .badge-card-desc { color: #CCC; }
+.badge-earned-tag {
+  background: #6BCB77;
+  border: 2px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 900;
+  color: white;
+  margin-top: 2px;
+}
+.badge-lock-tag {
+  background: #EEE;
+  border: 2px solid #CCC;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #AAA;
+  margin-top: 2px;
+}
+
+/* Stats ekranına rozet önizleme */
+.stats-badge-preview {
+  background: white;
+  border: 2.5px solid #1A1A1A;
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 3px 3px 0 #1A1A1A;
+  margin: 0 16px 16px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.stats-badge-preview:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #1A1A1A; }
+.stats-badge-preview-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.stats-badge-preview-title { font-size: 14px; font-weight: 800; color: #1A1A1A; }
+.stats-badge-count {
+  background: #FFD93D;
+  border: 2px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #1A1A1A;
+}
+.stats-badge-mini-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.stats-badge-mini {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 2px solid #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  background: white;
+}
+.stats-badge-mini.locked { background: #F0F0F0; filter: grayscale(1); opacity: 0.4; }
+.stats-badge-more { font-size: 12px; font-weight: 700; color: #888; }
+
+/* Rozet Kazanıldı Popup */
+.badge-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn .25s ease;
+}
+.badge-popup-overlay.hidden { display: none; }
+.badge-popup {
+  background: #FFFBF0;
+  border: 3px solid #1A1A1A;
+  border-radius: 24px;
+  padding: 28px 20px;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 6px 6px 0 #1A1A1A;
+  animation: popIn .3s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes popIn { from{transform:scale(.7);opacity:0} to{transform:scale(1);opacity:1} }
+.badge-popup-icon { font-size: 4rem; margin-bottom: 8px; }
+.badge-popup-label {
+  display: inline-block;
+  background: #FFD93D;
+  border: 2px solid #1A1A1A;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #1A1A1A;
+  margin-bottom: 10px;
+}
+.badge-popup-title { font-size: 22px; font-weight: 800; color: #1A1A1A; margin-bottom: 6px; font-family: 'Fredoka One', cursive; }
+.badge-popup-sub { font-size: 13px; color: #666; margin-bottom: 20px; line-height: 1.5; }
+.badge-popup-btn {
+  width: 100%;
+  background: #FF6B6B;
+  color: white;
+  border: 3px solid #1A1A1A;
+  border-radius: 14px;
+  padding: 12px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #1A1A1A;
+  transition: all .15s;
+}
+.badge-popup-btn:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 #1A1A1A; }
+
 </style>
 </head>
 <body>
@@ -1587,6 +1749,32 @@ button.celeb-retry {
     </div>
   </div>
   <div class="stats-scroll" id="stats-scroll">
+    <!-- JS tarafından doldurulur -->
+  </div>
+</div>
+
+<!-- ROZET KAZANILDI POPUP -->
+<div class="badge-popup-overlay hidden" id="badge-popup-overlay">
+  <div class="badge-popup">
+    <div class="badge-popup-icon" id="badge-popup-icon">🌟</div>
+    <div class="badge-popup-label">🎉 Yeni Rozet!</div>
+    <div class="badge-popup-title" id="badge-popup-title">İlk Adım</div>
+    <div class="badge-popup-sub" id="badge-popup-sub">Tebrikler!</div>
+    <button class="badge-popup-btn" onclick="closeBadgePopup()">Harika! 🏅</button>
+  </div>
+</div>
+
+<!-- ROZETLER EKRANI -->
+<div class="screen" id="screen-badges">
+  <div class="screen-header">
+    <button class="back-btn" onclick="showScreen('screen-stats')">← Geri</button>
+    <div>
+      <div class="screen-header-title">Rozetlerim</div>
+      <div class="screen-header-sub" id="badges-screen-sub">0 / 15 kazanıldı</div>
+    </div>
+    <div style="width:60px;"></div>
+  </div>
+  <div class="badges-scroll" id="badges-scroll">
     <!-- JS tarafından doldurulur -->
   </div>
 </div>
@@ -1837,22 +2025,19 @@ function showScreen(id) {
 // ════════════════════════════════════════
 
 function onActivityComplete(score, total, skill, topic) {
-  // Stats kaydet
   const pct = score / total;
   const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
   saveActivityStats(topic, skill, score, total, stars);
-  // Metin bazında da kaydet (yeni — çoklu metin desteği)
   if (typeof currentTextId !== 'undefined' && currentTextId) {
     saveTextStats(topic, skill, currentTextId, score, total, stars);
   }
+  checkBadges(score, total, stars, skill, topic);
 }
 
 function onScreenChange(screenId) {
-  // Profil seçim ekranı açılınca grid'i yeniden render et
   if (screenId === 'screen-profile-select') {
     renderProfileSelect();
   }
-  // Profil oluşturma ekranı açılınca formu sıfırla (yeni profil yaratıyoruz)
   if (screenId === 'screen-profil') {
     const input = document.getElementById('profil-input');
     if (input) input.value = '';
@@ -1862,6 +2047,9 @@ function onScreenChange(screenId) {
       a.setAttribute('aria-checked', a.dataset.av === '🐱' ? 'true' : 'false');
       a.setAttribute('tabindex', a.dataset.av === '🐱' ? '0' : '-1');
     });
+  }
+  if (screenId === 'screen-badges') {
+    renderBadgeScreen();
   }
 }
 
@@ -2809,6 +2997,214 @@ function saveActivityStats(topic, skill, score, total, stars) {
   localStorage.setItem('ataberk_stats', JSON.stringify(all));
 }
 
+// ════════════════════════════════════════
+//  ROZET SİSTEMİ
+// ════════════════════════════════════════
+
+const BADGE_DEFS = [
+  // Başlangıç
+  { id: 'first_text',    icon: '🌟', name: 'İlk Adım',         desc: 'İlk metni oku',                         cat: 'start' },
+  { id: 'first_scan',    icon: '🔍', name: 'Kaşif',            desc: 'İlk Scanning metnini tamamla',          cat: 'start' },
+  { id: 'first_skim',    icon: '⚡', name: 'Hızlı Göz',        desc: 'İlk Skimming metnini tamamla',          cat: 'start' },
+  { id: 'first_int',     icon: '🔬', name: 'Dedektif',         desc: 'İlk Intensive metnini tamamla',         cat: 'start' },
+  { id: 'first_inf',     icon: '🧩', name: 'Düşünür',          desc: 'İlk Inference metnini tamamla',         cat: 'start' },
+  // Performans
+  { id: 'star3',         icon: '⭐', name: 'Yıldız Okuyucu',   desc: 'Bir metinde 3 yıldız al',               cat: 'perf'  },
+  { id: 'perfect',       icon: '🎯', name: 'Keskin Nişancı',   desc: 'Bir metinde 5/5 doğru cevap ver',       cat: 'perf'  },
+  { id: 'streak3',       icon: '🔥', name: 'Ateşli Okuyucu',   desc: '3 metni üst üste 3 yıldızla bitir',     cat: 'perf'  },
+  { id: 'topic_perfect', icon: '💎', name: 'Mükemmel',         desc: 'Bir temadaki tüm metinleri 3 yıldızla bitir', cat: 'perf' },
+  { id: 'all_skills',    icon: '🧠', name: 'Süper Beyin',      desc: '4 beceriyi aynı temada tamamla',        cat: 'perf'  },
+  // Tamamlama
+  { id: 'school_done',   icon: '🏫', name: 'Okul Yıldızı',     desc: 'School Life temasını tamamla',          cat: 'done'  },
+  { id: 'three_topics',  icon: '🌍', name: 'Dünya Gezgini',     desc: '3 farklı temayı tamamla',               cat: 'done'  },
+  { id: 'all_topics',    icon: '📚', name: 'Sınıf Şampiyonu',   desc: 'Tüm temaları tamamla',                  cat: 'done'  },
+  { id: 'all_texts',     icon: '🎓', name: 'Mezun',             desc: 'Tüm metinleri en az bir kez oku',       cat: 'done'  },
+  { id: 'all_badges',    icon: '👑', name: 'Okuma Kralı',       desc: 'Tüm rozetleri topla',                   cat: 'done'  },
+];
+
+const CAT_LABELS = {
+  start: '🌱 Başlangıç Rozetleri',
+  perf:  '🏆 Performans Rozetleri',
+  done:  '🏅 Tamamlama Rozetleri',
+};
+
+function loadBadges() {
+  const profile = getActiveProfile();
+  if (!profile) return [];
+  try {
+    const all = JSON.parse(localStorage.getItem('ataberk_badges') || '{}');
+    return all[profile.id] || [];
+  } catch(e) { return []; }
+}
+
+function saveBadge(badgeId) {
+  const profile = getActiveProfile();
+  if (!profile) return;
+  try {
+    const all = JSON.parse(localStorage.getItem('ataberk_badges') || '{}');
+    if (!all[profile.id]) all[profile.id] = [];
+    if (!all[profile.id].includes(badgeId)) {
+      all[profile.id].push(badgeId);
+      localStorage.setItem('ataberk_badges', JSON.stringify(all));
+      return true;
+    }
+  } catch(e) {}
+  return false;
+}
+
+let _badgeQueue = [];
+let _badgeShowing = false;
+
+function checkBadges(score, total, stars, skill, topic) {
+  const earned = loadBadges();
+  const textStats = (() => {
+    try {
+      const profile = getActiveProfile();
+      if (!profile) return {};
+      const all = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
+      return all[profile.id] || {};
+    } catch(e) { return {}; }
+  })();
+  const actStats = loadStats();
+  const newBadges = [];
+
+  const grant = (id) => {
+    if (!earned.includes(id)) {
+      if (saveBadge(id)) newBadges.push(id);
+    }
+  };
+
+  // İlk metin
+  grant('first_text');
+
+  // İlk beceri rozetleri
+  if (skill === 'scan') grant('first_scan');
+  if (skill === 'skim') grant('first_skim');
+  if (skill === 'int')  grant('first_int');
+  if (skill === 'inf')  grant('first_inf');
+
+  // 3 yıldız
+  if (stars === 3) grant('star3');
+
+  // 5/5 mükemmel
+  if (score === total && total >= 5) grant('perfect');
+
+  // 3 üst üste 3 yıldız — son 3 metin stat'ına bak
+  const recentStars = [];
+  Object.values(textStats).forEach(topicData => {
+    Object.values(topicData).forEach(skillData => {
+      Object.values(skillData).forEach(t => {
+        if (t.bestStars !== undefined) recentStars.push(t.bestStars);
+      });
+    });
+  });
+  if (recentStars.filter(s => s === 3).length >= 3) grant('streak3');
+
+  // 4 beceriyi aynı temada tamamla
+  const topicSkills = actStats[topic] || {};
+  if (['scan','skim','int','inf'].every(s => topicSkills[s])) grant('all_skills');
+
+  // School Life tamamlandı
+  const schoolSkills = actStats['school-life'] || {};
+  if (['scan','skim','int','inf'].every(s => schoolSkills[s])) grant('school_done');
+
+  // 3 farklı tema tamamlandı
+  const doneTopic = Object.entries(actStats).filter(([k, v]) =>
+    ['scan','skim','int','inf'].every(s => v[s])
+  ).length;
+  if (doneTopic >= 3) grant('three_topics');
+
+  // Tüm temalar tamamlandı
+  if (doneTopic >= Object.keys(TOPIC_META).length) grant('all_topics');
+
+  // Tüm rozetler
+  const earnedAfter = loadBadges();
+  if (earnedAfter.length >= BADGE_DEFS.length - 1) grant('all_badges');
+
+  // Kuyruğa ekle ve göster
+  if (newBadges.length > 0) {
+    _badgeQueue.push(...newBadges);
+    showNextBadgePopup();
+  }
+}
+
+function showNextBadgePopup() {
+  if (_badgeShowing || _badgeQueue.length === 0) return;
+  const id = _badgeQueue.shift();
+  const def = BADGE_DEFS.find(b => b.id === id);
+  if (!def) { showNextBadgePopup(); return; }
+  _badgeShowing = true;
+  document.getElementById('badge-popup-icon').textContent = def.icon;
+  document.getElementById('badge-popup-title').textContent = def.name;
+  document.getElementById('badge-popup-sub').textContent = def.desc;
+  document.getElementById('badge-popup-overlay').classList.remove('hidden');
+}
+
+function closeBadgePopup() {
+  document.getElementById('badge-popup-overlay').classList.add('hidden');
+  _badgeShowing = false;
+  if (_badgeQueue.length > 0) {
+    setTimeout(showNextBadgePopup, 400);
+  }
+}
+
+function renderBadgeScreen() {
+  const earned = loadBadges();
+  const total = BADGE_DEFS.length;
+  document.getElementById('badges-screen-sub').textContent = `${earned.length} / ${total} kazanıldı`;
+
+  const cats = ['start', 'perf', 'done'];
+  const scroll = document.getElementById('badges-scroll');
+  scroll.innerHTML = cats.map(cat => {
+    const badges = BADGE_DEFS.filter(b => b.cat === cat);
+    const cards = badges.map(b => {
+      const isEarned = earned.includes(b.id);
+      return `
+        <div class="badge-card${isEarned ? '' : ' locked'}">
+          <div class="badge-card-icon">${b.icon}</div>
+          <div class="badge-card-name">${b.name}</div>
+          <div class="badge-card-desc">${b.desc}</div>
+          ${isEarned
+            ? '<div class="badge-earned-tag">✓ Kazanıldı</div>'
+            : '<div class="badge-lock-tag">🔒 Kilitli</div>'}
+        </div>`;
+    }).join('');
+    return `
+      <div class="badge-category">
+        <div class="badge-cat-title">${CAT_LABELS[cat]}</div>
+        <div class="badge-grid">${cards}</div>
+      </div>`;
+  }).join('');
+}
+
+function showBadgeScreen() {
+  renderBadgeScreen();
+  showScreen('screen-badges');
+}
+
+function renderBadgePreview() {
+  const earned = loadBadges();
+  const total = BADGE_DEFS.length;
+  const shown = BADGE_DEFS.slice(0, 8);
+  const miniHTML = shown.map(b => {
+    const isEarned = earned.includes(b.id);
+    return `<div class="stats-badge-mini${isEarned ? '' : ' locked'}">${b.icon}</div>`;
+  }).join('');
+  const remaining = total - 8;
+  return `
+    <div class="stats-badge-preview" onclick="showBadgeScreen()">
+      <div class="stats-badge-preview-top">
+        <div class="stats-badge-preview-title">🏅 Rozetlerim</div>
+        <div class="stats-badge-count">${earned.length} / ${total}</div>
+      </div>
+      <div class="stats-badge-mini-row">
+        ${miniHTML}
+        <span class="stats-badge-more">+${remaining} →</span>
+      </div>
+    </div>`;
+}
+
+// ════════════════════════════════════════
 function renderStats() {
   const profil = getActiveProfile();
   const stats  = loadStats();
@@ -2883,7 +3279,7 @@ function renderStats() {
 
   const editHTML = `<button class="stats-edit-btn" onclick="showScreen('screen-profile-select')">🔄 Profil Değiştir</button>`;
 
-  scroll.innerHTML = heroHTML + gridHTML + topicsHTML + editHTML;
+  scroll.innerHTML = heroHTML + gridHTML + renderBadgePreview() + topicsHTML + editHTML;
 }
 
 // Header rozetine tıklayınca profil seçim ekranına git (profil değiştirmek için).
