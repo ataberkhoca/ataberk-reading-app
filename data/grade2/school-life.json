@@ -11,22 +11,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "Hi! I am Lily.",
@@ -52,117 +40,39 @@
         {
           "q": "Where is Max?",
           "correct": "In the playground",
-          "wrong": [
-            "In the classroom",
-            "In the library"
-          ],
+          "wrong": ["In the classroom", "In the library"],
           "hint": "Find Max in the text.",
-          "hl": [
-            3
-          ]
+          "hl": [3]
         },
         {
           "q": "Who is in the classroom?",
           "correct": "Mr Green",
-          "wrong": [
-            "Mrs Brown",
-            "Lily"
-          ],
+          "wrong": ["Mrs Brown", "Lily"],
           "hint": "Look for the word classroom in the text.",
-          "hl": [
-            5
-          ]
+          "hl": [5]
         },
         {
           "q": "Where is Mrs Brown?",
           "correct": "In the library",
-          "wrong": [
-            "In the playground",
-            "In the classroom"
-          ],
+          "wrong": ["In the playground", "In the classroom"],
           "hint": "Find Mrs Brown in the text.",
-          "hl": [
-            7
-          ]
+          "hl": [7]
         },
         {
           "q": "Who is the headmistress?",
           "correct": "Mrs Brown",
-          "wrong": [
-            "Mr Green",
-            "Max"
-          ],
+          "wrong": ["Mr Green", "Max"],
           "hint": "Look for the word headmistress.",
-          "hl": [
-            6
-          ]
+          "hl": [6]
         },
         {
           "q": "What is Lily?",
           "correct": "A pupil",
-          "wrong": [
-            "A teacher",
-            "A headmistress"
-          ],
+          "wrong": ["A teacher", "A headmistress"],
           "hint": "Read the second sentence carefully.",
-          "hl": [
-            1
-          ]
+          "hl": [1]
         }
-      ],
-      "preReading": {
-        "type": "AC",
-        "A": {
-          "question": "What will you see in the text?",
-          "clues": [
-            {
-              "e": "🏫",
-              "w": "school",
-              "correct": true
-            },
-            {
-              "e": "🛝",
-              "w": "playground",
-              "correct": true
-            },
-            {
-              "e": "📚",
-              "w": "library",
-              "correct": true
-            },
-            {
-              "e": "🌦️",
-              "w": "weather",
-              "correct": false
-            }
-          ]
-        },
-        "C": {
-          "question": "Meet the characters!",
-          "chars": [
-            {
-              "e": "🧒",
-              "n": "Lily",
-              "q": "Where is Lily?"
-            },
-            {
-              "e": "👦",
-              "n": "Max",
-              "q": "Where is Max?"
-            },
-            {
-              "e": "👨‍🏫",
-              "n": "Mr Green",
-              "q": "Where is Mr Green?"
-            },
-            {
-              "e": "👩‍💼",
-              "n": "Mrs Brown",
-              "q": "Where is Mrs Brown?"
-            }
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "scan-2",
@@ -173,22 +83,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "Look! This is Jungle School.",
@@ -218,113 +116,39 @@
         {
           "q": "Where is Max?",
           "correct": "In the sports hall",
-          "wrong": [
-            "In the garden",
-            "In the canteen"
-          ],
+          "wrong": ["In the garden", "In the canteen"],
           "hint": "Find Max in the text.",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "Where is Mrs Brown?",
           "correct": "In the garden",
-          "wrong": [
-            "In the sports hall",
-            "In the canteen"
-          ],
+          "wrong": ["In the sports hall", "In the canteen"],
           "hint": "Look for the word garden.",
-          "hl": [
-            7
-          ]
+          "hl": [7]
         },
         {
           "q": "Who is in the teacher's room?",
           "correct": "Mr Green",
-          "wrong": [
-            "Mrs Brown",
-            "Max"
-          ],
+          "wrong": ["Mrs Brown", "Max"],
           "hint": "Find the teacher's room in the text.",
-          "hl": [
-            5,
-            6
-          ]
+          "hl": [5, 6]
         },
         {
           "q": "What is the garden like?",
           "correct": "Big",
-          "wrong": [
-            "Small",
-            "New"
-          ],
+          "wrong": ["Small", "New"],
           "hint": "Read the sentence about the garden.",
-          "hl": [
-            8
-          ]
+          "hl": [8]
         },
         {
           "q": "Which place is for sports?",
           "correct": "The sports hall",
-          "wrong": [
-            "The canteen",
-            "The garden"
-          ],
+          "wrong": ["The canteen", "The garden"],
           "hint": "Look for the word sports.",
-          "hl": [
-            3
-          ]
+          "hl": [3]
         }
-      ],
-      "preReading": {
-        "type": "AC",
-        "A": {
-          "question": "What will you see in the text?",
-          "clues": [
-            {
-              "e": "🍽️",
-              "w": "canteen",
-              "correct": true
-            },
-            {
-              "e": "🏃",
-              "w": "sports hall",
-              "correct": true
-            },
-            {
-              "e": "🌳",
-              "w": "garden",
-              "correct": true
-            },
-            {
-              "e": "🎒",
-              "w": "classroom",
-              "correct": false
-            }
-          ]
-        },
-        "C": {
-          "question": "Meet the characters!",
-          "chars": [
-            {
-              "e": "👦",
-              "n": "Max",
-              "q": "Where is Max?"
-            },
-            {
-              "e": "👨‍🏫",
-              "n": "Mr Green",
-              "q": "Where is Mr Green?"
-            },
-            {
-              "e": "👩‍💼",
-              "n": "Mrs Brown",
-              "q": "Where is Mrs Brown?"
-            }
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "scan-3",
@@ -335,22 +159,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "We have special days at school.",
@@ -378,112 +190,39 @@
         {
           "q": "When is Republic Day?",
           "correct": "29 October",
-          "wrong": [
-            "23 April",
-            "30 August"
-          ],
+          "wrong": ["23 April", "30 August"],
           "hint": "Find Republic Day in the text.",
-          "hl": [
-            5
-          ]
+          "hl": [5]
         },
         {
           "q": "What is on 23 April?",
           "correct": "National Sovereignty and Children's Day",
-          "wrong": [
-            "Victory Day",
-            "Republic Day"
-          ],
+          "wrong": ["Victory Day", "Republic Day"],
           "hint": "Find 23 April in the text.",
-          "hl": [
-            1
-          ]
+          "hl": [1]
         },
         {
           "q": "When is Victory Day?",
           "correct": "30 August",
-          "wrong": [
-            "19 May",
-            "15 July"
-          ],
+          "wrong": ["19 May", "15 July"],
           "hint": "Look for Victory Day.",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "Which day is on 19 May?",
           "correct": "Commemoration of Atatürk, Youth and Sports Day",
-          "wrong": [
-            "Democracy and National Unity Day",
-            "Children's Day"
-          ],
+          "wrong": ["Democracy and National Unity Day", "Children's Day"],
           "hint": "Find 19 May in the text.",
-          "hl": [
-            2
-          ]
+          "hl": [2]
         },
         {
           "q": "Which day is in the text?",
           "correct": "Eid al-Fitr",
-          "wrong": [
-            "New Year's Day",
-            "Teacher's Day"
-          ],
+          "wrong": ["New Year's Day", "Teacher's Day"],
           "hint": "Look near the end of the text.",
-          "hl": [
-            6
-          ]
+          "hl": [6]
         }
-      ],
-      "preReading": {
-        "type": "AC",
-        "A": {
-          "question": "What will you see in the text?",
-          "clues": [
-            {
-              "e": "🎌",
-              "w": "flag",
-              "correct": true
-            },
-            {
-              "e": "🎂",
-              "w": "celebration",
-              "correct": true
-            },
-            {
-              "e": "📅",
-              "w": "special day",
-              "correct": true
-            },
-            {
-              "e": "⚽",
-              "w": "sports",
-              "correct": false
-            }
-          ]
-        },
-        "C": {
-          "question": "Meet the characters!",
-          "chars": [
-            {
-              "e": "🧒",
-              "n": "Lily",
-              "q": "What is Lily doing?"
-            },
-            {
-              "e": "👦",
-              "n": "Max",
-              "q": "How does Max feel?"
-            },
-            {
-              "e": "👨‍🏫",
-              "n": "Mr Green",
-              "q": "What does Mr Green say?"
-            }
-          ]
-        }
-      }
+      ]
     }
   ],
   "skim": [
@@ -496,22 +235,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "Good morning!",
@@ -545,111 +272,39 @@
         {
           "q": "What is the text mainly about?",
           "correct": "Meeting people at school",
-          "wrong": [
-            "Days of the week",
-            "Places at school"
-          ],
+          "wrong": ["Days of the week", "Places at school"],
           "hint": "Look at the greetings in the text. What is happening?",
-          "hl": [
-            3,
-            7,
-            10
-          ]
+          "hl": [3, 7, 10]
         },
         {
           "q": "Who are in the text?",
           "correct": "Lily, Max, Mr Green and Mrs Brown",
-          "wrong": [
-            "Lily, Max and Tom",
-            "Mr Green, Mrs Brown and Sam"
-          ],
+          "wrong": ["Lily, Max and Tom", "Mr Green, Mrs Brown and Sam"],
           "hint": "Find all the names in the text.",
-          "hl": [
-            1,
-            2,
-            5,
-            8
-          ]
+          "hl": [1, 2, 5, 8]
         },
         {
           "q": "Where does the story happen?",
           "correct": "At Jungle School",
-          "wrong": [
-            "At home",
-            "In the playground"
-          ],
+          "wrong": ["At home", "In the playground"],
           "hint": "Look for the name of the school.",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "What kind of text is this?",
           "correct": "A greeting story",
-          "wrong": [
-            "A school timetable",
-            "A celebration story"
-          ],
+          "wrong": ["A school timetable", "A celebration story"],
           "hint": "Look at how people talk to each other.",
-          "hl": [
-            0,
-            3,
-            7,
-            10
-          ]
+          "hl": [0, 3, 7, 10]
         },
         {
           "q": "How does Lily feel about Jungle School?",
           "correct": "She loves it",
-          "wrong": [
-            "She is sad",
-            "She is scared"
-          ],
+          "wrong": ["She is sad", "She is scared"],
           "hint": "Read the last sentence.",
-          "hl": [
-            11
-          ]
+          "hl": [11]
         }
-      ],
-      "preReading": {
-        "type": "AB",
-        "A": {
-          "question": "What will you see in the text?",
-          "clues": [
-            {
-              "e": "👋",
-              "w": "greeting",
-              "correct": true
-            },
-            {
-              "e": "🏫",
-              "w": "school",
-              "correct": true
-            },
-            {
-              "e": "🤝",
-              "w": "meeting",
-              "correct": true
-            },
-            {
-              "e": "🎒",
-              "w": "lesson",
-              "correct": false
-            }
-          ]
-        },
-        "B": {
-          "question": "Do you know these words?",
-          "words": [
-            "hello",
-            "good morning",
-            "meet",
-            "friend",
-            "teacher",
-            "headmistress"
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "skim-2",
@@ -660,22 +315,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👧",
-          "n": "Zara"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👧", "n": "Zara" }
       ],
       "sentences": [
         "Good morning everybody!",
@@ -715,107 +358,39 @@
         {
           "q": "What is the text mainly about?",
           "correct": "A new friend at school",
-          "wrong": [
-            "A school trip",
-            "A sports day"
-          ],
+          "wrong": ["A school trip", "A sports day"],
           "hint": "Look at what happens with Zara.",
-          "hl": [
-            1,
-            9,
-            14
-          ]
+          "hl": [1, 9, 14]
         },
         {
           "q": "Who is the new pupil?",
           "correct": "Zara",
-          "wrong": [
-            "Lily",
-            "Max"
-          ],
+          "wrong": ["Lily", "Max"],
           "hint": "Find the new name in the text.",
-          "hl": [
-            3
-          ]
+          "hl": [3]
         },
         {
           "q": "How does Zara feel?",
           "correct": "Fine",
-          "wrong": [
-            "Sad",
-            "Tired"
-          ],
+          "wrong": ["Sad", "Tired"],
           "hint": "Read what Zara says about herself.",
-          "hl": [
-            7
-          ]
+          "hl": [7]
         },
         {
           "q": "What kind of text is this?",
           "correct": "An introduction story",
-          "wrong": [
-            "A timetable",
-            "A celebration story"
-          ],
+          "wrong": ["A timetable", "A celebration story"],
           "hint": "Look at how people meet and talk.",
-          "hl": [
-            2,
-            3,
-            10
-          ]
+          "hl": [2, 3, 10]
         },
         {
           "q": "Are Zara and Max friends at the end?",
           "correct": "Yes",
-          "wrong": [
-            "No",
-            "We don't know"
-          ],
+          "wrong": ["No", "We don't know"],
           "hint": "Read the last sentence.",
-          "hl": [
-            14
-          ]
+          "hl": [14]
         }
-      ],
-      "preReading": {
-        "type": "AB",
-        "A": {
-          "question": "What will you see in the text?",
-          "clues": [
-            {
-              "e": "👧",
-              "w": "new girl",
-              "correct": true
-            },
-            {
-              "e": "🤝",
-              "w": "introduction",
-              "correct": true
-            },
-            {
-              "e": "🏫",
-              "w": "school",
-              "correct": true
-            },
-            {
-              "e": "🎉",
-              "w": "celebration",
-              "correct": false
-            }
-          ]
-        },
-        "B": {
-          "question": "Do you know these words?",
-          "words": [
-            "hello",
-            "excuse me",
-            "sorry",
-            "welcome",
-            "name",
-            "fine"
-          ]
-        }
-      }
+      ]
     }
   ],
   "int": [
@@ -828,22 +403,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "Today is Monday.",
@@ -875,100 +438,39 @@
         {
           "q": "What day is today?",
           "correct": "Monday",
-          "wrong": [
-            "Tuesday",
-            "Friday"
-          ],
+          "wrong": ["Tuesday", "Friday"],
           "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
+          "hl": [0]
         },
         {
           "q": "What is Wednesday?",
           "correct": "Sports day",
-          "wrong": [
-            "Art day",
-            "Library day"
-          ],
+          "wrong": ["Art day", "Library day"],
           "hint": "Find Wednesday in the text.",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "Who is in the library on Thursday?",
           "correct": "Mrs Brown",
-          "wrong": [
-            "Mr Green",
-            "Max"
-          ],
+          "wrong": ["Mr Green", "Max"],
           "hint": "Find Thursday in the text.",
-          "hl": [
-            6,
-            7
-          ]
+          "hl": [6, 7]
         },
         {
           "q": "Which days are not school days?",
           "correct": "Saturday and Sunday",
-          "wrong": [
-            "Friday and Saturday",
-            "Thursday and Friday"
-          ],
+          "wrong": ["Friday and Saturday", "Thursday and Friday"],
           "hint": "Read the last sentence.",
-          "hl": [
-            10
-          ]
+          "hl": [10]
         },
         {
           "q": "What does Mr Green do on Friday?",
           "correct": "He says goodbye",
-          "wrong": [
-            "He goes to the library",
-            "He plays sports"
-          ],
+          "wrong": ["He goes to the library", "He plays sports"],
           "hint": "Find Mr Green in the text.",
-          "hl": [
-            8,
-            9
-          ]
+          "hl": [8, 9]
         }
-      ],
-      "preReading": {
-        "type": "BD",
-        "B": {
-          "question": "Do you know these words?",
-          "words": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "weekend"
-          ]
-        },
-        "D": {
-          "sentence": "Wednesday is _____ day.",
-          "options": [
-            {
-              "e": "🎨",
-              "w": "art",
-              "correct": false
-            },
-            {
-              "e": "🏃",
-              "w": "sports",
-              "correct": true
-            },
-            {
-              "e": "📚",
-              "w": "library",
-              "correct": false
-            }
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "int-2",
@@ -979,22 +481,10 @@
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👧",
-          "n": "Zara"
-        }
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👧", "n": "Zara" }
       ],
       "sentences": [
         "Good morning everybody!",
@@ -1030,100 +520,39 @@
         {
           "q": "What day is it today?",
           "correct": "Monday",
-          "wrong": [
-            "Tuesday",
-            "Sunday"
-          ],
+          "wrong": ["Tuesday", "Sunday"],
           "hint": "Read the second sentence.",
-          "hl": [
-            1,
-            2
-          ]
+          "hl": [1, 2]
         },
         {
           "q": "What does Mr Green say to Lily?",
           "correct": "Come here, please",
-          "wrong": [
-            "Go home, please",
-            "Sit down, please"
-          ],
+          "wrong": ["Go home, please", "Sit down, please"],
           "hint": "Find Lily in the text.",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "Who reads very well?",
           "correct": "Max and Zara",
-          "wrong": [
-            "Lily and Max",
-            "Mr Green"
-          ],
+          "wrong": ["Lily and Max", "Mr Green"],
           "hint": "Find the names before 'They read very well'.",
-          "hl": [
-            9,
-            10
-          ]
+          "hl": [9, 10]
         },
         {
           "q": "What does Mr Green say after Lily reads?",
           "correct": "Thank you",
-          "wrong": [
-            "Sorry",
-            "Goodbye"
-          ],
+          "wrong": ["Sorry", "Goodbye"],
           "hint": "Read the sentence after Lily reads.",
-          "hl": [
-            7
-          ]
+          "hl": [7]
         },
         {
           "q": "What do they say at the end?",
           "correct": "See you tomorrow",
-          "wrong": [
-            "Good morning",
-            "Welcome"
-          ],
+          "wrong": ["Good morning", "Welcome"],
           "hint": "Read the last sentence.",
-          "hl": [
-            12
-          ]
+          "hl": [12]
         }
-      ],
-      "preReading": {
-        "type": "BD",
-        "B": {
-          "question": "Do you know these words?",
-          "words": [
-            "come here",
-            "look",
-            "read",
-            "well done",
-            "thank you",
-            "goodbye"
-          ]
-        },
-        "D": {
-          "sentence": "Mr Green says: Come _____, please.",
-          "options": [
-            {
-              "e": "🚪",
-              "w": "here",
-              "correct": true
-            },
-            {
-              "e": "🏠",
-              "w": "home",
-              "correct": false
-            },
-            {
-              "e": "🌳",
-              "w": "outside",
-              "correct": false
-            }
-          ]
-        }
-      }
+      ]
     }
   ],
   "inf": [
@@ -1136,22 +565,10 @@
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👩‍💼",
-          "n": "Mrs Brown"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👩‍💼", "n": "Mrs Brown" }
       ],
       "sentences": [
         "Today is a special day at Jungle School.",
@@ -1179,110 +596,39 @@
         {
           "q": "How does Lily feel?",
           "correct": "Happy",
-          "wrong": [
-            "Sad",
-            "Scared"
-          ],
+          "wrong": ["Sad", "Scared"],
           "hint": "Look at what Lily is doing.",
-          "hl": [
-            2
-          ]
+          "hl": [2]
         },
         {
           "q": "Why is today a special day?",
           "correct": "It is a national day",
-          "wrong": [
-            "It is a sports day",
-            "It is a library day"
-          ],
+          "wrong": ["It is a sports day", "It is a library day"],
           "hint": "What does Mr Green say?",
-          "hl": [
-            4
-          ]
+          "hl": [4]
         },
         {
           "q": "How does Mrs Brown feel?",
           "correct": "Happy",
-          "wrong": [
-            "Tired",
-            "Angry"
-          ],
+          "wrong": ["Tired", "Angry"],
           "hint": "Find Mrs Brown in the text.",
-          "hl": [
-            5
-          ]
+          "hl": [5]
         },
         {
           "q": "What are the pupils doing together?",
           "correct": "Celebrating",
-          "wrong": [
-            "Studying",
-            "Playing sports"
-          ],
+          "wrong": ["Studying", "Playing sports"],
           "hint": "Read the last sentence.",
-          "hl": [
-            7,
-            8
-          ]
+          "hl": [7, 8]
         },
         {
           "q": "What kind of day is it at Jungle School?",
           "correct": "A celebration day",
-          "wrong": [
-            "A normal school day",
-            "A sports day"
-          ],
+          "wrong": ["A normal school day", "A sports day"],
           "hint": "Look at the flags, the cake and what Mr Green says.",
-          "hl": [
-            1,
-            4,
-            6
-          ]
+          "hl": [1, 4, 6]
         }
-      ],
-      "preReading": {
-        "type": "CD",
-        "C": {
-          "question": "Meet the characters!",
-          "chars": [
-            {
-              "e": "🧒",
-              "n": "Lily",
-              "q": "How does Lily feel?"
-            },
-            {
-              "e": "👦",
-              "n": "Max",
-              "q": "How does Max feel?"
-            },
-            {
-              "e": "👩‍💼",
-              "n": "Mrs Brown",
-              "q": "What does Mrs Brown have?"
-            }
-          ]
-        },
-        "D": {
-          "sentence": "There are _____ everywhere.",
-          "options": [
-            {
-              "e": "🎌",
-              "w": "flags",
-              "correct": true
-            },
-            {
-              "e": "📚",
-              "w": "books",
-              "correct": false
-            },
-            {
-              "e": "🎒",
-              "w": "bags",
-              "correct": false
-            }
-          ]
-        }
-      }
+      ]
     },
     {
       "id": "inf-2",
@@ -1293,22 +639,10 @@
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        {
-          "e": "🧒",
-          "n": "Lily"
-        },
-        {
-          "e": "👦",
-          "n": "Max"
-        },
-        {
-          "e": "👨‍🏫",
-          "n": "Mr Green"
-        },
-        {
-          "e": "👧",
-          "n": "Zara"
-        }
+        { "e": "🧒", "n": "Lily" },
+        { "e": "👦", "n": "Max" },
+        { "e": "👨‍🏫", "n": "Mr Green" },
+        { "e": "👧", "n": "Zara" }
       ],
       "sentences": [
         "It is a sunny day in April.",
@@ -1338,109 +672,39 @@
         {
           "q": "Which special day is it?",
           "correct": "Children's Day",
-          "wrong": [
-            "Victory Day",
-            "Republic Day"
-          ],
+          "wrong": ["Victory Day", "Republic Day"],
           "hint": "Look at the month and who celebrates.",
-          "hl": [
-            0,
-            6
-          ]
+          "hl": [0, 6]
         },
         {
           "q": "What month is it?",
           "correct": "April",
-          "wrong": [
-            "May",
-            "October"
-          ],
+          "wrong": ["May", "October"],
           "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
+          "hl": [0]
         },
         {
           "q": "How does everyone feel?",
           "correct": "Happy",
-          "wrong": [
-            "Sad",
-            "Tired"
-          ],
+          "wrong": ["Sad", "Tired"],
           "hint": "Read the last sentence.",
-          "hl": [
-            9
-          ]
+          "hl": [9]
         },
         {
           "q": "Why are there flags at school?",
           "correct": "It is a celebration",
-          "wrong": [
-            "It is a sports day",
-            "It is a normal day"
-          ],
+          "wrong": ["It is a sports day", "It is a normal day"],
           "hint": "Look at the flags, songs and dances.",
-          "hl": [
-            1,
-            2
-          ]
+          "hl": [1, 2]
         },
         {
           "q": "Who is this day for?",
           "correct": "All children",
-          "wrong": [
-            "Only teachers",
-            "Only Lily"
-          ],
+          "wrong": ["Only teachers", "Only Lily"],
           "hint": "What does Lily say?",
-          "hl": [
-            6
-          ]
+          "hl": [6]
         }
-      ],
-      "preReading": {
-        "type": "CD",
-        "C": {
-          "question": "Meet the characters!",
-          "chars": [
-            {
-              "e": "🧒",
-              "n": "Lily",
-              "q": "What does Lily say?"
-            },
-            {
-              "e": "👦",
-              "n": "Max",
-              "q": "How does Max feel?"
-            },
-            {
-              "e": "👨‍🏫",
-              "n": "Mr Green",
-              "q": "What does Mr Green think?"
-            }
-          ]
-        },
-        "D": {
-          "sentence": "This day is for all _____.",
-          "options": [
-            {
-              "e": "👶",
-              "w": "children",
-              "correct": true
-            },
-            {
-              "e": "👩‍🏫",
-              "w": "teachers",
-              "correct": false
-            },
-            {
-              "e": "👪",
-              "w": "families",
-              "correct": false
-            }
-          ]
-        }
-      }
+      ]
     }
   ]
 }
