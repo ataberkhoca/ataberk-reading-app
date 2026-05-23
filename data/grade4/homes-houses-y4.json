@@ -1,0 +1,1277 @@
+{
+  "theme": "Homes, Houses and the Neighbourhood",
+  "themeNumber": 5,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Meet the Ocean Family!",
+      "subtitle": "Find the right animal and habitat!",
+      "icon": "🌊",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Welcome to the ocean! There are so many amazing animals here.",
+        "Whales are the biggest animals in the ocean. They swim slowly and eat small fish.",
+        "Sharks are fast and strong. They live in oceans and deep seas all around the world.",
+        "Dolphins are clever and friendly. They live in oceans and sometimes in rivers too.",
+        "Sea turtles are slow on land but they swim beautifully in the sea. They love warm lagoons.",
+        "Jellyfish have no bones. They float and splash in the ocean. Some are very dangerous!",
+        "Octopuses have eight arms. They hide in rocks near the sea floor. They are the cleverest animals in the sea!",
+        "Crabs crawl on the sea floor and on the beach. They live in the sea and on the sand.",
+        "Starfish live on the ocean floor. They are the most colourful animals on the sea floor.",
+        "Seals dive and jump in the sea. They also love to rest on rocks near the beach."
+      ],
+      "translations": [
+        "Okyanusa hoş geldiniz! Burada pek çok harika hayvan var.",
+        "Balinalar okyanustaki en büyük hayvanlardır. Yavaşça yüzer ve küçük balıklar yerler.",
+        "Köpekbalıkları hızlı ve güçlüdür. Dünya genelinde okyanuslarda ve derin denizlerde yaşarlar.",
+        "Yunuslar zeki ve arkadaş canlısıdır. Okyanuslarda ve bazen nehirlerde de yaşarlar.",
+        "Deniz kaplumbağaları karada yavaştır ama denizde güzel yüzer. Sıcak lagünleri severler.",
+        "Denizanalarının kemiği yoktur. Okyanusta yüzer ve sıçrarlar. Bazıları çok tehlikelidir!",
+        "Ahtapotların sekiz kolu vardır. Deniz tabanının yakınındaki kayalarda saklanırlar. Denizin en zeki hayvanlarıdır!",
+        "Yengeçler deniz tabanında ve sahilde emekler. Denizde ve kumda yaşarlar.",
+        "Denizyıldızları okyanus tabanında yaşar. Deniz tabanındaki en renkli hayvanlardır.",
+        "Fok balıkları denizde dalış yapar ve zıplar. Ayrıca sahil yakınındaki kayalarda dinlenmeyi severler."
+      ],
+      "questions": [
+        {
+          "q": "Where do sea turtles love to live?",
+          "correct": "In warm lagoons",
+          "wrong": [
+            "In deep seas",
+            "On the ocean floor"
+          ],
+          "hint": "Find sea turtles in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many arms do octopuses have?",
+          "correct": "Eight",
+          "wrong": [
+            "Six",
+            "Ten"
+          ],
+          "hint": "Find octopuses in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What do octopuses do to stay safe?",
+          "correct": "They hide in rocks",
+          "wrong": [
+            "They swim fast",
+            "They jump out of the water"
+          ],
+          "hint": "Find octopuses and the word hide in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How do crabs move?",
+          "correct": "They crawl",
+          "wrong": [
+            "They swim",
+            "They float"
+          ],
+          "hint": "Find crabs in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What do seals love to do near the beach?",
+          "correct": "Dive, jump and rest on rocks",
+          "wrong": [
+            "Hide in rocks",
+            "Float in lagoons"
+          ],
+          "hint": "Find seals in the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Dangers in the Ocean",
+      "subtitle": "Find the right danger and animal!",
+      "icon": "⚠️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "The ocean is a beautiful place — but it is in danger. Let's find out why!",
+        "Plastic is one of the biggest dangers for marine animals. Fish and turtles eat plastic by mistake.",
+        "Waste from cities goes into rivers and lakes. Then it reaches the sea and the ocean.",
+        "Fishing nets are a big problem too. Dolphins and sea turtles get trapped in them.",
+        "Pollution from factories and ships makes the water dirty. Marine animals cannot live in dirty water.",
+        "Hunting is another danger. People hunt whales and sharks for food or sport. This is very wrong!",
+        "Climate change makes the ocean warmer. Jellyfish and coral cannot survive in warm water.",
+        "You mustn't throw plastic into the sea. You mustn't leave waste on the beach either.",
+        "Seals and starfish need clean water to dive, splash and crawl safely.",
+        "Remember: we share this planet with all marine animals. We must protect them!"
+      ],
+      "translations": [
+        "Okyanus güzel bir yer — ama tehlike altında. Nedenini öğrenelim!",
+        "Plastik, deniz hayvanları için en büyük tehlikelerden biri. Balıklar ve kaplumbağalar yanlışlıkla plastik yiyor.",
+        "Şehirlerden gelen atıklar nehirlere ve göllere giriyor. Sonra denize ve okyanusa ulaşıyor.",
+        "Balıkçı ağları da büyük bir sorun. Yunuslar ve deniz kaplumbağaları onlara takılıyor.",
+        "Fabrikalar ve gemilerden gelen kirlilik suyu kirletiyor. Deniz hayvanları kirli suda yaşayamaz.",
+        "Avcılık başka bir tehlike. İnsanlar yiyecek veya spor için balina ve köpekbalığı avlıyor. Bu çok yanlış!",
+        "İklim değişikliği okyanusları ısıtıyor. Denizanaları ve mercanlar ılık suda hayatta kalamaz.",
+        "Denize plastik atmamalısın. Sahilde atık da bırakmamalısın.",
+        "Foklar ve denizyıldızları güvenle dalış yapabilmek, sıçrayabilmek ve emekleyebilmek için temiz suya ihtiyaç duyuyor.",
+        "Unutma: bu gezegeni tüm deniz hayvanlarıyla paylaşıyoruz. Onları korumalıyız!"
+      ],
+      "questions": [
+        {
+          "q": "What do fish and turtles eat by mistake?",
+          "correct": "Plastic",
+          "wrong": [
+            "Waste from cities",
+            "Fishing nets"
+          ],
+          "hint": "Find the word plastic in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How do dolphins and sea turtles get into danger from fishing nets?",
+          "correct": "They get trapped in them",
+          "wrong": [
+            "They eat them",
+            "They hide in them"
+          ],
+          "hint": "Find the words fishing nets in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does climate change do to the ocean?",
+          "correct": "It makes it warmer",
+          "wrong": [
+            "It makes it dirtier",
+            "It makes it deeper"
+          ],
+          "hint": "Find the words climate change in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What mustn't you do at the beach?",
+          "correct": "Throw plastic or leave waste",
+          "wrong": [
+            "Hunt whales",
+            "Use fishing nets"
+          ],
+          "hint": "Find the word mustn't in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What do seals and starfish need to live safely?",
+          "correct": "Clean water",
+          "wrong": [
+            "Warm water",
+            "Deep water"
+          ],
+          "hint": "Find seals and starfish in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Living by the Water",
+      "subtitle": "Find the right house and prediction!",
+      "icon": "🏡",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Some people are lucky — they live right next to the water!",
+        "A beach house is a house on or near the beach. There are a lot of beach houses on the Aegean coast.",
+        "Beach houses have big windows and wide balconies. You can see the sea from every room!",
+        "A lake house is a house next to a lake. There are many lake houses in the mountains of Türkiye.",
+        "Lake houses are quiet and peaceful. There is not much noise — only birds and water.",
+        "A houseboat is a home on the water. People live on boats on rivers, lakes and canals.",
+        "There are not many houseboats in Türkiye, but there are a lot of them in the Netherlands and England.",
+        "Nora says: \"I think it will be sunny tomorrow. I will sit on our beach house balcony all day!\"",
+        "Sam says: \"I think there will be a lot of wind tomorrow. A houseboat will rock on the waves!\"",
+        "Leyla says: \"I think it will be cloudy. But it will still be a beautiful day by the lake.\""
+      ],
+      "translations": [
+        "Bazı insanlar şanslı — tam suyun yanında yaşıyorlar!",
+        "Plaj evi sahilde veya sahile yakın bir evdir. Ege kıyısında çok sayıda plaj evi var.",
+        "Plaj evlerinin büyük pencereleri ve geniş balkonları var. Her odadan denizi görebilirsiniz!",
+        "Göl evi bir gölün yanındaki evdir. Türkiye'nin dağlarında pek çok göl evi var.",
+        "Göl evleri sessiz ve huzurlu. Çok fazla gürültü yok — sadece kuşlar ve su.",
+        "Yüzen ev sudaki bir evdir. İnsanlar nehirlerde, göllerde ve kanallardaki teknelerde yaşıyor.",
+        "Türkiye'de çok fazla yüzen ev yok, ama Hollanda ve İngiltere'de çok sayıda var.",
+        "Nora diyor: \"Yarın güneşli olacağını düşünüyorum. Gün boyu plaj evimizin balkonunda oturacağım!\"",
+        "Sam diyor: \"Yarın çok rüzgar olacağını düşünüyorum. Yüzen ev dalgalarda sallanacak!\"",
+        "Leyla diyor: \"Bulutlu olacağını düşünüyorum. Ama gölün yanında yine de güzel bir gün olacak.\""
+      ],
+      "questions": [
+        {
+          "q": "Where are a lot of beach houses in Türkiye?",
+          "correct": "On the Aegean coast",
+          "wrong": [
+            "In the mountains",
+            "On rivers and canals"
+          ],
+          "hint": "Find the words beach house in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What makes lake houses quiet?",
+          "correct": "There is not much noise — only birds and water",
+          "wrong": [
+            "There are no windows",
+            "There are a lot of trees"
+          ],
+          "hint": "Find the words lake house and quiet in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where do people live on houseboats?",
+          "correct": "On rivers, lakes and canals",
+          "wrong": [
+            "On the ocean floor",
+            "On beaches"
+          ],
+          "hint": "Find the word houseboat in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora think the weather will be like tomorrow?",
+          "correct": "Sunny",
+          "wrong": [
+            "Windy",
+            "Cloudy"
+          ],
+          "hint": "Find Nora in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Sam think will happen to the houseboat tomorrow?",
+          "correct": "It will rock on the waves",
+          "wrong": [
+            "It will sink",
+            "It will float away"
+          ],
+          "hint": "Find Sam in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "Then and Now — The Sea Is Changing",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌊",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Guess what? The sea near Greenfield has changed a lot in the last ten years.",
+        "Ten years ago, there were a lot of dolphins near the coast. Children could see them from the beach.",
+        "There were many seals on the rocks too. They loved diving and splashing in the clean water.",
+        "There was not much plastic in the sea then. The water was clear and blue.",
+        "But today, there is a lot of plastic in the water. There are many fishing nets near the shore too.",
+        "There are no seals on the rocks now. They moved to cleaner waters far away. What a shame!",
+        "There are not many dolphins near the coast anymore. Pollution scared them away.",
+        "There was a lot of fish in the sea ten years ago. Now there is not much fish left.",
+        "Ms. Reed says: \"That's a good point — we must act now before it is too late!\"",
+        "Nora says: \"I think things will get better if we work together. Don't worry — we can do this!\""
+      ],
+      "translations": [
+        "Biliyor musunuz? Greenfield yakınlarındaki deniz son on yılda çok değişti.",
+        "On yıl önce kıyıda çok sayıda yunus vardı. Çocuklar onları sahilden görebiliyordu.",
+        "Kayalıklarda da pek çok fok vardı. Temiz suda dalış yapmayı ve sıçramayı seviyorlardı.",
+        "O zamanlar denizde çok fazla plastik yoktu. Su berrak ve maviydi.",
+        "Ama bugün suda çok fazla plastik var. Kıyı yakınında da çok sayıda balıkçı ağı var.",
+        "Artık kayalıklarda fok yok. Uzaktaki daha temiz sulara taşındılar. Ne yazık!",
+        "Kıyıda artık pek fazla yunus yok. Kirlilik onları korkutup uzaklaştırdı.",
+        "On yıl önce denizde çok fazla balık vardı. Şimdi pek az balık kaldı.",
+        "Ms. Reed diyor: \"Bu iyi bir nokta — çok geç olmadan harekete geçmeliyiz!\"",
+        "Nora diyor: \"Birlikte çalışırsak işlerin daha iyi olacağını düşünüyorum. Merak etmeyin — bunu başarabiliriz!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "How the sea near Greenfield has changed over ten years",
+          "wrong": [
+            "What marine animals eat",
+            "How to build a beach house"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "q": "What was the sea like ten years ago?",
+          "correct": "Clear, blue and not much plastic",
+          "wrong": [
+            "Dirty and full of fishing nets",
+            "Warm and stormy"
+          ],
+          "hint": "Find the words ten years ago in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Why are there no seals on the rocks now?",
+          "correct": "They moved to cleaner waters",
+          "wrong": [
+            "They were hunted",
+            "They got trapped in fishing nets"
+          ],
+          "hint": "Find the word seals in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What happened to the dolphins near the coast?",
+          "correct": "Pollution scared them away",
+          "wrong": [
+            "Climate change made them leave",
+            "Fishing nets trapped them"
+          ],
+          "hint": "Find the word dolphins near the end of the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora think about the future?",
+          "correct": "Things will get better if they work together",
+          "wrong": [
+            "Things will get worse",
+            "Nothing will change"
+          ],
+          "hint": "Find Nora at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "How Can We Help?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌍",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What should we do to protect marine animals? Let's think together!\"",
+        "Nora said: \"We should stop using so much plastic. We shouldn't buy things with too much plastic packaging.\"",
+        "\"We should take our rubbish home from the beach. We mustn't leave any waste near the water.\"",
+        "Sam said: \"We should join beach clean-up days. That's interesting — even children can make a difference!\"",
+        "\"We shouldn't throw anything into rivers or lakes. Waste reaches the ocean very quickly.\"",
+        "Leyla said: \"We should learn more about marine animals and their habitats. Knowledge is the best protection!\"",
+        "\"We mustn't buy things made from sharks or sea turtles. Hunting must stop.\"",
+        "Ms. Reed said: \"That's a good point, Leyla. We should also support organisations that protect the ocean.\"",
+        "\"We shouldn't ignore climate change either. A warmer ocean is the worst thing for marine life.\"",
+        "Sam said: \"What a shame that so many animals are in danger! But I think things will get better if we all try.\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Deniz hayvanlarını korumak için ne yapmalıyız? Birlikte düşünelim!\"",
+        "Nora dedi: \"Bu kadar çok plastik kullanmayı bırakmalıyız. Çok fazla plastik ambalajlı şeyler satın almamalıyız.\"",
+        "\"Çöpümüzü sahilden eve götürmeliyiz. Su yakınına hiç atık bırakmamalıyız.\"",
+        "Sam dedi: \"Sahil temizleme günlerine katılmalıyız. İlginç — çocuklar bile fark yaratabilir!\"",
+        "\"Nehirlere veya göllere hiçbir şey atmamalıyız. Atıklar çok hızlı okyanusa ulaşıyor.\"",
+        "Leyla dedi: \"Deniz hayvanları ve habitatları hakkında daha fazla öğrenmeliyiz. Bilgi en iyi korumadır!\"",
+        "\"Köpekbalığı veya deniz kaplumbağasından yapılmış şeyler satın almamalıyız. Avcılık durmalı.\"",
+        "Ms. Reed dedi: \"Bu iyi bir nokta, Leyla. Aynı zamanda okyanusları koruyan organizasyonları da desteklemeliyiz.\"",
+        "\"İklim değişikliğini de görmezden gelmemeliyiz. Daha sıcak bir okyanus deniz yaşamı için en kötü şey.\"",
+        "Sam dedi: \"Bu kadar çok hayvanın tehlikede olması ne yazık! Ama hepimiz çabalarsak işlerin daha iyi olacağını düşünüyorum.\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What people should do to protect marine animals",
+          "wrong": [
+            "What marine animals eat",
+            "How the sea has changed"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "What does Nora say about plastic?",
+          "correct": "We should stop using so much plastic",
+          "wrong": [
+            "We should throw it in the river",
+            "We should buy more plastic things"
+          ],
+          "hint": "Find Nora and the word plastic in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What should people do on beach clean-up days?",
+          "correct": "Join them and collect rubbish",
+          "wrong": [
+            "Watch marine animals",
+            "Learn about habitats"
+          ],
+          "hint": "Find the words beach clean-up in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Why mustn't people buy things made from sharks or sea turtles?",
+          "correct": "Because hunting must stop",
+          "wrong": [
+            "Because they are expensive",
+            "Because they are ugly"
+          ],
+          "hint": "Find the word mustn't in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say is the worst thing for marine life?",
+          "correct": "A warmer ocean",
+          "wrong": [
+            "Plastic pollution",
+            "Fishing nets"
+          ],
+          "hint": "Find the word worst in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "What Will the Weather Be Like?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What do you think the weather will be like this weekend? Make your best prediction!\"",
+        "Nora said: \"I think Saturday will be the best day of the week. It will be clear and sunny!\"",
+        "\"I think we will see dolphins from the beach. That will be the best moment of the weekend!\"",
+        "Sam said: \"I think Sunday will be the worst day. It will be stormy and the waves will be huge.\"",
+        "\"It will be the worst weather for a houseboat — it will rock a lot on the waves!\"",
+        "Leyla said: \"I think it will be misty in the morning but it will get clearer in the afternoon.\"",
+        "\"I think the best time to visit the lake will be after lunch. The water will be calm and beautiful.\"",
+        "Ms. Reed said: \"That's interesting! What will be the best activity for each type of weather?\"",
+        "Nora answered: \"If it is sunny, the best activity will be swimming. If it is stormy, the worst idea will be going out!\"",
+        "Sam laughed: \"The best prediction is always the one that comes true. We will find out on Saturday!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Bu hafta sonu hava nasıl olacak sence? En iyi tahminini yap!\"",
+        "Nora dedi: \"Sanırım Cumartesi haftanın en iyi günü olacak. Açık ve güneşli olacak!\"",
+        "\"Sahilden yunusları göreceğimizi düşünüyorum. Bu hafta sonunun en iyi anı olacak!\"",
+        "Sam dedi: \"Sanırım Pazar en kötü gün olacak. Fırtınalı olacak ve dalgalar çok büyük olacak.\"",
+        "\"Yüzen ev için en kötü hava olacak — dalgalarda çok sallanacak!\"",
+        "Leyla dedi: \"Sabah sisli olacağını ama öğleden sonra açılacağını düşünüyorum.\"",
+        "\"Gölü ziyaret etmek için en iyi zamanın öğle yemeğinden sonra olacağını düşünüyorum. Su sakin ve güzel olacak.\"",
+        "Ms. Reed dedi: \"Bu ilginç! Her hava türü için en iyi etkinlik ne olacak?\"",
+        "Nora cevapladı: \"Güneşliyse en iyi etkinlik yüzmek olacak. Fırtınalıysa dışarı çıkmak en kötü fikir olacak!\"",
+        "Sam güldü: \"En iyi tahmin her zaman gerçekleşen. Cumartesi öğreneceğiz!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "Making weather predictions for the weekend",
+          "wrong": [
+            "Describing dangers for marine animals",
+            "Comparing types of houses"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "What does Nora predict for Saturday?",
+          "correct": "It will be clear and sunny",
+          "wrong": [
+            "It will be stormy",
+            "It will be misty"
+          ],
+          "hint": "Find Nora and Saturday in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Why does Sam think Sunday will be the worst day for a houseboat?",
+          "correct": "Because it will be stormy and the waves will be huge",
+          "wrong": [
+            "Because it will be too sunny",
+            "Because it will be freezing"
+          ],
+          "hint": "Find Sam and Sunday in the text.",
+          "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "When does Leyla think is the best time to visit the lake?",
+          "correct": "After lunch",
+          "wrong": [
+            "In the morning",
+            "In the evening"
+          ],
+          "hint": "Find Leyla and lake in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora say is the worst idea in stormy weather?",
+          "correct": "Going out",
+          "wrong": [
+            "Swimming",
+            "Visiting the lake"
+          ],
+          "hint": "Find Nora and the word stormy in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Amazing Marine Animals",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Today we are going to learn about the best and worst facts about marine animals!\"",
+        "\"The blue whale is the biggest animal on Earth. It is also the best swimmer in the deepest oceans.\"",
+        "\"Whales make the loudest sounds in the animal kingdom. Their songs travel hundreds of kilometres!\"",
+        "\"The great white shark is the most dangerous shark. But it is also the best hunter in the ocean.\"",
+        "\"Dolphins are the cleverest marine animals. They are the best at solving problems and playing games.\"",
+        "\"The worst danger for dolphins is pollution. It is also the worst thing for sea turtles.\"",
+        "\"Octopuses are the best at hiding. They can change colour in less than one second!\"",
+        "\"Jellyfish are some of the oldest animals on Earth. They live in every ocean — from warm lagoons to cold seas.\"",
+        "\"Starfish can grow back their arms. That is the best survival trick in the whole ocean!\"",
+        "Nora said: \"That's interesting! I think the octopus is the best animal — it is the cleverest and the most creative!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Bugün deniz hayvanları hakkındaki en iyi ve en kötü gerçekleri öğreneceğiz!\"",
+        "\"Mavi balina Dünya'daki en büyük hayvandır. Aynı zamanda en derin okyanuslardaki en iyi yüzücüdür.\"",
+        "\"Balinalar hayvanlar aleminin en yüksek seslerini çıkarır. Şarkıları yüzlerce kilometre yol alır!\"",
+        "\"Büyük beyaz köpekbalığı en tehlikeli köpekbalığıdır. Ama aynı zamanda okyanustaki en iyi avcıdır.\"",
+        "\"Yunuslar en zeki deniz hayvanlarıdır. Problem çözme ve oyun oynamada en iyilerdir.\"",
+        "\"Yunuslar için en kötü tehlike kirlilik. Deniz kaplumbağaları için de en kötü şey bu.\"",
+        "\"Ahtapotlar saklanmada en iyisidir. Bir saniyeden kısa sürede renk değiştirebilirler!\"",
+        "\"Denizanaları Dünya'daki en eski hayvanlardan bazılarıdır. Her okyanusta yaşarlar — ılık lagünlerden soğuk denizlere.\"",
+        "\"Denizyıldızları kollarını yeniden büyütebilir. Bu tüm okyanustaki en iyi hayatta kalma hilesi!\"",
+        "Nora dedi: \"Bu ilginç! Bence ahtapot en iyi hayvan — en zeki ve en yaratıcı!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the blue whale best at?",
+          "correct": "Swimming in the deepest oceans",
+          "wrong": [
+            "Hiding in rocks",
+            "Changing colour"
+          ],
+          "hint": "Find blue whale in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What are dolphins the best at?",
+          "correct": "Solving problems and playing games",
+          "wrong": [
+            "Hunting in the ocean",
+            "Making loud sounds"
+          ],
+          "hint": "Find dolphins in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say is the worst danger for dolphins?",
+          "correct": "Pollution",
+          "wrong": [
+            "Climate change",
+            "Fishing nets"
+          ],
+          "hint": "Find the word worst near dolphins in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the octopus the best at?",
+          "correct": "Hiding and changing colour",
+          "wrong": [
+            "Swimming fast",
+            "Making loud sounds"
+          ],
+          "hint": "Find octopuses in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora think is the best animal?",
+          "correct": "The octopus",
+          "wrong": [
+            "The dolphin",
+            "The whale"
+          ],
+          "hint": "Find what Nora says at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "A Day at the Beach",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏖️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Last summer, Nora's family stayed in their beach house for a week.",
+        "On the first morning, Nora's dad said: \"I think it will be the best day of the holiday. Let's go to the beach!\"",
+        "There were a lot of people on the beach. There was not much space near the water.",
+        "Nora said: \"There were no people here last year! There were a lot of fish and a few crabs too.\"",
+        "\"Now there is so much waste on the sand. We should clean it up before we swim!\"",
+        "The family spent an hour picking up plastic and rubbish. \"We should always do this,\" said Nora's mum.",
+        "After cleaning, the beach looked much better. \"That's a good point — a clean beach is the best beach!\" said Dad.",
+        "In the afternoon, they saw a seal resting on a rock. \"There were many seals here last year,\" said Grandpa. \"Now there is only one. What a shame!\"",
+        "Nora said: \"We should tell everyone about this. Things will get worse if we do nothing.\"",
+        "That evening, Nora wrote a letter: \"Dear friends, we should protect our beaches. The sea will get better if we all help!\""
+      ],
+      "translations": [
+        "Geçen yaz Nora'nın ailesi plaj evlerinde bir hafta geçirdi.",
+        "İlk sabah Nora'nın babası dedi: \"Bu tatilinin en iyi günü olacağını düşünüyorum. Sahile gidelim!\"",
+        "Sahilde çok fazla insan vardı. Suyun yakınında fazla yer yoktu.",
+        "Nora dedi: \"Geçen yıl burada hiç insan yoktu! Çok fazla balık ve birkaç yengeç de vardı.\"",
+        "\"Şimdi kumda çok fazla atık var. Yüzmeden önce temizlemeliyiz!\"",
+        "Aile bir saat plastik ve çöp topladı. \"Bunu her zaman yapmalıyız,\" dedi Nora'nın annesi.",
+        "Temizledikten sonra sahil çok daha iyi görünüyordu. \"Bu iyi bir nokta — temiz sahil en iyi sahildir!\" dedi Baba.",
+        "Öğleden sonra bir kayanın üzerinde dinlenen bir fok gördüler. \"Geçen yıl burada çok sayıda fok vardı,\" dedi Dede. \"Şimdi sadece bir tane var. Ne yazık!\"",
+        "Nora dedi: \"Herkesin bunu bilmesini sağlamalıyız. Hiçbir şey yapmazsak işler daha da kötüleşecek.\"",
+        "O akşam Nora bir mektup yazdı: \"Sevgili arkadaşlar, sahillerimizi korumalıyız. Hepimiz yardım edersek deniz daha iyi olacak!\""
+      ],
+      "questions": [
+        {
+          "q": "What did Nora's dad predict about the first day?",
+          "correct": "It will be the best day of the holiday",
+          "wrong": [
+            "It will be stormy",
+            "It will be cloudy"
+          ],
+          "hint": "Find what Nora's dad says at the beginning.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Nora notice had changed from last year?",
+          "correct": "No people last year but a lot now, and no waste but now a lot",
+          "wrong": [
+            "More seals",
+            "More fish"
+          ],
+          "hint": "Find what Nora says about last year.",
+          "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What did the family do before swimming?",
+          "correct": "They picked up plastic and rubbish",
+          "wrong": [
+            "They looked for crabs",
+            "They watched the seals"
+          ],
+          "hint": "Find what the family did after Nora said they should clean.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What did Grandpa say about the seals?",
+          "correct": "There were many last year but only one now",
+          "wrong": [
+            "There were none last year",
+            "There are more now"
+          ],
+          "hint": "Find Grandpa in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What did Nora write in her letter?",
+          "correct": "We should protect beaches and the sea will get better if we all help",
+          "wrong": [
+            "We should build more beach houses",
+            "We should stop swimming"
+          ],
+          "hint": "Find Nora's letter at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Dangers and Solutions",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "♻️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed showed the class a poster about ocean dangers. \"Let's talk about solutions!\" she said.",
+        "\"There is a lot of plastic in the ocean. We should use less plastic every day.\"",
+        "\"We mustn't throw plastic bags or bottles into rivers. They will reach the ocean in days.\"",
+        "\"There is too much pollution from factories. Governments should make stricter rules for factories.\"",
+        "\"We shouldn't buy products that come from hunted animals. If we stop buying, hunting will stop too.\"",
+        "Sam said: \"We should tell our families and friends. If more people know, things will change faster!\"",
+        "Leyla said: \"We should plant more trees too. Trees clean the air and will help slow climate change.\"",
+        "\"We mustn't waste water at home either. Every drop counts for the ocean!\"",
+        "Nora said: \"I think if we all follow these rules, the ocean will be cleaner in ten years.\"",
+        "Ms. Reed smiled: \"That's a good point, Nora. The best thing we can do is start today — not tomorrow!\"",
+        "Sam said: \"I will start today! I will tell my dad not to throw anything into the sea.\"",
+        "Leyla nodded: \"And I will make a poster about ocean protection for our classroom wall. What a shame it has to come to this — but we can fix it!\""
+      ],
+      "translations": [
+        "Ms. Reed sınıfa okyanus tehlikeleri hakkında bir poster gösterdi. \"Çözümler hakkında konuşalım!\" dedi.",
+        "\"Okyanusta çok fazla plastik var. Her gün daha az plastik kullanmalıyız.\"",
+        "\"Nehirlere plastik torba veya şişe atmamalıyız. Günler içinde okyanusa ulaşacaklar.\"",
+        "\"Fabrikalardan çok fazla kirlilik var. Hükümetler fabrikalar için daha sıkı kurallar koymalı.\"",
+        "\"Avlanmış hayvanlardan gelen ürünler satın almamalıyız. Satın almayı bırakırsak avcılık da durur.\"",
+        "Sam dedi: \"Ailelerimize ve arkadaşlarımıza söylemeliyiz. Daha fazla insan bilirse, işler daha hızlı değişir!\"",
+        "Leyla dedi: \"Daha fazla ağaç da dikmeliyiz. Ağaçlar havayı temizler ve iklim değişikliğini yavaşlatmaya yardımcı olur.\"",
+        "\"Evde su da israf etmemeliyiz. Her damla okyanus için önemli!\"",
+        "Nora dedi: \"Bence hepimiz bu kurallara uyarsak, okyanus on yıl içinde daha temiz olacak.\"",
+        "Ms. Reed gülümsedi: \"Bu iyi bir nokta, Nora. Yapabileceğimizin en iyisi bugün başlamak — yarın değil!\"",
+        "Sam dedi: \"Bugün başlayacağım! Babama denize hiçbir şey atmamasını söyleyeceğim.\"",
+        "Leyla başını salladı: \"Ben de sınıf duvarımız için okyanus koruma hakkında bir poster yapacağım. Bu noktaya gelmesi ne yazık — ama düzeltebiliriz!\""
+      ],
+      "questions": [
+        {
+          "q": "What mustn't people throw into rivers?",
+          "correct": "Plastic bags or bottles",
+          "wrong": [
+            "Old fishing nets",
+            "Factory waste"
+          ],
+          "hint": "Find the word mustn't in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam suggest to make change happen faster?",
+          "correct": "Telling families and friends",
+          "wrong": [
+            "Making stricter rules",
+            "Planting more trees"
+          ],
+          "hint": "Find Sam in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Why does Leyla say we should plant more trees?",
+          "correct": "Trees clean the air and help slow climate change",
+          "wrong": [
+            "Trees give food to marine animals",
+            "Trees stop pollution from factories"
+          ],
+          "hint": "Find Leyla and the word trees in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora predict if everyone follows the rules?",
+          "correct": "The ocean will be cleaner in ten years",
+          "wrong": [
+            "The ocean will be warmer",
+            "The ocean will have more fish immediately"
+          ],
+          "hint": "Find Nora and the word predict in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What will Leyla make for the classroom?",
+          "correct": "A poster about ocean protection",
+          "wrong": [
+            "A letter to the government",
+            "A book about marine animals"
+          ],
+          "hint": "Find Leyla at the end of the text.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Which Animal Am I?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🐬",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed read out five clues. \"Can you guess which marine animal I am describing?\"",
+        "First clue: \"I am not the biggest animal in the ocean, but I am one of the most intelligent.\"",
+        "Second clue: \"I live in oceans and sometimes in rivers. I love both deep water and shallow water.\"",
+        "Third clue: \"I love jumping and splashing near the surface. I play with boats and other animals!\"",
+        "Fourth clue: \"I live in groups. We communicate with each other using clicks and whistles.\"",
+        "Fifth clue: \"I am not a fish, but I swim like the best swimmer in the sea. I breathe air like you!\"",
+        "Nora whispered: \"I think I know! It is not a whale because whales are the biggest. It is not a shark because sharks don't play…\"",
+        "Sam said: \"It lives in groups and jumps near the surface. That's interesting — it must be friendly!\"",
+        "Leyla said: \"It breathes air and swims in rivers too. There is only one animal that does all of this!\"",
+        "Ms. Reed smiled: \"Go ahead, Leyla — what is it?\"",
+        "Leyla stood up: \"It is a dolphin! They are the cleverest and the friendliest marine animals!\"",
+        "Ms. Reed clapped: \"Excellent! Dolphins are indeed the best example of intelligence in the ocean.\""
+      ],
+      "translations": [
+        "Ms. Reed beş ipucu okudu. \"Hangi deniz hayvanını tarif ettiğimi tahmin edebilir misiniz?\"",
+        "Birinci ipucu: \"Okyanustaki en büyük hayvan değilim, ama en zeki hayvanlardan biriyim.\"",
+        "İkinci ipucu: \"Okyanuslarda ve bazen nehirlerde yaşıyorum. Hem derin suyu hem de sığ suyu seviyorum.\"",
+        "Üçüncü ipucu: \"Yüzeyin yakınında zıplamayı ve sıçramayı seviyorum. Tekneler ve diğer hayvanlarla oynuyorum!\"",
+        "Dördüncü ipucu: \"Gruplar halinde yaşıyorum. Birbirimizle tıklamalar ve ıslıklar kullanarak iletişim kuruyoruz.\"",
+        "Beşinci ipucu: \"Balık değilim, ama denizdeki en iyi yüzücü gibi yüzüyorum. Senin gibi hava soluyorum!\"",
+        "Nora fısıldadı: \"Sanırım biliyorum! Balina değil çünkü balinalar en büyük. Köpekbalığı değil çünkü köpekbalıkları oynamaz…\"",
+        "Sam dedi: \"Gruplar halinde yaşıyor ve yüzeyin yakınında zıplıyor. Bu ilginç — arkadaş canlısı olmalı!\"",
+        "Leyla dedi: \"Hava soluyor ve nehirlerde de yüzüyor. Bunu yapan sadece bir hayvan var!\"",
+        "Ms. Reed gülümsedi: \"Buyur Leyla — nedir?\"",
+        "Leyla ayağa kalktı: \"Bu bir yunus! En zeki ve en arkadaş canlısı deniz hayvanları!\"",
+        "Ms. Reed alkışladı: \"Mükemmel! Yunuslar gerçekten okyanustaki zekanın en iyi örneği.\""
+      ],
+      "questions": [
+        {
+          "q": "Which animal is Ms. Reed describing?",
+          "correct": "A dolphin",
+          "wrong": [
+            "A whale",
+            "A seal"
+          ],
+          "hint": "Read what Leyla says at the end.",
+          "hl": [
+            10,
+            11
+          ]
+        },
+        {
+          "q": "Where does this animal live?",
+          "correct": "In oceans and sometimes in rivers",
+          "wrong": [
+            "Only in deep oceans",
+            "Only in warm lagoons"
+          ],
+          "hint": "Find the second clue in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does this animal love doing near the surface?",
+          "correct": "Jumping and splashing",
+          "wrong": [
+            "Hiding in rocks",
+            "Crawling on the sea floor"
+          ],
+          "hint": "Find the third clue in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What clue does Leyla use to identify the animal?",
+          "correct": "It breathes air and swims in rivers too",
+          "wrong": [
+            "It lives in groups",
+            "It jumps near the surface"
+          ],
+          "hint": "Find what Leyla says before giving her answer.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say dolphins are the best example of?",
+          "correct": "Intelligence in the ocean",
+          "wrong": [
+            "Hiding in the sea",
+            "Surviving in cold water"
+          ],
+          "hint": "Find what Ms. Reed says at the very end.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Will Happen to the Lake?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🏞️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Sam found an old article about Lake Greenfield in the school library last week.",
+        "The article said: \"Twenty years ago, there were a lot of fish in the lake. The water was clear and clean.\"",
+        "\"There were many ducks and birds near the lake. Families came every weekend to enjoy the water.\"",
+        "\"There was not much pollution then. Children could swim in the lake safely.\"",
+        "But today, the lake looks very different. There is a lot of waste near the shore.",
+        "There are not many fish left. The water is darker and there is much more pollution now.",
+        "Sam showed the article to Ms. Reed. \"What do you think will happen to the lake?\" he asked.",
+        "Ms. Reed said: \"If we do nothing, it will get worse. There will be no fish left in ten years.\"",
+        "\"But if people act now, it will get better. We should clean the lake and stop dumping waste.\"",
+        "Sam said: \"I think we should write to the local council. They should make rules to protect the lake.\"",
+        "Nora said: \"And we should tell our families not to leave rubbish there. Things will change if we all try!\"",
+        "Ms. Reed nodded: \"That's a good point. The best time to act is now — not when it is too late.\""
+      ],
+      "translations": [
+        "Sam geçen hafta okul kütüphanesinde Greenfield Gölü hakkında eski bir makale buldu.",
+        "Makalede şöyle yazıyordu: \"Yirmi yıl önce gölde çok fazla balık vardı. Su berrak ve temizdi.\"",
+        "\"Gölün yakınında pek çok ördek ve kuş vardı. Aileler her hafta sonu suyu keyifle kullanmaya gelirdi.\"",
+        "\"O zaman fazla kirlilik yoktu. Çocuklar gölde güvenle yüzebiliyordu.\"",
+        "Ama bugün göl çok farklı görünüyor. Kıyıda çok fazla atık var.",
+        "Pek fazla balık kalmadı. Su daha koyu ve şimdi çok daha fazla kirlilik var.",
+        "Sam makaleyi Ms. Reed'e gösterdi. \"Gölde ne olacağını düşünüyorsunuz?\" diye sordu.",
+        "Ms. Reed dedi: \"Hiçbir şey yapmazsak daha da kötüleşecek. On yıl içinde hiç balık kalmayacak.\"",
+        "\"Ama insanlar şimdi harekete geçerse daha iyi olacak. Gölü temizlemeli ve atık dökmeyi durdurmalıyız.\"",
+        "Sam dedi: \"Sanırım yerel belediyeye mektup yazmalıyız. Gölü korumak için kurallar koymalılar.\"",
+        "Nora dedi: \"Ailelerimize de orada çöp bırakmamalarını söylemeliyiz. Hepimiz çabalarsak işler değişir!\"",
+        "Ms. Reed başını salladı: \"Bu iyi bir nokta. Harekete geçmenin en iyi zamanı şimdi — çok geç olmadan.\""
+      ],
+      "questions": [
+        {
+          "q": "What was Lake Greenfield like twenty years ago?",
+          "correct": "Full of fish with clear, clean water",
+          "wrong": [
+            "Dark and full of waste",
+            "Warm with no birds"
+          ],
+          "hint": "Find the words twenty years ago in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Ms. Reed predict will happen if nothing is done?",
+          "correct": "It will get worse and there will be no fish left",
+          "wrong": [
+            "It will get better on its own",
+            "Nothing will change"
+          ],
+          "hint": "Find what Ms. Reed says about doing nothing.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say people should do to help the lake?",
+          "correct": "Clean the lake and stop dumping waste",
+          "wrong": [
+            "Build houses near the lake",
+            "Plant trees in the city"
+          ],
+          "hint": "Find what Ms. Reed says should happen.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Sam suggest doing?",
+          "correct": "Writing to the local council",
+          "wrong": [
+            "Telling families",
+            "Making a poster"
+          ],
+          "hint": "Find Sam's suggestion in the text.",
+          "hl": [
+            9
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say is the best time to act?",
+          "correct": "Now",
+          "wrong": [
+            "In ten years",
+            "When the fish are all gone"
+          ],
+          "hint": "Find Ms. Reed's last sentence.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    }
+  ]
+}

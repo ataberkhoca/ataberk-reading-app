@@ -1,0 +1,1280 @@
+{
+  "theme": "Personal Life",
+  "themeNumber": 3,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "What Do They Look Like?",
+      "subtitle": "Find the right person and description!",
+      "icon": "👤",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👨‍💼",
+          "n": "Mr. Tan"
+        }
+      ],
+      "sentences": [
+        "Hi! I am Nora. Let me tell you about my friends and me!",
+        "Sam has short, fair hair and bright blue eyes. He has a round face and a friendly smile.",
+        "Sam is funny and brave. He is never quiet — both his teachers and his friends love him!",
+        "Leyla has long, wavy dark hair and huge brown eyes. Her neck is long and thin.",
+        "Leyla is kind and clever. She is careful with all her schoolwork.",
+        "I have medium-length, thick hair and a round face. My shoulders are not very broad.",
+        "I think I am friendly and quiet. None of my friends think I am naughty!",
+        "Mr. Tan has a short beard and a thick moustache. His fingers are long.",
+        "Ms. Reed has fair, wavy hair and bright green eyes. She is sweet and funny.",
+        "All of us at Greenfield School are different — and that makes us special!"
+      ],
+      "translations": [
+        "Merhaba! Ben Nora. Size arkadaşlarım ve kendim hakkında anlatayım!",
+        "Sam'in kısa, açık renk saçları ve parlak mavi gözleri var. Yuvarlak bir yüzü ve güler yüzlü bir gülümsemesi var.",
+        "Sam komik ve cesur. Hiç sessiz değil — hem öğretmenleri hem de arkadaşları onu seviyor!",
+        "Leyla'nın uzun, dalgalı koyu saçları ve büyük kahverengi gözleri var. Boynu uzun ve ince.",
+        "Leyla nazik ve zeki. Bütün okul ödevlerinde dikkatli.",
+        "Benim orta uzunlukta, kalın saçlarım ve yuvarlak bir yüzüm var. Omuzlarım çok geniş değil.",
+        "Bence ben arkadaş canlısı ve sakinim. Arkadaşlarımın hiçbiri beni yaramaz olarak görmüyor!",
+        "Mr. Tan'ın kısa bir sakalı ve kalın bir bıyığı var. Parmakları uzun.",
+        "Ms. Reed'in açık renk, dalgalı saçları ve parlak yeşil gözleri var. O tatlı ve komik.",
+        "Greenfield School'daki hepimiz farklıyız — ve bu bizi özel yapıyor!"
+      ],
+      "questions": [
+        {
+          "q": "What colour are Sam's eyes?",
+          "correct": "Bright blue",
+          "wrong": [
+            "Huge brown",
+            "Bright green"
+          ],
+          "hint": "Find Sam and the word eyes in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Which two words describe Leyla's personality?",
+          "correct": "Kind and clever",
+          "wrong": [
+            "Funny and brave",
+            "Sweet and quiet"
+          ],
+          "hint": "Find Leyla and the word personality in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Mr. Tan have on his face?",
+          "correct": "A beard and a moustache",
+          "wrong": [
+            "Bright eyes and fair hair",
+            "Long fingers and a round face"
+          ],
+          "hint": "Find Mr. Tan in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Nora say about herself?",
+          "correct": "She is friendly and quiet",
+          "wrong": [
+            "She is funny and brave",
+            "She is kind and clever"
+          ],
+          "hint": "Find what Nora says about herself.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Which word means all of them together?",
+          "correct": "All",
+          "wrong": [
+            "Both",
+            "None"
+          ],
+          "hint": "Find the last sentence of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "What to Wear Today?",
+      "subtitle": "Find the right clothes and weather!",
+      "icon": "🌦️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Look outside! What is the weather like today?",
+        "Monday is cloudy and cool. Nora is wearing a cardigan and leggings.",
+        "She says: \"Is there anything warm in my wardrobe? Yes — my hoodie!\"",
+        "Tuesday is foggy and misty. Sam puts on his trainers and a raincoat.",
+        "He says: \"I need something waterproof today. My raincoat is perfect!\"",
+        "Wednesday is stormy and humid. Leyla wears her belt and a blouse with leggings.",
+        "Thursday is clear and warm. Nora puts on her sundress and sandals.",
+        "She says: \"Is there anything in my wardrobe for sunny days? Yes — my flip-flops too!\"",
+        "Friday is freezing! Sam wears his gloves, scarf and a thick hoodie.",
+        "He says: \"There is nothing worse than a freezing Friday — but the weekend is coming!\""
+      ],
+      "translations": [
+        "Dışarıya bak! Bugün hava nasıl?",
+        "Pazartesi bulutlu ve serin. Nora hırka ve tayt giyiyor.",
+        "Diyor ki: \"Dolabımda sıcak bir şey var mı? Evet — kazağım!\"",
+        "Salı sisli ve dumanlı. Sam spor ayakkabılarını ve yağmurluk giyiyor.",
+        "Diyor ki: \"Bugün su geçirmez bir şeye ihtiyacım var. Yağmurluk mükemmel!\"",
+        "Çarşamba fırtınalı ve nemli. Leyla kemerini ve bluzunu taytla birlikte giyiyor.",
+        "Perşembe açık ve sıcak. Nora yazlık elbisesini ve sandaletlerini giyiyor.",
+        "Diyor ki: \"Dolabımda güneşli günler için bir şey var mı? Evet — terliklerim de!\"",
+        "Cuma dondurucu soğuk! Sam eldivenlerini, atkısını ve kalın kazağını giyiyor.",
+        "Diyor ki: \"Dondurucu bir Cuma'dan daha kötü bir şey yok — ama hafta sonu geliyor!\""
+      ],
+      "questions": [
+        {
+          "q": "What does Nora wear on a cloudy, cool Monday?",
+          "correct": "A cardigan and leggings",
+          "wrong": [
+            "A sundress and sandals",
+            "A raincoat and trainers"
+          ],
+          "hint": "Find Monday in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Sam need on a foggy, misty Tuesday?",
+          "correct": "Something waterproof",
+          "wrong": [
+            "Something warm",
+            "Something cool"
+          ],
+          "hint": "Find Sam and Tuesday in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the weather like on Thursday?",
+          "correct": "Clear and warm",
+          "wrong": [
+            "Stormy and humid",
+            "Freezing"
+          ],
+          "hint": "Find Thursday in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora wear on Thursday?",
+          "correct": "A sundress and sandals",
+          "wrong": [
+            "A hoodie and leggings",
+            "Gloves and a scarf"
+          ],
+          "hint": "Find Nora and Thursday in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Sam wear on a freezing Friday?",
+          "correct": "Gloves, scarf and a thick hoodie",
+          "wrong": [
+            "A raincoat and trainers",
+            "A cardigan and leggings"
+          ],
+          "hint": "Find Friday in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Hobbies and Special Dates",
+      "subtitle": "Find the right date and activity!",
+      "icon": "📅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Nora's birthday is on the 14th of February. She played games with her friends on that day!",
+        "Sam's birthday is on the 3rd of July. He watched a film and danced at his party.",
+        "Leyla's birthday is on the 21st of September. She painted a picture and cooked a cake!",
+        "On the 1st of April, Sam played a trick on Leyla. She laughed and smiled.",
+        "On the 19th of May, all the pupils danced and marched at school.",
+        "On the 23rd of April, Nora performed in the school play. She loved it!",
+        "On the 30th of August, the children watched a parade in the town centre.",
+        "On the 29th of October, they waved flags and clapped at the school ceremony.",
+        "Nora says: \"What is your favourite date in the year?\"",
+        "Sam says: \"The 3rd of July — my birthday — is always the best day of the year!\""
+      ],
+      "translations": [
+        "Nora'nın doğum günü 14 Şubat'ta. O gün arkadaşlarıyla oyunlar oynadı!",
+        "Sam'in doğum günü 3 Temmuz'da. Partisinde film izledi ve dans etti.",
+        "Leyla'nın doğum günü 21 Eylül'de. Bir resim çizdi ve pasta pişirdi!",
+        "1 Nisan'da Sam, Leyla'ya şaka yaptı. O güldü ve gülümsedi.",
+        "19 Mayıs'ta bütün öğrenciler okulda dans etti ve yürüyüş yaptı.",
+        "23 Nisan'da Nora okul oyununda sahne aldı. Çok sevdi!",
+        "30 Ağustos'ta çocuklar şehir merkezinde bir geçit törenini izledi.",
+        "29 Ekim'de okul töreninde bayrak salladılar ve alkışladılar.",
+        "Nora diyor: \"Yılın en sevdiğin tarihi hangisi?\"",
+        "Sam diyor: \"3 Temmuz — doğum günüm — her zaman yılın en iyi günü!\""
+      ],
+      "questions": [
+        {
+          "q": "When is Nora's birthday?",
+          "correct": "On the 14th of February",
+          "wrong": [
+            "On the 3rd of July",
+            "On the 21st of September"
+          ],
+          "hint": "Find Nora and the word birthday in the text.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What did Leyla do on her birthday?",
+          "correct": "She painted a picture and cooked a cake",
+          "wrong": [
+            "She watched a film and danced",
+            "She performed in a school play"
+          ],
+          "hint": "Find Leyla and the word birthday in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What did Sam do on the 1st of April?",
+          "correct": "He played a trick on Leyla",
+          "wrong": [
+            "He watched a parade",
+            "He waved flags"
+          ],
+          "hint": "Find the 1st of April in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did the children do on the 29th of October?",
+          "correct": "They waved flags and clapped",
+          "wrong": [
+            "They danced and marched",
+            "They watched a parade"
+          ],
+          "hint": "Find the 29th of October in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Which date does Sam say is the best day of the year?",
+          "correct": "The 3rd of July",
+          "wrong": [
+            "The 14th of February",
+            "The 23rd of April"
+          ],
+          "hint": "Find what Sam says at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "What Did You Do Yesterday?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📖",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked the class: \"What did you do yesterday? Tell me everything!\"",
+        "Nora said: \"I walked to the park in the morning and played with my dog.\"",
+        "\"Then I cooked lunch with my mum. We prepared a big salad together!\"",
+        "\"In the afternoon, I listened to music and painted a picture in my room.\"",
+        "\"I also studied English for an hour. I practised new words from my activity book.\"",
+        "Sam said: \"I watched a football match in the morning. My team scored three goals!\"",
+        "\"After that, I cleaned my room because it was very messy. That's crazy!\"",
+        "\"Then I joined my friends and we played basketball until it was dark.\"",
+        "Leyla said: \"I visited my grandmother in the afternoon. We talked for a long time.\"",
+        "\"In the evening, I designed a new poster for our classroom. I loved every minute of it!\""
+      ],
+      "translations": [
+        "Ms. Reed sınıfa sordu: \"Dün ne yaptınız? Her şeyi anlatın!\"",
+        "Nora dedi: \"Sabah parkta yürüdüm ve köpeğimle oynadım.\"",
+        "\"Sonra annemle birlikte öğle yemeği pişirdim. Birlikte büyük bir salata hazırladık!\"",
+        "\"Öğleden sonra müzik dinledim ve odamda bir resim boydum.\"",
+        "\"Bir saat de İngilizce çalıştım. Etkinlik kitabımdan yeni kelimeler pratik yaptım.\"",
+        "Sam dedi: \"Sabah bir futbol maçı izledim. Takımım üç gol attı!\"",
+        "\"Ondan sonra odamı temizledim çünkü çok dağınıktı. Bu çıldırtıcı!\"",
+        "\"Sonra arkadaşlarıma katıldım ve hava kararana kadar basketbol oynadık.\"",
+        "Leyla dedi: \"Öğleden sonra büyükanneimi ziyaret ettim. Uzun uzun konuştuk.\"",
+        "\"Akşam sınıfımız için yeni bir poster tasarladım. Her anını çok sevdim!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What the pupils did yesterday",
+          "wrong": [
+            "What the pupils do every day",
+            "What the pupils want to do tomorrow"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "q": "What did Nora do in the afternoon?",
+          "correct": "She listened to music and painted",
+          "wrong": [
+            "She cooked lunch",
+            "She visited her grandmother"
+          ],
+          "hint": "Find Nora and the words in the afternoon in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Why did Sam clean his room?",
+          "correct": "Because it was very messy",
+          "wrong": [
+            "Because Ms. Reed asked him",
+            "Because his mum asked him"
+          ],
+          "hint": "Find Sam and the word cleaned in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did Sam do with his friends?",
+          "correct": "They played basketball",
+          "wrong": [
+            "They watched a film",
+            "They studied together"
+          ],
+          "hint": "Find Sam and the word friends in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What did Leyla do in the evening?",
+          "correct": "She designed a poster for the classroom",
+          "wrong": [
+            "She cooked dinner",
+            "She practised new words"
+          ],
+          "hint": "Find Leyla and the words in the evening in the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "When I Was Six...",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌱",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What could you do when you were six? What were you like?\"",
+        "Nora said: \"When I was six, I could draw really well. My drawings were more detailed than Sam's!\"",
+        "\"I was quieter than I am now. My hair was longer and curlier too.\"",
+        "Sam said: \"When I was six, I couldn't read very well but I could run faster than anyone!\"",
+        "\"I was shorter than Nora then. She was taller than me for two whole years!\"",
+        "\"I was naughtier than I am now. My teachers were stricter with me!\" That's crazy, Sam!",
+        "Leyla said: \"When I was six, I could sing beautifully. I was more confident than now.\"",
+        "\"My voice was stronger than it is today. I was braver on stage too.\"",
+        "Ms. Reed smiled: \"What's new? You are all more talented than you think!\"",
+        "\"Keep in touch please — I want to know what you can do when you are sixteen!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Altı yaşındayken ne yapabilirdiniz? Nasıldınız?\"",
+        "Nora dedi: \"Altı yaşındayken çok iyi çizim yapabilirdim. Çizimlerim Sam'inkinden daha ayrıntılıydı!\"",
+        "\"Şimdiden daha sakindim. Saçlarım da daha uzun ve kıvırcıktı.\"",
+        "Sam dedi: \"Altı yaşındayken çok iyi okuyamıyordum ama herkesten daha hızlı koşabiliyordum!\"",
+        "\"O zaman Nora'dan daha kısaydım. İki yıl boyunca o benden uzundu!\"",
+        "\"Şimdiden daha yaramazdım. Öğretmenlerim benimle daha sertti!\" Bu çıldırtıcı, Sam!",
+        "Leyla dedi: \"Altı yaşındayken güzel şarkı söyleyebiliyordum. Şimdiden daha kendine güvenliydim.\"",
+        "\"Sesim bugünkünden daha güçlüydü. Sahnede de daha cesaretliydim.\"",
+        "Ms. Reed gülümsedi: \"Ne var ne yok? Hepiniz düşündüğünüzden daha yeteneklisiniz!\"",
+        "\"Lütfen haberdar edin — on altı yaşındayken neler yapabileceğinizi öğrenmek istiyorum!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What the pupils could do and were like at six",
+          "wrong": [
+            "What the pupils like doing now",
+            "What the pupils did yesterday"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "What could Nora do well when she was six?",
+          "correct": "She could draw really well",
+          "wrong": [
+            "She could sing beautifully",
+            "She could run fast"
+          ],
+          "hint": "Find Nora and the words when I was six in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who was taller when they were six — Sam or Nora?",
+          "correct": "Nora was taller than Sam",
+          "wrong": [
+            "Sam was taller than Nora",
+            "They were the same height"
+          ],
+          "hint": "Find the words taller and shorter in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What could Leyla do when she was six?",
+          "correct": "She could sing beautifully",
+          "wrong": [
+            "She could draw well",
+            "She could run fast"
+          ],
+          "hint": "Find Leyla and the words when I was six in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say about the pupils?",
+          "correct": "They are more talented than they think",
+          "wrong": [
+            "They were more talented at six",
+            "They are less talented now"
+          ],
+          "hint": "Find what Ms. Reed says near the end of the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "What Do You Prefer Wearing?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👗",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What do you enjoy wearing in different kinds of weather?\"",
+        "Nora said: \"I prefer wearing dresses in warm weather. I enjoy putting on my sundress on clear days!\"",
+        "\"When it is cloudy or cool, I prefer to wear my cardigan. It fits like a glove!\"",
+        "\"Is there anything better than cosy slippers on a freezing evening? None of my friends think so!\"",
+        "Sam said: \"I enjoy wearing my trainers every day. Both my old and my new pair are comfortable.\"",
+        "\"When it is stormy, I prefer to wear my raincoat and hoodie. I don't want anything wet!\"",
+        "Leyla said: \"I enjoy wearing bright colours. I prefer to choose something cheerful every morning.\"",
+        "\"On foggy or misty days, I prefer wearing my scarf and gloves. All my scarves are colourful!\"",
+        "\"I don't enjoy wearing pyjamas to school — but I love them at home on cold nights!\" she laughed.",
+        "Ms. Reed smiled: \"Go ahead and wear what makes you happy — that is the best fashion advice!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Farklı hava koşullarında ne giymeyi seviyorsunuz?\"",
+        "Nora dedi: \"Sıcak havalarda elbise giymeyi tercih ederim. Açık günlerde yazlık elbisemi giymeyi seviyorum!\"",
+        "\"Bulutlu veya serin olduğunda hırkamı giymeyi tercih ederim. Tam oturdu!\"",
+        "\"Dondurucu bir akşamda rahat terlikten daha iyi bir şey var mı? Arkadaşlarımın hiçbiri öyle düşünmüyor!\"",
+        "Sam dedi: \"Her gün spor ayakkabılarımı giymeyi seviyorum. Hem eski hem de yeni çiftim rahat.\"",
+        "\"Fırtınalı olduğunda yağmurluk ve kapüşonlu kazak giymeyi tercih ederim. Islak bir şey istemiyorum!\"",
+        "Leyla dedi: \"Parlak renkler giymeyi seviyorum. Her sabah neşeli bir şey seçmeyi tercih ederim.\"",
+        "\"Sisli veya dumanlı günlerde atkı ve eldivenlerimi giymeyi tercih ederim. Tüm atkılarım renkli!\"",
+        "\"Okula pijama giymekten hoşlanmıyorum — ama soğuk gecelerde evde onları çok seviyorum!\" diye güldü.",
+        "Ms. Reed gülümsedi: \"Sizi mutlu eden şeyi giyin — bu en iyi moda tavsiyesi!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What the pupils prefer wearing in different weather",
+          "wrong": [
+            "What the pupils wore yesterday",
+            "The school uniform rules"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "q": "What does Nora prefer to wear on cloudy or cool days?",
+          "correct": "Her cardigan",
+          "wrong": [
+            "Her sundress",
+            "Her slippers"
+          ],
+          "hint": "Find Nora and the word cloudy in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam enjoy wearing every day?",
+          "correct": "His trainers",
+          "wrong": [
+            "His raincoat",
+            "His hoodie"
+          ],
+          "hint": "Find Sam and the word every day in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla prefer to wear on foggy or misty days?",
+          "correct": "Her scarf and gloves",
+          "wrong": [
+            "Her cardigan",
+            "Her trainers"
+          ],
+          "hint": "Find Leyla and the word foggy in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla enjoy wearing at home on cold nights?",
+          "correct": "Pyjamas",
+          "wrong": [
+            "A hoodie",
+            "A cardigan"
+          ],
+          "hint": "Find Leyla and the words cold nights in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "My Life in the Past",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Last week, Ms. Reed asked the class to write about their past.",
+        "Nora wrote: \"I was born on the 14th of February. When I was five, I lived in a small flat.\"",
+        "\"I walked to nursery every morning and played in the garden every afternoon.\"",
+        "\"I couldn't read yet but I could draw animals really well.\"",
+        "\"My favourite toy was a stuffed bear. I carried it everywhere!\"",
+        "Sam wrote: \"When I was six, I was shorter and quieter than I am now.\"",
+        "\"I played in the street every day after school. I could kick a ball further than my brother!\"",
+        "\"I couldn't cook anything but I helped my dad wash the dishes every evening.\"",
+        "Leyla wrote: \"On the 21st of September three years ago, I started at Greenfield School.\"",
+        "\"I was nervous on the 1st day. I couldn't speak to anyone — but Ms. Reed smiled at me and I felt better!\"",
+        "Ms. Reed read all the stories. \"Feel free to use this as a memory book!\" she said.",
+        "\"Keep in touch please — your past makes you who you are today!\""
+      ],
+      "translations": [
+        "Geçen hafta Ms. Reed sınıftan geçmişleri hakkında yazmalarını istedi.",
+        "Nora yazdı: \"14 Şubat'ta doğdum. Beş yaşındayken küçük bir dairede yaşıyordum.\"",
+        "\"Her sabah kreşe yürüdüm ve her öğleden sonra bahçede oynadım.\"",
+        "\"Henüz okuyamıyordum ama hayvanları gerçekten çok iyi çizebiliyordum.\"",
+        "\"Favori oyuncağım dolmuş bir ayıydı. Onu her yere taşıdım!\"",
+        "Sam yazdı: \"Altı yaşındayken şimdikimden daha kısa ve daha sakindim.\"",
+        "\"Okuldan sonra her gün sokakta oynadım. Topları kardeşimden daha uzağa vurabiliyordum!\"",
+        "\"Hiçbir şey pişiremiyordum ama her akşam babama bulaşık yıkamasında yardım ettim.\"",
+        "Leyla yazdı: \"Üç yıl önce 21 Eylül'de Greenfield School'a başladım.\"",
+        "\"1. gün gerginydim. Kimseyle konuşamıyordum — ama Ms. Reed bana gülümsedi ve kendimi daha iyi hissettim!\"",
+        "Ms. Reed tüm hikayeleri okudu. \"Bunu bir anı kitabı olarak kullanmaktan çekinmeyin!\" dedi.",
+        "\"Lütfen haberdar edin — geçmişiniz sizi bugün siz yapan şeydir!\""
+      ],
+      "questions": [
+        {
+          "q": "When is Nora's birthday?",
+          "correct": "On the 14th of February",
+          "wrong": [
+            "On the 21st of September",
+            "On the 1st of March"
+          ],
+          "hint": "Find Nora and the word born in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What could Nora do well when she was five?",
+          "correct": "She could draw animals",
+          "wrong": [
+            "She could read",
+            "She could cook"
+          ],
+          "hint": "Find the word could near Nora's name.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What could Sam do better than his brother?",
+          "correct": "Kick a ball further",
+          "wrong": [
+            "Cook dinner",
+            "Read books"
+          ],
+          "hint": "Find Sam and the word brother in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "When did Leyla start at Greenfield School?",
+          "correct": "On the 21st of September three years ago",
+          "wrong": [
+            "On the 14th of February",
+            "On the 1st of September"
+          ],
+          "hint": "Find Leyla and the word started in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "Why did Leyla feel better on her first day?",
+          "correct": "Because Ms. Reed smiled at her",
+          "wrong": [
+            "Because Sam talked to her",
+            "Because she could speak English"
+          ],
+          "hint": "Find Leyla and the words 1st day in the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "Who Is Taller?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📏",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Today we are going to compare ourselves! It's not fair to say who is best — but we can compare!\"",
+        "Nora said: \"I am taller than Sam now. But two years ago, Sam was taller than me!\"",
+        "\"Sam is funnier than me. He is also braver than me in PE lessons.\"",
+        "Sam said: \"Nora is more careful than me. She is also more hardworking than me in class.\"",
+        "\"But I am faster than Nora! I could run faster than her when we were six too.\"",
+        "Leyla said: \"I am quieter than both Sam and Nora. I am also more creative than them.\"",
+        "\"But Sam is stronger than me. He could lift heavier things than me even when we were young.\"",
+        "Nora said: \"Leyla's hair is longer than mine and wavier than Sam's. Her eyes are bigger too.\"",
+        "Ms. Reed said: \"You are all better than you were last year — that is the most important thing!\"",
+        "Sam laughed: \"But who is the tallest? That's crazy — I want to be the tallest one day!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Bugün kendimizi karşılaştıracağız! Kimin en iyi olduğunu söylemek adil değil — ama karşılaştırabiliriz!\"",
+        "Nora dedi: \"Artık Sam'den daha uzunum. Ama iki yıl önce Sam benden uzundu!\"",
+        "\"Sam benden daha komik. Beden Eğitimi derslerinde de benden daha cesur.\"",
+        "Sam dedi: \"Nora benden daha dikkatli. Sınıfta da benden daha çalışkan.\"",
+        "\"Ama ben Nora'dan daha hızlıyım! Altı yaşındayken de ondan daha hızlı koşabiliyordum.\"",
+        "Leyla dedi: \"Sam ve Nora'nın ikisinden de daha sakinim. Aynı zamanda onlardan daha yaratıcıyım.\"",
+        "\"Ama Sam benden daha güçlü. Küçükken bile benden daha ağır şeyler kaldırabiliyordu.\"",
+        "Nora dedi: \"Leyla'nın saçları benimkinden daha uzun ve Sam'inkinden daha dalgalı. Gözleri de daha büyük.\"",
+        "Ms. Reed dedi: \"Hepiniz geçen yıldan daha iyisiniz — bu en önemli şey!\"",
+        "Sam güldü: \"Ama en uzun olan kim? Bu çıldırtıcı — bir gün en uzun olmak istiyorum!\""
+      ],
+      "questions": [
+        {
+          "q": "Who is taller now — Nora or Sam?",
+          "correct": "Nora is taller than Sam",
+          "wrong": [
+            "Sam is taller than Nora",
+            "They are the same height"
+          ],
+          "hint": "Find the word taller near Nora's name.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Sam say about Nora?",
+          "correct": "She is more careful and hardworking",
+          "wrong": [
+            "She is funnier and braver",
+            "She is quieter and more creative"
+          ],
+          "hint": "Find Sam and Nora's name together in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Leyla say about herself compared to Sam and Nora?",
+          "correct": "She is quieter and more creative",
+          "wrong": [
+            "She is taller and stronger",
+            "She is faster and funnier"
+          ],
+          "hint": "Find Leyla in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora say about Leyla's appearance?",
+          "correct": "Her hair is longer and wavier",
+          "wrong": [
+            "Her eyes are smaller",
+            "Her hair is shorter and straighter"
+          ],
+          "hint": "Find Nora and Leyla's name together in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say is the most important thing?",
+          "correct": "They are all better than last year",
+          "wrong": [
+            "Being the tallest",
+            "Being the most creative"
+          ],
+          "hint": "Find what Ms. Reed says near the end of the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "What to Wear in Every Season?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌈",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Let's talk about the weather and the clothes we wear in each season!\"",
+        "\"In the spring, the weather is often cool and misty in the mornings. The afternoons are clearer.\"",
+        "Nora said: \"I enjoy wearing the light cardigan my grandmother gave me in spring. I prefer to add a bracelet too.\"",
+        "\"In the summer, the weather is clear and sometimes humid. The sun is very strong.\"",
+        "Sam said: \"I prefer wearing the shorts and the t-shirt I bought last year. I enjoy putting on my sunglasses too!\"",
+        "\"In the autumn, the weather gets cloudy and cool. The mornings can be foggy.\"",
+        "Leyla said: \"I enjoy wearing the hoodie my mum bought me. I prefer to wear the leggings with it.\"",
+        "\"In the winter, the weather is freezing and sometimes stormy. The evenings are very dark.\"",
+        "Sam said: \"I prefer wearing the thick scarf my dad gave me. I enjoy putting on the gloves too.\"",
+        "Ms. Reed smiled: \"The right clothes for the right weather — that is the smartest choice!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Her mevsimde hava durumu ve giydiğimiz kıyafetler hakkında konuşalım!\"",
+        "\"İlkbaharda sabahları hava genellikle serin ve sisli. Öğleden sonraları daha açık.\"",
+        "Nora dedi: \"İlkbaharda büyükannemin bana verdiği hafif hırkayı giymeyi seviyorum. Bir bileklik de eklemeyi tercih ederim.\"",
+        "\"Yazın hava açık ve bazen nemli. Güneş çok güçlü.\"",
+        "Sam dedi: \"Geçen yıl aldığım şort ve tişörtü giymeyi tercih ederim. Güneş gözlüğümü de takmayı seviyorum!\"",
+        "\"Sonbaharda hava bulutlu ve serin oluyor. Sabahlar sisli olabilir.\"",
+        "Leyla dedi: \"Annemin aldığı kapüşonlu kazağı giymeyi seviyorum. Onunla taytı giymeyi tercih ederim.\"",
+        "\"Kışın hava dondurucu ve bazen fırtınalı. Akşamlar çok karanlık.\"",
+        "Sam dedi: \"Babamın verdiği kalın atkıyı giymeyi tercih ederim. Eldivenleri de takmayı seviyorum.\"",
+        "Ms. Reed gülümsedi: \"Doğru hava için doğru kıyafet — bu en akıllıca seçim!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the weather like in spring mornings?",
+          "correct": "Cool and misty",
+          "wrong": [
+            "Clear and humid",
+            "Freezing and stormy"
+          ],
+          "hint": "Find the word spring in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Nora enjoy wearing in spring?",
+          "correct": "The light cardigan her grandmother gave her",
+          "wrong": [
+            "The hoodie her mum bought",
+            "The thick scarf her dad gave her"
+          ],
+          "hint": "Find Nora and the word spring in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam prefer wearing in summer?",
+          "correct": "The shorts and t-shirt he bought last year",
+          "wrong": [
+            "The hoodie and leggings",
+            "The scarf and gloves"
+          ],
+          "hint": "Find Sam and the word summer in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla enjoy wearing in autumn?",
+          "correct": "The hoodie her mum bought her",
+          "wrong": [
+            "The cardigan her grandmother gave her",
+            "The shorts and t-shirt"
+          ],
+          "hint": "Find Leyla and the word autumn in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Sam enjoy wearing in winter?",
+          "correct": "The thick scarf and gloves",
+          "wrong": [
+            "The shorts and sunglasses",
+            "The light cardigan and bracelet"
+          ],
+          "hint": "Find Sam and the word winter in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Who Am I Describing?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed played a description game with the class. \"I will describe someone. You guess who it is!\"",
+        "\"This person is taller than Nora but shorter than Mr. Tan.\"",
+        "\"Their hair is shorter than Leyla's but wavier than Nora's.\"",
+        "\"They are funnier than anyone in the class. They are also braver than most pupils.\"",
+        "\"They are more energetic than Leyla and louder than Nora in the playground.\"",
+        "\"When they were six, they were naughtier than their classmates. Their teachers were stricter with them!\"",
+        "\"They could run faster than anyone in their class at primary school.\"",
+        "\"They couldn't sit still for more than five minutes — and that is still true today!\"",
+        "Nora whispered to Leyla: \"I know who this is. Their hair is wavy and they are the funniest person here!\"",
+        "Leyla nodded: \"And they are stronger than both of us — it's obvious!\"",
+        "Ms. Reed smiled: \"Go ahead — who is it?\"",
+        "Both Nora and Leyla pointed at the same person and said: \"It's Sam!\""
+      ],
+      "translations": [
+        "Ms. Reed sınıfla bir tanımlama oyunu oynadı. \"Birini tanımlayacağım. Tahmin edin kim olduğunu!\"",
+        "\"Bu kişi Nora'dan uzun ama Mr. Tan'dan kısa.\"",
+        "\"Saçları Leyla'nınkinden daha kısa ama Nora'nınkinden daha dalgalı.\"",
+        "\"Sınıftaki herkesten daha komikler. Aynı zamanda çoğu öğrenciden daha cesurlar.\"",
+        "\"Leyla'dan daha enerjikler ve oyun alanında Nora'dan daha sesli.\"",
+        "\"Altı yaşındayken sınıf arkadaşlarından daha yaramazdılar. Öğretmenleri onlara daha sertti!\"",
+        "\"İlkokulda sınıflarındaki herkesten daha hızlı koşabiliyorlardı.\"",
+        "\"Beş dakikadan fazla yerinde oturamıyorlardı — ve bu bugün hâlâ geçerli!\"",
+        "Nora, Leyla'ya fısıldadı: \"Bunun kim olduğunu biliyorum. Saçları dalgalı ve buradaki en komik kişi!\"",
+        "Leyla başını salladı: \"Ve ikimizden de güçlüler — bu aşikar!\"",
+        "Ms. Reed gülümsedi: \"Haydi — kim bu?\"",
+        "Hem Nora hem de Leyla aynı kişiyi gösterdi ve dedi: \"Bu Sam!\""
+      ],
+      "questions": [
+        {
+          "q": "Who is Ms. Reed describing?",
+          "correct": "Sam",
+          "wrong": [
+            "Nora",
+            "Leyla"
+          ],
+          "hint": "Read the last sentence of the text.",
+          "hl": [
+            8,
+            9,
+            11
+          ]
+        },
+        {
+          "q": "How is this person's hair described?",
+          "correct": "Shorter than Leyla's and wavier than Nora's",
+          "wrong": [
+            "Longer than Leyla's and straighter than Nora's",
+            "Thick and fair"
+          ],
+          "hint": "Find the sentence about hair in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What could this person do faster than anyone at primary school?",
+          "correct": "Run",
+          "wrong": [
+            "Swim",
+            "Draw"
+          ],
+          "hint": "Find the word could in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What clue does Nora use to guess?",
+          "correct": "Their wavy hair and being the funniest",
+          "wrong": [
+            "Their height and strength",
+            "Their naughtiness at six"
+          ],
+          "hint": "Find what Nora whispers to Leyla.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "How do both Nora and Leyla give their answer?",
+          "correct": "They point at the same person",
+          "wrong": [
+            "They write the name",
+            "They whisper to Ms. Reed"
+          ],
+          "hint": "Read the last sentence of the text.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Really Happened?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "On the 12th of November, something strange happened at Greenfield School.",
+        "In the morning, Ms. Reed noticed that someone moved her chair to the corner of the room.",
+        "She also noticed that someone placed a big drawing on her desk. It showed a funny cartoon of her!",
+        "At break time, she walked into the classroom and found a card on her chair.",
+        "The card said: \"You are the kindest teacher we know. We wanted to surprise you!\"",
+        "Ms. Reed smiled and looked around. The classroom was empty — or was it?",
+        "Suddenly, the cupboard door opened and three children jumped out. \"Surprise!\"",
+        "It was Nora, Sam and Leyla! They laughed and clapped.",
+        "Sam explained: \"We planned everything last week. Nora designed the card and I moved the chair!\"",
+        "\"Leyla drew the cartoon. She could draw it perfectly because she is the most talented artist!\"",
+        "Ms. Reed laughed: \"I couldn't guess anything — you were all so quiet! It's not fair!\"",
+        "\"Feel free to surprise me again next year!\" she said with a big smile."
+      ],
+      "translations": [
+        "12 Kasım'da Greenfield School'da tuhaf bir şey oldu.",
+        "Sabah Ms. Reed, birinin sandalyesini odanın köşesine taşıdığını fark etti.",
+        "Ayrıca birinin masasına büyük bir çizim koyduğunu fark etti. Onun komik bir karikatürünü gösteriyordu!",
+        "Mola zamanı sınıfa girdi ve sandalyesinde bir kart buldu.",
+        "Kartta yazıyordu: \"Sen tanıdığımız en nazik öğretmensin. Seni sürpriz yapmak istedik!\"",
+        "Ms. Reed gülümsedi ve etrafına baktı. Sınıf boştu — ya da öyle miydi?",
+        "Aniden dolabın kapısı açıldı ve üç çocuk dışarı fırladı. \"Sürpriz!\"",
+        "Nora, Sam ve Leyla'ydı! Güldüler ve alkışladılar.",
+        "Sam açıkladı: \"Her şeyi geçen hafta planladık. Nora kartı tasarladı ve ben sandalyeyi taşıdım!\"",
+        "\"Leyla karikatürü çizdi. Mükemmel çizebildi çünkü en yetenekli sanatçı o!\"",
+        "Ms. Reed güldü: \"Hiçbir şeyi tahmin edemedim — hepiniz o kadar sessizdiniz! Bu adil değil!\"",
+        "\"Gelecek yıl beni tekrar sürpriz yapmaktan çekinmeyin!\" dedi büyük bir gülümsemeyle."
+      ],
+      "questions": [
+        {
+          "q": "What did Ms. Reed find on her chair at break time?",
+          "correct": "A card",
+          "wrong": [
+            "A cartoon",
+            "A drawing"
+          ],
+          "hint": "Find the words at break time in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who moved Ms. Reed's chair to the corner?",
+          "correct": "Sam",
+          "wrong": [
+            "Nora",
+            "Leyla"
+          ],
+          "hint": "Find Sam's explanation in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "Who drew the cartoon of Ms. Reed?",
+          "correct": "Leyla",
+          "wrong": [
+            "Nora",
+            "Sam"
+          ],
+          "hint": "Find the word cartoon in Sam's explanation.",
+          "hl": [
+            9
+          ]
+        },
+        {
+          "q": "Why could Leyla draw the cartoon perfectly?",
+          "correct": "Because she is the most talented artist",
+          "wrong": [
+            "Because she practised for weeks",
+            "Because Ms. Reed helped her"
+          ],
+          "hint": "Find the word perfectly in the text.",
+          "hl": [
+            9
+          ]
+        },
+        {
+          "q": "How did Ms. Reed feel about not guessing?",
+          "correct": "Amused but surprised",
+          "wrong": [
+            "Angry",
+            "Sad"
+          ],
+          "hint": "Read what Ms. Reed says and does at the end.",
+          "hl": [
+            10,
+            11
+          ]
+        }
+      ]
+    }
+  ]
+}

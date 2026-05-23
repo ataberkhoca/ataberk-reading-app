@@ -1,0 +1,830 @@
+{
+  "theme": "Life in the City & The World",
+  "themeNumber": 6,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "What's for Breakfast?",
+      "subtitle": "Find the right food!",
+      "icon": "🍳",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is morning. Breakfast time!",
+        "What's for breakfast today?",
+        "There is some bread and some butter on the table.",
+        "There is also some cheese and some olives.",
+        "Have you got any milk? Yes, I've got some milk.",
+        "Have you got any tea? Yes, there is some tea.",
+        "There is some juice and some toast, too.",
+        "Maya asks: Have you got any pancakes?",
+        "No, I haven't got any pancakes, says Leo.",
+        "Leo's mum says: Dinner is ready! Oh, I mean breakfast is ready!",
+        "Everyone laughs and sits down to eat."
+      ],
+      "translations": [
+        "Sabah. Kahvaltı zamanı!",
+        "Bugün kahvaltıda ne var?",
+        "Masada biraz ekmek ve biraz tereyağı var.",
+        "Ayrıca biraz peynir ve biraz zeytin var.",
+        "Sütün var mı? Evet, biraz sütüm var.",
+        "Çayın var mı? Evet, biraz çay var.",
+        "Biraz meyve suyu ve biraz tost da var.",
+        "Maya soruyor: Hiç krep var mı?",
+        "Hayır, hiç krepim yok, diyor Leo.",
+        "Leo'nun annesi diyor: Akşam yemeği hazır! Yani kahvaltı hazır demek istedim!",
+        "Herkes güler ve oturup yemeye başlar."
+      ],
+      "questions": [
+        {
+          "q": "What is on the table for breakfast?",
+          "correct": "Bread and butter",
+          "wrong": ["Soup and rice", "Pasta and salad"],
+          "hint": "Find the word table in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "Have they got any milk?",
+          "correct": "Yes, they have got some milk.",
+          "wrong": ["No, they haven't got any milk.", "Yes, they have got some juice."],
+          "hint": "Find the word milk in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Have they got any pancakes?",
+          "correct": "No, they haven't got any pancakes.",
+          "wrong": ["Yes, they have got some pancakes.", "Yes, they have got some toast."],
+          "hint": "Find the word pancakes in the text.",
+          "hl": [7, 8]
+        },
+        {
+          "q": "What does Leo's mum say by mistake?",
+          "correct": "Dinner is ready!",
+          "wrong": ["Lunch is ready!", "Breakfast time!"],
+          "hint": "Find Leo's mum in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What is also on the table?",
+          "correct": "Juice and toast",
+          "wrong": ["Cake and soup", "Rice and salad"],
+          "hint": "Find the word also in the text.",
+          "hl": [6]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "What's on the Menu?",
+      "subtitle": "Find the right food or place!",
+      "icon": "🍽️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "Maya and Leo are at a restaurant.",
+        "Sam is the waiter at the restaurant.",
+        "Can I see the menu, please? asks Maya.",
+        "Yes, of course! Here you are, says Sam.",
+        "There is some soup, some salad and some pasta on the menu.",
+        "There is also some rice, some sandwiches and some cake.",
+        "Leo asks: Is this a fast food restaurant?",
+        "No, it is not. We also do takeaway, says Sam.",
+        "Maya asks: Can I have some water, please?",
+        "Yes, you can. Here you are, says Sam.",
+        "Leo looks at the bill. It is not expensive!",
+        "Ms. Hart says: What a lovely café!"
+      ],
+      "translations": [
+        "Maya ve Leo bir restorandalar.",
+        "Sam bu restoranın garsonu.",
+        "Menüyü görebilir miyim lütfen? diye soruyor Maya.",
+        "Tabii ki! Buyurun, diyor Sam.",
+        "Menüde biraz çorba, biraz salata ve biraz makarna var.",
+        "Ayrıca biraz pilav, biraz sandviç ve biraz kek var.",
+        "Leo soruyor: Burası bir fast food restoranı mı?",
+        "Hayır, değil. Paket servis de yapıyoruz, diyor Sam.",
+        "Maya soruyor: Biraz su alabilir miyim lütfen?",
+        "Evet, alabilirsiniz. Buyurun, diyor Sam.",
+        "Leo hesaba bakıyor. Pahalı değil!",
+        "Ms. Hart diyor: Ne güzel bir kafe!"
+      ],
+      "questions": [
+        {
+          "q": "Who is Sam?",
+          "correct": "The waiter at the restaurant",
+          "wrong": ["The chef at the café", "The owner of the fast food restaurant"],
+          "hint": "Find Sam in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What is on the menu?",
+          "correct": "Soup, salad and pasta",
+          "wrong": ["Pancakes, toast and butter", "Eggs, cheese and olives"],
+          "hint": "Find the word menu in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Is it a fast food restaurant?",
+          "correct": "No, but they do takeaway.",
+          "wrong": ["Yes, it is a fast food restaurant.", "No, and they don't do takeaway."],
+          "hint": "Find the word fast food in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "What does Maya ask for?",
+          "correct": "Some water",
+          "wrong": ["Some soup", "Some juice"],
+          "hint": "Find Maya's request in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What does Leo think about the bill?",
+          "correct": "It is not expensive.",
+          "wrong": ["It is very expensive.", "It is too cheap."],
+          "hint": "Find the word bill in the text.",
+          "hl": [10]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Have You Got Any…?",
+      "subtitle": "Find the right food or answer!",
+      "icon": "🛒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "Maya and Leo are at a café with Ms. Hart.",
+        "Sam is the waiter today.",
+        "Have you got any soup? asks Maya.",
+        "Yes, we have got some soup, says Sam.",
+        "Have you got any sandwiches? asks Leo.",
+        "Yes, we have got some sandwiches, says Sam.",
+        "Ms. Hart asks: Have you got any fruit juice?",
+        "No, I am sorry. We haven't got any juice today, says Sam.",
+        "What have you got for lunch? asks Ms. Hart.",
+        "We have got some pasta, some salad and some rice, says Sam.",
+        "Ms. Hart says: We want to eat and drink something nice!",
+        "Sam says: I can bring you some water to drink first!"
+      ],
+      "translations": [
+        "Maya ve Leo, Ms. Hart ile bir kafedeler.",
+        "Sam bugün garson.",
+        "Hiç çorbanız var mı? diye soruyor Maya.",
+        "Evet, biraz çorbamız var, diyor Sam.",
+        "Hiç sandviçiniz var mı? diye soruyor Leo.",
+        "Evet, biraz sandviçimiz var, diyor Sam.",
+        "Ms. Hart soruyor: Hiç meyve suyu var mı?",
+        "Hayır, üzgünüm. Bugün hiç meyve suyumuz yok, diyor Sam.",
+        "Ms. Hart soruyor: Öğle yemeği için ne var?",
+        "Biraz makarna, biraz salata ve biraz pilav var, diyor Sam.",
+        "Ms. Hart diyor: Güzel bir şeyler yiyip içmek istiyoruz!",
+        "Sam diyor: Önce biraz su getirebilirim!"
+      ],
+      "questions": [
+        {
+          "q": "Have they got any soup?",
+          "correct": "Yes, they have got some soup.",
+          "wrong": ["No, they haven't got any soup.", "Yes, they have got some salad."],
+          "hint": "Find the word soup in the text.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "Have they got any fruit juice?",
+          "correct": "No, they haven't got any juice today.",
+          "wrong": ["Yes, they have got some juice.", "Yes, they have got some water."],
+          "hint": "Find the word juice in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "What have they got for lunch?",
+          "correct": "Pasta, salad and rice",
+          "wrong": ["Soup, sandwiches and cake", "Bread, butter and cheese"],
+          "hint": "Find the word lunch in the text.",
+          "hl": [8, 9]
+        },
+        {
+          "q": "What does Ms. Hart want to do?",
+          "correct": "Eat and drink something nice",
+          "wrong": ["See the menu", "Pay the bill"],
+          "hint": "Find Ms. Hart in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Sam offer to bring first?",
+          "correct": "Some water",
+          "wrong": ["Some soup", "Some juice"],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "At the Restaurant",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍜",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "Ms. Hart takes Maya and Leo to a restaurant for lunch.",
+        "Sam is their waiter today.",
+        "Can I see the menu, please? asks Ms. Hart.",
+        "Yes, of course! Here you are, says Sam.",
+        "What do you want? asks Sam.",
+        "I want some soup, please, says Ms. Hart.",
+        "Maya looks at the menu. I'll take some pasta, please, she says.",
+        "Leo thinks for a moment. I'll take some rice and some salad, please, he says.",
+        "Can I have some water, please? asks Maya.",
+        "Yes, you can. Here you are, says Sam.",
+        "Sam brings the food. Enjoy your meal! he says.",
+        "I am full! says Leo after eating.",
+        "Ms. Hart asks for the bill. Thank you, Sam!"
+      ],
+      "translations": [
+        "Ms. Hart, Maya ve Leo'yu öğle yemeği için bir restorana götürüyor.",
+        "Sam bugün garsonları.",
+        "Menüyü görebilir miyim lütfen? diye soruyor Ms. Hart.",
+        "Tabii ki! Buyurun, diyor Sam.",
+        "Ne istersiniz? diye soruyor Sam.",
+        "Biraz çorba istiyorum lütfen, diyor Ms. Hart.",
+        "Maya menüye bakıyor. Biraz makarna alacağım lütfen, diyor.",
+        "Leo bir an düşünüyor. Biraz pilav ve biraz salata alacağım lütfen, diyor.",
+        "Biraz su alabilir miyim lütfen? diye soruyor Maya.",
+        "Evet, alabilirsiniz. Buyurun, diyor Sam.",
+        "Sam yemekleri getiriyor. Afiyet olsun! diyor.",
+        "Doydum! diyor Leo yedikten sonra.",
+        "Ms. Hart hesabı istiyor. Teşekkürler, Sam!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Ordering food at a restaurant",
+          "wrong": ["Cooking food at home", "Shopping for food at a market"],
+          "hint": "Think about what Maya, Leo and Ms. Hart do at the restaurant.",
+          "hl": [4, 5, 6, 7, 8, 10]
+        },
+        {
+          "q": "What does Ms. Hart want?",
+          "correct": "Some soup",
+          "wrong": ["Some pasta", "Some rice and salad"],
+          "hint": "Find Ms. Hart's order in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What does Maya decide to take?",
+          "correct": "Some pasta",
+          "wrong": ["Some soup", "Some rice and salad"],
+          "hint": "Find Maya's order in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "What does Leo take?",
+          "correct": "Some rice and some salad",
+          "wrong": ["Some soup", "Some pasta"],
+          "hint": "Find Leo's order in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "How does Leo feel after eating?",
+          "correct": "He is full.",
+          "wrong": ["He is still hungry.", "He is sad."],
+          "hint": "Find Leo after eating in the text.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "Meals of the Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍽️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya talks about the meals of the day.",
+        "Breakfast time! We have some bread, some butter and some cheese.",
+        "We also have some tea and some juice in the morning.",
+        "What's for lunch? We have some soup and some sandwiches.",
+        "Sometimes we have some pasta or some rice for lunch.",
+        "Dinner time! What's for dinner tonight?",
+        "We have some salad and some chicken for dinner.",
+        "Leo says: Pass me the salt please!",
+        "Here you are, says Maya.",
+        "Ms. Hart says: Have you got any cake for dessert?",
+        "Yes, we have got some cake! says Maya.",
+        "Leo says: I am full but I always want some cake!"
+      ],
+      "translations": [
+        "Maya günün öğünleri hakkında konuşuyor.",
+        "Kahvaltı zamanı! Biraz ekmek, biraz tereyağı ve biraz peynir yiyoruz.",
+        "Sabahları biraz çay ve biraz meyve suyu da içiyoruz.",
+        "Öğle yemeğinde ne var? Biraz çorba ve biraz sandviç var.",
+        "Bazen öğle yemeğinde biraz makarna veya biraz pilav yiyoruz.",
+        "Akşam yemeği zamanı! Bu gece akşam yemeğinde ne var?",
+        "Akşam yemeğinde biraz salata ve biraz tavuk var.",
+        "Leo diyor: Tuzu uzatır mısın lütfen!",
+        "Buyur, diyor Maya.",
+        "Ms. Hart soruyor: Tatlı için hiç kekiniz var mı?",
+        "Evet, biraz kekimiz var! diyor Maya.",
+        "Leo diyor: Doydum ama her zaman biraz kek istiyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Food items for breakfast, lunch and dinner",
+          "wrong": ["Ordering food at a restaurant", "Shopping for food"],
+          "hint": "Think about what Maya says about each meal.",
+          "hl": [1, 3, 6]
+        },
+        {
+          "q": "What do they have for breakfast?",
+          "correct": "Bread, butter and cheese",
+          "wrong": ["Soup and sandwiches", "Salad and chicken"],
+          "hint": "Find the word breakfast in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What do they sometimes have for lunch?",
+          "correct": "Pasta or rice",
+          "wrong": ["Cake or salad", "Cheese or olives"],
+          "hint": "Find the word lunch in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Leo ask Maya to pass?",
+          "correct": "The salt",
+          "wrong": ["The bread", "The juice"],
+          "hint": "Find Leo in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "Have they got any cake?",
+          "correct": "Yes, they have got some cake.",
+          "wrong": ["No, they haven't got any cake.", "Yes, they have got some bread."],
+          "hint": "Find the word cake in the text.",
+          "hl": [9, 10]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Let's Order Food!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "Ms. Hart takes Maya and Leo to a nice restaurant for dinner.",
+        "Sam is their waiter.",
+        "Can I see the menu, please? asks Leo.",
+        "Yes, of course! Here you are, says Sam.",
+        "What do you want? asks Sam.",
+        "I want some soup to start, please, says Ms. Hart.",
+        "Maya looks at the menu and decides quickly.",
+        "I'll take some pasta and some salad, please, says Maya.",
+        "Leo thinks for a moment. I'll take some rice and some chicken, please.",
+        "Can I have some juice, please? asks Leo.",
+        "Yes, you can. Here you are, says Sam.",
+        "Sam brings all the food. Enjoy your meal! he says.",
+        "The food is delicious. I am full! says Maya.",
+        "Ms. Hart calls Sam: Can we have the bill, please?",
+        "Of course! Here you are, says Sam."
+      ],
+      "translations": [
+        "Ms. Hart, Maya ve Leo'yu akşam yemeği için güzel bir restorana götürüyor.",
+        "Sam garsonları.",
+        "Menüyü görebilir miyim lütfen? diye soruyor Leo.",
+        "Tabii ki! Buyurun, diyor Sam.",
+        "Ne istersiniz? diye soruyor Sam.",
+        "Başlangıç olarak biraz çorba istiyorum lütfen, diyor Ms. Hart.",
+        "Maya menüye bakıyor ve hızlıca karar veriyor.",
+        "Biraz makarna ve biraz salata alacağım lütfen, diyor Maya.",
+        "Leo bir an düşünüyor. Biraz pilav ve biraz tavuk alacağım lütfen.",
+        "Biraz meyve suyu alabilir miyim lütfen? diye soruyor Leo.",
+        "Evet, alabilirsiniz. Buyurun, diyor Sam.",
+        "Sam tüm yemekleri getiriyor. Afiyet olsun! diyor.",
+        "Yemek çok lezzetli. Doydum! diyor Maya.",
+        "Ms. Hart Sam'i çağırıyor: Hesabı alabilir miyiz lütfen?",
+        "Tabii ki! Buyurun, diyor Sam."
+      ],
+      "questions": [
+        {
+          "q": "What does Ms. Hart want to start?",
+          "correct": "Some soup",
+          "wrong": ["Some pasta", "Some rice"],
+          "hint": "Find Ms. Hart's order in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What does Maya decide to take?",
+          "correct": "Some pasta and some salad",
+          "wrong": ["Some soup and some juice", "Some rice and some chicken"],
+          "hint": "Find Maya's order in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What does Leo take?",
+          "correct": "Some rice and some chicken",
+          "wrong": ["Some pasta and some salad", "Some soup and some juice"],
+          "hint": "Find Leo's order in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What does Ms. Hart ask for at the end?",
+          "correct": "The bill",
+          "wrong": ["The menu", "Some water"],
+          "hint": "Find Ms. Hart at the end of the text.",
+          "hl": [13]
+        },
+        {
+          "q": "How does Maya feel after eating?",
+          "correct": "She is full.",
+          "wrong": ["She is still hungry.", "She is unhappy."],
+          "hint": "Find Maya after eating in the text.",
+          "hl": [12]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "What Do You Want?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍕",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "It is lunchtime. Maya and Leo are very hungry.",
+        "Leo says: I want some fast food today!",
+        "Maya says: No! Let's go to a café instead.",
+        "Ms. Hart says: Why not try the new restaurant on the corner?",
+        "They go to the restaurant. Sam is the waiter.",
+        "What do you want? asks Sam.",
+        "I want some soup and some bread, please, says Ms. Hart.",
+        "Maya thinks: Hmm, what do I want?",
+        "Then she decides: I'll take some pasta, please!",
+        "Leo says: I want a sandwich but I'll take some salad, too.",
+        "Sam asks: Do you want to eat here or takeaway?",
+        "We want to eat here, says Maya.",
+        "Sam brings the food quickly.",
+        "Ms. Hart says: Pass me the salt please!",
+        "Here you are! say Maya and Leo together."
+      ],
+      "translations": [
+        "Öğle yemeği vakti. Maya ve Leo çok aç.",
+        "Leo diyor: Bugün biraz fast food istiyorum!",
+        "Maya diyor: Hayır! Onun yerine bir kafeye gidelim.",
+        "Ms. Hart diyor: Köşedeki yeni restoranı denesek olmaz mı?",
+        "Restorana gidiyorlar. Sam garson.",
+        "Ne istersiniz? diye soruyor Sam.",
+        "Biraz çorba ve biraz ekmek istiyorum lütfen, diyor Ms. Hart.",
+        "Maya düşünüyor: Hmm, ne istiyorum?",
+        "Sonra karar veriyor: Biraz makarna alacağım lütfen!",
+        "Leo diyor: Sandviç istiyorum ama biraz salata da alacağım.",
+        "Sam soruyor: Burada mı yemek istersiniz yoksa paket servis mi?",
+        "Burada yemek istiyoruz, diyor Maya.",
+        "Sam yemekleri hızlıca getiriyor.",
+        "Ms. Hart diyor: Tuzu uzatır mısın lütfen!",
+        "Buyur! diyor Maya ve Leo birlikte."
+      ],
+      "questions": [
+        {
+          "q": "What does Leo want at first?",
+          "correct": "Some fast food",
+          "wrong": ["Some soup", "A sandwich"],
+          "hint": "Find Leo at the beginning of the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Ms. Hart want?",
+          "correct": "Some soup and some bread",
+          "wrong": ["Some pasta and some salad", "A sandwich and some juice"],
+          "hint": "Find Ms. Hart's order in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "What does Maya decide to take?",
+          "correct": "Some pasta",
+          "wrong": ["Some soup", "A sandwich"],
+          "hint": "Find Maya's decision in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What does Leo take in the end?",
+          "correct": "A sandwich and some salad",
+          "wrong": ["Some pasta and some soup", "Some rice and some chicken"],
+          "hint": "Find Leo's final order in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "Do they eat at the restaurant or get takeaway?",
+          "correct": "They eat at the restaurant.",
+          "wrong": ["They get takeaway.", "They go to a café."],
+          "hint": "Find Maya's answer about eating in the text.",
+          "hl": [10, 11]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "A Family Meal",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is dinner time at Maya's house.",
+        "Maya's mum says: Dinner is ready!",
+        "Maya asks: What's for dinner tonight?",
+        "We have some soup, some salad and some pasta, says Maya's mum.",
+        "Have you got any bread? asks Maya.",
+        "Yes, I have got some bread and some butter, says Maya's mum.",
+        "Have you got any olives? asks Leo.",
+        "No, I haven't got any olives, says Maya's mum.",
+        "Have you got any cake for dessert? asks Maya.",
+        "Yes, I have got some cake! says Maya's mum.",
+        "Everyone sits down. Enjoy your meal! says Maya's mum.",
+        "Pass me the salt please! says Leo.",
+        "Here you are, says Maya.",
+        "I am full! says Leo after dinner.",
+        "Maya says: Me too! What a wonderful family dinner!"
+      ],
+      "translations": [
+        "Maya'nın evinde akşam yemeği vakti.",
+        "Maya'nın annesi diyor: Akşam yemeği hazır!",
+        "Maya soruyor: Bu gece akşam yemeğinde ne var?",
+        "Biraz çorba, biraz salata ve biraz makarna var, diyor Maya'nın annesi.",
+        "Hiç ekmek var mı? diye soruyor Maya.",
+        "Evet, biraz ekmek ve biraz tereyağı var, diyor Maya'nın annesi.",
+        "Hiç zeytin var mı? diye soruyor Leo.",
+        "Hayır, hiç zeytin yok, diyor Maya'nın annesi.",
+        "Tatlı için hiç kek var mı? diye soruyor Maya.",
+        "Evet, biraz kek var! diyor Maya'nın annesi.",
+        "Herkes oturuyor. Afiyet olsun! diyor Maya'nın annesi.",
+        "Tuzu uzatır mısın lütfen! diyor Leo.",
+        "Buyur, diyor Maya.",
+        "Doydum! diyor Leo akşam yemeğinden sonra.",
+        "Maya diyor: Ben de! Ne harika bir aile yemeği!"
+      ],
+      "questions": [
+        {
+          "q": "What is for dinner tonight?",
+          "correct": "Soup, salad and pasta",
+          "wrong": ["Bread, butter and cheese", "Rice, chicken and olives"],
+          "hint": "Find the word dinner in the text.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "Have they got any olives?",
+          "correct": "No, they haven't got any olives.",
+          "wrong": ["Yes, they have got some olives.", "Yes, they have got some bread."],
+          "hint": "Find the word olives in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "Have they got any cake?",
+          "correct": "Yes, they have got some cake.",
+          "wrong": ["No, they haven't got any cake.", "Yes, they have got some butter."],
+          "hint": "Find the word cake in the text.",
+          "hl": [8, 9]
+        },
+        {
+          "q": "What does Leo ask Maya to pass?",
+          "correct": "The salt",
+          "wrong": ["The bread", "The butter"],
+          "hint": "Find Leo's request in the text.",
+          "hl": [11]
+        },
+        {
+          "q": "How do Maya and Leo feel after dinner?",
+          "correct": "They are both full.",
+          "wrong": ["They are still hungry.", "They are sad."],
+          "hint": "Read the last two sentences.",
+          "hl": [13, 14]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "What Will They Order?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" },
+        { "e": "🧑‍💼", "n": "Sam" }
+      ],
+      "sentences": [
+        "Maya, Leo and Ms. Hart are at a restaurant.",
+        "Sam is their waiter today.",
+        "Maya says: I don't want any meat today.",
+        "She looks at the menu and sees some pasta and some salad.",
+        "Leo says: I am very hungry! I want something big.",
+        "He sees some rice and some chicken on the menu.",
+        "Ms. Hart says: I had a big lunch today. I want something small.",
+        "She sees some soup and some bread on the menu.",
+        "Sam asks: Are you ready to order?",
+        "Maya, Leo and Ms. Hart look at each other and smile.",
+        "Sam waits. What will they order?",
+        "Enjoy your meal! says Sam when he brings the food."
+      ],
+      "translations": [
+        "Maya, Leo ve Ms. Hart bir restorandalar.",
+        "Sam bugün garsonları.",
+        "Maya diyor: Bugün et istemiyorum.",
+        "Menüde biraz makarna ve biraz salata görüyor.",
+        "Leo diyor: Çok açım! Büyük bir şey istiyorum.",
+        "Menüde biraz pilav ve biraz tavuk görüyor.",
+        "Ms. Hart diyor: Bugün büyük bir öğle yemeği yedim. Küçük bir şey istiyorum.",
+        "Menüde biraz çorba ve biraz ekmek görüyor.",
+        "Sam soruyor: Sipariş vermeye hazır mısınız?",
+        "Maya, Leo ve Ms. Hart birbirlerine bakıp gülümsüyorlar.",
+        "Sam bekliyor. Ne sipariş edecekler?",
+        "Afiyet olsun! diyor Sam yemekleri getirdiğinde."
+      ],
+      "questions": [
+        {
+          "q": "What will Maya order?",
+          "correct": "Some pasta and some salad",
+          "wrong": ["Some rice and some chicken", "Some soup and some bread"],
+          "hint": "Think about what Maya does not want and what she sees on the menu.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "What will Leo order?",
+          "correct": "Some rice and some chicken",
+          "wrong": ["Some pasta and some salad", "Some soup and some bread"],
+          "hint": "Think about how hungry Leo is and what he sees on the menu.",
+          "hl": [4, 5]
+        },
+        {
+          "q": "What will Ms. Hart order?",
+          "correct": "Some soup and some bread",
+          "wrong": ["Some rice and some chicken", "Some pasta and some salad"],
+          "hint": "Think about what Ms. Hart ate for lunch and what she wants now.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "Why does Maya not want any meat?",
+          "correct": "She says she does not want any meat today.",
+          "wrong": ["She does not like meat.", "The restaurant has no meat."],
+          "hint": "Find Maya at the beginning of the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Sam say when he brings the food?",
+          "correct": "Enjoy your meal!",
+          "wrong": ["Here you are!", "Can I see the bill?"],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What's in the Fridge?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🧊",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is dinner time at Leo's house.",
+        "Leo's mum says: Dinner is ready!",
+        "Leo asks: What's for dinner tonight?",
+        "Leo's mum says: Look in the fridge and find out!",
+        "Leo opens the fridge. Have we got any soup? he asks.",
+        "No, we haven't got any soup, says Leo's mum.",
+        "Have we got any cheese? asks Leo.",
+        "Yes, we have got some cheese and some butter, says Leo's mum.",
+        "Have we got any olives? asks Leo.",
+        "Yes, we have got some olives, says Leo's mum.",
+        "Leo also sees some milk and some juice in the fridge.",
+        "Leo thinks: No soup. Some cheese, butter, olives, milk and juice.",
+        "Leo says: I know! We are having breakfast food for dinner tonight!",
+        "Leo's mum laughs: What a surprise! That's correct!"
+      ],
+      "translations": [
+        "Leo'nun evinde akşam yemeği vakti.",
+        "Leo'nun annesi diyor: Akşam yemeği hazır!",
+        "Leo soruyor: Bu gece akşam yemeğinde ne var?",
+        "Leo'nun annesi diyor: Buzdolabına bak ve bul!",
+        "Leo buzdolabını açıyor. Hiç çorbamız var mı? diye soruyor.",
+        "Hayır, hiç çorbamız yok, diyor Leo'nun annesi.",
+        "Hiç peynir var mı? diye soruyor Leo.",
+        "Evet, biraz peynir ve biraz tereyağı var, diyor Leo'nun annesi.",
+        "Hiç zeytin var mı? diye soruyor Leo.",
+        "Evet, biraz zeytin var, diyor Leo'nun annesi.",
+        "Leo ayrıca buzdolabında biraz süt ve biraz meyve suyu görüyor.",
+        "Leo düşünüyor: Çorba yok. Biraz peynir, tereyağı, zeytin, süt ve meyve suyu var.",
+        "Leo diyor: Biliyorum! Bu gece akşam yemeğinde kahvaltılık yiyecekler yiyoruz!",
+        "Leo'nun annesi gülüyor: Ne sürpriz! Doğru!"
+      ],
+      "questions": [
+        {
+          "q": "Have they got any soup?",
+          "correct": "No, they haven't got any soup.",
+          "wrong": ["Yes, they have got some soup.", "Yes, they have got some salad."],
+          "hint": "Find the word soup in the text.",
+          "hl": [4, 5]
+        },
+        {
+          "q": "What have they got in the fridge?",
+          "correct": "Cheese, butter, olives, milk and juice",
+          "wrong": ["Soup, pasta, rice and chicken", "Bread, cake, salad and water"],
+          "hint": "Find what Leo sees in the fridge.",
+          "hl": [7, 9, 10]
+        },
+        {
+          "q": "How does Leo know it is breakfast food for dinner?",
+          "correct": "He sees cheese, butter, olives, milk and juice in the fridge.",
+          "wrong": ["His mum tells him.", "He reads it on the menu."],
+          "hint": "Read what Leo thinks in the text.",
+          "hl": [11, 12]
+        },
+        {
+          "q": "What does Leo conclude about dinner?",
+          "correct": "They are having breakfast food for dinner.",
+          "wrong": ["They are having soup and salad.", "They are ordering takeaway."],
+          "hint": "Find Leo's conclusion in the text.",
+          "hl": [12]
+        },
+        {
+          "q": "How does Leo's mum react to his answer?",
+          "correct": "She laughs and says he is correct.",
+          "wrong": ["She is angry.", "She is sad."],
+          "hint": "Read the last sentence.",
+          "hl": [13]
+        }
+      ]
+    }
+  ]
+}

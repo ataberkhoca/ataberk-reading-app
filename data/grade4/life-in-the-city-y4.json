@@ -1,0 +1,1279 @@
+{
+  "theme": "Life in the City and the World",
+  "themeNumber": 6,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Healthy or Unhealthy?",
+      "subtitle": "Find the right food group!",
+      "icon": "🥗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"Can you sort these foods into healthy and unhealthy groups?\"",
+        "Healthy foods give our bodies energy and help us grow. We should eat them every day!",
+        "Green salad, spinach, broccoli, peas and cauliflower are all healthy vegetables.",
+        "Fruits like apples, oranges, bananas, strawberries, plums and lemons are healthy too.",
+        "Fish, chicken, turkey, eggs, yogurt, nuts and brown rice are also great healthy choices.",
+        "But some foods are unhealthy. Chips, sweets, biscuits and soda have too much sugar and fat.",
+        "Chocolate, ice cream, cake, noodles, burgers and sausages are unhealthy if we eat too many.",
+        "Pizza, pasta and lemonade can be unhealthy if we have them too often.",
+        "Nora said: \"I love sweets and biscuits — but I know I should eat more fruit and vegetables!\"",
+        "Ms. Reed smiled: \"That's enough sweets for today, Nora — let's have some nuts instead!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Bu yiyecekleri sağlıklı ve sağlıksız gruplara ayırabilir misiniz?\"",
+        "Sağlıklı yiyecekler vücudumuza enerji verir ve büyümemize yardımcı olur. Her gün yemeliyiz!",
+        "Yeşil salata, ıspanak, brokoli, bezelye ve karnabahar sağlıklı sebzelerdir.",
+        "Elma, portakal, muz, çilek, erik ve limon gibi meyveler de sağlıklı.",
+        "Balık, tavuk, hindi, yumurta, yoğurt, kuruyemiş ve esmer pirinç de harika sağlıklı seçenekler.",
+        "Ama bazı yiyecekler sağlıksız. Cips, şeker, bisküvi ve gazlı içeceklerde çok fazla şeker ve yağ var.",
+        "Çikolata, dondurma, pasta, erişte, burger ve sosis çok fazla yersek sağlıksız.",
+        "Pizza, makarna ve limonata çok sık içersek sağlıksız olabilir.",
+        "Nora dedi: \"Şeker ve bisküvileri seviyorum — ama daha fazla meyve ve sebze yemem gerektiğini biliyorum!\"",
+        "Ms. Reed gülümsedi: \"Bugünlük bu kadar şeker yeter Nora — bunun yerine biraz kuruyemiş yiyelim!\""
+      ],
+      "questions": [
+        {
+          "q": "Which group do peas and cauliflower belong to?",
+          "correct": "Healthy vegetables",
+          "wrong": [
+            "Healthy fruits",
+            "Unhealthy foods"
+          ],
+          "hint": "Find peas and cauliflower in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Which of these is a healthy choice?",
+          "correct": "Brown rice and yogurt",
+          "wrong": [
+            "Chips and soda",
+            "Cake and ice cream"
+          ],
+          "hint": "Find the sentence about healthy protein foods.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What do chips, sweets and biscuits have too much of?",
+          "correct": "Sugar and fat",
+          "wrong": [
+            "Vitamins",
+            "Protein"
+          ],
+          "hint": "Find chips, sweets and biscuits in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora say she should eat more of?",
+          "correct": "Fruit and vegetables",
+          "wrong": [
+            "Sweets and biscuits",
+            "Chocolate and cake"
+          ],
+          "hint": "Find Nora in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Ms. Reed suggest instead of sweets?",
+          "correct": "Nuts",
+          "wrong": [
+            "Fruit",
+            "Yogurt"
+          ],
+          "hint": "Find what Ms. Reed says at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Dishes Around the World",
+      "subtitle": "Find the right dish and country!",
+      "icon": "🌍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Every country has special dishes. Let's travel the world through food!",
+        "Türkiye is famous for kebab. People in Türkiye also love eating soup, yogurt and fresh bread.",
+        "Italy is famous for pizza and pasta. Italian food uses a lot of tomatoes, cheese and olive oil.",
+        "England is famous for fish and chips. People in England also love biscuits and tea!",
+        "Greece is famous for moussaka. Greek food uses a lot of vegetables, olive oil and cheese.",
+        "Mexico is famous for tacos. Mexican food is often spicy and uses a lot of corn and beans.",
+        "Algeria is famous for falafel and couscous. North African food is full of spices and flavour.",
+        "The United States of America is famous for burgers. Americans also love pizza, noodles and soda!",
+        "Spain, Germany and Azerbaijan also have wonderful dishes that people love all over the world.",
+        "Turkish Republic of Northern Cyprus and Azerbaijan share many dishes with Türkiye — because they share the same culture and language!"
+      ],
+      "translations": [
+        "Her ülkenin özel yemekleri vardır. Yemek aracılığıyla dünyayı gezelim!",
+        "Türkiye kebapla ünlüdür. Türkiye'deki insanlar aynı zamanda çorba, yoğurt ve taze ekmek yemeyi sever.",
+        "İtalya pizza ve makarna ile ünlüdür. İtalyan mutfağı çok domates, peynir ve zeytinyağı kullanır.",
+        "İngiltere balık ve cips ile ünlüdür. İngiltere'deki insanlar bisküvi ve çayı da sever!",
+        "Yunanistan musakka ile ünlüdür. Yunan mutfağı çok sebze, zeytinyağı ve peynir kullanır.",
+        "Meksika taco ile ünlüdür. Meksika mutfağı genellikle baharatlıdır ve çok mısır ve fasulye kullanır.",
+        "Cezayir falafel ve kuskus ile ünlüdür. Kuzey Afrika mutfağı baharat ve lezzetle doludur.",
+        "Amerika Birleşik Devletleri burger ile ünlüdür. Amerikalılar aynı zamanda pizza, erişte ve gazlı içecekleri sever!",
+        "İspanya, Almanya ve Azerbaycan'ın da dünya genelinde insanların sevdiği harika yemekleri var.",
+        "Kuzey Kıbrıs Türk Cumhuriyeti ve Azerbaycan, Türkiye ile pek çok yemeği paylaşır — çünkü aynı kültürü ve dili paylaşırlar!"
+      ],
+      "questions": [
+        {
+          "q": "Which country is famous for moussaka?",
+          "correct": "Greece",
+          "wrong": [
+            "Italy",
+            "Algeria"
+          ],
+          "hint": "Find the word moussaka in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Mexico famous for?",
+          "correct": "Tacos",
+          "wrong": [
+            "Falafel",
+            "Fish and chips"
+          ],
+          "hint": "Find Mexico in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Mexican food often use?",
+          "correct": "Corn and beans",
+          "wrong": [
+            "Tomatoes and cheese",
+            "Olive oil and spices"
+          ],
+          "hint": "Find Mexico and the word uses in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the USA famous for?",
+          "correct": "Burgers",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Find the United States of America in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Why do Turkish Republic of Northern Cyprus and Azerbaijan share dishes with Türkiye?",
+          "correct": "Because they share the same culture and language",
+          "wrong": [
+            "Because they are neighbours",
+            "Because they use the same ingredients"
+          ],
+          "hint": "Find the last sentence of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Holiday Plans!",
+      "subtitle": "Find the right plan and country!",
+      "icon": "✈️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What are you going to do in the summer holidays? Tell me your plans!\"",
+        "Nora said: \"We are going to go to Italy next week. I am so excited — amazing!\"",
+        "\"We are going to visit Rome and eat the most delicious pizza there. I'm starving just thinking about it!\"",
+        "Sam said: \"My family is going to go to England this summer. We are going to try fish and chips!\"",
+        "\"My dad is going to visit a football stadium too. After you, Dad — I want to go first!\"",
+        "Leyla said: \"We are going to stay in Türkiye this summer. We are going to go to the seaside!\"",
+        "\"We are going to eat fresh fish, kebab and lots of fruit. I can't wait!\"",
+        "Ms. Reed said: \"I am going to visit Greece this year. I am going to try moussaka for the first time!\"",
+        "Nora asked: \"Are you going to bring us anything from Greece, Ms. Reed?\" Ms. Reed laughed: \"Never mind — I will bring you lots of stories!\"",
+        "Sam said: \"Thanks for everything, Ms. Reed! Have a wonderful holiday — we are going to miss you!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Yaz tatilinde ne yapacaksınız? Planlarınızı anlatın!\"",
+        "Nora dedi: \"Gelecek hafta İtalya'ya gidiyoruz. Çok heyecanlıyım — inanılmaz!\"",
+        "\"Roma'yı ziyaret edeceğiz ve orada en lezzetli pizzayı yiyeceğiz. Sadece düşünmek bile acıktırıyor!\"",
+        "Sam dedi: \"Ailem bu yaz İngiltere'ye gidecek. Balık ve cips deneyeceğiz!\"",
+        "\"Babam da bir futbol stadyumunu ziyaret edecek. Buyurun Baba — ben önce gitmek istiyorum!\"",
+        "Leyla dedi: \"Bu yaz Türkiye'de kalacağız. Sahile gideceğiz!\"",
+        "\"Taze balık, kebap ve bol meyve yiyeceğiz. Sabırsızlanıyorum!\"",
+        "Ms. Reed dedi: \"Bu yıl Yunanistan'ı ziyaret edeceğim. İlk kez musakka deneyeceğim!\"",
+        "Nora sordu: \"Yunanistan'dan bize bir şey getirecek misiniz, Ms. Reed?\" Ms. Reed güldü: \"Boşver — size bir sürü hikaye getireceğim!\"",
+        "Sam dedi: \"Her şey için teşekkürler, Ms. Reed! Harika bir tatil geçirin — sizi özleyeceğiz!\""
+      ],
+      "questions": [
+        {
+          "q": "Where is Nora's family going to go next week?",
+          "correct": "Italy",
+          "wrong": [
+            "England",
+            "Greece"
+          ],
+          "hint": "Find Nora in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Sam's dad going to visit in England?",
+          "correct": "A football stadium",
+          "wrong": [
+            "A museum",
+            "A restaurant"
+          ],
+          "hint": "Find Sam's dad in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is Leyla going to spend her summer?",
+          "correct": "In Türkiye at the seaside",
+          "wrong": [
+            "In Italy",
+            "In Greece"
+          ],
+          "hint": "Find Leyla in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Ms. Reed going to try in Greece?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Find Ms. Reed and Greece in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say she will bring back for the class?",
+          "correct": "Lots of stories",
+          "wrong": [
+            "Moussaka",
+            "Biscuits"
+          ],
+          "hint": "Find what Ms. Reed says she will bring.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "What Are We Going to Cook?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥗",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed announced: \"Next Friday, we are going to have a class cooking activity. Amazing!\"",
+        "\"We are going to make a healthy salad together. Let's decide what to put in it!\"",
+        "Nora said: \"We are going to use a little olive oil and a few cucumbers.\"",
+        "\"I am going to add a little lemon juice too. It makes the salad taste good!\"",
+        "Sam said: \"We are going to put in a few tomatoes and a little salt. That's enough!\"",
+        "\"I am also going to add a few olives. But only a few — I know some people don't like them!\"",
+        "Leyla said: \"We are going to use little sugar in this salad — it is a savoury dish, not a sweet one!\"",
+        "\"But I am going to add a few nuts on top. They make it crunchy and healthy.\"",
+        "Ms. Reed said: \"I'm starving just listening to you! We are going to need a few bowls and spoons too.\"",
+        "Nora laughed: \"After you, Ms. Reed — you are going to get the first taste!\""
+      ],
+      "translations": [
+        "Ms. Reed duyurdu: \"Gelecek Cuma bir sınıf yemek pişirme etkinliği yapacağız. İnanılmaz!\"",
+        "\"Birlikte sağlıklı bir salata yapacağız. Ne koyacağımıza karar verelim!\"",
+        "Nora dedi: \"Biraz zeytinyağı ve birkaç salatalık kullanacağız.\"",
+        "\"Biraz limon suyu da ekleyeceğim. Salatayı lezzetli yapıyor!\"",
+        "Sam dedi: \"Birkaç domates ve biraz tuz koyacağız. Bu kadar yeter!\"",
+        "\"Birkaç zeytin de ekleyeceğim. Ama sadece birkaç — bazı insanların onları sevmediğini biliyorum!\"",
+        "Leyla dedi: \"Bu salataya az şeker kullanacağız — tuzlu bir yemek, tatlı değil!\"",
+        "\"Ama üstüne birkaç fındık ekleyeceğim. Çıtır çıtır ve sağlıklı yapıyor.\"",
+        "Ms. Reed dedi: \"Sizi dinlerken acıktım! Birkaç kase ve kaşığa da ihtiyacımız olacak.\"",
+        "Nora güldü: \"Buyurun Ms. Reed — ilk tadı siz alacaksınız!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "Planning what to put in a class salad",
+          "wrong": [
+            "Comparing healthy and unhealthy food",
+            "Describing dishes from different countries"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "q": "What is Nora going to add to the salad?",
+          "correct": "A little olive oil, a few cucumbers and a little lemon juice",
+          "wrong": [
+            "A few tomatoes and a little salt",
+            "A few nuts and a little sugar"
+          ],
+          "hint": "Find Nora in the text.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Why does Sam say only a few olives?",
+          "correct": "Because some people don't like them",
+          "wrong": [
+            "Because they are unhealthy",
+            "Because they are expensive"
+          ],
+          "hint": "Find Sam and the word olives in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Leyla say about sugar in the salad?",
+          "correct": "They are going to use little sugar because it is a savoury dish",
+          "wrong": [
+            "They are going to add a lot of sugar",
+            "They are not going to use any sugar"
+          ],
+          "hint": "Find Leyla and the word sugar in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Who is going to get the first taste?",
+          "correct": "Ms. Reed",
+          "wrong": [
+            "Nora",
+            "Sam"
+          ],
+          "hint": "Find the last sentence of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "The Best Dish in the World!",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍽️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"Which country's food do you think is the most delicious in the world?\"",
+        "Nora said: \"I think Italian food is the most delicious. We are going to Italy and I am going to eat pizza every day!\"",
+        "\"Pizza is the most popular dish in the world. You can find it in every country!\"",
+        "Sam said: \"I think Turkish food is the best. Kebab is the most flavourful dish I have ever tried!\"",
+        "\"We are going to a kebab restaurant on Saturday. I am going to order the biggest one!\"",
+        "Leyla said: \"I think Mexican food is the most exciting. Tacos are the most colourful and fun dish!\"",
+        "\"My mum is going to make tacos at home next week. She is going to use a few different sauces.\"",
+        "Ms. Reed said: \"That's interesting — I think Greek food is the healthiest. Moussaka uses the most vegetables!\"",
+        "\"I am going to cook moussaka at home this weekend. It is the most comforting dish on a cold evening.\"",
+        "Sam laughed: \"The best dish is always the one in front of you — I'm starving! When are we going to eat?\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Sizce dünyanın en lezzetli yemeği hangi ülkenin?\"",
+        "Nora dedi: \"Bence İtalyan mutfağı en lezzetli. İtalya'ya gidiyoruz ve her gün pizza yiyeceğim!\"",
+        "\"Pizza dünyanın en popüler yemeği. Her ülkede bulabilirsiniz!\"",
+        "Sam dedi: \"Bence Türk mutfağı en iyisi. Kebap şimdiye kadar denediğim en lezzetli yemek!\"",
+        "\"Cumartesi bir kebap restoranına gidiyoruz. En büyüğünü sipariş edeceğim!\"",
+        "Leyla dedi: \"Bence Meksika mutfağı en heyecanlı. Taco en renkli ve eğlenceli yemek!\"",
+        "\"Annem gelecek hafta evde taco yapacak. Birkaç farklı sos kullanacak.\"",
+        "Ms. Reed dedi: \"Bu ilginç — bence Yunan mutfağı en sağlıklısı. Musakka en fazla sebzeyi kullanıyor!\"",
+        "\"Bu hafta sonu evde musakka pişireceğim. Soğuk bir akşamda en rahatlatıcı yemek.\"",
+        "Sam güldü: \"En iyi yemek her zaman önünüzdeki — acıktım! Ne zaman yiyeceğiz?\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "Discussing which country's food is the most delicious",
+          "wrong": [
+            "Planning a class cooking activity",
+            "Describing healthy and unhealthy food"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "What does Sam think is the best dish?",
+          "correct": "Kebab",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Find Sam in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Leyla's mum going to make next week?",
+          "correct": "Tacos",
+          "wrong": [
+            "Moussaka",
+            "Kebab"
+          ],
+          "hint": "Find Leyla's mum in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Why does Ms. Reed think Greek food is the healthiest?",
+          "correct": "Because moussaka uses the most vegetables",
+          "wrong": [
+            "Because it has the least sugar",
+            "Because it uses olive oil"
+          ],
+          "hint": "Find Ms. Reed and Greek food in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What is Ms. Reed going to cook this weekend?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Find Ms. Reed and the word weekend in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Where Are We Going?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "✈️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "The last day of school is next week. Everyone is talking about their holiday plans!",
+        "Nora said: \"We are going to fly to Italy on Monday. I think it will be sunny and warm there!\"",
+        "\"We are going to stay in Rome for five days. I think we will see the most amazing things!\"",
+        "Sam said: \"We are not going to travel abroad this year. We are going to stay in Türkiye.\"",
+        "\"We are going to visit my grandparents in the village. I think it will be the best holiday ever!\"",
+        "\"Grandma is going to cook the most delicious food for us. I think she will make kebab every day!\"",
+        "Leyla said: \"We are going to go to the Turkish Republic of Northern Cyprus this summer. Amazing!\"",
+        "\"We are going to meet our cousins there. I think we will swim in the sea every day.\"",
+        "Ms. Reed said: \"Thanks for everything, class! I am going to miss you all so much.\"",
+        "\"I think next year will be even better. Have a wonderful summer — never mind the small things and enjoy every moment!\""
+      ],
+      "translations": [
+        "Okulun son günü gelecek hafta. Herkes tatil planlarından bahsediyor!",
+        "Nora dedi: \"Pazartesi günü İtalya'ya uçacağız. Bence orada güneşli ve sıcak olacak!\"",
+        "\"Roma'da beş gün kalacağız. Bence en inanılmaz şeyleri göreceğiz!\"",
+        "Sam dedi: \"Bu yıl yurt dışına gitmeyeceğiz. Türkiye'de kalacağız.\"",
+        "\"Köyde büyükannem ve büyükbabamı ziyaret edeceğiz. Bence şimdiye kadarki en iyi tatil olacak!\"",
+        "\"Büyükannem bizim için en lezzetli yemekleri pişirecek. Bence her gün kebap yapacak!\"",
+        "Leyla dedi: \"Bu yaz Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz. İnanılmaz!\"",
+        "\"Orada kuzenlerimizle buluşacağız. Bence her gün denizde yüzeceğiz.\"",
+        "Ms. Reed dedi: \"Her şey için teşekkürler, sınıf! Hepinizi çok özleyeceğim.\"",
+        "\"Bence gelecek yıl daha da iyi olacak. Harika bir yaz geçirin — küçük şeyleri umursamayın ve her anın tadını çıkarın!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "Everyone's summer holiday plans",
+          "wrong": [
+            "The last lesson of the year",
+            "Comparing dishes from different countries"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "What does Nora think the weather will be like in Italy?",
+          "correct": "Sunny and warm",
+          "wrong": [
+            "Cloudy and cool",
+            "Stormy and cold"
+          ],
+          "hint": "Find Nora and Italy in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Sam going to spend his holiday?",
+          "correct": "In Türkiye visiting grandparents",
+          "wrong": [
+            "In Italy",
+            "In the Turkish Republic of Northern Cyprus"
+          ],
+          "hint": "Find Sam in the text.",
+          "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "Where is Leyla going to go this summer?",
+          "correct": "To the Turkish Republic of Northern Cyprus",
+          "wrong": [
+            "To Italy",
+            "To Greece"
+          ],
+          "hint": "Find Leyla in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Ms. Reed think about next year?",
+          "correct": "It will be even better",
+          "wrong": [
+            "It will be the same",
+            "It will be harder"
+          ],
+          "hint": "Find what Ms. Reed says about next year.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Let's Cook Something Healthy!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍲",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Today we are going to plan a healthy meal together. I'm starving — let's start!\"",
+        "\"First, we are going to make a vegetable soup. We are going to need a few carrots and a little salt.\"",
+        "Nora said: \"I am going to add a few peas and a little olive oil. That will make it tastier!\"",
+        "\"We are going to put in a little water first, then add the vegetables one by one.\"",
+        "Sam said: \"Are we going to add any meat? A few small pieces of chicken will make it more filling!\"",
+        "Ms. Reed said: \"Good idea! We are going to add a little chicken stock too. That's enough for the soup.\"",
+        "Leyla said: \"What are we going to have with the soup? I think a little brown rice will be perfect!\"",
+        "\"We are going to cook a few eggs too. A boiled egg with soup is the healthiest lunch!\"",
+        "Ms. Reed said: \"Excellent! We are also going to prepare a small green salad with a little lemon juice.\"",
+        "Nora laughed: \"A little of everything makes the best meal! I am going to eat it all — never mind the diet!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Bugün birlikte sağlıklı bir yemek planlayacağız. Acıktım — başlayalım!\"",
+        "\"Önce bir sebze çorbası yapacağız. Birkaç havuç ve biraz tuza ihtiyacımız olacak.\"",
+        "Nora dedi: \"Birkaç bezelye ve biraz zeytinyağı ekleyeceğim. Bu onu daha lezzetli yapacak!\"",
+        "\"Önce biraz su koyacağız, sonra sebzeleri tek tek ekleyeceğiz.\"",
+        "Sam dedi: \"Et ekleyecek miyiz? Birkaç küçük tavuk parçası daha doyurucu yapacak!\"",
+        "Ms. Reed dedi: \"İyi fikir! Biraz tavuk suyu da ekleyeceğiz. Çorba için bu kadar yeter.\"",
+        "Leyla dedi: \"Çorbayla ne yiyeceğiz? Bence biraz esmer pirinç mükemmel olur!\"",
+        "\"Birkaç yumurta da pişireceğiz. Çorbayla haşlanmış yumurta en sağlıklı öğle yemeği!\"",
+        "Ms. Reed dedi: \"Mükemmel! Biraz limon suyuyla küçük bir yeşil salata da hazırlayacağız.\"",
+        "Nora güldü: \"Her şeyden biraz en iyi yemeği yapar! Hepsini yiyeceğim — diyeti umursamayın!\""
+      ],
+      "questions": [
+        {
+          "q": "What are the class going to make first?",
+          "correct": "A vegetable soup",
+          "wrong": [
+            "A green salad",
+            "Boiled eggs"
+          ],
+          "hint": "Find the word first in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Nora going to add to the soup?",
+          "correct": "A few peas and a little olive oil",
+          "wrong": [
+            "A few carrots and a little salt",
+            "A little chicken stock"
+          ],
+          "hint": "Find Nora in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam suggest adding to make the soup more filling?",
+          "correct": "A few small pieces of chicken",
+          "wrong": [
+            "A few eggs",
+            "A little brown rice"
+          ],
+          "hint": "Find Sam in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla think should go with the soup?",
+          "correct": "A little brown rice",
+          "wrong": [
+            "A few carrots",
+            "A little lemon juice"
+          ],
+          "hint": "Find Leyla in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What are they also going to prepare?",
+          "correct": "A small green salad with a little lemon juice",
+          "wrong": [
+            "A bowl of pasta",
+            "A plate of chips"
+          ],
+          "hint": "Find Ms. Reed's last suggestion in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "A World Food Tour",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed announced: \"Next month, our class is going to do a World Food Tour project. Amazing!\"",
+        "\"Each group is going to choose a country and find out about its most famous dishes.\"",
+        "Nora's group is going to research Italy. \"Italian food is the most popular in the world!\" said Nora.",
+        "\"We are going to make a poster about pizza and pasta. We are going to write about the most delicious recipes.\"",
+        "Sam's group is going to research Türkiye. \"Turkish food is the tastiest!\" said Sam.",
+        "\"We are going to present kebab, soup and yogurt. Kebab is the most famous Turkish dish abroad.\"",
+        "Leyla's group is going to research Mexico and Algeria. \"These are the most exciting cuisines!\" said Leyla.",
+        "\"We are going to compare tacos and falafel. I think falafel is the healthiest dish of all!\"",
+        "Ms. Reed said: \"We are also going to learn about dishes from Azerbaijan and Northern Cyprus.\"",
+        "\"Those countries share the most delicious dishes with Türkiye. It will be the best project of the year!\""
+      ],
+      "translations": [
+        "Ms. Reed duyurdu: \"Gelecek ay sınıfımız bir Dünya Yemek Turu projesi yapacak. İnanılmaz!\"",
+        "\"Her grup bir ülke seçecek ve o ülkenin en ünlü yemeklerini araştıracak.\"",
+        "Nora'nın grubu İtalya'yı araştıracak. \"İtalyan mutfağı dünyanın en popüleri!\" dedi Nora.",
+        "\"Pizza ve makarna hakkında poster yapacağız. En lezzetli tarifleri yazacağız.\"",
+        "Sam'in grubu Türkiye'yi araştıracak. \"Türk mutfağı en lezzetlisi!\" dedi Sam.",
+        "\"Kebap, çorba ve yoğurt sunacağız. Kebap yurt dışındaki en ünlü Türk yemeği.\"",
+        "Leyla'nın grubu Meksika ve Cezayir'i araştıracak. \"Bunlar en heyecanlı mutfaklar!\" dedi Leyla.",
+        "\"Taco ve falafeli karşılaştıracağız. Bence falafel tüm yemekler arasında en sağlıklısı!\"",
+        "Ms. Reed dedi: \"Azerbaycan ve Kuzey Kıbrıs'taki yemekleri de öğreneceğiz.\"",
+        "\"Bu ülkeler Türkiye ile en lezzetli yemekleri paylaşıyor. Yılın en iyi projesi olacak!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the class going to do next month?",
+          "correct": "A World Food Tour project",
+          "wrong": [
+            "A cooking activity",
+            "A trip abroad"
+          ],
+          "hint": "Find the words next month in the text.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Nora's group going to make a poster about?",
+          "correct": "Pizza and pasta",
+          "wrong": [
+            "Kebab and soup",
+            "Tacos and falafel"
+          ],
+          "hint": "Find Nora's group in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Sam say is the most famous Turkish dish abroad?",
+          "correct": "Kebab",
+          "wrong": [
+            "Soup",
+            "Yogurt"
+          ],
+          "hint": "Find Sam's group in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What are Leyla's group going to compare?",
+          "correct": "Tacos and falafel",
+          "wrong": [
+            "Pizza and pasta",
+            "Kebab and soup"
+          ],
+          "hint": "Find Leyla's group in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say about Azerbaijan and Northern Cyprus?",
+          "correct": "They share the most delicious dishes with Türkiye",
+          "wrong": [
+            "They are going to present their dishes",
+            "They have the healthiest food"
+          ],
+          "hint": "Find Azerbaijan and Northern Cyprus in the text.",
+          "hl": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Our Holiday Food Diary",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Before the holidays, I want you to write a food diary for your trip. What are you going to eat?\"",
+        "Nora wrote: \"We are going to Italy next week. I am going to try pizza, pasta and gelato every day!\"",
+        "\"I think Italian breakfasts will be different from Turkish ones. I am going to write about everything I taste.\"",
+        "\"I am also going to visit a local market. I think there will be a lot of fresh fruit and vegetables there.\"",
+        "Sam wrote: \"We are going to stay in Türkiye. Grandma is going to cook kebab, soup and fresh bread for us.\"",
+        "\"I think her food will be the most delicious in the world. I am going to eat a little of everything!\"",
+        "\"We are also going to pick fresh fruit from the garden. I think there will be cherries, plums and apricots.\"",
+        "Leyla wrote: \"We are going to the Turkish Republic of Northern Cyprus. I am going to try local dishes there.\"",
+        "\"I think the food will be very similar to Turkish food. But I am going to look for something new too!\"",
+        "\"I am going to keep a photo diary of every meal. Thanks for everything, Ms. Reed — this is the best idea!\"",
+        "Ms. Reed smiled: \"Amazing! I think your food diaries will be the most interesting reading of the summer.\"",
+        "\"I am going to read them all in September. Have a wonderful holiday — enjoy every bite!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Tatilden önce geziniz için bir yemek günlüğü yazmanızı istiyorum. Ne yiyeceksiniz?\"",
+        "Nora yazdı: \"Gelecek hafta İtalya'ya gidiyoruz. Her gün pizza, makarna ve dondurma deneyeceğim!\"",
+        "\"İtalyan kahvaltılarının Türk kahvaltılarından farklı olacağını düşünüyorum. Tattığım her şeyi yazacağım.\"",
+        "\"Ayrıca yerel bir pazarı da ziyaret edeceğim. Bence orada çok taze meyve ve sebze olacak.\"",
+        "Sam yazdı: \"Türkiye'de kalacağız. Büyükannem bizim için kebap, çorba ve taze ekmek pişirecek.\"",
+        "\"Bence onun yemeği dünyanın en lezzetlisi olacak. Her şeyden biraz yiyeceğim!\"",
+        "\"Bahçeden taze meyve de toplayacağız. Bence kiraz, erik ve kayısı olacak.\"",
+        "Leyla yazdı: \"Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz. Orada yerel yemekler deneyeceğim.\"",
+        "\"Bence yemekler Türk yemeklerine çok benzeyecek. Ama yeni bir şey de arayacağım!\"",
+        "\"Her öğünün fotoğraf günlüğünü tutacağım. Her şey için teşekkürler Ms. Reed — bu en iyi fikir!\"",
+        "Ms. Reed gülümsedi: \"İnanılmaz! Bence yemek günlükleriniz yazın en ilginç okuması olacak.\"",
+        "\"Eylül'de hepsini okuyacağım. Harika bir tatil geçirin — her lokmanın tadını çıkarın!\""
+      ],
+      "questions": [
+        {
+          "q": "What does Ms. Reed ask the pupils to write?",
+          "correct": "A food diary for their holiday trip",
+          "wrong": [
+            "A poster about world food",
+            "A letter to a pen friend"
+          ],
+          "hint": "Find what Ms. Reed asks at the beginning.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Nora think Italian breakfasts will be like?",
+          "correct": "Different from Turkish ones",
+          "wrong": [
+            "The same as Turkish ones",
+            "Better than Turkish ones"
+          ],
+          "hint": "Find Nora and the word breakfast in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam think his grandma's food will be?",
+          "correct": "The most delicious in the world",
+          "wrong": [
+            "The healthiest in the world",
+            "The most different"
+          ],
+          "hint": "Find Sam and grandma in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Leyla say about food in Northern Cyprus?",
+          "correct": "She thinks it will be similar to Turkish food",
+          "wrong": [
+            "She thinks it will be completely different",
+            "She thinks it will be the unhealthiest"
+          ],
+          "hint": "Find Leyla and Northern Cyprus in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What is Leyla going to keep during her holiday?",
+          "correct": "A photo diary of every meal",
+          "wrong": [
+            "A written diary about the weather",
+            "A list of places she visits"
+          ],
+          "hint": "Find Leyla and the word diary in the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Which Country Are We Going To?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Sam found a mystery postcard in Ms. Reed's classroom. \"Can you guess where we are going to go?\" it said.",
+        "First clue: \"This country is in Europe. It is famous for its ancient history and beautiful islands.\"",
+        "Second clue: \"The most famous dish from this country uses a lot of vegetables, olive oil and cheese.\"",
+        "Third clue: \"People in this country love eating yogurt, olives and fresh bread for breakfast.\"",
+        "Fourth clue: \"The weather there is warm and sunny in summer. The sea is the most beautiful blue colour.\"",
+        "Fifth clue: \"We are going to visit the most famous ancient ruins in this country. They are thousands of years old!\"",
+        "Nora whispered: \"It is not Italy — Italian food uses tomatoes and the most famous dish is pizza…\"",
+        "\"It is not Spain either — the most famous Spanish dish is paella, not a vegetable dish with cheese.\"",
+        "Leyla said: \"A vegetable dish with olive oil and cheese, beautiful islands, ancient ruins — I think I know!\"",
+        "Sam said: \"And the sea is the most beautiful blue — that is the biggest clue of all!\"",
+        "Leyla stood up: \"We are going to go to Greece! The dish is moussaka!\"",
+        "Ms. Reed clapped: \"Excellent! We are going to visit Athens and try the most delicious moussaka. I can't wait!\""
+      ],
+      "translations": [
+        "Sam Ms. Reed'in sınıfında gizemli bir kartpostal buldu. \"Nereye gideceğimizi tahmin edebilir misiniz?\" yazıyordu.",
+        "Birinci ipucu: \"Bu ülke Avrupa'da. Antik tarihi ve güzel adalarıyla ünlü.\"",
+        "İkinci ipucu: \"Bu ülkenin en ünlü yemeği çok sebze, zeytinyağı ve peynir kullanıyor.\"",
+        "Üçüncü ipucu: \"Bu ülkedeki insanlar kahvaltıda yoğurt, zeytin ve taze ekmek yemeyi seviyor.\"",
+        "Dördüncü ipucu: \"Yazın hava sıcak ve güneşli. Deniz en güzel mavi renk.\"",
+        "Beşinci ipucu: \"Bu ülkedeki en ünlü antik kalıntıları ziyaret edeceğiz. Binlerce yıl öncesinden kalma!\"",
+        "Nora fısıldadı: \"İtalya değil — İtalyan mutfağı domates kullanıyor ve en ünlü yemek pizza…\"",
+        "\"İspanya da değil — en ünlü İspanyol yemeği paella, peynirli sebze yemeği değil.\"",
+        "Leyla dedi: \"Zeytinyağı ve peynirle yapılan sebze yemeği, güzel adalar, antik kalıntılar — bence biliyorum!\"",
+        "Sam dedi: \"Ve deniz en güzel mavi — bu en büyük ipucu!\"",
+        "Leyla ayağa kalktı: \"Yunanistan'a gideceğiz! Yemek musakka!\"",
+        "Ms. Reed alkışladı: \"Mükemmel! Atina'yı ziyaret edecek ve en lezzetli musakkayi deneyeceğiz. Sabırsızlanıyorum!\""
+      ],
+      "questions": [
+        {
+          "q": "Which country is on the postcard?",
+          "correct": "Greece",
+          "wrong": [
+            "Italy",
+            "Spain"
+          ],
+          "hint": "Read what Leyla says near the end.",
+          "hl": [
+            10,
+            11
+          ]
+        },
+        {
+          "q": "What is the most famous dish from this country?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Paella"
+          ],
+          "hint": "Find the second clue and Leyla's answer.",
+          "hl": [
+            2,
+            10
+          ]
+        },
+        {
+          "q": "Why does Nora rule out Italy?",
+          "correct": "Because Italian food uses tomatoes and the most famous dish is pizza",
+          "wrong": [
+            "Because Italy is not in Europe",
+            "Because Italy has no ancient ruins"
+          ],
+          "hint": "Find what Nora whispers in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What clue does Sam say is the biggest?",
+          "correct": "The sea is the most beautiful blue",
+          "wrong": [
+            "The ancient ruins",
+            "The breakfast food"
+          ],
+          "hint": "Find what Sam says in the text.",
+          "hl": [
+            9
+          ]
+        },
+        {
+          "q": "Where in Greece is Ms. Reed going to visit?",
+          "correct": "Athens",
+          "wrong": [
+            "Rome",
+            "Mexico City"
+          ],
+          "hint": "Find what Ms. Reed says at the end.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Is Sam Planning?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎂",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Sam wrote a secret plan in his notebook. Ms. Reed found it and read it to the class!",
+        "\"Step 1: I am going to wake up early on Saturday morning.\"",
+        "\"Step 2: I am going to go to the market with Mum. We are going to buy a few tomatoes, a little olive oil and some fresh herbs.\"",
+        "\"Step 3: I am going to pick a few cherries and plums from Grandpa's garden.\"",
+        "\"Step 4: I am going to come home and wash all the vegetables and fruit carefully.\"",
+        "\"Step 5: I am going to put a little salt and a few drops of lemon juice in the bowl.\"",
+        "\"Step 6: I am going to mix everything together. I am going to add a few nuts on top too.\"",
+        "\"Step 7: I am going to set the table nicely. After you, Grandma — you are going to sit at the head of the table!\"",
+        "\"Step 8: I am going to call everyone to the table and say: I'm starving — but today this meal is for you!\"",
+        "Ms. Reed smiled and looked at Sam: \"So, what are you going to make?\"",
+        "Sam went red: \"It is… a surprise salad! I am going to make it for Grandma's birthday!\"",
+        "The class laughed. Nora said: \"That is the most thoughtful gift — and it sounds delicious!\""
+      ],
+      "translations": [
+        "Sam defterine gizli bir plan yazdı. Ms. Reed onu buldu ve sınıfa okudu!",
+        "\"Adım 1: Cumartesi sabahı erken uyanacağım.\"",
+        "\"Adım 2: Annemle markete gideceğim. Birkaç domates, biraz zeytinyağı ve taze otlar alacağız.\"",
+        "\"Adım 3: Dedemin bahçesinden birkaç kiraz ve erik toplayacağım.\"",
+        "\"Adım 4: Eve gelip tüm sebze ve meyveleri dikkatlice yıkayacağım.\"",
+        "\"Adım 5: Kaseye biraz tuz ve birkaç damla limon suyu koyacağım.\"",
+        "\"Adım 6: Her şeyi birlikte karıştıracağım. Üstüne birkaç fındık da ekleyeceğim.\"",
+        "\"Adım 7: Masayı güzelce kuracağım. Buyurun Büyükannem — masanın başına oturacaksınız!\"",
+        "\"Adım 8: Herkesi masaya çağıracağım ve şunu söyleyeceğim: Acıktım — ama bugün bu yemek sizin için!\"",
+        "Ms. Reed gülümsedi ve Sam'e baktı: \"Peki, ne yapacaksın?\"",
+        "Sam kızardı: \"Bu… sürpriz salata! Büyükannemin doğum günü için yapacağım!\"",
+        "Sınıf güldü. Nora dedi: \"Bu en düşünceli hediye — ve kulağa çok lezzetli geliyor!\""
+      ],
+      "questions": [
+        {
+          "q": "What is Sam going to make?",
+          "correct": "A surprise salad for Grandma's birthday",
+          "wrong": [
+            "A soup for Ms. Reed",
+            "A fruit bowl for the class"
+          ],
+          "hint": "Read what Sam says when Ms. Reed asks him.",
+          "hl": [
+            10,
+            11
+          ]
+        },
+        {
+          "q": "Where is Sam going to get the tomatoes and olive oil?",
+          "correct": "From the market with his mum",
+          "wrong": [
+            "From Grandpa's garden",
+            "From the school kitchen"
+          ],
+          "hint": "Find Step 2 in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Sam going to get the cherries and plums?",
+          "correct": "From Grandpa's garden",
+          "wrong": [
+            "From the market",
+            "From the supermarket"
+          ],
+          "hint": "Find Step 3 in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Sam going to put in the bowl?",
+          "correct": "A little salt and a few drops of lemon juice",
+          "wrong": [
+            "A little sugar and a few nuts",
+            "A little olive oil and a few tomatoes"
+          ],
+          "hint": "Find Step 5 in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora say about Sam's gift?",
+          "correct": "It is the most thoughtful gift and sounds delicious",
+          "wrong": [
+            "It is the strangest gift",
+            "It is the most expensive gift"
+          ],
+          "hint": "Find what Nora says at the end of the text.",
+          "hl": [
+            11
+          ]
+        }
+      ]
+    }
+  ]
+}

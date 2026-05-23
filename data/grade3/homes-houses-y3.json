@@ -1,0 +1,794 @@
+{
+  "theme": "Homes & Houses & The Neighbourhood",
+  "themeNumber": 5,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "What Is on the Farm?",
+      "subtitle": "Find the right animal or building!",
+      "icon": "🐄",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo's grandparents live on a farm!",
+        "There is a big farmhouse on the farm.",
+        "There is also a barn next to the farmhouse.",
+        "How many cows are there? There are four cows.",
+        "There are two horses and three donkeys.",
+        "How many sheep are there? There are six sheep.",
+        "There are five goats and two ducks.",
+        "There is a turkey near the barn.",
+        "There are ten chickens on the farm.",
+        "There are also three rabbits near the farmhouse.",
+        "Leo says: What a big and wonderful farm!"
+      ],
+      "translations": [
+        "Leo'nun büyükannesi ve büyükbabası bir çiftlikte yaşıyor!",
+        "Çiftlikte büyük bir çiftlik evi var.",
+        "Çiftlik evinin yanında bir ahır da var.",
+        "Kaç inek var? Dört inek var.",
+        "İki at ve üç eşek var.",
+        "Kaç koyun var? Altı koyun var.",
+        "Beş keçi ve iki ördek var.",
+        "Ahırın yanında bir hindi var.",
+        "Çiftlikte on tavuk var.",
+        "Çiftlik evinin yanında üç tavşan da var.",
+        "Leo diyor: Ne büyük ve harika bir çiftlik!"
+      ],
+      "questions": [
+        {
+          "q": "What is next to the farmhouse?",
+          "correct": "A barn",
+          "wrong": ["A cottage", "A field"],
+          "hint": "Find the word barn in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "How many cows are there on the farm?",
+          "correct": "Four",
+          "wrong": ["Two", "Six"],
+          "hint": "Find the word cows in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How many sheep are there?",
+          "correct": "Six",
+          "wrong": ["Five", "Three"],
+          "hint": "Find the word sheep in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Where is the turkey?",
+          "correct": "Near the barn",
+          "wrong": ["Near the farmhouse", "In the field"],
+          "hint": "Find the word turkey in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "How many chickens are there?",
+          "correct": "Ten",
+          "wrong": ["Five", "Eight"],
+          "hint": "Find the word chickens in the text.",
+          "hl": [8]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Our Countryside",
+      "subtitle": "Find the right place or thing!",
+      "icon": "🌿",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo's grandparents live in a small village.",
+        "Is there a farm in the village? Yes, there is.",
+        "There are many fields around the village.",
+        "Is there a tractor on the farm? Yes, there is a big tractor.",
+        "There is green grass everywhere.",
+        "Are there any plants in the fields? Yes, there are many plants.",
+        "Is there a cottage near the farm? Yes, there is a small cottage.",
+        "Leo's uncle lives in the cottage.",
+        "There is no barn near the cottage.",
+        "Maya asks: Is there a river in the village?",
+        "No, there isn't a river, says Leo."
+      ],
+      "translations": [
+        "Leo'nun büyükannesi ve büyükbabası küçük bir köyde yaşıyor.",
+        "Köyde bir çiftlik var mı? Evet, var.",
+        "Köyün etrafında birçok tarla var.",
+        "Çiftlikte bir traktör var mı? Evet, büyük bir traktör var.",
+        "Her yerde yeşil çimen var.",
+        "Tarlalarda bitki var mı? Evet, birçok bitki var.",
+        "Çiftliğin yakınında bir kulübe var mı? Evet, küçük bir kulübe var.",
+        "Leo'nun amcası kulübede yaşıyor.",
+        "Kulübenin yakınında ahır yok.",
+        "Maya soruyor: Köyde bir nehir var mı?",
+        "Hayır, nehir yok, diyor Leo."
+      ],
+      "questions": [
+        {
+          "q": "Where do Leo's grandparents live?",
+          "correct": "In a small village",
+          "wrong": ["On a big farm", "In a cottage"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "What is there around the village?",
+          "correct": "Many fields",
+          "wrong": ["Many rivers", "Many barns"],
+          "hint": "Find the word fields in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What is on the farm?",
+          "correct": "A big tractor",
+          "wrong": ["A small cottage", "A river"],
+          "hint": "Find the word tractor in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "Who lives in the cottage?",
+          "correct": "Leo's uncle",
+          "wrong": ["Leo's grandparents", "Leo's aunt"],
+          "hint": "Find the word cottage in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "Is there a river in the village?",
+          "correct": "No, there isn't.",
+          "wrong": ["Yes, there is.", "Yes, near the farm."],
+          "hint": "Find the word river in the text.",
+          "hl": [9, 10]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Farm Chores Every Day",
+      "subtitle": "Find the right chore!",
+      "icon": "🌾",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "There are many chores on a farm every day!",
+        "Leo's grandfather always milks the cows in the morning.",
+        "Leo's grandmother always feeds the chickens and the ducks.",
+        "Leo's uncle often waters the plants in the fields.",
+        "Leo's aunt always collects the eggs in the morning.",
+        "She sometimes bakes bread in the afternoon.",
+        "Leo's grandfather often gardens near the farmhouse.",
+        "He grows vegetables and plants flowers every spring.",
+        "Leo sometimes helps his grandfather on the farm.",
+        "Leo feeds the rabbits and the goats.",
+        "Everyone works hard on the farm every day!"
+      ],
+      "translations": [
+        "Bir çiftlikte her gün birçok iş var!",
+        "Leo'nun büyükbabası her sabah inekleri sağar.",
+        "Leo'nun büyükannesi her zaman tavukları ve ördekeleri besler.",
+        "Leo'nun amcası sık sık tarlalardaki bitkileri sular.",
+        "Leo'nun teyzesi her sabah yumurtaları toplar.",
+        "Öğleden sonra bazen ekmek pişirir.",
+        "Leo'nun büyükbabası sık sık çiftlik evinin yanında bahçe işi yapar.",
+        "Her ilkbaharda sebze yetiştirir ve çiçek diker.",
+        "Leo bazen çiftlikte büyükbabasına yardım eder.",
+        "Leo tavşanları ve keçileri besler.",
+        "Herkes çiftlikte her gün çok çalışır!"
+      ],
+      "questions": [
+        {
+          "q": "What does Leo's grandfather always do in the morning?",
+          "correct": "Milk the cows",
+          "wrong": ["Feed the chickens", "Collect the eggs"],
+          "hint": "Find Leo's grandfather in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Who always collects the eggs?",
+          "correct": "Leo's aunt",
+          "wrong": ["Leo's grandmother", "Leo's uncle"],
+          "hint": "Find the word eggs in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Leo's uncle often do?",
+          "correct": "Water the plants",
+          "wrong": ["Milk the cows", "Bake bread"],
+          "hint": "Find Leo's uncle in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Leo's grandfather grow?",
+          "correct": "Vegetables",
+          "wrong": ["Grass", "Eggs"],
+          "hint": "Find the word grows in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What does Leo do when he helps on the farm?",
+          "correct": "He feeds the rabbits and the goats.",
+          "wrong": ["He milks the cows.", "He collects the eggs."],
+          "hint": "Find Leo in the text.",
+          "hl": [8, 9]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "A Morning on the Farm",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌅",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is a beautiful morning on the farm today.",
+        "Look at the farm now! Everyone is busy.",
+        "Leo's grandfather is milking the cows at present.",
+        "Leo's grandmother is feeding the chickens now.",
+        "Leo's uncle is watering the plants in the field at present.",
+        "Leo's aunt is collecting the eggs near the barn today.",
+        "Maya asks: What is Leo doing now?",
+        "Leo is helping his grandfather at present.",
+        "Maya says: How beautiful! The farm is so busy!",
+        "Leo says: Fantastic! I love mornings on the farm!",
+        "Ms. Hart says: What a wonderful place to live!"
+      ],
+      "translations": [
+        "Bugün çiftlikte güzel bir sabah.",
+        "Şimdi çiftliğe bak! Herkes meşgul.",
+        "Leo'nun büyükbabası şu an inekleri sağıyor.",
+        "Leo'nun büyükannesi şimdi tavukları besliyor.",
+        "Leo'nun amcası şu an tarlada bitkileri sulıyor.",
+        "Leo'nun teyzesi bugün ahırın yanında yumurtaları topluyor.",
+        "Maya soruyor: Leo şimdi ne yapıyor?",
+        "Leo şu an büyükbabasına yardım ediyor.",
+        "Maya diyor: Ne güzel! Çiftlik çok meşgul!",
+        "Leo diyor: Harika! Çiftlikte sabahları seviyorum!",
+        "Ms. Hart diyor: Yaşamak için ne harika bir yer!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "What everyone is doing on the farm right now",
+          "wrong": ["What everyone does on the farm every day", "The animals on the farm"],
+          "hint": "Think about what every person is doing at this moment.",
+          "hl": [2, 3, 4, 5, 7]
+        },
+        {
+          "q": "What is Leo's grandfather doing at present?",
+          "correct": "Milking the cows",
+          "wrong": ["Feeding the chickens", "Watering the plants"],
+          "hint": "Find Leo's grandfather in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What is Leo's uncle doing at present?",
+          "correct": "Watering the plants",
+          "wrong": ["Collecting the eggs", "Milking the cows"],
+          "hint": "Find Leo's uncle in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What is Leo doing now?",
+          "correct": "Helping his grandfather",
+          "wrong": ["Feeding the chickens", "Collecting the eggs"],
+          "hint": "Find Leo in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "How does Maya feel about the farm?",
+          "correct": "She thinks it is beautiful.",
+          "wrong": ["She thinks it is boring.", "She thinks it is scary."],
+          "hint": "Find Maya in the text.",
+          "hl": [8]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "The Farm and the Village",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏡",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo's grandparents always wake up early on the farm.",
+        "Every morning, his grandfather milks the cows.",
+        "But look! He is not milking the cows now.",
+        "He is driving the tractor in the field at present.",
+        "Leo's grandmother always feeds the animals in the morning.",
+        "But today she is baking bread in the farmhouse.",
+        "The village is small but very beautiful.",
+        "There are green fields and tall trees everywhere.",
+        "Maya says: No way! Is this really a village?",
+        "Leo says: Yes! What a surprise! It is more beautiful in summer!",
+        "Ms. Hart says: How beautiful! I love the countryside!"
+      ],
+      "translations": [
+        "Leo'nun büyükannesi ve büyükbabası çiftlikte her zaman erken kalkar.",
+        "Her sabah büyükbabası inekleri sağar.",
+        "Ama bak! Şimdi inekleri sağmıyor.",
+        "Şu an tarlada traktörü kullanıyor.",
+        "Leo'nun büyükannesi her sabah hayvanları besler.",
+        "Ama bugün çiftlik evinde ekmek pişiriyor.",
+        "Köy küçük ama çok güzel.",
+        "Her yerde yeşil tarlalar ve uzun ağaçlar var.",
+        "Maya diyor: İnanılmaz! Burası gerçekten bir köy mü?",
+        "Leo diyor: Evet! Ne sürpriz! Yazın daha güzel!",
+        "Ms. Hart diyor: Ne güzel! Kırsal kesimi seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "The difference between daily routines and current actions on the farm",
+          "wrong": ["The animals on the farm", "The buildings in the village"],
+          "hint": "Think about what people usually do and what they are doing now.",
+          "hl": [1, 2, 3, 4, 5]
+        },
+        {
+          "q": "What does Leo's grandfather usually do every morning?",
+          "correct": "Milk the cows",
+          "wrong": ["Drive the tractor", "Bake bread"],
+          "hint": "Find Leo's grandfather's usual routine in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What is Leo's grandfather doing now?",
+          "correct": "Driving the tractor",
+          "wrong": ["Milking the cows", "Feeding the animals"],
+          "hint": "Find what Leo's grandfather is doing at present.",
+          "hl": [3]
+        },
+        {
+          "q": "What is Leo's grandmother doing today?",
+          "correct": "Baking bread",
+          "wrong": ["Feeding the animals", "Collecting the eggs"],
+          "hint": "Find Leo's grandmother in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "How does Maya feel about the village?",
+          "correct": "She is surprised by how beautiful it is.",
+          "wrong": ["She thinks it is boring.", "She thinks it is too small."],
+          "hint": "Find Maya in the text.",
+          "hl": [8]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Life on Leo's Farm",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya is visiting Leo's grandparents' farm today.",
+        "There are many animals on the farm.",
+        "There are horses, donkeys, sheep and goats in the barn.",
+        "Maya asks: What is your grandfather doing at present?",
+        "He is feeding the horses at present, says Leo.",
+        "Maya asks: What is your grandmother doing now?",
+        "She is collecting the eggs near the farmhouse now, says Leo.",
+        "Maya says: How beautiful! Look at the rabbits!",
+        "Leo says: Let me show you the ducks and the turkeys!",
+        "They walk to the field.",
+        "Maya asks: What is your uncle doing in the field?",
+        "He is watering the plants at present, says Leo.",
+        "Maya says: Fantastic! There is so much to do on a farm!"
+      ],
+      "translations": [
+        "Maya bugün Leo'nun büyükannesinin ve büyükbabasının çiftliğini ziyaret ediyor.",
+        "Çiftlikte birçok hayvan var.",
+        "Ahırda atlar, eşekler, koyunlar ve keçiler var.",
+        "Maya soruyor: Büyükbaban şu an ne yapıyor?",
+        "Şu an atları besliyor, diyor Leo.",
+        "Maya soruyor: Büyükannen şimdi ne yapıyor?",
+        "Şimdi çiftlik evinin yanında yumurtaları topluyor, diyor Leo.",
+        "Maya diyor: Ne güzel! Tavşanlara bak!",
+        "Leo diyor: Ördekleri ve hindileri sana göstereyim!",
+        "Tarlaya doğru yürüyorlar.",
+        "Maya soruyor: Amcan tarlada ne yapıyor?",
+        "Şu an bitkileri sulıyor, diyor Leo.",
+        "Maya diyor: Harika! Çiftlikte yapılacak çok şey var!"
+      ],
+      "questions": [
+        {
+          "q": "What animals are in the barn?",
+          "correct": "Horses, donkeys, sheep and goats",
+          "wrong": ["Cows, ducks, turkeys and rabbits", "Chickens, horses, goats and ducks"],
+          "hint": "Find the word barn in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What is Leo's grandfather doing at present?",
+          "correct": "Feeding the horses",
+          "wrong": ["Collecting the eggs", "Watering the plants"],
+          "hint": "Find Leo's grandfather in the text.",
+          "hl": [3, 4]
+        },
+        {
+          "q": "What is Leo's grandmother doing now?",
+          "correct": "Collecting the eggs",
+          "wrong": ["Feeding the horses", "Watering the plants"],
+          "hint": "Find Leo's grandmother in the text.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "Where do Maya and Leo walk?",
+          "correct": "To the field",
+          "wrong": ["To the barn", "To the farmhouse"],
+          "hint": "Find the word walk in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What is Leo's uncle doing at present?",
+          "correct": "Watering the plants",
+          "wrong": ["Feeding the horses", "Collecting the eggs"],
+          "hint": "Find Leo's uncle in the text.",
+          "hl": [10, 11]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "What Do They Do Every Day?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌻",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya asks Leo about life on the farm.",
+        "What does your grandfather do every day, Leo?",
+        "He always milks the cows and feeds the donkeys every morning, says Leo.",
+        "He also gardens near the farmhouse every afternoon.",
+        "What does your grandmother do every day?",
+        "She always collects the eggs and feeds the chickens, says Leo.",
+        "She grows vegetables and plants flowers every spring.",
+        "Maya asks: How many cows are there on your farm?",
+        "There are five cows and three donkeys, says Leo.",
+        "Maya says: No idea there were so many animals!",
+        "Leo says: Why not come and visit again?",
+        "Maya says: Cute! I love the farm animals!"
+      ],
+      "translations": [
+        "Maya Leo'ya çiftlikteki hayat hakkında soruyor.",
+        "Büyükbaban her gün ne yapar, Leo?",
+        "Her sabah her zaman inekleri sağar ve eşekleri besler, diyor Leo.",
+        "Her öğleden sonra çiftlik evinin yanında bahçe işi de yapar.",
+        "Büyükannen her gün ne yapar?",
+        "Her zaman yumurtaları toplar ve tavukları besler, diyor Leo.",
+        "Her ilkbaharda sebze yetiştirir ve çiçek diker.",
+        "Maya soruyor: Çiftlininizde kaç inek var?",
+        "Beş inek ve üç eşek var, diyor Leo.",
+        "Maya diyor: Bu kadar çok hayvan olduğunu bilmiyordum!",
+        "Leo diyor: Neden tekrar gelip ziyaret etmiyorsun?",
+        "Maya diyor: Sevimli! Çiftlik hayvanlarını seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What does Leo's grandfather always do every morning?",
+          "correct": "Milk the cows and feed the donkeys",
+          "wrong": ["Water the plants and collect the eggs", "Garden and grow vegetables"],
+          "hint": "Find Leo's grandfather in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Leo's grandfather do every afternoon?",
+          "correct": "Gardens near the farmhouse",
+          "wrong": ["Milks the cows", "Collects the eggs"],
+          "hint": "Find the word afternoon in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Leo's grandmother grow?",
+          "correct": "Vegetables",
+          "wrong": ["Grass", "Wheat"],
+          "hint": "Find the word grows in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How many cows are there on the farm?",
+          "correct": "Five",
+          "wrong": ["Three", "Four"],
+          "hint": "Find the word cows in the text.",
+          "hl": [7, 8]
+        },
+        {
+          "q": "What does Maya say about the farm animals?",
+          "correct": "She loves them.",
+          "wrong": ["She is scared of them.", "She thinks they are ugly."],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "The Farmhouse and the Barn",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏚️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo shows Maya around the farm.",
+        "This is our farmhouse. It is big and old, says Leo.",
+        "There are six rooms in the farmhouse.",
+        "There is a beautiful garden next to the farmhouse.",
+        "Leo's grandmother always gardens there in the morning.",
+        "That is our barn. It is next to the field, says Leo.",
+        "There are horses and sheep in the barn.",
+        "Maya asks: Is there a cottage on the farm?",
+        "Yes! My uncle lives in a small cottage near the field, says Leo.",
+        "There is green grass between the barn and the cottage.",
+        "Leo's uncle is driving the tractor in the field at present.",
+        "Maya says: No way! What a surprise! Everything is so beautiful here!"
+      ],
+      "translations": [
+        "Leo, Maya'ya çiftliği gezdiriyor.",
+        "Bu bizim çiftlik evimiz. Büyük ve eski, diyor Leo.",
+        "Çiftlik evinde altı oda var.",
+        "Çiftlik evinin yanında güzel bir bahçe var.",
+        "Leo'nun büyükannesi her sabah orada bahçe işi yapar.",
+        "Şu bizim ahırımız. Tarlanın yanında, diyor Leo.",
+        "Ahırda atlar ve koyunlar var.",
+        "Maya soruyor: Çiftlikte bir kulübe var mı?",
+        "Evet! Amcam tarlanın yakınındaki küçük bir kulübede yaşıyor, diyor Leo.",
+        "Ahır ile kulübe arasında yeşil çimen var.",
+        "Leo'nun amcası şu an tarlada traktörü kullanıyor.",
+        "Maya diyor: İnanılmaz! Ne sürpriz! Buradaki her şey çok güzel!"
+      ],
+      "questions": [
+        {
+          "q": "How many rooms are in the farmhouse?",
+          "correct": "Six",
+          "wrong": ["Four", "Eight"],
+          "hint": "Find the word rooms in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "Where is the barn?",
+          "correct": "Next to the field",
+          "wrong": ["Next to the cottage", "Next to the farmhouse"],
+          "hint": "Find the word barn in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Where does Leo's uncle live?",
+          "correct": "In a small cottage near the field",
+          "wrong": ["In the farmhouse", "In the barn"],
+          "hint": "Find Leo's uncle in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What is between the barn and the cottage?",
+          "correct": "Green grass",
+          "wrong": ["A field", "A garden"],
+          "hint": "Find the word between in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What is Leo's uncle doing at present?",
+          "correct": "Driving the tractor",
+          "wrong": ["Gardening", "Feeding the animals"],
+          "hint": "Find Leo's uncle in the text.",
+          "hl": [10]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "What Is Happening on the Farm?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is a busy afternoon on the farm.",
+        "Leo's grandfather is not milking the cows at present.",
+        "He is doing something in the field at present.",
+        "There is a tractor next to him.",
+        "Leo's grandmother is not collecting eggs now.",
+        "She is doing something in the farmhouse kitchen now.",
+        "There is a smell of fresh bread everywhere.",
+        "Leo's uncle is not watering the plants at present.",
+        "He is doing something near the barn.",
+        "There are buckets of water next to the animals.",
+        "Maya asks: Help me! What is everyone doing?",
+        "Leo thinks and says: Let me tell you what I think!"
+      ],
+      "translations": [
+        "Çiftlikte meşgul bir öğleden sonra.",
+        "Leo'nun büyükbabası şu an inekleri sağmıyor.",
+        "Şu an tarlada bir şey yapıyor.",
+        "Yanında bir traktör var.",
+        "Leo'nun büyükannesi şimdi yumurta toplamıyor.",
+        "Şimdi çiftlik evi mutfağında bir şey yapıyor.",
+        "Her yerde taze ekmek kokusu var.",
+        "Leo'nun amcası şu an bitkileri sulamıyor.",
+        "Ahırın yanında bir şey yapıyor.",
+        "Hayvanların yanında su kovaları var.",
+        "Maya soruyor: Yardım et! Herkes ne yapıyor?",
+        "Leo düşünüyor ve diyor: Ne düşündüğümü sana söyleyeyim!"
+      ],
+      "questions": [
+        {
+          "q": "What is Leo's grandfather doing at present?",
+          "correct": "Driving the tractor in the field",
+          "wrong": ["Milking the cows", "Watering the plants"],
+          "hint": "Think about what Leo's grandfather is not doing and what is next to him.",
+          "hl": [1, 2, 3]
+        },
+        {
+          "q": "What is Leo's grandmother doing now?",
+          "correct": "Baking bread in the farmhouse kitchen",
+          "wrong": ["Collecting eggs", "Feeding the animals"],
+          "hint": "Think about what Leo's grandmother is not doing and what smell is in the air.",
+          "hl": [4, 5, 6]
+        },
+        {
+          "q": "What is Leo's uncle doing near the barn?",
+          "correct": "Feeding the animals",
+          "wrong": ["Watering the plants", "Milking the cows"],
+          "hint": "Think about what Leo's uncle is not doing and what is next to the animals.",
+          "hl": [7, 8, 9]
+        },
+        {
+          "q": "Why is Maya confused?",
+          "correct": "She cannot figure out what everyone is doing.",
+          "wrong": ["She is lost on the farm.", "She does not like the farm."],
+          "hint": "Find Maya in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Leo offer to do?",
+          "correct": "Tell Maya what he thinks everyone is doing.",
+          "wrong": ["Show Maya the barn.", "Help Maya find the animals."],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "A Day at the Village Farm",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🌾",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart visits Leo's village farm with Maya and Leo.",
+        "Every morning, Leo's grandfather milks the cows and feeds the sheep.",
+        "But at present, he is not doing his usual chores.",
+        "He is planting vegetables in the big field now.",
+        "Leo's grandmother always collects eggs and feeds the chickens every morning.",
+        "But today she is watering the plants near the cottage.",
+        "Ms. Hart asks: Why not do the usual chores today?",
+        "Leo says: It is spring! We plant and grow things in spring.",
+        "Ms. Hart looks at the green grass and the beautiful fields.",
+        "She says: Fantastic! No way! This village is so beautiful!",
+        "Maya thinks: In spring, farmers plant instead of their usual chores.",
+        "Maya says: Now I understand why Leo loves the farm!"
+      ],
+      "translations": [
+        "Ms. Hart, Maya ve Leo ile Leo'nun köy çiftliğini ziyaret ediyor.",
+        "Her sabah Leo'nun büyükbabası inekleri sağar ve koyunları besler.",
+        "Ama şu an olağan işlerini yapmıyor.",
+        "Şimdi büyük tarlaya sebze ekiyor.",
+        "Leo'nun büyükannesi her sabah yumurta toplar ve tavukları besler.",
+        "Ama bugün kulübenin yanındaki bitkileri sulıyor.",
+        "Ms. Hart soruyor: Neden bugün olağan işleri yapmıyorsunuz?",
+        "Leo diyor: İlkbahar! İlkbaharda ekip büyütüyoruz.",
+        "Ms. Hart yeşil çimene ve güzel tarlalara bakıyor.",
+        "Diyor: Harika! İnanılmaz! Bu köy çok güzel!",
+        "Maya düşünüyor: İlkbaharda çiftçiler olağan işleri yerine ekiyor.",
+        "Maya diyor: Şimdi Leo'nun çiftliği neden sevdiğini anlıyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What does Leo's grandfather usually do every morning?",
+          "correct": "Milk the cows and feed the sheep",
+          "wrong": ["Plant vegetables and water plants", "Collect eggs and feed chickens"],
+          "hint": "Find Leo's grandfather's usual routine in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What is Leo's grandfather doing now?",
+          "correct": "Planting vegetables in the field",
+          "wrong": ["Milking the cows", "Feeding the sheep"],
+          "hint": "Find what Leo's grandfather is doing at present.",
+          "hl": [3]
+        },
+        {
+          "q": "Why is Leo's grandmother watering plants today instead of collecting eggs?",
+          "correct": "Because it is spring and farmers plant and grow things.",
+          "wrong": ["Because there are no eggs today.", "Because Ms. Hart asked her to."],
+          "hint": "Read what Leo says about spring.",
+          "hl": [5, 7]
+        },
+        {
+          "q": "What does Maya understand at the end?",
+          "correct": "Why Leo loves the farm",
+          "wrong": ["Why the village is small", "Why the cows are not milked today"],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        },
+        {
+          "q": "What is different about the farm today compared to every morning?",
+          "correct": "The farmers are planting and watering instead of their usual chores.",
+          "wrong": ["There are no animals on the farm today.", "The farmhouse is empty today."],
+          "hint": "Think about what the farmers usually do and what they are doing now.",
+          "hl": [1, 2, 3, 4, 5]
+        }
+      ]
+    }
+  ]
+}

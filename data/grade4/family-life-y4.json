@@ -1,0 +1,1272 @@
+{
+  "theme": "Family Life",
+  "themeNumber": 4,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Jobs in Our Family",
+      "subtitle": "Find the right job and action!",
+      "icon": "👨‍👩‍👧",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Hi! I am Nora. Let me tell you about the jobs in my family!",
+        "My mummy is a teacher. She teaches children at a primary school every day.",
+        "My daddy is a doctor. He checks patients at the hospital and helps them get better.",
+        "My grandpa is a farmer. He grows vegetables and fruit on his farm.",
+        "My grandma is a cook. She cooks the most delicious meals for our whole family!",
+        "Sam's mum is a nurse. She helps doctors and takes care of patients.",
+        "Sam's dad is a driver. He drives a big lorry and delivers things to shops and markets.",
+        "Leyla's mum is a scientist. She tests new medicines at a laboratory.",
+        "Leyla's dad is a writer. He writes books and articles for a newspaper.",
+        "There are so many different jobs in the world — and all people are important!"
+      ],
+      "translations": [
+        "Merhaba! Ben Nora. Size ailemizdeki meslekler hakkında anlatayım!",
+        "Annem öğretmen. Her gün bir ilkokulda çocuklara ders veriyor.",
+        "Babam doktor. Hastanede hastaları kontrol ediyor ve iyileşmelerine yardımcı oluyor.",
+        "Dedem çiftçi. Çiftliğinde sebze ve meyve yetiştiriyor.",
+        "Büyükannem aşçı. Tüm ailemiz için en lezzetli yemekleri pişiriyor!",
+        "Sam'in annesi hemşire. Doktorlara yardım ediyor ve hastalara bakıyor.",
+        "Sam'in babası sürücü. Büyük bir kamyon sürüyor ve dükkan ve marketlere malzeme teslim ediyor.",
+        "Leyla'nın annesi bilim insanı. Bir laboratuvarda yeni ilaçları test ediyor.",
+        "Leyla'nın babası yazar. Bir gazete için kitap ve makaleler yazıyor.",
+        "Dünyada pek çok farklı meslek var — ve tüm insanlar önemli!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora's daddy do?",
+          "correct": "He checks patients and helps them",
+          "wrong": [
+            "He teaches children",
+            "He grows vegetables"
+          ],
+          "hint": "Find the word daddy in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Nora's grandpa do?",
+          "correct": "He grows vegetables and fruit",
+          "wrong": [
+            "He cooks meals",
+            "He drives a lorry"
+          ],
+          "hint": "Find the word grandpa in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Sam's dad do?",
+          "correct": "He drives a lorry and delivers things",
+          "wrong": [
+            "He tests medicines",
+            "He writes books"
+          ],
+          "hint": "Find Sam's dad in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Leyla's mum do?",
+          "correct": "She tests new medicines",
+          "wrong": [
+            "She writes books",
+            "She helps doctors"
+          ],
+          "hint": "Find Leyla's mum in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla's dad do?",
+          "correct": "He writes books and articles",
+          "wrong": [
+            "He drives a lorry",
+            "He checks patients"
+          ],
+          "hint": "Find Leyla's dad in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Our Neighbourhood",
+      "subtitle": "Find the right place and errand!",
+      "icon": "🏘️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Greenfield is a wonderful neighbourhood! There are so many places here.",
+        "There is a hospital near the park. Nora's daddy works there every day.",
+        "Next to the hospital, there is a chemist's. People buy medicines there.",
+        "There is a bakery on the main street. The baker sells fresh bread every morning.",
+        "Next to the bakery, there is a butcher's and a greengrocer's. Mum buys meat and vegetables there.",
+        "There is a big market near the station. Families do their shopping there at the weekend.",
+        "The library is between the museum and the cinema. Sam visits the library every Saturday.",
+        "There is a café next to the theatre. People meet friends and drink tea there.",
+        "There is a post office near the bank. Leyla's dad sends his articles from the post office.",
+        "There is also a barber's, a hairdresser's and a hotel near the city centre. Our neighbourhood has everything!"
+      ],
+      "translations": [
+        "Greenfield harika bir mahalle! Burada pek çok yer var.",
+        "Parkın yakınında bir hastane var. Nora'nın babası her gün orada çalışıyor.",
+        "Hastanenin yanında bir eczane var. İnsanlar orada ilaç alıyor.",
+        "Ana caddede bir fırın var. Fırıncı her sabah taze ekmek satıyor.",
+        "Fırının yanında bir kasap ve bir manav var. Anne orada et ve sebze alıyor.",
+        "İstasyonun yakınında büyük bir market var. Aileler hafta sonu orada alışveriş yapıyor.",
+        "Kütüphane müze ile sinema arasında. Sam her Cumartesi kütüphaneyi ziyaret ediyor.",
+        "Tiyatronun yanında bir kafe var. İnsanlar orada arkadaşlarıyla buluşuyor ve çay içiyor.",
+        "Bankanın yakınında bir postane var. Leyla'nın babası makalelerini postaneden gönderiyor.",
+        "Şehir merkezinin yakınında bir berber, bir kuaför ve bir otel de var. Mahallemizde her şey var!"
+      ],
+      "questions": [
+        {
+          "q": "What is next to the hospital?",
+          "correct": "A chemist's",
+          "wrong": [
+            "A bakery",
+            "A café"
+          ],
+          "hint": "Find the word hospital in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does the baker sell every morning?",
+          "correct": "Fresh bread",
+          "wrong": [
+            "Meat and vegetables",
+            "Medicines"
+          ],
+          "hint": "Find the word bakery in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the library?",
+          "correct": "Between the museum and the cinema",
+          "wrong": [
+            "Next to the hospital",
+            "Near the station"
+          ],
+          "hint": "Find the word library in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Leyla's dad do at the post office?",
+          "correct": "He sends his articles",
+          "wrong": [
+            "He buys medicines",
+            "He meets friends"
+          ],
+          "hint": "Find the words post office in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "Which three places are near the city centre?",
+          "correct": "A barber's, a hairdresser's and a hotel",
+          "wrong": [
+            "A bakery, a butcher's and a greengrocer's",
+            "A café, a theatre and a museum"
+          ],
+          "hint": "Find the words city centre in the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "What Do We Like Doing?",
+      "subtitle": "Find the right habit and activity!",
+      "icon": "❤️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Every family has their favourite habits. Let me tell you about ours!",
+        "My mummy loves reading before bed. She reads every single night!",
+        "My daddy likes going for a walk every Sunday morning. He walks to the park and back.",
+        "My grandpa loves gardening on Sundays. He grows the most beautiful flowers!",
+        "My grandma likes watching films on Sunday evenings. She loves old black-and-white films.",
+        "Sam loves riding his bike on Saturdays. He rides to the market and the park.",
+        "Sam's mum likes meeting friends at the café every Friday. She loves drinking tea with them.",
+        "Leyla loves going to the cinema every Saturday with her dad. They both love watching films!",
+        "Leyla's mum likes listening to music while she works. She loves classical music the most.",
+        "We all have different habits — but we all love spending time together the most!"
+      ],
+      "translations": [
+        "Her ailenin favori alışkanlıkları vardır. Size bizimkiler hakkında anlatayım!",
+        "Annem yatmadan önce okumayı seviyor. Her gece okuyor!",
+        "Babam her Pazar sabahı yürüyüşe gitmeyi seviyor. Parka kadar yürüyüp geri dönüyor.",
+        "Dedem Pazar günleri bahçeyle uğraşmayı seviyor. En güzel çiçekleri yetiştiriyor!",
+        "Büyükannem Pazar akşamları film izlemeyi seviyor. Eski siyah-beyaz filmleri seviyor.",
+        "Sam Cumartesi günleri bisiklet sürmeyi seviyor. Markete ve parka kadar gidiyor.",
+        "Sam'in annesi her Cuma kafede arkadaşlarıyla buluşmayı seviyor. Onlarla çay içmeyi seviyor.",
+        "Leyla her Cumartesi babasıyla sinemaya gitmeyi seviyor. İkisi de film izlemeyi çok seviyor!",
+        "Leyla'nın annesi çalışırken müzik dinlemeyi seviyor. En çok klasik müziği seviyor.",
+        "Hepimizin farklı alışkanlıkları var — ama hepimiz en çok birlikte vakit geçirmeyi seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora's mummy love doing every night?",
+          "correct": "Reading before bed",
+          "wrong": [
+            "Going for a walk",
+            "Watching films"
+          ],
+          "hint": "Find the word mummy in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Nora's grandpa love doing on Sundays?",
+          "correct": "Gardening",
+          "wrong": [
+            "Walking to the park",
+            "Watching films"
+          ],
+          "hint": "Find the word grandpa in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where does Sam ride his bike on Saturdays?",
+          "correct": "To the market and the park",
+          "wrong": [
+            "To the cinema and the café",
+            "To the library and the museum"
+          ],
+          "hint": "Find Sam and the word bike in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam's mum like doing every Friday?",
+          "correct": "Meeting friends at the café",
+          "wrong": [
+            "Going to the cinema",
+            "Listening to music"
+          ],
+          "hint": "Find Sam's mum in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Leyla's mum like doing while she works?",
+          "correct": "Listening to music",
+          "wrong": [
+            "Watching films",
+            "Reading books"
+          ],
+          "hint": "Find Leyla's mum in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "What Did the Family Do Yesterday?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏠",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Yesterday was a busy day for Nora's family!",
+        "In the morning, Nora's daddy drove to the hospital and saw thirty patients.",
+        "Nora's mummy took Nora and her brother to school, then went to her classroom to teach.",
+        "At lunchtime, Nora's grandma came to the house and made a big pot of soup.",
+        "She also bought fresh vegetables from the greengrocer's and bread from the bakery.",
+        "In the afternoon, Nora's grandpa rode his bike to the market and got some fruit.",
+        "After school, Nora's daddy picked the children up from school and drove them home.",
+        "In the evening, the whole family sat together and ate grandma's soup. It was delicious!",
+        "After dinner, Nora's mummy read a story to the children and they fell asleep quickly.",
+        "Nora's daddy said: \"That's great! We had the best family day today. Catch you later, everyone!\""
+      ],
+      "translations": [
+        "Dün Nora'nın ailesi için yoğun bir gündü!",
+        "Sabah Nora'nın babası hastaneye gitti ve otuz hasta gördü.",
+        "Nora'nın annesi Nora ve kardeşini okula götürdü, sonra ders vermek için sınıfına gitti.",
+        "Öğle vakti Nora'nın büyükannesi eve geldi ve büyük bir tencere çorba yaptı.",
+        "Ayrıca manavdan taze sebze ve fırından ekmek aldı.",
+        "Öğleden sonra Nora'nın dedesi bisikletiyle markete gitti ve biraz meyve aldı.",
+        "Okuldan sonra Nora'nın babası çocukları okuldan aldı ve eve götürdü.",
+        "Akşam tüm aile birlikte oturdu ve büyükannenin çorbasını yedi. Çok lezzetliydi!",
+        "Yemekten sonra Nora'nın annesi çocuklara hikaye okudu ve hızla uyuya kaldılar.",
+        "Nora'nın babası dedi: \"Harika! Bugün en iyi aile gününü yaşadık. Görüşürüz herkese!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What Nora's family did yesterday",
+          "wrong": [
+            "Nora's family's daily habits",
+            "Nora's family's jobs"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            7
+          ]
+        },
+        {
+          "q": "What did Nora's grandma make at lunchtime?",
+          "correct": "A big pot of soup",
+          "wrong": [
+            "Fresh bread",
+            "A fruit salad"
+          ],
+          "hint": "Find grandma and the word lunchtime in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where did Nora's grandpa go in the afternoon?",
+          "correct": "To the market",
+          "wrong": [
+            "To the greengrocer's",
+            "To the hospital"
+          ],
+          "hint": "Find grandpa in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who picked the children up from school?",
+          "correct": "Nora's daddy",
+          "wrong": [
+            "Nora's mummy",
+            "Nora's grandma"
+          ],
+          "hint": "Find the words picked up in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did Nora's mummy do after dinner?",
+          "correct": "She read a story to the children",
+          "wrong": [
+            "She watched a film",
+            "She went for a walk"
+          ],
+          "hint": "Find the words after dinner in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "Who Is the Kindest?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "💛",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"Who is the kindest person in your family? Tell me about them!\"",
+        "Nora said: \"My grandma is the kindest person in our family. She always helps everyone!\"",
+        "\"She is also the most hardworking person I know. She cooks, cleans and gardens every day.\"",
+        "Sam said: \"My mum is the most caring person in our family. She is a nurse — helping people is her life!\"",
+        "\"My dad is the funniest person at home. He tells the best jokes at dinner. Good job, Dad!\"",
+        "Leyla said: \"My dad is the most creative person in our family. He writes the most interesting stories.\"",
+        "\"But my mum is the most organised person. She plans everything perfectly. Don't worry — Mum has a plan!\"",
+        "Ms. Reed smiled: \"You all have wonderful people in your families!\"",
+        "Sam asked: \"Who is the kindest person in your family, Ms. Reed?\"",
+        "Ms. Reed laughed: \"That's a difficult question! All the people in my family are the kindest — I can't choose!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Ailenizdeki en nazik kişi kim? Onlar hakkında anlatın!\"",
+        "Nora dedi: \"Büyükannem ailemizin en nazik kişisi. Herkese her zaman yardım ediyor!\"",
+        "\"Aynı zamanda tanıdığım en çalışkan kişi. Her gün yemek pişiriyor, temizlik yapıyor ve bahçeyle uğraşıyor.\"",
+        "Sam dedi: \"Annem ailemizin en ilgili kişisi. O hemşire — insanlara yardım etmek onun hayatı!\"",
+        "\"Babam evdeki en komik kişi. Akşam yemeklerinde en iyi fıkraları anlatıyor. Aferin Baba!\"",
+        "Leyla dedi: \"Babam ailemizin en yaratıcı kişisi. En ilginç hikayeleri yazıyor.\"",
+        "\"Ama annem en düzenli kişi. Her şeyi mükemmel planlıyor. Merak etme — Annem'in bir planı var!\"",
+        "Ms. Reed gülümsedi: \"Hepinizin ailelerinde harika insanlar var!\"",
+        "Sam sordu: \"Ailenizdeki en nazik kişi kim, Ms. Reed?\"",
+        "Ms. Reed güldü: \"Bu zor bir soru! Ailemdeki tüm insanlar en nazik — seçemiyorum!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "Describing the kindest and most special people in each family",
+          "wrong": [
+            "Comparing jobs in different families",
+            "Describing what families did yesterday"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "q": "Why does Nora say her grandma is the most hardworking?",
+          "correct": "Because she cooks, cleans and gardens every day",
+          "wrong": [
+            "Because she is a nurse",
+            "Because she tells the best jokes"
+          ],
+          "hint": "Find grandma and the word hardworking in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam say about his dad?",
+          "correct": "He is the funniest person at home",
+          "wrong": [
+            "He is the most caring",
+            "He is the most organised"
+          ],
+          "hint": "Find Sam's dad in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla say about her mum?",
+          "correct": "She is the most organised person",
+          "wrong": [
+            "She is the most creative",
+            "She is the kindest"
+          ],
+          "hint": "Find Leyla's mum in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Why can't Ms. Reed choose the kindest person in her family?",
+          "correct": "Because all the people in her family are the kindest",
+          "wrong": [
+            "Because she doesn't have a family",
+            "Because it is a secret"
+          ],
+          "hint": "Find Ms. Reed's answer at the end of the text.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "What Do Families Love Doing?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎉",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What do you and your family love doing at the weekend?\"",
+        "Nora said: \"My whole family loves going to the park on Sunday mornings. We love walking together!\"",
+        "\"My daddy loves taking the dog for a walk. My mummy loves sitting on the bench and reading.\"",
+        "\"My grandpa loves gardening but he also loves visiting the museum near our house.\"",
+        "Sam said: \"My family loves going to the cinema on Saturday evenings. We love watching action films!\"",
+        "\"My dad loves driving to the market on Saturday mornings and buying fresh groceries.\"",
+        "\"My mum loves meeting her friends at the café. She loves drinking coffee and talking for hours!\"",
+        "Leyla said: \"My family loves going to the library every Saturday. We all love reading different books.\"",
+        "\"My dad loves writing at the café near our house. He loves sitting by the window and watching people.\"",
+        "Ms. Reed smiled: \"Sounds fun! I love hearing about your family habits. Keep it up, everyone!\""
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Sen ve ailen hafta sonu ne yapmayı seviyor?\"",
+        "Nora dedi: \"Tüm ailem Pazar sabahları parka gitmeyi seviyor. Birlikte yürümeyi seviyoruz!\"",
+        "\"Babam köpeği yürüyüşe çıkarmayı seviyor. Annem bankta oturup okumayı seviyor.\"",
+        "\"Dedem bahçeyle uğraşmayı seviyor ama aynı zamanda evimizin yakınındaki müzeyi ziyaret etmeyi de seviyor.\"",
+        "Sam dedi: \"Ailem Cumartesi akşamları sinemaya gitmeyi seviyor. Aksiyon filmleri izlemeyi seviyoruz!\"",
+        "\"Babam Cumartesi sabahları arabayla markete gitmeyi ve taze market alışverişi yapmayı seviyor.\"",
+        "\"Annem kafede arkadaşlarıyla buluşmayı seviyor. Kahve içmeyi ve saatlerce sohbet etmeyi seviyor!\"",
+        "Leyla dedi: \"Ailem her Cumartesi kütüphaneye gitmeyi seviyor. Hepimiz farklı kitaplar okumayı seviyoruz.\"",
+        "\"Babam evimizin yakınındaki kafede yazmayı seviyor. Pencere kenarında oturup insanları izlemeyi seviyor.\"",
+        "Ms. Reed gülümsedi: \"Kulağa eğlenceli geliyor! Aile alışkanlıklarınızı duymayı seviyorum. Devam edin herkesler!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the main idea of this text?",
+          "correct": "What different families love doing at the weekend",
+          "wrong": [
+            "What families did last weekend",
+            "What families want to do next weekend"
+          ],
+          "hint": "Think about what the whole text is about.",
+          "hl": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "q": "What does Nora's daddy love doing on Sundays?",
+          "correct": "Taking the dog for a walk",
+          "wrong": [
+            "Sitting on the bench",
+            "Going to the museum"
+          ],
+          "hint": "Find daddy in the text.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam's family love doing on Saturday evenings?",
+          "correct": "Going to the cinema",
+          "wrong": [
+            "Going to the market",
+            "Going to the café"
+          ],
+          "hint": "Find Sam and Saturday evenings in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla's family love doing every Saturday?",
+          "correct": "Going to the library",
+          "wrong": [
+            "Going to the cinema",
+            "Going to the park"
+          ],
+          "hint": "Find Leyla in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla's dad love doing at the café?",
+          "correct": "Writing and watching people",
+          "wrong": [
+            "Drinking coffee with friends",
+            "Reading books"
+          ],
+          "hint": "Find Leyla's dad and the word café in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Our Family Jobs",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "💼",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Last week, Ms. Reed asked the class to write about their family's jobs.",
+        "Nora wrote: \"My daddy is the most hardworking doctor I know. Yesterday he saw forty patients!\"",
+        "\"He drove to the hospital at seven in the morning and came home at eight in the evening.\"",
+        "\"My mummy taught sixty children last week. She is the most patient teacher in her school.\"",
+        "\"My grandpa grew the most beautiful tomatoes this summer. He sold them at the market too!\"",
+        "Sam wrote: \"My mum is the most caring nurse in the hospital. She helped thirty patients yesterday.\"",
+        "\"My dad drove the longest route last week. He went from our city to the coast and back!\"",
+        "Leyla wrote: \"My dad wrote the most interesting article last month. Everyone in the city read it!\"",
+        "\"My mum tested a new medicine last week. She is the most dedicated scientist in her team.\"",
+        "Ms. Reed said: \"Excellent! Your families work so hard. You should all be very proud of them!\""
+      ],
+      "translations": [
+        "Geçen hafta Ms. Reed sınıftan ailelerinin meslekleri hakkında yazmalarını istedi.",
+        "Nora yazdı: \"Babam tanıdığım en çalışkan doktor. Dün kırk hasta gördü!\"",
+        "\"Sabah yedide hastaneye gitti ve akşam sekizde eve geldi.\"",
+        "\"Annem geçen hafta altmış çocuğa ders verdi. Okulundaki en sabırlı öğretmen.\"",
+        "\"Dedem bu yaz en güzel domatesleri yetiştirdi. Onları markette de sattı!\"",
+        "Sam yazdı: \"Annem hastanedeki en ilgili hemşire. Dün otuz hastaya yardım etti.\"",
+        "\"Babam geçen hafta en uzun güzergahı kullandı. Şehrimizden kıyıya gidip geri döndü!\"",
+        "Leyla yazdı: \"Babam geçen ay en ilginç makaleyi yazdı. Şehirdeki herkes onu okudu!\"",
+        "\"Annem geçen hafta yeni bir ilaç test etti. Ekibindeki en özverili bilim insanı.\"",
+        "Ms. Reed dedi: \"Mükemmel! Aileleriniz çok çalışıyor. Hepiniz onlarla çok gurur duymalısınız!\""
+      ],
+      "questions": [
+        {
+          "q": "How many patients did Nora's daddy see yesterday?",
+          "correct": "Forty",
+          "wrong": [
+            "Thirty",
+            "Sixty"
+          ],
+          "hint": "Find Nora's daddy and the word patients in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Nora say about her mummy?",
+          "correct": "She is the most patient teacher in her school",
+          "wrong": [
+            "She is the most hardworking doctor",
+            "She is the most dedicated scientist"
+          ],
+          "hint": "Find Nora's mummy in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did Nora's grandpa do at the market?",
+          "correct": "He sold his tomatoes",
+          "wrong": [
+            "He bought fresh vegetables",
+            "He met his friends"
+          ],
+          "hint": "Find grandpa and the word market in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where did Sam's dad drive last week?",
+          "correct": "From their city to the coast and back",
+          "wrong": [
+            "From the hospital to the market",
+            "From the school to the library"
+          ],
+          "hint": "Find Sam's dad and the word drove in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did Leyla's mum do last week?",
+          "correct": "She tested a new medicine",
+          "wrong": [
+            "She wrote an article",
+            "She drove a long route"
+          ],
+          "hint": "Find Leyla's mum in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "A Busy Saturday in the Neighbourhood",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🛒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Last Saturday was the busiest day of the week for everyone in Greenfield!",
+        "Nora's mummy went to the bakery first and bought fresh bread and rolls for breakfast.",
+        "Then she drove to the market and got vegetables, fruit and milk for the week.",
+        "Nora's daddy took the rubbish out in the morning, then rode his bike to the chemist's.",
+        "He bought some medicine there and then went to the barber's for a haircut. You look so cool, Dad!",
+        "Sam's dad drove to the post office and sent a big package. Then he went to the bank.",
+        "Sam's mum met her friends at the café near the theatre. They sat, talked and drank tea for two hours!",
+        "Leyla's dad wrote at the café all morning, then went to the library and read three books.",
+        "Leyla's mum took Leyla to the hairdresser's in the afternoon. Then they went to the cinema together!",
+        "In the evening, all the families came home tired but happy. Calm down, everyone — it's nearly bedtime!"
+      ],
+      "translations": [
+        "Geçen Cumartesi Greenfield'daki herkes için haftanın en yoğun günüydü!",
+        "Nora'nın annesi önce fırına gitti ve kahvaltı için taze ekmek ve sandviç ekmeği aldı.",
+        "Sonra markete gitti ve haftalık sebze, meyve ve süt aldı.",
+        "Nora'nın babası sabah çöpü çıkardı, sonra bisikletiyle eczaneye gitti.",
+        "Orada biraz ilaç aldı ve sonra saç kesmek için berbere gitti. Çok şık görünüyorsunuz Baba!",
+        "Sam'in babası postaneye gitti ve büyük bir paket gönderdi. Sonra bankaya gitti.",
+        "Sam'in annesi tiyatronun yakınındaki kafede arkadaşlarıyla buluştu. İki saat oturup konuştular ve çay içtiler!",
+        "Leyla'nın babası sabah boyunca kafede yazdı, sonra kütüphaneye gidip üç kitap okudu.",
+        "Leyla'nın annesi öğleden sonra Leyla'yı kuaföre götürdü. Sonra birlikte sinemaya gittiler!",
+        "Akşam tüm aileler yorgun ama mutlu eve geldi. Sakin olun herkesler — neredeyse uyku vakti!"
+      ],
+      "questions": [
+        {
+          "q": "Where did Nora's mummy go first on Saturday?",
+          "correct": "To the bakery",
+          "wrong": [
+            "To the market",
+            "To the chemist's"
+          ],
+          "hint": "Find Nora's mummy and the word first in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Nora's daddy do at the chemist's?",
+          "correct": "He bought some medicine",
+          "wrong": [
+            "He sent a package",
+            "He got a haircut"
+          ],
+          "hint": "Find the word chemist's in the text.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where did Sam's dad go after the post office?",
+          "correct": "To the bank",
+          "wrong": [
+            "To the barber's",
+            "To the café"
+          ],
+          "hint": "Find Sam's dad and post office in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How long did Sam's mum stay at the café?",
+          "correct": "Two hours",
+          "wrong": [
+            "One hour",
+            "Three hours"
+          ],
+          "hint": "Find Sam's mum and café in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where did Leyla and her mum go after the hairdresser's?",
+          "correct": "To the cinema",
+          "wrong": [
+            "To the library",
+            "To the market"
+          ],
+          "hint": "Find Leyla and hairdresser's in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Comparing Our Families",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed said: \"Today, let's compare our families and their habits!\"",
+        "Nora said: \"My grandpa is the most active person in our family. He loves gardening, cycling and walking!\"",
+        "\"My grandma is more patient than my grandpa. But my grandpa is more energetic than anyone!\"",
+        "Sam said: \"My dad is the most adventurous person in our family. He loves driving to new places.\"",
+        "\"My mum is more organised than my dad. She always sets the table and plans the meals for the week.\"",
+        "\"But my dad is a better cook than my mum! He loves cooking at the weekend — and he makes the best soup!\"",
+        "Leyla said: \"My mum is the most dedicated person in our family. She loves working late and testing new things.\"",
+        "\"My dad is more relaxed than my mum. He loves sitting at the café and watching the world go by.\"",
+        "\"But my dad is the most creative person! He wrote the longest book in our city last year.\"",
+        "Ms. Reed smiled: \"Every family is unique. That's what makes comparing them so interesting!\""
+      ],
+      "translations": [
+        "Ms. Reed dedi: \"Bugün ailelerimizi ve alışkanlıklarını karşılaştıralım!\"",
+        "Nora dedi: \"Dedem ailemizin en aktif insanı. Bahçecilik, bisiklet ve yürüyüşü seviyor!\"",
+        "\"Büyükannem dedемden daha sabırlı. Ama dedem herkesten daha enerjik!\"",
+        "Sam dedi: \"Babam ailemizin en maceracı insanı. Yeni yerlere gitmeyi seviyor.\"",
+        "\"Annem babamdan daha düzenli. Her zaman masayı kuruyor ve haftalık yemekleri planlıyor.\"",
+        "\"Ama babam annemden daha iyi aşçı! Hafta sonu yemek yapmayı seviyor — ve en iyi çorbayı o yapıyor!\"",
+        "Leyla dedi: \"Annem ailemizin en özverili insanı. Geç saate kadar çalışmayı ve yeni şeyler denemeyi seviyor.\"",
+        "\"Babam annemden daha sakin. Kafede oturup dünyayı izlemeyi seviyor.\"",
+        "\"Ama babam en yaratıcı insan! Geçen yıl şehrimizdeki en uzun kitabı yazdı.\"",
+        "Ms. Reed gülümsedi: \"Her aile eşsiz. Bu onları karşılaştırmayı bu kadar ilginç yapan şey!\""
+      ],
+      "questions": [
+        {
+          "q": "What does Nora say about her grandpa?",
+          "correct": "He is the most active person in their family",
+          "wrong": [
+            "He is the most patient",
+            "He is the most organised"
+          ],
+          "hint": "Find grandpa in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is more organised in Sam's family — his mum or his dad?",
+          "correct": "His mum",
+          "wrong": [
+            "His dad",
+            "They are equally organised"
+          ],
+          "hint": "Find the word organised in the text.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam say his dad loves doing at the weekend?",
+          "correct": "Cooking",
+          "wrong": [
+            "Driving to new places",
+            "Setting the table"
+          ],
+          "hint": "Find Sam's dad and the word weekend in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Leyla say about her dad compared to her mum?",
+          "correct": "He is more relaxed than her mum",
+          "wrong": [
+            "He is more dedicated",
+            "He is more organised"
+          ],
+          "hint": "Find Leyla's dad and the word relaxed in the text.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What did Leyla's dad write last year?",
+          "correct": "The longest book in their city",
+          "wrong": [
+            "The most interesting article",
+            "The best recipe book"
+          ],
+          "hint": "Find Leyla's dad and the word wrote in the text.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "What Is This Person's Job?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed played a guessing game. \"I will describe a person's job. You guess what it is!\"",
+        "\"This person works in the most important building in the neighbourhood.\"",
+        "\"Every day, they check people who are not well. They help them feel better.\"",
+        "\"They wear special clothes to work. They use the most important tools to test people.\"",
+        "\"They work with a team of the most caring people in the city.\"",
+        "\"Yesterday, this person saw fifty patients. It was the busiest day of the month!\"",
+        "\"This person woke up at six, drove to work and came home at nine in the evening.\"",
+        "\"They are the most hardworking person in their family. Their children are very proud of them.\"",
+        "Nora whispered to Sam: \"I think I know! They check people, wear special clothes and work in a big building…\"",
+        "Sam's eyes went wide: \"Is it a doctor or a nurse?\"",
+        "Nora nodded: \"Both work there — but this person checks patients and helps them get better. Not this time, Sam — it's not a nurse!\"",
+        "Ms. Reed smiled: \"Go ahead, Nora — who is it?\" Nora stood up: \"A doctor!\""
+      ],
+      "translations": [
+        "Ms. Reed bir tahmin oyunu oynadı. \"Bir kişinin mesleğini anlatacağım. Ne olduğunu tahmin edin!\"",
+        "\"Bu kişi mahalledeki en önemli binada çalışıyor.\"",
+        "\"Her gün iyi hissetmeyen insanları kontrol ediyorlar. Onların daha iyi hissetmelerine yardımcı oluyorlar.\"",
+        "\"İşe özel kıyafetler giyiyorlar. İnsanları test etmek için en önemli aletleri kullanıyorlar.\"",
+        "\"Şehirdeki en ilgili insanlardan oluşan bir ekiple çalışıyorlar.\"",
+        "\"Dün bu kişi elli hasta gördü. Ayın en yoğun günüydü!\"",
+        "\"Bu kişi saat altıda uyandı, işe gitti ve akşam dokuzda eve geldi.\"",
+        "\"Ailelerinin en çalışkan insanı. Çocukları onlarla çok gurur duyuyor.\"",
+        "Nora Sam'e fısıldadı: \"Sanırım biliyorum! İnsanları kontrol ediyorlar, özel kıyafetler giyiyorlar ve büyük bir binada çalışıyorlar…\"",
+        "Sam'in gözleri büyüdü: \"Doktor mu hemşire mi?\"",
+        "Nora başını salladı: \"İkisi de orada çalışıyor — ama bu kişi hastaları kontrol ediyor ve iyileşmelerine yardımcı oluyor. Bu sefer değil Sam — hemşire değil!\"",
+        "Ms. Reed gülümsedi: \"Buyur Nora — kim bu?\" Nora ayağa kalktı: \"Doktor!\""
+      ],
+      "questions": [
+        {
+          "q": "What is the mystery person's job?",
+          "correct": "A doctor",
+          "wrong": [
+            "A nurse",
+            "A scientist"
+          ],
+          "hint": "Read what Nora says at the end of the text.",
+          "hl": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "q": "Where does this person work?",
+          "correct": "In a hospital",
+          "wrong": [
+            "In a laboratory",
+            "In a school"
+          ],
+          "hint": "Think about the most important building where sick people go.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "How many patients did this person see yesterday?",
+          "correct": "Fifty",
+          "wrong": [
+            "Forty",
+            "Thirty"
+          ],
+          "hint": "Find the word patients in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What clue does Nora use to decide it is not a nurse?",
+          "correct": "This person checks patients and helps them get better",
+          "wrong": [
+            "This person wears special clothes",
+            "This person works in a big building"
+          ],
+          "hint": "Read what Nora says to Sam.",
+          "hl": [
+            10
+          ]
+        },
+        {
+          "q": "What time did this person come home yesterday?",
+          "correct": "At nine in the evening",
+          "wrong": [
+            "At eight in the evening",
+            "At seven in the evening"
+          ],
+          "hint": "Find the word came home in the text.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Really Happened on Sunday?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎭",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "On Sunday morning, something unusual happened at the Greenfield market.",
+        "Sam's dad drove there to buy groceries, but he forgot his wallet at home!",
+        "He went back, got the wallet and drove to the market again. That took an hour!",
+        "When he finally got there, he met Nora's grandpa at the vegetable stall.",
+        "Nora's grandpa came to sell his tomatoes and fruit — but he brought the wrong box!",
+        "He opened the box and found his gardening tools inside. He left the tomatoes at home!",
+        "Sam's dad laughed and said: \"Don't worry! Let's go to the greengrocer's instead.\"",
+        "They walked to the greengrocer's together and bought everything they needed.",
+        "On the way back, they stopped at the bakery and got fresh bread too.",
+        "Sam's dad drove Nora's grandpa home first, then went home himself.",
+        "When Sam's dad told the family what happened, everyone laughed for a long time.",
+        "Sam said: \"Sounds fun! Next Sunday, I'm coming to the market with you, Dad!\""
+      ],
+      "translations": [
+        "Pazar sabahı Greenfield marketinde alışılmadık bir şey oldu.",
+        "Sam'in babası market alışverişi yapmak için oraya gitti — ama cüzdanını evde unuttu!",
+        "Geri döndü, cüzdanı aldı ve tekrar markete gitti. Bu bir saat sürdü!",
+        "Sonunda oraya vardığında sebze tezgahında Nora'nın dedesini gördü.",
+        "Nora'nın dedesi domates ve meyvelerini satmaya geldi — ama yanlış kutuyu getirdi!",
+        "Kutuyu açtı ve içinde bahçe aletlerini buldu. Domatesleri evde bırakmıştı!",
+        "Sam'in babası güldü ve dedi: \"Merak etme! Bunun yerine manava gidelim.\"",
+        "Birlikte manava yürüdüler ve ihtiyaçları olan her şeyi aldılar.",
+        "Geri dönerken fırında durdular ve taze ekmek de aldılar.",
+        "Sam'in babası önce Nora'nın dedesini eve bıraktı, sonra kendisi eve gitti.",
+        "Sam'in babası aileye olanları anlattığında herkes uzun süre güldü.",
+        "Sam dedi: \"Kulağa eğlenceli geliyor! Gelecek Pazar markete seninle geliyorum, Baba!\""
+      ],
+      "questions": [
+        {
+          "q": "Why did Sam's dad go back home from the market?",
+          "correct": "He forgot his wallet",
+          "wrong": [
+            "He forgot his shopping list",
+            "He met Nora's grandpa"
+          ],
+          "hint": "Find why Sam's dad turned back in the text.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Nora's grandpa find in his box at the market?",
+          "correct": "His gardening tools",
+          "wrong": [
+            "His tomatoes",
+            "His wallet"
+          ],
+          "hint": "Find the word box in the text.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where did Sam's dad and Nora's grandpa go instead of the market?",
+          "correct": "To the greengrocer's",
+          "wrong": [
+            "To the bakery",
+            "To the café"
+          ],
+          "hint": "Find the word instead in the text.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did they get from the bakery on the way back?",
+          "correct": "Fresh bread",
+          "wrong": [
+            "Vegetables and fruit",
+            "Milk and eggs"
+          ],
+          "hint": "Find the word bakery in the text.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "How did Sam's family feel when they heard the story?",
+          "correct": "They laughed for a long time",
+          "wrong": [
+            "They felt sorry for Dad",
+            "They were angry"
+          ],
+          "hint": "Find what happened when Sam's dad told the story.",
+          "hl": [
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

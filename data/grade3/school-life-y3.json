@@ -1,0 +1,792 @@
+{
+  "theme": "School Life",
+  "themeNumber": 1,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "People at Our School",
+      "subtitle": "Find the right person!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "This is our school.",
+        "This is Ms. Hart. She is our teacher.",
+        "That is Mr. Blake. He is the headteacher.",
+        "That is Mrs. Pine. She is the school nurse.",
+        "That is Mr. Cole. He is the caretaker.",
+        "That is Ms. Shaw. She is the librarian.",
+        "Maya and Leo are classmates.",
+        "They are in Year 3.",
+        "We love our school!"
+      ],
+      "translations": [
+        "Bu bizim okulumuzdur.",
+        "Bu Ms. Hart. O bizim öğretmenimizdir.",
+        "Şu Mr. Blake. O okul müdürüdür.",
+        "Şu Mrs. Pine. O okul hemşiresidir.",
+        "Şu Mr. Cole. O okul hizmetlisidir.",
+        "Şu Ms. Shaw. O kütüphanecimizdir.",
+        "Maya ve Leo sınıf arkadaşıdır.",
+        "Onlar 3. sınıftadır.",
+        "Okulumuzu seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "Who is the headteacher?",
+          "correct": "Mr. Blake",
+          "wrong": ["Mr. Cole", "Ms. Shaw"],
+          "hint": "Find the word headteacher in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "Who is the school nurse?",
+          "correct": "Mrs. Pine",
+          "wrong": ["Ms. Hart", "Ms. Shaw"],
+          "hint": "Find the word nurse in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "Who is the caretaker?",
+          "correct": "Mr. Cole",
+          "wrong": ["Mr. Blake", "Ms. Shaw"],
+          "hint": "Find the word caretaker in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "Who is the librarian?",
+          "correct": "Ms. Shaw",
+          "wrong": ["Mrs. Pine", "Ms. Hart"],
+          "hint": "Find the word librarian in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What are Maya and Leo?",
+          "correct": "Classmates",
+          "wrong": ["Teachers", "Caretakers"],
+          "hint": "Find Maya and Leo in the text.",
+          "hl": [6]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Places at Our School",
+      "subtitle": "Find the right place!",
+      "icon": "🗺️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "There are many places at our school.",
+        "Is there a library? Yes, there is a library.",
+        "Is there a gym? Yes, there is a gym.",
+        "There is an art room and a music room.",
+        "There is a corridor between the classrooms.",
+        "The headteacher works at the office.",
+        "There is a sports field outside.",
+        "Is there a meeting room? Yes, there is.",
+        "We have everything at our school!"
+      ],
+      "translations": [
+        "Okulumuzdaki birçok yer var.",
+        "Bir kütüphane var mı? Evet, bir kütüphane var.",
+        "Bir spor salonu var mı? Evet, bir spor salonu var.",
+        "Bir resim odası ve bir müzik odası var.",
+        "Sınıfların arasında bir koridor var.",
+        "Okul müdürü ofiste çalışır.",
+        "Dışarıda bir spor sahası var.",
+        "Bir toplantı odası var mı? Evet, var.",
+        "Okulumuzdaki her şeyimiz var!"
+      ],
+      "questions": [
+        {
+          "q": "Where does the headteacher work?",
+          "correct": "At the office",
+          "wrong": ["At the gym", "At the library"],
+          "hint": "Find the word headteacher in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Where is the corridor?",
+          "correct": "Between the classrooms",
+          "wrong": ["Outside the school", "Next to the office"],
+          "hint": "Find the word corridor in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What is outside?",
+          "correct": "A sports field",
+          "wrong": ["A gym", "A meeting room"],
+          "hint": "Find the word outside in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "Which two rooms are in the same sentence?",
+          "correct": "Art room and music room",
+          "wrong": ["Gym and library", "Office and meeting room"],
+          "hint": "Find the sentence with 'and' in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "Is there a meeting room at the school?",
+          "correct": "Yes, there is.",
+          "wrong": ["No, there isn't.", "I don't know."],
+          "hint": "Find the word meeting room in the text.",
+          "hl": [7]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Birthday Months",
+      "subtitle": "Find the right month!",
+      "icon": "🎂",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "What month is it now? It is September.",
+        "We are back at school!",
+        "When is Maya's birthday? It is in October.",
+        "When is Leo's birthday? It is in January.",
+        "When is Ms. Hart's birthday? It is in March.",
+        "Mr. Blake's birthday is in June.",
+        "Mrs. Pine's birthday is in November.",
+        "Mr. Cole's birthday is in August.",
+        "Ms. Shaw's birthday is in April.",
+        "Every month is a birthday month!"
+      ],
+      "translations": [
+        "Şu an hangi ay? Eylül.",
+        "Okula geri döndük!",
+        "Maya'nın doğum günü ne zaman? Ekim'de.",
+        "Leo'nun doğum günü ne zaman? Ocak'ta.",
+        "Ms. Hart'ın doğum günü ne zaman? Mart'ta.",
+        "Mr. Blake'in doğum günü Haziran'da.",
+        "Mrs. Pine'ın doğum günü Kasım'da.",
+        "Mr. Cole'un doğum günü Ağustos'ta.",
+        "Ms. Shaw'ın doğum günü Nisan'da.",
+        "Her ay bir doğum günü ayıdır!"
+      ],
+      "questions": [
+        {
+          "q": "What month is it now?",
+          "correct": "September",
+          "wrong": ["October", "January"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "When is Maya's birthday?",
+          "correct": "In October",
+          "wrong": ["In January", "In March"],
+          "hint": "Find Maya in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "When is Leo's birthday?",
+          "correct": "In January",
+          "wrong": ["In June", "In April"],
+          "hint": "Find Leo in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "When is Mrs. Pine's birthday?",
+          "correct": "In November",
+          "wrong": ["In August", "In April"],
+          "hint": "Find Mrs. Pine in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "When is Ms. Shaw's birthday?",
+          "correct": "In April",
+          "wrong": ["In June", "In March"],
+          "hint": "Find Ms. Shaw in the text.",
+          "hl": [8]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "A Day at School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya arrives at school in the morning.",
+        "Good morning, Ms. Hart!",
+        "Good morning, Maya! It is good to see you!",
+        "Leo arrives at school, too.",
+        "Hi, Leo! It is nice to see you!",
+        "Good afternoon! says Ms. Hart after lunch.",
+        "Good afternoon, Ms. Hart! says Maya.",
+        "At the end of the day, Ms. Hart says: Have a nice day!",
+        "See you later! say Maya and Leo.",
+        "Good night! says Leo at home.",
+        "Take care! says Maya."
+      ],
+      "translations": [
+        "Maya sabah okula gelir.",
+        "Günaydın, Ms. Hart!",
+        "Günaydın, Maya! Seni görmek güzel!",
+        "Leo da okula gelir.",
+        "Merhaba, Leo! Seni görmek güzel!",
+        "Ms. Hart öğleden sonra 'İyi öğleden sonralar!' der.",
+        "İyi öğleden sonralar, Ms. Hart! der Maya.",
+        "Günün sonunda Ms. Hart şöyle der: İyi günler!",
+        "Görüşürüz! der Maya ve Leo.",
+        "İyi geceler! der Leo evde.",
+        "Kendine iyi bak! der Maya."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Greetings during the school day",
+          "wrong": ["School rules", "Birthday celebrations"],
+          "hint": "Think about what Maya, Leo and Ms. Hart say to each other.",
+          "hl": [0, 1, 2, 5, 6, 7, 8, 9, 10]
+        },
+        {
+          "q": "What does Ms. Hart say in the morning?",
+          "correct": "Good morning, Maya!",
+          "wrong": ["Good afternoon!", "Have a nice day!"],
+          "hint": "Read the beginning of the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Ms. Hart say after lunch?",
+          "correct": "Good afternoon!",
+          "wrong": ["Good morning!", "Good night!"],
+          "hint": "Find the word lunch in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What does Ms. Hart say at the end of the day?",
+          "correct": "Have a nice day!",
+          "wrong": ["See you later!", "Take care!"],
+          "hint": "Find the end of the day in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "Where does Leo say Good night?",
+          "correct": "At home",
+          "wrong": ["At school", "In the corridor"],
+          "hint": "Find Good night in the text.",
+          "hl": [9]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "School Rules",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📋",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart has a list of school rules.",
+        "You must be on time at school.",
+        "You must listen to your teacher.",
+        "You must keep the classroom clean.",
+        "You mustn't run in the corridor.",
+        "You mustn't shout in the library.",
+        "You mustn't use your phone at school.",
+        "Leo asks: What is that?",
+        "That is the school rules board, says Ms. Hart.",
+        "Maya says: Cool! I know all the rules!",
+        "Ms. Hart says: Have a good day, everyone!"
+      ],
+      "translations": [
+        "Ms. Hart'ın bir okul kuralları listesi var.",
+        "Okulda zamanında olmalısın.",
+        "Öğretmenini dinlemelisin.",
+        "Sınıfı temiz tutmalısın.",
+        "Koridorda koşmamalısın.",
+        "Kütüphanede bağırmamalısın.",
+        "Okulda telefonunu kullanmamalısın.",
+        "Leo soruyor: O nedir?",
+        "O okul kuralları panosu, diyor Ms. Hart.",
+        "Maya diyor: Harika! Tüm kuralları biliyorum!",
+        "Ms. Hart diyor: Herkese iyi günler!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Rules at school",
+          "wrong": ["Places at school", "Birthday celebrations"],
+          "hint": "Think about what Ms. Hart's list is about.",
+          "hl": [0, 1, 2, 3, 4, 5, 6]
+        },
+        {
+          "q": "What must you do at school?",
+          "correct": "Be on time",
+          "wrong": ["Run in the corridor", "Shout in the library"],
+          "hint": "Find the word must in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Where mustn't you run?",
+          "correct": "In the corridor",
+          "wrong": ["In the library", "In the classroom"],
+          "hint": "Find the word run in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Leo ask about?",
+          "correct": "The school rules board",
+          "wrong": ["The library", "The corridor"],
+          "hint": "Find Leo in the text.",
+          "hl": [7, 8]
+        },
+        {
+          "q": "How does Maya feel about the rules?",
+          "correct": "She knows all the rules",
+          "wrong": ["She doesn't like the rules", "She is scared of the rules"],
+          "hint": "Find Maya in the text.",
+          "hl": [9]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Meet the School Team",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👥",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya and Leo are at school.",
+        "Maya asks: Who is that woman?",
+        "That is Ms. Shaw. She is the librarian.",
+        "She works at the library.",
+        "Leo asks: Who is that man?",
+        "That is Mr. Cole. He is the caretaker.",
+        "He works at the school every day.",
+        "Maya asks: Is there a school nurse here?",
+        "Yes, there is. That is Mrs. Pine.",
+        "She works at the office.",
+        "Mr. Blake is the headteacher.",
+        "He works at the big office upstairs.",
+        "Ms. Hart says: They all help us at school!"
+      ],
+      "translations": [
+        "Maya ve Leo okulda.",
+        "Maya soruyor: Şu kadın kim?",
+        "O Ms. Shaw. O kütüphaneci.",
+        "Kütüphanede çalışıyor.",
+        "Leo soruyor: Şu adam kim?",
+        "O Mr. Cole. O okul hizmetlisi.",
+        "Her gün okulda çalışıyor.",
+        "Maya soruyor: Burada bir okul hemşiresi var mı?",
+        "Evet, var. O Mrs. Pine.",
+        "Ofiste çalışıyor.",
+        "Mr. Blake okul müdürü.",
+        "Üst kattaki büyük ofiste çalışıyor.",
+        "Ms. Hart diyor: Hepsi okulda bize yardım ediyor!"
+      ],
+      "questions": [
+        {
+          "q": "Where does Ms. Shaw work?",
+          "correct": "At the library",
+          "wrong": ["At the office", "At the gym"],
+          "hint": "Find Ms. Shaw in the text.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "Who is the caretaker?",
+          "correct": "Mr. Cole",
+          "wrong": ["Mr. Blake", "Ms. Shaw"],
+          "hint": "Find the word caretaker in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Where does Mrs. Pine work?",
+          "correct": "At the office",
+          "wrong": ["At the library", "At the sports field"],
+          "hint": "Find Mrs. Pine in the text.",
+          "hl": [8, 9]
+        },
+        {
+          "q": "Who is Mr. Blake?",
+          "correct": "The headteacher",
+          "wrong": ["The caretaker", "The librarian"],
+          "hint": "Find Mr. Blake in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Ms. Hart say about the school team?",
+          "correct": "They all help us at school.",
+          "wrong": ["They all work at the library.", "They all know the rules."],
+          "hint": "Read the last sentence.",
+          "hl": [12]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "Happy Birthday, Leo!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Today is a special day.",
+        "When is Leo's birthday? It is in January.",
+        "It is January now!",
+        "Maya and Ms. Hart prepare a surprise.",
+        "They decorate the classroom with balloons.",
+        "Maya brings a big cake.",
+        "There are eight candles on the cake.",
+        "Ms. Hart brings a gift for Leo.",
+        "Leo comes in and sees the surprise.",
+        "Happy Birthday, Leo! say Maya and Ms. Hart.",
+        "Cool! says Leo. Thank you!",
+        "Leo asks: What month is it now?",
+        "It is January, says Maya. Your birthday month!"
+      ],
+      "translations": [
+        "Bugün özel bir gün.",
+        "Leo'nun doğum günü ne zaman? Ocak'ta.",
+        "Şimdi Ocak!",
+        "Maya ve Ms. Hart bir sürpriz hazırlıyor.",
+        "Sınıfı balonlarla süslüyorlar.",
+        "Maya büyük bir pasta getiriyor.",
+        "Pastanın üstünde sekiz mum var.",
+        "Ms. Hart Leo için bir hediye getiriyor.",
+        "Leo içeri giriyor ve sürprizi görüyor.",
+        "İyi ki doğdun, Leo! diyor Maya ve Ms. Hart.",
+        "Harika! diyor Leo. Teşekkür ederim!",
+        "Leo soruyor: Şu an hangi ay?",
+        "Ocak, diyor Maya. Senin doğum günü ayın!"
+      ],
+      "questions": [
+        {
+          "q": "When is Leo's birthday?",
+          "correct": "In January",
+          "wrong": ["In March", "In October"],
+          "hint": "Find Leo's birthday in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What do Maya and Ms. Hart prepare?",
+          "correct": "A surprise",
+          "wrong": ["A school trip", "A school play"],
+          "hint": "Find the word prepare in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Maya bring?",
+          "correct": "A big cake",
+          "wrong": ["A gift", "A balloon"],
+          "hint": "Find Maya in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "How many candles are on the cake?",
+          "correct": "Eight",
+          "wrong": ["Six", "Ten"],
+          "hint": "Find the word candles in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "What does Ms. Hart bring for Leo?",
+          "correct": "A gift",
+          "wrong": ["A cake", "A balloon"],
+          "hint": "Find Ms. Hart in the text.",
+          "hl": [7]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Our School, Our Rules",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "✋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart takes Maya and Leo to the corridor.",
+        "She points to a big board on the wall.",
+        "What is that? asks Leo.",
+        "That is our school rules board, says Ms. Hart.",
+        "You must walk in the corridor.",
+        "You mustn't run in the corridor.",
+        "You must be quiet in the library.",
+        "You mustn't shout in the library.",
+        "You must help the caretaker.",
+        "You mustn't drop litter at school.",
+        "Leo says: I must follow all the rules!",
+        "Maya says: Yes! We mustn't forget the rules!",
+        "Ms. Hart smiles: Good job, everyone!"
+      ],
+      "translations": [
+        "Ms. Hart, Maya ve Leo'yu koridora götürüyor.",
+        "Duvardaki büyük bir tabelayı gösteriyor.",
+        "O nedir? diye soruyor Leo.",
+        "O bizim okul kuralları panomuzdur, diyor Ms. Hart.",
+        "Koridorda yürümelisin.",
+        "Koridorda koşmamalısın.",
+        "Kütüphanede sessiz olmalısın.",
+        "Kütüphanede bağırmamalısın.",
+        "Hizmetliye yardım etmelisin.",
+        "Okulda çöp atmamalısın.",
+        "Leo diyor: Tüm kurallara uymalıyım!",
+        "Maya diyor: Evet! Kuralları unutmamalıyız!",
+        "Ms. Hart gülümsüyor: Aferin, herkes!"
+      ],
+      "questions": [
+        {
+          "q": "Where does Ms. Hart take Maya and Leo?",
+          "correct": "To the corridor",
+          "wrong": ["To the library", "To the office"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "What is on the wall?",
+          "correct": "The school rules board",
+          "wrong": ["A clock", "A picture"],
+          "hint": "Find the word board in the text.",
+          "hl": [1, 3]
+        },
+        {
+          "q": "What must you do in the corridor?",
+          "correct": "Walk",
+          "wrong": ["Run", "Shout"],
+          "hint": "Find the word corridor and must in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What must you do in the library?",
+          "correct": "Be quiet",
+          "wrong": ["Run", "Drop litter"],
+          "hint": "Find the word library and must in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "What mustn't you do at school?",
+          "correct": "Drop litter",
+          "wrong": ["Help the caretaker", "Walk in the corridor"],
+          "hint": "Find the word mustn't and school in the text.",
+          "hl": [9]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "A Surprise at School",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎁",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is a cold morning in February.",
+        "Maya arrives at school early.",
+        "She finds something in the corridor.",
+        "There is a big box near the library.",
+        "Maya asks Mr. Cole: What is that?",
+        "Mr. Cole says: I don't know. Ask Ms. Hart!",
+        "Maya must find Ms. Hart.",
+        "She runs to the office.",
+        "Ms. Hart smiles and says nothing.",
+        "Leo arrives and sees the box, too.",
+        "Leo asks: Is that a surprise?",
+        "Ms. Hart says: Wait and see!",
+        "Later, everyone is happy."
+      ],
+      "translations": [
+        "Şubat'ta soğuk bir sabah.",
+        "Maya okula erken geliyor.",
+        "Koridorda bir şey buluyor.",
+        "Kütüphanenin yanında büyük bir kutu var.",
+        "Maya Mr. Cole'a soruyor: O nedir?",
+        "Mr. Cole diyor: Bilmiyorum. Ms. Hart'a sor!",
+        "Maya Ms. Hart'ı bulmalı.",
+        "Ofise koşuyor.",
+        "Ms. Hart gülümsüyor ve hiçbir şey söylemiyor.",
+        "Leo da geliyor ve kutuyu görüyor.",
+        "Leo soruyor: Bu bir sürpriz mi?",
+        "Ms. Hart diyor: Bekle ve gör!",
+        "Daha sonra herkes mutlu."
+      ],
+      "questions": [
+        {
+          "q": "What month is it in the story?",
+          "correct": "February",
+          "wrong": ["January", "March"],
+          "hint": "Read the first sentence carefully.",
+          "hl": [0]
+        },
+        {
+          "q": "Where does Maya find the box?",
+          "correct": "Near the library",
+          "wrong": ["At the office", "In the classroom"],
+          "hint": "Find the word box in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "Why does Maya run to the office?",
+          "correct": "She must find Ms. Hart.",
+          "wrong": ["She wants to find Leo.", "She wants to open the box."],
+          "hint": "Read what Mr. Cole says to Maya.",
+          "hl": [5, 6, 7]
+        },
+        {
+          "q": "Why does Ms. Hart say nothing?",
+          "correct": "Because the box is a surprise.",
+          "wrong": ["Because she is sad.", "Because she is busy."],
+          "hint": "Think about what Leo asks Ms. Hart.",
+          "hl": [8, 10, 11]
+        },
+        {
+          "q": "How does everyone feel at the end?",
+          "correct": "Happy",
+          "wrong": ["Sad", "Scared"],
+          "hint": "Read the last sentence.",
+          "hl": [12]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "When Is the Party?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎈",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya has a big smile today.",
+        "Leo asks: When is your birthday, Maya?",
+        "Maya says: It is in May!",
+        "Leo asks: What month is it now?",
+        "It is July, says Ms. Hart.",
+        "Leo thinks: May is before July.",
+        "Leo asks: Is your birthday party in the summer holiday?",
+        "Maya smiles and says: Yes!",
+        "Ms. Hart says: Have a good weekend, everyone!",
+        "Maya says: Thank you! See you later!",
+        "At home, Maya decorates her room with balloons.",
+        "There are gifts and candles on the table.",
+        "Maya is very happy. Her birthday party is soon!"
+      ],
+      "translations": [
+        "Maya bugün büyük bir gülümsemeyle geliyor.",
+        "Leo soruyor: Doğum günün ne zaman, Maya?",
+        "Maya diyor: Mayıs'ta!",
+        "Leo soruyor: Şu an hangi ay?",
+        "Temmuz, diyor Ms. Hart.",
+        "Leo düşünüyor: Mayıs, Temmuz'dan önce gelir.",
+        "Leo soruyor: Doğum günü partisi yaz tatilinde mi?",
+        "Maya gülümsüyor ve diyor: Evet!",
+        "Ms. Hart diyor: Herkese iyi hafta sonları!",
+        "Maya diyor: Teşekkürler! Görüşürüz!",
+        "Evde Maya odasını balonlarla süslüyor.",
+        "Masada hediyeler ve mumlar var.",
+        "Maya çok mutlu. Doğum günü partisi yakında!"
+      ],
+      "questions": [
+        {
+          "q": "When is Maya's birthday?",
+          "correct": "In May",
+          "wrong": ["In July", "In January"],
+          "hint": "Find Maya's answer about her birthday.",
+          "hl": [2]
+        },
+        {
+          "q": "What month is it now in the story?",
+          "correct": "July",
+          "wrong": ["May", "June"],
+          "hint": "Find what Ms. Hart says about the month.",
+          "hl": [4]
+        },
+        {
+          "q": "Why is Maya's birthday party in the summer holiday?",
+          "correct": "Because her birthday is in May and it is now July.",
+          "wrong": ["Because she wants a big party.", "Because Ms. Hart says so."],
+          "hint": "Think about when Maya's birthday is and what month it is now.",
+          "hl": [2, 4, 5, 6]
+        },
+        {
+          "q": "What does Maya do at home?",
+          "correct": "She decorates her room with balloons.",
+          "wrong": ["She prepares a cake.", "She brings gifts to school."],
+          "hint": "Find Maya at home in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "How does Maya feel?",
+          "correct": "Very happy",
+          "wrong": ["Sad", "Worried"],
+          "hint": "Read the last sentence.",
+          "hl": [12]
+        }
+      ]
+    }
+  ]
+}

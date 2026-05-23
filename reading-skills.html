@@ -1657,7 +1657,7 @@ button.celeb-retry {
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" onclick="showScreen('screen-theme')" role="button" tabindex="0">
+    <div class="sinif-card aktif" onclick="selectGrade('grade2')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-num">2. Sınıf</div>
         <div class="sinif-sub">Primary 2</div>
@@ -1665,20 +1665,20 @@ button.celeb-retry {
       <div class="sinif-badge">Başla →</div>
     </div>
 
-    <div class="sinif-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
+    <div class="sinif-card aktif" onclick="selectGrade('grade3')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-num">3. Sınıf</div>
         <div class="sinif-sub">Primary 3</div>
       </div>
-      <div class="sinif-badge">Yakında</div>
+      <div class="sinif-badge">Başla →</div>
     </div>
 
-    <div class="sinif-card yakinda" onclick="showYakindaToast()" role="button" tabindex="0">
+    <div class="sinif-card aktif" onclick="selectGrade('grade4')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-num">4. Sınıf</div>
         <div class="sinif-sub">Primary 4</div>
       </div>
-      <div class="sinif-badge">Yakında</div>
+      <div class="sinif-badge">Başla →</div>
     </div>
   </div>
 </div>
@@ -1698,71 +1698,8 @@ button.celeb-retry {
   </div>
 
   <div class="theme-list">
-    <div class="theme-card aktif" onclick="selectTopic('school-life')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#FFF0F0;">🏫</div>
-        <div class="theme-info">
-          <div class="theme-name">School Life</div>
-          <div class="theme-desc">Okul hayatı</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-
-    <div class="theme-card aktif" onclick="selectTopic('classroom-life')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#E8F4FF;">📚</div>
-        <div class="theme-info">
-          <div class="theme-name">Classroom Life</div>
-          <div class="theme-desc">Sınıf hayatı</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-
-    <div class="theme-card aktif" onclick="selectTopic('personal-life')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#FFF0F5;">😊</div>
-        <div class="theme-info">
-          <div class="theme-name">Personal Life</div>
-          <div class="theme-desc">Kişisel hayat</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-
-    <div class="theme-card aktif" onclick="selectTopic('family-life')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#FFF5E0;">👨‍👩‍👧</div>
-        <div class="theme-info">
-          <div class="theme-name">Family Life</div>
-          <div class="theme-desc">Aile hayatı</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-
-    <div class="theme-card aktif" onclick="selectTopic('homes-houses')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#E8FFE8;">🏠</div>
-        <div class="theme-info">
-          <div class="theme-name">Homes & Houses</div>
-          <div class="theme-desc">Evler ve konutlar</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-
-    <div class="theme-card aktif" onclick="selectTopic('life-in-city')" role="button" tabindex="0">
-      <div class="theme-left">
-        <div class="theme-icon" style="background:#E8F0FF;">🌆</div>
-        <div class="theme-info">
-          <div class="theme-name">Life in the City</div>
-          <div class="theme-desc">Şehir hayatı</div>
-        </div>
-      </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
+  <div class="theme-list" id="theme-list">
+    <!-- renderThemeList() tarafından dinamik olarak doldurulur -->
   </div>
 </div>
 
@@ -1826,6 +1763,9 @@ const SKILLS = {
   int:  { emoji: '🔬', label: 'Dikkatli Okuma', help: 'Aşağıdaki hikayelerden birini seç. Her cümleyi dikkatlice oku!' },
   inf:  { emoji: '🧩', label: 'Çıkarım',        help: 'Aşağıdaki hikayelerden birini seç. İpuçlarına dikkat et!' },
 };
+
+// Aktif sınıf — sınıf seçiminde güncellenir
+let currentGrade = 'grade2';
 
 // Aktif tema — theme seçiminde güncellenir
 let currentTopic = 'school-life';
@@ -2077,6 +2017,60 @@ function shuffle(a){const r=[...a];for(let i=r.length-1;i>0;i--){const j=Math.fl
 
 setVars('scan'); // CSS renk değişkenlerini ayarla — DATA olmadan render etme
 
+function selectGrade(grade) {
+  currentGrade = grade;
+  TOPIC_TEXTS = null;
+  DATA = null;
+  renderThemeList();
+  showScreen('screen-theme');
+}
+
+function renderThemeList() {
+  const gradeTopics = {
+    'grade2': [
+      { key: 'school-life',    icon: '🏫', name: 'School Life',        desc: 'Okul hayatı' },
+      { key: 'classroom-life', icon: '📚', name: 'Classroom Life',     desc: 'Sınıf hayatı' },
+      { key: 'personal-life',  icon: '😊', name: 'Personal Life',      desc: 'Kişisel hayat' },
+      { key: 'family-life',    icon: '👨‍👩‍👧', name: 'Family Life',       desc: 'Aile hayatı' },
+      { key: 'homes-houses',   icon: '🏠', name: 'Homes & Houses',     desc: 'Evler ve konutlar' },
+      { key: 'life-in-city',   icon: '🌆', name: 'Life in the City',   desc: 'Şehir hayatı' },
+    ],
+    'grade3': [
+      { key: 'school-life-y3',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
+      { key: 'classroom-life-y3', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
+      { key: 'personal-life-y3',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
+      { key: 'family-life-y3',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
+      { key: 'homes-houses-y3',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
+      { key: 'life-in-the-city-y3', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
+    ],
+    'grade4': [
+      { key: 'school-life-y4',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
+      { key: 'classroom-life-y4', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
+      { key: 'personal-life-y4',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
+      { key: 'family-life-y4',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
+      { key: 'homes-houses-y4',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
+      { key: 'life-in-the-city-y4', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
+    ],
+  };
+
+  const topics = gradeTopics[currentGrade] || gradeTopics['grade2'];
+  const list = document.querySelector('.theme-list');
+  if (!list) return;
+
+  list.innerHTML = topics.map(t => `
+    <div class="theme-card aktif" onclick="selectTopic('${t.key}')" role="button" tabindex="0">
+      <div class="theme-left">
+        <div class="theme-icon">${t.icon}</div>
+        <div class="theme-info">
+          <div class="theme-name">${t.name}</div>
+          <div class="theme-desc">${t.desc}</div>
+        </div>
+      </div>
+      <div class="theme-badge">Başla →</div>
+    </div>
+  `).join('');
+}
+
 function selectTopic(topicKey) {
   currentTopic = topicKey;
   // Yeni tema için tüm veriyi sıfırla — startSkill çağrıldığında loadTopicData
@@ -2091,7 +2085,7 @@ async function startSkill(sk, textId) {
   // Veri yükle — henüz yüklenmediyse
   if (!TOPIC_TEXTS) {
     try {
-      await loadTopicData(currentTopic);
+      await loadTopicData(currentTopic, currentGrade);
     } catch(e) {
       showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
       return;
@@ -2134,7 +2128,7 @@ async function selectSkill(sk) {
   // Veri yükle — henüz yüklenmediyse
   if (!TOPIC_TEXTS) {
     try {
-      await loadTopicData(currentTopic);
+      await loadTopicData(currentTopic, currentGrade);
     } catch(e) {
       showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
       return;
@@ -2802,6 +2796,7 @@ const _profilInit = getActiveProfile();
 updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
 initKeyboardNav();
+renderThemeList();
 </script>
 
 <div class="toast" id="toast"></div>

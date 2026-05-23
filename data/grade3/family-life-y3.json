@@ -1,0 +1,1053 @@
+{
+  "theme": "Family Life",
+  "themeNumber": 4,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "Our Family Members",
+      "subtitle": "Find the right family member!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya talks about her family.",
+        "My parents are my mum and my dad.",
+        "My grandparents are old but very kind.",
+        "I have got an aunt and an uncle.",
+        "Their daughter is my cousin.",
+        "My grandfather has got a grandson. That is my brother!",
+        "My grandmother has got a granddaughter. That is me!",
+        "There are three children in our family.",
+        "My uncle is a tall man.",
+        "My aunt is a kind woman.",
+        "We are a big and happy family!"
+      ],
+      "translations": [
+        "Maya ailesi hakkında konuşuyor.",
+        "Annem ve babam benim ebeveynlerim.",
+        "Büyükannem ve büyükbabam yaşlı ama çok nazik.",
+        "Bir teyze ve bir amcam var.",
+        "Onların kızı benim kuzenim.",
+        "Büyükbabamın bir torunu var. O benim kardeşim!",
+        "Büyükannemin bir torunu var. O benim!",
+        "Ailemizde üç çocuk var.",
+        "Amcam uzun boylu bir adam.",
+        "Teytem nazik bir kadın.",
+        "Biz büyük ve mutlu bir aileyiz!"
+      ],
+      "questions": [
+        {
+          "q": "Who are Maya's parents?",
+          "correct": "Her mum and dad",
+          "wrong": ["Her aunt and uncle", "Her grandparents"],
+          "hint": "Find the word parents in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Who is Maya's cousin?",
+          "correct": "Her aunt and uncle's daughter",
+          "wrong": ["Her grandmother's granddaughter", "Her brother's friend"],
+          "hint": "Find the word cousin in the text.",
+          "hl": [3, 4]
+        },
+        {
+          "q": "Who is the grandson?",
+          "correct": "Maya's brother",
+          "wrong": ["Maya", "Maya's cousin"],
+          "hint": "Find the word grandson in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "How many children are in Maya's family?",
+          "correct": "Three",
+          "wrong": ["Two", "Four"],
+          "hint": "Find the word children in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "How is Maya's uncle described?",
+          "correct": "A tall man",
+          "wrong": ["A kind woman", "An old grandparent"],
+          "hint": "Find the word uncle in the text.",
+          "hl": [8]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "What Do They Do Every Day?",
+      "subtitle": "Find the right routine!",
+      "icon": "🌅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "What does Maya do every morning?",
+        "She always wakes up at seven o'clock.",
+        "She washes her face and brushes her teeth.",
+        "She puts on her uniform and has breakfast.",
+        "She always goes to school at eight o'clock.",
+        "What does Maya's mum do every day?",
+        "She sometimes works at home.",
+        "She often studies in the evening.",
+        "What does Maya's dad do every morning?",
+        "He never wakes up late.",
+        "He always has breakfast with the family.",
+        "He goes to work every day."
+      ],
+      "translations": [
+        "Maya her sabah ne yapar?",
+        "O her zaman saat yedide kalkar.",
+        "Yüzünü yıkar ve dişlerini fırçalar.",
+        "Üniforma giyer ve kahvaltı yapar.",
+        "Her zaman saat sekizde okula gider.",
+        "Maya'nın annesi her gün ne yapar?",
+        "Bazen evde çalışır.",
+        "Akşamları sık sık çalışır.",
+        "Maya'nın babası her sabah ne yapar?",
+        "Hiç geç kalkmaz.",
+        "Her zaman aileyle kahvaltı yapar.",
+        "Her gün işe gider."
+      ],
+      "questions": [
+        {
+          "q": "What time does Maya always wake up?",
+          "correct": "At seven o'clock",
+          "wrong": ["At eight o'clock", "At six o'clock"],
+          "hint": "Find the word wakes up in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Maya put on every morning?",
+          "correct": "Her uniform",
+          "wrong": ["Her jacket", "Her sweatshirt"],
+          "hint": "Find the word puts on in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How often does Maya's mum work at home?",
+          "correct": "Sometimes",
+          "wrong": ["Always", "Never"],
+          "hint": "Find Maya's mum in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "Does Maya's dad ever wake up late?",
+          "correct": "No, he never wakes up late.",
+          "wrong": ["Yes, he always wakes up late.", "Yes, he sometimes wakes up late."],
+          "hint": "Find Maya's dad in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What does Maya's dad always do at breakfast?",
+          "correct": "He has breakfast with the family.",
+          "wrong": ["He goes to work.", "He studies in the evening."],
+          "hint": "Find the word breakfast in the text.",
+          "hl": [10]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Family Chores",
+      "subtitle": "Find the right chore!",
+      "icon": "🧹",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Everyone helps at home!",
+        "Maya's mum always cooks dinner.",
+        "Maya's dad sometimes prepares breakfast.",
+        "Maya's brother cleans his room every day.",
+        "Maya's mum irons the clothes but Maya's dad washes the dishes.",
+        "Maya always makes her bed in the morning.",
+        "Maya's dad often puts the garbage out.",
+        "Maya sometimes helps her mum at home.",
+        "Who washes the dishes in Leo's family?",
+        "Leo's dad always washes the dishes.",
+        "Leo's mum never irons but she always cooks.",
+        "Everyone has a chore in a happy family!"
+      ],
+      "translations": [
+        "Herkes evde yardım eder!",
+        "Maya'nın annesi her zaman akşam yemeği pişirir.",
+        "Maya'nın babası bazen kahvaltı hazırlar.",
+        "Maya'nın kardeşi her gün odasını temizler.",
+        "Maya'nın annesi ütü yapar ama Maya'nın babası bulaşık yıkar.",
+        "Maya her sabah yatağını yapar.",
+        "Maya'nın babası sık sık çöpü dışarı çıkarır.",
+        "Maya bazen evde annesine yardım eder.",
+        "Leo'nun ailesinde bulaşığı kim yıkar?",
+        "Leo'nun babası her zaman bulaşık yıkar.",
+        "Leo'nun annesi hiç ütü yapmaz ama her zaman yemek pişirir.",
+        "Mutlu bir ailede herkesin bir görevi vardır!"
+      ],
+      "questions": [
+        {
+          "q": "Who always cooks dinner?",
+          "correct": "Maya's mum",
+          "wrong": ["Maya's dad", "Maya's brother"],
+          "hint": "Find the word cooks in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Who irons the clothes in Maya's family?",
+          "correct": "Maya's mum",
+          "wrong": ["Maya's dad", "Maya"],
+          "hint": "Find the word irons in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Maya always do in the morning?",
+          "correct": "She makes her bed.",
+          "wrong": ["She washes the dishes.", "She puts the garbage out."],
+          "hint": "Find Maya in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Who always washes the dishes in Leo's family?",
+          "correct": "Leo's dad",
+          "wrong": ["Leo's mum", "Leo"],
+          "hint": "Find Leo's family in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What does Leo's mum never do?",
+          "correct": "Iron",
+          "wrong": ["Cook", "Wash the dishes"],
+          "hint": "Find the word never in the text.",
+          "hl": [10]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Hobbies and Abilities",
+      "subtitle": "Find the right hobby or ability!",
+      "icon": "🎸",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Everyone in Maya's family has got a hobby!",
+        "Maya can play the guitar but she can't play the piano.",
+        "Maya's brother can play football but he can't swim.",
+        "Maya's mum can play the violin and she can play chess.",
+        "Maya's dad can swim but he can't play basketball.",
+        "What can Leo do?",
+        "Leo can play basketball and he can play chess.",
+        "Leo can't play the guitar but he can play the piano.",
+        "Leo's mum can swim very well.",
+        "Leo's dad can play football but he can't play the violin.",
+        "Ms. Hart can play the guitar and the piano.",
+        "She can't play chess but she can swim well."
+      ],
+      "translations": [
+        "Maya'nın ailesindeki herkesin bir hobisi var!",
+        "Maya gitar çalabilir ama piyano çalamaz.",
+        "Maya'nın kardeşi futbol oynayabilir ama yüzemez.",
+        "Maya'nın annesi keman çalabilir ve satranç oynayabilir.",
+        "Maya'nın babası yüzebilir ama basketbol oynayamaz.",
+        "Leo ne yapabilir?",
+        "Leo basketbol oynayabilir ve satranç oynayabilir.",
+        "Leo gitar çalamaz ama piyano çalabilir.",
+        "Leo'nun annesi çok iyi yüzebilir.",
+        "Leo'nun babası futbol oynayabilir ama keman çalamaz.",
+        "Ms. Hart gitar ve piyano çalabilir.",
+        "Satranç oynayamaz ama iyi yüzebilir."
+      ],
+      "questions": [
+        {
+          "q": "What can Maya play?",
+          "correct": "The guitar",
+          "wrong": ["The piano", "The violin"],
+          "hint": "Find Maya in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What can Maya's mum do?",
+          "correct": "Play the violin and chess",
+          "wrong": ["Play the guitar and swim", "Play football and basketball"],
+          "hint": "Find Maya's mum in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What can Leo play?",
+          "correct": "Basketball and chess",
+          "wrong": ["Football and the guitar", "The violin and the piano"],
+          "hint": "Find Leo in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "Who can swim very well?",
+          "correct": "Leo's mum",
+          "wrong": ["Leo's dad", "Maya's brother"],
+          "hint": "Find the word swim in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What can't Ms. Hart do?",
+          "correct": "Play chess",
+          "wrong": ["Play the guitar", "Swim"],
+          "hint": "Find Ms. Hart in the text.",
+          "hl": [11]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "A Busy Family Morning",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌄",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is seven o'clock. The family is busy!",
+        "Maya's mum always wakes up first.",
+        "She washes her face and prepares breakfast.",
+        "Maya wakes up at half past seven.",
+        "She brushes her teeth and puts on her uniform.",
+        "Maya's dad always has breakfast with the family.",
+        "Maya says: Can I have some water please!",
+        "Maya's brother sometimes wakes up late.",
+        "He often misses breakfast!",
+        "Maya's dad says: Let's eat together!",
+        "How often does Maya's family eat together? Always!",
+        "It is a busy but happy morning!"
+      ],
+      "translations": [
+        "Saat yedi. Aile meşgul!",
+        "Maya'nın annesi her zaman ilk kalkar.",
+        "Yüzünü yıkar ve kahvaltı hazırlar.",
+        "Maya yedi buçukta kalkar.",
+        "Dişlerini fırçalar ve üniforma giyer.",
+        "Maya'nın babası her zaman aileyle kahvaltı yapar.",
+        "Maya diyor: Biraz su alabilir miyim lütfen!",
+        "Maya'nın kardeşi bazen geç kalkar.",
+        "Sık sık kahvaltıyı kaçırır!",
+        "Maya'nın babası diyor: Hadi birlikte yiyelim!",
+        "Maya'nın ailesi ne sıklıkla birlikte yer? Her zaman!",
+        "Meşgul ama mutlu bir sabah!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A family's busy morning routine",
+          "wrong": ["A family's evening chores", "A family's hobbies"],
+          "hint": "Think about what every family member does in the morning.",
+          "hl": [1, 2, 3, 4, 5, 7, 8]
+        },
+        {
+          "q": "Who always wakes up first?",
+          "correct": "Maya's mum",
+          "wrong": ["Maya's dad", "Maya's brother"],
+          "hint": "Find the word first in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "How often does Maya's brother wake up late?",
+          "correct": "Sometimes",
+          "wrong": ["Always", "Never"],
+          "hint": "Find Maya's brother in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "How often does Maya's family eat together?",
+          "correct": "Always",
+          "wrong": ["Sometimes", "Never"],
+          "hint": "Find the word together in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Maya ask for at breakfast?",
+          "correct": "Some water",
+          "wrong": ["Some food", "Some juice"],
+          "hint": "Find Maya's question in the text.",
+          "hl": [6]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "What Can They Do?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "⭐",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Every family member has got a special ability!",
+        "Maya's dad can cook very well.",
+        "But he can't iron at all!",
+        "Maya's mum can play the piano well.",
+        "She can't play football but she can swim well.",
+        "Maya's brother can play basketball very well.",
+        "But he can't play chess.",
+        "Leo's dad can play the violin well.",
+        "He can't swim but he can play football.",
+        "Leo's mum can cook well but she can't play the guitar.",
+        "Leo says: That's so cool! My family is very talented!",
+        "Ms. Hart says: No problem! Everyone is good at something!"
+      ],
+      "translations": [
+        "Her aile üyesinin özel bir yeteneği var!",
+        "Maya'nın babası çok iyi yemek pişirebilir.",
+        "Ama hiç ütü yapamaz!",
+        "Maya'nın annesi piyanoyu iyi çalabilir.",
+        "Futbol oynayamaz ama iyi yüzebilir.",
+        "Maya'nın kardeşi çok iyi basketbol oynayabilir.",
+        "Ama satranç oynayamaz.",
+        "Leo'nun babası kemanı iyi çalabilir.",
+        "Yüzemez ama futbol oynayabilir.",
+        "Leo'nun annesi iyi yemek pişirebilir ama gitar çalamaz.",
+        "Leo diyor: Bu çok harika! Ailem çok yetenekli!",
+        "Ms. Hart diyor: Sorun değil! Herkes bir şeyde iyidir!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Family members' abilities",
+          "wrong": ["Family members' daily routines", "Family members' chores"],
+          "hint": "Think about what every family member can and can't do.",
+          "hl": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        },
+        {
+          "q": "What can Maya's dad do well?",
+          "correct": "Cook",
+          "wrong": ["Iron", "Play football"],
+          "hint": "Find Maya's dad in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What can Maya's mum do well?",
+          "correct": "Play the piano and swim",
+          "wrong": ["Play football and cook", "Play chess and iron"],
+          "hint": "Find Maya's mum in the text.",
+          "hl": [3, 4]
+        },
+        {
+          "q": "What can Leo's dad do well?",
+          "correct": "Play the violin",
+          "wrong": ["Swim", "Play the guitar"],
+          "hint": "Find Leo's dad in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What does Leo say about his family?",
+          "correct": "His family is very talented.",
+          "wrong": ["His family is very busy.", "His family is very hardworking."],
+          "hint": "Find Leo in the text.",
+          "hl": [10]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Meet Maya's Family",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Hi! My name is Maya. This is my family.",
+        "My parents are forty years old.",
+        "My mum is a kind woman. My dad is a hardworking man.",
+        "I have got an aunt. She is my mum's sister.",
+        "Her husband is my uncle. He is thirty-eight years old.",
+        "They have got a son and a daughter.",
+        "The son is my cousin. He is ten years old.",
+        "The daughter is also my cousin. She is eight years old.",
+        "My grandparents are very old. My grandfather is seventy.",
+        "My grandmother is sixty-eight years old.",
+        "My grandfather has got two grandchildren.",
+        "My brother is his grandson and I am his granddaughter.",
+        "I love my family very much!"
+      ],
+      "translations": [
+        "Merhaba! Benim adım Maya. Bu benim ailem.",
+        "Annem ve babam kırk yaşında.",
+        "Annem nazik bir kadın. Babam çalışkan bir adam.",
+        "Bir teytem var. O annemin kız kardeşi.",
+        "Onun kocası amcam. O otuz sekiz yaşında.",
+        "Onların bir oğulları ve bir kızları var.",
+        "Oğul benim kuzenim. O on yaşında.",
+        "Kız da benim kuzenim. O sekiz yaşında.",
+        "Büyükannem ve büyükbabam çok yaşlı. Büyükbabam yetmiş yaşında.",
+        "Büyükannem altmış sekiz yaşında.",
+        "Büyükbabanın iki torunu var.",
+        "Kardeşim onun torunu ve ben onun torunuyum.",
+        "Ailemi çok seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "How old are Maya's parents?",
+          "correct": "Forty years old",
+          "wrong": ["Thirty-eight years old", "Seventy years old"],
+          "hint": "Find the word parents in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "Who is Maya's uncle?",
+          "correct": "Her aunt's husband",
+          "wrong": ["Her mum's brother", "Her grandfather's son"],
+          "hint": "Find the word uncle in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "How old is Maya's male cousin?",
+          "correct": "Ten years old",
+          "wrong": ["Eight years old", "Thirty-eight years old"],
+          "hint": "Find the word cousin in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How many grandchildren has Maya's grandfather got?",
+          "correct": "Two",
+          "wrong": ["Three", "Four"],
+          "hint": "Find the word grandchildren in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "Who is Maya's grandfather's granddaughter?",
+          "correct": "Maya",
+          "wrong": ["Maya's cousin", "Maya's aunt"],
+          "hint": "Find the word granddaughter in the text.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "A Day in Leo's Family",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo talks about a day in his family.",
+        "In the morning, Leo's dad always goes to work at eight o'clock.",
+        "Leo's mum sometimes works at home.",
+        "Leo always goes to school at half past eight.",
+        "At noon, Leo has lunch at school.",
+        "Leo's mum often has lunch at home.",
+        "In the afternoon, Leo goes home at four o'clock.",
+        "He always does his homework first.",
+        "Leo's mum sometimes watches TV in the afternoon.",
+        "In the evening, the family has dinner together.",
+        "After dinner, Leo sometimes reads a book.",
+        "Leo's dad often plays chess in the evening.",
+        "Leo never goes to bed late. He always goes to bed at nine o'clock.",
+        "Leo says: Do me a favour! Follow me and I will show you my room!"
+      ],
+      "translations": [
+        "Leo ailesindeki bir günü anlatıyor.",
+        "Sabah Leo'nun babası her zaman saat sekizde işe gider.",
+        "Leo'nun annesi bazen evde çalışır.",
+        "Leo her zaman sekiz buçukta okula gider.",
+        "Öğleyin Leo okulda öğle yemeği yer.",
+        "Leo'nun annesi sık sık evde öğle yemeği yer.",
+        "Öğleden sonra Leo saat dörtte eve gider.",
+        "Her zaman önce ödevini yapar.",
+        "Leo'nun annesi bazen öğleden sonra televizyon izler.",
+        "Akşam aile birlikte akşam yemeği yer.",
+        "Yemekten sonra Leo bazen kitap okur.",
+        "Leo'nun babası akşamları sık sık satranç oynar.",
+        "Leo hiç geç yatmaz. Her zaman saat dokuzda yatar.",
+        "Leo diyor: Bana bir iyilik yap! Beni takip et, sana odamı göstereceğim!"
+      ],
+      "questions": [
+        {
+          "q": "What time does Leo's dad go to work?",
+          "correct": "At eight o'clock",
+          "wrong": ["At half past eight", "At nine o'clock"],
+          "hint": "Find Leo's dad in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Leo always do first after school?",
+          "correct": "He does his homework.",
+          "wrong": ["He watches TV.", "He reads a book."],
+          "hint": "Find the word homework in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What does Leo's dad often do in the evening?",
+          "correct": "He plays chess.",
+          "wrong": ["He watches TV.", "He reads a book."],
+          "hint": "Find Leo's dad in the evening.",
+          "hl": [11]
+        },
+        {
+          "q": "What time does Leo always go to bed?",
+          "correct": "At nine o'clock",
+          "wrong": ["At eight o'clock", "At ten o'clock"],
+          "hint": "Find the word bed in the text.",
+          "hl": [12]
+        },
+        {
+          "q": "What does Leo sometimes do after dinner?",
+          "correct": "He reads a book.",
+          "wrong": ["He plays chess.", "He does his homework."],
+          "hint": "Find the word dinner in the text.",
+          "hl": [10]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Family Chores at Home",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🧺",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is Saturday. Everyone helps at home!",
+        "Maya's mum says: Could you help me, please?",
+        "Of course! says Maya. It is my pleasure!",
+        "Maya's mum cooks lunch and Maya cleans the kitchen.",
+        "Maya's dad washes the dishes but he can't iron.",
+        "Maya's brother makes his bed and puts the garbage out.",
+        "Could you wash the dishes, please? asks Maya's mum.",
+        "No problem! says Maya's dad.",
+        "Leo's mum says: Could you prepare breakfast, please?",
+        "Leo's dad says: Give me a hand! I can't do it alone!",
+        "Leo helps his dad prepare breakfast.",
+        "Leo's mum irons the clothes but Leo's dad cleans the living room.",
+        "Everyone works hard but the house is clean and tidy!"
+      ],
+      "translations": [
+        "Cumartesi. Herkes evde yardım ediyor!",
+        "Maya'nın annesi diyor: Bana yardım eder misin lütfen?",
+        "Tabii ki! diyor Maya. Memnuniyetle!",
+        "Maya'nın annesi öğle yemeği pişiriyor ve Maya mutfağı temizliyor.",
+        "Maya'nın babası bulaşık yıkıyor ama ütü yapamıyor.",
+        "Maya'nın kardeşi yatağını yapıyor ve çöpü dışarı çıkarıyor.",
+        "Bulaşıkları yıkar mısın lütfen? diye soruyor Maya'nın annesi.",
+        "Sorun değil! diyor Maya'nın babası.",
+        "Leo'nun annesi diyor: Kahvaltı hazırlar mısın lütfen?",
+        "Leo'nun babası diyor: Bana yardım et! Tek başıma yapamam!",
+        "Leo babasına kahvaltı hazırlamada yardım eder.",
+        "Leo'nun annesi ütü yapar ama Leo'nun babası oturma odasını temizler.",
+        "Herkes çok çalışır ama ev temiz ve düzenlidir!"
+      ],
+      "questions": [
+        {
+          "q": "What does Maya do when her mum asks for help?",
+          "correct": "She cleans the kitchen.",
+          "wrong": ["She washes the dishes.", "She irons the clothes."],
+          "hint": "Find Maya in the text.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "What can't Maya's dad do?",
+          "correct": "Iron",
+          "wrong": ["Wash the dishes", "Clean"],
+          "hint": "Find Maya's dad in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Maya's brother do?",
+          "correct": "He makes his bed and puts the garbage out.",
+          "wrong": ["He cooks lunch and cleans.", "He washes the dishes and irons."],
+          "hint": "Find Maya's brother in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "Who says Could you prepare breakfast, please?",
+          "correct": "Leo's mum",
+          "wrong": ["Leo's dad", "Maya's mum"],
+          "hint": "Find the word breakfast in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "Who cleans the living room in Leo's family?",
+          "correct": "Leo's dad",
+          "wrong": ["Leo's mum", "Leo"],
+          "hint": "Find the word living room in the text.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "How Often Do They…?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📊",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart asks Maya and Leo about their families.",
+        "How often does your mum cook, Maya?",
+        "She always cooks. She cooks very well! says Maya.",
+        "How often does your dad play chess, Leo?",
+        "He often plays chess in the evening, says Leo.",
+        "How often does your brother play football, Maya?",
+        "He sometimes plays football but he never plays chess, says Maya.",
+        "How often does your aunt swim? asks Ms. Hart.",
+        "She always swims on Sundays. She swims well! says Maya.",
+        "How often does your uncle play the guitar? asks Ms. Hart.",
+        "He never plays the guitar but he can play the violin well, says Maya.",
+        "Ms. Hart says: Your families are very talented!",
+        "Leo says: That's so cool! I hope you will meet my family one day!"
+      ],
+      "translations": [
+        "Ms. Hart, Maya ve Leo'ya aileleri hakkında soruyor.",
+        "Anneni ne sıklıkla yemek pişirir, Maya?",
+        "Her zaman pişirir. Çok iyi pişirir! diyor Maya.",
+        "Baban ne sıklıkla satranç oynar, Leo?",
+        "Akşamları sık sık satranç oynar, diyor Leo.",
+        "Kardeşin ne sıklıkla futbol oynar, Maya?",
+        "Bazen futbol oynar ama hiç satranç oynamaz, diyor Maya.",
+        "Teyzen ne sıklıkla yüzer? diye soruyor Ms. Hart.",
+        "Pazar günleri her zaman yüzer. İyi yüzer! diyor Maya.",
+        "Amcan ne sıklıkla gitar çalar? diye soruyor Ms. Hart.",
+        "Hiç gitar çalmaz ama kemanı iyi çalabilir, diyor Maya.",
+        "Ms. Hart diyor: Aileleriniz çok yetenekli!",
+        "Leo diyor: Bu çok harika! Umarım bir gün ailemi tanırsın!"
+      ],
+      "questions": [
+        {
+          "q": "How often does Maya's mum cook?",
+          "correct": "Always",
+          "wrong": ["Sometimes", "Never"],
+          "hint": "Find Maya's mum in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "How often does Leo's dad play chess?",
+          "correct": "Often",
+          "wrong": ["Always", "Sometimes"],
+          "hint": "Find Leo's dad in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "How often does Maya's brother play chess?",
+          "correct": "Never",
+          "wrong": ["Sometimes", "Often"],
+          "hint": "Find Maya's brother in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How well does Maya's aunt swim?",
+          "correct": "She swims well.",
+          "wrong": ["She swims very badly.", "She can't swim."],
+          "hint": "Find Maya's aunt in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What can Maya's uncle play well?",
+          "correct": "The violin",
+          "wrong": ["The guitar", "The piano"],
+          "hint": "Find Maya's uncle in the text.",
+          "hl": [10]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "Who Does the Chores?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is Sunday afternoon at Leo's house.",
+        "Leo's mum says: The house is not clean!",
+        "Leo's dad never cleans but he always washes the dishes.",
+        "Leo's mum always irons but she never puts the garbage out.",
+        "Leo sometimes makes his bed but he never cooks.",
+        "Leo's mum asks: Could you help me, please?",
+        "Leo says: Give me a hand and I will help you!",
+        "Leo's mum points to the garbage.",
+        "Leo thinks: Dad never puts the garbage out. Mum never puts it out either.",
+        "Leo says: I know! I must put the garbage out!",
+        "Leo's dad says: I hope you will clean your room, too, Leo!",
+        "Leo smiles: No problem! I always clean my room on Sundays!"
+      ],
+      "translations": [
+        "Pazar öğleden sonra Leo'nun evinde.",
+        "Leo'nun annesi diyor: Ev temiz değil!",
+        "Leo'nun babası hiç temizlik yapmaz ama her zaman bulaşık yıkar.",
+        "Leo'nun annesi her zaman ütü yapar ama hiç çöp çıkarmaz.",
+        "Leo bazen yatağını yapar ama hiç yemek pişirmez.",
+        "Leo'nun annesi soruyor: Bana yardım eder misin lütfen?",
+        "Leo diyor: Bana yardım et, ben de sana yardım edeyim!",
+        "Leo'nun annesi çöpü gösteriyor.",
+        "Leo düşünüyor: Babam hiç çöp çıkarmaz. Annem de hiç çıkarmaz.",
+        "Leo diyor: Biliyorum! Çöpü ben çıkarmalıyım!",
+        "Leo'nun babası diyor: Umarım odanı da temizlersin, Leo!",
+        "Leo gülümsüyor: Sorun değil! Pazar günleri her zaman odamı temizlerim!"
+      ],
+      "questions": [
+        {
+          "q": "What does Leo's dad never do?",
+          "correct": "Clean",
+          "wrong": ["Wash the dishes", "Iron"],
+          "hint": "Find Leo's dad in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What does Leo's mum never do?",
+          "correct": "Put the garbage out",
+          "wrong": ["Iron", "Wash the dishes"],
+          "hint": "Find Leo's mum in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "Why does Leo decide to put the garbage out?",
+          "correct": "Because neither his dad nor his mum does it.",
+          "wrong": ["Because his mum asks him to cook.", "Because his dad always does it."],
+          "hint": "Read what Leo thinks in the text.",
+          "hl": [8, 9]
+        },
+        {
+          "q": "What does Leo's dad hope Leo will do?",
+          "correct": "Clean his room",
+          "wrong": ["Wash the dishes", "Cook dinner"],
+          "hint": "Find Leo's dad in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "How often does Leo clean his room on Sundays?",
+          "correct": "Always",
+          "wrong": ["Sometimes", "Never"],
+          "hint": "Read the last sentence.",
+          "hl": [11]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "What Can Grandpa Do?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👴",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Maya talks about her grandfather.",
+        "My grandfather is seventy years old.",
+        "He is old but very strong!",
+        "He can't play basketball but he can swim very well.",
+        "He can play the violin well but he can't play the guitar.",
+        "Maya's grandfather always plays chess in the morning.",
+        "He plays chess well but he never wins!",
+        "Leo asks: Can your grandfather cook well?",
+        "Yes! He can cook very well, says Maya.",
+        "He always prepares breakfast for the family.",
+        "Leo says: That's so cool! My grandfather can't cook at all!",
+        "Maya says: It's my pleasure to introduce my grandfather!",
+        "Leo thinks: Maya's grandfather is old but he can do many things well!"
+      ],
+      "translations": [
+        "Maya büyükbabasından bahsediyor.",
+        "Büyükbabam yetmiş yaşında.",
+        "Yaşlı ama çok güçlü!",
+        "Basketbol oynayamaz ama çok iyi yüzebilir.",
+        "Kemanı iyi çalabilir ama gitar çalamaz.",
+        "Maya'nın büyükbabası her sabah satranç oynar.",
+        "Satrancı iyi oynar ama hiç kazanamaz!",
+        "Leo soruyor: Büyükbaban iyi yemek pişirebilir mi?",
+        "Evet! Çok iyi pişirebilir, diyor Maya.",
+        "Her zaman aile için kahvaltı hazırlar.",
+        "Leo diyor: Bu çok harika! Benim büyükbabam hiç yemek pişiremez!",
+        "Maya diyor: Büyükbabamı tanıtmak benim için zevk!",
+        "Leo düşünüyor: Maya'nın büyükbabası yaşlı ama birçok şeyi iyi yapabilir!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Maya's grandfather?",
+          "correct": "Seventy years old",
+          "wrong": ["Sixty years old", "Eighty years old"],
+          "hint": "Find the word grandfather in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What can Maya's grandfather do very well?",
+          "correct": "Swim",
+          "wrong": ["Play basketball", "Play the guitar"],
+          "hint": "Find the word well in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How does Maya's grandfather play chess?",
+          "correct": "He plays well but never wins.",
+          "wrong": ["He plays badly but always wins.", "He never plays chess."],
+          "hint": "Find the word chess in the text.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What does Maya's grandfather always prepare?",
+          "correct": "Breakfast for the family",
+          "wrong": ["Lunch for the family", "Dinner for the family"],
+          "hint": "Find the word prepares in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What does Leo conclude about Maya's grandfather?",
+          "correct": "He is old but can do many things well.",
+          "wrong": ["He is old and can't do anything.", "He is young and very talented."],
+          "hint": "Read what Leo thinks at the end.",
+          "hl": [12]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "A Family Surprise",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎊",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is Friday evening at Maya's house.",
+        "Maya's aunt and uncle always visit on Fridays.",
+        "Their children are Maya's cousins. They always come too.",
+        "Maya's mum says: Could you prepare the table, please?",
+        "No problem! says Maya's dad.",
+        "Maya's mum asks: Could you help me cook, please?",
+        "Maya says: It is my pleasure! I always help on Fridays.",
+        "Leo calls Maya: Do me a favour! Could you ask your mum for her cake recipe?",
+        "Maya thinks: Leo never asks for recipes. How often does he cook?",
+        "Maya asks her mum: How often does Leo cook at home?",
+        "Maya's mum laughs: I hope he cooks well!",
+        "Later, Leo arrives at Maya's house with a cake!",
+        "Leo says: I sometimes bake cakes but I never cook dinner!",
+        "Everyone laughs. What a wonderful family surprise!"
+      ],
+      "translations": [
+        "Cuma akşamı Maya'nın evinde.",
+        "Maya'nın teyzesi ve amcası her zaman Cuma günleri ziyaret eder.",
+        "Çocukları Maya'nın kuzenleri. Onlar da her zaman gelir.",
+        "Maya'nın annesi diyor: Masayı hazırlar mısın lütfen?",
+        "Sorun değil! diyor Maya'nın babası.",
+        "Maya'nın annesi soruyor: Yemek pişirmeme yardım eder misin lütfen?",
+        "Maya diyor: Memnuniyetle! Cuma günleri her zaman yardım ederim.",
+        "Leo Maya'yı arıyor: Bana bir iyilik yap! Annenden kek tarifini alabilir misin?",
+        "Maya düşünüyor: Leo hiç tarif istemez. Ne sıklıkla yemek pişiriyor?",
+        "Maya annesine soruyor: Leo evde ne sıklıkla yemek pişiriyor?",
+        "Maya'nın annesi gülüyor: Umarım iyi pişirir!",
+        "Daha sonra Leo elinde bir kekle Maya'nın evine geliyor!",
+        "Leo diyor: Bazen kek yapıyorum ama hiç akşam yemeği pişirmiyorum!",
+        "Herkes gülüyor. Ne harika bir aile sürprizi!"
+      ],
+      "questions": [
+        {
+          "q": "How often do Maya's aunt and uncle visit?",
+          "correct": "Every Friday",
+          "wrong": ["Sometimes on Fridays", "Never on Fridays"],
+          "hint": "Find the word visit in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What does Maya's mum ask her dad to do?",
+          "correct": "Prepare the table",
+          "wrong": ["Cook dinner", "Wash the dishes"],
+          "hint": "Find Maya's mum's first request in the text.",
+          "hl": [3, 4]
+        },
+        {
+          "q": "Why is Maya surprised by Leo's request?",
+          "correct": "Because Leo never asks for recipes.",
+          "wrong": ["Because Leo always cooks dinner.", "Because Leo often bakes cakes."],
+          "hint": "Read what Maya thinks in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "How often does Leo bake cakes?",
+          "correct": "Sometimes",
+          "wrong": ["Always", "Never"],
+          "hint": "Find Leo's answer at the end of the text.",
+          "hl": [12]
+        },
+        {
+          "q": "What surprise does Leo bring?",
+          "correct": "A cake",
+          "wrong": ["A gift", "A recipe book"],
+          "hint": "Find what Leo arrives with in the text.",
+          "hl": [11]
+        }
+      ]
+    }
+  ]
+}

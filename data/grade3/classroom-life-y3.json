@@ -1,0 +1,810 @@
+{
+  "theme": "Classroom Life",
+  "themeNumber": 2,
+  "scan": [
+    {
+      "id": "scan-1",
+      "title": "What's in Our Classroom?",
+      "subtitle": "Find the right object!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Welcome to our classroom!",
+        "There is a teacher's desk at the front.",
+        "There are student desks for everyone.",
+        "There is a bookshelf near the window.",
+        "There are lockers on the wall.",
+        "There is a basket near the door.",
+        "How many lights are there? There are four lights.",
+        "Maya has a pen and a ruler on her desk.",
+        "Leo has a coursebook and a workbook.",
+        "There is a map on the wall.",
+        "There is a bin near the teacher's desk.",
+        "There is a duster next to the board.",
+        "We love our classroom!"
+      ],
+      "translations": [
+        "Sınıfımıza hoş geldiniz!",
+        "Önde bir öğretmen masası var.",
+        "Herkes için öğrenci sıraları var.",
+        "Pencerenin yanında bir kitaplık var.",
+        "Duvarda dolaplar var.",
+        "Kapının yanında bir sepet var.",
+        "Kaç tane ışık var? Dört tane ışık var.",
+        "Maya'nın masasında bir kalem ve bir cetvel var.",
+        "Leo'nun bir ders kitabı ve bir çalışma kitabı var.",
+        "Duvarda bir harita var.",
+        "Öğretmen masasının yanında bir çöp kutusu var.",
+        "Tahtanın yanında bir tahta silgisi var.",
+        "Sınıfımızı seviyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the bookshelf?",
+          "correct": "Near the window",
+          "wrong": ["Near the door", "At the front"],
+          "hint": "Find the word bookshelf in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What does Maya have on her desk?",
+          "correct": "A pen and a ruler",
+          "wrong": ["A coursebook and a workbook", "A map and a bin"],
+          "hint": "Find Maya in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "How many lights are there?",
+          "correct": "Four",
+          "wrong": ["Two", "Six"],
+          "hint": "Find the word lights in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "Where is the bin?",
+          "correct": "Near the teacher's desk",
+          "wrong": ["Near the door", "On the wall"],
+          "hint": "Find the word bin in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "What does Leo have?",
+          "correct": "A coursebook and a workbook",
+          "wrong": ["A pen and a ruler", "A map and a duster"],
+          "hint": "Find Leo in the text.",
+          "hl": [8]
+        }
+      ]
+    },
+    {
+      "id": "scan-2",
+      "title": "Our Classroom Devices",
+      "subtitle": "Find the right device or number!",
+      "icon": "💻",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "There are many devices in our classroom.",
+        "There is a computer on the teacher's desk.",
+        "The computer has a keyboard and a mouse.",
+        "There is a microphone next to the computer.",
+        "How many tablets are there? There are twenty tablets.",
+        "Maya asks: What are they?",
+        "They are keyboards, says Leo.",
+        "How many keyboards are there? There are twenty keyboards.",
+        "Ms. Hart has a microphone in her hand.",
+        "There are thirty students in our class.",
+        "Every student has a coursebook.",
+        "What are they? They are coursebooks!"
+      ],
+      "translations": [
+        "Sınıfımızda birçok cihaz var.",
+        "Öğretmen masasında bir bilgisayar var.",
+        "Bilgisayarın bir klavyesi ve bir faresi var.",
+        "Bilgisayarın yanında bir mikrofon var.",
+        "Kaç tablet var? Yirmi tablet var.",
+        "Maya soruyor: Onlar nedir?",
+        "Onlar klavye, diyor Leo.",
+        "Kaç klavye var? Yirmi klavye var.",
+        "Ms. Hart'ın elinde bir mikrofon var.",
+        "Sınıfımızda otuz öğrenci var.",
+        "Her öğrencinin bir ders kitabı var.",
+        "Onlar nedir? Onlar ders kitabı!"
+      ],
+      "questions": [
+        {
+          "q": "What does the computer have?",
+          "correct": "A keyboard and a mouse",
+          "wrong": ["A microphone and a tablet", "A mouse and a screen"],
+          "hint": "Find the word computer in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "How many tablets are there?",
+          "correct": "Twenty",
+          "wrong": ["Thirty", "Ten"],
+          "hint": "Find the word tablets in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What are the keyboards?",
+          "correct": "Devices in the classroom",
+          "wrong": ["Books on the shelf", "Maps on the wall"],
+          "hint": "Find the word keyboards in the text.",
+          "hl": [5, 6, 7]
+        },
+        {
+          "q": "How many students are there?",
+          "correct": "Thirty",
+          "wrong": ["Twenty", "Forty"],
+          "hint": "Find the word students in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "Who has a microphone?",
+          "correct": "Ms. Hart",
+          "wrong": ["Maya", "Leo"],
+          "hint": "Find the word microphone in the text.",
+          "hl": [8]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "What Lesson Is It?",
+      "subtitle": "Find the right lesson or day!",
+      "icon": "📅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Today is Monday.",
+        "What lesson is it now? It is Maths.",
+        "Leo asks: Is there a Music lesson today?",
+        "Yes, there is. It is after lunch.",
+        "What lesson is it now? It is English.",
+        "Maya loves English!",
+        "Is there a Life Study lesson on Tuesday? Yes, there is.",
+        "Is there a Sports lesson now? No, there isn't.",
+        "What lesson is it? It is Turkish.",
+        "Leo says: PE is my favourite lesson!",
+        "Ms. Hart says: Now it is time for English. Let's start!"
+      ],
+      "translations": [
+        "Bugün Pazartesi.",
+        "Şu an hangi ders? Matematik dersi.",
+        "Leo soruyor: Bugün Müzik dersi var mı?",
+        "Evet, var. Öğleden sonra.",
+        "Şu an hangi ders? İngilizce dersi.",
+        "Maya İngilizce'yi seviyor!",
+        "Salı günü Hayat Bilgisi dersi var mı? Evet, var.",
+        "Şu an Beden Eğitimi dersi var mı? Hayır, yok.",
+        "Hangi ders bu? Türkçe dersi.",
+        "Leo diyor: Beden Eğitimi benim en sevdiğim ders!",
+        "Ms. Hart diyor: Şimdi İngilizce zamanı. Hadi başlayalım!"
+      ],
+      "questions": [
+        {
+          "q": "What lesson is it at the start?",
+          "correct": "Maths",
+          "wrong": ["English", "Music"],
+          "hint": "Read the second sentence.",
+          "hl": [1]
+        },
+        {
+          "q": "When is the Music lesson?",
+          "correct": "After lunch",
+          "wrong": ["In the morning", "On Tuesday"],
+          "hint": "Find the word Music in the text.",
+          "hl": [2, 3]
+        },
+        {
+          "q": "Is there a Sports lesson now?",
+          "correct": "No, there isn't.",
+          "wrong": ["Yes, there is.", "Yes, after lunch."],
+          "hint": "Find the word Sports in the text.",
+          "hl": [7]
+        },
+        {
+          "q": "What is Leo's favourite lesson?",
+          "correct": "PE",
+          "wrong": ["Maths", "Music"],
+          "hint": "Find Leo in the text.",
+          "hl": [9]
+        },
+        {
+          "q": "What does Ms. Hart say at the end?",
+          "correct": "Now it is time for English.",
+          "wrong": ["Now it is time for Maths.", "Now it is time for Music."],
+          "hint": "Read the last sentence.",
+          "hl": [10]
+        }
+      ]
+    }
+  ],
+  "skim": [
+    {
+      "id": "skim-1",
+      "title": "What's the Weather Today?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart says: Look outside!",
+        "Maya looks outside. It is sunny and warm today.",
+        "What nice weather! says Maya.",
+        "Leo looks outside. It is windy, too.",
+        "In winter, it is cold and it is snowing.",
+        "It's freezing! says Leo.",
+        "In spring, it is sunny and warm.",
+        "In autumn, it is windy and it is raining.",
+        "Ms. Hart asks: How is the weather today?",
+        "It is sunny and warm! say Maya and Leo.",
+        "What nice weather! says Ms. Hart."
+      ],
+      "translations": [
+        "Ms. Hart diyor: Dışarıya bak!",
+        "Maya dışarıya bakıyor. Bugün güneşli ve ılık.",
+        "Ne güzel hava! diyor Maya.",
+        "Leo dışarıya bakıyor. Rüzgarlı da.",
+        "Kışın soğuk ve kar yağıyor.",
+        "Çok soğuk! diyor Leo.",
+        "İlkbaharda güneşli ve ılık.",
+        "Sonbaharda rüzgarlı ve yağmur yağıyor.",
+        "Ms. Hart soruyor: Bugün hava nasıl?",
+        "Güneşli ve ılık! diyor Maya ve Leo.",
+        "Ne güzel hava! diyor Ms. Hart."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "The weather in different seasons",
+          "wrong": ["Classroom rules", "School subjects"],
+          "hint": "Think about what Maya, Leo and Ms. Hart talk about.",
+          "hl": [1, 3, 4, 6, 7, 8, 9]
+        },
+        {
+          "q": "What is the weather like today?",
+          "correct": "Sunny and warm",
+          "wrong": ["Cold and snowing", "Windy and raining"],
+          "hint": "Find the word today in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What is the weather like in winter?",
+          "correct": "Cold and snowing",
+          "wrong": ["Sunny and warm", "Windy and raining"],
+          "hint": "Find the word winter in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What does Leo say about the winter weather?",
+          "correct": "It's freezing!",
+          "wrong": ["What nice weather!", "Look outside!"],
+          "hint": "Find Leo in the text.",
+          "hl": [5]
+        },
+        {
+          "q": "What is the weather like in autumn?",
+          "correct": "Windy and raining",
+          "wrong": ["Sunny and warm", "Cold and snowing"],
+          "hint": "Find the word autumn in the text.",
+          "hl": [7]
+        }
+      ]
+    },
+    {
+      "id": "skim-2",
+      "title": "Colours in the Classroom",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎨",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Our classroom is full of colours!",
+        "Maya has a dark blue pen.",
+        "Leo has a light green ruler.",
+        "Ms. Hart's chair is grey.",
+        "The bookshelf is dark brown.",
+        "The lockers are light grey.",
+        "Maya asks: What are they?",
+        "They are dark red coursebooks, says Leo.",
+        "The bin is light blue.",
+        "The map on the wall is dark green.",
+        "Ms. Hart says: What a colourful classroom!"
+      ],
+      "translations": [
+        "Sınıfımız renklerle dolu!",
+        "Maya'nın koyu mavi bir kalemi var.",
+        "Leo'nun açık yeşil bir cetveli var.",
+        "Ms. Hart'ın sandalyesi gri.",
+        "Kitaplık koyu kahverengi.",
+        "Dolaplar açık gri.",
+        "Maya soruyor: Onlar nedir?",
+        "Onlar koyu kırmızı ders kitapları, diyor Leo.",
+        "Çöp kutusu açık mavi.",
+        "Duvardaki harita koyu yeşil.",
+        "Ms. Hart diyor: Ne renkli bir sınıf!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Colours of classroom objects",
+          "wrong": ["Classroom devices", "School subjects"],
+          "hint": "Think about what colour every object is.",
+          "hl": [0, 1, 2, 3, 4, 5, 7, 8, 9]
+        },
+        {
+          "q": "What colour is Maya's pen?",
+          "correct": "Dark blue",
+          "wrong": ["Light green", "Dark red"],
+          "hint": "Find Maya's pen in the text.",
+          "hl": [1]
+        },
+        {
+          "q": "What colour is Ms. Hart's chair?",
+          "correct": "Grey",
+          "wrong": ["Dark brown", "Light grey"],
+          "hint": "Find Ms. Hart's chair in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What are the dark red objects?",
+          "correct": "Coursebooks",
+          "wrong": ["Rulers", "Pens"],
+          "hint": "Find the word dark red in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "What colour is the map?",
+          "correct": "Dark green",
+          "wrong": ["Light blue", "Dark brown"],
+          "hint": "Find the word map in the text.",
+          "hl": [9]
+        }
+      ]
+    }
+  ],
+  "int": [
+    {
+      "id": "int-1",
+      "title": "Our Classroom Instructions",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "✋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart says: Let's start the lesson!",
+        "Take your seat, please!",
+        "Open your book, please!",
+        "Open page twenty in your books, please!",
+        "Listen and repeat, please!",
+        "The pupils listen and repeat.",
+        "Ms. Hart says: Work in pairs, please!",
+        "Maya and Leo work together.",
+        "Ms. Hart asks: Have you finished?",
+        "Not yet! says Leo.",
+        "Ms. Hart says: Speak louder, please!",
+        "Leo speaks louder. That's correct! says Ms. Hart.",
+        "Ms. Hart says: Nice job, everyone! Last five minutes!"
+      ],
+      "translations": [
+        "Ms. Hart diyor: Hadi derse başlayalım!",
+        "Yerinize oturun, lütfen!",
+        "Kitabınızı açın, lütfen!",
+        "Kitabınızda yirmi. sayfayı açın, lütfen!",
+        "Dinleyin ve tekrar edin, lütfen!",
+        "Öğrenciler dinliyor ve tekrar ediyor.",
+        "Ms. Hart diyor: Çiftler halinde çalışın, lütfen!",
+        "Maya ve Leo birlikte çalışıyor.",
+        "Ms. Hart soruyor: Bitirdiniz mi?",
+        "Henüz değil! diyor Leo.",
+        "Ms. Hart diyor: Daha yüksek sesle konuşun, lütfen!",
+        "Leo daha yüksek sesle konuşuyor. Doğru! diyor Ms. Hart.",
+        "Ms. Hart diyor: Aferin herkese! Son beş dakika!"
+      ],
+      "questions": [
+        {
+          "q": "What does Ms. Hart say first?",
+          "correct": "Let's start the lesson!",
+          "wrong": ["Have you finished?", "Nice job!"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "What page do the pupils open?",
+          "correct": "Page twenty",
+          "wrong": ["Page thirty", "Page fifteen"],
+          "hint": "Find the word page in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "What do Maya and Leo do together?",
+          "correct": "They work in pairs.",
+          "wrong": ["They listen and repeat.", "They open their books."],
+          "hint": "Find Maya and Leo in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "What does Ms. Hart ask Leo to do?",
+          "correct": "Speak louder",
+          "wrong": ["Work in pairs", "Open his book"],
+          "hint": "Find Leo in the text.",
+          "hl": [10, 11]
+        },
+        {
+          "q": "What does Ms. Hart say at the end?",
+          "correct": "Nice job! Last five minutes!",
+          "wrong": ["Have you finished?", "Let's start the lesson!"],
+          "hint": "Read the last sentence.",
+          "hl": [12]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "What Time Is It?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🕐",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Leo looks at the clock.",
+        "What time is it? It is eight o'clock.",
+        "It is time for the first lesson now.",
+        "What lesson is it? It is Maths.",
+        "At nine o'clock, it is English.",
+        "Maya asks: What time is it now?",
+        "It is ten o'clock, says Ms. Hart.",
+        "What lesson is it now? It is Life Study.",
+        "Leo asks: Is there a Music lesson today?",
+        "Yes, there is. It is at two o'clock.",
+        "Ms. Hart says: The winner of today's quiz gets a prize!",
+        "Leo says: I want to win a point!",
+        "Maya says: Me too. That's right!"
+      ],
+      "translations": [
+        "Leo saate bakıyor.",
+        "Saat kaç? Saat sekiz.",
+        "Şimdi ilk ders vakti.",
+        "Hangi ders bu? Matematik.",
+        "Saat dokuzda İngilizce var.",
+        "Maya soruyor: Şu an saat kaç?",
+        "Saat on, diyor Ms. Hart.",
+        "Şu an hangi ders? Hayat Bilgisi.",
+        "Leo soruyor: Bugün Müzik dersi var mı?",
+        "Evet, var. Saat ikide.",
+        "Ms. Hart diyor: Bugünkü yarışmanın galibi ödül kazanır!",
+        "Leo diyor: Ben puan kazanmak istiyorum!",
+        "Maya diyor: Ben de. Doğru!"
+      ],
+      "questions": [
+        {
+          "q": "What time is the first lesson?",
+          "correct": "Eight o'clock",
+          "wrong": ["Nine o'clock", "Ten o'clock"],
+          "hint": "Read the beginning of the text.",
+          "hl": [1, 2]
+        },
+        {
+          "q": "What lesson is at nine o'clock?",
+          "correct": "English",
+          "wrong": ["Maths", "Life Study"],
+          "hint": "Find nine o'clock in the text.",
+          "hl": [4]
+        },
+        {
+          "q": "What time is it when Ms. Hart answers?",
+          "correct": "Ten o'clock",
+          "wrong": ["Eight o'clock", "Two o'clock"],
+          "hint": "Find Ms. Hart's answer about the time.",
+          "hl": [5, 6]
+        },
+        {
+          "q": "What lesson is it at ten o'clock?",
+          "correct": "Life Study",
+          "wrong": ["English", "Music"],
+          "hint": "Find ten o'clock in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "What does the winner of the quiz get?",
+          "correct": "A prize",
+          "wrong": ["A point", "A coursebook"],
+          "hint": "Find the word winner in the text.",
+          "hl": [10]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "A Classroom Quiz",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏆",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "Ms. Hart says: Answer the question, please!",
+        "She holds up some flashcards.",
+        "What are they? They are flashcards.",
+        "Leo has a paintbrush in his school bag.",
+        "What are they? They are paintbrushes.",
+        "Maya has an exercise book on her desk.",
+        "What are they? They are exercise books.",
+        "Ms. Hart points to the white-blackboard.",
+        "There are forty words on the white-blackboard.",
+        "Spell the word, please! says Ms. Hart.",
+        "Leo spells the word. That's right! says Ms. Hart.",
+        "Maya answers the next question. Perfect! says Ms. Hart.",
+        "Everything is all right! say Maya and Leo.",
+        "You look great today, everyone! says Ms. Hart."
+      ],
+      "translations": [
+        "Ms. Hart diyor: Soruyu cevaplayın, lütfen!",
+        "Bazı kartları kaldırıyor.",
+        "Onlar nedir? Onlar kartlar.",
+        "Leo'nun okul çantasında bir resim fırçası var.",
+        "Onlar nedir? Onlar resim fırçaları.",
+        "Maya'nın masasında bir alıştırma defteri var.",
+        "Onlar nedir? Onlar alıştırma defterleri.",
+        "Ms. Hart beyaz-kara tahtayı gösteriyor.",
+        "Beyaz-kara tahtada kırk kelime var.",
+        "Kelimeyi hece hece söyle, lütfen! diyor Ms. Hart.",
+        "Leo kelimeyi hece hece söylüyor. Doğru! diyor Ms. Hart.",
+        "Maya bir sonraki soruyu cevaplıyor. Mükemmel! diyor Ms. Hart.",
+        "Her şey yolunda! diyor Maya ve Leo.",
+        "Bugün harika görünüyorsunuz, herkes! diyor Ms. Hart."
+      ],
+      "questions": [
+        {
+          "q": "What does Ms. Hart hold up?",
+          "correct": "Flashcards",
+          "wrong": ["Paintbrushes", "Exercise books"],
+          "hint": "Find the word flashcards in the text.",
+          "hl": [1, 2]
+        },
+        {
+          "q": "Where is Leo's paintbrush?",
+          "correct": "In his school bag",
+          "wrong": ["On his desk", "In the locker"],
+          "hint": "Find the word paintbrush in the text.",
+          "hl": [3]
+        },
+        {
+          "q": "How many words are on the white-blackboard?",
+          "correct": "Forty",
+          "wrong": ["Twenty", "Thirty"],
+          "hint": "Find the word white-blackboard in the text.",
+          "hl": [8]
+        },
+        {
+          "q": "What does Leo do correctly?",
+          "correct": "He spells the word.",
+          "wrong": ["He answers the question.", "He holds up a flashcard."],
+          "hint": "Find Leo in the text.",
+          "hl": [10]
+        },
+        {
+          "q": "How do Maya and Leo feel at the end?",
+          "correct": "Everything is all right.",
+          "wrong": ["They are tired.", "They are scared."],
+          "hint": "Read the last two sentences.",
+          "hl": [12]
+        }
+      ]
+    }
+  ],
+  "inf": [
+    {
+      "id": "inf-1",
+      "title": "The Mystery Lesson",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is nine o'clock now.",
+        "Ms. Hart says: Take your seat, please!",
+        "She puts some paintbrushes on the desks.",
+        "What are they? asks Leo.",
+        "They are paintbrushes, says Maya.",
+        "Ms. Hart puts some flashcards on the board.",
+        "The flashcards have dark blue and light green colours.",
+        "Leo asks: What lesson is it now?",
+        "Ms. Hart says: Look at the paintbrushes!",
+        "Maya thinks: There are paintbrushes and flashcards with colours.",
+        "Maya says: I know! It is an Art lesson!",
+        "Ms. Hart smiles: That's correct! Nice job, Maya!"
+      ],
+      "translations": [
+        "Şu an saat dokuz.",
+        "Ms. Hart diyor: Yerinize oturun, lütfen!",
+        "Masaların üzerine bazı resim fırçaları koyuyor.",
+        "Onlar nedir? diye soruyor Leo.",
+        "Onlar resim fırçaları, diyor Maya.",
+        "Ms. Hart tahtaya bazı kartlar koyuyor.",
+        "Kartlarda koyu mavi ve açık yeşil renkler var.",
+        "Leo soruyor: Şu an hangi ders?",
+        "Ms. Hart diyor: Resim fırçalarına bak!",
+        "Maya düşünüyor: Resim fırçaları ve renkli kartlar var.",
+        "Maya diyor: Biliyorum! Resim dersi!",
+        "Ms. Hart gülümsüyor: Doğru! Aferin, Maya!"
+      ],
+      "questions": [
+        {
+          "q": "What time is it at the start?",
+          "correct": "Nine o'clock",
+          "wrong": ["Eight o'clock", "Ten o'clock"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "What does Ms. Hart put on the desks?",
+          "correct": "Paintbrushes",
+          "wrong": ["Flashcards", "Exercise books"],
+          "hint": "Find the word desks in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "What colours are on the flashcards?",
+          "correct": "Dark blue and light green",
+          "wrong": ["Dark red and light grey", "Dark brown and light blue"],
+          "hint": "Find the word flashcards in the text.",
+          "hl": [6]
+        },
+        {
+          "q": "How does Maya know it is an Art lesson?",
+          "correct": "She sees the paintbrushes and coloured flashcards.",
+          "wrong": ["Ms. Hart tells her.", "She reads it on the board."],
+          "hint": "Read what Maya thinks before her answer.",
+          "hl": [8, 9, 10]
+        },
+        {
+          "q": "What lesson is it?",
+          "correct": "Art",
+          "wrong": ["Music", "Life Study"],
+          "hint": "Think about what clues Ms. Hart gives.",
+          "hl": [2, 5, 10]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "Who Wins the Prize?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🏅",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        { "e": "👧", "n": "Maya" },
+        { "e": "👦", "n": "Leo" },
+        { "e": "👩‍🏫", "n": "Ms. Hart" }
+      ],
+      "sentences": [
+        "It is two o'clock. It is Music lesson now.",
+        "Ms. Hart says: Answer the question, please!",
+        "There are twenty questions in the quiz.",
+        "Leo answers fifteen questions correctly.",
+        "Maya answers eighteen questions correctly.",
+        "Ms. Hart says: Try again, Leo!",
+        "Leo tries again and gets two more points.",
+        "Leo has seventeen points now.",
+        "Maya has eighteen points.",
+        "Ms. Hart asks: Who is the winner?",
+        "Leo thinks: Maya has more points than me.",
+        "Leo says: Maya is the winner!",
+        "That's correct! says Ms. Hart. Here is your prize, Maya!",
+        "Nice job, everyone! says Ms. Hart."
+      ],
+      "translations": [
+        "Saat iki. Şimdi Müzik dersi.",
+        "Ms. Hart diyor: Soruyu cevaplayın, lütfen!",
+        "Yarışmada yirmi soru var.",
+        "Leo on beş soruyu doğru cevaplıyor.",
+        "Maya on sekiz soruyu doğru cevaplıyor.",
+        "Ms. Hart diyor: Tekrar dene, Leo!",
+        "Leo tekrar deniyor ve iki puan daha alıyor.",
+        "Leo'nun şimdi on yedi puanı var.",
+        "Maya'nın on sekiz puanı var.",
+        "Ms. Hart soruyor: Kazanan kim?",
+        "Leo düşünüyor: Maya'nın benden daha fazla puanı var.",
+        "Leo diyor: Maya kazanan!",
+        "Doğru! diyor Ms. Hart. İşte ödülün, Maya!",
+        "Aferin herkese! diyor Ms. Hart."
+      ],
+      "questions": [
+        {
+          "q": "What lesson is it at two o'clock?",
+          "correct": "Music",
+          "wrong": ["Maths", "English"],
+          "hint": "Read the first sentence.",
+          "hl": [0]
+        },
+        {
+          "q": "How many questions are in the quiz?",
+          "correct": "Twenty",
+          "wrong": ["Fifteen", "Eighteen"],
+          "hint": "Find the word questions in the text.",
+          "hl": [2]
+        },
+        {
+          "q": "How many points does Leo have at the end?",
+          "correct": "Seventeen",
+          "wrong": ["Fifteen", "Eighteen"],
+          "hint": "Find Leo's points in the text.",
+          "hl": [6, 7]
+        },
+        {
+          "q": "Why is Maya the winner?",
+          "correct": "She has more points than Leo.",
+          "wrong": ["She answers all questions correctly.", "Ms. Hart chooses her."],
+          "hint": "Think about how many points Maya and Leo have.",
+          "hl": [7, 8, 10]
+        },
+        {
+          "q": "Who gives Maya the prize?",
+          "correct": "Ms. Hart",
+          "wrong": ["Leo", "Maya herself"],
+          "hint": "Read the last two sentences.",
+          "hl": [12]
+        }
+      ]
+    }
+  ]
+}
