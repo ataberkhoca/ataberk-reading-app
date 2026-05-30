@@ -4,223 +4,1053 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "A Day at Jungle School",
-      "subtitle": "Find the right person and place!",
+      "title": "People at Our School",
+      "subtitle": "Find the right person!",
       "icon": "🏫",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Hi! I am Lily.",
-        "I am a pupil at Jungle School.",
-        "Max is my friend.",
-        "He is in the playground.",
-        "Mr Green is our teacher.",
-        "He is in the classroom.",
-        "Mrs Brown is our headmistress.",
-        "She is in the library."
+        "This is our school.",
+        "This is Miss Oli. She is my teacher.",
+        "Who is he? He is Can. He is my friend.",
+        "Who is she? She is Eda. She is a pupil.",
+        "This is a boy. This is a girl.",
+        "Mr. Aras is the headmaster.",
+        "We are pupils. We are friends!"
       ],
       "translations": [
-        "Merhaba! Ben Lily.",
-        "Jungle School'da bir öğrenciyim.",
-        "Max benim arkadaşım.",
-        "O oyun alanında.",
-        "Mr Green bizim öğretmenimiz.",
-        "O sınıfta.",
-        "Mrs Brown bizim müdiremiz.",
-        "O kütüphanede."
+        "Bu bizim okulumuz.",
+        "Bu Miss Oli. O benim öğretmenim.",
+        "O kim? O Can. O benim arkadaşım.",
+        "O kim? O Eda. O bir öğrenci.",
+        "Bu bir erkek çocuk. Bu bir kız çocuk.",
+        "Mr. Aras müdür.",
+        "Biz öğrenciyiz. Biz arkadaşız!"
       ],
       "questions": [
         {
-          "q": "Where is Max?",
-          "correct": "In the playground",
-          "wrong": ["In the classroom", "In the library"],
-          "hint": "Find Max in the text.",
-          "hl": [3]
+          "q": "Who is the teacher?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Can",
+            "Eda"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Who is in the classroom?",
-          "correct": "Mr Green",
-          "wrong": ["Mrs Brown", "Lily"],
-          "hint": "Look for the word classroom in the text.",
-          "hl": [5]
+          "q": "Who is Can?",
+          "correct": "A friend",
+          "wrong": [
+            "A teacher",
+            "A headmaster"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Where is Mrs Brown?",
-          "correct": "In the library",
-          "wrong": ["In the playground", "In the classroom"],
-          "hint": "Find Mrs Brown in the text.",
-          "hl": [7]
-        },
-        {
-          "q": "Who is the headmistress?",
-          "correct": "Mrs Brown",
-          "wrong": ["Mr Green", "Max"],
-          "hint": "Look for the word headmistress.",
-          "hl": [6]
-        },
-        {
-          "q": "What is Lily?",
+          "q": "Who is Eda?",
           "correct": "A pupil",
-          "wrong": ["A teacher", "A headmistress"],
-          "hint": "Read the second sentence carefully.",
-          "hl": [1]
+          "wrong": [
+            "A teacher",
+            "A headmaster"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the headmaster?",
+          "correct": "Mr. Aras",
+          "wrong": [
+            "Miss Oli",
+            "Can"
+          ],
+          "hint": "Find the word headmaster.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What are Eda and Can?",
+          "correct": "Friends",
+          "wrong": [
+            "Teachers",
+            "Headmasters"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "Around Jungle School",
-      "subtitle": "Find the right place!",
-      "icon": "🔍",
+      "title": "Who Is It?",
+      "subtitle": "Find the right person!",
+      "icon": "👥",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Look! This is Jungle School.",
-        "What is this? It is a canteen.",
-        "What is it? It is a lunch hall.",
-        "This is the sports hall.",
-        "Max is in the sports hall.",
-        "What is this? It is the teacher's room.",
-        "Mr Green is in the teacher's room.",
-        "Where is Mrs Brown? She is in the garden.",
-        "It is a big garden.",
-        "Nice!"
+        "Look! This is my school.",
+        "Who is she? She is Miss Oli. She is a teacher.",
+        "Who is he? He is Tom. He is a pupil.",
+        "Who is she? She is Lila. She is my friend.",
+        "This is a kid. He is a boy.",
+        "This is a kid. She is a girl.",
+        "Miss Oli is in the teacher's room.",
+        "We are happy here!"
       ],
       "translations": [
-        "Bak! Burası Jungle School.",
-        "Bu nedir? Bu bir kantin.",
-        "O nedir? O bir yemekhane.",
-        "Burası spor salonu.",
-        "Max spor salonunda.",
-        "Bu nedir? Burası öğretmenler odası.",
-        "Mr Green öğretmenler odasında.",
-        "Mrs Brown nerede? O bahçede.",
-        "Burası büyük bir bahçe.",
-        "Çok güzel!"
+        "Bak! Bu benim okulum.",
+        "O kim? O Miss Oli. O bir öğretmen.",
+        "O kim? O Tom. O bir öğrenci.",
+        "O kim? O Lila. O benim arkadaşım.",
+        "Bu bir çocuk. O bir erkek çocuk.",
+        "Bu bir çocuk. O bir kız çocuk.",
+        "Miss Oli öğretmenler odasında.",
+        "Okulda mutluyuz!"
       ],
       "questions": [
         {
-          "q": "Where is Max?",
-          "correct": "In the sports hall",
-          "wrong": ["In the garden", "In the canteen"],
-          "hint": "Find Max in the text.",
-          "hl": [4]
+          "q": "Who is the teacher?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Tom",
+            "Lila"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Where is Mrs Brown?",
-          "correct": "In the garden",
-          "wrong": ["In the sports hall", "In the canteen"],
-          "hint": "Look for the word garden.",
-          "hl": [7]
+          "q": "Who is Tom?",
+          "correct": "A pupil",
+          "wrong": [
+            "A teacher",
+            "A headmaster"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Who is in the teacher's room?",
-          "correct": "Mr Green",
-          "wrong": ["Mrs Brown", "Max"],
-          "hint": "Find the teacher's room in the text.",
-          "hl": [5, 6]
+          "q": "Who is Lila?",
+          "correct": "A friend",
+          "wrong": [
+            "A teacher",
+            "A boy"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What is the garden like?",
-          "correct": "Big",
-          "wrong": ["Small", "New"],
-          "hint": "Read the sentence about the garden.",
-          "hl": [8]
+          "q": "Where is Miss Oli?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "Which place is for sports?",
-          "correct": "The sports hall",
-          "wrong": ["The canteen", "The garden"],
-          "hint": "Look for the word sports.",
-          "hl": [3]
+          "q": "Is Tom a boy or a girl?",
+          "correct": "A boy",
+          "wrong": [
+            "A girl",
+            "A teacher"
+          ],
+          "hint": "Find Tom and the word kid.",
+          "hl": [
+            2,
+            4
+          ]
         }
       ]
     },
     {
       "id": "scan-3",
-      "title": "Our Special Days",
-      "subtitle": "Find the right day!",
-      "icon": "🎌",
+      "title": "Places at Our School",
+      "subtitle": "Find the right place!",
+      "icon": "🗺️",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "We have special days at school.",
-        "On 23 April, it is National Sovereignty and Children's Day.",
-        "On 19 May, it is Commemoration of Atatürk, Youth and Sports Day.",
-        "On 15 July, it is Democracy and National Unity Day.",
-        "On 30 August, it is Victory Day.",
-        "On 29 October, it is Republic Day.",
-        "Eid al-Fitr is a happy day, too.",
-        "Festival of Sacrifice is a special day, too.",
-        "We love our special days!"
+        "Look at our school!",
+        "This is a classroom.",
+        "This is the library.",
+        "This is the canteen.",
+        "This is the lunch hall.",
+        "Where is Eda? She is in the garden.",
+        "Where is Tom? He is in the playground.",
+        "Where is Miss Oli? She is in the sports hall.",
+        "Our school is big and nice!"
       ],
       "translations": [
-        "Okulda özel günlerimiz var.",
-        "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır.",
-        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı'dır.",
-        "15 Temmuz Demokrasi ve Millî Birlik Günü'dür.",
-        "30 Ağustos Zafer Bayramı'dır.",
-        "29 Ekim Cumhuriyet Bayramı'dır.",
-        "Ramazan Bayramı da mutlu bir gündür.",
-        "Kurban Bayramı da özel bir gündür.",
-        "Özel günlerimizi seviyoruz!"
+        "Okulumuza bak!",
+        "Bu bir sınıf.",
+        "Bu kütüphane.",
+        "Bu kantin.",
+        "Bu yemekhane.",
+        "Eda nerede? O bahçede.",
+        "Tom nerede? O oyun alanında.",
+        "Miss Oli nerede? O spor salonunda.",
+        "Okulumuz büyük ve güzel!"
       ],
       "questions": [
         {
-          "q": "When is Republic Day?",
-          "correct": "29 October",
-          "wrong": ["23 April", "30 August"],
-          "hint": "Find Republic Day in the text.",
-          "hl": [5]
+          "q": "Where is Eda?",
+          "correct": "In the garden",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "What is on 23 April?",
-          "correct": "National Sovereignty and Children's Day",
-          "wrong": ["Victory Day", "Republic Day"],
-          "hint": "Find 23 April in the text.",
-          "hl": [1]
+          "q": "Where is Tom?",
+          "correct": "In the playground",
+          "wrong": [
+            "In the garden",
+            "In the sports hall"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "When is Victory Day?",
-          "correct": "30 August",
-          "wrong": ["19 May", "15 July"],
-          "hint": "Look for Victory Day.",
-          "hl": [4]
+          "q": "Where is Miss Oli?",
+          "correct": "In the sports hall",
+          "wrong": [
+            "In the playground",
+            "In the canteen"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            7
+          ]
         },
         {
-          "q": "Which day is on 19 May?",
-          "correct": "Commemoration of Atatürk, Youth and Sports Day",
-          "wrong": ["Democracy and National Unity Day", "Children's Day"],
-          "hint": "Find 19 May in the text.",
-          "hl": [2]
+          "q": "What is this place for books?",
+          "correct": "The library",
+          "wrong": [
+            "The canteen",
+            "The garden"
+          ],
+          "hint": "Find the word library.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Which day is in the text?",
-          "correct": "Eid al-Fitr",
-          "wrong": ["New Year's Day", "Teacher's Day"],
-          "hint": "Look near the end of the text.",
-          "hl": [6]
+          "q": "Is our school big or small?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Old"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Where Is It?",
+      "subtitle": "Find the right place!",
+      "icon": "📍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "This is my school.",
+        "Where is Lila? She is in the classroom.",
+        "Where is Can? He is in the library.",
+        "Where is Miss Oli? She is in the teacher's room.",
+        "This is the canteen. This is the lunch hall.",
+        "The garden is nice and big.",
+        "The playground is big.",
+        "I am in the sports hall!"
+      ],
+      "translations": [
+        "Bu benim okulum.",
+        "Lila nerede? O sınıfta.",
+        "Can nerede? O kütüphanede.",
+        "Miss Oli nerede? O öğretmenler odasında.",
+        "Bu kantin. Bu yemekhane.",
+        "Bahçe güzel ve büyük.",
+        "Oyun alanı büyük.",
+        "Ben spor salonundayım!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Lila?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the library",
+            "In the garden"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Can?",
+          "correct": "In the library",
+          "wrong": [
+            "In the classroom",
+            "In the canteen"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Miss Oli?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the garden",
+            "In the playground"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the garden like?",
+          "correct": "Nice and big",
+          "wrong": [
+            "Old and small",
+            "Dark"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the playground like?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Old"
+          ],
+          "hint": "Find the word playground.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "Days of the Week",
+      "subtitle": "Find the right day!",
+      "icon": "📅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is Monday.",
+        "Monday, Tuesday, Wednesday.",
+        "Thursday, Friday.",
+        "Saturday and Sunday.",
+        "Today is Monday. We are in the classroom.",
+        "Miss Oli says: What day is it today?",
+        "Eda says: It is Monday!",
+        "Can says: It is Monday today!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Pazartesi.",
+        "Pazartesi, Salı, Çarşamba.",
+        "Perşembe, Cuma.",
+        "Cumartesi ve Pazar.",
+        "Bugün Pazartesi. Sınıftayız.",
+        "Miss Oli diyor: Bugün hangi gün?",
+        "Eda diyor: Pazartesi!",
+        "Can diyor: Bugün Pazartesi!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "Monday",
+          "wrong": [
+            "Tuesday",
+            "Sunday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What comes after Monday?",
+          "correct": "Tuesday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Find the word Monday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Which days come last?",
+          "correct": "Saturday and Sunday",
+          "wrong": [
+            "Monday and Tuesday",
+            "Thursday and Friday"
+          ],
+          "hint": "Find the last days.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are they today?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the park"
+          ],
+          "hint": "Find the word today.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "It is Monday today",
+          "wrong": [
+            "It is Friday",
+            "It is Sunday"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "Our Week at School",
+      "subtitle": "Find the right day!",
+      "icon": "🗓️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "This is our week here.",
+        "What day is it? It is Wednesday.",
+        "On Monday, we are in the classroom.",
+        "On Friday, we are in the sports hall.",
+        "Saturday and Sunday are not school days.",
+        "Lila says: Friday is a fun day!",
+        "Tom says: Saturday and Sunday are happy days!",
+        "Miss Oli says: Every day is a good day!"
+      ],
+      "translations": [
+        "Bu okuldaki haftamız.",
+        "Hangi gün? Çarşamba.",
+        "Pazartesi günü sınıftayız.",
+        "Cuma günü spor salonundayız.",
+        "Cumartesi ve Pazar okul günü değil.",
+        "Lila diyor: Cuma eğlenceli bir gün!",
+        "Tom diyor: Cumartesi ve Pazar mutlu günler!",
+        "Miss Oli diyor: Her gün güzel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are they on Friday?",
+          "correct": "In the sports hall",
+          "wrong": [
+            "In the classroom",
+            "In the garden"
+          ],
+          "hint": "Find the word Friday.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Which days are not school days?",
+          "correct": "Saturday and Sunday",
+          "wrong": [
+            "Monday and Tuesday",
+            "Wednesday and Thursday"
+          ],
+          "hint": "Find the word school days.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say about Friday?",
+          "correct": "It is a fun day",
+          "wrong": [
+            "It is a sad day",
+            "It is a school day"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Every day is a good day",
+          "wrong": [
+            "Monday is bad",
+            "No day is good"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Good Morning at School",
+      "subtitle": "Find the right words!",
+      "icon": "👋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "It is morning. We are here.",
+        "Good morning, Miss Oli!",
+        "Good morning, Eda! Good morning, Can!",
+        "How are you? I am fine, thanks!",
+        "Hello, Can! Hi, Eda!",
+        "Nice to meet you!",
+        "Miss Oli says: Good morning, everybody!",
+        "Let's start! say the pupils."
+      ],
+      "translations": [
+        "Sabah oldu. Buradayız.",
+        "Günaydın, Miss Oli!",
+        "Günaydın, Eda! Günaydın, Can!",
+        "Nasılsın? İyiyim, teşekkürler!",
+        "Merhaba, Can! Selam, Eda!",
+        "Tanıştığımıza memnun oldum!",
+        "Miss Oli diyor: Günaydın, herkese!",
+        "Hadi başlayalım! diyor öğrenciler."
+      ],
+      "questions": [
+        {
+          "q": "What time of day is it?",
+          "correct": "Morning",
+          "wrong": [
+            "Night",
+            "Afternoon"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Eda say to Miss Oli?",
+          "correct": "Good morning",
+          "wrong": [
+            "Goodbye",
+            "Good night"
+          ],
+          "hint": "Find Eda's greeting.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is Eda?",
+          "correct": "Fine",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find the words how are you.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Miss Oli say to everybody?",
+          "correct": "Good morning, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "See you!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What do the pupils say?",
+          "correct": "Let's start!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "What's Your Name?",
+      "subtitle": "Find the right name!",
+      "icon": "🙋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A new pupil is here.",
+        "Hello! What is your name?",
+        "My name is Lila.",
+        "Hi, Lila! I am Tom.",
+        "Nice to meet you, Tom!",
+        "Welcome to our school, Lila!",
+        "Can I sit here? Sure!",
+        "Miss Oli says: Welcome, Lila!"
+      ],
+      "translations": [
+        "Okulda yeni bir öğrenci var.",
+        "Merhaba! Adın ne?",
+        "Benim adım Lila.",
+        "Selam, Lila! Ben Tom.",
+        "Tanıştığımıza memnun oldum, Tom!",
+        "Okulumuza hoş geldin, Lila!",
+        "Buraya oturabilir miyim? Tabii!",
+        "Miss Oli diyor: Hoş geldin, Lila!"
+      ],
+      "questions": [
+        {
+          "q": "Who is the new pupil?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Miss Oli"
+          ],
+          "hint": "Read the first sentences.",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "What is the girl's name?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Eda"
+          ],
+          "hint": "Find the word name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say to Lila?",
+          "correct": "I am Tom",
+          "wrong": [
+            "Goodbye",
+            "Sorry"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Lila ask?",
+          "correct": "Can I sit here?",
+          "wrong": [
+            "What day is it?",
+            "Where is the garden?"
+          ],
+          "hint": "Find the word sit.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Welcome, Lila!",
+          "wrong": [
+            "Goodbye, Lila!",
+            "Sorry, Lila!"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "What Is This?",
+      "subtitle": "Find the right answer!",
+      "icon": "🔎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli is in the classroom.",
+        "What is this? It is a classroom.",
+        "What is this? It is the library.",
+        "Who is this? This is Eda.",
+        "Who is this? This is Can.",
+        "What is this? It is the garden.",
+        "Look! This is our playground.",
+        "Miss Oli says: Well done, everybody!"
+      ],
+      "translations": [
+        "Miss Oli sınıfta.",
+        "Bu nedir? Bu bir sınıf.",
+        "Bu nedir? Bu kütüphane.",
+        "Bu kim? Bu Eda.",
+        "Bu kim? Bu Can.",
+        "Bu nedir? Bu bahçe.",
+        "Bak! Bu bizim oyun alanımız.",
+        "Miss Oli diyor: Aferin, herkese!"
+      ],
+      "questions": [
+        {
+          "q": "What is the first place?",
+          "correct": "A classroom",
+          "wrong": [
+            "The library",
+            "The garden"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is the first person?",
+          "correct": "Eda",
+          "wrong": [
+            "Can",
+            "Miss Oli"
+          ],
+          "hint": "Find the word who.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the outside place with trees?",
+          "correct": "The garden",
+          "wrong": [
+            "The library",
+            "The classroom"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the big play place?",
+          "correct": "The playground",
+          "wrong": [
+            "The library",
+            "The canteen"
+          ],
+          "hint": "Find the word playground.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Well done, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "A Special Day in April",
+      "subtitle": "Find the right answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is the 23rd of April.",
+        "It is National Sovereignty and Children's Day.",
+        "Look! This is our school garden.",
+        "This is a special school day.",
+        "Eda is happy. Can is happy.",
+        "Miss Oli says: Happy Children's Day!",
+        "Hurray! say the children.",
+        "It is a special day for all children!"
+      ],
+      "translations": [
+        "Bugün hangi gün? 23 Nisan.",
+        "Ulusal Egemenlik ve Çocuk Bayramı.",
+        "Bak! Bu okul bahçemiz.",
+        "Bu özel bir okul günü.",
+        "Eda mutlu. Can mutlu.",
+        "Miss Oli diyor: Çocuk Bayramı kutlu olsun!",
+        "Yaşasın! diyor çocuklar.",
+        "Tüm çocuklar için özel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "The 23rd of April",
+          "wrong": [
+            "Monday",
+            "The 29th of October"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Children's Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are the children?",
+          "correct": "In the school garden",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How does Eda feel?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Happy Children's Day!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -228,167 +1058,1081 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "A New Day at Jungle School",
+      "title": "Good Morning, Everybody!",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "👋",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Good morning!",
-        "I am Lily.",
-        "This is my friend Max.",
-        "Hello Max!",
-        "Today is a new day at Jungle School.",
-        "Meet Mr Green!",
-        "He is our teacher.",
-        "Hello Mr Green!",
-        "Meet Mrs Brown!",
-        "She is our headmistress.",
-        "Hello Mrs Brown!",
-        "We love Jungle School!"
+        "It is morning. The pupils are in the classroom.",
+        "Good morning, everybody! says Miss Oli.",
+        "Good morning, Miss Oli! say the pupils.",
+        "How are you, Eda? I am fine, thanks!",
+        "How are you, Can? I am fine, too!",
+        "Hello, Eda! Hi, Can!",
+        "Let's start! says Miss Oli.",
+        "It is a happy morning at our school."
       ],
       "translations": [
-        "Günaydın!",
-        "Ben Lily.",
-        "Bu benim arkadaşım Max.",
-        "Merhaba Max!",
-        "Bugün Jungle School'da yeni bir gün.",
-        "Mr Green ile tanışın!",
-        "O bizim öğretmenimiz.",
-        "Merhaba Mr Green!",
-        "Mrs Brown ile tanışın!",
-        "O bizim müdiremiz.",
-        "Merhaba Mrs Brown!",
-        "Jungle School'u seviyoruz!"
+        "Sabah oldu. Öğrenciler sınıfta.",
+        "Günaydın, herkese! diyor Miss Oli.",
+        "Günaydın, Miss Oli! diyor öğrenciler.",
+        "Nasılsın, Eda? İyiyim, teşekkürler!",
+        "Nasılsın, Can? Ben de iyiyim!",
+        "Merhaba, Eda! Selam, Can!",
+        "Hadi başlayalım! diyor Miss Oli.",
+        "Okulumuzda mutlu bir sabah."
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Meeting people at school",
-          "wrong": ["Days of the week", "Places at school"],
-          "hint": "Look at the greetings in the text. What is happening?",
-          "hl": [3, 7, 10]
+          "correct": "Greetings in the morning",
+          "wrong": [
+            "Days of the week",
+            "School places"
+          ],
+          "hint": "Think about what they say to each other.",
+          "hl": [
+            1,
+            2,
+            3,
+            5
+          ]
         },
         {
-          "q": "Who are in the text?",
-          "correct": "Lily, Max, Mr Green and Mrs Brown",
-          "wrong": ["Lily, Max and Tom", "Mr Green, Mrs Brown and Sam"],
-          "hint": "Find all the names in the text.",
-          "hl": [1, 2, 5, 8]
+          "q": "Where are the pupils?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Where does the story happen?",
-          "correct": "At Jungle School",
-          "wrong": ["At home", "In the playground"],
-          "hint": "Look for the name of the school.",
-          "hl": [4]
+          "q": "What does Miss Oli say first?",
+          "correct": "Good morning, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "Good night!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What kind of text is this?",
-          "correct": "A greeting story",
-          "wrong": ["A school timetable", "A celebration story"],
-          "hint": "Look at how people talk to each other.",
-          "hl": [0, 3, 7, 10]
+          "q": "How is Eda?",
+          "correct": "Fine",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How does Lily feel about Jungle School?",
-          "correct": "She loves it",
-          "wrong": ["She is sad", "She is scared"],
-          "hint": "Read the last sentence.",
-          "hl": [11]
+          "q": "What does Miss Oli say to start?",
+          "correct": "Let's start!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Find the word start.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
+      "title": "The People at My School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👥",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "My school has many people.",
+        "Miss Oli is my teacher.",
+        "Mr. Aras is the headmaster.",
+        "Tom is a pupil. He is my friend.",
+        "Lila is a pupil. She is my friend.",
+        "This is a boy. This is a girl.",
+        "We are all friends here.",
+        "I am happy with my friends!"
+      ],
+      "translations": [
+        "Okulumda birçok insan var.",
+        "Miss Oli benim öğretmenim.",
+        "Mr. Aras müdür.",
+        "Tom bir öğrenci. O benim arkadaşım.",
+        "Lila bir öğrenci. O benim arkadaşım.",
+        "Bu bir erkek çocuk. Bu bir kız çocuk.",
+        "Hepimiz burada arkadaşız.",
+        "Arkadaşlarımla mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "People at school",
+          "wrong": [
+            "Days of the week",
+            "Greetings"
+          ],
+          "hint": "Think about who the text talks about.",
+          "hl": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "Who is the teacher?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Mr. Aras",
+            "Tom"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is the headmaster?",
+          "correct": "Mr. Aras",
+          "wrong": [
+            "Miss Oli",
+            "Lila"
+          ],
+          "hint": "Find the word headmaster.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Tom?",
+          "correct": "A pupil",
+          "wrong": [
+            "A teacher",
+            "A headmaster"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How does the writer feel?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Around My School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏫",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Welcome to my school!",
+        "This is the classroom. We are here every day.",
+        "This is the library. It is quiet.",
+        "This is the canteen. This is the lunch hall.",
+        "This is the garden. It is big.",
+        "This is the playground. It is fun.",
+        "Where is Miss Oli? She is in the teacher's room.",
+        "My school is a happy place!"
+      ],
+      "translations": [
+        "Okuluma hoş geldin!",
+        "Bu sınıf. Her gün buradayız.",
+        "Bu kütüphane. Sessiz.",
+        "Bu kantin. Bu yemekhane.",
+        "Bu bahçe. Büyük.",
+        "Bu oyun alanı. Eğlenceli.",
+        "Miss Oli nerede? O öğretmenler odasında.",
+        "Okulum mutlu bir yer!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Places at school",
+          "wrong": [
+            "Greetings",
+            "Days of the week"
+          ],
+          "hint": "Think about all the rooms and places.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What is the library like?",
+          "correct": "Quiet",
+          "wrong": [
+            "Big",
+            "Fun"
+          ],
+          "hint": "Find the word library.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is the garden like?",
+          "correct": "Big",
+          "wrong": [
+            "Quiet",
+            "Small"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the playground like?",
+          "correct": "Fun",
+          "wrong": [
+            "Quiet",
+            "Small"
+          ],
+          "hint": "Find the word playground.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is Miss Oli?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "The Days of My Week",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📅",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
+        "Monday, Tuesday, Wednesday, Thursday and Friday are school days.",
+        "Saturday and Sunday are not school days.",
+        "What day is it today? It is Thursday.",
+        "On Thursday, we are in the sports hall.",
+        "Tom says: Friday is a fun day!",
+        "Lila says: Saturday is a happy day!",
+        "Every day is a good day at school."
+      ],
+      "translations": [
+        "Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi ve Pazar.",
+        "Pazartesi, Salı, Çarşamba, Perşembe ve Cuma okul günleridir.",
+        "Cumartesi ve Pazar okul günü değildir.",
+        "Bugün hangi gün? Perşembe.",
+        "Perşembe günü spor salonundayız.",
+        "Tom diyor: Cuma eğlenceli bir gün!",
+        "Lila diyor: Cumartesi mutlu bir gün!",
+        "Okulda her gün güzel bir gün."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Days of the week",
+          "wrong": [
+            "School places",
+            "Greetings"
+          ],
+          "hint": "Think about the days.",
+          "hl": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Which day comes after Monday?",
+          "correct": "Tuesday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Find the word Monday.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Which days are not school days?",
+          "correct": "Saturday and Sunday",
+          "wrong": [
+            "Monday and Tuesday",
+            "Thursday and Friday"
+          ],
+          "hint": "Find the word school days.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What day is it today?",
+          "correct": "Thursday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find the word today.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Tom say about Friday?",
+          "correct": "It is a fun day",
+          "wrong": [
+            "It is a sad day",
+            "It is a school day"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
       "title": "A New Friend",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🙋",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A new girl is at my school today.",
+        "Hello! What is your name? asks Eda.",
+        "My name is Lila, says the new girl.",
+        "Nice to meet you, Lila! says Eda.",
+        "Welcome to our school! says Miss Oli.",
+        "Can I sit here? asks Lila. Sure! says Eda.",
+        "Now Lila is my new friend.",
+        "We are happy together!"
+      ],
+      "translations": [
+        "Bugün okulumda yeni bir kız var.",
+        "Merhaba! Adın ne? diye soruyor Eda.",
+        "Benim adım Lila, diyor yeni kız.",
+        "Tanıştığımıza memnun oldum, Lila! diyor Eda.",
+        "Okulumuza hoş geldin! diyor Miss Oli.",
+        "Buraya oturabilir miyim? diye soruyor Lila. Tabii! diyor Eda.",
+        "Şimdi Lila benim yeni arkadaşım.",
+        "Birlikte mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Meeting a new friend",
+          "wrong": [
+            "Days of the week",
+            "School places"
+          ],
+          "hint": "Think about the new girl.",
+          "hl": [
+            0,
+            2,
+            6
+          ]
+        },
+        {
+          "q": "Who is the new girl?",
+          "correct": "Lila",
+          "wrong": [
+            "Eda",
+            "Miss Oli"
+          ],
+          "hint": "Find the word name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Eda ask first?",
+          "correct": "What is your name?",
+          "wrong": [
+            "What day is it?",
+            "Where is the garden?"
+          ],
+          "hint": "Find Eda's first words.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Lila ask?",
+          "correct": "Can I sit here?",
+          "wrong": [
+            "What is your name?",
+            "Where is Miss Oli?"
+          ],
+          "hint": "Find the word sit.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Lila now?",
+          "correct": "A new friend",
+          "wrong": [
+            "A teacher",
+            "A headmaster"
+          ],
+          "hint": "Read the last sentences.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "What Is This at School?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🔎",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli and the pupils are in the classroom.",
+        "What is this? It is a classroom.",
+        "What is this? It is the library.",
+        "Who is this? This is Can.",
+        "Who is this? This is Tom.",
+        "What is this place? It is the playground.",
+        "Miss Oli says: Well done, everybody!",
+        "The pupils know their school!"
+      ],
+      "translations": [
+        "Miss Oli ve öğrenciler sınıfta.",
+        "Bu nedir? Bu bir sınıf.",
+        "Bu nedir? Bu kütüphane.",
+        "Bu kim? Bu Can.",
+        "Bu kim? Bu Tom.",
+        "Bu yer neresi? Burası oyun alanı.",
+        "Miss Oli diyor: Aferin, herkese!",
+        "Öğrenciler okullarını biliyor!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Naming people and places",
+          "wrong": [
+            "Days of the week",
+            "Greetings"
+          ],
+          "hint": "Think about the what and who questions.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Where are Miss Oli and the pupils?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the canteen"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is the place with books?",
+          "correct": "The library",
+          "wrong": [
+            "The playground",
+            "The canteen"
+          ],
+          "hint": "Find the word library.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is the second person?",
+          "correct": "Tom",
+          "wrong": [
+            "Can",
+            "Miss Oli"
+          ],
+          "hint": "Find the second who question.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Well done, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "My School Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏫",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "It is morning. I am in my school.",
+        "Good morning, Miss Oli!",
+        "This is my classroom.",
+        "Can is my friend. He is in the library.",
+        "Where is Miss Oli? She is in the teacher's room.",
+        "Now we are in the garden.",
+        "The playground is fun.",
+        "It is a good day for me!"
+      ],
+      "translations": [
+        "Sabah oldu. Okulumdayım.",
+        "Günaydın, Miss Oli!",
+        "Bu benim sınıfım.",
+        "Can benim arkadaşım. O kütüphanede.",
+        "Miss Oli nerede? O öğretmenler odasında.",
+        "Şimdi bahçedeyiz.",
+        "Oyun alanı eğlenceli.",
+        "Benim için güzel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A day at school",
+          "wrong": [
+            "Days of the week",
+            "A birthday party"
+          ],
+          "hint": "Think about the whole school day.",
+          "hl": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "q": "What does the writer say to Miss Oli?",
+          "correct": "Good morning",
+          "wrong": [
+            "Goodbye",
+            "Good night"
+          ],
+          "hint": "Find Miss Oli's greeting.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Can?",
+          "correct": "In the library",
+          "wrong": [
+            "In the garden",
+            "In the teacher's room"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Miss Oli?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the library",
+            "In the playground"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the playground like?",
+          "correct": "Fun",
+          "wrong": [
+            "Quiet",
+            "Sad"
+          ],
+          "hint": "Find the word playground.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "Monday at School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🗓️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is Monday.",
+        "On Monday, we are in the classroom.",
+        "Good morning, everybody! says Miss Oli.",
+        "Lila is here. Tom is here, too.",
+        "This is our classroom. It is nice.",
+        "Now we are in the garden.",
+        "Monday is a school day.",
+        "We are happy on Monday!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Pazartesi.",
+        "Pazartesi günü sınıftayız.",
+        "Günaydın, herkese! diyor Miss Oli.",
+        "Lila burada. Tom da burada.",
+        "Bu bizim sınıfımız. Güzel.",
+        "Şimdi bahçedeyiz.",
+        "Pazartesi bir okul günü.",
+        "Pazartesi mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Monday at school",
+          "wrong": [
+            "A birthday",
+            "School people"
+          ],
+          "hint": "Think about the day and the school.",
+          "hl": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "q": "What day is it?",
+          "correct": "Monday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where are they on Monday?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Find the word Monday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who says good morning?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Lila",
+            "Tom"
+          ],
+          "hint": "Find the greeting.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is Monday a school day?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Sometimes"
+          ],
+          "hint": "Find the word school day.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Polite Words at School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🤝",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👧", "n": "Zara" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Good morning everybody!",
-        "We have a new girl today.",
-        "What is your name?",
-        "My name is Zara.",
-        "Hello! I am a new kid here.",
-        "Welcome, Zara!",
-        "How are you?",
-        "I am fine, thanks! And you?",
-        "Who is he?",
-        "He is Max. He is a boy in our class.",
-        "Nice to meet you, Max!",
-        "Can I sit here?",
-        "Sure!",
-        "Oh! Excuse me! Sorry!",
-        "That's OK! Now they are friends."
+        "We use polite words at school.",
+        "Good morning! Hello! Hi!",
+        "Excuse me! Sorry! That's OK!",
+        "Thank you! says Eda.",
+        "Welcome! says Miss Oli.",
+        "Nice to meet you! says Tom.",
+        "See you tomorrow! Goodbye!",
+        "Polite words are nice words!"
       ],
       "translations": [
-        "Herkese günaydın!",
-        "Bugün yeni bir kızımız var.",
-        "Adın ne?",
-        "Benim adım Zara.",
-        "Merhaba! Ben burada yeni bir çocuğum.",
-        "Hoş geldin, Zara!",
-        "Nasılsın?",
-        "İyiyim, teşekkürler! Ya sen?",
-        "O kim?",
-        "O Max. O sınıfımızda bir erkek çocuk.",
-        "Tanıştığımıza memnun oldum, Max!",
-        "Buraya oturabilir miyim?",
-        "Tabii ki!",
-        "Ah! Pardon! Özür dilerim!",
-        "Sorun değil! Artık onlar arkadaş."
+        "Okulda kibar kelimeler kullanırız.",
+        "Günaydın! Merhaba! Selam!",
+        "Affedersin! Özür dilerim! Sorun değil!",
+        "Teşekkürler! diyor Eda.",
+        "Hoş geldin! diyor Miss Oli.",
+        "Tanıştığımıza memnun oldum! diyor Tom.",
+        "Yarın görüşürüz! Hoşça kal!",
+        "Kibar kelimeler güzel kelimelerdir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "A new friend at school",
-          "wrong": ["A school trip", "A sports day"],
-          "hint": "Look at what happens with Zara.",
-          "hl": [1, 9, 14]
+          "correct": "Polite words at school",
+          "wrong": [
+            "Days of the week",
+            "School places"
+          ],
+          "hint": "Think about the nice words.",
+          "hl": [
+            0,
+            1,
+            2,
+            7
+          ]
         },
         {
-          "q": "Who is the new pupil?",
-          "correct": "Zara",
-          "wrong": ["Lily", "Max"],
-          "hint": "Find the new name in the text.",
-          "hl": [3]
+          "q": "What does Eda say?",
+          "correct": "Thank you!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How does Zara feel?",
-          "correct": "Fine",
-          "wrong": ["Sad", "Tired"],
-          "hint": "Read what Zara says about herself.",
-          "hl": [7]
+          "q": "What does Miss Oli say?",
+          "correct": "Welcome!",
+          "wrong": [
+            "Sorry!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What kind of text is this?",
-          "correct": "An introduction story",
-          "wrong": ["A timetable", "A celebration story"],
-          "hint": "Look at how people meet and talk.",
-          "hl": [2, 3, 10]
+          "q": "What does Tom say?",
+          "correct": "Nice to meet you!",
+          "wrong": [
+            "Excuse me!",
+            "See you!"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Are Zara and Max friends at the end?",
-          "correct": "Yes",
-          "wrong": ["No", "We don't know"],
-          "hint": "Read the last sentence.",
-          "hl": [14]
+          "q": "What do we say before we go home?",
+          "correct": "See you tomorrow! Goodbye!",
+          "wrong": [
+            "Good morning!",
+            "Hello!"
+          ],
+          "hint": "Find the word tomorrow.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "The 29th of October",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🇹🇷",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is the 29th of October.",
+        "It is Republic Day in Türkiye.",
+        "It is a happy national day.",
+        "We are in the school garden.",
+        "Can is happy. Eda is happy.",
+        "Miss Oli says: Happy Republic Day!",
+        "Hurray! say the children.",
+        "It is a special day for us!"
+      ],
+      "translations": [
+        "Bugün hangi gün? 29 Ekim.",
+        "Türkiye'de Cumhuriyet Bayramı.",
+        "Mutlu bir milli gün.",
+        "Okul bahçesindeyiz.",
+        "Can mutlu. Eda mutlu.",
+        "Miss Oli diyor: Cumhuriyet Bayramı kutlu olsun!",
+        "Yaşasın! diyor çocuklar.",
+        "Bizim için özel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Republic Day at school",
+          "wrong": [
+            "A birthday",
+            "School places"
+          ],
+          "hint": "Think about the special day.",
+          "hl": [
+            1,
+            2,
+            7
+          ]
+        },
+        {
+          "q": "What day is it today?",
+          "correct": "The 29th of October",
+          "wrong": [
+            "The 23rd of April",
+            "Monday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Republic Day",
+          "wrong": [
+            "Children's Day",
+            "Victory Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are the children?",
+          "correct": "In the school garden",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Happy Republic Day!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -396,161 +2140,1083 @@
   "int": [
     {
       "id": "int-1",
-      "title": "Our School Week",
+      "title": "Two New Friends",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🤝",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A new boy is in the classroom today.",
+        "Hello! What is your name? asks Lila.",
+        "My name is Tom, says the boy.",
+        "Nice to meet you, Tom! says Lila.",
+        "Nice to meet you, too! says Tom.",
+        "Miss Oli says: Welcome, Tom!",
+        "This is Lila. She is your new friend.",
+        "Hi, Lila! Can I sit here? asks Tom.",
+        "Sure! says Lila.",
+        "Now they are good friends!"
+      ],
+      "translations": [
+        "Bugün sınıfta yeni bir erkek çocuk var.",
+        "Merhaba! Adın ne? diye soruyor Lila.",
+        "Benim adım Tom, diyor çocuk.",
+        "Tanıştığımıza memnun oldum, Tom! diyor Lila.",
+        "Ben de memnun oldum! diyor Tom.",
+        "Miss Oli diyor: Hoş geldin, Tom!",
+        "Bu Lila. O senin yeni arkadaşın.",
+        "Selam, Lila! Buraya oturabilir miyim? diye soruyor Tom.",
+        "Tabii! diyor Lila.",
+        "Şimdi iyi arkadaşlar!"
+      ],
+      "questions": [
+        {
+          "q": "Who is the new boy?",
+          "correct": "Tom",
+          "wrong": [
+            "Lila",
+            "Mr. Aras"
+          ],
+          "hint": "Read the first sentences.",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "What does Lila ask first?",
+          "correct": "What is your name?",
+          "wrong": [
+            "Where is the garden?",
+            "What day is it?"
+          ],
+          "hint": "Find Lila's first words.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who says welcome?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Tom",
+            "Lila"
+          ],
+          "hint": "Find the word welcome.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Tom ask Lila?",
+          "correct": "Can I sit here?",
+          "wrong": [
+            "What is your name?",
+            "Where is the library?"
+          ],
+          "hint": "Find the word sit.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What are Tom and Lila now?",
+          "correct": "Good friends",
+          "wrong": [
+            "Teachers",
+            "Pupils only"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-2",
+      "title": "People in My School",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👥",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        }
+      ],
+      "sentences": [
+        "My school has many people.",
+        "Miss Oli is my teacher. She is in the classroom.",
+        "Mr. Aras is the headmaster. He is in the teacher's room.",
+        "Can is my friend. He is a boy.",
+        "Lila is my friend. She is a girl.",
+        "Eda is a pupil. She is in the library.",
+        "Who is in the playground? Tom is in the playground.",
+        "We are all pupils.",
+        "We are happy together."
+      ],
+      "translations": [
+        "Okulumda birçok insan var.",
+        "Miss Oli benim öğretmenim. O sınıfta.",
+        "Mr. Aras müdür. O öğretmenler odasında.",
+        "Can benim arkadaşım. O bir erkek çocuk.",
+        "Lila benim arkadaşım. O bir kız çocuk.",
+        "Eda bir öğrenci. O kütüphanede.",
+        "Oyun alanında kim var? Tom oyun alanında.",
+        "Hepimiz öğrenciyiz.",
+        "Birlikte mutluyuz."
+      ],
+      "questions": [
+        {
+          "q": "Who is the teacher?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Mr. Aras",
+            "Tom"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Mr. Aras?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the playground",
+            "In the library"
+          ],
+          "hint": "Find Mr. Aras.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Eda?",
+          "correct": "In the library",
+          "wrong": [
+            "In the garden",
+            "In the canteen"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is in the playground?",
+          "correct": "Tom",
+          "wrong": [
+            "Lila",
+            "Eda"
+          ],
+          "hint": "Find the word playground.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What are Can, Lila, Eda and Tom?",
+          "correct": "Pupils",
+          "wrong": [
+            "Teachers",
+            "Headmasters"
+          ],
+          "hint": "Read the second to last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Where Are My Friends?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        }
+      ],
+      "sentences": [
+        "Today is a school day.",
+        "Where is Eda? She is in the classroom.",
+        "Where is Can? He is in the library.",
+        "Where is Lila? She is in the garden.",
+        "Where is Tom? He is in the playground.",
+        "Where is Miss Oli? She is in the teacher's room.",
+        "Where is Mr. Aras? He is in the canteen.",
+        "We are all in different places.",
+        "Soon we are all in the classroom!"
+      ],
+      "translations": [
+        "Bugün bir okul günü.",
+        "Eda nerede? O sınıfta.",
+        "Can nerede? O kütüphanede.",
+        "Lila nerede? O bahçede.",
+        "Tom nerede? O oyun alanında.",
+        "Miss Oli nerede? O öğretmenler odasında.",
+        "Mr. Aras nerede? O kantinde.",
+        "Hepimiz farklı yerlerdeyiz.",
+        "Yakında hepimiz sınıfta olacağız!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Eda?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the library",
+            "In the garden"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Can?",
+          "correct": "In the library",
+          "wrong": [
+            "In the classroom",
+            "In the canteen"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Lila?",
+          "correct": "In the garden",
+          "wrong": [
+            "In the playground",
+            "In the library"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Mr. Aras?",
+          "correct": "In the canteen",
+          "wrong": [
+            "In the teacher's room",
+            "In the playground"
+          ],
+          "hint": "Find Mr. Aras.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where are they all soon?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the playground"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "A Week of Days",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "📅",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
-      ],
-      "sentences": [
-        "Today is Monday.",
-        "Lily and Max are at school.",
-        "Tuesday is art day.",
-        "Lily loves art.",
-        "Wednesday is sports day.",
-        "Max loves sports.",
-        "Thursday is library day.",
-        "Mrs Brown is in the library.",
-        "Friday is the last school day.",
-        "Mr Green says goodbye.",
-        "Saturday and Sunday are not school days."
-      ],
-      "translations": [
-        "Bugün Pazartesi.",
-        "Lily ve Max okulda.",
-        "Salı sanat günü.",
-        "Lily sanatı seviyor.",
-        "Çarşamba spor günü.",
-        "Max sporu seviyor.",
-        "Perşembe kütüphane günü.",
-        "Mrs Brown kütüphanede.",
-        "Cuma son okul günü.",
-        "Mr Green hoşça kal diyor.",
-        "Cumartesi ve Pazar okul günü değil."
-      ],
-      "questions": [
         {
-          "q": "What day is today?",
-          "correct": "Monday",
-          "wrong": ["Tuesday", "Friday"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "e": "👦",
+          "n": "Can"
         },
         {
-          "q": "What is Wednesday?",
-          "correct": "Sports day",
-          "wrong": ["Art day", "Library day"],
-          "hint": "Find Wednesday in the text.",
-          "hl": [4]
+          "e": "👧🏻",
+          "n": "Lila"
         },
         {
-          "q": "Who is in the library on Thursday?",
-          "correct": "Mrs Brown",
-          "wrong": ["Mr Green", "Max"],
-          "hint": "Find Thursday in the text.",
-          "hl": [6, 7]
-        },
-        {
-          "q": "Which days are not school days?",
-          "correct": "Saturday and Sunday",
-          "wrong": ["Friday and Saturday", "Thursday and Friday"],
-          "hint": "Read the last sentence.",
-          "hl": [10]
-        },
-        {
-          "q": "What does Mr Green do on Friday?",
-          "correct": "He says goodbye",
-          "wrong": ["He goes to the library", "He plays sports"],
-          "hint": "Find Mr Green in the text.",
-          "hl": [8, 9]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
         }
-      ]
-    },
-    {
-      "id": "int-2",
-      "title": "In the Classroom",
-      "subtitle": "Read carefully and answer the questions!",
-      "icon": "📚",
-      "hlMode": "fade3",
-      "hintMode": "button",
-      "choices": 3,
-      "cast": [
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👧", "n": "Zara" }
       ],
       "sentences": [
-        "Good morning everybody!",
-        "What day is it today?",
-        "It is Monday today.",
-        "Let's start!",
-        "Lily, come here, please.",
-        "Look at the new word.",
-        "Read it, please.",
-        "Thank you, Lily.",
-        "Well done!",
-        "Now Max and Zara read too.",
-        "They read very well.",
-        "It is home time now.",
-        "See you tomorrow! Bye!"
+        "Miss Oli asks: What day is it today?",
+        "It is Tuesday, says Can.",
+        "What day is after Tuesday? It is Wednesday.",
+        "What day is after Wednesday? It is Thursday.",
+        "Then Friday is a happy day for us.",
+        "Saturday and Sunday are not school days.",
+        "Lila says: Saturday is a good day!",
+        "Then it is Monday again.",
+        "Every day is a new day!"
       ],
       "translations": [
-        "Herkese günaydın!",
-        "Bugün günlerden ne?",
-        "Bugün Pazartesi.",
-        "Hadi başlayalım!",
-        "Lily, buraya gel lütfen.",
-        "Yeni kelimeye bak.",
-        "Onu oku lütfen.",
-        "Teşekkürler, Lily.",
-        "Aferin!",
-        "Şimdi Max ve Zara da okuyor.",
-        "Onlar çok güzel okuyor.",
-        "Şimdi eve gitme zamanı.",
-        "Yarın görüşürüz! Hoşça kalın!"
+        "Miss Oli soruyor: Bugün hangi gün?",
+        "Salı, diyor Can.",
+        "Salı'dan sonraki gün ne? Çarşamba.",
+        "Çarşamba'dan sonraki gün ne? Perşembe.",
+        "Sonra Cuma bizim için mutlu bir gün.",
+        "Cumartesi ve Pazar okul günü değil.",
+        "Lila diyor: Cumartesi güzel bir gün!",
+        "Sonra yine Pazartesi.",
+        "Her gün yeni bir gün!"
       ],
       "questions": [
         {
           "q": "What day is it today?",
+          "correct": "Tuesday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find what Can says.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What day is after Wednesday?",
+          "correct": "Thursday",
+          "wrong": [
+            "Friday",
+            "Monday"
+          ],
+          "hint": "Find the word Wednesday.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Which days are not school days?",
+          "correct": "Saturday and Sunday",
+          "wrong": [
+            "Monday and Tuesday",
+            "Wednesday and Thursday"
+          ],
+          "hint": "Find the word school days.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Lila say about Saturday?",
+          "correct": "It is a good day",
+          "wrong": [
+            "It is a school day",
+            "It is a sad day"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What day is after Sunday?",
           "correct": "Monday",
-          "wrong": ["Tuesday", "Sunday"],
-          "hint": "Read the second sentence.",
-          "hl": [1, 2]
+          "wrong": [
+            "Friday",
+            "Wednesday"
+          ],
+          "hint": "Read the second to last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "From Morning to Goodbye",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "What does Mr Green say to Lily?",
-          "correct": "Come here, please",
-          "wrong": ["Go home, please", "Sit down, please"],
-          "hint": "Find Lily in the text.",
-          "hl": [4]
+          "e": "👦🏻",
+          "n": "Tom"
         },
         {
-          "q": "Who reads very well?",
-          "correct": "Max and Zara",
-          "wrong": ["Lily and Max", "Mr Green"],
-          "hint": "Find the names before 'They read very well'.",
-          "hl": [9, 10]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "It is morning. Eda is in the school garden.",
+        "Good morning, Tom!",
+        "Good morning, Eda! How are you?",
+        "I am fine, thanks! And you?",
+        "I am fine, too!",
+        "Now they are in the classroom.",
+        "Good morning, everybody! says Miss Oli.",
+        "Let's start! say the pupils.",
+        "Goodbye, everybody! says Miss Oli later.",
+        "See you tomorrow! say Eda and Tom."
+      ],
+      "translations": [
+        "Sabah oldu. Eda okul bahçesinde.",
+        "Günaydın, Tom!",
+        "Günaydın, Eda! Nasılsın?",
+        "İyiyim, teşekkürler! Sen?",
+        "Ben de iyiyim!",
+        "Şimdi sınıftalar.",
+        "Günaydın, herkese! diyor Miss Oli.",
+        "Hadi başlayalım! diyor öğrenciler.",
+        "Hoşça kalın, herkes! diyor Miss Oli daha sonra.",
+        "Yarın görüşürüz! diyor Eda ve Tom."
+      ],
+      "questions": [
+        {
+          "q": "Where is Eda in the morning?",
+          "correct": "In the school garden",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "What does Mr Green say after Lily reads?",
-          "correct": "Thank you",
-          "wrong": ["Sorry", "Goodbye"],
-          "hint": "Read the sentence after Lily reads.",
-          "hl": [7]
+          "q": "How is Tom?",
+          "correct": "Fine",
+          "wrong": [
+            "Tired",
+            "Sad"
+          ],
+          "hint": "Find the words how are you.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What do they say at the end?",
-          "correct": "See you tomorrow",
-          "wrong": ["Good morning", "Welcome"],
+          "q": "What does Miss Oli say first?",
+          "correct": "Good morning, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "See you!"
+          ],
+          "hint": "Find the word morning.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What do the pupils say?",
+          "correct": "Let's start!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Find the word start.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What do Eda and Tom say before they go home?",
+          "correct": "See you tomorrow!",
+          "wrong": [
+            "Good morning!",
+            "Welcome!"
+          ],
           "hint": "Read the last sentence.",
-          "hl": [12]
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Look and Name!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: Look! What is this?",
+        "Lila looks. It is a classroom!",
+        "What is this? asks Miss Oli.",
+        "Can says: It is the library!",
+        "Who is this? asks Miss Oli.",
+        "Lila says: This is Can. He is my friend.",
+        "Who is this? asks Miss Oli.",
+        "Can says: This is Lila. She is my friend.",
+        "Well done, everybody! says Miss Oli.",
+        "We know our school very well!"
+      ],
+      "translations": [
+        "Miss Oli diyor: Bak! Bu nedir?",
+        "Lila bakıyor. Bu bir sınıf!",
+        "Bu nedir? diye soruyor Miss Oli.",
+        "Can diyor: Bu kütüphane!",
+        "Bu kim? diye soruyor Miss Oli.",
+        "Lila diyor: Bu Can. O benim arkadaşım.",
+        "Bu kim? diye soruyor Miss Oli.",
+        "Can diyor: Bu Lila. O benim arkadaşım.",
+        "Aferin, herkese! diyor Miss Oli.",
+        "Okulumuzu çok iyi biliyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the first thing they name?",
+          "correct": "A classroom",
+          "wrong": [
+            "The library",
+            "The garden"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Can name?",
+          "correct": "The library",
+          "wrong": [
+            "The classroom",
+            "The garden"
+          ],
+          "hint": "Find Can's first answer.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who does Lila name?",
+          "correct": "Can",
+          "wrong": [
+            "Lila herself",
+            "Miss Oli"
+          ],
+          "hint": "Find what Lila says.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who does Can name?",
+          "correct": "Lila",
+          "wrong": [
+            "Can himself",
+            "Miss Oli"
+          ],
+          "hint": "Find what Can says.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Miss Oli say to the pupils?",
+          "correct": "Well done, everybody!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Read the last sentences.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Polite Words in Class",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🙏",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli is in the classroom. Eda and Tom are here.",
+        "Come here, please! says Miss Oli.",
+        "Eda and Tom come to the front.",
+        "Eda says: Excuse me, Miss Oli!",
+        "Yes, Eda? says Miss Oli.",
+        "Can I sit here? asks Eda. Sure! says Miss Oli.",
+        "Tom is sorry. Sorry, Miss Oli!",
+        "That's OK, Tom! says Miss Oli.",
+        "Thank you, Miss Oli! says Eda.",
+        "Well done, everybody!"
+      ],
+      "translations": [
+        "Miss Oli sınıfta. Eda ve Tom da burada.",
+        "Buraya gel, lütfen! diyor Miss Oli.",
+        "Eda ve Tom öne geliyor.",
+        "Eda diyor: Affedersiniz, Miss Oli!",
+        "Evet, Eda? diyor Miss Oli.",
+        "Buraya oturabilir miyim? diye soruyor Eda. Tabii! diyor Miss Oli.",
+        "Tom üzgün. Özür dilerim, Miss Oli!",
+        "Sorun değil, Tom! diyor Miss Oli.",
+        "Teşekkürler, Miss Oli! diyor Eda.",
+        "Aferin, herkese!"
+      ],
+      "questions": [
+        {
+          "q": "What does Miss Oli ask Eda and Tom to do?",
+          "correct": "Come here, please",
+          "wrong": [
+            "Sit down",
+            "Go home"
+          ],
+          "hint": "Find the word come.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Eda say first?",
+          "correct": "Excuse me",
+          "wrong": [
+            "Goodbye",
+            "Sorry"
+          ],
+          "hint": "Find Eda's first words.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Eda ask?",
+          "correct": "Can I sit here?",
+          "wrong": [
+            "What day is it?",
+            "Where is the library?"
+          ],
+          "hint": "Find the word sit.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "Sorry",
+          "wrong": [
+            "Welcome",
+            "Goodbye"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say to Tom?",
+          "correct": "That's OK",
+          "wrong": [
+            "Good night",
+            "Goodbye"
+          ],
+          "hint": "Find Tom and Miss Oli.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "Friday at School",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is Friday.",
+        "Can is in the classroom.",
+        "Lila is in the library.",
+        "Miss Oli is in the teacher's room.",
+        "Now they are all in the sports hall.",
+        "Mr. Aras is here, too.",
+        "Friday is a fun day for us.",
+        "Welcome to the sports hall! says Miss Oli.",
+        "Hurray! say the children.",
+        "Goodbye, Friday! See you next week!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Cuma.",
+        "Can sınıfta.",
+        "Lila kütüphanede.",
+        "Miss Oli öğretmenler odasında.",
+        "Şimdi hepsi spor salonunda.",
+        "Mr. Aras da burada.",
+        "Cuma bizim için eğlenceli bir gün.",
+        "Spor salonuna hoş geldiniz! diyor Miss Oli.",
+        "Yaşasın! diyor çocuklar.",
+        "Hoşça kal, Cuma! Haftaya görüşürüz!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "Friday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is Lila?",
+          "correct": "In the library",
+          "wrong": [
+            "In the classroom",
+            "In the garden"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where are they all now?",
+          "correct": "In the sports hall",
+          "wrong": [
+            "In the canteen",
+            "In the library"
+          ],
+          "hint": "Find the word now.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Friday for the children?",
+          "correct": "A fun day",
+          "wrong": [
+            "A sad day",
+            "A short day"
+          ],
+          "hint": "Find the word Friday.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Welcome to the sports hall!",
+          "wrong": [
+            "Goodbye!",
+            "Sorry!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "A New Teacher Visits",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👩‍🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        }
+      ],
+      "sentences": [
+        "A new teacher is at our school today.",
+        "Hello! What is your name? asks Eda.",
+        "I am Miss Pinar. I am a teacher.",
+        "Nice to meet you, Miss Pinar! says Tom.",
+        "Where is Mr. Aras? asks Miss Pinar.",
+        "He is in the teacher's room, says Eda.",
+        "Welcome to our school, Miss Pinar!",
+        "Thank you, children!",
+        "Miss Pinar is a nice teacher!"
+      ],
+      "translations": [
+        "Bugün okulumuzda yeni bir öğretmen var.",
+        "Merhaba! Adınız ne? diye soruyor Eda.",
+        "Ben Miss Pınar. Ben bir öğretmenim.",
+        "Tanıştığımıza memnun oldum, Miss Pınar! diyor Tom.",
+        "Mr. Aras nerede? diye soruyor Miss Pınar.",
+        "O öğretmenler odasında, diyor Eda.",
+        "Okulumuza hoş geldiniz, Miss Pınar!",
+        "Teşekkürler, çocuklar!",
+        "Miss Pınar güzel bir öğretmen!"
+      ],
+      "questions": [
+        {
+          "q": "Who is new at school?",
+          "correct": "Miss Pinar",
+          "wrong": [
+            "Mr. Aras",
+            "Tom"
+          ],
+          "hint": "Read the first sentences.",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "What is the new person?",
+          "correct": "A teacher",
+          "wrong": [
+            "A pupil",
+            "A headmaster"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "Nice to meet you",
+          "wrong": [
+            "Goodbye",
+            "Sorry"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Mr. Aras?",
+          "correct": "In the teacher's room",
+          "wrong": [
+            "In the library",
+            "In the playground"
+          ],
+          "hint": "Find Mr. Aras.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Miss Pinar like?",
+          "correct": "Nice",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Victory Day at School",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is the 30th of August.",
+        "It is Victory Day in Türkiye.",
+        "It is a special national day.",
+        "Miss Oli is in the classroom with the pupils.",
+        "Eda and Can are happy today.",
+        "Miss Oli says: Happy Victory Day, everybody!",
+        "Hurray! say the children.",
+        "We are proud pupils today!",
+        "Welcome to Victory Day, friends!"
+      ],
+      "translations": [
+        "Bugün hangi gün? 30 Ağustos.",
+        "Türkiye'de Zafer Bayramı.",
+        "Özel bir milli gün.",
+        "Miss Oli sınıfta öğrencilerle.",
+        "Eda ve Can bugün mutlu.",
+        "Miss Oli diyor: Zafer Bayramı kutlu olsun, herkes!",
+        "Yaşasın! diyor çocuklar.",
+        "Bugün gururlu öğrencileriz!",
+        "Zafer Bayramı'na hoş geldin, arkadaşlar!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "The 30th of August",
+          "wrong": [
+            "The 23rd of April",
+            "Monday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Victory Day",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are Miss Oli and the pupils?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the canteen"
+          ],
+          "hint": "Find the word classroom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How are Eda and Can today?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Eda and Can.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Happy Victory Day!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -558,151 +3224,1073 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "A Special Day at Jungle School",
+      "title": "Who Is She?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🎉",
+      "icon": "🔍",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        }
       ],
       "sentences": [
-        "Today is a special day at Jungle School.",
-        "There are flags everywhere.",
-        "Lily is smiling.",
-        "Max is very excited.",
-        "Mr Green says: \"This is our national day!\"",
-        "Mrs Brown is happy.",
-        "She has a big cake.",
-        "All the pupils are together.",
-        "Everyone is celebrating!"
+        "A woman is in the classroom.",
+        "She is not a pupil.",
+        "She is not the headmaster.",
+        "She is in front of the pupils.",
+        "She says: Good morning, everybody!",
+        "Eda says: Good morning!",
+        "Who is the woman?",
+        "She is Miss Oli, my teacher!"
       ],
       "translations": [
-        "Bugün Jungle School'da özel bir gün.",
-        "Her yerde bayraklar var.",
-        "Lily gülümsüyor.",
-        "Max çok heyecanlı.",
-        "Mr Green diyor ki: \"Bu bizim milli günümüz!\"",
-        "Mrs Brown mutlu.",
-        "Onun büyük bir pastası var.",
-        "Bütün öğrenciler bir arada.",
-        "Herkes kutluyor!"
+        "Sınıfta bir kadın var.",
+        "O bir öğrenci değil.",
+        "O müdür değil.",
+        "O öğrencilerin önünde.",
+        "Diyor ki: Günaydın, herkese!",
+        "Eda diyor: Günaydın!",
+        "Kadın kim?",
+        "O Miss Oli, benim öğretmenim!"
       ],
       "questions": [
         {
-          "q": "How does Lily feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Scared"],
-          "hint": "Look at what Lily is doing.",
-          "hl": [2]
+          "q": "Where is the woman?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Why is today a special day?",
-          "correct": "It is a national day",
-          "wrong": ["It is a sports day", "It is a library day"],
-          "hint": "What does Mr Green say?",
-          "hl": [4]
+          "q": "Is she a pupil?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "How does Mrs Brown feel?",
-          "correct": "Happy",
-          "wrong": ["Tired", "Angry"],
-          "hint": "Find Mrs Brown in the text.",
-          "hl": [5]
+          "q": "Is she the headmaster?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the third sentence.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What are the pupils doing together?",
-          "correct": "Celebrating",
-          "wrong": ["Studying", "Playing sports"],
-          "hint": "Read the last sentence.",
-          "hl": [7, 8]
+          "q": "Who is the woman?",
+          "correct": "A teacher",
+          "wrong": [
+            "A pupil",
+            "A headmaster"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            7
+          ]
         },
         {
-          "q": "What kind of day is it at Jungle School?",
-          "correct": "A celebration day",
-          "wrong": ["A normal school day", "A sports day"],
-          "hint": "Look at the flags, the cake and what Mr Green says.",
-          "hl": [1, 4, 6]
+          "q": "How do we know she is a teacher?",
+          "correct": "She is in front of the pupils",
+          "wrong": [
+            "She is a pupil",
+            "She is the headmaster"
+          ],
+          "hint": "Find the word in front.",
+          "hl": [
+            3
+          ]
         }
       ]
     },
     {
       "id": "inf-2",
-      "title": "What Day Is It?",
+      "title": "Which Place Is It?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🎈",
+      "icon": "🚪",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👧", "n": "Zara" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It is a sunny day in April.",
-        "There are flags everywhere at school.",
-        "The children sing and dance.",
-        "Look! They wear nice clothes.",
-        "Lily says: \"This is our special day!\"",
-        "Max says: \"Really?\"",
-        "Lily says: \"Yes! This day is for all children!\"",
-        "Hurray!",
-        "Mr Green says: \"That's great!\"",
-        "Everyone is very happy."
+        "This is a place in our school.",
+        "It is not the classroom.",
+        "It is not the library.",
+        "Children are happy here.",
+        "It is fun and big.",
+        "Children play here.",
+        "Lila says: I know! It is the playground!",
+        "Yes! It is the playground!"
       ],
       "translations": [
-        "Nisan'da güneşli bir gün.",
-        "Okulda her yerde bayraklar var.",
-        "Çocuklar şarkı söylüyor ve dans ediyor.",
-        "Bak! Onlar güzel kıyafetler giyiyor.",
-        "Lily diyor ki: \"Bu bizim özel günümüz!\"",
-        "Max diyor ki: \"Gerçekten mi?\"",
-        "Lily diyor ki: \"Evet! Bu gün bütün çocuklar için!\"",
-        "Yaşasın!",
-        "Mr Green diyor ki: \"Harika!\"",
-        "Herkes çok mutlu."
+        "Burası okulumuzda bir yer.",
+        "O sınıf değil.",
+        "O kütüphane değil.",
+        "Çocuklar burada mutlu.",
+        "Eğlenceli ve büyük.",
+        "Çocuklar burada oynar.",
+        "Lila diyor: Biliyorum! Oyun alanı!",
+        "Evet! Oyun alanı!"
       ],
       "questions": [
         {
-          "q": "Which special day is it?",
-          "correct": "Children's Day",
-          "wrong": ["Victory Day", "Republic Day"],
-          "hint": "Look at the month and who celebrates.",
-          "hl": [0, 6]
+          "q": "Is the place the classroom?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What month is it?",
-          "correct": "April",
-          "wrong": ["May", "October"],
+          "q": "What is the place like?",
+          "correct": "Fun and big",
+          "wrong": [
+            "Small and old",
+            "Quiet"
+          ],
+          "hint": "Read the fifth sentence.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What do children do here?",
+          "correct": "They play",
+          "wrong": [
+            "They read",
+            "They eat"
+          ],
+          "hint": "Find the word play.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which place is it?",
+          "correct": "The playground",
+          "wrong": [
+            "The library",
+            "The canteen"
+          ],
+          "hint": "Think about all the clues.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "q": "How do we know it is not the library?",
+          "correct": "Children play here",
+          "wrong": [
+            "It is small",
+            "It is quiet"
+          ],
+          "hint": "Think about libraries and playgrounds.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "Which Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "📅",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a school day.",
+        "It is not Monday.",
+        "It is not Tuesday.",
+        "It is the day after Wednesday.",
+        "Eda says: I am happy today!",
+        "Tomorrow is Friday.",
+        "Which day is it today?",
+        "It is Thursday!"
+      ],
+      "translations": [
+        "Bugün bir okul günü.",
+        "Pazartesi değil.",
+        "Salı değil.",
+        "Çarşamba'dan sonraki gün.",
+        "Eda diyor: Bugün mutluyum!",
+        "Yarın Cuma.",
+        "Bugün hangi gün?",
+        "Perşembe!"
+      ],
+      "questions": [
+        {
+          "q": "Is today a school day?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Sometimes"
+          ],
           "hint": "Read the first sentence.",
-          "hl": [0]
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "How does everyone feel?",
+          "q": "Is today Monday?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What day is after Wednesday?",
+          "correct": "Thursday",
+          "wrong": [
+            "Tuesday",
+            "Sunday"
+          ],
+          "hint": "Read the fourth sentence.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Which day is today?",
+          "correct": "Thursday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "q": "What day is tomorrow?",
+          "correct": "Friday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find the word tomorrow.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "Who Is the New Boy?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🙋",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A new boy is in the classroom.",
+        "He is not a teacher.",
+        "He is not Mr. Aras.",
+        "He is a kid.",
+        "Eda says: Hello! What is your name?",
+        "My name is Tom.",
+        "Who is the new boy?",
+        "He is Tom, a new pupil!"
+      ],
+      "translations": [
+        "Sınıfta yeni bir erkek çocuk var.",
+        "O bir öğretmen değil.",
+        "O Mr. Aras değil.",
+        "O bir çocuk.",
+        "Eda diyor: Merhaba! Adın ne?",
+        "Benim adım Tom.",
+        "Yeni çocuk kim?",
+        "O Tom, yeni bir öğrenci!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the new boy?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is he a teacher?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is his name?",
+          "correct": "Tom",
+          "wrong": [
+            "Can",
+            "Mr. Aras"
+          ],
+          "hint": "Find the word name.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is the new boy?",
+          "correct": "A new pupil",
+          "wrong": [
+            "A new teacher",
+            "A new headmaster"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            1,
+            3,
+            7
+          ]
+        },
+        {
+          "q": "Who asks his name?",
+          "correct": "Eda",
+          "wrong": [
+            "Tom",
+            "Mr. Aras"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Is It Hello or Goodbye?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🌅",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila is in the school garden.",
+        "Miss Oli is here, too.",
+        "It is not the end of the day.",
+        "Lila says: Good morning, Miss Oli!",
+        "Good morning, Lila! Now we go to the classroom.",
+        "Is it morning or evening?",
+        "It is morning here!"
+      ],
+      "translations": [
+        "Lila okul bahçesinde.",
+        "Miss Oli de burada.",
+        "Günün sonu değil.",
+        "Lila diyor: Günaydın, Miss Oli!",
+        "Günaydın, Lila! Şimdi sınıfa gidiyoruz.",
+        "Sabah mı yoksa akşam mı?",
+        "Burada sabah!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Lila?",
+          "correct": "In the school garden",
+          "wrong": [
+            "In the classroom",
+            "In the library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it the end of the day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the third sentence.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "Good morning",
+          "wrong": [
+            "Goodbye",
+            "Good night"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it morning or evening?",
+          "correct": "Morning",
+          "wrong": [
+            "Evening",
+            "Night"
+          ],
+          "hint": "Think about what Lila says.",
+          "hl": [
+            3,
+            6
+          ]
+        },
+        {
+          "q": "Where do they go now?",
+          "correct": "To the classroom",
+          "wrong": [
+            "To the garden",
+            "To home"
+          ],
+          "hint": "Find the word now.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "Three People at School",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👥",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda, Miss Oli and Mr. Aras are in the room.",
+        "One is a pupil. One is a teacher. One is the headmaster.",
+        "Eda is a girl. She is a pupil.",
+        "Miss Oli is in front of the pupils.",
+        "Mr. Aras is not Miss Oli.",
+        "Mr. Aras is not a pupil.",
+        "Who is the headmaster?",
+        "Mr. Aras is the headmaster!"
+      ],
+      "translations": [
+        "Eda, Miss Oli ve Mr. Aras odada.",
+        "Biri öğrenci. Biri öğretmen. Biri müdür.",
+        "Eda bir kız. O bir öğrenci.",
+        "Miss Oli öğrencilerin önünde.",
+        "Mr. Aras Miss Oli değil.",
+        "Mr. Aras bir öğrenci değil.",
+        "Müdür kim?",
+        "Mr. Aras müdür!"
+      ],
+      "questions": [
+        {
+          "q": "Who is in the room?",
+          "correct": "Eda, Miss Oli and Mr. Aras",
+          "wrong": [
+            "Only Eda",
+            "Only the teachers"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is the pupil?",
+          "correct": "Eda",
+          "wrong": [
+            "Miss Oli",
+            "Mr. Aras"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is the teacher?",
+          "correct": "Miss Oli",
+          "wrong": [
+            "Eda",
+            "Mr. Aras"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the headmaster?",
+          "correct": "Mr. Aras",
+          "wrong": [
+            "Eda",
+            "Miss Oli"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "q": "How do we know Mr. Aras is the headmaster?",
+          "correct": "He is not the teacher and not a pupil",
+          "wrong": [
+            "He is a girl",
+            "He is in the garden"
+          ],
+          "hint": "Read sentences 5 and 6.",
+          "hl": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "A Quiet Place",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "📚",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can is in a special room at school.",
+        "It is not the playground.",
+        "It is not the canteen.",
+        "It is very quiet here.",
+        "Books are here.",
+        "Children read here.",
+        "Which place is it?",
+        "It is the library!"
+      ],
+      "translations": [
+        "Can okulda özel bir odada.",
+        "O oyun alanı değil.",
+        "O kantin değil.",
+        "Burası çok sessiz.",
+        "Burada kitaplar var.",
+        "Çocuklar burada okur.",
+        "Hangi yer bu?",
+        "Kütüphane!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Can?",
+          "correct": "In a special room",
+          "wrong": [
+            "In the garden",
+            "In the canteen"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it the playground?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the place like?",
+          "correct": "Quiet",
+          "wrong": [
+            "Big and fun",
+            "Loud"
+          ],
+          "hint": "Find the word quiet.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Which place is it?",
+          "correct": "The library",
+          "wrong": [
+            "The playground",
+            "The canteen"
+          ],
+          "hint": "Think about the books and quiet.",
+          "hl": [
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "q": "How do we know it is the library?",
+          "correct": "It is quiet and has books",
+          "wrong": [
+            "It is fun",
+            "It is small"
+          ],
+          "hint": "Find the words quiet and books.",
+          "hl": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Is Today a School Day?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is not Monday.",
+        "Today is not Tuesday.",
+        "Today is not Wednesday or Thursday.",
+        "Today is not Friday.",
+        "Tom is at home. He is happy.",
+        "Lila is at home, too.",
+        "Is today a school day?",
+        "No! Today is Saturday or Sunday."
+      ],
+      "translations": [
+        "Bugün Pazartesi değil.",
+        "Bugün Salı değil.",
+        "Bugün Çarşamba ya da Perşembe değil.",
+        "Bugün Cuma değil.",
+        "Tom evde. O mutlu.",
+        "Lila da evde.",
+        "Bugün bir okul günü mü?",
+        "Hayır! Bugün Cumartesi ya da Pazar."
+      ],
+      "questions": [
+        {
+          "q": "Is today Monday?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Sometimes"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is Tom?",
+          "correct": "At home",
+          "wrong": [
+            "At school",
+            "In the library"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How does Tom feel?",
           "correct": "Happy",
-          "wrong": ["Sad", "Tired"],
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is today a school day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            6,
+            7
+          ]
+        },
+        {
+          "q": "Which days are not school days?",
+          "correct": "Saturday and Sunday",
+          "wrong": [
+            "Monday and Tuesday",
+            "Wednesday and Thursday"
+          ],
           "hint": "Read the last sentence.",
-          "hl": [9]
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "A Friendly Voice",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🤝",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "Why are there flags at school?",
-          "correct": "It is a celebration",
-          "wrong": ["It is a sports day", "It is a normal day"],
-          "hint": "Look at the flags, songs and dances.",
-          "hl": [1, 2]
+          "e": "👦🏻",
+          "n": "Tom"
         },
         {
-          "q": "Who is this day for?",
-          "correct": "All children",
-          "wrong": ["Only teachers", "Only Lily"],
-          "hint": "What does Lily say?",
-          "hl": [6]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda is in the classroom.",
+        "A new pupil is here today.",
+        "The new pupil is not a girl.",
+        "He is a boy.",
+        "Hello! My name is Tom.",
+        "Nice to meet you, Tom! says Eda.",
+        "Who is the new pupil?",
+        "Tom is the new pupil!"
+      ],
+      "translations": [
+        "Eda sınıfta.",
+        "Bugün yeni bir öğrenci burada.",
+        "Yeni öğrenci bir kız değil.",
+        "O bir erkek çocuk.",
+        "Merhaba! Benim adım Tom.",
+        "Tanıştığımıza memnun oldum, Tom! diyor Eda.",
+        "Yeni öğrenci kim?",
+        "Tom yeni öğrenci!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Eda?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "In the library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is the new pupil a girl?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read the third sentence.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is the new pupil's name?",
+          "correct": "Tom",
+          "wrong": [
+            "Eda",
+            "Can"
+          ],
+          "hint": "Find the word name.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the new pupil?",
+          "correct": "A new boy named Tom",
+          "wrong": [
+            "A new girl",
+            "A new teacher"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            2,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "Nice to meet you",
+          "wrong": [
+            "Goodbye",
+            "Sorry"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "Which Special Day?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special day at our school.",
+        "It is not the 23rd of April.",
+        "It is not the 29th of October.",
+        "It is not the 30th of August.",
+        "It is the 19th of May.",
+        "Eda and Can are happy.",
+        "Miss Oli says: Happy Youth and Sports Day!",
+        "Which special day is it?",
+        "It is the 19th of May, Youth and Sports Day!"
+      ],
+      "translations": [
+        "Bugün okulumuzda özel bir gün.",
+        "23 Nisan değil.",
+        "29 Ekim değil.",
+        "30 Ağustos değil.",
+        "19 Mayıs.",
+        "Eda ve Can mutlu.",
+        "Miss Oli diyor: Gençlik ve Spor Bayramı kutlu olsun!",
+        "Hangi özel gün?",
+        "19 Mayıs, Gençlik ve Spor Bayramı!"
+      ],
+      "questions": [
+        {
+          "q": "Is today a special day?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it the 23rd of April?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What date is it?",
+          "correct": "The 19th of May",
+          "wrong": [
+            "The 23rd of April",
+            "The 29th of October"
+          ],
+          "hint": "Read the fifth sentence.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Which special day is it?",
+          "correct": "Youth and Sports Day",
+          "wrong": [
+            "Children's Day",
+            "Republic Day"
+          ],
+          "hint": "Find what Miss Oli says.",
+          "hl": [
+            6,
+            8
+          ]
+        },
+        {
+          "q": "How do we know it is Youth and Sports Day?",
+          "correct": "The date is the 19th of May",
+          "wrong": [
+            "Eda is sad",
+            "It is October"
+          ],
+          "hint": "Think about the date.",
+          "hl": [
+            4,
+            8
+          ]
         }
       ]
     }

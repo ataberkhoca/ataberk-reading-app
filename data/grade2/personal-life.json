@@ -4,148 +4,1055 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "My Body",
-      "subtitle": "Find the right information!",
-      "icon": "🧒",
+      "title": "My Body Parts",
+      "subtitle": "Find the right part!",
+      "icon": "👤",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Hi! I am Lily.",
-        "I have got one head and one face.",
-        "I have got two eyes and two ears.",
-        "My hair is long and blonde.",
-        "I have got one nose and one mouth.",
-        "I have got two arms and two hands.",
-        "I have got two legs.",
+        "This is my body!",
+        "What have I got? I've got a head.",
+        "I've got a face. I've got hair.",
+        "How many eyes have I got? I've got two eyes.",
+        "How many ears have I got? I've got two ears.",
+        "I've got a nose. I've got a mouth.",
+        "I've got two arms and two hands.",
+        "I've got two legs.",
         "My body is great!"
       ],
       "translations": [
-        "Merhaba! Ben Lily.",
-        "Bir başım ve bir yüzüm var.",
-        "İki gözüm ve iki kulağım var.",
-        "Saçlarım uzun ve sarı.",
-        "Bir burnum ve bir ağzım var.",
+        "Bu benim bedenim!",
+        "Ne var bende? Bir başım var.",
+        "Bir yüzüm var. Saçım var.",
+        "Kaç gözüm var? İki gözüm var.",
+        "Kaç kulağım var? İki kulağım var.",
+        "Bir burnum var. Bir ağzım var.",
         "İki kolum ve iki elim var.",
         "İki bacağım var.",
-        "Vücudum harika!"
+        "Bedenim harika!"
       ],
       "questions": [
         {
-          "q": "What colour is Lily's hair?",
-          "correct": "Blonde",
-          "wrong": ["Dark", "Brown"],
-          "hint": "Find the word hair in the text.",
-          "hl": [3]
-        },
-        {
-          "q": "How many arms has Lily got?",
+          "q": "How many eyes have I got?",
           "correct": "Two",
-          "wrong": ["One", "Three"],
-          "hint": "Find the word arms in the text.",
-          "hl": [5]
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find the word eyes.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What does Lily say about her hair?",
-          "correct": "It is long and blonde",
-          "wrong": ["It is short and dark", "It is long and dark"],
-          "hint": "Find the word hair in the text.",
-          "hl": [3]
+          "q": "How many ears have I got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Four"
+          ],
+          "hint": "Find the word ears.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "How many heads has Lily got?",
-          "correct": "One",
-          "wrong": ["Two", "Three"],
-          "hint": "Find the word head in the text.",
-          "hl": [1]
+          "q": "How many arms have I got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find the word arms.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What does Lily say about her body?",
-          "correct": "It is great",
-          "wrong": ["It is small", "It is tall"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "How many legs have I got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Four"
+          ],
+          "hint": "Find the word legs.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What is on my head?",
+          "correct": "Hair",
+          "wrong": [
+            "Hands",
+            "Feet"
+          ],
+          "hint": "Find the word hair.",
+          "hl": [
+            2
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "What Have You Got?",
-      "subtitle": "Find the right number!",
-      "icon": "🙋",
+      "title": "My Special Features",
+      "subtitle": "Find the right feature!",
+      "icon": "👁️",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Lily and Max play a body game.",
-        "Lily asks: \"What have you got?\"",
-        "Max says: \"I've got one nose and one mouth.\"",
-        "Lily asks: \"How many eyes have you got?\"",
-        "Max says: \"I've got two eyes.\"",
-        "Nice eyes!",
-        "\"How many ears have you got?\"",
-        "\"I've got two ears.\"",
-        "\"How many hands have you got?\"",
-        "\"I've got two hands.\" Wow!",
-        "Look! What is it? It's a nose!",
-        "We've got great bodies!"
+        "Look at me!",
+        "I've got blond hair. My hair is long.",
+        "I've got blue eyes. My eyes are big.",
+        "I've got a small nose.",
+        "I've got a big mouth.",
+        "I've got short arms and long legs.",
+        "How many hands have I got? I've got two hands.",
+        "I am tall and happy!"
       ],
       "translations": [
-        "Lily ve Max bir vücut oyunu oynuyor.",
-        "Lily soruyor: \"Nelerin var?\"",
-        "Max diyor ki: \"Bir burnum ve bir ağzım var.\"",
-        "Lily soruyor: \"Kaç gözün var?\"",
-        "Max diyor ki: \"İki gözüm var.\"",
-        "Güzel gözler!",
-        "\"Kaç kulağın var?\"",
-        "\"İki kulağım var.\"",
-        "\"Kaç elin var?\"",
-        "\"İki elim var.\" Vay!",
-        "Bak! O nedir? O bir burun!",
-        "Harika vücutlarımız var!"
+        "Bana bak!",
+        "Sarı saçlarım var. Saçlarım uzun.",
+        "Mavi gözlerim var. Gözlerim büyük.",
+        "Küçük bir burnum var.",
+        "Büyük bir ağzım var.",
+        "Kısa kollarım ve uzun bacaklarım var.",
+        "Kaç elim var? İki elim var.",
+        "Uzun boyluyum ve mutluyum!"
       ],
       "questions": [
         {
-          "q": "How many eyes has Max got?",
-          "correct": "Two",
-          "wrong": ["One", "Three"],
+          "q": "What colour is my hair?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Blue"
+          ],
+          "hint": "Find the word hair.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is my hair?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Big"
+          ],
+          "hint": "Find the word hair.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour are my eyes?",
+          "correct": "Blue",
+          "wrong": [
+            "Blond",
+            "Dark"
+          ],
           "hint": "Find the word eyes.",
-          "hl": [3, 4]
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How many ears has Max got?",
-          "correct": "Two",
-          "wrong": ["One", "Four"],
-          "hint": "Find the word ears.",
-          "hl": [6, 7]
+          "q": "How is my nose?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Long"
+          ],
+          "hint": "Find the word nose.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What does Max say first?",
-          "correct": "I've got one nose and one mouth",
-          "wrong": ["I've got two eyes", "I've got two hands"],
-          "hint": "Read Max's first answer.",
-          "hl": [2]
+          "q": "How are my legs?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find the word legs.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "My Clothes Today",
+      "subtitle": "Find the right clothes!",
+      "icon": "👕",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "What does Lily say about Max's eyes?",
-          "correct": "Nice eyes!",
-          "wrong": ["Nice hair!", "Nice hands!"],
-          "hint": "Find the word eyes.",
-          "hl": [5]
+          "e": "👧🏻",
+          "n": "Lila"
         },
         {
-          "q": "How many hands has Max got?",
-          "correct": "Two",
-          "wrong": ["One", "Five"],
-          "hint": "Find the word hands.",
-          "hl": [8, 9]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What have I got today?",
+        "I've got a blue T-shirt.",
+        "I've got purple trousers.",
+        "I've got red shoes.",
+        "I've got a pink hat.",
+        "I've got a yellow coat.",
+        "I've got white gloves.",
+        "I am ready for school!"
+      ],
+      "translations": [
+        "Bugün üstümde ne var?",
+        "Mavi bir tişörtüm var.",
+        "Mor pantolonum var.",
+        "Kırmızı ayakkabılarım var.",
+        "Pembe bir şapkam var.",
+        "Sarı bir paltom var.",
+        "Beyaz eldivenlerim var.",
+        "Okula hazırım!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is my T-shirt?",
+          "correct": "Blue",
+          "wrong": [
+            "Purple",
+            "Red"
+          ],
+          "hint": "Find T-shirt.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour are my trousers?",
+          "correct": "Purple",
+          "wrong": [
+            "Blue",
+            "Yellow"
+          ],
+          "hint": "Find trousers.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour are my shoes?",
+          "correct": "Red",
+          "wrong": [
+            "Pink",
+            "White"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is my coat?",
+          "correct": "Yellow",
+          "wrong": [
+            "Pink",
+            "White"
+          ],
+          "hint": "Find coat.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour are my gloves?",
+          "correct": "White",
+          "wrong": [
+            "Yellow",
+            "Red"
+          ],
+          "hint": "Find gloves.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Clothes for Cold Days",
+      "subtitle": "Find the right clothes!",
+      "icon": "🧣",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "How's the weather today? It's cold.",
+        "What have I got? I've got a long coat.",
+        "I've got a warm scarf.",
+        "I've got brown gloves on my hands.",
+        "I've got a black hat on my head.",
+        "I've got big shoes.",
+        "It's cold, and I am warm!"
+      ],
+      "translations": [
+        "Bugün hava nasıl? Soğuk.",
+        "Üstümde ne var? Uzun bir paltom var.",
+        "Sıcak bir atkım var.",
+        "Ellerimde kahverengi eldivenler var.",
+        "Başımda siyah bir şapka var.",
+        "Büyük ayakkabılarım var.",
+        "Soğuk ama ben sıcağım!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather?",
+          "correct": "Cold",
+          "wrong": [
+            "Hot",
+            "Raining"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour are my gloves?",
+          "correct": "Brown",
+          "wrong": [
+            "Black",
+            "White"
+          ],
+          "hint": "Find gloves.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are my gloves?",
+          "correct": "On my hands",
+          "wrong": [
+            "On my head",
+            "On my feet"
+          ],
+          "hint": "Find gloves.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is my hat?",
+          "correct": "Black",
+          "wrong": [
+            "Brown",
+            "White"
+          ],
+          "hint": "Find hat.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is my hat?",
+          "correct": "On my head",
+          "wrong": [
+            "On my hands",
+            "On my feet"
+          ],
+          "hint": "Find hat.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "My Birthday Today",
+      "subtitle": "Find the right answer!",
+      "icon": "🎂",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It's Monday.",
+        "Is it my birthday today? Yes, it is!",
+        "How old am I? I'm seven.",
+        "I've got a big gift!",
+        "My gift is red and white.",
+        "Lila says: Happy Birthday, Eda!",
+        "Miss Oli says: Wow! That looks great!",
+        "I am very happy today!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Pazartesi.",
+        "Bugün doğum günüm mü? Evet!",
+        "Kaç yaşındayım? Yedi yaşındayım.",
+        "Büyük bir hediyem var!",
+        "Hediyem kırmızı ve beyaz.",
+        "Lila diyor: İyi ki doğdun, Eda!",
+        "Miss Oli diyor: Vay! Harika görünüyor!",
+        "Bugün çok mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "Monday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it my birthday today?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find the word birthday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old am I?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Find the word old.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is my gift?",
+          "correct": "Red and white",
+          "wrong": [
+            "Blue and green",
+            "Yellow"
+          ],
+          "hint": "Find gift.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "Happy Birthday!",
+          "wrong": [
+            "Goodbye!",
+            "See you!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "Tom's Birthday Party",
+      "subtitle": "Find the right answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It's Saturday.",
+        "Tom says: It's my birthday today!",
+        "Eda says: How old are you, Tom?",
+        "Tom says: I'm eight! I've got a birthday party!",
+        "What have you got, Tom? Asks Eda.",
+        "Tom says: I've got many gifts!",
+        "Eda says: I've got a gift for you. It is blue.",
+        "Miss Oli says: That looks great, Tom!",
+        "Happy Birthday, Tom!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Cumartesi.",
+        "Tom diyor: Bugün benim doğum günüm!",
+        "Eda diyor: Kaç yaşındasın, Tom?",
+        "Tom diyor: Sekiz yaşındayım! Doğum günü partim var!",
+        "Üstünde ne var, Tom? diye soruyor Eda.",
+        "Tom diyor: Birçok hediyem var!",
+        "Eda diyor: Senin için bir hediyem var. Mavi.",
+        "Miss Oli diyor: Harika görünüyor, Tom!",
+        "İyi ki doğdun, Tom!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "correct": "Saturday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Whose birthday is it?",
+          "correct": "Tom",
+          "wrong": [
+            "Eda",
+            "Lila"
+          ],
+          "hint": "Find the word birthday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Tom?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Six"
+          ],
+          "hint": "Find Tom's age.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is the gift for Tom?",
+          "correct": "Blue",
+          "wrong": [
+            "Red",
+            "Yellow"
+          ],
+          "hint": "Find the word gift.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "That looks great!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Hot Day, Cold Day",
+      "subtitle": "Find the right weather!",
+      "icon": "☀️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "How's the weather today?",
+        "Today it's hot.",
+        "What have I got? I've got a yellow T-shirt.",
+        "I've got short trousers.",
+        "I've got white shoes on my feet.",
+        "I am happy in hot weather!",
+        "Weather is different every day.",
+        "Today is a sunny day!"
+      ],
+      "translations": [
+        "Bugün hava nasıl?",
+        "Bugün sıcak.",
+        "Üstümde ne var? Sarı bir tişörtüm var.",
+        "Kısa pantolonum var.",
+        "Ayaklarımda beyaz ayakkabılarım var.",
+        "Sıcak havada mutluyum!",
+        "Hava her gün farklı.",
+        "Bugün güneşli bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather today?",
+          "correct": "Hot",
+          "wrong": [
+            "Cold",
+            "Raining"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour is my T-shirt?",
+          "correct": "Yellow",
+          "wrong": [
+            "Blue",
+            "Red"
+          ],
+          "hint": "Find T-shirt.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How are my trousers?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Find trousers.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are my shoes?",
+          "correct": "On my feet",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What kind of day is today?",
+          "correct": "Sunny",
+          "wrong": [
+            "Cold",
+            "Rainy"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "It's Raining Today",
+      "subtitle": "Find the right answer!",
+      "icon": "☔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "How's the weather? It's raining.",
+        "What have I got? I've got an umbrella.",
+        "My umbrella is on my hand.",
+        "I've got a long coat.",
+        "I've got big shoes on my feet.",
+        "Eda says: I've got a pink umbrella, too!",
+        "Tom says: It's raining and we are warm!",
+        "Rain is fun!"
+      ],
+      "translations": [
+        "Hava nasıl? Yağmur yağıyor.",
+        "Üstümde ne var? Bir şemsiyem var.",
+        "Şemsiyem elimde.",
+        "Uzun bir paltom var.",
+        "Ayaklarımda büyük ayakkabılarım var.",
+        "Eda diyor: Benim de pembe bir şemsiyem var!",
+        "Tom diyor: Yağmur yağıyor ve biz sıcağız!",
+        "Yağmur eğlenceli!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather?",
+          "correct": "It's raining",
+          "wrong": [
+            "It's hot",
+            "It's cold"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What have I got?",
+          "correct": "An umbrella",
+          "wrong": [
+            "A hat",
+            "Gloves"
+          ],
+          "hint": "Find umbrella.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is my umbrella?",
+          "correct": "On my hand",
+          "wrong": [
+            "On my head",
+            "On my feet"
+          ],
+          "hint": "Find umbrella.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where are my shoes?",
+          "correct": "On my feet",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What colour is the pink thing?",
+          "correct": "An umbrella",
+          "wrong": [
+            "A coat",
+            "Shoes"
+          ],
+          "hint": "Find pink.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "Look at My Friends",
+      "subtitle": "Find the right answer!",
+      "icon": "👫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Look at my friends!",
+        "This is Lila. Is she tall? Yes, she is.",
+        "Is she short? No, she isn't.",
+        "Lila says: I've got long blond hair!",
+        "This is Tom. Is he tall? No, he isn't.",
+        "Is he short? Yes, he is.",
+        "Tom says: I've got short dark hair!",
+        "My friends are great!"
+      ],
+      "translations": [
+        "Arkadaşlarıma bak!",
+        "Bu Lila. Uzun boylu mu? Evet.",
+        "Kısa mı? Hayır, değil.",
+        "Lila diyor: Uzun sarı saçlarım var!",
+        "Bu Tom. Uzun boylu mu? Hayır, değil.",
+        "Kısa mı? Evet.",
+        "Tom diyor: Kısa koyu saçlarım var!",
+        "Arkadaşlarım harika!"
+      ],
+      "questions": [
+        {
+          "q": "Is Lila tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is Lila short?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Lila? (hair)",
+          "correct": "Long and blond hair",
+          "wrong": [
+            "Short and dark hair",
+            "Big and red hair"
+          ],
+          "hint": "Find Lila in sentence 3.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is Tom tall?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is Tom? (hair)",
+          "correct": "Short and dark hair",
+          "wrong": [
+            "Long and blond hair",
+            "Big and red hair"
+          ],
+          "hint": "Find Tom in sentence 6.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "A Happy Eid Day",
+      "subtitle": "Find the right answer!",
+      "icon": "🌙",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special day in Türkiye.",
+        "It is Eid al-Fitr.",
+        "It is a happy religious day.",
+        "What day is it? It's Sunday.",
+        "I've got new clothes for Eid.",
+        "I've got a pink dress and white shoes.",
+        "Can says: I've got new clothes, too! I've got a blue shirt.",
+        "Eda says: I've got a small gift for my family.",
+        "Happy Eid, everyone!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de özel bir gün.",
+        "Ramazan Bayramı.",
+        "Mutlu bir dini gün.",
+        "Hangi gün? Pazar.",
+        "Bayram için yeni kıyafetlerim var.",
+        "Pembe bir elbisem ve beyaz ayakkabılarım var.",
+        "Can diyor: Benim de yeni kıyafetlerim var! Mavi bir gömleğim var.",
+        "Eda diyor: Ailem için küçük bir hediyem var.",
+        "Herkese mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What special day is it?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Children's Day",
+            "Republic Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What day of the week is it?",
+          "correct": "Sunday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Find the word day.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is my dress?",
+          "correct": "Pink",
+          "wrong": [
+            "Blue",
+            "White"
+          ],
+          "hint": "Find dress.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour are my shoes?",
+          "correct": "White",
+          "wrong": [
+            "Pink",
+            "Blue"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Can have?",
+          "correct": "A blue shirt",
+          "wrong": [
+            "A pink dress",
+            "Red shoes"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -153,147 +1060,1080 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "My Favourite Clothes",
+      "title": "All About My Body",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "👗",
+      "icon": "👤",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Today is my birthday!",
-        "I have got new clothes.",
-        "I have got a pink dress.",
-        "My shoes are white.",
-        "Max has got a blue t-shirt.",
-        "His trousers are brown.",
-        "Mr Green has got a green jacket.",
-        "We all look great today!"
+        "I am Eda. This is my body.",
+        "I've got a head and a face.",
+        "I've got two eyes and two ears.",
+        "I've got a small nose and a big mouth.",
+        "I've got two arms and two hands.",
+        "I've got two legs.",
+        "Lila says: I've got long blond hair, too!",
+        "Our bodies are great!"
       ],
       "translations": [
-        "Bugün benim doğum günüm!",
-        "Yeni kıyafetlerim var.",
-        "Pembe bir elbisem var.",
-        "Ayakkabılarım beyaz.",
-        "Max'in mavi bir tişörtü var.",
-        "Onun pantolonu kahverengi.",
-        "Mr Green'in yeşil bir ceketi var.",
-        "Hepimiz bugün harika görünüyoruz!"
+        "Ben Eda. Bu benim bedenim.",
+        "Bir başım ve bir yüzüm var.",
+        "İki gözüm ve iki kulağım var.",
+        "Küçük bir burnum ve büyük bir ağzım var.",
+        "İki kolum ve iki elim var.",
+        "İki bacağım var.",
+        "Lila diyor: Benim de uzun sarı saçlarım var!",
+        "Bedenlerimiz harika!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Clothes and colours",
-          "wrong": ["Parts of the body", "Weather conditions"],
-          "hint": "Look at the clothes and colours in the text.",
-          "hl": [2, 3, 4, 5, 6]
+          "correct": "My body parts",
+          "wrong": [
+            "Days of the week",
+            "Classroom rules"
+          ],
+          "hint": "Think about all the body parts.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
         },
         {
-          "q": "What is special about today?",
-          "correct": "It is Lily's birthday",
-          "wrong": ["It is a national day", "It is a sports day"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "How many eyes have I got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Who are in the text?",
-          "correct": "Lily, Max and Mr Green",
-          "wrong": ["Lily, Max and Mrs Brown", "Max, Mr Green and Mrs Brown"],
-          "hint": "Find all the names in the text.",
-          "hl": [2, 4, 6]
+          "q": "How is my nose?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Long"
+          ],
+          "hint": "Find nose.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What kind of text is this?",
-          "correct": "A description of clothes",
-          "wrong": ["A greeting story", "A school timetable"],
-          "hint": "Look at what the text describes.",
-          "hl": [1, 2, 3, 4, 5, 6]
+          "q": "How many arms have I got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Four"
+          ],
+          "hint": "Find arms.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "How does everyone feel today?",
-          "correct": "Great",
-          "wrong": ["Sad", "Tired"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "What does Lila say about her hair?",
+          "correct": "Long and blond",
+          "wrong": [
+            "Short and dark",
+            "Big and red"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
-      "title": "Is She Tall?",
+      "title": "My Clothes for School",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "👧",
+      "icon": "👕",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👧", "n": "Mia" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Mia is my new friend.",
-        "Is she tall? Yes, she is.",
-        "Is she small? No, she isn't.",
-        "Her hair is dark and short.",
-        "I see!",
-        "Mia has got a new dress.",
-        "That looks great!",
-        "Is she happy? Yes, she is.",
-        "Great!",
-        "Mia is a great friend!"
+        "I am ready for school today.",
+        "I've got a blue shirt and red trousers.",
+        "I've got brown shoes on my feet.",
+        "I've got a yellow hat on my head.",
+        "Tom says: I've got a green coat!",
+        "Can says: I've got a black scarf!",
+        "Our clothes are colourful!",
+        "We are ready for school!"
       ],
       "translations": [
-        "Mia benim yeni arkadaşım.",
-        "O uzun boylu mu? Evet, öyle.",
-        "O küçük mü? Hayır, değil.",
-        "Saçları koyu ve kısa.",
-        "Anladım!",
-        "Mia'nın yeni bir elbisesi var.",
-        "Çok yakışmış!",
-        "O mutlu mu? Evet, öyle.",
-        "Harika!",
-        "Mia harika bir arkadaş!"
+        "Bugün okula hazırım.",
+        "Mavi bir gömleğim ve kırmızı pantolonum var.",
+        "Ayaklarımda kahverengi ayakkabılarım var.",
+        "Başımda sarı bir şapkam var.",
+        "Tom diyor: Yeşil bir paltom var!",
+        "Can diyor: Siyah bir atkım var!",
+        "Kıyafetlerimiz renkli!",
+        "Okula hazırız!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Describing a friend",
-          "wrong": ["A weather report", "A birthday party"],
-          "hint": "Look at what Lily says about Mia.",
-          "hl": [0]
+          "correct": "Our school clothes",
+          "wrong": [
+            "Days of the week",
+            "Birthday gifts"
+          ],
+          "hint": "Think about the colours and clothes.",
+          "hl": [
+            0,
+            1,
+            2,
+            3
+          ]
         },
         {
-          "q": "Is Mia tall?",
-          "correct": "Yes, she is",
-          "wrong": ["No, she isn't", "We don't know"],
+          "q": "What colour is my shirt?",
+          "correct": "Blue",
+          "wrong": [
+            "Red",
+            "Yellow"
+          ],
+          "hint": "Find shirt.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are my shoes?",
+          "correct": "On my feet",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "I've got a green coat!",
+          "wrong": [
+            "I've got a hat",
+            "I've got shoes"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "I've got a black scarf!",
+          "wrong": [
+            "I've got a coat",
+            "I've got a hat"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "My Birthday Week",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎂",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "This is my birthday week.",
+        "What day is it today? It's Sunday.",
+        "Is it my birthday today? Yes, it is!",
+        "How old am I? I'm seven.",
+        "I've got many gifts!",
+        "Lila says: I'm seven, too! It's my birthday on Wednesday!",
+        "Miss Oli says: Wow! That sounds great!",
+        "Happy birthday week!"
+      ],
+      "translations": [
+        "Bu benim doğum günü haftam.",
+        "Bugün hangi gün? Pazar.",
+        "Bugün doğum günüm mü? Evet!",
+        "Kaç yaşındayım? Yedi.",
+        "Birçok hediyem var!",
+        "Lila diyor: Ben de yediyim! Çarşamba günü benim doğum günüm!",
+        "Miss Oli diyor: Vay! Harika!",
+        "Mutlu doğum günü haftası!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A birthday week",
+          "wrong": [
+            "School rules",
+            "Weather"
+          ],
+          "hint": "Think about the birthdays.",
+          "hl": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "q": "Is it my birthday today?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find birthday.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old am I?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Find old.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What day is Lila's birthday?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Sunday",
+            "Friday"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "That sounds great!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Weather Every Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "The weather is different every day.",
+        "On Monday, it's hot and sunny.",
+        "On Tuesday, it's raining.",
+        "On Wednesday, it's cold.",
+        "On Thursday, it's snowing.",
+        "On Friday, it's hot again!",
+        "Can says: I'm OK in every weather!",
+        "Weather is fun!"
+      ],
+      "translations": [
+        "Hava her gün farklı.",
+        "Pazartesi sıcak ve güneşli.",
+        "Salı yağmur yağıyor.",
+        "Çarşamba soğuk.",
+        "Perşembe kar yağıyor.",
+        "Cuma yine sıcak!",
+        "Can diyor: Her havada iyiyim!",
+        "Hava eğlenceli!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Weather every day",
+          "wrong": [
+            "Body parts",
+            "Clothes"
+          ],
+          "hint": "Think about the weather.",
+          "hl": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "How's the weather on Monday?",
+          "correct": "Hot and sunny",
+          "wrong": [
+            "Cold",
+            "Raining"
+          ],
+          "hint": "Find Monday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How's the weather on Tuesday?",
+          "correct": "Raining",
+          "wrong": [
+            "Sunny",
+            "Snowing"
+          ],
+          "hint": "Find Tuesday.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How's the weather on Thursday?",
+          "correct": "Snowing",
+          "wrong": [
+            "Hot",
+            "Raining"
+          ],
+          "hint": "Find Thursday.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "I'm OK in every weather!",
+          "wrong": [
+            "Goodbye!",
+            "I'm sad!"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Clothes for the Weather",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🧥",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "The weather is cold today.",
+        "It's snowing!",
+        "What have I got? I've got a big coat.",
+        "I've got a long scarf on my neck.",
+        "I've got warm gloves on my hands.",
+        "I've got a hat on my head.",
+        "Tom says: I've got an umbrella, too!",
+        "We are warm in cold weather!"
+      ],
+      "translations": [
+        "Bugün hava soğuk.",
+        "Kar yağıyor!",
+        "Üstümde ne var? Büyük bir paltom var.",
+        "Boynumda uzun bir atkım var.",
+        "Ellerimde sıcak eldivenlerim var.",
+        "Başımda bir şapkam var.",
+        "Tom diyor: Benim de bir şemsiyem var!",
+        "Soğuk havada sıcağız!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Clothes for cold weather",
+          "wrong": [
+            "Birthday gifts",
+            "School rules"
+          ],
+          "hint": "Think about cold and clothes.",
+          "hl": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "How's the weather today?",
+          "correct": "Cold and snowing",
+          "wrong": [
+            "Hot",
+            "Sunny"
+          ],
+          "hint": "Read the first sentences.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "Where is my scarf?",
+          "correct": "On my neck",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find scarf.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are my gloves?",
+          "correct": "On my hands",
+          "wrong": [
+            "On my feet",
+            "On my head"
+          ],
+          "hint": "Find gloves.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "I've got an umbrella!",
+          "wrong": [
+            "I've got a hat",
+            "I've got gloves"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Tall or Short?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📏",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Look at my friends!",
+        "Lila says: I am tall! I'm not short.",
+        "Can says: I am short! I'm not tall.",
+        "Is Lila tall? Yes, she is.",
+        "Is Can short? Yes, he is.",
+        "Lila says: I've got long legs!",
+        "Can says: I've got short legs!",
+        "We are different and great!"
+      ],
+      "translations": [
+        "Arkadaşlarıma bak!",
+        "Lila diyor: Ben uzun boyluyum! Kısa değilim.",
+        "Can diyor: Ben kısayım! Uzun değilim.",
+        "Lila uzun boylu mu? Evet.",
+        "Can kısa mı? Evet.",
+        "Lila diyor: Uzun bacaklarım var!",
+        "Can diyor: Kısa bacaklarım var!",
+        "Farklıyız ve harikayız!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Tall and short friends",
+          "wrong": [
+            "Body parts only",
+            "Weather"
+          ],
+          "hint": "Think about tall and short.",
+          "hl": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "Is Lila tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is Can short?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say about her legs?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Big"
+          ],
+          "hint": "Find Lila's legs.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Can say about his legs?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Find Can's legs.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "Eyes and Hair",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👁️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "My friends are different.",
+        "Eda says: I've got big blue eyes!",
+        "I've got long blond hair.",
+        "Tom says: I've got small dark eyes!",
+        "I've got short dark hair.",
+        "Miss Oli says: Nice eyes! Nice hair!",
+        "We are happy with our features!"
+      ],
+      "translations": [
+        "Arkadaşlarım farklı.",
+        "Eda diyor: Büyük mavi gözlerim var!",
+        "Uzun sarı saçlarım var.",
+        "Tom diyor: Küçük koyu gözlerim var!",
+        "Kısa koyu saçlarım var.",
+        "Miss Oli diyor: Güzel gözler! Güzel saçlar!",
+        "Özelliklerimizle mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Eyes and hair of friends",
+          "wrong": [
+            "Clothes",
+            "Weather"
+          ],
+          "hint": "Think about eyes and hair.",
+          "hl": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What does Eda say about her eyes?",
+          "correct": "Big and blue",
+          "wrong": [
+            "Small and dark",
+            "Long and blond"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Eda say about her hair?",
+          "correct": "Long and blond",
+          "wrong": [
+            "Short and dark",
+            "Big and red"
+          ],
+          "hint": "Find Eda in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say about his eyes?",
+          "correct": "Small and dark",
+          "wrong": [
+            "Big and blue",
+            "Long and blond"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Nice eyes! Nice hair!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "Eda's Special Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎉",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: Today is special!",
+        "What day is it? It's Saturday.",
+        "Is it my birthday today? Yes, it is!",
+        "How old am I? I'm seven!",
+        "I've got new clothes today.",
+        "I've got a pink dress and white shoes.",
+        "Lila says: That looks great, Eda!",
+        "Happy birthday, Eda!"
+      ],
+      "translations": [
+        "Eda diyor: Bugün özel!",
+        "Hangi gün? Cumartesi.",
+        "Bugün doğum günüm mü? Evet!",
+        "Kaç yaşındayım? Yediyim!",
+        "Bugün yeni kıyafetlerim var.",
+        "Pembe bir elbisem ve beyaz ayakkabılarım var.",
+        "Lila diyor: Harika görünüyor, Eda!",
+        "İyi ki doğdun, Eda!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Eda's birthday",
+          "wrong": [
+            "Weather",
+            "School clothes"
+          ],
+          "hint": "Think about the special day.",
+          "hl": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "q": "What day is it?",
+          "correct": "Saturday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find day.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Eda?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Find Eda's age.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is my dress?",
+          "correct": "Pink",
+          "wrong": [
+            "White",
+            "Blue"
+          ],
+          "hint": "Find dress.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "That looks great!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Hot and Cold",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌡️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "The weather is not the same every day.",
+        "On hot days, it's hot.",
+        "Tom says: I've got a T-shirt and short trousers.",
+        "I've got shoes on my feet.",
+        "On cold days, it's cold.",
+        "Can says: I've got a coat and gloves.",
+        "I've got a hat on my head.",
+        "Hot or cold, we are happy!"
+      ],
+      "translations": [
+        "Hava her gün aynı değil.",
+        "Sıcak günlerde sıcak.",
+        "Tom diyor: Bir tişörtüm ve kısa pantolonum var.",
+        "Ayaklarımda ayakkabılarım var.",
+        "Soğuk günlerde soğuk.",
+        "Can diyor: Bir paltom ve eldivenlerim var.",
+        "Başımda bir şapkam var.",
+        "Sıcak veya soğuk, mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Clothes for hot and cold weather",
+          "wrong": [
+            "Body parts",
+            "School days"
+          ],
+          "hint": "Think about hot and cold.",
+          "hl": [
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What does Tom say for hot days?",
+          "correct": "I've got a T-shirt and short trousers",
+          "wrong": [
+            "I've got a coat",
+            "I've got gloves"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where are Tom's shoes?",
+          "correct": "On his feet",
+          "wrong": [
+            "On his head",
+            "On his hands"
+          ],
+          "hint": "Find Tom's shoes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Can say for cold days?",
+          "correct": "I've got a coat and gloves",
+          "wrong": [
+            "I've got a T-shirt",
+            "I've got short trousers"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where does Can say his hat is?",
+          "correct": "On my head",
+          "wrong": [
+            "On my feet",
+            "On my hands"
+          ],
+          "hint": "Find Can in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Festival of Sacrifice",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌙",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special religious day.",
+        "It is the Festival of Sacrifice.",
+        "What day is it? It's Friday.",
+        "I've got new clothes for the festival.",
+        "I've got a green dress and red shoes.",
+        "Can says: I've got a new shirt, too!",
+        "Miss Oli says: That looks great, everyone!",
+        "Happy Festival, everyone!"
+      ],
+      "translations": [
+        "Bugün özel bir dini gün.",
+        "Kurban Bayramı.",
+        "Hangi gün? Cuma.",
+        "Bayram için yeni kıyafetlerim var.",
+        "Yeşil bir elbisem ve kırmızı ayakkabılarım var.",
+        "Can diyor: Benim de yeni bir gömleğim var!",
+        "Miss Oli diyor: Harika görünüyor, herkes!",
+        "Herkese mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A religious festival",
+          "wrong": [
+            "Weather",
+            "Birthday"
+          ],
+          "hint": "Think about the special day.",
+          "hl": [
+            0,
+            1,
+            7
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Festival of Sacrifice",
+          "wrong": [
+            "Eid al-Fitr",
+            "Children's Day"
+          ],
           "hint": "Read the second sentence.",
-          "hl": [1]
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is Mia's hair like?",
-          "correct": "Dark and short",
-          "wrong": ["Long and blonde", "Dark and long"],
-          "hint": "Find the word hair.",
-          "hl": [3]
+          "q": "What day of the week is it?",
+          "correct": "Friday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find day.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Is Mia small?",
-          "correct": "No, she isn't",
-          "wrong": ["Yes, she is", "We don't know"],
-          "hint": "Find the word small.",
-          "hl": [2]
+          "q": "What colour is my dress?",
+          "correct": "Green",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Find dress.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "How does Lily feel about Mia?",
-          "correct": "Mia is a great friend",
-          "wrong": ["Mia is not nice", "Mia is sad"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "What does Can say?",
+          "correct": "I've got a new shirt!",
+          "wrong": [
+            "I've got a green dress",
+            "I've got red shoes"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -301,219 +2141,1072 @@
   "int": [
     {
       "id": "int-1",
-      "title": "What's the Weather Like?",
+      "title": "All About Me",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🌤️",
+      "icon": "👤",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Today is Monday.",
-        "It is cold and rainy.",
-        "Lily has got a coat and an umbrella.",
-        "Max has got a hat and a scarf.",
-        "It is snowing on Tuesday.",
-        "Mr Green has got a big jacket.",
-        "On Wednesday it is hot and sunny.",
-        "Lily has got a t-shirt and a dress.",
-        "Everyone loves sunny days!"
+        "Eda says: Look at me!",
+        "I've got a head and a face.",
+        "I've got two big blue eyes.",
+        "I've got two small ears.",
+        "I've got a small nose and a big mouth.",
+        "I've got long blond hair.",
+        "I've got two arms and two hands.",
+        "I've got two long legs.",
+        "Lila says: I've got a head, too!",
+        "We are happy with our bodies!"
       ],
       "translations": [
-        "Bugün Pazartesi.",
-        "Hava soğuk ve yağmurlu.",
-        "Lily'nin bir paltosu ve şemsiyesi var.",
-        "Max'in bir şapkası ve atkısı var.",
-        "Salı günü kar yağıyor.",
-        "Mr Green'in büyük bir ceketi var.",
-        "Çarşamba günü hava sıcak ve güneşli.",
-        "Lily'nin bir tişörtü ve elbisesi var.",
-        "Herkes güneşli günleri seviyor!"
+        "Eda diyor: Bana bak!",
+        "Bir başım ve bir yüzüm var.",
+        "İki büyük mavi gözüm var.",
+        "İki küçük kulağım var.",
+        "Küçük bir burnum ve büyük bir ağzım var.",
+        "Uzun sarı saçlarım var.",
+        "İki kolum ve iki elim var.",
+        "İki uzun bacağım var.",
+        "Lila diyor: Benim de bir başım var!",
+        "Bedenlerimizle mutluyuz!"
       ],
       "questions": [
         {
-          "q": "What is the weather like on Monday?",
-          "correct": "Cold and rainy",
-          "wrong": ["Hot and sunny", "Cold and snowy"],
-          "hint": "Find Monday in the text.",
-          "hl": [0, 1]
+          "q": "What does Eda say about her eyes?",
+          "correct": "Two big blue eyes",
+          "wrong": [
+            "Small dark eyes",
+            "Long red eyes"
+          ],
+          "hint": "Find Eda in sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What has Lily got on Monday?",
-          "correct": "A coat and an umbrella",
-          "wrong": ["A hat and a scarf", "A t-shirt and a dress"],
-          "hint": "Find Lily in the first part of the text.",
-          "hl": [2]
+          "q": "How are Eda's ears?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Long"
+          ],
+          "hint": "Find ears.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What is the weather like on Tuesday?",
-          "correct": "Snowing",
-          "wrong": ["Rainy", "Sunny"],
-          "hint": "Find Tuesday in the text.",
-          "hl": [4]
+          "q": "How is Eda's mouth?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Short"
+          ],
+          "hint": "Find mouth.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Lily wear on Wednesday?",
-          "correct": "A t-shirt and a dress",
-          "wrong": ["A coat and an umbrella", "A hat and a scarf"],
-          "hint": "Find Wednesday in the text.",
-          "hl": [6, 7]
+          "q": "What does Eda say about her hair?",
+          "correct": "Long blond hair",
+          "wrong": [
+            "Short dark hair",
+            "Big red hair"
+          ],
+          "hint": "Find Eda in sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Who has got a hat and a scarf?",
-          "correct": "Max",
-          "wrong": ["Lily", "Mr Green"],
-          "hint": "Find the words hat and scarf in the text.",
-          "hl": [3]
+          "q": "How are Eda's legs?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find legs.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "int-2",
-      "title": "My Favourite Outfit",
+      "title": "My Clothes Today",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "👕",
+      "icon": "👔",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It's a cold day at school.",
-        "Lily asks: \"What have you got on?\"",
-        "Max says: \"I've got a shirt and gloves.\"",
-        "\"What colour is the shirt?\"",
-        "\"It's purple!\"",
-        "It's your turn!",
-        "Lily says: \"I've got a red coat.\"",
-        "\"I've got new glasses, too.\"",
-        "We've got cool clothes!"
+        "Tom says: Look at my clothes today!",
+        "I've got a blue shirt and red trousers.",
+        "I've got brown shoes on my feet.",
+        "I've got a yellow hat on my head.",
+        "Can says: I've got a green coat!",
+        "I've got white gloves on my hands.",
+        "Miss Oli says: Wow! That looks great!",
+        "We are colourful and ready!"
       ],
       "translations": [
-        "Okulda soğuk bir gün.",
-        "Lily soruyor: \"Üzerinde ne var?\"",
-        "Max diyor ki: \"Bir gömleğim ve eldivenlerim var.\"",
-        "\"Gömlek ne renk?\"",
-        "\"Mor!\"",
-        "Sıra sende!",
-        "Lily diyor ki: \"Kırmızı bir paltom var.\"",
-        "\"Yeni gözlüklerim de var.\"",
-        "Havalı kıyafetlerimiz var!"
+        "Tom diyor: Bugün üstümdekilere bak!",
+        "Mavi bir gömleğim ve kırmızı pantolonum var.",
+        "Ayaklarımda kahverengi ayakkabılarım var.",
+        "Başımda sarı bir şapkam var.",
+        "Can diyor: Yeşil bir paltom var!",
+        "Ellerimde beyaz eldivenlerim var.",
+        "Miss Oli diyor: Vay! Harika görünüyor!",
+        "Renkli ve hazırız!"
       ],
       "questions": [
         {
-          "q": "What has Max got on?",
-          "correct": "A shirt and gloves",
-          "wrong": ["A coat and glasses", "A dress and a hat"],
-          "hint": "Read Max's answer.",
-          "hl": [2]
+          "q": "What does Tom say about his shirt?",
+          "correct": "It is blue",
+          "wrong": [
+            "It is red",
+            "It is yellow"
+          ],
+          "hint": "Find Tom in sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What colour is Max's shirt?",
-          "correct": "Purple",
-          "wrong": ["Red", "Blue"],
-          "hint": "Find the word shirt.",
-          "hl": [3, 4]
+          "q": "Where are Tom's shoes?",
+          "correct": "On my feet",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What has Lily got?",
-          "correct": "A red coat",
-          "wrong": ["A purple shirt", "Blue gloves"],
-          "hint": "Find Lily in the text.",
-          "hl": [6]
+          "q": "Where does Tom say his hat is?",
+          "correct": "On my head",
+          "wrong": [
+            "On my feet",
+            "On my hands"
+          ],
+          "hint": "Find hat.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What else has Lily got?",
-          "correct": "New glasses",
-          "wrong": ["New gloves", "A new hat"],
-          "hint": "Read after the red coat.",
-          "hl": [7]
+          "q": "What colour coat does Can say he has?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Yellow"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Max say to Lily?",
-          "correct": "It's your turn!",
-          "wrong": ["What colour is it?", "That looks great!"],
-          "hint": "Find the turn in the text.",
-          "hl": [5]
+          "q": "What does Miss Oli say?",
+          "correct": "That looks great!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "int-3",
-      "title": "Days and Weather",
+      "title": "Happy Birthday, Lila!",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "📆",
+      "icon": "🎂",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "What day is it today? It's Thursday.",
-        "How's the weather? It's cold.",
-        "Time for school!",
-        "It's break time!",
-        "See you after school!",
-        "On Friday, how's the weather? It's hot.",
-        "On Saturday, how's the weather? It's raining.",
-        "On Sunday, how's the weather? It's snowing.",
-        "We love every day of the week!"
+        "Eda asks: What day is it today?",
+        "Lila says: It's Wednesday today!",
+        "Eda asks: Is it your birthday today, Lila?",
+        "Lila says: Yes, it is!",
+        "Eda asks: How old are you?",
+        "Lila says: I'm seven!",
+        "Eda says: I've got a gift for you. It is pink.",
+        "Lila says: Wow! Thank you, Eda!",
+        "Miss Oli says: Happy Birthday, Lila!",
+        "It is a great day for Lila!"
       ],
       "translations": [
-        "Bugün günlerden ne? Perşembe.",
-        "Hava nasıl? Soğuk.",
-        "Okul zamanı!",
-        "Teneffüs zamanı!",
-        "Okuldan sonra görüşürüz!",
-        "Cuma günü hava nasıl? Sıcak.",
-        "Cumartesi günü hava nasıl? Yağmur yağıyor.",
-        "Pazar günü hava nasıl? Kar yağıyor.",
-        "Haftanın her gününü seviyoruz!"
+        "Eda soruyor: Bugün hangi gün?",
+        "Lila diyor: Bugün Çarşamba!",
+        "Eda soruyor: Bugün doğum günün mü, Lila?",
+        "Lila diyor: Evet!",
+        "Eda soruyor: Kaç yaşındasın?",
+        "Lila diyor: Yediyim!",
+        "Eda diyor: Senin için bir hediyem var. Pembe.",
+        "Lila diyor: Vay! Teşekkürler, Eda!",
+        "Miss Oli diyor: İyi ki doğdun, Lila!",
+        "Lila için harika bir gün!"
       ],
       "questions": [
         {
-          "q": "What is the weather like on Thursday?",
-          "correct": "Cold",
-          "wrong": ["Hot", "Rainy"],
-          "hint": "Read the second sentence.",
-          "hl": [0, 1]
+          "q": "What day is it today?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Find day.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is the weather like on Friday?",
+          "q": "Is it Lila's birthday today?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find birthday.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "How old is Lila?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Find old.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour is the gift?",
+          "correct": "Pink",
+          "wrong": [
+            "Blue",
+            "Yellow"
+          ],
+          "hint": "Find gift.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Lila say to Eda?",
+          "correct": "Thank you!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "Weather This Week",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌦️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: How's the weather this week?",
+        "Can says: On Monday, it's hot!",
+        "Tom says: On Tuesday, it's cold!",
+        "Can says: On Wednesday, it's raining!",
+        "Tom says: On Thursday, it's snowing!",
+        "Can says: On Friday, it's hot again!",
+        "Miss Oli says: Weather is different every day.",
+        "We are happy in every weather!"
+      ],
+      "translations": [
+        "Miss Oli soruyor: Bu hafta hava nasıl?",
+        "Can diyor: Pazartesi sıcak!",
+        "Tom diyor: Salı soğuk!",
+        "Can diyor: Çarşamba yağmur yağıyor!",
+        "Tom diyor: Perşembe kar yağıyor!",
+        "Can diyor: Cuma yine sıcak!",
+        "Miss Oli diyor: Hava her gün farklı.",
+        "Her havada mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather on Monday?",
           "correct": "Hot",
-          "wrong": ["Cold", "Snowy"],
-          "hint": "Find Friday in the text.",
-          "hl": [5]
+          "wrong": [
+            "Cold",
+            "Raining"
+          ],
+          "hint": "Find Monday.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is the weather like on Sunday?",
-          "correct": "Snowing",
-          "wrong": ["Raining", "Hot"],
-          "hint": "Find Sunday in the text.",
-          "hl": [7]
+          "q": "How's the weather on Tuesday?",
+          "correct": "Cold",
+          "wrong": [
+            "Hot",
+            "Snowing"
+          ],
+          "hint": "Find Tuesday.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What do they say after break time?",
-          "correct": "See you after school!",
-          "wrong": ["Time for school!", "It's your turn!"],
-          "hint": "Read after 'It's break time!'",
-          "hl": [3, 4]
-        },
-        {
-          "q": "What is the weather like on Saturday?",
+          "q": "How's the weather on Wednesday?",
           "correct": "Raining",
-          "wrong": ["Snowing", "Hot"],
-          "hint": "Find Saturday in the text.",
-          "hl": [6]
+          "wrong": [
+            "Hot",
+            "Snowing"
+          ],
+          "hint": "Find Wednesday.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How's the weather on Thursday?",
+          "correct": "Snowing",
+          "wrong": [
+            "Hot",
+            "Cold"
+          ],
+          "hint": "Find Thursday.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say in the last sentence?",
+          "correct": "Weather is different every day",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Cold Day Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🧥",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "How's the weather today? It's cold and snowing!",
+        "What have I got? I've got many clothes!",
+        "I've got a big coat. My coat is dark blue.",
+        "I've got a long scarf. My scarf is red.",
+        "I've got warm gloves on my hands.",
+        "I've got a hat on my head.",
+        "Tom says: I've got an umbrella, too!",
+        "We are warm in cold weather!"
+      ],
+      "translations": [
+        "Bugün hava nasıl? Soğuk ve kar yağıyor!",
+        "Üstümde ne var? Birçok kıyafetim var!",
+        "Büyük bir paltom var. Paltom koyu mavi.",
+        "Uzun bir atkım var. Atkım kırmızı.",
+        "Ellerimde sıcak eldivenlerim var.",
+        "Başımda bir şapkam var.",
+        "Tom diyor: Benim de bir şemsiyem var!",
+        "Soğuk havada sıcağız!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather today?",
+          "correct": "Cold and snowing",
+          "wrong": [
+            "Hot",
+            "Sunny"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour is my coat?",
+          "correct": "Dark blue",
+          "wrong": [
+            "Red",
+            "Yellow"
+          ],
+          "hint": "Find coat.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is my scarf?",
+          "correct": "Red",
+          "wrong": [
+            "Blue",
+            "White"
+          ],
+          "hint": "Find scarf.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are my gloves?",
+          "correct": "On my hands",
+          "wrong": [
+            "On my head",
+            "On my feet"
+          ],
+          "hint": "Find gloves.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "I've got an umbrella!",
+          "wrong": [
+            "I've got gloves",
+            "I've got shoes"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Are You Tall or Short?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📏",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli asks: Are you tall or short?",
+        "Lila says: I am tall!",
+        "Miss Oli asks: Is Lila tall? Yes, she is.",
+        "Is Lila short? No, she isn't.",
+        "Can says: I am short!",
+        "Miss Oli asks: Is Can short? Yes, he is.",
+        "Is Can tall? No, he isn't.",
+        "Lila says: I've got long arms!",
+        "Can says: I've got short arms!",
+        "We are different and great!"
+      ],
+      "translations": [
+        "Miss Oli soruyor: Uzun mu kısa mı?",
+        "Lila diyor: Ben uzunum!",
+        "Miss Oli soruyor: Lila uzun mu? Evet.",
+        "Lila kısa mı? Hayır.",
+        "Can diyor: Ben kısayım!",
+        "Miss Oli soruyor: Can kısa mı? Evet.",
+        "Can uzun mu? Hayır.",
+        "Lila diyor: Uzun kollarım var!",
+        "Can diyor: Kısa kollarım var!",
+        "Farklıyız ve harikayız!"
+      ],
+      "questions": [
+        {
+          "q": "What does Lila say?",
+          "correct": "I am tall",
+          "wrong": [
+            "I am short",
+            "I am sad"
+          ],
+          "hint": "Find Lila in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is Lila short?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "I am short",
+          "wrong": [
+            "I am tall",
+            "I am happy"
+          ],
+          "hint": "Find Can in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is Can tall?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How are Lila's arms?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Big"
+          ],
+          "hint": "Find Lila in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Different Eyes, Different Hair",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👁️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Look at my friends.",
+        "Eda says: I've got big blue eyes!",
+        "I've got long blond hair, too.",
+        "Tom says: I've got small dark eyes!",
+        "I've got short dark hair.",
+        "Miss Oli says: Nice eyes! Nice hair!",
+        "Eda asks: Is my hair long? Yes, it is.",
+        "Tom says: My hair is short!",
+        "We are different and happy!"
+      ],
+      "translations": [
+        "Arkadaşlarıma bak.",
+        "Eda diyor: Büyük mavi gözlerim var!",
+        "Uzun sarı saçlarım da var.",
+        "Tom diyor: Küçük koyu gözlerim var!",
+        "Kısa koyu saçlarım var.",
+        "Miss Oli diyor: Güzel gözler! Güzel saçlar!",
+        "Eda soruyor: Saçlarım uzun mu? Evet.",
+        "Tom diyor: Saçlarım kısa!",
+        "Farklıyız ve mutluyuz!"
+      ],
+      "questions": [
+        {
+          "q": "What does Eda say about her eyes?",
+          "correct": "Big and blue",
+          "wrong": [
+            "Small and dark",
+            "Long and blond"
+          ],
+          "hint": "Find Eda in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How does Eda describe her eyes?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Long"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Tom say about his hair?",
+          "correct": "Short and dark",
+          "wrong": [
+            "Long and blond",
+            "Big and red"
+          ],
+          "hint": "Find Tom in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Does Eda say her hair is long?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Eda in sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Nice eyes! Nice hair!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "Where Are My Clothes?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: Where are my clothes?",
+        "I've got a pink dress on me.",
+        "I've got white shoes on my feet.",
+        "I've got a yellow hat on my head.",
+        "I've got blue glasses on my nose.",
+        "I've got a red scarf on my neck.",
+        "Lila says: You look great today, Eda!",
+        "Eda is happy with her clothes!"
+      ],
+      "translations": [
+        "Eda diyor: Kıyafetlerim nerede?",
+        "Üstümde pembe bir elbisem var.",
+        "Ayaklarımda beyaz ayakkabılarım var.",
+        "Başımda sarı bir şapkam var.",
+        "Burnumda mavi gözlüklerim var.",
+        "Boynumda kırmızı bir atkım var.",
+        "Lila diyor: Bugün harika görünüyorsun, Eda!",
+        "Eda kıyafetleriyle mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is the dress?",
+          "correct": "Pink",
+          "wrong": [
+            "White",
+            "Yellow"
+          ],
+          "hint": "Find dress.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are the shoes?",
+          "correct": "On my feet",
+          "wrong": [
+            "On my head",
+            "On my hands"
+          ],
+          "hint": "Find shoes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is the hat?",
+          "correct": "On my head",
+          "wrong": [
+            "On my feet",
+            "On my neck"
+          ],
+          "hint": "Find hat.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are the glasses?",
+          "correct": "On my nose",
+          "wrong": [
+            "On my feet",
+            "On my hands"
+          ],
+          "hint": "Find glasses.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "You look great today!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "Two Friends, Two Birthdays",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎁",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda and Can are friends.",
+        "Eda says: I'm seven!",
+        "Can says: I'm eight!",
+        "What day is Eda's birthday? It's on Monday.",
+        "What day is Can's birthday? It's on Friday.",
+        "Eda says: I've got a pink gift!",
+        "Can says: I've got a blue gift!",
+        "They are happy with their gifts!",
+        "Two friends, two happy birthdays!"
+      ],
+      "translations": [
+        "Eda ve Can arkadaş.",
+        "Eda diyor: Yediyim!",
+        "Can diyor: Sekizim!",
+        "Eda'nın doğum günü hangi gün? Pazartesi.",
+        "Can'ın doğum günü hangi gün? Cuma.",
+        "Eda diyor: Pembe bir hediyem var!",
+        "Can diyor: Mavi bir hediyem var!",
+        "Hediyeleriyle mutlular!",
+        "İki arkadaş, iki mutlu doğum günü!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Eda?",
+          "correct": "Seven",
+          "wrong": [
+            "Eight",
+            "Six"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Can?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Nine"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What day is Eda's birthday?",
+          "correct": "Monday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Find Eda's day.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What day is Can's birthday?",
+          "correct": "Friday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find Can's day.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What colour gift does Eda have?",
+          "correct": "Pink",
+          "wrong": [
+            "Blue",
+            "Yellow"
+          ],
+          "hint": "Find Eda in sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Republic Day Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 29th of October.",
+        "It is Republic Day in Türkiye!",
+        "What day is it? It's Tuesday.",
+        "I've got special clothes for today.",
+        "I've got a white shirt and red trousers.",
+        "I've got red and white shoes.",
+        "Lila says: I've got a red dress!",
+        "Tom says: I've got a flag in my hand!",
+        "Miss Oli says: That looks great, everyone!",
+        "Happy Republic Day!"
+      ],
+      "translations": [
+        "Bugün 29 Ekim.",
+        "Türkiye'de Cumhuriyet Bayramı!",
+        "Hangi gün? Salı.",
+        "Bugün için özel kıyafetlerim var.",
+        "Beyaz bir gömleğim ve kırmızı pantolonum var.",
+        "Kırmızı ve beyaz ayakkabılarım var.",
+        "Lila diyor: Kırmızı bir elbisem var!",
+        "Tom diyor: Elimde bir bayrak var!",
+        "Miss Oli diyor: Harika görünüyor, herkes!",
+        "Cumhuriyet Bayramı kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 29th of October",
+          "wrong": [
+            "The 23rd of April",
+            "The 15th of July"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Republic Day",
+          "wrong": [
+            "Children's Day",
+            "Victory Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What day of the week is it?",
+          "correct": "Tuesday",
+          "wrong": [
+            "Monday",
+            "Sunday"
+          ],
+          "hint": "Find day.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour shirt do I have?",
+          "correct": "White",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Find shirt.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "I've got a flag in my hand!",
+          "wrong": [
+            "I've got a dress",
+            "I've got a hat"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            7
+          ]
         }
       ]
     }
@@ -521,227 +3214,1066 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "Happy Birthday, Lily!",
+      "title": "Who Is the Person?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A person says: I've got long blond hair.",
+        "I've got big blue eyes.",
+        "I am tall.",
+        "I'm seven years old.",
+        "Lila says: I've got long blond hair! I am tall.",
+        "Tom says: I've got short dark hair. I am short.",
+        "Who is the person?",
+        "It is Lila!"
+      ],
+      "translations": [
+        "Bir kişi diyor: Uzun sarı saçlarım var.",
+        "Büyük mavi gözlerim var.",
+        "Uzun boyluyum.",
+        "Yedi yaşındayım.",
+        "Lila diyor: Uzun sarı saçlarım var! Uzun boyluyum.",
+        "Tom diyor: Kısa koyu saçlarım var. Kısayım.",
+        "Kim bu kişi?",
+        "Lila!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is the person's hair?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Blue"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is the person tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is the person?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Find old.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the person?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Eda"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            0,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "q": "Why is it not Tom?",
+          "correct": "Tom says he is short with dark hair",
+          "wrong": [
+            "Tom says he is tall",
+            "The person says blond hair"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "Whose Birthday Is It?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🎂",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
-      ],
-      "sentences": [
-        "Today is a special day.",
-        "Lily is seven years old today.",
-        "There is a big cake on the table.",
-        "Max has got a gift for Lily.",
-        "Lily is smiling and very happy.",
-        "Mr Green says: \"Happy birthday, Lily!\"",
-        "Mrs Brown has got balloons.",
-        "Everyone is together.",
-        "What a great day!"
-      ],
-      "translations": [
-        "Bugün özel bir gün.",
-        "Lily bugün yedi yaşında.",
-        "Masada büyük bir pasta var.",
-        "Max'in Lily için bir hediyesi var.",
-        "Lily gülümsüyor ve çok mutlu.",
-        "Mr Green diyor ki: \"İyi ki doğdun, Lily!\"",
-        "Mrs Brown'un balonları var.",
-        "Herkes bir arada.",
-        "Ne harika bir gün!"
-      ],
-      "questions": [
         {
-          "q": "How old is Lily today?",
-          "correct": "Seven",
-          "wrong": ["Six", "Eight"],
-          "hint": "Find Lily's age in the text.",
-          "hl": [1]
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "Why has Max got a gift?",
-          "correct": "It is Lily's birthday",
-          "wrong": ["It is a national day", "It is a sports day"],
-          "hint": "Look at what Mr Green says.",
-          "hl": [3, 5]
+          "e": "👦🏻",
+          "n": "Tom"
         },
         {
-          "q": "How does Lily feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Scared"],
-          "hint": "Find Lily in the text.",
-          "hl": [4]
-        },
-        {
-          "q": "What kind of day is it?",
-          "correct": "A birthday celebration",
-          "wrong": ["A normal school day", "A sports day"],
-          "hint": "Look at the cake, the balloons and what Mr Green says.",
-          "hl": [2, 5, 6]
-        },
-        {
-          "q": "Why is everyone together?",
-          "correct": "They are celebrating Lily's birthday",
-          "wrong": ["They are studying", "They are playing sports"],
-          "hint": "Look at what is happening in the text.",
-          "hl": [1, 3, 5, 7]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
         }
-      ]
-    },
-    {
-      "id": "inf-2",
-      "title": "How Old Are You?",
-      "subtitle": "Use the clues to find the answer!",
-      "icon": "🎈",
-      "hlMode": "fade3",
-      "hintMode": "always",
-      "choices": 3,
-      "cast": [
-        { "e": "👧", "n": "Mia" },
-        { "e": "👦", "n": "Max" }
       ],
       "sentences": [
-        "Max has got a gift for Mia.",
-        "Max asks: \"Is it your birthday today?\"",
-        "Mia says: \"Yes, it is!\"",
-        "\"How old are you?\"",
-        "\"I'm seven!\"",
-        "Here is your gift, Mia.",
-        "Mia says: \"Thank you!\"",
-        "Max says: \"You're welcome!\"",
-        "\"Let's play together!\"",
-        "\"That sounds great!\"",
-        "What a happy birthday!"
+        "Today is a special day for someone.",
+        "It is not Saturday or Sunday.",
+        "It is Wednesday.",
+        "Eda says: My birthday is on Monday.",
+        "Tom says: My birthday is on Wednesday!",
+        "Lila says: My birthday is on Friday.",
+        "Whose birthday is it today?",
+        "It is Tom's birthday today!"
       ],
       "translations": [
-        "Max'in Mia için bir hediyesi var.",
-        "Max soruyor: \"Bugün senin doğum günün mü?\"",
-        "Mia diyor ki: \"Evet, öyle!\"",
-        "\"Kaç yaşındasın?\"",
-        "\"Yedi yaşındayım!\"",
-        "İşte hediyen, Mia.",
-        "Mia diyor ki: \"Teşekkür ederim!\"",
-        "Max diyor ki: \"Rica ederim!\"",
-        "\"Hadi birlikte oynayalım!\"",
-        "\"Kulağa harika geliyor!\"",
-        "Ne mutlu bir doğum günü!"
+        "Bugün biri için özel bir gün.",
+        "Cumartesi ya da Pazar değil.",
+        "Çarşamba.",
+        "Eda diyor: Doğum günüm Pazartesi.",
+        "Tom diyor: Doğum günüm Çarşamba!",
+        "Lila diyor: Doğum günüm Cuma.",
+        "Bugün kimin doğum günü?",
+        "Tom'un doğum günü!"
       ],
       "questions": [
         {
-          "q": "Whose birthday is it?",
-          "correct": "Mia's",
-          "wrong": ["Max's", "Lily's"],
-          "hint": "Look at who gets the gift.",
-          "hl": [0, 1, 2]
+          "q": "What day is it today?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How old is Mia today?",
-          "correct": "Seven",
-          "wrong": ["Six", "Eight"],
-          "hint": "Read Mia's answer about her age.",
-          "hl": [3, 4]
+          "q": "What day does Eda say for her birthday?",
+          "correct": "Monday",
+          "wrong": [
+            "Wednesday",
+            "Friday"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Why does Max have a gift?",
-          "correct": "Because it is Mia's birthday",
-          "wrong": ["Because it is a school day", "Because it is snowing"],
-          "hint": "Look at what Max asks Mia.",
-          "hl": [0, 1, 2]
+          "q": "What day does Tom say for his birthday?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Monday",
+            "Friday"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Max say after Mia says thank you?",
-          "correct": "You're welcome!",
-          "wrong": ["Let's play!", "How old are you?"],
-          "hint": "Read after 'Thank you!'",
-          "hl": [6, 7]
+          "q": "Whose birthday is it today?",
+          "correct": "Tom",
+          "wrong": [
+            "Eda",
+            "Lila"
+          ],
+          "hint": "Think about the day and the speakers.",
+          "hl": [
+            2,
+            4,
+            7
+          ]
         },
         {
-          "q": "What do they do next?",
-          "correct": "Play together",
-          "wrong": ["Go to school", "Go to sleep"],
-          "hint": "Read the last sentences.",
-          "hl": [8, 9]
+          "q": "When does Lila say her birthday is?",
+          "correct": "Friday",
+          "wrong": [
+            "Monday",
+            "Wednesday"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         }
       ]
     },
     {
       "id": "inf-3",
-      "title": "A Long Day",
+      "title": "What Weather Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "☔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: I've got a big coat today.",
+        "I've got a long scarf.",
+        "I've got warm gloves.",
+        "I've got a hat on my head.",
+        "It is not hot today.",
+        "How's the weather today?",
+        "It is cold!"
+      ],
+      "translations": [
+        "Eda diyor: Bugün büyük bir paltom var.",
+        "Uzun bir atkım var.",
+        "Sıcak eldivenlerim var.",
+        "Başımda bir şapkam var.",
+        "Bugün sıcak değil.",
+        "Bugün hava nasıl?",
+        "Soğuk!"
+      ],
+      "questions": [
+        {
+          "q": "What does Eda say first?",
+          "correct": "I've got a big coat",
+          "wrong": [
+            "I've got a T-shirt",
+            "I've got short trousers"
+          ],
+          "hint": "Find Eda in sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is on her head?",
+          "correct": "A hat",
+          "wrong": [
+            "A scarf",
+            "Gloves"
+          ],
+          "hint": "Find head.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it hot today?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How's the weather?",
+          "correct": "Cold",
+          "wrong": [
+            "Hot",
+            "Raining"
+          ],
+          "hint": "Think about the clothes.",
+          "hl": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How do we know it is cold?",
+          "correct": "Eda talks about a coat, scarf, gloves and a hat",
+          "wrong": [
+            "Eda is in the garden",
+            "Eda is happy"
+          ],
+          "hint": "Think about the clothes.",
+          "hl": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "How Old Is She?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔢",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A girl says: I am not five.",
+        "I am not six.",
+        "I am not eight.",
+        "I am seven.",
+        "Tom says: I am seven, too!",
+        "How old is the girl?",
+        "She is seven!"
+      ],
+      "translations": [
+        "Bir kız diyor: Beş yaşında değilim.",
+        "Altı yaşında değilim.",
+        "Sekiz yaşında değilim.",
+        "Yediyim.",
+        "Tom diyor: Ben de yediyim!",
+        "Kız kaç yaşında?",
+        "Yedi yaşında!"
+      ],
+      "questions": [
+        {
+          "q": "Is the girl five?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is the girl eight?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "I am seven",
+          "wrong": [
+            "I am six",
+            "I am eight"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is the girl?",
+          "correct": "Seven",
+          "wrong": [
+            "Six",
+            "Eight"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "What does the girl say about her age?",
+          "correct": "I am seven",
+          "wrong": [
+            "I am five",
+            "I am eight"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "What Is It on Me?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👁️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "I've got something on my body.",
+        "It is not on my head.",
+        "It is not on my feet.",
+        "It is on my nose.",
+        "My eyes are happy with it.",
+        "What is it?",
+        "It is glasses!"
+      ],
+      "translations": [
+        "Bedenimde bir şey var.",
+        "Başımda değil.",
+        "Ayaklarımda değil.",
+        "Burnumda.",
+        "Gözlerim onunla mutlu.",
+        "Bu nedir?",
+        "Gözlük!"
+      ],
+      "questions": [
+        {
+          "q": "Is it on my head?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is it on my feet?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is it?",
+          "correct": "On my nose",
+          "wrong": [
+            "On my head",
+            "On my feet"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the object?",
+          "correct": "Glasses",
+          "wrong": [
+            "A hat",
+            "Shoes"
+          ],
+          "hint": "Think about the nose.",
+          "hl": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How do we know it is glasses?",
+          "correct": "It is on my nose",
+          "wrong": [
+            "It is on my head",
+            "It is on my feet"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "Which Clothes Are Hers?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👗",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Three girls have new clothes.",
+        "Eda says: I've got a pink dress!",
+        "Lila says: I've got a yellow dress!",
+        "A girl is here with a yellow dress.",
+        "Who is she?",
+        "It is Lila!"
+      ],
+      "translations": [
+        "Üç kız yeni kıyafetlere sahip.",
+        "Eda diyor: Pembe bir elbisem var!",
+        "Lila diyor: Sarı bir elbisem var!",
+        "Sarı elbiseli bir kız burada.",
+        "O kim?",
+        "Lila!"
+      ],
+      "questions": [
+        {
+          "q": "What colour dress does Eda have?",
+          "correct": "Pink",
+          "wrong": [
+            "Yellow",
+            "Blue"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour dress does Lila have?",
+          "correct": "Yellow",
+          "wrong": [
+            "Pink",
+            "Red"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is the dress here?",
+          "correct": "Yellow",
+          "wrong": [
+            "Pink",
+            "Blue"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the girl?",
+          "correct": "Lila",
+          "wrong": [
+            "Eda",
+            "Miss Oli"
+          ],
+          "hint": "Think about the colour.",
+          "hl": [
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "q": "How do we know it is Lila?",
+          "correct": "The yellow dress",
+          "wrong": [
+            "The pink dress",
+            "The blue dress"
+          ],
+          "hint": "Match the colour.",
+          "hl": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "What Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🌤️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A week of weather:",
+        "On Monday, it's hot.",
+        "On Tuesday, it's cold.",
+        "On Wednesday, it's raining.",
+        "On Thursday, it's snowing.",
+        "Today it's snowing!",
+        "What day is it today?",
+        "It is Thursday!"
+      ],
+      "translations": [
+        "Bir haftanın havası:",
+        "Pazartesi sıcak.",
+        "Salı soğuk.",
+        "Çarşamba yağmur yağıyor.",
+        "Perşembe kar yağıyor.",
+        "Bugün kar yağıyor!",
+        "Bugün hangi gün?",
+        "Perşembe!"
+      ],
+      "questions": [
+        {
+          "q": "How's the weather on Monday?",
+          "correct": "Hot",
+          "wrong": [
+            "Cold",
+            "Snowing"
+          ],
+          "hint": "Find Monday.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "On which day is it raining?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Monday",
+            "Thursday"
+          ],
+          "hint": "Find raining.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How's the weather today?",
+          "correct": "Snowing",
+          "wrong": [
+            "Hot",
+            "Raining"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What day is it today?",
+          "correct": "Thursday",
+          "wrong": [
+            "Monday",
+            "Wednesday"
+          ],
+          "hint": "Match the weather.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "q": "How do we know it is Thursday?",
+          "correct": "It is snowing on Thursday",
+          "wrong": [
+            "It is hot",
+            "It is raining"
+          ],
+          "hint": "Match the weather.",
+          "hl": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Who Is Tall?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "📏",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Three friends are here.",
+        "Eda says: I am tall!",
+        "Lila says: I am tall, too!",
+        "Can says: I am short!",
+        "One friend is short.",
+        "Who is the short friend?",
+        "It is Can!"
+      ],
+      "translations": [
+        "Üç arkadaş burada.",
+        "Eda diyor: Ben uzunum!",
+        "Lila diyor: Ben de uzunum!",
+        "Can diyor: Ben kısayım!",
+        "Bir arkadaş kısa.",
+        "Kısa olan arkadaş kim?",
+        "Can!"
+      ],
+      "questions": [
+        {
+          "q": "What does Eda say?",
+          "correct": "I am tall",
+          "wrong": [
+            "I am short",
+            "I am sad"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "I am tall, too",
+          "wrong": [
+            "I am short",
+            "I am sad"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "I am short",
+          "wrong": [
+            "I am tall",
+            "I am happy"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the short friend?",
+          "correct": "Can",
+          "wrong": [
+            "Eda",
+            "Lila"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How do we know Can is short?",
+          "correct": "He says I am short",
+          "wrong": [
+            "He says I am tall",
+            "He says I am happy"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Match the Person!",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🧩",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        }
+      ],
+      "sentences": [
+        "Three friends say their things.",
+        "Eda says: I am seven! I've got blue eyes.",
+        "Tom says: I am eight! I've got dark eyes.",
+        "Lila says: I am seven! I've got blond hair.",
+        "A friend is seven with blond hair.",
+        "Who is the friend?",
+        "It is Lila!"
+      ],
+      "translations": [
+        "Üç arkadaş özelliklerini söylüyor.",
+        "Eda diyor: Yediyim! Mavi gözlerim var.",
+        "Tom diyor: Sekizim! Koyu gözlerim var.",
+        "Lila diyor: Yediyim! Sarı saçlarım var.",
+        "Bir arkadaş yedi yaşında ve sarı saçlı.",
+        "Bu arkadaş kim?",
+        "Lila!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Eda?",
+          "correct": "Seven",
+          "wrong": [
+            "Eight",
+            "Six"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Tom?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Six"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is Lila?",
+          "correct": "Seven",
+          "wrong": [
+            "Eight",
+            "Nine"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is seven with blond hair?",
+          "correct": "Lila",
+          "wrong": [
+            "Eda",
+            "Tom"
+          ],
+          "hint": "Match age and hair.",
+          "hl": [
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "Why is it not Eda?",
+          "correct": "Eda says I've got blue eyes",
+          "wrong": [
+            "Eda is eight",
+            "Eda is short"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "Which Religious Day?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🌙",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It is the end of a long day.",
-        "Max is very tired.",
-        "Lily says: \"Cheer up, everybody!\"",
-        "\"Do you want to play?\"",
-        "Max says: \"Not now!\"",
-        "\"Are you OK, Max?\"",
-        "\"I'm OK!\"",
-        "Look! It's late.",
-        "Time to sleep!",
-        "Good night!",
-        "What a long day!"
+        "Today is a special religious day.",
+        "It is not Republic Day.",
+        "It is not Children's Day.",
+        "It is not Victory Day.",
+        "It is a religious festival in Türkiye.",
+        "One festival is Eid al-Fitr.",
+        "Another festival is Festival of Sacrifice.",
+        "Today is Eid al-Fitr — after Ramazan.",
+        "Happy Eid!"
       ],
       "translations": [
-        "Uzun bir günün sonu.",
-        "Max çok yorgun.",
-        "Lily diyor ki: \"Neşelenin, millet!\"",
-        "\"Oynamak ister misin?\"",
-        "Max diyor ki: \"Şimdi olmaz!\"",
-        "\"İyi misin, Max?\"",
-        "\"İyiyim!\"",
-        "Bak! Geç oldu.",
-        "Uyku zamanı!",
-        "İyi geceler!",
-        "Ne uzun bir gündü!"
+        "Bugün özel bir dini gün.",
+        "Cumhuriyet Bayramı değil.",
+        "Çocuk Bayramı değil.",
+        "Zafer Bayramı değil.",
+        "Türkiye'de bir dini bayram.",
+        "Bir bayram Ramazan Bayramı.",
+        "Diğer bayram Kurban Bayramı.",
+        "Bugün Ramazan Bayramı — Ramazan'dan sonra.",
+        "Mutlu bayramlar!"
       ],
       "questions": [
         {
-          "q": "How does Max feel?",
-          "correct": "Tired",
-          "wrong": ["Excited", "Angry"],
-          "hint": "Read the second sentence.",
-          "hl": [1]
+          "q": "Is today Republic Day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Why does Max say \"Not now!\"?",
-          "correct": "Because he is tired",
-          "wrong": ["Because he is happy", "Because it is morning"],
-          "hint": "Look at how Max feels.",
-          "hl": [1, 3, 4]
+          "q": "What kind of day is it?",
+          "correct": "A religious festival",
+          "wrong": [
+            "A national day",
+            "A school day"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What time of day is it?",
-          "correct": "Night",
-          "wrong": ["Morning", "Lunch time"],
-          "hint": "Look at 'It's late' and 'Time to sleep'.",
-          "hl": [7, 8]
+          "q": "What two festivals are mentioned?",
+          "correct": "Eid al-Fitr and Festival of Sacrifice",
+          "wrong": [
+            "Children's Day and Victory Day",
+            "Republic Day and Democracy Day"
+          ],
+          "hint": "Read sentences 6-7.",
+          "hl": [
+            5,
+            6
+          ]
         },
         {
-          "q": "What does Lily say to make everyone feel better?",
-          "correct": "Cheer up, everybody!",
-          "wrong": ["Time to sleep!", "Not now!"],
-          "hint": "Find the kind words Lily says.",
-          "hl": [2]
+          "q": "Which festival is today?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Festival of Sacrifice",
+            "Children's Day"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
         },
         {
-          "q": "What kind of day was it?",
-          "correct": "A long day",
-          "wrong": ["A short day", "A sad day"],
-          "hint": "Read the last sentence.",
-          "hl": [0, 10]
+          "q": "How do we know it is Eid al-Fitr?",
+          "correct": "It is after Ramazan",
+          "wrong": [
+            "It is in summer",
+            "It is in October"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     }
