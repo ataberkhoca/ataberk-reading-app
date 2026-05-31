@@ -1,218 +1,1056 @@
 {
-  "theme": "Homes & Houses",
+  "theme": "Homes & Houses & Neighbourhoods",
   "themeNumber": 5,
   "scan": [
     {
       "id": "scan-1",
-      "title": "Our House",
-      "subtitle": "Find the right room and furniture!",
+      "title": "Welcome to My House",
+      "subtitle": "Find the right room!",
       "icon": "🏠",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "We have got a big house.",
-        "There is a bedroom.",
-        "The bed is in the bedroom.",
-        "There is a kitchen.",
-        "The coffee table is in the sitting room.",
-        "There is a bathroom.",
-        "The sofa is in the sitting room.",
-        "We love our house!"
+        "Eda says: Welcome to my house!",
+        "Come and see!",
+        "We have got a kitchen.",
+        "We have got a sitting room. There is a sofa in the sitting room.",
+        "We have got a bedroom. There is a bed in the bedroom.",
+        "We have got a bathroom and a dining room.",
+        "We have got a beautiful garden.",
+        "Lila says: Your house is so nice!"
       ],
       "translations": [
-        "Büyük bir evimiz var.",
-        "Bir yatak odası var.",
-        "Yatak, yatak odasında.",
-        "Bir mutfak var.",
-        "Sehpa, oturma odasında.",
-        "Bir banyo var.",
-        "Kanepe, oturma odasında.",
-        "Evimizi seviyoruz!"
+        "Eda diyor: Evime hoş geldin!",
+        "Gel gör!",
+        "Bir mutfağımız var.",
+        "Bir oturma odamız var. Oturma odasında bir kanepe var.",
+        "Bir yatak odamız var. Yatak odasında bir yatak var.",
+        "Bir banyomuz ve bir yemek odamız var.",
+        "Güzel bir bahçemiz var.",
+        "Lila diyor: Evin çok güzel!"
       ],
       "questions": [
         {
-          "q": "Where is the bed?",
-          "correct": "In the bedroom",
-          "wrong": ["In the kitchen", "In the bathroom"],
-          "hint": "Find the word bed in the text.",
-          "hl": [2]
+          "q": "Who is the speaker?",
+          "correct": "Eda",
+          "wrong": [
+            "Lila",
+            "Miss Oli"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
           "q": "What is in the sitting room?",
-          "correct": "The sofa and the coffee table",
-          "wrong": ["The bed and the sofa", "The coffee table and the bed"],
-          "hint": "Find the words sitting room in the text.",
-          "hl": [4, 6]
+          "correct": "A sofa",
+          "wrong": [
+            "A bed",
+            "A garden"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How many rooms are mentioned in the text?",
-          "correct": "Four",
-          "wrong": ["Three", "Five"],
-          "hint": "Count the rooms in the text.",
-          "hl": [1, 3, 5, 6]
+          "q": "What is in the bedroom?",
+          "correct": "A bed",
+          "wrong": [
+            "A sofa",
+            "A coffee table"
+          ],
+          "hint": "Find bedroom.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What kind of house do they have?",
-          "correct": "A big house",
-          "wrong": ["A small house", "An old house"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "How is the garden?",
+          "correct": "Beautiful",
+          "wrong": [
+            "Small",
+            "Tired"
+          ],
+          "hint": "Find garden.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What does the family say about their house?",
-          "correct": "They love it",
-          "wrong": ["It is small", "It is old"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "What does Lila say?",
+          "correct": "Your house is so nice!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "Where Is the Cat?",
-      "subtitle": "Find the right place!",
-      "icon": "🔍",
+      "title": "My Big House",
+      "subtitle": "Find the right answer!",
+      "icon": "🏡",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "🐱", "n": "Mimi" },
-        { "e": "🐶", "n": "Rex" },
-        { "e": "🐰", "n": "Fluffy" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Look around our house!",
-        "Where is the cat?",
-        "Here's Mimi! She's on the green sofa.",
-        "Where is the dog?",
-        "Rex is in the dining room.",
-        "Where is the rabbit?",
-        "Fluffy is on the balcony.",
-        "Here's a ball, too!",
-        "We love our house!"
+        "Tom says: This is my house!",
+        "Look around!",
+        "We have got a big sitting room.",
+        "There is a sofa and a coffee table in the sitting room.",
+        "There is a bed in my bedroom.",
+        "We have got a kitchen and a bathroom.",
+        "We have got a balcony, too!",
+        "Can says: Your house is great!"
       ],
       "translations": [
-        "Evimizin içine bir bak!",
-        "Kedi nerede?",
-        "İşte Mimi! Yeşil kanepenin üstünde.",
-        "Köpek nerede?",
-        "Rex yemek odasında.",
-        "Tavşan nerede?",
-        "Fluffy balkonda.",
-        "İşte bir top da var!",
-        "Evimizi seviyoruz!"
+        "Tom diyor: Bu benim evim!",
+        "Etrafa bak!",
+        "Büyük bir oturma odamız var.",
+        "Oturma odasında bir kanepe ve bir sehpa var.",
+        "Yatak odamda bir yatak var.",
+        "Bir mutfağımız ve bir banyomuz var.",
+        "Bir balkonumuz da var!",
+        "Can diyor: Evin harika!"
       ],
       "questions": [
         {
-          "q": "Where is the cat?",
-          "correct": "On the sofa",
-          "wrong": ["In the dining room", "On the balcony"],
-          "hint": "Find the cat in the text.",
-          "hl": [1, 2]
+          "q": "How is Tom's sitting room?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Tired"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Where is the dog?",
-          "correct": "In the dining room",
-          "wrong": ["On the sofa", "On the balcony"],
-          "hint": "Find the dog in the text.",
-          "hl": [3, 4]
+          "q": "What is in the sitting room?",
+          "correct": "A sofa and a coffee table",
+          "wrong": [
+            "A bed",
+            "A dollhouse"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Where is the rabbit?",
-          "correct": "On the balcony",
-          "wrong": ["In the dining room", "On the sofa"],
-          "hint": "Find the rabbit in the text.",
-          "hl": [5, 6]
+          "q": "Where is the bed?",
+          "correct": "In the bedroom",
+          "wrong": [
+            "In the kitchen",
+            "In the balcony"
+          ],
+          "hint": "Find bed.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is the cat's name?",
-          "correct": "Mimi",
-          "wrong": ["Rex", "Fluffy"],
-          "hint": "Find the cat in the text.",
-          "hl": [2]
+          "q": "What else has Tom got?",
+          "correct": "A balcony",
+          "wrong": [
+            "A dollhouse",
+            "A doorbell"
+          ],
+          "hint": "Find balcony.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What else is in the house?",
-          "correct": "A ball",
-          "wrong": ["A bird", "A bed"],
-          "hint": "Read near the end.",
-          "hl": [7]
+          "q": "What does Can say?",
+          "correct": "Your house is great!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "scan-3",
-      "title": "How Many in Each Room?",
-      "subtitle": "Find the right number!",
-      "icon": "🔢",
+      "title": "My Dog Maxi",
+      "subtitle": "Find the right answer!",
+      "icon": "🐕",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Let's count in our house!",
-        "There are two beds in the bedroom.",
-        "There are three black cats in the sitting room.",
-        "There are four red chairs in the kitchen.",
-        "There are five yellow books on the coffee table.",
-        "There are two dogs in the garden.",
-        "There are six pink flowers on the balcony.",
-        "Our house is full of things!"
+        "Eda says: I have got a pet!",
+        "My pet is a dog.",
+        "His name is Maxi.",
+        "Maxi has got brown eyes.",
+        "He has got short brown hair.",
+        "My dog is nice and big.",
+        "Maxi is in the garden.",
+        "Lila says: Your dog is so cute!"
       ],
       "translations": [
-        "Hadi evimizde sayalım!",
-        "Yatak odasında iki yatak var.",
-        "Oturma odasında üç siyah kedi var.",
-        "Mutfakta dört kırmızı sandalye var.",
-        "Sehpanın üstünde beş sarı kitap var.",
-        "Bahçede iki köpek var.",
-        "Balkonda altı pembe çiçek var.",
-        "Evimiz eşya dolu!"
+        "Eda diyor: Bir evcil hayvanım var!",
+        "Evcil hayvanım bir köpek.",
+        "Onun adı Maxi.",
+        "Maxi'nin kahverengi gözleri var.",
+        "Kısa kahverengi tüyleri var.",
+        "Köpeğim hoş ve büyük.",
+        "Maxi bahçede.",
+        "Lila diyor: Köpeğin çok sevimli!"
       ],
       "questions": [
         {
-          "q": "How many beds are in the bedroom?",
-          "correct": "Two",
-          "wrong": ["Three", "Four"],
-          "hint": "Find the word beds.",
-          "hl": [1]
+          "q": "What pet has Eda got?",
+          "correct": "A dog",
+          "wrong": [
+            "A cat",
+            "A bird"
+          ],
+          "hint": "Find pet.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "How many cats are in the sitting room?",
-          "correct": "Three",
-          "wrong": ["Two", "Five"],
-          "hint": "Find the word cats.",
-          "hl": [2]
+          "q": "What name does Eda use?",
+          "correct": "Maxi",
+          "wrong": [
+            "Misho",
+            "Coco"
+          ],
+          "hint": "Find name in sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Where are the four chairs?",
-          "correct": "In the kitchen",
-          "wrong": ["In the bedroom", "In the garden"],
-          "hint": "Find the word chairs.",
-          "hl": [3]
+          "q": "What colour eyes has Maxi got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How many books are on the coffee table?",
-          "correct": "Five",
-          "wrong": ["Four", "Six"],
-          "hint": "Find the word books.",
-          "hl": [4]
+          "q": "How is Maxi?",
+          "correct": "Nice and big",
+          "wrong": [
+            "Sad and tired",
+            "Small and old"
+          ],
+          "hint": "Find dog.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Where are the two dogs?",
+          "q": "Where is Maxi?",
           "correct": "In the garden",
-          "wrong": ["In the kitchen", "On the balcony"],
-          "hint": "Find the word dogs.",
-          "hl": [5]
+          "wrong": [
+            "In the kitchen",
+            "In the bedroom"
+          ],
+          "hint": "Find garden.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "My Cat Misho",
+      "subtitle": "Find the right answer!",
+      "icon": "🐈",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: I have got a pet!",
+        "My pet is a cat.",
+        "Her name is Misho.",
+        "Misho has got green eyes.",
+        "She has got short white hair.",
+        "My cat is small and beautiful.",
+        "Misho is in the sitting room.",
+        "She is on the sofa!",
+        "Tom says: Your cat is lovely!"
+      ],
+      "translations": [
+        "Can diyor: Bir evcil hayvanım var!",
+        "Evcil hayvanım bir kedi.",
+        "Onun adı Misho.",
+        "Misho'nun yeşil gözleri var.",
+        "Kısa beyaz tüyleri var.",
+        "Kedim küçük ve güzel.",
+        "Misho oturma odasında.",
+        "Kanepenin üstünde!",
+        "Tom diyor: Kedin çok sevimli!"
+      ],
+      "questions": [
+        {
+          "q": "What pet has Can got?",
+          "correct": "A cat",
+          "wrong": [
+            "A dog",
+            "A bird"
+          ],
+          "hint": "Find pet.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What name does Can use?",
+          "correct": "Misho",
+          "wrong": [
+            "Maxi",
+            "Coco"
+          ],
+          "hint": "Find name in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has Misho got?",
+          "correct": "Green",
+          "wrong": [
+            "Brown",
+            "Blue"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Misho?",
+          "correct": "On the sofa",
+          "wrong": [
+            "On the bed",
+            "In the garden"
+          ],
+          "hint": "Find sofa.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Tom say?",
+          "correct": "Your cat is lovely!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "My Cat's Body",
+      "subtitle": "Find the right body part!",
+      "icon": "🐱",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: Look at my cat Misho!",
+        "She has got a small head.",
+        "She has got two big green eyes.",
+        "She has got two ears.",
+        "She has got long whiskers.",
+        "She has got four small paws.",
+        "Look at her paws! She has got claws, too.",
+        "She has got a long tail.",
+        "My cat is beautiful!"
+      ],
+      "translations": [
+        "Can diyor: Kedim Misho'ya bak!",
+        "Küçük bir başı var.",
+        "İki büyük yeşil gözü var.",
+        "İki kulağı var.",
+        "Uzun bıyıkları var.",
+        "Dört küçük patisi var.",
+        "Patilerine bak! Tırnakları da var.",
+        "Uzun bir kuyruğu var.",
+        "Kedim güzel!"
+      ],
+      "questions": [
+        {
+          "q": "What colour eyes has Misho got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How long are her whiskers?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Big"
+          ],
+          "hint": "Find whiskers.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many paws has Misho got?",
+          "correct": "Four",
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is on her paws?",
+          "correct": "Claws",
+          "wrong": [
+            "Whiskers",
+            "A beak"
+          ],
+          "hint": "Find claws.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How long is her tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "My Bird Cici",
+      "subtitle": "Find the right body part!",
+      "icon": "🐦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: I have got a bird!",
+        "Her name is Cici.",
+        "Cici has got two small eyes.",
+        "She has got a small yellow beak.",
+        "She has got two small wings.",
+        "She has got two small claws on her feet.",
+        "She has got a short tail.",
+        "Cici has got blue and yellow feathers.",
+        "My bird is colourful!"
+      ],
+      "translations": [
+        "Lila diyor: Bir kuşum var!",
+        "Onun adı Cici.",
+        "Cici'nin iki küçük gözü var.",
+        "Küçük sarı bir gagası var.",
+        "İki küçük kanadı var.",
+        "Ayaklarında iki küçük tırnağı var.",
+        "Kısa bir kuyruğu var.",
+        "Cici'nin mavi ve sarı tüyleri var.",
+        "Kuşum renkli!"
+      ],
+      "questions": [
+        {
+          "q": "What does the bird have to eat with?",
+          "correct": "A beak",
+          "wrong": [
+            "Whiskers",
+            "A paw"
+          ],
+          "hint": "Find beak.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is the beak?",
+          "correct": "Yellow",
+          "wrong": [
+            "Blue",
+            "Red"
+          ],
+          "hint": "Find beak.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many claws has Cici got?",
+          "correct": "Two",
+          "wrong": [
+            "Four",
+            "Six"
+          ],
+          "hint": "Find claws.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How long is her tail?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What colour feathers has Cici got?",
+          "correct": "Blue and yellow",
+          "wrong": [
+            "Red and white",
+            "Green and black"
+          ],
+          "hint": "Find feathers.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Where Is My Bed?",
+      "subtitle": "Find the right location!",
+      "icon": "🛏️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: Where is the bed in my house?",
+        "The bed is in the bedroom.",
+        "Where is the sofa? The sofa is in the sitting room.",
+        "Where is the coffee table? It is in the sitting room, too.",
+        "Where is the dining table? It is in the dining room.",
+        "Eda says: Every furniture is in the right room!",
+        "Tom is happy with his house!"
+      ],
+      "translations": [
+        "Tom diyor: Evimde yatak nerede?",
+        "Yatak yatak odasında.",
+        "Kanepe nerede? Kanepe oturma odasında.",
+        "Sehpa nerede? O da oturma odasında.",
+        "Yemek masası nerede? Yemek odasında.",
+        "Eda diyor: Her mobilya doğru odada!",
+        "Tom eviyle mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the bed?",
+          "correct": "In the bedroom",
+          "wrong": [
+            "In the kitchen",
+            "In the garden"
+          ],
+          "hint": "Find bed.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the sofa?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the kitchen"
+          ],
+          "hint": "Find sofa.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is the coffee table?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the dining room"
+          ],
+          "hint": "Find coffee table.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the dining table?",
+          "correct": "In the dining room",
+          "wrong": [
+            "In the sitting room",
+            "In the kitchen"
+          ],
+          "hint": "Find dining table.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "Every furniture is in the right room!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "Where Is My Cat?",
+      "subtitle": "Find the right location!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: Where is my cat Misho?",
+        "Is she in the kitchen? No!",
+        "Is she in the bedroom? No!",
+        "Misho is in the sitting room.",
+        "She is on the sofa!",
+        "Lila says: Sofas are nice for cats!",
+        "Can says: My Misho is here!"
+      ],
+      "translations": [
+        "Can diyor: Kedim Misho nerede?",
+        "Mutfakta mı? Hayır!",
+        "Yatak odasında mı? Hayır!",
+        "Misho oturma odasında.",
+        "Kanepenin üstünde!",
+        "Lila diyor: Kanepeler kediler için güzel!",
+        "Can diyor: Benim Misho burada!"
+      ],
+      "questions": [
+        {
+          "q": "What name does Can use?",
+          "correct": "Misho",
+          "wrong": [
+            "Maxi",
+            "Cici"
+          ],
+          "hint": "Find name in sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Misho in the kitchen?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Misho?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the kitchen",
+            "In the bedroom"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Misho on?",
+          "correct": "On the sofa",
+          "wrong": [
+            "On the bed",
+            "On the table"
+          ],
+          "hint": "Find sofa.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "Sofas are nice for cats!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "Our Family House",
+      "subtitle": "Find the right answer!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: We have got a big family and a big house!",
+        "My family has got four people: my mum, my dad, my sister Mia, and Tom.",
+        "We have got a kitchen, a sitting room and a bathroom.",
+        "We have got two bedrooms.",
+        "We have got a goldfish, too! Her name is Bubble.",
+        "Bubble is in a bowl in the kitchen.",
+        "Lila says: We have got a small house. We have got a bird!",
+        "Families and houses are different!"
+      ],
+      "translations": [
+        "Tom diyor: Büyük bir ailemiz ve büyük bir evimiz var!",
+        "Ailemde dört kişi var: annem, babam, ablam Mia ve Tom.",
+        "Bir mutfağımız, bir oturma odamız ve bir banyomuz var.",
+        "İki yatak odamız var.",
+        "Bir Japon balığımız da var! Onun adı Bubble.",
+        "Bubble mutfaktaki bir kasede.",
+        "Lila diyor: Bizim küçük bir evimiz var. Bir kuşumuz var!",
+        "Aileler ve evler farklı!"
+      ],
+      "questions": [
+        {
+          "q": "How is the family?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Sad"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How many bedrooms has the family got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find bedrooms.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What pet has Tom got?",
+          "correct": "A goldfish",
+          "wrong": [
+            "A bird",
+            "A cat"
+          ],
+          "hint": "Find pet.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is Bubble?",
+          "correct": "In a bowl in the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the sitting room"
+          ],
+          "hint": "Find Bubble.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What pet has Lila got?",
+          "correct": "A bird",
+          "wrong": [
+            "A goldfish",
+            "A cat"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "30 August at Home",
+      "subtitle": "Find the right answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 30th of August.",
+        "It is Victory Day in Türkiye!",
+        "Eda says: Our flag is on our balcony!",
+        "Our flag is red and white.",
+        "Can says: We have got a flag on our balcony, too!",
+        "Our family is in the sitting room.",
+        "We are happy on Victory Day!",
+        "Happy 30th of August!"
+      ],
+      "translations": [
+        "Bugün 30 Ağustos.",
+        "Türkiye'de Zafer Bayramı!",
+        "Eda diyor: Bayrağımız balkonumuzda!",
+        "Bayrağımız kırmızı ve beyaz.",
+        "Can diyor: Bizim de bayrağımız balkonumuzda!",
+        "Ailemiz oturma odasında.",
+        "Zafer Günü'nde mutluyuz!",
+        "30 Ağustos kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 30th of August",
+          "wrong": [
+            "The 23rd of April",
+            "The 15th of July"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Victory Day",
+          "wrong": [
+            "Children's Day",
+            "Republic Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Eda's flag?",
+          "correct": "On the balcony",
+          "wrong": [
+            "In the kitchen",
+            "In the garden"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is our flag?",
+          "correct": "Red and white",
+          "wrong": [
+            "Blue and yellow",
+            "Green and black"
+          ],
+          "hint": "Find flag.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the family?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the garden"
+          ],
+          "hint": "Find sentence 6.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -220,145 +1058,1074 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "Welcome to Our Home!",
+      "title": "My House Has Many Rooms",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🚪",
+      "icon": "🏠",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Welcome to our home!",
-        "We have got a lovely house.",
-        "There is a big kitchen.",
-        "There is a cosy sitting room.",
-        "There is a nice bedroom.",
-        "There is a small bathroom.",
-        "We have got a beautiful garden.",
-        "We love our home!"
+        "Lila says: Welcome to my house!",
+        "We have got a small house. It is lovely.",
+        "There is a kitchen. There is a bathroom.",
+        "There is a sitting room. There is a bedroom.",
+        "There is a balcony, too!",
+        "Eda says: Your house is so cosy!",
+        "Lila says: I am happy in my home!",
+        "Home is a sweet place!"
       ],
       "translations": [
-        "Evimize hoş geldiniz!",
-        "Güzel bir evimiz var.",
-        "Büyük bir mutfak var.",
-        "Rahat bir oturma odası var.",
-        "Güzel bir yatak odası var.",
-        "Küçük bir banyo var.",
-        "Güzel bir bahçemiz var.",
-        "Evimizi seviyoruz!"
+        "Lila diyor: Evime hoş geldin!",
+        "Küçük bir evimiz var. Sevimli.",
+        "Bir mutfak var. Bir banyo var.",
+        "Bir oturma odası var. Bir yatak odası var.",
+        "Bir balkon da var!",
+        "Eda diyor: Evin çok şirin!",
+        "Lila diyor: Evimde mutluyum!",
+        "Ev güzel bir yer!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "A house and its rooms",
-          "wrong": ["A family and its members", "A school and its classrooms"],
-          "hint": "Look at all the rooms in the text.",
-          "hl": [2, 3, 4, 5, 6]
+          "correct": "The rooms in a house",
+          "wrong": [
+            "A school",
+            "A pet"
+          ],
+          "hint": "Think about the rooms.",
+          "hl": [
+            2,
+            3,
+            4
+          ]
         },
         {
-          "q": "How many rooms are mentioned in the text?",
-          "correct": "Five",
-          "wrong": ["Four", "Six"],
-          "hint": "Count the rooms in the text.",
-          "hl": [2, 3, 4, 5, 6]
+          "q": "What rooms are in the house?",
+          "correct": "Kitchen, bathroom, sitting room, bedroom",
+          "wrong": [
+            "Classroom and garden",
+            "Sports hall"
+          ],
+          "hint": "Find rooms.",
+          "hl": [
+            2,
+            3
+          ]
         },
         {
-          "q": "What kind of house do they have?",
-          "correct": "A lovely house",
-          "wrong": ["A big house", "An old house"],
-          "hint": "Read the second sentence.",
-          "hl": [1]
+          "q": "What else is in the house?",
+          "correct": "A balcony",
+          "wrong": [
+            "A dollhouse",
+            "A dog"
+          ],
+          "hint": "Find balcony.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is outside the house?",
-          "correct": "A beautiful garden",
-          "wrong": ["A playground", "A balcony"],
-          "hint": "Find the word garden in the text.",
-          "hl": [6]
+          "q": "What does Eda say?",
+          "correct": "Your house is so cosy!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "How does the family feel about their home?",
-          "correct": "They love it",
-          "wrong": ["They are sad", "They are bored"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "Where does Lila feel happy?",
+          "correct": "In her home",
+          "wrong": [
+            "In the school",
+            "In the garden"
+          ],
+          "hint": "Find Lila in sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
-      "title": "Come and See Our Pets!",
+      "title": "A Visit to My Friend's House",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🐦",
+      "icon": "🔔",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "🐦", "n": "Kiwi" },
-        { "e": "🐠", "n": "Bubbles" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Come and see our pets!",
-        "We've got a bird.",
-        "Our bird's name is Kiwi.",
-        "We've got a goldfish, too.",
-        "Let's look at the goldfish!",
-        "Its name is Bubbles.",
-        "Come on!",
-        "We've got a cat and a dog.",
-        "We love our pets!"
+        "Ding-dong! There is a doorbell!",
+        "Eda says: I am with my friend Lila today!",
+        "Welcome! says Lila.",
+        "Come and see! There is a kitchen here.",
+        "There is a sitting room. There is a sofa here.",
+        "There is a bedroom upstairs.",
+        "Eda says: Your house is so nice!",
+        "Lila says: Thank you, Eda!"
       ],
       "translations": [
-        "Gelin evcil hayvanlarımızı görün!",
-        "Bir kuşumuz var.",
-        "Kuşumuzun adı Kiwi.",
-        "Bir de Japon balığımız var.",
-        "Hadi Japon balığına bakalım!",
-        "Onun adı Bubbles.",
-        "Hadi gelin!",
-        "Bir kedimiz ve bir köpeğimiz var.",
-        "Evcil hayvanlarımızı seviyoruz!"
+        "Ding-dong! Kapı zili var!",
+        "Eda diyor: Bugün arkadaşım Lila ile birlikteyim!",
+        "Hoş geldin! diyor Lila.",
+        "Gel gör! Burada bir mutfak var.",
+        "Bir oturma odası var. Burada bir kanepe var.",
+        "Üst katta bir yatak odası var.",
+        "Eda diyor: Evin çok güzel!",
+        "Lila diyor: Teşekkürler, Eda!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Showing the family's pets",
-          "wrong": ["Cleaning the house", "A birthday party"],
-          "hint": "Look at what the family wants to show.",
-          "hl": [0]
+          "correct": "A visit to a friend",
+          "wrong": [
+            "A school",
+            "A pet"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1,
+            2
+          ]
         },
         {
-          "q": "What is the bird's name?",
-          "correct": "Kiwi",
-          "wrong": ["Bubbles", "Mimi"],
-          "hint": "Find the word bird.",
-          "hl": [2]
+          "q": "What is the sound from the door?",
+          "correct": "A doorbell",
+          "wrong": [
+            "A bell",
+            "A clock"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "What is the goldfish's name?",
-          "correct": "Bubbles",
-          "wrong": ["Kiwi", "Rex"],
-          "hint": "Find the word goldfish.",
-          "hl": [4, 5]
+          "q": "What rooms are mentioned?",
+          "correct": "Kitchen, sitting room, bedroom",
+          "wrong": [
+            "School and garden",
+            "Sports hall"
+          ],
+          "hint": "Find rooms.",
+          "hl": [
+            3,
+            4,
+            5
+          ]
         },
         {
-          "q": "How many kinds of pets do they have?",
+          "q": "What is in the sitting room?",
+          "correct": "A sofa",
+          "wrong": [
+            "A bed",
+            "A coffee table"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda say about the house?",
+          "correct": "Your house is so nice!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Lila's New Pet",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🐰",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: I have got a new pet!",
+        "It is a rabbit.",
+        "Her name is Pamuk.",
+        "Pamuk has got long ears.",
+        "She has got white hair and a small pink nose.",
+        "She has got four small paws.",
+        "She has got a small tail.",
+        "Eda says: Your rabbit is so sweet!"
+      ],
+      "translations": [
+        "Lila diyor: Yeni bir evcil hayvanım var!",
+        "Bir tavşan.",
+        "Onun adı Pamuk.",
+        "Pamuk'un uzun kulakları var.",
+        "Beyaz tüyleri ve küçük pembe bir burnu var.",
+        "Dört küçük patisi var.",
+        "Küçük bir kuyruğu var.",
+        "Eda diyor: Tavşanın çok şirin!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A pet rabbit",
+          "wrong": [
+            "A pet cat",
+            "A pet bird"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What name does Lila use for the rabbit?",
+          "correct": "Pamuk",
+          "wrong": [
+            "Maxi",
+            "Misho"
+          ],
+          "hint": "Find name in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How long are the ears?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find ears.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour is her hair?",
+          "correct": "White",
+          "wrong": [
+            "Brown",
+            "Black"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many paws has the rabbit got?",
           "correct": "Four",
-          "wrong": ["Two", "Three"],
-          "hint": "Count the pets: bird, goldfish, cat, dog.",
-          "hl": [1, 3, 7]
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "My Goldfish Bubble",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🐠",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
         },
         {
-          "q": "How does the family feel about their pets?",
-          "correct": "They love them",
-          "wrong": ["They are scared", "They are bored"],
-          "hint": "Read the last sentence.",
-          "hl": [8]
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: My pet is a goldfish!",
+        "Her name is Bubble.",
+        "Bubble is in a bowl.",
+        "The bowl is in the kitchen.",
+        "Bubble has got small black eyes.",
+        "She has got a long tail.",
+        "She has got orange and white colours.",
+        "Tom says: My goldfish is fun!"
+      ],
+      "translations": [
+        "Tom diyor: Evcil hayvanım bir Japon balığı!",
+        "Onun adı Bubble.",
+        "Bubble bir kasede.",
+        "Kase mutfakta.",
+        "Bubble'ın küçük siyah gözleri var.",
+        "Uzun bir kuyruğu var.",
+        "Turuncu ve beyaz renkleri var.",
+        "Tom diyor: Japon balığım eğlenceli!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A pet goldfish",
+          "wrong": [
+            "A pet bird",
+            "A pet rabbit"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What name does Tom use?",
+          "correct": "Bubble",
+          "wrong": [
+            "Pamuk",
+            "Maxi"
+          ],
+          "hint": "Find name in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Bubble?",
+          "correct": "In a bowl in the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Find bowl.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What colour eyes has Bubble got?",
+          "correct": "Black",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What colours has Bubble got?",
+          "correct": "Orange and white",
+          "wrong": [
+            "Black and red",
+            "Blue and green"
+          ],
+          "hint": "Find colours.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "My Dog Has Many Parts",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🐕",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: Look at my dog Maxi!",
+        "Maxi has got a big head.",
+        "He has got two brown eyes and two ears.",
+        "He has got a black nose.",
+        "He has got four big paws.",
+        "He has got claws on his paws.",
+        "He has got a long tail.",
+        "Maxi has got short brown hair.",
+        "My dog is great!"
+      ],
+      "translations": [
+        "Eda diyor: Köpeğim Maxi'ye bak!",
+        "Maxi'nin büyük bir başı var.",
+        "İki kahverengi gözü ve iki kulağı var.",
+        "Siyah bir burnu var.",
+        "Dört büyük patisi var.",
+        "Patilerinde tırnakları var.",
+        "Uzun bir kuyruğu var.",
+        "Maxi'nin kısa kahverengi tüyleri var.",
+        "Köpeğim harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Body parts of a dog",
+          "wrong": [
+            "A house",
+            "A school"
+          ],
+          "hint": "Think about the body parts.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "What colour eyes has Maxi got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many paws has Maxi got?",
+          "correct": "Four",
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is on his paws?",
+          "correct": "Claws",
+          "wrong": [
+            "Whiskers",
+            "A beak"
+          ],
+          "hint": "Find claws.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How long is the tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Cats and Birds",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🐱🐦",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: My cat Misho has got long whiskers.",
+        "She has got four paws and claws.",
+        "She has got a long tail.",
+        "Lila says: My bird Cici is different!",
+        "Cici has got a small yellow beak.",
+        "She has got small claws on her feet.",
+        "She has got a short tail.",
+        "Cats and birds have got different bodies!"
+      ],
+      "translations": [
+        "Can diyor: Kedim Misho'nun uzun bıyıkları var.",
+        "Dört patisi ve tırnakları var.",
+        "Uzun bir kuyruğu var.",
+        "Lila diyor: Kuşum Cici farklı!",
+        "Cici'nin küçük sarı bir gagası var.",
+        "Ayaklarında küçük tırnakları var.",
+        "Kısa bir kuyruğu var.",
+        "Kediler ve kuşların farklı bedenleri var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Cats and birds have different bodies",
+          "wrong": [
+            "A house",
+            "A school"
+          ],
+          "hint": "Think about the differences.",
+          "hl": [
+            3,
+            7
+          ]
+        },
+        {
+          "q": "What has Misho got on her face?",
+          "correct": "Long whiskers",
+          "wrong": [
+            "A beak",
+            "Feathers"
+          ],
+          "hint": "Find Misho.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Cici got to eat with?",
+          "correct": "A beak",
+          "wrong": [
+            "Whiskers",
+            "Claws"
+          ],
+          "hint": "Find Cici.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How long is the tail of the cat?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find Misho.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How long is the tail of the bird?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Find Cici.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "Where Is the Furniture?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🪑",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: Look at my house!",
+        "Where is the sofa? It is in the sitting room.",
+        "Where is the coffee table? It is in the sitting room, too.",
+        "Where is the bed? It is in the bedroom.",
+        "There is a book on the bed.",
+        "There is a small lamp on the coffee table.",
+        "Lila says: Your house is so tidy!",
+        "Eda is happy with her house!"
+      ],
+      "translations": [
+        "Eda diyor: Evime bak!",
+        "Kanepe nerede? Oturma odasında.",
+        "Sehpa nerede? O da oturma odasında.",
+        "Yatak nerede? Yatak odasında.",
+        "Yatakta bir kitap var.",
+        "Sehpada küçük bir lamba var.",
+        "Lila diyor: Evin çok düzenli!",
+        "Eda eviyle mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Furniture in different rooms",
+          "wrong": [
+            "A pet",
+            "A school"
+          ],
+          "hint": "Think about the rooms.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Where is the sofa?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the kitchen"
+          ],
+          "hint": "Find sofa.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the bed?",
+          "correct": "In the bedroom",
+          "wrong": [
+            "In the sitting room",
+            "In the kitchen"
+          ],
+          "hint": "Find bed.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is on the bed?",
+          "correct": "A book",
+          "wrong": [
+            "A lamp",
+            "A cat"
+          ],
+          "hint": "Find bed.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is on the coffee table?",
+          "correct": "A lamp",
+          "wrong": [
+            "A book",
+            "A cat"
+          ],
+          "hint": "Find coffee table.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "Ela's Dollhouse",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏠",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: My little sister has got a dollhouse!",
+        "It is a small house for dolls.",
+        "There is a kitchen in the dollhouse.",
+        "There is a sitting room with a small sofa.",
+        "There is a bedroom with a tiny bed.",
+        "There is a small bathroom, too!",
+        "Ela is happy with her dollhouse.",
+        "Lila says: It is a beautiful dollhouse!"
+      ],
+      "translations": [
+        "Eda diyor: Küçük kız kardeşimin bir oyuncak evi var!",
+        "Bu oyuncaklar için küçük bir ev.",
+        "Oyuncak evde bir mutfak var.",
+        "Küçük kanepeli bir oturma odası var.",
+        "Minik yataklı bir yatak odası var.",
+        "Küçük bir banyo da var!",
+        "Ela oyuncak eviyle mutlu.",
+        "Lila diyor: Çok güzel bir oyuncak ev!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A dollhouse",
+          "wrong": [
+            "A real house",
+            "A school"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "What is the dollhouse for?",
+          "correct": "For dolls",
+          "wrong": [
+            "For pets",
+            "For people"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What rooms are in the dollhouse?",
+          "correct": "Kitchen, sitting room, bedroom, bathroom",
+          "wrong": [
+            "Garden and balcony",
+            "Classroom"
+          ],
+          "hint": "Find rooms.",
+          "hl": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What is in the sitting room?",
+          "correct": "A small sofa",
+          "wrong": [
+            "A bed",
+            "A bath"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How does Lila describe the dollhouse?",
+          "correct": "Beautiful",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Dance Time in My House",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "💃",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: It is dance time in our house!",
+        "We are in the sitting room.",
+        "My mum, my dad and my sister are here.",
+        "My goldfish Bubble is in her bowl.",
+        "There is music in our house!",
+        "Can says: Dance time is fun!",
+        "Tom says: We have a happy house!",
+        "Dance time is great!"
+      ],
+      "translations": [
+        "Tom diyor: Evimizde dans zamanı!",
+        "Oturma odasındayız.",
+        "Annem, babam ve ablam burada.",
+        "Japon balığım Bubble kasesinde.",
+        "Evimizde müzik var!",
+        "Can diyor: Dans zamanı eğlenceli!",
+        "Tom diyor: Mutlu bir evimiz var!",
+        "Dans zamanı harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Dance time in a house",
+          "wrong": [
+            "School time",
+            "Pet time"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where are they?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the kitchen"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is with Tom?",
+          "correct": "His mum, dad and sister",
+          "wrong": [
+            "His grandma",
+            "His friend"
+          ],
+          "hint": "Find family.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is in the bowl?",
+          "correct": "A goldfish",
+          "wrong": [
+            "A bird",
+            "A cat"
+          ],
+          "hint": "Find bowl.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in the house?",
+          "correct": "Music",
+          "wrong": [
+            "A pet",
+            "Food"
+          ],
+          "hint": "Find music.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Eid at My Grandma's House",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌙",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is Eid al-Fitr.",
+        "Can says: We are with my grandma and grandpa today!",
+        "Their house is beautiful.",
+        "There is a big sitting room.",
+        "There is a sofa and a coffee table here.",
+        "There are many family members in the house.",
+        "Tom says: We are in our home today!",
+        "Our family is together for Eid!",
+        "Happy Eid!"
+      ],
+      "translations": [
+        "Bugün Ramazan Bayramı.",
+        "Can diyor: Bugün büyükannem ve büyükbabamla birlikteyiz!",
+        "Onların evi güzel.",
+        "Büyük bir oturma odası var.",
+        "Burada bir kanepe ve bir sehpa var.",
+        "Evde birçok aile üyesi var.",
+        "Tom diyor: Bugün evimizdeyiz!",
+        "Ailemiz Bayram için bir arada!",
+        "Mutlu Bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Eid at family homes",
+          "wrong": [
+            "A school day",
+            "A pet"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "Where is Can today?",
+          "correct": "With his grandparents",
+          "wrong": [
+            "In school",
+            "In the garden"
+          ],
+          "hint": "Find Can in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is in the sitting room?",
+          "correct": "A sofa and a coffee table",
+          "wrong": [
+            "A bed",
+            "A dollhouse"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many family members are in the house?",
+          "correct": "Many",
+          "wrong": [
+            "Two",
+            "One"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is Tom today?",
+          "correct": "In his home",
+          "wrong": [
+            "In school",
+            "In the garden"
+          ],
+          "hint": "Find Tom in sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -366,147 +2133,1082 @@
   "int": [
     {
       "id": "int-1",
-      "title": "Our Pets",
+      "title": "A Tour of My House",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🐾",
+      "icon": "🏡",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🐱", "n": "Mimi" },
-        { "e": "🐶", "n": "Rex" },
-        { "e": "🐰", "n": "Fluffy" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "We have got three pets.",
-        "Our cat's name is Mimi.",
-        "Mimi is in the sitting room.",
-        "Our dog's name is Rex.",
-        "Rex is in the garden.",
-        "Our rabbit's name is Fluffy.",
-        "Fluffy is in the bedroom.",
-        "Mimi and Rex are funny.",
-        "We love our pets!"
+        "Tom says: Come and see my house!",
+        "We have got a big sitting room.",
+        "There is a sofa and a coffee table in the sitting room.",
+        "Here is the kitchen. There is a big table here.",
+        "Here is the bathroom. It is small.",
+        "There are two bedrooms in our house.",
+        "There is a bed in every bedroom.",
+        "We have got a balcony, too. It is green!",
+        "Eda says: Your house is so nice, Tom!"
       ],
       "translations": [
-        "Üç evcil hayvanımız var.",
-        "Kedimizin adı Mimi.",
-        "Mimi oturma odasında.",
-        "Köpeğimizin adı Rex.",
-        "Rex bahçede.",
-        "Tavşanımızın adı Fluffy.",
-        "Fluffy yatak odasında.",
-        "Mimi ve Rex çok komik.",
-        "Evcil hayvanlarımızı seviyoruz!"
+        "Tom diyor: Gel evimi gör!",
+        "Büyük bir oturma odamız var.",
+        "Oturma odasında bir kanepe ve bir sehpa var.",
+        "Burası mutfak. Burada büyük bir masa var.",
+        "Burası banyo. Küçük.",
+        "Evimizde iki yatak odası var.",
+        "Her yatak odasında bir yatak var.",
+        "Bir balkonumuz da var. Yeşil!",
+        "Eda diyor: Evin çok güzel, Tom!"
       ],
       "questions": [
         {
-          "q": "How many pets do they have?",
-          "correct": "Three",
-          "wrong": ["Two", "Four"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "How is the sitting room?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Old"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Where is Mimi?",
-          "correct": "In the sitting room",
-          "wrong": ["In the garden", "In the bedroom"],
-          "hint": "Find Mimi in the text.",
-          "hl": [2]
+          "q": "What is in the sitting room?",
+          "correct": "A sofa and a coffee table",
+          "wrong": [
+            "A bed",
+            "A dollhouse"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Where is Rex?",
-          "correct": "In the garden",
-          "wrong": ["In the sitting room", "In the bedroom"],
-          "hint": "Find Rex in the text.",
-          "hl": [4]
+          "q": "How is the bathroom?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Green"
+          ],
+          "hint": "Find bathroom.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is the rabbit's name?",
-          "correct": "Fluffy",
-          "wrong": ["Mimi", "Rex"],
-          "hint": "Find the word rabbit in the text.",
-          "hl": [5]
+          "q": "How many bedrooms are in the house?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find bedrooms.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Which pets are funny?",
-          "correct": "Mimi and Rex",
-          "wrong": ["Rex and Fluffy", "Mimi and Fluffy"],
-          "hint": "Find the word funny in the text.",
-          "hl": [7]
+          "q": "What colour is the balcony?",
+          "correct": "Green",
+          "wrong": [
+            "Red",
+            "White"
+          ],
+          "hint": "Find balcony.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "int-2",
-      "title": "Pets and Their Tails",
+      "title": "Ding-Dong! A Visit!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Ding-dong! There is a doorbell!",
+        "Lila is here. The door is open!",
+        "Eda is here! Welcome, Eda!",
+        "Eda says: I am here with my mum!",
+        "Come in! says Lila. Look around our house!",
+        "There is a sitting room here. There is a sofa.",
+        "There is a coffee table, too.",
+        "Where is the kitchen? It is here!",
+        "The mum says: It is a lovely house!",
+        "Lila is happy with her guest!"
+      ],
+      "translations": [
+        "Ding-dong! Bir kapı zili var!",
+        "Lila burada. Kapı açık!",
+        "Eda burada! Hoş geldin, Eda!",
+        "Eda diyor: Annemle birlikteyim!",
+        "Gel içeri! diyor Lila. Evimize bak!",
+        "Burada bir oturma odası var. Bir kanepe var.",
+        "Bir sehpa da var.",
+        "Mutfak nerede? Burada!",
+        "Anne diyor: Çok güzel bir ev!",
+        "Lila misafiriyle mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What sound is in the house?",
+          "correct": "A doorbell",
+          "wrong": [
+            "A clock",
+            "Music"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is here?",
+          "correct": "Lila",
+          "wrong": [
+            "Eda",
+            "Miss Oli"
+          ],
+          "hint": "Find Lila in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is with Eda?",
+          "correct": "Her mum",
+          "wrong": [
+            "Her dad",
+            "Her sister"
+          ],
+          "hint": "Find Eda in sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in the sitting room?",
+          "correct": "A sofa and a coffee table",
+          "wrong": [
+            "A bed",
+            "A pet"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            5,
+            6
+          ]
+        },
+        {
+          "q": "What does the mum say?",
+          "correct": "It is a lovely house!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find the mum in sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "My Dog Maxi Has Everything",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐕",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: This is my dog Maxi!",
+        "Maxi has got a big head.",
+        "He has got two big brown eyes.",
+        "He has got two ears and a small black nose.",
+        "Maxi has got four big paws.",
+        "He has got claws on his paws.",
+        "Maxi has got a long tail.",
+        "He has got short brown hair.",
+        "My dog is in the garden today.",
+        "Can says: Your dog is so nice, Eda!"
+      ],
+      "translations": [
+        "Eda diyor: Bu benim köpeğim Maxi!",
+        "Maxi'nin büyük bir başı var.",
+        "İki büyük kahverengi gözü var.",
+        "İki kulağı ve küçük siyah bir burnu var.",
+        "Maxi'nin dört büyük patisi var.",
+        "Patilerinde tırnakları var.",
+        "Maxi'nin uzun bir kuyruğu var.",
+        "Kısa kahverengi tüyleri var.",
+        "Köpeğim bugün bahçede.",
+        "Can diyor: Köpeğin çok hoş, Eda!"
+      ],
+      "questions": [
+        {
+          "q": "What colour eyes has Maxi got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many paws has Maxi got?",
+          "correct": "Four",
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is on his paws?",
+          "correct": "Claws",
+          "wrong": [
+            "Whiskers",
+            "A beak"
+          ],
+          "hint": "Find claws.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How long is the tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where is Maxi today?",
+          "correct": "In the garden",
+          "wrong": [
+            "In the kitchen",
+            "In the bedroom"
+          ],
+          "hint": "Find garden.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "Where Is My Cat Misho?",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🐈",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "🐱", "n": "Mimi" },
-        { "e": "🐦", "n": "Kiwi" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Our pets are amazing!",
-        "Mimi the cat has got a long tail.",
-        "She's got white whiskers.",
-        "She's got sharp claws.",
-        "Really?",
-        "Yes! And she's got soft paws.",
-        "That looks great!",
-        "Kiwi the bird has got a small beak.",
-        "Our pets are wonderful!"
+        "Can says: Where is my cat Misho?",
+        "Is she in the kitchen? No, she is not.",
+        "Is she in the bedroom? No, she is not.",
+        "Is she in the bathroom? No, she is not.",
+        "Misho is in the sitting room!",
+        "She is on the sofa.",
+        "Misho has got long whiskers and a long tail.",
+        "She has got four paws with claws.",
+        "Lila says: Cats are funny pets!",
+        "Can is happy now!"
       ],
       "translations": [
-        "Evcil hayvanlarımız harika!",
-        "Kedi Mimi'nin uzun bir kuyruğu var.",
-        "Onun beyaz bıyıkları var.",
-        "Onun keskin pençeleri var.",
-        "Gerçekten mi?",
-        "Evet! Ve onun yumuşak patileri var.",
-        "Çok güzel görünüyor!",
-        "Kuş Kiwi'nin küçük bir gagası var.",
-        "Evcil hayvanlarımız muhteşem!"
+        "Can diyor: Kedim Misho nerede?",
+        "Mutfakta mı? Hayır, değil.",
+        "Yatak odasında mı? Hayır, değil.",
+        "Banyoda mı? Hayır, değil.",
+        "Misho oturma odasında!",
+        "Kanepenin üstünde.",
+        "Misho'nun uzun bıyıkları ve uzun bir kuyruğu var.",
+        "Tırnaklı dört patisi var.",
+        "Lila diyor: Kediler komik evcil hayvanlar!",
+        "Can şimdi mutlu!"
       ],
       "questions": [
         {
-          "q": "What has Mimi got?",
-          "correct": "A long tail",
-          "wrong": ["A small beak", "Big ears"],
-          "hint": "Find Mimi in the text.",
-          "hl": [1]
+          "q": "Where is Misho?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the kitchen",
+            "In the bedroom"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What colour are Mimi's whiskers?",
+          "q": "Where is Misho in the sitting room?",
+          "correct": "On the sofa",
+          "wrong": [
+            "On the bed",
+            "On the table"
+          ],
+          "hint": "Find sofa.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How long are her whiskers?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find whiskers.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How long is her tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is on her paws?",
+          "correct": "Claws",
+          "wrong": [
+            "Whiskers",
+            "A beak"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Cici the Happy Bird",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: My bird Cici is happy today!",
+        "There is music in our house.",
+        "It is dance time!",
+        "Cici has got a small yellow beak.",
+        "She has got blue and yellow feathers.",
+        "She has got two small claws on her feet.",
+        "She has got a short tail.",
+        "Cici is in her cage in the sitting room.",
+        "Tom says: Your bird is so colourful!",
+        "Lila is happy with Cici!"
+      ],
+      "translations": [
+        "Lila diyor: Kuşum Cici bugün mutlu!",
+        "Evimizde müzik var.",
+        "Dans zamanı!",
+        "Cici'nin küçük sarı bir gagası var.",
+        "Mavi ve sarı tüyleri var.",
+        "Ayaklarında iki küçük tırnağı var.",
+        "Kısa bir kuyruğu var.",
+        "Cici oturma odasındaki kafesinde.",
+        "Tom diyor: Kuşun çok renkli!",
+        "Lila Cici ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "How is Cici today?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Lila say it is?",
+          "correct": "Dance time",
+          "wrong": [
+            "Sleep time",
+            "School time"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is the beak?",
+          "correct": "Yellow",
+          "wrong": [
+            "Blue",
+            "Red"
+          ],
+          "hint": "Find beak.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How long is her tail?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where is Cici?",
+          "correct": "In her cage in the sitting room",
+          "wrong": [
+            "In the garden",
+            "In the kitchen"
+          ],
+          "hint": "Find cage.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Bubble in the Bowl",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: My goldfish Bubble is in her bowl!",
+        "The bowl is on the kitchen table.",
+        "Bubble has got small black eyes.",
+        "She has got a long tail.",
+        "She has got orange and white colours.",
+        "She has got a small mouth.",
+        "Bubble is small. She is very lovely.",
+        "Eda says: Your goldfish is very pretty!",
+        "Tom is happy with Bubble!"
+      ],
+      "translations": [
+        "Tom diyor: Japon balığım Bubble kasesinde!",
+        "Kase mutfak masasının üstünde.",
+        "Bubble'ın küçük siyah gözleri var.",
+        "Uzun bir kuyruğu var.",
+        "Turuncu ve beyaz renkleri var.",
+        "Küçük bir ağzı var.",
+        "Bubble küçük. Çok sevimli.",
+        "Eda diyor: Japon balığın çok güzel!",
+        "Tom Bubble ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Bubble?",
+          "correct": "In her bowl",
+          "wrong": [
+            "In the garden",
+            "On the sofa"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is the bowl?",
+          "correct": "On the kitchen table",
+          "wrong": [
+            "On the sofa",
+            "On the bed"
+          ],
+          "hint": "Find bowl.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has Bubble got?",
+          "correct": "Black",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How long is her tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colours has Bubble got?",
+          "correct": "Orange and white",
+          "wrong": [
+            "Black and red",
+            "Blue and green"
+          ],
+          "hint": "Find colours.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Pamuk Hops Around",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐰",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: My rabbit Pamuk is in the garden.",
+        "She has got long white ears.",
+        "She has got a small pink nose.",
+        "She has got white hair.",
+        "She has got four small paws.",
+        "She has got a small tail.",
+        "Pamuk is happy in the garden.",
+        "There is a place for her in the kitchen, too.",
+        "Can says: Your rabbit is so cute!",
+        "Lila is happy with her bunny!"
+      ],
+      "translations": [
+        "Lila diyor: Tavşanım Pamuk bahçede.",
+        "Uzun beyaz kulakları var.",
+        "Küçük pembe bir burnu var.",
+        "Beyaz tüyleri var.",
+        "Dört küçük patisi var.",
+        "Küçük bir kuyruğu var.",
+        "Pamuk bahçede mutlu.",
+        "Onun için mutfakta da bir yer var.",
+        "Can diyor: Tavşanın çok şirin!",
+        "Lila tavşanı ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Pamuk?",
+          "correct": "In the garden",
+          "wrong": [
+            "In the bedroom",
+            "In the kitchen"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour is her hair?",
           "correct": "White",
-          "wrong": ["Black", "Brown"],
-          "hint": "Find the word whiskers.",
-          "hl": [2]
+          "wrong": [
+            "Brown",
+            "Black"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What are Mimi's claws like?",
-          "correct": "Sharp",
-          "wrong": ["Soft", "Long"],
-          "hint": "Find the word claws.",
-          "hl": [3]
+          "q": "How many paws has Pamuk got?",
+          "correct": "Four",
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Find paws.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What has Kiwi the bird got?",
-          "correct": "A small beak",
-          "wrong": ["A long tail", "Sharp claws"],
-          "hint": "Find Kiwi in the text.",
-          "hl": [7]
+          "q": "What is in the kitchen for Pamuk?",
+          "correct": "A place",
+          "wrong": [
+            "Food",
+            "Water"
+          ],
+          "hint": "Find kitchen.",
+          "hl": [
+            7
+          ]
         },
         {
-          "q": "What are Mimi's paws like?",
-          "correct": "Soft",
-          "wrong": ["Sharp", "White"],
-          "hint": "Find the word paws.",
-          "hl": [5]
+          "q": "What does Can say?",
+          "correct": "Your rabbit is so cute!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "Ela and Her Dollhouse",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏠",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: My little sister Ela has got a beautiful dollhouse!",
+        "It is a small house for her dolls.",
+        "There is a kitchen with a small table.",
+        "There is a sitting room with a tiny sofa.",
+        "There is a bedroom with a small bed.",
+        "There is a tiny bathroom, too.",
+        "Ela has got many dolls in the dollhouse.",
+        "Lila says: It is a wonderful dollhouse!",
+        "Ela is happy with her dolls!"
+      ],
+      "translations": [
+        "Eda diyor: Küçük kız kardeşim Ela'nın güzel bir oyuncak evi var!",
+        "Oyuncakları için küçük bir ev.",
+        "Küçük bir masalı bir mutfak var.",
+        "Minik kanepeli bir oturma odası var.",
+        "Küçük yataklı bir yatak odası var.",
+        "Minik bir banyo da var.",
+        "Ela'nın oyuncak evde birçok oyuncağı var.",
+        "Lila diyor: Harika bir oyuncak ev!",
+        "Ela oyuncakları ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Who has got the dollhouse?",
+          "correct": "Ela, the little sister",
+          "wrong": [
+            "Lila",
+            "Tom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is in the kitchen?",
+          "correct": "A small table",
+          "wrong": [
+            "A bed",
+            "A sofa"
+          ],
+          "hint": "Find kitchen.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is in the sitting room?",
+          "correct": "A tiny sofa",
+          "wrong": [
+            "A bed",
+            "A bath"
+          ],
+          "hint": "Find sitting room.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in the bedroom?",
+          "correct": "A small bed",
+          "wrong": [
+            "A sofa",
+            "A table"
+          ],
+          "hint": "Find bedroom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "It is a wonderful dollhouse!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "Our Big Family House",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👨‍👩‍👧‍👦🏡",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: We have got a big family and a big house!",
+        "There is my mum, my dad, my grandma and my grandpa in our house.",
+        "There is also my pet cat Misho!",
+        "We have got a sitting room, a kitchen and a dining room.",
+        "There are two bedrooms upstairs.",
+        "There is a balcony, too.",
+        "Misho is in the sitting room. She is on the sofa.",
+        "Tom says: Your family is wonderful, Can!",
+        "Can is happy with his family and Misho!"
+      ],
+      "translations": [
+        "Can diyor: Büyük bir ailemiz ve büyük bir evimiz var!",
+        "Evimizde annem, babam, büyükannem ve büyükbabam var.",
+        "Evcil hayvanım kedi Misho da var!",
+        "Bir oturma odamız, bir mutfağımız ve bir yemek odamız var.",
+        "Üst katta iki yatak odası var.",
+        "Bir balkon da var.",
+        "Misho oturma odasında. Kanepenin üstünde.",
+        "Tom diyor: Ailen harika, Can!",
+        "Can ailesi ve Misho ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "How is the family?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Sad"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is in the house?",
+          "correct": "Mum, dad, grandma, grandpa",
+          "wrong": [
+            "Only the parents",
+            "A teacher"
+          ],
+          "hint": "Find family.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What pet has Can got?",
+          "correct": "A cat",
+          "wrong": [
+            "A dog",
+            "A bird"
+          ],
+          "hint": "Find pet.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many bedrooms in the house?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Find bedrooms.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is Misho?",
+          "correct": "On the sofa in the sitting room",
+          "wrong": [
+            "In the garden",
+            "In the kitchen"
+          ],
+          "hint": "Find Misho.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Republic Day at Our House",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 29th of October.",
+        "It is Republic Day in Türkiye!",
+        "Tom says: There is a flag in our house!",
+        "Our flag is red and white.",
+        "Our flag is on the balcony.",
+        "There is a happy family in the sitting room.",
+        "Eda says: There is a flag on our balcony, too!",
+        "Our family is happy on Republic Day!",
+        "Happy 29th of October!"
+      ],
+      "translations": [
+        "Bugün 29 Ekim.",
+        "Türkiye'de Cumhuriyet Bayramı!",
+        "Tom diyor: Evimizde bir bayrak var!",
+        "Bayrağımız kırmızı ve beyaz.",
+        "Bayrağımız balkonda.",
+        "Oturma odasında mutlu bir aile var.",
+        "Eda diyor: Bizim de balkonumuzda bir bayrak var!",
+        "Ailemiz Cumhuriyet Bayramı'nda mutlu!",
+        "29 Ekim kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 29th of October",
+          "wrong": [
+            "The 30th of August",
+            "The 23rd of April"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Republic Day",
+          "wrong": [
+            "Children's Day",
+            "Victory Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour is the flag?",
+          "correct": "Red and white",
+          "wrong": [
+            "Blue and yellow",
+            "Green and black"
+          ],
+          "hint": "Find flag.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the flag?",
+          "correct": "On the balcony",
+          "wrong": [
+            "In the kitchen",
+            "In the garden"
+          ],
+          "hint": "Find flag.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is the family?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bedroom",
+            "In the garden"
+          ],
+          "hint": "Find family.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -514,148 +3216,1049 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "A Cosy Evening at Home",
+      "title": "What Room Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: There is a room in my house.",
+        "There is a sofa in this room.",
+        "There is a coffee table here, too.",
+        "It is not a bedroom. It is not a kitchen.",
+        "What room is it?",
+        "It is the sitting room!"
+      ],
+      "translations": [
+        "Eda diyor: Evimde bir oda var.",
+        "Bu odada bir kanepe var.",
+        "Burada bir sehpa da var.",
+        "Bir yatak odası değil. Bir mutfak değil.",
+        "Bu hangi oda?",
+        "Oturma odası!"
+      ],
+      "questions": [
+        {
+          "q": "What is in the room?",
+          "correct": "A sofa and a coffee table",
+          "wrong": [
+            "A bed and a sofa",
+            "A bath"
+          ],
+          "hint": "Read sentences 2-3.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "Is it a bedroom?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it a kitchen?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What room is it?",
+          "correct": "The sitting room",
+          "wrong": [
+            "The bathroom",
+            "The bedroom"
+          ],
+          "hint": "Think about the sofa.",
+          "hl": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "q": "How do we know it is the sitting room?",
+          "correct": "There is a sofa and a coffee table",
+          "wrong": [
+            "There is a bed",
+            "There is a bath"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-2",
+      "title": "Which Pet Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🐾",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A pet is in the sitting room.",
+        "It is not a dog. It is not a bird.",
+        "It has got long whiskers.",
+        "It has got four paws with claws.",
+        "It has got a long tail.",
+        "What pet is it?",
+        "It is a cat!"
+      ],
+      "translations": [
+        "Oturma odasında bir evcil hayvan var.",
+        "Bir köpek değil. Bir kuş değil.",
+        "Uzun bıyıkları var.",
+        "Tırnaklı dört patisi var.",
+        "Uzun bir kuyruğu var.",
+        "Bu hangi evcil hayvan?",
+        "Bir kedi!"
+      ],
+      "questions": [
+        {
+          "q": "Is the pet a dog?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is the pet a bird?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does the pet have on its face?",
+          "correct": "Long whiskers",
+          "wrong": [
+            "A beak",
+            "A tail"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What pet is it?",
+          "correct": "A cat",
+          "wrong": [
+            "A bird",
+            "A dog"
+          ],
+          "hint": "Think about whiskers.",
+          "hl": [
+            2,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How do we know it is a cat?",
+          "correct": "It has got whiskers and claws",
+          "wrong": [
+            "It has got a beak",
+            "It has got feathers"
+          ],
+          "hint": "Read sentences 3-4.",
+          "hl": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "A Pet with a Beak",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A pet is in a cage.",
+        "It is not a cat. It is not a dog.",
+        "It has got a small yellow beak.",
+        "It has got two small wings.",
+        "It has got colourful feathers.",
+        "What pet is it?",
+        "It is a bird!"
+      ],
+      "translations": [
+        "Bir evcil hayvan kafeste.",
+        "Bir kedi değil. Bir köpek değil.",
+        "Küçük sarı bir gagası var.",
+        "İki küçük kanadı var.",
+        "Renkli tüyleri var.",
+        "Bu hangi evcil hayvan?",
+        "Bir kuş!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the pet?",
+          "correct": "In a cage",
+          "wrong": [
+            "In a bowl",
+            "In the garden"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it a cat?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the colour of the beak?",
+          "correct": "Yellow",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What pet is it?",
+          "correct": "A bird",
+          "wrong": [
+            "A cat",
+            "A dog"
+          ],
+          "hint": "Think about the beak and wings.",
+          "hl": [
+            2,
+            3,
+            6
+          ]
+        },
+        {
+          "q": "How do we know it is a bird?",
+          "correct": "It has got a beak and wings",
+          "wrong": [
+            "It has got whiskers",
+            "It has got paws"
+          ],
+          "hint": "Read sentences 3-4.",
+          "hl": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "Where Do People Sleep?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "💤",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "There is a room for sleep.",
+        "It is not a kitchen. It is not a sitting room.",
+        "There is a bed in this room.",
+        "It is small and cosy.",
+        "What room is it?",
+        "It is the bedroom!"
+      ],
+      "translations": [
+        "Uyumak için bir oda var.",
+        "Bir mutfak değil. Bir oturma odası değil.",
+        "Bu odada bir yatak var.",
+        "Küçük ve rahat.",
+        "Bu hangi oda?",
+        "Yatak odası!"
+      ],
+      "questions": [
+        {
+          "q": "What is the room for?",
+          "correct": "Sleep",
+          "wrong": [
+            "Cooking",
+            "Sitting"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it a kitchen?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is in the room?",
+          "correct": "A bed",
+          "wrong": [
+            "A sofa",
+            "A bath"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the room?",
+          "correct": "Small and cosy",
+          "wrong": [
+            "Big and old",
+            "Sad and tired"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What room is it?",
+          "correct": "The bedroom",
+          "wrong": [
+            "The sitting room",
+            "The bathroom"
+          ],
+          "hint": "Think about the bed.",
+          "hl": [
+            0,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Who Has Got This Pet?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🐾",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A pet is here.",
+        "It is a cat. It has got green eyes and white hair.",
+        "Eda says: My pet is a dog.",
+        "Tom says: My pet is a goldfish.",
+        "Can says: My pet is a cat with green eyes.",
+        "Who has got this pet?",
+        "It is Can!"
+      ],
+      "translations": [
+        "Burada bir evcil hayvan var.",
+        "Bir kedi. Yeşil gözleri ve beyaz tüyleri var.",
+        "Eda diyor: Benim evcil hayvanım bir köpek.",
+        "Tom diyor: Benim evcil hayvanım bir Japon balığı.",
+        "Can diyor: Benim evcil hayvanım yeşil gözlü bir kedi.",
+        "Bu evcil hayvan kimin?",
+        "Can'ın!"
+      ],
+      "questions": [
+        {
+          "q": "What kind of pet is it?",
+          "correct": "A cat",
+          "wrong": [
+            "A dog",
+            "A bird"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the cat got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What pet has Eda got?",
+          "correct": "A dog",
+          "wrong": [
+            "A cat",
+            "A bird"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What pet has Tom got?",
+          "correct": "A goldfish",
+          "wrong": [
+            "A cat",
+            "A bird"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who has got this pet?",
+          "correct": "Can",
+          "wrong": [
+            "Eda",
+            "Tom"
+          ],
+          "hint": "Match the green eyes.",
+          "hl": [
+            1,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "Where Is the Sofa?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🛋️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A sofa is in our house.",
+        "It is not in the kitchen. It is not in the bedroom.",
+        "It is in a room with a coffee table.",
+        "It is in a big room.",
+        "Where is the sofa?",
+        "It is in the sitting room!"
+      ],
+      "translations": [
+        "Evimizde bir kanepe var.",
+        "Mutfakta değil. Yatak odasında değil.",
+        "Bir sehpalı odada.",
+        "Büyük bir odada.",
+        "Kanepe nerede?",
+        "Oturma odasında!"
+      ],
+      "questions": [
+        {
+          "q": "Is the sofa in the kitchen?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is the sofa in the bedroom?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is in the same room?",
+          "correct": "A coffee table",
+          "wrong": [
+            "A bed",
+            "A bath"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How big is the room?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Sad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the sofa?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the bathroom",
+            "In the garden"
+          ],
+          "hint": "Think about the coffee table.",
+          "hl": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "A Pet in Water",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "💧",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A pet is in our kitchen.",
+        "It is in a bowl with water.",
+        "It is not a cat. It is not a bird.",
+        "It is small and has got orange and white colours.",
+        "It has got a long tail.",
+        "What pet is it?",
+        "It is a goldfish!"
+      ],
+      "translations": [
+        "Bir evcil hayvan mutfağımızda.",
+        "Sulu bir kasede.",
+        "Bir kedi değil. Bir kuş değil.",
+        "Küçük ve turuncu beyaz renkleri var.",
+        "Uzun bir kuyruğu var.",
+        "Bu hangi evcil hayvan?",
+        "Bir Japon balığı!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the pet?",
+          "correct": "In a bowl in the kitchen",
+          "wrong": [
+            "In the garden",
+            "On the sofa"
+          ],
+          "hint": "Read sentences 1-2.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "Is the pet a cat?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colours has the pet got?",
+          "correct": "Orange and white",
+          "wrong": [
+            "Black and red",
+            "Blue and green"
+          ],
+          "hint": "Find colours.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How long is the tail?",
+          "correct": "Long",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find tail.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What pet is it?",
+          "correct": "A goldfish",
+          "wrong": [
+            "A cat",
+            "A bird"
+          ],
+          "hint": "Think about the water and the bowl.",
+          "hl": [
+            1,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Big Family or Small Family?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🏡",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A house has got many rooms.",
+        "There is a sitting room. There is a kitchen.",
+        "There is a dining room. There is a bathroom.",
+        "There are three bedrooms.",
+        "There are seven people in this house.",
+        "Is the family big or small?",
+        "The family is big!"
+      ],
+      "translations": [
+        "Bir evin birçok odası var.",
+        "Bir oturma odası var. Bir mutfak var.",
+        "Bir yemek odası var. Bir banyo var.",
+        "Üç yatak odası var.",
+        "Bu evde yedi kişi var.",
+        "Aile büyük mü küçük mü?",
+        "Aile büyük!"
+      ],
+      "questions": [
+        {
+          "q": "How many bedrooms are in the house?",
+          "correct": "Three",
+          "wrong": [
+            "One",
+            "Two"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many people are in the house?",
+          "correct": "Seven",
+          "wrong": [
+            "Two",
+            "Three"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is the family small?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Is the family big?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How do we know the family is big?",
+          "correct": "There are seven people",
+          "wrong": [
+            "There is one bedroom",
+            "There is one room"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Beak or Whiskers?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🐱🐦",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A pet has got a beak.",
+        "It is not a cat.",
+        "Lila says: My cat has got whiskers, not a beak.",
+        "Tom says: My bird has got a beak.",
+        "Eda says: My dog has got a tail, not a beak.",
+        "Can says: My goldfish has got a tail, not a beak.",
+        "What pet has got a beak?",
+        "It is a bird!"
+      ],
+      "translations": [
+        "Bir evcil hayvanın gagası var.",
+        "Bir kedi değil.",
+        "Lila diyor: Kedimin bıyıkları var, gagası değil.",
+        "Tom diyor: Kuşumun gagası var.",
+        "Eda diyor: Köpeğimin kuyruğu var, gagası değil.",
+        "Can diyor: Japon balığımın kuyruğu var, gagası değil.",
+        "Hangi evcil hayvanın gagası var?",
+        "Bir kuş!"
+      ],
+      "questions": [
+        {
+          "q": "What does this pet have?",
+          "correct": "A beak",
+          "wrong": [
+            "Whiskers",
+            "Claws"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Lila say about her cat?",
+          "correct": "Whiskers, not a beak",
+          "wrong": [
+            "A beak",
+            "Feathers"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say about his bird?",
+          "correct": "A beak",
+          "wrong": [
+            "Whiskers",
+            "Paws"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Eda say about her dog?",
+          "correct": "A tail, not a beak",
+          "wrong": [
+            "A beak",
+            "Whiskers"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What pet has got a beak?",
+          "correct": "A bird",
+          "wrong": [
+            "A cat",
+            "A dog"
+          ],
+          "hint": "Think about the body parts.",
+          "hl": [
+            3,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "What Religious Day Is It?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🌙",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Tom" },
-        { "e": "🐱", "n": "Mimi" }
-      ],
-      "sentences": [
-        "It is evening at Lily's house.",
-        "Lily's mother is cooking in the kitchen.",
-        "The food smells wonderful.",
-        "Lily's father is reading in the sitting room.",
-        "The sofa is very comfortable.",
-        "Lily is playing with Mimi the cat.",
-        "Mimi is purring.",
-        "Lily's brother Tom is dancing.",
-        "Everyone is at home together."
-      ],
-      "translations": [
-        "Lily'nin evinde akşam vakti.",
-        "Lily'nin annesi mutfakta yemek yapıyor.",
-        "Yemek harika kokuyor.",
-        "Lily'nin babası oturma odasında kitap okuyor.",
-        "Kanepe çok rahat.",
-        "Lily, Mimi adlı kediyle oynuyor.",
-        "Mimi mırıldanıyor.",
-        "Lily'nin kardeşi Tom dans ediyor.",
-        "Herkes evde bir arada."
-      ],
-      "questions": [
         {
-          "q": "How does the house feel?",
-          "correct": "Warm and cosy",
-          "wrong": ["Cold and empty", "Noisy and busy"],
-          "hint": "Look at what everyone is doing at home.",
-          "hl": [3, 4, 5, 6]
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "How does Lily feel about Mimi?",
-          "correct": "She likes playing with Mimi",
-          "wrong": ["She is scared of Mimi", "She is bored of Mimi"],
-          "hint": "Find Lily and Mimi in the text.",
-          "hl": [5, 6]
+          "e": "👦🏻",
+          "n": "Tom"
         },
         {
-          "q": "What kind of evening is this?",
-          "correct": "A happy and peaceful evening",
-          "wrong": ["A sad and quiet evening", "A busy and tiring evening"],
-          "hint": "Look at how everyone feels in the text.",
-          "hl": [2, 4, 7, 8]
-        },
-        {
-          "q": "How does Lily's father feel?",
-          "correct": "Relaxed",
-          "wrong": ["Tired", "Hungry"],
-          "hint": "Find Lily's father in the text.",
-          "hl": [3, 4]
-        },
-        {
-          "q": "Why is everyone at home?",
-          "correct": "It is evening and the family is together",
-          "wrong": ["It is a school day", "It is raining outside"],
-          "hint": "Read the first and last sentences.",
-          "hl": [0, 8]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
         }
-      ]
-    },
-    {
-      "id": "inf-2",
-      "title": "Ding-Dong!",
-      "subtitle": "Use the clues to find the answer!",
-      "icon": "🔔",
-      "hlMode": "fade3",
-      "hintMode": "always",
-      "choices": 3,
-      "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👵", "n": "Rose" }
       ],
       "sentences": [
-        "Lily is at home.",
-        "Listen to music!",
-        "Ding-dong! The doorbell rings.",
-        "Hold on. Who is it?",
-        "It's Grandma!",
-        "She's got a big box.",
-        "Look! It's a dollhouse!",
-        "Lily is very happy.",
-        "Thank you, Grandma!",
-        "What a lovely surprise!"
+        "Today is a special religious day in Türkiye.",
+        "It is not Eid al-Fitr. It is not a national day.",
+        "It is the Festival of Sacrifice.",
+        "Eda says: My family is in our sitting room today!",
+        "We have got many guests in our house.",
+        "Tom says: My family is in our house, too!",
+        "What special day is it?",
+        "It is the Festival of Sacrifice!"
       ],
       "translations": [
-        "Lily evde.",
-        "Müzik dinle!",
-        "Ding-dong! Kapı zili çalıyor.",
-        "Bir dakika. Kim o?",
-        "Büyükanne geldi!",
-        "Onun büyük bir kutusu var.",
-        "Bak! Bir oyuncak ev!",
-        "Lily çok mutlu.",
-        "Teşekkürler, büyükanne!",
-        "Ne güzel bir sürpriz!"
+        "Bugün Türkiye'de özel bir dini gün.",
+        "Ramazan Bayramı değil. Milli bayram değil.",
+        "Kurban Bayramı.",
+        "Eda diyor: Bugün ailem oturma odamızda!",
+        "Evimizde birçok misafirimiz var.",
+        "Tom diyor: Ailem de evimizde!",
+        "Bu hangi özel gün?",
+        "Kurban Bayramı!"
       ],
       "questions": [
         {
-          "q": "Who is at the door?",
-          "correct": "Grandma",
-          "wrong": ["A friend", "The teacher"],
-          "hint": "Read after the doorbell.",
-          "hl": [2, 3, 4]
+          "q": "Is today Eid al-Fitr?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is in the box?",
-          "correct": "A dollhouse",
-          "wrong": ["A cake", "A pet"],
-          "hint": "Find the word box.",
-          "hl": [5, 6]
+          "q": "Is today a national day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "How does Lily feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Tired"],
-          "hint": "Read what Lily does after the box opens.",
-          "hl": [7]
+          "q": "What special day is it?",
+          "correct": "Festival of Sacrifice",
+          "wrong": [
+            "Eid al-Fitr",
+            "Republic Day"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Why is Lily happy?",
-          "correct": "She gets a surprise gift",
-          "wrong": ["It is a school day", "It is raining"],
-          "hint": "Look at the dollhouse and the surprise.",
-          "hl": [6, 7, 9]
+          "q": "Where is the family that Eda talks about?",
+          "correct": "In the sitting room",
+          "wrong": [
+            "In the kitchen",
+            "In the garden"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What kind of moment is this?",
-          "correct": "A lovely surprise",
-          "wrong": ["A normal school day", "A sad goodbye"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "How many guests are in the house?",
+          "correct": "Many",
+          "wrong": [
+            "Two",
+            "One"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         }
       ]
     }

@@ -4,141 +4,1066 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "In the Kitchen",
-      "subtitle": "Find the right food and place!",
+      "title": "Eda Likes Fruits",
+      "subtitle": "Find the right answer!",
       "icon": "🍎",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "There is a banana on the table.",
-        "There are some apples in the basket.",
-        "There is an orange on the table.",
-        "There are some carrots in the fridge.",
-        "There is a tomato in the basket.",
-        "There are some grapes on the table.",
-        "There is no bread in the kitchen."
+        "Eda says: I like fruits!",
+        "Do you like apples? Yes, I do.",
+        "Do you like strawberries? Yes, I do!",
+        "Do you like bananas? Yes, I do.",
+        "Do you like pears? No, I don't.",
+        "Lila says: I like strawberries, too!",
+        "Fruits are yummy!"
       ],
       "translations": [
-        "Masada bir muz var.",
-        "Sepette biraz elma var.",
-        "Masada bir portakal var.",
-        "Buzdolabında biraz havuç var.",
-        "Sepette bir domates var.",
-        "Masada biraz üzüm var.",
-        "Mutfakta ekmek yok."
+        "Eda diyor: Meyveleri severim!",
+        "Elmaları sever misin? Evet, severim.",
+        "Çilekleri sever misin? Evet, severim!",
+        "Muzları sever misin? Evet, severim.",
+        "Armutları sever misin? Hayır, sevmem.",
+        "Lila diyor: Ben de çilekleri severim!",
+        "Meyveler nefis!"
       ],
       "questions": [
         {
-          "q": "Where is the banana?",
-          "correct": "On the table",
-          "wrong": ["In the basket", "In the fridge"],
-          "hint": "Find the word banana in the text.",
-          "hl": [0]
+          "q": "Does Eda like apples?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Where are the carrots?",
-          "correct": "In the fridge",
-          "wrong": ["In the basket", "On the table"],
-          "hint": "Find the word carrots in the text.",
-          "hl": [3]
+          "q": "Does Eda like strawberries?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What is in the basket?",
-          "correct": "Apples and a tomato",
-          "wrong": ["Grapes and a banana", "Carrots and an orange"],
-          "hint": "Find the word basket in the text.",
-          "hl": [1, 4]
+          "q": "Does Eda like bananas?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How many different fruits are on the table?",
-          "correct": "Three",
-          "wrong": ["Two", "Four"],
-          "hint": "Find all the things on the table.",
-          "hl": [0, 2, 5]
+          "q": "Does Eda like pears?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "Is there any bread in the kitchen?",
-          "correct": "No, there isn't",
-          "wrong": ["Yes, there is", "Yes, there are"],
-          "hint": "Find the word bread in the text.",
-          "hl": [6]
+          "q": "What does Lila like?",
+          "correct": "Strawberries",
+          "wrong": [
+            "Pears",
+            "Bananas"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "Is There Any Fruit?",
+      "title": "Some Fruits in My Kitchen",
       "subtitle": "Find the right answer!",
-      "icon": "🍓",
+      "icon": "🍇",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "I'm hungry!",
-        "Is there a pear in the kitchen?",
-        "Yes, there is one green pear.",
-        "Are there any strawberries?",
-        "Yes, there are five red strawberries.",
-        "Are there any cherries?",
-        "No, there aren't.",
-        "Is there a banana?",
-        "Yes, there is one yellow banana. Let's eat!"
+        "Can says: I have got some fruits in my kitchen!",
+        "I have got some oranges.",
+        "I have got some grapes.",
+        "I have got some cherries.",
+        "Do you like cherries? Yes, I do!",
+        "Do you like oranges? Yes, I do.",
+        "Tom says: I like grapes, too!",
+        "Fruits are colourful and yummy!"
       ],
       "translations": [
-        "Acıktım!",
-        "Mutfakta bir armut var mı?",
-        "Evet, yeşil bir armut var.",
-        "Hiç çilek var mı?",
-        "Evet, beş kırmızı çilek var.",
-        "Hiç kiraz var mı?",
-        "Hayır, yok.",
-        "Bir muz var mı?",
-        "Evet, sarı bir muz var. Hadi yiyelim!"
+        "Can diyor: Mutfağımda biraz meyve var!",
+        "Biraz portakalım var.",
+        "Biraz üzümüm var.",
+        "Biraz kirazım var.",
+        "Kirazları sever misin? Evet, severim!",
+        "Portakalları sever misin? Evet, severim.",
+        "Tom diyor: Ben de üzümü severim!",
+        "Meyveler renkli ve nefis!"
       ],
       "questions": [
         {
-          "q": "Is there a pear in the kitchen?",
-          "correct": "Yes, there is",
-          "wrong": ["No, there isn't", "Yes, there are"],
-          "hint": "Find the word pear.",
-          "hl": [1, 2]
+          "q": "What does Can have in the kitchen?",
+          "correct": "Some fruits",
+          "wrong": [
+            "Some pets",
+            "Some flowers"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Are there any strawberries?",
-          "correct": "Yes, there are",
-          "wrong": ["No, there aren't", "Yes, there is"],
-          "hint": "Find the word strawberries.",
-          "hl": [3, 4]
+          "q": "What fruits has Can got?",
+          "correct": "Oranges, grapes and cherries",
+          "wrong": [
+            "Apples and bananas",
+            "Tomatoes"
+          ],
+          "hint": "Find sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
         },
         {
-          "q": "Are there any cherries?",
-          "correct": "No, there aren't",
-          "wrong": ["Yes, there are", "Yes, there is"],
-          "hint": "Find the word cherries.",
-          "hl": [5, 6]
+          "q": "Does Can like cherries?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "Is there a banana?",
-          "correct": "Yes, there is",
-          "wrong": ["No, there isn't", "No, there aren't"],
-          "hint": "Find the word banana.",
-          "hl": [7, 8]
+          "q": "Does Can like oranges?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "How does the child feel at the start?",
-          "correct": "Hungry",
-          "wrong": ["Full", "Tired"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "What does Tom say?",
+          "correct": "I like grapes, too!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "Lila Likes Vegetables",
+      "subtitle": "Find the right answer!",
+      "icon": "🥕",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: I like vegetables!",
+        "Do you like carrots? Yes, I do!",
+        "Do you like lettuce? Yes, I do.",
+        "Do you like cucumbers? Yes, I do.",
+        "Do you like garlic? No, I don't.",
+        "Eda says: I don't like spinach!",
+        "Vegetables are good for us!"
+      ],
+      "translations": [
+        "Lila diyor: Sebzeleri severim!",
+        "Havuçları sever misin? Evet, severim!",
+        "Marulu sever misin? Evet, severim.",
+        "Salatalıkları sever misin? Evet, severim.",
+        "Sarımsağı sever misin? Hayır, sevmem.",
+        "Eda diyor: Ben ıspanağı sevmem!",
+        "Sebzeler bizim için iyi!"
+      ],
+      "questions": [
+        {
+          "q": "Does Lila like carrots?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Does Lila like lettuce?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Does Lila like garlic?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda say about spinach?",
+          "correct": "I don't like spinach!",
+          "wrong": [
+            "I like spinach!",
+            "Goodbye!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Are vegetables good?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Some Vegetables Are Yummy",
+      "subtitle": "Find the right answer!",
+      "icon": "🥦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: I have got some vegetables on my plate.",
+        "I have got some potatoes.",
+        "I have got some beans.",
+        "I have got some peppers.",
+        "Do you like potatoes? Yes, I do!",
+        "Do you like broccoli? No, I don't.",
+        "Lila says: I like broccoli!",
+        "Vegetables are different for us!"
+      ],
+      "translations": [
+        "Can diyor: Tabağımda biraz sebze var.",
+        "Biraz patatesim var.",
+        "Biraz fasulyem var.",
+        "Biraz biberim var.",
+        "Patatesleri sever misin? Evet, severim!",
+        "Brokoliyi sever misin? Hayır, sevmem.",
+        "Lila diyor: Ben brokoliyi severim!",
+        "Sebzeler herkes için farklı!"
+      ],
+      "questions": [
+        {
+          "q": "What does Can have on the plate?",
+          "correct": "Some vegetables",
+          "wrong": [
+            "Some fruits",
+            "Some milk"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What vegetables has Can got?",
+          "correct": "Potatoes, beans and peppers",
+          "wrong": [
+            "Carrots and lettuce",
+            "Spinach"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Does Can like potatoes?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Does Can like broccoli?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Lila like?",
+          "correct": "Broccoli",
+          "wrong": [
+            "Potatoes",
+            "Beans"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "My Drinks for Today",
+      "subtitle": "Find the right drink!",
+      "icon": "🥛",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: I am thirsty!",
+        "I have got some water.",
+        "I have got some milk.",
+        "I have got some ayran.",
+        "Do you like ayran? Yes, I do! Ayran is yummy.",
+        "Do you like coffee? No, I don't.",
+        "Can says: I like tea!",
+        "Drinks are nice for us!"
+      ],
+      "translations": [
+        "Tom diyor: Susadım!",
+        "Biraz suyum var.",
+        "Biraz sütüm var.",
+        "Biraz ayranım var.",
+        "Ayranı sever misin? Evet, severim! Ayran nefis.",
+        "Kahveyi sever misin? Hayır, sevmem.",
+        "Can diyor: Ben çay severim!",
+        "İçecekler bizim için güzel!"
+      ],
+      "questions": [
+        {
+          "q": "How does Tom feel?",
+          "correct": "Thirsty",
+          "wrong": [
+            "Hungry",
+            "Tired"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What three drinks are mentioned?",
+          "correct": "Water, milk and ayran",
+          "wrong": [
+            "Tea and coffee",
+            "Juice"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Does Tom like ayran?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Does Tom like coffee?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Can like?",
+          "correct": "Tea",
+          "wrong": [
+            "Coffee",
+            "Ayran"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "Food on My Plate",
+      "subtitle": "Find the right food!",
+      "icon": "🍗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: I have got some food on my plate!",
+        "I have got some bread.",
+        "I have got some eggs.",
+        "I have got some chicken.",
+        "Do you like fish? Yes, I do!",
+        "Do you like meat? Yes, I do.",
+        "Tom says: I like bread and eggs!",
+        "Food is yummy for me!"
+      ],
+      "translations": [
+        "Eda diyor: Tabağımda biraz yemek var!",
+        "Biraz ekmeğim var.",
+        "Biraz yumurtam var.",
+        "Biraz tavuğum var.",
+        "Balığı sever misin? Evet, severim!",
+        "Eti sever misin? Evet, severim.",
+        "Tom diyor: Ben ekmek ve yumurta severim!",
+        "Yemek benim için nefis!"
+      ],
+      "questions": [
+        {
+          "q": "What is on the plate?",
+          "correct": "Some food",
+          "wrong": [
+            "Some toys",
+            "Some books"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What food has Eda got?",
+          "correct": "Bread, eggs and chicken",
+          "wrong": [
+            "Apples",
+            "Carrots"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Does Eda like fish?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Does Eda like meat?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Tom like?",
+          "correct": "Bread and eggs",
+          "wrong": [
+            "Fish and meat",
+            "Milk and tea"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Time for Breakfast!",
+      "subtitle": "Find the right answer!",
+      "icon": "🍳",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for breakfast!",
+        "Lila says: For breakfast, I have got some bread.",
+        "I have got some eggs and some milk.",
+        "I have got some tomatoes, too.",
+        "Do you like eggs for breakfast? Yes, I do!",
+        "Can says: For breakfast, I have got some bread and some ayran.",
+        "Breakfast is yummy!",
+        "Enjoy your meal!"
+      ],
+      "translations": [
+        "Kahvaltı zamanı!",
+        "Lila diyor: Kahvaltıda biraz ekmeğim var.",
+        "Biraz yumurtam ve biraz sütüm var.",
+        "Biraz da domatesim var.",
+        "Kahvaltıda yumurtayı sever misin? Evet, severim!",
+        "Can diyor: Kahvaltıda biraz ekmeğim ve biraz ayranım var.",
+        "Kahvaltı nefis!",
+        "Afiyet olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Breakfast",
+          "wrong": [
+            "Lunch",
+            "Dinner"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Lila got for breakfast?",
+          "correct": "Bread, eggs, milk and tomatoes",
+          "wrong": [
+            "Chicken and beans",
+            "Only milk"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Does Lila like eggs for breakfast?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What has Can got for breakfast?",
+          "correct": "Bread and ayran",
+          "wrong": [
+            "Eggs and milk",
+            "Tea and biscuits"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is breakfast?",
+          "correct": "Yummy",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "Time for Lunch!",
+      "subtitle": "Find the right answer!",
+      "icon": "🍲",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for lunch!",
+        "Tom says: For lunch, I have got some chicken.",
+        "I have got some bread and some carrots.",
+        "I have got some water, too.",
+        "Eda says: For lunch, I have got some fish.",
+        "I have got some potatoes and some lettuce.",
+        "Do you like fish for lunch? Yes, I do!",
+        "Lunch is delicious!"
+      ],
+      "translations": [
+        "Öğle yemeği zamanı!",
+        "Tom diyor: Öğlen biraz tavuğum var.",
+        "Biraz ekmeğim ve biraz havucum var.",
+        "Biraz da suyum var.",
+        "Eda diyor: Öğlen biraz balığım var.",
+        "Biraz patatesim ve biraz marulum var.",
+        "Öğlen balık sever misin? Evet, severim!",
+        "Öğle yemeği lezzetli!"
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Lunch",
+          "wrong": [
+            "Breakfast",
+            "Dinner"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Tom got for lunch?",
+          "correct": "Chicken, bread, carrots, water",
+          "wrong": [
+            "Bread and eggs",
+            "Tea"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What has Eda got for lunch?",
+          "correct": "Fish, potatoes, lettuce",
+          "wrong": [
+            "Chicken, rice",
+            "Only milk"
+          ],
+          "hint": "Read sentences 5-6.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Does Eda like fish for lunch?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is lunch?",
+          "correct": "Delicious",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "Can I Have Some Bread?",
+      "subtitle": "Find the right answer!",
+      "icon": "🥖",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda is in the kitchen with her mum.",
+        "Eda says: Mum, can I have some bread?",
+        "The mum says: Yes, you can!",
+        "Eda says: Thank you, mum!",
+        "Can I have some milk, too?",
+        "Yes, you can! says the mum.",
+        "Can I have some apples?",
+        "Yes, you can! says the mum.",
+        "Eda is happy in the kitchen!"
+      ],
+      "translations": [
+        "Eda mutfakta annesiyle.",
+        "Eda diyor: Anne, biraz ekmek alabilir miyim?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Eda diyor: Teşekkürler, anne!",
+        "Biraz süt de alabilir miyim?",
+        "Evet, alabilirsin! diyor anne.",
+        "Biraz elma alabilir miyim?",
+        "Evet, alabilirsin! diyor anne.",
+        "Eda mutfakta mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Eda?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Eda ask first?",
+          "correct": "Can I have some bread?",
+          "wrong": [
+            "Can I go?",
+            "Goodbye!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does the mum answer?",
+          "correct": "Yes, you can!",
+          "wrong": [
+            "No, you can't!",
+            "Goodbye!"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What else does Eda ask for?",
+          "correct": "Some milk and some apples",
+          "wrong": [
+            "Some chicken",
+            "Some fish"
+          ],
+          "hint": "Read sentences 5 and 7.",
+          "hl": [
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How is Eda?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "23 April Family Lunch",
+      "subtitle": "Find the right answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 23rd of April.",
+        "It is Children's Day in Türkiye!",
+        "Eda says: My family is in our kitchen!",
+        "We have got some yummy food for lunch.",
+        "I have got some chicken and some potatoes.",
+        "I have got some ayran, too.",
+        "Can says: My family is happy today!",
+        "We have got some bread and some eggs.",
+        "Happy Children's Day!"
+      ],
+      "translations": [
+        "Bugün 23 Nisan.",
+        "Türkiye'de Çocuk Bayramı!",
+        "Eda diyor: Ailem mutfağımızda!",
+        "Öğlen yemeği için biraz nefis yiyeceğimiz var.",
+        "Biraz tavuğum ve biraz patatesim var.",
+        "Biraz da ayranım var.",
+        "Can diyor: Ailem bugün mutlu!",
+        "Biraz ekmeğimiz ve biraz yumurtamız var.",
+        "Mutlu Çocuk Bayramı!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 23rd of April",
+          "wrong": [
+            "The 29th of October",
+            "The 15th of July"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Children's Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What has Eda got for lunch?",
+          "correct": "Chicken, potatoes and ayran",
+          "wrong": [
+            "Fish and bread",
+            "Apples"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What has Can got?",
+          "correct": "Bread and eggs",
+          "wrong": [
+            "Chicken and fish",
+            "Carrots"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "How is the family today?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -146,142 +1071,1071 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "My Food Day",
+      "title": "Yummy Fruits",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🍽️",
+      "icon": "🍓",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "I love food!",
-        "For breakfast I have got some eggs and bread.",
-        "I drink milk for breakfast.",
-        "For lunch I have got some chicken and vegetables.",
-        "The vegetables are delicious!",
-        "For dinner I have got some fish and potatoes.",
-        "Dinner is my favourite meal.",
-        "Food is yummy!"
+        "Eda says: I like many fruits!",
+        "Do you like apples? Yes, I do.",
+        "Do you like strawberries? Yes, I do!",
+        "Do you like cherries? Yes, I do.",
+        "Tom says: I like grapes and bananas!",
+        "Do you like pears? Yes, I do, too!",
+        "Fruits are yummy and colourful!",
+        "Fruits are good for us!"
       ],
       "translations": [
-        "Yemeği seviyorum!",
-        "Kahvaltıda biraz yumurta ve ekmek yiyorum.",
-        "Kahvaltıda süt içiyorum.",
-        "Öğle yemeğinde biraz tavuk ve sebze yiyorum.",
-        "Sebzeler çok lezzetli!",
-        "Akşam yemeğinde biraz balık ve patates yiyorum.",
-        "Akşam yemeği benim en sevdiğim öğün.",
-        "Yemek çok yummy!"
+        "Eda diyor: Birçok meyveyi severim!",
+        "Elmaları sever misin? Evet, severim.",
+        "Çilekleri sever misin? Evet, severim!",
+        "Kirazları sever misin? Evet, severim.",
+        "Tom diyor: Üzüm ve muz severim!",
+        "Armutları sever misin? Evet, ben de severim!",
+        "Meyveler nefis ve renkli!",
+        "Meyveler bizim için iyi!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Meals and food",
-          "wrong": ["Fruits and vegetables", "Food shopping"],
-          "hint": "Look at all the meals and food in the text.",
-          "hl": [1, 3, 5]
+          "correct": "Liking fruits",
+          "wrong": [
+            "Vegetables",
+            "Drinks"
+          ],
+          "hint": "Think about the fruits.",
+          "hl": [
+            0,
+            6
+          ]
         },
         {
-          "q": "How many meals are mentioned in the text?",
-          "correct": "Three",
-          "wrong": ["Two", "Four"],
-          "hint": "Find all the meal names in the text.",
-          "hl": [1, 3, 5]
+          "q": "Does Eda like apples?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is the writer's favourite meal?",
-          "correct": "Dinner",
-          "wrong": ["Breakfast", "Lunch"],
-          "hint": "Find the word favourite in the text.",
-          "hl": [6]
+          "q": "Does Eda like cherries?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What does the writer think about the vegetables?",
-          "correct": "They are delicious",
-          "wrong": ["They are yummy", "They are horrible"],
-          "hint": "Find the word vegetables in the text.",
-          "hl": [4]
+          "q": "What does Tom like?",
+          "correct": "Grapes and bananas",
+          "wrong": [
+            "Pears and apples",
+            "Cherries"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "How does the writer feel about food?",
-          "correct": "The writer loves food",
-          "wrong": ["The writer hates food", "The writer is bored of food"],
-          "hint": "Read the first and last sentences.",
-          "hl": [0, 7]
+          "q": "How are fruits?",
+          "correct": "Yummy and colourful",
+          "wrong": [
+            "Sad and bad",
+            "Big and old"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
-      "title": "Do You Like Vegetables?",
+      "title": "Vegetables for Everyone",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🥗",
+      "icon": "🥬",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Lily and Max talk about food.",
-        "Do you like peppers?",
-        "Yes, I do!",
-        "Do you like lettuce?",
-        "No, I don't.",
-        "Do you like cucumbers?",
-        "Yes, I do! Yummy!",
-        "I've got some cucumbers.",
-        "We love vegetables!"
+        "Lila says: I like vegetables!",
+        "Do you like carrots? Yes, I do.",
+        "Do you like cucumbers? Yes, I do!",
+        "Do you like spinach? Yes, I do.",
+        "Can says: I don't like broccoli!",
+        "I don't like cauliflower!",
+        "I like potatoes and beans.",
+        "Vegetables are different for us!"
       ],
       "translations": [
-        "Lily ve Max yemek hakkında konuşuyor.",
-        "Biber sever misin?",
-        "Evet, severim!",
-        "Marul sever misin?",
-        "Hayır, sevmem.",
-        "Salatalık sever misin?",
-        "Evet, severim! Nefis!",
-        "Biraz salatalığım var.",
-        "Sebzeleri seviyoruz!"
+        "Lila diyor: Sebzeleri severim!",
+        "Havuçları sever misin? Evet, severim.",
+        "Salatalıkları sever misin? Evet, severim!",
+        "Ispanağı sever misin? Evet, severim.",
+        "Can diyor: Brokoliyi sevmem!",
+        "Karnabaharı sevmem!",
+        "Patates ve fasulyeyi severim.",
+        "Sebzeler herkes için farklı!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Food preferences",
-          "wrong": ["Food shopping", "Cooking dinner"],
-          "hint": "Look at the 'Do you like...?' questions.",
-          "hl": [0]
+          "correct": "Liking vegetables",
+          "wrong": [
+            "Fruits",
+            "Drinks"
+          ],
+          "hint": "Think about the vegetables.",
+          "hl": [
+            0,
+            7
+          ]
         },
         {
-          "q": "Does the child like peppers?",
-          "correct": "Yes, I do",
-          "wrong": ["No, I don't", "We don't know"],
-          "hint": "Read after 'Do you like peppers?'",
-          "hl": [1, 2]
+          "q": "Does Lila like carrots?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Does the child like lettuce?",
-          "correct": "No, I don't",
-          "wrong": ["Yes, I do", "We don't know"],
-          "hint": "Read after 'Do you like lettuce?'",
-          "hl": [3, 4]
+          "q": "Does Lila like spinach?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Which vegetable does the child have?",
-          "correct": "Cucumbers",
-          "wrong": ["Peppers", "Lettuce"],
-          "hint": "Find the word 'some'.",
-          "hl": [7]
+          "q": "What does Can not like?",
+          "correct": "Broccoli and cauliflower",
+          "wrong": [
+            "Potatoes",
+            "Beans"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4,
+            5
+          ]
         },
         {
-          "q": "How does the child feel about vegetables?",
-          "correct": "Loves them",
-          "wrong": ["Hates them", "Is bored of them"],
-          "hint": "Read the last sentence.",
-          "hl": [8]
+          "q": "What does Can like?",
+          "correct": "Potatoes and beans",
+          "wrong": [
+            "Broccoli",
+            "Cauliflower"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Is There Any Food in the Kitchen?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍌",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom is in the kitchen.",
+        "Is there a banana in the kitchen? Yes, there is.",
+        "Are there any apples? Yes, there are.",
+        "Is there any milk? Yes, there is some milk.",
+        "Are there any oranges? No, there aren't.",
+        "Eda says: Are there any cherries? Yes, there are!",
+        "There are many fruits in our kitchen!"
+      ],
+      "translations": [
+        "Tom mutfakta.",
+        "Mutfakta bir muz var mı? Evet, var.",
+        "Elma var mı? Evet, var.",
+        "Süt var mı? Evet, biraz süt var.",
+        "Portakal var mı? Hayır, yok.",
+        "Eda diyor: Kiraz var mı? Evet, var!",
+        "Mutfağımızda birçok meyve var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Food in the kitchen",
+          "wrong": [
+            "School",
+            "Pets"
+          ],
+          "hint": "Think about the food.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Is there a banana?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Are there any apples?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Are there any oranges?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda ask about?",
+          "correct": "Cherries",
+          "wrong": [
+            "Apples",
+            "Bananas"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Vegetables in My Fridge",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥒",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can is in the kitchen with the fridge.",
+        "Is there a tomato in the fridge? Yes, there is.",
+        "Are there any cucumbers? Yes, there are.",
+        "Are there any peppers? Yes, there are some peppers.",
+        "Is there any garlic? No, there isn't.",
+        "Are there any potatoes? No, there aren't.",
+        "Lila says: I like cucumbers!",
+        "There are many vegetables in the fridge!"
+      ],
+      "translations": [
+        "Can mutfakta buzdolabıyla.",
+        "Buzdolabında bir domates var mı? Evet, var.",
+        "Salatalık var mı? Evet, var.",
+        "Biber var mı? Evet, biraz biber var.",
+        "Sarımsak var mı? Hayır, yok.",
+        "Patates var mı? Hayır, yok.",
+        "Lila diyor: Salatalıkları severim!",
+        "Buzdolabında birçok sebze var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Vegetables in a fridge",
+          "wrong": [
+            "School",
+            "Pets"
+          ],
+          "hint": "Think about the fridge.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "Is there a tomato?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Are there any cucumbers?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is there any garlic?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Are there any potatoes?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Can I Have Some Food?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🙏",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom is hungry in the kitchen.",
+        "Tom says: Mum, can I have some bread?",
+        "Yes, you can! says the mum.",
+        "Can I have some milk, too?",
+        "Yes, you can! says the mum.",
+        "Can I have some eggs?",
+        "Yes, you can!",
+        "Thank you, mum! says Tom.",
+        "Tom is happy with his food!"
+      ],
+      "translations": [
+        "Tom mutfakta acıkmış.",
+        "Tom diyor: Anne, biraz ekmek alabilir miyim?",
+        "Evet, alabilirsin! diyor anne.",
+        "Biraz süt de alabilir miyim?",
+        "Evet, alabilirsin! diyor anne.",
+        "Biraz yumurta alabilir miyim?",
+        "Evet, alabilirsin!",
+        "Teşekkürler, anne! diyor Tom.",
+        "Tom yemeği ile mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Tom asking for food",
+          "wrong": [
+            "Food in school",
+            "Tom in the garden"
+          ],
+          "hint": "Think about the requests.",
+          "hl": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "q": "How does Tom feel?",
+          "correct": "Hungry",
+          "wrong": [
+            "Thirsty",
+            "Tired"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Tom ask for first?",
+          "correct": "Some bread",
+          "wrong": [
+            "Some chicken",
+            "Some apples"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the answer?",
+          "correct": "Yes, you can!",
+          "wrong": [
+            "No, you can't!",
+            "Goodbye!"
+          ],
+          "hint": "Find mum in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What else does Tom ask for?",
+          "correct": "Some milk and some eggs",
+          "wrong": [
+            "Some chicken",
+            "Some apples"
+          ],
+          "hint": "Read sentences 4 and 6.",
+          "hl": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Time for Dinner!",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍝",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for dinner!",
+        "Lila says: For dinner, I have got some chicken.",
+        "I have got some potatoes and some beans.",
+        "I have got some water.",
+        "Tom says: For dinner, I have got some fish.",
+        "I have got some bread and some carrots.",
+        "Do you like fish for dinner? Yes, I do!",
+        "Dinner is delicious!",
+        "Enjoy your meal!"
+      ],
+      "translations": [
+        "Akşam yemeği zamanı!",
+        "Lila diyor: Akşam yemeğinde biraz tavuğum var.",
+        "Biraz patates ve biraz fasulyem var.",
+        "Biraz suyum var.",
+        "Tom diyor: Akşam yemeğinde biraz balığım var.",
+        "Biraz ekmek ve biraz havucum var.",
+        "Akşam yemeğinde balık sever misin? Evet, severim!",
+        "Akşam yemeği lezzetli!",
+        "Afiyet olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Dinner time",
+          "wrong": [
+            "Breakfast",
+            "Lunch"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Lila got for dinner?",
+          "correct": "Chicken, potatoes, beans, water",
+          "wrong": [
+            "Bread and eggs",
+            "Only milk"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What has Tom got for dinner?",
+          "correct": "Fish, bread, carrots",
+          "wrong": [
+            "Chicken",
+            "Apples"
+          ],
+          "hint": "Read sentences 5-6.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Does Tom like fish?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is dinner?",
+          "correct": "Delicious",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "A Guest in My House",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥛",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda is in our kitchen today.",
+        "Lila says: Can I have some water, Eda?",
+        "Yes, you can! says Eda.",
+        "Here is some water for you!",
+        "Lila says: Thank you, Eda!",
+        "Lila says: Can I have some bread, too?",
+        "Yes, you can! says Eda.",
+        "Two friends in the kitchen with food!"
+      ],
+      "translations": [
+        "Eda bugün mutfağımızda.",
+        "Lila diyor: Biraz su alabilir miyim, Eda?",
+        "Evet, alabilirsin! diyor Eda.",
+        "İşte sana biraz su!",
+        "Lila diyor: Teşekkürler, Eda!",
+        "Lila diyor: Biraz ekmek de alabilir miyim?",
+        "Evet, alabilirsin! diyor Eda.",
+        "İki arkadaş mutfakta yemekle!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A friend asking for food",
+          "wrong": [
+            "School",
+            "A pet"
+          ],
+          "hint": "Think about the requests.",
+          "hl": [
+            1,
+            5
+          ]
+        },
+        {
+          "q": "What does Lila ask for first?",
+          "correct": "Some water",
+          "wrong": [
+            "Some bread",
+            "Some milk"
+          ],
+          "hint": "Find Lila in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "Yes, you can!",
+          "wrong": [
+            "No, you can't!",
+            "Goodbye!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Lila ask for next?",
+          "correct": "Some bread",
+          "wrong": [
+            "Some chicken",
+            "Some apples"
+          ],
+          "hint": "Find Lila in sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where are the friends?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Find kitchen.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "Food for the Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥚",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: Food is great for me!",
+        "For breakfast, I have got some bread and some eggs.",
+        "For lunch, I have got some chicken and some bread.",
+        "For dinner, I have got some fish.",
+        "Tom says: I have got some meat for lunch!",
+        "I have got some eggs and some bread for breakfast.",
+        "Food is good for us!"
+      ],
+      "translations": [
+        "Can diyor: Yemek benim için harika!",
+        "Kahvaltıda biraz ekmeğim ve biraz yumurtam var.",
+        "Öğlen biraz tavuk ve biraz ekmeğim var.",
+        "Akşam yemeğinde biraz balığım var.",
+        "Tom diyor: Öğlen biraz etim var!",
+        "Kahvaltıda biraz yumurta ve biraz ekmeğim var.",
+        "Yemek bizim için iyi!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Food for three meals",
+          "wrong": [
+            "School",
+            "Pets"
+          ],
+          "hint": "Think about the meals.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What has Can got for breakfast?",
+          "correct": "Bread and eggs",
+          "wrong": [
+            "Chicken",
+            "Fish"
+          ],
+          "hint": "Find breakfast.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What has Can got for lunch?",
+          "correct": "Chicken and bread",
+          "wrong": [
+            "Fish",
+            "Apples"
+          ],
+          "hint": "Find lunch.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What has Can got for dinner?",
+          "correct": "Fish",
+          "wrong": [
+            "Eggs",
+            "Meat"
+          ],
+          "hint": "Find dinner.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What has Tom got for lunch?",
+          "correct": "Meat",
+          "wrong": [
+            "Fish",
+            "Chicken"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Drinks for Everyone",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥤",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: I am thirsty!",
+        "Do you like water? Yes, I do.",
+        "Do you like milk? Yes, I do.",
+        "Do you like ayran? Yes, I do!",
+        "Ayran is a Turkish drink.",
+        "Do you like tea? Yes, I do.",
+        "Do you like coffee? No, I don't.",
+        "Eda says: I like ayran, too!",
+        "Drinks are good for us!"
+      ],
+      "translations": [
+        "Tom diyor: Susadım!",
+        "Suyu sever misin? Evet, severim.",
+        "Sütü sever misin? Evet, severim.",
+        "Ayranı sever misin? Evet, severim!",
+        "Ayran bir Türk içeceği.",
+        "Çayı sever misin? Evet, severim.",
+        "Kahveyi sever misin? Hayır, sevmem.",
+        "Eda diyor: Ben de ayran severim!",
+        "İçecekler bizim için iyi!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Drinks for everyone",
+          "wrong": [
+            "Food",
+            "School"
+          ],
+          "hint": "Think about the drinks.",
+          "hl": [
+            0,
+            8
+          ]
+        },
+        {
+          "q": "Does Tom like ayran?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is ayran from?",
+          "correct": "Türkiye",
+          "wrong": [
+            "England",
+            "France"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Does Tom like coffee?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "I like ayran, too!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Eid Lunch with Family",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌙",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is Eid al-Fitr in Türkiye.",
+        "Lila says: Our family is in the kitchen.",
+        "We have got many yummy foods!",
+        "We have got some chicken and some bread.",
+        "We have got some apples and some cherries.",
+        "Can says: Can I have some ayran, please?",
+        "Yes, you can! says the mum.",
+        "Eid lunch is delicious!",
+        "Happy Eid to all families!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de Ramazan Bayramı.",
+        "Lila diyor: Ailemiz mutfakta.",
+        "Birçok nefis yiyeceğimiz var!",
+        "Biraz tavuğumuz ve biraz ekmeğimiz var.",
+        "Biraz elmamız ve biraz kirazımız var.",
+        "Can diyor: Biraz ayran alabilir miyim, lütfen?",
+        "Evet, alabilirsin! diyor anne.",
+        "Bayram yemeği lezzetli!",
+        "Bütün ailelere mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Eid lunch with family",
+          "wrong": [
+            "School",
+            "A pet"
+          ],
+          "hint": "Read sentences 1 and 7.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What food does the family have?",
+          "correct": "Chicken, bread, apples, cherries",
+          "wrong": [
+            "Only milk",
+            "Only fish"
+          ],
+          "hint": "Read sentences 4-5.",
+          "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What does Can ask for?",
+          "correct": "Some ayran",
+          "wrong": [
+            "Some bread",
+            "Some apples"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is the Eid lunch?",
+          "correct": "Delicious",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     }
@@ -289,220 +2143,1082 @@
   "int": [
     {
       "id": "int-1",
-      "title": "At the Market",
+      "title": "Fruit Talk with Lila",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🛒",
+      "icon": "🍓",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Lily and Max are at the market.",
-        "Lily has got apples and carrots in her basket.",
-        "Max has got bread and eggs in his basket.",
-        "Mr Green says: \"Can I have some bread, please?\"",
-        "Max says: \"Yes, you can!\"",
-        "Mrs Brown has got milk and chicken.",
-        "Mrs Brown says: \"Can I have some tomatoes, please?\"",
-        "The market man says: \"No, there aren't any tomatoes today.\""
+        "Eda is in the kitchen with Lila.",
+        "Eda says: Do you like apples, Lila?",
+        "Lila says: Yes, I do! Apples are yummy.",
+        "Eda says: Do you like pears?",
+        "Lila says: No, I don't like pears.",
+        "Eda says: Do you like cherries?",
+        "Lila says: Yes, I do! I like cherries a lot.",
+        "Eda says: I like cherries, too!",
+        "Two friends like the same fruit!"
       ],
       "translations": [
-        "Lily ve Max markette.",
-        "Lily'nin sepetinde elmalar ve havuçlar var.",
-        "Max'in sepetinde ekmek ve yumurtalar var.",
-        "Mr Green diyor ki: \"Biraz ekmek alabilir miyim, lütfen?\"",
-        "Max diyor ki: \"Evet, alabilirsin!\"",
-        "Mrs Brown'un sütü ve tavuğu var.",
-        "Mrs Brown diyor ki: \"Biraz domates alabilir miyim, lütfen?\"",
-        "Pazar adamı diyor ki: \"Hayır, bugün domates yok.\""
+        "Eda mutfakta Lila ile.",
+        "Eda diyor: Elmaları sever misin, Lila?",
+        "Lila diyor: Evet, severim! Elmalar nefis.",
+        "Eda diyor: Armutları sever misin?",
+        "Lila diyor: Hayır, armutları sevmem.",
+        "Eda diyor: Kirazları sever misin?",
+        "Lila diyor: Evet, severim! Kirazları çok severim.",
+        "Eda diyor: Ben de kirazları severim!",
+        "İki arkadaş aynı meyveyi seviyor!"
       ],
       "questions": [
         {
-          "q": "What has Lily got in her basket?",
-          "correct": "Apples and carrots",
-          "wrong": ["Bread and eggs", "Milk and chicken"],
-          "hint": "Find Lily in the text.",
-          "hl": [1]
+          "q": "Where are Eda and Lila?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Who has got bread in their basket?",
-          "correct": "Max",
-          "wrong": ["Lily", "Mrs Brown"],
-          "hint": "Find the word bread in the text.",
-          "hl": [2]
+          "q": "Does Lila like apples?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What does Mr Green ask for?",
-          "correct": "Some bread",
-          "wrong": ["Some eggs", "Some milk"],
-          "hint": "Find Mr Green in the text.",
-          "hl": [3]
+          "q": "Does Lila like pears?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Mrs Brown ask for?",
-          "correct": "Some tomatoes",
-          "wrong": ["Some carrots", "Some apples"],
-          "hint": "Find Mrs Brown in the text.",
-          "hl": [6]
+          "q": "Does Lila like cherries?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "Can Mrs Brown get tomatoes?",
-          "correct": "No, there aren't any tomatoes today",
-          "wrong": ["Yes, she can have some tomatoes", "Yes, there are tomatoes in the basket"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "What do Eda and Lila both like?",
+          "correct": "Cherries",
+          "wrong": [
+            "Apples",
+            "Pears"
+          ],
+          "hint": "Read sentences 7-8.",
+          "hl": [
+            6,
+            7
+          ]
         }
       ]
     },
     {
       "id": "int-2",
-      "title": "Can I Have Some Water?",
-      "subtitle": "Read carefully and answer the questions!",
-      "icon": "🥤",
-      "hlMode": "fade3",
-      "hintMode": "button",
-      "choices": 3,
-      "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" }
-      ],
-      "sentences": [
-        "It is lunchtime.",
-        "I'm thirsty!",
-        "Can I have some water, please?",
-        "Yes, you can!",
-        "Can I have some ayran?",
-        "Yes, you can!",
-        "Can I have some coffee?",
-        "No, you can't! Coffee is for grown-ups.",
-        "Here is some meat and bread.",
-        "Enjoy your meal!"
-      ],
-      "translations": [
-        "Öğle yemeği zamanı.",
-        "Susadım!",
-        "Biraz su alabilir miyim, lütfen?",
-        "Evet, alabilirsin!",
-        "Biraz ayran alabilir miyim?",
-        "Evet, alabilirsin!",
-        "Biraz kahve alabilir miyim?",
-        "Hayır, alamazsın! Kahve büyükler içindir.",
-        "İşte biraz et ve ekmek.",
-        "Afiyet olsun!"
-      ],
-      "questions": [
-        {
-          "q": "What does the child ask for first?",
-          "correct": "Some water",
-          "wrong": ["Some ayran", "Some coffee"],
-          "hint": "Read after 'I'm thirsty!'",
-          "hl": [2]
-        },
-        {
-          "q": "Can the child have some ayran?",
-          "correct": "Yes, you can",
-          "wrong": ["No, you can't", "We don't know"],
-          "hint": "Find the word ayran.",
-          "hl": [4, 5]
-        },
-        {
-          "q": "Can the child have some coffee?",
-          "correct": "No, you can't",
-          "wrong": ["Yes, you can", "Yes, there is"],
-          "hint": "Find the word coffee.",
-          "hl": [6, 7]
-        },
-        {
-          "q": "Why can't the child have coffee?",
-          "correct": "It is for grown-ups",
-          "wrong": ["There isn't any", "It is too hot"],
-          "hint": "Read the sentence about coffee.",
-          "hl": [7]
-        },
-        {
-          "q": "What is there to eat?",
-          "correct": "Meat and bread",
-          "wrong": ["Fish and rice", "Chicken and beans"],
-          "hint": "Read near the end.",
-          "hl": [8]
-        }
-      ]
-    },
-    {
-      "id": "int-3",
-      "title": "Making a Salad",
+      "title": "Vegetable Talk with Can",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🥦",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Let's make a salad!",
-        "We've got some garlic.",
-        "We've got some cauliflower.",
-        "We've got some courgette.",
-        "Do you like courgette?",
-        "Yes, I do!",
-        "Now we mix the salad.",
-        "Mmm! It's delicious!",
-        "We love our salad!"
+        "Can has got many vegetables in his kitchen.",
+        "Tom says: Do you like broccoli, Can?",
+        "Can says: No, I don't like broccoli!",
+        "Do you like cauliflower? Yes, I do.",
+        "Do you like beans? Yes, I do!",
+        "Do you like peppers? No, I don't.",
+        "Tom says: I like many vegetables!",
+        "Can says: Some vegetables are yummy for me!",
+        "Two friends with different tastes!"
       ],
       "translations": [
-        "Hadi salata yapalım!",
-        "Biraz sarımsağımız var.",
-        "Biraz karnabaharımız var.",
-        "Biraz kabağımız var.",
-        "Kabak sever misin?",
-        "Evet, severim!",
-        "Şimdi salatayı karıştırıyoruz.",
-        "Mmm! Çok lezzetli!",
-        "Salatamızı seviyoruz!"
+        "Can'ın mutfağında birçok sebze var.",
+        "Tom diyor: Brokoliyi sever misin, Can?",
+        "Can diyor: Hayır, brokoliyi sevmem!",
+        "Karnabaharı sever misin? Evet, severim.",
+        "Fasulyeleri sever misin? Evet, severim!",
+        "Biberi sever misin? Hayır, sevmem.",
+        "Tom diyor: Birçok sebzeyi severim!",
+        "Can diyor: Bazı sebzeler benim için nefis!",
+        "Farklı zevkleri olan iki arkadaş!"
       ],
       "questions": [
         {
-          "q": "What do they make?",
-          "correct": "A salad",
-          "wrong": ["A cake", "A soup"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "Where are the vegetables?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In a shop"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Have they got any garlic?",
-          "correct": "Yes, they have",
-          "wrong": ["No, they haven't", "We don't know"],
-          "hint": "Find the word garlic.",
-          "hl": [1]
+          "q": "Does Can like broccoli?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Which vegetable does the child like?",
-          "correct": "Courgette",
-          "wrong": ["Garlic", "Cauliflower"],
-          "hint": "Find 'Do you like...?'",
-          "hl": [4, 5]
+          "q": "Does Can like cauliflower?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How is the salad?",
-          "correct": "Delicious",
-          "wrong": ["Horrible", "Cold"],
-          "hint": "Read near the end.",
-          "hl": [7]
+          "q": "Does Can like peppers?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "What three vegetables are in the salad?",
-          "correct": "Garlic, cauliflower and courgette",
-          "wrong": ["Peppers, lettuce and beans", "Carrots, potatoes and spinach"],
-          "hint": "Find the vegetables in the text.",
-          "hl": [1, 2, 3]
+          "q": "What does Tom say?",
+          "correct": "I like many vegetables!",
+          "wrong": [
+            "Goodbye!",
+            "I don't like food!"
+          ],
+          "hint": "Find Tom in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Breakfast Time!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍳",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for breakfast!",
+        "Eda is in the kitchen with her family.",
+        "Eda says: For breakfast, I have got some bread.",
+        "I have got some eggs and some milk.",
+        "I have got some apples and some tomatoes, too.",
+        "Mum says: Can I have some tea, please?",
+        "Yes, here is some tea!",
+        "Eda says: Enjoy your breakfast, mum!",
+        "Breakfast is yummy for the family!"
+      ],
+      "translations": [
+        "Kahvaltı zamanı!",
+        "Eda mutfakta ailesi ile.",
+        "Eda diyor: Kahvaltıda biraz ekmeğim var.",
+        "Biraz yumurtam ve biraz sütüm var.",
+        "Biraz da elmam ve biraz domatesim var.",
+        "Anne diyor: Biraz çay alabilir miyim, lütfen?",
+        "Evet, işte biraz çay!",
+        "Eda diyor: İyi kahvaltılar, anne!",
+        "Kahvaltı aile için nefis!"
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Breakfast",
+          "wrong": [
+            "Lunch",
+            "Dinner"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is Eda?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What has Eda got for breakfast?",
+          "correct": "Bread, eggs, milk, apples, tomatoes",
+          "wrong": [
+            "Only milk",
+            "Only chicken"
+          ],
+          "hint": "Read sentences 3-5.",
+          "hl": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What does mum ask for?",
+          "correct": "Some tea",
+          "wrong": [
+            "Some milk",
+            "Some bread"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Eda say to mum?",
+          "correct": "Enjoy your breakfast!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "Lunch with My Family",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍲",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for lunch!",
+        "Tom is in the kitchen with his family.",
+        "Tom says: For lunch, I have got some chicken.",
+        "I have got some bread and some carrots.",
+        "Mum says: Can I have some water, please?",
+        "Yes, here is some water!",
+        "Dad says: Can I have some chicken, too?",
+        "Yes, here is some chicken!",
+        "Tom says: Lunch with my family is yummy!"
+      ],
+      "translations": [
+        "Öğle yemeği zamanı!",
+        "Tom mutfakta ailesi ile.",
+        "Tom diyor: Öğlen biraz tavuğum var.",
+        "Biraz ekmek ve biraz havucum var.",
+        "Anne diyor: Biraz su alabilir miyim, lütfen?",
+        "Evet, işte biraz su!",
+        "Baba diyor: Biraz da tavuk alabilir miyim?",
+        "Evet, işte biraz tavuk!",
+        "Tom diyor: Ailemle öğle yemeği nefis!"
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Lunch",
+          "wrong": [
+            "Breakfast",
+            "Dinner"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Tom got for lunch?",
+          "correct": "Chicken, bread, carrots",
+          "wrong": [
+            "Only milk",
+            "Eggs"
+          ],
+          "hint": "Read sentences 3-4.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What does mum ask for?",
+          "correct": "Some water",
+          "wrong": [
+            "Some milk",
+            "Some tea"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does dad ask for?",
+          "correct": "Some chicken",
+          "wrong": [
+            "Some bread",
+            "Some water"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is lunch?",
+          "correct": "Yummy",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Find Tom in sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Dinner Time at Home",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍝",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Time for dinner!",
+        "Lila is in the kitchen with her family.",
+        "Lila says: For dinner, I have got some fish.",
+        "I have got some potatoes and some lettuce.",
+        "I have got some bread, too.",
+        "Mum says: Can I have some milk?",
+        "Yes, here is some milk!",
+        "Lila says: Do you like fish, mum?",
+        "Mum says: Yes, I do! Fish is yummy!",
+        "Lila is happy with the dinner!"
+      ],
+      "translations": [
+        "Akşam yemeği zamanı!",
+        "Lila mutfakta ailesi ile.",
+        "Lila diyor: Akşam yemeğinde biraz balığım var.",
+        "Biraz patates ve biraz marulum var.",
+        "Biraz ekmeğim de var.",
+        "Anne diyor: Biraz süt alabilir miyim?",
+        "Evet, işte biraz süt!",
+        "Lila diyor: Balığı sever misin, anne?",
+        "Anne diyor: Evet, severim! Balık nefis!",
+        "Lila akşam yemeğiyle mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Dinner",
+          "wrong": [
+            "Breakfast",
+            "Lunch"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What has Lila got for dinner?",
+          "correct": "Fish, potatoes, lettuce, bread",
+          "wrong": [
+            "Only milk",
+            "Eggs"
+          ],
+          "hint": "Read sentences 3-5.",
+          "hl": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What does mum ask for?",
+          "correct": "Some milk",
+          "wrong": [
+            "Some bread",
+            "Some water"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Does mum like fish?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "How does Lila feel?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Vegetables in the Kitchen",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🥬",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can is in the kitchen.",
+        "Is there a tomato? Yes, there is.",
+        "Are there any cucumbers? Yes, there are some cucumbers.",
+        "Is there a carrot? No, there isn't.",
+        "Are there any potatoes? Yes, there are!",
+        "Are there any garlic? No, there isn't.",
+        "Eda says: Is there any spinach? Yes, there is.",
+        "Many vegetables in the kitchen for us!"
+      ],
+      "translations": [
+        "Can mutfakta.",
+        "Bir domates var mı? Evet, var.",
+        "Salatalık var mı? Evet, biraz salatalık var.",
+        "Bir havuç var mı? Hayır, yok.",
+        "Patates var mı? Evet, var!",
+        "Sarımsak var mı? Hayır, yok.",
+        "Eda diyor: Ispanak var mı? Evet, var.",
+        "Mutfakta bizim için birçok sebze!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Can?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is there a tomato?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Are there any cucumbers?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is there a carrot?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Eda ask about?",
+          "correct": "Spinach",
+          "wrong": [
+            "Garlic",
+            "Carrots"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Can I Have More?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🙋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda is in our kitchen with Tom.",
+        "Eda says: Can I have some bread, please?",
+        "Yes, you can! says Tom.",
+        "Here is some bread for you!",
+        "Eda says: Thank you, Tom!",
+        "Can I have some milk, too?",
+        "Yes, you can! Here is some milk.",
+        "Can I have some apples, please?",
+        "Yes, you can!",
+        "Eda says: Tom, you are very kind!"
+      ],
+      "translations": [
+        "Eda mutfağımızda Tom ile.",
+        "Eda diyor: Biraz ekmek alabilir miyim, lütfen?",
+        "Evet, alabilirsin! diyor Tom.",
+        "İşte sana biraz ekmek!",
+        "Eda diyor: Teşekkürler, Tom!",
+        "Biraz süt de alabilir miyim?",
+        "Evet, alabilirsin! İşte biraz süt.",
+        "Biraz elma alabilir miyim, lütfen?",
+        "Evet, alabilirsin!",
+        "Eda diyor: Tom, çok naziksin!"
+      ],
+      "questions": [
+        {
+          "q": "Who is in the kitchen with Eda?",
+          "correct": "Tom",
+          "wrong": [
+            "Lila",
+            "Can"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Eda ask for first?",
+          "correct": "Some bread",
+          "wrong": [
+            "Some apples",
+            "Some milk"
+          ],
+          "hint": "Find Eda in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the answer?",
+          "correct": "Yes, you can!",
+          "wrong": [
+            "No, you can't!",
+            "Goodbye!"
+          ],
+          "hint": "Find Tom in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What else does Eda ask for?",
+          "correct": "Some milk and some apples",
+          "wrong": [
+            "Some chicken",
+            "Some fish"
+          ],
+          "hint": "Read sentences 6 and 8.",
+          "hl": [
+            5,
+            7
+          ]
+        },
+        {
+          "q": "How is Tom?",
+          "correct": "Very kind",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "Drinks for a Hot Day",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🥤",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "It is a hot day in our garden.",
+        "Tom says: I am thirsty!",
+        "Can I have some water, please?",
+        "Yes, here is some water!",
+        "Do you like ayran, Tom?",
+        "Yes, I do! Ayran is a Turkish drink.",
+        "Ayran is yummy on a hot day!",
+        "Lila says: I like ayran, too!",
+        "Tom says: Can I have some ayran, please?",
+        "Yes, here is some ayran!"
+      ],
+      "translations": [
+        "Bahçemizde sıcak bir gün.",
+        "Tom diyor: Susadım!",
+        "Biraz su alabilir miyim, lütfen?",
+        "Evet, işte biraz su!",
+        "Ayranı sever misin, Tom?",
+        "Evet, severim! Ayran bir Türk içeceği.",
+        "Sıcak bir günde ayran nefis!",
+        "Lila diyor: Ben de ayran severim!",
+        "Tom diyor: Biraz ayran alabilir miyim, lütfen?",
+        "Evet, işte biraz ayran!"
+      ],
+      "questions": [
+        {
+          "q": "How is the day?",
+          "correct": "Hot",
+          "wrong": [
+            "Cold",
+            "Sad"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How does Tom feel?",
+          "correct": "Thirsty",
+          "wrong": [
+            "Hungry",
+            "Tired"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Tom ask for first?",
+          "correct": "Some water",
+          "wrong": [
+            "Some milk",
+            "Some tea"
+          ],
+          "hint": "Find sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Does Tom like ayran?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is ayran from?",
+          "correct": "Türkiye",
+          "wrong": [
+            "England",
+            "France"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "A Day of Food",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍽️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: What is your food for today, Can?",
+        "Can says: Here is my day!",
+        "For breakfast, I have got some bread and some eggs.",
+        "For lunch, I have got some chicken and some bread.",
+        "For dinner, I have got some fish and some potatoes.",
+        "I have got some water and some milk, too.",
+        "Eda says: Yummy! I like your day!",
+        "Can says: Thank you, Eda!"
+      ],
+      "translations": [
+        "Eda diyor: Bugün ne yemeğin var, Can?",
+        "Can diyor: İşte günüm!",
+        "Kahvaltıda biraz ekmeğim ve biraz yumurtam var.",
+        "Öğlen biraz tavuğum ve biraz ekmeğim var.",
+        "Akşam yemeğinde biraz balığım ve biraz patatesim var.",
+        "Biraz da suyum ve biraz sütüm var.",
+        "Eda diyor: Nefis! Senin gününü seviyorum!",
+        "Can diyor: Teşekkürler, Eda!"
+      ],
+      "questions": [
+        {
+          "q": "What does Can have for breakfast?",
+          "correct": "Bread and eggs",
+          "wrong": [
+            "Fish",
+            "Apples"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Can have for lunch?",
+          "correct": "Chicken and bread",
+          "wrong": [
+            "Fish",
+            "Apples"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Can have for dinner?",
+          "correct": "Fish and potatoes",
+          "wrong": [
+            "Chicken",
+            "Eggs"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can have to drink?",
+          "correct": "Water and milk",
+          "wrong": [
+            "Tea and coffee",
+            "Ayran"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "I like your day!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Children's Day Lunch",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 23rd of April.",
+        "It is Children's Day in Türkiye!",
+        "Eda says: My family is in our kitchen.",
+        "We have got many yummy foods for lunch!",
+        "I have got some chicken, some potatoes and some carrots.",
+        "Lila says: I have got some fish and some bread.",
+        "Lila says: Can I have some ayran, please?",
+        "Yes, here is some ayran!",
+        "Eda says: Happy Children's Day, Lila!",
+        "Two friends, two happy lunches!"
+      ],
+      "translations": [
+        "Bugün 23 Nisan.",
+        "Türkiye'de Çocuk Bayramı!",
+        "Eda diyor: Ailem mutfağımızda.",
+        "Öğle yemeğinde birçok nefis yiyeceğimiz var!",
+        "Biraz tavuğum, biraz patatesim ve biraz havucum var.",
+        "Lila diyor: Biraz balığım ve biraz ekmeğim var.",
+        "Lila diyor: Biraz ayran alabilir miyim, lütfen?",
+        "Evet, işte biraz ayran!",
+        "Eda diyor: Mutlu Çocuk Bayramları, Lila!",
+        "İki arkadaş, iki mutlu öğle yemeği!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 23rd of April",
+          "wrong": [
+            "The 29th of October",
+            "The 15th of July"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Children's Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What has Eda got for lunch?",
+          "correct": "Chicken, potatoes and carrots",
+          "wrong": [
+            "Fish and bread",
+            "Apples"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What has Lila got?",
+          "correct": "Fish and bread",
+          "wrong": [
+            "Chicken",
+            "Apples"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Lila ask for?",
+          "correct": "Some ayran",
+          "wrong": [
+            "Some water",
+            "Some milk"
+          ],
+          "hint": "Find Lila in sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -510,152 +3226,1051 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "Lunchtime at Jungle School",
+      "title": "What Fruit Is It?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🍽️",
+      "icon": "🍓",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Max" },
-        { "e": "👨‍🏫", "n": "Mr Green" },
-        { "e": "👩‍💼", "n": "Mrs Brown" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It is lunchtime at Jungle School.",
-        "Lily looks at her plate.",
-        "There is chicken and broccoli on her plate.",
-        "Lily smiles and says: \"I love chicken!\"",
-        "Max looks at his plate.",
-        "There are beans and spinach on his plate.",
-        "Max is not happy.",
-        "Mr Green says: \"Eat your vegetables! They are good for you.\"",
-        "Mrs Brown is drinking tea and eating bread.",
-        "Everyone is hungry!"
+        "A fruit is on the table.",
+        "It is red and small.",
+        "It is not an apple. It is not a cherry.",
+        "It is yummy and sweet.",
+        "Eda says: I like this red fruit a lot!",
+        "What fruit is it?",
+        "It is a strawberry!"
       ],
       "translations": [
-        "Jungle School'da öğle yemeği zamanı.",
-        "Lily tabağına bakıyor.",
-        "Tabağında tavuk ve brokoli var.",
-        "Lily gülümsüyor ve diyor ki: \"Tavuğu seviyorum!\"",
-        "Max tabağına bakıyor.",
-        "Tabağında fasulye ve ıspanak var.",
-        "Max mutlu değil.",
-        "Mr Green diyor ki: \"Sebzelerini ye! Sana iyi gelir.\"",
-        "Mrs Brown çay içiyor ve ekmek yiyor.",
-        "Herkes aç!"
+        "Bir meyve masada.",
+        "Kırmızı ve küçük.",
+        "Bir elma değil. Bir kiraz değil.",
+        "Nefis ve tatlı.",
+        "Eda diyor: Bu kırmızı meyveyi çok severim!",
+        "Bu hangi meyve?",
+        "Çilek!"
       ],
       "questions": [
         {
-          "q": "Does Lily like chicken?",
-          "correct": "Yes, she does",
-          "wrong": ["No, she doesn't", "She doesn't know"],
-          "hint": "Look at what Lily says.",
-          "hl": [3]
+          "q": "What colour is the fruit?",
+          "correct": "Red",
+          "wrong": [
+            "Yellow",
+            "Green"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "How does Max feel about his food?",
-          "correct": "He doesn't like it",
-          "wrong": ["He loves it", "He is excited"],
-          "hint": "Find Max in the text.",
-          "hl": [5, 6]
+          "q": "How big is the fruit?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Long"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Why does Mr Green say \"Eat your vegetables\"?",
-          "correct": "Because Max is not happy about his food",
-          "wrong": ["Because Lily loves chicken", "Because Mrs Brown is drinking tea"],
-          "hint": "Look at Max and Mr Green in the text.",
-          "hl": [6, 7]
+          "q": "Is it an apple?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How does everyone feel at lunchtime?",
-          "correct": "Hungry",
-          "wrong": ["Full", "Tired"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "Does Eda like the fruit?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What kind of meal is this?",
-          "correct": "A school lunch with different foods",
-          "wrong": ["A birthday dinner", "A breakfast at home"],
-          "hint": "Look at where they are and what they are eating.",
-          "hl": [0, 2, 5, 8]
+          "q": "What fruit is it?",
+          "correct": "A strawberry",
+          "wrong": [
+            "An apple",
+            "A cherry"
+          ],
+          "hint": "Think about red and small.",
+          "hl": [
+            1,
+            2,
+            6
+          ]
         }
       ]
     },
     {
       "id": "inf-2",
-      "title": "Time for Dinner!",
+      "title": "What Vegetable Is It?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🍲",
+      "icon": "🥕",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👩", "n": "Mum" },
-        { "e": "👵", "n": "Grandma" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It's evening.",
-        "Time for dinner!",
-        "Mum has got some chicken and rice.",
-        "Ding-dong! Guests are here.",
-        "Let's go and meet them!",
-        "Grandma and Grandpa are here for dinner.",
-        "Everyone eats together.",
-        "The food is yummy.",
-        "Thanks for dinner, Mum!",
-        "What a happy dinner!"
+        "A vegetable is in the kitchen.",
+        "It is orange.",
+        "It is not a tomato. It is not a pepper.",
+        "It is long and small.",
+        "Can says: I like this orange vegetable!",
+        "What vegetable is it?",
+        "It is a carrot!"
       ],
       "translations": [
-        "Akşam oldu.",
-        "Akşam yemeği zamanı!",
-        "Annemin biraz tavuğu ve pilavı var.",
-        "Ding-dong! Misafirler geldi.",
-        "Hadi gidip onları karşılayalım!",
-        "Büyükanne ve büyükbaba akşam yemeğine geldi.",
-        "Herkes birlikte yemek yiyor.",
-        "Yemek çok nefis.",
-        "Akşam yemeği için teşekkürler, anne!",
-        "Ne mutlu bir akşam yemeği!"
+        "Bir sebze mutfakta.",
+        "Turuncu.",
+        "Bir domates değil. Bir biber değil.",
+        "Uzun ve küçük.",
+        "Can diyor: Bu turuncu sebzeyi severim!",
+        "Bu hangi sebze?",
+        "Bir havuç!"
       ],
       "questions": [
         {
-          "q": "What time is it?",
-          "correct": "Dinner time",
-          "wrong": ["Breakfast time", "Break time"],
-          "hint": "Read the first sentences.",
-          "hl": [0, 1]
+          "q": "Where is the vegetable?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Who are the guests?",
-          "correct": "Grandma and Grandpa",
-          "wrong": ["Lily's friends", "The teachers"],
-          "hint": "Read after 'Let's go and meet them!'",
-          "hl": [3, 4, 5]
+          "q": "What colour is it?",
+          "correct": "Orange",
+          "wrong": [
+            "Red",
+            "Green"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What does Mum cook?",
-          "correct": "Chicken and rice",
-          "wrong": ["Fish and potatoes", "Eggs and bread"],
-          "hint": "Find Mum in the text.",
-          "hl": [2]
+          "q": "Is it a tomato?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How does everyone feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Bored"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "How is the vegetable?",
+          "correct": "Long and small",
+          "wrong": [
+            "Round and big",
+            "Soft and sad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What kind of dinner is this?",
-          "correct": "A happy family dinner",
-          "wrong": ["A sad goodbye dinner", "A school lunch"],
-          "hint": "Look at who comes and how they feel.",
-          "hl": [5, 6, 9]
+          "q": "What vegetable is it?",
+          "correct": "A carrot",
+          "wrong": [
+            "A tomato",
+            "A pepper"
+          ],
+          "hint": "Think about orange and long.",
+          "hl": [
+            1,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "What Drink Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🥛",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A drink is in a glass.",
+        "It is white.",
+        "It is not water. It is not milk.",
+        "It is a Turkish drink.",
+        "Tom says: I like this drink!",
+        "What drink is it?",
+        "It is ayran!"
+      ],
+      "translations": [
+        "Bir içecek bir bardakta.",
+        "Beyaz.",
+        "Bir su değil. Bir süt değil.",
+        "Bir Türk içeceği.",
+        "Tom diyor: Bu içeceği severim!",
+        "Bu hangi içecek?",
+        "Ayran!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the drink?",
+          "correct": "In a glass",
+          "wrong": [
+            "In a bowl",
+            "On the table"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour is the drink?",
+          "correct": "White",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is it water?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is the drink from?",
+          "correct": "Türkiye",
+          "wrong": [
+            "England",
+            "France"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What drink is it?",
+          "correct": "Ayran",
+          "wrong": [
+            "Water",
+            "Milk"
+          ],
+          "hint": "Think about Turkish and white.",
+          "hl": [
+            1,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "What Meal Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🍳",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A girl is in the kitchen.",
+        "It is morning time.",
+        "She has got some bread, some eggs and some milk.",
+        "She has got some tomatoes, too.",
+        "It is not lunch. It is not dinner.",
+        "What meal is it?",
+        "It is breakfast!"
+      ],
+      "translations": [
+        "Bir kız mutfakta.",
+        "Sabah zamanı.",
+        "Biraz ekmeği, biraz yumurtası ve biraz sütü var.",
+        "Biraz domatesi de var.",
+        "Öğle değil. Akşam yemeği değil.",
+        "Bu hangi öğün?",
+        "Kahvaltı!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the girl?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What part of the day is it?",
+          "correct": "Morning",
+          "wrong": [
+            "Evening",
+            "Night"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What food has she got?",
+          "correct": "Bread, eggs, milk, tomatoes",
+          "wrong": [
+            "Chicken and fish",
+            "Apples"
+          ],
+          "hint": "Read sentences 3-4.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Is it dinner?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What meal is it?",
+          "correct": "Breakfast",
+          "wrong": [
+            "Lunch",
+            "Dinner"
+          ],
+          "hint": "Think about morning and bread.",
+          "hl": [
+            1,
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Who Likes This Food?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🍗",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A plate has got some chicken and some bread.",
+        "Eda says: I don't like chicken!",
+        "Tom says: I like chicken. I have got fish today.",
+        "Can says: I like chicken! It is yummy for me.",
+        "Who has got this plate?",
+        "It is Can!"
+      ],
+      "translations": [
+        "Bir tabakta biraz tavuk ve biraz ekmek var.",
+        "Eda diyor: Tavuğu sevmem!",
+        "Tom diyor: Tavuğu severim. Bugün balığım var.",
+        "Can diyor: Tavuğu severim! Benim için nefis.",
+        "Bu tabak kimin?",
+        "Can'ın!"
+      ],
+      "questions": [
+        {
+          "q": "What is on the plate?",
+          "correct": "Chicken and bread",
+          "wrong": [
+            "Fish and apples",
+            "Eggs"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Does Eda like chicken?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Tom have today?",
+          "correct": "Fish",
+          "wrong": [
+            "Chicken",
+            "Eggs"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Does Can like chicken?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who has got the plate?",
+          "correct": "Can",
+          "wrong": [
+            "Eda",
+            "Tom"
+          ],
+          "hint": "Match the chicken.",
+          "hl": [
+            0,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "What Food Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🐟",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A food is from the sea.",
+        "It is not chicken. It is not meat.",
+        "It is white and small.",
+        "Lila says: I have got this food for dinner.",
+        "What food is it?",
+        "It is fish!"
+      ],
+      "translations": [
+        "Bir yiyecek denizden.",
+        "Tavuk değil. Et değil.",
+        "Beyaz ve küçük.",
+        "Lila diyor: Akşam yemeğinde bu yiyecekten var.",
+        "Bu hangi yiyecek?",
+        "Balık!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the food from?",
+          "correct": "The sea",
+          "wrong": [
+            "The garden",
+            "The kitchen"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it chicken?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the food?",
+          "correct": "White and small",
+          "wrong": [
+            "Red and big",
+            "Long and green"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "For what meal is this food?",
+          "correct": "For dinner",
+          "wrong": [
+            "For breakfast",
+            "For lunch"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What food is it?",
+          "correct": "Fish",
+          "wrong": [
+            "Chicken",
+            "Meat"
+          ],
+          "hint": "Think about the sea.",
+          "hl": [
+            0,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Who Asks for Ayran?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🥛",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A friend is in the kitchen.",
+        "Tom says: I like water.",
+        "Lila says: I like milk.",
+        "Eda says: I like ayran! Can I have some ayran, please?",
+        "Can says: I like tea.",
+        "The answer for ayran is here!",
+        "It is Eda!"
+      ],
+      "translations": [
+        "Bir arkadaş mutfakta.",
+        "Tom diyor: Suyu severim.",
+        "Lila diyor: Sütü severim.",
+        "Eda diyor: Ayranı severim! Biraz ayran alabilir miyim, lütfen?",
+        "Can diyor: Çayı severim.",
+        "Ayranın cevabı burada!",
+        "Eda!"
+      ],
+      "questions": [
+        {
+          "q": "What does Tom like?",
+          "correct": "Water",
+          "wrong": [
+            "Milk",
+            "Tea"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Lila like?",
+          "correct": "Milk",
+          "wrong": [
+            "Water",
+            "Tea"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Eda ask for?",
+          "correct": "Some ayran",
+          "wrong": [
+            "Some milk",
+            "Some tea"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Can like?",
+          "correct": "Tea",
+          "wrong": [
+            "Coffee",
+            "Ayran"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the answer?",
+          "correct": "Eda",
+          "wrong": [
+            "Tom",
+            "Lila"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Fruit or Vegetable?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🤔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A food is red and small.",
+        "It is not a strawberry. It is not a cherry.",
+        "Eda says: It is on my plate with lettuce.",
+        "It is not a fruit. It is a vegetable.",
+        "Is it a fruit or a vegetable?",
+        "It is a tomato!"
+      ],
+      "translations": [
+        "Bir yiyecek kırmızı ve küçük.",
+        "Bir çilek değil. Bir kiraz değil.",
+        "Eda diyor: Tabağımda marulla birlikte.",
+        "Bir meyve değil. Bir sebze.",
+        "Bir meyve mi sebze mi?",
+        "Bir domates!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is the food?",
+          "correct": "Red",
+          "wrong": [
+            "Green",
+            "Yellow"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it a strawberry?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the food?",
+          "correct": "On a plate",
+          "wrong": [
+            "In a bowl",
+            "In a glass"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What else is on the plate?",
+          "correct": "Lettuce",
+          "wrong": [
+            "Cherry",
+            "Bread"
+          ],
+          "hint": "Find lettuce.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is the food?",
+          "correct": "A tomato",
+          "wrong": [
+            "A strawberry",
+            "A cherry"
+          ],
+          "hint": "Think about red and a vegetable.",
+          "hl": [
+            0,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Which Meal of the Day?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🕐",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A child is in the kitchen.",
+        "He has got some chicken and some potatoes.",
+        "He has got some water.",
+        "It is not breakfast time.",
+        "It is not dinner time.",
+        "Tom says: My meal is yummy today!",
+        "What meal is it?",
+        "It is lunch!"
+      ],
+      "translations": [
+        "Bir çocuk mutfakta.",
+        "Biraz tavuğu ve biraz patatesi var.",
+        "Biraz suyu var.",
+        "Kahvaltı zamanı değil.",
+        "Akşam yemeği zamanı değil.",
+        "Tom diyor: Yemeğim bugün nefis!",
+        "Bu hangi öğün?",
+        "Öğle yemeği!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the child?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What food has he got?",
+          "correct": "Chicken and potatoes",
+          "wrong": [
+            "Fish and apples",
+            "Eggs and milk"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is it breakfast time?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it dinner time?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What meal is it?",
+          "correct": "Lunch",
+          "wrong": [
+            "Breakfast",
+            "Dinner"
+          ],
+          "hint": "Think about chicken and potatoes.",
+          "hl": [
+            3,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "Which Special Day with Food?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special day for children in Türkiye.",
+        "It is not a religious day.",
+        "It is not the 29th of October.",
+        "It is in spring.",
+        "The date is the 23rd of April.",
+        "Eda says: My family is in our kitchen with yummy food!",
+        "Can says: Happy day for the children!",
+        "What special day is it?",
+        "It is Children's Day!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de çocuklar için özel bir gün.",
+        "Bir dini gün değil.",
+        "29 Ekim değil.",
+        "İlkbaharda.",
+        "Tarih 23 Nisan.",
+        "Eda diyor: Ailem mutfağımızda nefis yemekle!",
+        "Can diyor: Çocuklar için mutlu gün!",
+        "Bu hangi özel gün?",
+        "Çocuk Bayramı!"
+      ],
+      "questions": [
+        {
+          "q": "Is today a religious day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What date is it?",
+          "correct": "The 23rd of April",
+          "wrong": [
+            "The 29th of October",
+            "The 15th of July"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is the family that Eda talks about?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "Happy day for the children!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Children's Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Think about children and spring.",
+          "hl": [
+            0,
+            4,
+            8
+          ]
         }
       ]
     }

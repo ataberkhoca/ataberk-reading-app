@@ -4,146 +4,1048 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "My Family",
-      "subtitle": "Find the right information!",
-      "icon": "👨‍👩‍👧‍👦",
+      "title": "This Is My Mother",
+      "subtitle": "Find the right answer!",
+      "icon": "👩",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Hi! I am Lily.",
-        "This is my family.",
-        "My father is tall and handsome.",
-        "My mother is lovely and beautiful.",
-        "My brother's name is Tom.",
-        "Tom is young and funny.",
-        "My grandmother is nice and kind.",
-        "I love my family!"
+        "Eda says: Look! This is my mother.",
+        "Who is she? She is my mother.",
+        "My mother has got blue eyes.",
+        "My mother has got long blond hair.",
+        "She is tall and beautiful.",
+        "Miss Oli says: Your mother is very nice!",
+        "My mother is great!"
       ],
       "translations": [
-        "Merhaba! Ben Lily.",
-        "Bu benim ailem.",
-        "Babam uzun boylu ve yakışıklı.",
-        "Annem sevimli ve güzel.",
-        "Kardeşimin adı Tom.",
-        "Tom genç ve eğlenceli.",
-        "Büyükannem güzel ve nazik.",
-        "Ailemi seviyorum!"
+        "Eda diyor: Bak! Bu benim annem.",
+        "O kim? O benim annem.",
+        "Annemin mavi gözleri var.",
+        "Annemin uzun sarı saçları var.",
+        "Uzun boylu ve güzel.",
+        "Miss Oli diyor: Annen çok hoş!",
+        "Annem harika!"
       ],
       "questions": [
         {
-          "q": "What is Lily's father like?",
-          "correct": "Tall and handsome",
-          "wrong": ["Lovely and beautiful", "Nice and kind"],
-          "hint": "Find the word father in the text.",
-          "hl": [2]
+          "q": "Who is she?",
+          "correct": "My mother",
+          "wrong": [
+            "My father",
+            "My sister"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0,
+            1
+          ]
         },
         {
-          "q": "What is Lily's brother's name?",
-          "correct": "Tom",
-          "wrong": ["Max", "Sam"],
-          "hint": "Find the word brother in the text.",
-          "hl": [4]
+          "q": "What colour eyes has she got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Who is nice and kind?",
-          "correct": "Lily's grandmother",
-          "wrong": ["Lily's mother", "Lily's father"],
-          "hint": "Find the words nice and kind in the text.",
-          "hl": [6]
+          "q": "What colour hair has she got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How many family members are in the text?",
-          "correct": "Four",
-          "wrong": ["Three", "Five"],
-          "hint": "Count the family members in the text.",
-          "hl": [2, 3, 4, 6]
+          "q": "Is she tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Lily say about her family at the end?",
-          "correct": "She loves her family",
-          "wrong": ["She misses her family", "She has a small family"],
-          "hint": "Read the last sentence.",
-          "hl": [7]
+          "q": "What does Miss Oli say?",
+          "correct": "Your mother is very nice!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "Who Is He?",
-      "subtitle": "Find the right person!",
-      "icon": "👪",
+      "title": "My Beautiful Mother",
+      "subtitle": "Find the right answer!",
+      "icon": "💐",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👩", "n": "Sarah" },
-        { "e": "👨", "n": "David" },
-        { "e": "👵", "n": "Rose" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Look! This is my family photo.",
-        "Who is he? He's my father.",
-        "Hi, Dad!",
-        "Who is she? She's my mother.",
-        "Hi, Mum!",
-        "Look! Over there!",
-        "Who is she? She's my grandmother.",
-        "Dad says: \"Lily is my daughter.\"",
-        "\"Tom is my son.\"",
-        "I love my family!"
+        "Can says: This is my mother.",
+        "Who is she? She is my mother.",
+        "She has got brown eyes.",
+        "She has got short dark hair.",
+        "My mother is short and nice.",
+        "She is very beautiful.",
+        "Tom says: Your mother is lovely!",
+        "My mum is great!"
       ],
       "translations": [
-        "Bak! Bu benim aile fotoğrafım.",
-        "O kim? O benim babam.",
-        "Merhaba, baba!",
+        "Can diyor: Bu benim annem.",
         "O kim? O benim annem.",
-        "Merhaba, anne!",
-        "Bak! Şurada!",
-        "O kim? O benim büyükannem.",
-        "Babam diyor ki: \"Lily benim kızım.\"",
-        "\"Tom benim oğlum.\"",
-        "Ailemi seviyorum!"
+        "Kahverengi gözleri var.",
+        "Kısa koyu saçları var.",
+        "Annem kısa boylu ve hoş.",
+        "Çok güzel.",
+        "Tom diyor: Annen çok şirin!",
+        "Annem harika!"
       ],
       "questions": [
         {
-          "q": "Who is the man in the photo?",
-          "correct": "Lily's father",
-          "wrong": ["Lily's brother", "Lily's grandfather"],
-          "hint": "Read 'Who is he?'",
-          "hl": [1]
+          "q": "Who is she?",
+          "correct": "My mother",
+          "wrong": [
+            "My father",
+            "My grandmother"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Who is over there?",
-          "correct": "Lily's grandmother",
-          "wrong": ["Lily's mother", "Lily's father"],
-          "hint": "Read after 'Over there!'",
-          "hl": [5, 6]
+          "q": "What colour eyes has she got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What does Lily call her mother?",
-          "correct": "Mum",
-          "wrong": ["Dad", "Grandma"],
-          "hint": "Find 'Hi' in the text.",
-          "hl": [4]
+          "q": "How is her hair?",
+          "correct": "Short and dark",
+          "wrong": [
+            "Long and blond",
+            "Big and red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Who is Dad's daughter?",
-          "correct": "Lily",
-          "wrong": ["Tom", "Sarah"],
-          "hint": "Find the word daughter.",
-          "hl": [7]
+          "q": "How is the mother?",
+          "correct": "Short and nice",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find the word short.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "Who is Dad's son?",
-          "correct": "Tom",
-          "wrong": ["Lily", "David"],
-          "hint": "Find the word son.",
-          "hl": [8]
+          "q": "What does Tom say?",
+          "correct": "Your mother is lovely!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-3",
+      "title": "This Is My Father",
+      "subtitle": "Find the right answer!",
+      "icon": "👨",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: Look! This is my father.",
+        "Who is he? He is my father.",
+        "My father has got blue eyes.",
+        "He has got short blond hair.",
+        "He is tall and handsome.",
+        "Lila says: Your father is very handsome!",
+        "My dad is great!"
+      ],
+      "translations": [
+        "Tom diyor: Bak! Bu benim babam.",
+        "O kim? O benim babam.",
+        "Babamın mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Uzun boylu ve yakışıklı.",
+        "Lila diyor: Baban çok yakışıklı!",
+        "Babam harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is he?",
+          "correct": "My father",
+          "wrong": [
+            "My brother",
+            "My grandfather"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes has he got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour hair has he got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is he tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "Your father is very handsome!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "My Handsome Dad",
+      "subtitle": "Find the right answer!",
+      "icon": "🤵",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: This is my father. He is my dad.",
+        "My dad has got green eyes.",
+        "He has got short dark hair.",
+        "My father is tall and handsome.",
+        "Can says: Your dad is so cool!",
+        "Eda says: My dad is great!",
+        "Miss Oli says: Family is very nice!"
+      ],
+      "translations": [
+        "Eda diyor: Bu benim babam. O benim babacığım.",
+        "Babamın yeşil gözleri var.",
+        "Kısa koyu saçları var.",
+        "Babam uzun boylu ve yakışıklı.",
+        "Can diyor: Baban çok havalı!",
+        "Eda diyor: Babam harika!",
+        "Miss Oli diyor: Aile çok güzel!"
+      ],
+      "questions": [
+        {
+          "q": "Who is he?",
+          "correct": "My father",
+          "wrong": [
+            "My mother",
+            "My brother"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes has he got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has he got?",
+          "correct": "Dark",
+          "wrong": [
+            "Blond",
+            "Red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the father?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and small",
+            "Big and tired"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Can say?",
+          "correct": "Your dad is so cool!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "My Big Brother",
+      "subtitle": "Find the right answer!",
+      "icon": "👬",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: This is my big brother.",
+        "Who is he? He is my brother.",
+        "His name is Deniz.",
+        "My brother has got brown eyes.",
+        "He has got short blond hair.",
+        "He is tall and nice.",
+        "Eda says: Your brother is very handsome!",
+        "My brother is great!"
+      ],
+      "translations": [
+        "Lila diyor: Bu benim ağabeyim.",
+        "O kim? O benim erkek kardeşim.",
+        "Onun adı Deniz.",
+        "Erkek kardeşimin kahverengi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Uzun boylu ve hoş.",
+        "Eda diyor: Erkek kardeşin çok yakışıklı!",
+        "Erkek kardeşim harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is he?",
+          "correct": "My brother",
+          "wrong": [
+            "My father",
+            "My grandfather"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is his name?",
+          "correct": "Deniz",
+          "wrong": [
+            "Tom",
+            "Can"
+          ],
+          "hint": "Find name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has he got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour hair has he got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "Your brother is very handsome!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "My Little Sister",
+      "subtitle": "Find the right answer!",
+      "icon": "👧🏼",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: This is my little sister.",
+        "Who is she? She is my sister.",
+        "Her name is Ela.",
+        "She has got big blue eyes.",
+        "She has got short blond hair.",
+        "My sister is small and nice.",
+        "Tom says: Your sister is very beautiful!",
+        "My little sister is great!"
+      ],
+      "translations": [
+        "Eda diyor: Bu benim küçük kız kardeşim.",
+        "O kim? O benim kız kardeşim.",
+        "Onun adı Ela.",
+        "Büyük mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Kız kardeşim küçük ve hoş.",
+        "Tom diyor: Kız kardeşin çok güzel!",
+        "Küçük kız kardeşim harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is she?",
+          "correct": "My sister",
+          "wrong": [
+            "My mother",
+            "My grandmother"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is her name?",
+          "correct": "Ela",
+          "wrong": [
+            "Mia",
+            "Lila"
+          ],
+          "hint": "Find name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has she got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is her hair?",
+          "correct": "Short and blond",
+          "wrong": [
+            "Long and dark",
+            "Big and red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is the little sister?",
+          "correct": "Small and nice",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find the word small.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "My Lovely Grandma",
+      "subtitle": "Find the right answer!",
+      "icon": "👵",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: This is my grandmother.",
+        "Who is she? She is my grandma.",
+        "Her name is Ayşe.",
+        "My grandma has got green eyes.",
+        "She has got short dark hair.",
+        "She is short and beautiful.",
+        "Lila says: Your grandma is so lovely!",
+        "My grandma is great!"
+      ],
+      "translations": [
+        "Can diyor: Bu benim büyükannem.",
+        "O kim? O benim büyükannem.",
+        "Onun adı Ayşe.",
+        "Büyükannemin yeşil gözleri var.",
+        "Kısa koyu saçları var.",
+        "Kısa boylu ve güzel.",
+        "Lila diyor: Büyükannen çok şirin!",
+        "Büyükannem harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is she?",
+          "correct": "My grandmother",
+          "wrong": [
+            "My mother",
+            "My sister"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is her name?",
+          "correct": "Ayşe",
+          "wrong": [
+            "Ela",
+            "Mia"
+          ],
+          "hint": "Find name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has she got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is her hair?",
+          "correct": "Short and dark",
+          "wrong": [
+            "Long and blond",
+            "Big and red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "Your grandma is so lovely!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "My Wise Grandpa",
+      "subtitle": "Find the right answer!",
+      "icon": "👴",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: This is my grandfather.",
+        "Who is he? He is my grandpa.",
+        "His name is Ali.",
+        "My grandpa has got blue eyes.",
+        "He has got short white hair.",
+        "He is tall and handsome.",
+        "Tom says: Your grandpa is so nice!",
+        "My grandpa is great!"
+      ],
+      "translations": [
+        "Can diyor: Bu benim büyükbabam.",
+        "O kim? O benim büyükbabam.",
+        "Onun adı Ali.",
+        "Büyükbabamın mavi gözleri var.",
+        "Kısa beyaz saçları var.",
+        "Uzun boylu ve yakışıklı.",
+        "Tom diyor: Büyükbaban çok hoş!",
+        "Büyükbabam harika!"
+      ],
+      "questions": [
+        {
+          "q": "Who is he?",
+          "correct": "My grandfather",
+          "wrong": [
+            "My father",
+            "My brother"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is his name?",
+          "correct": "Ali",
+          "wrong": [
+            "Deniz",
+            "Tom"
+          ],
+          "hint": "Find name.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has he got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour hair has he got?",
+          "correct": "White",
+          "wrong": [
+            "Blond",
+            "Dark"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is he tall?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "My Big Family",
+      "subtitle": "Find the right answer!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: This is my family!",
+        "My family is small. My family is lovely.",
+        "My mother is short and nice.",
+        "My father is tall and handsome.",
+        "My big sister is beautiful. Her name is Mia.",
+        "Mia is twelve years old.",
+        "My family is great!",
+        "Eda says: Your family is so nice, Tom!"
+      ],
+      "translations": [
+        "Tom diyor: Bu benim ailem!",
+        "Ailem küçük. Ailem sevimli.",
+        "Annem kısa boylu ve hoş.",
+        "Babam uzun boylu ve yakışıklı.",
+        "Ablam güzel. Onun adı Mia.",
+        "Mia on iki yaşında.",
+        "Ailem harika!",
+        "Eda diyor: Ailen çok hoş, Tom!"
+      ],
+      "questions": [
+        {
+          "q": "How is the family?",
+          "correct": "Small and lovely",
+          "wrong": [
+            "Big and sad",
+            "Tall and tired"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the mother?",
+          "correct": "Short and nice",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find mother.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the father?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and small",
+            "Big and sad"
+          ],
+          "hint": "Find father.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the sister's name?",
+          "correct": "Mia",
+          "wrong": [
+            "Ela",
+            "Ayşe"
+          ],
+          "hint": "Find sister.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is Mia?",
+          "correct": "Twelve",
+          "wrong": [
+            "Seven",
+            "Eight"
+          ],
+          "hint": "Find old.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "Eid with My Family",
+      "subtitle": "Find the right answer!",
+      "icon": "🌙",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special day in Türkiye.",
+        "It is Eid al-Fitr.",
+        "Eda says: My family is here today!",
+        "This is my mother. She has got blue eyes.",
+        "This is my father. He is tall.",
+        "This is my little sister, Ela.",
+        "Lila says: My grandmother is here, too!",
+        "My grandma has got white hair.",
+        "Happy Eid, everyone!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de özel bir gün.",
+        "Ramazan Bayramı.",
+        "Eda diyor: Bugün ailem burada!",
+        "Bu benim annem. Mavi gözleri var.",
+        "Bu benim babam. Uzun boylu.",
+        "Bu benim küçük kız kardeşim, Ela.",
+        "Lila diyor: Benim büyükannem de burada!",
+        "Büyükannemin beyaz saçları var.",
+        "Herkese mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What special day is it?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the mother got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find mother.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is the father?",
+          "correct": "Tall",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find father.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the name of the little sister?",
+          "correct": "Ela",
+          "wrong": [
+            "Mia",
+            "Ayşe"
+          ],
+          "hint": "Find sister.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour hair has the grandma got?",
+          "correct": "White",
+          "wrong": [
+            "Blond",
+            "Dark"
+          ],
+          "hint": "Find grandma.",
+          "hl": [
+            7
+          ]
         }
       ]
     }
@@ -151,149 +1053,1063 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "Our Family Album",
+      "title": "All About My Mum",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "📷",
+      "icon": "👩",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "This is our family album.",
-        "This is my father.",
-        "My father's name is David.",
-        "This is my mother.",
-        "My mother's name is Sarah.",
-        "This is my grandfather.",
-        "My grandfather is old and kind.",
-        "This is my baby sister.",
-        "My baby sister's name is Mia.",
-        "I love my family!"
+        "Lila says: Look at my mother!",
+        "My mother has got blue eyes.",
+        "She has got long blond hair.",
+        "My mum is tall and beautiful.",
+        "She is very nice.",
+        "Eda says: My mum is beautiful, too!",
+        "My mum has got blue eyes and blond hair.",
+        "Mums are great!"
       ],
       "translations": [
-        "Bu bizim aile albümümüz.",
-        "Bu benim babam.",
-        "Babamın adı David.",
-        "Bu benim annem.",
-        "Annemin adı Sarah.",
-        "Bu benim büyükbabam.",
-        "Büyükbabam yaşlı ve nazik.",
-        "Bu benim bebek kardeşim.",
-        "Bebek kardeşimin adı Mia.",
-        "Ailemi seviyorum!"
+        "Lila diyor: Anneme bak!",
+        "Annemin mavi gözleri var.",
+        "Uzun sarı saçları var.",
+        "Annem uzun boylu ve güzel.",
+        "Çok hoş.",
+        "Eda diyor: Benim annem de güzel!",
+        "Annemin mavi gözleri ve sarı saçları var.",
+        "Anneler harika!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "A family and its members",
-          "wrong": ["A birthday celebration", "A school day"],
-          "hint": "Look at all the family members in the text.",
-          "hl": [1, 3, 5, 7]
+          "correct": "Two mothers",
+          "wrong": [
+            "Two fathers",
+            "Two sisters"
+          ],
+          "hint": "Think about who is talked about.",
+          "hl": [
+            0,
+            5
+          ]
         },
         {
-          "q": "What is the text?",
-          "correct": "A family album",
-          "wrong": ["A school timetable", "A weather report"],
-          "hint": "Read the first sentence.",
-          "hl": [0]
+          "q": "What colour eyes does Lila talk about?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find Lila in sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "How many family members are introduced in the text?",
-          "correct": "Four",
-          "wrong": ["Three", "Five"],
-          "hint": "Count the family members in the text.",
-          "hl": [1, 3, 5, 7]
+          "q": "How is the mum that Lila talks about?",
+          "correct": "Tall and beautiful",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What is the baby sister's name?",
-          "correct": "Mia",
-          "wrong": ["Sarah", "Lily"],
-          "hint": "Find the words baby sister in the text.",
-          "hl": [8]
+          "q": "How does Eda describe her mum?",
+          "correct": "Beautiful",
+          "wrong": [
+            "Short",
+            "Tired"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "How does Lily feel about her family?",
-          "correct": "She loves them",
-          "wrong": ["She is sad", "She is bored"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "What does Eda say about hair?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find Eda in sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
-      "title": "Sorry, Mum!",
+      "title": "All About My Dad",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🤗",
+      "icon": "👨",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Tom" },
-        { "e": "👩", "n": "Sarah" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Tom and Lily are at home.",
-        "Oh no! Tom drops a cup.",
-        "Tom says: \"I'm sorry, Mum!\"",
-        "Mum says: \"That's fine!\"",
-        "\"It's all right!\"",
-        "Lily says: \"I'm sorry, too!\"",
-        "\"All right!\"",
-        "Tom says: \"What about me?\"",
-        "Mum smiles at everyone.",
-        "Everyone is happy again."
+        "Tom says: Look at my father!",
+        "My father has got blue eyes.",
+        "He has got short blond hair.",
+        "My dad is tall and handsome.",
+        "Can says: My dad has got brown eyes!",
+        "He has got short dark hair.",
+        "My dad is tall and nice.",
+        "Our dads are great!"
       ],
       "translations": [
-        "Tom ve Lily evde.",
-        "Eyvah! Tom bir bardak düşürüyor.",
-        "Tom diyor ki: \"Özür dilerim, anne!\"",
-        "Annesi diyor ki: \"Sorun değil!\"",
-        "\"Önemli değil!\"",
-        "Lily diyor ki: \"Ben de özür dilerim!\"",
-        "\"Tamam!\"",
-        "Tom diyor ki: \"Peki ya ben?\"",
-        "Annesi herkese gülümsüyor.",
-        "Herkes yine mutlu."
+        "Tom diyor: Babama bak!",
+        "Babamın mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Babam uzun boylu ve yakışıklı.",
+        "Can diyor: Benim babamın kahverengi gözleri var!",
+        "Kısa koyu saçları var.",
+        "Babam uzun boylu ve hoş.",
+        "Babalarımız harika!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Saying sorry and making up",
-          "wrong": ["A birthday party", "A family photo"],
-          "hint": "Look at what Tom and Lily say.",
-          "hl": [2, 5]
+          "correct": "Two fathers",
+          "wrong": [
+            "Two mothers",
+            "Two friends"
+          ],
+          "hint": "Think about who is talked about.",
+          "hl": [
+            0,
+            4
+          ]
         },
         {
-          "q": "What does Tom drop?",
-          "correct": "A cup",
-          "wrong": ["A book", "A plate"],
-          "hint": "Read the second sentence.",
-          "hl": [1]
+          "q": "What colour eyes does Tom talk about?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find Tom in sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What does Mum say to Tom?",
-          "correct": "That's fine!",
-          "wrong": ["What about me?", "I'm sorry!"],
-          "hint": "Read what Mum says after Tom is sorry.",
-          "hl": [2, 3]
+          "q": "How is the dad that Tom talks about?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How does the family feel at the end?",
-          "correct": "Happy",
-          "wrong": ["Angry", "Sad"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "What colour eyes does Can talk about?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What kind of text is this?",
-          "correct": "A family making up after a small accident",
-          "wrong": ["A weather report", "A school timetable"],
-          "hint": "Look at the accident and the kind words.",
-          "hl": [1, 3, 4]
+          "q": "How is the dad that Can talks about?",
+          "correct": "Tall and nice",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Brothers and Sisters",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👫",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: I have got a brother.",
+        "His name is Deniz. He is ten years old.",
+        "My brother has got brown eyes and blond hair.",
+        "He is tall and nice.",
+        "Eda says: I have got a sister, too!",
+        "Her name is Ela. She is four years old.",
+        "My sister has got big blue eyes.",
+        "She is small and beautiful.",
+        "Brothers and sisters are great!"
+      ],
+      "translations": [
+        "Lila diyor: Bir erkek kardeşim var.",
+        "Onun adı Deniz. On yaşında.",
+        "Erkek kardeşimin kahverengi gözleri ve sarı saçları var.",
+        "Uzun boylu ve hoş.",
+        "Eda diyor: Benim de bir kız kardeşim var!",
+        "Onun adı Ela. Dört yaşında.",
+        "Kız kardeşimin büyük mavi gözleri var.",
+        "Küçük ve güzel.",
+        "Erkek ve kız kardeşler harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A brother and a sister",
+          "wrong": [
+            "Two mothers",
+            "Two fathers"
+          ],
+          "hint": "Think about who is talked about.",
+          "hl": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": "How old is Deniz?",
+          "correct": "Ten",
+          "wrong": [
+            "Seven",
+            "Four"
+          ],
+          "hint": "Find Deniz.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the brother got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find brother.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is Ela?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is the sister?",
+          "correct": "Small and beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find sister.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "My Lovely Grandparents",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👴👵",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: I have got grandparents.",
+        "This is my grandmother. Her name is Ayşe.",
+        "She has got green eyes. She has got short dark hair.",
+        "My grandma is short and beautiful.",
+        "This is my grandfather. His name is Ali.",
+        "He has got blue eyes. He has got short white hair.",
+        "My grandpa is tall and handsome.",
+        "I am happy with my grandparents!"
+      ],
+      "translations": [
+        "Can diyor: Büyükannem ve büyükbabam var.",
+        "Bu benim büyükannem. Onun adı Ayşe.",
+        "Yeşil gözleri var. Kısa koyu saçları var.",
+        "Büyükannem kısa boylu ve güzel.",
+        "Bu benim büyükbabam. Onun adı Ali.",
+        "Mavi gözleri var. Kısa beyaz saçları var.",
+        "Büyükbabam uzun boylu ve yakışıklı.",
+        "Büyükannem ve büyükbabamla mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Grandparents",
+          "wrong": [
+            "Parents",
+            "Brothers"
+          ],
+          "hint": "Think about who is described.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What name does Can use for his grandma?",
+          "correct": "Ayşe",
+          "wrong": [
+            "Ela",
+            "Mia"
+          ],
+          "hint": "Find grandma in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the grandma got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find grandma.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What name does Can use for his grandpa?",
+          "correct": "Ali",
+          "wrong": [
+            "Deniz",
+            "Tom"
+          ],
+          "hint": "Find grandpa in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is the grandpa?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find grandpa.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Little Ela",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👧🏼",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: This is my little sister.",
+        "Her name is Ela. She is four years old.",
+        "She has got big blue eyes.",
+        "She has got short blond hair.",
+        "Ela is small and very beautiful.",
+        "Lila says: Your sister is so nice!",
+        "Eda says: Ela is the baby of my family!",
+        "My little sister is great!"
+      ],
+      "translations": [
+        "Eda diyor: Bu benim küçük kız kardeşim.",
+        "Onun adı Ela. Dört yaşında.",
+        "Büyük mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Ela küçük ve çok güzel.",
+        "Lila diyor: Kız kardeşin çok hoş!",
+        "Eda diyor: Ela ailemin bebeği!",
+        "Küçük kız kardeşim harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A little sister",
+          "wrong": [
+            "A brother",
+            "A mother"
+          ],
+          "hint": "Think about who is described.",
+          "hl": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": "How old is Ela?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has Ela got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Ela?",
+          "correct": "Small and very beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is Ela in the family?",
+          "correct": "The baby",
+          "wrong": [
+            "The mother",
+            "The grandma"
+          ],
+          "hint": "Find baby.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Big Brother Deniz",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🧒",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: This is my brother.",
+        "His name is Deniz. He is ten years old.",
+        "Deniz has got brown eyes.",
+        "He has got short blond hair.",
+        "My brother is tall and nice.",
+        "Can says: Your brother is so handsome!",
+        "Lila says: My brother is the son of my mum and dad!",
+        "Big brothers are great!"
+      ],
+      "translations": [
+        "Lila diyor: Bu benim erkek kardeşim.",
+        "Onun adı Deniz. On yaşında.",
+        "Deniz'in kahverengi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Erkek kardeşim uzun boylu ve hoş.",
+        "Can diyor: Erkek kardeşin çok yakışıklı!",
+        "Lila diyor: Erkek kardeşim annemin ve babamın oğlu!",
+        "Ağabeyler harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A big brother",
+          "wrong": [
+            "A sister",
+            "A grandfather"
+          ],
+          "hint": "Think about who is described.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How old is Deniz?",
+          "correct": "Ten",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Find Deniz.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has Deniz got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is the brother?",
+          "correct": "Tall and nice",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find brother.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say about her brother?",
+          "correct": "He is the son of mum and dad",
+          "wrong": [
+            "He is a baby",
+            "He is tired"
+          ],
+          "hint": "Find Lila in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "My Mum and Dad",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👨‍👩",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: This is my mum. This is my dad.",
+        "My mum has got brown eyes.",
+        "She has got short dark hair.",
+        "My mum is short and very nice.",
+        "My dad has got blue eyes.",
+        "He has got short blond hair.",
+        "My dad is tall and handsome.",
+        "I am happy with my mum and dad!"
+      ],
+      "translations": [
+        "Tom diyor: Bu benim annem. Bu benim babam.",
+        "Annemin kahverengi gözleri var.",
+        "Kısa koyu saçları var.",
+        "Annem kısa boylu ve çok hoş.",
+        "Babamın mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Babam uzun boylu ve yakışıklı.",
+        "Annem ve babamla mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A mum and a dad",
+          "wrong": [
+            "Two sisters",
+            "Two brothers"
+          ],
+          "hint": "Think about who is talked about.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes has the mum got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the mum?",
+          "correct": "Short and very nice",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour hair has the dad got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is the dad?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and small",
+            "Big and sad"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "My Whole Family",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: This is my family!",
+        "My mum has got blue eyes and blond hair.",
+        "My dad has got green eyes and dark hair.",
+        "My little sister Ela has got blue eyes and blond hair.",
+        "Ela is four years old.",
+        "I have got my mum, my dad and my little sister.",
+        "Lila says: Your family is so nice!",
+        "I am happy with my family!"
+      ],
+      "translations": [
+        "Eda diyor: Bu benim ailem!",
+        "Annemin mavi gözleri ve sarı saçları var.",
+        "Babamın yeşil gözleri ve koyu saçları var.",
+        "Küçük kız kardeşim Ela'nın mavi gözleri ve sarı saçları var.",
+        "Ela dört yaşında.",
+        "Annem, babam ve küçük kız kardeşim var.",
+        "Lila diyor: Ailen çok hoş!",
+        "Ailemle mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A family",
+          "wrong": [
+            "School",
+            "Weather"
+          ],
+          "hint": "Think about who is described.",
+          "hl": [
+            0,
+            5
+          ]
+        },
+        {
+          "q": "What colour eyes has the mum got?",
+          "correct": "Blue",
+          "wrong": [
+            "Green",
+            "Dark"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has the dad got?",
+          "correct": "Dark",
+          "wrong": [
+            "Blond",
+            "Red"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What name does Eda use for her little sister?",
+          "correct": "Ela",
+          "wrong": [
+            "Mia",
+            "Ayşe"
+          ],
+          "hint": "Find little sister in sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How old is Ela?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Three Generations",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👴👨👦",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: I have got a big family!",
+        "My grandpa Ali has got blue eyes and white hair.",
+        "My grandma Ayşe has got green eyes and dark hair.",
+        "My dad has got dark hair and brown eyes.",
+        "My mum is short and very beautiful.",
+        "I am eight years old.",
+        "Three generations of my family!",
+        "I am happy with my big family!"
+      ],
+      "translations": [
+        "Can diyor: Büyük bir ailem var!",
+        "Büyükbabam Ali'nin mavi gözleri ve beyaz saçları var.",
+        "Büyükannem Ayşe'nin yeşil gözleri ve koyu saçları var.",
+        "Babamın koyu saçları ve kahverengi gözleri var.",
+        "Annem kısa boylu ve çok güzel.",
+        "Sekiz yaşındayım.",
+        "Ailemin üç kuşağı!",
+        "Büyük ailemle mutluyum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A big family with three generations",
+          "wrong": [
+            "A school",
+            "A house"
+          ],
+          "hint": "Read the title hint.",
+          "hl": [
+            0,
+            6
+          ]
+        },
+        {
+          "q": "What colour eyes has the grandpa got?",
+          "correct": "Blue",
+          "wrong": [
+            "Green",
+            "Brown"
+          ],
+          "hint": "Find grandpa.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has the grandma got?",
+          "correct": "Dark",
+          "wrong": [
+            "Blond",
+            "Red"
+          ],
+          "hint": "Find grandma.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the mum?",
+          "correct": "Short and very beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is Can?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "19 May with My Family",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🇹🇷",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the 19th of May.",
+        "It is Commemoration of Atatürk, Youth and Sports Day.",
+        "Lila says: My family is here today!",
+        "My mum has got blond hair.",
+        "My dad is tall.",
+        "Tom says: My family is here, too!",
+        "My mum is nice. My dad is handsome.",
+        "We are with our families today!",
+        "Happy 19th of May!"
+      ],
+      "translations": [
+        "Bugün 19 Mayıs.",
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı.",
+        "Lila diyor: Bugün ailem burada!",
+        "Annemin sarı saçları var.",
+        "Babam uzun boylu.",
+        "Tom diyor: Ailem de burada!",
+        "Annem hoş. Babam yakışıklı.",
+        "Bugün ailelerimizle birlikteyiz!",
+        "19 Mayıs kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A national day with families",
+          "wrong": [
+            "School lessons",
+            "Weather"
+          ],
+          "hint": "Think about the day.",
+          "hl": [
+            1,
+            7
+          ]
+        },
+        {
+          "q": "What date is it today?",
+          "correct": "The 19th of May",
+          "wrong": [
+            "The 23rd of April",
+            "The 15th of July"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Lila say about her mum?",
+          "correct": "She has got blond hair",
+          "wrong": [
+            "She is sad",
+            "She is tired"
+          ],
+          "hint": "Find Lila in sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Lila say about her dad?",
+          "correct": "He is tall",
+          "wrong": [
+            "He is short",
+            "He is small"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom say about his mum?",
+          "correct": "She is nice",
+          "wrong": [
+            "She is sad",
+            "She is tired"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -301,155 +2117,1080 @@
   "int": [
     {
       "id": "int-1",
-      "title": "My Beautiful Family",
+      "title": "A Talk About My Mother",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "👁️",
+      "icon": "👩",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👩", "n": "Sarah" },
-        { "e": "👨", "n": "David" },
-        { "e": "👵", "n": "Rose" }
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "My mother's name is Sarah.",
-        "Sarah has got long dark hair.",
-        "Sarah has got brown eyes.",
-        "My father's name is David.",
-        "David is tall and handsome.",
-        "David has got short blonde hair.",
-        "My grandmother's name is Rose.",
-        "Rose has got short white hair and green eyes.",
-        "My grandfather is tall and old."
+        "Miss Oli says: Eda, who is in the photo?",
+        "Eda says: This is my mother.",
+        "Miss Oli says: How is your mother?",
+        "Eda says: My mother has got big blue eyes.",
+        "She has got long blond hair.",
+        "My mum is tall and very beautiful.",
+        "She is also very nice.",
+        "Miss Oli says: Your mum is wonderful, Eda!",
+        "Eda is happy with her mother!"
       ],
       "translations": [
-        "Annemin adı Sarah.",
-        "Sarah'nın uzun koyu saçları var.",
-        "Sarah'nın kahverengi gözleri var.",
-        "Babamın adı David.",
-        "David uzun boylu ve yakışıklı.",
-        "David'in kısa sarı saçları var.",
-        "Büyükannemin adı Rose.",
-        "Rose'un kısa beyaz saçları ve yeşil gözleri var.",
-        "Büyükbabam uzun boylu ve yaşlı."
+        "Miss Oli diyor: Eda, fotoğrafta kim var?",
+        "Eda diyor: Bu benim annem.",
+        "Miss Oli diyor: Annen nasıl?",
+        "Eda diyor: Annemin büyük mavi gözleri var.",
+        "Uzun sarı saçları var.",
+        "Annem uzun boylu ve çok güzel.",
+        "Aynı zamanda çok hoş.",
+        "Miss Oli diyor: Annen harika, Eda!",
+        "Eda annesiyle mutlu!"
       ],
       "questions": [
         {
-          "q": "What colour hair has Sarah got?",
-          "correct": "Long dark hair",
-          "wrong": ["Short blonde hair", "Short white hair"],
-          "hint": "Find Sarah in the text.",
-          "hl": [1]
+          "q": "Who is in the photo?",
+          "correct": "A mother",
+          "wrong": [
+            "A father",
+            "A sister"
+          ],
+          "hint": "Find Eda in sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What colour eyes has Sarah got?",
-          "correct": "Brown",
-          "wrong": ["Green", "Blue"],
-          "hint": "Find the word eyes near Sarah's name.",
-          "hl": [2]
+          "q": "What colour eyes has the mother got?",
+          "correct": "Big and blue",
+          "wrong": [
+            "Small and dark",
+            "Long and green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Who has got short blonde hair?",
-          "correct": "David",
-          "wrong": ["Sarah", "Rose"],
-          "hint": "Find the words blonde hair in the text.",
-          "hl": [5]
+          "q": "What colour hair has the mother got?",
+          "correct": "Long and blond",
+          "wrong": [
+            "Short and dark",
+            "Big and red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What colour eyes has Rose got?",
-          "correct": "Green",
-          "wrong": ["Brown", "Blue"],
-          "hint": "Find Rose in the text.",
-          "hl": [7]
+          "q": "How is the mother?",
+          "correct": "Tall and very beautiful",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find tall.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Who is tall in the family?",
-          "correct": "David and grandfather",
-          "wrong": ["Sarah and Rose", "David and Rose"],
-          "hint": "Find the word tall in the text.",
-          "hl": [4, 8]
+          "q": "What does Miss Oli say to Eda?",
+          "correct": "Your mum is wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "int-2",
-      "title": "She's Got Blue Eyes",
+      "title": "A Talk About My Father",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "👀",
+      "icon": "👨",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👧", "n": "Mia" },
-        { "e": "👩", "n": "Sarah" },
-        { "e": "👨", "n": "David" }
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "This is my family album.",
-        "This is my friend Mia.",
-        "She's got blue eyes.",
-        "She's got long blond hair.",
-        "You look great!",
-        "This is my mother.",
-        "My mother's got brown eyes.",
-        "She's got short dark hair.",
-        "This is my father.",
-        "He's got green eyes.",
-        "It's very lovely!",
-        "I love my beautiful family!"
+        "Miss Oli says: Tom, who is in your photo?",
+        "Tom says: This is my father.",
+        "Miss Oli says: Tell me about him!",
+        "Tom says: My father has got blue eyes.",
+        "He has got short blond hair.",
+        "My dad is very tall and handsome.",
+        "Can says: My dad has got brown eyes!",
+        "He has got short dark hair.",
+        "My dad is also tall and nice.",
+        "Miss Oli says: Both dads are wonderful!"
       ],
       "translations": [
-        "Bu benim aile albümüm.",
-        "Bu benim arkadaşım Mia.",
-        "Onun mavi gözleri var.",
-        "Onun uzun sarı saçları var.",
-        "Harika görünüyorsun!",
-        "Bu benim annem.",
-        "Annemin kahverengi gözleri var.",
-        "Onun kısa koyu saçları var.",
-        "Bu benim babam.",
-        "Onun yeşil gözleri var.",
-        "Çok güzel!",
-        "Güzel ailemi seviyorum!"
+        "Miss Oli diyor: Tom, senin fotoğrafında kim var?",
+        "Tom diyor: Bu benim babam.",
+        "Miss Oli diyor: Onu anlat!",
+        "Tom diyor: Babamın mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Babam çok uzun boylu ve yakışıklı.",
+        "Can diyor: Benim babamın kahverengi gözleri var!",
+        "Kısa koyu saçları var.",
+        "Babam da uzun boylu ve hoş.",
+        "Miss Oli diyor: İki baba da harika!"
       ],
       "questions": [
         {
-          "q": "What colour eyes has Mia got?",
+          "q": "Who does Tom show?",
+          "correct": "His father",
+          "wrong": [
+            "His mother",
+            "His brother"
+          ],
+          "hint": "Find Tom in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes does Tom describe?",
           "correct": "Blue",
-          "wrong": ["Brown", "Green"],
-          "hint": "Find Mia in the text.",
-          "hl": [1, 2]
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find Tom in sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What colour eyes has Lily's mother got?",
+          "q": "How does Tom describe his father?",
+          "correct": "Very tall and handsome",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Tom in sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour eyes does Can describe?",
           "correct": "Brown",
-          "wrong": ["Blue", "Green"],
-          "hint": "Find the word mother.",
-          "hl": [5, 6]
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What is Mia's hair like?",
-          "correct": "Long and blond",
-          "wrong": ["Short and dark", "Short and white"],
-          "hint": "Find Mia's hair.",
-          "hl": [3]
+          "q": "What does Miss Oli say in the last sentence?",
+          "correct": "Both dads are wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-3",
+      "title": "Brothers and Sisters at School",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
         },
         {
-          "q": "What colour eyes has Lily's father got?",
-          "correct": "Green",
-          "wrong": ["Brown", "Blue"],
-          "hint": "Find the word father.",
-          "hl": [8, 9]
+          "e": "👧",
+          "n": "Eda"
         },
         {
-          "q": "What does Lily say about Mia?",
-          "correct": "You look great!",
-          "wrong": ["What about me?", "It's lunchtime!"],
-          "hint": "Find the kind words after Mia's hair.",
-          "hl": [4]
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: Tell me about your siblings!",
+        "Lila says: I have got a big brother.",
+        "His name is Deniz. He is ten years old.",
+        "My brother has got brown eyes and short blond hair.",
+        "He is tall and very nice.",
+        "Eda says: I have got a little sister!",
+        "Her name is Ela. She is four years old.",
+        "Ela has got big blue eyes and short blond hair.",
+        "She is small and very beautiful.",
+        "Miss Oli says: Brothers and sisters are wonderful!"
+      ],
+      "translations": [
+        "Miss Oli diyor: Kardeşlerinizi anlatın!",
+        "Lila diyor: Bir büyük erkek kardeşim var.",
+        "Onun adı Deniz. On yaşında.",
+        "Erkek kardeşimin kahverengi gözleri ve kısa sarı saçları var.",
+        "Uzun boylu ve çok hoş.",
+        "Eda diyor: Benim de küçük bir kız kardeşim var!",
+        "Onun adı Ela. Dört yaşında.",
+        "Ela'nın büyük mavi gözleri ve kısa sarı saçları var.",
+        "Küçük ve çok güzel.",
+        "Miss Oli diyor: Erkek ve kız kardeşler harika!"
+      ],
+      "questions": [
+        {
+          "q": "How old is the brother that Lila talks about?",
+          "correct": "Ten",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Find Lila in sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Lila say about the brother?",
+          "correct": "Tall and very nice",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Lila in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is the sister that Eda talks about?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Eda in sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What colour eyes has Ela got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Miss Oli say in the last sentence?",
+          "correct": "Brothers and sisters are wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "My Grandparents Are Here",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👴👵",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today my grandparents are here in our school.",
+        "Can says: This is my grandma. Her name is Ayşe.",
+        "My grandma has got green eyes and short dark hair.",
+        "She is short and very beautiful.",
+        "Can says: This is my grandpa. His name is Ali.",
+        "My grandpa has got blue eyes and short white hair.",
+        "He is tall and very handsome.",
+        "Tom says: Your grandparents are wonderful, Can!",
+        "Can is happy today!"
+      ],
+      "translations": [
+        "Bugün büyükannem ve büyükbabam okulumuzda.",
+        "Can diyor: Bu benim büyükannem. Onun adı Ayşe.",
+        "Büyükannemin yeşil gözleri ve kısa koyu saçları var.",
+        "Kısa boylu ve çok güzel.",
+        "Can diyor: Bu benim büyükbabam. Onun adı Ali.",
+        "Büyükbabamın mavi gözleri ve kısa beyaz saçları var.",
+        "Uzun boylu ve çok yakışıklı.",
+        "Tom diyor: Büyükannen ve büyükbaban harika, Can!",
+        "Can bugün mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Where are the grandparents today?",
+          "correct": "In our school",
+          "wrong": [
+            "In a park",
+            "In a shop"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What name does Can use for the grandma?",
+          "correct": "Ayşe",
+          "wrong": [
+            "Mia",
+            "Ela"
+          ],
+          "hint": "Find Can in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the grandma?",
+          "correct": "Short and very beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find grandma.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour eyes has the grandpa got?",
+          "correct": "Blue",
+          "wrong": [
+            "Green",
+            "Brown"
+          ],
+          "hint": "Find grandpa.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Tom say to Can?",
+          "correct": "Your grandparents are wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Tom in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Tom's Parents",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👨‍👩",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: Tom, tell me about your parents!",
+        "Tom says: This is my mum. This is my dad.",
+        "My mum has got brown eyes.",
+        "She has got short dark hair.",
+        "My mum is short and very nice.",
+        "My dad has got blue eyes.",
+        "He has got short blond hair.",
+        "My dad is tall and very handsome.",
+        "Lila says: Your parents are lovely, Tom!",
+        "Tom is happy with his parents!"
+      ],
+      "translations": [
+        "Miss Oli diyor: Tom, anne babanı anlat!",
+        "Tom diyor: Bu benim annem. Bu benim babam.",
+        "Annemin kahverengi gözleri var.",
+        "Kısa koyu saçları var.",
+        "Annem kısa boylu ve çok hoş.",
+        "Babamın mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Babam uzun boylu ve çok yakışıklı.",
+        "Lila diyor: Anne baban sevimli, Tom!",
+        "Tom anne babasıyla mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "Who does Tom show?",
+          "correct": "His mum and dad",
+          "wrong": [
+            "His brother",
+            "His grandparents"
+          ],
+          "hint": "Find Tom in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the mum got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the mum?",
+          "correct": "Short and very nice",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What colour hair has the dad got?",
+          "correct": "Short and blond",
+          "wrong": [
+            "Long and dark",
+            "Big and red"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is the dad?",
+          "correct": "Tall and very handsome",
+          "wrong": [
+            "Short and small",
+            "Big and sad"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "How Old Is My Family?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔢",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: How old are you and your siblings?",
+        "Eda says: I am seven years old!",
+        "My little sister Ela is four years old.",
+        "She is small and very beautiful.",
+        "Can says: I am eight years old!",
+        "I have got a big family.",
+        "My grandparents are tall.",
+        "My mother is short. My father is tall.",
+        "Miss Oli says: Wonderful families!"
+      ],
+      "translations": [
+        "Miss Oli diyor: Sen ve kardeşlerin kaç yaşında?",
+        "Eda diyor: Ben yedi yaşındayım!",
+        "Küçük kız kardeşim Ela dört yaşında.",
+        "Küçük ve çok güzel.",
+        "Can diyor: Ben sekiz yaşındayım!",
+        "Büyük bir ailem var.",
+        "Büyükannem ve büyükbabam uzun boylu.",
+        "Annem kısa boylu. Babam uzun boylu.",
+        "Miss Oli diyor: Harika aileler!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Eda?",
+          "correct": "Seven",
+          "wrong": [
+            "Four",
+            "Eight"
+          ],
+          "hint": "Find Eda in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Ela?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Eight"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Ela?",
+          "correct": "Small and very beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How old is Can?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Four"
+          ],
+          "hint": "Find Can in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How are the grandparents?",
+          "correct": "Tall",
+          "wrong": [
+            "Short",
+            "Small"
+          ],
+          "hint": "Find grandparents.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Two Babies, Two Big Sisters",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👶",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: I have got a baby brother.",
+        "My baby brother is very small.",
+        "He has got blue eyes and short blond hair.",
+        "I am his big sister!",
+        "Eda says: My little sister Ela is four years old.",
+        "Ela has got big blue eyes and short blond hair.",
+        "Ela is small. She is not a baby.",
+        "I am her big sister, too!",
+        "Miss Oli says: Big sisters are wonderful!"
+      ],
+      "translations": [
+        "Lila diyor: Bir bebek erkek kardeşim var.",
+        "Bebek erkek kardeşim çok küçük.",
+        "Mavi gözleri ve kısa sarı saçları var.",
+        "Ben onun ablasıyım!",
+        "Eda diyor: Küçük kız kardeşim Ela dört yaşında.",
+        "Ela'nın büyük mavi gözleri ve kısa sarı saçları var.",
+        "Ela küçük. O bir bebek değil.",
+        "Ben de onun ablasıyım!",
+        "Miss Oli diyor: Ablalar harika!"
+      ],
+      "questions": [
+        {
+          "q": "What does Lila have?",
+          "correct": "A baby brother",
+          "wrong": [
+            "A big brother",
+            "A sister"
+          ],
+          "hint": "Find Lila in sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes has the baby got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find baby.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is Ela?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Eda in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the role of Lila and Eda?",
+          "correct": "Big sister",
+          "wrong": [
+            "Little sister",
+            "Mother"
+          ],
+          "hint": "Find sister.",
+          "hl": [
+            3,
+            7
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Big sisters are wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "Sons and Daughters",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🧒👧",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Miss Oli says: Are you a son or a daughter?",
+        "Tom says: I am a son!",
+        "I am the son of my mum and dad.",
+        "My sister Mia is a daughter.",
+        "She is twelve years old.",
+        "Eda says: I am a daughter!",
+        "I am the daughter of my mum and dad.",
+        "My little sister Ela is a daughter, too.",
+        "Tom and Eda are happy!"
+      ],
+      "translations": [
+        "Miss Oli diyor: Sen oğul mu yoksa kız mı?",
+        "Tom diyor: Ben oğulum!",
+        "Ben annem ve babamın oğluyum.",
+        "Kız kardeşim Mia bir kız.",
+        "On iki yaşında.",
+        "Eda diyor: Ben bir kızım!",
+        "Ben annem ve babamın kızıyım.",
+        "Küçük kız kardeşim Ela da bir kız.",
+        "Tom ve Eda mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What is Tom?",
+          "correct": "A son",
+          "wrong": [
+            "A daughter",
+            "A father"
+          ],
+          "hint": "Find Tom in sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is Mia?",
+          "correct": "A sister",
+          "wrong": [
+            "A mother",
+            "A grandma"
+          ],
+          "hint": "Find Mia.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How old is Mia?",
+          "correct": "Twelve",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Find Mia.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Eda?",
+          "correct": "A daughter",
+          "wrong": [
+            "A son",
+            "A father"
+          ],
+          "hint": "Find Eda in sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is Ela?",
+          "correct": "A daughter",
+          "wrong": [
+            "A son",
+            "A grandma"
+          ],
+          "hint": "Find Ela.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "Look at My Family Photo!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📸",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: Look at my family photo!",
+        "This is my grandpa Ali. He has got white hair.",
+        "This is my grandma Ayşe. She has got dark hair.",
+        "This is my dad. He has got dark hair and brown eyes.",
+        "This is my mum. She has got blue eyes.",
+        "And here I am!",
+        "I am eight years old. I have got brown eyes.",
+        "Lila says: It is a beautiful family photo!",
+        "Can is very happy!"
+      ],
+      "translations": [
+        "Can diyor: Aile fotoğrafıma bak!",
+        "Bu büyükbabam Ali. Beyaz saçları var.",
+        "Bu büyükannem Ayşe. Koyu saçları var.",
+        "Bu babam. Koyu saçları ve kahverengi gözleri var.",
+        "Bu annem. Mavi gözleri var.",
+        "Ve işte ben buradayım!",
+        "Sekiz yaşındayım. Kahverengi gözlerim var.",
+        "Lila diyor: Çok güzel bir aile fotoğrafı!",
+        "Can çok mutlu!"
+      ],
+      "questions": [
+        {
+          "q": "What colour hair has the grandpa got?",
+          "correct": "White",
+          "wrong": [
+            "Dark",
+            "Blond"
+          ],
+          "hint": "Find grandpa.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has the dad got?",
+          "correct": "Dark",
+          "wrong": [
+            "White",
+            "Blond"
+          ],
+          "hint": "Find dad.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour eyes has the mum got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find mum.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is Can?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Find Can in sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "It is a beautiful family photo!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Lila in sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Family on Festival Day",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🐑",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is the Festival of Sacrifice in Türkiye.",
+        "It is a happy religious day.",
+        "Eda says: My family is here today!",
+        "My mother has got blue eyes.",
+        "My father is tall and handsome.",
+        "My little sister Ela is here, too.",
+        "Tom says: My family is here today!",
+        "My big sister Mia is twelve.",
+        "She has got long dark hair.",
+        "Miss Oli says: Happy festival to all families!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de Kurban Bayramı.",
+        "Mutlu bir dini gün.",
+        "Eda diyor: Bugün ailem burada!",
+        "Annemin mavi gözleri var.",
+        "Babam uzun boylu ve yakışıklı.",
+        "Küçük kız kardeşim Ela da burada.",
+        "Tom diyor: Bugün ailem burada!",
+        "Ablam Mia on iki yaşında.",
+        "Uzun koyu saçları var.",
+        "Miss Oli diyor: Bütün ailelere mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What special day is it?",
+          "correct": "Festival of Sacrifice",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes does Eda describe?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Find Eda in sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is the father that Eda describes?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Find Eda in sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is the sister that Tom describes?",
+          "correct": "Twelve",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Find Mia.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Happy festival to all families!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Miss Oli in sentence 10.",
+          "hl": [
+            9
+          ]
         }
       ]
     }
@@ -457,151 +3198,1062 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "A Happy Family",
+      "title": "Which Family Member?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🏠",
+      "icon": "🔍",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Tom" },
-        { "e": "👩", "n": "Sarah" },
-        { "e": "👨", "n": "David" }
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "Today is lunchtime at Lily's home.",
-        "Lily's mother Sarah is cooking.",
-        "The food smells great.",
-        "Lily's father David is smiling.",
-        "Lily's grandmother Rose has got a big cake.",
-        "Lily's grandfather is singing.",
-        "Lily and Tom are very excited.",
-        "Everyone is together at the table.",
-        "What a wonderful family!"
+        "Lila says: A person in my family is here.",
+        "It is not a man. It is a woman.",
+        "She has got blue eyes. She has got long blond hair.",
+        "She is tall and beautiful.",
+        "She is not a sister. She is not a grandma.",
+        "Who is she?",
+        "She is the mother!"
       ],
       "translations": [
-        "Bugün Lily'nin evinde öğle yemeği zamanı.",
-        "Lily'nin annesi Sarah yemek yapıyor.",
-        "Yemek harika kokuyor.",
-        "Lily'nin babası David gülümsüyor.",
-        "Lily'nin büyükannesi Rose'un büyük bir pastası var.",
-        "Lily'nin büyükbabası şarkı söylüyor.",
-        "Lily ve Tom çok heyecanlı.",
-        "Herkes masada bir arada.",
-        "Ne harika bir aile!"
+        "Lila diyor: Ailemden bir kişi burada.",
+        "Bir erkek değil. Bir kadın.",
+        "Mavi gözleri var. Uzun sarı saçları var.",
+        "Uzun boylu ve güzel.",
+        "Bir kız kardeş değil. Bir büyükanne değil.",
+        "O kim?",
+        "O annedir!"
       ],
       "questions": [
         {
-          "q": "How does David feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Tired"],
-          "hint": "Look at what David is doing.",
-          "hl": [3]
+          "q": "Is the person a man?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Why are Lily and Tom excited?",
-          "correct": "The family is together and there is a cake",
-          "wrong": ["It is a school day", "It is raining outside"],
-          "hint": "Look at what is happening at the table.",
-          "hl": [4, 6, 7]
+          "q": "What colour eyes has the person got?",
+          "correct": "Blue",
+          "wrong": [
+            "Dark",
+            "Green"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What kind of family is this?",
-          "correct": "A happy and loving family",
-          "wrong": ["A sad and quiet family", "A busy and tired family"],
-          "hint": "Look at how everyone feels in the text.",
-          "hl": [3, 5, 6, 8]
+          "q": "What colour hair has the person got?",
+          "correct": "Long and blond",
+          "wrong": [
+            "Short and dark",
+            "Big and red"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How does the food make everyone feel?",
-          "correct": "Happy and hungry",
-          "wrong": ["Tired and bored", "Sad and quiet"],
-          "hint": "Find the word food in the text.",
-          "hl": [1, 2]
+          "q": "Who is she?",
+          "correct": "The mother",
+          "wrong": [
+            "The sister",
+            "The grandma"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
         },
         {
-          "q": "What is special about today?",
-          "correct": "The whole family is together",
-          "wrong": ["It is a school day", "It is Lily's birthday"],
-          "hint": "Read the last two sentences.",
-          "hl": [7, 8]
+          "q": "How do we know she is not a grandma?",
+          "correct": "She has got long blond hair",
+          "wrong": [
+            "She is short",
+            "She is tired"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            2
+          ]
         }
       ]
     },
     {
       "id": "inf-2",
-      "title": "It's Lunchtime!",
+      "title": "Who Is the Man?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🍽️",
+      "icon": "🤔",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "🧒", "n": "Lily" },
-        { "e": "👦", "n": "Tom" },
-        { "e": "👩", "n": "Sarah" },
-        { "e": "👨", "n": "David" }
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
       ],
       "sentences": [
-        "It's lunchtime!",
-        "Mum is in the kitchen.",
-        "The food smells good.",
-        "Tom says: \"I'm hungry!\"",
-        "\"Me too!\" says Lily.",
-        "Dad brings the plates.",
-        "Grandma and Grandpa are here.",
-        "Everyone sits at the table.",
-        "The family eats together.",
-        "What a happy lunch!"
+        "Can says: A person is here in my family.",
+        "It is not a woman. It is a man.",
+        "He has got blue eyes. He has got short white hair.",
+        "He is tall and handsome.",
+        "He is not a father. He is not a brother.",
+        "Who is he?",
+        "He is the grandpa!"
       ],
       "translations": [
-        "Öğle yemeği zamanı!",
-        "Annem mutfakta.",
-        "Yemek güzel kokuyor.",
-        "Tom diyor ki: \"Acıktım!\"",
-        "\"Ben de!\" diyor Lily.",
-        "Babam tabakları getiriyor.",
-        "Büyükanne ve büyükbaba burada.",
-        "Herkes masaya oturuyor.",
-        "Aile birlikte yemek yiyor.",
-        "Ne mutlu bir öğle yemeği!"
+        "Can diyor: Ailemde bir kişi burada.",
+        "Bir kadın değil. Bir erkek.",
+        "Mavi gözleri ve kısa beyaz saçları var.",
+        "Uzun boylu ve yakışıklı.",
+        "Bir baba değil. Bir erkek kardeş değil.",
+        "O kim?",
+        "O büyükbabadır!"
       ],
       "questions": [
         {
-          "q": "Why does Tom say \"I'm hungry!\"?",
-          "correct": "Because it is lunchtime",
-          "wrong": ["Because it is bedtime", "Because it is a school day"],
-          "hint": "Read the first sentences.",
-          "hl": [0, 3]
+          "q": "Is the person a woman?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Where is Mum?",
-          "correct": "In the kitchen",
-          "wrong": ["At school", "In the garden"],
-          "hint": "Find Mum in the text.",
-          "hl": [1]
+          "q": "What colour hair has the man got?",
+          "correct": "White",
+          "wrong": [
+            "Dark",
+            "Blond"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How does the family feel?",
-          "correct": "Happy",
-          "wrong": ["Sad", "Angry"],
-          "hint": "Read the last sentence.",
-          "hl": [9]
+          "q": "How is the man?",
+          "correct": "Tall and handsome",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What are they going to do?",
-          "correct": "Eat lunch together",
-          "wrong": ["Go to school", "Go to sleep"],
-          "hint": "Look at the table and the food.",
-          "hl": [7, 8]
+          "q": "Who is he?",
+          "correct": "The grandpa",
+          "wrong": [
+            "The father",
+            "The brother"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            2,
+            4,
+            6
+          ]
         },
         {
-          "q": "Who comes to the lunch?",
-          "correct": "The whole family",
-          "wrong": ["Only Tom", "Only Mum and Dad"],
-          "hint": "Look for the family members in the text.",
-          "hl": [6, 7, 8]
+          "q": "How do we know he is not a father?",
+          "correct": "He has got white hair",
+          "wrong": [
+            "He has got blue eyes",
+            "He is tall"
+          ],
+          "hint": "Find white.",
+          "hl": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "Which Sister?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👧",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda says: One girl is in my family.",
+        "She is not seven. She is not ten.",
+        "She is small.",
+        "She has got big blue eyes and short blond hair.",
+        "She is four years old.",
+        "Who is she?",
+        "She is the little sister!"
+      ],
+      "translations": [
+        "Eda diyor: Ailemde bir kız var.",
+        "Yedi yaşında değil. On yaşında değil.",
+        "Küçük.",
+        "Büyük mavi gözleri ve kısa sarı saçları var.",
+        "Dört yaşında.",
+        "O kim?",
+        "O küçük kız kardeştir!"
+      ],
+      "questions": [
+        {
+          "q": "Is the girl seven?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the girl?",
+          "correct": "Small",
+          "wrong": [
+            "Tall",
+            "Big"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is the girl?",
+          "correct": "Four",
+          "wrong": [
+            "Seven",
+            "Ten"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the girl?",
+          "correct": "The little sister",
+          "wrong": [
+            "The mother",
+            "The grandma"
+          ],
+          "hint": "Think about age and size.",
+          "hl": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "q": "How do we know she is the little sister?",
+          "correct": "She is four years old",
+          "wrong": [
+            "She is ten",
+            "She is twenty"
+          ],
+          "hint": "Find four.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "The Young Boy",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👦",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Lila says: A boy is in my family.",
+        "He is not four. He is not seven.",
+        "He has got brown eyes and short blond hair.",
+        "He is tall and nice.",
+        "He is ten years old.",
+        "He is not a baby. He is not a dad.",
+        "Who is he?",
+        "He is the big brother!"
+      ],
+      "translations": [
+        "Lila diyor: Ailemde bir erkek çocuk var.",
+        "Dört yaşında değil. Yedi yaşında değil.",
+        "Kahverengi gözleri ve kısa sarı saçları var.",
+        "Uzun boylu ve hoş.",
+        "On yaşında.",
+        "Bir bebek değil. Bir baba değil.",
+        "O kim?",
+        "O ağabeydir!"
+      ],
+      "questions": [
+        {
+          "q": "Is the boy four?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the boy got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is the boy?",
+          "correct": "Ten",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the boy?",
+          "correct": "The big brother",
+          "wrong": [
+            "The baby",
+            "The dad"
+          ],
+          "hint": "Think about the age.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "q": "How do we know he is the big brother?",
+          "correct": "He is ten years old",
+          "wrong": [
+            "He is four",
+            "He is small"
+          ],
+          "hint": "Find ten.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Whose Mother Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👩‍👧",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A mother is here today.",
+        "She has got blue eyes and blond hair.",
+        "She is tall and beautiful.",
+        "Eda says: This is my mother!",
+        "My mother has got blue eyes and blond hair.",
+        "Can says: My mother has got brown eyes.",
+        "Whose mother is it?",
+        "It is the mother that Eda talks about!"
+      ],
+      "translations": [
+        "Bugün bir anne burada.",
+        "Mavi gözleri ve sarı saçları var.",
+        "Uzun boylu ve güzel.",
+        "Eda diyor: Bu benim annem!",
+        "Annemin mavi gözleri ve sarı saçları var.",
+        "Can diyor: Benim annemin kahverengi gözleri var.",
+        "Bu kimin annesi?",
+        "Eda'nın anlattığı anne!"
+      ],
+      "questions": [
+        {
+          "q": "What colour eyes has the mother got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the mother?",
+          "correct": "Tall and beautiful",
+          "wrong": [
+            "Short and tired",
+            "Big and sad"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Eda say about her mother?",
+          "correct": "Blue eyes and blond hair",
+          "wrong": [
+            "Brown eyes",
+            "Dark hair"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can say about his mother?",
+          "correct": "Brown eyes",
+          "wrong": [
+            "Blue eyes",
+            "Green eyes"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Whose mother is here?",
+          "correct": "The mother that Eda talks about",
+          "wrong": [
+            "The mother that Can talks about",
+            "A teacher"
+          ],
+          "hint": "Match the eye colour.",
+          "hl": [
+            1,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "A Family Role",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👪",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom says: A girl is in my family.",
+        "She is not my mum. She is not a baby.",
+        "She is twelve years old.",
+        "She has got long dark hair.",
+        "She is tall.",
+        "She is my big sister.",
+        "Who is she?",
+        "She is the big sister Mia!"
+      ],
+      "translations": [
+        "Tom diyor: Ailemde bir kız var.",
+        "Annem değil. Bebek değil.",
+        "On iki yaşında.",
+        "Uzun koyu saçları var.",
+        "Uzun boylu.",
+        "O benim ablam.",
+        "O kim?",
+        "O ablası Mia!"
+      ],
+      "questions": [
+        {
+          "q": "Is the girl the mum?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is the girl?",
+          "correct": "Twelve",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour hair has the girl got?",
+          "correct": "Long and dark",
+          "wrong": [
+            "Short and blond",
+            "Big and red"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the girl?",
+          "correct": "Mia, the big sister",
+          "wrong": [
+            "The mother",
+            "A baby sister"
+          ],
+          "hint": "Think about age and name.",
+          "hl": [
+            2,
+            7
+          ]
+        },
+        {
+          "q": "What is the girl in the family?",
+          "correct": "The big sister",
+          "wrong": [
+            "The mum",
+            "A baby"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Which Grandparent?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👴👵",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Can says: A grandparent is here.",
+        "It is not a man. It is a woman.",
+        "She has got green eyes and short dark hair.",
+        "She is short and very beautiful.",
+        "Her name is Ayşe.",
+        "Tom says: Is it your grandpa or grandma?",
+        "Can says: She is my grandma!"
+      ],
+      "translations": [
+        "Can diyor: Bir büyükebeveyn burada.",
+        "Bir erkek değil. Bir kadın.",
+        "Yeşil gözleri ve kısa koyu saçları var.",
+        "Kısa boylu ve çok güzel.",
+        "Onun adı Ayşe.",
+        "Tom diyor: Büyükbaban mı yoksa büyükannen mi?",
+        "Can diyor: O benim büyükannem!"
+      ],
+      "questions": [
+        {
+          "q": "Is the grandparent a man?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour eyes has the grandparent got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the grandparent?",
+          "correct": "Short and very beautiful",
+          "wrong": [
+            "Tall and tired",
+            "Big and sad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the name?",
+          "correct": "Ayşe",
+          "wrong": [
+            "Ali",
+            "Mia"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is it?",
+          "correct": "The grandma",
+          "wrong": [
+            "The grandpa",
+            "The mum"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Look at the Family Photo!",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "📸",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A family photo is here.",
+        "One person has got white hair.",
+        "One person has got blond hair.",
+        "One person has got dark hair.",
+        "Eda says: My mum has got blond hair! I have got blond hair, too!",
+        "Lila says: I have got blond hair, too!",
+        "A mum in the photo has got blond hair.",
+        "It is the mum of Eda or Lila!"
+      ],
+      "translations": [
+        "Burada bir aile fotoğrafı var.",
+        "Bir kişinin beyaz saçları var.",
+        "Bir kişinin sarı saçları var.",
+        "Bir kişinin koyu saçları var.",
+        "Eda diyor: Annemin sarı saçları var! Benim de sarı saçlarım var!",
+        "Lila diyor: Benim de sarı saçlarım var!",
+        "Fotoğraftaki bir annenin sarı saçları var.",
+        "Eda'nın veya Lila'nın annesi!"
+      ],
+      "questions": [
+        {
+          "q": "How many people in the family photo?",
+          "correct": "Three",
+          "wrong": [
+            "Five",
+            "Ten"
+          ],
+          "hint": "Count from sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Who has white hair?",
+          "correct": "One person",
+          "wrong": [
+            "Eda",
+            "Lila"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair does Eda describe?",
+          "correct": "Blond",
+          "wrong": [
+            "White",
+            "Dark"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who else has got blond hair?",
+          "correct": "Lila",
+          "wrong": [
+            "The grandpa",
+            "The dad"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who has a mum with blond hair?",
+          "correct": "Eda or Lila",
+          "wrong": [
+            "The grandpa",
+            "The dad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Whose Father?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👨",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "A father is in this photo.",
+        "He has got blue eyes.",
+        "He has got short blond hair.",
+        "He is tall and handsome.",
+        "Tom says: My dad has got blue eyes and blond hair.",
+        "Can says: My dad has got brown eyes and dark hair.",
+        "The dad in the photo is the dad that Tom describes.",
+        "It is the dad that Tom talks about!"
+      ],
+      "translations": [
+        "Bu fotoğrafta bir baba var.",
+        "Mavi gözleri var.",
+        "Kısa sarı saçları var.",
+        "Uzun boylu ve yakışıklı.",
+        "Tom diyor: Babamın mavi gözleri ve sarı saçları var.",
+        "Can diyor: Babamın kahverengi gözleri ve koyu saçları var.",
+        "Fotoğraftaki baba Tom'un anlattığı baba.",
+        "Tom'un anlattığı baba!"
+      ],
+      "questions": [
+        {
+          "q": "What colour eyes has the father in the photo got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour hair has the father in the photo got?",
+          "correct": "Blond",
+          "wrong": [
+            "Dark",
+            "Red"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom say about his dad?",
+          "correct": "Blue eyes and blond hair",
+          "wrong": [
+            "Brown eyes",
+            "Dark hair"
+          ],
+          "hint": "Find Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Can say about his dad?",
+          "correct": "Brown eyes and dark hair",
+          "wrong": [
+            "Blue eyes",
+            "Blond hair"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is the dad in the photo?",
+          "correct": "The dad that Tom talks about",
+          "wrong": [
+            "The dad that Can talks about",
+            "A grandpa"
+          ],
+          "hint": "Match the eye and hair colour.",
+          "hl": [
+            1,
+            2,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "What Family Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Today is a special day in Türkiye.",
+        "It is not a national day.",
+        "It is not the 23rd of April. It is not the 19th of May.",
+        "It is a religious day. Families are together.",
+        "Eda says: I have got new clothes!",
+        "Lila says: My grandma is here today!",
+        "What special day is it?",
+        "It is Eid al-Fitr!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de özel bir gün.",
+        "Bir milli bayram değil.",
+        "23 Nisan değil. 19 Mayıs değil.",
+        "Bir dini gün. Aileler bir arada.",
+        "Eda diyor: Yeni kıyafetlerim var!",
+        "Lila diyor: Büyükannem bugün burada!",
+        "Bu hangi özel gün?",
+        "Ramazan Bayramı!"
+      ],
+      "questions": [
+        {
+          "q": "Is today a national day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is today the 23rd of April?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What kind of day is it?",
+          "correct": "A religious day",
+          "wrong": [
+            "A national day",
+            "A school day"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Eda have today?",
+          "correct": "New clothes",
+          "wrong": [
+            "A new book",
+            "A new pencil"
+          ],
+          "hint": "Find Eda.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Think about the religious clue.",
+          "hl": [
+            3,
+            7
+          ]
         }
       ]
     }
