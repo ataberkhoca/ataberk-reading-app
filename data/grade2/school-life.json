@@ -451,9 +451,9 @@
         "Thursday, Friday.",
         "Saturday and Sunday.",
         "Today is Monday. We are in the classroom.",
-        "Miss Oli: What day is it today?",
-        "Eda: It is Monday!",
-        "Can: It is Monday today!"
+        "Miss Oli says: What day is it today?",
+        "Eda says: It is Monday!",
+        "Can says: It is Monday today!"
       ],
       "translations": [
         "Bugün hangi gün? Pazartesi.",
@@ -461,9 +461,9 @@
         "Perşembe, Cuma.",
         "Cumartesi ve Pazar.",
         "Bugün Pazartesi. Sınıftayız.",
-        "Miss Oli: Bugün hangi gün?",
-        "Eda: Pazartesi!",
-        "Can: Bugün Pazartesi!"
+        "Miss Oli diyor: Bugün hangi gün?",
+        "Eda diyor: Pazartesi!",
+        "Can diyor: Bugün Pazartesi!"
       ],
       "questions": [
         {
@@ -556,9 +556,9 @@
         "On Monday, we are in the classroom.",
         "On Friday, we are in the sports hall.",
         "Saturday and Sunday are not school days.",
-        "Lila: Friday is a fun day!",
-        "Tom: Saturday and Sunday are happy days!",
-        "Miss Oli: Every day is a good day!"
+        "Lila says: Friday is a fun day!",
+        "Tom says: Saturday and Sunday are happy days!",
+        "Miss Oli says: Every day is a good day!"
       ],
       "translations": [
         "Bu okuldaki haftamız.",
@@ -566,9 +566,9 @@
         "Pazartesi günü sınıftayız.",
         "Cuma günü spor salonundayız.",
         "Cumartesi ve Pazar okul günü değil.",
-        "Lila: Cuma eğlenceli bir gün!",
-        "Tom: Cumartesi ve Pazar mutlu günler!",
-        "Miss Oli: Her gün güzel bir gün!"
+        "Lila diyor: Cuma eğlenceli bir gün!",
+        "Tom diyor: Cumartesi ve Pazar mutlu günler!",
+        "Miss Oli diyor: Her gün güzel bir gün!"
       ],
       "questions": [
         {
@@ -662,7 +662,7 @@
         "How are you? I am fine, thanks!",
         "Hello, Can! Hi, Eda!",
         "Nice to meet you!",
-        "Miss Oli: Good morning, everybody!",
+        "Miss Oli says: Good morning, everybody!",
         "Let's start! say the pupils."
       ],
       "translations": [
@@ -768,7 +768,7 @@
         "Nice to meet you, Tom!",
         "Welcome to our school, Lila!",
         "Can I sit here? Sure!",
-        "Miss Oli: Welcome, Lila!"
+        "Miss Oli says: Welcome, Lila!"
       ],
       "translations": [
         "Okulda yeni bir öğrenci var.",
@@ -874,7 +874,7 @@
         "Who is this? This is Can.",
         "What is this? It is the garden.",
         "Look! This is our playground.",
-        "Miss Oli: Well done, everybody!"
+        "Miss Oli says: Well done, everybody!"
       ],
       "translations": [
         "Miss Oli sınıfta.",
@@ -977,7 +977,7 @@
         "Look! This is our school garden.",
         "This is a special school day.",
         "Eda is happy. Can is happy.",
-        "Miss Oli: Happy Children's Day!",
+        "Miss Oli says: Happy Children's Day!",
         "Hurray! say the children.",
         "It is a special day for all children!"
       ],
@@ -1053,6 +1053,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "How Are You at School?",
+      "subtitle": "Find the right answer!",
+      "icon": "🌞",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        }
+      ],
+      "sentences": [
+        "It is Monday morning at school.",
+        "Eda: Good morning, Can! How are you?",
+        "Can: I am fine, thanks! How are you, Eda?",
+        "Eda: I am fine, too!",
+        "Lila comes to Eda and Can.",
+        "Lila: Hello, friends! How are you?",
+        "Eda: I am happy today!",
+        "Can: I am very well, thanks!"
+      ],
+      "translations": [
+        "Pazartesi sabahı okulda.",
+        "Eda: Günaydın, Can! Nasılsın?",
+        "Can: İyiyim, teşekkür ederim! Sen nasılsın, Eda?",
+        "Eda: Ben de iyiyim!",
+        "Lila Eda ve Can'a yaklaşır.",
+        "Lila: Merhaba arkadaşlar! Nasılsınız?",
+        "Eda: Bugün mutluyum!",
+        "Can: Ben çok iyiyim, teşekkürler!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it?",
+          "correct": "Monday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How is Can?",
+          "correct": "Fine",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Eda today?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Sick"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is Can in the end?",
+          "correct": "Very well",
+          "wrong": [
+            "Bad",
+            "Sad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Who comes to Eda and Can?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Miss Oli"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-12",
+      "title": "I Am Sorry, Miss Oli",
+      "subtitle": "Find the right answer!",
+      "icon": "😟",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        }
+      ],
+      "sentences": [
+        "Can is late for class today.",
+        "Miss Oli is at the board.",
+        "Can: I am sorry, Miss Oli! I am late.",
+        "Miss Oli: It is OK, Can. Sit down, please.",
+        "Can: Thank you, Miss Oli!",
+        "Can sits next to Eda.",
+        "Eda: Hello, Can!",
+        "Can: Hello, Eda! I am sorry. I am late today."
+      ],
+      "translations": [
+        "Can bugün derse geç kaldı.",
+        "Miss Oli tahtanın başında.",
+        "Can: Özür dilerim, Miss Oli! Geç kaldım.",
+        "Miss Oli: Sorun değil, Can. Otur, lütfen.",
+        "Can: Teşekkür ederim, Miss Oli!",
+        "Can Eda'nın yanına oturur.",
+        "Eda: Merhaba, Can!",
+        "Can: Merhaba, Eda! Özür dilerim. Bugün geç kaldım."
+      ],
+      "questions": [
+        {
+          "q": "What is Can today?",
+          "correct": "Late",
+          "wrong": [
+            "Happy",
+            "Sick"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Can say to Miss Oli?",
+          "correct": "I am sorry, Miss Oli!",
+          "wrong": [
+            "Goodbye!",
+            "Hello!"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "It is OK, Can",
+          "wrong": [
+            "Goodbye!",
+            "No!"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where does Can sit?",
+          "correct": "Next to Eda",
+          "wrong": [
+            "Next to Tom",
+            "At home"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Can say to Eda?",
+          "correct": "I am sorry",
+          "wrong": [
+            "Goodbye!",
+            "How are you?"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -1080,12 +1290,12 @@
       ],
       "sentences": [
         "It is morning. The pupils are in the classroom.",
-        "Miss Oli: Good morning, everybody!",
+        "Good morning, everybody! says Miss Oli.",
         "Good morning, Miss Oli! say the pupils.",
         "How are you, Eda? I am fine, thanks!",
         "How are you, Can? I am fine, too!",
         "Hello, Eda! Hi, Can!",
-        "Miss Oli: Let's start!.",
+        "Let's start! says Miss Oli.",
         "It is a happy morning at our school."
       ],
       "translations": [
@@ -1410,8 +1620,8 @@
         "Saturday and Sunday are not school days.",
         "What day is it today? It is Thursday.",
         "On Thursday, we are in the sports hall.",
-        "Tom: Friday is a fun day!",
-        "Lila: Saturday is a happy day!",
+        "Tom says: Friday is a fun day!",
+        "Lila says: Saturday is a happy day!",
         "Every day is a good day at school."
       ],
       "translations": [
@@ -1514,11 +1724,11 @@
       ],
       "sentences": [
         "A new girl is at my school today.",
-        "Eda: Hello! What is your name?.",
-        "New girl: My name is Lila.",
-        "Eda: Nice to meet you, Lila!.",
-        "Miss Oli: Welcome to our school!",
-        "Lila: Can I sit here? Eda: Sure!",
+        "Hello! What is your name? asks Eda.",
+        "My name is Lila, says the new girl.",
+        "Nice to meet you, Lila! says Eda.",
+        "Welcome to our school! says Miss Oli.",
+        "Can I sit here? asks Lila. Sure! says Eda.",
         "Now Lila is my new friend.",
         "We are happy together!"
       ],
@@ -1626,7 +1836,7 @@
         "Who is this? This is Can.",
         "Who is this? This is Tom.",
         "What is this place? It is the playground.",
-        "Miss Oli: Well done, everybody!",
+        "Miss Oli says: Well done, everybody!",
         "The pupils know their school!"
       ],
       "translations": [
@@ -1839,7 +2049,7 @@
       "sentences": [
         "What day is it today? It is Monday.",
         "On Monday, we are in the classroom.",
-        "Miss Oli: Good morning, everybody!",
+        "Good morning, everybody! says Miss Oli.",
         "Lila is here. Tom is here, too.",
         "This is our classroom. It is nice.",
         "Now we are in the garden.",
@@ -1947,9 +2157,9 @@
         "We use polite words at school.",
         "Good morning! Hello! Hi!",
         "Excuse me! Sorry! That's OK!",
-        "Eda: Thank you!.",
-        "Miss Oli: Welcome!",
-        "Tom: Nice to meet you!",
+        "Thank you! says Eda.",
+        "Welcome! says Miss Oli.",
+        "Nice to meet you! says Tom.",
         "See you tomorrow! Goodbye!",
         "Polite words are nice words!"
       ],
@@ -2057,7 +2267,7 @@
         "It is a happy national day.",
         "We are in the school garden.",
         "Can is happy. Eda is happy.",
-        "Miss Oli: Happy Republic Day!",
+        "Miss Oli says: Happy Republic Day!",
         "Hurray! say the children.",
         "It is a special day for us!"
       ],
@@ -2135,6 +2345,223 @@
           ]
         }
       ]
+    },
+    {
+      "id": "skim-11",
+      "title": "Excuse Me at School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🙋",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom is in the corridor.",
+        "Lila is in front of Tom.",
+        "Tom: Excuse me, Lila. I am here.",
+        "Lila: Oh, hello, Tom!",
+        "Tom comes into the classroom.",
+        "Miss Oli is at the board.",
+        "Tom: Excuse me, Miss Oli. Where is my book?",
+        "Miss Oli: Your book is on the desk, Tom.",
+        "Tom: Thank you, Miss Oli!"
+      ],
+      "translations": [
+        "Tom koridorda.",
+        "Lila Tom'un önünde.",
+        "Tom: Pardon, Lila. Ben buradayım.",
+        "Lila: Aa, merhaba Tom!",
+        "Tom sınıfa girer.",
+        "Miss Oli tahtanın başında.",
+        "Tom: Pardon, Miss Oli. Kitabım nerede?",
+        "Miss Oli: Kitabın masada, Tom.",
+        "Tom: Teşekkürler, Miss Oli!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Polite words at school",
+          "wrong": [
+            "A game",
+            "A song"
+          ],
+          "hint": "Think about Excuse me.",
+          "hl": [
+            2,
+            6
+          ]
+        },
+        {
+          "q": "Where is Tom at the start?",
+          "correct": "In the corridor",
+          "wrong": [
+            "In the garden",
+            "At home"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Tom say to Lila?",
+          "correct": "Excuse me, Lila",
+          "wrong": [
+            "Goodbye, Lila",
+            "Sorry, Lila"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom ask Miss Oli?",
+          "correct": "Where is my book?",
+          "wrong": [
+            "How are you?",
+            "What day is it?"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where is Tom's book?",
+          "correct": "On the desk",
+          "wrong": [
+            "In the bag",
+            "On the chair"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-12",
+      "title": "Please at School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🙏",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        }
+      ],
+      "sentences": [
+        "Eda is in the classroom with Miss Oli.",
+        "Eda: Can I have a book, please?",
+        "Miss Oli: Yes, of course! Here you are.",
+        "Eda: Thank you, Miss Oli!",
+        "Can: Miss Oli, can I sit here, please?",
+        "Miss Oli: Yes, Can. Sit down, please.",
+        "Can: Thank you!",
+        "Eda: Can I go to the library, please?",
+        "Miss Oli: Yes, you can, Eda."
+      ],
+      "translations": [
+        "Eda Miss Oli ile sınıfta.",
+        "Eda: Bir kitap alabilir miyim, lütfen?",
+        "Miss Oli: Tabii ki! Buyur.",
+        "Eda: Teşekkür ederim, Miss Oli!",
+        "Can: Miss Oli, buraya oturabilir miyim, lütfen?",
+        "Miss Oli: Evet, Can. Otur, lütfen.",
+        "Can: Teşekkür ederim!",
+        "Eda: Kütüphaneye gidebilir miyim, lütfen?",
+        "Miss Oli: Evet, gidebilirsin, Eda."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Polite requests with please",
+          "wrong": [
+            "Days of week",
+            "Colours"
+          ],
+          "hint": "Think about please.",
+          "hl": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "q": "What does Eda ask for first?",
+          "correct": "A book",
+          "wrong": [
+            "A pen",
+            "A bag"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Can ask?",
+          "correct": "Can I sit here, please?",
+          "wrong": [
+            "Goodbye!",
+            "Hello!"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say to Can?",
+          "correct": "Sit down, please",
+          "wrong": [
+            "Goodbye!",
+            "Go home!"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where does Eda want to go?",
+          "correct": "To the library",
+          "wrong": [
+            "Home",
+            "To the garden"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
     }
   ],
   "int": [
@@ -2162,14 +2589,14 @@
       ],
       "sentences": [
         "A new boy is in the classroom today.",
-        "Lila: Hello! What is your name?.",
-        "The boy: My name is Tom.",
-        "Lila: Nice to meet you, Tom!",
-        "Tom: Nice to meet you, too!",
-        "Miss Oli: Welcome, Tom!",
+        "Hello! What is your name? asks Lila.",
+        "My name is Tom, says the boy.",
+        "Nice to meet you, Tom! says Lila.",
+        "Nice to meet you, too! says Tom.",
+        "Miss Oli says: Welcome, Tom!",
         "This is Lila. She is your new friend.",
-        "Tom: Hi, Lila! Can I sit here?",
-        "Lila: Sure!",
+        "Hi, Lila! Can I sit here? asks Tom.",
+        "Sure! says Lila.",
         "Now they are good friends!"
       ],
       "translations": [
@@ -2486,12 +2913,12 @@
       ],
       "sentences": [
         "Miss Oli asks: What day is it today?",
-        "Can: It is Tuesday.",
+        "It is Tuesday, says Can.",
         "What day is after Tuesday? It is Wednesday.",
         "What day is after Wednesday? It is Thursday.",
         "Then Friday is a happy day for us.",
         "Saturday and Sunday are not school days.",
-        "Lila: Saturday is a good day!",
+        "Lila says: Saturday is a good day!",
         "Then it is Monday again.",
         "Every day is a new day!"
       ],
@@ -2598,10 +3025,10 @@
         "I am fine, thanks! And you?",
         "I am fine, too!",
         "Now they are in the classroom.",
-        "Miss Oli: Good morning, everybody!",
-        "The pupils: Let's start!",
-        "Miss Oli later: Goodbye, everybody!",
-        "Eda and Tom: See you tomorrow!"
+        "Good morning, everybody! says Miss Oli.",
+        "Let's start! say the pupils.",
+        "Goodbye, everybody! says Miss Oli later.",
+        "See you tomorrow! say Eda and Tom."
       ],
       "translations": [
         "Sabah oldu. Eda okul bahçesinde.",
@@ -2701,15 +3128,15 @@
         }
       ],
       "sentences": [
-        "Miss Oli: Look! What is this?",
+        "Miss Oli says: Look! What is this?",
         "Lila looks. It is a classroom!",
         "What is this? asks Miss Oli.",
-        "Can: It is the library!",
+        "Can says: It is the library!",
         "Who is this? asks Miss Oli.",
-        "Lila: This is Can. He is my friend.",
+        "Lila says: This is Can. He is my friend.",
         "Who is this? asks Miss Oli.",
-        "Can: This is Lila. She is my friend.",
-        "Miss Oli: Well done, everybody!",
+        "Can says: This is Lila. She is my friend.",
+        "Well done, everybody! says Miss Oli.",
         "We know our school very well!"
       ],
       "translations": [
@@ -2811,14 +3238,14 @@
       ],
       "sentences": [
         "Miss Oli is in the classroom. Eda and Tom are here.",
-        "Miss Oli: Come here, please!",
+        "Come here, please! says Miss Oli.",
         "Eda and Tom come to the front.",
-        "Eda: Excuse me, Miss Oli!",
-        "Miss Oli: Yes, Eda?",
-        "Eda: Can I sit here? Miss Oli: Sure! ",
+        "Eda says: Excuse me, Miss Oli!",
+        "Yes, Eda? says Miss Oli.",
+        "Can I sit here? asks Eda. Sure! says Miss Oli.",
         "Tom is sorry. Sorry, Miss Oli!",
-        "Miss Oli: That's OK, Tom!",
-        "Eda: Thank you, Miss Oli!",
+        "That's OK, Tom! says Miss Oli.",
+        "Thank you, Miss Oli! says Eda.",
         "Well done, everybody!"
       ],
       "translations": [
@@ -2926,8 +3353,8 @@
         "Now they are all in the sports hall.",
         "Mr. Aras is here, too.",
         "Friday is a fun day for us.",
-        "Miss Oli: Welcome to the sports hall!",
-        "The children: Hurray!",
+        "Welcome to the sports hall! says Miss Oli.",
+        "Hurray! say the children.",
         "Goodbye, Friday! See you next week!"
       ],
       "translations": [
@@ -3029,11 +3456,11 @@
       ],
       "sentences": [
         "A new teacher is at our school today.",
-        "Eda: Hello! What is your name?",
+        "Hello! What is your name? asks Eda.",
         "I am Miss Pinar. I am a teacher.",
-        "Tom:Nice to meet you, Miss Pinar!",
-        "Miss Pinar:Where is Mr. Aras?",
-        "Eda: He is in the teacher's room,",
+        "Nice to meet you, Miss Pinar! says Tom.",
+        "Where is Mr. Aras? asks Miss Pinar.",
+        "He is in the teacher's room, says Eda.",
         "Welcome to our school, Miss Pinar!",
         "Thank you, children!",
         "Miss Pinar is a nice teacher!"
@@ -3141,8 +3568,8 @@
         "It is a special national day.",
         "Miss Oli is in the classroom with the pupils.",
         "Eda and Can are happy today.",
-        "Miss Oli: Happy Victory Day, everybody!",
-        "The children: Hurray!",
+        "Miss Oli says: Happy Victory Day, everybody!",
+        "Hurray! say the children.",
         "We are proud pupils today!",
         "Welcome to Victory Day, friends!"
       ],
@@ -3219,6 +3646,220 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-11",
+      "title": "Miss Oli and the Pupils",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "👩‍🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "Miss Oli is in the classroom.",
+        "The pupils come in.",
+        "Miss Oli: Good morning, pupils! How are you today?",
+        "Eda: I am fine, thanks!",
+        "Tom: I am very well, Miss Oli!",
+        "Miss Oli: I am happy, too!",
+        "Miss Oli: How are you, Lila?",
+        "Lila: I am OK, thanks!",
+        "Miss Oli: Sit down, pupils. It is time for class!"
+      ],
+      "translations": [
+        "Miss Oli sınıfta.",
+        "Öğrenciler içeri girer.",
+        "Miss Oli: Günaydın öğrenciler! Bugün nasılsınız?",
+        "Eda: İyiyim, teşekkürler!",
+        "Tom: Ben çok iyiyim, Miss Oli!",
+        "Miss Oli: Ben de mutluyum!",
+        "Miss Oli: Sen nasılsın, Lila?",
+        "Lila: İyiyim, teşekkürler!",
+        "Miss Oli: Oturun öğrenciler. Ders zamanı!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Miss Oli?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "At home"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Miss Oli ask?",
+          "correct": "How are you today?",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Eda?",
+          "correct": "Fine",
+          "wrong": [
+            "Sad",
+            "Sick"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is Tom?",
+          "correct": "Very well",
+          "wrong": [
+            "Tired",
+            "Sad"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is Lila?",
+          "correct": "OK",
+          "wrong": [
+            "Sad",
+            "Sick"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-12",
+      "title": "Books on the Floor",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📚",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom is in the classroom.",
+        "There are many books in his hands.",
+        "Lila comes into the classroom.",
+        "The books are on the floor now.",
+        "Tom: I am sorry, Lila! The books are on the floor.",
+        "Lila: It is OK, Tom! I am here.",
+        "Lila and Tom pick up the books.",
+        "Miss Oli: Good pupils! Thank you.",
+        "Tom: Thank you, Lila! I am sorry again."
+      ],
+      "translations": [
+        "Tom sınıfta.",
+        "Ellerinde birçok kitap var.",
+        "Lila sınıfa girer.",
+        "Kitaplar şu an yerde.",
+        "Tom: Özür dilerim, Lila! Kitaplar yerde.",
+        "Lila: Sorun değil, Tom! Ben buradayım.",
+        "Lila ve Tom kitapları toplar.",
+        "Miss Oli: İyi öğrenciler! Teşekkür ederim.",
+        "Tom: Teşekkür ederim, Lila! Tekrar özür dilerim."
+      ],
+      "questions": [
+        {
+          "q": "What is in Tom's hands?",
+          "correct": "Many books",
+          "wrong": [
+            "A pen",
+            "A bag"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are the books now?",
+          "correct": "On the floor",
+          "wrong": [
+            "On the desk",
+            "In the bag"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Tom say to Lila?",
+          "correct": "I am sorry, Lila!",
+          "wrong": [
+            "Hello, Lila!",
+            "Goodbye!"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Lila say?",
+          "correct": "It is OK, Tom!",
+          "wrong": [
+            "Goodbye!",
+            "No!"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "correct": "Good pupils!",
+          "wrong": [
+            "Sit down!",
+            "Goodbye!"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -3249,8 +3890,8 @@
         "She is not a pupil.",
         "She is not the headmaster.",
         "She is in front of the pupils.",
-        "She: Good morning, everybody!",
-        "Eda: Good morning!",
+        "She says: Good morning, everybody!",
+        "Eda says: Good morning!",
         "Who is the woman?",
         "She is Miss Oli, my teacher!"
       ],
@@ -3359,7 +4000,7 @@
         "Children are happy here.",
         "It is fun and big.",
         "Children play here.",
-        "Lila: I know! It is the playground!",
+        "Lila says: I know! It is the playground!",
         "Yes! It is the playground!"
       ],
       "translations": [
@@ -3464,7 +4105,7 @@
         "It is not Monday.",
         "It is not Tuesday.",
         "It is the day after Wednesday.",
-        "Eda: I am happy today!",
+        "Eda says: I am happy today!",
         "Tomorrow is Friday.",
         "Which day is it today?",
         "It is Thursday!"
@@ -3571,7 +4212,7 @@
         "He is not a teacher.",
         "He is not Mr. Aras.",
         "He is a kid.",
-        "Eda: Hello! What is your name?",
+        "Eda says: Hello! What is your name?",
         "My name is Tom.",
         "Who is the new boy?",
         "He is Tom, a new pupil!"
@@ -3677,7 +4318,7 @@
         "Lila is in the school garden.",
         "Miss Oli is here, too.",
         "It is not the end of the day.",
-        "Lila: Good morning, Miss Oli!",
+        "Lila says: Good morning, Miss Oli!",
         "Good morning, Lila! Now we go to the classroom.",
         "Is it morning or evening?",
         "It is morning here!"
@@ -4105,7 +4746,7 @@
         "The new pupil is not a girl.",
         "He is a boy.",
         "Hello! My name is Tom.",
-        "Eda: Nice to meet you, Tom!",
+        "Nice to meet you, Tom! says Eda.",
         "Who is the new pupil?",
         "Tom is the new pupil!"
       ],
@@ -4214,7 +4855,7 @@
         "It is not the 30th of August.",
         "It is the 19th of May.",
         "Eda and Can are happy.",
-        "Miss Oli: Happy Youth and Sports Day!",
+        "Miss Oli says: Happy Youth and Sports Day!",
         "Which special day is it?",
         "It is the 19th of May, Youth and Sports Day!"
       ],
@@ -4290,6 +4931,218 @@
           "hl": [
             4,
             8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-11",
+      "title": "What Does Eda Say?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🤔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        }
+      ],
+      "sentences": [
+        "Eda is in the hall.",
+        "Mr. Aras is in front of Eda.",
+        "Eda: I am here. The library is there.",
+        "Eda is not angry.",
+        "Eda is not sad.",
+        "Eda is polite.",
+        "What does Eda say to Mr. Aras?",
+        "Eda: 'Excuse me, Mr. Aras!'"
+      ],
+      "translations": [
+        "Eda holdedir.",
+        "Mr. Aras Eda'nın önünde.",
+        "Eda: Ben buradayım. Kütüphane orada.",
+        "Eda kızgın değil.",
+        "Eda üzgün değil.",
+        "Eda kibar.",
+        "Eda Mr. Aras'a ne der?",
+        "Eda: 'Pardon, Mr. Aras!'"
+      ],
+      "questions": [
+        {
+          "q": "Where is Eda?",
+          "correct": "In the hall",
+          "wrong": [
+            "In the garden",
+            "At home"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is in front of Eda?",
+          "correct": "Mr. Aras",
+          "wrong": [
+            "Miss Oli",
+            "Tom"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the library?",
+          "correct": "There",
+          "wrong": [
+            "At home",
+            "In the garden"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is Eda angry?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Eda say?",
+          "correct": "Excuse me, Mr. Aras!",
+          "wrong": [
+            "Goodbye!",
+            "I am sorry!"
+          ],
+          "hint": "Match polite and library.",
+          "hl": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-12",
+      "title": "What Does Tom Say?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "💭",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👨‍🏫",
+          "n": "Mr. Aras"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Tom is in the classroom.",
+        "There are many pens on Mr. Aras's desk.",
+        "Tom: I am here. I am a pupil.",
+        "Tom is polite.",
+        "Tom: 'Mr. Aras, can I have a pen, please?'",
+        "Mr. Aras: 'Yes, of course! Here you are.'",
+        "What does Tom say to ask for a pen?",
+        "Tom: 'Can I have a pen, please?'"
+      ],
+      "translations": [
+        "Tom sınıfta.",
+        "Mr. Aras'ın masasında birçok kalem var.",
+        "Tom: Ben buradayım. Ben bir öğrenciyim.",
+        "Tom kibar.",
+        "Tom: 'Mr. Aras, bir kalem alabilir miyim, lütfen?'",
+        "Mr. Aras: 'Tabii ki! Buyur.'",
+        "Tom kalem istemek için ne der?",
+        "Tom: 'Bir kalem alabilir miyim, lütfen?'"
+      ],
+      "questions": [
+        {
+          "q": "Where is Tom?",
+          "correct": "In the classroom",
+          "wrong": [
+            "In the garden",
+            "At home"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is on Mr. Aras's desk?",
+          "correct": "Many pens",
+          "wrong": [
+            "A book",
+            "A bag"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is Tom polite?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Mr. Aras say?",
+          "correct": "Yes, of course!",
+          "wrong": [
+            "No!",
+            "Goodbye!"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Tom say to ask for a pen?",
+          "correct": "Can I have a pen, please?",
+          "wrong": [
+            "Goodbye!",
+            "Excuse me!"
+          ],
+          "hint": "Match polite and please.",
+          "hl": [
+            3,
+            7
           ]
         }
       ]
