@@ -1,237 +1,1066 @@
 {
   "theme": "Personal Life",
   "themeNumber": 3,
+  "year": 3,
   "scan": [
     {
       "id": "scan-1",
-      "title": "What Do They Look Like?",
-      "subtitle": "Find the right description!",
-      "icon": "🪞",
+      "title": "This Is Me!",
+      "subtitle": "Find the right body part!",
+      "icon": "👧",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Let's describe our friends!",
-        "What does Maya look like? She is tall and pretty.",
-        "She has got brown eyes and a small nose.",
-        "She has got a round chin and long eyelashes.",
-        "Her eyebrows are dark brown.",
-        "What does Leo look like? He is strong and handsome.",
-        "He has got big ears and white teeth.",
-        "His back is straight and his feet are big.",
-        "What does Ms. Hart look like? She is beautiful and young.",
-        "She has got a small chin and short eyelashes.",
-        "We all look different!"
+        "Maya says: This is me!",
+        "I have got long curly brown hair.",
+        "I have got blue eyes and small eyelashes.",
+        "I have got two small feet.",
+        "I have got white teeth.",
+        "Leo says: Whose hair is this?",
+        "Maya says: It is Maya's hair! It is my hair!",
+        "I am happy and hardworking!"
       ],
       "translations": [
-        "Hadi arkadaşlarımızı tarif edelim!",
-        "Maya nasıl görünüyor? O uzun boylu ve güzel.",
-        "Onun kahverengi gözleri ve küçük bir burnu var.",
-        "Onun yuvarlak bir çenesi ve uzun kirpikleri var.",
-        "Onun kaşları koyu kahverengi.",
-        "Leo nasıl görünüyor? O güçlü ve yakışıklı.",
-        "Onun büyük kulakları ve beyaz dişleri var.",
-        "Onun sırtı düz ve ayakları büyük.",
-        "Ms. Hart nasıl görünüyor? O güzel ve genç.",
-        "Onun küçük bir çenesi ve kısa kirpikleri var.",
-        "Hepimiz farklı görünüyoruz!"
+        "Maya diyor: Bu benim!",
+        "Uzun kıvırcık kahverengi saçlarım var.",
+        "Mavi gözlerim ve küçük kirpiklerim var.",
+        "İki küçük ayağım var.",
+        "Beyaz dişlerim var.",
+        "Leo diyor: Bu kimin saçı?",
+        "Maya diyor: Maya'nın saçı! Benim saçım!",
+        "Mutlu ve çalışkanım!"
       ],
       "questions": [
         {
-          "q": "What does Maya look like?",
-          "correct": "She is tall and pretty.",
-          "wrong": ["She is strong and handsome.", "She is beautiful and young."],
-          "hint": "Find Maya in the text.",
-          "hl": [1]
+          "q": "What colour hair has Maya got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blond",
+            "Black"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What colour are Maya's eyebrows?",
-          "correct": "Dark brown",
-          "wrong": ["Black", "Blonde"],
-          "hint": "Find the word eyebrows in the text.",
-          "hl": [4]
+          "q": "How is her hair?",
+          "correct": "Long and curly",
+          "wrong": [
+            "Short and straight",
+            "Small and dark"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What has Leo got?",
-          "correct": "Big ears and white teeth",
-          "wrong": ["Long eyelashes and a round chin", "Brown eyes and a small nose"],
-          "hint": "Find Leo in the text.",
-          "hl": [6]
+          "q": "What colour eyes has Maya got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What does Ms. Hart look like?",
-          "correct": "Beautiful and young",
-          "wrong": ["Tall and pretty", "Strong and handsome"],
-          "hint": "Find Ms. Hart in the text.",
-          "hl": [8]
+          "q": "How many feet has she got?",
+          "correct": "Two",
+          "wrong": [
+            "Four",
+            "One"
+          ],
+          "hint": "Find feet.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Who has got a small chin?",
-          "correct": "Ms. Hart",
-          "wrong": ["Maya", "Leo"],
-          "hint": "Find the word chin in the text.",
-          "hl": [3, 9]
+          "q": "How is Maya's character?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Sad and lazy",
+            "Bad and tired"
+          ],
+          "hint": "Find sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "What Are You Wearing?",
-      "subtitle": "Find the right clothes!",
-      "icon": "👗",
+      "title": "Leo and His Face",
+      "subtitle": "Find the right answer!",
+      "icon": "👦",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "What are you wearing today, Maya?",
-        "I am wearing a sweatshirt and jeans.",
-        "I am also wearing boots and socks.",
-        "What are you wearing today, Leo?",
-        "I am wearing a jumper and a uniform.",
-        "I am also wearing a jacket.",
-        "What is Ms. Hart wearing today?",
-        "She is wearing a skirt and a blouse.",
-        "She has got a necklace and earrings.",
-        "She is also wearing sunglasses and carrying a bag.",
-        "We all wear different clothes!"
+        "Leo says: Look at my face!",
+        "I have got short straight blond hair.",
+        "I have got green eyes.",
+        "I have got small eyebrows over my eyes.",
+        "I have got a strong chin.",
+        "I have got white teeth in my mouth.",
+        "Maya says: Whose face is this?",
+        "Leo says: It is Leo's face! It is my face!",
+        "I am tall and nice!"
       ],
       "translations": [
-        "Bugün ne giyiyorsun, Maya?",
-        "Bir sweatshirt ve kot pantolon giyiyorum.",
-        "Ayrıca bot ve çorap giyiyorum.",
-        "Bugün ne giyiyorsun, Leo?",
-        "Bir kazak ve üniforma giyiyorum.",
-        "Ayrıca bir ceket giyiyorum.",
-        "Ms. Hart bugün ne giyiyor?",
-        "Bir etek ve bluz giyiyor.",
-        "Onun bir kolyesi ve küpeleri var.",
-        "Ayrıca güneş gözlüğü takıyor ve çanta taşıyor.",
-        "Hepimiz farklı kıyafetler giyiyoruz!"
+        "Leo diyor: Yüzüme bak!",
+        "Kısa düz sarı saçlarım var.",
+        "Yeşil gözlerim var.",
+        "Gözlerimin üstünde küçük kaşlarım var.",
+        "Güçlü bir çenem var.",
+        "Ağzımda beyaz dişlerim var.",
+        "Maya diyor: Bu kimin yüzü?",
+        "Leo diyor: Leo'nun yüzü! Benim yüzüm!",
+        "Uzun boylu ve hoşum!"
       ],
       "questions": [
         {
-          "q": "What is Maya wearing?",
-          "correct": "A sweatshirt and jeans",
-          "wrong": ["A jumper and a uniform", "A skirt and a blouse"],
-          "hint": "Find Maya in the text.",
-          "hl": [1]
+          "q": "How is Leo's hair?",
+          "correct": "Short and straight",
+          "wrong": [
+            "Long and curly",
+            "Big and dark"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is Leo wearing?",
-          "correct": "A jumper and a uniform",
-          "wrong": ["A sweatshirt and jeans", "A skirt and a jacket"],
-          "hint": "Find Leo in the text.",
-          "hl": [4]
+          "q": "What colour eyes has Leo got?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Brown"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What footwear is Maya wearing?",
-          "correct": "Boots and socks",
-          "wrong": ["Shoes and socks", "Boots and a jacket"],
-          "hint": "Find the word boots in the text.",
-          "hl": [2]
+          "q": "Where are his eyebrows?",
+          "correct": "Over his eyes",
+          "wrong": [
+            "On his chin",
+            "Under his hair"
+          ],
+          "hint": "Find eyebrows.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "What accessories has Ms. Hart got?",
-          "correct": "A necklace and earrings",
-          "wrong": ["Sunglasses and boots", "A bag and socks"],
-          "hint": "Find Ms. Hart's accessories in the text.",
-          "hl": [8]
+          "q": "How is his chin?",
+          "correct": "Strong",
+          "wrong": [
+            "Weak",
+            "Sad"
+          ],
+          "hint": "Find chin.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is Ms. Hart carrying?",
-          "correct": "A bag",
-          "wrong": ["A jacket", "An umbrella"],
-          "hint": "Find the word carrying in the text.",
-          "hl": [9]
+          "q": "How is Leo?",
+          "correct": "Tall and nice",
+          "wrong": [
+            "Short and lazy",
+            "Sad and weak"
+          ],
+          "hint": "Find sentence 9.",
+          "hl": [
+            8
+          ]
         }
       ]
     },
     {
       "id": "scan-3",
-      "title": "Have You Got Any…?",
-      "subtitle": "Find the right answer!",
-      "icon": "🎒",
+      "title": "Ada's Outfit Today",
+      "subtitle": "Find the right clothing!",
+      "icon": "👗",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Maya asks Leo: Have you got any jumpers?",
-        "Yes, I have got some jumpers, says Leo.",
-        "Have you got any boots? asks Maya.",
-        "No, I haven't got any boots, says Leo.",
-        "Ms. Hart asks: Have you got any water?",
-        "Yes, I have got some water, says Maya.",
-        "Have you got much time? asks Ms. Hart.",
-        "No, I haven't got much time, says Maya.",
-        "Whose bag is this? asks Leo.",
-        "This is Maya's bag, says Ms. Hart.",
-        "Whose sunglasses are these? asks Maya.",
-        "These are Ms. Hart's sunglasses, says Leo."
+        "Ada says: Look at my clothes today!",
+        "I am wearing a beautiful pink dress.",
+        "I am wearing white socks.",
+        "I am wearing brown boots.",
+        "I have got a small bag.",
+        "I have got a yellow necklace, too.",
+        "Zara says: Whose dress is this?",
+        "Ada says: It is Ada's dress! It is my dress!",
+        "I love my outfit!"
       ],
       "translations": [
-        "Maya Leo'ya soruyor: Hiç kazakların var mı?",
-        "Evet, birkaç kazağım var, diyor Leo.",
-        "Hiç botun var mı? diye soruyor Maya.",
-        "Hayır, hiç botum yok, diyor Leo.",
-        "Ms. Hart soruyor: Hiç suyun var mı?",
-        "Evet, biraz suyum var, diyor Maya.",
-        "Çok zamanın var mı? diye soruyor Ms. Hart.",
-        "Hayır, çok zamanım yok, diyor Maya.",
-        "Bu kimin çantası? diye soruyor Leo.",
-        "Bu Maya'nın çantası, diyor Ms. Hart.",
-        "Bu kimin güneş gözlüğü? diye soruyor Maya.",
-        "Bunlar Ms. Hart'ın güneş gözlüğü, diyor Leo."
+        "Ada diyor: Bugünkü kıyafetlerime bak!",
+        "Güzel pembe bir elbise giyiyorum.",
+        "Beyaz çoraplar giyiyorum.",
+        "Kahverengi botlar giyiyorum.",
+        "Küçük bir çantam var.",
+        "Sarı bir kolyem de var.",
+        "Zara diyor: Bu kimin elbisesi?",
+        "Ada diyor: Ada'nın elbisesi! Benim elbisem!",
+        "Kıyafetimi seviyorum!"
       ],
       "questions": [
         {
-          "q": "Has Leo got any jumpers?",
-          "correct": "Yes, he has got some jumpers.",
-          "wrong": ["No, he hasn't got any jumpers.", "Yes, he has got some boots."],
-          "hint": "Find the word jumpers in the text.",
-          "hl": [0, 1]
+          "q": "What is Ada wearing?",
+          "correct": "A pink dress",
+          "wrong": [
+            "A blue skirt",
+            "A red jacket"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Has Leo got any boots?",
-          "correct": "No, he hasn't got any boots.",
-          "wrong": ["Yes, he has got some boots.", "Yes, he has got some jumpers."],
-          "hint": "Find the word boots in the text.",
-          "hl": [2, 3]
+          "q": "What colour are her socks?",
+          "correct": "White",
+          "wrong": [
+            "Black",
+            "Yellow"
+          ],
+          "hint": "Find socks.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Has Maya got much time?",
-          "correct": "No, she hasn't got much time.",
-          "wrong": ["Yes, she has got much time.", "Yes, she has got some time."],
-          "hint": "Find the word time in the text.",
-          "hl": [6, 7]
+          "q": "What colour are her boots?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Black"
+          ],
+          "hint": "Find boots.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Whose bag is it?",
-          "correct": "Maya's bag",
-          "wrong": ["Leo's bag", "Ms. Hart's bag"],
-          "hint": "Find the word bag in the text.",
-          "hl": [8, 9]
+          "q": "What else has Ada got?",
+          "correct": "A bag and a necklace",
+          "wrong": [
+            "A hat",
+            "Sunglasses"
+          ],
+          "hint": "Read sentences 5-6.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Does Ada love her outfit?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Kerem's School Day",
+      "subtitle": "Find the right clothing!",
+      "icon": "🧥",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Kerem says: Today is a school day.",
+        "I am wearing my school uniform.",
+        "I am wearing blue jeans.",
+        "I am wearing a green jacket.",
+        "I am wearing black boots.",
+        "I have got a big school bag.",
+        "Mert says: Whose jacket is this?",
+        "Kerem says: It is Kerem's jacket! It is my jacket!",
+        "I love my school clothes!"
+      ],
+      "translations": [
+        "Kerem diyor: Bugün okul günü.",
+        "Okul üniformamı giyiyorum.",
+        "Mavi kot giyiyorum.",
+        "Yeşil bir ceket giyiyorum.",
+        "Siyah botlar giyiyorum.",
+        "Büyük bir okul çantam var.",
+        "Mert diyor: Bu kimin ceketi?",
+        "Kerem diyor: Kerem'in ceketi! Benim ceketim!",
+        "Okul kıyafetlerimi seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What is Kerem wearing?",
+          "correct": "School uniform",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour are his jeans?",
+          "correct": "Blue",
+          "wrong": [
+            "Black",
+            "White"
+          ],
+          "hint": "Find jeans.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is his jacket?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Red"
+          ],
+          "hint": "Find jacket.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colour are his boots?",
+          "correct": "Black",
+          "wrong": [
+            "Brown",
+            "White"
+          ],
+          "hint": "Find boots.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Whose jacket is it?",
+          "correct": "Kerem's jacket",
+          "wrong": [
+            "Mert's jacket",
+            "Leo's jacket"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "My Friends and Me",
+      "subtitle": "Find the right character!",
+      "icon": "😊",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: I have got many friends!",
+        "I am happy and hardworking.",
+        "Mert says: I am lazy. I am also nice!",
+        "Maya says: Leo is good and tall.",
+        "Maya says: Ada is little and beautiful.",
+        "Maya says: Kerem is strong and hardworking.",
+        "Mert says: Zara is happy and beautiful, too.",
+        "Maya says: My friends are wonderful!"
+      ],
+      "translations": [
+        "Maya diyor: Birçok arkadaşım var!",
+        "Mutlu ve çalışkanım.",
+        "Mert diyor: Tembelim. Aynı zamanda hoşum!",
+        "Maya diyor: Leo iyi ve uzun boylu.",
+        "Maya diyor: Ada küçük ve güzel.",
+        "Maya diyor: Kerem güçlü ve çalışkan.",
+        "Mert diyor: Zara da mutlu ve güzel.",
+        "Maya diyor: Arkadaşlarım harika!"
+      ],
+      "questions": [
+        {
+          "q": "How is Maya?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Sad and lazy",
+            "Bad and weak"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is Mert?",
+          "correct": "Lazy and nice",
+          "wrong": [
+            "Hardworking",
+            "Sad"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is Ada?",
+          "correct": "Little and beautiful",
+          "wrong": [
+            "Tall and strong",
+            "Sad and lazy"
+          ],
+          "hint": "Find Ada.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is Kerem?",
+          "correct": "Strong and hardworking",
+          "wrong": [
+            "Lazy",
+            "Weak"
+          ],
+          "hint": "Find Kerem.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is Zara?",
+          "correct": "Happy and beautiful",
+          "wrong": [
+            "Sad",
+            "Bad"
+          ],
+          "hint": "Find Zara.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "What Is Deniz Like?",
+      "subtitle": "Find the right answer!",
+      "icon": "🧒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ada says: What is Deniz like?",
+        "Deniz says: I am strong and good.",
+        "I have got short curly black hair.",
+        "I have got brown eyes.",
+        "I have got two big feet.",
+        "I am hardworking at school.",
+        "Ada says: Whose backpack is this?",
+        "Deniz says: It is Deniz's backpack! It is my backpack!",
+        "My friends are nice!"
+      ],
+      "translations": [
+        "Ada diyor: Deniz nasıl biri?",
+        "Deniz diyor: Güçlü ve iyiyim.",
+        "Kısa kıvırcık siyah saçlarım var.",
+        "Kahverengi gözlerim var.",
+        "İki büyük ayağım var.",
+        "Okulda çalışkanım.",
+        "Ada diyor: Bu kimin sırt çantası?",
+        "Deniz diyor: Deniz'in sırt çantası! Benim sırt çantam!",
+        "Arkadaşlarım hoş!"
+      ],
+      "questions": [
+        {
+          "q": "How is Deniz?",
+          "correct": "Strong and good",
+          "wrong": [
+            "Lazy and bad",
+            "Sad and weak"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is his hair?",
+          "correct": "Short, curly, black",
+          "wrong": [
+            "Long, blond",
+            "Small, white"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour eyes has Deniz got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Find eyes.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How big are his feet?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Little"
+          ],
+          "hint": "Find feet.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Whose backpack is it?",
+          "correct": "Deniz's",
+          "wrong": [
+            "Maya's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Clothes for the Weather",
+      "subtitle": "Find the right clothing!",
+      "icon": "🌤️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Mert says: It is windy today.",
+        "I am wearing a warm jumper.",
+        "I am wearing jeans and socks.",
+        "I have got a coat, too.",
+        "Kerem says: It is sunny today!",
+        "I am wearing a sweatshirt and a hat.",
+        "Mert says: Whose coat is this?",
+        "Kerem says: It is Mert's coat!"
+      ],
+      "translations": [
+        "Mert diyor: Bugün rüzgarlı.",
+        "Sıcak bir kazak giyiyorum.",
+        "Kot ve çorap giyiyorum.",
+        "Bir paltom da var.",
+        "Kerem diyor: Bugün güneşli!",
+        "Bir sweatshirt ve bir şapka giyiyorum.",
+        "Mert diyor: Bu kimin paltosu?",
+        "Kerem diyor: Mert'in paltosu!"
+      ],
+      "questions": [
+        {
+          "q": "How is the weather for Mert?",
+          "correct": "Windy",
+          "wrong": [
+            "Sunny",
+            "Raining"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Mert wearing?",
+          "correct": "A warm jumper",
+          "wrong": [
+            "A T-shirt",
+            "A dress"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the weather for Kerem?",
+          "correct": "Sunny",
+          "wrong": [
+            "Windy",
+            "Snowing"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Kerem wearing?",
+          "correct": "A sweatshirt and a hat",
+          "wrong": [
+            "A coat",
+            "Boots"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Whose coat is it?",
+          "correct": "Mert's coat",
+          "wrong": [
+            "Kerem's coat",
+            "Leo's coat"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "Zara Loves Dresses",
+      "subtitle": "Find the right answer!",
+      "icon": "👗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Zara says: I love beautiful dresses!",
+        "I like long dresses.",
+        "I like dresses with flowers.",
+        "I dislike short skirts.",
+        "I hate small hats!",
+        "I love big sunglasses, too.",
+        "Maya says: I love sunglasses, too!",
+        "Two friends, many clothes likes!"
+      ],
+      "translations": [
+        "Zara diyor: Güzel elbiseleri severim!",
+        "Uzun elbiseleri severim.",
+        "Çiçekli elbiseleri severim.",
+        "Kısa etekleri sevmem.",
+        "Küçük şapkalardan nefret ederim!",
+        "Büyük güneş gözlüklerini de severim.",
+        "Maya diyor: Ben de güneş gözlüklerini severim!",
+        "İki arkadaş, birçok kıyafet zevki!"
+      ],
+      "questions": [
+        {
+          "q": "What does Zara love?",
+          "correct": "Beautiful dresses",
+          "wrong": [
+            "Short skirts",
+            "Small hats"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does she like with flowers?",
+          "correct": "Dresses",
+          "wrong": [
+            "Skirts",
+            "Hats"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does she dislike?",
+          "correct": "Short skirts",
+          "wrong": [
+            "Long dresses",
+            "Big sunglasses"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does she hate?",
+          "correct": "Small hats",
+          "wrong": [
+            "Sunglasses",
+            "Boots"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Maya love, too?",
+          "correct": "Sunglasses",
+          "wrong": [
+            "Hats",
+            "Boots"
+          ],
+          "hint": "Find Maya.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "Whose Clothes Are These?",
+      "subtitle": "Find the right owner!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: Look at the clothes here!",
+        "Whose dress is this? It is Ada's dress.",
+        "Whose necklace is this? It is Zara's necklace.",
+        "Whose jacket is this? It is Maya's jacket.",
+        "Whose boots are they? They are Kerem's boots.",
+        "Whose sunglasses are they? They are Mert's sunglasses.",
+        "Ada says: We all have got nice clothes!",
+        "Maya says: Yes, we have got many clothes!"
+      ],
+      "translations": [
+        "Maya diyor: Buradaki kıyafetlere bak!",
+        "Bu kimin elbisesi? Ada'nın elbisesi.",
+        "Bu kimin kolyesi? Zara'nın kolyesi.",
+        "Bu kimin ceketi? Maya'nın ceketi.",
+        "Bu botlar kimin? Kerem'in botları.",
+        "Bu güneş gözlüğü kimin? Mert'in güneş gözlükleri.",
+        "Ada diyor: Hepimizin güzel kıyafetleri var!",
+        "Maya diyor: Evet, birçok kıyafetimiz var!"
+      ],
+      "questions": [
+        {
+          "q": "Whose dress is it?",
+          "correct": "Ada's",
+          "wrong": [
+            "Maya's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Whose necklace is it?",
+          "correct": "Zara's",
+          "wrong": [
+            "Ada's",
+            "Maya's"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Whose jacket is it?",
+          "correct": "Maya's",
+          "wrong": [
+            "Ada's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Whose boots are they?",
+          "correct": "Kerem's",
+          "wrong": [
+            "Mert's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
           "q": "Whose sunglasses are they?",
-          "correct": "Ms. Hart's sunglasses",
-          "wrong": ["Maya's sunglasses", "Leo's sunglasses"],
-          "hint": "Find the word sunglasses in the text.",
-          "hl": [10, 11]
+          "correct": "Mert's",
+          "wrong": [
+            "Kerem's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "19 May Sports Day",
+      "subtitle": "Find the right answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Today is the 19th of May.",
+        "It is the Commemoration of Atatürk, Youth and Sports Day.",
+        "Maya says: I am wearing my sports clothes!",
+        "I am wearing a white T-shirt and a red skirt.",
+        "Leo says: I am wearing my sports uniform, too!",
+        "I am wearing a blue sweatshirt and jeans.",
+        "Maya says: I am happy and strong today!",
+        "Leo says: Whose flag is this? It is our Turkish flag!",
+        "Happy 19th of May!"
+      ],
+      "translations": [
+        "Bugün 19 Mayıs.",
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı.",
+        "Maya diyor: Spor kıyafetlerimi giyiyorum!",
+        "Beyaz tişört ve kırmızı bir etek giyiyorum.",
+        "Leo diyor: Ben de spor üniformamı giyiyorum!",
+        "Mavi sweatshirt ve kot giyiyorum.",
+        "Maya diyor: Bugün mutlu ve güçlüyüm!",
+        "Leo diyor: Bu kimin bayrağı? Türk bayrağımız!",
+        "19 Mayıs kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What date is it today?",
+          "correct": "The 19th of May",
+          "wrong": [
+            "The 23rd of April",
+            "The 29th of October"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Youth and Sports Day",
+          "wrong": [
+            "Children's Day",
+            "Republic Day"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Maya wearing?",
+          "correct": "A white T-shirt and a red skirt",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Find Maya.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Leo wearing?",
+          "correct": "A blue sweatshirt and jeans",
+          "wrong": [
+            "A jacket",
+            "Boots"
+          ],
+          "hint": "Find Leo.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How is Maya today?",
+          "correct": "Happy and strong",
+          "wrong": [
+            "Sad and weak",
+            "Lazy"
+          ],
+          "hint": "Find Maya in sentence 7.",
+          "hl": [
+            6
+          ]
         }
       ]
     }
@@ -239,157 +1068,1072 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "What's Her Hair Like?",
+      "title": "What Do We Look Like?",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "💇",
+      "icon": "👯",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Let's describe our hair and looks!",
-        "What is Maya's hair like? She has got long curly hair.",
-        "Her hair is blonde.",
-        "What is Leo's hair like? He has got short straight hair.",
-        "His hair is dark brown.",
-        "What is Ms. Hart's hair like? She has got medium straight hair.",
-        "Her hair is black.",
-        "Maya is pretty and little.",
-        "Leo is strong but not fat.",
-        "Ms. Hart is beautiful and young.",
-        "Our school librarian is old but not ugly.",
-        "Ms. Shaw is weak but very hardworking!"
+        "Maya says: What does Zara look like?",
+        "Zara is beautiful and tall.",
+        "Zara has got long curly dark hair.",
+        "She has got brown eyes.",
+        "Zara says: What does Maya look like?",
+        "Maya is pretty and happy.",
+        "Maya has got long curly brown hair.",
+        "Maya has got blue eyes.",
+        "Two friends, two different girls!"
       ],
       "translations": [
-        "Hadi saçımızı ve görünüşümüzü tarif edelim!",
-        "Maya'nın saçı nasıl? Onun uzun kıvırcık saçları var.",
-        "Onun saçı sarı.",
-        "Leo'nun saçı nasıl? Onun kısa düz saçları var.",
-        "Onun saçı koyu kahverengi.",
-        "Ms. Hart'ın saçı nasıl? Onun orta boyda düz saçları var.",
-        "Onun saçı siyah.",
-        "Maya güzel ve küçük.",
-        "Leo güçlü ama şişman değil.",
-        "Ms. Hart güzel ve genç.",
-        "Okul kütüphanecimiz yaşlı ama çirkin değil.",
-        "Ms. Shaw zayıf ama çok çalışkan!"
+        "Maya diyor: Zara nasıl görünüyor?",
+        "Zara güzel ve uzun boylu.",
+        "Zara'nın uzun kıvırcık siyah saçları var.",
+        "Kahverengi gözleri var.",
+        "Zara diyor: Maya nasıl görünüyor?",
+        "Maya güzel ve mutlu.",
+        "Maya'nın uzun kıvırcık kahverengi saçları var.",
+        "Maya'nın mavi gözleri var.",
+        "İki arkadaş, iki farklı kız!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Describing hair and physical features",
-          "wrong": ["Describing clothes", "Describing school places"],
-          "hint": "Think about what every sentence describes.",
-          "hl": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+          "correct": "Two girls describe each other",
+          "wrong": [
+            "School",
+            "A pet"
+          ],
+          "hint": "Think about the descriptions.",
+          "hl": [
+            0,
+            4
+          ]
         },
         {
-          "q": "What is Maya's hair like?",
-          "correct": "Long and curly",
-          "wrong": ["Short and straight", "Medium and straight"],
-          "hint": "Find Maya's hair in the text.",
-          "hl": [1]
+          "q": "What is Zara like?",
+          "correct": "Beautiful and tall",
+          "wrong": [
+            "Sad and weak",
+            "Lazy"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What colour is Leo's hair?",
-          "correct": "Dark brown",
-          "wrong": ["Blonde", "Black"],
-          "hint": "Find Leo's hair colour in the text.",
-          "hl": [4]
+          "q": "What colour hair has Zara got?",
+          "correct": "Dark",
+          "wrong": [
+            "Blond",
+            "Red"
+          ],
+          "hint": "Find Zara.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How is Ms. Shaw described?",
-          "correct": "Weak but hardworking",
-          "wrong": ["Old and ugly", "Strong and young"],
-          "hint": "Find Ms. Shaw in the text.",
-          "hl": [11]
+          "q": "What is Maya like?",
+          "correct": "Pretty and happy",
+          "wrong": [
+            "Bad and sad",
+            "Weak"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "What is Ms. Hart's hair like?",
-          "correct": "Medium and straight",
-          "wrong": ["Long and curly", "Short and straight"],
-          "hint": "Find Ms. Hart's hair in the text.",
-          "hl": [5]
+          "q": "What colour eyes has Maya got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find Maya in sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "skim-2",
-      "title": "Clothes and Weather",
+      "title": "Leo Talks About His Body",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🦷",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Leo says: Look at my body!",
+        "I have got a strong back.",
+        "I have got white teeth. I have got one big tooth!",
+        "I have got two feet. I have got one foot in a boot.",
+        "I have got small eyebrows and short eyelashes.",
+        "Deniz says: I have got a strong body, too!",
+        "I am strong and good.",
+        "Bodies are wonderful!"
+      ],
+      "translations": [
+        "Leo diyor: Vücuduma bak!",
+        "Güçlü bir sırtım var.",
+        "Beyaz dişlerim var. Büyük bir dişim var!",
+        "İki ayağım var. Bir ayağım botta.",
+        "Küçük kaşlarım ve kısa kirpiklerim var.",
+        "Deniz diyor: Ben de güçlü bir vücuda sahibim!",
+        "Güçlü ve iyiyim.",
+        "Vücutlar harika!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Body parts",
+          "wrong": [
+            "School",
+            "Clothes"
+          ],
+          "hint": "Think about body parts.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How is Leo's back?",
+          "correct": "Strong",
+          "wrong": [
+            "Weak",
+            "Sad"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many feet has Leo got?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Four"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How are his eyelashes?",
+          "correct": "Short",
+          "wrong": [
+            "Long",
+            "Big"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is Deniz?",
+          "correct": "Strong and good",
+          "wrong": [
+            "Sad and weak",
+            "Lazy"
+          ],
+          "hint": "Find Deniz.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-3",
+      "title": "Boys and Their Clothes",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👕",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Mert says: I am wearing a sweatshirt today.",
+        "I am wearing my favourite jeans.",
+        "I am wearing white socks.",
+        "Kerem says: I am wearing a green jacket!",
+        "I am wearing boots and a school uniform.",
+        "I have got a big bag, too.",
+        "Mert says: Whose bag is this?",
+        "Kerem says: It is Kerem's bag! It is my bag!"
+      ],
+      "translations": [
+        "Mert diyor: Bugün sweatshirt giyiyorum.",
+        "Favori kotumu giyiyorum.",
+        "Beyaz çorap giyiyorum.",
+        "Kerem diyor: Ben yeşil bir ceket giyiyorum!",
+        "Bot ve okul üniforması giyiyorum.",
+        "Büyük bir çantam da var.",
+        "Mert diyor: Bu kimin çantası?",
+        "Kerem diyor: Kerem'in çantası! Benim çantam!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Two boys and their clothes",
+          "wrong": [
+            "School lessons",
+            "Pets"
+          ],
+          "hint": "Think about the clothes.",
+          "hl": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": "What is Mert wearing?",
+          "correct": "A sweatshirt and jeans",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Find Mert.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "What colour are his socks?",
+          "correct": "White",
+          "wrong": [
+            "Black",
+            "Red"
+          ],
+          "hint": "Find socks.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Kerem wearing?",
+          "correct": "A green jacket",
+          "wrong": [
+            "A red dress",
+            "A blue T-shirt"
+          ],
+          "hint": "Find Kerem.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Whose bag is it?",
+          "correct": "Kerem's bag",
+          "wrong": [
+            "Mert's bag",
+            "Leo's bag"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Girls and Their Favourite Clothes",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "💕",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ada says: I love beautiful dresses!",
+        "I like long skirts.",
+        "I dislike short socks.",
+        "I hate small sunglasses.",
+        "Zara says: I love long dresses, too!",
+        "I love necklaces and earrings.",
+        "I dislike jumpers.",
+        "Two girls, many clothes likes!"
+      ],
+      "translations": [
+        "Ada diyor: Güzel elbiseleri severim!",
+        "Uzun etekleri severim.",
+        "Kısa çorapları sevmem.",
+        "Küçük güneş gözlüklerinden nefret ederim.",
+        "Zara diyor: Ben de uzun elbiseleri severim!",
+        "Kolye ve küpeleri severim.",
+        "Kazaklardan hoşlanmam.",
+        "İki kız, birçok kıyafet zevki!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Clothes preferences",
+          "wrong": [
+            "Body parts",
+            "School"
+          ],
+          "hint": "Think about likes and dislikes.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "What does Ada love?",
+          "correct": "Beautiful dresses",
+          "wrong": [
+            "Short socks",
+            "Small sunglasses"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Ada dislike?",
+          "correct": "Short socks",
+          "wrong": [
+            "Long dresses",
+            "Long skirts"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Zara love?",
+          "correct": "Long dresses, necklaces, earrings",
+          "wrong": [
+            "Jumpers",
+            "Boots"
+          ],
+          "hint": "Read sentences 5-6.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What does Zara dislike?",
+          "correct": "Jumpers",
+          "wrong": [
+            "Dresses",
+            "Necklaces"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Different Personalities",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎭",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: We all have different characters!",
+        "I am happy and hardworking.",
+        "Some days, I am sad.",
+        "Mert says: I am lazy. I am also nice!",
+        "Leo is strong. He is not weak.",
+        "Deniz is good. He is not bad.",
+        "Ada is little and pretty.",
+        "Kerem is strong and happy.",
+        "We all have got different personalities!"
+      ],
+      "translations": [
+        "Maya diyor: Hepimizin farklı karakterleri var!",
+        "Mutlu ve çalışkanım.",
+        "Bazı günler üzgünüm.",
+        "Mert diyor: Tembelim. Aynı zamanda hoşum!",
+        "Leo güçlü. Zayıf değil.",
+        "Deniz iyi. Kötü değil.",
+        "Ada küçük ve güzel.",
+        "Kerem güçlü ve mutlu.",
+        "Hepimizin farklı kişilikleri var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Different characters",
+          "wrong": [
+            "School",
+            "Clothes"
+          ],
+          "hint": "Think about the characters.",
+          "hl": [
+            0,
+            8
+          ]
+        },
+        {
+          "q": "How is Maya?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Sad and lazy",
+            "Bad"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is Mert?",
+          "correct": "Lazy and nice",
+          "wrong": [
+            "Hardworking",
+            "Sad"
+          ],
+          "hint": "Find Mert.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is Leo weak?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is Deniz bad?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Weather and Clothes Today",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🌦️",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "The weather changes every season!",
-        "It is sunny and warm today.",
-        "Maya is wearing a skirt and a sweatshirt.",
-        "She is also wearing sunglasses and a bag.",
-        "It is windy and raining now.",
-        "Leo is wearing a jacket and jeans.",
-        "He is also wearing boots and socks.",
-        "It is snowing outside!",
-        "Ms. Hart is wearing a coat and a jumper.",
-        "She is wearing boots or shoes? She is wearing boots!",
-        "Ms. Hart says: Don't forget to wear warm clothes!"
+        "Maya says: How is the weather today?",
+        "It is sunny and warm.",
+        "I am wearing a T-shirt and a skirt.",
+        "I am wearing sunglasses, too.",
+        "Leo says: I love windy days.",
+        "Today is sunny, too!",
+        "I am wearing a sweatshirt and jeans.",
+        "We love sunny days!"
       ],
       "translations": [
-        "Hava her mevsim değişiyor!",
-        "Bugün güneşli ve ılık.",
-        "Maya bir etek ve sweatshirt giyiyor.",
-        "Ayrıca güneş gözlüğü ve çanta taşıyor.",
-        "Şu an rüzgarlı ve yağmurlu.",
-        "Leo bir ceket ve kot pantolon giyiyor.",
-        "Ayrıca bot ve çorap giyiyor.",
-        "Dışarıda kar yağıyor!",
-        "Ms. Hart bir palto ve kazak giyiyor.",
-        "Ms. Hart bot mu yoksa ayakkabı mı giyiyor? Bot giyiyor!",
-        "Ms. Hart diyor: Sıcak giysiler giymeyi unutma!"
+        "Maya diyor: Bugün hava nasıl?",
+        "Güneşli ve sıcak.",
+        "Tişört ve etek giyiyorum.",
+        "Güneş gözlüğü de takıyorum.",
+        "Leo diyor: Rüzgarlı günleri severim.",
+        "Bugün de güneşli!",
+        "Sweatshirt ve kot giyiyorum.",
+        "Güneşli günleri severiz!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "correct": "Wearing different clothes for different weather",
-          "wrong": ["Describing hair and features", "Talking about school subjects"],
-          "hint": "Think about what the weather is like and what everyone is wearing.",
-          "hl": [1, 2, 4, 5, 7, 8]
+          "correct": "Weather and clothes",
+          "wrong": [
+            "School",
+            "Body parts"
+          ],
+          "hint": "Think about both topics.",
+          "hl": [
+            0,
+            1
+          ]
         },
         {
-          "q": "What is Maya wearing in sunny weather?",
-          "correct": "A skirt and a sweatshirt",
-          "wrong": ["A coat and a jumper", "A jacket and jeans"],
-          "hint": "Find Maya in the text.",
-          "hl": [1, 2]
+          "q": "How is the weather today?",
+          "correct": "Sunny and warm",
+          "wrong": [
+            "Raining",
+            "Snowing"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is Leo wearing in windy and rainy weather?",
-          "correct": "A jacket and jeans",
-          "wrong": ["A skirt and a sweatshirt", "A coat and a jumper"],
-          "hint": "Find Leo in the text.",
-          "hl": [4, 5]
+          "q": "What is Maya wearing?",
+          "correct": "A T-shirt and a skirt",
+          "wrong": [
+            "A dress",
+            "Boots"
+          ],
+          "hint": "Find Maya.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What is Ms. Hart wearing in snowy weather?",
-          "correct": "A coat and a jumper",
-          "wrong": ["A jacket and jeans", "A skirt and a sweatshirt"],
-          "hint": "Find Ms. Hart in the text.",
-          "hl": [7, 8]
+          "q": "What does Leo love?",
+          "correct": "Windy days",
+          "wrong": [
+            "Snowy days",
+            "Cold days"
+          ],
+          "hint": "Find Leo.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Ms. Hart say at the end?",
-          "correct": "Don't forget to wear warm clothes!",
-          "wrong": ["It is sunny and warm!", "Be careful outside!"],
-          "hint": "Read the last sentence.",
-          "hl": [10]
+          "q": "What is Leo wearing?",
+          "correct": "A sweatshirt and jeans",
+          "wrong": [
+            "A jacket",
+            "Boots"
+          ],
+          "hint": "Find Leo.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "Whose Things Are These?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🔍",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: There are many things here!",
+        "Whose dress is the blue one? It is Ada's dress.",
+        "Whose hat is the red one? It is Maya's hat.",
+        "Whose sweatshirt is the green one? It is Kerem's sweatshirt.",
+        "Whose jumper is the yellow one? It is Mert's jumper.",
+        "Kerem says: Whose boots are the brown ones? They are my boots!",
+        "Many clothes, many owners!"
+      ],
+      "translations": [
+        "Maya diyor: Burada birçok şey var!",
+        "Mavi olan kimin elbisesi? Ada'nın elbisesi.",
+        "Kırmızı olan kimin şapkası? Maya'nın şapkası.",
+        "Yeşil olan kimin sweatshirtü? Kerem'in sweatshirtü.",
+        "Sarı olan kimin kazağı? Mert'in kazağı.",
+        "Kerem diyor: Kahverengi olanlar kimin botları? Benim botlarım!",
+        "Birçok kıyafet, birçok sahibi!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Owners of clothes",
+          "wrong": [
+            "School",
+            "Weather"
+          ],
+          "hint": "Think about whose.",
+          "hl": [
+            0,
+            6
+          ]
+        },
+        {
+          "q": "Whose blue dress is it?",
+          "correct": "Ada's",
+          "wrong": [
+            "Maya's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Whose red hat is it?",
+          "correct": "Maya's",
+          "wrong": [
+            "Ada's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Whose green sweatshirt is it?",
+          "correct": "Kerem's",
+          "wrong": [
+            "Mert's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Whose brown boots are they?",
+          "correct": "Kerem's",
+          "wrong": [
+            "Mert's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "What Do We Like?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "❤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: What is Mert like?",
+        "Mert is lazy. He is nice.",
+        "Maya says: What does Mert love?",
+        "Mert says: I love big sunglasses!",
+        "I like sweatshirts.",
+        "I dislike school uniforms.",
+        "Maya says: I love long dresses.",
+        "I like flowers on my dresses.",
+        "Maya says: We are all different!"
+      ],
+      "translations": [
+        "Maya diyor: Mert nasıl biri?",
+        "Mert tembel. Hoş biri.",
+        "Maya diyor: Mert neyi sever?",
+        "Mert diyor: Büyük güneş gözlüklerini severim!",
+        "Sweatshirtleri severim.",
+        "Okul üniformalarını sevmem.",
+        "Maya diyor: Uzun elbiseleri severim.",
+        "Elbiselerimde çiçekler severim.",
+        "Maya diyor: Hepimiz farklıyız!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "What people are like and love",
+          "wrong": [
+            "Weather",
+            "Body parts"
+          ],
+          "hint": "Think about the questions.",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "What is Mert like?",
+          "correct": "Lazy and nice",
+          "wrong": [
+            "Hardworking",
+            "Sad"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Mert love?",
+          "correct": "Big sunglasses",
+          "wrong": [
+            "Small hats",
+            "Short socks"
+          ],
+          "hint": "Find Mert.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Mert dislike?",
+          "correct": "School uniforms",
+          "wrong": [
+            "Sweatshirts",
+            "Sunglasses"
+          ],
+          "hint": "Find Mert.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Maya love?",
+          "correct": "Long dresses",
+          "wrong": [
+            "Short skirts",
+            "Hats"
+          ],
+          "hint": "Find Maya in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "What Am I Wearing Today?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👕",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ada says: It is school time!",
+        "I am wearing my favourite dress today.",
+        "I am wearing a yellow necklace.",
+        "I am wearing white socks.",
+        "Deniz says: I am wearing jeans and a T-shirt.",
+        "I am wearing my school bag, too.",
+        "Ada says: I love my dress!",
+        "Deniz says: I love my new T-shirt!",
+        "School is fun with our clothes!"
+      ],
+      "translations": [
+        "Ada diyor: Okul zamanı!",
+        "Bugün favori elbisemi giyiyorum.",
+        "Sarı bir kolye takıyorum.",
+        "Beyaz çorap giyiyorum.",
+        "Deniz diyor: Kot ve tişört giyiyorum.",
+        "Okul çantamı da taşıyorum.",
+        "Ada diyor: Elbisemi seviyorum!",
+        "Deniz diyor: Yeni tişörtümü seviyorum!",
+        "Okul kıyafetlerimizle eğlenceli!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "What two children are wearing",
+          "wrong": [
+            "School lessons",
+            "Weather"
+          ],
+          "hint": "Think about clothes.",
+          "hl": [
+            0,
+            8
+          ]
+        },
+        {
+          "q": "What is Ada wearing?",
+          "correct": "A dress, necklace, socks",
+          "wrong": [
+            "A jacket",
+            "Boots"
+          ],
+          "hint": "Read sentences 2-4.",
+          "hl": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What colour is her necklace?",
+          "correct": "Yellow",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Find Ada.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Deniz wearing?",
+          "correct": "Jeans and a T-shirt",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Find Deniz.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Ada love?",
+          "correct": "Her dress",
+          "wrong": [
+            "Her T-shirt",
+            "Her hat"
+          ],
+          "hint": "Find Ada in sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "29 October Celebrations",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🇹🇷",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Today is the 29th of October.",
+        "It is Republic Day in Türkiye!",
+        "Maya says: I am wearing a red and white dress.",
+        "I am wearing my Turkish flag pin.",
+        "I am very happy today!",
+        "Kerem says: I am wearing a white shirt and a red jacket.",
+        "I am wearing my Turkish flag pin, too.",
+        "Maya says: Whose flag is the big one? It is our Turkish flag!",
+        "Happy 29th of October!"
+      ],
+      "translations": [
+        "Bugün 29 Ekim.",
+        "Türkiye'de Cumhuriyet Bayramı!",
+        "Maya diyor: Kırmızı beyaz bir elbise giyiyorum.",
+        "Türk bayrağı rozetimi takıyorum.",
+        "Bugün çok mutluyum!",
+        "Kerem diyor: Beyaz bir gömlek ve kırmızı bir ceket giyiyorum.",
+        "Ben de Türk bayrağı rozetimi takıyorum.",
+        "Maya diyor: Büyük olan kimin bayrağı? Bizim Türk bayrağımız!",
+        "29 Ekim kutlu olsun!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Republic Day celebrations",
+          "wrong": [
+            "School lessons",
+            "Pets"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What date is it?",
+          "correct": "The 29th of October",
+          "wrong": [
+            "The 23rd of April",
+            "The 19th of May"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Maya wearing?",
+          "correct": "A red and white dress",
+          "wrong": [
+            "A blue jacket",
+            "Pyjamas"
+          ],
+          "hint": "Find Maya.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How does Maya feel?",
+          "correct": "Very happy",
+          "wrong": [
+            "Sad",
+            "Lazy"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Kerem wearing?",
+          "correct": "A white shirt and a red jacket",
+          "wrong": [
+            "A dress",
+            "Boots"
+          ],
+          "hint": "Find Kerem.",
+          "hl": [
+            5
+          ]
         }
       ]
     }
@@ -397,244 +2141,1095 @@
   "int": [
     {
       "id": "int-1",
-      "title": "My Friend Leo",
+      "title": "Ms. Hart Asks About Us",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "👦",
+      "icon": "🏫",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "My name is Maya. This is my friend Leo.",
-        "What does Leo look like?",
-        "Leo is tall and strong. He is not fat.",
-        "He has got short straight hair. His hair is dark brown.",
-        "He has got big brown eyes and a small chin.",
-        "Leo's teeth are white and his feet are big.",
-        "What is Leo like? He is very hardworking.",
-        "He is never lazy at school.",
-        "Leo is always happy. He is never sad.",
-        "Ms. Hart says: Leo is a good pupil!",
-        "Leo's back is straight when he sits.",
-        "I am lucky to have such a good friend!"
+        "Ms. Hart says: What does Maya look like?",
+        "Maya says: I have got long curly brown hair.",
+        "I have got blue eyes and small eyelashes.",
+        "I have got white teeth and two small feet.",
+        "I am pretty and happy!",
+        "Ms. Hart says: What does Leo look like?",
+        "Leo says: I have got short straight blond hair.",
+        "I have got green eyes and a strong chin.",
+        "I am tall and nice!",
+        "Ms. Hart says: My students are wonderful!"
       ],
       "translations": [
-        "Benim adım Maya. Bu benim arkadaşım Leo.",
-        "Leo nasıl görünüyor?",
-        "Leo uzun boylu ve güçlü. Şişman değil.",
-        "Onun kısa düz saçları var. Saçı koyu kahverengi.",
-        "Onun büyük kahverengi gözleri ve küçük bir çenesi var.",
-        "Leo'nun dişleri beyaz ve ayakları büyük.",
-        "Leo nasıl biri? O çok çalışkan.",
-        "Okulda hiç tembel değil.",
-        "Leo her zaman mutlu. Hiç üzgün değil.",
-        "Ms. Hart diyor: Leo iyi bir öğrenci!",
-        "Otururken Leo'nun sırtı düz.",
-        "Böyle iyi bir arkadaşım olduğu için şanslıyım!"
+        "Ms. Hart diyor: Maya nasıl görünüyor?",
+        "Maya diyor: Uzun kıvırcık kahverengi saçlarım var.",
+        "Mavi gözlerim ve küçük kirpiklerim var.",
+        "Beyaz dişlerim ve iki küçük ayağım var.",
+        "Güzel ve mutluyum!",
+        "Ms. Hart diyor: Leo nasıl görünüyor?",
+        "Leo diyor: Kısa düz sarı saçlarım var.",
+        "Yeşil gözlerim ve güçlü bir çenem var.",
+        "Uzun boylu ve hoşum!",
+        "Ms. Hart diyor: Öğrencilerim harika!"
       ],
       "questions": [
         {
-          "q": "What does Leo look like?",
-          "correct": "Tall and strong",
-          "wrong": ["Short and weak", "Fat and ugly"],
-          "hint": "Find the description of Leo in the text.",
-          "hl": [2]
+          "q": "What does Maya look like (hair)?",
+          "correct": "Long, curly, brown",
+          "wrong": [
+            "Short, straight",
+            "Small, dark"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is Leo's hair like?",
-          "correct": "Short and straight",
-          "wrong": ["Long and curly", "Medium and blonde"],
-          "hint": "Find the word hair in the text.",
-          "hl": [3]
+          "q": "What colour eyes has Maya got?",
+          "correct": "Blue",
+          "wrong": [
+            "Green",
+            "Brown"
+          ],
+          "hint": "Find Maya.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What is Leo like as a person?",
-          "correct": "Hardworking and happy",
-          "wrong": ["Lazy and sad", "Good but weak"],
-          "hint": "Find the sentences about Leo's character.",
-          "hl": [6, 8]
+          "q": "What does Leo look like (hair)?",
+          "correct": "Short, straight, blond",
+          "wrong": [
+            "Long, curly",
+            "Big, dark"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What does Ms. Hart say about Leo?",
-          "correct": "Leo is a good pupil.",
-          "wrong": ["Leo is a lazy pupil.", "Leo is a sad pupil."],
-          "hint": "Find Ms. Hart in the text.",
-          "hl": [9]
+          "q": "How is Leo's chin?",
+          "correct": "Strong",
+          "wrong": [
+            "Weak",
+            "Sad"
+          ],
+          "hint": "Find Leo.",
+          "hl": [
+            7
+          ]
         },
         {
-          "q": "Whose teeth are white?",
-          "correct": "Leo's teeth",
-          "wrong": ["Maya's teeth", "Ms. Hart's teeth"],
-          "hint": "Find the word teeth in the text.",
-          "hl": [5]
+          "q": "What does Ms. Hart say at the end?",
+          "correct": "My students are wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Ms. Hart in sentence 10.",
+          "hl": [
+            9
+          ]
         }
       ]
     },
     {
       "id": "int-2",
-      "title": "I Like and I Dislike",
+      "title": "Zara's New Earrings",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "❤️",
+      "icon": "✨",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Maya says: I love big sunglasses!",
-        "I like colourful necklaces, too.",
-        "I dislike ugly boots.",
-        "I hate old and dirty jackets.",
-        "Leo says: I love my school uniform.",
-        "I like warm jumpers in winter.",
-        "I don't need much money for my clothes.",
-        "I dislike skirts. I love jeans!",
-        "Ms. Hart says: I love beautiful earrings.",
-        "Have you got any earrings, Maya?",
-        "Yes, I have got some earrings, says Maya.",
-        "I'm so excited! My new earrings are beautiful!"
+        "Zara says: Look at my new earrings!",
+        "I am wearing red earrings today.",
+        "I am wearing a yellow necklace, too.",
+        "Ada says: Your earrings are beautiful!",
+        "I love earrings, too!",
+        "I am wearing blue earrings today.",
+        "Zara says: Whose earrings are the red ones? They are Zara's earrings!",
+        "Whose earrings are the blue ones? They are Ada's earrings!",
+        "Ms. Hart says: You are wearing beautiful accessories!"
       ],
       "translations": [
-        "Maya diyor: Büyük güneş gözlüklerini seviyorum!",
-        "Renkli kolyeler de seviyorum.",
-        "Çirkin botlardan hoşlanmıyorum.",
-        "Eski ve kirli ceketlerden nefret ediyorum.",
-        "Leo diyor: Okul üniformamı seviyorum.",
-        "Kışın sıcak kazakları seviyorum.",
-        "Kıyafetlerim için çok paraya ihtiyacım yok.",
-        "Eteklerden hoşlanmıyorum. Kotları seviyorum!",
-        "Ms. Hart diyor: Güzel küpeleri seviyorum.",
-        "Hiç küpen var mı, Maya?",
-        "Evet, birkaç küpem var, diyor Maya.",
-        "Çok heyecanlıyım! Yeni küpelerim çok güzel!"
+        "Zara diyor: Yeni küpelerime bak!",
+        "Bugün kırmızı küpeler takıyorum.",
+        "Sarı bir kolye de takıyorum.",
+        "Ada diyor: Küpelerin çok güzel!",
+        "Ben de küpeleri severim!",
+        "Bugün mavi küpeler takıyorum.",
+        "Zara diyor: Kırmızı olanlar kimin küpeleri? Zara'nın küpeleri!",
+        "Mavi olanlar kimin küpeleri? Ada'nın küpeleri!",
+        "Ms. Hart diyor: Güzel aksesuarlar takıyorsunuz!"
       ],
       "questions": [
         {
-          "q": "What does Maya love?",
-          "correct": "Big sunglasses",
-          "wrong": ["Ugly boots", "Old jackets"],
-          "hint": "Find the word love and Maya in the text.",
-          "hl": [0]
+          "q": "What is Zara wearing today?",
+          "correct": "Red earrings and a yellow necklace",
+          "wrong": [
+            "A dress",
+            "Boots"
+          ],
+          "hint": "Read sentences 2-3.",
+          "hl": [
+            1,
+            2
+          ]
         },
         {
-          "q": "What does Maya dislike?",
-          "correct": "Ugly boots",
-          "wrong": ["Colourful necklaces", "Big sunglasses"],
-          "hint": "Find the word dislike in the text.",
-          "hl": [2]
+          "q": "What does Ada love?",
+          "correct": "Earrings",
+          "wrong": [
+            "Necklaces",
+            "Sunglasses"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What does Leo love?",
-          "correct": "His school uniform",
-          "wrong": ["Skirts", "Old jackets"],
-          "hint": "Find Leo in the text.",
-          "hl": [4]
+          "q": "What is Ada wearing?",
+          "correct": "Blue earrings",
+          "wrong": [
+            "Red earrings",
+            "A necklace"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "Has Maya got any earrings?",
-          "correct": "Yes, she has got some earrings.",
-          "wrong": ["No, she hasn't got any earrings.", "Yes, she has got some necklaces."],
-          "hint": "Find the word earrings in the text.",
-          "hl": [9, 10]
+          "q": "Whose red earrings are they?",
+          "correct": "Zara's",
+          "wrong": [
+            "Ada's",
+            "Maya's"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
         },
         {
-          "q": "What does Leo say about money?",
-          "correct": "He doesn't need much money for his clothes.",
-          "wrong": ["He needs much money for his clothes.", "He has got much money."],
-          "hint": "Find the word money in the text.",
-          "hl": [6]
+          "q": "Whose blue earrings are they?",
+          "correct": "Ada's",
+          "wrong": [
+            "Zara's",
+            "Maya's"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
         }
       ]
     },
     {
       "id": "int-3",
-      "title": "What Are We Wearing Today?",
+      "title": "What Are My Friends Like?",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "👕",
+      "icon": "🌟",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Ms. Hart says: Let's talk about our clothes today!",
-        "What are you wearing today, Maya?",
-        "I am wearing a dress and a jacket.",
-        "I am also wearing boots and a necklace.",
-        "Whose dress is this? asks Leo.",
-        "This is Maya's dress, says Ms. Hart.",
-        "What are you wearing today, Leo?",
-        "I am wearing a sweatshirt and jeans.",
-        "I am also wearing socks and shoes.",
-        "Whose sweatshirt is that? asks Maya.",
-        "That is Leo's sweatshirt, says Ms. Hart.",
-        "What is Ms. Hart wearing today?",
-        "She is wearing a skirt or a dress? She is wearing a skirt!",
-        "She is also wearing a jumper and earrings.",
-        "You all look great today! says Ms. Hart."
+        "Maya says: My friends are all different!",
+        "What is Deniz like? He is strong and good.",
+        "What is Ada like? She is little and pretty.",
+        "What is Kerem like? He is hardworking and happy.",
+        "What is Mert like? He is lazy. He is also nice.",
+        "Deniz says: What is Maya like? She is happy and hardworking!",
+        "Deniz says: What is Zara like? She is beautiful and nice.",
+        "Maya says: We are all special!"
       ],
       "translations": [
-        "Ms. Hart diyor: Bugün kıyafetlerimiz hakkında konuşalım!",
-        "Bugün ne giyiyorsun, Maya?",
-        "Bir elbise ve ceket giyiyorum.",
-        "Ayrıca bot ve kolye takıyorum.",
-        "Bu kimin elbisesi? diye soruyor Leo.",
-        "Bu Maya'nın elbisesi, diyor Ms. Hart.",
-        "Bugün ne giyiyorsun, Leo?",
-        "Bir sweatshirt ve kot pantolon giyiyorum.",
-        "Ayrıca çorap ve ayakkabı giyiyorum.",
-        "Şu sweatshirt kimin? diye soruyor Maya.",
-        "Şu Leo'nun sweatshirt'ü, diyor Ms. Hart.",
-        "Ms. Hart bugün ne giyiyor?",
-        "Ms. Hart etek mi yoksa elbise mi giyiyor? Etek giyiyor!",
-        "Ayrıca kazak ve küpe takıyor.",
-        "Hepiniz bugün harika görünüyorsunuz! diyor Ms. Hart."
+        "Maya diyor: Arkadaşlarım hepsi farklı!",
+        "Deniz nasıl biri? Güçlü ve iyi.",
+        "Ada nasıl biri? Küçük ve güzel.",
+        "Kerem nasıl biri? Çalışkan ve mutlu.",
+        "Mert nasıl biri? Tembel. Aynı zamanda hoş.",
+        "Deniz diyor: Maya nasıl biri? Mutlu ve çalışkan!",
+        "Deniz diyor: Zara nasıl biri? Güzel ve hoş.",
+        "Maya diyor: Hepimiz özeliz!"
       ],
       "questions": [
         {
-          "q": "What is Maya wearing today?",
-          "correct": "A dress and a jacket",
-          "wrong": ["A sweatshirt and jeans", "A skirt and a jumper"],
-          "hint": "Find Maya in the text.",
-          "hl": [2]
+          "q": "What is Deniz like?",
+          "correct": "Strong and good",
+          "wrong": [
+            "Lazy and bad",
+            "Sad and weak"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Whose dress is it?",
-          "correct": "Maya's dress",
-          "wrong": ["Ms. Hart's dress", "Leo's dress"],
-          "hint": "Find the word dress in the text.",
-          "hl": [4, 5]
+          "q": "What is Ada like?",
+          "correct": "Little and pretty",
+          "wrong": [
+            "Tall and strong",
+            "Sad"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "What is Leo wearing today?",
-          "correct": "A sweatshirt and jeans",
-          "wrong": ["A dress and a jacket", "A skirt and a jumper"],
-          "hint": "Find Leo in the text.",
-          "hl": [7]
+          "q": "What is Kerem like?",
+          "correct": "Hardworking and happy",
+          "wrong": [
+            "Lazy",
+            "Weak"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Whose sweatshirt is it?",
-          "correct": "Leo's sweatshirt",
-          "wrong": ["Maya's sweatshirt", "Ms. Hart's sweatshirt"],
-          "hint": "Find the word sweatshirt in the text.",
-          "hl": [9, 10]
+          "q": "What is Mert like?",
+          "correct": "Lazy and nice",
+          "wrong": [
+            "Strong and good",
+            "Happy"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is Ms. Hart wearing?",
-          "correct": "A skirt and a jumper",
-          "wrong": ["A dress and a jacket", "A sweatshirt and jeans"],
-          "hint": "Find Ms. Hart in the text.",
-          "hl": [12, 13]
+          "q": "What is Maya like?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Lazy",
+            "Sad"
+          ],
+          "hint": "Find Deniz in sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-4",
+      "title": "My Favourite Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "💝",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Mert says: Today I am wearing my favourite clothes!",
+        "I love sweatshirts. Today I am wearing a blue sweatshirt.",
+        "I like jeans. I am wearing my green jeans.",
+        "I dislike school uniforms.",
+        "I hate small hats!",
+        "Maya says: I love long dresses!",
+        "Today I am wearing a pink dress.",
+        "I love necklaces and earrings.",
+        "I dislike short skirts.",
+        "Two friends, many favourite clothes!"
+      ],
+      "translations": [
+        "Mert diyor: Bugün favori kıyafetlerimi giyiyorum!",
+        "Sweatshirt severim. Bugün mavi sweatshirt giyiyorum.",
+        "Kot severim. Yeşil kotumu giyiyorum.",
+        "Okul üniformalarını sevmem.",
+        "Küçük şapkalardan nefret ederim!",
+        "Maya diyor: Uzun elbiseleri severim!",
+        "Bugün pembe bir elbise giyiyorum.",
+        "Kolye ve küpeleri severim.",
+        "Kısa etekleri sevmem.",
+        "İki arkadaş, birçok favori kıyafet!"
+      ],
+      "questions": [
+        {
+          "q": "What does Mert love?",
+          "correct": "Sweatshirts",
+          "wrong": [
+            "Hats",
+            "Uniforms"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Mert wearing?",
+          "correct": "A blue sweatshirt and green jeans",
+          "wrong": [
+            "A dress",
+            "Boots"
+          ],
+          "hint": "Read sentences 2-3.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "What does Mert hate?",
+          "correct": "Small hats",
+          "wrong": [
+            "Sweatshirts",
+            "Jeans"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Maya love?",
+          "correct": "Long dresses, necklaces, earrings",
+          "wrong": [
+            "School uniforms",
+            "Short skirts"
+          ],
+          "hint": "Read sentences 6 and 8.",
+          "hl": [
+            5,
+            7
+          ]
+        },
+        {
+          "q": "What does Maya dislike?",
+          "correct": "Short skirts",
+          "wrong": [
+            "Long dresses",
+            "Necklaces"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Rainy Day Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "☔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Deniz says: It is raining today.",
+        "The weather is cold.",
+        "I am wearing my warm jacket.",
+        "I am wearing my boots.",
+        "I am wearing my favourite scarf, too.",
+        "Leo says: It is raining and cold!",
+        "I am wearing a coat and jeans.",
+        "I am wearing a hat.",
+        "Two friends ready for the rain!"
+      ],
+      "translations": [
+        "Deniz diyor: Bugün yağmur yağıyor.",
+        "Hava soğuk.",
+        "Sıcak ceketimi giyiyorum.",
+        "Botlarımı giyiyorum.",
+        "Favori atkımı da takıyorum.",
+        "Leo diyor: Yağmurlu ve soğuk!",
+        "Bir palto ve kot giyiyorum.",
+        "Bir şapka takıyorum.",
+        "İki arkadaş yağmura hazır!"
+      ],
+      "questions": [
+        {
+          "q": "How is the weather?",
+          "correct": "Raining and cold",
+          "wrong": [
+            "Sunny and warm",
+            "Snowing"
+          ],
+          "hint": "Read sentences 1-2.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "What is Deniz wearing?",
+          "correct": "A jacket, boots, a scarf",
+          "wrong": [
+            "A dress",
+            "Sunglasses"
+          ],
+          "hint": "Read sentences 3-5.",
+          "hl": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What is Leo wearing?",
+          "correct": "A coat, jeans, a hat",
+          "wrong": [
+            "A T-shirt",
+            "Sandals"
+          ],
+          "hint": "Read sentences 7-8.",
+          "hl": [
+            6,
+            7
+          ]
+        },
+        {
+          "q": "What does Deniz say about his jacket?",
+          "correct": "It is warm",
+          "wrong": [
+            "It is cold",
+            "It is small"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Are the friends ready for the rain?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Whose Things in the Classroom?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "Ms. Hart says: There are many things in our classroom!",
+        "Whose dress is the pink one? It is Maya's dress.",
+        "Whose jumper is the green one? It is Leo's jumper.",
+        "Whose necklace is the yellow one? It is Ada's necklace.",
+        "Whose boots are the brown ones? They are Kerem's boots.",
+        "Whose sunglasses are the big ones? They are Mert's sunglasses.",
+        "Whose earrings are the red ones? They are Zara's earrings.",
+        "Whose backpack is the blue one? It is Deniz's backpack.",
+        "Ms. Hart says: Our things are special!"
+      ],
+      "translations": [
+        "Ms. Hart diyor: Sınıfımızda birçok şey var!",
+        "Pembe olan kimin elbisesi? Maya'nın elbisesi.",
+        "Yeşil olan kimin kazağı? Leo'nun kazağı.",
+        "Sarı olan kimin kolyesi? Ada'nın kolyesi.",
+        "Kahverengi olanlar kimin botları? Kerem'in botları.",
+        "Büyük olan kimin güneş gözlüğü? Mert'in güneş gözlükleri.",
+        "Kırmızı olanlar kimin küpeleri? Zara'nın küpeleri.",
+        "Mavi olan kimin sırt çantası? Deniz'in sırt çantası.",
+        "Ms. Hart diyor: Eşyalarımız özel!"
+      ],
+      "questions": [
+        {
+          "q": "Whose pink dress is it?",
+          "correct": "Maya's",
+          "wrong": [
+            "Ada's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Whose green jumper is it?",
+          "correct": "Leo's",
+          "wrong": [
+            "Mert's",
+            "Kerem's"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Whose yellow necklace is it?",
+          "correct": "Ada's",
+          "wrong": [
+            "Maya's",
+            "Zara's"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Whose brown boots are they?",
+          "correct": "Kerem's",
+          "wrong": [
+            "Mert's",
+            "Leo's"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Whose blue backpack is it?",
+          "correct": "Deniz's",
+          "wrong": [
+            "Leo's",
+            "Kerem's"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Different Tastes in Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎨",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Zara says: I love beautiful clothes!",
+        "I love dresses with flowers.",
+        "I love necklaces and earrings.",
+        "I dislike jeans and sweatshirts.",
+        "Kerem says: I love sport clothes!",
+        "I love sweatshirts and jeans.",
+        "I love my school uniform.",
+        "I dislike dresses and necklaces.",
+        "Zara says: We like different clothes!",
+        "Ms. Hart says: That is wonderful!"
+      ],
+      "translations": [
+        "Zara diyor: Güzel kıyafetleri severim!",
+        "Çiçekli elbiseleri severim.",
+        "Kolye ve küpeleri severim.",
+        "Kot ve sweatshirtleri sevmem.",
+        "Kerem diyor: Spor kıyafetlerini severim!",
+        "Sweatshirt ve kotları severim.",
+        "Okul üniformamı severim.",
+        "Elbise ve kolyeleri sevmem.",
+        "Zara diyor: Farklı kıyafetleri severiz!",
+        "Ms. Hart diyor: Bu harika!"
+      ],
+      "questions": [
+        {
+          "q": "What does Zara love?",
+          "correct": "Dresses with flowers, necklaces, earrings",
+          "wrong": [
+            "Jeans and sweatshirts",
+            "Boots"
+          ],
+          "hint": "Read sentences 2-3.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "What does Zara dislike?",
+          "correct": "Jeans and sweatshirts",
+          "wrong": [
+            "Dresses",
+            "Earrings"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Kerem love?",
+          "correct": "Sweatshirts, jeans, school uniform",
+          "wrong": [
+            "Dresses",
+            "Necklaces"
+          ],
+          "hint": "Read sentences 6-7.",
+          "hl": [
+            5,
+            6
+          ]
+        },
+        {
+          "q": "What does Kerem dislike?",
+          "correct": "Dresses and necklaces",
+          "wrong": [
+            "Jeans",
+            "Sweatshirts"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Hart say?",
+          "correct": "That is wonderful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Ms. Hart.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "In the Classroom",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ms. Hart says: What are you wearing today?",
+        "Maya says: I am wearing a blue dress and white socks.",
+        "I am wearing my favourite necklace.",
+        "Leo says: I am wearing a green sweatshirt and jeans.",
+        "I am wearing my school bag.",
+        "Ada says: I am wearing a yellow skirt.",
+        "I am wearing earrings, too.",
+        "Deniz says: I am wearing a T-shirt and a jacket.",
+        "Ms. Hart says: Your clothes are beautiful!"
+      ],
+      "translations": [
+        "Ms. Hart diyor: Bugün ne giyiyorsunuz?",
+        "Maya diyor: Mavi bir elbise ve beyaz çorap giyiyorum.",
+        "Favori kolyemi takıyorum.",
+        "Leo diyor: Yeşil sweatshirt ve kot giyiyorum.",
+        "Okul çantamı taşıyorum.",
+        "Ada diyor: Sarı bir etek giyiyorum.",
+        "Küpe de takıyorum.",
+        "Deniz diyor: Tişört ve ceket giyiyorum.",
+        "Ms. Hart diyor: Kıyafetleriniz güzel!"
+      ],
+      "questions": [
+        {
+          "q": "What is Maya wearing?",
+          "correct": "A blue dress, white socks, a necklace",
+          "wrong": [
+            "A jacket",
+            "Boots"
+          ],
+          "hint": "Read sentences 2-3.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "What is Leo wearing?",
+          "correct": "A green sweatshirt and jeans",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Ada wearing?",
+          "correct": "A yellow skirt and earrings",
+          "wrong": [
+            "A dress",
+            "Boots"
+          ],
+          "hint": "Read sentences 6-7.",
+          "hl": [
+            5,
+            6
+          ]
+        },
+        {
+          "q": "What is Deniz wearing?",
+          "correct": "A T-shirt and a jacket",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Hart say at the end?",
+          "correct": "Your clothes are beautiful!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Find Ms. Hart in sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "All About Maya",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📖",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Maya says: I am Maya. I am eight years old.",
+        "What do I look like?",
+        "I have got long curly brown hair.",
+        "I have got blue eyes and small eyelashes.",
+        "I have got white teeth.",
+        "What am I like?",
+        "I am happy and hardworking.",
+        "What am I wearing today?",
+        "I am wearing a pink dress and white socks.",
+        "I am wearing a yellow necklace, too.",
+        "I am Maya! I love my friends!"
+      ],
+      "translations": [
+        "Maya diyor: Ben Maya'yım. Sekiz yaşındayım.",
+        "Nasıl görünüyorum?",
+        "Uzun kıvırcık kahverengi saçlarım var.",
+        "Mavi gözlerim ve küçük kirpiklerim var.",
+        "Beyaz dişlerim var.",
+        "Nasıl biriyim?",
+        "Mutlu ve çalışkanım.",
+        "Bugün ne giyiyorum?",
+        "Pembe bir elbise ve beyaz çorap giyiyorum.",
+        "Sarı bir kolye de takıyorum.",
+        "Ben Maya'yım! Arkadaşlarımı seviyorum!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Maya?",
+          "correct": "Eight",
+          "wrong": [
+            "Seven",
+            "Nine"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Maya look like (hair)?",
+          "correct": "Long, curly, brown",
+          "wrong": [
+            "Short, straight",
+            "Big, dark"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Maya like?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Sad and lazy",
+            "Bad"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is Maya wearing?",
+          "correct": "A pink dress, white socks, a yellow necklace",
+          "wrong": [
+            "Jeans",
+            "Boots"
+          ],
+          "hint": "Read sentences 9-10.",
+          "hl": [
+            8,
+            9
+          ]
+        },
+        {
+          "q": "What does Maya say at the end?",
+          "correct": "I love my friends!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Read sentence 11.",
+          "hl": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Eid Day Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌙",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Today is Eid al-Fitr in Türkiye.",
+        "Maya says: I am wearing my new dress today!",
+        "I am wearing a beautiful red dress.",
+        "I am wearing white shoes and a new necklace.",
+        "Kerem says: I am wearing new clothes, too!",
+        "I am wearing a white shirt and blue jeans.",
+        "I am wearing my new jacket.",
+        "Maya says: Whose new earrings are they?",
+        "They are Zara's new earrings!",
+        "Happy Eid, everyone!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de Ramazan Bayramı.",
+        "Maya diyor: Bugün yeni elbisemi giyiyorum!",
+        "Güzel kırmızı bir elbise giyiyorum.",
+        "Beyaz ayakkabı ve yeni bir kolye takıyorum.",
+        "Kerem diyor: Ben de yeni kıyafetler giyiyorum!",
+        "Beyaz bir gömlek ve mavi kot giyiyorum.",
+        "Yeni ceketimi giyiyorum.",
+        "Maya diyor: Bu yeni küpeler kimin?",
+        "Zara'nın yeni küpeleri!",
+        "Herkese mutlu bayramlar!"
+      ],
+      "questions": [
+        {
+          "q": "What special day is it?",
+          "correct": "Eid al-Fitr",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Maya wearing?",
+          "correct": "A red dress, white shoes, a necklace",
+          "wrong": [
+            "A jacket",
+            "Boots"
+          ],
+          "hint": "Read sentences 3-4.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "What is Kerem wearing?",
+          "correct": "A white shirt, blue jeans, a jacket",
+          "wrong": [
+            "A dress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentences 6-7.",
+          "hl": [
+            5,
+            6
+          ]
+        },
+        {
+          "q": "Whose new earrings are they?",
+          "correct": "Zara's",
+          "wrong": [
+            "Maya's",
+            "Ada's"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Maya say at the end?",
+          "correct": "Happy Eid, everyone!",
+          "wrong": [
+            "Goodbye!",
+            "Sit down!"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
         }
       ]
     }
@@ -642,244 +3237,1064 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "Who Is She?",
+      "title": "Who Is This Friend?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🔍",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Maya says: I can see a woman at the door.",
-        "What does she look like? asks Leo.",
-        "She is tall and pretty.",
-        "She has got long curly blonde hair.",
-        "She has got big blue eyes and long eyelashes.",
-        "She is wearing a red dress and a white jacket.",
-        "She is also wearing a necklace and sunglasses.",
-        "Leo asks: Is she young or old?",
-        "She is young, says Maya.",
-        "Leo thinks: Long curly blonde hair, a red dress, a necklace...",
-        "Leo says: I know! That is Ms. Shaw, the librarian!",
-        "Maya says: That's correct! Come on, let's go and say hello!"
+        "A friend is in our class.",
+        "She has got long curly brown hair.",
+        "She has got blue eyes.",
+        "She is happy and hardworking.",
+        "Today she has got her pink dress.",
+        "Who is this friend?",
+        "She is Maya!"
       ],
       "translations": [
-        "Maya diyor: Kapıda bir kadın görüyorum.",
-        "Nasıl görünüyor? diye soruyor Leo.",
-        "O uzun boylu ve güzel.",
-        "Onun uzun kıvırcık sarı saçları var.",
-        "Onun büyük mavi gözleri ve uzun kirpikleri var.",
-        "Kırmızı bir elbise ve beyaz bir ceket giyiyor.",
-        "Ayrıca kolye ve güneş gözlüğü takıyor.",
-        "Leo soruyor: O genç mi yoksa yaşlı mı?",
-        "O genç, diyor Maya.",
-        "Leo düşünüyor: Uzun kıvırcık sarı saç, kırmızı elbise, kolye...",
-        "Leo diyor: Biliyorum! O Ms. Shaw, kütüphaneci!",
-        "Maya diyor: Doğru! Haydi, gidip merhaba diyelim!"
+        "Sınıfımızda bir arkadaş var.",
+        "Uzun kıvırcık kahverengi saçları var.",
+        "Mavi gözleri var.",
+        "Mutlu ve çalışkan.",
+        "Bugün pembe elbisesi var.",
+        "Bu arkadaş kim?",
+        "Maya!"
       ],
       "questions": [
         {
-          "q": "What does the woman look like?",
-          "correct": "Tall and pretty",
-          "wrong": ["Short and ugly", "Strong and handsome"],
-          "hint": "Find the description of the woman in the text.",
-          "hl": [2]
+          "q": "What colour hair has the friend got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blond",
+            "Black"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is her hair like?",
-          "correct": "Long curly and blonde",
-          "wrong": ["Short straight and dark", "Medium straight and black"],
-          "hint": "Find the word hair in the text.",
-          "hl": [3]
+          "q": "How is her hair?",
+          "correct": "Long and curly",
+          "wrong": [
+            "Short and straight",
+            "Big and dark"
+          ],
+          "hint": "Find hair.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "What is she wearing?",
-          "correct": "A red dress and a white jacket",
-          "wrong": ["A blue skirt and a jumper", "A sweatshirt and jeans"],
-          "hint": "Find the word wearing in the text.",
-          "hl": [5]
+          "q": "What colour eyes has she got?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "How does Leo know who she is?",
-          "correct": "He uses the description clues.",
-          "wrong": ["Ms. Hart tells him.", "He sees her name tag."],
-          "hint": "Read what Leo thinks before his answer.",
-          "hl": [9, 10]
+          "q": "What is she like?",
+          "correct": "Happy and hardworking",
+          "wrong": [
+            "Sad and lazy",
+            "Bad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "Who is the woman at the door?",
-          "correct": "Ms. Shaw, the librarian",
-          "wrong": ["Mrs. Pine, the nurse", "Ms. Hart, the teacher"],
-          "hint": "Think about all the clues in the text.",
-          "hl": [3, 5, 6, 10]
+          "q": "Who is the friend?",
+          "correct": "Maya",
+          "wrong": [
+            "Ada",
+            "Zara"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            6
+          ]
         }
       ]
     },
     {
       "id": "inf-2",
-      "title": "The Lost Bag",
+      "title": "What Is This Friend Like?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "👜",
+      "icon": "🎭",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "There is a bag near the door.",
-        "Whose bag is this? asks Ms. Hart.",
-        "Leo asks: Has it got any books in it?",
-        "Yes, it has got some books, says Maya.",
-        "Has it got much water in it? asks Leo.",
-        "No, it hasn't got much water, says Maya.",
-        "The bag has got some sunglasses inside.",
-        "It has also got some earrings inside.",
-        "Leo thinks: Some books, sunglasses and earrings...",
-        "Ms. Hart asks: Has it got any jumpers?",
-        "No, it hasn't got any jumpers, says Maya.",
-        "Leo says: Be careful! Don't forget to check the name!",
-        "Maya looks inside. This is Maya's bag! she says.",
-        "Ms. Hart smiles: Calm down, Maya! Everything is all right!"
+        "A boy is in our class.",
+        "He is lazy. He is also nice.",
+        "He is not hardworking.",
+        "He has got short brown hair.",
+        "He has got green eyes.",
+        "What is this friend like?",
+        "He is Mert!"
       ],
       "translations": [
-        "Kapının yanında bir çanta var.",
-        "Bu kimin çantası? diye soruyor Ms. Hart.",
-        "Leo soruyor: İçinde hiç kitap var mı?",
-        "Evet, içinde birkaç kitap var, diyor Maya.",
-        "İçinde çok su var mı? diye soruyor Leo.",
-        "Hayır, içinde çok su yok, diyor Maya.",
-        "Çantanın içinde birkaç güneş gözlüğü var.",
-        "Ayrıca içinde birkaç küpe var.",
-        "Leo düşünüyor: Birkaç kitap, güneş gözlüğü ve küpe...",
-        "Ms. Hart soruyor: İçinde hiç kazak var mı?",
-        "Hayır, içinde hiç kazak yok, diyor Maya.",
-        "Leo diyor: Dikkatli ol! İsmi kontrol etmeyi unutma!",
-        "Maya içine bakıyor. Bu Maya'nın çantası! diyor.",
-        "Ms. Hart gülümsüyor: Sakin ol, Maya! Her şey yolunda!"
+        "Sınıfımızda bir erkek var.",
+        "Tembel. Aynı zamanda hoş.",
+        "Çalışkan değil.",
+        "Kısa kahverengi saçları var.",
+        "Yeşil gözleri var.",
+        "Bu arkadaş nasıl biri?",
+        "Mert!"
       ],
       "questions": [
         {
-          "q": "What has the bag got inside?",
-          "correct": "Some books, sunglasses and earrings",
-          "wrong": ["Some jumpers and water", "Some boots and socks"],
-          "hint": "Find what is inside the bag in the text.",
-          "hl": [3, 6, 7]
+          "q": "Is the friend a boy or a girl?",
+          "correct": "A boy",
+          "wrong": [
+            "A girl",
+            "A teacher"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
         },
         {
-          "q": "Has the bag got much water?",
-          "correct": "No, it hasn't got much water.",
-          "wrong": ["Yes, it has got much water.", "Yes, it has got some water."],
-          "hint": "Find the word water in the text.",
-          "hl": [4, 5]
+          "q": "What is he like?",
+          "correct": "Lazy and nice",
+          "wrong": [
+            "Hardworking",
+            "Bad"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
         },
         {
-          "q": "Has the bag got any jumpers?",
-          "correct": "No, it hasn't got any jumpers.",
-          "wrong": ["Yes, it has got some jumpers.", "Yes, it has got many jumpers."],
-          "hint": "Find the word jumpers in the text.",
-          "hl": [9, 10]
+          "q": "Is he hardworking?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Whose bag is it?",
-          "correct": "Maya's bag",
-          "wrong": ["Leo's bag", "Ms. Hart's bag"],
-          "hint": "Read what Maya says after she looks inside.",
-          "hl": [12]
+          "q": "What colour hair has he got?",
+          "correct": "Brown",
+          "wrong": [
+            "Blond",
+            "Black"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
         },
         {
-          "q": "How does Leo figure out whose bag it might be?",
-          "correct": "He thinks about the sunglasses and earrings inside.",
-          "wrong": ["He sees the name on the bag.", "Ms. Hart tells him."],
-          "hint": "Read what Leo thinks in the text.",
-          "hl": [6, 7, 8]
+          "q": "Who is he?",
+          "correct": "Mert",
+          "wrong": [
+            "Leo",
+            "Kerem"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            6
+          ]
         }
       ]
     },
     {
       "id": "inf-3",
-      "title": "What's She Like?",
+      "title": "Whose Dress Is This?",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🌟",
+      "icon": "👗",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
-        { "e": "👧", "n": "Maya" },
-        { "e": "👦", "n": "Leo" },
-        { "e": "👩‍🏫", "n": "Ms. Hart" }
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
       ],
       "sentences": [
-        "Maya talks about her new classmate.",
-        "Her name is Lily. She is young and pretty.",
-        "She has got short straight hair. Her hair is blonde.",
-        "She has got small eyebrows and a little chin.",
-        "What is Lily like? asks Leo.",
-        "Lily arrives at school early every day, says Maya.",
-        "She has got some books and workbooks in her bag.",
-        "She hasn't got much free time. She always studies.",
-        "Leo asks: Has she got any lazy days?",
-        "No! She is never lazy, says Maya.",
-        "Leo thinks: She arrives early, she always studies, she is never lazy.",
-        "Leo says: I know! She is very hardworking!",
-        "Maya smiles: That's correct! She is my favourite classmate!"
+        "A dress is in our classroom.",
+        "It is not a yellow dress. It is not a blue dress.",
+        "It is a pink dress.",
+        "Maya has got a pink dress.",
+        "Ada has got a yellow dress.",
+        "Zara has got a blue dress.",
+        "Whose dress is the pink one?",
+        "It is Maya's dress!"
       ],
       "translations": [
-        "Maya yeni sınıf arkadaşı hakkında konuşuyor.",
-        "Adı Lily. O genç ve güzel.",
-        "Onun kısa düz saçları var. Saçı sarı.",
-        "Onun küçük kaşları ve küçük bir çenesi var.",
-        "Lily nasıl biri? diye soruyor Leo.",
-        "Lily her gün okula erken geliyor, diyor Maya.",
-        "Çantasında birkaç kitap ve çalışma kitabı var.",
-        "Çok boş zamanı yok. Her zaman çalışıyor.",
-        "Leo soruyor: Hiç tembel günleri var mı?",
-        "Hayır! O hiç tembel değil, diyor Maya.",
-        "Leo düşünüyor: Erken geliyor, her zaman çalışıyor, hiç tembel değil.",
-        "Leo diyor: Biliyorum! O çok çalışkan!",
-        "Maya gülümsüyor: Doğru! O benim en sevdiğim sınıf arkadaşım!"
+        "Sınıfımızda bir elbise var.",
+        "Sarı bir elbise değil. Mavi bir elbise değil.",
+        "Pembe bir elbise.",
+        "Maya'nın pembe bir elbisesi var.",
+        "Ada'nın sarı bir elbisesi var.",
+        "Zara'nın mavi bir elbisesi var.",
+        "Pembe olan kimin elbisesi?",
+        "Maya'nın elbisesi!"
       ],
       "questions": [
         {
-          "q": "What does Lily look like?",
-          "correct": "Young and pretty with short blonde hair",
-          "wrong": ["Tall and strong with long curly hair", "Old and beautiful with dark hair"],
-          "hint": "Find the description of Lily in the text.",
-          "hl": [1, 2]
+          "q": "What colour is the dress?",
+          "correct": "Pink",
+          "wrong": [
+            "Yellow",
+            "Blue"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
         },
         {
-          "q": "Has Lily got much free time?",
-          "correct": "No, she hasn't got much free time.",
-          "wrong": ["Yes, she has got much free time.", "Yes, she has got some free time."],
-          "hint": "Find the word free time in the text.",
-          "hl": [7]
+          "q": "Has Ada got a pink dress?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "Has Lily got any lazy days?",
-          "correct": "No, she is never lazy.",
-          "wrong": ["Yes, she has got some lazy days.", "Yes, sometimes she is lazy."],
-          "hint": "Find the word lazy in the text.",
-          "hl": [8, 9]
+          "q": "What colour is Zara's dress?",
+          "correct": "Blue",
+          "wrong": [
+            "Pink",
+            "Yellow"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         },
         {
-          "q": "How does Leo know Lily is hardworking?",
-          "correct": "She arrives early, always studies and is never lazy.",
-          "wrong": ["Ms. Hart tells him.", "He sees her workbooks."],
-          "hint": "Read what Leo thinks before his answer.",
-          "hl": [10, 11]
+          "q": "What colour is Ada's dress?",
+          "correct": "Yellow",
+          "wrong": [
+            "Pink",
+            "Blue"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
         },
         {
-          "q": "What is Lily like?",
-          "correct": "Very hardworking",
-          "wrong": ["Very lazy", "Very sad"],
-          "hint": "Think about all the clues Maya gives about Lily.",
-          "hl": [5, 7, 9, 11]
+          "q": "Whose pink dress is it?",
+          "correct": "Maya's",
+          "wrong": [
+            "Ada's",
+            "Zara's"
+          ],
+          "hint": "Match pink.",
+          "hl": [
+            2,
+            3,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "What Body Part Is This?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🦷",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "A body part is small.",
+        "It is white.",
+        "It is in your mouth.",
+        "You have got many in your mouth.",
+        "It is not an eye. It is not an ear.",
+        "What body part is it?",
+        "It is a tooth!"
+      ],
+      "translations": [
+        "Bir vücut parçası küçük.",
+        "Beyaz.",
+        "Ağzında.",
+        "Ağzında birçok tane var.",
+        "Bir göz değil. Bir kulak değil.",
+        "Bu hangi vücut parçası?",
+        "Bir diş!"
+      ],
+      "questions": [
+        {
+          "q": "How big is the body part?",
+          "correct": "Small",
+          "wrong": [
+            "Big",
+            "Long"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour is it?",
+          "correct": "White",
+          "wrong": [
+            "Pink",
+            "Red"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is it?",
+          "correct": "In your mouth",
+          "wrong": [
+            "On your face",
+            "In your hair"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is it an eye?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What body part is it?",
+          "correct": "A tooth",
+          "wrong": [
+            "A nose",
+            "An eye"
+          ],
+          "hint": "Think about white and mouth.",
+          "hl": [
+            1,
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "What Clothes for the Weather?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "☔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "The weather is cold and raining.",
+        "It is not sunny. It is not warm.",
+        "I need warm clothes.",
+        "I do not need a T-shirt. I do not need a skirt.",
+        "I need a coat and boots.",
+        "What clothes do I need?",
+        "A coat and boots!"
+      ],
+      "translations": [
+        "Hava soğuk ve yağmurlu.",
+        "Güneşli değil. Sıcak değil.",
+        "Sıcak kıyafetlere ihtiyacım var.",
+        "Tişört ihtiyacım yok. Etek ihtiyacım yok.",
+        "Bir palto ve bot ihtiyacım var.",
+        "Hangi kıyafetlere ihtiyacım var?",
+        "Bir palto ve bot!"
+      ],
+      "questions": [
+        {
+          "q": "How is the weather?",
+          "correct": "Cold and raining",
+          "wrong": [
+            "Sunny and warm",
+            "Snowing"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What kind of clothes are needed?",
+          "correct": "Warm",
+          "wrong": [
+            "Cool",
+            "Short"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is not needed?",
+          "correct": "A T-shirt",
+          "wrong": [
+            "A coat",
+            "Boots"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is needed?",
+          "correct": "A coat and boots",
+          "wrong": [
+            "A T-shirt",
+            "Shorts"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What clothes for cold weather?",
+          "correct": "A coat and boots",
+          "wrong": [
+            "A T-shirt",
+            "Shorts"
+          ],
+          "hint": "Match cold.",
+          "hl": [
+            0,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "Whose Jumper Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🧶",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "A green jumper is in our classroom.",
+        "Maya is not happy with jumpers.",
+        "Ada is not happy with green clothes.",
+        "Mert is happy with sweatshirts, not jumpers.",
+        "Kerem is happy with his school clothes.",
+        "Kerem has got a green jumper.",
+        "Whose green jumper is it?",
+        "It is Kerem's jumper!"
+      ],
+      "translations": [
+        "Sınıfımızda yeşil bir kazak var.",
+        "Maya kazaklardan memnun değil.",
+        "Ada yeşil kıyafetlerden memnun değil.",
+        "Mert sweatshirtlerden memnun, kazaklardan değil.",
+        "Kerem okul kıyafetlerinden memnun.",
+        "Kerem'in yeşil bir kazağı var.",
+        "Yeşil kazak kimin?",
+        "Kerem'in kazağı!"
+      ],
+      "questions": [
+        {
+          "q": "What colour is the jumper?",
+          "correct": "Green",
+          "wrong": [
+            "Blue",
+            "Yellow"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Maya happy with jumpers?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Mert happy with?",
+          "correct": "Sweatshirts",
+          "wrong": [
+            "Jumpers",
+            "Dresses"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What has Kerem got?",
+          "correct": "A green jumper",
+          "wrong": [
+            "A blue jacket",
+            "A red dress"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Whose green jumper is it?",
+          "correct": "Kerem's",
+          "wrong": [
+            "Mert's",
+            "Leo's"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Whose Earrings Are These?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "💎",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Some red earrings are on the table.",
+        "Maya has got yellow earrings.",
+        "Ada has got blue earrings.",
+        "Zara has got red earrings.",
+        "Whose red earrings are they?",
+        "They are Zara's earrings!"
+      ],
+      "translations": [
+        "Masada bazı kırmızı küpeler var.",
+        "Maya'nın sarı küpeleri var.",
+        "Ada'nın mavi küpeleri var.",
+        "Zara'nın kırmızı küpeleri var.",
+        "Kırmızı küpeler kimin?",
+        "Zara'nın küpeleri!"
+      ],
+      "questions": [
+        {
+          "q": "What colour are the earrings?",
+          "correct": "Red",
+          "wrong": [
+            "Yellow",
+            "Blue"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour are Maya's earrings?",
+          "correct": "Yellow",
+          "wrong": [
+            "Red",
+            "Blue"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour are Ada's earrings?",
+          "correct": "Blue",
+          "wrong": [
+            "Red",
+            "Yellow"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour are Zara's earrings?",
+          "correct": "Red",
+          "wrong": [
+            "Yellow",
+            "Blue"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Whose red earrings are they?",
+          "correct": "Zara's",
+          "wrong": [
+            "Maya's",
+            "Ada's"
+          ],
+          "hint": "Match red.",
+          "hl": [
+            0,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "What Is She Wearing?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "✨",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "A girl is in our class.",
+        "I am wearing a yellow skirt.",
+        "I am wearing a white jumper.",
+        "I have got blond hair and blue eyes.",
+        "I am little and pretty.",
+        "Who is this girl?",
+        "I am Ada!"
+      ],
+      "translations": [
+        "Sınıfımızda bir kız var.",
+        "Sarı bir etek giyiyorum.",
+        "Beyaz bir kazak giyiyorum.",
+        "Sarı saçlarım ve mavi gözlerim var.",
+        "Küçük ve güzelim.",
+        "Bu kız kim?",
+        "Ben Ada'yım!"
+      ],
+      "questions": [
+        {
+          "q": "What is the girl wearing (bottom)?",
+          "correct": "A yellow skirt",
+          "wrong": [
+            "Blue jeans",
+            "A red dress"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the girl wearing (top)?",
+          "correct": "A white jumper",
+          "wrong": [
+            "A green jacket",
+            "A pink dress"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour hair has she got?",
+          "correct": "Blond",
+          "wrong": [
+            "Brown",
+            "Dark"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is she like?",
+          "correct": "Little and pretty",
+          "wrong": [
+            "Tall and strong",
+            "Bad"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the girl?",
+          "correct": "Ada",
+          "wrong": [
+            "Maya",
+            "Zara"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "What Clothes for Summer?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "☀️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "The weather is sunny and warm.",
+        "It is not raining. It is not snowing.",
+        "I do not need a coat. I do not need boots.",
+        "I need light clothes.",
+        "I am wearing a T-shirt and a skirt.",
+        "I am wearing sunglasses, too.",
+        "What season is it?",
+        "It is summer!"
+      ],
+      "translations": [
+        "Hava güneşli ve sıcak.",
+        "Yağmur yağmıyor. Kar yağmıyor.",
+        "Palto ihtiyacım yok. Bot ihtiyacım yok.",
+        "Hafif kıyafetlere ihtiyacım var.",
+        "Tişört ve etek giyiyorum.",
+        "Güneş gözlüğü de takıyorum.",
+        "Hangi mevsim?",
+        "Yaz!"
+      ],
+      "questions": [
+        {
+          "q": "How is the weather?",
+          "correct": "Sunny and warm",
+          "wrong": [
+            "Raining",
+            "Snowing"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is not needed?",
+          "correct": "A coat",
+          "wrong": [
+            "A T-shirt",
+            "Sunglasses"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What kind of clothes are needed?",
+          "correct": "Light",
+          "wrong": [
+            "Warm",
+            "Heavy"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What clothes are mentioned?",
+          "correct": "A T-shirt, a skirt, sunglasses",
+          "wrong": [
+            "A coat",
+            "Boots"
+          ],
+          "hint": "Read sentences 5-6.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What season is it?",
+          "correct": "Summer",
+          "wrong": [
+            "Winter",
+            "Autumn"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            0,
+            3,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "What Special Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Today is a special day for children in Türkiye.",
+        "It is not a religious day.",
+        "It is not the 29th of October.",
+        "It is in spring.",
+        "Maya has got a red and white dress today.",
+        "Kerem has got a white shirt today.",
+        "Many children are happy today!",
+        "What special day is it?",
+        "It is Children's Day, the 23rd of April!"
+      ],
+      "translations": [
+        "Bugün Türkiye'de çocuklar için özel bir gün.",
+        "Bir dini gün değil.",
+        "29 Ekim değil.",
+        "İlkbaharda.",
+        "Maya'nın bugün kırmızı beyaz bir elbisesi var.",
+        "Kerem'in bugün beyaz bir gömleği var.",
+        "Birçok çocuk bugün mutlu!",
+        "Bu hangi özel gün?",
+        "Çocuk Bayramı, 23 Nisan!"
+      ],
+      "questions": [
+        {
+          "q": "Is today a religious day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What season is it?",
+          "correct": "Spring",
+          "wrong": [
+            "Summer",
+            "Winter"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What colours is Maya's dress?",
+          "correct": "Red and white",
+          "wrong": [
+            "Blue and yellow",
+            "Green"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How are the children today?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "correct": "Children's Day, 23rd of April",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            0,
+            3,
+            8
+          ]
         }
       ]
     }
