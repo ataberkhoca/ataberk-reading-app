@@ -1053,6 +1053,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "My Cat's Paws and Claws",
+      "subtitle": "Find the right part!",
+      "icon": "🐾",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "Eda: Look at my cat Misho!",
+        "She has got four paws.",
+        "She has got sharp claws on her paws.",
+        "Eda: Where is Misho now?",
+        "Lila: Misho is on the sofa!",
+        "There are four paws on the sofa.",
+        "Tom: My cat has got paws and claws, too!",
+        "There are two cats on the sofa today."
+      ],
+      "translations": [
+        "Eda: Kedim Misho'ya bak!",
+        "Dört patisi var.",
+        "Patilerinde keskin pençeleri var.",
+        "Eda: Misho şu an nerede?",
+        "Lila: Misho kanepenin üstünde!",
+        "Kanepenin üstünde dört pati var.",
+        "Tom: Benim kedimin de patileri ve pençeleri var!",
+        "Bugün kanepenin üstünde iki kedi var."
+      ],
+      "questions": [
+        {
+          "q": "What is the name of the cat?",
+          "correct": "Misho",
+          "wrong": [
+            "Maxi",
+            "Cici"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How many paws has Misho got?",
+          "correct": "Four",
+          "wrong": [
+            "Two",
+            "Six"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is on Misho's paws?",
+          "correct": "Sharp claws",
+          "wrong": [
+            "Whiskers",
+            "A tail"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Misho?",
+          "correct": "On the sofa",
+          "wrong": [
+            "In the kitchen",
+            "In the garden"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many cats are on the sofa?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Three"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2125,6 +2230,112 @@
           "hint": "Find Tom in sentence 7.",
           "hl": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "My Friend's Many Pets",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🐶",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        }
+      ],
+      "sentences": [
+        "Tom: My friend Can has got many pets!",
+        "There are two cats in his sitting room.",
+        "The cats have got soft paws and small claws.",
+        "There are three dogs in the garden.",
+        "The dogs have got big paws and long claws.",
+        "There is one bird in the kitchen.",
+        "Eda: Wow! Many pets in one house!",
+        "Tom: Yes! There are six pets in total."
+      ],
+      "translations": [
+        "Tom: Arkadaşım Can'ın birçok evcil hayvanı var!",
+        "Salonunda iki kedi var.",
+        "Kedilerin yumuşak patileri ve küçük pençeleri var.",
+        "Bahçede üç köpek var.",
+        "Köpeklerin büyük patileri ve uzun pençeleri var.",
+        "Mutfakta bir kuş var.",
+        "Eda: Vay! Bir evde birçok evcil hayvan!",
+        "Tom: Evet! Toplam altı evcil hayvan var."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Many pets in one house",
+          "wrong": [
+            "School",
+            "Food"
+          ],
+          "hint": "Think about Can's pets.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How many cats are in the sitting room?",
+          "correct": "Two",
+          "wrong": [
+            "Three",
+            "One"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What have the cats got?",
+          "correct": "Soft paws and small claws",
+          "wrong": [
+            "Big claws",
+            "A long tail"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many dogs are in the garden?",
+          "correct": "Three",
+          "wrong": [
+            "Two",
+            "Four"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many pets are in total?",
+          "correct": "Six",
+          "wrong": [
+            "Five",
+            "Seven"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
           ]
         }
       ]
@@ -3208,6 +3419,115 @@
           "hint": "Find family.",
           "hl": [
             5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "Ding-Dong! Where Is Everything?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "Lila is here. The door is closed.",
+        "Lila: Where is the doorbell?",
+        "Eda: The doorbell is on the wall! Welcome!",
+        "Ding-dong! Lila is now in the house.",
+        "Lila: Where is my bag?",
+        "Eda: Your bag is on the chair.",
+        "Lila: Where is my book?",
+        "Tom: Your book is on the table.",
+        "Lila: And my hat?",
+        "Eda: Your hat is on the sofa! Welcome!"
+      ],
+      "translations": [
+        "Lila burada. Kapı kapalı.",
+        "Lila: Kapı zili nerede?",
+        "Eda: Kapı zili duvarda! Hoş geldin!",
+        "Ding-dong! Lila şimdi evde.",
+        "Lila: Çantam nerede?",
+        "Eda: Çantan sandalyenin üstünde.",
+        "Lila: Kitabım nerede?",
+        "Tom: Kitabın masanın üstünde.",
+        "Lila: Peki şapkam?",
+        "Eda: Şapkan kanepenin üstünde! Hoş geldin!"
+      ],
+      "questions": [
+        {
+          "q": "Is the door open or closed?",
+          "correct": "Closed",
+          "wrong": [
+            "Open",
+            "Big"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is the doorbell?",
+          "correct": "On the wall",
+          "wrong": [
+            "On the chair",
+            "On the table"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is the bag?",
+          "correct": "On the chair",
+          "wrong": [
+            "On the table",
+            "On the sofa"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is the book?",
+          "correct": "On the table",
+          "wrong": [
+            "On the chair",
+            "On the sofa"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Where is the hat?",
+          "correct": "On the sofa",
+          "wrong": [
+            "On the chair",
+            "On the table"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
           ]
         }
       ]

@@ -1064,6 +1064,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "New Things in Our Classroom",
+      "subtitle": "Find the right device!",
+      "icon": "💻",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "Eda: What is this, Miss Oli?",
+        "Miss Oli: This is a computer. It is black.",
+        "Eda: What is this here?",
+        "Miss Oli: This is a projector. It is white.",
+        "Tom: What is this big thing?",
+        "Miss Oli: This is a screen. It is big.",
+        "Tom: And what is this small thing?",
+        "Miss Oli: This is a tablet. It is small."
+      ],
+      "translations": [
+        "Eda: Bu nedir, Miss Oli?",
+        "Miss Oli: Bu bir bilgisayar. Siyah.",
+        "Eda: Buradaki bu nedir?",
+        "Miss Oli: Bu bir projektör. Beyaz.",
+        "Tom: Bu büyük şey nedir?",
+        "Miss Oli: Bu bir ekran. Büyük.",
+        "Tom: Peki bu küçük şey nedir?",
+        "Miss Oli: Bu bir tablet. Küçük."
+      ],
+      "questions": [
+        {
+          "q": "What is the black thing?",
+          "correct": "A computer",
+          "wrong": [
+            "A screen",
+            "A tablet"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour is the projector?",
+          "correct": "White",
+          "wrong": [
+            "Black",
+            "Red"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the big thing?",
+          "correct": "A screen",
+          "wrong": [
+            "A door",
+            "A window"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How big is the screen?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Little"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the small thing?",
+          "correct": "A tablet",
+          "wrong": [
+            "A computer",
+            "A projector"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-12",
+      "title": "No, You Can't!",
+      "subtitle": "Find the right answer!",
+      "icon": "🚫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        }
+      ],
+      "sentences": [
+        "Can: Miss Oli, can I open the window, please?",
+        "Miss Oli: No, you can't, Can. It is cold today.",
+        "Can: OK, Miss Oli.",
+        "Eda: Miss Oli, can I go to the playground?",
+        "Miss Oli: No, you can't, Eda. It is lesson time.",
+        "Eda: Can I draw a picture, please?",
+        "Miss Oli: Yes, you can! Here is a pencil.",
+        "Eda: Thank you, Miss Oli!"
+      ],
+      "translations": [
+        "Can: Miss Oli, pencereyi açabilir miyim, lütfen?",
+        "Miss Oli: Hayır, açamazsın Can. Bugün hava soğuk.",
+        "Can: Tamam, Miss Oli.",
+        "Eda: Miss Oli, oyun bahçesine gidebilir miyim?",
+        "Miss Oli: Hayır, gidemezsin Eda. Ders zamanı.",
+        "Eda: Bir resim çizebilir miyim, lütfen?",
+        "Miss Oli: Evet, çizebilirsin! İşte bir kalem.",
+        "Eda: Teşekkür ederim, Miss Oli!"
+      ],
+      "questions": [
+        {
+          "q": "What does Can want to open?",
+          "correct": "The window",
+          "wrong": [
+            "The door",
+            "The book"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Miss Oli's answer to Can?",
+          "correct": "No, you can't",
+          "wrong": [
+            "Yes, you can",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where does Eda want to go?",
+          "correct": "To the playground",
+          "wrong": [
+            "To the library",
+            "Home"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Miss Oli's answer to Eda?",
+          "correct": "No, you can't",
+          "wrong": [
+            "Yes, you can",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda want to do?",
+          "correct": "Draw a picture",
+          "wrong": [
+            "Sing a song",
+            "Read a book"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2159,6 +2369,121 @@
           "hint": "Find Miss Oli.",
           "hl": [
             7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "What Colour Is It?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌈",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "Eda and Tom look at things in the classroom.",
+        "Eda: What colour is the bag?",
+        "Tom: It is red.",
+        "Tom: What colour is the book?",
+        "Eda: It is blue.",
+        "Eda: What colour is the pencil case?",
+        "Tom: It is green.",
+        "Tom: What colour is the door?",
+        "Eda: It is brown.",
+        "Eda: What colour is the board?",
+        "Tom: It is black!"
+      ],
+      "translations": [
+        "Eda ve Tom sınıftaki şeylere bakar.",
+        "Eda: Çanta ne renk?",
+        "Tom: Kırmızı.",
+        "Tom: Kitap ne renk?",
+        "Eda: Mavi.",
+        "Eda: Kalem kutusu ne renk?",
+        "Tom: Yeşil.",
+        "Tom: Kapı ne renk?",
+        "Eda: Kahverengi.",
+        "Eda: Tahta ne renk?",
+        "Tom: Siyah!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Colours of classroom things",
+          "wrong": [
+            "Animals",
+            "Food"
+          ],
+          "hint": "Think about colours.",
+          "hl": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ]
+        },
+        {
+          "q": "What colour is the bag?",
+          "correct": "Red",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What colour is the book?",
+          "correct": "Blue",
+          "wrong": [
+            "Red",
+            "Black"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What colour is the door?",
+          "correct": "Brown",
+          "wrong": [
+            "Green",
+            "Black"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What colour is the board?",
+          "correct": "Black",
+          "wrong": [
+            "White",
+            "Brown"
+          ],
+          "hint": "Read sentence 11.",
+          "hl": [
+            10
           ]
         }
       ]
@@ -3264,6 +3589,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-11",
+      "title": "Many Questions for Miss Oli",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🙋‍♀️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "It is a busy lesson today.",
+        "Lila: Miss Oli, can I sit here, please?",
+        "Miss Oli: Yes, you can, Lila!",
+        "Tom: Miss Oli, can I open the door?",
+        "Miss Oli: No, you can't, Tom. It is cold.",
+        "Tom: OK, Miss Oli.",
+        "Lila: Miss Oli, can I have a book, please?",
+        "Miss Oli: Yes, you can! Here is a book.",
+        "Tom: Miss Oli, can I go home now?",
+        "Miss Oli: No, you can't, Tom! It is lesson time."
+      ],
+      "translations": [
+        "Bugün yoğun bir ders.",
+        "Lila: Miss Oli, buraya oturabilir miyim, lütfen?",
+        "Miss Oli: Evet, oturabilirsin Lila!",
+        "Tom: Miss Oli, kapıyı açabilir miyim?",
+        "Miss Oli: Hayır, açamazsın Tom. Hava soğuk.",
+        "Tom: Tamam, Miss Oli.",
+        "Lila: Miss Oli, bir kitap alabilir miyim, lütfen?",
+        "Miss Oli: Evet, alabilirsin! İşte bir kitap.",
+        "Tom: Miss Oli, eve gidebilir miyim şimdi?",
+        "Miss Oli: Hayır, gidemezsin Tom! Ders zamanı."
+      ],
+      "questions": [
+        {
+          "q": "What does Lila want to do?",
+          "correct": "Sit here",
+          "wrong": [
+            "Go home",
+            "Open the door"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Miss Oli's answer to Lila?",
+          "correct": "Yes, you can",
+          "wrong": [
+            "No, you can't",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Tom want to open?",
+          "correct": "The door",
+          "wrong": [
+            "The window",
+            "The book"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Miss Oli's answer to Tom about the door?",
+          "correct": "No, you can't",
+          "wrong": [
+            "Yes, you can",
+            "Hello"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom want next?",
+          "correct": "Go home",
+          "wrong": [
+            "A book",
+            "A pen"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -4319,6 +4753,113 @@
           "hint": "Read the fifth sentence.",
           "hl": [
             4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-11",
+      "title": "Which Device Is It?",
+      "subtitle": "Use the clues to find the device!",
+      "icon": "📺",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        }
+      ],
+      "sentences": [
+        "This is a new thing in our classroom.",
+        "It is big.",
+        "It is white.",
+        "It is a thing in our classroom.",
+        "Miss Oli: This thing is for lessons.",
+        "It is not a computer. It is not a tablet.",
+        "What is it?",
+        "It is a screen!"
+      ],
+      "translations": [
+        "Bu sınıfımızdaki yeni bir şey.",
+        "Büyük.",
+        "Beyaz.",
+        "Sınıfımızdaki bir şey.",
+        "Miss Oli: Bu şey dersler için.",
+        "Bilgisayar değil. Tablet değil.",
+        "Bu nedir?",
+        "Bir ekran!"
+      ],
+      "questions": [
+        {
+          "q": "How big is the thing?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Little"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour is it?",
+          "correct": "White",
+          "wrong": [
+            "Black",
+            "Red"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is it?",
+          "correct": "In our classroom",
+          "wrong": [
+            "In a bag",
+            "In a house"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it a tablet?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is it?",
+          "correct": "A screen",
+          "wrong": [
+            "A computer",
+            "A tablet"
+          ],
+          "hint": "Match big and white.",
+          "hl": [
+            1,
+            2,
+            7
           ]
         }
       ]

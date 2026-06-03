@@ -1066,6 +1066,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "What's in Our Kitchen?",
+      "subtitle": "Find the right answer!",
+      "icon": "🥬",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👩",
+          "n": "Mum"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        }
+      ],
+      "sentences": [
+        "Eda: Mum, is there a banana in the kitchen?",
+        "Mum: Yes, there is. There is one banana.",
+        "Eda: Are there any potatoes?",
+        "Mum: Yes, there are. There are five potatoes.",
+        "Eda: Are there any courgettes?",
+        "Mum: No, there aren't any courgettes today.",
+        "Can: Is there a cauliflower in the kitchen?",
+        "Mum: Yes, there is one cauliflower.",
+        "Can: Are there any cherries?",
+        "Mum: Yes, there are many cherries!"
+      ],
+      "translations": [
+        "Eda: Anne, mutfakta muz var mı?",
+        "Anne: Evet, var. Bir muz var.",
+        "Eda: Hiç patates var mı?",
+        "Anne: Evet, var. Beş patates var.",
+        "Eda: Hiç kabak var mı?",
+        "Anne: Hayır, bugün hiç kabak yok.",
+        "Can: Mutfakta karnabahar var mı?",
+        "Anne: Evet, bir karnabahar var.",
+        "Can: Hiç kiraz var mı?",
+        "Anne: Evet, birçok kiraz var!"
+      ],
+      "questions": [
+        {
+          "q": "Is there a banana in the kitchen?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many potatoes are there?",
+          "correct": "Five",
+          "wrong": [
+            "Three",
+            "Two"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Are there any courgettes?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many cauliflowers are there?",
+          "correct": "One",
+          "wrong": [
+            "Two",
+            "Five"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Are there any cherries?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2135,6 +2244,112 @@
           "hint": "Read sentence 8.",
           "hl": [
             7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "What I Like and Don't Like",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥦",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        }
+      ],
+      "sentences": [
+        "Lila: There are many foods I like and don't like!",
+        "I like apples. I don't like bananas.",
+        "I like broccoli. I don't like spinach.",
+        "I like milk. I don't like courgettes.",
+        "Eda: I like cherries. I don't like beans.",
+        "Tom: I like fish. I don't like meat.",
+        "Lila: We like different foods!",
+        "Food is fun!"
+      ],
+      "translations": [
+        "Lila: Sevdiğim ve sevmediğim birçok yemek var!",
+        "Elma severim. Muz sevmem.",
+        "Brokoli severim. Ispanak sevmem.",
+        "Süt severim. Kabak sevmem.",
+        "Eda: Kiraz severim. Fasulye sevmem.",
+        "Tom: Balık severim. Et sevmem.",
+        "Lila: Farklı yemekler severiz!",
+        "Yemek eğlenceli!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Food likes and dislikes",
+          "wrong": [
+            "School",
+            "Pets"
+          ],
+          "hint": "Think about likes.",
+          "hl": [
+            0,
+            6
+          ]
+        },
+        {
+          "q": "What does Lila not like?",
+          "correct": "Bananas",
+          "wrong": [
+            "Apples",
+            "Milk"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Lila like (vegetable)?",
+          "correct": "Broccoli",
+          "wrong": [
+            "Spinach",
+            "Courgettes"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Eda not like?",
+          "correct": "Beans",
+          "wrong": [
+            "Cherries",
+            "Apples"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Tom not like?",
+          "correct": "Meat",
+          "wrong": [
+            "Fish",
+            "Milk"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -3218,6 +3433,115 @@
           "hint": "Find Lila in sentence 7.",
           "hl": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "Can I Have More Bread?",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍞",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏻",
+          "n": "Tom"
+        },
+        {
+          "e": "👩",
+          "n": "Mum"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
+        }
+      ],
+      "sentences": [
+        "It is dinner time. Tom is in the kitchen with Mum.",
+        "Tom: Mum, can I have some bread, please?",
+        "Mum: Yes, you can. Here is some bread.",
+        "Tom: Mum, can I have some cake, too?",
+        "Mum: No, you can't. It is not time for cake.",
+        "Tom: OK, Mum.",
+        "Eda: Mum, can I have some water, please?",
+        "Mum: Yes, you can!",
+        "Eda: Can I have some coffee?",
+        "Mum: No, you can't. Coffee is for big people."
+      ],
+      "translations": [
+        "Akşam yemeği zamanı. Tom mutfakta annesiyle.",
+        "Tom: Anne, biraz ekmek alabilir miyim, lütfen?",
+        "Anne: Evet, alabilirsin. İşte ekmek.",
+        "Tom: Anne, biraz da kek alabilir miyim?",
+        "Anne: Hayır, alamazsın. Kek zamanı değil.",
+        "Tom: Tamam anne.",
+        "Eda: Anne, biraz su alabilir miyim, lütfen?",
+        "Anne: Evet, alabilirsin!",
+        "Eda: Biraz kahve alabilir miyim?",
+        "Anne: Hayır, alamazsın. Kahve büyükler için."
+      ],
+      "questions": [
+        {
+          "q": "What meal is it?",
+          "correct": "Dinner",
+          "wrong": [
+            "Breakfast",
+            "Lunch"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Tom ask for?",
+          "correct": "Some bread",
+          "wrong": [
+            "Some cake",
+            "Some water"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Mum's answer for cake?",
+          "correct": "No, you can't",
+          "wrong": [
+            "Yes, you can",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Eda want?",
+          "correct": "Some water",
+          "wrong": [
+            "Some coffee",
+            "Some milk"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is Mum's answer for coffee?",
+          "correct": "No, you can't",
+          "wrong": [
+            "Yes, you can",
+            "Maybe"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
           ]
         }
       ]

@@ -1094,6 +1094,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "How Many Pencils Have You Got?",
+      "subtitle": "Find the right number!",
+      "icon": "✏️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ms. Hart: How many pencils have you got, Maya?",
+        "Maya: I have got five pencils, Ms. Hart.",
+        "Ms. Hart: How many crayons have you got?",
+        "Maya: I have got eight crayons.",
+        "Ms. Hart: How many erasers have you got, Leo?",
+        "Leo: I have got two erasers.",
+        "Ms. Hart: How many notebooks have you got?",
+        "Leo: I have got three notebooks.",
+        "Ms. Hart: How many chairs are there in the classroom?",
+        "Maya: There are thirty chairs!"
+      ],
+      "translations": [
+        "Ms. Hart: Kaç kalemin var, Maya?",
+        "Maya: Beş kalemim var, Ms. Hart.",
+        "Ms. Hart: Kaç boya kalemin var?",
+        "Maya: Sekiz boya kalemim var.",
+        "Ms. Hart: Kaç silgin var, Leo?",
+        "Leo: İki silgim var.",
+        "Ms. Hart: Kaç defterin var?",
+        "Leo: Üç defterim var.",
+        "Ms. Hart: Sınıfta kaç sandalye var?",
+        "Maya: Otuz sandalye var!"
+      ],
+      "questions": [
+        {
+          "q": "How many pencils has Maya got?",
+          "correct": "Five",
+          "wrong": [
+            "Three",
+            "Eight"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many crayons has Maya got?",
+          "correct": "Eight",
+          "wrong": [
+            "Five",
+            "Two"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many erasers has Leo got?",
+          "correct": "Two",
+          "wrong": [
+            "Three",
+            "Five"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many notebooks has Leo got?",
+          "correct": "Three",
+          "wrong": [
+            "Two",
+            "Five"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "How many chairs are there?",
+          "correct": "Thirty",
+          "wrong": [
+            "Twenty",
+            "Forty"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2208,6 +2317,112 @@
           "hint": "Find Deniz.",
           "hl": [
             7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "Our Classroom Things",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎒",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Ada and Kerem have got many things in their bags.",
+        "Ada has got six books and three notebooks.",
+        "She has got two erasers and ten crayons.",
+        "Kerem has got four pens and five pencils.",
+        "He has got one ruler and seven crayons.",
+        "Ada: How many chairs are there in our class?",
+        "Kerem: There are forty chairs in our school!",
+        "Our classroom has got many wonderful things!"
+      ],
+      "translations": [
+        "Ada ve Kerem'in çantalarında birçok eşya var.",
+        "Ada'nın altı kitabı ve üç defteri var.",
+        "İki silgisi ve on boya kalemi var.",
+        "Kerem'in dört kalemi ve beş kurşun kalemi var.",
+        "Bir cetveli ve yedi boya kalemi var.",
+        "Ada: Sınıfımızda kaç sandalye var?",
+        "Kerem: Okulumuzda kırk sandalye var!",
+        "Sınıfımızda birçok harika eşya var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Things in their bags",
+          "wrong": [
+            "Weather",
+            "Food"
+          ],
+          "hint": "Think about objects.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How many books has Ada got?",
+          "correct": "Six",
+          "wrong": [
+            "Three",
+            "Two"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many crayons has Ada got?",
+          "correct": "Ten",
+          "wrong": [
+            "Seven",
+            "Two"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many pencils has Kerem got?",
+          "correct": "Five",
+          "wrong": [
+            "Four",
+            "Seven"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many chairs are there in school?",
+          "correct": "Forty",
+          "wrong": [
+            "Thirty",
+            "Twenty"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -3327,6 +3542,113 @@
           "hint": "Read what Ms. Hart says.",
           "hl": [
             7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "Different Days, Different Weather",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "☁️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        }
+      ],
+      "sentences": [
+        "Maya: Today is a cloudy day in our city.",
+        "There are grey clouds in the sky.",
+        "Leo: My city has got a rainy day.",
+        "My city is far from your city.",
+        "It is a rainy day here. I have got my umbrella.",
+        "Zara: In my city, today is a snowy day!",
+        "I have got my hat and my gloves.",
+        "Maya: Three friends, three different days!",
+        "Cloudy, rainy and snowy days are fun!"
+      ],
+      "translations": [
+        "Maya: Bugün şehrimde bulutlu bir gün.",
+        "Gökyüzünde gri bulutlar var.",
+        "Leo: Benim şehrimde yağmurlu bir gün.",
+        "Benim şehrim senin şehrinden uzak.",
+        "Burada yağmurlu bir gün. Şemsiyem yanımda.",
+        "Zara: Benim şehrimde bugün karlı bir gün!",
+        "Şapkam ve eldivenlerim yanımda.",
+        "Maya: Üç arkadaş, üç farklı gün!",
+        "Bulutlu, yağmurlu ve karlı günler eğlencelidir!"
+      ],
+      "questions": [
+        {
+          "q": "What is the weather like for Maya?",
+          "correct": "Cloudy",
+          "wrong": [
+            "Rainy",
+            "Snowy"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is in the sky for Maya?",
+          "correct": "Grey clouds",
+          "wrong": [
+            "The sun",
+            "Stars"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the weather like for Leo?",
+          "correct": "Rainy",
+          "wrong": [
+            "Cloudy",
+            "Snowy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What has Leo got?",
+          "correct": "An umbrella",
+          "wrong": [
+            "A hat",
+            "Gloves"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the weather like for Zara?",
+          "correct": "Snowy",
+          "wrong": [
+            "Cloudy",
+            "Rainy"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -4459,6 +4781,113 @@
           "hl": [
             3,
             6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-11",
+      "title": "Which Lesson Is It?",
+      "subtitle": "Use the clues to find the lesson!",
+      "icon": "⚽",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "A lesson is in the gym.",
+        "Pupils run and play.",
+        "Pupils have got sport clothes.",
+        "It is not Maths. It is not English.",
+        "It is not Music.",
+        "Pupils play sport in this lesson.",
+        "What lesson is it?",
+        "It is PE!"
+      ],
+      "translations": [
+        "Bir ders spor salonunda.",
+        "Öğrenciler koşar ve oynar.",
+        "Öğrencilerin spor kıyafetleri var.",
+        "Matematik değil. İngilizce değil.",
+        "Müzik değil.",
+        "Bu derste öğrenciler spor oynar.",
+        "Bu hangi ders?",
+        "Beden eğitimi!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the lesson?",
+          "correct": "In the gym",
+          "wrong": [
+            "In the library",
+            "In the office"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What do pupils do?",
+          "correct": "Run and play",
+          "wrong": [
+            "Sleep",
+            "Read"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What have pupils got?",
+          "correct": "Sport clothes",
+          "wrong": [
+            "Books",
+            "Pencils"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is it Maths?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What lesson is it?",
+          "correct": "PE",
+          "wrong": [
+            "Maths",
+            "English"
+          ],
+          "hint": "Match gym and sport.",
+          "hl": [
+            0,
+            5,
             7
           ]
         }

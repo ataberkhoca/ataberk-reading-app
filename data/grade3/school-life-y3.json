@@ -1069,6 +1069,117 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "A Long Day at School",
+      "subtitle": "Find the right answer!",
+      "icon": "🏫",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👨‍💼",
+          "n": "Mr. Blake"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        }
+      ],
+      "sentences": [
+        "Maya: Hello, Leo!",
+        "Leo: Hello, Maya! Good morning!",
+        "They walk in the corridor.",
+        "Mr. Blake is the headmaster.",
+        "Maya: Good morning, Mr. Blake!",
+        "Mr. Blake: Good morning, pupils! Hello!",
+        "After school, the pupils are in the playground.",
+        "Maya: I like the playground! It is big.",
+        "It is time to go home.",
+        "Maya: Goodbye, Leo! See you!",
+        "Leo: Goodbye, Maya! Good night!"
+      ],
+      "translations": [
+        "Maya: Merhaba, Leo!",
+        "Leo: Merhaba, Maya! Günaydın!",
+        "Koridorda yürürler.",
+        "Mr. Blake okul müdürü.",
+        "Maya: Günaydın, Mr. Blake!",
+        "Mr. Blake: Günaydın, öğrenciler! Merhaba!",
+        "Okuldan sonra, öğrenciler oyun bahçesinde.",
+        "Maya: Oyun bahçesini severim! Büyük.",
+        "Eve gitme zamanı.",
+        "Maya: Hoşça kal, Leo! Görüşürüz!",
+        "Leo: Hoşça kal, Maya! İyi geceler!"
+      ],
+      "questions": [
+        {
+          "q": "What does Leo say to Maya at the start?",
+          "correct": "Hello, Maya!",
+          "wrong": [
+            "Goodbye!",
+            "Good night!"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is Mr. Blake?",
+          "correct": "The headmaster",
+          "wrong": [
+            "The librarian",
+            "The caretaker"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where are the pupils after school?",
+          "correct": "In the playground",
+          "wrong": [
+            "In the library",
+            "In the gym"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is the playground?",
+          "correct": "Big",
+          "wrong": [
+            "Small",
+            "Sad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Maya say at the end?",
+          "correct": "Goodbye, Leo!",
+          "wrong": [
+            "Hello, Leo!",
+            "Sorry, Leo!"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2181,6 +2292,112 @@
           "hint": "Find Ms. Hart.",
           "hl": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "When Is Your Birthday?",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎂",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "Maya: When is your birthday, Leo?",
+        "Leo: My birthday is in May. When is your birthday, Maya?",
+        "Maya: My birthday is in October.",
+        "Maya: When is your birthday, Ada?",
+        "Ada: My birthday is in January. When is your birthday, Kerem?",
+        "Kerem: My birthday is in July.",
+        "Maya: When is the headmaster's birthday?",
+        "Leo: His birthday is in March!"
+      ],
+      "translations": [
+        "Maya: Doğum günün ne zaman, Leo?",
+        "Leo: Doğum günüm Mayıs ayında. Senin doğum günün ne zaman, Maya?",
+        "Maya: Doğum günüm Ekim ayında.",
+        "Maya: Doğum günün ne zaman, Ada?",
+        "Ada: Doğum günüm Ocak ayında. Senin doğum günün ne zaman, Kerem?",
+        "Kerem: Doğum günüm Temmuz ayında.",
+        "Maya: Müdürün doğum günü ne zaman?",
+        "Leo: Onun doğum günü Mart ayında!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Asking about birthdays",
+          "wrong": [
+            "School rules",
+            "Food"
+          ],
+          "hint": "Think about birthdays.",
+          "hl": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": "When is Leo's birthday?",
+          "correct": "In May",
+          "wrong": [
+            "In October",
+            "In January"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is Maya's birthday?",
+          "correct": "In October",
+          "wrong": [
+            "In May",
+            "In July"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "When is Ada's birthday?",
+          "correct": "In January",
+          "wrong": [
+            "In May",
+            "In March"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is Kerem's birthday?",
+          "correct": "In July",
+          "wrong": [
+            "In May",
+            "In March"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -4419,6 +4636,113 @@
           ],
           "hint": "Who says it is Children's Day?",
           "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-11",
+      "title": "When Is Her Birthday?",
+      "subtitle": "Use the clues to find the month!",
+      "icon": "🤔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "A pupil has got a birthday.",
+        "Her birthday is not in May.",
+        "Her birthday is not in July.",
+        "Her birthday is not in October.",
+        "Maya: My birthday is in October. Ada: My birthday is in January.",
+        "Zara: My birthday is in May. Kerem: My birthday is in July.",
+        "When is the pupil's birthday?",
+        "It is in January! It is Ada's birthday!"
+      ],
+      "translations": [
+        "Bir öğrencinin doğum günü var.",
+        "Doğum günü Mayıs ayında değil.",
+        "Doğum günü Temmuz ayında değil.",
+        "Doğum günü Ekim ayında değil.",
+        "Maya: Doğum günüm Ekim ayında. Ada: Doğum günüm Ocak ayında.",
+        "Zara: Doğum günüm Mayıs ayında. Kerem: Doğum günüm Temmuz ayında.",
+        "Öğrencinin doğum günü ne zaman?",
+        "Ocak ayında! Ada'nın doğum günü!"
+      ],
+      "questions": [
+        {
+          "q": "Is her birthday in May?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is her birthday in October?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "When is Maya's birthday?",
+          "correct": "In October",
+          "wrong": [
+            "In May",
+            "In July"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is Ada's birthday?",
+          "correct": "In January",
+          "wrong": [
+            "In May",
+            "In October"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is the pupil's birthday?",
+          "correct": "In January",
+          "wrong": [
+            "In May",
+            "In July"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            1,
+            4,
             7
           ]
         }
