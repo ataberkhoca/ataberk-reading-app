@@ -1063,6 +1063,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "What Do My Friends Look Like?",
+      "subtitle": "Find the right answer!",
+      "icon": "👀",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        }
+      ],
+      "sentences": [
+        "Maya: What does Leo look like?",
+        "Ada: He is tall. He has got short hair.",
+        "Maya: What does Kerem look like?",
+        "Ada: He is handsome. He has got short curly hair.",
+        "Maya: What does Zara look like?",
+        "Ada: She is beautiful. She has got long curly hair.",
+        "Maya: What does Mert look like?",
+        "Ada: He is nice. He has got short straight hair.",
+        "Maya: What does Ada look like?",
+        "Kerem: She is pretty. She has got long blond hair."
+      ],
+      "translations": [
+        "Maya: Leo nasıl görünüyor?",
+        "Ada: Uzun boylu. Kısa saçları var.",
+        "Maya: Kerem nasıl görünüyor?",
+        "Ada: Yakışıklı. Kısa kıvırcık saçları var.",
+        "Maya: Zara nasıl görünüyor?",
+        "Ada: Güzel. Uzun kıvırcık saçları var.",
+        "Maya: Mert nasıl görünüyor?",
+        "Ada: Hoş. Kısa düz saçları var.",
+        "Maya: Ada nasıl görünüyor?",
+        "Kerem: Sevimli. Uzun sarı saçları var."
+      ],
+      "questions": [
+        {
+          "q": "What does Leo look like?",
+          "correct": "Tall with short hair",
+          "wrong": [
+            "Beautiful",
+            "Lazy"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Kerem look like?",
+          "correct": "Handsome with short curly hair",
+          "wrong": [
+            "Tall with blond hair",
+            "Sad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Zara look like?",
+          "correct": "Beautiful with long curly hair",
+          "wrong": [
+            "Tall with short hair",
+            "Sad"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Mert look like?",
+          "correct": "Nice with short straight hair",
+          "wrong": [
+            "Handsome",
+            "Bad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ada look like?",
+          "correct": "Pretty with long blond hair",
+          "wrong": [
+            "Handsome with curly hair",
+            "Bad"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2133,6 +2242,112 @@
           "hint": "Find Kerem.",
           "hl": [
             5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "People Are Different",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👥",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        }
+      ],
+      "sentences": [
+        "Ms. Hart: People are different in many ways.",
+        "Some people are tall. Some people are short.",
+        "Some people are fat. Some people are thin.",
+        "Some people are happy. Some people are sad.",
+        "Some people are pretty. Some people are ugly.",
+        "Some people are good. Some people are bad.",
+        "Maya: Every person is wonderful!",
+        "Leo: Yes! Every person is special!"
+      ],
+      "translations": [
+        "Ms. Hart: İnsanlar birçok yönden farklıdır.",
+        "Bazı insanlar uzun boyludur. Bazı insanlar kısa boyludur.",
+        "Bazı insanlar şişmandır. Bazı insanlar zayıftır.",
+        "Bazı insanlar mutludur. Bazı insanlar üzgündür.",
+        "Bazı insanlar güzeldir. Bazı insanlar çirkindir.",
+        "Bazı insanlar iyidir. Bazı insanlar kötüdür.",
+        "Maya: Her insan harika!",
+        "Leo: Evet! Her insan özeldir!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "People are different",
+          "wrong": [
+            "Food",
+            "Weather"
+          ],
+          "hint": "Think about differences.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How are some people (height)?",
+          "correct": "Tall or short",
+          "wrong": [
+            "Happy or sad",
+            "Hot or cold"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How are some people (build)?",
+          "correct": "Fat or thin",
+          "wrong": [
+            "Hot or cold",
+            "Sunny"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How are some people (looks)?",
+          "correct": "Pretty or ugly",
+          "wrong": [
+            "Tall or short",
+            "Happy or sad"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How does Maya feel?",
+          "correct": "Every person is wonderful",
+          "wrong": [
+            "Every person is bad",
+            "Every person is sad"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -3225,6 +3440,224 @@
           "wrong": [
             "Goodbye!",
             "Sit down!"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "Different Weather, Different Clothes",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌦️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "Maya: Today is a cold day. I am wearing my coat and my scarf.",
+        "I am wearing my gloves, too.",
+        "Leo: In my city, today is a hot day. I am wearing my T-shirt and my shorts.",
+        "I have got my hat, too.",
+        "Ada: Today is a rainy day in my city.",
+        "I am wearing my jacket. I have got my umbrella, too.",
+        "Maya: Today is a windy day, too! It is cold!",
+        "I am putting on my warm sweatshirt.",
+        "Leo: Different weather, different clothes!",
+        "Ada: Yes! Different days need different clothes."
+      ],
+      "translations": [
+        "Maya: Bugün soğuk bir gün. Paltomu ve atkımı giyiyorum.",
+        "Eldivenlerimi de giyiyorum.",
+        "Leo: Benim şehrimde bugün sıcak bir gün. Tişörtümü ve şortumu giyiyorum.",
+        "Şapkam da yanımda.",
+        "Ada: Benim şehrimde bugün yağmurlu bir gün.",
+        "Ceketimi giyiyorum. Şemsiyem de yanımda.",
+        "Maya: Bugün rüzgârlı da! Soğuk!",
+        "Sıcak sweatshirtümü giyiyorum.",
+        "Leo: Farklı hava, farklı kıyafet!",
+        "Ada: Evet! Farklı günler farklı kıyafetler ister."
+      ],
+      "questions": [
+        {
+          "q": "What is the weather like for Maya?",
+          "correct": "Cold",
+          "wrong": [
+            "Hot",
+            "Rainy"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Maya wearing for the cold day?",
+          "correct": "A coat and a scarf",
+          "wrong": [
+            "A T-shirt",
+            "Shorts"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is the weather like for Leo?",
+          "correct": "Hot",
+          "wrong": [
+            "Cold",
+            "Snowy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Ada wearing?",
+          "correct": "A jacket",
+          "wrong": [
+            "A coat",
+            "A T-shirt"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Maya putting on?",
+          "correct": "A warm sweatshirt",
+          "wrong": [
+            "A T-shirt",
+            "A coat"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-12",
+      "title": "Some and Any in Our Bags",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎒",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        }
+      ],
+      "sentences": [
+        "Maya: Have you got any T-shirts in your bag, Leo?",
+        "Leo: Yes, I have got some T-shirts.",
+        "Maya: Have you got any jumpers?",
+        "Leo: No, I haven't got any jumpers.",
+        "Zara: Have you got any earrings, Maya?",
+        "Maya: Yes, I have got some earrings!",
+        "Zara: Have you got any hats?",
+        "Maya: No, I haven't got any hats today.",
+        "Leo: Some friends have got many things. Some friends have got two or three things.",
+        "Zara: Every friend is different!"
+      ],
+      "translations": [
+        "Maya: Çantanda hiç tişört var mı, Leo?",
+        "Leo: Evet, biraz tişört var.",
+        "Maya: Hiç kazak var mı?",
+        "Leo: Hayır, hiç kazak yok.",
+        "Zara: Hiç küpe var mı, Maya?",
+        "Maya: Evet, biraz küpem var!",
+        "Zara: Hiç şapka var mı?",
+        "Maya: Hayır, bugün hiç şapka yok.",
+        "Leo: Bazı arkadaşların birçok eşyası var. Bazı arkadaşların iki ya da üç eşyası var.",
+        "Zara: Her arkadaş farklıdır!"
+      ],
+      "questions": [
+        {
+          "q": "Has Leo got any T-shirts?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Has Leo got any jumpers?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Has Maya got any earrings?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Has Maya got any hats today?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "How are friends?",
+          "correct": "Different",
+          "wrong": [
+            "The same",
+            "Sad"
           ],
           "hint": "Read sentence 10.",
           "hl": [

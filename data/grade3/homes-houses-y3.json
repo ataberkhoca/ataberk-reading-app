@@ -1066,6 +1066,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "Is There a Pig on Your Farm?",
+      "subtitle": "Find the right number!",
+      "icon": "🐷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👨‍🌾",
+          "n": "Mr. Tarık"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        }
+      ],
+      "sentences": [
+        "Maya: Is there a barn on your farm, Mr. Tarık?",
+        "Mr. Tarık: Yes, there is one big barn.",
+        "Maya: Are there any pigs on your farm?",
+        "Mr. Tarık: Yes, there are five pigs in the barn.",
+        "Leo: How many cows are there?",
+        "Mr. Tarık: There are twenty cows.",
+        "Leo: How many chickens are there?",
+        "Mr. Tarık: There are thirty chickens!",
+        "Maya: Is there a tractor on your farm?",
+        "Mr. Tarık: Yes, there is one red tractor."
+      ],
+      "translations": [
+        "Maya: Çiftliğinizde ahır var mı, Mr. Tarık?",
+        "Mr. Tarık: Evet, bir büyük ahır var.",
+        "Maya: Çiftliğinizde hiç domuz var mı?",
+        "Mr. Tarık: Evet, ahırda beş domuz var.",
+        "Leo: Kaç tane inek var?",
+        "Mr. Tarık: Yirmi inek var.",
+        "Leo: Kaç tane tavuk var?",
+        "Mr. Tarık: Otuz tavuk var!",
+        "Maya: Çiftliğinizde traktör var mı?",
+        "Mr. Tarık: Evet, bir kırmızı traktör var."
+      ],
+      "questions": [
+        {
+          "q": "Is there a barn?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many pigs are there?",
+          "correct": "Five",
+          "wrong": [
+            "Three",
+            "Ten"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many cows are there?",
+          "correct": "Twenty",
+          "wrong": [
+            "Ten",
+            "Thirty"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many chickens are there?",
+          "correct": "Thirty",
+          "wrong": [
+            "Twenty",
+            "Fifteen"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What colour is the tractor?",
+          "correct": "Red",
+          "wrong": [
+            "Blue",
+            "Green"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2133,6 +2242,113 @@
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "Every Day and Now",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "⏰",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👨‍🌾",
+          "n": "Mr. Tarık"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
+          "e": "🧒",
+          "n": "Deniz"
+        }
+      ],
+      "sentences": [
+        "Every morning Mr. Tarık feeds the cows.",
+        "But now, he is feeding the chickens!",
+        "Every day my aunt milks the sheep.",
+        "Now she is milking the cow.",
+        "Every day Ada helps on the farm.",
+        "Now Ada is collecting eggs from the hens.",
+        "Every morning the children play in the field.",
+        "Now the children are running in the field!",
+        "Deniz: Habits and 'now' are different!"
+      ],
+      "translations": [
+        "Her sabah Mr. Tarık ineklere yem verir.",
+        "Ama şimdi, tavuklara yem veriyor!",
+        "Her gün halam koyunları sağar.",
+        "Şimdi ineği sağıyor.",
+        "Her gün Ada çiftlikte yardım eder.",
+        "Şimdi Ada tavuklardan yumurta topluyor.",
+        "Her sabah çocuklar tarlada oynar.",
+        "Şimdi çocuklar tarlada koşuyor!",
+        "Deniz: Alışkanlıklar ve 'şimdi' farklıdır!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Habits and now",
+          "wrong": [
+            "School",
+            "Food"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Mr. Tarık feed every morning?",
+          "correct": "The cows",
+          "wrong": [
+            "The chickens",
+            "The sheep"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Mr. Tarık feeding now?",
+          "correct": "The chickens",
+          "wrong": [
+            "The cows",
+            "The sheep"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does the aunt do every day?",
+          "correct": "Milks the sheep",
+          "wrong": [
+            "Milks the cow",
+            "Feeds chickens"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Ada collecting now?",
+          "correct": "Eggs",
+          "wrong": [
+            "Vegetables",
+            "Fruit"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -3213,6 +3429,115 @@
           "wrong": [
             "Sleeping",
             "Reading"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "My Uncle's Farm Has Everything",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌾",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👨‍🌾",
+          "n": "Mr. Tarık"
+        },
+        {
+          "e": "👧",
+          "n": "Maya"
+        }
+      ],
+      "sentences": [
+        "Kerem: Mr. Tarık, what is in your farm?",
+        "Mr. Tarık: My farm has a big stable. The horses live in the stable.",
+        "Kerem: Is there a pond?",
+        "Mr. Tarık: Yes, there is a pond near the field.",
+        "The ducks swim in the pond every day.",
+        "Now they are swimming, too!",
+        "There is green grass in many places on the farm.",
+        "The cows eat the grass every morning.",
+        "Maya: I love your farm! It is wonderful.",
+        "Mr. Tarık: Thank you, Maya!"
+      ],
+      "translations": [
+        "Kerem: Mr. Tarık, çiftliğinizde neler var?",
+        "Mr. Tarık: Çiftliğimin büyük bir ahırı var. Atlar ahırda yaşar.",
+        "Kerem: Bir gölet var mı?",
+        "Mr. Tarık: Evet, tarlanın yanında bir gölet var.",
+        "Ördekler her gün gölette yüzer.",
+        "Şimdi de yüzüyorlar!",
+        "Çiftlikte birçok yerde yeşil çimen var.",
+        "İnekler her sabah çimenleri yer.",
+        "Maya: Çiftliğini çok sevdim! Harika.",
+        "Mr. Tarık: Teşekkür ederim, Maya!"
+      ],
+      "questions": [
+        {
+          "q": "What is in Mr. Tarık's farm?",
+          "correct": "A big stable",
+          "wrong": [
+            "A small house",
+            "A school"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where do the horses live?",
+          "correct": "In the stable",
+          "wrong": [
+            "In the field",
+            "In the pond"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the pond?",
+          "correct": "Near the field",
+          "wrong": [
+            "In the barn",
+            "In the stable"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in the pond?",
+          "correct": "Ducks",
+          "wrong": [
+            "Horses",
+            "Cows"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What do the cows eat?",
+          "correct": "Grass",
+          "wrong": [
+            "Eggs",
+            "Bread"
           ],
           "hint": "Read sentence 8.",
           "hl": [

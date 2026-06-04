@@ -1061,6 +1061,115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "Ages in My Family",
+      "subtitle": "Find the right age!",
+      "icon": "👵",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "Maya: My grandmother is sixty-five years old.",
+        "She is wonderful!",
+        "My grandfather is seventy years old.",
+        "My grandparents are kind and happy.",
+        "My mother is thirty-five years old.",
+        "My father is forty years old.",
+        "My sister is twelve years old.",
+        "Leo: My grandparents are old, too.",
+        "My grandmother is sixty years old. My grandfather is sixty-eight.",
+        "Ada: My grandparents are eighty years old. They are very old!"
+      ],
+      "translations": [
+        "Maya: Anneannem altmış beş yaşında.",
+        "Harika biri!",
+        "Dedem yetmiş yaşında.",
+        "Büyükannelerim/dedelerim kibar ve mutlu.",
+        "Annem otuz beş yaşında.",
+        "Babam kırk yaşında.",
+        "Ablam on iki yaşında.",
+        "Leo: Benim büyüklerim de yaşlı.",
+        "Anneannem altmış yaşında. Dedem altmış sekiz yaşında.",
+        "Ada: Benim büyüklerim seksen yaşında. Çok yaşlılar!"
+      ],
+      "questions": [
+        {
+          "q": "How old is Maya's grandmother?",
+          "correct": "Sixty-five",
+          "wrong": [
+            "Seventy",
+            "Sixty"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How old is Maya's grandfather?",
+          "correct": "Seventy",
+          "wrong": [
+            "Sixty-five",
+            "Eighty"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is Maya's mother?",
+          "correct": "Thirty-five",
+          "wrong": [
+            "Forty",
+            "Twelve"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How old is Leo's grandfather?",
+          "correct": "Sixty-eight",
+          "wrong": [
+            "Seventy",
+            "Sixty"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "How old are Ada's grandparents?",
+          "correct": "Eighty",
+          "wrong": [
+            "Sixty-five",
+            "Seventy"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2134,6 +2243,112 @@
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "My Aunt and Uncle",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👨‍👩‍👧",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
+      "sentences": [
+        "Zara: I have got a big extended family.",
+        "My aunt is thirty-eight years old. She always cooks at home.",
+        "My uncle is forty years old. He often plays football with my cousin.",
+        "My cousin Mert is ten years old. He sometimes helps his mother.",
+        "My grandparents are sixty-five years old. They are kind.",
+        "Mert: My aunt is forty-two years old. She never cooks.",
+        "My aunt always sings! Her voice is beautiful.",
+        "Zara and Mert: Family is wonderful at every age!"
+      ],
+      "translations": [
+        "Zara: Geniş bir ailem var.",
+        "Halam otuz sekiz yaşında. Her zaman evde yemek yapar.",
+        "Amcam kırk yaşında. Sık sık kuzenimle futbol oynar.",
+        "Kuzenim Mert on yaşında. Bazen annesine yardım eder.",
+        "Büyüklerim altmış beş yaşında. Çok kibarlar.",
+        "Mert: Halam kırk iki yaşında. Hiç yemek yapmaz.",
+        "Halam her zaman şarkı söyler! Sesi çok güzeldir.",
+        "Zara ve Mert: Aile her yaşta harikadır!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Ages in extended family",
+          "wrong": [
+            "Food",
+            "School"
+          ],
+          "hint": "Think about ages.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "How old is Zara's aunt?",
+          "correct": "Thirty-eight",
+          "wrong": [
+            "Forty",
+            "Sixty"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How old is Zara's uncle?",
+          "correct": "Forty",
+          "wrong": [
+            "Thirty-eight",
+            "Sixty-five"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How old is Mert's aunt?",
+          "correct": "Forty-two",
+          "wrong": [
+            "Thirty-eight",
+            "Sixty"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Zara's aunt always do?",
+          "correct": "Cooks",
+          "wrong": [
+            "Sings",
+            "Sleeps"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         }
       ]
@@ -3217,6 +3432,115 @@
           "hint": "Read sentence 9.",
           "hl": [
             8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-11",
+      "title": "Everyone Helps at Home",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🧹",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "In my family, every person helps at home.",
+        "My mother always cleans the kitchen.",
+        "My father takes the garbage out every evening.",
+        "I make my bed every morning.",
+        "My sister cleans her room every day.",
+        "My brother sometimes cleans the windows.",
+        "My grandmother often cleans the living room.",
+        "My grandfather makes his bed every day, too.",
+        "Maya: Help at home is important!",
+        "Leo: Yes! Every family member helps."
+      ],
+      "translations": [
+        "Ailemde herkes evde yardım eder.",
+        "Annem her zaman mutfağı temizler.",
+        "Babam her akşam çöpü çıkarır.",
+        "Yatağımı her sabah toplarım.",
+        "Ablam odasını her gün temizler.",
+        "Abim bazen pencereleri temizler.",
+        "Anneannem sık sık oturma odasını temizler.",
+        "Dedem de yatağını her gün toplar.",
+        "Maya: Evde yardım önemli!",
+        "Leo: Evet! Her aile üyesi yardım eder."
+      ],
+      "questions": [
+        {
+          "q": "Who cleans the kitchen?",
+          "correct": "Mother",
+          "wrong": [
+            "Father",
+            "Brother"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does father do?",
+          "correct": "Takes the garbage out",
+          "wrong": [
+            "Cleans the kitchen",
+            "Makes the bed"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What do I do every morning?",
+          "correct": "Make my bed",
+          "wrong": [
+            "Clean the windows",
+            "Cook"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How often does sister clean her room?",
+          "correct": "Every day",
+          "wrong": [
+            "Never",
+            "Sometimes"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does brother sometimes clean?",
+          "correct": "The windows",
+          "wrong": [
+            "The kitchen",
+            "The garbage"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]

@@ -1080,6 +1080,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "A Turkish Breakfast",
+      "subtitle": "Find the right food!",
+      "icon": "🍯",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
+        }
+      ],
+      "sentences": [
+        "It is Sunday morning. Maya has a big breakfast.",
+        "Maya: For breakfast, I have toast with butter and jam.",
+        "Leo: I have some yogurt and some honey for breakfast.",
+        "Ada: I have olives and cheese for breakfast, too.",
+        "Maya: Do you like jam, Leo?",
+        "Leo: Yes, I love jam! I have some jam every day.",
+        "Ada: My grandmother has yogurt and honey for breakfast every morning.",
+        "Maya: Turkish breakfast has many wonderful things!"
+      ],
+      "translations": [
+        "Pazar sabahı. Maya büyük bir kahvaltı yapar.",
+        "Maya: Kahvaltıda tereyağı ve reçelle tost yerim.",
+        "Leo: Kahvaltıda biraz yoğurt ve biraz bal yerim.",
+        "Ada: Ben de kahvaltıda zeytin ve peynir yerim.",
+        "Maya: Reçeli sever misin, Leo?",
+        "Leo: Evet, reçeli çok severim! Her gün biraz reçel yerim.",
+        "Ada: Anneannem her sabah yoğurt ve bal yer.",
+        "Maya: Türk kahvaltısında birçok harika şey var!"
+      ],
+      "questions": [
+        {
+          "q": "What does Maya have for breakfast?",
+          "correct": "Toast with butter and jam",
+          "wrong": [
+            "Soup",
+            "Pasta"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Leo have for breakfast?",
+          "correct": "Yogurt and honey",
+          "wrong": [
+            "Cake",
+            "Pizza"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Ada have for breakfast?",
+          "correct": "Olives and cheese",
+          "wrong": [
+            "Soup",
+            "Burgers"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Does Leo like jam?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Ada's grandmother have every morning?",
+          "correct": "Yogurt and honey",
+          "wrong": [
+            "Cake",
+            "Toast"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2163,6 +2268,112 @@
           "hint": "Read sentence 8.",
           "hl": [
             7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-11",
+      "title": "Fast Food with Friends",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍕",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
+        },
+        {
+          "e": "👦🏻",
+          "n": "Mert"
+        }
+      ],
+      "sentences": [
+        "Kerem: My friends and I love fast food on Fridays.",
+        "We have pizza and burgers at the café.",
+        "Kerem: I want a big pizza, please.",
+        "Zara: I want a burger and some chips.",
+        "Mert: I'll have a small pizza, please.",
+        "After the meal, we have a biscuit and tea.",
+        "Zara: I love this biscuit! It is sweet.",
+        "Kerem: Pizza, burgers and biscuits — what a great Friday!"
+      ],
+      "translations": [
+        "Kerem: Arkadaşlarımla ben Cuma günleri fast food severiz.",
+        "Kafede pizza ve hamburger yeriz.",
+        "Kerem: Ben büyük bir pizza isterim, lütfen.",
+        "Zara: Ben bir hamburger ve biraz patates kızartması isterim.",
+        "Mert: Küçük bir pizza alacağım, lütfen.",
+        "Yemekten sonra bir bisküvi ve çay alırız.",
+        "Zara: Bu bisküviyi çok severim! Tatlı.",
+        "Kerem: Pizza, hamburger ve bisküvi — ne harika bir Cuma!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Fast food with friends",
+          "wrong": [
+            "Breakfast",
+            "School"
+          ],
+          "hint": "Think about Fridays.",
+          "hl": [
+            0,
+            7
+          ]
+        },
+        {
+          "q": "When do the friends have fast food?",
+          "correct": "On Fridays",
+          "wrong": [
+            "On Mondays",
+            "On Sundays"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Kerem want?",
+          "correct": "A big pizza",
+          "wrong": [
+            "A burger",
+            "Chips"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Zara want?",
+          "correct": "A burger and chips",
+          "wrong": [
+            "A pizza",
+            "A biscuit"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What do they have after the meal?",
+          "correct": "A biscuit and tea",
+          "wrong": [
+            "Soup",
+            "Salad"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         }
       ]
