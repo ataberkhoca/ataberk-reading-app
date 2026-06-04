@@ -340,6 +340,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-4",
+      "title": "Big Numbers in Our School",
+      "subtitle": "Find the right number!",
+      "icon": "🔢",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Greenfield School has many pupils.",
+        "There are fifty pupils in Year 1.",
+        "There are sixty pupils in Year 2.",
+        "There are seventy pupils in Year 3.",
+        "There are eighty pupils in Year 4.",
+        "Ms. Reed: There are ninety teachers in our school.",
+        "There are one hundred desks in the main hall.",
+        "Sam: That is a big number!",
+        "Nora: Our school has one hundred chairs, too.",
+        "Ms. Reed: The school is one hundred years old this year!"
+      ],
+      "translations": [
+        "Greenfield Okulu'nun birçok öğrencisi var.",
+        "Birinci sınıfta elli öğrenci var.",
+        "İkinci sınıfta altmış öğrenci var.",
+        "Üçüncü sınıfta yetmiş öğrenci var.",
+        "Dördüncü sınıfta seksen öğrenci var.",
+        "Ms. Reed: Okulumuzda doksan öğretmen var.",
+        "Ana salonda yüz sıra var.",
+        "Sam: Bu büyük bir sayı!",
+        "Nora: Okulumuzda yüz sandalye de var.",
+        "Ms. Reed: Okul bu yıl yüz yaşında!"
+      ],
+      "questions": [
+        {
+          "q": "How many pupils are in Year 2?",
+          "correct": "Sixty",
+          "wrong": [
+            "Fifty",
+            "Seventy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many pupils are in Year 4?",
+          "correct": "Eighty",
+          "wrong": [
+            "Ninety",
+            "Seventy"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many teachers are there?",
+          "correct": "Ninety",
+          "wrong": [
+            "Eighty",
+            "One hundred"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many desks are in the main hall?",
+          "correct": "One hundred",
+          "wrong": [
+            "Ninety",
+            "Eighty"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How old is the school?",
+          "correct": "One hundred years",
+          "wrong": [
+            "Eighty years",
+            "Fifty years"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "Long Ago at Our School",
+      "subtitle": "Find the right time!",
+      "icon": "⏳",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Many years ago, our school was very small.",
+        "Two years ago, there were only fifty pupils in Year 4.",
+        "Last year, our class was in a different classroom.",
+        "Three years ago, the school had no projector.",
+        "Nora: What was your favourite lesson five years ago, Ms. Reed?",
+        "Ms. Reed: My favourite lesson was Music five years ago.",
+        "Sam: One month ago, the talent show was in May.",
+        "Last week, the parent-teacher meeting was on Monday.",
+        "Ms. Reed: Our school was different many years ago, but the children were always happy!",
+        "Nora: It sounds like a wonderful story!"
+      ],
+      "translations": [
+        "Ms. Reed: Yıllar önce okulumuz çok küçüktü.",
+        "İki yıl önce 4. sınıfta sadece elli öğrenci vardı.",
+        "Geçen yıl sınıfımız farklı bir derslikteydi.",
+        "Üç yıl önce okulun projektörü yoktu.",
+        "Nora: Beş yıl önceki favori dersiniz neydi, Ms. Reed?",
+        "Ms. Reed: Beş yıl önceki favori dersim Müzikti.",
+        "Sam: Bir ay önce yetenek gösterisi Mayıs'taydı.",
+        "Geçen hafta veli-öğretmen toplantısı Pazartesi'ydi.",
+        "Ms. Reed: Okulumuz yıllar önce farklıydı ama çocuklar her zaman mutluydu!",
+        "Nora: Harika bir hikaye gibi!"
+      ],
+      "questions": [
+        {
+          "q": "How was the school many years ago?",
+          "correct": "Very small",
+          "wrong": [
+            "Very big",
+            "New"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How many pupils were in Year 4 two years ago?",
+          "correct": "Fifty",
+          "wrong": [
+            "Eighty",
+            "One hundred"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where was the class last year?",
+          "correct": "In a different classroom",
+          "wrong": [
+            "At home",
+            "In the main hall"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What was Ms. Reed's favourite lesson five years ago?",
+          "correct": "Music",
+          "wrong": [
+            "Maths",
+            "English"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "When was the parent-teacher meeting?",
+          "correct": "Last week on Monday",
+          "wrong": [
+            "Today",
+            "Tomorrow"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "The 25th Anniversary",
+      "subtitle": "Find the right order!",
+      "icon": "🏆",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Greenfield School is celebrating its 25th anniversary this year.",
+        "Ms. Reed: On the 4th of October, there was a big party.",
+        "On the 10th of October, the 5th grade was on the stage with songs.",
+        "On the 15th of October, the 6th grade was in a dance show.",
+        "On the 20th of October, the 7th grade was in the poetry show.",
+        "Sam: My favourite day was the 25th of October.",
+        "Leyla: That was the 8th day of the celebration!",
+        "Ms. Reed: We have many memories from the 12th, 18th and 30th of October.",
+        "The 30th of October was the last day of the anniversary.",
+        "Sam: I can't wait for the 50th anniversary!"
+      ],
+      "translations": [
+        "Greenfield Okulu bu yıl 25. yıl dönümünü kutluyor.",
+        "Ms. Reed: 4 Ekim'de büyük bir parti vardı.",
+        "10 Ekim'de 5. sınıf sahnedeydi, şarkılarla.",
+        "15 Ekim'de 6. sınıf dans gösterisindeydi.",
+        "20 Ekim'de 7. sınıf şiir gösterisindeydi.",
+        "Sam: Favori günüm 25 Ekim'di.",
+        "Leyla: Bu, kutlamanın 8. günüydü!",
+        "Ms. Reed: 12, 18 ve 30 Ekim'den birçok hatıramız var.",
+        "30 Ekim, yıl dönümünün son günüydü.",
+        "Sam: 50. yıl dönümü için sabırsızlanıyorum!"
+      ],
+      "questions": [
+        {
+          "q": "Which anniversary is the school celebrating?",
+          "correct": "25th",
+          "wrong": [
+            "10th",
+            "50th"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who was on the stage on the 10th?",
+          "correct": "5th grade",
+          "wrong": [
+            "6th grade",
+            "7th grade"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "When was the 6th grade dance show?",
+          "correct": "On the 15th",
+          "wrong": [
+            "On the 10th",
+            "On the 25th"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What was Sam's favourite day?",
+          "correct": "25th of October",
+          "wrong": [
+            "4th of October",
+            "30th of October"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "When was the last day?",
+          "correct": "30th of October",
+          "wrong": [
+            "10th of October",
+            "25th of October"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Good to See You, Friends!",
+      "subtitle": "Find the right expression!",
+      "icon": "🤝",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Nora: Good to see you again, Sam!",
+        "Sam: Good to see you, too, Nora!",
+        "It is raining cats and dogs outside today.",
+        "Nora: Let's not be late! Take care on the way.",
+        "Ms. Reed: Good to see you, children!",
+        "Sam: Ms. Reed, the rain is one in a million today!",
+        "Ms. Reed: That's one in a million, yes! What does that mean, Sam?",
+        "Sam: It means very, very special!",
+        "Nora: Make sure to bring your umbrella tomorrow!",
+        "Sam: Take care, Nora! I will."
+      ],
+      "translations": [
+        "Nora: Seni tekrar görmek güzel, Sam!",
+        "Sam: Ben de seni görmek güzel, Nora!",
+        "Bugün dışarıda bardaktan boşalırcasına yağıyor.",
+        "Nora: Geç kalmayalım! Yolda dikkat et.",
+        "Ms. Reed: Sizi görmek güzel, çocuklar!",
+        "Sam: Ms. Reed, bugün yağmur milyonda bir!",
+        "Ms. Reed: Milyonda bir, evet! Bu ne demek, Sam?",
+        "Sam: Çok, çok özel demek!",
+        "Nora: Yarın şemsiyeni getirmeyi unutma!",
+        "Sam: Kendine iyi bak, Nora! Bakacağım."
+      ],
+      "questions": [
+        {
+          "q": "What does Nora say first?",
+          "correct": "Good to see you again!",
+          "wrong": [
+            "Goodbye!",
+            "See you tomorrow!"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How is the rain today?",
+          "correct": "Raining cats and dogs",
+          "wrong": [
+            "Not raining",
+            "Light rain"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Nora say about being late?",
+          "correct": "Let's not be late",
+          "wrong": [
+            "I am late",
+            "Sleep more"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does 'one in a million' mean?",
+          "correct": "Very special",
+          "wrong": [
+            "Very small",
+            "Very fast"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Sam say to Nora at the end?",
+          "correct": "Take care",
+          "wrong": [
+            "Goodbye",
+            "Hello"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "Help Me, Please!",
+      "subtitle": "Find the right pronoun!",
+      "icon": "💁",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Nora: Sam, can you help me with my Maths homework?",
+        "Sam: Yes, I can help you, Nora! Sit next to me.",
+        "Nora: Thank you. Look at this problem. Can you explain it to me?",
+        "Sam: Of course! Let me show you.",
+        "Ms. Reed comes near them.",
+        "Ms. Reed: Good to see you helping each other!",
+        "Nora: Sam is helping me with Maths, Ms. Reed.",
+        "Ms. Reed: That's wonderful. Let me give you a new worksheet.",
+        "Sam: Thank you, Ms. Reed! We will work on it together.",
+        "Ms. Reed: I'm proud of you, children. Take care of each other!"
+      ],
+      "translations": [
+        "Nora: Sam, matematik ödevimde bana yardım edebilir misin?",
+        "Sam: Evet, sana yardım edebilirim Nora! Yanıma otur.",
+        "Nora: Teşekkürler. Şu probleme bak. Bana açıklayabilir misin?",
+        "Sam: Tabii ki! Sana göstereyim.",
+        "Ms. Reed onlara yaklaşır.",
+        "Ms. Reed: Birbirinize yardım ettiğinizi görmek güzel!",
+        "Nora: Sam matematik konusunda bana yardım ediyor, Ms. Reed.",
+        "Ms. Reed: Bu harika. Size yeni bir çalışma kağıdı vereyim.",
+        "Sam: Teşekkürler, Ms. Reed! Birlikte çalışacağız.",
+        "Ms. Reed: Sizinle gurur duyuyorum çocuklar. Birbirinize iyi bakın!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora ask Sam?",
+          "correct": "Help me with Maths",
+          "wrong": [
+            "Sing a song",
+            "Play football"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Sam say?",
+          "correct": "I can help you",
+          "wrong": [
+            "I can't help",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who does Ms. Reed see?",
+          "correct": "Sam helping Nora",
+          "wrong": [
+            "A new teacher",
+            "A pupil sleeping"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Ms. Reed give them?",
+          "correct": "A new worksheet",
+          "wrong": [
+            "A book",
+            "A pen"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say at the end?",
+          "correct": "Take care of each other",
+          "wrong": [
+            "Goodbye",
+            "Hello"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "I Like Using New Things",
+      "subtitle": "Find the right activity!",
+      "icon": "📎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I like writing with a board marker on the board.",
+        "Sam: I like drawing with a highlighter in my activity book.",
+        "Leyla: I like making my homework neat with a stapler.",
+        "Nora: I love using the calculator in Maths lessons.",
+        "Sam: I love making posters for the classroom.",
+        "Leyla: I dislike using the projector because the light is bright.",
+        "Nora: My favourite thing is the board marker. I like using it every day.",
+        "Sam: My favourite is the highlighter. I love drawing with it.",
+        "Leyla: My favourite is the stapler because it makes my homework tidy.",
+        "Ms. Reed: It sounds great! We have many useful things in our classroom!"
+      ],
+      "translations": [
+        "Nora: Tahtaya tahta kalemiyle yazmayı severim.",
+        "Sam: Aktivite kitabıma fosforlu kalemle çizim yapmayı severim.",
+        "Leyla: Ödevimi zımbayla düzenlemeyi severim.",
+        "Nora: Matematik derslerinde hesap makinesini kullanmayı çok severim.",
+        "Sam: Sınıf için poster yapmayı çok severim.",
+        "Leyla: Projektör kullanmayı sevmem çünkü ışığı parlak.",
+        "Nora: Favori şeyim tahta kalemi. Her gün kullanmayı severim.",
+        "Sam: Favorim fosforlu kalem. Onunla çizim yapmayı severim.",
+        "Leyla: Favorim zımba çünkü ödevimi düzenli yapar.",
+        "Ms. Reed: Harika geliyor! Sınıfımızda birçok faydalı şey var!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora like writing with?",
+          "correct": "A board marker",
+          "wrong": [
+            "A highlighter",
+            "A stapler"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Sam like drawing with?",
+          "correct": "A highlighter",
+          "wrong": [
+            "A board marker",
+            "A calculator"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Leyla use for her homework?",
+          "correct": "A stapler",
+          "wrong": [
+            "A highlighter",
+            "A board marker"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Why does Leyla dislike the projector?",
+          "correct": "The light is bright",
+          "wrong": [
+            "It is heavy",
+            "It is small"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora like using every day?",
+          "correct": "The board marker",
+          "wrong": [
+            "The stapler",
+            "The projector"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "My Day from Hour to Hour",
+      "subtitle": "Find the right time!",
+      "icon": "⏰",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Nora: I wake up at quarter to seven every morning.",
+        "I have breakfast at quarter past seven.",
+        "I leave home at twenty past seven.",
+        "Sam: I arrive at school at five to eight.",
+        "Our first lesson is at quarter past eight.",
+        "The break is at ten past ten in the morning.",
+        "We have lunch at twenty to twelve.",
+        "Nora: I go home at quarter past three p.m.",
+        "Sam: I do my homework at ten to five in the afternoon.",
+        "I go to bed at half past nine in the evening."
+      ],
+      "translations": [
+        "Nora: Her sabah saat yediye çeyrek var uyanırım.",
+        "Yediyi çeyrek geçe kahvaltı ederim.",
+        "Yediyi yirmi geçe evden çıkarım.",
+        "Sam: Sekize beş kala okula varırım.",
+        "İlk dersimiz sekizi çeyrek geçe.",
+        "Teneffüs sabah onu on geçe.",
+        "On ikiye yirmi var öğle yemeği yeriz.",
+        "Nora: Saat üçü çeyrek geçe öğleden sonra eve giderim.",
+        "Sam: Beşe on var öğleden sonra ödevimi yaparım.",
+        "Akşam dokuz buçukta yatağa giderim."
+      ],
+      "questions": [
+        {
+          "q": "When does Nora wake up?",
+          "correct": "Quarter to seven",
+          "wrong": [
+            "Seven o'clock",
+            "Half past seven"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "When does Nora leave home?",
+          "correct": "Twenty past seven",
+          "wrong": [
+            "Quarter past seven",
+            "Half past seven"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "When does Sam arrive at school?",
+          "correct": "Five to eight",
+          "wrong": [
+            "Eight o'clock",
+            "Quarter past eight"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "When is lunch?",
+          "correct": "Twenty to twelve",
+          "wrong": [
+            "Twelve o'clock",
+            "Half past twelve"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "When does Sam go to bed?",
+          "correct": "Half past nine",
+          "wrong": [
+            "Nine o'clock",
+            "Quarter to ten"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -688,6 +1451,769 @@
           "hint": "Find what Ms. Reed says near the end of the text.",
           "hl": [
             8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Our Favourite Seasons",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍂",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "There are four seasons in a year: spring, summer, autumn and winter.",
+        "Nora's favourite season is summer because the weather is warm.",
+        "She loves swimming and reading on the beach in summer.",
+        "Sam's favourite season is winter because he loves snow.",
+        "He likes playing in the snow with his friends in winter.",
+        "Leyla loves autumn because the leaves are beautiful.",
+        "She likes walking in the park with her family in autumn.",
+        "Ms. Reed's favourite season is spring because flowers grow everywhere.",
+        "Each season is special in its own way.",
+        "Sam: I can't wait for winter this year!"
+      ],
+      "translations": [
+        "Bir yılda dört mevsim var: ilkbahar, yaz, sonbahar ve kış.",
+        "Nora'nın favori mevsimi yaz çünkü hava ılık.",
+        "Yazın sahilde yüzmeyi ve kitap okumayı çok sever.",
+        "Sam'in favori mevsimi kış çünkü karı çok sever.",
+        "Kışın arkadaşlarıyla karda oynamayı sever.",
+        "Leyla sonbaharı çok sever çünkü yapraklar güzeldir.",
+        "Sonbaharda ailesiyle parkta yürümeyi sever.",
+        "Ms. Reed'in favori mevsimi ilkbahar çünkü her yerde çiçekler büyür.",
+        "Her mevsim kendine göre özeldir.",
+        "Sam: Bu yıl kış için sabırsızlanıyorum!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Favourite seasons",
+          "wrong": [
+            "School lessons",
+            "Friends"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Why does Nora love summer?",
+          "correct": "The weather is warm",
+          "wrong": [
+            "It is cold",
+            "School is open"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Sam's favourite season?",
+          "correct": "Winter",
+          "wrong": [
+            "Summer",
+            "Autumn"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Why does Leyla love autumn?",
+          "correct": "The leaves are beautiful",
+          "wrong": [
+            "It is hot",
+            "Schools open"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Why does Ms. Reed love spring?",
+          "correct": "Flowers grow everywhere",
+          "wrong": [
+            "It is hot",
+            "School is over"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Our School Long Ago",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏛️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Greenfield School has a long history.",
+        "Many years ago, the school was a small building with only two classrooms.",
+        "Fifty years ago, there were only thirty pupils in the school.",
+        "Twenty years ago, there was a small library and one teacher's room.",
+        "Ten years ago, the school was bigger but there were no computers.",
+        "Five years ago, there were new projectors and printers at the school.",
+        "Three years ago, the new sports hall was ready for the children.",
+        "One year ago, Ms. Reed was a new teacher at Greenfield School.",
+        "Two months ago, Mr. Demir was at a different school.",
+        "Our school is now one hundred years old and still growing!"
+      ],
+      "translations": [
+        "Greenfield Okulu'nun uzun bir geçmişi var.",
+        "Yıllar önce okul, sadece iki dersliği olan küçük bir binaydı.",
+        "Elli yıl önce okulda sadece otuz öğrenci vardı.",
+        "Yirmi yıl önce küçük bir kütüphane ve bir öğretmenler odası vardı.",
+        "On yıl önce okul daha büyüktü ama bilgisayar yoktu.",
+        "Beş yıl önce okulda yeni projektörler ve yazıcılar vardı.",
+        "Üç yıl önce yeni spor salonu çocuklar için hazırdı.",
+        "Bir yıl önce Ms. Reed Greenfield Okulu'nda yeni bir öğretmendi.",
+        "İki ay önce Mr. Demir farklı bir okuldaydı.",
+        "Okulumuz şimdi yüz yaşında ve hâlâ büyüyor!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "School history",
+          "wrong": [
+            "Favourite lessons",
+            "Today's classes"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How many pupils were there fifty years ago?",
+          "correct": "Thirty",
+          "wrong": [
+            "Eighty",
+            "One hundred"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What was there twenty years ago?",
+          "correct": "A small library",
+          "wrong": [
+            "A big gym",
+            "No teachers"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "When did projectors arrive?",
+          "correct": "Five years ago",
+          "wrong": [
+            "Ten years ago",
+            "One year ago"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How old is the school now?",
+          "correct": "One hundred years",
+          "wrong": [
+            "Fifty years",
+            "Twenty years"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "A Friday at Greenfield",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📅",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Friday is a busy day at Greenfield School.",
+        "Nora arrives at quarter to eight in the morning.",
+        "The assembly starts at five past eight.",
+        "The first lesson is English at quarter past eight.",
+        "The break is at twenty to ten.",
+        "Maths lesson is at ten to ten.",
+        "Lunch time is at half past twelve.",
+        "Music lesson is at twenty past one in the afternoon.",
+        "The pupils go home at five to three p.m.",
+        "Friday is the best day because of the music lesson!"
+      ],
+      "translations": [
+        "Cuma, Greenfield Okulu'nda yoğun bir gündür.",
+        "Nora sabah sekize çeyrek var okula varır.",
+        "Toplantı sekizi beş geçe başlar.",
+        "İlk ders sekizi çeyrek geçe İngilizce.",
+        "Teneffüs ona yirmi var.",
+        "Matematik dersi ona on var.",
+        "Öğle yemeği saat on iki buçukta.",
+        "Müzik dersi öğleden sonra biri yirmi geçe.",
+        "Öğrenciler öğleden sonra üçe beş kala eve giderler.",
+        "Müzik dersi yüzünden Cuma en iyi gündür!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "A Friday timetable",
+          "wrong": [
+            "Favourite lessons",
+            "School history"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "When does Nora arrive?",
+          "correct": "Quarter to eight",
+          "wrong": [
+            "Eight o'clock",
+            "Half past eight"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is the break?",
+          "correct": "Twenty to ten",
+          "wrong": [
+            "Half past ten",
+            "Ten o'clock"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is lunch?",
+          "correct": "Half past twelve",
+          "wrong": [
+            "Twelve o'clock",
+            "Quarter to one"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Why is Friday the best day?",
+          "correct": "Music lesson",
+          "wrong": [
+            "Sports day",
+            "Talent show"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "Helping Each Other",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🤲",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "It is a busy Monday morning in our classroom.",
+        "Nora cannot find her pencil. Sam gives her his pencil.",
+        "Nora: Thank you, Sam! You are very kind to me.",
+        "Leyla needs help with her homework. Nora helps her.",
+        "Leyla: Thank you, Nora! I love you for helping me.",
+        "Sam needs the board marker. Ms. Reed gives it to him.",
+        "Ms. Reed: Here, take it, Sam!",
+        "Sam writes on the board with it.",
+        "We always help each other in our class.",
+        "Ms. Reed: I am proud of you, children!"
+      ],
+      "translations": [
+        "Sınıfımızda yoğun bir Pazartesi sabahı.",
+        "Nora kalemini bulamaz. Sam ona kendi kalemini verir.",
+        "Nora: Teşekkürler Sam! Bana karşı çok naziksin.",
+        "Leyla ödeviyle ilgili yardıma ihtiyaç duyar. Nora ona yardım eder.",
+        "Leyla: Teşekkürler Nora! Bana yardım ettiğin için seni çok seviyorum.",
+        "Sam tahta kalemine ihtiyaç duyar. Ms. Reed onu ona verir.",
+        "Ms. Reed: Al Sam!",
+        "Sam onunla tahtaya yazar.",
+        "Sınıfımızda her zaman birbirimize yardım ederiz.",
+        "Ms. Reed: Sizinle gurur duyuyorum çocuklar!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Helping each other",
+          "wrong": [
+            "School history",
+            "Lunch"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "What does Sam give Nora?",
+          "correct": "His pencil",
+          "wrong": [
+            "A book",
+            "A board marker"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who helps Leyla?",
+          "correct": "Nora",
+          "wrong": [
+            "Sam",
+            "Ms. Reed"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Ms. Reed give Sam?",
+          "correct": "The board marker",
+          "wrong": [
+            "A pencil",
+            "A book"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say at the end?",
+          "correct": "I am proud of you",
+          "wrong": [
+            "Goodbye",
+            "See you tomorrow"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "Class Order",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🥇",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "In our class, there are pupils in different rows.",
+        "Nora sits in the 4th row by the window.",
+        "Sam sits in the 5th row near the door.",
+        "Leyla sits in the 6th row in the middle.",
+        "Kerem sits in the 7th row at the back.",
+        "Ms. Reed reads the names: 8th, 9th, 10th, 11th and 12th.",
+        "The 13th pupil is Zara.",
+        "The 15th pupil is Mert.",
+        "The 20th pupil is the new boy.",
+        "Today, the 30th of May, is our last day before summer holidays!"
+      ],
+      "translations": [
+        "Sınıfımızda farklı sıralarda öğrenciler var.",
+        "Nora pencere kenarında 4. sırada oturur.",
+        "Sam kapı yakınında 5. sırada oturur.",
+        "Leyla ortada 6. sırada oturur.",
+        "Kerem arkada 7. sırada oturur.",
+        "Ms. Reed isimleri okur: 8., 9., 10., 11. ve 12.",
+        "13. öğrenci Zara.",
+        "15. öğrenci Mert.",
+        "20. öğrenci yeni çocuk.",
+        "Bugün 30 Mayıs, yaz tatilinden önceki son günümüz!"
+      ],
+      "questions": [
+        {
+          "q": "Where does Nora sit?",
+          "correct": "In the 4th row",
+          "wrong": [
+            "In the 5th row",
+            "In the 6th row"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where does Sam sit?",
+          "correct": "In the 5th row",
+          "wrong": [
+            "In the 4th row",
+            "In the 7th row"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Leyla?",
+          "correct": "In the 6th row",
+          "wrong": [
+            "In the 4th row",
+            "In the 7th row"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the 13th pupil?",
+          "correct": "Zara",
+          "wrong": [
+            "Mert",
+            "Kerem"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is today's date?",
+          "correct": "30th of May",
+          "wrong": [
+            "20th of May",
+            "30th of June"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Funny Sayings in English",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌧️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: English has many funny sayings, children!",
+        "When it rains a lot, we say: 'It's raining cats and dogs!'",
+        "When something is very special, we say: 'That's one in a million!'",
+        "When friends say goodbye, they often say: 'Take care!'",
+        "When we start a new conversation, we can say: 'Let's break the ice!'",
+        "Sam: What does 'raining cats and dogs' mean, Ms. Reed?",
+        "Ms. Reed: It means raining very, very heavily!",
+        "Nora: I love these funny sayings!",
+        "Sam: Good to see you teaching us new things, Ms. Reed!",
+        "Ms. Reed: Make sure to use them in your conversations!"
+      ],
+      "translations": [
+        "Ms. Reed: İngilizcede birçok komik deyim var çocuklar!",
+        "Çok yağmur yağdığında 'Bardaktan boşalırcasına yağıyor!' deriz.",
+        "Bir şey çok özel olduğunda 'Milyonda bir!' deriz.",
+        "Arkadaşlar vedalaşırken sıkça 'Kendine iyi bak!' der.",
+        "Yeni bir konuşma başlatırken 'Buzları kıralım!' diyebiliriz.",
+        "Sam: 'Raining cats and dogs' ne demek, Ms. Reed?",
+        "Ms. Reed: Çok şiddetli yağıyor demek!",
+        "Nora: Bu komik deyimleri çok seviyorum!",
+        "Sam: Bize yeni şeyler öğrettiğinizi görmek güzel, Ms. Reed!",
+        "Ms. Reed: Konuşmalarınızda kullanmayı unutmayın!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Funny English sayings",
+          "wrong": [
+            "School history",
+            "Lessons"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What do we say when it rains heavily?",
+          "correct": "Raining cats and dogs",
+          "wrong": [
+            "One in a million",
+            "Take care"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What do we say for something special?",
+          "correct": "One in a million",
+          "wrong": [
+            "Take care",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What do friends say at goodbye?",
+          "correct": "Take care",
+          "wrong": [
+            "Hello",
+            "One in a million"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say at the end?",
+          "correct": "Make sure to use them",
+          "wrong": [
+            "Goodbye",
+            "Take care"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Numbers in Our School",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "💯",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👨‍💼",
+          "n": "Mr. Tan"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Mr. Tan: Let me tell you some big numbers about our school.",
+        "There are fifty classrooms in our school building.",
+        "There are sixty teachers and sixty-five staff members.",
+        "There are seventy folders in the office.",
+        "There are eighty calculators in the Maths room.",
+        "There are ninety chairs in the main hall.",
+        "There are one hundred posters on the school walls.",
+        "Nora: One hundred posters! That is a big number!",
+        "Mr. Tan: We use them for special events.",
+        "Sam: Our school is big with so many things!"
+      ],
+      "translations": [
+        "Mr. Tan: Size okulumuzla ilgili bazı büyük sayılar söyleyeyim.",
+        "Okul binamızda elli derslik var.",
+        "Altmış öğretmen ve altmış beş çalışan var.",
+        "Ofiste yetmiş klasör var.",
+        "Matematik sınıfında seksen hesap makinesi var.",
+        "Ana salonda doksan sandalye var.",
+        "Okul duvarlarında yüz poster var.",
+        "Nora: Yüz poster! Bu büyük bir sayı!",
+        "Mr. Tan: Onları özel etkinlikler için kullanırız.",
+        "Sam: Okulumuz bu kadar çok şeyle büyük!"
+      ],
+      "questions": [
+        {
+          "q": "How many classrooms are there?",
+          "correct": "Fifty",
+          "wrong": [
+            "Sixty",
+            "One hundred"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many teachers are there?",
+          "correct": "Sixty",
+          "wrong": [
+            "Fifty",
+            "Seventy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many calculators are there?",
+          "correct": "Eighty",
+          "wrong": [
+            "Seventy",
+            "Ninety"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many chairs are in the main hall?",
+          "correct": "Ninety",
+          "wrong": [
+            "Eighty",
+            "One hundred"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many posters are there?",
+          "correct": "One hundred",
+          "wrong": [
+            "Eighty",
+            "Ninety"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -1045,6 +2571,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-4",
+      "title": "Memories from Long Ago",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Children, let's talk about our memories!",
+        "Many years ago, I was a pupil at this school. I was eight years old.",
+        "My favourite teacher was Mrs. Aydın. She was very kind to me.",
+        "Five years ago, I was a teacher at a different school.",
+        "Two years ago, I was new at Greenfield. Now I am happy here.",
+        "Nora: Last year, I was in 3rd grade. My favourite subject was Visual Arts.",
+        "Sam: Three years ago, I was at a small school. There were only thirty pupils.",
+        "Last month, our class was on a field trip to a museum.",
+        "Two weeks ago, there was a parent-teacher meeting in the main hall.",
+        "Ms. Reed: Memories are special. Take care of them!"
+      ],
+      "translations": [
+        "Ms. Reed: Çocuklar, hatıralarımızdan konuşalım!",
+        "Yıllar önce ben bu okulda bir öğrenciydim. Sekiz yaşındaydım.",
+        "Favori öğretmenim Mrs. Aydın'dı. Bana karşı çok kibardı.",
+        "Beş yıl önce farklı bir okulda öğretmendim.",
+        "İki yıl önce Greenfield'da yeniydim. Şimdi burada mutluyum.",
+        "Nora: Geçen yıl 3. sınıftaydım. Favori dersim Görsel Sanatlar'dı.",
+        "Sam: Üç yıl önce küçük bir okuldaydım. Sadece otuz öğrenci vardı.",
+        "Geçen ay sınıfımız bir müze gezisindeydi.",
+        "İki hafta önce ana salonda veli-öğretmen toplantısı vardı.",
+        "Ms. Reed: Hatıralar özeldir. Onlara iyi bakın!"
+      ],
+      "questions": [
+        {
+          "q": "How old was Ms. Reed at this school?",
+          "correct": "Eight",
+          "wrong": [
+            "Twelve",
+            "Eighteen"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who was Ms. Reed's favourite teacher?",
+          "correct": "Mrs. Aydın",
+          "wrong": [
+            "Mr. Tan",
+            "Mrs. Yıldız"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What was Nora's favourite subject last year?",
+          "correct": "Visual Arts",
+          "wrong": [
+            "Maths",
+            "Music"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many pupils were at Sam's old school?",
+          "correct": "Thirty",
+          "wrong": [
+            "Eighty",
+            "Sixty"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Where was the field trip?",
+          "correct": "To a museum",
+          "wrong": [
+            "To a park",
+            "To a school"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "Help Us, Please!",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🙋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "It is a busy day in the classroom. Many children need help.",
+        "Nora: Ms. Reed, can you help us with this exercise, please?",
+        "Ms. Reed: Of course! Let me show you all.",
+        "Sam: Nora, can you give me your highlighter, please?",
+        "Nora: Yes, take it from me, Sam.",
+        "Leyla: Ms. Reed, can you give me a new worksheet?",
+        "Ms. Reed: Here, take this. Use it carefully.",
+        "Sam: Nora, thank you for helping me with my Maths.",
+        "Nora: You're welcome! I love helping you and Leyla.",
+        "Ms. Reed: Good to see you children helping each other!"
+      ],
+      "translations": [
+        "Sınıfta yoğun bir gün. Birçok çocuk yardıma ihtiyaç duyar.",
+        "Nora: Ms. Reed, bu alıştırmada bize yardım edebilir misiniz, lütfen?",
+        "Ms. Reed: Tabii ki! Hepinize göstereyim.",
+        "Sam: Nora, fosforlu kalemini bana verebilir misin, lütfen?",
+        "Nora: Evet, Sam, benden al.",
+        "Leyla: Ms. Reed, bana yeni bir çalışma kağıdı verebilir misiniz?",
+        "Ms. Reed: Al şunu. Dikkatli kullan.",
+        "Sam: Nora, matematikte bana yardım ettiğin için teşekkürler.",
+        "Nora: Bir şey değil! Sana ve Leyla'ya yardım etmeyi seviyorum.",
+        "Ms. Reed: Birbirinize yardım ettiğinizi görmek güzel çocuklar!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora ask Ms. Reed?",
+          "correct": "Help us with the exercise",
+          "wrong": [
+            "A new pen",
+            "A break"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Sam want from Nora?",
+          "correct": "Her highlighter",
+          "wrong": [
+            "Her pencil",
+            "Her book"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Leyla ask for?",
+          "correct": "A new worksheet",
+          "wrong": [
+            "A book",
+            "A calculator"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam thank Nora for?",
+          "correct": "Helping with Maths",
+          "wrong": [
+            "Singing a song",
+            "Playing football"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say?",
+          "correct": "Good to see you helping",
+          "wrong": [
+            "Goodbye",
+            "Take care"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Seasons Are Changing",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: Last year, my favourite season was winter because I like playing in the snow.",
+        "But this year, my favourite season is spring because I like growing flowers.",
+        "Sam: Two years ago, my favourite season was summer because of the beach.",
+        "Last year, my favourite season was autumn because the colours are beautiful.",
+        "This year, I love spring too! There are many flowers in our garden.",
+        "Leyla: My favourite season was always autumn.",
+        "I love walking in the park with my family in autumn.",
+        "Nora: Why is spring your favourite, Leyla?",
+        "Leyla: Autumn, not spring! Because autumn is the most beautiful season for me.",
+        "Sam: It sounds great! Every season is wonderful in its own way."
+      ],
+      "translations": [
+        "Nora: Geçen yıl favori mevsimim kıştı çünkü karda oynamayı severim.",
+        "Ama bu yıl favori mevsimim ilkbahar çünkü çiçek yetiştirmeyi severim.",
+        "Sam: İki yıl önce favori mevsimim yazdı çünkü sahil yüzünden.",
+        "Geçen yıl favori mevsimim sonbahardı çünkü renkler güzeldir.",
+        "Bu yıl ben de ilkbaharı seviyorum! Bahçemizde birçok çiçek var.",
+        "Leyla: Favori mevsimim her zaman sonbahardı.",
+        "Sonbaharda ailemle parkta yürümeyi severim.",
+        "Nora: İlkbahar neden favorin, Leyla?",
+        "Leyla: Sonbahar, ilkbahar değil! Çünkü sonbahar benim için en güzel mevsim.",
+        "Sam: Harika geliyor! Her mevsim kendine göre harika."
+      ],
+      "questions": [
+        {
+          "q": "What was Nora's favourite season last year?",
+          "correct": "Winter",
+          "wrong": [
+            "Spring",
+            "Summer"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Why is spring Nora's favourite this year?",
+          "correct": "She likes growing flowers",
+          "wrong": [
+            "She loves snow",
+            "She loves beach"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What was Sam's favourite season two years ago?",
+          "correct": "Summer",
+          "wrong": [
+            "Winter",
+            "Autumn"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is Leyla's favourite season?",
+          "correct": "Autumn",
+          "wrong": [
+            "Spring",
+            "Winter"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "Why does Leyla love autumn?",
+          "correct": "It is the most beautiful",
+          "wrong": [
+            "It is the warmest",
+            "It is the coldest"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Important Dates",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📆",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Children, let's talk about important dates.",
+        "Our class trip is on the 4th of December.",
+        "The talent show is on the 14th of January.",
+        "The parent-teacher meeting is on the 23rd of February.",
+        "Children's Day is on the 23rd of April.",
+        "The 19th of May is Youth and Sports Day.",
+        "Sam: My birthday is on the 18th of March.",
+        "Nora: My birthday is on the 7th of October.",
+        "Leyla: Mine is on the 12th of November!",
+        "Ms. Reed: Make sure to remember these important dates!"
+      ],
+      "translations": [
+        "Ms. Reed: Çocuklar, önemli tarihlerden konuşalım.",
+        "Sınıf gezimiz 4 Aralık'ta.",
+        "Yetenek gösterisi 14 Ocak'ta.",
+        "Veli-öğretmen toplantısı 23 Şubat'ta.",
+        "Çocuk Bayramı 23 Nisan'da.",
+        "19 Mayıs Gençlik ve Spor Bayramı.",
+        "Sam: Doğum günüm 18 Mart'ta.",
+        "Nora: Doğum günüm 7 Ekim'de.",
+        "Leyla: Benimki 12 Kasım'da!",
+        "Ms. Reed: Bu önemli tarihleri hatırlamayı unutmayın!"
+      ],
+      "questions": [
+        {
+          "q": "When is the class trip?",
+          "correct": "4th of December",
+          "wrong": [
+            "14th of January",
+            "23rd of April"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is the talent show?",
+          "correct": "14th of January",
+          "wrong": [
+            "4th of December",
+            "18th of March"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "When is Children's Day?",
+          "correct": "23rd of April",
+          "wrong": [
+            "19th of May",
+            "30th of August"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is Sam's birthday?",
+          "correct": "18th of March",
+          "wrong": [
+            "7th of October",
+            "12th of November"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "When is Leyla's birthday?",
+          "correct": "12th of November",
+          "wrong": [
+            "7th of October",
+            "18th of March"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "What We Love Doing",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎨",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I love reading books in the school library.",
+        "I also like writing stories in my activity book.",
+        "Sam: I love playing football with my friends at break time.",
+        "I also like swimming in summer.",
+        "Leyla: I love drawing pictures with my new highlighters.",
+        "I also like singing songs in Music lessons.",
+        "Ms. Reed: What do you like doing in PE lessons, children?",
+        "Sam: I love running races in PE.",
+        "Nora: I like dancing in PE lessons.",
+        "Leyla: I love jumping high in PE!"
+      ],
+      "translations": [
+        "Nora: Okul kütüphanesinde kitap okumayı çok severim.",
+        "Aktivite kitabıma hikaye yazmayı da severim.",
+        "Sam: Teneffüste arkadaşlarımla futbol oynamayı çok severim.",
+        "Yazın yüzmeyi de severim.",
+        "Leyla: Yeni fosforlu kalemlerimle resim çizmeyi çok severim.",
+        "Müzik derslerinde şarkı söylemeyi de severim.",
+        "Ms. Reed: Çocuklar, beden eğitiminde ne yapmayı seversiniz?",
+        "Sam: Beden eğitiminde koşu yarışları yapmayı çok severim.",
+        "Nora: Beden eğitiminde dans etmeyi severim.",
+        "Leyla: Beden eğitiminde yükseğe zıplamayı çok severim!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora love doing in the library?",
+          "correct": "Reading books",
+          "wrong": [
+            "Singing",
+            "Drawing"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Sam love doing at break time?",
+          "correct": "Playing football",
+          "wrong": [
+            "Reading",
+            "Drawing"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Leyla love doing with highlighters?",
+          "correct": "Drawing pictures",
+          "wrong": [
+            "Writing",
+            "Reading"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam love in PE?",
+          "correct": "Running races",
+          "wrong": [
+            "Dancing",
+            "Jumping high"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla love in PE?",
+          "correct": "Jumping high",
+          "wrong": [
+            "Running",
+            "Dancing"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "A Special Day at School",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "⭐",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Today is a rainy day. Sam comes into the classroom.",
+        "Sam: Good morning, everyone! It's raining cats and dogs outside!",
+        "Nora: Good to see you, Sam! Your bag is wet.",
+        "Ms. Reed: I'm sorry to hear that, Sam. Sit near the heater.",
+        "Sam: Thank you, Ms. Reed!",
+        "Ms. Reed: Children, today is a special day. It's our 25th school anniversary!",
+        "Nora: That's one in a million! Our school is so old!",
+        "Ms. Reed: Let's break the ice with a new game today.",
+        "Sam: What does that mean, Ms. Reed?",
+        "Ms. Reed: It means let's start something new and fun together!"
+      ],
+      "translations": [
+        "Bugün yağmurlu bir gün. Sam sınıfa girer.",
+        "Sam: Günaydın herkes! Dışarıda bardaktan boşalırcasına yağıyor!",
+        "Nora: Seni görmek güzel Sam! Çantan ıslak.",
+        "Ms. Reed: Buna üzüldüm Sam. Soba yanına otur.",
+        "Sam: Teşekkürler Ms. Reed!",
+        "Ms. Reed: Çocuklar, bugün özel bir gün. Okulumuzun 25. yıl dönümü!",
+        "Nora: Milyonda bir! Okulumuz çok eski!",
+        "Ms. Reed: Bugün yeni bir oyunla buzları kıralım.",
+        "Sam: Bu ne demek, Ms. Reed?",
+        "Ms. Reed: Birlikte yeni ve eğlenceli bir şey başlatalım demek!"
+      ],
+      "questions": [
+        {
+          "q": "How is the weather?",
+          "correct": "Raining cats and dogs",
+          "wrong": [
+            "Sunny",
+            "Snowy"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say about Sam's wet bag?",
+          "correct": "I'm sorry to hear that",
+          "wrong": [
+            "Goodbye",
+            "One in a million"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is special today?",
+          "correct": "25th school anniversary",
+          "wrong": [
+            "Sports day",
+            "Talent show"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora say?",
+          "correct": "One in a million",
+          "wrong": [
+            "Take care",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does 'break the ice' mean?",
+          "correct": "Start something new",
+          "wrong": [
+            "Break a glass",
+            "Stop talking"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "A Tuesday Schedule",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🕐",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "It is Tuesday. Greenfield School has a busy day.",
+        "School starts at quarter to nine a.m.",
+        "Our first lesson is Turkish from quarter to nine to twenty-five past nine.",
+        "Maths is from half past nine to ten past ten a.m.",
+        "The break is at quarter past ten in the morning.",
+        "English lesson is at twenty to eleven.",
+        "Lunch is at twenty-five to one p.m.",
+        "After lunch, we have Visual Arts at quarter past one.",
+        "Music is the last lesson at twenty past two p.m.",
+        "We go home at quarter to four p.m."
+      ],
+      "translations": [
+        "Bugün Salı. Greenfield Okulu yoğun bir gün geçiriyor.",
+        "Okul sabah dokuza çeyrek var başlar.",
+        "İlk dersimiz Türkçe, dokuza çeyrek var ile dokuzu yirmi beş geçe arasında.",
+        "Matematik dokuz buçuk ile onu on geçe arasında.",
+        "Teneffüs sabah onu çeyrek geçe.",
+        "İngilizce dersi on bire yirmi var.",
+        "Öğle yemeği bire yirmi beş var öğleden sonra.",
+        "Öğle yemeğinden sonra biri çeyrek geçe Görsel Sanatlar.",
+        "Müzik son ders, öğleden sonra ikiyi yirmi geçe.",
+        "Dörde çeyrek var eve gideriz öğleden sonra."
+      ],
+      "questions": [
+        {
+          "q": "When does school start?",
+          "correct": "Quarter to nine a.m.",
+          "wrong": [
+            "Nine o'clock",
+            "Half past nine"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is the break?",
+          "correct": "Quarter past ten",
+          "wrong": [
+            "Half past ten",
+            "Twenty past ten"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is lunch?",
+          "correct": "Twenty-five to one",
+          "wrong": [
+            "Half past twelve",
+            "One o'clock"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "When is Visual Arts?",
+          "correct": "Quarter past one",
+          "wrong": [
+            "Half past one",
+            "Two o'clock"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "When do they go home?",
+          "correct": "Quarter to four",
+          "wrong": [
+            "Three o'clock",
+            "Four o'clock"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -1282,6 +3571,863 @@
           "hint": "Read what Leyla says at the end.",
           "hl": [
             11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "How Many Pupils Are There?",
+      "subtitle": "Use the clues to find the number!",
+      "icon": "🔢",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Greenfield School has a special class group.",
+        "The number is one of these: 50, 60, 70, 80, 90 or 100.",
+        "It is not fifty. It is not sixty.",
+        "It is not one hundred. It is not ninety.",
+        "It is not seventy.",
+        "How many pupils are there?",
+        "There are eighty pupils!"
+      ],
+      "translations": [
+        "Greenfield Okulu'nun özel bir sınıf grubu var.",
+        "Sayı şunlardan biri: 50, 60, 70, 80, 90 veya 100.",
+        "Elli değil. Altmış değil.",
+        "Yüz değil. Doksan değil.",
+        "Yetmiş değil.",
+        "Kaç öğrenci var?",
+        "Seksen öğrenci var!"
+      ],
+      "questions": [
+        {
+          "q": "What numbers can it be?",
+          "correct": "50, 60, 70, 80, 90, 100",
+          "wrong": [
+            "1-10",
+            "20-40"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is the number fifty?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is the number one hundred?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is the number seventy?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many pupils are there?",
+          "correct": "Eighty",
+          "wrong": [
+            "Seventy",
+            "Ninety"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            2,
+            3,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "Which Date Is Special?",
+      "subtitle": "Use the clues to find the date!",
+      "icon": "📅",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "There is a special day in April this year.",
+        "It is not the 1st of April. It is not the 30th of April.",
+        "It is not the 10th. It is not the 15th.",
+        "It is not the 25th of April.",
+        "On this day, children sing songs and read poems.",
+        "It is Children's Day in Türkiye.",
+        "Which date is it?",
+        "It is the 23rd of April!"
+      ],
+      "translations": [
+        "Bu yıl Nisan'da özel bir gün var.",
+        "1 Nisan değil. 30 Nisan değil.",
+        "10'u değil. 15'i değil.",
+        "25 Nisan değil.",
+        "Bu günde çocuklar şarkı söyler ve şiir okur.",
+        "Türkiye'de Çocuk Bayramı.",
+        "Hangi tarih?",
+        "23 Nisan!"
+      ],
+      "questions": [
+        {
+          "q": "In which month is the day?",
+          "correct": "April",
+          "wrong": [
+            "May",
+            "June"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it the 1st of April?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What do children do on this day?",
+          "correct": "Sing songs and read poems",
+          "wrong": [
+            "Play football",
+            "Sleep"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is this day?",
+          "correct": "Children's Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which date is it?",
+          "correct": "23rd of April",
+          "wrong": [
+            "25th of April",
+            "19th of April"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Which Device Is It?",
+      "subtitle": "Use the clues to find the device!",
+      "icon": "💻",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "There is a device in our classroom.",
+        "It is not a calculator. It is not a printer.",
+        "It is not a headphone.",
+        "We use it to show pictures and videos on the wall.",
+        "Ms. Reed turns it on at the start of the lesson.",
+        "We see images on the wall when we use this device.",
+        "What kind of device is it?",
+        "It is the projector!"
+      ],
+      "translations": [
+        "Sınıfımızda bir cihaz var.",
+        "Hesap makinesi değil. Yazıcı değil.",
+        "Kulaklık değil.",
+        "Resim ve videoları duvarda göstermek için kullanırız.",
+        "Ms. Reed dersin başında onu açar.",
+        "Bu cihazı kullandığımızda duvarda görüntüler görürüz.",
+        "Ne tür bir cihaz?",
+        "Projektör!"
+      ],
+      "questions": [
+        {
+          "q": "Is it a calculator?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What do we show with it?",
+          "correct": "Pictures and videos",
+          "wrong": [
+            "Numbers",
+            "Letters"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who turns it on?",
+          "correct": "Ms. Reed",
+          "wrong": [
+            "Sam",
+            "Nora"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where do we see images?",
+          "correct": "On the wall",
+          "wrong": [
+            "On a desk",
+            "In a book"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What device is it?",
+          "correct": "The projector",
+          "wrong": [
+            "The printer",
+            "The calculator"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "What Time Is It?",
+      "subtitle": "Use the clues to find the time!",
+      "icon": "🕘",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "It is morning at Greenfield School.",
+        "It is not eight o'clock. It is not nine o'clock.",
+        "It is not half past eight.",
+        "It is between eight o'clock and nine o'clock.",
+        "It is fifteen minutes after eight.",
+        "The first lesson is starting now.",
+        "What time is it?",
+        "It is quarter past eight!"
+      ],
+      "translations": [
+        "Greenfield Okulu'nda sabah.",
+        "Saat sekiz değil. Saat dokuz değil.",
+        "Sekiz buçuk da değil.",
+        "Saat sekiz ile dokuz arasında.",
+        "Sekizi on beş dakika geçiyor.",
+        "İlk ders şimdi başlıyor.",
+        "Saat kaç?",
+        "Sekizi çeyrek geçiyor!"
+      ],
+      "questions": [
+        {
+          "q": "Is it eight o'clock?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is it half past eight?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is it between eight and nine?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many minutes after eight?",
+          "correct": "Fifteen",
+          "wrong": [
+            "Ten",
+            "Thirty"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What time is it?",
+          "correct": "Quarter past eight",
+          "wrong": [
+            "Half past eight",
+            "Eight o'clock"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Which Season Is Sam Talking About?",
+      "subtitle": "Use the clues to find the season!",
+      "icon": "🌸",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Sam is talking about his favourite season.",
+        "It is not winter. It is not autumn.",
+        "It is not summer.",
+        "Flowers are growing in the gardens.",
+        "The weather is warm but not hot.",
+        "Children's Day is in this season.",
+        "Which season is it?",
+        "It is spring!"
+      ],
+      "translations": [
+        "Sam favori mevsimi hakkında konuşuyor.",
+        "Kış değil. Sonbahar değil.",
+        "Yaz da değil.",
+        "Bahçelerde çiçekler büyüyor.",
+        "Hava ılık ama sıcak değil.",
+        "Çocuk Bayramı bu mevsimde.",
+        "Hangi mevsim?",
+        "İlkbahar!"
+      ],
+      "questions": [
+        {
+          "q": "Is it winter?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is growing?",
+          "correct": "Flowers",
+          "wrong": [
+            "Trees",
+            "Vegetables"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is the weather?",
+          "correct": "Warm but not hot",
+          "wrong": [
+            "Cold",
+            "Very hot"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is in this season?",
+          "correct": "Children's Day",
+          "wrong": [
+            "New Year",
+            "Summer holiday"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which season is it?",
+          "correct": "Spring",
+          "wrong": [
+            "Summer",
+            "Autumn"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Which Expression Fits?",
+      "subtitle": "Use the clues to find the right saying!",
+      "icon": "💬",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Look at the weather outside today.",
+        "It is not sunny. It is not snowy.",
+        "It is not a little rain.",
+        "The rain is very, very heavy.",
+        "Sam wants to use a special English saying.",
+        "It is a saying about heavy rain.",
+        "Which expression does Sam use?",
+        "He says: 'It's raining cats and dogs!'"
+      ],
+      "translations": [
+        "Bugün dışarıdaki havaya bak.",
+        "Güneşli değil. Karlı değil.",
+        "Hafif bir yağmur da değil.",
+        "Yağmur çok, çok şiddetli.",
+        "Sam özel bir İngilizce deyim kullanmak istiyor.",
+        "Şiddetli yağmurla ilgili bir deyim.",
+        "Sam hangi deyimi kullanır?",
+        "Şöyle der: 'Bardaktan boşalırcasına yağıyor!'"
+      ],
+      "questions": [
+        {
+          "q": "Is the weather sunny?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the rain?",
+          "correct": "Very heavy",
+          "wrong": [
+            "A little",
+            "Light"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Sam want to use?",
+          "correct": "A special saying",
+          "wrong": [
+            "A new song",
+            "A funny picture"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the saying about?",
+          "correct": "Heavy rain",
+          "wrong": [
+            "Hot weather",
+            "Light wind"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam say?",
+          "correct": "Raining cats and dogs",
+          "wrong": [
+            "Take care",
+            "One in a million"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "What Was There Last Year?",
+      "subtitle": "Use the clues to find the event!",
+      "icon": "🎉",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Last year, there was a big event at our school.",
+        "It was not a sports day.",
+        "It was not a field trip.",
+        "It was not a parent-teacher meeting.",
+        "There were many pupils on the stage.",
+        "There were songs, dances and poems.",
+        "Many parents were in the audience.",
+        "What event was it?",
+        "It was the talent show!"
+      ],
+      "translations": [
+        "Geçen yıl okulumuzda büyük bir etkinlik vardı.",
+        "Spor günü değildi.",
+        "Gezi değildi.",
+        "Veli-öğretmen toplantısı değildi.",
+        "Sahnede birçok öğrenci vardı.",
+        "Şarkılar, danslar ve şiirler vardı.",
+        "Seyircilerin arasında birçok veli vardı.",
+        "Hangi etkinlikti?",
+        "Yetenek gösterisiydi!"
+      ],
+      "questions": [
+        {
+          "q": "When was the event?",
+          "correct": "Last year",
+          "wrong": [
+            "This year",
+            "Next year"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Was it a sports day?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who was on the stage?",
+          "correct": "Many pupils",
+          "wrong": [
+            "Only teachers",
+            "No one"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What was there?",
+          "correct": "Songs, dances and poems",
+          "wrong": [
+            "Football games",
+            "Lunch"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What event was it?",
+          "correct": "Talent show",
+          "wrong": [
+            "Sports day",
+            "Field trip"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            4,
+            5,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "Who Helped Whom?",
+      "subtitle": "Use the clues to find the person!",
+      "icon": "🤝",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Yesterday in our class, three children were in need of help.",
+        "Nora's problem was Maths.",
+        "Sam's problem was English.",
+        "Leyla's problem was Visual Arts.",
+        "Ms. Reed was with Nora during the Maths help time.",
+        "Mr. Demir was with Sam during the English help time.",
+        "Ms. Çelik was with Leyla during the Visual Arts help time.",
+        "Who was with Leyla?",
+        "Ms. Çelik was with her!"
+      ],
+      "translations": [
+        "Dün sınıfımızda üç çocuğun yardıma ihtiyacı vardı.",
+        "Nora'nın sorunu matematikti.",
+        "Sam'in sorunu İngilizce'ydi.",
+        "Leyla'nın sorunu görsel sanatlardı.",
+        "Ms. Reed matematik yardım zamanında Nora'nın yanındaydı.",
+        "Mr. Demir İngilizce yardım zamanında Sam'in yanındaydı.",
+        "Ms. Çelik görsel sanatlar yardım zamanında Leyla'nın yanındaydı.",
+        "Leyla'nın yanında kim vardı?",
+        "Ms. Çelik onun yanındaydı!"
+      ],
+      "questions": [
+        {
+          "q": "What was Nora's problem?",
+          "correct": "Maths",
+          "wrong": [
+            "English",
+            "Visual Arts"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What was Sam's problem?",
+          "correct": "English",
+          "wrong": [
+            "Maths",
+            "Visual Arts"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who was with Nora?",
+          "correct": "Ms. Reed",
+          "wrong": [
+            "Mr. Demir",
+            "Ms. Çelik"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who was with Sam?",
+          "correct": "Mr. Demir",
+          "wrong": [
+            "Ms. Reed",
+            "Ms. Çelik"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who was with Leyla?",
+          "correct": "Ms. Çelik",
+          "wrong": [
+            "Ms. Reed",
+            "Mr. Demir"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            6,
+            8
           ]
         }
       ]
