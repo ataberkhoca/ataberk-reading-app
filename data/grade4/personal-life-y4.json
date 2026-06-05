@@ -344,6 +344,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-4",
+      "title": "My Body, My Friends",
+      "subtitle": "Find the right body part!",
+      "icon": "🦴",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My body has many special parts!",
+        "I have ten fingers on my hands. I have ten toes on my feet.",
+        "My stomach is in the middle of my body. I eat food and it goes to my stomach.",
+        "Sam: I have two knees on my legs. I can run fast with strong knees!",
+        "Leyla: My neck is long and my shoulders are strong.",
+        "Sam: My tongue helps me taste my food. I love sweet food.",
+        "Nora: My fingers are thin but strong. I can play the piano with them.",
+        "Leyla: My shoulders are wide. I am tall.",
+        "Sam: My toes are small but I can stand on them!",
+        "Nora: Our bodies are wonderful!"
+      ],
+      "translations": [
+        "Nora: Vücudumun birçok özel parçası var!",
+        "Ellerimde on parmak var. Ayaklarımda on parmak var.",
+        "Midem vücudumun ortasında. Yemek yerim ve mideme gider.",
+        "Sam: Bacaklarımda iki dizim var. Güçlü dizlerle hızlı koşabilirim!",
+        "Leyla: Boynum uzun ve omuzlarım güçlü.",
+        "Sam: Dilim yemek tatmama yardım eder. Tatlı yemeği severim.",
+        "Nora: Parmaklarım ince ama güçlü. Onlarla piyano çalabilirim.",
+        "Leyla: Omuzlarım geniştir. Uzun boyluyum.",
+        "Sam: Ayak parmaklarım küçük ama üzerlerinde durabilirim!",
+        "Nora: Vücudumuz harika!"
+      ],
+      "questions": [
+        {
+          "q": "How many fingers has Nora got?",
+          "correct": "Ten",
+          "wrong": [
+            "Five",
+            "Eight"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Nora's stomach?",
+          "correct": "In the middle",
+          "wrong": [
+            "On her arm",
+            "On her head"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What helps Sam taste food?",
+          "correct": "His tongue",
+          "wrong": [
+            "His finger",
+            "His toe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is on Sam's legs?",
+          "correct": "Two knees",
+          "wrong": [
+            "Two toes",
+            "Two shoulders"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How are Leyla's shoulders?",
+          "correct": "Wide",
+          "wrong": [
+            "Small",
+            "Thin"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "What I Could Do When I Was Six",
+      "subtitle": "Find the right ability!",
+      "icon": "🎹",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: When I was six, I could play the piano!",
+        "I could ride a small bike. I could read short stories, too.",
+        "Sam: When I was six, I could swim in the pool.",
+        "I could play football with my friends. I could climb trees!",
+        "Leyla: When I was six, I could sing many songs.",
+        "I could dance and draw beautiful pictures.",
+        "Nora: I could speak only Turkish when I was six. Now I can speak English, too!",
+        "Sam: When I was five, I couldn't ride a bike. But when I was six, I could!",
+        "Leyla: When I was six, I could write my name. Now I can write stories!",
+        "Sam: We could do many wonderful things when we were six!"
+      ],
+      "translations": [
+        "Nora: Altı yaşındayken piyano çalabiliyordum!",
+        "Küçük bir bisiklete binebiliyordum. Kısa hikayeleri de okuyabiliyordum.",
+        "Sam: Altı yaşındayken havuzda yüzebiliyordum.",
+        "Arkadaşlarımla futbol oynayabiliyordum. Ağaçlara tırmanabiliyordum!",
+        "Leyla: Altı yaşındayken birçok şarkı söyleyebiliyordum.",
+        "Dans edebiliyor ve güzel resimler çizebiliyordum.",
+        "Nora: Altı yaşındayken sadece Türkçe konuşabiliyordum. Şimdi İngilizce de konuşabiliyorum!",
+        "Sam: Beş yaşındayken bisiklete binemiyordum. Ama altı yaşındayken binebiliyordum!",
+        "Leyla: Altı yaşındayken adımı yazabiliyordum. Şimdi hikayeler yazabiliyorum!",
+        "Sam: Altı yaşındayken birçok harika şey yapabiliyorduk!"
+      ],
+      "questions": [
+        {
+          "q": "What could Nora play at six?",
+          "correct": "The piano",
+          "wrong": [
+            "Football",
+            "The guitar"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What could Sam do at six?",
+          "correct": "Swim in the pool",
+          "wrong": [
+            "Drive a car",
+            "Read English"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What could Leyla do at six?",
+          "correct": "Sing many songs",
+          "wrong": [
+            "Drive a car",
+            "Speak English"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Could Sam ride a bike at five?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What could Leyla write at six?",
+          "correct": "Her name",
+          "wrong": [
+            "A book",
+            "Stories"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "Who Is More Hardworking?",
+      "subtitle": "Find the right comparison!",
+      "icon": "⚖️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My sister is more hardworking than me. She studies every day!",
+        "Sam: My brother is more careful than me. I am sometimes naughty.",
+        "Leyla: My cousin is more friendly than me with new people.",
+        "Nora: Sam is more funny than Leyla. He makes us all laugh!",
+        "Sam: Leyla is more clever than me in Maths.",
+        "Leyla: Nora is more brave than Sam at sports day.",
+        "Nora: My mum is more kind than my dad. But they are both wonderful!",
+        "Sam: My grandfather is more careful than my grandmother in the garden.",
+        "Leyla: My aunt is more beautiful than the actress on TV!",
+        "Nora: Comparing people is fun, but everyone is special in their own way."
+      ],
+      "translations": [
+        "Nora: Ablam benden daha çalışkan. Her gün çalışır!",
+        "Sam: Abim benden daha dikkatli. Ben bazen yaramazım.",
+        "Leyla: Kuzenim yeni insanlarla benden daha arkadaş canlısı.",
+        "Nora: Sam, Leyla'dan daha komik. Hepimizi güldürür!",
+        "Sam: Leyla matematikte benden daha zeki.",
+        "Leyla: Nora spor gününde Sam'den daha cesur.",
+        "Nora: Annem babamdan daha kibar. Ama ikisi de harika!",
+        "Sam: Dedem büyükannemden daha dikkatli bahçede.",
+        "Leyla: Halam TV'deki oyuncudan daha güzel!",
+        "Nora: İnsanları karşılaştırmak eğlenceli, ama herkes kendine göre özel."
+      ],
+      "questions": [
+        {
+          "q": "Who is more hardworking than Nora?",
+          "correct": "Her sister",
+          "wrong": [
+            "Her brother",
+            "Her cousin"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is more careful than Sam?",
+          "correct": "His brother",
+          "wrong": [
+            "His sister",
+            "His mum"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is more funny — Sam or Leyla?",
+          "correct": "Sam",
+          "wrong": [
+            "Leyla",
+            "Nora"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is more clever in Maths?",
+          "correct": "Leyla",
+          "wrong": [
+            "Sam",
+            "Nora"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is more brave at sports day?",
+          "correct": "Nora",
+          "wrong": [
+            "Sam",
+            "Leyla"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "The Best in Our Class",
+      "subtitle": "Find the right superlative!",
+      "icon": "🏅",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Look at our class! Each child is special.",
+        "Sam is the tallest pupil in our class.",
+        "Leyla is the smartest in Maths lessons.",
+        "Nora is the kindest pupil — she always helps others.",
+        "Kerem is the bravest at sports day.",
+        "Zara is the funniest — she makes everyone smile.",
+        "Mert is the quietest in our class.",
+        "Ada is the happiest girl in the school!",
+        "Ms. Reed: You are all wonderful in your own way.",
+        "Nora: Every pupil is special in our class!"
+      ],
+      "translations": [
+        "Ms. Reed: Sınıfımıza bakın! Her çocuk özel.",
+        "Sam sınıfımızdaki en uzun boylu öğrenci.",
+        "Leyla matematik derslerinde en zeki olan.",
+        "Nora en kibar öğrenci — her zaman başkalarına yardım eder.",
+        "Kerem spor gününde en cesur olan.",
+        "Zara en komik olan — herkesi güldürür.",
+        "Mert sınıfımızda en sessiz olan.",
+        "Ada okuldaki en mutlu kız!",
+        "Ms. Reed: Hepiniz kendine göre harikasınız.",
+        "Nora: Sınıfımızda her öğrenci özel!"
+      ],
+      "questions": [
+        {
+          "q": "Who is the tallest?",
+          "correct": "Sam",
+          "wrong": [
+            "Leyla",
+            "Mert"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is the smartest in Maths?",
+          "correct": "Leyla",
+          "wrong": [
+            "Sam",
+            "Kerem"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is the kindest?",
+          "correct": "Nora",
+          "wrong": [
+            "Sam",
+            "Zara"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the bravest?",
+          "correct": "Kerem",
+          "wrong": [
+            "Sam",
+            "Mert"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is the happiest?",
+          "correct": "Ada",
+          "wrong": [
+            "Nora",
+            "Leyla"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "My Special Wardrobe",
+      "subtitle": "Find the right clothing!",
+      "icon": "👗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I have a big wardrobe with many clothes.",
+        "On hot days, I wear a sundress and flats.",
+        "On cool days, I prefer to wear a blouse and trainers.",
+        "Sam: When I ride my bike, I wear a helmet for safety.",
+        "I also wear a hoodie and shorts.",
+        "Leyla: On rainy days, I prefer a raincoat and boots.",
+        "On winter days, I wear a thick cardigan and gloves.",
+        "Nora: For school, my favourite clothes are a blouse, leggings and flats.",
+        "Sam: For sports, I wear shorts, a t-shirt and my helmet for cycling.",
+        "Leyla: Each season needs different clothes!"
+      ],
+      "translations": [
+        "Nora: Birçok kıyafetli büyük bir gardırobum var.",
+        "Sıcak günlerde güneş elbisesi ve düz ayakkabı giyerim.",
+        "Serin günlerde bluz ve spor ayakkabı tercih ederim.",
+        "Sam: Bisikletime bindiğimde güvenlik için kask takarım.",
+        "Ayrıca kapüşonlu ve şort giyerim.",
+        "Leyla: Yağmurlu günlerde yağmurluk ve bot tercih ederim.",
+        "Kış günlerinde kalın bir hırka ve eldiven giyerim.",
+        "Nora: Okul için favori kıyafetlerim bluz, tayt ve düz ayakkabı.",
+        "Sam: Spor için şort, tişört ve bisiklete binerken kaskımı takarım.",
+        "Leyla: Her mevsim farklı kıyafetlere ihtiyaç duyar!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora wear on hot days?",
+          "correct": "A sundress and flats",
+          "wrong": [
+            "A cardigan",
+            "Boots"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Nora prefer on cool days?",
+          "correct": "A blouse and trainers",
+          "wrong": [
+            "A sundress",
+            "A coat"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam wear for safety?",
+          "correct": "A helmet",
+          "wrong": [
+            "A hoodie",
+            "Gloves"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Leyla wear on rainy days?",
+          "correct": "A raincoat and boots",
+          "wrong": [
+            "A sundress",
+            "A blouse"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What are Nora's favourite clothes for school?",
+          "correct": "Blouse, leggings, flats",
+          "wrong": [
+            "Sundress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "How Are We Today?",
+      "subtitle": "Find the right feeling!",
+      "icon": "😊",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Today is a special day. Each of us feels different!",
+        "Nora is sweet today. She has sweet biscuits for her friends.",
+        "Sam is sometimes naughty. He plays funny tricks on his classmates.",
+        "Leyla is angry today because her brother has her favourite book.",
+        "Nora has medium-long hair and medium-sized eyes.",
+        "Sam is sweet to his little sister at home.",
+        "Leyla: Sorry, I am angry today. But I am usually not angry!",
+        "Nora: That's okay, Leyla. We are all friends!",
+        "Sam: When my sister is naughty, my mum is patient with her.",
+        "Nora: Sweet friends, naughty friends, angry friends — we love all of them!"
+      ],
+      "translations": [
+        "Bugün özel bir gün. Her birimiz farklı hissediyoruz!",
+        "Nora bugün tatlı. Arkadaşları için tatlı bisküvileri var.",
+        "Sam bazen yaramaz. Sınıf arkadaşlarına komik şakalar yapar.",
+        "Leyla bugün kızgın çünkü abisinde favori kitabı var.",
+        "Nora'nın orta uzunlukta saçları ve orta büyüklükte gözleri var.",
+        "Sam evde küçük kız kardeşine karşı tatlı.",
+        "Leyla: Üzgünüm, bugün kızgınım. Ama genelde kızgın değilim!",
+        "Nora: Sorun değil, Leyla. Hepimiz arkadaşız!",
+        "Sam: Kız kardeşim yaramaz olduğunda annem ona sabırlıdır.",
+        "Nora: Tatlı arkadaşlar, yaramaz arkadaşlar, kızgın arkadaşlar — hepsini severiz!"
+      ],
+      "questions": [
+        {
+          "q": "How is Nora today?",
+          "correct": "Sweet",
+          "wrong": [
+            "Angry",
+            "Naughty"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Sam sometimes?",
+          "correct": "Naughty",
+          "wrong": [
+            "Angry",
+            "Sad"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Why is Leyla angry?",
+          "correct": "Brother took her book",
+          "wrong": [
+            "She is sad",
+            "She is sick"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is Nora's hair?",
+          "correct": "Medium-long",
+          "wrong": [
+            "Very short",
+            "Very long"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is Leyla usually angry?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "Is There Anything in My Wardrobe?",
+      "subtitle": "Find the right answer!",
+      "icon": "🔍",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Nora: Is there anything new in my wardrobe?",
+        "Leyla: Yes, there is something. Look at this beautiful blouse!",
+        "Nora: Are there any sandals?",
+        "Leyla: No, there are no sandals. But there is something else — flats!",
+        "Sam: Is there anything in your room, Nora?",
+        "Nora: Yes, there is something on my desk — a new bracelet!",
+        "Sam: Is there a ring next to it?",
+        "Nora: No, there is no ring. But there are no problems — I love my bracelet!",
+        "Leyla: I have something for you, Nora.",
+        "Nora: That's so kind! Thank you, Leyla!"
+      ],
+      "translations": [
+        "Nora: Gardırobumda yeni bir şey var mı?",
+        "Leyla: Evet, bir şey var. Şu güzel bluza bak!",
+        "Nora: Hiç sandalet var mı?",
+        "Leyla: Hayır, hiç sandalet yok. Ama başka bir şey var — düz ayakkabılar!",
+        "Sam: Odanda bir şey var mı, Nora?",
+        "Nora: Evet, masamda bir şey var — yeni bir bileklik!",
+        "Sam: Yanında bir yüzük var mı?",
+        "Nora: Hayır, hiç yüzük yok. Ama hiç sorun yok — bilekliğimi severim!",
+        "Leyla: Senin için bir şeyim var, Nora.",
+        "Nora: Çok kibarsın! Teşekkürler Leyla!"
+      ],
+      "questions": [
+        {
+          "q": "What is new in Nora's wardrobe?",
+          "correct": "A blouse",
+          "wrong": [
+            "Sandals",
+            "A ring"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Are there any sandals?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is on Nora's desk?",
+          "correct": "A bracelet",
+          "wrong": [
+            "A ring",
+            "A book"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Is there a ring on Nora's desk?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla have for Nora?",
+          "correct": "Something",
+          "wrong": [
+            "A ring",
+            "A book"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -688,6 +1451,770 @@
           "hint": "Find Leyla and the words cold nights in the text.",
           "hl": [
             8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Our Wonderful Bodies",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🦵",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍⚕️",
+          "n": "Mrs. Yıldız"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Mrs. Yıldız is the school nurse at Greenfield.",
+        "Today she is teaching the children about their bodies.",
+        "She says: \"Your stomach is in the middle of your body.\"",
+        "\"Your tongue is in your mouth. It helps you taste food.\"",
+        "\"You have two knees on your legs. They help you walk and run.\"",
+        "\"You have ten fingers on your hands and ten toes on your feet.\"",
+        "\"Your shoulders are wide and strong. Your neck is between your head and shoulders.\"",
+        "Nora: My stomach is small but my fingers are long!",
+        "Sam: My toes are funny — they wiggle when I am happy!",
+        "Mrs. Yıldız: Each part of your body is important. Take care of it!"
+      ],
+      "translations": [
+        "Mrs. Yıldız Greenfield'ın okul hemşiresi.",
+        "Bugün çocuklara vücutları hakkında ders veriyor.",
+        "Der ki: \"Mideniz vücudunuzun ortasındadır.\"",
+        "\"Diliniz ağzınızdadır. Yemek tatmanıza yardım eder.\"",
+        "\"Bacaklarınızda iki diziniz var. Yürümenize ve koşmanıza yardım eder.\"",
+        "\"Ellerinizde on parmak ve ayaklarınızda on ayak parmağı var.\"",
+        "\"Omuzlarınız geniş ve güçlüdür. Boynunuz başınız ile omuzlarınız arasındadır.\"",
+        "Nora: Midem küçük ama parmaklarım uzun!",
+        "Sam: Ayak parmaklarım komik — mutluyken kıpırdarlar!",
+        "Mrs. Yıldız: Vücudunuzun her parçası önemli. Ona iyi bakın!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Body parts",
+          "wrong": [
+            "Food",
+            "Weather"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is the stomach?",
+          "correct": "In the middle",
+          "wrong": [
+            "On the legs",
+            "On the head"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does the tongue do?",
+          "correct": "Helps taste food",
+          "wrong": [
+            "Helps run",
+            "Helps see"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many toes are on the feet?",
+          "correct": "Ten",
+          "wrong": [
+            "Five",
+            "Eight"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is the neck?",
+          "correct": "Between head and shoulders",
+          "wrong": [
+            "On the leg",
+            "On the foot"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "What I Could Do at Different Ages",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "📚",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: When I was four, I could walk and talk. But I couldn't read.",
+        "When I was five, I could ride a small bike. I could sing songs, too.",
+        "When I was six, I could read short stories and play the piano.",
+        "When I was seven, I could swim in the pool and dance well.",
+        "When I was eight, I could speak some English. Now I am nine!",
+        "Sam: When I was four, I could play with my toys. I could also run fast.",
+        "When I was five, I could play football. But I couldn't ride a bike.",
+        "When I was six, I could climb trees and swim. I could also tell jokes.",
+        "Leyla: When I was six, I could draw, sing and read. I was a busy little girl!",
+        "Nora: We could do so many things in the past, and we can do even more now!"
+      ],
+      "translations": [
+        "Nora: Dört yaşındayken yürüyebiliyor ve konuşabiliyordum. Ama okuyamıyordum.",
+        "Beş yaşındayken küçük bir bisiklete binebiliyordum. Şarkı da söyleyebiliyordum.",
+        "Altı yaşındayken kısa hikayeler okuyabiliyor ve piyano çalabiliyordum.",
+        "Yedi yaşındayken havuzda yüzebiliyor ve iyi dans edebiliyordum.",
+        "Sekiz yaşındayken biraz İngilizce konuşabiliyordum. Şimdi dokuzum!",
+        "Sam: Dört yaşındayken oyuncaklarımla oynayabiliyordum. Ayrıca hızlı koşabiliyordum.",
+        "Beş yaşındayken futbol oynayabiliyordum. Ama bisiklete binemiyordum.",
+        "Altı yaşındayken ağaçlara tırmanabiliyor ve yüzebiliyordum. Şakalar da yapabiliyordum.",
+        "Leyla: Altı yaşındayken çizebiliyor, şarkı söyleyebiliyor ve okuyabiliyordum. Meşgul bir küçük kızdım!",
+        "Nora: Geçmişte birçok şey yapabiliyorduk, ve şimdi daha da fazlasını yapabiliyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Past abilities at different ages",
+          "wrong": [
+            "School lessons",
+            "Weather"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        },
+        {
+          "q": "What could Nora do at five?",
+          "correct": "Ride a small bike",
+          "wrong": [
+            "Read books",
+            "Drive a car"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What could Sam play at five?",
+          "correct": "Football",
+          "wrong": [
+            "Piano",
+            "Guitar"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What could Leyla do at six?",
+          "correct": "Draw, sing, read",
+          "wrong": [
+            "Drive",
+            "Cook",
+            "Sleep"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        },
+        {
+          "q": "How old is Nora now?",
+          "correct": "Nine",
+          "wrong": [
+            "Eight",
+            "Ten"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Comparing Our Family Members",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "👨‍👩‍👧‍👦",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My mum is more careful than my dad in the kitchen.",
+        "My dad is more funny than my mum. He tells the best jokes!",
+        "My sister is more hardworking than me, but I am more friendly.",
+        "Sam: My brother is older than me. He is more clever than me, too.",
+        "My grandfather is more quiet than my grandmother.",
+        "My grandmother is more kind than anyone in the family!",
+        "Leyla: My cousin is more brave than me.",
+        "She is also more sweet than me with little children.",
+        "My aunt is more beautiful than the actresses on TV.",
+        "Nora: Each family member is more special than the next!"
+      ],
+      "translations": [
+        "Nora: Annem mutfakta babamdan daha dikkatli.",
+        "Babam annemden daha komik. En iyi şakaları yapar!",
+        "Ablam benden daha çalışkan, ama ben daha arkadaş canlısıyım.",
+        "Sam: Abim benden daha yaşlı. Benden daha zeki de.",
+        "Dedem büyükannemden daha sessiz.",
+        "Büyükannem ailedeki herkesten daha kibar!",
+        "Leyla: Kuzenim benden daha cesur.",
+        "Küçük çocuklara karşı benden daha tatlı.",
+        "Halam TV'deki oyunculardan daha güzel.",
+        "Nora: Her aile üyesi diğerinden daha özel!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Comparing family members",
+          "wrong": [
+            "Food",
+            "School"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is more funny in Nora's family?",
+          "correct": "Her dad",
+          "wrong": [
+            "Her mum",
+            "Her sister"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is older than Sam?",
+          "correct": "His brother",
+          "wrong": [
+            "His sister",
+            "His mum"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is more kind than anyone?",
+          "correct": "Sam's grandmother",
+          "wrong": [
+            "His grandfather",
+            "His brother"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is more beautiful than the actresses?",
+          "correct": "Leyla's aunt",
+          "wrong": [
+            "Her cousin",
+            "Her mum"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "My Old Hobbies",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎨",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed asked: \"What were your hobbies when you were six?\"",
+        "Nora said: \"My hobbies were drawing and reading short stories.\"",
+        "\"I was a quiet child. My favourite hobby was playing with my dolls.\"",
+        "Sam said: \"My hobbies were playing football and climbing trees.\"",
+        "\"I was a brave boy. I could run faster than my friends.\"",
+        "Leyla said: \"My hobbies were singing and dancing.\"",
+        "\"I was a sweet little girl. I was also very friendly with everyone.\"",
+        "Ms. Reed: \"My hobbies were reading and painting when I was a child.\"",
+        "\"I was a clever girl. My favourite paintings were of flowers.\"",
+        "Each child smiled, thinking about their old hobbies."
+      ],
+      "translations": [
+        "Ms. Reed sordu: \"Altı yaşındayken hobileriniz nelerdi?\"",
+        "Nora dedi: \"Hobilerim çizim yapmak ve kısa hikayeler okumaktı.\"",
+        "\"Sessiz bir çocuktum. Favori hobim bebeklerimle oynamaktı.\"",
+        "Sam dedi: \"Hobilerim futbol oynamak ve ağaçlara tırmanmaktı.\"",
+        "\"Cesur bir çocuktum. Arkadaşlarımdan daha hızlı koşabiliyordum.\"",
+        "Leyla dedi: \"Hobilerim şarkı söylemek ve dans etmekti.\"",
+        "\"Tatlı küçük bir kızdım. Ayrıca herkesle çok arkadaş canlısıydım.\"",
+        "Ms. Reed: \"Çocukken hobilerim okumak ve resim yapmaktı.\"",
+        "\"Zeki bir kızdım. Favori resimlerim çiçeklerdi.\"",
+        "Her çocuk eski hobilerini düşünerek gülümsedi."
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Old hobbies",
+          "wrong": [
+            "New school",
+            "Future plans"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What were Nora's hobbies?",
+          "correct": "Drawing and reading",
+          "wrong": [
+            "Football",
+            "Climbing"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What were Sam's hobbies?",
+          "correct": "Football and climbing",
+          "wrong": [
+            "Drawing",
+            "Singing"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What were Leyla's hobbies?",
+          "correct": "Singing and dancing",
+          "wrong": [
+            "Reading",
+            "Climbing"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What were Ms. Reed's hobbies?",
+          "correct": "Reading and painting",
+          "wrong": [
+            "Football",
+            "Climbing"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "My Birthday Calendar",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎂",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My family has many birthdays this month.",
+        "My grandmother's birthday is on the 2nd of March.",
+        "My uncle's birthday is on the 5th of March.",
+        "My cousin's birthday is on the 8th of March.",
+        "Sam: My birthday is on the 11th of July.",
+        "My sister's birthday is on the 13th of July.",
+        "Leyla: My mum's birthday is on the 16th of November.",
+        "My dad's birthday is on the 19th of November.",
+        "Nora: We have a big family party on the 20th of every special month!",
+        "Sam: Each birthday is a special day in our calendar."
+      ],
+      "translations": [
+        "Nora: Ailem bu ay birçok doğum günü var.",
+        "Anneannemin doğum günü 2 Mart'ta.",
+        "Amcamın doğum günü 5 Mart'ta.",
+        "Kuzenimin doğum günü 8 Mart'ta.",
+        "Sam: Doğum günüm 11 Temmuz'da.",
+        "Kız kardeşimin doğum günü 13 Temmuz'da.",
+        "Leyla: Annemin doğum günü 16 Kasım'da.",
+        "Babamın doğum günü 19 Kasım'da.",
+        "Nora: Her özel ayın 20'sinde büyük bir aile partimiz olur!",
+        "Sam: Her doğum günü takvimimizde özel bir gün."
+      ],
+      "questions": [
+        {
+          "q": "When is Nora's grandmother's birthday?",
+          "correct": "2nd of March",
+          "wrong": [
+            "8th of March",
+            "5th of March"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is Nora's cousin's birthday?",
+          "correct": "8th of March",
+          "wrong": [
+            "5th of March",
+            "2nd of March"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "When is Sam's birthday?",
+          "correct": "11th of July",
+          "wrong": [
+            "13th of July",
+            "16th of November"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is Leyla's mum's birthday?",
+          "correct": "16th of November",
+          "wrong": [
+            "19th of November",
+            "2nd of March"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "When is the family party?",
+          "correct": "20th of every special month",
+          "wrong": [
+            "1st of every month",
+            "8th of March"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Weather and Clothes",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌤️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Different weather needs different clothes!",
+        "On freezing days, Nora wears a thick coat and gloves.",
+        "On stormy days, Sam stays at home with his hoodie.",
+        "On humid days, Leyla wears a sundress and sandals.",
+        "On foggy mornings, Nora wears bright clothes to be safe.",
+        "On misty days, the children wear raincoats.",
+        "On cool days, Sam prefers his cardigan and trainers.",
+        "On cloudy days, Leyla brings her umbrella to school.",
+        "On clear days, the children enjoy walking in the park.",
+        "Nora: Weather and clothes go together!"
+      ],
+      "translations": [
+        "Farklı hava farklı kıyafet gerektirir!",
+        "Dondurucu günlerde Nora kalın bir mont ve eldiven giyer.",
+        "Fırtınalı günlerde Sam evde kapüşonluyla kalır.",
+        "Nemli günlerde Leyla güneş elbisesi ve sandalet giyer.",
+        "Sisli sabahlarda Nora güvende olmak için parlak kıyafetler giyer.",
+        "Puslu günlerde çocuklar yağmurluk giyer.",
+        "Serin günlerde Sam hırkasını ve spor ayakkabılarını tercih eder.",
+        "Bulutlu günlerde Leyla okula şemsiyesini getirir.",
+        "Açık günlerde çocuklar parkta yürümekten zevk alır.",
+        "Nora: Hava ve kıyafet birlikte gider!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Weather and clothes",
+          "wrong": [
+            "School",
+            "Friends"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Nora wear on freezing days?",
+          "correct": "Thick coat and gloves",
+          "wrong": [
+            "Sundress",
+            "Sandals"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Leyla wear on humid days?",
+          "correct": "Sundress and sandals",
+          "wrong": [
+            "Thick coat",
+            "Hoodie"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What do children wear on misty days?",
+          "correct": "Raincoats",
+          "wrong": [
+            "Sundresses",
+            "Sandals"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam prefer on cool days?",
+          "correct": "Cardigan and trainers",
+          "wrong": [
+            "Sundress",
+            "Pyjamas"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Our Class Together",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🤝",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: All of you are special in our class!",
+        "Both Nora and Sam are clever pupils.",
+        "All the children enjoy Music lessons.",
+        "Both Leyla and Zara prefer drawing in Visual Arts.",
+        "All the boys love football. None of the girls are afraid of sports.",
+        "Both Maths and English are favourite lessons for the class.",
+        "Ms. Reed: None of you are alone — we are all friends!",
+        "Both teachers and pupils work together at school.",
+        "All the parents are happy with our class.",
+        "Nora: Our class is one team — all together, none alone!"
+      ],
+      "translations": [
+        "Ms. Reed: Sınıfımızda hepiniz özelsiniz!",
+        "Hem Nora hem Sam zeki öğrenciler.",
+        "Bütün çocuklar müzik derslerinden zevk alır.",
+        "Hem Leyla hem Zara görsel sanatlarda çizim yapmayı tercih eder.",
+        "Bütün erkekler futbolu çok sever. Kızların hiçbiri spordan korkmaz.",
+        "Hem matematik hem İngilizce sınıfın favori dersleri.",
+        "Ms. Reed: Hiçbiriniz yalnız değilsiniz — hepimiz arkadaşız!",
+        "Hem öğretmenler hem öğrenciler okulda birlikte çalışır.",
+        "Bütün veliler sınıfımızdan memnun.",
+        "Nora: Sınıfımız bir takım — hepimiz birlikte, hiçbiri yalnız değil!"
+      ],
+      "questions": [
+        {
+          "q": "What does Ms. Reed say at the start?",
+          "correct": "All of you are special",
+          "wrong": [
+            "You are lazy",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is clever in the class?",
+          "correct": "Both Nora and Sam",
+          "wrong": [
+            "Only Leyla",
+            "No one"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What do all the children enjoy?",
+          "correct": "Music lessons",
+          "wrong": [
+            "Sleeping",
+            "Eating"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who loves football?",
+          "correct": "All the boys",
+          "wrong": [
+            "No boys",
+            "Only girls"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who are afraid of sports?",
+          "correct": "None of the girls",
+          "wrong": [
+            "All the girls",
+            "No one"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
           ]
         }
       ]
@@ -1036,6 +2563,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-4",
+      "title": "A Visit to the Nurse",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "⚕️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍⚕️",
+          "n": "Mrs. Yıldız"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        }
+      ],
+      "sentences": [
+        "Mrs. Yıldız: How are you today, Sam? Are you well?",
+        "Sam: My knee hurts a little, Mrs. Yıldız. There was a problem at PE yesterday.",
+        "Mrs. Yıldız: Let me see your knee. It's a small bruise. You are brave!",
+        "Sam: Thank you. My finger also hurts.",
+        "Mrs. Yıldız: Your finger is fine. Take care when you play!",
+        "Nora comes in. Her stomach is a little sick today.",
+        "Mrs. Yıldız: Nora, take some rest. Drink some water.",
+        "Nora: My shoulders feel tired and my neck is a little stiff.",
+        "Mrs. Yıldız: Sit on the chair. I will help you.",
+        "Sam: I feel better now, Mrs. Yıldız! Take care!"
+      ],
+      "translations": [
+        "Mrs. Yıldız: Bugün nasılsın Sam? İyi misin?",
+        "Sam: Dizim biraz acıyor Mrs. Yıldız. Dün beden eğitiminde bir sorun oldu.",
+        "Mrs. Yıldız: Dizine bakayım. Küçük bir morluk. Sen cesursun!",
+        "Sam: Teşekkürler. Parmağım da acıyor.",
+        "Mrs. Yıldız: Parmağın iyi. Oynarken dikkatli ol!",
+        "Nora gelir. Midesi bugün biraz rahatsız.",
+        "Mrs. Yıldız: Nora, biraz dinlen. Biraz su iç.",
+        "Nora: Omuzlarım yorgun hissediyor ve boynum biraz tutulmuş.",
+        "Mrs. Yıldız: Sandalyeye otur. Sana yardım edeceğim.",
+        "Sam: Şimdi daha iyi hissediyorum, Mrs. Yıldız! Kendinize iyi bakın!"
+      ],
+      "questions": [
+        {
+          "q": "What hurts Sam?",
+          "correct": "His knee",
+          "wrong": [
+            "His toe",
+            "His finger"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What also hurts Sam?",
+          "correct": "His finger",
+          "wrong": [
+            "His knee",
+            "His neck"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is wrong with Nora?",
+          "correct": "Stomach sick",
+          "wrong": [
+            "Headache",
+            "Tooth pain"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How do Nora's shoulders feel?",
+          "correct": "Tired",
+          "wrong": [
+            "Sweet",
+            "Cold"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Sam say at the end?",
+          "correct": "Take care",
+          "wrong": [
+            "Goodbye",
+            "Hello"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "My Growing Up Story",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📖",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I want to tell you my growing up story.",
+        "When I was three, I could walk but I couldn't talk well.",
+        "When I was four, I could talk a lot but I couldn't read.",
+        "When I was five, I could read short words. I could also draw pictures.",
+        "When I was six, I could read books and I could write my name.",
+        "When I was seven, I could swim well but I couldn't ride a bike.",
+        "When I was eight, I could ride a bike and I could speak some English.",
+        "Now I am nine and I can do many things!",
+        "Sam: When I was four, I couldn't sing well. But now I can sing many songs!",
+        "Leyla: My story is similar — every year, I could do something new!"
+      ],
+      "translations": [
+        "Nora: Size büyüme hikayemi anlatmak istiyorum.",
+        "Üç yaşındayken yürüyebiliyordum ama iyi konuşamıyordum.",
+        "Dört yaşındayken çok konuşabiliyordum ama okuyamıyordum.",
+        "Beş yaşındayken kısa kelimeler okuyabiliyordum. Ayrıca resim çizebiliyordum.",
+        "Altı yaşındayken kitap okuyabiliyor ve adımı yazabiliyordum.",
+        "Yedi yaşındayken iyi yüzebiliyordum ama bisiklete binemiyordum.",
+        "Sekiz yaşındayken bisiklete binebiliyor ve biraz İngilizce konuşabiliyordum.",
+        "Şimdi dokuz yaşındayım ve birçok şey yapabiliyorum!",
+        "Sam: Dört yaşındayken iyi şarkı söyleyemiyordum. Ama şimdi birçok şarkı söyleyebiliyorum!",
+        "Leyla: Hikayem benzer — her yıl yeni bir şey yapabiliyordum!"
+      ],
+      "questions": [
+        {
+          "q": "What could Nora do at three?",
+          "correct": "Walk",
+          "wrong": [
+            "Read",
+            "Write"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What could Nora not do at four?",
+          "correct": "Read",
+          "wrong": [
+            "Walk",
+            "Talk"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What could Nora do at six?",
+          "correct": "Write her name",
+          "wrong": [
+            "Drive",
+            "Cook"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What couldn't Nora do at seven?",
+          "correct": "Ride a bike",
+          "wrong": [
+            "Swim",
+            "Read"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What couldn't Sam do at four?",
+          "correct": "Sing well",
+          "wrong": [
+            "Walk",
+            "Talk"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "Comparing Then and Now",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🔄",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: Two years ago, I was younger and shorter than now.",
+        "Now I am older and taller. I am also more clever than I was at seven.",
+        "Sam: When I was six, my brother was much taller than me.",
+        "He was also more hardworking. Now I am more hardworking, too!",
+        "Leyla: I am better at English now than two years ago.",
+        "My sister is older than me. She is also more friendly with new people.",
+        "Nora: My mum says I am more careful than I was at five.",
+        "Sam: My dad is more funny than my grandfather. They both make me laugh!",
+        "Leyla: My cousin is more brave than me. She climbs the highest trees!",
+        "Nora: Everyone is more wonderful than the year before!"
+      ],
+      "translations": [
+        "Nora: İki yıl önce şimdikinden daha küçük ve kısaydım.",
+        "Şimdi daha yaşlı ve uzun boyluyum. Ayrıca yedi yaşımdakinden daha zekiyim.",
+        "Sam: Altı yaşımdayken abim benden çok daha uzun boyluydu.",
+        "Daha çalışkandı da. Şimdi ben de daha çalışkanım!",
+        "Leyla: İki yıl öncekine göre İngilizcede şimdi daha iyiyim.",
+        "Ablam benden daha yaşlı. Yeni insanlarla daha arkadaş canlısı da.",
+        "Nora: Annem beş yaşımdakinden daha dikkatli olduğumu söylüyor.",
+        "Sam: Babam dedemden daha komik. İkisi de beni güldürür!",
+        "Leyla: Kuzenim benden daha cesur. En yüksek ağaçlara tırmanır!",
+        "Nora: Herkes önceki yıldan daha harika!"
+      ],
+      "questions": [
+        {
+          "q": "How was Nora two years ago?",
+          "correct": "Younger and shorter",
+          "wrong": [
+            "Older",
+            "Taller"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who was taller than Sam at six?",
+          "correct": "His brother",
+          "wrong": [
+            "His sister",
+            "His mum"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is better at English now?",
+          "correct": "Leyla",
+          "wrong": [
+            "Sam",
+            "Nora"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is more funny than the grandfather?",
+          "correct": "Sam's dad",
+          "wrong": [
+            "Sam's brother",
+            "Sam's mum"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Leyla's cousin climb?",
+          "correct": "The highest trees",
+          "wrong": [
+            "The smallest hills",
+            "No trees"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "My Family's Birthday Calendar",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "📆",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My family is very big. Many birthdays come every month!",
+        "My mum's birthday is on the 4th of January. My dad's birthday is on the 7th of January.",
+        "My grandmother's birthday is on the 12th of March. My grandfather's is on the 15th of March.",
+        "Sam: My birthday is on the 11th of July. There was a big party last year.",
+        "My sister Ayşe's birthday is on the 18th of October.",
+        "Leyla: My uncle's birthday is on the 1st of May. He is a special person.",
+        "My aunt's birthday is on the 6th of June. We celebrate together.",
+        "Nora: On the 10th of December, our whole family meets for grandma's name day!",
+        "Sam: I love birthdays! They are the best days of the year.",
+        "Leyla: Each birthday on our calendar is a happy day!"
+      ],
+      "translations": [
+        "Nora: Ailem çok büyük. Her ay birçok doğum günü gelir!",
+        "Annemin doğum günü 4 Ocak'ta. Babamın doğum günü 7 Ocak'ta.",
+        "Anneannemin doğum günü 12 Mart'ta. Dedemin doğum günü 15 Mart'ta.",
+        "Sam: Doğum günüm 11 Temmuz'da. Geçen yıl büyük bir parti oldu.",
+        "Ablam Ayşe'nin doğum günü 18 Ekim'de.",
+        "Leyla: Amcamın doğum günü 1 Mayıs'ta. Özel bir insan.",
+        "Halamın doğum günü 6 Haziran'da. Birlikte kutlarız.",
+        "Nora: 10 Aralık'ta tüm ailemiz büyükannemin isim günü için toplanır!",
+        "Sam: Doğum günlerini severim! Yılın en güzel günleridir.",
+        "Leyla: Takvimimizdeki her doğum günü mutlu bir gündür!"
+      ],
+      "questions": [
+        {
+          "q": "When is Nora's mum's birthday?",
+          "correct": "4th of January",
+          "wrong": [
+            "7th of January",
+            "12th of March"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "When is Nora's grandfather's birthday?",
+          "correct": "15th of March",
+          "wrong": [
+            "12th of March",
+            "4th of January"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "When is Sam's sister's birthday?",
+          "correct": "18th of October",
+          "wrong": [
+            "11th of July",
+            "6th of June"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "When is Leyla's uncle's birthday?",
+          "correct": "1st of May",
+          "wrong": [
+            "6th of June",
+            "7th of January"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "When does the family meet for grandma's name day?",
+          "correct": "10th of December",
+          "wrong": [
+            "10th of January",
+            "12th of March"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "What I Enjoy and Prefer",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "💭",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I enjoy reading books in the library. I prefer to read short stories.",
+        "I also enjoy painting pictures. I prefer painting flowers and trees.",
+        "Sam: I enjoy playing football with my friends. I prefer to play in the park.",
+        "I also enjoy listening to music. I prefer pop songs.",
+        "Leyla: I enjoy dancing in Music lessons. I prefer to dance with friends.",
+        "I also enjoy drawing with new highlighters. I prefer drawing animals.",
+        "Nora: For homework, I prefer to write stories. I enjoy writing fiction.",
+        "Sam: For homework, I prefer doing Maths. Numbers are fun for me.",
+        "Leyla: For homework, I prefer to draw. Art is my favourite.",
+        "Ms. Reed: It is wonderful to enjoy what you do!"
+      ],
+      "translations": [
+        "Nora: Kütüphanede kitap okumayı severim. Kısa hikayeler okumayı tercih ederim.",
+        "Resim yapmayı da severim. Çiçek ve ağaç resmi yapmayı tercih ederim.",
+        "Sam: Arkadaşlarımla futbol oynamayı severim. Parkta oynamayı tercih ederim.",
+        "Müzik dinlemeyi de severim. Pop şarkıları tercih ederim.",
+        "Leyla: Müzik derslerinde dans etmeyi severim. Arkadaşlarımla dans etmeyi tercih ederim.",
+        "Yeni fosforlu kalemlerle çizim yapmayı da severim. Hayvan çizmeyi tercih ederim.",
+        "Nora: Ödev için hikaye yazmayı tercih ederim. Kurmaca yazmayı severim.",
+        "Sam: Ödev için matematik yapmayı tercih ederim. Sayılar bana eğlenceli geliyor.",
+        "Leyla: Ödev için çizim yapmayı tercih ederim. Sanat favorim.",
+        "Ms. Reed: Yaptığınız şeyden zevk almak harika!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora enjoy in the library?",
+          "correct": "Reading books",
+          "wrong": [
+            "Dancing",
+            "Playing"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Sam prefer to play with friends?",
+          "correct": "Football",
+          "wrong": [
+            "Music",
+            "Drawing"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Leyla prefer to draw?",
+          "correct": "Animals",
+          "wrong": [
+            "Flowers",
+            "Buildings"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Nora prefer for homework?",
+          "correct": "Writing stories",
+          "wrong": [
+            "Doing Maths",
+            "Drawing"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Sam prefer for homework?",
+          "correct": "Doing Maths",
+          "wrong": [
+            "Drawing",
+            "Writing"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "A Week of Weather",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌪️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "On Monday, the weather was foggy and cool.",
+        "Nora's bright clothes helped cars see her on the road.",
+        "On Tuesday, the weather was stormy. Sam stayed at home.",
+        "On Wednesday, the day was humid. The children's clothes were sundresses and shorts.",
+        "On Thursday morning, it was misty. Leyla's raincoat was useful at school.",
+        "On Friday, the sky was clear and beautiful.",
+        "On Saturday, the weather was freezing! Nora's thick cardigan was warm.",
+        "On Sunday morning, it was cloudy. By the afternoon, the sun was bright.",
+        "Each day's weather was different.",
+        "Nora: Every season has many kinds of weather!"
+      ],
+      "translations": [
+        "Pazartesi hava sisli ve serindi.",
+        "Nora'nın parlak kıyafetleri arabaların onu görmesine yardım etti.",
+        "Salı hava fırtınalıydı. Sam evde kaldı.",
+        "Çarşamba gün nemliydi. Çocukların kıyafetleri güneş elbisesi ve şorttu.",
+        "Perşembe sabahı pusluydu. Leyla'nın yağmurluğu okulda işe yaradı.",
+        "Cuma gökyüzü açık ve güzeldi.",
+        "Cumartesi hava dondurucuydu! Nora'nın kalın hırkası sıcaktı.",
+        "Pazar sabahı bulutluydu. Öğleden sonra güneş parlaktı.",
+        "Her günün havası farklıydı.",
+        "Nora: Her mevsim birçok hava türüne sahip!"
+      ],
+      "questions": [
+        {
+          "q": "How was Monday's weather?",
+          "correct": "Foggy and cool",
+          "wrong": [
+            "Stormy",
+            "Humid"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What was Tuesday's weather?",
+          "correct": "Stormy",
+          "wrong": [
+            "Cloudy",
+            "Sunny"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What was Wednesday's weather?",
+          "correct": "Humid",
+          "wrong": [
+            "Freezing",
+            "Misty"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How was Friday's sky?",
+          "correct": "Clear and beautiful",
+          "wrong": [
+            "Stormy",
+            "Cloudy"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How was Saturday's weather?",
+          "correct": "Freezing",
+          "wrong": [
+            "Hot",
+            "Humid"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Something for Everyone",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🎁",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: Is there anything fun in our classroom today?",
+        "Leyla: Yes, there is something special — all the children have new books!",
+        "Both Nora and Sam love their new books.",
+        "Nora: I have something new in my bag, too. It is a beautiful bracelet.",
+        "Sam: Is there anything in my bag? Let me check.",
+        "Sam: There is something! A new card from my grandmother!",
+        "All of our friends have something special this week.",
+        "None of the children have nothing — everyone has something!",
+        "Leyla: Both Maths and Music are wonderful today.",
+        "Nora: All of us are happy. None of us are sad. We share something special!"
+      ],
+      "translations": [
+        "Nora: Bugün sınıfımızda eğlenceli bir şey var mı?",
+        "Leyla: Evet, özel bir şey var — bütün çocukların yeni kitapları var!",
+        "Hem Nora hem Sam yeni kitaplarını çok sever.",
+        "Nora: Çantamda da yeni bir şey var. Güzel bir bileklik.",
+        "Sam: Çantamda bir şey var mı? Bakayım.",
+        "Sam: Bir şey var! Anneannemden yeni bir kart!",
+        "Bütün arkadaşlarımız bu hafta özel bir şeye sahip.",
+        "Çocukların hiçbiri yokluk değil — herkesin bir şeyi var!",
+        "Leyla: Hem matematik hem müzik bugün harika.",
+        "Nora: Hepimiz mutluyuz. Hiçbirimiz üzgün değiliz. Özel bir şey paylaşıyoruz!"
+      ],
+      "questions": [
+        {
+          "q": "What is special today?",
+          "correct": "Children have new books",
+          "wrong": [
+            "No school",
+            "Bad weather"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who loves the new books?",
+          "correct": "Both Nora and Sam",
+          "wrong": [
+            "No one",
+            "Only Leyla"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What is in Nora's bag?",
+          "correct": "A bracelet",
+          "wrong": [
+            "A card",
+            "A book"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in Sam's bag?",
+          "correct": "A card",
+          "wrong": [
+            "A book",
+            "A bracelet"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How are the children?",
+          "correct": "All happy",
+          "wrong": [
+            "All sad",
+            "None happy"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -1272,6 +3562,864 @@
           "hl": [
             10,
             11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "Which Body Part?",
+      "subtitle": "Use the clues to find the body part!",
+      "icon": "🔎",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍⚕️",
+          "n": "Mrs. Yıldız"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        }
+      ],
+      "sentences": [
+        "There is a body part in this riddle.",
+        "It is not on your face.",
+        "It is not on your arm.",
+        "It is on your leg.",
+        "You have two of them.",
+        "They help you walk and run.",
+        "Which body part is it?",
+        "It is the knee!"
+      ],
+      "translations": [
+        "Bu bilmecede bir vücut parçası var.",
+        "Yüzünde değil.",
+        "Kolunda değil.",
+        "Bacağında.",
+        "İki tane var.",
+        "Yürümene ve koşmana yardım eder.",
+        "Hangi vücut parçası?",
+        "Diz!"
+      ],
+      "questions": [
+        {
+          "q": "Is it on the face?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is it?",
+          "correct": "On the leg",
+          "wrong": [
+            "On the arm",
+            "On the foot"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How many are there?",
+          "correct": "Two",
+          "wrong": [
+            "One",
+            "Five"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What do they help?",
+          "correct": "Walk and run",
+          "wrong": [
+            "Talk",
+            "See"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which body part is it?",
+          "correct": "The knee",
+          "wrong": [
+            "The finger",
+            "The neck"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "What Could Sam Do at Six?",
+      "subtitle": "Use the clues to find the ability!",
+      "icon": "🎵",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "When Sam was six, he could do something special.",
+        "He couldn't drive a car. He was too young.",
+        "He couldn't ride a big bike.",
+        "He couldn't read long books.",
+        "But he could play a musical instrument.",
+        "It was not the piano. It was not the violin.",
+        "What could Sam play?",
+        "He could play the guitar!"
+      ],
+      "translations": [
+        "Sam altı yaşındayken özel bir şey yapabiliyordu.",
+        "Araba kullanamıyordu. Çok küçüktü.",
+        "Büyük bisiklete binemiyordu.",
+        "Uzun kitaplar okuyamıyordu.",
+        "Ama bir müzik aleti çalabiliyordu.",
+        "Piyano değildi. Keman değildi.",
+        "Sam ne çalabiliyordu?",
+        "Gitar çalabiliyordu!"
+      ],
+      "questions": [
+        {
+          "q": "Could Sam drive a car?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Could Sam read long books?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What could Sam play?",
+          "correct": "A musical instrument",
+          "wrong": [
+            "Football",
+            "Tennis"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Was it the piano?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What could Sam play?",
+          "correct": "The guitar",
+          "wrong": [
+            "The piano",
+            "The violin"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Which Weather Day?",
+      "subtitle": "Use the clues to find the weather!",
+      "icon": "🌫️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "There was a special weather day this morning.",
+        "It was not stormy. It was not freezing.",
+        "It was not cloudy or clear.",
+        "There was a thin white air everywhere.",
+        "Cars used their lights. People walked carefully.",
+        "Sam's bright clothes helped him stay safe.",
+        "Which weather day was it?",
+        "It was a foggy day!"
+      ],
+      "translations": [
+        "Bu sabah özel bir hava günü vardı.",
+        "Fırtınalı değildi. Dondurucu değildi.",
+        "Bulutlu veya açık değildi.",
+        "Her yerde ince beyaz bir hava vardı.",
+        "Arabalar farlarını kullandı. İnsanlar dikkatli yürüdü.",
+        "Sam'in parlak kıyafetleri güvende olmasına yardım etti.",
+        "Hangi hava günüydü?",
+        "Sisli bir gündü!"
+      ],
+      "questions": [
+        {
+          "q": "Was the weather stormy?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What was everywhere?",
+          "correct": "Thin white air",
+          "wrong": [
+            "Snow",
+            "Sun"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did cars use?",
+          "correct": "Their lights",
+          "wrong": [
+            "Their horns",
+            "Music"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What helped Sam stay safe?",
+          "correct": "Bright clothes",
+          "wrong": [
+            "A sundress",
+            "Slippers"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which weather was it?",
+          "correct": "Foggy",
+          "wrong": [
+            "Stormy",
+            "Misty"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            3,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "What Is Nora Wearing?",
+      "subtitle": "Use the clues to find the clothing!",
+      "icon": "👕",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "It is a freezing winter morning.",
+        "Nora is going outside.",
+        "She is not wearing a sundress. It is too cold.",
+        "She is not wearing flats. She wants warm feet.",
+        "She is wearing something warm on her body.",
+        "It is not a t-shirt. It is not a hoodie.",
+        "What is she wearing?",
+        "She is wearing a thick cardigan!"
+      ],
+      "translations": [
+        "Dondurucu bir kış sabahı.",
+        "Nora dışarı çıkıyor.",
+        "Güneş elbisesi giymiyor. Çok soğuk.",
+        "Düz ayakkabı giymiyor. Sıcak ayaklar istiyor.",
+        "Vücudunda sıcak bir şey giyiyor.",
+        "Tişört değil. Kapüşonlu değil.",
+        "Ne giyiyor?",
+        "Kalın bir hırka giyiyor!"
+      ],
+      "questions": [
+        {
+          "q": "What season is it?",
+          "correct": "Winter",
+          "wrong": [
+            "Summer",
+            "Spring"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Why isn't she wearing a sundress?",
+          "correct": "It is too cold",
+          "wrong": [
+            "It is too hot",
+            "She is sleepy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Why isn't she wearing flats?",
+          "correct": "She wants warm feet",
+          "wrong": [
+            "They are too big",
+            "She is sleepy"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is she wearing a t-shirt?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Nora wearing?",
+          "correct": "A thick cardigan",
+          "wrong": [
+            "A sundress",
+            "A blouse"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Who Is This Pupil?",
+      "subtitle": "Use the clues to find the pupil!",
+      "icon": "🧒",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "There is a special pupil in our class.",
+        "This pupil is not Sam. This pupil is not Leyla.",
+        "This pupil is sweet and kind.",
+        "This pupil is always quiet during lessons.",
+        "This pupil is more hardworking than most pupils.",
+        "Her hair is long and wavy. She loves drawing.",
+        "Who is this pupil?",
+        "It is Nora!"
+      ],
+      "translations": [
+        "Sınıfımızda özel bir öğrenci var.",
+        "Bu öğrenci Sam değil. Bu öğrenci Leyla değil.",
+        "Bu öğrenci tatlı ve kibar.",
+        "Bu öğrenci derslerde her zaman sessizdir.",
+        "Bu öğrenci çoğu öğrenciden daha çalışkan.",
+        "Saçları uzun ve dalgalı. Çizim yapmayı çok sever.",
+        "Bu öğrenci kim?",
+        "Nora!"
+      ],
+      "questions": [
+        {
+          "q": "Is the pupil Sam?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How is the pupil's personality?",
+          "correct": "Sweet and kind",
+          "wrong": [
+            "Naughty",
+            "Angry"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How is the pupil in lessons?",
+          "correct": "Quiet",
+          "wrong": [
+            "Loud",
+            "Sleepy"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is her hair?",
+          "correct": "Long and wavy",
+          "wrong": [
+            "Short and straight",
+            "Curly"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is the pupil?",
+          "correct": "Nora",
+          "wrong": [
+            "Leyla",
+            "Zara"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            2,
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Which Birthday Date?",
+      "subtitle": "Use the clues to find the date!",
+      "icon": "🎈",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Sam is thinking about a birthday.",
+        "It is not the 1st of July.",
+        "It is not the 5th of July.",
+        "It is not the 20th of July.",
+        "It is between the 10th and the 14th of July.",
+        "It is also not the 12th of July.",
+        "Which date is Sam's birthday?",
+        "It is the 11th of July!"
+      ],
+      "translations": [
+        "Sam bir doğum günü düşünüyor.",
+        "1 Temmuz değil.",
+        "5 Temmuz değil.",
+        "20 Temmuz değil.",
+        "10 ile 14 Temmuz arasında.",
+        "Ayrıca 12 Temmuz da değil.",
+        "Sam'in doğum günü hangi tarih?",
+        "11 Temmuz!"
+      ],
+      "questions": [
+        {
+          "q": "In which month is the birthday?",
+          "correct": "July",
+          "wrong": [
+            "June",
+            "August"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it the 5th of July?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What dates is it between?",
+          "correct": "10th and 14th",
+          "wrong": [
+            "1st and 5th",
+            "20th and 25th"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is it the 12th of July?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which date is it?",
+          "correct": "11th of July",
+          "wrong": [
+            "12th of July",
+            "13th of July"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Who Is the Tallest?",
+      "subtitle": "Use the clues to find the person!",
+      "icon": "📏",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Three friends are in the playground: Nora, Sam, and Leyla.",
+        "Sam is taller than Nora.",
+        "Leyla is taller than Sam.",
+        "So Leyla is the tallest of the three.",
+        "Nora is the shortest of the three.",
+        "But Nora is more clever than Sam in Maths.",
+        "Sam is more funny than the other two.",
+        "Who is the tallest?",
+        "Leyla is the tallest!"
+      ],
+      "translations": [
+        "Üç arkadaş oyun bahçesinde: Nora, Sam ve Leyla.",
+        "Sam Nora'dan daha uzun boylu.",
+        "Leyla Sam'den daha uzun boylu.",
+        "Yani üçü içinde en uzun boylu Leyla.",
+        "Üçü içinde en kısa boylu Nora.",
+        "Ama Nora matematikte Sam'den daha zeki.",
+        "Sam diğer ikisinden daha komik.",
+        "En uzun boylu kim?",
+        "En uzun boylu Leyla!"
+      ],
+      "questions": [
+        {
+          "q": "Who is taller than Nora?",
+          "correct": "Sam",
+          "wrong": [
+            "Leyla",
+            "No one"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is taller than Sam?",
+          "correct": "Leyla",
+          "wrong": [
+            "Nora",
+            "No one"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is the shortest?",
+          "correct": "Nora",
+          "wrong": [
+            "Sam",
+            "Leyla"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Who is more clever in Maths?",
+          "correct": "Nora",
+          "wrong": [
+            "Sam",
+            "Leyla"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Who is the tallest?",
+          "correct": "Leyla",
+          "wrong": [
+            "Sam",
+            "Nora"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            1,
+            2,
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "What's the Right Word?",
+      "subtitle": "Use the clues to find the word!",
+      "icon": "🔤",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Look at our class.",
+        "There are twenty pupils. Every pupil is here.",
+        "The pupils are not just some of them.",
+        "The word for every pupil — every single one — is special.",
+        "It is not 'some'. It is not 'none'.",
+        "It is not 'both' because there are more than two.",
+        "Which word fits?",
+        "The word is 'all'! All pupils are here!"
+      ],
+      "translations": [
+        "Sınıfımıza bak.",
+        "Yirmi öğrenci var. Her öğrenci burada.",
+        "Sadece bazıları değil.",
+        "Her öğrenci için kelime özel.",
+        "'Some' değil. 'None' değil.",
+        "'Both' değil çünkü ikiden fazla.",
+        "Hangi kelime uyar?",
+        "Kelime 'all'! Bütün öğrenciler burada!"
+      ],
+      "questions": [
+        {
+          "q": "How many pupils are there?",
+          "correct": "Twenty",
+          "wrong": [
+            "Ten",
+            "Two"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is the word 'some'?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Why not 'both'?",
+          "correct": "More than two",
+          "wrong": [
+            "Only one",
+            "Too small"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Is the word 'none'?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the right word?",
+          "correct": "All",
+          "wrong": [
+            "Some",
+            "None"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            5,
+            7
           ]
         }
       ]

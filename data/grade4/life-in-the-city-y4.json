@@ -340,6 +340,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-4",
+      "title": "My Healthy Breakfast",
+      "subtitle": "Find the right healthy food!",
+      "icon": "🍓",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I have a wonderful healthy breakfast every morning.",
+        "I drink a glass of milk. Milk makes my bones strong.",
+        "I eat fresh strawberry and grapes from our garden.",
+        "Sam: I love cherry and pear for my breakfast.",
+        "My mum cuts the pear into small pieces. I eat the cherries with yogurt.",
+        "Leyla: I have a green salad with lettuce, tomato and cucumber.",
+        "Nora: I eat fresh fruit every day — strawberry, grapes and cherry.",
+        "Sam: Milk and pear are my favourites!",
+        "Leyla: Lettuce is the best vegetable for a fresh salad.",
+        "Nora: Healthy food helps us grow strong and happy!"
+      ],
+      "translations": [
+        "Nora: Her sabah harika bir sağlıklı kahvaltı yaparım.",
+        "Bir bardak süt içerim. Süt kemiklerimi güçlü yapar.",
+        "Bahçemizden taze çilek ve üzüm yerim.",
+        "Sam: Kahvaltıda kiraz ve armut severim.",
+        "Annem armudu küçük parçalara keser. Kirazları yoğurtla yerim.",
+        "Leyla: Marul, domates ve salatalıkla yeşil salata yerim.",
+        "Nora: Her gün taze meyve yerim — çilek, üzüm ve kiraz.",
+        "Sam: Süt ve armut favorilerim!",
+        "Leyla: Marul taze salata için en iyi sebze.",
+        "Nora: Sağlıklı yemek güçlü ve mutlu büyümemize yardım eder!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora drink?",
+          "correct": "Milk",
+          "wrong": [
+            "Soda",
+            "Lemonade"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What fruit does Nora eat?",
+          "correct": "Strawberry and grapes",
+          "wrong": [
+            "Apple and pear",
+            "Banana"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam love?",
+          "correct": "Cherry and pear",
+          "wrong": [
+            "Lemon",
+            "Plum"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in Leyla's salad?",
+          "correct": "Lettuce, tomato, cucumber",
+          "wrong": [
+            "Eggs, milk",
+            "Cake"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the best vegetable for a salad?",
+          "correct": "Lettuce",
+          "wrong": [
+            "Broccoli",
+            "Spinach"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "Sweet Treats at the Birthday Party",
+      "subtitle": "Find the right treat!",
+      "icon": "🍦",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Last weekend, my cousin had a wonderful birthday party.",
+        "There was a big chocolate cake on the table.",
+        "Everyone had a piece of ice-cream after dinner.",
+        "Sam ate vanilla ice-cream. I ate strawberry ice-cream.",
+        "Leyla ate chocolate ice-cream. She loves chocolate!",
+        "We drank a lot of soda and lemonade at the party.",
+        "Nora: The chocolate cake was amazing! I ate three pieces!",
+        "Sam: Ice-cream is my favourite cold treat in summer.",
+        "Leyla: Chocolate and ice-cream — what a perfect party!",
+        "Nora: But our mums said: not too much chocolate every day!"
+      ],
+      "translations": [
+        "Geçen hafta sonu kuzenim harika bir doğum günü partisi verdi.",
+        "Masada büyük bir çikolatalı pasta vardı.",
+        "Yemekten sonra herkes bir parça dondurma yedi.",
+        "Sam vanilyalı dondurma yedi. Ben çilekli dondurma yedim.",
+        "Leyla çikolatalı dondurma yedi. Çikolatayı çok sever!",
+        "Partide çok soda ve limonata içtik.",
+        "Nora: Çikolatalı pasta harikaydı! Üç parça yedim!",
+        "Sam: Dondurma yazın favori soğuk ikramım.",
+        "Leyla: Çikolata ve dondurma — ne mükemmel bir parti!",
+        "Nora: Ama annemler dedi: her gün çok çikolata olmaz!"
+      ],
+      "questions": [
+        {
+          "q": "What was on the table?",
+          "correct": "A chocolate cake",
+          "wrong": [
+            "Pizza",
+            "Pasta"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did everyone have after dinner?",
+          "correct": "Ice-cream",
+          "wrong": [
+            "Salad",
+            "Soup"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What ice-cream did Sam eat?",
+          "correct": "Vanilla",
+          "wrong": [
+            "Chocolate",
+            "Strawberry"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did they drink?",
+          "correct": "Soda and lemonade",
+          "wrong": [
+            "Milk",
+            "Water"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How was the chocolate cake?",
+          "correct": "Amazing",
+          "wrong": [
+            "Bad",
+            "Boring"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-6",
+      "title": "Few Healthy Foods Today",
+      "subtitle": "Find the right quantity!",
+      "icon": "🥗",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Children, look at this kitchen. There is little healthy food here.",
+        "There are few vegetables in the fridge. Only one tomato!",
+        "There is little milk in the bottle. We need to buy more.",
+        "There are few apples in the basket. Just two!",
+        "Nora: My grandmother has a few cucumbers in her garden.",
+        "There is a little broccoli in the kitchen. It is healthy!",
+        "Sam: My family has a little yogurt and a few eggs in the fridge.",
+        "We always need a few healthy things for the week.",
+        "Leyla: Few people eat healthy food every day. But it is important!",
+        "Ms. Reed: Few or many, healthy food is the best choice for our bodies!"
+      ],
+      "translations": [
+        "Ms. Reed: Çocuklar, bu mutfağa bakın. Burada az sağlıklı yemek var.",
+        "Buzdolabında az sebze var. Sadece bir domates!",
+        "Şişede az süt var. Daha fazla almamız gerekiyor.",
+        "Sepette az elma var. Sadece iki!",
+        "Nora: Büyükannemin bahçesinde birkaç salatalık var.",
+        "Mutfakta biraz brokoli var. Sağlıklı!",
+        "Sam: Ailemin buzdolabında biraz yoğurt ve birkaç yumurta var.",
+        "Hafta için her zaman birkaç sağlıklı şeye ihtiyacımız var.",
+        "Leyla: Az insan her gün sağlıklı yemek yer. Ama önemli!",
+        "Ms. Reed: Az veya çok, sağlıklı yemek vücudumuz için en iyi seçim!"
+      ],
+      "questions": [
+        {
+          "q": "How much healthy food is in the kitchen?",
+          "correct": "Little",
+          "wrong": [
+            "A lot",
+            "Much"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "How many vegetables are in the fridge?",
+          "correct": "Few",
+          "wrong": [
+            "Many",
+            "A lot"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many cucumbers does Nora's grandmother have?",
+          "correct": "A few",
+          "wrong": [
+            "Many",
+            "None"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How much broccoli is in the kitchen?",
+          "correct": "A little",
+          "wrong": [
+            "A lot",
+            "None"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many eggs does Sam's family have?",
+          "correct": "A few",
+          "wrong": [
+            "Many",
+            "None"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-7",
+      "title": "Tasting New Foods",
+      "subtitle": "Find the right reaction!",
+      "icon": "😋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Today, the class is tasting different foods from many countries!",
+        "Nora tries a small piece of moussaka. \"It tastes good!\" she says.",
+        "Sam tries a falafel. \"Amazing! It tastes good!\" he says.",
+        "Leyla tries a small taco. \"Wow! It tastes good with this sauce!\"",
+        "Ms. Reed: Now try this brown rice with chicken.",
+        "Nora: It tastes good! I love it.",
+        "Sam: This kebab tastes good with green salad.",
+        "Leyla: Pizza always tastes good — but moussaka is amazing!",
+        "Nora: Every dish tastes good in its own special way.",
+        "Ms. Reed: When food tastes good, eating is a joy!"
+      ],
+      "translations": [
+        "Bugün sınıf birçok ülkeden farklı yemekleri tadıyor!",
+        "Nora küçük bir parça musakka dener. \"Lezzetli!\" der.",
+        "Sam falafel dener. \"Harika! Lezzetli!\" der.",
+        "Leyla küçük bir tako dener. \"Vay! Bu sosla lezzetli!\"",
+        "Ms. Reed: Şimdi bu esmer pirinçle tavuğu dene.",
+        "Nora: Lezzetli! Çok severim.",
+        "Sam: Bu kebap yeşil salatayla lezzetli.",
+        "Leyla: Pizza her zaman lezzetli — ama musakka harika!",
+        "Nora: Her yemek kendi özel şekliyle lezzetli.",
+        "Ms. Reed: Yemek lezzetli olunca yemek bir zevk!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora try?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Falafel",
+            "Taco"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Sam say?",
+          "correct": "Amazing! It tastes good!",
+          "wrong": [
+            "Bad",
+            "Boring"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Leyla try?",
+          "correct": "A small taco",
+          "wrong": [
+            "Pizza",
+            "Brown rice"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Ms. Reed give them?",
+          "correct": "Brown rice with chicken",
+          "wrong": [
+            "Cake",
+            "Pizza"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam say about kebab?",
+          "correct": "It tastes good with salad",
+          "wrong": [
+            "It is bad",
+            "It is cold"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-8",
+      "title": "Our Summer Travel Plans",
+      "subtitle": "Find the right plan!",
+      "icon": "✈️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I am going to visit my cousin in Germany next month.",
+        "We are going to eat sausage and brown bread there.",
+        "Sam: My family is going to go to Mexico in July.",
+        "We are going to eat tacos and meet local children.",
+        "Leyla: I am going to travel to Azerbaijan with my grandparents.",
+        "We are going to eat plov, a famous Azerbaijani dish.",
+        "Nora: My uncle is going to visit Algeria next year.",
+        "He is going to try a few new dishes there.",
+        "Sam: My aunt is going to fly to the United States of America in August.",
+        "Leyla: We are all going to have amazing summers!"
+      ],
+      "translations": [
+        "Nora: Gelecek ay kuzenimi Almanya'da ziyaret edeceğim.",
+        "Orada sosis ve esmer ekmek yiyeceğiz.",
+        "Sam: Ailem Temmuz'da Meksika'ya gidecek.",
+        "Tako yiyeceğiz ve yerli çocuklarla tanışacağız.",
+        "Leyla: Büyükannem ve dedemle Azerbaycan'a seyahat edeceğim.",
+        "Plov yiyeceğiz, ünlü bir Azerbaycan yemeği.",
+        "Nora: Amcam gelecek yıl Cezayir'i ziyaret edecek.",
+        "Orada birkaç yeni yemek deneyecek.",
+        "Sam: Halam Ağustos'ta Amerika Birleşik Devletleri'ne uçacak.",
+        "Leyla: Hepimizin harika yazları olacak!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Nora going to visit?",
+          "correct": "Germany",
+          "wrong": [
+            "Spain",
+            "Italy"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Nora going to eat in Germany?",
+          "correct": "Sausage and brown bread",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Sam's family going?",
+          "correct": "Mexico",
+          "wrong": [
+            "Germany",
+            "Italy"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where is Leyla going to travel?",
+          "correct": "Azerbaijan",
+          "wrong": [
+            "Mexico",
+            "Germany"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where is Nora's uncle going?",
+          "correct": "Algeria",
+          "wrong": [
+            "America",
+            "Italy"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-9",
+      "title": "Our Plans and Predictions",
+      "subtitle": "Find the right plan!",
+      "icon": "🔮",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I think tomorrow will be sunny and warm.",
+        "We are going to go to the beach with our family.",
+        "I think we will see many people there.",
+        "Sam: I think it will rain next week.",
+        "We are going to stay at home and watch films.",
+        "Leyla: I think summer will be amazing this year.",
+        "I am going to travel to my grandmother's village.",
+        "Nora: I think we will eat delicious food on our holidays.",
+        "Sam: I am going to try moussaka in Greece next month!",
+        "Leyla: Plans and predictions make life exciting!"
+      ],
+      "translations": [
+        "Nora: Bence yarın güneşli ve ılık olacak.",
+        "Ailemle plaja gideceğiz.",
+        "Bence orada birçok insan göreceğiz.",
+        "Sam: Bence gelecek hafta yağmur yağacak.",
+        "Evde kalıp film izleyeceğiz.",
+        "Leyla: Bence bu yıl yaz harika olacak.",
+        "Büyükannemin köyüne seyahat edeceğim.",
+        "Nora: Bence tatilde lezzetli yemekler yiyeceğiz.",
+        "Sam: Gelecek ay Yunanistan'da musakka deneyeceğim!",
+        "Leyla: Planlar ve tahminler hayatı heyecanlı yapar!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora think about tomorrow?",
+          "correct": "It will be sunny",
+          "wrong": [
+            "It will rain",
+            "It will snow"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Where is Nora's family going?",
+          "correct": "The beach",
+          "wrong": [
+            "The mountain",
+            "The city"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Sam think will happen?",
+          "correct": "It will rain",
+          "wrong": [
+            "It will be sunny",
+            "Snow"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Sam's family going to do?",
+          "correct": "Stay at home",
+          "wrong": [
+            "Travel",
+            "Swim"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Sam going to try in Greece?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Tacos",
+            "Falafel"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-10",
+      "title": "The Most Delicious Dishes",
+      "subtitle": "Find the right dish!",
+      "icon": "🏆",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Which is the most delicious dish in each country?",
+        "Nora: Pizza is the most famous dish in Italy.",
+        "Pasta is also amazing in Italy. But pizza is the most delicious!",
+        "Sam: Tacos are the best dishes in Mexico. They are spicy and full of flavour.",
+        "Leyla: Moussaka is the most special dish in Greece.",
+        "Nora: Kebab is the best dish in Türkiye. Everyone loves it!",
+        "Sam: Falafel is the most popular dish in Algeria.",
+        "Leyla: Brown rice with chicken is amazing in Azerbaijan.",
+        "Nora: Fish and chips is the most famous dish in England.",
+        "Ms. Reed: Every country has the best dish for its people!"
+      ],
+      "translations": [
+        "Ms. Reed: Her ülkede en lezzetli yemek hangisi?",
+        "Nora: Pizza İtalya'nın en ünlü yemeği.",
+        "Makarna da İtalya'da harika. Ama pizza en lezzetli!",
+        "Sam: Tako Meksika'nın en iyi yemeği. Baharatlı ve lezzet dolu.",
+        "Leyla: Musakka Yunanistan'ın en özel yemeği.",
+        "Nora: Kebap Türkiye'nin en iyi yemeği. Herkes çok sever!",
+        "Sam: Falafel Cezayir'in en popüler yemeği.",
+        "Leyla: Tavuklu esmer pirinç Azerbaycan'da harika.",
+        "Nora: Fish and chips İngiltere'nin en ünlü yemeği.",
+        "Ms. Reed: Her ülkenin halkı için en iyi yemeği var!"
+      ],
+      "questions": [
+        {
+          "q": "What is the most famous dish in Italy?",
+          "correct": "Pizza",
+          "wrong": [
+            "Pasta",
+            "Soup"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is the best dish in Mexico?",
+          "correct": "Tacos",
+          "wrong": [
+            "Pizza",
+            "Kebab"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the most special dish in Greece?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Kebab",
+            "Pizza"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the best dish in Türkiye?",
+          "correct": "Kebab",
+          "wrong": [
+            "Pizza",
+            "Falafel"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is the most famous dish in England?",
+          "correct": "Fish and chips",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -689,6 +1452,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "skim-4",
+      "title": "Two Plates, Two Choices",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "⚖️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed showed the class two plates of food.",
+        "On one plate, there was a green salad with lettuce, spinach and broccoli.",
+        "There were also fresh strawberry, grapes, pear and a glass of milk.",
+        "On the other plate, there was chocolate cake, ice-cream and biscuits.",
+        "There were also a few sweets, a soda and a piece of pizza.",
+        "Ms. Reed asked: \"Which plate is the healthy one?\"",
+        "Nora: The salad plate is the healthy one. It has milk, fruit and vegetables.",
+        "Sam: The other plate has too much sugar — chocolate cake, soda and ice-cream.",
+        "Leyla: We should eat the healthy plate every day.",
+        "Ms. Reed: We can eat the unhealthy food sometimes, but not every day!"
+      ],
+      "translations": [
+        "Ms. Reed sınıfa iki tabak yemek gösterdi.",
+        "Bir tabakta marul, ıspanak ve brokoli ile yeşil bir salata vardı.",
+        "Ayrıca taze çilek, üzüm, armut ve bir bardak süt vardı.",
+        "Diğer tabakta çikolatalı pasta, dondurma ve bisküviler vardı.",
+        "Ayrıca birkaç şeker, bir soda ve bir parça pizza vardı.",
+        "Ms. Reed sordu: \"Hangi tabak sağlıklı olan?\"",
+        "Nora: Salata tabağı sağlıklı olan. Sütü, meyvesi ve sebzeleri var.",
+        "Sam: Diğer tabakta çok şeker var — çikolatalı pasta, soda ve dondurma.",
+        "Leyla: Sağlıklı tabağı her gün yemeliyiz.",
+        "Ms. Reed: Sağlıksız yemeği bazen yiyebiliriz, ama her gün değil!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Healthy vs unhealthy food",
+          "wrong": [
+            "School trip",
+            "Cooking class"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What was on the healthy plate?",
+          "correct": "Salad, fruit, milk",
+          "wrong": [
+            "Cake, ice-cream",
+            "Pizza, soda"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What was on the other plate?",
+          "correct": "Cake, ice-cream, biscuits",
+          "wrong": [
+            "Fruit, milk",
+            "Salad"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Which plate is healthy?",
+          "correct": "The salad plate",
+          "wrong": [
+            "The cake plate",
+            "The pizza plate"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say?",
+          "correct": "Not unhealthy every day",
+          "wrong": [
+            "Eat cake every day",
+            "Never eat fruit"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "Few or A Few in Our Kitchen",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍳",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora and Sam are making lunch together in the kitchen.",
+        "Nora: I have a few tomatoes for our salad. That is good!",
+        "Sam: But there is little cheese in the fridge. We need more!",
+        "Nora: We can put a little olive oil on the salad. Just a small amount.",
+        "Sam: There are few cucumbers today. Only one or two!",
+        "Leyla brings some food from her bag.",
+        "Leyla: I have a few cucumbers and a little yogurt!",
+        "Nora: Amazing! Now we have a few of everything!",
+        "Sam: There is little time before lunch. Let's cook fast!",
+        "Leyla: When we share, even a little food becomes a great meal!"
+      ],
+      "translations": [
+        "Nora ve Sam mutfakta birlikte öğle yemeği yapıyor.",
+        "Nora: Salata için birkaç domatesim var. Bu iyi!",
+        "Sam: Ama buzdolabında az peynir var. Daha fazlasına ihtiyacımız var!",
+        "Nora: Salataya biraz zeytinyağı koyabiliriz. Sadece az miktarda.",
+        "Sam: Bugün az salatalık var. Sadece bir veya iki tane!",
+        "Leyla çantasından bir miktar yemek getirir.",
+        "Leyla: Birkaç salatalığım ve biraz yoğurdum var!",
+        "Nora: Harika! Şimdi her şeyden birkaç tane var!",
+        "Sam: Öğle yemeğinden önce az zaman var. Hızlı pişirelim!",
+        "Leyla: Paylaştığımızda az yemek bile harika bir öğün olur!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora have?",
+          "correct": "A few tomatoes",
+          "wrong": [
+            "A lot of cheese",
+            "No vegetables"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How much cheese is in the fridge?",
+          "correct": "Little",
+          "wrong": [
+            "A lot",
+            "None"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many cucumbers are there at first?",
+          "correct": "Few",
+          "wrong": [
+            "Many",
+            "None"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla bring?",
+          "correct": "Cucumbers and yogurt",
+          "wrong": [
+            "Cake and soda",
+            "Only sweets"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How much time is there?",
+          "correct": "Little",
+          "wrong": [
+            "A lot",
+            "None"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-6",
+      "title": "Food Traditions Around the World",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌍",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Each country has special food traditions.",
+        "In Türkiye, families eat kebab, yogurt and brown rice together.",
+        "In Italy, people make fresh pasta and pizza in their homes.",
+        "In Greece, moussaka is a very special family dish.",
+        "In Mexico, families enjoy tacos with fresh vegetables.",
+        "In Algeria, falafel is a popular food for everyone.",
+        "In England, fish and chips is the favourite at the weekend.",
+        "In Germany, sausage with bread is a classic meal.",
+        "In Azerbaijan, families cook brown rice with chicken or lamb.",
+        "Ms. Reed: Food traditions tell us about people and their cultures!"
+      ],
+      "translations": [
+        "Her ülkenin özel yemek gelenekleri vardır.",
+        "Türkiye'de aileler kebap, yoğurt ve esmer pirinci birlikte yer.",
+        "İtalya'da insanlar evlerinde taze makarna ve pizza yapar.",
+        "Yunanistan'da musakka çok özel bir aile yemeğidir.",
+        "Meksika'da aileler tako ile taze sebzelerden zevk alır.",
+        "Cezayir'de falafel herkes için popüler bir yemektir.",
+        "İngiltere'de fish and chips hafta sonu favorisidir.",
+        "Almanya'da ekmekli sosis klasik bir yemektir.",
+        "Azerbaycan'da aileler tavuk veya kuzu ile esmer pirinç pişirir.",
+        "Ms. Reed: Yemek gelenekleri bize insanları ve kültürlerini anlatır!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Food traditions in countries",
+          "wrong": [
+            "Sports",
+            "Schools"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What do families eat in Türkiye?",
+          "correct": "Kebab, yogurt, brown rice",
+          "wrong": [
+            "Pizza, pasta",
+            "Tacos"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is special in Greece?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is the favourite weekend food in England?",
+          "correct": "Fish and chips",
+          "wrong": [
+            "Pasta",
+            "Tacos"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is a classic meal in Germany?",
+          "correct": "Sausage with bread",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-7",
+      "title": "Planning Our Summer Adventure",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌞",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora and her friends are planning their summer.",
+        "Nora: I'm starving! Let's eat something while we plan.",
+        "Sam: Amazing idea! We are going to need a few snacks.",
+        "Leyla: After you, Nora! What is your plan?",
+        "Nora: My family is going to visit Spain. I am so excited!",
+        "Sam: That's enough planning! We need to write it down.",
+        "Leyla: Never mind the writing — let's just talk about it!",
+        "Nora: We are going to eat the most delicious food in Spain.",
+        "Sam: Thanks for everything, Nora. Your plans always sound amazing.",
+        "Leyla: I am going to remember this day forever!"
+      ],
+      "translations": [
+        "Nora ve arkadaşları yazlarını planlıyor.",
+        "Nora: Açlıktan ölüyorum! Plan yaparken bir şey yiyelim.",
+        "Sam: Harika fikir! Birkaç atıştırmalığa ihtiyacımız olacak.",
+        "Leyla: Önce sen, Nora! Planın ne?",
+        "Nora: Ailem İspanya'yı ziyaret edecek. Çok heyecanlıyım!",
+        "Sam: Bu kadar plan yeter! Yazmamız lazım.",
+        "Leyla: Boş ver yazmayı — sadece konuşalım!",
+        "Nora: İspanya'da en lezzetli yemekleri yiyeceğiz.",
+        "Sam: Her şey için teşekkürler Nora. Planların hep harika geliyor.",
+        "Leyla: Bu günü sonsuza dek hatırlayacağım!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "Planning summer",
+          "wrong": [
+            "School lessons",
+            "Cleaning"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does Nora say first?",
+          "correct": "I'm starving!",
+          "wrong": [
+            "Goodbye!",
+            "Hello!"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Nora's family going?",
+          "correct": "Spain",
+          "wrong": [
+            "Greece",
+            "Mexico"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam say?",
+          "correct": "That's enough planning!",
+          "wrong": [
+            "Goodbye",
+            "Hello"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam thank Nora for?",
+          "correct": "Everything",
+          "wrong": [
+            "The food",
+            "The book"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-8",
+      "title": "World Food Tasting Day",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🍽️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed organised a special world food tasting day at school.",
+        "First, the children tried a small piece of Turkish kebab. \"It tastes good!\" said Nora.",
+        "Then, they tasted Italian pizza. \"Amazing!\" said Sam. \"It tastes good!\"",
+        "After that, they tried Mexican tacos. Leyla said: \"Wow! It tastes good with the sauce!\"",
+        "Next, they tasted Greek moussaka. Everyone said: \"It tastes good!\"",
+        "They also tried Algerian falafel. \"Amazing!\" the children said together.",
+        "Nora: The English fish and chips tastes good with lemon.",
+        "Sam: I'm starving again — all this food tastes so good!",
+        "Leyla: Every dish from every country tastes good in its own way.",
+        "Ms. Reed: Thanks for everything, children! That was an amazing food day!"
+      ],
+      "translations": [
+        "Ms. Reed okulda özel bir dünya yemek tadım günü düzenledi.",
+        "İlk olarak çocuklar küçük bir parça Türk kebabı denedi. \"Lezzetli!\" dedi Nora.",
+        "Sonra İtalyan pizza tattılar. \"Harika!\" dedi Sam. \"Lezzetli!\"",
+        "Sonra Meksika tako denediler. Leyla dedi: \"Vay! Sosla lezzetli!\"",
+        "Sonra Yunan musakka tattılar. Herkes dedi: \"Lezzetli!\"",
+        "Cezayir falafel de denediler. \"Harika!\" dediler çocuklar birlikte.",
+        "Nora: İngiliz fish and chips limonla lezzetli.",
+        "Sam: Tekrar açlıktan ölüyorum — bütün bu yemekler çok lezzetli!",
+        "Leyla: Her ülkenin her yemeği kendi tarzında lezzetli.",
+        "Ms. Reed: Her şey için teşekkürler çocuklar! Harika bir yemek günüydü!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "correct": "World food tasting day",
+          "wrong": [
+            "School sports",
+            "Friends"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What did Nora say about kebab?",
+          "correct": "It tastes good!",
+          "wrong": [
+            "It is bad",
+            "Goodbye"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Sam say about pizza?",
+          "correct": "Amazing! It tastes good!",
+          "wrong": [
+            "Goodbye",
+            "Sorry"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How does Nora like fish and chips?",
+          "correct": "With lemon",
+          "wrong": [
+            "With salt",
+            "Cold"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Sam say at the end?",
+          "correct": "Food tastes so good",
+          "wrong": [
+            "Goodbye",
+            "I'm tired"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-9",
+      "title": "Holiday Food Memories",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🎒",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Last summer, our families travelled to different countries.",
+        "Nora: My family went to Spain. We ate fresh oranges and seafood every day.",
+        "Sam: My family went to Mexico. We tried tacos with different sauces.",
+        "Leyla: My family went to Northern Cyprus. We had grilled fish and salads.",
+        "Nora: I drank fresh lemonade every afternoon in Spain.",
+        "Sam: We bought a few strawberries at the Mexican market — they were the best!",
+        "Leyla: In Cyprus, we ate ice-cream every evening at the beach.",
+        "Nora: My favourite was the grapes from Spanish gardens.",
+        "Sam: My family is going to travel to Italy next summer!",
+        "Leyla: Food makes our holiday memories special!"
+      ],
+      "translations": [
+        "Geçen yaz ailelerimiz farklı ülkelere seyahat etti.",
+        "Nora: Ailem İspanya'ya gitti. Her gün taze portakal ve deniz mahsulleri yedik.",
+        "Sam: Ailem Meksika'ya gitti. Farklı soslarla tako denedik.",
+        "Leyla: Ailem Kuzey Kıbrıs'a gitti. Izgara balık ve salatalar yedik.",
+        "Nora: İspanya'da her öğleden sonra taze limonata içtim.",
+        "Sam: Meksika pazarından birkaç çilek aldık — en iyileri!",
+        "Leyla: Kıbrıs'ta plajda her akşam dondurma yedik.",
+        "Nora: Favorim İspanya bahçelerinden üzümlerdi.",
+        "Sam: Ailem gelecek yaz İtalya'ya seyahat edecek!",
+        "Leyla: Yemek tatil anılarımızı özel yapar!"
+      ],
+      "questions": [
+        {
+          "q": "Where did Nora's family go?",
+          "correct": "Spain",
+          "wrong": [
+            "Mexico",
+            "Cyprus"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Sam's family try?",
+          "correct": "Tacos with sauces",
+          "wrong": [
+            "Pizza",
+            "Pasta"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What did Leyla eat in Cyprus?",
+          "correct": "Grilled fish and salads",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did Nora drink in Spain?",
+          "correct": "Fresh lemonade",
+          "wrong": [
+            "Milk",
+            "Soda"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What was Nora's favourite?",
+          "correct": "Grapes",
+          "wrong": [
+            "Cake",
+            "Pizza"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-10",
+      "title": "Our School Trip Plans",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🚌",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "The class is planning a school trip to a famous restaurant in the city.",
+        "Ms. Reed: Next Monday, we are going to visit a Turkish restaurant.",
+        "Nora: I think we will try many delicious dishes.",
+        "Sam: We are going to taste kebab, soup and brown rice there.",
+        "Leyla: I think the soup will be the best part of the meal.",
+        "Nora: I am going to bring my camera to take photos.",
+        "Sam: I think we will see real chefs in the kitchen!",
+        "Leyla: We are going to learn about Turkish food traditions.",
+        "Ms. Reed: It is going to be a wonderful learning day.",
+        "Nora: I think we will all love this trip!"
+      ],
+      "translations": [
+        "Sınıf şehirdeki ünlü bir restorana okul gezisi planlıyor.",
+        "Ms. Reed: Gelecek Pazartesi bir Türk restoranını ziyaret edeceğiz.",
+        "Nora: Bence birçok lezzetli yemek deneyeceğiz.",
+        "Sam: Orada kebap, çorba ve esmer pirinç tadacağız.",
+        "Leyla: Bence çorba yemeğin en güzel kısmı olacak.",
+        "Nora: Fotoğraf çekmek için kameramı götüreceğim.",
+        "Sam: Bence mutfakta gerçek şefler göreceğiz!",
+        "Leyla: Türk yemek geleneklerini öğreneceğiz.",
+        "Ms. Reed: Harika bir öğrenme günü olacak.",
+        "Nora: Bence hepimiz bu geziyi seveceğiz!"
+      ],
+      "questions": [
+        {
+          "q": "Where is the class going?",
+          "correct": "Turkish restaurant",
+          "wrong": [
+            "Italian restaurant",
+            "Beach"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What are they going to taste?",
+          "correct": "Kebab, soup, brown rice",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Leyla think will be best?",
+          "correct": "The soup",
+          "wrong": [
+            "The cake",
+            "The drinks"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Nora going to bring?",
+          "correct": "Her camera",
+          "wrong": [
+            "A book",
+            "A football"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What does Sam think they will see?",
+          "correct": "Real chefs",
+          "wrong": [
+            "Singers",
+            "Cars"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
     }
   ],
   "int": [
@@ -1035,6 +2561,769 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-4",
+      "title": "Making a Healthy Breakfast",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🥪",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: Let's make a healthy breakfast together!",
+        "Nora: We need a few eggs and a little butter for the eggs.",
+        "Sam: I am going to bring a few strawberries and a little milk.",
+        "Leyla: We are going to use a few pieces of brown bread and some yogurt.",
+        "Nora: Let's add a few grapes and a little honey for sweetness.",
+        "Sam: We have a few cherries from my garden, too.",
+        "Leyla: Are we going to drink milk or fresh orange juice?",
+        "Nora: We are going to have both! Milk for me and juice for you.",
+        "Sam: This is going to be the best breakfast ever!",
+        "Leyla: Healthy food gives us energy for the whole day!"
+      ],
+      "translations": [
+        "Nora: Birlikte sağlıklı bir kahvaltı yapalım!",
+        "Nora: Yumurtalar için birkaç yumurtaya ve biraz tereyağına ihtiyacımız var.",
+        "Sam: Birkaç çilek ve biraz süt getireceğim.",
+        "Leyla: Birkaç parça esmer ekmek ve biraz yoğurt kullanacağız.",
+        "Nora: Tatlılık için birkaç üzüm ve biraz bal ekleyelim.",
+        "Sam: Bahçemden birkaç kiraz da var.",
+        "Leyla: Süt mü yoksa taze portakal suyu mu içeceğiz?",
+        "Nora: İkisini de alacağız! Süt benim için, su sizin için.",
+        "Sam: Bu şimdiye kadarki en iyi kahvaltı olacak!",
+        "Leyla: Sağlıklı yemek bütün gün için bize enerji verir!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora need for the eggs?",
+          "correct": "A few eggs and butter",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is Sam going to bring?",
+          "correct": "Strawberries and milk",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What sweetener does Nora suggest?",
+          "correct": "A little honey",
+          "wrong": [
+            "A lot of sugar",
+            "Chocolate"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam have from his garden?",
+          "correct": "Cherries",
+          "wrong": [
+            "Pears",
+            "Lemons"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What are they going to drink?",
+          "correct": "Both milk and juice",
+          "wrong": [
+            "Only soda",
+            "Only water"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-5",
+      "title": "A Holiday in Northern Cyprus",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🏖️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Last summer, Nora's family travelled to Northern Cyprus.",
+        "They stayed in a small beach house for two weeks.",
+        "Every morning, they ate a healthy breakfast with bread, cheese, olives and tomatoes.",
+        "Nora drank a glass of milk and ate a few cherries every day.",
+        "For lunch, they ate grilled fish with green salad and lemon.",
+        "Nora: The lemon made the fish taste good!",
+        "In the evening, they tried local dishes — kebab and brown rice.",
+        "Sam: My family is going to travel to Northern Cyprus next year too!",
+        "Leyla: Did you try moussaka there?",
+        "Nora: Yes! Moussaka in Northern Cyprus is amazing — it tastes good with yogurt."
+      ],
+      "translations": [
+        "Geçen yaz Nora'nın ailesi Kuzey Kıbrıs'a seyahat etti.",
+        "İki hafta küçük bir plaj evinde kaldılar.",
+        "Her sabah ekmek, peynir, zeytin ve domateslerle sağlıklı bir kahvaltı yaptılar.",
+        "Nora her gün bir bardak süt içti ve birkaç kiraz yedi.",
+        "Öğle yemeğinde yeşil salata ve limonla ızgara balık yediler.",
+        "Nora: Limon balığı lezzetli yaptı!",
+        "Akşam yerel yemekler denediler — kebap ve esmer pirinç.",
+        "Sam: Ailem gelecek yıl Kuzey Kıbrıs'a da seyahat edecek!",
+        "Leyla: Orada musakka denedin mi?",
+        "Nora: Evet! Kuzey Kıbrıs'taki musakka harika — yoğurtla lezzetli."
+      ],
+      "questions": [
+        {
+          "q": "Where did Nora's family go?",
+          "correct": "Northern Cyprus",
+          "wrong": [
+            "Italy",
+            "Mexico"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What did they eat for breakfast?",
+          "correct": "Bread, cheese, olives",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What did Nora drink?",
+          "correct": "Milk",
+          "wrong": [
+            "Soda",
+            "Lemonade"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What did they eat for lunch?",
+          "correct": "Grilled fish with salad",
+          "wrong": [
+            "Tacos",
+            "Pizza"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How does moussaka taste with yogurt?",
+          "correct": "It tastes good",
+          "wrong": [
+            "Bad",
+            "Boring"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-6",
+      "title": "A Lunch with International Friends",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌐",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora, Sam and Leyla are having lunch with new international friends today.",
+        "Their friend Marco from Italy brings pizza and pasta.",
+        "Nora: It tastes good! The cheese is amazing!",
+        "Their friend Carlos from Mexico brings tacos with vegetables.",
+        "Sam: Wow! The tacos taste good with these spicy sauces!",
+        "Their friend Elif from Türkiye brings kebab and brown rice.",
+        "Leyla: Amazing! This kebab tastes good with a little yogurt.",
+        "Their friend Yusuf from Algeria brings falafel and green salad.",
+        "Nora: The falafel tastes good with a little lemon!",
+        "Sam: I'm starving! Thanks for everything, friends!"
+      ],
+      "translations": [
+        "Nora, Sam ve Leyla bugün yeni uluslararası arkadaşlarıyla öğle yemeği yiyorlar.",
+        "İtalya'dan arkadaşları Marco pizza ve makarna getiriyor.",
+        "Nora: Lezzetli! Peynir harika!",
+        "Meksika'dan arkadaşları Carlos sebzeli tako getiriyor.",
+        "Sam: Vay! Tako bu baharatlı soslarla lezzetli!",
+        "Türkiye'den arkadaşları Elif kebap ve esmer pirinç getiriyor.",
+        "Leyla: Harika! Bu kebap biraz yoğurtla lezzetli.",
+        "Cezayir'den arkadaşları Yusuf falafel ve yeşil salata getiriyor.",
+        "Nora: Falafel biraz limonla lezzetli!",
+        "Sam: Açlıktan ölüyorum! Her şey için teşekkürler arkadaşlar!"
+      ],
+      "questions": [
+        {
+          "q": "Who brings pizza?",
+          "correct": "Marco from Italy",
+          "wrong": [
+            "Carlos from Mexico",
+            "Elif from Türkiye"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who brings tacos?",
+          "correct": "Carlos from Mexico",
+          "wrong": [
+            "Marco from Italy",
+            "Yusuf from Algeria"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Elif bring?",
+          "correct": "Kebab and brown rice",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How does Leyla like the kebab?",
+          "correct": "With a little yogurt",
+          "wrong": [
+            "With sauce",
+            "Without anything"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How does Nora like the falafel?",
+          "correct": "With a little lemon",
+          "wrong": [
+            "With cheese",
+            "Cold"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-7",
+      "title": "Around the World This Summer",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🗺️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: I am going to travel to Germany next month with my mother.",
+        "We are going to try sausage with brown bread in Berlin.",
+        "I am also going to drink fresh apple juice in a German café.",
+        "Sam: My family is going to fly to Algeria in August.",
+        "We are going to eat the most delicious falafel in Algiers.",
+        "I am also going to try a few new vegetables at the market.",
+        "Leyla: My family is going to visit Azerbaijan in July.",
+        "We are going to try traditional dishes with my Azerbaijani cousins.",
+        "Nora: We are all going to have amazing summer holidays!",
+        "Sam: I'm starving just thinking about all this food!"
+      ],
+      "translations": [
+        "Nora: Gelecek ay annemle Almanya'ya seyahat edeceğim.",
+        "Berlin'de esmer ekmekle sosis deneyeceğiz.",
+        "Almanya'da bir kafede taze elma suyu da içeceğim.",
+        "Sam: Ailem Ağustos'ta Cezayir'e uçacak.",
+        "Cezayir'de en lezzetli falafeli yiyeceğiz.",
+        "Pazarda birkaç yeni sebze de deneyeceğim.",
+        "Leyla: Ailem Temmuz'da Azerbaycan'ı ziyaret edecek.",
+        "Azerbaycanlı kuzenlerimle geleneksel yemekler deneyeceğiz.",
+        "Nora: Hepimizin harika yaz tatilleri olacak!",
+        "Sam: Bütün bu yemekleri düşününce açlıktan ölüyorum!"
+      ],
+      "questions": [
+        {
+          "q": "Where is Nora going?",
+          "correct": "Germany",
+          "wrong": [
+            "Algeria",
+            "Azerbaijan"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Nora going to try in Berlin?",
+          "correct": "Sausage with brown bread",
+          "wrong": [
+            "Tacos",
+            "Pizza"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is Sam's family going?",
+          "correct": "Algeria",
+          "wrong": [
+            "Germany",
+            "Mexico"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is Sam going to try at the market?",
+          "correct": "New vegetables",
+          "wrong": [
+            "Cake",
+            "Soda"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Where is Leyla going?",
+          "correct": "Azerbaijan",
+          "wrong": [
+            "Algeria",
+            "Germany"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-8",
+      "title": "New Tastes in Our Kitchen",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍋",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: My mum is teaching me about new healthy ingredients.",
+        "Today we are using lemon, plum and brown rice for our meals.",
+        "Lemon makes salads taste good. It is full of vitamin C.",
+        "Sam: My family eats brown rice every week. It is healthier than white rice.",
+        "Leyla: I love plum! My grandmother makes plum jam every autumn.",
+        "Nora: We are going to make a special lemon chicken with brown rice for dinner.",
+        "Sam: My mum cooks a few plums with chicken sometimes. It tastes good!",
+        "Leyla: Plums are sweet and a little sour. They are amazing in salads.",
+        "Nora: Brown rice with chicken and lemon — the perfect healthy meal!",
+        "Sam: I'm starving! Let's eat now!"
+      ],
+      "translations": [
+        "Nora: Annem bana yeni sağlıklı malzemeler öğretiyor.",
+        "Bugün yemeklerimiz için limon, erik ve esmer pirinç kullanıyoruz.",
+        "Limon salatayı lezzetli yapar. C vitamini doludur.",
+        "Sam: Ailem her hafta esmer pirinç yer. Beyaz pirinçten daha sağlıklıdır.",
+        "Leyla: Eriği çok severim! Büyükannem her sonbahar erik reçeli yapar.",
+        "Nora: Akşam yemeği için tavuklu limonlu özel bir yemek esmer pirinçle yapacağız.",
+        "Sam: Annem bazen birkaç eriği tavukla pişirir. Lezzetli!",
+        "Leyla: Erikler tatlı ve biraz ekşi. Salatalarda harika.",
+        "Nora: Esmer pirinç tavuk ve limonla — mükemmel sağlıklı yemek!",
+        "Sam: Açlıktan ölüyorum! Şimdi yiyelim!"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora's mum teach?",
+          "correct": "Healthy ingredients",
+          "wrong": [
+            "Sports",
+            "Music"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What does lemon do for salad?",
+          "correct": "Makes it taste good",
+          "wrong": [
+            "Makes it cold",
+            "Makes it dry"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Sam's family eat every week?",
+          "correct": "Brown rice",
+          "wrong": [
+            "Pizza",
+            "Soda"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Leyla's grandmother make?",
+          "correct": "Plum jam",
+          "wrong": [
+            "Cake",
+            "Pizza"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Nora going to make?",
+          "correct": "Lemon chicken with brown rice",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-9",
+      "title": "Dinner Table Conversation",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍽️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Sam, Nora and Leyla are having dinner together at Leyla's house.",
+        "Sam: I'm starving! The food smells amazing!",
+        "Leyla: After you, Sam! Please, take a seat at the table.",
+        "Nora: Wow! This dinner looks delicious. It tastes good!",
+        "Leyla: My mum made fresh pasta with tomato sauce.",
+        "Sam: It tastes good! Can I have a little more?",
+        "Leyla: That's enough for now. We have ice-cream for dessert!",
+        "Nora: Amazing! I love ice-cream after dinner.",
+        "Sam: Never mind the rules — let's enjoy the meal!",
+        "Leyla: Thanks for everything! Friends and food make life special!"
+      ],
+      "translations": [
+        "Sam, Nora ve Leyla bu akşam Leyla'nın evinde yemek yiyor.",
+        "Sam: Açlıktan ölüyorum! Yemek harika kokuyor!",
+        "Leyla: Önce sen, Sam! Lütfen masaya otur.",
+        "Nora: Vay! Bu akşam yemeği lezzetli görünüyor. Lezzetli!",
+        "Leyla: Annem domates soslu taze makarna yaptı.",
+        "Sam: Lezzetli! Biraz daha alabilir miyim?",
+        "Leyla: Şimdilik bu kadar yeter. Tatlı için dondurmamız var!",
+        "Nora: Harika! Yemekten sonra dondurma severim.",
+        "Sam: Boş ver kuralları — yemeğin tadını çıkaralım!",
+        "Leyla: Her şey için teşekkürler! Arkadaşlar ve yemek hayatı özel yapar!"
+      ],
+      "questions": [
+        {
+          "q": "What does Sam say first?",
+          "correct": "I'm starving!",
+          "wrong": [
+            "Goodbye!",
+            "Hello!"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Leyla say to Sam?",
+          "correct": "After you!",
+          "wrong": [
+            "Goodbye",
+            "Hurry up"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What did Leyla's mum make?",
+          "correct": "Fresh pasta",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is for dessert?",
+          "correct": "Ice-cream",
+          "wrong": [
+            "Cake",
+            "Cookies"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Leyla say at the end?",
+          "correct": "Thanks for everything",
+          "wrong": [
+            "Goodbye",
+            "I'm tired"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-10",
+      "title": "Healthy Snacks for the Week",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🍎",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Ms. Reed: Let's make a list of healthy snacks for the week.",
+        "Nora: We can have a few strawberries and a little yogurt for Monday.",
+        "Sam: For Tuesday, a few grapes and a little brown bread will be good.",
+        "Leyla: For Wednesday, we can have a few pears and a little honey.",
+        "Nora: But there is little milk in my fridge. I need to buy more!",
+        "Sam: For Thursday, a few cherries and a little nuts will be amazing.",
+        "Leyla: For Friday, we can eat a little plum jam on toast.",
+        "Nora: For the weekend, we can have a few lemons for fresh lemonade.",
+        "Sam: There are few unhealthy snacks on this list — that is great!",
+        "Ms. Reed: A few healthy snacks a day make us strong and happy!"
+      ],
+      "translations": [
+        "Ms. Reed: Hafta için sağlıklı atıştırmalıklar listesi yapalım.",
+        "Nora: Pazartesi için birkaç çilek ve biraz yoğurt alabiliriz.",
+        "Sam: Salı için birkaç üzüm ve biraz esmer ekmek iyi olur.",
+        "Leyla: Çarşamba için birkaç armut ve biraz bal alabiliriz.",
+        "Nora: Ama buzdolabımda az süt var. Daha fazla almam gerek!",
+        "Sam: Perşembe için birkaç kiraz ve biraz fındık harika olur.",
+        "Leyla: Cuma için tostta biraz erik reçeli yiyebiliriz.",
+        "Nora: Hafta sonu için taze limonata için birkaç limon alabiliriz.",
+        "Sam: Bu listede az sağlıksız atıştırmalık var — bu harika!",
+        "Ms. Reed: Günde birkaç sağlıklı atıştırmalık bizi güçlü ve mutlu yapar!"
+      ],
+      "questions": [
+        {
+          "q": "What is for Monday?",
+          "correct": "Strawberries and yogurt",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is for Wednesday?",
+          "correct": "Pears and honey",
+          "wrong": [
+            "Cake",
+            "Tacos"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in Nora's fridge?",
+          "correct": "Little milk",
+          "wrong": [
+            "A lot of milk",
+            "No milk"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is for Friday?",
+          "correct": "Plum jam on toast",
+          "wrong": [
+            "Pizza",
+            "Cake"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What are for the weekend?",
+          "correct": "Lemons for lemonade",
+          "wrong": [
+            "Pizza",
+            "Soda"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -1271,6 +3560,864 @@
           "hint": "Find what Nora says at the end of the text.",
           "hl": [
             11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-3",
+      "title": "Which Healthy Food?",
+      "subtitle": "Use the clues to find the food!",
+      "icon": "🥒",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "There is a healthy food in this riddle.",
+        "It is not milk. It is not a strawberry.",
+        "It is not a pear.",
+        "It is a green vegetable.",
+        "It is long and crunchy.",
+        "We often put it in salads.",
+        "What food is it?",
+        "It is a cucumber!"
+      ],
+      "translations": [
+        "Bu bilmecede sağlıklı bir yemek var.",
+        "Süt değil. Çilek değil.",
+        "Armut değil.",
+        "Yeşil bir sebze.",
+        "Uzun ve çıtırtılı.",
+        "Sıklıkla salatalara koyarız.",
+        "Bu hangi yemek?",
+        "Salatalık!"
+      ],
+      "questions": [
+        {
+          "q": "Is it milk?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What colour is it?",
+          "correct": "Green",
+          "wrong": [
+            "Red",
+            "Yellow"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How is it?",
+          "correct": "Long and crunchy",
+          "wrong": [
+            "Small and soft",
+            "Round and sweet"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where do we put it?",
+          "correct": "In salads",
+          "wrong": [
+            "In cake",
+            "In soda"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What food is it?",
+          "correct": "A cucumber",
+          "wrong": [
+            "A pear",
+            "A strawberry"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "Which Country's Dish?",
+      "subtitle": "Use the clues to find the dish!",
+      "icon": "🥙",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        }
+      ],
+      "sentences": [
+        "There is a famous dish in this riddle.",
+        "It is not pizza. It is not tacos.",
+        "It is not fish and chips.",
+        "It is a popular dish from Algeria.",
+        "It is small and round.",
+        "It is made from chickpeas.",
+        "What dish is it?",
+        "It is falafel!"
+      ],
+      "translations": [
+        "Bu bilmecede ünlü bir yemek var.",
+        "Pizza değil. Tako değil.",
+        "Fish and chips değil.",
+        "Cezayir'den popüler bir yemek.",
+        "Küçük ve yuvarlak.",
+        "Nohuttan yapılır.",
+        "Bu hangi yemek?",
+        "Falafel!"
+      ],
+      "questions": [
+        {
+          "q": "Is it pizza?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where is it from?",
+          "correct": "Algeria",
+          "wrong": [
+            "Italy",
+            "Mexico"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How does it look?",
+          "correct": "Small and round",
+          "wrong": [
+            "Big and flat",
+            "Long and thin"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is it made from?",
+          "correct": "Chickpeas",
+          "wrong": [
+            "Meat",
+            "Cheese"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What dish is it?",
+          "correct": "Falafel",
+          "wrong": [
+            "Moussaka",
+            "Kebab"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "Where Is Sam Going?",
+      "subtitle": "Use the clues to find the country!",
+      "icon": "🌎",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Sam is going on a holiday next month.",
+        "He is not going to Italy.",
+        "He is not going to Türkiye.",
+        "He is not going to Greece.",
+        "He is going to a country with spicy food.",
+        "He is going to eat tacos every day.",
+        "Where is Sam going?",
+        "He is going to Mexico!"
+      ],
+      "translations": [
+        "Sam gelecek ay tatile gidiyor.",
+        "İtalya'ya gitmiyor.",
+        "Türkiye'ye gitmiyor.",
+        "Yunanistan'a gitmiyor.",
+        "Baharatlı yemeği olan bir ülkeye gidiyor.",
+        "Her gün tako yiyecek.",
+        "Sam nereye gidiyor?",
+        "Meksika'ya!"
+      ],
+      "questions": [
+        {
+          "q": "Is Sam going to Italy?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What kind of food does the country have?",
+          "correct": "Spicy food",
+          "wrong": [
+            "Sweet food",
+            "Cold food"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is Sam going to eat?",
+          "correct": "Tacos",
+          "wrong": [
+            "Pizza",
+            "Falafel"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Is Sam going to Greece?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Sam going?",
+          "correct": "Mexico",
+          "wrong": [
+            "Italy",
+            "Greece"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            4,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-6",
+      "title": "Healthy or Unhealthy?",
+      "subtitle": "Use the clues to decide!",
+      "icon": "❓",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Look at this special food.",
+        "It is not a vegetable.",
+        "It is not a fruit.",
+        "It is full of sugar.",
+        "Children love it after dinner.",
+        "It is cold and sweet.",
+        "Is it healthy or unhealthy? What food is it?",
+        "It is unhealthy. It is ice-cream!"
+      ],
+      "translations": [
+        "Bu özel yemeğe bak.",
+        "Sebze değil.",
+        "Meyve değil.",
+        "Şeker dolu.",
+        "Çocuklar yemekten sonra çok sever.",
+        "Soğuk ve tatlı.",
+        "Sağlıklı mı sağlıksız mı? Bu hangi yemek?",
+        "Sağlıksız. Dondurma!"
+      ],
+      "questions": [
+        {
+          "q": "Is it a vegetable?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What is it full of?",
+          "correct": "Sugar",
+          "wrong": [
+            "Vitamins",
+            "Water"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "When do children love it?",
+          "correct": "After dinner",
+          "wrong": [
+            "Before school",
+            "At lunch"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How is it?",
+          "correct": "Cold and sweet",
+          "wrong": [
+            "Hot and spicy",
+            "Sour"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What food is it?",
+          "correct": "Ice-cream",
+          "wrong": [
+            "A cucumber",
+            "A pear"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-7",
+      "title": "Which Word Is Right?",
+      "subtitle": "Use the clues to find the word!",
+      "icon": "🔤",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Nora needs the right word for her sentence.",
+        "She is talking about milk in her glass.",
+        "Milk is not something you can count one by one.",
+        "She has some milk, but not a lot.",
+        "Should she say 'a few milk' or 'a little milk'?",
+        "Milk is uncountable. We say 'a little'.",
+        "Which word is right?",
+        "The right word is 'a little'!"
+      ],
+      "translations": [
+        "Nora'nın cümlesi için doğru kelimeye ihtiyacı var.",
+        "Bardakındaki sütten konuşuyor.",
+        "Süt teker teker sayılabilen bir şey değil.",
+        "Biraz sütü var, ama çok değil.",
+        "'A few milk' mu yoksa 'a little milk' mı demeli?",
+        "Süt sayılamaz. 'A little' deriz.",
+        "Hangi kelime doğru?",
+        "Doğru kelime 'a little'!"
+      ],
+      "questions": [
+        {
+          "q": "What is Nora talking about?",
+          "correct": "Milk",
+          "wrong": [
+            "Cookies",
+            "Apples"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Can you count milk one by one?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How much milk does she have?",
+          "correct": "Some, not a lot",
+          "wrong": [
+            "No milk",
+            "A lot"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is milk countable?",
+          "correct": "No, uncountable",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Which word is right?",
+          "correct": "A little",
+          "wrong": [
+            "A few",
+            "Many"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-8",
+      "title": "Which Expression Fits?",
+      "subtitle": "Use the clues to find the expression!",
+      "icon": "💬",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Sam has not eaten all day.",
+        "He didn't eat breakfast. He didn't eat lunch.",
+        "He didn't even have a snack.",
+        "It is now dinner time, and he can smell delicious food.",
+        "Sam wants to say something to show he is very hungry.",
+        "It is not 'Thanks for everything'.",
+        "It is not 'After you'.",
+        "What does Sam say?",
+        "He says: 'I'm starving!'"
+      ],
+      "translations": [
+        "Sam bütün gün yemek yemedi.",
+        "Kahvaltı etmedi. Öğle yemeği yemedi.",
+        "Atıştırmalık bile almadı.",
+        "Şimdi akşam yemeği zamanı ve lezzetli yemek kokusu alabiliyor.",
+        "Sam çok aç olduğunu göstermek için bir şey söylemek istiyor.",
+        "'Thanks for everything' değil.",
+        "'After you' değil.",
+        "Sam ne söyler?",
+        "Şöyle der: 'Açlıktan ölüyorum!'"
+      ],
+      "questions": [
+        {
+          "q": "Did Sam eat breakfast?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What time is it?",
+          "correct": "Dinner time",
+          "wrong": [
+            "Morning",
+            "Noon"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does Sam want to show?",
+          "correct": "He is hungry",
+          "wrong": [
+            "He is tired",
+            "He is happy"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is it 'After you'?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Sam say?",
+          "correct": "I'm starving",
+          "wrong": [
+            "After you",
+            "Thanks"
+          ],
+          "hint": "Match all clues.",
+          "hl": [
+            4,
+            5,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-9",
+      "title": "Which Is the Most Delicious?",
+      "subtitle": "Use the clues to find the dish!",
+      "icon": "🥇",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Three friends are tasting different dishes.",
+        "Sam tastes pizza. He says it is good.",
+        "Leyla tastes tacos. She says they are good, too.",
+        "Nora tastes moussaka. She says it is the most delicious of all!",
+        "She says: \"The eggplant and meat together are amazing.\"",
+        "\"Greek moussaka is the best dish for me.\"",
+        "Which dish is the most delicious for Nora?",
+        "Moussaka is the most delicious!"
+      ],
+      "translations": [
+        "Üç arkadaş farklı yemekler tadıyor.",
+        "Sam pizza tadıyor. İyi olduğunu söylüyor.",
+        "Leyla tako tadıyor. O da iyi olduğunu söylüyor.",
+        "Nora musakka tadıyor. Hepsinin en lezzetlisi olduğunu söylüyor!",
+        "Diyor ki: \"Patlıcan ve et birlikte harika.\"",
+        "\"Yunan musakka benim için en iyi yemek.\"",
+        "Nora için hangi yemek en lezzetli?",
+        "Musakka en lezzetli!"
+      ],
+      "questions": [
+        {
+          "q": "What does Sam taste?",
+          "correct": "Pizza",
+          "wrong": [
+            "Tacos",
+            "Moussaka"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What does Leyla taste?",
+          "correct": "Tacos",
+          "wrong": [
+            "Pizza",
+            "Moussaka"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What does Nora taste?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is in moussaka?",
+          "correct": "Eggplant and meat",
+          "wrong": [
+            "Cheese only",
+            "Sugar"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the most delicious?",
+          "correct": "Moussaka",
+          "wrong": [
+            "Pizza",
+            "Tacos"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-10",
+      "title": "Plan or Prediction?",
+      "subtitle": "Use the clues to find the right form!",
+      "icon": "🤔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        },
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Nora is talking about tomorrow.",
+        "She is not making a prediction about the weather.",
+        "She has tickets, plans and a packed bag.",
+        "She knows exactly what she will do.",
+        "It is a planned action, not a guess.",
+        "Should she use 'will' or 'going to'?",
+        "For planned future actions, we use 'going to'.",
+        "What does Nora say?",
+        "She says: 'I am going to travel to Italy tomorrow!'"
+      ],
+      "translations": [
+        "Nora yarın hakkında konuşuyor.",
+        "Hava hakkında tahmin yapmıyor.",
+        "Biletleri, planları ve hazır çantası var.",
+        "Tam olarak ne yapacağını biliyor.",
+        "Tahmin değil, planlanmış bir eylem.",
+        "'Will' mi yoksa 'going to' mu kullanmalı?",
+        "Planlanmış gelecek eylemleri için 'going to' kullanırız.",
+        "Nora ne söyler?",
+        "Şöyle der: 'Yarın İtalya'ya seyahat edeceğim!'"
+      ],
+      "questions": [
+        {
+          "q": "What does Nora have?",
+          "correct": "Tickets, plans, packed bag",
+          "wrong": [
+            "Nothing",
+            "A book"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is it a guess?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is it a planned action?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Which form do we use for plans?",
+          "correct": "Going to",
+          "wrong": [
+            "Will",
+            "Should"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What does Nora say?",
+          "correct": "I am going to travel",
+          "wrong": [
+            "I will travel",
+            "I may travel"
+          ],
+          "hint": "Match the clues.",
+          "hl": [
+            6,
+            8
           ]
         }
       ]
