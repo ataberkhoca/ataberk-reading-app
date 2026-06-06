@@ -1771,6 +1771,103 @@ button.celeb-retry {
 .cw-fntower{width:38px;height:70px;margin:-1px auto 0;background:repeating-linear-gradient(0deg,#F2F2EC 0 13px,#E8554A 13px 26px);clip-path:polygon(18% 100%,82% 100%,70% 0,30% 0);border-radius:3px 3px 0 0}
 @keyframes cwFnHouse{to{opacity:1;transform:translateX(-50%) translateY(0)}}
 
+/* ═══════════════════════════════════════════
+   EVRENSEL ESKİZ DEFTERİ ZEMİNİ
+   Intro'daki eskiz estetiği tüm temasız ekranlara uygulanır.
+   Tema seçildikten sonraki ekranlar (etkinlik, text-select, game)
+   ileride kendi tema sahnelerine geçecek — o zaman bu kurallar
+   tema-spesifik kurallarla override edilecek.
+═══════════════════════════════════════════ */
+
+/* (1) Defter kağıdı — eski noktalı zemini sıfırlar */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #FBFAF2;
+  background-image:
+    linear-gradient(rgba(43,58,85,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43,58,85,.045) 1px, transparent 1px),
+    radial-gradient(circle at 50% 0%, rgba(242,193,78,.10), transparent 55%);
+  background-size: 26px 26px, 26px 26px, 100% 100%;
+  opacity: 1;
+}
+
+/* (2) Kırmızı marj çizgisi — intro ile aynı: viewport solundan 30px, ekran boyutundan bağımsız */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  width: 2px;
+  background: #E8A0A8;
+  opacity: .55;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* (3) Eski renkli blob dekorlarını gizle — eskiz zeminiyle çakışıyor */
+.blob { display: none !important; }
+
+/* (4) Intro kendi tam-viewport defter zeminini ve marjını taşıyor;
+       universal kurallar onun üstüne çıkmasın */
+body.intro-mode::after { display: none !important; }
+
+/* (5) UNİVERSAL DOODLE + KÖŞE DEKORU
+       İntro'nun "yaşayan defter" hissini veren doodle'ları ve köşe
+       güneş+bulutunu temasız sayfalara taşır. */
+#ud-doodles {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+#ud-doodles .ud {
+  position: absolute;
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  white-space: nowrap;
+  animation: udSway var(--dur) ease-in-out var(--delay) infinite;
+}
+@keyframes udSway {
+  0%, 100% { transform: translateY(0) rotate(var(--rot)); }
+  50%      { transform: translateY(-6px) rotate(calc(var(--rot) + 3deg)); }
+}
+.ud-corner {
+  position: fixed;
+  z-index: 0;
+  opacity: 0.38;
+  pointer-events: none;
+}
+.ud-corner.ud-sun {
+  top: 10px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  animation: udSpin 30s linear infinite;
+}
+.ud-corner.ud-cloud {
+  bottom: 14px;
+  left: 16px;
+  width: 78px;
+  height: 30px;
+  animation: udCloud 9s ease-in-out infinite;
+}
+@keyframes udSpin { to { transform: rotate(360deg); } }
+@keyframes udCloud {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(14px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #ud-doodles .ud, .ud-corner { animation: none !important; }
+}
+body.intro-mode #ud-doodles,
+body.intro-mode .ud-corner { display: none !important; }
+
 </style>
 </head>
 <body>
@@ -1778,6 +1875,30 @@ button.celeb-retry {
 <div class="blob blob-2"></div>
 <div class="blob blob-3"></div>
 <div class="confetti-wrap" id="confetti-wrap"></div>
+
+<!-- Universal eskiz dekoru: doodle havuzu + köşe güneşi + bulutu (intro hariç tüm ekranlarda) -->
+<div id="ud-doodles" aria-hidden="true"></div>
+<div class="ud-corner ud-sun" aria-hidden="true">
+  <svg viewBox="0 0 54 54" width="100%" height="100%">
+    <circle cx="27" cy="27" r="13" fill="none" stroke="#F2C14E" stroke-width="3"/>
+    <g stroke="#F2C14E" stroke-width="3" stroke-linecap="round">
+      <line x1="27" y1="3" x2="27" y2="10"/>
+      <line x1="27" y1="44" x2="27" y2="51"/>
+      <line x1="3" y1="27" x2="10" y2="27"/>
+      <line x1="44" y1="27" x2="51" y2="27"/>
+      <line x1="9" y1="9" x2="14" y2="14"/>
+      <line x1="40" y1="40" x2="45" y2="45"/>
+      <line x1="9" y1="45" x2="14" y2="40"/>
+      <line x1="40" y1="14" x2="45" y2="9"/>
+    </g>
+  </svg>
+</div>
+<div class="ud-corner ud-cloud" aria-hidden="true">
+  <svg viewBox="0 0 88 36" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+    <path d="M 10 22 Q 5 13 14 11 Q 18 3 28 6 Q 36 0 46 5 Q 54 0 64 5 Q 74 4 74 14 Q 84 14 80 24 Q 84 32 72 33 Q 56 36 44 33 Q 28 35 18 33 Q 4 32 10 22 Z"
+          fill="none" stroke="#5A6680" stroke-width="2.5" stroke-linejoin="round"/>
+  </svg>
+</div>
 
 <!-- Translation popup -->
 <div class="tr-popup" id="tr-popup">
@@ -3863,5 +3984,73 @@ renderThemeList();
 </script>
 
 <div class="toast" id="toast"></div>
+
+<script>
+/* ═══════════════════════════════════════════
+   UNİVERSAL DOODLE MOTORU
+   İntro'daki gibi tüm viewport'a 22 doodle dağıtır. İçerik kartları
+   solid arka plana sahip olduğu için arkalarındaki doodle'ları otomatik
+   olarak kapatır; aralarında ve kenarlarında kalan boşluklardan doodle'lar
+   sızar — "yaşayan defter" hissi bu sayede oluşur.
+═══════════════════════════════════════════ */
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var ITEMS = ['abc','★','book 📖','hello ~','123 ♪','read','a b c','cat 🐱','☀','dog 🐶','fun!','play','✦','school','run','happy :)','+','✎','apple 🍎','word','sky','friend ♡','♪♫','✪'];
+  var COLORS = ['#3FA66A','#3A7BD5','#E64B4B','#F2C14E'];
+
+  function build(){
+    var box = document.getElementById('ud-doodles');
+    if(!box) return;
+    box.innerHTML = '';
+    var W = window.innerWidth;
+    var H = window.innerHeight;
+
+    var positions = [];
+    function near(x, y){
+      return positions.some(function(p){ return Math.hypot(p.x-x, p.y-y) < 95; });
+    }
+
+    var target = reduce ? 14 : 22;
+    var made = 0, att = 0;
+
+    while(made < target && att < 600){
+      att++;
+      var x = 12 + Math.random() * (W - 30);
+      var y = 12 + Math.random() * (H - 30);
+      if(near(x, y)) continue;
+      positions.push({ x: x, y: y });
+      made++;
+    }
+
+    positions.forEach(function(p, i){
+      var el = document.createElement('span');
+      el.className = 'ud';
+      el.textContent = ITEMS[i % ITEMS.length];
+      el.style.left = p.x + 'px';
+      el.style.top  = p.y + 'px';
+      el.style.color = COLORS[i % COLORS.length];
+      el.style.fontSize = (0.95 + Math.random() * 1.15) + 'rem';
+      el.style.opacity  = (0.35 + Math.random() * 0.22).toFixed(2);
+      el.style.setProperty('--rot',   (Math.random() * 24 - 12).toFixed(1) + 'deg');
+      el.style.setProperty('--dur',   (5 + Math.random() * 4).toFixed(1) + 's');
+      el.style.setProperty('--delay', (Math.random() * 4).toFixed(1) + 's');
+      if(reduce) el.style.animation = 'none';
+      box.appendChild(el);
+    });
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', build);
+  } else {
+    build();
+  }
+  var rt;
+  window.addEventListener('resize', function(){
+    clearTimeout(rt);
+    rt = setTimeout(build, 300);
+  });
+})();
+</script>
+
 </body>
 </html>
