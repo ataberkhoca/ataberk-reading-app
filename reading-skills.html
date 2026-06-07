@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>V1 Sticker Book — Reading Skills</title>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
@@ -37,9 +37,9 @@ body::before{
 .progress-wrap{padding:14px 16px 0;flex-shrink:0;}
 .progress-meta{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
 .skill-label{display:flex;flex-direction:column;line-height:1;}
-#skill-tr{font-family:'Fredoka One',cursive;font-size:28px;color:var(--ac);text-shadow:3px 3px 0 #1A1A1A;transition:color .3s;}
-#skill-en{font-family:'Fredoka One',cursive;font-size:13px;color:rgba(0,0,0,.35);letter-spacing:.04em;}
-.score-chip{font-family:'Fredoka One',cursive;font-size:15px;background:#FFD93D;color:#1A1A1A;padding:5px 14px;border-radius:99px;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;}
+#skill-tr{font-family:'Fredoka',cursive;font-weight:600;font-size:28px;color:var(--ac);text-shadow:3px 3px 0 #1A1A1A;transition:color .3s;}
+#skill-en{font-family:'Fredoka',cursive;font-weight:600;font-size:13px;color:rgba(0,0,0,.35);letter-spacing:.04em;}
+.score-chip{font-family:'Fredoka',cursive;font-weight:600;font-size:15px;background:#FFD93D;color:#1A1A1A;padding:5px 14px;border-radius:99px;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;}
 .progress-track{height:14px;background:#fff;border-radius:99px;border:2.5px solid #1A1A1A;overflow:hidden;box-shadow:2px 2px 0 #1A1A1A;}
 .progress-fill{height:100%;background:var(--ac);border-radius:99px;transition:width .3s cubic-bezier(.4,0,.2,1),background .3s;position:relative;}
 .progress-fill::after{content:'';position:absolute;top:3px;left:6px;right:6px;height:3px;background:rgba(255,255,255,.5);border-radius:99px;}
@@ -60,7 +60,7 @@ body::before{
 .cast-pill:nth-child(4){animation-delay:.36s;}
 .cast-pill:nth-child(5){animation-delay:.48s;}
 @keyframes pillPop{from{opacity:0;transform:scale(.7) rotate(-8deg)}to{opacity:1;transform:scale(1) rotate(0)}}
-.story-body{padding:14px 16px 18px;font-size:15.5px;font-weight:700;color:#1A1A1A;line-height:2;}
+.story-body{padding:18px 20px 24px;font-size:16px;font-weight:700;color:#1A1A1A;line-height:2.15;word-spacing:.14em;letter-spacing:.2px;}
 .s{display:inline;padding:2px 4px;border-radius:6px;cursor:pointer;transition:background .15s;}
 .s:hover{background:rgba(0,0,0,.07);}
 .s.sys-hl{background:#FFD93D;box-shadow:0 0 0 3px #1A1A1A;animation:sHL .25s ease;}
@@ -79,7 +79,7 @@ body::before{
 /* QUESTION CARD */
 .q-card{background:var(--ac);border-radius:24px;border:3px solid #1A1A1A;box-shadow:5px 5px 0 #1A1A1A;padding:20px 18px 18px;transition:background .3s;animation:cardPop .4s .08s cubic-bezier(.34,1.56,.64,1) backwards;}
 .q-label{font-size:10px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:8px;}
-.q-text{font-family:'Fredoka One',cursive;font-size:20px;color:#fff;line-height:1.25;margin-bottom:16px;text-shadow:2px 2px 0 rgba(0,0,0,.12);}
+.q-text{font-family:'Fredoka',cursive;font-weight:600;font-size:20px;color:#fff;line-height:1.25;margin-bottom:16px;text-shadow:2px 2px 0 rgba(0,0,0,.12);}
 .hint-zone{margin-bottom:13px;}
 .hint-btn{display:inline-flex;align-items:center;gap:5px;font-family:'Nunito',sans-serif;font-size:12px;font-weight:900;color:#1A1A1A;background:#FFD93D;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;border-radius:99px;padding:6px 14px;cursor:pointer;transition:all .15s;}
 .hint-btn:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 #1A1A1A;}
@@ -101,7 +101,7 @@ body::before{
 
 .choice:disabled{cursor:default;}
 
-.next-btn{margin-top:12px;width:100%;background:#FFD93D;color:#1A1A1A;font-family:'Fredoka One',cursive;font-size:17px;border-radius:16px;padding:15px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s;}
+.next-btn{margin-top:12px;width:100%;background:#FFD93D;color:#1A1A1A;font-family:'Fredoka',cursive;font-weight:600;font-size:17px;border-radius:16px;padding:15px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s;}
 .next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
 .next-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
 
@@ -269,7 +269,7 @@ body.intro-mode .blob{display:none !important;}
   border: 3px solid #1A1A1A;
   background: #fff;
   box-shadow: 3px 3px 0 #1A1A1A;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 14px;
   color: #1A1A1A;
   cursor: pointer;
@@ -302,12 +302,12 @@ body.intro-mode .blob{display:none !important;}
 .header-profil:active { transform: translate(1px,1px);  box-shadow: 1px 1px 0 #1A1A1A; }
 .header-profil-av { font-size: 18px; line-height: 1; }
 .header-profil-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 13px; color: #1A1A1A;
 }
 
 .screen-header-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 24px;
   color: #1A1A1A;
   line-height: 1;
@@ -364,7 +364,7 @@ body.intro-mode .blob{display:none !important;}
 
 .sinif-left { display: flex; flex-direction: column; gap: 3px; }
 .sinif-num {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 26px;
   color: #1A1A1A;
   line-height: 1;
@@ -376,7 +376,7 @@ body.intro-mode .blob{display:none !important;}
 }
 
 .sinif-badge {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 12px;
   padding: 5px 14px;
   border-radius: 99px;
@@ -465,7 +465,7 @@ body.intro-mode .blob{display:none !important;}
 
 .theme-info { display: flex; flex-direction: column; gap: 3px; }
 .theme-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 17px;
   color: #1A1A1A;
   line-height: 1;
@@ -479,7 +479,7 @@ body.intro-mode .blob{display:none !important;}
 .theme-card.yakinda .theme-desc { color: #CCC; }
 
 .theme-badge {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 12px;
   padding: 5px 14px;
   border-radius: 99px;
@@ -548,7 +548,7 @@ body.intro-mode .blob{display:none !important;}
   color: #AAA; letter-spacing: .04em;
 }
 .etkinlik-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 18px; color: #1A1A1A; line-height: 1;
 }
 .etkinlik-desc {
@@ -556,7 +556,7 @@ body.intro-mode .blob{display:none !important;}
   color: #666; line-height: 1.45; margin-top: 2px;
 }
 .etkinlik-arrow {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 20px; color: #CCC; flex-shrink: 0;
 }
 
@@ -574,7 +574,7 @@ body.intro-mode .blob{display:none !important;}
   animation: cardPop .4s cubic-bezier(.34,1.56,.64,1);
 }
 .text-select-intro-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 22px;
   text-shadow: 3px 3px 0 #1A1A1A;
   margin-bottom: 4px;
@@ -648,7 +648,7 @@ body.intro-mode .blob{display:none !important;}
   text-transform: uppercase;
 }
 .text-card-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 18px;
   color: #1A1A1A;
   line-height: 1.15;
@@ -699,7 +699,7 @@ body.intro-mode .blob{display:none !important;}
 }
 .text-card-stars .empty { opacity: .25; filter: grayscale(1); }
 .text-card-score {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 13px;
   color: #1A1A1A;
   background: #FFD93D;
@@ -716,7 +716,7 @@ body.intro-mode .blob{display:none !important;}
   right: -2px;
   background: #FF6B6B;
   color: #fff;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 10px;
   padding: 4px 10px;
   border: 2px solid #1A1A1A;
@@ -736,7 +736,7 @@ body.intro-mode .blob{display:none !important;}
 }
 .game-topbar-info { display: flex; flex-direction: column; gap: 2px; }
 .game-topbar-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 20px; color: #1A1A1A; line-height: 1;
 }
 .game-topbar-sub {
@@ -752,7 +752,7 @@ body.intro-mode .blob{display:none !important;}
   margin-top: 4px;
 }
 .intro-link-pill {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 12px;
   padding: 7px 14px;
   border-radius: 99px;
@@ -766,6 +766,14 @@ body.intro-mode .blob{display:none !important;}
 }
 .intro-link-pill:hover  { transform: translate(-1px,-1px); box-shadow: 3px 3px 0 #1A1A1A; }
 .intro-link-pill:active { transform: translate(1px,1px);  box-shadow: 1px 1px 0 #1A1A1A; }
+#profile-select-stats-btn { font-size: 16px; padding: 13px 26px; box-shadow: 3px 3px 0 #1A1A1A; margin-top: 14px; }
+.stats-play-btn {
+  width: 100%; font-family: 'Fredoka', cursive; font-weight: 600; font-size: 18px;
+  color: #fff; background: #FF6B6B; border: 3px solid #1A1A1A; border-radius: 16px;
+  padding: 15px; box-shadow: 4px 4px 0 #1A1A1A; cursor: pointer; margin: 4px 0 14px; transition: all .15s;
+}
+.stats-play-btn:hover  { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 #1A1A1A; }
+.stats-play-btn:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
 
 
 /* ══════════════════════════════
@@ -802,7 +810,7 @@ body.intro-mode .blob{display:none !important;}
 
 .info-card-icon { font-size: 28px; margin-bottom: 8px; }
 .info-card-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 17px;
   color: #1A1A1A;
   margin-bottom: 5px;
@@ -824,7 +832,7 @@ body.intro-mode .blob{display:none !important;}
   animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
 }
 .hakkinda-hero-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 26px;
   color: #fff;
   margin-bottom: 4px;
@@ -853,7 +861,7 @@ body.intro-mode .blob{display:none !important;}
 }
 
 .profil-section-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 15px;
   color: #888;
   margin-bottom: 4px;
@@ -909,7 +917,7 @@ body.intro-mode .blob{display:none !important;}
   width: 100%;
   background: #6BCB77;
   color: #fff;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 22px;
   border: 3px solid #1A1A1A;
   border-radius: 20px;
@@ -941,7 +949,7 @@ body.intro-mode .blob{display:none !important;}
 .intro-profil-badge:active { transform: translate(1px,1px); box-shadow: 2px 2px 0 #1A1A1A; }
 .intro-profil-avatar { font-size: 20px; line-height: 1; }
 .intro-profil-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 14px;
   color: #1A1A1A;
   flex: 1;
@@ -987,7 +995,7 @@ body.intro-mode .blob{display:none !important;}
   flex-shrink: 0;
 }
 .stats-hero-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 22px; color: #fff; line-height: 1;
 }
 .stats-hero-sub {
@@ -1010,7 +1018,7 @@ body.intro-mode .blob{display:none !important;}
   text-align: center;
 }
 .stat-num {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 32px; color: #1A1A1A; line-height: 1;
 }
 .stat-lbl {
@@ -1019,9 +1027,17 @@ body.intro-mode .blob{display:none !important;}
 }
 
 .stats-section-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 15px; color: #888; margin-bottom: 2px;
 }
+.stats-grade-tabs { display:flex; gap:8px; margin:6px 0 14px; }
+.stats-grade-tab {
+  flex:1; font-family:'Fredoka',cursive; font-weight:600; font-size:13px; color:#1A1A1A;
+  background:#fff; border:2.5px solid #1A1A1A; border-radius:12px; padding:9px 4px;
+  cursor:pointer; box-shadow:2px 2px 0 #1A1A1A; transition:transform .1s, box-shadow .1s;
+}
+.stats-grade-tab.active { background:#FF6B6B; color:#fff; }
+.stats-grade-tab:active { transform:translate(2px,2px); box-shadow:0 0 0 #1A1A1A; }
 
 .topic-stat-row {
   background: #fff;
@@ -1040,7 +1056,7 @@ body.intro-mode .blob{display:none !important;}
 .topic-stat-icon { font-size: 22px; flex-shrink: 0; }
 .topic-stat-info { flex: 1; }
 .topic-stat-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 15px; color: #1A1A1A; line-height: 1;
 }
 .topic-stat-row.empty .topic-stat-name { color: #BBB; }
@@ -1049,7 +1065,7 @@ body.intro-mode .blob{display:none !important;}
   color: #888; margin-top: 3px;
 }
 .topic-stat-badge {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 18px;
 }
 
@@ -1057,7 +1073,7 @@ body.intro-mode .blob{display:none !important;}
   width: 100%;
   background: #FFD93D;
   color: #1A1A1A;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 18px;
   border: 3px solid #1A1A1A;
   border-radius: 18px;
@@ -1095,7 +1111,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   border: 2px solid rgba(255,255,255,.5);
   border-radius: 99px;
   padding: 5px 16px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 11px;
   color: #fff;
   letter-spacing: .1em;
@@ -1109,7 +1125,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   animation: introPop .5s .05s cubic-bezier(.34,1.56,.64,1) backwards;
 }
 .celeb-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 32px;
   color: #fff;
   text-align: center;
@@ -1138,7 +1154,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   border: 2px solid rgba(255,255,255,.5);
   border-radius: 99px;
   padding: 5px 14px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 13px;
   color: #fff;
 }
@@ -1147,7 +1163,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   max-width: 280px;
   background: #fff;
   color: #FF6B6B;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 20px;
   border: 3px solid #1A1A1A;
   border-radius: 20px;
@@ -1164,7 +1180,7 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
 .celeb-btn:active { transform: translate(2px,2px);  box-shadow: 3px 3px 0 rgba(0,0,0,.2); }
 .celeb-retry {
   margin-top: 12px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 14px;
   color: rgba(255,255,255,.7);
   cursor: pointer;
@@ -1217,7 +1233,7 @@ button.celeb-retry {
   transform: translateX(-50%) translateY(12px);
   background: #1A1A1A;
   color: #fff;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 15px;
   padding: 12px 24px;
   border-radius: 99px;
@@ -1251,7 +1267,7 @@ button.celeb-retry {
   padding: 16px 20px;
 }
 .profile-select-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 28px;
   color: #1A1A1A;
   text-align: center;
@@ -1298,7 +1314,7 @@ button.celeb-retry {
   line-height: 1;
 }
 .profile-card-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 16px;
   color: #1A1A1A;
   text-align: center;
@@ -1385,13 +1401,13 @@ button.celeb-retry {
 }
 .delete-modal-icon { font-size: 3rem; margin-bottom: 12px; }
 .delete-modal-title {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 1.3rem;
   color: #1A1A1A;
   margin-bottom: 8px;
 }
 .delete-modal-name {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 1.1rem;
   color: #FF6B6B;
   margin-bottom: 12px;
@@ -1413,7 +1429,7 @@ button.celeb-retry {
   justify-content: center;
 }
 .delete-modal-btn {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 1rem;
   padding: 10px 22px;
   border-radius: 12px;
@@ -1440,6 +1456,43 @@ button.celeb-retry {
 
 /* Rozet Ekranı */
 #screen-badges { background: #FFFBF0; }
+/* ── Çıkartma albümü (rozet ekranı) ── */
+.ba-tabs { display:flex; gap:6px; overflow-x:auto; padding:0 0 10px; }
+.ba-tabs::-webkit-scrollbar { display:none; }
+.ba-tab { flex:0 0 auto; font-family:'Fredoka',cursive; font-weight:600; font-size:12px; color:#577240;
+  background:#fff; border:2.5px solid #1A1A1A; border-radius:12px; padding:7px 12px; cursor:pointer;
+  box-shadow:2px 2px 0 #1A1A1A; transition:transform .1s, box-shadow .1s; }
+.ba-tab.active { background:#F9844A; color:#fff; }
+.ba-tab:active { transform:translate(2px,2px); box-shadow:0 0 0 #1A1A1A; }
+.ba-album { background:#FFFDF6; border:3px solid #1A1A1A; border-radius:18px; padding:14px 13px 12px;
+  box-shadow:4px 4px 0 #1A1A1A;
+  background-image:repeating-linear-gradient(transparent,transparent 27px,rgba(180,160,120,.18) 28px); }
+.ba-spiral { display:flex; justify-content:space-around; margin-bottom:10px; padding:0 6px; }
+.ba-spiral span { width:9px; height:9px; border-radius:50%; background:#D9C9A3; border:2px solid #C0A878; }
+.ba-title { font-family:'Caveat',cursive; font-weight:700; font-size:24px; color:#577240; text-align:center; }
+.ba-sub { font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#9AAE7E; text-align:center; margin-bottom:14px; }
+.ba-slots { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:10px; }
+.ba-slot { aspect-ratio:1; border-radius:14px; border:2.5px dashed #D6C9A8; position:relative;
+  background:#FBF8EE; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.ba-slot .ba-lbl { position:absolute; bottom:6px; left:2px; right:2px; text-align:center;
+  font-family:'Fredoka',cursive; font-weight:600; font-size:9px; color:#8A7B5A; line-height:1.1; }
+.ba-slot.locked .ba-lbl { color:#B8A98A; }
+.ba-ghost { font-size:20px; opacity:.18; margin-bottom:14px; }
+.ba-sticker { position:absolute; top:4px; left:4px; right:4px; bottom:18px; border-radius:12px;
+  display:flex; align-items:center; justify-content:center; font-size:24px;
+  background:radial-gradient(circle at 30% 25%,#fff,#F4F0E2); border:2px solid #fff;
+  box-shadow:0 3px 8px rgba(0,0,0,.15); animation:baPeel .6s cubic-bezier(.34,1.7,.5,1) backwards; }
+@keyframes baPeel { 0%{opacity:0;transform:scale(0) rotate(-40deg)} 55%{transform:scale(1.18) rotate(8deg)} 100%{opacity:1;transform:scale(1) rotate(0)} }
+.ba-sticker.holo { background:linear-gradient(120deg,#F9C74F,#F9844A,#B392CE,#90BE6D,#F9C74F); background-size:300% 300%;
+  animation:baPeel .6s cubic-bezier(.34,1.7,.5,1) backwards, baHolo 3s 1s linear infinite; }
+@keyframes baHolo { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+.ba-glint { position:absolute; inset:0; border-radius:12px; overflow:hidden; pointer-events:none; }
+.ba-glint::after { content:""; position:absolute; top:0; left:-60%; width:40%; height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent); transform:skewX(-20deg);
+  animation:baSweep 1.4s 1s ease-out; }
+@keyframes baSweep { 0%{left:-60%} 100%{left:120%} }
+.ba-foot { display:flex; justify-content:space-between; font-family:'Fredoka',cursive; font-weight:600;
+  font-size:12px; color:#577240; border-top:1.5px dashed #D6C9A8; padding-top:8px; }
 .badges-scroll { padding: 0 16px 24px; overflow-y: auto; flex: 1; }
 .badge-category { margin-bottom: 24px; }
 .badge-cat-title {
@@ -1579,7 +1632,7 @@ button.celeb-retry {
   color: #1A1A1A;
   margin-bottom: 10px;
 }
-.badge-popup-title { font-size: 22px; font-weight: 800; color: #1A1A1A; margin-bottom: 6px; font-family: 'Fredoka One', cursive; }
+.badge-popup-title { font-size: 22px; color: #1A1A1A; margin-bottom: 6px; font-family: 'Fredoka', cursive;font-weight:700; }
 .badge-popup-sub { font-size: 13px; color: #666; margin-bottom: 20px; line-height: 1.5; }
 .badge-popup-btn {
   width: 100%;
@@ -1588,7 +1641,7 @@ button.celeb-retry {
   border: 3px solid #1A1A1A;
   border-radius: 14px;
   padding: 12px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka', cursive;font-weight:600;
   font-size: 15px;
   cursor: pointer;
   box-shadow: 4px 4px 0 #1A1A1A;
@@ -1605,22 +1658,22 @@ button.celeb-retry {
 .cw-phone{width:100%;max-width:430px;height:100dvh;position:relative;display:flex;flex-direction:column;overflow:hidden}
 .cw-scene{position:relative;flex:0 0 38%;min-height:200px;overflow:hidden}
 .cw-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:16px 24px 22px;position:relative;z-index:5;overflow-y:auto}
-.cw-title{font-family:'Fredoka One',cursive;font-size:32px;text-align:center;line-height:1.05;opacity:0;animation:cwFu .6s .2s ease-out forwards}
+.cw-title{font-family:'Fredoka',cursive;font-weight:600;font-size:32px;text-align:center;line-height:1.05;opacity:0;animation:cwFu .6s .2s ease-out forwards}
 .cw-sub{font-size:12.5px;font-weight:800;margin-top:5px;text-align:center;opacity:0;animation:cwFu .6s .35s ease-out forwards}
 .cw-badge{margin-top:11px;display:inline-flex;gap:5px;align-items:center;padding:6px 16px;border-radius:99px;font-weight:900;font-size:12px;opacity:0;animation:cwFu .6s .5s ease-out forwards;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A}
 .cw-score{margin-top:15px;display:flex;gap:12px;opacity:0;animation:cwFu .6s .65s ease-out forwards}
 .cw-sb{display:flex;flex-direction:column;align-items:center;border-radius:16px;padding:8px 20px;min-width:80px;border:2.5px solid #1A1A1A;box-shadow:3px 3px 0 #1A1A1A;background:#fff}
-.cw-sb .v{font-family:'Fredoka One',cursive;font-size:26px;line-height:1;color:#1A1A1A}
+.cw-sb .v{font-family:'Fredoka',cursive;font-weight:600;font-size:26px;line-height:1;color:#1A1A1A}
 .cw-sb .l{font-size:10px;font-weight:900;margin-top:3px;letter-spacing:.3px;color:#777}
 .cw-sb.ok .v{color:#2E9E5B}.cw-sb.err .v{color:#E5383B}
 .cw-cast{margin-top:13px;font-size:12px;font-weight:800;text-align:center;line-height:1.4;opacity:0;animation:cwFu .6s .8s ease-out forwards;padding:0 6px}
 .cw-msg{margin-top:8px;font-size:12.5px;font-weight:700;text-align:center;line-height:1.5;padding:0 8px;opacity:0;animation:cwFu .6s .95s ease-out forwards;max-width:300px}
 .cw-btns{margin-top:auto;padding-top:18px;width:100%;max-width:300px;display:flex;flex-direction:column;gap:10px;opacity:0;animation:cwFu .6s 1.1s ease-out forwards}
-.cw-bp{font-family:'Fredoka One',cursive;border-radius:18px;padding:15px 20px;cursor:pointer;border:3px solid #1A1A1A;font-size:18px;background:#FFD93D;color:#1A1A1A;box-shadow:5px 5px 0 #1A1A1A;transition:all .15s}
+.cw-bp{font-family:'Fredoka',cursive;font-weight:600;border-radius:18px;padding:15px 20px;cursor:pointer;border:3px solid #1A1A1A;font-size:18px;background:#FFD93D;color:#1A1A1A;box-shadow:5px 5px 0 #1A1A1A;transition:all .15s}
 .cw-bp:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 #1A1A1A}.cw-bp:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A}
-.cw-bs{font-family:'Fredoka One',cursive;border-radius:18px;padding:13px 20px;cursor:pointer;border:3px solid #1A1A1A;font-size:15px;background:#fff;color:#1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s}
+.cw-bs{font-family:'Fredoka',cursive;font-weight:600;border-radius:18px;padding:13px 20px;cursor:pointer;border:3px solid #1A1A1A;font-size:15px;background:#fff;color:#1A1A1A;box-shadow:4px 4px 0 #1A1A1A;transition:all .15s}
 .cw-bs:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A}.cw-bs:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A}
-.cw-bt{font-family:'Fredoka One',cursive;border-radius:18px;padding:11px 20px;cursor:pointer;border:2px solid rgba(255,255,255,.4);font-size:13px;background:transparent;transition:all .15s}
+.cw-bt{font-family:'Fredoka',cursive;font-weight:600;border-radius:18px;padding:11px 20px;cursor:pointer;border:2px solid rgba(255,255,255,.4);font-size:13px;background:transparent;transition:all .15s}
 @keyframes cwFu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
 /* figür satırı (ortak) */
@@ -1702,10 +1755,10 @@ button.celeb-retry {
 .cw-robotbot.jump{animation:cwJump .5s ease-out}
 @keyframes cwJump{0%,100%{transform:translateY(0)}40%{transform:translateY(-14px)}}
 .cw-gauge{display:flex;flex-direction:column;align-items:center;gap:4px}
-.cw-glabel{font-family:'Fredoka One',cursive;font-size:9px;color:#0077B6;letter-spacing:.5px}
+.cw-glabel{font-family:'Fredoka',cursive;font-weight:600;font-size:9px;color:#0077B6;letter-spacing:.5px}
 .cw-tube{width:24px;height:100px;background:#fff;border:3px solid #023E8A;border-radius:13px;overflow:hidden;display:flex;flex-direction:column-reverse}
 .cw-fill{width:100%;background:linear-gradient(0deg,#FB8500,#FFD60A);height:0%;transition:height .6s cubic-bezier(.34,1.4,.5,1)}
-.cw-gpct{font-family:'Fredoka One',cursive;font-size:12px;color:#FB8500}
+.cw-gpct{font-family:'Fredoka',cursive;font-weight:600;font-size:12px;color:#FB8500}
 
 /* ===== BAHÇE ===== */
 .cw-garden{background:linear-gradient(180deg,#FBF3DE,#F3EAD0 40%,#DCEBC4 72%,#BBD89B)}
@@ -1941,6 +1994,7 @@ body.intro-mode .ud-corner { display: none !important; }
       <div class="cw-msg" id="cw-msg"></div>
       <div class="cw-btns">
         <button class="cw-bp" onclick="retrySkill()">↻ Tekrar Dene</button>
+        <button class="cw-bs" onclick="anotherTextSameSkill()">📚 Aynı beceride başka metin</button>
         <button class="cw-bs" onclick="nextSkill()">→ Sonraki Beceri</button>
         <button class="cw-bt" onclick="goToSkillsMenu()">⌂ Beceriler Menüsü</button>
       </div>
@@ -2159,28 +2213,33 @@ body.intro-mode .ud-corner { display: none !important; }
   <div class="info-scroll">
     <div class="info-card">
       <div class="info-card-icon">1️⃣</div>
-      <div class="info-card-title">Sınıfını seç</div>
-      <div class="info-card-text">Ana ekrandan "Başla" butonuna bas ve sınıfını seç. Şu an için 2. Sınıf içerikleri hazır.</div>
+      <div class="info-card-title">Profilini seç</div>
+      <div class="info-card-text">Adını ve avatarını belirle. İlerlemen sana özel olarak cihazda kaydedilir.</div>
     </div>
     <div class="info-card">
       <div class="info-card-icon">2️⃣</div>
-      <div class="info-card-title">Konuyu seç</div>
-      <div class="info-card-text">Çalışmak istediğin konuyu seç. Her konu farklı hikayeler ve sorular içerir.</div>
+      <div class="info-card-title">Sınıfını ve temanı seç</div>
+      <div class="info-card-text">İstediğin sınıfın (2, 3 veya 4) istediğin temasından başla. İstersen üst sınıfların metinlerini de okuyabilirsin.</div>
     </div>
     <div class="info-card">
       <div class="info-card-icon">3️⃣</div>
-      <div class="info-card-title">Etkinliği seç</div>
-      <div class="info-card-text">Dört farklı okuma etkinliği var — Tarama, Hızlı Okuma, Dikkatli Okuma ve Çıkarım. Her biri farklı bir beceri geliştirir.</div>
+      <div class="info-card-title">Bir beceri ve hikâye seç</div>
+      <div class="info-card-text">Her temada dört okuma becerisi var — Tarama, Hızlı Okuma, Dikkatli Okuma ve Çıkarım. Beğendiğin hikâyeyi seç.</div>
     </div>
     <div class="info-card">
       <div class="info-card-icon">4️⃣</div>
-      <div class="info-card-title">Soruları cevapla</div>
-      <div class="info-card-text">Metni oku ve soruları cevapla. İpucu butonuna basarak yardım alabilirsin. Her doğru cevap sana bir yıldız kazandırır!</div>
+      <div class="info-card-title">Oku ve cevapla</div>
+      <div class="info-card-text">Hikâyeyi oku, soruları yanıtla. Takıldığında 💡 İpucu düğmesine dokun. Bir kelimenin Türkçesi için cümleye dokunabilirsin.</div>
     </div>
     <div class="info-card">
-      <div class="info-card-icon">💡</div>
-      <div class="info-card-title">İpucu</div>
-      <div class="info-card-text">Sarı ile vurgulanan cümleler sorunun cevabını bulmana yardımcı olur. Cümlelere tıklayarak Türkçe çevirisini görebilirsin.</div>
+      <div class="info-card-icon">🏅</div>
+      <div class="info-card-title">Yıldız ve çıkartma kazan</div>
+      <div class="info-card-text">Her doğru cevap yıldız; her tamamlanan tema ve başarı yeni bir çıkartma rozeti kazandırır. Albümünü doldur!</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">🖥️</div>
+      <div class="info-card-title">Akıllı tahta uyumlu</div>
+      <div class="info-card-text">Uygulama akıllı tahtayla uyumludur ve tüm puanlar cihazda saklanır.</div>
     </div>
   </div>
 </div>
@@ -2206,17 +2265,17 @@ body.intro-mode .ud-corner { display: none !important; }
     <div class="info-card">
       <div class="info-card-icon">🎯</div>
       <div class="info-card-title">Amacımız</div>
-      <div class="info-card-text">İngilizceyi eğlenceli ve etkili bir şekilde öğrenmek için tasarlandık. MEB müfredatına uygun içeriklerimizle öğrencilerin okuma becerilerini geliştiriyoruz.</div>
+      <div class="info-card-text">Dil bilgisini kural ezberiyle değil, hikâyelerin içinde doğal yoldan kazandırmak. Her tema; okul, sınıf, aile ve şehir hayatı gibi çocuğun dünyasından konularla dört temel okuma becerisini adım adım geliştirir.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">📚</div>
+      <div class="info-card-title">İçeriğimiz</div>
+      <div class="info-card-text">2, 3 ve 4. sınıf öğrencileri için hazırlanmış İngilizce okuma metinleri. Tüm metinler MEB Türkiye Yüzyılı Maarif Modeli müfredatına uygun olarak yazılmıştır.</div>
     </div>
     <div class="info-card">
       <div class="info-card-icon">👨‍🏫</div>
       <div class="info-card-title">Kim Yaptı?</div>
-      <div class="info-card-text">Bu uygulama Ataberk Hoca tarafından öğrencileri için tasarlanmış ve geliştirilmiştir.</div>
-    </div>
-    <div class="info-card">
-      <div class="info-card-icon">🚀</div>
-      <div class="info-card-title">Yeni Neler Geliyor?</div>
-      <div class="info-card-text">3. ve 4. sınıf içerikleri, yeni temalar ve daha fazla etkinlik yakında ekleniyor. Takipte kal!</div>
+      <div class="info-card-text">Bu uygulama, bir İngilizce öğretmeni olan Ataberk Hoca tarafından sınıf deneyimiyle öğrencileri için tasarlanmış ve geliştirilmiştir.</div>
     </div>
   </div>
 </div>
@@ -2380,11 +2439,17 @@ function showScreen(id) {
 function onActivityComplete(score, total, skill, topic) {
   const pct = score / total;
   const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
+  // Azimli rozeti için önceki en iyi yıldız (varsa)
+  let prevStars = null;
+  if (typeof currentTextId !== 'undefined' && currentTextId) {
+    const prev = getTextStats(topic, skill, currentTextId);
+    if (prev) prevStars = prev.bestStars || 0;
+  }
   saveActivityStats(topic, skill, score, total, stars);
   if (typeof currentTextId !== 'undefined' && currentTextId) {
     saveTextStats(topic, skill, currentTextId, score, total, stars);
   }
-  checkBadges(score, total, stars, skill, topic);
+  checkBadges(score, total, stars, skill, topic, { hintUsed: hintUsedThisActivity, prevStars });
 }
 
 function onScreenChange(screenId) {
@@ -2422,6 +2487,8 @@ const SKILLS = {
 
 // Aktif sınıf — sınıf seçiminde güncellenir
 let currentGrade = 'grade2';
+let statsGradeTab = null; // istatistik ekranındaki seçili sınıf sekmesi
+function setStatsGrade(grade){ statsGradeTab = grade; renderStats(); }
 
 // Aktif tema — theme seçiminde güncellenir
 let currentTopic = 'school-life';
@@ -2453,11 +2520,18 @@ async function loadTopicData(topic, grade='grade2') {
     int:  TOPIC_TEXTS.int[0]  || null,
     inf:  TOPIC_TEXTS.inf[0]  || null
   };
+  // İlerleme hesabı için temadaki toplam metin sayısını kaydet
+  try {
+    const totals = JSON.parse(localStorage.getItem('ataberk_topic_totals') || '{}');
+    totals[topic] = TOPIC_TEXTS.scan.length + TOPIC_TEXTS.skim.length + TOPIC_TEXTS.int.length + TOPIC_TEXTS.inf.length;
+    localStorage.setItem('ataberk_topic_totals', JSON.stringify(totals));
+  } catch(e) {}
 }
 
 
 
 let cur='scan',qIdx=0,score=0,locked=false,attempts=0,hlTimer=null,timerInt=null;
+let hintUsedThisActivity=false; // İpuçsuz Usta rozeti için
 
 function setVars(k){
   const c=CFG[k];
@@ -2559,6 +2633,7 @@ function renderQ(){
   document.getElementById('q-num').textContent=`Soru ${qIdx+1} / ${tot}`;
   document.getElementById('prog').style.width=`${(qIdx/tot)*100}%`;
   const hz=document.getElementById('hint-zone');
+  if(d.hintMode==='always') hintUsedThisActivity=true;
   hz.innerHTML=d.hintMode==='always'?`<div class="hint-visible">💡 ${q.hint}</div>`:`<button class="hint-btn" onclick="showHint('${q.hint.replace(/'/g,"\\'")}')">💡 İpucu göster</button>`;
   document.getElementById('feedback-zone').innerHTML='';
   const pool=shuffle([q.correct,...q.wrong.slice(0,d.choices-1)]);
@@ -2567,7 +2642,7 @@ function renderQ(){
   applyHL(q.hl);
   if(d.timer){let left=d.timer;timerInt=setInterval(()=>{left--;if(left<=0)clearInterval(timerInt);},1000);}
 }
-function showHint(t){document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
+function showHint(t){hintUsedThisActivity=true;document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
 let missedQuestions = [];
 
 function pick(btn){
@@ -2614,7 +2689,7 @@ function showResult(){
   if(score/tot===1)confetti();
   onActivityComplete(score, tot, cur, currentTopic);
 }
-function retrySkill(){document.getElementById('cw-overlay').classList.remove('visible');qIdx=0;score=0;locked=false;attempts=0;document.getElementById('score-chip').textContent='⭐ 0';renderStory();renderQ();}
+function retrySkill(){document.getElementById('cw-overlay').classList.remove('visible');qIdx=0;score=0;locked=false;attempts=0;hintUsedThisActivity=false;document.getElementById('score-chip').textContent='⭐ 0';renderStory();renderQ();}
 function nextSkill(){
   const order=['scan','skim','int','inf'];
   const nextIdx=(order.indexOf(cur)+1)%order.length;
@@ -2632,6 +2707,16 @@ function nextSkill(){
 function goToSkillsMenu(){
   document.getElementById('cw-overlay').classList.remove('visible');
   showScreen('screen-etkinlik');
+}
+function anotherTextSameSkill(){
+  // Aynı beceride başka bir metin seçmek için metin listesine dön
+  document.getElementById('cw-overlay').classList.remove('visible');
+  if (cur && TOPIC_TEXTS) {
+    renderTextSelect(cur);
+    showScreen('screen-text-select');
+  } else {
+    showScreen('screen-etkinlik');
+  }
 }
 function goBackFromGame(){
   // Oyun ekranından "Metinler" butonu — şu anki becerinin metin seçimine dön
@@ -2670,35 +2755,36 @@ function selectGrade(grade) {
   showScreen('screen-theme');
 }
 
-function renderThemeList() {
-  const gradeTopics = {
-    'grade2': [
-      { key: 'school-life',    icon: '🏫', name: 'School Life',        desc: 'Okul hayatı' },
-      { key: 'classroom-life', icon: '📚', name: 'Classroom Life',     desc: 'Sınıf hayatı' },
-      { key: 'personal-life',  icon: '😊', name: 'Personal Life',      desc: 'Kişisel hayat' },
-      { key: 'family-life',    icon: '👨‍👩‍👧', name: 'Family Life',       desc: 'Aile hayatı' },
-      { key: 'homes-houses',   icon: '🏠', name: 'Homes & Houses',     desc: 'Evler ve konutlar' },
-      { key: 'life-in-city',   icon: '🌆', name: 'Life in the City',   desc: 'Şehir hayatı' },
-    ],
-    'grade3': [
-      { key: 'school-life-y3',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
-      { key: 'classroom-life-y3', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
-      { key: 'personal-life-y3',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
-      { key: 'family-life-y3',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
-      { key: 'homes-houses-y3',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
-      { key: 'life-in-the-city-y3', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
-    ],
-    'grade4': [
-      { key: 'school-life-y4',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
-      { key: 'classroom-life-y4', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
-      { key: 'personal-life-y4',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
-      { key: 'family-life-y4',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
-      { key: 'homes-houses-y4',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
-      { key: 'life-in-the-city-y4', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
-    ],
-  };
+const GRADE_LABELS = { grade2: '2. Sınıf', grade3: '3. Sınıf', grade4: '4. Sınıf' };
+const GRADE_TOPICS = {
+  'grade2': [
+    { key: 'school-life',    icon: '🏫', name: 'School Life',        desc: 'Okul hayatı' },
+    { key: 'classroom-life', icon: '📚', name: 'Classroom Life',     desc: 'Sınıf hayatı' },
+    { key: 'personal-life',  icon: '😊', name: 'Personal Life',      desc: 'Kişisel hayat' },
+    { key: 'family-life',    icon: '👨‍👩‍👧', name: 'Family Life',       desc: 'Aile hayatı' },
+    { key: 'homes-houses',   icon: '🏠', name: 'Homes & Houses',     desc: 'Evler ve konutlar' },
+    { key: 'life-in-city',   icon: '🌆', name: 'Life in the City',   desc: 'Şehir hayatı' },
+  ],
+  'grade3': [
+    { key: 'school-life-y3',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
+    { key: 'classroom-life-y3', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
+    { key: 'personal-life-y3',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
+    { key: 'family-life-y3',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
+    { key: 'homes-houses-y3',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
+    { key: 'life-in-the-city-y3', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
+  ],
+  'grade4': [
+    { key: 'school-life-y4',    icon: '🏫', name: 'School Life',      desc: 'Okul hayatı' },
+    { key: 'classroom-life-y4', icon: '📚', name: 'Classroom Life',   desc: 'Sınıf hayatı' },
+    { key: 'personal-life-y4',  icon: '😊', name: 'Personal Life',    desc: 'Kişisel hayat' },
+    { key: 'family-life-y4',    icon: '👨‍👩‍👧', name: 'Family Life',     desc: 'Aile hayatı' },
+    { key: 'homes-houses-y4',   icon: '🏠', name: 'Homes & Houses',   desc: 'Evler ve konutlar' },
+    { key: 'life-in-the-city-y4', icon: '🌆', name: 'Life in the City', desc: 'Şehir hayatı' },
+  ],
+};
 
-  const topics = gradeTopics[currentGrade] || gradeTopics['grade2'];
+function renderThemeList() {
+  const topics = GRADE_TOPICS[currentGrade] || GRADE_TOPICS['grade2'];
   const list = document.querySelector('.theme-list');
   if (!list) return;
 
@@ -2752,7 +2838,7 @@ async function startSkill(sk, textId) {
   currentTextId = chosen.id;
 
   clearTimeout(hlTimer); clearInterval(timerInt);
-  cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = [];
+  cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = []; hintUsedThisActivity = false;
   setVars(sk);
   document.getElementById('skill-tr').textContent = SKILLS[sk].label;
   document.getElementById('skill-en').textContent = CFG[sk].label;
@@ -2873,6 +2959,32 @@ function getTextStats(topic, skill, textId) {
     const profileData = all[profile.id];
     return (profileData && profileData[topic] && profileData[topic][skill] && profileData[topic][skill][textId]) || null;
   } catch(e) { return null; }
+}
+
+// Tema ilerlemesi — temadaki toplam metne göre (kalibrasyon)
+function getTopicTotal(topic) {
+  try { return (JSON.parse(localStorage.getItem('ataberk_topic_totals') || '{}'))[topic] || 0; }
+  catch(e) { return 0; }
+}
+function countDoneTexts(topic) {
+  try {
+    const profile = getActiveProfile();
+    if (!profile) return 0;
+    const all = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
+    const td = (all[profile.id] || {})[topic];
+    if (!td) return 0;
+    const ids = new Set();
+    Object.values(td).forEach(skillData => Object.entries(skillData).forEach(([id, t]) => {
+      if ((t.attempts || 0) > 0) ids.add(id);
+    }));
+    return ids.size;
+  } catch(e) { return 0; }
+}
+function topicProgress(topic) {
+  const total = getTopicTotal(topic);
+  const done = Math.min(countDoneTexts(topic), total || Infinity);
+  const pct = total ? Math.round(done / total * 100) : 0;
+  return { done, total, pct };
 }
 
 function saveTextStats(topic, skill, textId, score, total, stars) {
@@ -3258,7 +3370,9 @@ function selectProfile(profileId) {
   const profile = getActiveProfile();
   if (!profile) return; // savunmacı kontrol — profil bir şekilde silinmişse
   updateIntroProfilBadge(profile);
-  showScreen('screen-sinif');
+  statsGradeTab = null;
+  renderStats();
+  showScreen('screen-stats');
 }
 
 function startNewProfile() {
@@ -3343,32 +3457,114 @@ function saveActivityStats(topic, skill, score, total, stars) {
 //  ROZET SİSTEMİ
 // ════════════════════════════════════════
 
-const BADGE_DEFS = [
-  // Başlangıç
-  { id: 'first_text',    icon: '🌟', name: 'İlk Adım',         desc: 'İlk metni oku',                         cat: 'start' },
-  { id: 'first_scan',    icon: '🔍', name: 'Kaşif',            desc: 'İlk Scanning metnini tamamla',          cat: 'start' },
-  { id: 'first_skim',    icon: '⚡', name: 'Hızlı Göz',        desc: 'İlk Skimming metnini tamamla',          cat: 'start' },
-  { id: 'first_int',     icon: '🔬', name: 'Dedektif',         desc: 'İlk Intensive metnini tamamla',         cat: 'start' },
-  { id: 'first_inf',     icon: '🧩', name: 'Düşünür',          desc: 'İlk Inference metnini tamamla',         cat: 'start' },
-  // Performans
-  { id: 'star3',         icon: '⭐', name: 'Yıldız Okuyucu',   desc: 'Bir metinde 3 yıldız al',               cat: 'perf'  },
-  { id: 'perfect',       icon: '🎯', name: 'Keskin Nişancı',   desc: 'Bir metinde 5/5 doğru cevap ver',       cat: 'perf'  },
-  { id: 'streak3',       icon: '🔥', name: 'Ateşli Okuyucu',   desc: '3 metni üst üste 3 yıldızla bitir',     cat: 'perf'  },
-  { id: 'topic_perfect', icon: '💎', name: 'Mükemmel',         desc: 'Bir temadaki tüm metinleri 3 yıldızla bitir', cat: 'perf' },
-  { id: 'all_skills',    icon: '🧠', name: 'Süper Beyin',      desc: '4 beceriyi aynı temada tamamla',        cat: 'perf'  },
-  // Tamamlama
-  { id: 'school_done',   icon: '🏫', name: 'Okul Yıldızı',     desc: 'School Life temasını tamamla',          cat: 'done'  },
-  { id: 'three_topics',  icon: '🌍', name: 'Dünya Gezgini',     desc: '3 farklı temayı tamamla',               cat: 'done'  },
-  { id: 'all_topics',    icon: '📚', name: 'Sınıf Şampiyonu',   desc: 'Tüm temaları tamamla',                  cat: 'done'  },
-  { id: 'all_texts',     icon: '🎓', name: 'Mezun',             desc: 'Tüm metinleri en az bir kez oku',       cat: 'done'  },
-  { id: 'all_badges',    icon: '👑', name: 'Okuma Kralı',       desc: 'Tüm rozetleri topla',                   cat: 'done'  },
+// ── Çıkartma albümü rozet modeli ──
+const SKILL_BADGES = [
+  { id: 'first_scan', icon: '🔍', name: 'Tarama',         desc: 'İlk Tarama metnini tamamla' },
+  { id: 'first_skim', icon: '⚡', name: 'Hızlı Okuma',    desc: 'İlk Hızlı Okuma metnini tamamla' },
+  { id: 'first_int',  icon: '🔬', name: 'Dikkatli Okuma', desc: 'İlk Dikkatli Okuma metnini tamamla' },
+  { id: 'first_inf',  icon: '🧩', name: 'Çıkarım',        desc: 'İlk Çıkarım metnini tamamla' },
 ];
+const ACH_BADGES = [
+  { id: 'first_text', icon: '🌟', name: 'İlk Adım',     desc: 'İlk metni oku' },
+  { id: 'perfect',    icon: '🎯', name: 'Tam İsabet',   desc: 'Bir metinde 5/5 doğru yap' },
+  { id: 'star3',      icon: '⭐', name: 'Üç Yıldız',    desc: 'Bir metinde 3 yıldız al' },
+  { id: 'streak3',    icon: '🔥', name: '3’lü Seri',    desc: 'Üst üste 3 metni 3 yıldızla bitir' },
+  { id: 'no_hint',    icon: '🧠', name: 'İpuçsuz Usta', desc: 'İpucu açmadan 3 yıldız al' },
+  { id: 'persist',    icon: '🦉', name: 'Azimli',       desc: 'Bir metni tekrar yapıp 3 yıldıza çıkar' },
+  { id: 'explorer',   icon: '🌍', name: 'Kâşif',        desc: '3 farklı sınıftan metin oku' },
+  { id: 'texts10',    icon: '📖', name: '10 Metin',     desc: '10 metin tamamla' },
+  { id: 'texts50',    icon: '🏆', name: '50 Metin',     desc: '50 metin tamamla' },
+  { id: 'texts100',   icon: '💎', name: '100 Metin',    desc: '100 metin tamamla' },
+  { id: 'graduate',   icon: '🎓', name: 'Mezun',        desc: 'Tüm temaları tamamla' },
+  { id: 'collector',  icon: '👑', name: 'Koleksiyoncu', desc: 'Tüm rozetleri topla' },
+];
+const BADGE_PAGES = [
+  { id: 'g2',    title: '2. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade2' },
+  { id: 'g3',    title: '3. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade3' },
+  { id: 'g4',    title: '4. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade4' },
+  { id: 'skill', title: 'Beceriler',  sub: 'Dört okuma becerisi', type: 'list',  badges: SKILL_BADGES },
+  { id: 'ach',   title: 'Başarılar',  sub: 'Kilometre taşları',   type: 'list',  badges: ACH_BADGES },
+];
+// Bir sayfanın rozet listesini döndürür (tema sayfaları GRADE_TOPICS'ten üretilir)
+function badgePageBadges(page) {
+  if (page.type === 'theme') {
+    return (GRADE_TOPICS[page.grade] || []).map(t => ({
+      id: 'theme_' + t.key, icon: t.icon, name: t.name,
+      desc: t.name + ' temasını tamamla', topic: t.key, holoCheck: true
+    }));
+  }
+  return page.badges;
+}
+// Düz liste — popup ve sayaçlar için
+const BADGE_DEFS = (() => {
+  const arr = [];
+  ['grade2','grade3','grade4'].forEach(g =>
+    (GRADE_TOPICS[g] || []).forEach(t => arr.push({ id: 'theme_'+t.key, icon: t.icon, name: t.name, desc: t.name+' temasını tamamla' }))
+  );
+  SKILL_BADGES.forEach(b => arr.push(b));
+  ACH_BADGES.forEach(b => arr.push(b));
+  return arr;
+})();
 
-const CAT_LABELS = {
-  start: '🌱 Başlangıç Rozetleri',
-  perf:  '🏆 Performans Rozetleri',
-  done:  '🏅 Tamamlama Rozetleri',
-};
+let _badgePage = 0;
+function setBadgePage(i) { _badgePage = i; renderBadgeScreen(); }
+
+// ── Rozet koşulları için yardımcılar ──
+function gradeOfTopic(key) {
+  if (key.endsWith('-y4')) return 'grade4';
+  if (key.endsWith('-y3')) return 'grade3';
+  return 'grade2';
+}
+function _allTextStats() {
+  try {
+    const profile = getActiveProfile();
+    if (!profile) return {};
+    return (JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}'))[profile.id] || {};
+  } catch(e) { return {}; }
+}
+function countDoneTextsAll() {
+  const pd = _allTextStats();
+  let n = 0;
+  Object.values(pd).forEach(td => {
+    const ids = new Set();
+    Object.values(td).forEach(sd => Object.entries(sd).forEach(([id, t]) => { if ((t.attempts||0)>0) ids.add(id); }));
+    n += ids.size;
+  });
+  return n;
+}
+function gradesPlayed() {
+  const pd = _allTextStats();
+  const set = new Set();
+  Object.entries(pd).forEach(([key, td]) => {
+    const any = Object.values(td).some(sd => Object.values(sd).some(t => (t.attempts||0)>0));
+    if (any) set.add(gradeOfTopic(key));
+  });
+  return set;
+}
+function topicAll3Star(topic) {
+  const total = getTopicTotal(topic);
+  if (!total) return false;
+  const td = _allTextStats()[topic];
+  if (!td) return false;
+  const ids = new Set();
+  let all3 = true;
+  Object.values(td).forEach(sd => Object.entries(sd).forEach(([id, t]) => {
+    if ((t.attempts||0)>0) { ids.add(id); if ((t.bestStars||0)<3) all3 = false; }
+  }));
+  return ids.size >= total && all3;
+}
+function bumpStreak(stars) {
+  try {
+    const profile = getActiveProfile();
+    if (!profile) return 0;
+    const all = JSON.parse(localStorage.getItem('ataberk_streak') || '{}');
+    let s = all[profile.id] || 0;
+    s = (stars === 3) ? s + 1 : 0;
+    all[profile.id] = s;
+    localStorage.setItem('ataberk_streak', JSON.stringify(all));
+    return s;
+  } catch(e) { return 0; }
+}
 
 function loadBadges() {
   const profile = getActiveProfile();
@@ -3397,73 +3593,45 @@ function saveBadge(badgeId) {
 let _badgeQueue = [];
 let _badgeShowing = false;
 
-function checkBadges(score, total, stars, skill, topic) {
+function checkBadges(score, total, stars, skill, topic, opts) {
+  opts = opts || {};
   const earned = loadBadges();
-  const textStats = (() => {
-    try {
-      const profile = getActiveProfile();
-      if (!profile) return {};
-      const all = JSON.parse(localStorage.getItem('ataberk_text_stats') || '{}');
-      return all[profile.id] || {};
-    } catch(e) { return {}; }
-  })();
-  const actStats = loadStats();
   const newBadges = [];
+  const grant = (id) => { if (!earned.includes(id) && saveBadge(id)) newBadges.push(id); };
 
-  const grant = (id) => {
-    if (!earned.includes(id)) {
-      if (saveBadge(id)) newBadges.push(id);
-    }
-  };
-
-  // İlk metin
+  // Başlangıç + beceri
   grant('first_text');
+  if (skill) grant('first_' + skill);
 
-  // İlk beceri rozetleri
-  if (skill === 'scan') grant('first_scan');
-  if (skill === 'skim') grant('first_skim');
-  if (skill === 'int')  grant('first_int');
-  if (skill === 'inf')  grant('first_inf');
-
-  // 3 yıldız
+  // Performans
   if (stars === 3) grant('star3');
-
-  // 5/5 mükemmel
   if (score === total && total >= 5) grant('perfect');
+  if (bumpStreak(stars) >= 3) grant('streak3');
+  if (stars === 3 && !opts.hintUsed) grant('no_hint');
+  if (stars === 3 && opts.prevStars != null && opts.prevStars < 3) grant('persist');
 
-  // 3 üst üste 3 yıldız — son 3 metin stat'ına bak
-  const recentStars = [];
-  Object.values(textStats).forEach(topicData => {
-    Object.values(topicData).forEach(skillData => {
-      Object.values(skillData).forEach(t => {
-        if (t.bestStars !== undefined) recentStars.push(t.bestStars);
-      });
-    });
-  });
-  if (recentStars.filter(s => s === 3).length >= 3) grant('streak3');
+  // Tema tamamlandı (mevcut tema)
+  const prog = topicProgress(topic);
+  if (prog.total > 0 && prog.done >= prog.total) grant('theme_' + topic);
 
-  // 4 beceriyi aynı temada tamamla
-  const topicSkills = actStats[topic] || {};
-  if (['scan','skim','int','inf'].every(s => topicSkills[s])) grant('all_skills');
+  // Metin sayısı kilometre taşları
+  const totalDone = countDoneTextsAll();
+  if (totalDone >= 10)  grant('texts10');
+  if (totalDone >= 50)  grant('texts50');
+  if (totalDone >= 100) grant('texts100');
 
-  // School Life tamamlandı
-  const schoolSkills = actStats['school-life'] || {};
-  if (['scan','skim','int','inf'].every(s => schoolSkills[s])) grant('school_done');
+  // Kâşif — 3 farklı sınıf
+  if (gradesPlayed().size >= 3) grant('explorer');
 
-  // 3 farklı tema tamamlandı
-  const doneTopic = Object.entries(actStats).filter(([k, v]) =>
-    ['scan','skim','int','inf'].every(s => v[s])
-  ).length;
-  if (doneTopic >= 3) grant('three_topics');
+  // Mezun — tüm tema rozetleri
+  const allThemeIds = [];
+  ['grade2','grade3','grade4'].forEach(g => (GRADE_TOPICS[g] || []).forEach(t => allThemeIds.push('theme_' + t.key)));
+  const earnedNow = loadBadges();
+  if (allThemeIds.every(id => earnedNow.includes(id))) grant('graduate');
 
-  // Tüm temalar tamamlandı
-  if (doneTopic >= Object.keys(TOPIC_META).length) grant('all_topics');
+  // Koleksiyoncu — collector hariç tüm rozetler
+  if (loadBadges().length >= BADGE_DEFS.length - 1) grant('collector');
 
-  // Tüm rozetler
-  const earnedAfter = loadBadges();
-  if (earnedAfter.length >= BADGE_DEFS.length - 1) grant('all_badges');
-
-  // Kuyruğa ekle ve göster
   if (newBadges.length > 0) {
     _badgeQueue.push(...newBadges);
     showNextBadgePopup();
@@ -3495,31 +3663,39 @@ function renderBadgeScreen() {
   const total = BADGE_DEFS.length;
   document.getElementById('badges-screen-sub').textContent = `${earned.length} / ${total} kazanıldı`;
 
-  const cats = ['start', 'perf', 'done'];
-  const scroll = document.getElementById('badges-scroll');
-  scroll.innerHTML = cats.map(cat => {
-    const badges = BADGE_DEFS.filter(b => b.cat === cat);
-    const cards = badges.map(b => {
-      const isEarned = earned.includes(b.id);
-      return `
-        <div class="badge-card${isEarned ? '' : ' locked'}">
-          <div class="badge-card-icon">${b.icon}</div>
-          <div class="badge-card-name">${b.name}</div>
-          <div class="badge-card-desc">${b.desc}</div>
-          ${isEarned
-            ? '<div class="badge-earned-tag">✓ Kazanıldı</div>'
-            : '<div class="badge-lock-tag">🔒 Kilitli</div>'}
-        </div>`;
-    }).join('');
-    return `
-      <div class="badge-category">
-        <div class="badge-cat-title">${CAT_LABELS[cat]}</div>
-        <div class="badge-grid">${cards}</div>
+  const page = BADGE_PAGES[_badgePage] || BADGE_PAGES[0];
+  const badges = badgePageBadges(page);
+  const earnedCount = badges.filter(b => earned.includes(b.id)).length;
+
+  const tabs = BADGE_PAGES.map((p, i) =>
+    `<button class="ba-tab${i === _badgePage ? ' active' : ''}" onclick="setBadgePage(${i})">${p.title}</button>`
+  ).join('');
+
+  const slots = badges.map((b, i) => {
+    const isE = earned.includes(b.id);
+    if (isE) {
+      const holo = b.holoCheck && topicAll3Star(b.topic);
+      return `<div class="ba-slot">
+        <div class="ba-sticker${holo ? ' holo' : ''}" style="animation-delay:${i * 80}ms">${b.icon}<span class="ba-glint"></span></div>
+        <span class="ba-lbl">${b.name}</span>
       </div>`;
+    }
+    return `<div class="ba-slot locked"><span class="ba-ghost">?</span><span class="ba-lbl">${b.name}</span></div>`;
   }).join('');
+
+  document.getElementById('badges-scroll').innerHTML = `
+    <div class="ba-tabs">${tabs}</div>
+    <div class="ba-album">
+      <div class="ba-spiral"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="ba-title">${page.title}</div>
+      <div class="ba-sub">${page.sub}</div>
+      <div class="ba-slots">${slots}</div>
+      <div class="ba-foot"><span>🌟 ${earnedCount} kazanıldı</span><span>◌ ${badges.length - earnedCount} kilitli</span></div>
+    </div>`;
 }
 
 function showBadgeScreen() {
+  _badgePage = 0;
   renderBadgeScreen();
   showScreen('screen-badges');
 }
@@ -3569,7 +3745,7 @@ function renderStats() {
       <div class="stats-hero-av">${profil ? profil.avatar : '🐱'}</div>
       <div>
         <div class="stats-hero-name">${profil ? profil.name : 'Öğrenci'}</div>
-        <div class="stats-hero-sub">2. Sınıf</div>
+        <div class="stats-hero-sub">${GRADE_LABELS[currentGrade] || '2. Sınıf'}</div>
       </div>
     </div>`;
 
@@ -3582,12 +3758,19 @@ function renderStats() {
       <div class="stat-box"><div class="stat-num">${totalDone}</div><div class="stat-lbl">📖 Etkinlik</div></div>
     </div>`;
 
-  // Konu listesi
-  let topicsHTML = '<div class="stats-section-title">Konular</div>';
-  Object.entries(TOPIC_META).forEach(([key, meta]) => {
+  // Konu listesi — sınıf sekmeleriyle (uzun kaydırma yerine)
+  const activeGrade = statsGradeTab || currentGrade || 'grade2';
+  const tabsHTML = `<div class="stats-grade-tabs">` +
+    ['grade2','grade3','grade4'].map(g =>
+      `<button class="stats-grade-tab${g===activeGrade?' active':''}" onclick="setStatsGrade('${g}')">${GRADE_LABELS[g]}</button>`
+    ).join('') + `</div>`;
+
+  let rowsHTML = '';
+  (GRADE_TOPICS[activeGrade] || []).forEach(meta => {
+    const key = meta.key;
     const topicData = stats[key];
     if (!topicData) {
-      topicsHTML += `
+      rowsHTML += `
         <div class="topic-stat-row empty">
           <div class="topic-stat-icon">${meta.icon}</div>
           <div class="topic-stat-info">
@@ -3598,17 +3781,14 @@ function renderStats() {
         </div>`;
       return;
     }
-    const skills = Object.keys(topicData);
-    const allSkills = Object.keys(SKILLS);
-    const isDone = allSkills.every(s => topicData[s]);
-    const cls = isDone ? 'done' : 'pending';
-    const badge = isDone ? '✅' : '⏳';
-    const detail = skills.map(s => {
-      const sk = topicData[s];
-      const pct = sk.total ? Math.round(sk.bestScore / sk.total * 100) : 0;
-      return `${SKILLS[s].label} %${pct}`;
-    }).join(' · ');
-    topicsHTML += `
+    const prog = topicProgress(key);
+    const complete = prog.total > 0 && prog.done >= prog.total;
+    const cls = complete ? 'done' : 'pending';
+    const badge = complete ? '✅' : `%${prog.pct}`;
+    const detail = prog.total
+      ? `${prog.done} / ${prog.total} metin tamamlandı`
+      : 'Devam ediyor';
+    rowsHTML += `
       <div class="topic-stat-row ${cls}">
         <div class="topic-stat-icon">${meta.icon}</div>
         <div class="topic-stat-info">
@@ -3618,10 +3798,13 @@ function renderStats() {
         <div class="topic-stat-badge">${badge}</div>
       </div>`;
   });
+  const topicsHTML = '<div class="stats-section-title">Konular</div>' + tabsHTML + rowsHTML;
 
   const editHTML = `<button class="stats-edit-btn" onclick="showScreen('screen-profile-select')">🔄 Profil Değiştir</button>`;
 
-  scroll.innerHTML = heroHTML + gridHTML + renderBadgePreview() + topicsHTML + editHTML;
+  const playHTML = `<button class="stats-play-btn" onclick="showScreen('screen-sinif')">▶ Okumaya Başla</button>`;
+
+  scroll.innerHTML = heroHTML + playHTML + gridHTML + renderBadgePreview() + topicsHTML + editHTML;
 }
 
 // Header rozetine tıklayınca profil seçim ekranına git (profil değiştirmek için).
