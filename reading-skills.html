@@ -1493,6 +1493,40 @@ button.celeb-retry {
 @keyframes baSweep { 0%{left:-60%} 100%{left:120%} }
 .ba-foot { display:flex; justify-content:space-between; font-family:'Baloo 2',cursive; font-weight:600;
   font-size:12px; color:#577240; border-top:1.5px dashed #D6C9A8; padding-top:8px; }
+/* Tıklanabilir slot + kilitli placeholder */
+.ba-slot { cursor:pointer; transition:transform .12s; }
+.ba-slot:active { transform:scale(.94); }
+.ba-ph { position:absolute; top:4px; left:4px; right:4px; bottom:18px; border-radius:12px;
+  display:flex; align-items:center; justify-content:center; font-size:24px; filter:grayscale(1); opacity:.26; }
+.ba-slot.locked::after { content:"?"; position:absolute; top:5px; right:9px; font-family:'Baloo 2',cursive;
+  font-weight:700; font-size:11px; color:#C7B68E; }
+/* Rozet detay (spotlight) */
+.badge-detail-overlay { position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:1100;
+  display:flex; align-items:center; justify-content:center; padding:24px; animation:fadeIn .22s ease; }
+.badge-detail-overlay.hidden { display:none; }
+.bd-card { position:relative; background:#FFFBF0; border:3px solid #1A1A1A; border-radius:24px;
+  padding:30px 22px 24px; max-width:300px; width:100%; text-align:center; box-shadow:6px 6px 0 #1A1A1A;
+  animation:popIn .32s cubic-bezier(.34,1.56,.64,1); }
+.bd-close { position:absolute; top:8px; right:12px; width:30px; height:30px; border:none; background:none;
+  font-size:26px; line-height:1; color:#9AAE7E; cursor:pointer; font-weight:700; }
+.bd-icon { width:96px; height:96px; margin:4px auto 12px; border-radius:20px; display:flex;
+  align-items:center; justify-content:center; font-size:52px;
+  background:radial-gradient(circle at 30% 25%,#fff,#F4F0E2); border:2.5px solid #fff;
+  box-shadow:0 4px 12px rgba(0,0,0,.18); animation:baPeel .5s cubic-bezier(.34,1.7,.5,1) backwards; }
+.bd-icon.holo { background:linear-gradient(120deg,#F9C74F,#F9844A,#B392CE,#90BE6D,#F9C74F); background-size:300% 300%;
+  animation:baPeel .5s cubic-bezier(.34,1.7,.5,1) backwards, baHolo 3s 1s linear infinite; }
+.bd-icon.locked { filter:grayscale(1); opacity:.45; background:radial-gradient(circle at 30% 25%,#F4F0E2,#E7E0CC); }
+.bd-name { font-family:'Baloo 2',cursive; font-weight:700; font-size:21px; color:#1A1A1A; margin-bottom:8px; }
+.bd-status { display:inline-block; font-family:'Baloo 2',cursive; font-weight:700; font-size:12px;
+  border:2px solid #1A1A1A; border-radius:20px; padding:4px 14px; margin-bottom:14px; background:#90BE6D; color:#1A4D1A; }
+.bd-status.locked { background:#EDE4CC; color:#8A7B5A; }
+.bd-prog { margin:0 4px 14px; }
+.bd-prog-bar { height:13px; border-radius:8px; background:#EDE4CC; border:2px solid #1A1A1A; overflow:hidden; }
+.bd-prog-fill { height:100%; background:linear-gradient(90deg,#F9C74F,#F9844A); border-radius:6px 0 0 6px;
+  transition:width .5s cubic-bezier(.34,1.3,.5,1); }
+.bd-prog-text { font-family:'Baloo 2',cursive; font-weight:700; font-size:12px; color:#577240; margin-top:5px; }
+.bd-desc { font-family:'Baloo 2',cursive; font-weight:600; font-size:13.5px; color:#5A4F3A; line-height:1.5;
+  background:#FBF6E6; border:2px dashed #D6C9A8; border-radius:14px; padding:11px 13px; }
 .badges-scroll { padding: 0 16px 24px; overflow-y: auto; flex: 1; }
 .badge-category { margin-bottom: 24px; }
 .badge-cat-title {
@@ -2168,6 +2202,18 @@ body.intro-mode .ud-corner { display: none !important; }
     <div class="badge-popup-title" id="badge-popup-title">İlk Adım</div>
     <div class="badge-popup-sub" id="badge-popup-sub">Tebrikler!</div>
     <button class="badge-popup-btn" onclick="closeBadgePopup()">Harika! 🏅</button>
+  </div>
+</div>
+
+<!-- ROZET DETAY (SPOTLIGHT) -->
+<div class="badge-detail-overlay hidden" id="badge-detail-overlay" onclick="if(event.target===this)closeBadgeDetail()">
+  <div class="bd-card">
+    <button class="bd-close" onclick="closeBadgeDetail()" aria-label="Kapat">×</button>
+    <div class="bd-icon" id="bd-icon">🌟</div>
+    <div class="bd-name" id="bd-name"></div>
+    <div class="bd-status" id="bd-status"></div>
+    <div class="bd-prog" id="bd-prog" style="display:none"></div>
+    <div class="bd-desc" id="bd-desc"></div>
   </div>
 </div>
 
@@ -3530,6 +3576,88 @@ const BADGE_DEFS = (() => {
 let _badgePage = 0;
 function setBadgePage(i) { _badgePage = i; renderBadgeScreen(); }
 
+// ── Rozet detayı (spotlight) ──
+// Bir rozetin tam tanımını döndürür (tema/şampiyon dahil)
+function getBadgeById(id) {
+  for (const g of ['grade2','grade3','grade4']) {
+    for (const t of (GRADE_TOPICS[g] || [])) {
+      if ('theme_' + t.key === id) {
+        return { id, icon: t.icon, name: t.name, desc: t.name + ' temasını tamamla', topic: t.key, holoCheck: true };
+      }
+    }
+    const ch = CHAMPION_BADGES[g];
+    if (ch && ch.id === id) return ch;
+  }
+  return SKILL_BADGES.concat(ACH_BADGES).find(b => b.id === id) || BADGE_DEFS.find(b => b.id === id);
+}
+// Kilitli rozetler için "ne kadar kaldı" — gerçek kazanma koşullarıyla aynı
+function badgeProgress(b) {
+  const id = b.id;
+  const earned = loadBadges();
+  const clamp = (c, m) => ({ cur: Math.max(0, Math.min(c, m)), max: m });
+  if (id === 'texts10')  return clamp(countDoneTextsAll(), 10);
+  if (id === 'texts50')  return clamp(countDoneTextsAll(), 50);
+  if (id === 'texts100') return clamp(countDoneTextsAll(), 100);
+  if (id === 'explorer') return clamp(gradesPlayed().size, 3);
+  if (id === 'streak3') {
+    let s = 0;
+    try { const p = getActiveProfile(); if (p) s = (JSON.parse(localStorage.getItem('ataberk_streak') || '{}'))[p.id] || 0; } catch(e) {}
+    return clamp(s, 3);
+  }
+  if (id.indexOf('theme_') === 0) {
+    const topic = b.topic || id.slice(6);
+    const pr = topicProgress(topic);
+    if (pr && pr.total > 0) return clamp(pr.done, pr.total);
+    return null;
+  }
+  if (id.indexOf('champion_') === 0) {
+    const g = id.slice('champion_'.length);
+    const ids = (GRADE_TOPICS[g] || []).map(t => 'theme_' + t.key);
+    return clamp(ids.filter(x => earned.includes(x)).length, ids.length || 6);
+  }
+  if (id === 'graduate') {
+    const all = [];
+    ['grade2','grade3','grade4'].forEach(g => (GRADE_TOPICS[g] || []).forEach(t => all.push('theme_' + t.key)));
+    return clamp(all.filter(x => earned.includes(x)).length, all.length);
+  }
+  if (id === 'collector') return clamp(earned.filter(x => x !== 'collector').length, BADGE_DEFS.length - 1);
+  if (id === 'all_skills') {
+    const st = loadStats() || {};
+    let mx = 0;
+    Object.values(st).forEach(ts => { const c = ['scan','skim','int','inf'].filter(s => ts[s]).length; if (c > mx) mx = c; });
+    return clamp(mx, 4);
+  }
+  return null; // first_*, star3, perfect, no_hint, persist, spiral → ilerleme gösterilmez
+}
+function openBadgeDetail(id) {
+  const b = getBadgeById(id);
+  if (!b) return;
+  const isE = loadBadges().includes(id);
+  const holo = isE && b.holoCheck && topicAll3Star(b.topic);
+  const ic = document.getElementById('bd-icon');
+  ic.textContent = b.icon;
+  ic.className = 'bd-icon' + (isE ? (holo ? ' holo' : '') : ' locked');
+  document.getElementById('bd-name').textContent = b.name;
+  const st = document.getElementById('bd-status');
+  st.textContent = isE ? '✓ Kazanıldı' : '🔒 Henüz kazanılmadı';
+  st.className = 'bd-status' + (isE ? '' : ' locked');
+  document.getElementById('bd-desc').textContent = '🎯 ' + b.desc;
+  const pw = document.getElementById('bd-prog');
+  const pr = isE ? null : badgeProgress(b);
+  if (pr && pr.max > 0) {
+    const pct = Math.round(pr.cur / pr.max * 100);
+    pw.style.display = 'block';
+    pw.innerHTML = `<div class="bd-prog-bar"><div class="bd-prog-fill" style="width:${pct}%"></div></div><div class="bd-prog-text">${pr.cur} / ${pr.max}</div>`;
+  } else {
+    pw.style.display = 'none';
+    pw.innerHTML = '';
+  }
+  document.getElementById('badge-detail-overlay').classList.remove('hidden');
+}
+function closeBadgeDetail() {
+  document.getElementById('badge-detail-overlay').classList.add('hidden');
+}
+
 // ── Rozet koşulları için yardımcılar ──
 function gradeOfTopic(key) {
   if (key.endsWith('-y4')) return 'grade4';
@@ -3730,12 +3858,15 @@ function renderBadgeScreen() {
     const isE = earned.includes(b.id);
     if (isE) {
       const holo = b.holoCheck && topicAll3Star(b.topic);
-      return `<div class="ba-slot">
+      return `<div class="ba-slot" onclick="openBadgeDetail('${b.id}')">
         <div class="ba-sticker${holo ? ' holo' : ''}" style="animation-delay:${i * 80}ms">${b.icon}<span class="ba-glint"></span></div>
         <span class="ba-lbl">${b.name}</span>
       </div>`;
     }
-    return `<div class="ba-slot locked"><span class="ba-ghost">?</span><span class="ba-lbl">${b.name}</span></div>`;
+    return `<div class="ba-slot locked" onclick="openBadgeDetail('${b.id}')">
+      <div class="ba-ph">${b.icon}</div>
+      <span class="ba-lbl">${b.name}</span>
+    </div>`;
   }).join('');
 
   document.getElementById('badges-scroll').innerHTML = `
