@@ -2588,6 +2588,16 @@ function closeTrPopup(){
   document.getElementById('tr-popup').classList.remove('visible');
   document.querySelectorAll('.s.user-hl').forEach(s => s.classList.remove('user-hl'));
 }
+// Pop-up'ın veya cümlelerin dışına tıklanınca çeviri pop-up'ını otomatik kapat
+document.addEventListener('click', function(e){
+  const popup = document.getElementById('tr-popup');
+  if (!popup || !popup.classList.contains('visible')) return;
+  // Pop-up'ın içine tıklandıysa dokunma (çarpı kendi işini görür)
+  if (e.target.closest('#tr-popup')) return;
+  // Bir cümleye tıklandıysa dokunma (toggleHL zaten yönetiyor: aç/kapat/taşı)
+  if (e.target.closest('.s')) return;
+  closeTrPopup();
+});
 function applyHL(idx){
   clearTimeout(hlTimer);clearHL();
   if(!idx||!idx.length)return;
