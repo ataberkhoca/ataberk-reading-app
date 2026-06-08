@@ -2470,6 +2470,8 @@ body.intro-mode .ud-corner { display: none !important; }
 //  NAVIGASYON
 // ════════════════════════════════════════
 function showScreen(id) {
+  // Ekran değişince açık kalmış çeviri pop-up'ını kapat
+  if (typeof closeTrPopup === 'function') closeTrPopup();
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   onScreenChange(id);
