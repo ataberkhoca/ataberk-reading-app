@@ -1687,11 +1687,11 @@ button.celeb-retry {
    KUTLAMA HAVUZU — 6 DÜNYA (cw- = celebration world)
    showResult() bu overlay'i doldurup gösterir.
 ═══════════════════════════════════════════ */
-.cw-overlay{position:fixed;inset:0;z-index:300;opacity:0;pointer-events:none;transition:opacity .35s;display:flex;justify-content:center;align-items:center}
+.cw-overlay{position:fixed;inset:0;z-index:300;opacity:0;pointer-events:none;transition:opacity .35s;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .cw-overlay.visible{opacity:1;pointer-events:all}
-.cw-phone{width:100%;max-width:430px;height:100dvh;position:relative;display:flex;flex-direction:column;overflow:hidden}
-.cw-scene{position:relative;flex:0 0 38%;min-height:200px;overflow:hidden}
-.cw-body{flex:1;display:flex;flex-direction:column;align-items:center;padding:16px 24px 22px;position:relative;z-index:5;overflow-y:auto}
+.cw-phone{width:100%;max-width:430px;min-height:100dvh;margin:0 auto;position:relative;display:block}
+.cw-scene{position:relative;overflow:visible;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:26px 0 2px}
+.cw-body{display:flex;flex-direction:column;align-items:center;padding:8px 26px 32px;position:relative;z-index:2}
 .cw-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:32px;text-align:center;line-height:1.05;opacity:0;animation:cwFu .6s .2s ease-out forwards}
 .cw-sub{font-size:12.5px;font-weight:800;margin-top:5px;text-align:center;opacity:0;animation:cwFu .6s .35s ease-out forwards}
 .cw-badge{margin-top:11px;display:inline-flex;gap:5px;align-items:center;padding:6px 16px;border-radius:99px;font-weight:900;font-size:12px;opacity:0;animation:cwFu .6s .5s ease-out forwards;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A}
@@ -1709,6 +1709,58 @@ button.celeb-retry {
 .cw-bs:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A}.cw-bs:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A}
 .cw-bt{font-family:'Baloo 2',cursive;font-weight:600;border-radius:18px;padding:11px 20px;cursor:pointer;border:2px solid rgba(255,255,255,.4);font-size:13px;background:transparent;transition:all .15s}
 @keyframes cwFu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+/* ═══════════ ESKİZ DEFTERİ PULU — kutlama ekranı ═══════════ */
+.cw-sketch{
+  background:
+    linear-gradient(#e6eef8 1px, transparent 1px),
+    linear-gradient(90deg, #e6eef8 1px, transparent 1px),
+    #FBF7EA;
+  background-size:27px 27px, 27px 27px, 100% 100%;
+}
+.cw-sketch::before{content:'';position:absolute;top:0;bottom:0;left:34px;width:2px;background:#E8584B;opacity:.5;z-index:1}
+.cw-sketch::after{content:'';position:absolute;top:26px;bottom:26px;left:12px;width:9px;z-index:1;
+  background:radial-gradient(circle, #d6c6a0 38%, transparent 42%);background-size:100% 74px;background-repeat:repeat-y;opacity:.7}
+.cw-sketch .cw-scene,.cw-sketch .cw-body{z-index:2}
+/* — damga — */
+.cw-stampwrap{position:relative;width:184px;height:184px;display:flex;align-items:center;justify-content:center;color:#2F855A}
+.cw-stamp{width:172px;height:172px;transform:rotate(-8deg);animation:cwStampIn .55s .25s cubic-bezier(.2,1.7,.4,1) backwards;filter:drop-shadow(1px 2px 0 rgba(31,42,68,.12))}
+.cw-stamp .ring{fill:none;stroke:currentColor}
+.cw-stamp .ring.outer{stroke-width:3.5}
+.cw-stamp .ring.inner{stroke-width:1.6;stroke-dasharray:2 5}
+.cw-stamp-txt{font-family:'Baloo 2',cursive;font-weight:800;font-size:16px;letter-spacing:1.5px;fill:currentColor}
+.cw-stamp-foot{font-family:'Baloo 2',cursive;font-weight:800;font-size:13px;letter-spacing:3px;fill:currentColor}
+.cw-stamp-icon{font-size:50px}
+.cw-inkring{position:absolute;width:168px;height:168px;border-radius:50%;border:3px solid currentColor;opacity:0;pointer-events:none}
+.cw-inkring.go{animation:cwInk .7s ease-out forwards}
+@keyframes cwStampIn{0%{opacity:0;transform:rotate(-28deg) scale(2.5) translateY(-26px)}55%{opacity:1;transform:rotate(-6deg) scale(.9)}74%{transform:rotate(-9.5deg) scale(1.07)}100%{transform:rotate(-8deg) scale(1)}}
+@keyframes cwInk{0%{opacity:.45;transform:scale(.82)}100%{opacity:0;transform:scale(1.55)}}
+/* — yıldız puanı — */
+.cw-stars{display:flex;gap:9px;margin:11px 0 2px;opacity:0;animation:cwFu .6s .72s ease-out forwards}
+.cw-star{width:30px;height:30px;color:#E2D4AC}
+.cw-star.on{color:#F4A300;animation:cwStarPop .45s backwards}
+@keyframes cwStarPop{0%{opacity:0;transform:scale(0) rotate(-40deg)}70%{transform:scale(1.25) rotate(6deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+/* — başlık + metinler — */
+.cw-sketch .cw-title{font-family:'Caveat',cursive;font-weight:700;font-size:44px;color:#1F2A44}
+.cw-sketch .cw-sub{font-family:'Patrick Hand',cursive;font-weight:400;font-size:16px;color:#3A4A5A}
+.cw-sketch .cw-badge{font-family:'Patrick Hand',cursive;font-weight:400;font-size:15px;background:#FCEFC7;color:#7A5A12;border:1.6px dashed #D9B85A;box-shadow:none;border-radius:9px;padding:4px 14px;transform:rotate(-1.4deg);letter-spacing:.3px}
+.cw-sketch .cw-sb{background:#fff;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:15px 12px 16px 11px}
+.cw-sketch .cw-sb .v{color:#1F2A44}
+.cw-sketch .cw-sb.ok .v{color:#2F855A}.cw-sketch .cw-sb.err .v{color:#C9483B}
+.cw-sketch .cw-sb .l{font-family:'Patrick Hand',cursive;font-weight:400;font-size:12.5px;color:#5A6B7A;letter-spacing:.4px}
+.cw-sketch .cw-cast{font-family:'Patrick Hand',cursive;font-weight:400;font-size:14.5px;color:#5A6B7A}
+.cw-sketch .cw-msg{font-family:'Patrick Hand',cursive;font-weight:400;font-size:16px;color:#2F3E50;line-height:1.5;max-width:330px}
+/* — marker butonlar — */
+.cw-sketch .cw-btns{margin-top:14px;max-width:340px}
+.cw-sketch .cw-bp{font-family:'Baloo 2',cursive;font-weight:700;font-size:17px;background:#F4A300;color:#1F2A44;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:15px 12px 16px 13px}
+.cw-sketch .cw-bs{font-family:'Baloo 2',cursive;font-weight:700;font-size:15px;background:#fff;color:#1F2A44;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:14px 13px 15px 12px}
+.cw-sketch .cw-bt{font-family:'Baloo 2',cursive;font-weight:700;font-size:13.5px;color:#5A6B7A;border:2px dashed #B9C4D0;background:transparent}
+.cw-sketch .cw-bp:hover,.cw-sketch .cw-bs:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #1F2A44}
+.cw-sketch .cw-bp:active,.cw-sketch .cw-bs:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1F2A44}
+@media (prefers-reduced-motion:reduce){
+  .cw-stamp{animation:none}.cw-inkring{display:none}.cw-star.on{animation:none}
+  .cw-sketch .cw-title,.cw-sketch .cw-sub,.cw-sketch .cw-badge,.cw-sketch .cw-score,.cw-sketch .cw-cast,.cw-sketch .cw-msg,.cw-sketch .cw-btns,.cw-stars{animation:none!important;opacity:1!important;transform:none!important}
+}
 
 /* figür satırı (ortak) */
 .cw-figrow{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:14px;z-index:6}
@@ -2024,6 +2076,7 @@ body.intro-mode .ud-corner { display: none !important; }
         <div class="cw-sb ok"><span class="v" id="cw-cn">0</span><span class="l">✅ DOĞRU</span></div>
         <div class="cw-sb err"><span class="v" id="cw-wn">0</span><span class="l">❌ YANLIŞ</span></div>
       </div>
+      <div class="cw-stars" id="cw-stars"></div>
       <div class="cw-cast" id="cw-cast"></div>
       <div class="cw-msg" id="cw-msg"></div>
       <div class="cw-btns">
@@ -2877,7 +2930,8 @@ async function startSkill(sk, textId) {
     try {
       await loadTopicData(currentTopic, currentGrade);
     } catch(e) {
-      showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
+      console.error('loadTopicData hatası:', e);
+      showToast('İçerik yüklenemedi: ' + (e && e.message ? e.message : e), 'error', 5000);
       return;
     }
   }
@@ -2920,7 +2974,8 @@ async function selectSkill(sk) {
     try {
       await loadTopicData(currentTopic, currentGrade);
     } catch(e) {
-      showToast('İçerik yüklenemedi. Lütfen tekrar deneyin.', 'error', 3000);
+      console.error('loadTopicData hatası:', e);
+      showToast('İçerik yüklenemedi: ' + (e && e.message ? e.message : e), 'error', 5000);
       return;
     }
   }
@@ -4220,16 +4275,43 @@ renderThemeList();
   };
 
   // ───── ANA GİRİŞ NOKTASI ─────
+  function cwStars(ratio){return ratio>=0.8?3:ratio>=0.5?2:1;}
+  function buildStamp(scene,score,tot){
+    const correct=Math.max(0,Math.min(score,tot)), ratio=tot?correct/tot:0, stars=cwStars(ratio);
+    const P = stars===3?{c:'#2F855A',t:'★ AFERİN ★ HARİKA ★'}
+            : stars===2?{c:'#C77D12',t:'★ GÜZEL İŞ ★ DEVAM ★'}
+            :            {c:'#2B6CB0',t:'★ DEVAM ET ★ TEKRAR ★'};
+    const icon=(cwTaskIcon()||'📖');
+    const wrap=document.createElement('div'); wrap.className='cw-stampwrap'; wrap.style.color=P.c;
+    wrap.innerHTML=`<div class="cw-inkring"></div>
+      <svg class="cw-stamp" viewBox="0 0 200 200" aria-hidden="true">
+        <defs><path id="cwArc" d="M40,104 a60,60 0 0,1 120,0"/></defs>
+        <circle class="ring outer" cx="100" cy="100" r="90"/>
+        <circle class="ring inner" cx="100" cy="100" r="76"/>
+        <text class="cw-stamp-txt"><textPath href="#cwArc" startOffset="50%" text-anchor="middle">${P.t}</textPath></text>
+        <text class="cw-stamp-icon" x="100" y="116" text-anchor="middle">${icon}</text>
+        <text class="cw-stamp-foot" x="100" y="150" text-anchor="middle">OKUNDU</text>
+      </svg>`;
+    scene.appendChild(wrap);
+    const ring=wrap.querySelector('.cw-inkring');
+    setTimeout(()=>{ if(ring) ring.classList.add('go'); },400);
+    const sc=document.getElementById('cw-stars');
+    if(sc){ sc.innerHTML='';
+      for(let i=0;i<3;i++){ const on=i<stars;
+        sc.insertAdjacentHTML('beforeend',`<svg class="cw-star${on?' on':''}" viewBox="0 0 24 24" style="animation-delay:${(0.7+i*0.15).toFixed(2)}s"><path d="M12 1.8l3 6.1 6.7 1-4.85 4.7 1.15 6.7L12 17.6l-6 3.4 1.15-6.7L2.3 8.9l6.7-1z" fill="currentColor" stroke="#1F2A44" stroke-width="1.1" stroke-linejoin="round"/></svg>`);
+      }
+    }
+  }
   window.cwShow=function(score,tot,skill,topic){
-    const world=cwPick();
     const phone=document.getElementById('cw-phone');
-    phone.className='cw-phone cw-'+world;
+    phone.className='cw-phone cw-sketch';
     const scene=document.getElementById('cw-scene');
-    scene.className='cw-scene';scene.innerHTML='';
-    // sahneyi kur (DOM yerleşsin diye küçük gecikme, clientWidth için)
-    requestAnimationFrame(()=>{ CW_SCENES[world](scene,score,tot); });
+    scene.className='cw-scene'; scene.innerHTML='';
     cwFillBody(score,tot);
-    document.getElementById('cw-overlay').classList.add('visible');
+    requestAnimationFrame(()=>buildStamp(scene,score,tot));
+    const ov=document.getElementById('cw-overlay');
+    ov.classList.add('visible');
+    ov.scrollTop=0;
   };
 })();
 
