@@ -1238,21 +1238,21 @@
       ],
       "sentences": [
         "Can is late for class today.",
-        "Miss Oli is at the board.",
+        "Miss Oli is in the classroom.",
         "Can: I am sorry, Miss Oli! I am late.",
         "Miss Oli: It is OK, Can. Sit down, please.",
         "Can: Thank you, Miss Oli!",
-        "Can sits next to Eda.",
+        "Can sits here. Eda is here, too.",
         "Eda: Hello, Can!",
         "Can: Hello, Eda! I am sorry. I am late today."
       ],
       "translations": [
         "Can bugün derse geç kaldı.",
-        "Miss Oli tahtanın başında.",
+        "Miss Oli sınıfta.",
         "Can: Özür dilerim, Miss Oli! Geç kaldım.",
         "Miss Oli: Sorun değil, Can. Otur, lütfen.",
         "Can: Teşekkür ederim, Miss Oli!",
-        "Can Eda'nın yanına oturur.",
+        "Can buraya oturur. Eda da burada.",
         "Eda: Merhaba, Can!",
         "Can: Merhaba, Eda! Özür dilerim. Bugün geç kaldım."
       ],
@@ -1297,16 +1297,16 @@
           ]
         },
         {
-          "q": "Where does Can sit?",
-          "qTr": "Can nereye oturur?",
-          "correct": "Next to Eda",
+          "q": "Who says hello to Can?",
+          "qTr": "Can'a kim merhaba der?",
+          "correct": "Eda",
           "wrong": [
-            "Next to Tom",
-            "At home"
+            "Miss Oli",
+            "Mr. Aras"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
@@ -2143,23 +2143,23 @@
       ],
       "sentences": [
         "What day is it today? It is Monday.",
-        "On Monday, we are in the classroom.",
+        "It is Monday. We are in the classroom.",
         "Miss Oli: Good morning, everybody!",
         "Lila is here. Tom is here, too.",
         "This is our classroom. It is nice.",
         "Now we are in the garden.",
         "Monday is a school day.",
-        "We are happy on Monday!"
+        "We are happy today!"
       ],
       "translations": [
         "Bugün hangi gün? Pazartesi.",
-        "Pazartesi günü sınıftayız.",
+        "Bugün Pazartesi. Sınıftayız.",
         "Günaydın, herkese! diyor Miss Oli.",
         "Lila burada. Tom da burada.",
         "Bu bizim sınıfımız. Güzel.",
         "Şimdi bahçedeyiz.",
         "Pazartesi bir okul günü.",
-        "Pazartesi mutluyuz!"
+        "Bugün mutluyuz!"
       ],
       "questions": [
         {
@@ -2191,8 +2191,8 @@
           ]
         },
         {
-          "q": "Where are they on Monday?",
-          "qTr": "Pazartesi günü neredeler?",
+          "q": "Where are the pupils?",
+          "qTr": "Öğrenciler nerede?",
           "correct": "In the classroom",
           "wrong": [
             "In the library",
@@ -2479,26 +2479,26 @@
         }
       ],
       "sentences": [
-        "Tom is in the corridor.",
+        "Tom is in the garden.",
         "Lila is in front of Tom.",
-        "Tom: Excuse me, Lila. I am here.",
+        "Tom: Excuse me, Lila!",
         "Lila: Oh, hello, Tom!",
-        "Tom comes into the classroom.",
-        "Miss Oli is at the board.",
-        "Tom: Excuse me, Miss Oli. Where is my book?",
-        "Miss Oli: Your book is on the desk, Tom.",
-        "Tom: Thank you, Miss Oli!"
+        "Tom: Where is the library?",
+        "Lila: It is here. Look!",
+        "Tom: Thank you, Lila!",
+        "Miss Oli: Good morning! Come in, please.",
+        "Tom: Good morning, Miss Oli!"
       ],
       "translations": [
-        "Tom koridorda.",
+        "Tom bahçede.",
         "Lila Tom'un önünde.",
-        "Tom: Pardon, Lila. Ben buradayım.",
+        "Tom: Pardon, Lila!",
         "Lila: Aa, merhaba Tom!",
-        "Tom sınıfa girer.",
-        "Miss Oli tahtanın başında.",
-        "Tom: Pardon, Miss Oli. Kitabım nerede?",
-        "Miss Oli: Kitabın masada, Tom.",
-        "Tom: Teşekkürler, Miss Oli!"
+        "Tom: Kütüphane nerede?",
+        "Lila: Burada. Bak!",
+        "Tom: Teşekkürler, Lila!",
+        "Miss Oli: Günaydın! İçeri gel, lütfen.",
+        "Tom: Günaydın, Miss Oli!"
       ],
       "questions": [
         {
@@ -2506,61 +2506,61 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Polite words at school",
           "wrong": [
-            "A game",
-            "A song"
+            "A birthday",
+            "Colours"
           ],
-          "hint": "Think about Excuse me.",
+          "hint": "Find the polite words.",
           "hl": [
             2,
-            6
+            7
           ]
         },
         {
           "q": "Where is Tom at the start?",
           "qTr": "Tom başta nerede?",
-          "correct": "In the corridor",
+          "correct": "In the garden",
           "wrong": [
-            "In the garden",
-            "At home"
+            "In the library",
+            "In the canteen"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
           "hl": [
             0
           ]
         },
         {
           "q": "What does Tom say to Lila?",
-          "qTr": "Tom, Lila'ya ne der?",
-          "correct": "Excuse me, Lila",
+          "qTr": "Tom Lila'ya ne der?",
+          "correct": "Excuse me, Lila!",
           "wrong": [
-            "Goodbye, Lila",
-            "Sorry, Lila"
+            "Goodbye, Lila!",
+            "Sorry, Lila!"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find Lila.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Tom ask Miss Oli?",
-          "qTr": "Tom, Miss Oli'ye ne sorar?",
-          "correct": "Where is my book?",
+          "q": "What does Tom ask?",
+          "qTr": "Tom ne sorar?",
+          "correct": "Where is the library?",
           "wrong": [
             "How are you?",
             "What day is it?"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the question.",
           "hl": [
-            6
+            4
           ]
         },
         {
-          "q": "Where is Tom's book?",
-          "qTr": "Tom'un kitabı nerede?",
-          "correct": "On the desk",
+          "q": "What does Miss Oli say?",
+          "qTr": "Miss Oli ne der?",
+          "correct": "Come in, please",
           "wrong": [
-            "In the bag",
-            "On the chair"
+            "Goodbye!",
+            "Go home!"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -2571,7 +2571,7 @@
     },
     {
       "id": "skim-12",
-      "title": "Please at School",
+      "title": "Polite Words at School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🙏",
       "hlMode": "always",
@@ -2593,36 +2593,36 @@
       ],
       "sentences": [
         "Eda is in the classroom with Miss Oli.",
-        "Eda: Can I have a book, please?",
-        "Miss Oli: Yes, of course! Here you are.",
+        "Eda: Excuse me, Miss Oli. Good morning!",
+        "Miss Oli: Good morning, Eda! Sit down, please.",
         "Eda: Thank you, Miss Oli!",
         "Can: Miss Oli, can I sit here, please?",
-        "Miss Oli: Yes, Can. Sit down, please.",
+        "Miss Oli: Yes, Can. Welcome!",
         "Can: Thank you!",
-        "Eda: Can I go to the library, please?",
-        "Miss Oli: Yes, you can, Eda."
+        "Eda: Sorry, Can!",
+        "Can: That's OK, Eda!"
       ],
       "translations": [
         "Eda Miss Oli ile sınıfta.",
-        "Eda: Bir kitap alabilir miyim, lütfen?",
-        "Miss Oli: Tabii ki! Buyur.",
+        "Eda: Pardon, Miss Oli. Günaydın!",
+        "Miss Oli: Günaydın, Eda! Otur, lütfen.",
         "Eda: Teşekkür ederim, Miss Oli!",
         "Can: Miss Oli, buraya oturabilir miyim, lütfen?",
-        "Miss Oli: Evet, Can. Otur, lütfen.",
+        "Miss Oli: Evet, Can. Hoş geldin!",
         "Can: Teşekkür ederim!",
-        "Eda: Kütüphaneye gidebilir miyim, lütfen?",
-        "Miss Oli: Evet, gidebilirsin, Eda."
+        "Eda: Özür dilerim, Can!",
+        "Can: Sorun değil, Eda!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Polite requests with please",
+          "correct": "Polite words at school",
           "wrong": [
-            "Days of week",
+            "Days of the week",
             "Colours"
           ],
-          "hint": "Think about please.",
+          "hint": "Find the polite words.",
           "hl": [
             1,
             4,
@@ -2630,12 +2630,12 @@
           ]
         },
         {
-          "q": "What does Eda ask for first?",
-          "qTr": "Eda önce ne ister?",
-          "correct": "A book",
+          "q": "What does Eda say first?",
+          "qTr": "Eda önce ne der?",
+          "correct": "Excuse me, Miss Oli",
           "wrong": [
-            "A pen",
-            "A bag"
+            "Goodbye!",
+            "Good night!"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -2647,21 +2647,21 @@
           "qTr": "Can ne sorar?",
           "correct": "Can I sit here, please?",
           "wrong": [
-            "Goodbye!",
-            "Hello!"
+            "What day is it?",
+            "Where is the garden?"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Can.",
           "hl": [
             4
           ]
         },
         {
           "q": "What does Miss Oli say to Can?",
-          "qTr": "Miss Oli, Can'a ne der?",
-          "correct": "Sit down, please",
+          "qTr": "Miss Oli Can'a ne der?",
+          "correct": "Welcome!",
           "wrong": [
             "Goodbye!",
-            "Go home!"
+            "Sorry!"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -2669,16 +2669,16 @@
           ]
         },
         {
-          "q": "Where does Eda want to go?",
-          "qTr": "Eda nereye gitmek ister?",
-          "correct": "To the library",
+          "q": "What does Can say to Eda?",
+          "qTr": "Can Eda'ya ne der?",
+          "correct": "That's OK, Eda!",
           "wrong": [
-            "Home",
-            "To the garden"
+            "No!",
+            "Goodbye!"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read the last sentence.",
           "hl": [
-            7
+            8
           ]
         }
       ]
@@ -3931,7 +3931,7 @@
     },
     {
       "id": "int-12",
-      "title": "Books on the Floor",
+      "title": "Where Is Lila?",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "📚",
       "hlMode": "fade3",
@@ -3952,35 +3952,35 @@
         }
       ],
       "sentences": [
-        "Tom is in the classroom.",
-        "There are many books in his hands.",
-        "Lila comes into the classroom.",
-        "The books are on the floor now.",
-        "Tom: I am sorry, Lila! The books are on the floor.",
-        "Lila: It is OK, Tom! I am here.",
-        "Lila and Tom pick up the books.",
-        "Miss Oli: Good pupils! Thank you.",
-        "Tom: Thank you, Lila! I am sorry again."
+        "It is morning. Tom is in the classroom.",
+        "Tom: Where is Lila? She is my friend.",
+        "Miss Oli: Is she in the library?",
+        "Tom: No, she is not in the library.",
+        "Tom: Is she in the garden? Yes! Lila is in the garden.",
+        "Tom: Hello, Lila! Good morning!",
+        "Lila: Hi, Tom! Good morning!",
+        "Lila: This is a nice garden. We are happy.",
+        "Tom: Let's go! We are friends."
       ],
       "translations": [
-        "Tom sınıfta.",
-        "Ellerinde birçok kitap var.",
-        "Lila sınıfa girer.",
-        "Kitaplar şu an yerde.",
-        "Tom: Özür dilerim, Lila! Kitaplar yerde.",
-        "Lila: Sorun değil, Tom! Ben buradayım.",
-        "Lila ve Tom kitapları toplar.",
-        "Miss Oli: İyi öğrenciler! Teşekkür ederim.",
-        "Tom: Teşekkür ederim, Lila! Tekrar özür dilerim."
+        "Sabah oldu. Tom sınıfta.",
+        "Tom: Lila nerede? O benim arkadaşım.",
+        "Miss Oli: O kütüphanede mi?",
+        "Tom: Hayır, kütüphanede değil.",
+        "Tom: Bahçede mi? Evet! Lila bahçede.",
+        "Tom: Merhaba, Lila! Günaydın!",
+        "Lila: Selam, Tom! Günaydın!",
+        "Lila: Bu güzel bir bahçe. Biz mutluyuz.",
+        "Tom: Hadi gidelim! Biz arkadaşız."
       ],
       "questions": [
         {
-          "q": "What is in Tom's hands?",
-          "qTr": "Tom'un ellerinde ne var?",
-          "correct": "Many books",
+          "q": "Who is Tom looking for?",
+          "qTr": "Tom kimi arıyor?",
+          "correct": "Lila",
           "wrong": [
-            "A pen",
-            "A bag"
+            "Miss Oli",
+            "Mr. Aras"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -3988,12 +3988,12 @@
           ]
         },
         {
-          "q": "Where are the books now?",
-          "qTr": "Kitaplar şimdi nerede?",
-          "correct": "On the floor",
+          "q": "Is Lila in the library?",
+          "qTr": "Lila kütüphanede mi?",
+          "correct": "No",
           "wrong": [
-            "On the desk",
-            "In the bag"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -4001,12 +4001,12 @@
           ]
         },
         {
-          "q": "What does Tom say to Lila?",
-          "qTr": "Tom, Lila'ya ne der?",
-          "correct": "I am sorry, Lila!",
+          "q": "Where is Lila?",
+          "qTr": "Lila nerede?",
+          "correct": "In the garden",
           "wrong": [
-            "Hello, Lila!",
-            "Goodbye!"
+            "In the classroom",
+            "In the canteen"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -4014,29 +4014,29 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "It is OK, Tom!",
+          "q": "What does Tom say to Lila?",
+          "qTr": "Tom Lila'ya ne der?",
+          "correct": "Good morning!",
           "wrong": [
             "Goodbye!",
-            "No!"
+            "Sorry!"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Tom.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Good pupils!",
+          "q": "What are Tom and Lila?",
+          "qTr": "Tom ve Lila nedir?",
+          "correct": "Friends",
           "wrong": [
-            "Sit down!",
-            "Goodbye!"
+            "Teachers",
+            "Headmasters"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentence 2.",
           "hl": [
-            7
+            1
           ]
         }
       ]
@@ -4625,7 +4625,7 @@
       ],
       "sentences": [
         "Eda, Miss Oli and Mr. Aras are in the room.",
-        "One is a pupil. One is a teacher. One is the headmaster.",
+        "They are a pupil, a teacher and a headmaster.",
         "Eda is a girl. She is a pupil.",
         "Miss Oli is in front of the pupils.",
         "Mr. Aras is not Miss Oli.",
@@ -4635,7 +4635,7 @@
       ],
       "translations": [
         "Eda, Miss Oli ve Mr. Aras odada.",
-        "Biri öğrenci. Biri öğretmen. Biri müdür.",
+        "Onlar bir öğrenci, bir öğretmen ve bir müdür.",
         "Eda bir kız. O bir öğrenci.",
         "Miss Oli öğrencilerin önünde.",
         "Mr. Aras Miss Oli değil.",
@@ -4741,7 +4741,7 @@
         "It is not the playground.",
         "It is not the canteen.",
         "It is very quiet here.",
-        "Books are here.",
+        "Pupils are quiet here.",
         "Children read here.",
         "Which place is it?",
         "It is the library!"
@@ -4751,7 +4751,7 @@
         "O oyun alanı değil.",
         "O kantin değil.",
         "Burası çok sessiz.",
-        "Burada kitaplar var.",
+        "Öğrenciler burada sessiz.",
         "Çocuklar burada okur.",
         "Hangi yer bu?",
         "Kütüphane!"
@@ -4804,7 +4804,7 @@
             "The playground",
             "The canteen"
           ],
-          "hint": "Think about the books and quiet.",
+          "hint": "Think about the quiet place where children read.",
           "hl": [
             3,
             4,
@@ -4814,12 +4814,12 @@
         {
           "q": "How do we know it is the library?",
           "qTr": "Burasının kütüphane olduğunu nasıl anlıyoruz?",
-          "correct": "It is quiet and has books",
+          "correct": "It is quiet and children read",
           "wrong": [
             "It is fun",
             "It is small"
           ],
-          "hint": "Find the words quiet and books.",
+          "hint": "Find the word quiet.",
           "hl": [
             3,
             4
@@ -5278,7 +5278,7 @@
     },
     {
       "id": "inf-12",
-      "title": "What Does Tom Say?",
+      "title": "Where Is the Teacher's Room?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "💭",
       "hlMode": "fade3",
@@ -5299,46 +5299,46 @@
         }
       ],
       "sentences": [
-        "Tom is in the classroom.",
-        "There are many pens on Mr. Aras's desk.",
-        "Tom: I am here. I am a pupil.",
-        "Tom is polite.",
-        "Tom: 'Mr. Aras, can I have a pen, please?'",
-        "Mr. Aras: 'Yes, of course! Here you are.'",
-        "What does Tom say to ask for a pen?",
-        "Tom: 'Can I have a pen, please?'"
+        "Tom is a new pupil.",
+        "Tom: Where is the teacher's room?",
+        "It is not the garden.",
+        "It is not the playground.",
+        "Miss Oli and Mr. Aras are here.",
+        "It is a room for teachers.",
+        "Which place is it?",
+        "It is the teacher's room!"
       ],
       "translations": [
-        "Tom sınıfta.",
-        "Mr. Aras'ın masasında birçok kalem var.",
-        "Tom: Ben buradayım. Ben bir öğrenciyim.",
-        "Tom kibar.",
-        "Tom: 'Mr. Aras, bir kalem alabilir miyim, lütfen?'",
-        "Mr. Aras: 'Tabii ki! Buyur.'",
-        "Tom kalem istemek için ne der?",
-        "Tom: 'Bir kalem alabilir miyim, lütfen?'"
+        "Tom yeni bir öğrenci.",
+        "Tom: Öğretmenler odası nerede?",
+        "O bahçe değil.",
+        "O oyun alanı değil.",
+        "Miss Oli ve Mr. Aras burada.",
+        "Burası öğretmenler için bir oda.",
+        "Hangi yer bu?",
+        "Öğretmenler odası!"
       ],
       "questions": [
         {
-          "q": "Where is Tom?",
-          "qTr": "Tom nerede?",
-          "correct": "In the classroom",
+          "q": "Who is Tom?",
+          "qTr": "Tom kimdir?",
+          "correct": "A new pupil",
           "wrong": [
-            "In the garden",
-            "At home"
+            "A teacher",
+            "The headmaster"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What is on Mr. Aras's desk?",
-          "qTr": "Mr. Aras'ın masasında ne var?",
-          "correct": "Many pens",
+          "q": "What does Tom look for?",
+          "qTr": "Tom ne arar?",
+          "correct": "The teacher's room",
           "wrong": [
-            "A book",
-            "A bag"
+            "The garden",
+            "The canteen"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -5346,43 +5346,45 @@
           ]
         },
         {
-          "q": "Is Tom polite?",
-          "qTr": "Tom kibar mı?",
-          "correct": "Yes",
+          "q": "Is it the garden?",
+          "qTr": "O bahçe mi?",
+          "correct": "No",
           "wrong": [
-            "No",
-            "Maybe"
+            "Yes",
+            "Sometimes"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 3.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "What does Mr. Aras say?",
-          "qTr": "Mr. Aras ne der?",
-          "correct": "Yes, of course!",
+          "q": "Which place is it?",
+          "qTr": "Hangi yer bu?",
+          "correct": "The teacher's room",
           "wrong": [
-            "No!",
-            "Goodbye!"
+            "The playground",
+            "The garden"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Think about the clues.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Tom say to ask for a pen?",
-          "qTr": "Tom bir kalem istemek için ne der?",
-          "correct": "Can I have a pen, please?",
-          "wrong": [
-            "Goodbye!",
-            "Excuse me!"
-          ],
-          "hint": "Match polite and please.",
-          "hl": [
-            3,
+            4,
+            5,
             7
+          ]
+        },
+        {
+          "q": "How do we know it is the teacher's room?",
+          "qTr": "Orasının öğretmenler odası olduğunu nasıl anlıyoruz?",
+          "correct": "Teachers are here",
+          "wrong": [
+            "Pupils play here",
+            "It is the garden"
+          ],
+          "hint": "Read sentences 5 and 6.",
+          "hl": [
+            4,
+            5
           ]
         }
       ]
