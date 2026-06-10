@@ -1690,7 +1690,7 @@ button.celeb-retry {
 .cw-overlay{position:fixed;inset:0;z-index:300;opacity:0;pointer-events:none;transition:opacity .35s;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .cw-overlay.visible{opacity:1;pointer-events:all}
 .cw-phone{width:100%;max-width:430px;min-height:100dvh;margin:0 auto;position:relative;display:block}
-.cw-scene{position:relative;overflow:visible;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:26px 0 2px}
+.cw-scene{position:relative;height:262px;overflow:hidden}
 .cw-body{display:flex;flex-direction:column;align-items:center;padding:8px 26px 32px;position:relative;z-index:2}
 .cw-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:32px;text-align:center;line-height:1.05;opacity:0;animation:cwFu .6s .2s ease-out forwards}
 .cw-sub{font-size:12.5px;font-weight:800;margin-top:5px;text-align:center;opacity:0;animation:cwFu .6s .35s ease-out forwards}
@@ -1710,57 +1710,13 @@ button.celeb-retry {
 .cw-bt{font-family:'Baloo 2',cursive;font-weight:600;border-radius:18px;padding:11px 20px;cursor:pointer;border:2px solid rgba(255,255,255,.4);font-size:13px;background:transparent;transition:all .15s}
 @keyframes cwFu{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-/* ═══════════ ESKİZ DEFTERİ PULU — kutlama ekranı ═══════════ */
-.cw-sketch{
-  background:
-    linear-gradient(#e6eef8 1px, transparent 1px),
-    linear-gradient(90deg, #e6eef8 1px, transparent 1px),
-    #FBF7EA;
-  background-size:27px 27px, 27px 27px, 100% 100%;
-}
-.cw-sketch::before{content:'';position:absolute;top:0;bottom:0;left:34px;width:2px;background:#E8584B;opacity:.5;z-index:1}
-.cw-sketch::after{content:'';position:absolute;top:26px;bottom:26px;left:12px;width:9px;z-index:1;
-  background:radial-gradient(circle, #d6c6a0 38%, transparent 42%);background-size:100% 74px;background-repeat:repeat-y;opacity:.7}
-.cw-sketch .cw-scene,.cw-sketch .cw-body{z-index:2}
-/* — damga — */
-.cw-stampwrap{position:relative;width:184px;height:184px;display:flex;align-items:center;justify-content:center;color:#2F855A}
-.cw-stamp{width:172px;height:172px;transform:rotate(-8deg);animation:cwStampIn .55s .25s cubic-bezier(.2,1.7,.4,1) backwards;filter:drop-shadow(1px 2px 0 rgba(31,42,68,.12))}
-.cw-stamp .ring{fill:none;stroke:currentColor}
-.cw-stamp .ring.outer{stroke-width:3.5}
-.cw-stamp .ring.inner{stroke-width:1.6;stroke-dasharray:2 5}
-.cw-stamp-txt{font-family:'Baloo 2',cursive;font-weight:800;font-size:16px;letter-spacing:1.5px;fill:currentColor}
-.cw-stamp-foot{font-family:'Baloo 2',cursive;font-weight:800;font-size:13px;letter-spacing:3px;fill:currentColor}
-.cw-stamp-icon{font-size:50px}
-.cw-inkring{position:absolute;width:168px;height:168px;border-radius:50%;border:3px solid currentColor;opacity:0;pointer-events:none}
-.cw-inkring.go{animation:cwInk .7s ease-out forwards}
-@keyframes cwStampIn{0%{opacity:0;transform:rotate(-28deg) scale(2.5) translateY(-26px)}55%{opacity:1;transform:rotate(-6deg) scale(.9)}74%{transform:rotate(-9.5deg) scale(1.07)}100%{transform:rotate(-8deg) scale(1)}}
-@keyframes cwInk{0%{opacity:.45;transform:scale(.82)}100%{opacity:0;transform:scale(1.55)}}
-/* — yıldız puanı — */
-.cw-stars{display:flex;gap:9px;margin:11px 0 2px;opacity:0;animation:cwFu .6s .72s ease-out forwards}
+/* — kutlama: ortak yıldız puanı satırı (yeni dünyalarda) — */
+.cw-stars{display:flex;justify-content:center;gap:9px;margin:12px 0 0;opacity:0;animation:cwFu .6s .72s ease-out forwards}
+.cw-stars:empty{display:none}
 .cw-star{width:30px;height:30px;color:#E2D4AC}
 .cw-star.on{color:#F4A300;animation:cwStarPop .45s backwards}
 @keyframes cwStarPop{0%{opacity:0;transform:scale(0) rotate(-40deg)}70%{transform:scale(1.25) rotate(6deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
-/* — başlık + metinler — */
-.cw-sketch .cw-title{font-family:'Caveat',cursive;font-weight:700;font-size:44px;color:#1F2A44}
-.cw-sketch .cw-sub{font-family:'Patrick Hand',cursive;font-weight:400;font-size:16px;color:#3A4A5A}
-.cw-sketch .cw-badge{font-family:'Patrick Hand',cursive;font-weight:400;font-size:15px;background:#FCEFC7;color:#7A5A12;border:1.6px dashed #D9B85A;box-shadow:none;border-radius:9px;padding:4px 14px;transform:rotate(-1.4deg);letter-spacing:.3px}
-.cw-sketch .cw-sb{background:#fff;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:15px 12px 16px 11px}
-.cw-sketch .cw-sb .v{color:#1F2A44}
-.cw-sketch .cw-sb.ok .v{color:#2F855A}.cw-sketch .cw-sb.err .v{color:#C9483B}
-.cw-sketch .cw-sb .l{font-family:'Patrick Hand',cursive;font-weight:400;font-size:12.5px;color:#5A6B7A;letter-spacing:.4px}
-.cw-sketch .cw-cast{font-family:'Patrick Hand',cursive;font-weight:400;font-size:14.5px;color:#5A6B7A}
-.cw-sketch .cw-msg{font-family:'Patrick Hand',cursive;font-weight:400;font-size:16px;color:#2F3E50;line-height:1.5;max-width:330px}
-/* — marker butonlar — */
-.cw-sketch .cw-btns{margin-top:14px;max-width:340px}
-.cw-sketch .cw-bp{font-family:'Baloo 2',cursive;font-weight:700;font-size:17px;background:#F4A300;color:#1F2A44;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:15px 12px 16px 13px}
-.cw-sketch .cw-bs{font-family:'Baloo 2',cursive;font-weight:700;font-size:15px;background:#fff;color:#1F2A44;border:2.5px solid #1F2A44;box-shadow:3px 3px 0 #1F2A44;border-radius:14px 13px 15px 12px}
-.cw-sketch .cw-bt{font-family:'Baloo 2',cursive;font-weight:700;font-size:13.5px;color:#5A6B7A;border:2px dashed #B9C4D0;background:transparent}
-.cw-sketch .cw-bp:hover,.cw-sketch .cw-bs:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #1F2A44}
-.cw-sketch .cw-bp:active,.cw-sketch .cw-bs:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1F2A44}
-@media (prefers-reduced-motion:reduce){
-  .cw-stamp{animation:none}.cw-inkring{display:none}.cw-star.on{animation:none}
-  .cw-sketch .cw-title,.cw-sketch .cw-sub,.cw-sketch .cw-badge,.cw-sketch .cw-score,.cw-sketch .cw-cast,.cw-sketch .cw-msg,.cw-sketch .cw-btns,.cw-stars{animation:none!important;opacity:1!important;transform:none!important}
-}
+@media (prefers-reduced-motion:reduce){.cw-star.on{animation:none}.cw-stars{animation:none!important;opacity:1!important}}
 
 /* figür satırı (ortak) */
 .cw-figrow{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:14px;z-index:6}
@@ -1846,23 +1802,34 @@ button.celeb-retry {
 .cw-fill{width:100%;background:linear-gradient(0deg,#FB8500,#FFD60A);height:0%;transition:height .6s cubic-bezier(.34,1.4,.5,1)}
 .cw-gpct{font-family:'Baloo 2',cursive;font-weight:600;font-size:12px;color:#FB8500}
 
-/* ===== BAHÇE ===== */
-.cw-garden{background:linear-gradient(180deg,#FBF3DE,#F3EAD0 40%,#DCEBC4 72%,#BBD89B)}
-.cw-garden .cw-scene{background:radial-gradient(ellipse at 75% 15%,rgba(252,227,160,.4),transparent 55%)}
-.cw-garden .cw-title{color:#3D5A2A}.cw-garden .cw-sub{color:#6B8A4A}
-.cw-garden .cw-badge{background:#9ED06A;color:#2A3D1A}
-.cw-garden .cw-cast{color:#3D5A2A}.cw-garden .cw-msg{color:#557039}
-.cw-garden .cw-bt{color:#6B8A4A;border-color:rgba(60,90,30,.25)}
-.cw-garden .cw-fig .nm{background:#fff;color:#4A6B30}
-.cw-gsoil{position:absolute;bottom:0;left:0;right:0;height:46px;background:linear-gradient(180deg,#8C6B47,#6B4F32);border-radius:46% 54% 0 0/20px 18px 0 0}
-.cw-gsun{position:absolute;top:18px;right:30px;width:42px;height:42px;border-radius:50%;background:radial-gradient(circle at 42% 42%,#FFF7DC,#FCE3A0);box-shadow:0 0 36px rgba(252,227,160,.6);opacity:0;animation:cwScale 1.3s .2s ease-out forwards}
-.cw-plant{position:absolute;bottom:40px;transform-origin:bottom center;display:flex;flex-direction:column;align-items:center}
-.cw-stem{width:4px;background:linear-gradient(180deg,#7DB852,#5A9138);border-radius:3px;height:0;transition:height .6s cubic-bezier(.34,1.3,.5,1)}
-.cw-plant.grow .cw-stem{height:var(--h)}
-.cw-bloom{font-size:0;line-height:1;margin-bottom:-3px;opacity:0;transform:scale(0)}
-.cw-plant.grow .cw-bloom{animation:cwBloom .6s var(--bd) cubic-bezier(.34,1.8,.5,1) forwards,cwSway 3.4s var(--bd) ease-in-out infinite}
-@keyframes cwBloom{0%{font-size:24px;opacity:0;transform:scale(0) rotate(-40deg)}60%{transform:scale(1.3)}100%{font-size:24px;opacity:1;transform:scale(1) rotate(0)}}
-@keyframes cwSway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+/* ===== BAHÇE (yeni) ===== */
+.cw-garden{background:linear-gradient(180deg,#DCEBF2,#EAF6E6 46%,#E4F3D6 70%,#FFF6E9)}
+.cw-garden .cw-title{color:#2E4A1C;text-shadow:2px 2px 0 rgba(26,26,26,.13)}
+.cw-garden .cw-sub{color:#5E7A3E}
+.cw-garden .cw-badge{background:#A6D86A;color:#22330F}
+.cw-garden .cw-cast{color:#5E7A3E}.cw-garden .cw-msg{color:#2E4A1C}
+.cw-garden .cw-bt{color:#5E7A3E;border-color:rgba(26,26,26,.22)}
+.cw-garden .cw-fig .nm{background:rgba(255,255,255,.9);color:#2E4A1C}
+.cw-garden .cw-scene svg{width:100%;height:100%;display:block}
+.cw-garden .g-stem{fill:none;stroke:#3E6B23;stroke-width:4.5;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200}
+.cw-garden .g-stem.grow{animation:cwgGrow .8s cubic-bezier(.4,0,.2,1) forwards}
+@keyframes cwgGrow{to{stroke-dashoffset:0}}
+.cw-garden .g-leaf{fill:#6FB23F;stroke:#24330F;stroke-width:1.4;opacity:0}
+.cw-garden .g-leaf.on{animation:cwgLeaf .45s ease-out forwards}
+@keyframes cwgLeaf{from{opacity:0}to{opacity:1}}
+.cw-garden .g-bloom{opacity:0;transform-box:fill-box;transform-origin:center}
+.cw-garden .g-bloom *{stroke:#24330F;stroke-width:1.4;stroke-linejoin:round}
+.cw-garden .g-bloom.on{animation:cwgBloom .55s cubic-bezier(.34,1.7,.5,1) forwards}
+@keyframes cwgBloom{0%{opacity:0;transform:scale(0) rotate(-35deg)}70%{transform:scale(1.16) rotate(7deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+.cw-garden .g-sun{transform-box:fill-box;transform-origin:center;animation:cwgSpin 60s linear infinite}
+@keyframes cwgSpin{to{transform:rotate(360deg)}}
+.cw-garden .g-cloud{animation:cwgDrift 26s linear infinite}
+.cw-garden .g-cloud.c2{animation-duration:38s}
+@keyframes cwgDrift{from{transform:translateX(-24px)}to{transform:translateX(34px)}}
+.cw-garden .g-bee{offset-path:path('M 60 70 C 120 40, 240 120, 300 60');offset-distance:0;opacity:0}
+.cw-garden .g-bee.fly{animation:cwgBeeP 4s ease-in-out infinite,cwgBeeS .4s forwards}
+@keyframes cwgBeeP{0%{offset-distance:0%}100%{offset-distance:100%}}
+@keyframes cwgBeeS{to{opacity:1}}
 
 /* ===== ROKET ===== */
 .cw-rocket{background:linear-gradient(180deg,#0B0B22,#1A1145 40%,#3B1A5C 72%,#6B2D6B)}
@@ -4225,21 +4192,30 @@ renderThemeList();
       setTimeout(()=>{bot.classList.add('live','jump');setTimeout(()=>bot.classList.remove('jump'),520);},500+litDots*160+200);
     },
     garden(scene,score,tot){
-      const sun=document.createElement('div');sun.className='cw-gsun';scene.appendChild(sun);
-      const soil=document.createElement('div');soil.className='cw-gsoil';scene.appendChild(soil);
       const correct=Math.max(0,Math.min(score,tot));
-      const BLOOMS=['🌸','🌷','🌻','🌼','🌺'];
-      const gap=100/(tot+1);
-      for(let i=0;i<tot;i++){
-        const grown=i<correct;const p=document.createElement('div');p.className='cw-plant';
-        const h=42+Math.random()*38;
-        p.style.left=(gap*(i+1))+'%';p.style.setProperty('--h',(grown?h:10)+'px');p.style.setProperty('--bd',(0.5+i*0.16)+'s');
-        const bloom=document.createElement('div');bloom.className='cw-bloom';bloom.textContent=grown?BLOOMS[i%BLOOMS.length]:'';
-        const stem=document.createElement('div');stem.className='cw-stem';
-        p.appendChild(bloom);p.appendChild(stem);scene.appendChild(p);
-        setTimeout(()=>p.classList.add('grow'),500+i*160);
-      }
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'8px',small:true});scene.appendChild(row);cwAnimRow(row,900);
+      scene.innerHTML=`<svg viewBox="0 0 360 262" preserveAspectRatio="xMidYMax slice">
+        <g class="g-sun" transform="translate(308,46)"><circle r="20" fill="#FBE08A"/><g stroke="#FBE08A" stroke-width="3" stroke-linecap="round"><line x1="0" y1="-28" x2="0" y2="-34"/><line x1="0" y1="28" x2="0" y2="34"/><line x1="-28" y1="0" x2="-34" y2="0"/><line x1="28" y1="0" x2="34" y2="0"/><line x1="-20" y1="-20" x2="-24" y2="-24"/><line x1="20" y1="20" x2="24" y2="24"/><line x1="20" y1="-20" x2="24" y2="-24"/><line x1="-20" y1="20" x2="-24" y2="24"/></g><circle r="14" fill="#FFD86B"/></g>
+        <g class="g-cloud" fill="#fff" opacity=".85"><ellipse cx="70" cy="44" rx="26" ry="13"/><ellipse cx="92" cy="40" rx="18" ry="11"/></g>
+        <g class="g-cloud c2" fill="#fff" opacity=".7"><ellipse cx="210" cy="30" rx="22" ry="11"/><ellipse cx="230" cy="27" rx="15" ry="9"/></g>
+        <path d="M0 200 Q90 150 200 188 T360 178 V262 H0 Z" fill="#BFE38C"/>
+        <path d="M0 214 Q120 176 240 206 T360 200 V262 H0 Z" fill="#A6D86A"/>
+        <path d="M0 226 Q180 204 360 224 V262 H0 Z" fill="#8FCB54"/>
+        <path d="M0 244 Q180 232 360 244 V262 H0 Z" fill="#9A6A3A"/>
+        <g class="flower" data-i="3"><path class="g-stem" d="M96 226 C94 198 96 184 98 170"/><ellipse class="g-leaf" cx="86" cy="200" rx="11" ry="6" transform="rotate(-30 86 200)"/><g transform="translate(98,166)"><g class="g-bloom"><g transform="scale(.7)"><circle cx="0" cy="-12" r="9" fill="#E6809E"/><circle cx="11" cy="-4" r="9" fill="#E6809E"/><circle cx="7" cy="10" r="9" fill="#E6809E"/><circle cx="-7" cy="10" r="9" fill="#E6809E"/><circle cx="-11" cy="-4" r="9" fill="#E6809E"/><circle r="7" fill="#FBE8A6"/></g></g></g></g>
+        <g class="flower" data-i="4"><path class="g-stem" d="M266 226 C268 200 266 186 264 172"/><ellipse class="g-leaf" cx="276" cy="202" rx="11" ry="6" transform="rotate(30 276 202)"/><g transform="translate(264,168)"><g class="g-bloom"><g transform="scale(.7)"><circle cx="0" cy="-12" r="9" fill="#E0795B"/><circle cx="11" cy="-4" r="9" fill="#E0795B"/><circle cx="7" cy="10" r="9" fill="#E0795B"/><circle cx="-7" cy="10" r="9" fill="#E0795B"/><circle cx="-11" cy="-4" r="9" fill="#E0795B"/><circle r="7" fill="#FBE8A6"/></g></g></g></g>
+        <g class="flower" data-i="1"><path class="g-stem" d="M138 226 C136 188 138 168 140 146"/><ellipse class="g-leaf" cx="126" cy="186" rx="13" ry="7" transform="rotate(-28 126 186)"/><g transform="translate(140,140)"><g class="g-bloom"><path d="M-14 6 Q-14 -16 0 -20 Q14 -16 14 6 Q7 14 0 8 Q-7 14 -14 6 Z" fill="#E0795B"/><path d="M0 -20 Q-5 -6 0 8 Q5 -6 0 -20" fill="#C85F44" opacity=".5"/></g></g></g>
+        <g class="flower" data-i="2"><path class="g-stem" d="M224 226 C226 190 224 170 222 150"/><ellipse class="g-leaf" cx="236" cy="190" rx="13" ry="7" transform="rotate(28 236 190)"/><g transform="translate(222,144)"><g class="g-bloom"><g fill="#fff"><ellipse cx="0" cy="-15" rx="5" ry="12"/><ellipse cx="0" cy="15" rx="5" ry="12"/><ellipse cx="-15" cy="0" rx="12" ry="5"/><ellipse cx="15" cy="0" rx="12" ry="5"/><ellipse cx="-11" cy="-11" rx="5" ry="11" transform="rotate(45 -11 -11)"/><ellipse cx="11" cy="-11" rx="5" ry="11" transform="rotate(-45 11 -11)"/><ellipse cx="-11" cy="11" rx="5" ry="11" transform="rotate(-45 -11 11)"/><ellipse cx="11" cy="11" rx="5" ry="11" transform="rotate(45 11 11)"/></g><circle r="9" fill="#E8B04B"/></g></g></g>
+        <g class="flower" data-i="0"><path class="g-stem" d="M180 228 C178 176 182 146 180 112"/><ellipse class="g-leaf" cx="164" cy="178" rx="16" ry="8" transform="rotate(-26 164 178)"/><ellipse class="g-leaf" cx="198" cy="158" rx="16" ry="8" transform="rotate(26 198 158)"/><g transform="translate(180,104)"><g class="g-bloom"><g fill="#E8B04B"><g id="cwgPet"><ellipse cx="0" cy="-26" rx="7" ry="16"/></g><use href="#cwgPet" transform="rotate(40)"/><use href="#cwgPet" transform="rotate(80)"/><use href="#cwgPet" transform="rotate(120)"/><use href="#cwgPet" transform="rotate(160)"/><use href="#cwgPet" transform="rotate(200)"/><use href="#cwgPet" transform="rotate(240)"/><use href="#cwgPet" transform="rotate(280)"/><use href="#cwgPet" transform="rotate(320)"/></g><circle r="17" fill="#8A5A2B"/><circle r="13" fill="#A66B33"/></g></g></g>
+        <g class="g-bee"><g transform="translate(-9,-7)"><ellipse cx="9" cy="7" rx="8" ry="6" fill="#F4C430"/><rect x="5" y="2" width="2.5" height="10" fill="#3A2E1A"/><rect x="10" y="2" width="2.5" height="10" fill="#3A2E1A"/><ellipse cx="6" cy="2" rx="5" ry="3" fill="#fff" opacity=".8"/><ellipse cx="12" cy="2" rx="5" ry="3" fill="#fff" opacity=".8"/></g></g>
+      </svg>`;
+      const flowers=[...scene.querySelectorAll('.flower')].sort((a,b)=>(+a.dataset.i)-(+b.dataset.i));
+      flowers.forEach((f,i)=>{ if(i<correct){ const t=400+i*220;
+        f.querySelectorAll('.g-stem').forEach(s=>setTimeout(()=>s.classList.add('grow'),t));
+        f.querySelectorAll('.g-leaf').forEach(l=>setTimeout(()=>l.classList.add('on'),t+350));
+        setTimeout(()=>{const b=f.querySelector('.g-bloom');if(b)b.classList.add('on');},t+520);
+      }});
+      if(tot>0 && correct>=tot){const bee=scene.querySelector('.g-bee');if(bee)setTimeout(()=>bee.classList.add('fly'),1300);}
+      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'6px',small:true});scene.appendChild(row);cwAnimRow(row,950);
     },
     rocket(scene,score,tot){
       for(let i=0;i<28;i++){const s=document.createElement('div');s.className='cw-rkstar';const z=1+Math.random()*2;s.style.cssText=`width:${z}px;height:${z}px;left:${Math.random()*100}%;top:${Math.random()*100}%;animation-delay:${Math.random()*2.5}s`;scene.appendChild(s);}
@@ -4276,42 +4252,27 @@ renderThemeList();
 
   // ───── ANA GİRİŞ NOKTASI ─────
   function cwStars(ratio){return ratio>=0.8?3:ratio>=0.5?2:1;}
-  function buildStamp(scene,score,tot){
-    const correct=Math.max(0,Math.min(score,tot)), ratio=tot?correct/tot:0, stars=cwStars(ratio);
-    const P = stars===3?{c:'#2F855A',t:'★ AFERİN ★ HARİKA ★'}
-            : stars===2?{c:'#C77D12',t:'★ GÜZEL İŞ ★ DEVAM ★'}
-            :            {c:'#2B6CB0',t:'★ DEVAM ET ★ TEKRAR ★'};
-    const icon=(cwTaskIcon()||'📖');
-    const wrap=document.createElement('div'); wrap.className='cw-stampwrap'; wrap.style.color=P.c;
-    wrap.innerHTML=`<div class="cw-inkring"></div>
-      <svg class="cw-stamp" viewBox="0 0 200 200" aria-hidden="true">
-        <defs><path id="cwArc" d="M40,104 a60,60 0 0,1 120,0"/></defs>
-        <circle class="ring outer" cx="100" cy="100" r="90"/>
-        <circle class="ring inner" cx="100" cy="100" r="76"/>
-        <text class="cw-stamp-txt"><textPath href="#cwArc" startOffset="50%" text-anchor="middle">${P.t}</textPath></text>
-        <text class="cw-stamp-icon" x="100" y="116" text-anchor="middle">${icon}</text>
-        <text class="cw-stamp-foot" x="100" y="150" text-anchor="middle">OKUNDU</text>
-      </svg>`;
-    scene.appendChild(wrap);
-    const ring=wrap.querySelector('.cw-inkring');
-    setTimeout(()=>{ if(ring) ring.classList.add('go'); },400);
-    const sc=document.getElementById('cw-stars');
-    if(sc){ sc.innerHTML='';
-      for(let i=0;i<3;i++){ const on=i<stars;
-        sc.insertAdjacentHTML('beforeend',`<svg class="cw-star${on?' on':''}" viewBox="0 0 24 24" style="animation-delay:${(0.7+i*0.15).toFixed(2)}s"><path d="M12 1.8l3 6.1 6.7 1-4.85 4.7 1.15 6.7L12 17.6l-6 3.4 1.15-6.7L2.3 8.9l6.7-1z" fill="currentColor" stroke="#1F2A44" stroke-width="1.1" stroke-linejoin="round"/></svg>`);
-      }
+  function cwFillStars(score,tot){
+    const ratio=tot?Math.max(0,Math.min(score,tot))/tot:0, stars=cwStars(ratio);
+    const sc=document.getElementById('cw-stars'); if(!sc) return; sc.innerHTML='';
+    for(let i=0;i<3;i++){ const on=i<stars;
+      sc.insertAdjacentHTML('beforeend',`<svg class="cw-star${on?' on':''}" viewBox="0 0 24 24" style="animation-delay:${(0.75+i*0.15).toFixed(2)}s"><path d="M12 1.8l3 6.1 6.7 1-4.85 4.7 1.15 6.7L12 17.6l-6 3.4 1.15-6.7L2.3 8.9l6.7-1z" fill="currentColor" stroke="#1A1A1A" stroke-width="1.2" stroke-linejoin="round"/></svg>`);
     }
   }
+  // yenilenen dünyalar: ortak 3 yıldız satırı yalnızca bunlarda gösterilir
+  const CW_NEW=['garden'];
   window.cwShow=function(score,tot,skill,topic){
+    const world=cwPick();
     const phone=document.getElementById('cw-phone');
-    phone.className='cw-phone cw-sketch';
+    phone.className='cw-phone cw-'+world;
     const scene=document.getElementById('cw-scene');
     scene.className='cw-scene'; scene.innerHTML='';
     cwFillBody(score,tot);
-    requestAnimationFrame(()=>buildStamp(scene,score,tot));
+    const sc=document.getElementById('cw-stars'); if(sc) sc.innerHTML='';
+    if(CW_NEW.includes(world)) cwFillStars(score,tot);
+    requestAnimationFrame(()=>{ CW_SCENES[world](scene,score,tot); });
     const ov=document.getElementById('cw-overlay');
-    ov.classList.add('visible');
-    ov.scrollTop=0;
+    ov.classList.add('visible'); ov.scrollTop=0;
   };
 })();
 
