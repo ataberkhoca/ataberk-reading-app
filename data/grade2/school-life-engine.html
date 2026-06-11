@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Life — Pre/Post Reading Demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1B2A4A; --ink:#1A1A1A; --orange:#FF8A3D; --orange-deep:#F2761F;
+    --cream:#FFF6E5; --paper:#FFFDF7; --yellow:#FFD93D; --green:#43B36B;
+    --line:#E8746A; --muted:#6A7488;
+    --blue:#4D9DE0; --teal:#2FB5A8; --purple:#8E6FE0; --pink:#F2779A;
+    --disp:'Baloo 2',system-ui,sans-serif; --body:'Quicksand',system-ui,sans-serif; --hand:'Patrick Hand',cursive;
+    --shadow:4px 4px 0 var(--ink); --shadow-sm:3px 3px 0 var(--ink);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:var(--body); color:var(--navy);
+    background:
+      linear-gradient(rgba(255,246,229,.55),rgba(255,246,229,.55)),
+      repeating-linear-gradient(0deg,transparent,transparent 27px,#E7DEC8 28px),
+      repeating-linear-gradient(90deg,transparent,transparent 27px,#E7DEC8 28px),
+      var(--cream);
+    min-height:100vh; padding:18px 14px 40px;
+  }
+  /* ---------- teacher chrome ---------- */
+  .teacher{max-width:760px;margin:0 auto 16px}
+  .teacher h1{font-family:var(--disp);font-weight:800;color:var(--navy);font-size:20px;margin:0 0 2px;letter-spacing:.2px}
+  .teacher h1 .t{color:var(--orange-deep)}
+  .teacher .sub{font-size:13px;color:var(--muted);margin:0 0 12px}
+  .stagebar{display:flex;gap:8px;flex-wrap:wrap}
+  .stagebar button{
+    font-family:var(--disp);font-weight:700;font-size:14px;cursor:pointer;
+    border:3px solid var(--ink);border-radius:14px;padding:8px 14px;background:var(--paper);color:var(--navy);
+    box-shadow:var(--shadow-sm);transition:transform .08s ease}
+  .stagebar button:hover{transform:translate(-1px,-1px)}
+  .stagebar button.on{background:var(--yellow)}
+  .stagebar button:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+
+  /* ---------- phone frame ---------- */
+  .phone{
+    max-width:420px;margin:0 auto;background:var(--paper);
+    border:4px solid var(--ink);border-radius:30px;box-shadow:8px 8px 0 rgba(26,26,26,.85);
+    overflow:hidden;position:relative;min-height:560px;
+  }
+  .topnotch{height:26px;background:var(--navy);display:flex;align-items:center;justify-content:center}
+  .topnotch::after{content:"";width:64px;height:8px;border-radius:6px;background:#33446b}
+  .screen{padding:18px 18px 22px;display:none;animation:pop .35s ease both}
+  .screen.show{display:block}
+  @keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+
+  .eyebrow{font-family:var(--hand);font-size:17px;color:var(--line);transform:rotate(-1.5deg);margin:0 0 2px}
+  .title{font-family:var(--disp);font-weight:800;font-size:23px;margin:0 0 4px;line-height:1.05}
+  .hint{font-size:13.5px;color:var(--muted);margin:0 0 14px}
+
+  /* cast row */
+  .cast{display:flex;gap:6px;justify-content:center;margin:6px 0 14px}
+  .cast .ch{font-size:30px;animation:wave 2.4s ease-in-out infinite;transform-origin:70% 90%}
+  .cast .ch:nth-child(2){animation-delay:.2s}.cast .ch:nth-child(3){animation-delay:.4s}
+  .cast .ch:nth-child(4){animation-delay:.6s}.cast .ch:nth-child(5){animation-delay:.8s}.cast .ch:nth-child(6){animation-delay:1s}
+  @keyframes wave{0%,60%,100%{transform:rotate(0)}15%{transform:rotate(-12deg)}30%{transform:rotate(10deg)}45%{transform:rotate(-6deg)}}
+
+  /* ---------- PRE: sticker board ---------- */
+  .board{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:4px 0 14px}
+  .sticker{
+    position:relative;border:3px solid var(--ink);border-radius:18px;background:#fff;
+    box-shadow:var(--shadow);cursor:pointer;padding:14px 8px 12px;text-align:center;
+    transition:transform .1s ease}
+  .sticker:hover{transform:translate(-2px,-2px)}
+  .sticker:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+  .sticker .emo{font-size:42px;line-height:1;display:block}
+  .sticker .word{
+    font-family:var(--disp);font-weight:700;font-size:16px;color:var(--navy);margin-top:8px;
+    opacity:0;transform:translateY(6px);transition:.25s ease}
+  .sticker.open{box-shadow:var(--shadow),0 0 0 3px var(--green)}
+  .sticker.open .word{opacity:1;transform:none}
+  .sticker .check{position:absolute;left:8px;top:6px;font-size:15px;opacity:0;transform:scale(.3);transition:.22s ease}
+  .sticker.open .check{opacity:1;transform:scale(1)}
+  .sticker .tap{
+    position:absolute;right:8px;top:8px;font-family:var(--hand);font-size:13px;color:var(--orange-deep)}
+  .sticker.open .tap{content:"";opacity:0}
+  .counter{font-family:var(--disp);font-weight:700;text-align:center;color:var(--orange-deep);margin:2px 0 12px}
+
+  /* big action button */
+  .go{
+    display:block;width:100%;font-family:var(--disp);font-weight:800;font-size:19px;color:#fff;
+    background:var(--orange);border:3px solid var(--ink);border-radius:18px;padding:13px;cursor:pointer;
+    box-shadow:var(--shadow);transition:transform .08s ease}
+  .go:hover{transform:translate(-2px,-2px)}
+  .go:active{transform:translate(0,0);box-shadow:2px 2px 0 var(--ink)}
+  .go:disabled{background:#cfd6e3;color:#fff;cursor:default;box-shadow:var(--shadow);transform:none}
+  .go:focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+
+  /* reading bridge */
+  .bridge{border:3px dashed var(--ink);border-radius:18px;padding:20px 16px;text-align:center;background:#fff;margin:8px 0 16px}
+  .bridge .em{font-size:40px}
+  .bridge p{font-size:14px;color:var(--muted);margin:8px 0 0}
+
+  /* ---------- POST ---------- */
+  .tiertabs{display:flex;gap:6px;margin:2px 0 14px}
+  .tiertabs button{
+    flex:1;font-family:var(--disp);font-weight:700;font-size:13px;cursor:pointer;
+    border:3px solid var(--ink);border-radius:13px;padding:8px 4px;background:#fff;color:var(--navy);
+    box-shadow:var(--shadow-sm)}
+  .tiertabs button.on{color:#fff}
+  .tiertabs button[data-tier="sup"].on{background:var(--teal)}
+  .tiertabs button[data-tier="std"].on{background:var(--orange)}
+  .tiertabs button[data-tier="exp"].on{background:var(--purple)}
+  .tiertabs button:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+  .tierlabel{font-family:var(--hand);font-size:15px;color:var(--line);margin:0 0 10px}
+
+  .prompt{display:flex;align-items:center;gap:12px;border:3px solid var(--ink);border-radius:18px;
+    background:#fff;box-shadow:var(--shadow);padding:14px;margin:0 0 14px}
+  .prompt .big{font-size:46px;line-height:1}
+  .prompt .q{font-family:var(--disp);font-weight:700;font-size:18px}
+  .qwrap{display:flex;flex-direction:column;line-height:1.12}
+  .qtr{font-family:var(--body);font-weight:600;font-size:13px;color:var(--muted)}
+
+  /* bilingual goal cue (what to build) */
+  .goal{display:flex;flex-direction:column;gap:3px;background:var(--yellow);border:3px solid var(--ink);
+    border-radius:14px;padding:9px 12px;box-shadow:var(--shadow-sm);margin:0 0 14px;text-align:center}
+  .goal .lab{font-family:var(--body);font-weight:700;font-size:12px;color:var(--orange-deep);text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px}
+  .goal .tr{font-family:var(--disp);font-weight:800;font-size:18px;color:var(--navy);line-height:1.2}
+
+  /* ordered slots — each sentence on its own line */
+  .slots{display:flex;flex-direction:column;gap:9px;min-height:50px;
+    border:3px dashed var(--ink);border-radius:15px;background:#FFFDF7;padding:10px;margin:0 0 12px}
+  .slotline{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .slotline+.slotline{border-top:2px dotted #D8CBA8;padding-top:9px}
+  .slot{min-width:56px;height:40px;border:2px dashed #B9C1D2;border-radius:11px;display:inline-flex;
+    align-items:center;justify-content:center;font-family:var(--disp);font-weight:700;font-size:16px;color:var(--navy);padding:0 8px}
+  .slot.filled{border-style:solid;border-color:var(--ink);background:var(--green);color:#fff}
+  .popgreen{animation:popg .32s ease}
+  @keyframes popg{0%{transform:scale(.55)}60%{transform:scale(1.16)}100%{transform:scale(1)}}
+
+  .options{display:grid;gap:10px}
+  .opt{
+    font-family:var(--disp);font-weight:600;font-size:16px;text-align:left;cursor:pointer;color:var(--navy);
+    border:3px solid var(--ink);border-radius:15px;background:#fff;padding:12px 14px;box-shadow:var(--shadow-sm);
+    transition:transform .08s ease}
+  .opt:hover{transform:translate(-1px,-1px)}
+  .opt:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+  .opt.right{background:var(--green);color:#fff;border-color:var(--ink)}
+  .opt.wrong{background:#F4C9C4}
+
+  /* chunk builder */
+  .tray{min-height:54px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+    border:3px dashed var(--ink);border-radius:15px;background:#FFFDF7;padding:10px;margin:0 0 12px}
+  .tray:empty::before{content:"…";font-family:var(--hand);color:var(--muted);font-size:22px;padding-left:6px}
+  .bank{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+  .chunk{
+    font-family:var(--disp);font-weight:700;font-size:16px;cursor:pointer;color:var(--navy);
+    border:3px solid var(--ink);border-radius:13px;background:var(--yellow);padding:8px 12px;box-shadow:var(--shadow-sm);
+    transition:transform .08s ease}
+  .chunk:hover{transform:translate(-1px,-1px)}
+  .chunk:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+  .chunk.used{opacity:.32;pointer-events:none}
+  .chunk.intray{background:#fff}
+  .builder-actions{display:flex;gap:8px}
+  .ghost{
+    font-family:var(--disp);font-weight:700;font-size:15px;cursor:pointer;color:var(--navy);
+    border:3px solid var(--ink);border-radius:14px;background:#fff;padding:11px 14px;box-shadow:var(--shadow-sm)}
+  .ghost:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+
+  .feedback{font-family:var(--disp);font-weight:700;text-align:center;min-height:24px;margin:10px 0 0;font-size:16px}
+  .feedback.ok{color:var(--green)}.feedback.no{color:var(--line)}
+  .shake{animation:shake .35s}
+  @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+
+  /* reflection */
+  .reflect{text-align:center;padding:8px 0}
+  .reflect .faces{display:flex;justify-content:center;gap:14px;margin:14px 0}
+  .reflect .face{font-size:40px;cursor:pointer;border:3px solid transparent;border-radius:50%;padding:4px;transition:.12s}
+  .reflect .face:hover{transform:scale(1.12)}
+  .reflect .face.pick{border-color:var(--ink);background:var(--yellow)}
+  .reflect .face:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+  .done{font-family:var(--disp);font-weight:800;font-size:20px;color:var(--green);margin-top:8px}
+
+  .meb{max-width:760px;margin:18px auto 0;border-top:2px dashed #C9BFA6;padding-top:12px;
+    font-size:12.5px;color:var(--muted);line-height:1.6}
+  .meb b{color:var(--navy)}
+  .progressdots{display:flex;gap:6px;justify-content:center;margin:0 0 12px}
+  .progressdots i{width:9px;height:9px;border-radius:50%;border:2px solid var(--ink);background:#fff;display:inline-block}
+  .progressdots i.on{background:var(--orange)}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ============ TEACHER CHROME ============ -->
+<div class="teacher">
+  <h1>Tema 1 · <span class="t">School Life</span> — Pre / Post Reading <span class="t">Demo</span></h1>
+  <p class="sub">Telefon-öncelikli · tek dosya vanilla · A1.1 · sabit kadro. Aşağıdaki butonlar senin kumandan; telefon ekranı çocuğa dönük yüzdür. (içerik school-life.json → pre / post bölümünden gelir)</p>
+  <div class="stagebar" id="stagebar">
+    <button data-stage="pre" class="on">① Hazırlık (Pre)</button>
+    <button data-stage="reading">② Okuma</button>
+    <button data-stage="post">③ Pekiştirme (Post)</button>
+  </div>
+</div>
+
+<!-- ============ PHONE ============ -->
+<div class="phone">
+  <div class="topnotch"></div>
+
+  <!-- ---- PRE-READING ---- -->
+  <section class="screen show" id="s-pre">
+    <p class="eyebrow">before we read…</p>
+    <h2 class="title">Welcome to our school! 🏫</h2>
+    <div class="cast">
+      <span class="ch">👩‍🏫</span><span class="ch">👧</span><span class="ch">👦</span>
+      <span class="ch">👧🏻</span><span class="ch">👦🏻</span><span class="ch">👨‍🏫</span>
+    </div>
+    <p class="hint">Tap the pictures. Look and remember!</p>
+    <p class="counter" id="preCount">0 / 12</p>
+    <div class="board" id="board"></div>
+    <button class="go" id="preGo">Let's start! →</button>
+  </section>
+
+  <!-- ---- READING BRIDGE ---- -->
+  <section class="screen" id="s-reading">
+    <p class="eyebrow">reading time</p>
+    <h2 class="title">Read the stories 📖</h2>
+    <div class="bridge">
+      <div class="em">📚🔍👀🧩</div>
+      <p>Mevcut 48 okuma metni (scan · skim · int · inf) burada çalışır.<br>Bu demonun odağı Hazırlık ve Pekiştirme olduğu için bu adım kısa tutuldu.</p>
+    </div>
+    <button class="go" id="readGo">Go to practice → 🎯</button>
+  </section>
+
+  <!-- ---- POST-READING ---- -->
+  <section class="screen" id="s-post">
+    <p class="eyebrow">let's practise!</p>
+    <h2 class="title">Our school friends 🌟</h2>
+    <div class="cast">
+      <span class="ch">👩‍🏫</span><span class="ch">👨‍🏫</span><span class="ch">👧</span>
+      <span class="ch">👦</span><span class="ch">👧🏻</span><span class="ch">👦🏻</span>
+    </div>
+
+    <div class="tiertabs" id="tiertabs">
+      <button data-tier="sup">Supporting</button>
+      <button data-tier="std" class="on">Standard</button>
+      <button data-tier="exp">Expansion</button>
+    </div>
+    <p class="tierlabel" id="tierLabel"></p>
+
+    <div class="progressdots" id="dots"></div>
+    <div id="activity"></div>
+    <p class="feedback" id="fb"></p>
+  </section>
+</div>
+
+<!-- ============ MEB GROUNDING (teacher) ============ -->
+<div class="meb">
+  <b>Müfredat dayanağı.</b>
+  <b>Hazırlık (Pre)</b> = MEB "Establishing Links": okumadan önce tema dünyasını uyandırma, görsel-ağırlıklı, Türkçe metin/üretim/test yok — sadece tanıma ön-teması.
+  <b>Pekiştirme (Post)</b> = sabit kadroyla pekiştirme + tanımadan seçme-kullanmaya (cümle kurma) + emoji yansıtmasıyla kapanış.
+  <b>Katmanlar</b>: aynı hedef dil; fark iskele ve üretimde. Aktiviteler tek bir kalıbı tekrar etmez — temanın gramer setini dolaşır (<i>What is it? · Who is…? · Where is…? · What day…? · My name is… · greetings</i>). <b>Supporting</b> bu yapıları tanır, <b>Standard</b> tek tek kurar, <b>Expansion</b> ikisini birleştirir (tanıtım+rol, soru+cevap). Gelecek tema gramer/kelimesi hiçbir katmanda yok.
+</div>
+
+<script>
+/* ============ STAGE NAV ============ */
+const stages={pre:'s-pre',reading:'s-reading',post:'s-post'};
+document.getElementById('stagebar').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;setStage(b.dataset.stage);});
+function setStage(st){
+  [...document.querySelectorAll('#stagebar button')].forEach(x=>x.classList.toggle('on',x.dataset.stage===st));
+  Object.values(stages).forEach(id=>document.getElementById(id).classList.remove('show'));
+  document.getElementById(stages[st]).classList.add('show');
+  if(st==='post') renderTier();
+}
+document.getElementById('preGo').onclick=()=>setStage('reading');
+document.getElementById('readGo').onclick=()=>setStage('post');
+
+/* ============ DATA — populated from theme JSON ============ */
+let PRE=[],SUP=[],STD=[],EXP=[];
+const STICK_COLORS=['#FFE08A','#BDE0FE','#C9F0D2','#FFC9DE','#E5D6FF','#FFD8B0'];
+let tier='std';
+const tierMeta={
+  sup:{label:'Supporting — tanı: who? · what? · where? · greeting'},
+  std:{label:'Standard — kur: This is… · It is a… · gün · My name is…'},
+  exp:{label:'Expansion — birleştir: tanıtım+rol · soru+cevap (kişi+yer)'}
+};
+
+/* ============ PRE: sticker board ============ */
+let found=0;
+function renderPre(){
+  const board=document.getElementById('board'); board.innerHTML=''; found=0;
+  document.getElementById('preCount').textContent=`0 / ${PRE.length}`;
+  PRE.forEach((p,i)=>{
+    const b=document.createElement('button');
+    b.className='sticker'; b.setAttribute('aria-label',p.word);
+    b.style.background=STICK_COLORS[i%STICK_COLORS.length];
+    b.innerHTML=`<span class="tap">tap!</span><span class="check">✅</span><span class="emo">${p.emo}</span><span class="word">${p.word}</span>`;
+    b.onclick=()=>{ if(!b.classList.contains('open')){ b.classList.add('open'); found++; document.getElementById('preCount').textContent=`${found} / ${PRE.length}`; } };
+    board.appendChild(b);
+  });
+}
+
+/* ============ POST: tiers & activities ============ */
+document.getElementById('tiertabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;tier=b.dataset.tier;[...document.querySelectorAll('#tiertabs button')].forEach(x=>x.classList.toggle('on',x.dataset.tier===tier));renderTier();});
+let step=0;
+function renderTier(){ step=0; document.getElementById('tierLabel').textContent=tierMeta[tier].label; document.getElementById('fb').textContent=''; runStep(); }
+function dots(n,cur){const d=document.getElementById('dots');d.innerHTML='';for(let i=0;i<n;i++){const s=document.createElement('i');if(i<cur)s.classList.add('on');d.appendChild(s);}}
+function fb(msg,ok){const f=document.getElementById('fb');f.textContent=msg;f.className='feedback '+(ok?'ok':'no');}
+function runStep(){const act=document.getElementById('activity');document.getElementById('fb').textContent='';if(tier==='sup')return supStep(act);if(tier==='std')return buildStep(act,STD);if(tier==='exp')return buildStep(act,EXP);}
+
+function supStep(act){
+  dots(SUP.length,step);
+  if(step>=SUP.length) return reflect(act);
+  const r=SUP[step];
+  const opts=[{t:r.right,ok:true},{t:r.wrong,ok:false}].sort(()=>Math.random()-.5);
+  act.innerHTML=`<div class="prompt"><span class="big">${r.emo}</span>
+    <span class="qwrap"><span class="q">${r.q}</span><span class="qtr">${r.qTr}</span></span></div>
+    <div class="options" id="opts"></div>`;
+  const box=act.querySelector('#opts');
+  opts.forEach(o=>{
+    const b=document.createElement('button'); b.className='opt'; b.textContent=o.t;
+    b.onclick=()=>{
+      if(o.ok){b.classList.add('right'); fb('🎉 Aferin! / Well done',true); step++; setTimeout(runStep,800);}
+      else{b.classList.add('wrong','shake'); fb('Tekrar bak 👀 / Look again',false); setTimeout(()=>b.classList.remove('wrong','shake'),400);}
+    };
+    box.appendChild(b);
+  });
+}
+
+function buildStep(act,DATA){
+  dots(DATA.length,step);
+  if(step>=DATA.length) return reflect(act);
+  const r=DATA[step];
+  const bank=[...r.target].sort(()=>Math.random()-.5);
+  const goalHtml=r.goalLines.map(s=>`<span class="tr">${s}</span>`).join('');
+  act.innerHTML=`
+    <div class="prompt"><span class="big">${r.emo}</span>
+      <span class="qwrap"><span class="q">Cümleyi kur</span><span class="qtr">Build the sentence</span></span></div>
+    <div class="goal"><span class="lab">şu cümleyi kur · build this</span>${goalHtml}</div>
+    <div class="slots" id="slots"></div>
+    <div class="bank" id="bank"></div>
+    <div class="builder-actions"><button class="ghost" id="reset">↺ Baştan / Again</button></div>`;
+  const slotsEl=act.querySelector('#slots'), bankEl=act.querySelector('#bank');
+  let pos=0;
+  const groups=[]; let cur=[];
+  r.target.forEach((w,idx)=>{cur.push(idx);if(/[.?!]$/.test(w)){groups.push(cur);cur=[];}});
+  if(cur.length)groups.push(cur);
+  const slotEls=[];
+  groups.forEach(g=>{const line=document.createElement('div');line.className='slotline';g.forEach(idx=>{const s=document.createElement('span');s.className='slot';slotEls[idx]=s;line.appendChild(s);});slotsEl.appendChild(line);});
+  bank.forEach(w=>{
+    const c=document.createElement('button'); c.className='chunk'; c.textContent=w;
+    c.onclick=()=>{
+      if(c.classList.contains('used'))return;
+      if(w===r.target[pos]){const slot=slotEls[pos];slot.textContent=w;slot.classList.add('filled','popgreen');c.classList.add('used');pos++;if(pos===r.target.length){fb('🎉 Harika! / Great!',true);step++;setTimeout(runStep,1050);}}
+      else{c.classList.add('shake');fb('Sıraya dikkat 🙂 / Mind the order',false);setTimeout(()=>c.classList.remove('shake'),400);}
+    };
+    bankEl.appendChild(c);
+  });
+  act.querySelector('#reset').onclick=()=>buildStep(act,DATA);
+}
+
+function reflect(act){
+  document.getElementById('dots').innerHTML='';
+  act.innerHTML=`<div class="reflect">
+    <p class="title" style="font-size:20px">How do you feel?</p>
+    <div class="faces" id="faces">
+      <span class="face" tabindex="0" role="button" aria-label="great">😀</span>
+      <span class="face" tabindex="0" role="button" aria-label="ok">🙂</span>
+      <span class="face" tabindex="0" role="button" aria-label="not sure">😐</span>
+    </div>
+    <div class="done" id="done" style="display:none">See you tomorrow! 👋</div>
+  </div>`;
+  document.getElementById('fb').textContent='';
+  act.querySelectorAll('.face').forEach(f=>{
+    const pick=()=>{act.querySelectorAll('.face').forEach(x=>x.classList.remove('pick'));f.classList.add('pick');document.getElementById('done').style.display='block';};
+    f.onclick=pick; f.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}};
+  });
+}
+
+/* ============ INIT — render a theme's pre/post from its data ============ */
+function initPrePost(theme){
+  const h=document.querySelector('.teacher h1');
+  if(h&&theme.theme) h.innerHTML=`Tema ${theme.themeNumber||''} · <span class="t">${theme.theme}</span> — Pre / Post Reading`;
+  PRE=(theme.pre&&theme.pre.stickers)||[];
+  SUP=(theme.post&&theme.post.supporting)||[];
+  STD=(theme.post&&theme.post.standard)||[];
+  EXP=(theme.post&&theme.post.expansion)||[];
+  renderPre(); renderTier();
+}
+function showLoadError(){
+  document.getElementById('board').innerHTML=
+   '<div style="grid-column:1/-1;font-family:var(--body);color:var(--muted);font-size:13px;line-height:1.6;padding:6px">'+
+   'school-life.json yüklenemedi. Bu motor veriyi <b>fetch</b> ile okur; uygulamanda (http / GitHub Pages) sorunsuz çalışır. '+
+   'Yerelde denemek için bu klasörde küçük bir sunucu çalıştır: <code>python3 -m http.server</code> ve açılan adresi kullan. '+
+   '(Çalışan görsel için <b>school-life-pre-post-demo.html</b> dosyasını kullanabilirsin.)</div>';
+}
+
+/* his app already loads school-life.json the same way; the engine just reads pre/post from it */
+fetch('school-life.json').then(r=>r.json()).then(initPrePost).catch(showLoadError);
+
+</script>
+</body>
+</html>

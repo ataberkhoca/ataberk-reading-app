@@ -1323,6 +1323,116 @@
           ]
         }
       ]
+    },
+    {
+      "id": "scan-13",
+      "title": "A Special Day in July",
+      "subtitle": "Find the right answer!",
+      "icon": "🇹🇷",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "n": "Eda",
+          "e": "👧"
+        },
+        {
+          "n": "Can",
+          "e": "👦"
+        },
+        {
+          "n": "Miss Oli",
+          "e": "👩‍🏫"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is the 15th of July.",
+        "It is Democracy and National Unity Day.",
+        "It is a special national day in Türkiye.",
+        "We are in the school garden.",
+        "Eda is happy. Can is happy.",
+        "Miss Oli: Happy Democracy Day!",
+        "Hurray! say the children.",
+        "It is a special day for Türkiye!"
+      ],
+      "translations": [
+        "Bugün hangi gün? 15 Temmuz.",
+        "Demokrasi ve Millî Birlik Günü.",
+        "Türkiye'de özel bir milli gün.",
+        "Okul bahçesindeyiz.",
+        "Eda mutlu. Can mutlu.",
+        "Miss Oli diyor: Demokrasi Günü kutlu olsun!",
+        "Yaşasın! diyor çocuklar.",
+        "Türkiye için özel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
+          "correct": "The 15th of July",
+          "wrong": [
+            "The 23rd of April",
+            "Monday"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "qTr": "Hangi özel gün?",
+          "correct": "Democracy and National Unity Day",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where are the children?",
+          "qTr": "Çocuklar nerede?",
+          "correct": "In the school garden",
+          "wrong": [
+            "In the library",
+            "In the canteen"
+          ],
+          "hint": "Find the word garden.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "How does Can feel?",
+          "qTr": "Can nasıl hissediyor?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Can.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "qTr": "Miss Oli ne der?",
+          "correct": "Happy Democracy Day!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
+        }
+      ]
     }
   ],
   "skim": [
@@ -2679,6 +2789,118 @@
           "hint": "Read the last sentence.",
           "hl": [
             8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-13",
+      "title": "Ramadan Bayram",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🌙",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "n": "Eda",
+          "e": "👧"
+        },
+        {
+          "n": "Can",
+          "e": "👦"
+        },
+        {
+          "n": "Miss Oli",
+          "e": "👩‍🏫"
+        }
+      ],
+      "sentences": [
+        "It is a special day today.",
+        "It is Ramadan Bayram in Türkiye.",
+        "It is a happy religious day.",
+        "Eda is happy. Can is happy.",
+        "It is a day for friends.",
+        "Miss Oli: Happy Bayram!",
+        "Hurray! say the children.",
+        "It is a special day for us!"
+      ],
+      "translations": [
+        "Bugün özel bir gün.",
+        "Türkiye'de Ramazan Bayramı.",
+        "Mutlu bir dini gün.",
+        "Eda mutlu. Can mutlu.",
+        "Arkadaşlar için bir gün.",
+        "Miss Oli diyor: Bayramınız kutlu olsun!",
+        "Yaşasın! diyor çocuklar.",
+        "Bizim için özel bir gün!"
+      ],
+      "questions": [
+        {
+          "q": "What is the text mainly about?",
+          "qTr": "Metin esas olarak ne hakkındadır?",
+          "correct": "Ramadan Bayram",
+          "wrong": [
+            "A birthday",
+            "School places"
+          ],
+          "hint": "Think about the special day.",
+          "hl": [
+            1,
+            2,
+            7
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "qTr": "Hangi özel gün?",
+          "correct": "Ramadan Bayram",
+          "wrong": [
+            "Republic Day",
+            "Victory Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How do Eda and Can feel?",
+          "qTr": "Eda ve Can nasıl hissediyor?",
+          "correct": "Happy",
+          "wrong": [
+            "Sad",
+            "Tired"
+          ],
+          "hint": "Find Eda and Can.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Who is the day for?",
+          "qTr": "Gün kimin için?",
+          "correct": "Friends",
+          "wrong": [
+            "Teachers only",
+            "No one"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "qTr": "Miss Oli ne der?",
+          "correct": "Happy Bayram!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -4040,6 +4262,118 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-13",
+      "title": "Kurban Bayram",
+      "subtitle": "Read carefully and answer the questions!",
+      "icon": "🌙",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "n": "Eda",
+          "e": "👧"
+        },
+        {
+          "n": "Can",
+          "e": "👦"
+        },
+        {
+          "n": "Miss Oli",
+          "e": "👩‍🏫"
+        }
+      ],
+      "sentences": [
+        "What day is it today? It is a special day.",
+        "It is Kurban Bayram in Türkiye.",
+        "It is a happy religious day.",
+        "Eda and Can are happy together.",
+        "It is a day for friends.",
+        "Miss Oli: Happy Bayram, everybody!",
+        "Hurray! say the children.",
+        "We are happy pupils today!",
+        "Welcome to Bayram, friends!"
+      ],
+      "translations": [
+        "Bugün hangi gün? Özel bir gün.",
+        "Türkiye'de Kurban Bayramı.",
+        "Mutlu bir dini gün.",
+        "Eda ve Can birlikte mutlu.",
+        "Arkadaşlar için bir gün.",
+        "Miss Oli diyor: Bayramınız kutlu olsun, herkes!",
+        "Yaşasın! diyor çocuklar.",
+        "Bugün mutlu öğrencileriz!",
+        "Bayrama hoş geldin, arkadaşlar!"
+      ],
+      "questions": [
+        {
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
+          "correct": "A special day",
+          "wrong": [
+            "Monday",
+            "A school test"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What special day is it?",
+          "qTr": "Hangi özel gün?",
+          "correct": "Kurban Bayram",
+          "wrong": [
+            "Republic Day",
+            "Children's Day"
+          ],
+          "hint": "Read the second sentence.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is it a religious day?",
+          "qTr": "Dini bir gün mü?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read the third sentence.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is the day for?",
+          "qTr": "Gün kimin için?",
+          "correct": "Friends",
+          "wrong": [
+            "Teachers",
+            "The headmaster"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Miss Oli say?",
+          "qTr": "Miss Oli ne der?",
+          "correct": "Happy Bayram!",
+          "wrong": [
+            "Good night!",
+            "Goodbye!"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
+          ]
+        }
+      ]
     }
   ],
   "inf": [
@@ -5389,5 +5723,199 @@
         }
       ]
     }
-  ]
+  ],
+  "pre": {
+    "stickers": [
+      {
+        "emo": "🏫",
+        "word": "school"
+      },
+      {
+        "emo": "👩‍🏫",
+        "word": "teacher"
+      },
+      {
+        "emo": "👨‍🏫",
+        "word": "headmaster"
+      },
+      {
+        "emo": "🧒",
+        "word": "pupil"
+      },
+      {
+        "emo": "🤝",
+        "word": "friend"
+      },
+      {
+        "emo": "👦",
+        "word": "boy"
+      },
+      {
+        "emo": "👧",
+        "word": "girl"
+      },
+      {
+        "emo": "📚",
+        "word": "library"
+      },
+      {
+        "emo": "🌳",
+        "word": "garden"
+      },
+      {
+        "emo": "🛝",
+        "word": "playground"
+      },
+      {
+        "emo": "🥪",
+        "word": "canteen"
+      },
+      {
+        "emo": "⚽",
+        "word": "sports hall"
+      }
+    ]
+  },
+  "post": {
+    "supporting": [
+      {
+        "emo": "👩‍🏫",
+        "q": "Who is she?",
+        "qTr": "O kim?",
+        "right": "She is a teacher.",
+        "wrong": "He is a pupil."
+      },
+      {
+        "emo": "👨‍🏫",
+        "q": "Who is he?",
+        "qTr": "O kim?",
+        "right": "He is the headmaster.",
+        "wrong": "She is a teacher."
+      },
+      {
+        "emo": "📚",
+        "q": "What is it?",
+        "qTr": "Bu ne?",
+        "right": "It is a library.",
+        "wrong": "It is a garden."
+      },
+      {
+        "emo": "🛝",
+        "q": "What is it?",
+        "qTr": "Bu ne?",
+        "right": "It is a playground.",
+        "wrong": "It is a canteen."
+      },
+      {
+        "emo": "🌳",
+        "q": "Where is Tom?",
+        "qTr": "Tom nerede?",
+        "right": "He is in the garden.",
+        "wrong": "He is in the library."
+      },
+      {
+        "emo": "🙂",
+        "q": "How are you?",
+        "qTr": "Nasılsın?",
+        "right": "I am fine, thanks!",
+        "wrong": "Good morning!"
+      }
+    ],
+    "standard": [
+      {
+        "emo": "👩‍🏫",
+        "goalLines": [
+          "Bu Miss Oli."
+        ],
+        "target": [
+          "This is",
+          "Miss Oli"
+        ]
+      },
+      {
+        "emo": "📚",
+        "goalLines": [
+          "O bir kütüphane."
+        ],
+        "target": [
+          "It is",
+          "a library"
+        ]
+      },
+      {
+        "emo": "📅",
+        "goalLines": [
+          "Bugün Pazartesi."
+        ],
+        "target": [
+          "It is",
+          "Monday"
+        ]
+      },
+      {
+        "emo": "👧",
+        "goalLines": [
+          "Benim adım Eda."
+        ],
+        "target": [
+          "My name is",
+          "Eda"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "emo": "👩‍🏫",
+        "goalLines": [
+          "Bu Miss Oli.",
+          "O bir öğretmen."
+        ],
+        "target": [
+          "This is",
+          "Miss Oli.",
+          "She is",
+          "a teacher."
+        ]
+      },
+      {
+        "emo": "👨‍🏫",
+        "goalLines": [
+          "Bu Mr. Aras.",
+          "O müdür."
+        ],
+        "target": [
+          "This is",
+          "Mr. Aras.",
+          "He is",
+          "the headmaster."
+        ]
+      },
+      {
+        "emo": "👦🏻 🌳",
+        "goalLines": [
+          "Tom nerede?",
+          "O bahçede."
+        ],
+        "target": [
+          "Where is",
+          "Tom?",
+          "He is in",
+          "the garden."
+        ]
+      },
+      {
+        "emo": "👧 📚",
+        "goalLines": [
+          "Eda nerede?",
+          "O kütüphanede."
+        ],
+        "target": [
+          "Where is",
+          "Eda?",
+          "She is in",
+          "the library."
+        ]
+      }
+    ]
+  }
 }
