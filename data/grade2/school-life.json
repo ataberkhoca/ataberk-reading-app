@@ -4,7 +4,7 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "People at Our School",
+      "title": "People in the School",
       "subtitle": "Find the right person!",
       "icon": "🏫",
       "hlMode": "fade3",
@@ -25,18 +25,18 @@
         }
       ],
       "sentences": [
-        "This is our school.",
-        "This is Miss Oli. She is my teacher.",
-        "Who is he? He is Can. He is my friend.",
+        "This is the school.",
+        "This is Miss Oli. She is a teacher.",
+        "Who is he? He is Can. We are friends.",
         "Who is she? She is Eda. She is a pupil.",
         "This is a boy. This is a girl.",
         "Mr. Aras is the headmaster.",
         "We are pupils. We are friends!"
       ],
       "translations": [
-        "Bu bizim okulumuz.",
-        "Bu Miss Oli. O benim öğretmenim.",
-        "O kim? O Can. O benim arkadaşım.",
+        "Bu okul.",
+        "Bu Miss Oli. O bir öğretmen.",
+        "O kim? O Can. Biz arkadaşız.",
         "O kim? O Eda. O bir öğrenci.",
         "Bu bir erkek çocuk. Bu bir kız çocuk.",
         "Mr. Aras müdür.",
@@ -133,20 +133,20 @@
         }
       ],
       "sentences": [
-        "Look! This is my school.",
+        "Look! This is the school.",
         "Who is she? She is Miss Oli. She is a teacher.",
         "Who is he? He is Tom. He is a pupil.",
-        "Who is she? She is Lila. She is my friend.",
+        "Who is she? She is Lila. We are friends.",
         "This is a kid. He is a boy.",
         "This is a kid. She is a girl.",
         "Miss Oli is in the teacher's room.",
         "We are happy here!"
       ],
       "translations": [
-        "Bak! Bu benim okulum.",
+        "Bak! Bu okul.",
         "O kim? O Miss Oli. O bir öğretmen.",
         "O kim? O Tom. O bir öğrenci.",
-        "O kim? O Lila. O benim arkadaşım.",
+        "O kim? O Lila. Biz arkadaşız.",
         "Bu bir çocuk. O bir erkek çocuk.",
         "Bu bir çocuk. O bir kız çocuk.",
         "Miss Oli öğretmenler odasında.",
@@ -223,7 +223,7 @@
     },
     {
       "id": "scan-3",
-      "title": "Places at Our School",
+      "title": "Places in the School",
       "subtitle": "Find the right place!",
       "icon": "🗺️",
       "hlMode": "fade3",
@@ -244,7 +244,7 @@
         }
       ],
       "sentences": [
-        "Look at our school!",
+        "Look! This is the school!",
         "This is a classroom.",
         "This is the library.",
         "This is the canteen.",
@@ -252,10 +252,10 @@
         "Where is Eda? She is in the garden.",
         "Where is Tom? He is in the playground.",
         "Where is Miss Oli? She is in the sports hall.",
-        "Our school is big and nice!"
+        "Our school is a happy place!"
       ],
       "translations": [
-        "Okulumuza bak!",
+        "Bak! Bu okul!",
         "Bu bir sınıf.",
         "Bu kütüphane.",
         "Bu kantin.",
@@ -263,7 +263,7 @@
         "Eda nerede? O bahçede.",
         "Tom nerede? O oyun alanında.",
         "Miss Oli nerede? O spor salonunda.",
-        "Okulumuz büyük ve güzel!"
+        "Okulumuz mutlu bir yer!"
       ],
       "questions": [
         {
@@ -319,12 +319,12 @@
           ]
         },
         {
-          "q": "Is our school big or small?",
-          "qTr": "Okulumuz büyük mü yoksa küçük mü?",
-          "correct": "Big",
+          "q": "What is the school like?",
+          "qTr": "Okul nasıl bir yer?",
+          "correct": "A happy place",
           "wrong": [
-            "Small",
-            "Old"
+            "A sad place",
+            "A quiet place"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -356,23 +356,23 @@
         }
       ],
       "sentences": [
-        "This is my school.",
+        "This is the school.",
         "Where is Lila? She is in the classroom.",
         "Where is Can? He is in the library.",
         "Where is Miss Oli? She is in the teacher's room.",
         "This is the canteen. This is the lunch hall.",
-        "The garden is nice and big.",
-        "The playground is big.",
+        "The garden is a fun place.",
+        "The playground is a happy place.",
         "I am in the sports hall!"
       ],
       "translations": [
-        "Bu benim okulum.",
+        "Bu okul.",
         "Lila nerede? O sınıfta.",
         "Can nerede? O kütüphanede.",
         "Miss Oli nerede? O öğretmenler odasında.",
         "Bu kantin. Bu yemekhane.",
-        "Bahçe güzel ve büyük.",
-        "Oyun alanı büyük.",
+        "Bahçe eğlenceli bir yer.",
+        "Oyun alanı mutlu bir yer.",
         "Ben spor salonundayım!"
       ],
       "questions": [
@@ -417,11 +417,11 @@
         },
         {
           "q": "What is the garden like?",
-          "qTr": "Bahçe nasıldır?",
-          "correct": "Nice and big",
+          "qTr": "Bahçe nasıl bir yer?",
+          "correct": "A fun place",
           "wrong": [
-            "Old and small",
-            "Dark"
+            "A sad place",
+            "A quiet place"
           ],
           "hint": "Find the word garden.",
           "hl": [
@@ -430,11 +430,11 @@
         },
         {
           "q": "What is the playground like?",
-          "qTr": "Oyun bahçesi nasıldır?",
-          "correct": "Big",
+          "qTr": "Oyun alanı nasıl bir yer?",
+          "correct": "A happy place",
           "wrong": [
-            "Small",
-            "Old"
+            "A sad place",
+            "A quiet place"
           ],
           "hint": "Find the word playground.",
           "hl": [
@@ -469,7 +469,7 @@
         "What day is it today? It is Monday.",
         "Monday, Tuesday, Wednesday.",
         "Thursday, Friday.",
-        "Saturday and Sunday.",
+        "Saturday, Sunday.",
         "Today is Monday. We are in the classroom.",
         "Miss Oli: What day is it today?",
         "Eda: It is Monday!",
@@ -479,7 +479,7 @@
         "Bugün hangi gün? Pazartesi.",
         "Pazartesi, Salı, Çarşamba.",
         "Perşembe, Cuma.",
-        "Cumartesi ve Pazar.",
+        "Cumartesi, Pazar.",
         "Bugün Pazartesi. Sınıftayız.",
         "Miss Oli diyor: Bugün hangi gün?",
         "Eda diyor: Pazartesi!",
@@ -515,10 +515,10 @@
         {
           "q": "Which days come last?",
           "qTr": "Hangi günler en sonda gelir?",
-          "correct": "Saturday and Sunday",
+          "correct": "Saturday, Sunday",
           "wrong": [
-            "Monday and Tuesday",
-            "Thursday and Friday"
+            "Monday, Tuesday",
+            "Thursday, Friday"
           ],
           "hint": "Find the last days.",
           "hl": [
@@ -555,7 +555,7 @@
     },
     {
       "id": "scan-6",
-      "title": "Our Week at School",
+      "title": "A Week in the School",
       "subtitle": "Find the right day!",
       "icon": "🗓️",
       "hlMode": "fade3",
@@ -576,23 +576,23 @@
         }
       ],
       "sentences": [
-        "This is our week here.",
+        "This is a school week.",
         "What day is it? It is Wednesday.",
         "Monday: we are in the classroom.",
         "Friday: we are in the sports hall.",
-        "Saturday and Sunday are not school days.",
+        "Saturday is not a school day. Sunday is not a school day.",
         "Lila: Friday is a fun day!",
-        "Tom: Saturday and Sunday are happy days!",
+        "Tom: Saturday is a happy day! Sunday is a happy day!",
         "Miss Oli: Every day is a good day!"
       ],
       "translations": [
-        "Bu okuldaki haftamız.",
+        "Bu bir okul haftası.",
         "Hangi gün? Çarşamba.",
         "Pazartesi: sınıftayız.",
         "Cuma: spor salonundayız.",
-        "Cumartesi ve Pazar okul günü değil.",
+        "Cumartesi okul günü değil. Pazar okul günü değil.",
         "Lila diyor: Cuma eğlenceli bir gün!",
-        "Tom diyor: Cumartesi ve Pazar mutlu günler!",
+        "Tom: Cumartesi mutlu bir gün! Pazar mutlu bir gün!",
         "Miss Oli diyor: Her gün güzel bir gün!"
       ],
       "questions": [
@@ -625,10 +625,10 @@
         {
           "q": "Which days are not school days?",
           "qTr": "Hangi günler okul günü değildir?",
-          "correct": "Saturday and Sunday",
+          "correct": "Saturday, Sunday",
           "wrong": [
-            "Monday and Tuesday",
-            "Wednesday and Thursday"
+            "Monday, Tuesday",
+            "Wednesday, Thursday"
           ],
           "hint": "Find the word school days.",
           "hl": [
@@ -665,7 +665,7 @@
     },
     {
       "id": "scan-7",
-      "title": "Good Morning at School",
+      "title": "A Good Morning",
       "subtitle": "Find the right words!",
       "icon": "👋",
       "hlMode": "fade3",
@@ -693,7 +693,7 @@
         "Hello, Can! Hi, Eda!",
         "Nice to meet you!",
         "Miss Oli: Good morning, everybody!",
-        "Let's start! say the pupils."
+        "Pupils: Let's start!"
       ],
       "translations": [
         "Sabah oldu. Buradayız.",
@@ -703,7 +703,7 @@
         "Merhaba, Can! Selam, Eda!",
         "Tanıştığımıza memnun oldum!",
         "Miss Oli diyor: Günaydın, herkese!",
-        "Hadi başlayalım! diyor öğrenciler."
+        "Öğrenciler: Hadi başlayalım!"
       ],
       "questions": [
         {
@@ -801,8 +801,8 @@
         "My name is Lila.",
         "Hi, Lila! I am Tom.",
         "Nice to meet you, Tom!",
-        "Welcome to our school, Lila!",
-        "Can I sit here? Sure!",
+        "Welcome to the school, Lila!",
+        "Tom: Sit here, please, Lila!",
         "Miss Oli: Welcome, Lila!"
       ],
       "translations": [
@@ -811,8 +811,8 @@
         "Benim adım Lila.",
         "Selam, Lila! Ben Tom.",
         "Tanıştığımıza memnun oldum, Tom!",
-        "Okulumuza hoş geldin, Lila!",
-        "Buraya oturabilir miyim? Tabii!",
+        "Okula hoş geldin, Lila!",
+        "Tom: Buraya otur, lütfen, Lila!",
         "Miss Oli diyor: Hoş geldin, Lila!"
       ],
       "questions": [
@@ -857,12 +857,12 @@
           ]
         },
         {
-          "q": "What does Lila ask?",
-          "qTr": "Lila ne sorar?",
-          "correct": "Can I sit here?",
+          "q": "What does Tom say to Lila?",
+          "qTr": "Tom Lila'ya ne der?",
+          "correct": "Sit here, please!",
           "wrong": [
-            "What day is it?",
-            "Where is the garden?"
+            "Goodbye, Lila!",
+            "What day is it?"
           ],
           "hint": "Find the word sit.",
           "hl": [
@@ -913,7 +913,7 @@
         "Who is this? This is Eda.",
         "Who is this? This is Can.",
         "What is this? It is the garden.",
-        "Look! This is our playground.",
+        "Look! This is the playground.",
         "Miss Oli: Well done, everybody!"
       ],
       "translations": [
@@ -923,7 +923,7 @@
         "Bu kim? Bu Eda.",
         "Bu kim? Bu Can.",
         "Bu nedir? Bu bahçe.",
-        "Bak! Bu bizim oyun alanımız.",
+        "Bak! Bu oyun alanı.",
         "Miss Oli diyor: Aferin, herkese!"
       ],
       "questions": [
@@ -1018,22 +1018,22 @@
       ],
       "sentences": [
         "What day is it today? It is the 23rd of April.",
-        "It is National Sovereignty and Children's Day.",
-        "Look! This is our school garden.",
+        "It is Children's Day.",
+        "Look! This is the school garden.",
         "This is a special school day.",
         "Eda is happy. Can is happy.",
         "Miss Oli: Happy Children's Day!",
-        "Hurray! say the children.",
+        "Children: Hurray!",
         "It is a special day for all children!"
       ],
       "translations": [
         "Bugün hangi gün? 23 Nisan.",
-        "Ulusal Egemenlik ve Çocuk Bayramı.",
-        "Bak! Bu okul bahçemiz.",
+        "Çocuk Bayramı.",
+        "Bak! Bu okul bahçesi.",
         "Bu özel bir okul günü.",
         "Eda mutlu. Can mutlu.",
         "Miss Oli diyor: Çocuk Bayramı kutlu olsun!",
-        "Yaşasın! diyor çocuklar.",
+        "Çocuklar: Yaşasın!",
         "Tüm çocuklar için özel bir gün!"
       ],
       "questions": [
@@ -1106,7 +1106,7 @@
     },
     {
       "id": "scan-11",
-      "title": "How Are You at School?",
+      "title": "How Are You in the School?",
       "subtitle": "Find the right answer!",
       "icon": "🌞",
       "hlMode": "fade3",
@@ -1127,7 +1127,7 @@
         }
       ],
       "sentences": [
-        "It is Monday morning at school.",
+        "It is Monday morning. We are in the classroom.",
         "Eda: Good morning, Can! How are you?",
         "Can: I am fine, thanks! How are you, Eda?",
         "Eda: I am fine, too!",
@@ -1137,7 +1137,7 @@
         "Can: I am very well, thanks!"
       ],
       "translations": [
-        "Pazartesi sabahı okulda.",
+        "Pazartesi sabahı. Sınıftayız.",
         "Eda: Günaydın, Can! Nasılsın?",
         "Can: İyiyim, teşekkür ederim! Sen nasılsın, Eda?",
         "Eda: Ben de iyiyim!",
@@ -1348,22 +1348,22 @@
       ],
       "sentences": [
         "What day is it today? It is the 15th of July.",
-        "It is Democracy and National Unity Day.",
+        "It is Democracy Day.",
         "It is a special national day in Türkiye.",
         "We are in the school garden.",
         "Eda is happy. Can is happy.",
         "Miss Oli: Happy Democracy Day!",
-        "Hurray! say the children.",
+        "Children: Hurray!",
         "It is a special day for Türkiye!"
       ],
       "translations": [
         "Bugün hangi gün? 15 Temmuz.",
-        "Demokrasi ve Millî Birlik Günü.",
+        "Demokrasi Günü.",
         "Türkiye'de özel bir milli gün.",
         "Okul bahçesindeyiz.",
         "Eda mutlu. Can mutlu.",
         "Miss Oli diyor: Demokrasi Günü kutlu olsun!",
-        "Yaşasın! diyor çocuklar.",
+        "Çocuklar: Yaşasın!",
         "Türkiye için özel bir gün!"
       ],
       "questions": [
@@ -1383,7 +1383,7 @@
         {
           "q": "What special day is it?",
           "qTr": "Hangi özel gün?",
-          "correct": "Democracy and National Unity Day",
+          "correct": "Democracy Day",
           "wrong": [
             "Republic Day",
             "Victory Day"
@@ -1461,22 +1461,22 @@
       "sentences": [
         "It is morning. The pupils are in the classroom.",
         "Miss Oli: Good morning, everybody!",
-        "Good morning, Miss Oli! say the pupils.",
+        "Pupils: Good morning, Miss Oli!",
         "How are you, Eda? I am fine, thanks!",
         "How are you, Can? I am fine, too!",
         "Hello, Eda! Hi, Can!",
         "Miss Oli: Let's start!",
-        "It is a happy morning at our school."
+        "It is a happy morning in the school."
       ],
       "translations": [
         "Sabah oldu. Öğrenciler sınıfta.",
         "Günaydın, herkese! diyor Miss Oli.",
-        "Günaydın, Miss Oli! diyor öğrenciler.",
+        "Öğrenciler: Günaydın, Miss Oli!",
         "Nasılsın, Eda? İyiyim, teşekkürler!",
         "Nasılsın, Can? Ben de iyiyim!",
         "Merhaba, Eda! Selam, Can!",
         "Hadi başlayalım! diyor Miss Oli.",
-        "Okulumuzda mutlu bir sabah."
+        "Okulda mutlu bir sabah."
       ],
       "questions": [
         {
@@ -1551,7 +1551,7 @@
     },
     {
       "id": "skim-2",
-      "title": "The People at My School",
+      "title": "The People in the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "👥",
       "hlMode": "always",
@@ -1572,21 +1572,21 @@
         }
       ],
       "sentences": [
-        "This is my school.",
-        "Miss Oli is my teacher.",
+        "This is the school.",
+        "Miss Oli is the teacher.",
         "Mr. Aras is the headmaster.",
-        "Tom is a pupil. He is my friend.",
-        "Lila is a pupil. She is my friend.",
+        "Tom is a pupil. He is a friend.",
+        "Lila is a pupil. She is a friend.",
         "This is a boy. This is a girl.",
         "We are all friends here.",
         "I am happy. We are friends!"
       ],
       "translations": [
-        "Bu benim okulum.",
-        "Miss Oli benim öğretmenim.",
+        "Bu okul.",
+        "Miss Oli öğretmen.",
         "Mr. Aras müdür.",
-        "Tom bir öğrenci. O benim arkadaşım.",
-        "Lila bir öğrenci. O benim arkadaşım.",
+        "Tom bir öğrenci. O bir arkadaş.",
+        "Lila bir öğrenci. O bir arkadaş.",
         "Bu bir erkek çocuk. Bu bir kız çocuk.",
         "Hepimiz burada arkadaşız.",
         "Mutluyum. Biz arkadaşız!"
@@ -1595,7 +1595,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "People at school",
+          "correct": "People in the school",
           "wrong": [
             "Days of the week",
             "Greetings"
@@ -1665,7 +1665,7 @@
     },
     {
       "id": "skim-3",
-      "title": "Around My School",
+      "title": "Around the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🏫",
       "hlMode": "always",
@@ -1686,21 +1686,21 @@
         }
       ],
       "sentences": [
-        "Welcome to my school!",
+        "Welcome to the school!",
         "This is the classroom. We are here every day.",
         "This is the library. It is quiet.",
         "This is the canteen. This is the lunch hall.",
-        "This is the garden. It is big.",
+        "This is the garden. It is a fun place.",
         "This is the playground. It is fun.",
         "Where is Miss Oli? She is in the teacher's room.",
         "My school is a happy place!"
       ],
       "translations": [
-        "Okuluma hoş geldin!",
+        "Okula hoş geldin!",
         "Bu sınıf. Her gün buradayız.",
         "Bu kütüphane. Sessiz.",
         "Bu kantin. Bu yemekhane.",
-        "Bu bahçe. Büyük.",
+        "Bu bahçe. Eğlenceli bir yer.",
         "Bu oyun alanı. Eğlenceli.",
         "Miss Oli nerede? O öğretmenler odasında.",
         "Okulum mutlu bir yer!"
@@ -1709,7 +1709,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Places at school",
+          "correct": "Places in the school",
           "wrong": [
             "Greetings",
             "Days of the week"
@@ -1738,11 +1738,11 @@
         },
         {
           "q": "What is the garden like?",
-          "qTr": "Bahçe nasıldır?",
-          "correct": "Big",
+          "qTr": "Bahçe nasıl bir yer?",
+          "correct": "A fun place",
           "wrong": [
-            "Quiet",
-            "Small"
+            "A quiet place",
+            "A sad place"
           ],
           "hint": "Find the word garden.",
           "hl": [
@@ -1779,7 +1779,7 @@
     },
     {
       "id": "skim-4",
-      "title": "The Days of My Week",
+      "title": "The Days of the Week",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "📅",
       "hlMode": "always",
@@ -1800,19 +1800,19 @@
         }
       ],
       "sentences": [
-        "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.",
-        "Monday, Tuesday, Wednesday, Thursday and Friday are school days.",
-        "Saturday and Sunday are not school days.",
+        "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+        "Monday, Tuesday, Wednesday, Thursday, Friday are school days.",
+        "Saturday is not a school day. Sunday is not a school day.",
         "What day is it today? It is Thursday.",
         "Thursday: we are in the sports hall.",
         "Tom: Friday is a fun day!",
         "Lila: Saturday is a happy day!",
-        "Every day is a good day at school."
+        "Every day is a good day in the school."
       ],
       "translations": [
         "Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi ve Pazar.",
-        "Pazartesi, Salı, Çarşamba, Perşembe ve Cuma okul günleridir.",
-        "Cumartesi ve Pazar okul günü değildir.",
+        "Pazartesi, Salı, Çarşamba, Perşembe, Cuma okul günleridir.",
+        "Cumartesi okul günü değil. Pazar okul günü değil.",
         "Bugün hangi gün? Perşembe.",
         "Perşembe: spor salonundayız.",
         "Tom diyor: Cuma eğlenceli bir gün!",
@@ -1852,10 +1852,10 @@
         {
           "q": "Which days are not school days?",
           "qTr": "Hangi günler okul günü değildir?",
-          "correct": "Saturday and Sunday",
+          "correct": "Saturday, Sunday",
           "wrong": [
-            "Monday and Tuesday",
-            "Thursday and Friday"
+            "Monday, Tuesday",
+            "Thursday, Friday"
           ],
           "hint": "Find the word school days.",
           "hl": [
@@ -1913,23 +1913,23 @@
         }
       ],
       "sentences": [
-        "A new girl is at my school today.",
+        "A new girl is in the school today.",
         "Eda: Hello! What is your name?",
         "The New Girl: My name is Lila.",
         "Eda: Nice to meet you, Lila!",
-        "Miss Oli: Welcome to our school!",
-        "Lila: Can I sit here? Eda: Sure!",
-        "Now Lila is my new friend.",
+        "Miss Oli: Welcome to the school!",
+        "Eda: Sit here, Lila!",
+        "Now Lila is a new friend.",
         "We are happy together!"
       ],
       "translations": [
-        "Bugün okulumda yeni bir kız var.",
+        "Bugün okulda yeni bir kız var.",
         "Eda: Merhaba! Adın ne?",
         "Benim adım Lila, diyor yeni kız.",
         "Tanıştığımıza memnun oldum, Lila! diyor Eda.",
-        "Okulumuza hoş geldin! diyor Miss Oli.",
-        "Lila: Buraya oturabilir miyim? Eda: Tabii!",
-        "Şimdi Lila benim yeni arkadaşım.",
+        "Miss Oli: Okula hoş geldin!",
+        "Eda: Buraya otur, Lila!",
+        "Şimdi Lila yeni bir arkadaş.",
         "Birlikte mutluyuz!"
       ],
       "questions": [
@@ -1975,12 +1975,12 @@
           ]
         },
         {
-          "q": "What does Lila ask?",
-          "qTr": "Lila ne sorar?",
-          "correct": "Can I sit here?",
+          "q": "What does Eda say to Lila?",
+          "qTr": "Eda Lila'ya ne der?",
+          "correct": "Sit here, Lila!",
           "wrong": [
-            "What is your name?",
-            "Where is Miss Oli?"
+            "Goodbye, Lila!",
+            "What day is it?"
           ],
           "hint": "Find the word sit.",
           "hl": [
@@ -2004,7 +2004,7 @@
     },
     {
       "id": "skim-6",
-      "title": "What Is This at School?",
+      "title": "What Is This in the School?",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🔎",
       "hlMode": "always",
@@ -2025,30 +2025,30 @@
         }
       ],
       "sentences": [
-        "Miss Oli and the pupils are in the classroom.",
+        "Miss Oli is in the classroom. The pupils are here.",
         "What is this? It is a classroom.",
         "What is this? It is the library.",
         "Who is this? This is Can.",
         "Who is this? This is Tom.",
         "What is this place? It is the playground.",
         "Miss Oli: Well done, everybody!",
-        "The pupils know their school!"
+        "The pupils are happy here!"
       ],
       "translations": [
-        "Miss Oli ve öğrenciler sınıfta.",
+        "Miss Oli sınıfta. Öğrenciler burada.",
         "Bu nedir? Bu bir sınıf.",
         "Bu nedir? Bu kütüphane.",
         "Bu kim? Bu Can.",
         "Bu kim? Bu Tom.",
         "Bu yer neresi? Burası oyun alanı.",
         "Miss Oli diyor: Aferin, herkese!",
-        "Öğrenciler okullarını biliyor!"
+        "Öğrenciler burada mutlu!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Naming people and places",
+          "correct": "Naming people, places",
           "wrong": [
             "Days of the week",
             "Greetings"
@@ -2118,7 +2118,7 @@
     },
     {
       "id": "skim-7",
-      "title": "My School Day",
+      "title": "A Day in the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🏫",
       "hlMode": "always",
@@ -2139,30 +2139,30 @@
         }
       ],
       "sentences": [
-        "It is morning. I am in my school.",
+        "It is morning. I am in the school.",
         "Good morning, Miss Oli!",
-        "This is my classroom.",
-        "Can is my friend. He is in the library.",
+        "This is the classroom.",
+        "Can is a friend. He is in the library.",
         "Where is Miss Oli? She is in the teacher's room.",
         "Now we are in the garden.",
         "The playground is fun.",
-        "It is a good day for me!"
+        "I am happy today!"
       ],
       "translations": [
-        "Sabah oldu. Okulumdayım.",
+        "Sabah oldu. Okuldayım.",
         "Günaydın, Miss Oli!",
-        "Bu benim sınıfım.",
-        "Can benim arkadaşım. O kütüphanede.",
+        "Bu sınıf.",
+        "Can bir arkadaş. O kütüphanede.",
         "Miss Oli nerede? O öğretmenler odasında.",
         "Şimdi bahçedeyiz.",
         "Oyun alanı eğlenceli.",
-        "Benim için güzel bir gün!"
+        "Bugün mutluyum!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A day at school",
+          "correct": "A day in the school",
           "wrong": [
             "Days of the week",
             "A birthday party"
@@ -2231,7 +2231,7 @@
     },
     {
       "id": "skim-8",
-      "title": "Monday at School",
+      "title": "Monday in the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🗓️",
       "hlMode": "always",
@@ -2256,7 +2256,7 @@
         "It is Monday. We are in the classroom.",
         "Miss Oli: Good morning, everybody!",
         "Lila is here. Tom is here, too.",
-        "This is our classroom. It is nice.",
+        "This is the classroom. It is a happy place.",
         "Now we are in the garden.",
         "Monday is a school day.",
         "We are happy today!"
@@ -2266,7 +2266,7 @@
         "Bugün Pazartesi. Sınıftayız.",
         "Günaydın, herkese! diyor Miss Oli.",
         "Lila burada. Tom da burada.",
-        "Bu bizim sınıfımız. Güzel.",
+        "Bu sınıf. Mutlu bir yer.",
         "Şimdi bahçedeyiz.",
         "Pazartesi bir okul günü.",
         "Bugün mutluyuz!"
@@ -2275,7 +2275,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Monday at school",
+          "correct": "Monday in the school",
           "wrong": [
             "A birthday",
             "School people"
@@ -2343,7 +2343,7 @@
     },
     {
       "id": "skim-9",
-      "title": "Polite Words at School",
+      "title": "Polite Words in the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🤝",
       "hlMode": "always",
@@ -2364,35 +2364,35 @@
         }
       ],
       "sentences": [
-        "We use polite words at school.",
+        "We are polite in the school.",
         "Good morning! Hello! Hi!",
         "Excuse me! Sorry! That's OK!",
         "Eda: Thank you!",
         "Miss Oli: Welcome!",
         "Tom: Nice to meet you!",
         "See you tomorrow! Goodbye!",
-        "Polite words are nice words!"
+        "Polite words are good words!"
       ],
       "translations": [
-        "Okulda kibar kelimeler kullanırız.",
+        "Okulda kibarız.",
         "Günaydın! Merhaba! Selam!",
         "Affedersin! Özür dilerim! Sorun değil!",
         "Teşekkürler! diyor Eda.",
         "Hoş geldin! diyor Miss Oli.",
         "Tanıştığımıza memnun oldum! diyor Tom.",
         "Yarın görüşürüz! Hoşça kal!",
-        "Kibar kelimeler güzel kelimelerdir!"
+        "Kibar kelimeler iyi kelimelerdir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Polite words at school",
+          "correct": "Polite words in the school",
           "wrong": [
             "Days of the week",
             "School places"
           ],
-          "hint": "Think about the nice words.",
+          "hint": "Think about the polite words.",
           "hl": [
             0,
             1,
@@ -2483,8 +2483,8 @@
         "We are in the school garden.",
         "Can is happy. Eda is happy.",
         "Miss Oli: Happy Republic Day!",
-        "Hurray! say the children.",
-        "It is a special day for us!"
+        "Children: Hurray!",
+        "We are happy today!"
       ],
       "translations": [
         "Bugün hangi gün? 29 Ekim.",
@@ -2493,14 +2493,14 @@
         "Okul bahçesindeyiz.",
         "Can mutlu. Eda mutlu.",
         "Miss Oli diyor: Cumhuriyet Bayramı kutlu olsun!",
-        "Yaşasın! diyor çocuklar.",
-        "Bizim için özel bir gün!"
+        "Çocuklar: Yaşasın!",
+        "Bugün mutluyuz!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Republic Day at school",
+          "correct": "Republic Day in the school",
           "wrong": [
             "A birthday",
             "School places"
@@ -2568,7 +2568,7 @@
     },
     {
       "id": "skim-11",
-      "title": "Excuse Me at School",
+      "title": "Excuse Me in the School",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🙋",
       "hlMode": "always",
@@ -2614,7 +2614,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Polite words at school",
+          "correct": "Polite words in the school",
           "wrong": [
             "A birthday",
             "Colours"
@@ -2702,7 +2702,7 @@
         }
       ],
       "sentences": [
-        "Eda and Miss Oli are in the classroom.",
+        "Eda is in the classroom. Miss Oli is here.",
         "Eda: Excuse me, Miss Oli. Good morning!",
         "Miss Oli: Good morning, Eda! Sit down, please.",
         "Eda: Thank you, Miss Oli!",
@@ -2713,7 +2713,7 @@
         "Can: That's OK, Eda!"
       ],
       "translations": [
-        "Eda ve Miss Oli sınıfta.",
+        "Eda sınıfta. Miss Oli burada.",
         "Eda: Pardon, Miss Oli. Günaydın!",
         "Miss Oli: Günaydın, Eda! Otur, lütfen.",
         "Eda: Teşekkür ederim, Miss Oli!",
@@ -2727,7 +2727,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Polite words at school",
+          "correct": "Polite words in the school",
           "wrong": [
             "Days of the week",
             "Colours"
@@ -2822,8 +2822,8 @@
         "Eda is happy. Can is happy.",
         "It is a day for friends.",
         "Miss Oli: Happy Bayram!",
-        "Hurray! say the children.",
-        "It is a special day for us!"
+        "Children: Hurray!",
+        "We are happy today!"
       ],
       "translations": [
         "Bugün özel bir gün.",
@@ -2832,8 +2832,8 @@
         "Eda mutlu. Can mutlu.",
         "Arkadaşlar için bir gün.",
         "Miss Oli diyor: Bayramınız kutlu olsun!",
-        "Yaşasın! diyor çocuklar.",
-        "Bizim için özel bir gün!"
+        "Çocuklar: Yaşasın!",
+        "Bugün mutluyuz!"
       ],
       "questions": [
         {
@@ -2936,9 +2936,9 @@
         "Lila: Nice to meet you, Tom!",
         "Tom: Nice to meet you, too!",
         "Miss Oli: Welcome, Tom!",
-        "This is Lila. She is your new friend.",
-        "Tom: Hi, Lila! Can I sit here?",
-        "Lila: Sure!",
+        "This is Lila. She is a new friend.",
+        "Lila: Sit here, Tom!",
+        "Tom: Thank you, Lila!",
         "Now they are good friends!"
       ],
       "translations": [
@@ -2948,9 +2948,9 @@
         "Tanıştığımıza memnun oldum, Tom! diyor Lila.",
         "Ben de memnun oldum! diyor Tom.",
         "Miss Oli diyor: Hoş geldin, Tom!",
-        "Bu Lila. O senin yeni arkadaşın.",
-        "Tom: Selam, Lila! Buraya oturabilir miyim?",
-        "Tabii! diyor Lila.",
+        "Bu Lila. O yeni bir arkadaş.",
+        "Lila: Buraya otur, Tom!",
+        "Tom: Teşekkürler, Lila!",
         "Şimdi iyi arkadaşlar!"
       ],
       "questions": [
@@ -2995,12 +2995,12 @@
           ]
         },
         {
-          "q": "What does Tom ask Lila?",
-          "qTr": "Tom, Lila'ya ne sorar?",
-          "correct": "Can I sit here?",
+          "q": "What does Lila say to Tom?",
+          "qTr": "Lila Tom'a ne der?",
+          "correct": "Sit here, Tom!",
           "wrong": [
-            "What is your name?",
-            "Where is the library?"
+            "Goodbye, Tom!",
+            "What day is it?"
           ],
           "hint": "Find the word sit.",
           "hl": [
@@ -3024,7 +3024,7 @@
     },
     {
       "id": "int-2",
-      "title": "People in My School",
+      "title": "People in the School",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "👥",
       "hlMode": "fade3",
@@ -3045,22 +3045,22 @@
         }
       ],
       "sentences": [
-        "This is my school.",
-        "Miss Oli is my teacher. She is in the classroom.",
+        "This is the school.",
+        "Miss Oli is the teacher. She is in the classroom.",
         "Mr. Aras is the headmaster. He is in the teacher's room.",
-        "Can is my friend. He is a boy.",
-        "Lila is my friend. She is a girl.",
+        "Can is a friend. He is a boy.",
+        "Lila is a friend. She is a girl.",
         "Eda is a pupil. She is in the library.",
         "Who is in the playground? Tom is in the playground.",
         "We are all pupils.",
         "We are happy together."
       ],
       "translations": [
-        "Bu benim okulum.",
-        "Miss Oli benim öğretmenim. O sınıfta.",
+        "Bu okul.",
+        "Miss Oli öğretmen. O sınıfta.",
         "Mr. Aras müdür. O öğretmenler odasında.",
-        "Can benim arkadaşım. O bir erkek çocuk.",
-        "Lila benim arkadaşım. O bir kız çocuk.",
+        "Can bir arkadaş. O bir erkek çocuk.",
+        "Lila bir arkadaş. O bir kız çocuk.",
         "Eda bir öğrenci. O kütüphanede.",
         "Oyun alanında kim var? Tom oyun alanında.",
         "Hepimiz öğrenciyiz.",
@@ -3136,7 +3136,7 @@
     },
     {
       "id": "int-3",
-      "title": "Where Are My Friends?",
+      "title": "Where Are the Friends?",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🔍",
       "hlMode": "fade3",
@@ -3273,8 +3273,8 @@
         "Can: It is Tuesday.",
         "What day is after Tuesday? It is Wednesday.",
         "What day is after Wednesday? It is Thursday.",
-        "Then Friday is a happy day for us.",
-        "Saturday and Sunday are not school days.",
+        "Then Friday is a happy day!",
+        "Saturday is not a school day. Sunday is not a school day.",
         "Lila: Saturday is a good day!",
         "Then it is Monday again.",
         "Every day is a new day!"
@@ -3284,8 +3284,8 @@
         "Salı, diyor Can.",
         "Salı'dan sonraki gün ne? Çarşamba.",
         "Çarşamba'dan sonraki gün ne? Perşembe.",
-        "Sonra Cuma bizim için mutlu bir gün.",
-        "Cumartesi ve Pazar okul günü değil.",
+        "Sonra Cuma mutlu bir gün!",
+        "Cumartesi okul günü değil. Pazar okul günü değil.",
         "Lila diyor: Cumartesi güzel bir gün!",
         "Sonra yine Pazartesi.",
         "Her gün yeni bir gün!"
@@ -3320,10 +3320,10 @@
         {
           "q": "Which days are not school days?",
           "qTr": "Hangi günler okul günü değildir?",
-          "correct": "Saturday and Sunday",
+          "correct": "Saturday, Sunday",
           "wrong": [
-            "Monday and Tuesday",
-            "Wednesday and Thursday"
+            "Monday, Tuesday",
+            "Wednesday, Thursday"
           ],
           "hint": "Find the word school days.",
           "hl": [
@@ -3388,9 +3388,9 @@
         "I am fine, too!",
         "Now they are in the classroom.",
         "Miss Oli: Good morning, everybody!",
-        "Let's start! say the pupils.",
+        "Pupils: Let's start!",
         "Miss Oli: Goodbye, everybody!",
-        "See you tomorrow! say Eda and Tom."
+        "Tom: See you tomorrow!"
       ],
       "translations": [
         "Sabah oldu. Eda okul bahçesinde.",
@@ -3400,9 +3400,9 @@
         "Ben de iyiyim!",
         "Şimdi sınıftalar.",
         "Günaydın, herkese! diyor Miss Oli.",
-        "Hadi başlayalım! diyor öğrenciler.",
+        "Öğrenciler: Hadi başlayalım!",
         "Hoşça kalın, herkes! diyor Miss Oli daha sonra.",
-        "Yarın görüşürüz! diyor Eda ve Tom."
+        "Tom: Yarın görüşürüz!"
       ],
       "questions": [
         {
@@ -3458,8 +3458,8 @@
           ]
         },
         {
-          "q": "What do Eda and Tom say before they go home?",
-          "qTr": "Eda ve Tom eve gitmeden önce ne der?",
+          "q": "What does Tom say before he goes home?",
+          "qTr": "Tom eve gitmeden önce ne der?",
           "correct": "See you tomorrow!",
           "wrong": [
             "Good morning!",
@@ -3474,7 +3474,7 @@
     },
     {
       "id": "int-6",
-      "title": "Look and Name!",
+      "title": "Look! Name It!",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🔎",
       "hlMode": "fade3",
@@ -3500,11 +3500,11 @@
         "Miss Oli: What is this?",
         "Can: It is the library!",
         "Miss Oli: Who is this?",
-        "Lila: This is Can. He is my friend.",
+        "Lila: This is Can. He is a friend.",
         "Miss Oli: Who is this?",
-        "Can: This is Lila. She is my friend.",
+        "Can: This is Lila. She is a friend.",
         "Miss Oli: Well done, everybody!",
-        "We know our school very well!"
+        "We are good pupils!"
       ],
       "translations": [
         "Miss Oli diyor: Bak! Bu nedir?",
@@ -3512,11 +3512,11 @@
         "Miss Oli: Bu nedir?",
         "Can diyor: Bu kütüphane!",
         "Miss Oli: Bu kim?",
-        "Lila diyor: Bu Can. O benim arkadaşım.",
+        "Lila: Bu Can. O bir arkadaş.",
         "Miss Oli: Bu kim?",
-        "Can diyor: Bu Lila. O benim arkadaşım.",
+        "Can: Bu Lila. O bir arkadaş.",
         "Aferin, herkese! diyor Miss Oli.",
-        "Okulumuzu çok iyi biliyoruz!"
+        "Biz iyi öğrencileriz!"
       ],
       "questions": [
         {
@@ -3609,24 +3609,24 @@
         }
       ],
       "sentences": [
-        "Miss Oli is in the classroom. Eda and Tom are here.",
+        "Miss Oli is in the classroom. Eda is here. Tom is here.",
         "Miss Oli: Come here, please!",
-        "Eda and Tom come to the front.",
+        "Eda is in the front. Tom is in the front.",
         "Eda: Excuse me, Miss Oli!",
         "Miss Oli: Yes, Eda?",
-        "Eda: Can I sit here? Miss Oli: Sure!",
+        "Miss Oli: Sit here, Eda!",
         "Tom is sorry. Sorry, Miss Oli!",
         "Miss Oli: That's OK, Tom!",
         "Eda: Thank you, Miss Oli!",
         "Well done, everybody!"
       ],
       "translations": [
-        "Miss Oli sınıfta. Eda ve Tom da burada.",
+        "Miss Oli sınıfta. Eda burada. Tom burada.",
         "Buraya gel, lütfen! diyor Miss Oli.",
-        "Eda ve Tom öne geliyor.",
+        "Eda önde. Tom önde.",
         "Eda diyor: Affedersiniz, Miss Oli!",
         "Evet, Eda? diyor Miss Oli.",
-        "Buraya oturabilir miyim? diye soruyor Eda. Tabii! diyor Miss Oli.",
+        "Miss Oli: Buraya otur, Eda!",
         "Tom üzgün. Özür dilerim, Miss Oli!",
         "Sorun değil, Tom! diyor Miss Oli.",
         "Teşekkürler, Miss Oli! diyor Eda.",
@@ -3660,12 +3660,12 @@
           ]
         },
         {
-          "q": "What does Eda ask?",
-          "qTr": "Eda ne sorar?",
-          "correct": "Can I sit here?",
+          "q": "What does Miss Oli say to Eda?",
+          "qTr": "Miss Oli Eda'ya ne der?",
+          "correct": "Sit here, Eda!",
           "wrong": [
-            "What day is it?",
-            "Where is the library?"
+            "Goodbye, Eda!",
+            "What day is it?"
           ],
           "hint": "Find the word sit.",
           "hl": [
@@ -3702,7 +3702,7 @@
     },
     {
       "id": "int-8",
-      "title": "Friday at School",
+      "title": "Friday in the School",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🎒",
       "hlMode": "fade3",
@@ -3729,9 +3729,9 @@
         "Miss Oli is in the teacher's room.",
         "Now they are all in the sports hall.",
         "Mr. Aras is here, too.",
-        "Friday is a fun day for us.",
+        "Friday is a fun day!",
         "Miss Oli: Welcome to the sports hall!",
-        "Hurray! say the children.",
+        "Children: Hurray!",
         "Goodbye, Friday! See you next week!"
       ],
       "translations": [
@@ -3741,9 +3741,9 @@
         "Miss Oli öğretmenler odasında.",
         "Şimdi hepsi spor salonunda.",
         "Mr. Aras da burada.",
-        "Cuma bizim için eğlenceli bir gün.",
+        "Cuma eğlenceli bir gün!",
         "Spor salonuna hoş geldiniz! diyor Miss Oli.",
-        "Yaşasın! diyor çocuklar.",
+        "Çocuklar: Yaşasın!",
         "Hoşça kal, Cuma! Haftaya görüşürüz!"
       ],
       "questions": [
@@ -3837,31 +3837,31 @@
         }
       ],
       "sentences": [
-        "A new teacher is at our school today.",
+        "A new teacher is in the school today.",
         "Eda: Hello! What is your name?",
         "I am Miss Pinar. I am a teacher.",
         "Tom: Nice to meet you, Miss Pinar!",
         "Miss Pinar: Where is Mr. Aras?",
         "Eda: He is in the teacher's room.",
-        "Welcome to our school, Miss Pinar!",
+        "Welcome to the school, Miss Pinar!",
         "Thank you, children!",
-        "Miss Pinar is a nice teacher!"
+        "Miss Pinar is a happy teacher!"
       ],
       "translations": [
-        "Bugün okulumuzda yeni bir öğretmen var.",
+        "Bugün okulda yeni bir öğretmen var.",
         "Eda: Merhaba! Adınız ne?",
         "Ben Miss Pınar. Ben bir öğretmenim.",
         "Tanıştığımıza memnun oldum, Miss Pınar! diyor Tom.",
         "Miss Pınar: Mr. Aras nerede?",
         "O öğretmenler odasında, diyor Eda.",
-        "Okulumuza hoş geldiniz, Miss Pınar!",
+        "Okula hoş geldin, Miss Pınar!",
         "Teşekkürler, çocuklar!",
-        "Miss Pınar güzel bir öğretmen!"
+        "Miss Pınar mutlu bir öğretmen!"
       ],
       "questions": [
         {
-          "q": "Who is new at school?",
-          "qTr": "Okulda kim yeni?",
+          "q": "Who is new in the school?",
+          "qTr": "Okulda yeni olan kim?",
           "correct": "Miss Pinar",
           "wrong": [
             "Mr. Aras",
@@ -3915,7 +3915,7 @@
         {
           "q": "What is Miss Pinar like?",
           "qTr": "Miss Pinar nasıl biridir?",
-          "correct": "Nice",
+          "correct": "Happy",
           "wrong": [
             "Sad",
             "Tired"
@@ -3929,7 +3929,7 @@
     },
     {
       "id": "int-10",
-      "title": "Victory Day at School",
+      "title": "Victory Day in the School",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🇹🇷",
       "hlMode": "fade3",
@@ -3953,10 +3953,10 @@
         "What day is it today? It is the 30th of August.",
         "It is Victory Day in Türkiye.",
         "It is a special national day.",
-        "Miss Oli and the pupils are in the classroom.",
-        "Eda and Can are happy today.",
+        "Miss Oli is in the classroom. The pupils are here.",
+        "Eda is happy today. Can is happy today.",
         "Miss Oli: Happy Victory Day, everybody!",
-        "Hurray! say the children.",
+        "Children: Hurray!",
         "We are proud pupils today!",
         "Welcome to Victory Day, friends!"
       ],
@@ -3964,10 +3964,10 @@
         "Bugün hangi gün? 30 Ağustos.",
         "Türkiye'de Zafer Bayramı.",
         "Özel bir milli gün.",
-        "Miss Oli ve öğrenciler sınıfta.",
-        "Eda ve Can bugün mutlu.",
+        "Miss Oli sınıfta. Öğrenciler burada.",
+        "Eda bugün mutlu. Can bugün mutlu.",
         "Miss Oli diyor: Zafer Bayramı kutlu olsun, herkes!",
-        "Yaşasın! diyor çocuklar.",
+        "Çocuklar: Yaşasın!",
         "Bugün gururlu öğrencileriz!",
         "Zafer Bayramı'na hoş geldin, arkadaşlar!"
       ],
@@ -4041,7 +4041,7 @@
     },
     {
       "id": "int-11",
-      "title": "Miss Oli and the Pupils",
+      "title": "Miss Oli in the Classroom",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "👩‍🏫",
       "hlMode": "fade3",
@@ -4063,7 +4063,7 @@
       ],
       "sentences": [
         "Miss Oli is in the classroom.",
-        "The pupils come in.",
+        "The pupils are here.",
         "Miss Oli: Good morning, pupils! How are you today?",
         "Eda: I am fine, thanks!",
         "Tom: I am very well, Miss Oli!",
@@ -4074,7 +4074,7 @@
       ],
       "translations": [
         "Miss Oli sınıfta.",
-        "Öğrenciler içeri girer.",
+        "Öğrenciler burada.",
         "Miss Oli: Günaydın öğrenciler! Bugün nasılsınız?",
         "Eda: İyiyim, teşekkürler!",
         "Tom: Ben çok iyiyim, Miss Oli!",
@@ -4175,24 +4175,24 @@
       ],
       "sentences": [
         "It is morning. Tom is in the classroom.",
-        "Tom: Where is Lila? She is my friend.",
+        "Tom: Where is Lila? We are friends.",
         "Miss Oli: Where is she?",
         "Tom: She is not in the library.",
         "Tom: She is in the garden! Lila is in the garden.",
         "Tom: Hello, Lila! Good morning!",
         "Lila: Hi, Tom! Good morning!",
-        "Lila: This is a nice garden. We are happy.",
+        "Lila: This is a fun garden. We are happy.",
         "Tom: Let's go! We are friends."
       ],
       "translations": [
         "Sabah oldu. Tom sınıfta.",
-        "Tom: Lila nerede? O benim arkadaşım.",
+        "Tom: Lila nerede? Biz arkadaşız.",
         "Miss Oli: O nerede?",
         "Tom: O kütüphanede değil.",
         "Tom: O bahçede! Lila bahçede.",
         "Tom: Merhaba, Lila! Günaydın!",
         "Lila: Selam, Tom! Günaydın!",
-        "Lila: Bu güzel bir bahçe. Biz mutluyuz.",
+        "Lila: Bu eğlenceli bir bahçe. Biz mutluyuz.",
         "Tom: Hadi gidelim! Biz arkadaşız."
       ],
       "questions": [
@@ -4289,10 +4289,10 @@
         "What day is it today? It is a special day.",
         "It is Kurban Bayram in Türkiye.",
         "It is a happy religious day.",
-        "Eda and Can are happy together.",
+        "Eda is happy. Can is happy.",
         "It is a day for friends.",
         "Miss Oli: Happy Bayram, everybody!",
-        "Hurray! say the children.",
+        "Children: Hurray!",
         "We are happy pupils today!",
         "Welcome to Bayram, friends!"
       ],
@@ -4300,10 +4300,10 @@
         "Bugün hangi gün? Özel bir gün.",
         "Türkiye'de Kurban Bayramı.",
         "Mutlu bir dini gün.",
-        "Eda ve Can birlikte mutlu.",
+        "Eda mutlu. Can mutlu.",
         "Arkadaşlar için bir gün.",
         "Miss Oli diyor: Bayramınız kutlu olsun, herkes!",
-        "Yaşasın! diyor çocuklar.",
+        "Çocuklar: Yaşasın!",
         "Bugün mutlu öğrencileriz!",
         "Bayrama hoş geldin, arkadaşlar!"
       ],
@@ -4407,7 +4407,7 @@
         "She: Good morning, everybody!",
         "Eda: Good morning!",
         "Who is the woman?",
-        "She is Miss Oli, my teacher!"
+        "She is Miss Oli, the English teacher!"
       ],
       "translations": [
         "Sınıfta bir kadın var.",
@@ -4417,7 +4417,7 @@
         "Diyor ki: Günaydın, herkese!",
         "Eda diyor: Günaydın!",
         "Kadın kim?",
-        "O Miss Oli, benim öğretmenim!"
+        "O Miss Oli, İngilizce öğretmeni!"
       ],
       "questions": [
         {
@@ -4513,23 +4513,23 @@
         }
       ],
       "sentences": [
-        "This is a place in our school.",
+        "This is a place in the school.",
         "It is not the classroom.",
         "It is not the library.",
         "Children are happy here.",
-        "It is fun and big.",
-        "Children play here.",
-        "Lila: I know! It is the playground!",
+        "It is a fun place.",
+        "It is a place for play.",
+        "Lila: It is the playground!",
         "Yes! It is the playground!"
       ],
       "translations": [
-        "Burası okulumuzda bir yer.",
+        "Burası okulda bir yer.",
         "O sınıf değil.",
         "O kütüphane değil.",
         "Çocuklar burada mutlu.",
-        "Eğlenceli ve büyük.",
-        "Çocuklar burada oynar.",
-        "Lila diyor: Biliyorum! Oyun alanı!",
+        "Eğlenceli bir yer.",
+        "Burası oyun için bir yer.",
+        "Lila: Oyun alanı!",
         "Evet! Oyun alanı!"
       ],
       "questions": [
@@ -4549,10 +4549,10 @@
         {
           "q": "What is the place like?",
           "qTr": "Burası nasıl bir yerdir?",
-          "correct": "Fun and big",
+          "correct": "A fun place",
           "wrong": [
-            "Small and old",
-            "Quiet"
+            "A sad place",
+            "A quiet place"
           ],
           "hint": "Read the fifth sentence.",
           "hl": [
@@ -4560,12 +4560,12 @@
           ]
         },
         {
-          "q": "What do children do here?",
-          "qTr": "Çocuklar burada ne yapar?",
-          "correct": "They play",
+          "q": "What is this place for?",
+          "qTr": "Burası ne için?",
+          "correct": "For play",
           "wrong": [
-            "They read",
-            "They eat"
+            "For books",
+            "For food"
           ],
           "hint": "Find the word play.",
           "hl": [
@@ -4590,9 +4590,9 @@
         {
           "q": "How do we know it is not the library?",
           "qTr": "Burasının kütüphane olmadığını nasıl anlıyoruz?",
-          "correct": "Children play here",
+          "correct": "It is a place for play",
           "wrong": [
-            "It is small",
+            "It is for books",
             "It is quiet"
           ],
           "hint": "Think about libraries and playgrounds.",
@@ -4853,7 +4853,7 @@
         "Miss Oli is here, too.",
         "It is not the end of the day.",
         "Lila: Good morning, Miss Oli!",
-        "Good morning, Lila! Now we go to the classroom.",
+        "Good morning, Lila! Now we are in the classroom.",
         "It is not evening.",
         "It is morning here!"
       ],
@@ -4862,7 +4862,7 @@
         "Miss Oli de burada.",
         "Günün sonu değil.",
         "Lila diyor: Günaydın, Miss Oli!",
-        "Günaydın, Lila! Şimdi sınıfa gidiyoruz.",
+        "Günaydın, Lila! Şimdi sınıftayız.",
         "Akşam değil.",
         "Burada sabah!"
       ],
@@ -4921,12 +4921,12 @@
           ]
         },
         {
-          "q": "Where do they go now?",
-          "qTr": "Şimdi nereye giderler?",
-          "correct": "To the classroom",
+          "q": "Where are they now?",
+          "qTr": "Şimdi neredeler?",
+          "correct": "In the classroom",
           "wrong": [
-            "To the garden",
-            "To home"
+            "In the garden",
+            "In the library"
           ],
           "hint": "Find the word now.",
           "hl": [
@@ -4937,7 +4937,7 @@
     },
     {
       "id": "inf-6",
-      "title": "Three People at School",
+      "title": "Three People in the School",
       "subtitle": "Use the clues to find the answer!",
       "icon": "👥",
       "hlMode": "fade3",
@@ -4958,8 +4958,8 @@
         }
       ],
       "sentences": [
-        "Eda, Miss Oli and Mr. Aras are in the room.",
-        "They are a pupil, a teacher and a headmaster.",
+        "Eda is in the room. Miss Oli is here. Mr. Aras is here.",
+        "Eda is a pupil. Miss Oli is a teacher. Mr. Aras is a headmaster.",
         "Eda is a girl. She is a pupil.",
         "Miss Oli is not the headmaster.",
         "Mr. Aras is not Miss Oli.",
@@ -4968,8 +4968,8 @@
         "Mr. Aras is the headmaster!"
       ],
       "translations": [
-        "Eda, Miss Oli ve Mr. Aras odada.",
-        "Onlar bir öğrenci, bir öğretmen ve bir müdür.",
+        "Eda odada. Miss Oli burada. Mr. Aras burada.",
+        "Eda bir öğrenci. Miss Oli bir öğretmen. Mr. Aras bir müdür.",
         "Eda bir kız. O bir öğrenci.",
         "Miss Oli müdür değil.",
         "Mr. Aras Miss Oli değil.",
@@ -4981,7 +4981,7 @@
         {
           "q": "Who is in the room?",
           "qTr": "Odada kim var?",
-          "correct": "Eda, Miss Oli and Mr. Aras",
+          "correct": "Eda, Miss Oli, Mr. Aras",
           "wrong": [
             "Only Eda",
             "Only the teachers"
@@ -5035,7 +5035,7 @@
         {
           "q": "How do we know Mr. Aras is the headmaster?",
           "qTr": "Mr. Aras'ın müdür olduğunu nasıl anlıyoruz?",
-          "correct": "He is not the teacher and not a pupil",
+          "correct": "He is not a pupil or a teacher",
           "wrong": [
             "He is a girl",
             "He is in the garden"
@@ -5071,12 +5071,12 @@
         }
       ],
       "sentences": [
-        "Can is in a special room at school.",
+        "Can is in a special room in the school.",
         "It is not the playground.",
         "It is not the canteen.",
         "It is very quiet here.",
         "Pupils are quiet here.",
-        "Children read here.",
+        "It is a place for books.",
         "Which place is it?",
         "It is the library!"
       ],
@@ -5086,7 +5086,7 @@
         "O kantin değil.",
         "Burası çok sessiz.",
         "Öğrenciler burada sessiz.",
-        "Çocuklar burada okur.",
+        "Burası kitaplar için bir yer.",
         "Hangi yer bu?",
         "Kütüphane!"
       ],
@@ -5122,7 +5122,7 @@
           "qTr": "Burası nasıl bir yerdir?",
           "correct": "Quiet",
           "wrong": [
-            "Big and fun",
+            "Fun",
             "Loud"
           ],
           "hint": "Find the word quiet.",
@@ -5138,7 +5138,7 @@
             "The playground",
             "The canteen"
           ],
-          "hint": "Think about the quiet place where children read.",
+          "hint": "Think about the quiet place for books.",
           "hl": [
             3,
             4,
@@ -5148,10 +5148,10 @@
         {
           "q": "How do we know it is the library?",
           "qTr": "Burasının kütüphane olduğunu nasıl anlıyoruz?",
-          "correct": "It is quiet and children read",
+          "correct": "It is a quiet place for books.",
           "wrong": [
-            "It is fun",
-            "It is small"
+            "It is a loud place",
+            "It is a sad place"
           ],
           "hint": "Find the word quiet.",
           "hl": [
@@ -5188,8 +5188,8 @@
         "Today is not Tuesday.",
         "Today is not Wednesday or Thursday.",
         "Today is not Friday.",
-        "Tom is at home. He is happy.",
-        "Lila is at home, too.",
+        "Tom is not in the school. He is happy.",
+        "Lila is not in the school.",
         "Today is not a school day.",
         "Today is Saturday or Sunday!"
       ],
@@ -5198,8 +5198,8 @@
         "Bugün Salı değil.",
         "Bugün Çarşamba ya da Perşembe değil.",
         "Bugün Cuma değil.",
-        "Tom evde. O mutlu.",
-        "Lila da evde.",
+        "Tom okulda değil. O mutlu.",
+        "Lila da okulda değil.",
         "Bugün okul günü değil.",
         "Bugün Cumartesi ya da Pazar!"
       ],
@@ -5260,10 +5260,10 @@
         {
           "q": "Which days are not school days?",
           "qTr": "Hangi günler okul günü değildir?",
-          "correct": "Saturday and Sunday",
+          "correct": "Saturday, Sunday",
           "wrong": [
-            "Monday and Tuesday",
-            "Wednesday and Thursday"
+            "Monday, Tuesday",
+            "Wednesday, Thursday"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -5408,26 +5408,26 @@
         }
       ],
       "sentences": [
-        "Today is a special day at our school.",
+        "Today is a special day in the school.",
         "It is not the 23rd of April.",
         "It is not the 29th of October.",
         "It is not the 30th of August.",
         "It is the 19th of May.",
-        "Eda and Can are happy.",
-        "Miss Oli: Happy Youth and Sports Day!",
+        "Eda is happy. Can is happy.",
+        "Miss Oli: Happy Youth Day!",
         "Which special day is it?",
-        "It is the 19th of May, Youth and Sports Day!"
+        "It is the 19th of May, Youth Day!"
       ],
       "translations": [
-        "Bugün okulumuzda özel bir gün.",
+        "Bugün okulda özel bir gün.",
         "23 Nisan değil.",
         "29 Ekim değil.",
         "30 Ağustos değil.",
         "19 Mayıs.",
-        "Eda ve Can mutlu.",
-        "Miss Oli diyor: Gençlik ve Spor Bayramı kutlu olsun!",
+        "Eda mutlu. Can mutlu.",
+        "Miss Oli: Gençlik Bayramı kutlu olsun!",
         "Hangi özel gün?",
-        "19 Mayıs, Gençlik ve Spor Bayramı!"
+        "19 Mayıs, Gençlik Bayramı!"
       ],
       "questions": [
         {
@@ -5472,7 +5472,7 @@
         {
           "q": "Which special day is it?",
           "qTr": "Bu hangi özel gündür?",
-          "correct": "Youth and Sports Day",
+          "correct": "Youth Day",
           "wrong": [
             "Children's Day",
             "Republic Day"
@@ -5484,8 +5484,8 @@
           ]
         },
         {
-          "q": "How do we know it is Youth and Sports Day?",
-          "qTr": "Gençlik ve Spor Bayramı olduğunu nasıl anlıyoruz?",
+          "q": "How do we know it is Youth Day?",
+          "qTr": "Gençlik Bayramı olduğunu nasıl biliyoruz?",
           "correct": "The date is the 19th of May",
           "wrong": [
             "Eda is sad",
@@ -5637,7 +5637,7 @@
         "Tom: Where is the teacher's room?",
         "It is not the garden.",
         "It is not the playground.",
-        "Miss Oli and Mr. Aras are here.",
+        "Miss Oli is here. Mr. Aras is here.",
         "It is a room for teachers.",
         "Which place is it?",
         "It is the teacher's room!"
@@ -5647,7 +5647,7 @@
         "Tom: Öğretmenler odası nerede?",
         "O bahçe değil.",
         "O oyun alanı değil.",
-        "Miss Oli ve Mr. Aras burada.",
+        "Miss Oli burada. Mr. Aras burada.",
         "Burası öğretmenler için bir oda.",
         "Hangi yer bu?",
         "Öğretmenler odası!"
