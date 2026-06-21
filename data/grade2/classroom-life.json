@@ -30,8 +30,8 @@
         "My pencil case is red.",
         "What colour is my pencil? It is blue.",
         "What colour is my rubber? It is pink.",
-        "Eda has got a yellow crayon.",
-        "Lila has got a green sharpener.",
+        "Eda is here. Her crayon is yellow.",
+        "Lila is here. Her sharpener is green.",
         "How many crayons? Twelve crayons!",
         "My pencil case is full and colourful!"
       ],
@@ -41,8 +41,8 @@
         "Kalem kutum kırmızı.",
         "Kalemim ne renk? Mavi.",
         "Silgim ne renk? Pembe.",
-        "Eda'nın sarı bir mum boyası var.",
-        "Lila'nın yeşil bir kalemtıraşı var.",
+        "Eda burada. Onun mum boyası sarı.",
+        "Lila burada. Onun kalemtıraşı yeşil.",
         "Kaç tane mum boya? On iki mum boya!",
         "Kalem kutum dolu ve renkli!"
       ],
@@ -57,7 +57,7 @@
           ],
           "hint": "Find the words pencil case.",
           "hl": [
-            1
+            2
           ]
         },
         {
@@ -70,7 +70,7 @@
           ],
           "hint": "Find the word pencil.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -83,12 +83,12 @@
           ],
           "hint": "Find the word rubber.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "Who has got a yellow crayon?",
-          "qTr": "Kimin sarı boya kalemi var?",
+          "q": "Who is the owner of the yellow crayon?",
+          "qTr": "Sarı boya kaleminin sahibi kimdir?",
           "correct": "Eda",
           "wrong": [
             "Lila",
@@ -96,7 +96,7 @@
           ],
           "hint": "Find the word yellow.",
           "hl": [
-            4
+            5
           ]
         },
         {
@@ -109,7 +109,7 @@
           ],
           "hint": "Find the word crayons.",
           "hl": [
-            6
+            7
           ]
         }
       ]
@@ -366,7 +366,7 @@
         "How many windows in our classroom? Two windows.",
         "How many doors? One door.",
         "How many computers? Two computers.",
-        "Our class is big!"
+        "Our class is full!"
       ],
       "translations": [
         "Sınıfımızda kaç öğrenci? On sekiz öğrenci.",
@@ -376,7 +376,7 @@
         "Sınıfımızda kaç pencere? İki pencere.",
         "Kaç kapı? Bir kapı.",
         "Kaç bilgisayar? İki bilgisayar.",
-        "Sınıfımız büyük!"
+        "Sınıfımız dolu!"
       ],
       "questions": [
         {
@@ -580,34 +580,34 @@
       ],
       "sentences": [
         "This is our classroom.",
-        "This is a teacher's desk. It is brown.",
+        "This is the teacher desk. It is brown.",
         "How many tables? Five tables.",
         "Our Smart Board is black.",
         "What is this? It is a bookcase. It is green.",
         "How many chairs? Twenty chairs.",
         "This is a clock. It is white.",
-        "Our classroom is nice!"
+        "Our classroom is colourful!"
       ],
       "translations": [
         "Bu bizim sınıfımız.",
-        "Bu bir öğretmen masası. Kahverengi.",
+        "Bu öğretmen masası. Kahverengi.",
         "Kaç tane masa? Beş masa.",
         "Akıllı tahtamız siyah.",
         "Bu nedir? Bu bir kitaplık. Yeşil.",
         "Kaç tane sandalye? Yirmi sandalye.",
         "Bu bir saat. Beyaz.",
-        "Sınıfımız güzel!"
+        "Sınıfımız renkli!"
       ],
       "questions": [
         {
-          "q": "What colour is the teacher's desk?",
+          "q": "What colour is the teacher desk?",
           "qTr": "Öğretmen masası ne renk?",
           "correct": "Brown",
           "wrong": [
             "Green",
             "Black"
           ],
-          "hint": "Find teacher's desk.",
+          "hint": "Find the teacher desk.",
           "hl": [
             1
           ]
@@ -803,7 +803,7 @@
       "sentences": [
         "Miss Oli: Look at the board, please!",
         "Come to the board, Lila!",
-        "Lila is at the board.",
+        "Lila is here.",
         "Pass the pencil, please!",
         "Tom: Here you are, Lila!",
         "Colour it, please!",
@@ -814,7 +814,7 @@
       "translations": [
         "Miss Oli: Tahtaya bakın, lütfen!",
         "Tahtaya gel, Lila!",
-        "Lila tahtada.",
+        "Lila burada.",
         "Kalemi uzat, lütfen!",
         "Tom: Buyur, Lila!",
         "Boya, lütfen!",
@@ -1031,7 +1031,7 @@
         "What day is it today? It is the 15th of July.",
         "It is Democracy and National Unity Day in Türkiye.",
         "It is a special day for our country.",
-        "Miss Oli is in the classroom with the pupils.",
+        "Miss Oli is in the classroom.",
         "Miss Oli: Look at the board.",
         "It is a picture of our flag.",
         "Our flag is red and white.",
@@ -1042,7 +1042,7 @@
         "Bugün hangi gün? 15 Temmuz.",
         "Türkiye'de Demokrasi ve Milli Birlik Günü.",
         "Ülkemiz için özel bir gün.",
-        "Miss Oli sınıfta öğrencilerle.",
+        "Miss Oli sınıfta.",
         "Miss Oli: Tahtaya bakın.",
         "Bu, bayrağımızın bir resmi.",
         "Bayrağımız kırmızı ve beyaz.",
@@ -1144,20 +1144,20 @@
         "Miss Oli: This is a computer. It is black.",
         "Eda: What is this here?",
         "Miss Oli: This is a projector. It is white.",
-        "Tom: What is this big thing?",
-        "Miss Oli: This is a screen. It is big.",
-        "Tom: And what is this small thing?",
-        "Miss Oli: This is a tablet. It is small."
+        "Tom: What is this thing?",
+        "Miss Oli: This is a screen. It is blue.",
+        "Tom: And what is this thing?",
+        "Miss Oli: This is a tablet. It is green."
       ],
       "translations": [
         "Eda: Bu nedir, Miss Oli?",
         "Miss Oli: Bu bir bilgisayar. Siyah.",
         "Eda: Buradaki bu nedir?",
         "Miss Oli: Bu bir projektör. Beyaz.",
-        "Tom: Bu büyük şey nedir?",
-        "Miss Oli: Bu bir ekran. Büyük.",
-        "Tom: Peki bu küçük şey nedir?",
-        "Miss Oli: Bu bir tablet. Küçük."
+        "Tom: Bu nedir?",
+        "Miss Oli: Bu bir ekran. Mavi.",
+        "Tom: Peki bu nedir?",
+        "Miss Oli: Bu bir tablet. Yeşil."
       ],
       "questions": [
         {
@@ -1187,8 +1187,8 @@
           ]
         },
         {
-          "q": "What is the big thing?",
-          "qTr": "Büyük şey nedir?",
+          "q": "What is the blue thing?",
+          "qTr": "Mavi şey nedir?",
           "correct": "A screen",
           "wrong": [
             "A door",
@@ -1200,12 +1200,12 @@
           ]
         },
         {
-          "q": "How big is the screen?",
-          "qTr": "Ekran ne kadar büyük?",
-          "correct": "Big",
+          "q": "What colour is the screen?",
+          "qTr": "Ekran ne renk?",
+          "correct": "Blue",
           "wrong": [
-            "Small",
-            "Little"
+            "Black",
+            "White"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -1213,8 +1213,8 @@
           ]
         },
         {
-          "q": "What is the small thing?",
-          "qTr": "Küçük şey nedir?",
+          "q": "What is the green thing?",
+          "qTr": "Yeşil şey nedir?",
           "correct": "A tablet",
           "wrong": [
             "A computer",
@@ -1365,8 +1365,8 @@
         "Look at our colourful classroom!",
         "My pencil is red. Her notebook is blue.",
         "His crayon is yellow. Our books are green.",
-        "Eda has got a pink rubber.",
-        "Lila has got a purple pencil case.",
+        "Eda is here. Her rubber is pink.",
+        "Lila is here. Her pencil case is purple.",
         "Miss Oli: What a colourful classroom!",
         "Every colour is here!"
       ],
@@ -1374,8 +1374,8 @@
         "Renkli sınıfımıza bak!",
         "Benim kalemim kırmızı. Onun defteri mavi.",
         "Onun mum boyası sarı. Bizim kitaplarımız yeşil.",
-        "Eda'nın pembe bir silgisi var.",
-        "Lila'nın mor bir kalem kutusu var.",
+        "Eda burada. Onun silgisi pembe.",
+        "Lila burada. Onun kalem kutusu mor.",
         "Miss Oli: Ne renkli bir sınıf!",
         "Her renk burada!"
       ],
@@ -1423,14 +1423,14 @@
           ]
         },
         {
-          "q": "What has Eda got?",
-          "qTr": "Eda'da ne var?",
-          "correct": "A pink rubber",
+          "q": "What is pink?",
+          "qTr": "Ne pembe?",
+          "correct": "A rubber",
           "wrong": [
-            "A blue pencil",
-            "A yellow book"
+            "A pencil",
+            "A book"
           ],
-          "hint": "Find Eda.",
+          "hint": "Find the word pink.",
           "hl": [
             3
           ]
@@ -1473,7 +1473,7 @@
         }
       ],
       "sentences": [
-        "Tom and Can have got many crayons.",
+        "Tom and Can are here. Many crayons are here.",
         "How many red crayons? Three red crayons.",
         "How many blue crayons? Five blue crayons.",
         "How many yellow crayons? Two yellow crayons.",
@@ -1483,7 +1483,7 @@
         "Well done, boys!"
       ],
       "translations": [
-        "Tom ve Can'ın birçok mum boyası var.",
+        "Tom ve Can burada. Birçok mum boya burada.",
         "Kaç tane kırmızı mum boya? Üç kırmızı mum boya.",
         "Kaç tane mavi mum boya? Beş mavi mum boya.",
         "Kaç tane sarı mum boya? İki sarı mum boya.",
@@ -1551,8 +1551,8 @@
           ]
         },
         {
-          "q": "Who has got many crayons?",
-          "qTr": "Kimin birçok mum boyası var?",
+          "q": "Who is here?",
+          "qTr": "Kim burada?",
           "correct": "Tom and Can",
           "wrong": [
             "Eda",
@@ -1596,7 +1596,7 @@
         "How many windows? Two windows.",
         "How many doors? One door.",
         "How many computers? Two computers.",
-        "Our classroom is big and full!"
+        "Our classroom is full!"
       ],
       "translations": [
         "Sınıfımıza hoş geldin!",
@@ -1606,7 +1606,7 @@
         "Kaç pencere? İki pencere.",
         "Kaç kapı? Bir kapı.",
         "Kaç bilgisayar? İki bilgisayar.",
-        "Sınıfımız büyük ve dolu!"
+        "Sınıfımız dolu!"
       ],
       "questions": [
         {
@@ -1704,7 +1704,7 @@
         }
       ],
       "sentences": [
-        "Eda has got many things in her bag.",
+        "Eda is here. Many things are in her bag.",
         "How many pencils? Six pencils.",
         "Her pencils are blue and red.",
         "How many books? Three books.",
@@ -1714,7 +1714,7 @@
         "Eda is happy with her things!"
       ],
       "translations": [
-        "Eda'nın çantasında birçok şey var.",
+        "Eda burada. Çantasında birçok şey var.",
         "Kaç kalem? Altı kalem.",
         "Kalemleri mavi ve kırmızı.",
         "Kaç kitap? Üç kitap.",
@@ -1931,24 +1931,24 @@
       ],
       "sentences": [
         "Welcome to our classroom!",
-        "This is a teacher's desk. It is brown.",
+        "This is the teacher desk. It is brown.",
         "A tablet is here, too.",
         "What is this? It is a chair.",
         "Our Smart Board is black.",
         "Our bookcase is green.",
         "Our clock is white.",
-        "Every desk has got a computer.",
+        "Our computer is blue.",
         "Our classroom is modern!"
       ],
       "translations": [
         "Sınıfımıza hoş geldin!",
-        "Bu bir öğretmen masası. Kahverengi.",
+        "Bu öğretmen masası. Kahverengi.",
         "Bir tablet de burada.",
         "Bu nedir? Bu bir sandalye.",
         "Akıllı tahtamız siyah.",
         "Kitaplığımız yeşil.",
         "Saatimiz beyaz.",
-        "Her sıranın bir bilgisayarı var.",
+        "Bilgisayarımız mavi.",
         "Sınıfımız modern!"
       ],
       "questions": [
@@ -1971,14 +1971,14 @@
           ]
         },
         {
-          "q": "What colour is the teacher's desk?",
+          "q": "What colour is the teacher desk?",
           "qTr": "Öğretmen masası ne renk?",
           "correct": "Brown",
           "wrong": [
             "Green",
             "Black"
           ],
-          "hint": "Find teacher's desk.",
+          "hint": "Find the teacher desk.",
           "hl": [
             1
           ]
@@ -2010,14 +2010,14 @@
           ]
         },
         {
-          "q": "What is on every desk?",
-          "qTr": "Her sırada ne var?",
-          "correct": "A computer",
+          "q": "What colour is the computer?",
+          "qTr": "Bilgisayar ne renk?",
+          "correct": "Blue",
           "wrong": [
-            "A book",
-            "A clock"
+            "Black",
+            "White"
           ],
-          "hint": "Find the word every desk.",
+          "hint": "Find the word computer.",
           "hl": [
             7
           ]
@@ -2279,24 +2279,24 @@
         }
       ],
       "sentences": [
-        "The pupils have got many polite words.",
+        "The pupils are very polite today.",
         "Tom: Can I come in? Yes, you can!",
         "Eda: Can I go to the bathroom? Yes, you can!",
         "Tom: Can you pass the red crayon?",
         "Eda: Here you are! Thanks!",
         "Lila: I'm sorry I'm late.",
         "Miss Oli: It's OK!",
-        "Polite words are nice!"
+        "Polite words are good!"
       ],
       "translations": [
-        "Öğrencilerin birçok kibar kelimesi var.",
+        "Öğrenciler bugün çok kibar.",
         "Tom: İçeri girebilir miyim? Evet, girebilirsin!",
         "Eda: Tuvalete gidebilir miyim? Evet, gidebilirsin!",
         "Tom: Kırmızı mum boyayı uzatır mısın?",
         "Eda: İşte buyur! Teşekkürler!",
         "Lila: Geç kaldığım için özür dilerim.",
         "Miss Oli: Sorun değil!",
-        "Kibar kelimeler güzel!"
+        "Kibar sözler çok iyi!"
       ],
       "questions": [
         {
@@ -2638,7 +2638,7 @@
         "How many crayons? Eight crayons.",
         "Lila: Your pencil case is colourful!",
         "Eda: Thank you!",
-        "Her things are nice and tidy."
+        "Her things are colourful!"
       ],
       "translations": [
         "Eda sınıfta.",
@@ -2649,7 +2649,7 @@
         "Kaç mum boya? Sekiz mum boya.",
         "Lila: Kalem kutun renkli!",
         "Eda: Teşekkürler!",
-        "Eşyaları güzel ve düzenli."
+        "Onun eşyaları renkli!"
       ],
       "questions": [
         {
@@ -2742,7 +2742,7 @@
         }
       ],
       "sentences": [
-        "Look at the desk!",
+        "Here is our desk!",
         "Two pencils. Three rubbers. Four notebooks.",
         "Tom is here. His pencils are blue.",
         "Lila is here. Her rubbers are pink.",
@@ -2752,7 +2752,7 @@
         "Our desk is full!"
       ],
       "translations": [
-        "Sıraya bak!",
+        "İşte masamız!",
         "İki kalem. Üç silgi. Dört defter.",
         "Tom burada. Kalemleri mavi.",
         "Lila burada. Silgileri pembe.",
@@ -2789,8 +2789,8 @@
           ]
         },
         {
-          "q": "Who has got pink rubbers?",
-          "qTr": "Pembe silgiler kimin?",
+          "q": "Who is the owner of the pink rubbers?",
+          "qTr": "Pembe silgilerin sahibi kimdir?",
           "correct": "Lila",
           "wrong": [
             "Tom",
@@ -2853,7 +2853,7 @@
       ],
       "sentences": [
         "Welcome to our classroom!",
-        "Our teacher's desk is brown.",
+        "The teacher desk is brown.",
         "Our chairs are blue.",
         "How many chairs? Twenty chairs!",
         "Our bookcase is green.",
@@ -2865,7 +2865,7 @@
       ],
       "translations": [
         "Sınıfımıza hoş geldin!",
-        "Öğretmen masamız kahverengi.",
+        "Öğretmen masası kahverengi.",
         "Sandalyelerimiz mavi.",
         "Kaç sandalye? Yirmi sandalye!",
         "Kitaplığımız yeşil.",
@@ -2877,14 +2877,14 @@
       ],
       "questions": [
         {
-          "q": "What colour is the teacher's desk?",
+          "q": "What colour is the teacher desk?",
           "qTr": "Öğretmen masası ne renk?",
           "correct": "Brown",
           "wrong": [
             "Blue",
             "Green"
           ],
-          "hint": "Find teacher's desk.",
+          "hint": "Find the teacher desk.",
           "hl": [
             1
           ]
@@ -3896,7 +3896,7 @@
         }
       ],
       "sentences": [
-        "Eda has got a crayon in her hand.",
+        "Eda is here. A crayon is in her hand.",
         "It is not red. It is not blue.",
         "It is not green. It is not yellow.",
         "It is the colour of milk.",
@@ -3904,7 +3904,7 @@
         "It is white!"
       ],
       "translations": [
-        "Eda'nın elinde bir mum boya var.",
+        "Eda burada. Elinde bir mum boya var.",
         "Kırmızı değil. Mavi değil.",
         "Yeşil değil. Sarı değil.",
         "Sütün rengi.",
@@ -3913,8 +3913,8 @@
       ],
       "questions": [
         {
-          "q": "What has Eda got in her hand?",
-          "qTr": "Eda'nın elinde ne var?",
+          "q": "What is in her hand?",
+          "qTr": "Elinde ne var?",
           "correct": "A crayon",
           "wrong": [
             "A pencil",
@@ -4005,25 +4005,25 @@
         }
       ],
       "sentences": [
-        "Can has got five pencils.",
+        "Can is here. Five pencils are in his pencil case.",
         "Tom: Here are three more pencils!",
-        "Now Can has got many pencils.",
+        "Now many pencils are in his pencil case!",
         "How many pencils now?",
         "Five plus three is eight.",
-        "Can has got eight pencils now!"
+        "Now eight pencils are in his pencil case!"
       ],
       "translations": [
-        "Can'ın beş kalemi var.",
+        "Can burada. Kalem kutusunda beş kalem var.",
         "Tom: İşte üç kalem daha!",
-        "Şimdi Can'ın birçok kalemi var.",
+        "Şimdi kalem kutusunda birçok kalem var!",
         "Şimdi kaç kalem var?",
         "Beş artı üç sekiz eder.",
-        "Can'ın şimdi sekiz kalemi var!"
+        "Şimdi kalem kutusunda sekiz kalem var!"
       ],
       "questions": [
         {
-          "q": "How many pencils has Can got first?",
-          "qTr": "Can'ın başta kaç kurşun kalemi var?",
+          "q": "How many pencils are in his pencil case first?",
+          "qTr": "Başta kalem kutusunda kaç kalem var?",
           "correct": "Five",
           "wrong": [
             "Three",
@@ -4061,8 +4061,8 @@
           ]
         },
         {
-          "q": "How many pencils has Can got now?",
-          "qTr": "Can'ın şimdi kaç kurşun kalemi var?",
+          "q": "How many pencils are in his pencil case now?",
+          "qTr": "Şimdi kalem kutusunda kaç kalem var?",
           "correct": "Eight",
           "wrong": [
             "Five",
@@ -4077,8 +4077,8 @@
           ]
         },
         {
-          "q": "Why has Can got more pencils now?",
-          "qTr": "Can'ın şimdi neden daha çok kurşun kalemi var?",
+          "q": "Why are there more pencils now?",
+          "qTr": "Şimdi neden daha çok kalem var?",
           "correct": "Tom gives three more",
           "wrong": [
             "Tom takes some",
@@ -4116,18 +4116,18 @@
       "sentences": [
         "A blue pencil case is here.",
         "It is not pink.",
-        "Lila has got a pink pencil case.",
-        "Tom has got a blue pencil case.",
-        "Can has got a green pencil case.",
+        "Lila is here. Her pencil case is pink.",
+        "Tom is here. His pencil case is blue.",
+        "Can is here. His pencil case is green.",
         "Which pencil case is this?",
         "It is the blue one — Tom is the owner!"
       ],
       "translations": [
         "Burada mavi bir kalem kutusu var.",
         "Pembe değil.",
-        "Lila'nın pembe bir kalem kutusu var.",
-        "Tom'un mavi bir kalem kutusu var.",
-        "Can'ın yeşil bir kalem kutusu var.",
+        "Lila burada. Onun kalem kutusu pembe.",
+        "Tom burada. Onun kalem kutusu mavi.",
+        "Can burada. Onun kalem kutusu yeşil.",
         "Bu hangi kalem kutusu?",
         "Mavi olanı — sahibi Tom!"
       ],
@@ -4146,8 +4146,8 @@
           ]
         },
         {
-          "q": "Who has got a pink pencil case?",
-          "qTr": "Kimin pembe kalem kutusu var?",
+          "q": "Who is the owner of the pink pencil case?",
+          "qTr": "Pembe kalem kutusunun sahibi kimdir?",
           "correct": "Lila",
           "wrong": [
             "Tom",
@@ -4159,8 +4159,8 @@
           ]
         },
         {
-          "q": "Who has got a blue pencil case?",
-          "qTr": "Kimin mavi kalem kutusu var?",
+          "q": "Who is the owner of the blue pencil case?",
+          "qTr": "Mavi kalem kutusunun sahibi kimdir?",
           "correct": "Tom",
           "wrong": [
             "Lila",
@@ -4224,7 +4224,7 @@
         }
       ],
       "sentences": [
-        "Eda has got an object in her bag.",
+        "Eda is here. An object is in her bag.",
         "It is not a pencil.",
         "It is not a book.",
         "It is small and white.",
@@ -4233,7 +4233,7 @@
         "It is a rubber!"
       ],
       "translations": [
-        "Eda'nın çantasında bir eşya var.",
+        "Eda burada. Çantasında bir nesne var.",
         "Bir kalem değil.",
         "Bir kitap değil.",
         "Küçük ve beyaz.",
@@ -4446,33 +4446,33 @@
         }
       ],
       "sentences": [
-        "Someone has got a question for Miss Oli.",
+        "Someone is ready. A question is for Miss Oli.",
         "It is not Eda.",
         "Eda is in her seat.",
         "Tom is ready. His hand is up.",
         "Tom: Can I go to the bathroom, please?",
         "Miss Oli: Yes, you can!",
-        "Who asks the question?",
+        "Who is it?",
         "It is Tom!"
       ],
       "translations": [
-        "Biri Miss Oli'ye bir soru soruyor.",
+        "Biri hazır. Miss Oli'ye bir soru var.",
         "Eda değil.",
         "Eda yerinde.",
         "Tom hazır. Eli havada.",
         "Tom: Tuvalete gidebilir miyim, lütfen?",
         "Miss Oli: Evet, gidebilirsin!",
-        "Soruyu kim soruyor?",
+        "Kim bu?",
         "O, Tom!"
       ],
       "questions": [
         {
-          "q": "Who has got a question?",
-          "qTr": "Kimin sorusu var?",
-          "correct": "Someone",
+          "q": "What is for Miss Oli?",
+          "qTr": "Miss Oli için ne var?",
+          "correct": "A question",
           "wrong": [
-            "Miss Oli",
-            "Mr. Aras"
+            "A picture",
+            "A book"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -4519,8 +4519,8 @@
           ]
         },
         {
-          "q": "Who asks the question?",
-          "qTr": "Soruyu kim sorar?",
+          "q": "Who is it?",
+          "qTr": "Kim bu?",
           "correct": "Tom",
           "wrong": [
             "Eda",
@@ -4563,8 +4563,8 @@
         "It is not a girl.",
         "Lila is here. Her picture is a yellow sun.",
         "Tom is here. His picture is a blue house.",
-        "Can has got a green crayon.",
-        "Who draws the green tree?",
+        "Can is here. His crayon is green.",
+        "Who is it?",
         "It is Can!"
       ],
       "translations": [
@@ -4572,8 +4572,8 @@
         "Bir kız değil.",
         "Lila burada. Resmi sarı bir güneş.",
         "Tom burada. Resmi mavi bir ev.",
-        "Can'ın elinde yeşil bir mum boya var.",
-        "Yeşil ağacı kim çiziyor?",
+        "Can burada. Onun mum boyası yeşil.",
+        "Kim bu?",
         "O, Can!"
       ],
       "questions": [
@@ -4617,8 +4617,8 @@
           ]
         },
         {
-          "q": "What colour crayon has Can got?",
-          "qTr": "Can'ın ne renk boya kalemi var?",
+          "q": "What colour is the crayon?",
+          "qTr": "Boya kalemi ne renk?",
           "correct": "Green",
           "wrong": [
             "Yellow",
@@ -4630,8 +4630,8 @@
           ]
         },
         {
-          "q": "Who draws the green tree?",
-          "qTr": "Yeşil ağacı kim çizer?",
+          "q": "Who is it?",
+          "qTr": "Kim bu?",
           "correct": "Can",
           "wrong": [
             "Lila",
@@ -4671,31 +4671,31 @@
         }
       ],
       "sentences": [
-        "Eda has got a new pencil case.",
-        "Her pencil case is pink and big.",
-        "Eda has got six new colourful crayons.",
-        "Eda has got a new sharpener, too.",
-        "Her smile is big today.",
+        "Eda is here. Her pencil case is new.",
+        "Her pencil case is pink.",
+        "Her six new crayons are colourful.",
+        "Her sharpener is new.",
+        "Her face is happy today.",
         "Is Eda happy or sad?",
         "Eda is very happy today!"
       ],
       "translations": [
-        "Eda'nın yeni bir kalem kutusu var.",
-        "Kalem kutusu pembe ve büyük.",
-        "Eda'nın altı yeni renkli mum boyası var.",
-        "Eda'nın yeni bir kalemtıraşı da var.",
-        "Bugün gülüşü çok büyük.",
+        "Eda burada. Onun kalem kutusu yeni.",
+        "Onun kalem kutusu pembe.",
+        "Onun altı yeni mum boyası renkli.",
+        "Onun kalemtıraşı yeni.",
+        "Bugün yüzü mutlu.",
         "Eda mutlu mu üzgün mü?",
         "Eda bugün çok mutlu!"
       ],
       "questions": [
         {
-          "q": "What has Eda got?",
-          "qTr": "Eda'da ne var?",
-          "correct": "A new pencil case",
+          "q": "What is new?",
+          "qTr": "Ne yeni?",
+          "correct": "A pencil case",
           "wrong": [
-            "A new book",
-            "A new chair"
+            "A book",
+            "A chair"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -4716,8 +4716,8 @@
           ]
         },
         {
-          "q": "How many new crayons has she got?",
-          "qTr": "Onun kaç yeni boya kalemi var?",
+          "q": "How many crayons are new?",
+          "qTr": "Kaç boya kalemi yeni?",
           "correct": "Six",
           "wrong": [
             "Three",
@@ -4745,12 +4745,12 @@
         {
           "q": "How do we know Eda is happy?",
           "qTr": "Eda'nın mutlu olduğunu nasıl anlıyoruz?",
-          "correct": "Her smile is big",
+          "correct": "Her face is happy",
           "wrong": [
             "She is tired",
             "She is alone"
           ],
-          "hint": "Find the word smiles.",
+          "hint": "Find the word face.",
           "hl": [
             4
           ]
@@ -4780,25 +4780,25 @@
         }
       ],
       "sentences": [
-        "Miss Oli: I have got a picture for you!",
+        "Miss Oli: Here is a picture for you!",
         "It is not \"Stand up\" time.",
         "It is not \"Sit down\" time.",
         "Miss Oli: Look here, please!",
-        "What does Miss Oli want?",
-        "It is a big surprise!"
+        "What is it?",
+        "It is a surprise!"
       ],
       "translations": [
-        "Miss Oli: Size bir resmim var!",
+        "Miss Oli: İşte size bir resim!",
         "\"Ayağa kalk\" zamanı değil.",
         "\"Otur\" zamanı değil.",
         "Miss Oli: Buraya bakın, lütfen!",
-        "Miss Oli ne istiyor?",
-        "Bu büyük bir sürpriz!"
+        "Bu nedir?",
+        "Bu bir sürpriz!"
       ],
       "questions": [
         {
-          "q": "What has Miss Oli got?",
-          "qTr": "Miss Oli'de ne var?",
+          "q": "What is here?",
+          "qTr": "Burada ne var?",
           "correct": "A picture",
           "wrong": [
             "A book",
@@ -4838,7 +4838,7 @@
         {
           "q": "What does Miss Oli want?",
           "qTr": "Miss Oli ne ister?",
-          "correct": "To look at her picture",
+          "correct": "To show a picture",
           "wrong": [
             "The pupils to go home",
             "The pupils to sit down"
@@ -4853,7 +4853,7 @@
         {
           "q": "Why does she want them to look?",
           "qTr": "Onların bakmasını neden ister?",
-          "correct": "She has got a picture",
+          "correct": "A picture is here",
           "wrong": [
             "She is tired",
             "She is sad"
