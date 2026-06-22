@@ -97,14 +97,14 @@
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Your mother is very nice!",
+          "q": "Is the mother nice?",
+          "qTr": "Anne hoş mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Find 'nice'.",
           "hl": [
             5
           ]
@@ -208,14 +208,14 @@
           ]
         },
         {
-          "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
-          "correct": "Your mother is lovely!",
+          "q": "Is the mother lovely?",
+          "qTr": "Anne şirin mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom.",
+          "hint": "Find 'lovely'.",
           "hl": [
             6
           ]
@@ -317,14 +317,14 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "Your father is very handsome!",
+          "q": "Is the father handsome?",
+          "qTr": "Baba yakışıklı mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Find 'handsome'.",
           "hl": [
             5
           ]
@@ -425,14 +425,14 @@
           ]
         },
         {
-          "q": "What does Can say?",
-          "qTr": "Can ne der?",
-          "correct": "Your dad is so cool!",
+          "q": "Is the dad cool?",
+          "qTr": "Baba havalı mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Can.",
+          "hint": "Find 'cool'.",
           "hl": [
             4
           ]
@@ -536,14 +536,14 @@
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "Your brother is very handsome!",
+          "q": "Is the brother handsome?",
+          "qTr": "Erkek kardeş yakışıklı mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Find 'handsome'.",
           "hl": [
             6
           ]
@@ -758,14 +758,14 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "Your grandma is so lovely!",
+          "q": "Is the grandma lovely?",
+          "qTr": "Büyükanne şirin mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Find 'lovely'.",
           "hl": [
             6
           ]
@@ -966,14 +966,14 @@
           ]
         },
         {
-          "q": "What is the sister's name?",
-          "qTr": "Kız kardeşin adı nedir?",
+          "q": "What is her name?",
+          "qTr": "Onun adı nedir?",
           "correct": "Mia",
           "wrong": [
             "Ela",
             "Ayşe"
           ],
-          "hint": "Find sister.",
+          "hint": "Find 'name'.",
           "hl": [
             4
           ]
@@ -1078,14 +1078,14 @@
           ]
         },
         {
-          "q": "What is the name of the little sister?",
-          "qTr": "Küçük kız kardeşin adı nedir?",
+          "q": "Who is the little sister?",
+          "qTr": "Küçük kız kardeş kimdir?",
           "correct": "Ela",
           "wrong": [
             "Mia",
             "Ayşe"
           ],
-          "hint": "Find sister.",
+          "hint": "Find the little sister.",
           "hl": [
             5
           ]
@@ -1581,7 +1581,7 @@
         "She has got short blond hair.",
         "Ela is small and very beautiful.",
         "Lila: Your sister is so nice!",
-        "Eda: Ela is the baby of my family!",
+        "Eda: Ela is my baby sister!",
         "My little sister is great!"
       ],
       "translations": [
@@ -1591,7 +1591,7 @@
         "Kısa sarı saçları var.",
         "Ela küçük ve çok güzel.",
         "Lila diyor: Kız kardeşin çok hoş!",
-        "Eda diyor: Ela ailemin bebeği!",
+        "Eda diyor: Ela benim bebek kardeşim!",
         "Küçük kız kardeşim harika!"
       ],
       "questions": [
@@ -1692,7 +1692,7 @@
         "He has got short blond hair.",
         "My brother is tall and nice.",
         "Can: Your brother is so handsome!",
-        "Lila: My brother is the son of my mum and dad!",
+        "Lila: My mum and dad have got a son. He is my brother!",
         "Big brothers are great!"
       ],
       "translations": [
@@ -1702,7 +1702,7 @@
         "Kısa sarı saçları var.",
         "Erkek kardeşim uzun boylu ve hoş.",
         "Can diyor: Erkek kardeşin çok yakışıklı!",
-        "Lila diyor: Erkek kardeşim annemin ve babamın oğlu!",
+        "Lila diyor: Annemin ve babamın bir oğlu var. O benim erkek kardeşim!",
         "Ağabeyler harika!"
       ],
       "questions": [
@@ -1760,14 +1760,14 @@
           ]
         },
         {
-          "q": "What does Lila say about her brother?",
-          "qTr": "Lila erkek kardeşi hakkında ne der?",
-          "correct": "He is the son of mum and dad",
+          "q": "Is the brother a son?",
+          "qTr": "Erkek kardeş bir oğul mu?",
+          "correct": "Yes",
           "wrong": [
-            "He is a baby",
-            "He is tired"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila in sentence 7.",
+          "hint": "Find 'son'.",
           "hl": [
             6
           ]
@@ -2024,7 +2024,7 @@
         "My dad has got dark hair and brown eyes.",
         "My mum is short and very beautiful.",
         "I am eight years old.",
-        "Three generations of my family!",
+        "My family has got three generations!",
         "I am happy with my big family!"
       ],
       "translations": [
@@ -2034,7 +2034,7 @@
         "Babamın koyu saçları ve kahverengi gözleri var.",
         "Annem kısa boylu ve çok güzel.",
         "Sekiz yaşındayım.",
-        "Ailemin üç kuşağı!",
+        "Ailemin üç kuşağı var!",
         "Büyük ailemle mutluyum!"
       ],
       "questions": [
@@ -2319,14 +2319,14 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to Eda?",
-          "qTr": "Miss Oli, Eda'ya ne der?",
-          "correct": "Your mum is wonderful!",
+          "q": "Is the mum wonderful?",
+          "qTr": "Anne harika mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli in sentence 8.",
+          "hint": "Find 'wonderful'.",
           "hl": [
             7
           ]
@@ -2433,14 +2433,14 @@
           ]
         },
         {
-          "q": "What does Miss Oli say in the last sentence?",
-          "qTr": "Miss Oli son cümlede ne der?",
-          "correct": "Your dads are wonderful!",
+          "q": "Are the dads wonderful?",
+          "qTr": "Babalar harika mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli in sentence 10.",
+          "hint": "Find 'wonderful'.",
           "hl": [
             9
           ]
@@ -2547,14 +2547,14 @@
           ]
         },
         {
-          "q": "What does Miss Oli say in the last sentence?",
-          "qTr": "Miss Oli son cümlede ne der?",
-          "correct": "Brothers and sisters are wonderful!",
+          "q": "Are brothers and sisters wonderful?",
+          "qTr": "Erkek ve kız kardeşler harika mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli in sentence 10.",
+          "hint": "Find 'wonderful'.",
           "hl": [
             9
           ]
@@ -2659,14 +2659,14 @@
           ]
         },
         {
-          "q": "What does Tom say to Can?",
-          "qTr": "Tom, Can'a ne der?",
-          "correct": "Your grandparents are wonderful!",
+          "q": "Are the grandparents wonderful?",
+          "qTr": "Büyükanne ve büyükbaba harika mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom in sentence 8.",
+          "hint": "Find 'wonderful'.",
           "hl": [
             7
           ]
@@ -2984,28 +2984,28 @@
           ]
         },
         {
-          "q": "What is the role of Lila and Eda?",
-          "qTr": "Lila ve Eda'nın rolü nedir?",
-          "correct": "Big sister",
+          "q": "What are Lila and Eda?",
+          "qTr": "Lila ve Eda nedir?",
+          "correct": "Sisters",
           "wrong": [
-            "Little sister",
-            "Mother"
+            "Brothers",
+            "Cousins"
           ],
-          "hint": "Find sister.",
+          "hint": "Find 'sister'.",
           "hl": [
             3,
             7
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Big sisters are wonderful!",
+          "q": "Are big sisters wonderful?",
+          "qTr": "Ablalar harika mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli in sentence 9.",
+          "hint": "Find 'wonderful'.",
           "hl": [
             8
           ]
@@ -3037,22 +3037,22 @@
       "sentences": [
         "Miss Oli: Are you a son or a daughter?",
         "Tom: I am a son!",
-        "I am the son of my mum and dad.",
+        "My mum and dad have got a son!",
         "My sister Mia is a daughter.",
         "She is twelve years old.",
         "Eda: I am a daughter!",
-        "I am the daughter of my mum and dad.",
+        "My mum and dad have got a daughter!",
         "My little sister Ela is a daughter, too.",
         "Tom and Eda are happy!"
       ],
       "translations": [
         "Miss Oli diyor: Sen oğul mu yoksa kız mı?",
         "Tom diyor: Ben oğulum!",
-        "Ben annem ve babamın oğluyum.",
+        "Annemin ve babamın bir oğlu var!",
         "Kız kardeşim Mia bir kız.",
         "On iki yaşında.",
         "Eda diyor: Ben bir kızım!",
-        "Ben annem ve babamın kızıyım.",
+        "Annemin ve babamın bir kızı var!",
         "Küçük kız kardeşim Ela da bir kız.",
         "Tom ve Eda mutlu!"
       ],
@@ -3222,14 +3222,14 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "It is a beautiful family photo!",
+          "q": "Is the family photo beautiful?",
+          "qTr": "Aile fotoğrafı güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila in sentence 8.",
+          "hint": "Find 'beautiful'.",
           "hl": [
             7
           ]
@@ -3336,14 +3336,14 @@
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy festival to all families!",
+          "q": "Is it a happy festival?",
+          "qTr": "Mutlu bir bayram mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli in sentence 10.",
+          "hint": "Find 'happy'.",
           "hl": [
             9
           ]
@@ -3450,16 +3450,16 @@
           ]
         },
         {
-          "q": "How do we know she is not a grandma?",
-          "qTr": "Onun büyükanne olmadığını nasıl anlıyoruz?",
-          "correct": "She has got long blond hair",
+          "q": "Is she a grandma?",
+          "qTr": "O bir büyükanne mi?",
+          "correct": "No",
           "wrong": [
-            "She is short",
-            "She is tired"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find hair.",
+          "hint": "Find 'grandma'.",
           "hl": [
-            2
+            4
           ]
         }
       ]
@@ -3560,16 +3560,16 @@
           ]
         },
         {
-          "q": "How do we know he is not a father?",
-          "qTr": "Onun baba olmadığını nasıl anlıyoruz?",
-          "correct": "He has got white hair",
+          "q": "Is he a father?",
+          "qTr": "O bir baba mı?",
+          "correct": "No",
           "wrong": [
-            "He has got blue eyes",
-            "He is tall"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find white.",
+          "hint": "Find 'father'.",
           "hl": [
-            2
+            4
           ]
         }
       ]
@@ -3670,14 +3670,14 @@
           ]
         },
         {
-          "q": "How do we know she is the little sister?",
-          "qTr": "Onun küçük kız kardeş olduğunu nasıl anlıyoruz?",
-          "correct": "She is four years old",
+          "q": "Is she the little sister?",
+          "qTr": "O küçük kız kardeş mi?",
+          "correct": "Yes",
           "wrong": [
-            "She is ten",
-            "She is twenty"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find four.",
+          "hint": "Find 'four'.",
           "hl": [
             4
           ]
@@ -3782,14 +3782,14 @@
           ]
         },
         {
-          "q": "How do we know he is the big brother?",
-          "qTr": "Onun ağabey olduğunu nasıl anlıyoruz?",
-          "correct": "He is ten years old",
+          "q": "Is he the big brother?",
+          "qTr": "O ağabey mi?",
+          "correct": "Yes",
           "wrong": [
-            "He is four",
-            "He is small"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find ten.",
+          "hint": "Find 'ten'.",
           "hl": [
             4
           ]
@@ -3826,7 +3826,7 @@
         "My mother has got blue eyes and blond hair.",
         "Can: My mother has got brown eyes.",
         "Whose mother is it?",
-        "It is Eda's mother!"
+        "Eda: She is my mother!"
       ],
       "translations": [
         "Bugün bir anne burada.",
@@ -3836,7 +3836,7 @@
         "Annemin mavi gözleri ve sarı saçları var.",
         "Can diyor: Benim annemin kahverengi gözleri var.",
         "Bu kimin annesi?",
-        "O, Eda'nın annesi!"
+        "Eda diyor: O benim annem!"
       ],
       "questions": [
         {
@@ -3892,18 +3892,17 @@
           ]
         },
         {
-          "q": "Whose mother is here?",
-          "qTr": "Burada kimin annesi var?",
-          "correct": "Eda's mother",
+          "q": "Eda: 'She is my mother!' Has the mother got blue eyes?",
+          "qTr": "Eda: 'O benim annem!' Annenin mavi gözleri var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Can's mother",
-            "A teacher"
+            "No",
+            "Maybe"
           ],
-          "hint": "Match the eye colour.",
+          "hint": "Find blue eyes.",
           "hl": [
             1,
-            4,
-            7
+            4
           ]
         }
       ]
@@ -4157,7 +4156,7 @@
         "Eda: My mum has got blond hair! I have got blond hair, too!",
         "Lila: I have got blond hair, too!",
         "A mum in the photo has got blond hair.",
-        "It is the mum of Eda or Lila!"
+        "Eda and Lila have got blond hair, too!"
       ],
       "translations": [
         "Burada bir aile fotoğrafı var.",
@@ -4167,7 +4166,7 @@
         "Eda diyor: Annemin sarı saçları var! Benim de sarı saçlarım var!",
         "Lila diyor: Benim de sarı saçlarım var!",
         "Fotoğraftaki bir annenin sarı saçları var.",
-        "Eda'nın veya Lila'nın annesi!"
+        "Eda ve Lila'nın da sarı saçları var!"
       ],
       "questions": [
         {
@@ -4225,16 +4224,17 @@
           ]
         },
         {
-          "q": "Who has a mum with blond hair?",
-          "qTr": "Kimin annesi sarı saçlı?",
-          "correct": "Eda or Lila",
+          "q": "Have Eda and Lila got blond hair?",
+          "qTr": "Eda ve Lila'nın sarı saçları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "The grandpa",
-            "The dad"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find blond hair.",
           "hl": [
-            7
+            4,
+            5
           ]
         }
       ]
@@ -4268,7 +4268,7 @@
         "He is tall and handsome.",
         "Tom: My dad has got blue eyes and blond hair.",
         "Can: My dad has got brown eyes and dark hair.",
-        "The dad in the photo is Tom's dad!",
+        "Tom: He is my dad!",
         "Tom is very happy!"
       ],
       "translations": [
@@ -4278,7 +4278,7 @@
         "Uzun boylu ve yakışıklı.",
         "Tom diyor: Babamın mavi gözleri ve sarı saçları var.",
         "Can diyor: Babamın kahverengi gözleri ve koyu saçları var.",
-        "Fotoğraftaki baba, Tom'un babası!",
+        "Tom diyor: O benim babam!",
         "Tom çok mutlu!"
       ],
       "questions": [
@@ -4335,19 +4335,17 @@
           ]
         },
         {
-          "q": "Who is the dad in the photo?",
-          "qTr": "Fotoğraftaki baba kimdir?",
-          "correct": "Tom's dad",
+          "q": "Tom: 'He is my dad!' Has the dad got blue eyes?",
+          "qTr": "Tom: 'O benim babam!' Babanın mavi gözleri var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Can's dad",
-            "A grandpa"
+            "No",
+            "Maybe"
           ],
-          "hint": "Match the eye and hair colour.",
+          "hint": "Find blue eyes.",
           "hl": [
             1,
-            2,
-            4,
-            6
+            4
           ]
         }
       ]
@@ -4422,14 +4420,14 @@
           ]
         },
         {
-          "q": "What kind of day is it?",
-          "qTr": "Nasıl bir gün?",
-          "correct": "A religious day",
+          "q": "Is it a religious day?",
+          "qTr": "Dini bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "A national day",
-            "A school day"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find 'religious'.",
           "hl": [
             3
           ]
