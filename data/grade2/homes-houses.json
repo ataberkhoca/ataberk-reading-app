@@ -85,12 +85,12 @@
           ]
         },
         {
-          "q": "How is the garden?",
-          "qTr": "Bahçe nasıl?",
-          "correct": "Beautiful",
+          "q": "Is the garden beautiful?",
+          "qTr": "Bahçe güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Find garden.",
           "hl": [
@@ -98,12 +98,12 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "Your house is so nice!",
+          "q": "What is nice?",
+          "qTr": "Ne güzel?",
+          "correct": "The house",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "The bed",
+            "The garden"
           ],
           "hint": "Find Lila.",
           "hl": [
@@ -142,7 +142,7 @@
         "There is a bed in my bedroom.",
         "We have got a kitchen and a bathroom.",
         "We have got a balcony, too!",
-        "Can: Your house is great!"
+        "Can: Your house is beautiful!"
       ],
       "translations": [
         "Tom diyor: Bu benim evim!",
@@ -152,16 +152,16 @@
         "Yatak odamda bir yatak var.",
         "Bir mutfağımız ve bir banyomuz var.",
         "Bir balkonumuz da var!",
-        "Can diyor: Evin harika!"
+        "Can diyor: Evin çok güzel!"
       ],
       "questions": [
         {
-          "q": "How is Tom's sitting room?",
-          "qTr": "Tom'un oturma odası nasıl?",
-          "correct": "Big",
+          "q": "Is the sitting room big?",
+          "qTr": "Oturma odası büyük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Find sitting room.",
           "hl": [
@@ -208,12 +208,12 @@
           ]
         },
         {
-          "q": "What does Can say?",
-          "qTr": "Can ne der?",
-          "correct": "Your house is great!",
+          "q": "What is beautiful?",
+          "qTr": "Ne güzel?",
+          "correct": "The house",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "The bed",
+            "The garden"
           ],
           "hint": "Find Can.",
           "hl": [
@@ -252,7 +252,7 @@
         "He has got short brown hair.",
         "My dog is nice and big.",
         "Maxi is in the garden.",
-        "Lila: Your dog is so cute!"
+        "Lila: Your dog is so nice!"
       ],
       "translations": [
         "Eda diyor: Bir evcil hayvanım var!",
@@ -262,7 +262,7 @@
         "Kısa kahverengi tüyleri var.",
         "Köpeğim hoş ve büyük.",
         "Maxi bahçede.",
-        "Lila diyor: Köpeğin çok sevimli!"
+        "Lila diyor: Köpeğin çok hoş!"
       ],
       "questions": [
         {
@@ -279,8 +279,8 @@
           ]
         },
         {
-          "q": "What name does Eda use?",
-          "qTr": "Eda hangi ismi kullanır?",
+          "q": "What is the name of the dog?",
+          "qTr": "Köpeğin adı ne?",
           "correct": "Maxi",
           "wrong": [
             "Misho",
@@ -305,12 +305,12 @@
           ]
         },
         {
-          "q": "How is Maxi?",
-          "qTr": "Maxi nasıl?",
-          "correct": "Nice and big",
+          "q": "Is Maxi nice and big?",
+          "qTr": "Maxi hoş ve büyük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Sad and tired",
-            "Small and old"
+            "No",
+            "Maybe"
           ],
           "hint": "Find dog.",
           "hl": [
@@ -363,7 +363,7 @@
         "My cat is small and beautiful.",
         "Misho is in the sitting room.",
         "She is on the sofa!",
-        "Tom: Your cat is lovely!"
+        "Tom: Your cat is beautiful!"
       ],
       "translations": [
         "Can diyor: Bir evcil hayvanım var!",
@@ -374,7 +374,7 @@
         "Kedim küçük ve güzel.",
         "Misho oturma odasında.",
         "Kanepenin üstünde!",
-        "Tom diyor: Kedin çok sevimli!"
+        "Tom diyor: Kedin çok güzel!"
       ],
       "questions": [
         {
@@ -391,8 +391,8 @@
           ]
         },
         {
-          "q": "What name does Can use?",
-          "qTr": "Can hangi ismi kullanır?",
+          "q": "What is the name of the cat?",
+          "qTr": "Kedinin adı ne?",
           "correct": "Misho",
           "wrong": [
             "Maxi",
@@ -430,12 +430,12 @@
           ]
         },
         {
-          "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
-          "correct": "Your cat is lovely!",
+          "q": "Is the cat beautiful?",
+          "qTr": "Kedi güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Tom.",
           "hl": [
@@ -446,7 +446,7 @@
     },
     {
       "id": "scan-5",
-      "title": "My Cat's Body",
+      "title": "Misho the Cat",
       "subtitle": "Find the right body part!",
       "icon": "🐱",
       "hlMode": "fade3",
@@ -468,25 +468,23 @@
       ],
       "sentences": [
         "Can: Look at my cat Misho!",
-        "She has got a small head.",
-        "She has got two big green eyes.",
-        "She has got two ears.",
-        "She has got long whiskers.",
-        "She has got four small paws.",
-        "Look at her paws! She has got claws, too.",
-        "She has got a long tail.",
-        "My cat is beautiful!"
+        "Eda: She has got two big green eyes!",
+        "Can: Yes! She has got long whiskers.",
+        "Eda: How many paws are there?",
+        "Can: She has got four small paws.",
+        "Eda: There are sharp claws on her paws!",
+        "Can: She has got a long tail, too.",
+        "Eda: Your cat Misho is beautiful!"
       ],
       "translations": [
-        "Can diyor: Kedim Misho'ya bak!",
-        "Küçük bir başı var.",
-        "İki büyük yeşil gözü var.",
-        "İki kulağı var.",
-        "Uzun bıyıkları var.",
-        "Dört küçük patisi var.",
-        "Patilerine bak! Tırnakları da var.",
-        "Uzun bir kuyruğu var.",
-        "Kedim güzel!"
+        "Can: Kedim Misho'ya bak!",
+        "Eda: İki büyük yeşil gözü var!",
+        "Can: Evet! Uzun bıyıkları var.",
+        "Eda: Kaç patisi var?",
+        "Can: Dört küçük patisi var.",
+        "Eda: Patilerinde keskin pençeleri var!",
+        "Can: Uzun bir kuyruğu da var.",
+        "Eda: Kedin Misho çok güzel!"
       ],
       "questions": [
         {
@@ -497,22 +495,22 @@
             "Blue",
             "Brown"
           ],
-          "hint": "Find eyes.",
+          "hint": "Read sentence 2.",
           "hl": [
-            2
+            1
           ]
         },
         {
-          "q": "How long are her whiskers?",
-          "qTr": "Onun bıyıkları ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has Misho got long whiskers?",
+          "qTr": "Misho'nun uzun bıyıkları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Big"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find whiskers.",
+          "hint": "Read sentence 3.",
           "hl": [
-            4
+            2
           ]
         },
         {
@@ -523,35 +521,35 @@
             "Two",
             "Six"
           ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is on her paws?",
+          "qTr": "Patilerinde ne var?",
+          "correct": "Claws",
+          "wrong": [
+            "Whiskers",
+            "A beak"
+          ],
           "hint": "Find paws.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What is on her paws?",
-          "qTr": "Onun patilerinde ne var?",
-          "correct": "Claws",
+          "q": "Is her tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "Yes",
           "wrong": [
-            "Whiskers",
-            "A beak"
-          ],
-          "hint": "Find claws.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "How long is her tail?",
-          "qTr": "Onun kuyruğu ne kadar uzun?",
-          "correct": "Long",
-          "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
-            7
+            6
           ]
         }
       ]
@@ -579,39 +577,37 @@
         }
       ],
       "sentences": [
-        "Lila: I have got a bird!",
-        "Her name is Cici.",
-        "Cici has got two small eyes.",
-        "She has got a small yellow beak.",
-        "She has got two small wings.",
-        "She has got two small claws on her feet.",
-        "She has got a short tail.",
-        "Cici has got blue and yellow feathers.",
-        "My bird is colourful!"
+        "Lila: I have got a bird! Her name is Cici.",
+        "Tom: She has got a small yellow beak!",
+        "Lila: Yes! She has got two small wings.",
+        "Tom: How many claws are there on her feet?",
+        "Lila: She has got two small claws.",
+        "Tom: Her tail is short!",
+        "Lila: Cici has got blue and yellow feathers.",
+        "Tom: Your bird Cici is beautiful!"
       ],
       "translations": [
-        "Lila diyor: Bir kuşum var!",
-        "Onun adı Cici.",
-        "Cici'nin iki küçük gözü var.",
-        "Küçük sarı bir gagası var.",
-        "İki küçük kanadı var.",
-        "Ayaklarında iki küçük tırnağı var.",
-        "Kısa bir kuyruğu var.",
-        "Cici'nin mavi ve sarı tüyleri var.",
-        "Kuşum renkli!"
+        "Lila: Bir kuşum var! Adı Cici.",
+        "Tom: Küçük sarı bir gagası var!",
+        "Lila: Evet! İki küçük kanadı var.",
+        "Tom: Ayaklarında kaç tırnağı var?",
+        "Lila: İki küçük tırnağı var.",
+        "Tom: Kuyruğu kısa!",
+        "Lila: Cici'nin mavi ve sarı tüyleri var.",
+        "Tom: Kuşun Cici çok güzel!"
       ],
       "questions": [
         {
-          "q": "What does the bird have to eat with?",
-          "qTr": "Kuş neyle yemek yer?",
+          "q": "What has the bird got?",
+          "qTr": "Kuşun nesi var?",
           "correct": "A beak",
           "wrong": [
             "Whiskers",
             "A paw"
           ],
-          "hint": "Find beak.",
+          "hint": "Read sentence 2.",
           "hl": [
-            3
+            1
           ]
         },
         {
@@ -624,33 +620,33 @@
           ],
           "hint": "Find beak.",
           "hl": [
-            3
+            1
           ]
         },
         {
-          "q": "How many claws has Cici got?",
-          "qTr": "Cici'nin kaç pençesi var?",
-          "correct": "Two",
+          "q": "Has Cici got two claws?",
+          "qTr": "Cici'nin iki tırnağı var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Four",
-            "Six"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find claws.",
+          "hint": "Read sentence 5.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "How long is her tail?",
-          "qTr": "Onun kuyruğu ne kadar uzun?",
-          "correct": "Short",
+          "q": "Is her tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "No",
           "wrong": [
-            "Long",
-            "Big"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
-            6
+            5
           ]
         },
         {
@@ -663,7 +659,7 @@
           ],
           "hint": "Find feathers.",
           "hl": [
-            7
+            6
           ]
         }
       ]
@@ -696,8 +692,8 @@
         "Where is the sofa? The sofa is in the sitting room.",
         "Where is the coffee table? It is in the sitting room, too.",
         "Where is the dining table? It is in the dining room.",
-        "Eda: Every furniture is in the right room!",
-        "Tom is happy with his house!"
+        "Eda: All the furniture is in the right room!",
+        "Tom is happy in his house!"
       ],
       "translations": [
         "Tom diyor: Evimde yatak nerede?",
@@ -705,8 +701,8 @@
         "Kanepe nerede? Kanepe oturma odasında.",
         "Sehpa nerede? O da oturma odasında.",
         "Yemek masası nerede? Yemek odasında.",
-        "Eda diyor: Her mobilya doğru odada!",
-        "Tom eviyle mutlu!"
+        "Eda diyor: Bütün mobilyalar doğru odada!",
+        "Tom evinde mutlu!"
       ],
       "questions": [
         {
@@ -762,12 +758,12 @@
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "Every furniture is in the right room!",
+          "q": "Is all the furniture in the right room?",
+          "qTr": "Bütün mobilyalar doğru odada mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Eda.",
           "hl": [
@@ -818,8 +814,8 @@
       ],
       "questions": [
         {
-          "q": "What name does Can use?",
-          "qTr": "Can hangi ismi kullanır?",
+          "q": "What is the name of the cat?",
+          "qTr": "Kedinin adı ne?",
           "correct": "Misho",
           "wrong": [
             "Maxi",
@@ -870,12 +866,12 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "Sofas are nice for cats!",
+          "q": "Are sofas nice for cats?",
+          "qTr": "Kanepeler kediler için hoş mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Lila.",
           "hl": [
@@ -908,7 +904,7 @@
       ],
       "sentences": [
         "Tom: We have got a big family and a big house!",
-        "My family has got four people: my mum, my dad, my sister Mia, and Tom.",
+        "My family has got four people: my mum, my dad, my sister Mia and me.",
         "We have got a kitchen, a sitting room and a bathroom.",
         "We have got two bedrooms.",
         "We have got a goldfish, too! Her name is Bubble.",
@@ -918,7 +914,7 @@
       ],
       "translations": [
         "Tom diyor: Büyük bir ailemiz ve büyük bir evimiz var!",
-        "Ailemde dört kişi var: annem, babam, ablam Mia ve Tom.",
+        "Ailemde dört kişi var: annem, babam, kız kardeşim Mia ve ben.",
         "Bir mutfağımız, bir oturma odamız ve bir banyomuz var.",
         "İki yatak odamız var.",
         "Bir Japon balığımız da var! Onun adı Bubble.",
@@ -928,12 +924,12 @@
       ],
       "questions": [
         {
-          "q": "How is the family?",
-          "qTr": "Aile nasıl?",
-          "correct": "Big",
+          "q": "Is the family big?",
+          "qTr": "Aile kalabalık mı?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Sad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1064,8 +1060,8 @@
           ]
         },
         {
-          "q": "Where is Eda's flag?",
-          "qTr": "Eda'nın bayrağı nerede?",
+          "q": "Where is the flag?",
+          "qTr": "Bayrak nerede?",
           "correct": "On the balcony",
           "wrong": [
             "In the kitchen",
@@ -1106,7 +1102,7 @@
     },
     {
       "id": "scan-11",
-      "title": "My Cat's Paws and Claws",
+      "title": "My Cat Has Paws and Claws",
       "subtitle": "Find the right part!",
       "icon": "🐾",
       "hlMode": "fade3",
@@ -1161,12 +1157,12 @@
           ]
         },
         {
-          "q": "How many paws has Misho got?",
-          "qTr": "Misho'nun kaç patisi var?",
-          "correct": "Four",
+          "q": "Has Misho got four paws?",
+          "qTr": "Misho'nun dört patisi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Six"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -1174,8 +1170,8 @@
           ]
         },
         {
-          "q": "What is on Misho's paws?",
-          "qTr": "Misho'nun patilerinde ne var?",
+          "q": "What is on her paws?",
+          "qTr": "Patilerinde ne var?",
           "correct": "Sharp claws",
           "wrong": [
             "Whiskers",
@@ -1200,12 +1196,12 @@
           ]
         },
         {
-          "q": "How many cats are on the sofa?",
-          "qTr": "Koltukta kaç kedi var?",
-          "correct": "Two",
+          "q": "Are there two cats on the sofa?",
+          "qTr": "Kanepede iki kedi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "One",
-            "Three"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -1240,21 +1236,21 @@
       ],
       "sentences": [
         "Lila: Welcome to my house!",
-        "We have got a small house. It is lovely.",
+        "We have got a small house. It is nice.",
         "There is a kitchen. There is a bathroom.",
         "There is a sitting room. There is a bedroom.",
         "There is a balcony, too!",
-        "Eda: Your house is so cosy!",
+        "Eda: Your house is so nice!",
         "Lila: I am happy in my home!",
         "Home is a sweet place!"
       ],
       "translations": [
         "Lila diyor: Evime hoş geldin!",
-        "Küçük bir evimiz var. Sevimli.",
+        "Küçük bir evimiz var. Hoş.",
         "Bir mutfak var. Bir banyo var.",
         "Bir oturma odası var. Bir yatak odası var.",
         "Bir balkon da var!",
-        "Eda diyor: Evin çok şirin!",
+        "Eda diyor: Evin çok hoş!",
         "Lila diyor: Evimde mutluyum!",
         "Ev güzel bir yer!"
       ],
@@ -1302,12 +1298,12 @@
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "Your house is so cosy!",
+          "q": "Is the house nice?",
+          "qTr": "Ev hoş mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Eda.",
           "hl": [
@@ -1315,8 +1311,8 @@
           ]
         },
         {
-          "q": "Where does Lila feel happy?",
-          "qTr": "Lila nerede mutlu hisseder?",
+          "q": "Where is Lila happy?",
+          "qTr": "Lila nerede mutlu?",
           "correct": "In her home",
           "wrong": [
             "In the school",
@@ -1331,7 +1327,7 @@
     },
     {
       "id": "skim-2",
-      "title": "A Visit to My Friend's House",
+      "title": "A Visit to a Friend",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🔔",
       "hlMode": "always",
@@ -1353,7 +1349,7 @@
       ],
       "sentences": [
         "Ding-dong! There is a doorbell!",
-        "Eda: I am with my friend Lila today!",
+        "Eda: My friend Lila is here today!",
         "Welcome!  Lila.",
         "Come and see! There is a kitchen here.",
         "There is a sitting room. There is a sofa here.",
@@ -1363,7 +1359,7 @@
       ],
       "translations": [
         "Ding-dong! Kapı zili var!",
-        "Eda diyor: Bugün arkadaşım Lila ile birlikteyim!",
+        "Eda diyor: Arkadaşım Lila bugün burada!",
         "Hoş geldin! diyor Lila.",
         "Gel gör! Burada bir mutfak var.",
         "Bir oturma odası var. Burada bir kanepe var.",
@@ -1400,8 +1396,8 @@
           ]
         },
         {
-          "q": "What rooms are mentioned?",
-          "qTr": "Hangi odalardan bahsediliyor?",
+          "q": "What rooms are in the house?",
+          "qTr": "Evde hangi odalar var?",
           "correct": "Kitchen, sitting room, bedroom",
           "wrong": [
             "School and garden",
@@ -1428,12 +1424,12 @@
           ]
         },
         {
-          "q": "What does Eda say about the house?",
-          "qTr": "Eda ev hakkında ne der?",
-          "correct": "Your house is so nice!",
+          "q": "Is the house nice?",
+          "qTr": "Ev hoş mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Eda in sentence 7.",
           "hl": [
@@ -1444,7 +1440,7 @@
     },
     {
       "id": "skim-3",
-      "title": "Lila's New Pet",
+      "title": "Lila Has a New Pet",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🐰",
       "hlMode": "always",
@@ -1499,8 +1495,8 @@
           ]
         },
         {
-          "q": "What name does Lila use for the rabbit?",
-          "qTr": "Lila tavşan için hangi ismi kullanır?",
+          "q": "What is the name of the rabbit?",
+          "qTr": "Tavşanın adı ne?",
           "correct": "Pamuk",
           "wrong": [
             "Maxi",
@@ -1512,12 +1508,12 @@
           ]
         },
         {
-          "q": "How long are the ears?",
-          "qTr": "Kulaklar ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has Pamuk got long ears?",
+          "qTr": "Pamuk'un uzun kulakları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find ears.",
           "hl": [
@@ -1575,29 +1571,27 @@
         }
       ],
       "sentences": [
-        "Tom: My pet is a goldfish!",
-        "Her name is Bubble.",
-        "Bubble is in a bowl.",
-        "The bowl is in the kitchen.",
-        "Bubble has got small black eyes.",
-        "She has got a long tail.",
-        "She has got orange and white colours.",
-        "Tom: My goldfish is fun!"
+        "Tom: My pet is a goldfish! Her name is Bubble.",
+        "Can: Where is Bubble?",
+        "Tom: She is in a bowl. The bowl is in the kitchen.",
+        "Can: She has got small black eyes!",
+        "Tom: Yes! She has got orange and white colours.",
+        "Can: She has got a long tail, too.",
+        "Tom: Bubble is my nice pet!"
       ],
       "translations": [
-        "Tom diyor: Evcil hayvanım bir Japon balığı!",
-        "Onun adı Bubble.",
-        "Bubble bir kasede.",
-        "Kase mutfakta.",
-        "Bubble'ın küçük siyah gözleri var.",
-        "Uzun bir kuyruğu var.",
-        "Turuncu ve beyaz renkleri var.",
-        "Tom diyor: Japon balığım eğlenceli!"
+        "Tom: Evcil hayvanım bir Japon balığı! Adı Bubble.",
+        "Can: Bubble nerede?",
+        "Tom: Bir kasede. Kase mutfakta.",
+        "Can: Küçük siyah gözleri var!",
+        "Tom: Evet! Turuncu ve beyaz renkleri var.",
+        "Can: Uzun bir kuyruğu da var.",
+        "Tom: Bubble benim hoş evcil hayvanım!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin ne hakkında?",
           "correct": "A pet goldfish",
           "wrong": [
             "A pet bird",
@@ -1609,16 +1603,16 @@
           ]
         },
         {
-          "q": "What name does Tom use?",
-          "qTr": "Tom hangi ismi kullanır?",
+          "q": "What is the name of the fish?",
+          "qTr": "Balığın adı ne?",
           "correct": "Bubble",
           "wrong": [
             "Pamuk",
             "Maxi"
           ],
-          "hint": "Find name in sentence 2.",
+          "hint": "Read sentence 1.",
           "hl": [
-            1
+            0
           ]
         },
         {
@@ -1631,8 +1625,7 @@
           ],
           "hint": "Find bowl.",
           "hl": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -1645,12 +1638,12 @@
           ],
           "hint": "Find eyes.",
           "hl": [
-            4
+            3
           ]
         },
         {
           "q": "What colours has Bubble got?",
-          "qTr": "Bubble'ın renkleri neler?",
+          "qTr": "Bubble'ın renkleri ne?",
           "correct": "Orange and white",
           "wrong": [
             "Black and red",
@@ -1658,7 +1651,7 @@
           ],
           "hint": "Find colours.",
           "hl": [
-            6
+            4
           ]
         }
       ]
@@ -1687,40 +1680,37 @@
       ],
       "sentences": [
         "Eda: Look at my dog Maxi!",
-        "Maxi has got a big head.",
-        "He has got two brown eyes and two ears.",
-        "He has got a black nose.",
-        "He has got four big paws.",
-        "He has got claws on his paws.",
-        "He has got a long tail.",
-        "Maxi has got short brown hair.",
-        "My dog is great!"
+        "Tom: He has got two brown eyes!",
+        "Eda: Yes! He has got a big head and a black nose.",
+        "Tom: How many paws has Maxi got?",
+        "Eda: He has got four big paws.",
+        "Tom: There are claws on his paws!",
+        "Eda: He has got a long tail and short brown hair.",
+        "Tom: Your dog Maxi is nice!"
       ],
       "translations": [
-        "Eda diyor: Köpeğim Maxi'ye bak!",
-        "Maxi'nin büyük bir başı var.",
-        "İki kahverengi gözü ve iki kulağı var.",
-        "Siyah bir burnu var.",
-        "Dört büyük patisi var.",
-        "Patilerinde tırnakları var.",
-        "Uzun bir kuyruğu var.",
-        "Maxi'nin kısa kahverengi tüyleri var.",
-        "Köpeğim harika!"
+        "Eda: Köpeğim Maxi'ye bak!",
+        "Tom: İki kahverengi gözü var!",
+        "Eda: Evet! Büyük bir başı ve siyah bir burnu var.",
+        "Tom: Maxi'nin kaç patisi var?",
+        "Eda: Dört büyük patisi var.",
+        "Tom: Patilerinde pençeleri var!",
+        "Eda: Uzun bir kuyruğu ve kısa kahverengi tüyleri var.",
+        "Tom: Köpeğin Maxi çok hoş!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin ne hakkında?",
           "correct": "Body parts of a dog",
           "wrong": [
             "A house",
             "A school"
           ],
-          "hint": "Think about the body parts.",
+          "hint": "Read all.",
           "hl": [
             1,
             2,
-            3,
             4,
             6
           ]
@@ -1735,42 +1725,42 @@
           ],
           "hint": "Find eyes.",
           "hl": [
-            2
+            1
           ]
         },
         {
-          "q": "How many paws has Maxi got?",
-          "qTr": "Maxi'nin kaç patisi var?",
-          "correct": "Four",
+          "q": "Has Maxi got four paws?",
+          "qTr": "Maxi'nin dört patisi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Six"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find paws.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
           "q": "What is on his paws?",
-          "qTr": "Onun patilerinde ne var?",
+          "qTr": "Patilerinde ne var?",
           "correct": "Claws",
           "wrong": [
             "Whiskers",
             "A beak"
           ],
-          "hint": "Find claws.",
+          "hint": "Find paws.",
           "hl": [
             5
           ]
         },
         {
-          "q": "How long is the tail?",
-          "qTr": "Kuyruk ne kadar uzun?",
-          "correct": "Long",
+          "q": "Is the tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
@@ -1850,8 +1840,8 @@
           ]
         },
         {
-          "q": "What has Cici got to eat with?",
-          "qTr": "Cici neyle yemek yer?",
+          "q": "What has Cici got?",
+          "qTr": "Cici'nin nesi var?",
           "correct": "A beak",
           "wrong": [
             "Whiskers",
@@ -1863,12 +1853,12 @@
           ]
         },
         {
-          "q": "How long is the tail of the cat?",
-          "qTr": "Kedinin kuyruğu ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has the cat got a long tail?",
+          "qTr": "Kedinin uzun bir kuyruğu var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Misho.",
           "hl": [
@@ -1876,12 +1866,12 @@
           ]
         },
         {
-          "q": "How long is the tail of the bird?",
-          "qTr": "Kuşun kuyruğu ne kadar uzun?",
-          "correct": "Short",
+          "q": "Has the bird got a long tail?",
+          "qTr": "Kuşun uzun bir kuyruğu var mı?",
+          "correct": "No",
           "wrong": [
-            "Long",
-            "Big"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Find Cici.",
           "hl": [
@@ -1919,8 +1909,8 @@
         "Where is the bed? It is in the bedroom.",
         "There is a book on the bed.",
         "There is a small lamp on the coffee table.",
-        "Lila: Your house is so tidy!",
-        "Eda is happy with her house!"
+        "Lila: Your house is so nice!",
+        "Eda is happy in her house!"
       ],
       "translations": [
         "Eda diyor: Evime bak!",
@@ -1929,8 +1919,8 @@
         "Yatak nerede? Yatak odasında.",
         "Yatakta bir kitap var.",
         "Sehpada küçük bir lamba var.",
-        "Lila diyor: Evin çok düzenli!",
-        "Eda eviyle mutlu!"
+        "Lila diyor: Evin çok hoş!",
+        "Eda evinde mutlu!"
       ],
       "questions": [
         {
@@ -2004,7 +1994,7 @@
     },
     {
       "id": "skim-8",
-      "title": "Ela's Dollhouse",
+      "title": "Ela and the Dollhouse",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🏠",
       "hlMode": "always",
@@ -2028,20 +2018,20 @@
         "Eda: My little sister has got a dollhouse!",
         "It is a small house for dolls.",
         "There is a kitchen in the dollhouse.",
-        "There is a sitting room with a small sofa.",
-        "There is a bedroom with a tiny bed.",
+        "There is a small sofa in the sitting room.",
+        "There is a small bed in the bedroom.",
         "There is a small bathroom, too!",
-        "Ela is happy with her dollhouse.",
+        "Ela is happy. Her dollhouse is beautiful!",
         "Lila: It is a beautiful dollhouse!"
       ],
       "translations": [
         "Eda diyor: Küçük kız kardeşimin bir oyuncak evi var!",
         "Bu oyuncaklar için küçük bir ev.",
         "Oyuncak evde bir mutfak var.",
-        "Küçük kanepeli bir oturma odası var.",
-        "Minik yataklı bir yatak odası var.",
+        "Oturma odasında küçük bir kanepe var.",
+        "Yatak odasında küçük bir yatak var.",
         "Küçük bir banyo da var!",
-        "Ela oyuncak eviyle mutlu.",
+        "Ela mutlu. Oyuncak evi çok güzel!",
         "Lila diyor: Çok güzel bir oyuncak ev!"
       ],
       "questions": [
@@ -2102,12 +2092,12 @@
           ]
         },
         {
-          "q": "How does Lila describe the dollhouse?",
-          "qTr": "Lila oyuncak evi nasıl tarif eder?",
-          "correct": "Beautiful",
+          "q": "Is the dollhouse beautiful?",
+          "qTr": "Oyuncak ev güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Lila.",
           "hl": [
@@ -2144,9 +2134,9 @@
         "My mum, my dad and my sister are here.",
         "My goldfish Bubble is in her bowl.",
         "There is music in our house!",
-        "Can: Dance time is fun!",
+        "Can: Dance time is nice!",
         "Tom: We have a happy house!",
-        "Dance time is great!"
+        "We are happy in our house!"
       ],
       "translations": [
         "Tom diyor: Evimizde dans zamanı!",
@@ -2154,9 +2144,9 @@
         "Annem, babam ve ablam burada.",
         "Japon balığım Bubble kasesinde.",
         "Evimizde müzik var!",
-        "Can diyor: Dans zamanı eğlenceli!",
+        "Can diyor: Dans zamanı çok hoş!",
         "Tom diyor: Mutlu bir evimiz var!",
-        "Dans zamanı harika!"
+        "Evimizde mutluyuz!"
       ],
       "questions": [
         {
@@ -2186,8 +2176,8 @@
           ]
         },
         {
-          "q": "Who is with Tom?",
-          "qTr": "Tom'un yanında kim var?",
+          "q": "Who is here?",
+          "qTr": "Kim burada?",
           "correct": "His mum, dad and sister",
           "wrong": [
             "His grandma",
@@ -2228,7 +2218,7 @@
     },
     {
       "id": "skim-10",
-      "title": "Eid at My Grandma's House",
+      "title": "Eid at the Family House",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🌙",
       "hlMode": "always",
@@ -2250,7 +2240,7 @@
       ],
       "sentences": [
         "Today is Eid al-Fitr.",
-        "Can: We are with my grandma and grandpa today!",
+        "Can: My grandma and grandpa are in our house today!",
         "Their house is beautiful.",
         "There is a big sitting room.",
         "There is a sofa and a coffee table here.",
@@ -2261,7 +2251,7 @@
       ],
       "translations": [
         "Bugün Ramazan Bayramı.",
-        "Can diyor: Bugün büyükannem ve büyükbabamla birlikteyiz!",
+        "Can diyor: Büyükannem ve büyükbabam bugün evimizde!",
         "Onların evi güzel.",
         "Büyük bir oturma odası var.",
         "Burada bir kanepe ve bir sehpa var.",
@@ -2288,7 +2278,7 @@
         {
           "q": "Where is Can today?",
           "qTr": "Can bugün nerede?",
-          "correct": "With his grandparents",
+          "correct": "In his house",
           "wrong": [
             "In school",
             "In the garden"
@@ -2312,12 +2302,12 @@
           ]
         },
         {
-          "q": "How many family members are in the house?",
-          "qTr": "Evde kaç aile üyesi var?",
-          "correct": "Many",
+          "q": "Are there many family members in the house?",
+          "qTr": "Evde birçok aile üyesi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "One"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -2341,7 +2331,7 @@
     },
     {
       "id": "skim-11",
-      "title": "My Friend's Many Pets",
+      "title": "My Friend Has Many Pets",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🐶",
       "hlMode": "always",
@@ -2364,7 +2354,7 @@
       "sentences": [
         "Tom: My friend Can has got many pets!",
         "There are two cats in his sitting room.",
-        "The cats have got soft paws and small claws.",
+        "The cats have got small paws and sharp claws.",
         "There are three dogs in the garden.",
         "The dogs have got big paws and long claws.",
         "There is one bird in the kitchen.",
@@ -2374,7 +2364,7 @@
       "translations": [
         "Tom: Arkadaşım Can'ın birçok evcil hayvanı var!",
         "Salonunda iki kedi var.",
-        "Kedilerin yumuşak patileri ve küçük pençeleri var.",
+        "Kedilerin küçük patileri ve keskin pençeleri var.",
         "Bahçede üç köpek var.",
         "Köpeklerin büyük patileri ve uzun pençeleri var.",
         "Mutfakta bir kuş var.",
@@ -2412,7 +2402,7 @@
         {
           "q": "What have the cats got?",
           "qTr": "Kedilerde ne var?",
-          "correct": "Soft paws and small claws",
+          "correct": "Small paws and sharp claws",
           "wrong": [
             "Big claws",
             "A long tail"
@@ -2423,12 +2413,12 @@
           ]
         },
         {
-          "q": "How many dogs are in the garden?",
-          "qTr": "Bahçede kaç köpek var?",
-          "correct": "Three",
+          "q": "Are there three dogs in the garden?",
+          "qTr": "Bahçede üç köpek var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Four"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -2498,12 +2488,12 @@
       ],
       "questions": [
         {
-          "q": "How is the sitting room?",
-          "qTr": "Oturma odası nasıl?",
-          "correct": "Big",
+          "q": "Is the sitting room big?",
+          "qTr": "Oturma odası büyük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Old"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -2524,12 +2514,12 @@
           ]
         },
         {
-          "q": "How is the bathroom?",
-          "qTr": "Banyo nasıl?",
-          "correct": "Small",
+          "q": "Is the bathroom small?",
+          "qTr": "Banyo küçük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Big",
-            "Green"
+            "No",
+            "Maybe"
           ],
           "hint": "Find bathroom.",
           "hl": [
@@ -2590,25 +2580,25 @@
         "Ding-dong! There is a doorbell!",
         "Lila is here. The door is open!",
         "Eda is here! Welcome, Eda!",
-        "Eda: I am here with my mum!",
+        "Eda: My mum is here, too!",
         "Come in!  Lila. Look around our house!",
         "There is a sitting room here. There is a sofa.",
         "There is a coffee table, too.",
         "Where is the kitchen? It is here!",
-        "The mum: It is a lovely house!",
-        "Lila is happy with her guest!"
+        "Eda: It is a nice house!",
+        "Lila is happy. Eda is her guest!"
       ],
       "translations": [
         "Ding-dong! Bir kapı zili var!",
         "Lila burada. Kapı açık!",
         "Eda burada! Hoş geldin, Eda!",
-        "Eda diyor: Annemle birlikteyim!",
+        "Eda diyor: Annem de burada!",
         "Gel içeri! diyor Lila. Evimize bak!",
         "Burada bir oturma odası var. Bir kanepe var.",
         "Bir sehpa da var.",
         "Mutfak nerede? Burada!",
-        "Anne diyor: Çok güzel bir ev!",
-        "Lila misafiriyle mutlu!"
+        "Eda diyor: Çok hoş bir ev!",
+        "Lila mutlu. Eda onun misafiri!"
       ],
       "questions": [
         {
@@ -2638,8 +2628,8 @@
           ]
         },
         {
-          "q": "Who is with Eda?",
-          "qTr": "Eda'nın yanında kim var?",
+          "q": "Who is here, too?",
+          "qTr": "Başka kim burada?",
           "correct": "Her mum",
           "wrong": [
             "Her dad",
@@ -2665,12 +2655,12 @@
           ]
         },
         {
-          "q": "What does the mum say?",
-          "qTr": "Anne ne der?",
-          "correct": "It is a lovely house!",
+          "q": "Is the house nice?",
+          "qTr": "Ev hoş mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find the mum in sentence 9.",
           "hl": [
@@ -2740,16 +2730,16 @@
           ]
         },
         {
-          "q": "How many paws has Maxi got?",
-          "qTr": "Maxi'nin kaç patisi var?",
-          "correct": "Four",
+          "q": "Has Maxi got four paws?",
+          "qTr": "Maxi'nin dört patisi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Six"
+            "No",
+            "Maybe"
           ],
           "hint": "Find paws.",
           "hl": [
-            4
+            1
           ]
         },
         {
@@ -2766,16 +2756,16 @@
           ]
         },
         {
-          "q": "How long is the tail?",
-          "qTr": "Kuyruk ne kadar uzun?",
-          "correct": "Long",
+          "q": "Is the tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
-            6
+            3
           ]
         },
         {
@@ -2823,8 +2813,8 @@
         "Misho is in the sitting room!",
         "She is on the sofa.",
         "Misho has got long whiskers and a long tail.",
-        "She has got four paws with claws.",
-        "Lila: Cats are funny pets!",
+        "She has got claws on her four paws.",
+        "Lila: Cats are nice pets!",
         "Can is happy now!"
       ],
       "translations": [
@@ -2835,8 +2825,8 @@
         "Misho oturma odasında!",
         "Kanepenin üstünde.",
         "Misho'nun uzun bıyıkları ve uzun bir kuyruğu var.",
-        "Tırnaklı dört patisi var.",
-        "Lila diyor: Kediler komik evcil hayvanlar!",
+        "Dört patisinde pençeleri var.",
+        "Lila diyor: Kediler hoş evcil hayvanlar!",
         "Can şimdi mutlu!"
       ],
       "questions": [
@@ -2867,12 +2857,12 @@
           ]
         },
         {
-          "q": "How long are her whiskers?",
-          "qTr": "Onun bıyıkları ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has Misho got long whiskers?",
+          "qTr": "Misho'nun uzun bıyıkları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find whiskers.",
           "hl": [
@@ -2880,12 +2870,12 @@
           ]
         },
         {
-          "q": "How long is her tail?",
-          "qTr": "Onun kuyruğu ne kadar uzun?",
-          "correct": "Long",
+          "q": "Is her tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
@@ -2939,7 +2929,7 @@
         "She has got a short tail.",
         "Cici is in her cage in the sitting room.",
         "Tom: Your bird is so colourful!",
-        "Lila is happy with Cici!"
+        "Lila is happy. Cici is her bird!"
       ],
       "translations": [
         "Lila diyor: Kuşum Cici bugün mutlu!",
@@ -2951,16 +2941,16 @@
         "Kısa bir kuyruğu var.",
         "Cici oturma odasındaki kafesinde.",
         "Tom diyor: Kuşun çok renkli!",
-        "Lila Cici ile mutlu!"
+        "Lila mutlu. Cici onun kuşu!"
       ],
       "questions": [
         {
-          "q": "How is Cici today?",
-          "qTr": "Cici bugün nasıl?",
-          "correct": "Happy",
+          "q": "Is Cici happy today?",
+          "qTr": "Cici bugün mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -2968,8 +2958,8 @@
           ]
         },
         {
-          "q": "What does Lila say it is?",
-          "qTr": "Lila bunun ne olduğunu söyler?",
+          "q": "What time is it?",
+          "qTr": "Hangi zaman?",
           "correct": "Dance time",
           "wrong": [
             "Sleep time",
@@ -2994,12 +2984,12 @@
           ]
         },
         {
-          "q": "How long is her tail?",
-          "qTr": "Onun kuyruğu ne kadar uzun?",
-          "correct": "Short",
+          "q": "Is her tail long?",
+          "qTr": "Kuyruğu uzun mu?",
+          "correct": "No",
           "wrong": [
-            "Long",
-            "Big"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
@@ -3050,9 +3040,9 @@
         "She has got a long tail.",
         "She has got orange and white colours.",
         "She has got a small mouth.",
-        "Bubble is small. She is very lovely.",
+        "Bubble is small. She is very nice.",
         "Eda: Your goldfish is very pretty!",
-        "Tom is happy with Bubble!"
+        "Tom is happy. Bubble is his pet!"
       ],
       "translations": [
         "Tom diyor: Japon balığım Bubble kasesinde!",
@@ -3061,9 +3051,9 @@
         "Uzun bir kuyruğu var.",
         "Turuncu ve beyaz renkleri var.",
         "Küçük bir ağzı var.",
-        "Bubble küçük. Çok sevimli.",
+        "Bubble küçük. Çok hoş.",
         "Eda diyor: Japon balığın çok güzel!",
-        "Tom Bubble ile mutlu!"
+        "Tom mutlu. Bubble onun evcil hayvanı!"
       ],
       "questions": [
         {
@@ -3106,12 +3096,12 @@
           ]
         },
         {
-          "q": "How long is her tail?",
-          "qTr": "Onun kuyruğu ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has Bubble got a long tail?",
+          "qTr": "Bubble'ın uzun bir kuyruğu var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
@@ -3164,8 +3154,8 @@
         "She has got a small tail.",
         "Pamuk is happy in the garden.",
         "There is a place for her in the kitchen, too.",
-        "Can: Your rabbit is so cute!",
-        "Lila is happy with her bunny!"
+        "Can: Your rabbit is so nice!",
+        "Lila is happy. Pamuk is her rabbit!"
       ],
       "translations": [
         "Lila diyor: Tavşanım Pamuk bahçede.",
@@ -3176,8 +3166,8 @@
         "Küçük bir kuyruğu var.",
         "Pamuk bahçede mutlu.",
         "Onun için mutfakta da bir yer var.",
-        "Can diyor: Tavşanın çok şirin!",
-        "Lila tavşanı ile mutlu!"
+        "Can diyor: Tavşanın çok hoş!",
+        "Lila mutlu. Pamuk onun tavşanı!"
       ],
       "questions": [
         {
@@ -3207,12 +3197,12 @@
           ]
         },
         {
-          "q": "How many paws has Pamuk got?",
-          "qTr": "Pamuk'un kaç patisi var?",
-          "correct": "Four",
+          "q": "Has Pamuk got four paws?",
+          "qTr": "Pamuk'un dört patisi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Six"
+            "No",
+            "Maybe"
           ],
           "hint": "Find paws.",
           "hl": [
@@ -3233,12 +3223,12 @@
           ]
         },
         {
-          "q": "What does Can say?",
-          "qTr": "Can ne der?",
-          "correct": "Your rabbit is so cute!",
+          "q": "What is nice?",
+          "qTr": "Ne hoş?",
+          "correct": "The rabbit",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "The garden",
+            "The kitchen"
           ],
           "hint": "Find Can.",
           "hl": [
@@ -3272,24 +3262,24 @@
       "sentences": [
         "Eda: My little sister Ela has got a beautiful dollhouse!",
         "It is a small house for her dolls.",
-        "There is a kitchen with a small table.",
-        "There is a sitting room with a tiny sofa.",
-        "There is a bedroom with a small bed.",
-        "There is a tiny bathroom, too.",
+        "There is a small table in the kitchen.",
+        "There is a small sofa in the sitting room.",
+        "There is a small bed in the bedroom.",
+        "There is a small bathroom, too.",
         "Ela has got many dolls in the dollhouse.",
-        "Lila: It is a wonderful dollhouse!",
-        "Ela is happy with her dolls!"
+        "Lila: It is a beautiful dollhouse!",
+        "Ela is happy. The dolls are nice!"
       ],
       "translations": [
         "Eda diyor: Küçük kız kardeşim Ela'nın güzel bir oyuncak evi var!",
         "Oyuncakları için küçük bir ev.",
-        "Küçük bir masalı bir mutfak var.",
-        "Minik kanepeli bir oturma odası var.",
-        "Küçük yataklı bir yatak odası var.",
-        "Minik bir banyo da var.",
+        "Mutfakta küçük bir masa var.",
+        "Oturma odasında küçük bir kanepe var.",
+        "Yatak odasında küçük bir yatak var.",
+        "Küçük bir banyo da var.",
         "Ela'nın oyuncak evde birçok oyuncağı var.",
-        "Lila diyor: Harika bir oyuncak ev!",
-        "Ela oyuncakları ile mutlu!"
+        "Lila diyor: Çok güzel bir oyuncak ev!",
+        "Ela mutlu. Oyuncaklar çok hoş!"
       ],
       "questions": [
         {
@@ -3321,7 +3311,7 @@
         {
           "q": "What is in the sitting room?",
           "qTr": "Oturma odasında ne var?",
-          "correct": "A tiny sofa",
+          "correct": "A small sofa",
           "wrong": [
             "A bed",
             "A bath"
@@ -3345,12 +3335,12 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "It is a wonderful dollhouse!",
+          "q": "Is the dollhouse beautiful?",
+          "qTr": "Oyuncak ev güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Lila in sentence 8.",
           "hl": [
@@ -3384,33 +3374,33 @@
       "sentences": [
         "Can: We have got a big family and a big house!",
         "There is my mum, my dad, my grandma and my grandpa in our house.",
-        "There is also my pet cat Misho!",
+        "My pet cat Misho is here, too!",
         "We have got a sitting room, a kitchen and a dining room.",
         "There are two bedrooms upstairs.",
         "There is a balcony, too.",
         "Misho is in the sitting room. She is on the sofa.",
-        "Tom: Your family is wonderful, Can!",
-        "Can is happy with his family and Misho!"
+        "Tom: Your family is nice, Can!",
+        "Can is happy. His family is big!"
       ],
       "translations": [
         "Can diyor: Büyük bir ailemiz ve büyük bir evimiz var!",
         "Evimizde annem, babam, büyükannem ve büyükbabam var.",
-        "Evcil hayvanım kedi Misho da var!",
+        "Evcil hayvanım kedi Misho da burada!",
         "Bir oturma odamız, bir mutfağımız ve bir yemek odamız var.",
         "Üst katta iki yatak odası var.",
         "Bir balkon da var.",
         "Misho oturma odasında. Kanepenin üstünde.",
-        "Tom diyor: Ailen harika, Can!",
-        "Can ailesi ve Misho ile mutlu!"
+        "Tom diyor: Ailen çok hoş, Can!",
+        "Can mutlu. Ailesi kalabalık!"
       ],
       "questions": [
         {
-          "q": "How is the family?",
-          "qTr": "Aile nasıl?",
-          "correct": "Big",
+          "q": "Is the family big?",
+          "qTr": "Aile kalabalık mı?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Sad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3444,7 +3434,7 @@
           ]
         },
         {
-          "q": "How many bedrooms in the house?",
+          "q": "How many bedrooms are in the house?",
           "qTr": "Evde kaç yatak odası var?",
           "correct": "Two",
           "wrong": [
@@ -3631,12 +3621,12 @@
       ],
       "questions": [
         {
-          "q": "Is the door open or closed?",
-          "qTr": "Kapı açık mı yoksa kapalı mı?",
-          "correct": "Closed",
+          "q": "Is the door closed?",
+          "qTr": "Kapı kapalı mı?",
+          "correct": "Yes",
           "wrong": [
-            "Open",
-            "Big"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3794,17 +3784,16 @@
           ]
         },
         {
-          "q": "How do we know it is the sitting room?",
-          "qTr": "Burasının oturma odası olduğunu nasıl anlıyoruz?",
-          "correct": "There is a sofa and a coffee table",
+          "q": "Is there a sofa in this room?",
+          "qTr": "Bu odada bir kanepe var mı?",
+          "correct": "Yes",
           "wrong": [
-            "There is a bed",
-            "There is a bath"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
-            1,
-            2
+            1
           ]
         }
       ]
@@ -3835,7 +3824,7 @@
         "A pet is in the sitting room.",
         "It is not a dog. It is not a bird.",
         "It has got long whiskers.",
-        "It has got four paws with claws.",
+        "It has got claws on its four paws.",
         "It has got a long tail.",
         "What pet is it?",
         "It is a cat!"
@@ -3844,7 +3833,7 @@
         "Oturma odasında bir evcil hayvan var.",
         "Bir köpek değil. Bir kuş değil.",
         "Uzun bıyıkları var.",
-        "Tırnaklı dört patisi var.",
+        "Dört patisinde pençeleri var.",
         "Uzun bir kuyruğu var.",
         "Bu hangi evcil hayvan?",
         "Bir kedi!"
@@ -3877,7 +3866,7 @@
           ]
         },
         {
-          "q": "What does the pet have on its face?",
+          "q": "What has the pet got on its face?",
           "qTr": "Evcil hayvanın yüzünde ne var?",
           "correct": "Long whiskers",
           "wrong": [
@@ -3906,12 +3895,12 @@
           ]
         },
         {
-          "q": "How do we know it is a cat?",
-          "qTr": "Bunun bir kedi olduğunu nasıl anlıyoruz?",
-          "correct": "It has got whiskers and claws",
+          "q": "Has the cat got whiskers and claws?",
+          "qTr": "Kedinin bıyıkları ve pençeleri var mı?",
+          "correct": "Yes",
           "wrong": [
-            "It has got a beak",
-            "It has got feathers"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentences 3-4.",
           "hl": [
@@ -3923,7 +3912,7 @@
     },
     {
       "id": "inf-3",
-      "title": "A Pet with a Beak",
+      "title": "A Pet Has a Beak",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🔍",
       "hlMode": "fade3",
@@ -4017,12 +4006,12 @@
           ]
         },
         {
-          "q": "How do we know it is a bird?",
-          "qTr": "Bunun bir kuş olduğunu nasıl anlıyoruz?",
-          "correct": "It has got a beak and wings",
+          "q": "Has the bird got a beak and wings?",
+          "qTr": "Kuşun gagası ve kanatları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "It has got whiskers",
-            "It has got paws"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentences 3-4.",
           "hl": [
@@ -4058,7 +4047,7 @@
         "There is a room for sleep.",
         "It is not a kitchen. It is not a sitting room.",
         "There is a bed in this room.",
-        "It is small and cosy.",
+        "It is a small room.",
         "What room is it?",
         "It is the bedroom!"
       ],
@@ -4066,7 +4055,7 @@
         "Uyumak için bir oda var.",
         "Bir mutfak değil. Bir oturma odası değil.",
         "Bu odada bir yatak var.",
-        "Küçük ve rahat.",
+        "Küçük bir oda.",
         "Bu hangi oda?",
         "Yatak odası!"
       ],
@@ -4111,12 +4100,12 @@
           ]
         },
         {
-          "q": "How is the room?",
-          "qTr": "Oda nasıl?",
-          "correct": "Small and cosy",
+          "q": "Is the room small?",
+          "qTr": "Oda küçük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Big and old",
-            "Sad and tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -4167,7 +4156,7 @@
         "It is a cat. It has got green eyes and white hair.",
         "Eda: My pet is a dog.",
         "Tom: My pet is a goldfish.",
-        "Can: My pet is a cat with green eyes.",
+        "This pet is a cat. It has got green eyes.",
         "Who has got this pet?",
         "It is Can!"
       ],
@@ -4176,7 +4165,7 @@
         "Bir kedi. Yeşil gözleri ve beyaz tüyleri var.",
         "Eda diyor: Benim evcil hayvanım bir köpek.",
         "Tom diyor: Benim evcil hayvanım bir Japon balığı.",
-        "Can diyor: Benim evcil hayvanım yeşil gözlü bir kedi.",
+        "Bu evcil hayvan bir kedi. Yeşil gözleri var.",
         "Bu evcil hayvan kimin?",
         "Can'ın!"
       ],
@@ -4275,7 +4264,7 @@
       "sentences": [
         "A sofa is in our house.",
         "It is not in the kitchen. It is not in the bedroom.",
-        "It is in a room with a coffee table.",
+        "There is a coffee table in this room.",
         "It is in a big room.",
         "Where is the sofa?",
         "It is in the sitting room!"
@@ -4283,7 +4272,7 @@
       "translations": [
         "Evimizde bir kanepe var.",
         "Mutfakta değil. Yatak odasında değil.",
-        "Bir sehpalı odada.",
+        "Bu odada bir sehpa var.",
         "Büyük bir odada.",
         "Kanepe nerede?",
         "Oturma odasında!"
@@ -4329,12 +4318,12 @@
           ]
         },
         {
-          "q": "How big is the room?",
-          "qTr": "Oda ne kadar büyük?",
-          "correct": "Big",
+          "q": "Is the room big?",
+          "qTr": "Oda büyük mü?",
+          "correct": "Yes",
           "wrong": [
-            "Small",
-            "Sad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -4381,7 +4370,7 @@
       ],
       "sentences": [
         "A pet is in our kitchen.",
-        "It is in a bowl with water.",
+        "It is in a bowl of water.",
         "It is not a cat. It is not a bird.",
         "It is small and has got orange and white colours.",
         "It has got a long tail.",
@@ -4439,12 +4428,12 @@
           ]
         },
         {
-          "q": "How long is the tail?",
-          "qTr": "Kuyruk ne kadar uzun?",
-          "correct": "Long",
+          "q": "Has the pet got a long tail?",
+          "qTr": "Evcil hayvanın uzun bir kuyruğu var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Short",
-            "Small"
+            "No",
+            "Maybe"
           ],
           "hint": "Find tail.",
           "hl": [
@@ -4469,7 +4458,7 @@
     },
     {
       "id": "inf-8",
-      "title": "Big Family or Small Family?",
+      "title": "A Big Family at Home",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🏡",
       "hlMode": "fade3",
@@ -4495,7 +4484,7 @@
         "There is a dining room. There is a bathroom.",
         "There are three bedrooms.",
         "There are seven people in this house.",
-        "Is the family big or small?",
+        "Is this a big family?",
         "The family is big!"
       ],
       "translations": [
@@ -4504,7 +4493,7 @@
         "Bir yemek odası var. Bir banyo var.",
         "Üç yatak odası var.",
         "Bu evde yedi kişi var.",
-        "Aile büyük mü küçük mü?",
+        "Bu kalabalık bir aile mi?",
         "Aile büyük!"
       ],
       "questions": [
@@ -4561,16 +4550,15 @@
           ]
         },
         {
-          "q": "How do we know the family is big?",
-          "qTr": "Ailenin kalabalık olduğunu nasıl anlıyoruz?",
-          "correct": "There are seven people",
+          "q": "Are there seven people in the house?",
+          "qTr": "Evde yedi kişi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "There is one bedroom",
-            "There is one room"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 5.",
           "hl": [
-            3,
             4
           ]
         }
@@ -4578,7 +4566,7 @@
     },
     {
       "id": "inf-9",
-      "title": "Beak or Whiskers?",
+      "title": "What Has a Beak?",
       "subtitle": "Use the clues to find the answer!",
       "icon": "🐱🐦",
       "hlMode": "fade3",
@@ -4602,8 +4590,8 @@
         "A pet has got a beak.",
         "It is not a cat.",
         "Lila: My cat has got whiskers, not a beak.",
-        "Tom: My bird has got a beak.",
-        "Eda: My dog has got a tail, not a beak.",
+        "A bird has got a beak.",
+        "A dog has got a tail, not a beak.",
         "Can: My goldfish has got a tail, not a beak.",
         "What pet has got a beak?",
         "It is a bird!"
@@ -4612,16 +4600,16 @@
         "Bir evcil hayvanın gagası var.",
         "Bir kedi değil.",
         "Lila diyor: Kedimin bıyıkları var, gagası değil.",
-        "Tom diyor: Kuşumun gagası var.",
-        "Eda diyor: Köpeğimin kuyruğu var, gagası değil.",
+        "Bir kuşun gagası var.",
+        "Bir köpeğin kuyruğu var, gagası değil.",
         "Can diyor: Japon balığımın kuyruğu var, gagası değil.",
         "Hangi evcil hayvanın gagası var?",
         "Bir kuş!"
       ],
       "questions": [
         {
-          "q": "What does this pet have?",
-          "qTr": "Bu evcil hayvanda ne var?",
+          "q": "What has this pet got?",
+          "qTr": "Bu evcil hayvanın nesi var?",
           "correct": "A beak",
           "wrong": [
             "Whiskers",
@@ -4633,8 +4621,8 @@
           ]
         },
         {
-          "q": "What does Lila say about her cat?",
-          "qTr": "Lila kedisi hakkında ne der?",
+          "q": "What has the cat got?",
+          "qTr": "Kedinin nesi var?",
           "correct": "Whiskers, not a beak",
           "wrong": [
             "A beak",
@@ -4646,8 +4634,8 @@
           ]
         },
         {
-          "q": "What does Tom say about his bird?",
-          "qTr": "Tom kuşu hakkında ne der?",
+          "q": "What has a bird got?",
+          "qTr": "Bir kuşun nesi var?",
           "correct": "A beak",
           "wrong": [
             "Whiskers",
@@ -4659,8 +4647,8 @@
           ]
         },
         {
-          "q": "What does Eda say about her dog?",
-          "qTr": "Eda köpeği hakkında ne der?",
+          "q": "What has a dog got?",
+          "qTr": "Bir köpeğin nesi var?",
           "correct": "A tail, not a beak",
           "wrong": [
             "A beak",
@@ -4783,12 +4771,12 @@
           ]
         },
         {
-          "q": "How many guests are in the house?",
-          "qTr": "Evde kaç misafir var?",
-          "correct": "Many",
+          "q": "Are there many guests in the house?",
+          "qTr": "Evde birçok misafir var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "One"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 5.",
           "hl": [
