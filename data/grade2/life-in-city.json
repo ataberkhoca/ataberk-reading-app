@@ -26,39 +26,28 @@
       ],
       "sentences": [
         "Eda: I like fruits!",
-        "Do you like apples? Yes, I do.",
-        "Do you like strawberries? Yes, I do!",
-        "Do you like bananas? Yes, I do.",
-        "Do you like pears? No, I don't.",
-        "Lila: I like strawberries, too!",
-        "Fruits are yummy!"
+        "Eda: Do you like apples, Lila?",
+        "Lila: Yes, I do. Apples are yummy!",
+        "Lila: Do you like strawberries, Eda?",
+        "Eda: Yes, I do!",
+        "Eda: Do you like bananas, Lila?",
+        "Lila: No, I don't. Bananas are not yummy for me.",
+        "Lila: Fruits are good for us!"
       ],
       "translations": [
         "Eda diyor: Meyveleri severim!",
-        "Elmaları sever misin? Evet, severim.",
-        "Çilekleri sever misin? Evet, severim!",
-        "Muzları sever misin? Evet, severim.",
-        "Armutları sever misin? Hayır, sevmem.",
-        "Lila diyor: Ben de çilekleri severim!",
-        "Meyveler nefis!"
+        "Eda diyor: Elmaları sever misin Lila?",
+        "Lila diyor: Evet, severim. Elmalar nefis!",
+        "Lila diyor: Çilekleri sever misin Eda?",
+        "Eda diyor: Evet, severim!",
+        "Eda diyor: Muzları sever misin Lila?",
+        "Lila diyor: Hayır, sevmem. Muzlar bana göre nefis değil.",
+        "Lila diyor: Meyveler bizim için iyidir!"
       ],
       "questions": [
         {
-          "q": "Does Eda like apples?",
-          "qTr": "Eda elma sever mi?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Does Eda like strawberries?",
-          "qTr": "Eda çilek sever mi?",
+          "q": "Are apples yummy for Lila?",
+          "qTr": "Elmalar Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -70,24 +59,11 @@
           ]
         },
         {
-          "q": "Does Eda like bananas?",
-          "qTr": "Eda muz sever mi?",
+          "q": "Are strawberries yummy for Eda?",
+          "qTr": "Çilekler Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Does Eda like pears?",
-          "qTr": "Eda armut sever mi?",
-          "correct": "No",
-          "wrong": [
-            "Yes",
             "Maybe"
           ],
           "hint": "Read sentence 5.",
@@ -96,16 +72,42 @@
           ]
         },
         {
-          "q": "What does Lila like?",
-          "qTr": "Lila neyi sever?",
-          "correct": "Strawberries",
+          "q": "Are bananas yummy for Lila?",
+          "qTr": "Muzlar Lila için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "Pears",
-            "Bananas"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
+          ]
+        },
+        {
+          "q": "Are fruits good for us?",
+          "qTr": "Meyveler bizim için iyi mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Who is with Eda?",
+          "qTr": "Eda ile kim var?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Can"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         }
       ]
@@ -134,28 +136,28 @@
       ],
       "sentences": [
         "Can: I have got some fruits in my kitchen!",
-        "I have got some oranges.",
-        "I have got some grapes.",
-        "I have got some cherries.",
-        "Do you like cherries? Yes, I do!",
-        "Do you like oranges? Yes, I do.",
-        "Tom: I like grapes, too!",
-        "Fruits are colourful and yummy!"
+        "Can: I have got some oranges and some grapes.",
+        "Can: I have got some cherries, too.",
+        "Can: Do you like cherries, Tom?",
+        "Tom: Yes, I do! Cherries are yummy.",
+        "Tom: Do you like oranges, Can?",
+        "Can: Yes, I do.",
+        "Tom: Fruits are colourful and yummy!"
       ],
       "translations": [
-        "Can diyor: Mutfağımda biraz meyve var!",
-        "Biraz portakalım var.",
-        "Biraz üzümüm var.",
-        "Biraz kirazım var.",
-        "Kirazları sever misin? Evet, severim!",
-        "Portakalları sever misin? Evet, severim.",
-        "Tom diyor: Ben de üzümü severim!",
-        "Meyveler renkli ve nefis!"
+        "Can diyor: Mutfağımda meyvelerim var!",
+        "Can diyor: Portakallarım ve üzümlerim var.",
+        "Can diyor: Kirazlarım da var.",
+        "Can diyor: Kirazları sever misin Tom?",
+        "Tom diyor: Evet, severim! Kirazlar nefis.",
+        "Tom diyor: Portakalları sever misin Can?",
+        "Can diyor: Evet, severim.",
+        "Tom diyor: Meyveler renkli ve nefis!"
       ],
       "questions": [
         {
-          "q": "What does Can have in the kitchen?",
-          "qTr": "Can'ın mutfakta nesi var?",
+          "q": "What has Can got in the kitchen?",
+          "qTr": "Can'ın mutfağında ne var?",
           "correct": "Some fruits",
           "wrong": [
             "Some pets",
@@ -174,16 +176,15 @@
             "Apples and bananas",
             "Tomatoes"
           ],
-          "hint": "Find sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "Does Can like cherries?",
-          "qTr": "Can kiraz sever mi?",
+          "q": "Are cherries yummy for Tom?",
+          "qTr": "Kirazlar Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -195,29 +196,29 @@
           ]
         },
         {
-          "q": "Does Can like oranges?",
-          "qTr": "Can portakal sever mi?",
+          "q": "Are oranges yummy for Can?",
+          "qTr": "Portakallar Can için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
-          "correct": "I like grapes, too!",
+          "q": "Are the fruits colourful?",
+          "qTr": "Meyveler renkli mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         }
       ]
@@ -246,39 +247,28 @@
       ],
       "sentences": [
         "Lila: I like vegetables!",
-        "Do you like carrots? Yes, I do!",
-        "Do you like lettuce? Yes, I do.",
-        "Do you like cucumbers? Yes, I do.",
-        "Do you like garlic? No, I don't.",
-        "Eda: I don't like spinach!",
-        "Vegetables are good for us!"
+        "Lila: Do you like carrots, Eda?",
+        "Eda: Yes, I do. Carrots are yummy!",
+        "Eda: Do you like lettuce, Lila?",
+        "Lila: Yes, I do.",
+        "Lila: Do you like garlic, Eda?",
+        "Eda: No, I don't. Garlic is not yummy for me.",
+        "Eda: Vegetables are good for us!"
       ],
       "translations": [
         "Lila diyor: Sebzeleri severim!",
-        "Havuçları sever misin? Evet, severim!",
-        "Marulu sever misin? Evet, severim.",
-        "Salatalıkları sever misin? Evet, severim.",
-        "Sarımsağı sever misin? Hayır, sevmem.",
-        "Eda diyor: Ben ıspanağı sevmem!",
-        "Sebzeler bizim için iyi!"
+        "Lila diyor: Havuçları sever misin Eda?",
+        "Eda diyor: Evet, severim. Havuçlar nefis!",
+        "Eda diyor: Marulu sever misin Lila?",
+        "Lila diyor: Evet, severim.",
+        "Lila diyor: Sarımsağı sever misin Eda?",
+        "Eda diyor: Hayır, sevmem. Sarımsak bana göre nefis değil.",
+        "Eda diyor: Sebzeler bizim için iyidir!"
       ],
       "questions": [
         {
-          "q": "Does Lila like carrots?",
-          "qTr": "Lila havuç sever mi?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Does Lila like lettuce?",
-          "qTr": "Lila marul sever mi?",
+          "q": "Are carrots yummy for Eda?",
+          "qTr": "Havuçlar Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -290,11 +280,11 @@
           ]
         },
         {
-          "q": "Does Lila like garlic?",
-          "qTr": "Lila sarımsak sever mi?",
-          "correct": "No",
+          "q": "Is lettuce yummy for Lila?",
+          "qTr": "Marul Lila için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Yes",
+            "No",
             "Maybe"
           ],
           "hint": "Read sentence 5.",
@@ -303,29 +293,42 @@
           ]
         },
         {
-          "q": "What does Eda say about spinach?",
-          "qTr": "Eda ıspanak hakkında ne der?",
-          "correct": "I don't like spinach!",
+          "q": "Is garlic yummy for Eda?",
+          "qTr": "Sarımsak Eda için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "I like spinach!",
-            "Goodbye!"
-          ],
-          "hint": "Find Eda.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Are vegetables good?",
-          "qTr": "Sebzeler güzel mi?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
+            "Yes",
             "Maybe"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Are vegetables good for us?",
+          "qTr": "Sebzeler bizim için iyi mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "Who is with Lila?",
+          "qTr": "Lila ile kim var?",
+          "correct": "Eda",
+          "wrong": [
+            "Tom",
+            "Can"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         }
       ]
@@ -354,27 +357,27 @@
       ],
       "sentences": [
         "Can: I have got some vegetables on my plate.",
-        "I have got some potatoes.",
-        "I have got some beans.",
-        "I have got some peppers.",
-        "Do you like potatoes? Yes, I do!",
-        "Do you like broccoli? No, I don't.",
-        "Lila: I like broccoli!",
-        "Vegetables are different for us!"
+        "Can: I have got some potatoes and some beans.",
+        "Can: I have got some peppers, too.",
+        "Can: Do you like potatoes, Lila?",
+        "Lila: Yes, I do! Potatoes are yummy.",
+        "Lila: Do you like broccoli, Can?",
+        "Can: No, I don't. Broccoli is not yummy for me.",
+        "Lila: Vegetables are good for us!"
       ],
       "translations": [
-        "Can diyor: Tabağımda biraz sebze var.",
-        "Biraz patatesim var.",
-        "Biraz fasulyem var.",
-        "Biraz biberim var.",
-        "Patatesleri sever misin? Evet, severim!",
-        "Brokoliyi sever misin? Hayır, sevmem.",
-        "Lila diyor: Ben brokoliyi severim!",
-        "Sebzeler herkes için farklı!"
+        "Can diyor: Tabağımda sebzeler var.",
+        "Can diyor: Patateslerim ve fasulyelerim var.",
+        "Can diyor: Biberlerim de var.",
+        "Can diyor: Patatesleri sever misin Lila?",
+        "Lila diyor: Evet, severim! Patatesler nefis.",
+        "Lila diyor: Brokoliyi sever misin Can?",
+        "Can diyor: Hayır, sevmem. Brokoli bana göre nefis değil.",
+        "Lila diyor: Sebzeler bizim için iyidir!"
       ],
       "questions": [
         {
-          "q": "What does Can have on the plate?",
+          "q": "What has Can got on the plate?",
           "qTr": "Can'ın tabağında ne var?",
           "correct": "Some vegetables",
           "wrong": [
@@ -394,16 +397,15 @@
             "Carrots and lettuce",
             "Spinach"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "Does Can like potatoes?",
-          "qTr": "Can patates sever mi?",
+          "q": "Are potatoes yummy for Lila?",
+          "qTr": "Patatesler Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -415,29 +417,29 @@
           ]
         },
         {
-          "q": "Does Can like broccoli?",
-          "qTr": "Can brokoli sever mi?",
+          "q": "Is broccoli yummy for Can?",
+          "qTr": "Brokoli Can için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Lila like?",
-          "qTr": "Lila neyi sever?",
-          "correct": "Broccoli",
+          "q": "Are vegetables good for us?",
+          "qTr": "Sebzeler bizim için iyi mi?",
+          "correct": "Yes",
           "wrong": [
-            "Potatoes",
-            "Beans"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         }
       ]
@@ -466,32 +468,32 @@
       ],
       "sentences": [
         "Tom: I am thirsty!",
-        "I have got some water.",
-        "I have got some milk.",
-        "I have got some ayran.",
-        "Do you like ayran? Yes, I do! Ayran is yummy.",
-        "Do you like coffee? No, I don't.",
-        "Can: I like tea!",
-        "Drinks are nice for us!"
+        "Tom: I have got some water and some milk.",
+        "Tom: I have got some ayran, too.",
+        "Tom: Do you like ayran, Can?",
+        "Can: Yes, I do! Ayran is yummy.",
+        "Can: Do you like coffee, Tom?",
+        "Tom: No, I don't. Coffee is not yummy for me.",
+        "Can: Drinks are nice for us!"
       ],
       "translations": [
         "Tom diyor: Susadım!",
-        "Biraz suyum var.",
-        "Biraz sütüm var.",
-        "Biraz ayranım var.",
-        "Ayranı sever misin? Evet, severim! Ayran nefis.",
-        "Kahveyi sever misin? Hayır, sevmem.",
-        "Can diyor: Ben çay severim!",
-        "İçecekler bizim için güzel!"
+        "Tom diyor: Suyum ve sütüm var.",
+        "Tom diyor: Ayranım da var.",
+        "Tom diyor: Ayranı sever misin Can?",
+        "Can diyor: Evet, severim! Ayran nefis.",
+        "Can diyor: Kahveyi sever misin Tom?",
+        "Tom diyor: Hayır, sevmem. Kahve bana göre nefis değil.",
+        "Can diyor: İçecekler bizim için güzeldir!"
       ],
       "questions": [
         {
-          "q": "How does Tom feel?",
-          "qTr": "Tom nasıl hissediyor?",
-          "correct": "Thirsty",
+          "q": "Is Tom thirsty?",
+          "qTr": "Tom susamış mı?",
+          "correct": "Yes",
           "wrong": [
-            "Hungry",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -499,23 +501,22 @@
           ]
         },
         {
-          "q": "What three drinks are mentioned?",
-          "qTr": "Hangi üç içecekten bahsediliyor?",
+          "q": "What drinks has Tom got?",
+          "qTr": "Tom'un hangi içecekleri var?",
           "correct": "Water, milk and ayran",
           "wrong": [
             "Tea and coffee",
             "Juice"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "Does Tom like ayran?",
-          "qTr": "Tom ayran sever mi?",
+          "q": "Is ayran yummy for Can?",
+          "qTr": "Ayran Can için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -527,29 +528,29 @@
           ]
         },
         {
-          "q": "Does Tom like coffee?",
-          "qTr": "Tom kahve sever mi?",
+          "q": "Is coffee yummy for Tom?",
+          "qTr": "Kahve Tom için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Can like?",
-          "qTr": "Can neyi sever?",
-          "correct": "Tea",
+          "q": "Are drinks nice for us?",
+          "qTr": "İçecekler bizim için güzel mi?",
+          "correct": "Yes",
           "wrong": [
-            "Coffee",
-            "Ayran"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         }
       ]
@@ -578,28 +579,28 @@
       ],
       "sentences": [
         "Eda: I have got some food on my plate!",
-        "I have got some bread.",
-        "I have got some eggs.",
-        "I have got some chicken.",
-        "Do you like fish? Yes, I do!",
-        "Do you like meat? Yes, I do.",
-        "Tom: I like bread and eggs!",
-        "Food is yummy for me!"
+        "Eda: I have got some bread and some eggs.",
+        "Eda: I have got some chicken, too.",
+        "Eda: Do you like fish, Tom?",
+        "Tom: Yes, I do! Fish is yummy.",
+        "Tom: Do you like meat, Eda?",
+        "Eda: Yes, I do.",
+        "Tom: Food is yummy for us!"
       ],
       "translations": [
-        "Eda diyor: Tabağımda biraz yemek var!",
-        "Biraz ekmeğim var.",
-        "Biraz yumurtam var.",
-        "Biraz tavuğum var.",
-        "Balığı sever misin? Evet, severim!",
-        "Eti sever misin? Evet, severim.",
-        "Tom diyor: Ben ekmek ve yumurta severim!",
-        "Yemek benim için nefis!"
+        "Eda diyor: Tabağımda yemek var!",
+        "Eda diyor: Ekmeğim ve yumurtalarım var.",
+        "Eda diyor: Tavuğum da var.",
+        "Eda diyor: Balığı sever misin Tom?",
+        "Tom diyor: Evet, severim! Balık nefis.",
+        "Tom diyor: Eti sever misin Eda?",
+        "Eda diyor: Evet, severim.",
+        "Tom diyor: Yemek bizim için nefis!"
       ],
       "questions": [
         {
-          "q": "What is on the plate?",
-          "qTr": "Tabakta ne var?",
+          "q": "What has Eda got on the plate?",
+          "qTr": "Eda'nın tabağında ne var?",
           "correct": "Some food",
           "wrong": [
             "Some toys",
@@ -612,22 +613,21 @@
         },
         {
           "q": "What food has Eda got?",
-          "qTr": "Eda'nın hangi yemeği var?",
+          "qTr": "Eda'nın hangi yiyecekleri var?",
           "correct": "Bread, eggs and chicken",
           "wrong": [
             "Apples",
             "Carrots"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "Does Eda like fish?",
-          "qTr": "Eda balık sever mi?",
+          "q": "Is fish yummy for Tom?",
+          "qTr": "Balık Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -639,29 +639,29 @@
           ]
         },
         {
-          "q": "Does Eda like meat?",
-          "qTr": "Eda et sever mi?",
+          "q": "Is meat yummy for Eda?",
+          "qTr": "Et Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Tom like?",
-          "qTr": "Tom neyi sever?",
-          "correct": "Bread and eggs",
+          "q": "Is food yummy for us?",
+          "qTr": "Yemek bizim için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Fish and meat",
-            "Milk and tea"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         }
       ]
@@ -691,27 +691,27 @@
       "sentences": [
         "Time for breakfast!",
         "Lila: For breakfast, I have got some bread.",
-        "I have got some eggs and some milk.",
-        "I have got some tomatoes, too.",
-        "Do you like eggs for breakfast? Yes, I do!",
+        "Lila: I have got some eggs and some milk.",
+        "Lila: I have got some tomatoes, too.",
+        "Can: Do you like eggs for breakfast, Lila?",
+        "Lila: Yes, I do! Eggs are yummy.",
         "Can: For breakfast, I have got some bread and some ayran.",
-        "Breakfast is yummy!",
-        "Enjoy your meal!"
+        "Lila: Enjoy your meal!"
       ],
       "translations": [
         "Kahvaltı zamanı!",
-        "Lila diyor: Kahvaltıda biraz ekmeğim var.",
-        "Biraz yumurtam ve biraz sütüm var.",
-        "Biraz da domatesim var.",
-        "Kahvaltıda yumurtayı sever misin? Evet, severim!",
-        "Can diyor: Kahvaltıda biraz ekmeğim ve biraz ayranım var.",
-        "Kahvaltı nefis!",
-        "Afiyet olsun!"
+        "Lila diyor: Kahvaltıda ekmeğim var.",
+        "Lila diyor: Yumurtalarım ve sütüm var.",
+        "Lila diyor: Domateslerim de var.",
+        "Can diyor: Kahvaltıda yumurtaları sever misin Lila?",
+        "Lila diyor: Evet, severim! Yumurtalar nefis.",
+        "Can diyor: Kahvaltıda ekmeğim ve ayranım var.",
+        "Lila diyor: Afiyet olsun!"
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Breakfast",
           "wrong": [
             "Lunch",
@@ -730,7 +730,7 @@
             "Chicken and beans",
             "Only milk"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             2,
@@ -738,16 +738,16 @@
           ]
         },
         {
-          "q": "Does Lila like eggs for breakfast?",
-          "qTr": "Lila kahvaltıda yumurta sever mi?",
+          "q": "Are eggs yummy for Lila?",
+          "qTr": "Yumurtalar Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 6.",
           "hl": [
-            4
+            5
           ]
         },
         {
@@ -758,22 +758,22 @@
             "Eggs and milk",
             "Tea and biscuits"
           ],
-          "hint": "Find Can.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "How is breakfast?",
-          "qTr": "Kahvaltı nasıl?",
-          "correct": "Yummy",
-          "wrong": [
-            "Sad",
-            "Bad"
-          ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Is it time for breakfast?",
+          "qTr": "Kahvaltı zamanı mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
           ]
         }
       ]
@@ -803,27 +803,27 @@
       "sentences": [
         "Time for lunch!",
         "Tom: For lunch, I have got some chicken.",
-        "I have got some bread and some carrots.",
-        "I have got some water, too.",
-        "Eda: For lunch, I have got some fish.",
-        "I have got some potatoes and some lettuce.",
-        "Do you like fish for lunch? Yes, I do!",
-        "Lunch is delicious!"
+        "Tom: I have got some bread and some carrots.",
+        "Tom: I have got some water, too.",
+        "Eda: For lunch, I have got some fish and some potatoes.",
+        "Tom: Do you like fish for lunch, Eda?",
+        "Eda: Yes, I do! Fish is yummy.",
+        "Eda: Lunch is delicious!"
       ],
       "translations": [
         "Öğle yemeği zamanı!",
-        "Tom diyor: Öğlen biraz tavuğum var.",
-        "Biraz ekmeğim ve biraz havucum var.",
-        "Biraz da suyum var.",
-        "Eda diyor: Öğlen biraz balığım var.",
-        "Biraz patatesim ve biraz marulum var.",
-        "Öğlen balık sever misin? Evet, severim!",
-        "Öğle yemeği lezzetli!"
+        "Tom diyor: Öğle yemeğinde tavuğum var.",
+        "Tom diyor: Ekmeğim ve havuçlarım var.",
+        "Tom diyor: Suyum da var.",
+        "Eda diyor: Öğle yemeğinde balığım ve patateslerim var.",
+        "Tom diyor: Öğle yemeğinde balığı sever misin Eda?",
+        "Eda diyor: Evet, severim! Balık nefis.",
+        "Eda diyor: Öğle yemeği nefis!"
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Lunch",
           "wrong": [
             "Breakfast",
@@ -837,12 +837,12 @@
         {
           "q": "What has Tom got for lunch?",
           "qTr": "Tom'un öğle yemeğinde nesi var?",
-          "correct": "Chicken, bread, carrots, water",
+          "correct": "Chicken, bread, carrots and water",
           "wrong": [
             "Bread and eggs",
             "Tea"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             2,
@@ -852,20 +852,19 @@
         {
           "q": "What has Eda got for lunch?",
           "qTr": "Eda'nın öğle yemeğinde nesi var?",
-          "correct": "Fish, potatoes, lettuce",
+          "correct": "Fish and potatoes",
           "wrong": [
-            "Chicken, rice",
+            "Chicken and rice",
             "Only milk"
           ],
-          "hint": "Read sentences 5-6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            4,
-            5
+            4
           ]
         },
         {
-          "q": "Does Eda like fish for lunch?",
-          "qTr": "Eda öğle yemeğinde balık sever mi?",
+          "q": "Is fish yummy for Eda?",
+          "qTr": "Balık Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -877,12 +876,12 @@
           ]
         },
         {
-          "q": "How is lunch?",
-          "qTr": "Öğle yemeği nasıl?",
-          "correct": "Delicious",
+          "q": "Is lunch delicious?",
+          "qTr": "Öğle yemeği nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Bad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -918,21 +917,21 @@
         "Eda: Mum, can I have some bread?",
         "The mum: Yes, you can!",
         "Eda: Thank you, mum!",
-        "Can I have some milk, too?",
-        "Yes, you can!  the mum.",
-        "Can I have some apples?",
-        "Yes, you can!  the mum.",
+        "Eda: Can I have some milk, too?",
+        "The mum: Yes, you can!",
+        "Eda: Can I have some apples?",
+        "The mum: Yes, you can!",
         "Eda is happy in the kitchen!"
       ],
       "translations": [
-        "Eda mutfakta annesiyle.",
+        "Eda annesiyle mutfakta.",
         "Eda diyor: Anne, biraz ekmek alabilir miyim?",
         "Anne diyor: Evet, alabilirsin!",
-        "Eda diyor: Teşekkürler, anne!",
-        "Biraz süt de alabilir miyim?",
-        "Evet, alabilirsin! diyor anne.",
-        "Biraz elma alabilir miyim?",
-        "Evet, alabilirsin! diyor anne.",
+        "Eda diyor: Teşekkürler anne!",
+        "Eda diyor: Biraz süt de alabilir miyim?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Eda diyor: Biraz elma alabilir miyim?",
+        "Anne diyor: Evet, alabilirsin!",
         "Eda mutfakta mutlu!"
       ],
       "questions": [
@@ -950,52 +949,52 @@
           ]
         },
         {
-          "q": "What does Eda ask first?",
-          "qTr": "Eda önce ne sorar?",
-          "correct": "Can I have some bread?",
+          "q": "Can Eda have some bread?",
+          "qTr": "Eda biraz ekmek alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Can I go?",
-            "Goodbye!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does the mum answer?",
-          "qTr": "Anne ne cevap verir?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Find mum.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What else does Eda ask for?",
-          "qTr": "Eda başka ne ister?",
-          "correct": "Some milk and some apples",
+          "q": "What is the mum's answer?",
+          "qTr": "Annenin cevabı ne?",
+          "correct": "Yes, you can!",
           "wrong": [
-            "Some chicken",
-            "Some fish"
+            "No, you can't!",
+            "Goodbye!"
           ],
-          "hint": "Read sentences 5 and 7.",
+          "hint": "Read sentence 3.",
           "hl": [
-            4,
-            6
+            2
           ]
         },
         {
-          "q": "How is Eda?",
-          "qTr": "Eda nasıl?",
-          "correct": "Happy",
+          "q": "Can Eda have some milk and some apples?",
+          "qTr": "Eda biraz süt ve elma alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5,
+            7
+          ]
+        },
+        {
+          "q": "Is Eda happy?",
+          "qTr": "Eda mutlu mu?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 9.",
           "hl": [
@@ -1030,28 +1029,28 @@
         "Today is the 23rd of April.",
         "It is Children's Day in Türkiye!",
         "Eda: My family is in our kitchen!",
-        "We have got some yummy food for lunch.",
-        "I have got some chicken and some potatoes.",
-        "I have got some ayran, too.",
+        "Eda: We have got some yummy food for lunch.",
+        "Eda: I have got some chicken and some potatoes.",
+        "Eda: I have got some ayran, too.",
         "Can: My family is happy today!",
-        "We have got some bread and some eggs.",
+        "Can: We have got some bread and some eggs.",
         "Happy Children's Day!"
       ],
       "translations": [
         "Bugün 23 Nisan.",
         "Türkiye'de Çocuk Bayramı!",
         "Eda diyor: Ailem mutfağımızda!",
-        "Öğlen yemeği için biraz nefis yiyeceğimiz var.",
-        "Biraz tavuğum ve biraz patatesim var.",
-        "Biraz da ayranım var.",
+        "Eda diyor: Öğle yemeği için nefis yiyeceğimiz var.",
+        "Eda diyor: Tavuğum ve patateslerim var.",
+        "Eda diyor: Ayranım da var.",
         "Can diyor: Ailem bugün mutlu!",
-        "Biraz ekmeğimiz ve biraz yumurtamız var.",
-        "Mutlu Çocuk Bayramı!"
+        "Can diyor: Ekmeğimiz ve yumurtalarımız var.",
+        "Çocuk Bayramı kutlu olsun!"
       ],
       "questions": [
         {
           "q": "What date is it today?",
-          "qTr": "Bugünün tarihi nedir?",
+          "qTr": "Bugün hangi tarih?",
           "correct": "The 23rd of April",
           "wrong": [
             "The 29th of October",
@@ -1064,7 +1063,7 @@
         },
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
             "Republic Day",
@@ -1083,7 +1082,7 @@
             "Fish and bread",
             "Apples"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 5.",
           "hl": [
             4,
             5
@@ -1091,26 +1090,26 @@
         },
         {
           "q": "What has Can got?",
-          "qTr": "Can'da ne var?",
+          "qTr": "Can'ın nesi var?",
           "correct": "Bread and eggs",
           "wrong": [
             "Chicken and fish",
             "Carrots"
           ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
           ]
         },
         {
-          "q": "How is the family today?",
-          "qTr": "Aile bugün nasıl?",
-          "correct": "Happy",
+          "q": "Is the family happy today?",
+          "qTr": "Aile bugün mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 7.",
           "hl": [
             6
           ]
@@ -1142,31 +1141,31 @@
       "sentences": [
         "Eda: Mum, is there a banana in the kitchen?",
         "Mum: Yes, there is. There is one banana.",
-        "Eda: Are there any potatoes?",
-        "Mum: Yes, there are. There are five potatoes.",
-        "Eda: Are there any courgettes?",
-        "Mum: No, there aren't any courgettes today.",
+        "Eda: Are there potatoes?",
+        "Mum: Yes, there are some potatoes.",
+        "Eda: Are there courgettes?",
+        "Mum: No, there aren't.",
         "Can: Is there a cauliflower in the kitchen?",
         "Mum: Yes, there is one cauliflower.",
-        "Can: Are there any cherries?",
-        "Mum: Yes, there are many cherries!"
+        "Can: Are there cherries?",
+        "Mum: Yes, there are some cherries!"
       ],
       "translations": [
-        "Eda: Anne, mutfakta muz var mı?",
-        "Anne: Evet, var. Bir muz var.",
-        "Eda: Hiç patates var mı?",
-        "Anne: Evet, var. Beş patates var.",
-        "Eda: Hiç kabak var mı?",
-        "Anne: Hayır, bugün hiç kabak yok.",
-        "Can: Mutfakta karnabahar var mı?",
-        "Anne: Evet, bir karnabahar var.",
-        "Can: Hiç kiraz var mı?",
-        "Anne: Evet, birçok kiraz var!"
+        "Eda diyor: Anne, mutfakta bir muz var mı?",
+        "Anne diyor: Evet, var. Bir muz var.",
+        "Eda diyor: Patates var mı?",
+        "Anne diyor: Evet, biraz patates var.",
+        "Eda diyor: Kabak var mı?",
+        "Anne diyor: Hayır, yok.",
+        "Can diyor: Mutfakta bir karnabahar var mı?",
+        "Anne diyor: Evet, bir karnabahar var.",
+        "Can diyor: Kiraz var mı?",
+        "Anne diyor: Evet, biraz kiraz var!"
       ],
       "questions": [
         {
           "q": "Is there a banana in the kitchen?",
-          "qTr": "Mutfakta muz var mı?",
+          "qTr": "Mutfakta bir muz var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -1178,12 +1177,12 @@
           ]
         },
         {
-          "q": "How many potatoes are there?",
-          "qTr": "Kaç patates var?",
-          "correct": "Five",
+          "q": "Are there potatoes?",
+          "qTr": "Patates var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Three",
-            "Two"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -1191,8 +1190,8 @@
           ]
         },
         {
-          "q": "Are there any courgettes?",
-          "qTr": "Hiç kabak var mı?",
+          "q": "Are there courgettes?",
+          "qTr": "Kabak var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -1204,12 +1203,12 @@
           ]
         },
         {
-          "q": "How many cauliflowers are there?",
-          "qTr": "Kaç karnabahar var?",
-          "correct": "One",
+          "q": "Is there a cauliflower?",
+          "qTr": "Bir karnabahar var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Two",
-            "Five"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -1217,8 +1216,8 @@
           ]
         },
         {
-          "q": "Are there any cherries?",
-          "qTr": "Hiç kiraz var mı?",
+          "q": "Are there cherries?",
+          "qTr": "Kiraz var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -1256,90 +1255,90 @@
         }
       ],
       "sentences": [
-        "Eda: I like many fruits!",
-        "Do you like apples? Yes, I do.",
-        "Do you like strawberries? Yes, I do!",
-        "Do you like cherries? Yes, I do.",
-        "Tom: I like grapes and bananas!",
-        "Do you like pears? Yes, I do, too!",
-        "Fruits are yummy and colourful!",
-        "Fruits are good for us!"
+        "Eda: I like some fruits!",
+        "Eda: Do you like apples, Tom?",
+        "Tom: Yes, I do. Apples are yummy!",
+        "Tom: Do you like cherries, Eda?",
+        "Eda: Yes, I do!",
+        "Eda: Do you like pears, Tom?",
+        "Tom: Yes, I do, too! Pears are yummy.",
+        "Tom: Fruits are good for us!"
       ],
       "translations": [
-        "Eda diyor: Birçok meyveyi severim!",
-        "Elmaları sever misin? Evet, severim.",
-        "Çilekleri sever misin? Evet, severim!",
-        "Kirazları sever misin? Evet, severim.",
-        "Tom diyor: Üzüm ve muz severim!",
-        "Armutları sever misin? Evet, ben de severim!",
-        "Meyveler nefis ve renkli!",
-        "Meyveler bizim için iyi!"
+        "Eda diyor: Bazı meyveleri severim!",
+        "Eda diyor: Elmaları sever misin Tom?",
+        "Tom diyor: Evet, severim. Elmalar nefis!",
+        "Tom diyor: Kirazları sever misin Eda?",
+        "Eda diyor: Evet, severim!",
+        "Eda diyor: Armutları sever misin Tom?",
+        "Tom diyor: Evet, ben de severim! Armutlar nefis.",
+        "Tom diyor: Meyveler bizim için iyidir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Liking fruits",
           "wrong": [
             "Vegetables",
             "Drinks"
           ],
-          "hint": "Think about the fruits.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
-            6
+            7
           ]
         },
         {
-          "q": "Does Eda like apples?",
-          "qTr": "Eda elma sever mi?",
+          "q": "Are apples yummy for Tom?",
+          "qTr": "Elmalar Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "Does Eda like cherries?",
-          "qTr": "Eda kiraz sever mi?",
+          "q": "Are cherries yummy for Eda?",
+          "qTr": "Kirazlar Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "What does Tom like?",
-          "qTr": "Tom neyi sever?",
-          "correct": "Grapes and bananas",
-          "wrong": [
-            "Pears and apples",
-            "Cherries"
-          ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "How are fruits?",
-          "qTr": "Meyveler nasıl?",
-          "correct": "Yummy and colourful",
+          "q": "Are pears yummy for Tom?",
+          "qTr": "Armutlar Tom için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad and bad",
-            "Big and old"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Are fruits good for us?",
+          "qTr": "Meyveler bizim için iyi mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
           ]
         }
       ]
@@ -1368,90 +1367,88 @@
       ],
       "sentences": [
         "Lila: I like vegetables!",
-        "Do you like carrots? Yes, I do.",
-        "Do you like cucumbers? Yes, I do!",
-        "Do you like spinach? Yes, I do.",
-        "Can: I don't like broccoli!",
-        "I don't like cauliflower!",
-        "I like potatoes and beans.",
-        "Vegetables are different for us!"
+        "Lila: Do you like carrots, Can?",
+        "Can: Yes, I do. Carrots are yummy!",
+        "Can: Do you like cucumbers, Lila?",
+        "Lila: Yes, I do!",
+        "Lila: Do you like broccoli, Can?",
+        "Can: No, I don't. Broccoli is not yummy for me.",
+        "Can: Vegetables are different for us!"
       ],
       "translations": [
         "Lila diyor: Sebzeleri severim!",
-        "Havuçları sever misin? Evet, severim.",
-        "Salatalıkları sever misin? Evet, severim!",
-        "Ispanağı sever misin? Evet, severim.",
-        "Can diyor: Brokoliyi sevmem!",
-        "Karnabaharı sevmem!",
-        "Patates ve fasulyeyi severim.",
-        "Sebzeler herkes için farklı!"
+        "Lila diyor: Havuçları sever misin Can?",
+        "Can diyor: Evet, severim. Havuçlar nefis!",
+        "Can diyor: Salatalıkları sever misin Lila?",
+        "Lila diyor: Evet, severim!",
+        "Lila diyor: Brokoliyi sever misin Can?",
+        "Can diyor: Hayır, sevmem. Brokoli bana göre nefis değil.",
+        "Can diyor: Sebzeler bizim için farklıdır!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Liking vegetables",
           "wrong": [
             "Fruits",
             "Drinks"
           ],
-          "hint": "Think about the vegetables.",
+          "hint": "Read sentence 1.",
           "hl": [
-            0,
-            7
+            0
           ]
         },
         {
-          "q": "Does Lila like carrots?",
-          "qTr": "Lila havuç sever mi?",
+          "q": "Are carrots yummy for Can?",
+          "qTr": "Havuçlar Can için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "Does Lila like spinach?",
-          "qTr": "Lila ıspanak sever mi?",
+          "q": "Are cucumbers yummy for Lila?",
+          "qTr": "Salatalıklar Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "What does Can not like?",
-          "qTr": "Can neyi sevmez?",
-          "correct": "Broccoli and cauliflower",
+          "q": "Is broccoli yummy for Can?",
+          "qTr": "Brokoli Can için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "Potatoes",
-            "Beans"
-          ],
-          "hint": "Find Can.",
-          "hl": [
-            4,
-            5
-          ]
-        },
-        {
-          "q": "What does Can like?",
-          "qTr": "Can neyi sever?",
-          "correct": "Potatoes and beans",
-          "wrong": [
-            "Broccoli",
-            "Cauliflower"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Who is with Can?",
+          "qTr": "Can ile kim var?",
+          "correct": "Lila",
+          "wrong": [
+            "Eda",
+            "Tom"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         }
       ]
@@ -1479,53 +1476,46 @@
         }
       ],
       "sentences": [
-        "Tom is in the kitchen.",
-        "Is there a banana in the kitchen? Yes, there is.",
-        "Are there any apples? Yes, there are.",
-        "Is there any milk? Yes, there is some milk.",
-        "Are there any oranges? No, there aren't.",
-        "Eda: Are there any cherries? Yes, there are!",
-        "There are many fruits in our kitchen!"
+        "Tom is in the kitchen with Eda.",
+        "Tom: Is there a banana?",
+        "Eda: Yes, there is. There is one banana.",
+        "Eda: Are there apples?",
+        "Tom: Yes, there are some apples.",
+        "Tom: Are there oranges?",
+        "Eda: No, there aren't.",
+        "Eda: Are there cherries?",
+        "Tom: Yes, there are some cherries!",
+        "There is some food in our kitchen!"
       ],
       "translations": [
-        "Tom mutfakta.",
-        "Mutfakta bir muz var mı? Evet, var.",
-        "Elma var mı? Evet, var.",
-        "Süt var mı? Evet, biraz süt var.",
-        "Portakal var mı? Hayır, yok.",
-        "Eda diyor: Kiraz var mı? Evet, var!",
-        "Mutfağımızda birçok meyve var!"
+        "Tom, Eda ile mutfakta.",
+        "Tom diyor: Bir muz var mı?",
+        "Eda diyor: Evet, var. Bir muz var.",
+        "Eda diyor: Elma var mı?",
+        "Tom diyor: Evet, biraz elma var.",
+        "Tom diyor: Portakal var mı?",
+        "Eda diyor: Hayır, yok.",
+        "Eda diyor: Kiraz var mı?",
+        "Tom diyor: Evet, biraz kiraz var!",
+        "Mutfağımızda biraz yiyecek var!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Food in the kitchen",
           "wrong": [
             "School",
             "Pets"
           ],
-          "hint": "Think about the food.",
+          "hint": "Read sentence 10.",
           "hl": [
-            6
+            9
           ]
         },
         {
           "q": "Is there a banana?",
-          "qTr": "Muz var mı?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Are there any apples?",
-          "qTr": "Hiç elma var mı?",
+          "qTr": "Bir muz var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -1537,11 +1527,11 @@
           ]
         },
         {
-          "q": "Are there any oranges?",
-          "qTr": "Hiç portakal var mı?",
-          "correct": "No",
+          "q": "Are there apples?",
+          "qTr": "Elma var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Yes",
+            "No",
             "Maybe"
           ],
           "hint": "Read sentence 5.",
@@ -1550,16 +1540,29 @@
           ]
         },
         {
-          "q": "What does Eda ask about?",
-          "qTr": "Eda ne hakkında sorar?",
-          "correct": "Cherries",
+          "q": "Are there oranges?",
+          "qTr": "Portakal var mı?",
+          "correct": "No",
           "wrong": [
-            "Apples",
-            "Bananas"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
+          ]
+        },
+        {
+          "q": "Are there cherries?",
+          "qTr": "Kiraz var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
           ]
         }
       ]
@@ -1587,56 +1590,46 @@
         }
       ],
       "sentences": [
-        "Can is in the kitchen with the fridge.",
-        "Is there a tomato in the fridge? Yes, there is.",
-        "Are there any cucumbers? Yes, there are.",
-        "Are there any peppers? Yes, there are some peppers.",
-        "Is there any garlic? No, there isn't.",
-        "Are there any potatoes? No, there aren't.",
-        "Lila: I like cucumbers!",
-        "There are many vegetables in the fridge!"
+        "Can is in the kitchen with Lila.",
+        "Can: Is there a tomato?",
+        "Lila: Yes, there is. There is one tomato.",
+        "Lila: Are there cucumbers?",
+        "Can: Yes, there are some cucumbers.",
+        "Can: Are there peppers?",
+        "Lila: Yes, there are some peppers.",
+        "Lila: Is there garlic?",
+        "Can: No, there isn't.",
+        "There is some food in the fridge!"
       ],
       "translations": [
-        "Can mutfakta buzdolabıyla.",
-        "Buzdolabında bir domates var mı? Evet, var.",
-        "Salatalık var mı? Evet, var.",
-        "Biber var mı? Evet, biraz biber var.",
-        "Sarımsak var mı? Hayır, yok.",
-        "Patates var mı? Hayır, yok.",
-        "Lila diyor: Salatalıkları severim!",
-        "Buzdolabında birçok sebze var!"
+        "Can, Lila ile mutfakta.",
+        "Can diyor: Bir domates var mı?",
+        "Lila diyor: Evet, var. Bir domates var.",
+        "Lila diyor: Salatalık var mı?",
+        "Can diyor: Evet, biraz salatalık var.",
+        "Can diyor: Biber var mı?",
+        "Lila diyor: Evet, biraz biber var.",
+        "Lila diyor: Sarımsak var mı?",
+        "Can diyor: Hayır, yok.",
+        "Buzdolabında biraz yiyecek var!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Vegetables in a fridge",
+          "qTr": "Metin temel olarak ne hakkında?",
+          "correct": "Food in a fridge",
           "wrong": [
             "School",
             "Pets"
           ],
-          "hint": "Think about the fridge.",
+          "hint": "Read sentence 10.",
           "hl": [
-            0,
-            7
+            9
           ]
         },
         {
           "q": "Is there a tomato?",
-          "qTr": "Domates var mı?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Are there any cucumbers?",
-          "qTr": "Hiç salatalık var mı?",
+          "qTr": "Bir domates var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -1648,11 +1641,11 @@
           ]
         },
         {
-          "q": "Is there any garlic?",
-          "qTr": "Hiç sarımsak var mı?",
-          "correct": "No",
+          "q": "Are there cucumbers?",
+          "qTr": "Salatalık var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Yes",
+            "No",
             "Maybe"
           ],
           "hint": "Read sentence 5.",
@@ -1661,16 +1654,29 @@
           ]
         },
         {
-          "q": "Are there any potatoes?",
-          "qTr": "Hiç patates var mı?",
+          "q": "Is there garlic?",
+          "qTr": "Sarımsak var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 9.",
           "hl": [
-            5
+            8
+          ]
+        },
+        {
+          "q": "Are there peppers?",
+          "qTr": "Biber var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -1700,35 +1706,35 @@
       "sentences": [
         "Tom is hungry in the kitchen.",
         "Tom: Mum, can I have some bread?",
-        "Yes, you can!  the mum.",
-        "Can I have some milk, too?",
-        "Yes, you can!  the mum.",
-        "Can I have some eggs?",
-        "Yes, you can!",
-        "Thank you, mum!  Tom.",
+        "The mum: Yes, you can!",
+        "Tom: Can I have some milk, too?",
+        "The mum: Yes, you can!",
+        "Tom: Can I have some eggs?",
+        "The mum: Yes, you can!",
+        "Tom: Thank you, mum!",
         "Tom is happy with his food!"
       ],
       "translations": [
-        "Tom mutfakta acıkmış.",
+        "Tom mutfakta aç.",
         "Tom diyor: Anne, biraz ekmek alabilir miyim?",
-        "Evet, alabilirsin! diyor anne.",
-        "Biraz süt de alabilir miyim?",
-        "Evet, alabilirsin! diyor anne.",
-        "Biraz yumurta alabilir miyim?",
-        "Evet, alabilirsin!",
-        "Teşekkürler, anne! diyor Tom.",
-        "Tom yemeği ile mutlu!"
+        "Anne diyor: Evet, alabilirsin!",
+        "Tom diyor: Biraz süt de alabilir miyim?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Tom diyor: Biraz yumurta alabilir miyim?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Tom diyor: Teşekkürler anne!",
+        "Tom yemeğiyle mutlu!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Tom asking for food",
           "wrong": [
             "Food in school",
             "Tom in the garden"
           ],
-          "hint": "Think about the requests.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             3,
@@ -1736,12 +1742,12 @@
           ]
         },
         {
-          "q": "How does Tom feel?",
-          "qTr": "Tom nasıl hissediyor?",
-          "correct": "Hungry",
+          "q": "Is Tom hungry?",
+          "qTr": "Tom aç mı?",
+          "correct": "Yes",
           "wrong": [
-            "Thirsty",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1749,43 +1755,43 @@
           ]
         },
         {
-          "q": "What does Tom ask for first?",
-          "qTr": "Tom önce ne ister?",
-          "correct": "Some bread",
+          "q": "Can Tom have some bread?",
+          "qTr": "Tom biraz ekmek alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some chicken",
-            "Some apples"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What is the answer?",
-          "qTr": "Cevap nedir?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Find mum in sentence 3.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What else does Tom ask for?",
-          "qTr": "Tom başka ne ister?",
-          "correct": "Some milk and some eggs",
+          "q": "What is the answer?",
+          "qTr": "Cevap ne?",
+          "correct": "Yes, you can!",
           "wrong": [
-            "Some chicken",
-            "Some apples"
+            "No, you can't!",
+            "Goodbye!"
           ],
-          "hint": "Read sentences 4 and 6.",
+          "hint": "Read sentence 3.",
           "hl": [
-            3,
-            5
+            2
+          ]
+        },
+        {
+          "q": "Can Tom have some milk and some eggs?",
+          "qTr": "Tom biraz süt ve yumurta alabilir mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4,
+            6
           ]
         }
       ]
@@ -1815,29 +1821,29 @@
       "sentences": [
         "Time for dinner!",
         "Lila: For dinner, I have got some chicken.",
-        "I have got some potatoes and some beans.",
-        "I have got some water.",
-        "Tom: For dinner, I have got some fish.",
-        "I have got some bread and some carrots.",
-        "Do you like fish for dinner? Yes, I do!",
-        "Dinner is delicious!",
-        "Enjoy your meal!"
+        "Lila: I have got some potatoes and some beans.",
+        "Lila: I have got some water.",
+        "Tom: For dinner, I have got some fish and some bread.",
+        "Lila: Do you like fish for dinner, Tom?",
+        "Tom: Yes, I do! Fish is yummy.",
+        "Tom: Dinner is delicious!",
+        "Lila: Enjoy your meal!"
       ],
       "translations": [
         "Akşam yemeği zamanı!",
-        "Lila diyor: Akşam yemeğinde biraz tavuğum var.",
-        "Biraz patates ve biraz fasulyem var.",
-        "Biraz suyum var.",
-        "Tom diyor: Akşam yemeğinde biraz balığım var.",
-        "Biraz ekmek ve biraz havucum var.",
-        "Akşam yemeğinde balık sever misin? Evet, severim!",
-        "Akşam yemeği lezzetli!",
-        "Afiyet olsun!"
+        "Lila diyor: Akşam yemeğinde tavuğum var.",
+        "Lila diyor: Patateslerim ve fasulyelerim var.",
+        "Lila diyor: Suyum var.",
+        "Tom diyor: Akşam yemeğinde balığım ve ekmeğim var.",
+        "Lila diyor: Akşam yemeğinde balığı sever misin Tom?",
+        "Tom diyor: Evet, severim! Balık nefis.",
+        "Tom diyor: Akşam yemeği nefis!",
+        "Lila diyor: Afiyet olsun!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Dinner time",
           "wrong": [
             "Breakfast",
@@ -1851,12 +1857,12 @@
         {
           "q": "What has Lila got for dinner?",
           "qTr": "Lila'nın akşam yemeğinde nesi var?",
-          "correct": "Chicken, potatoes, beans, water",
+          "correct": "Chicken, potatoes, beans and water",
           "wrong": [
             "Bread and eggs",
             "Only milk"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             2,
@@ -1866,20 +1872,19 @@
         {
           "q": "What has Tom got for dinner?",
           "qTr": "Tom'un akşam yemeğinde nesi var?",
-          "correct": "Fish, bread, carrots",
+          "correct": "Fish and bread",
           "wrong": [
             "Chicken",
             "Apples"
           ],
-          "hint": "Read sentences 5-6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            4,
-            5
+            4
           ]
         },
         {
-          "q": "Does Tom like fish?",
-          "qTr": "Tom balık sever mi?",
+          "q": "Is fish yummy for Tom?",
+          "qTr": "Balık Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -1891,12 +1896,12 @@
           ]
         },
         {
-          "q": "How is dinner?",
-          "qTr": "Akşam yemeği nasıl?",
-          "correct": "Delicious",
+          "q": "Is dinner delicious?",
+          "qTr": "Akşam yemeği nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Bad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -1938,65 +1943,65 @@
         "Two friends in the kitchen with food!"
       ],
       "translations": [
-        "Eda bugün mutfağımızda.",
-        "Lila diyor: Biraz su alabilir miyim, Eda?",
-        "Evet, alabilirsin! diyor Eda.",
+        "Eda bugün bizim mutfakta.",
+        "Lila diyor: Biraz su alabilir miyim Eda?",
+        "Yes, you can!  Eda.",
         "İşte sana biraz su!",
-        "Lila diyor: Teşekkürler, Eda!",
+        "Lila diyor: Teşekkürler Eda!",
         "Lila diyor: Biraz ekmek de alabilir miyim?",
-        "Evet, alabilirsin! diyor Eda.",
-        "İki arkadaş mutfakta yemekle!"
+        "Yes, you can!  Eda.",
+        "İki arkadaş mutfakta yiyecekle!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "A friend asking for food",
           "wrong": [
             "School",
             "A pet"
           ],
-          "hint": "Think about the requests.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             5
           ]
         },
         {
-          "q": "What does Lila ask for first?",
-          "qTr": "Lila önce ne ister?",
-          "correct": "Some water",
+          "q": "Can Lila have some water?",
+          "qTr": "Lila biraz su alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some bread",
-            "Some milk"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila in sentence 2.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
+          "q": "What is the answer?",
+          "qTr": "Cevap ne?",
           "correct": "Yes, you can!",
           "wrong": [
             "No, you can't!",
             "Goodbye!"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Lila ask for next?",
-          "qTr": "Lila sonra ne ister?",
-          "correct": "Some bread",
+          "q": "Can Lila have some bread?",
+          "qTr": "Lila biraz ekmek alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some chicken",
-            "Some apples"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila in sentence 6.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
@@ -2009,7 +2014,7 @@
             "In the garden",
             "In the bedroom"
           ],
-          "hint": "Find kitchen.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
           ]
@@ -2040,32 +2045,32 @@
       ],
       "sentences": [
         "Can: Food is great for me!",
-        "For breakfast, I have got some bread and some eggs.",
-        "For lunch, I have got some chicken and some bread.",
-        "For dinner, I have got some fish.",
+        "Can: For breakfast, I have got some bread and some eggs.",
+        "Can: For lunch, I have got some chicken and some bread.",
+        "Can: For dinner, I have got some fish.",
         "Tom: I have got some meat for lunch!",
-        "I have got some eggs and some bread for breakfast.",
+        "Tom: I have got some eggs and some bread for breakfast.",
         "Food is good for us!"
       ],
       "translations": [
         "Can diyor: Yemek benim için harika!",
-        "Kahvaltıda biraz ekmeğim ve biraz yumurtam var.",
-        "Öğlen biraz tavuk ve biraz ekmeğim var.",
-        "Akşam yemeğinde biraz balığım var.",
-        "Tom diyor: Öğlen biraz etim var!",
-        "Kahvaltıda biraz yumurta ve biraz ekmeğim var.",
-        "Yemek bizim için iyi!"
+        "Can diyor: Kahvaltıda ekmeğim ve yumurtalarım var.",
+        "Can diyor: Öğle yemeğinde tavuğum ve ekmeğim var.",
+        "Can diyor: Akşam yemeğinde balığım var.",
+        "Tom diyor: Öğle yemeğinde etim var!",
+        "Tom diyor: Kahvaltıda yumurtalarım ve ekmeğim var.",
+        "Yemek bizim için iyidir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Food for three meals",
           "wrong": [
             "School",
             "Pets"
           ],
-          "hint": "Think about the meals.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
             2,
@@ -2080,7 +2085,7 @@
             "Chicken",
             "Fish"
           ],
-          "hint": "Find breakfast.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -2093,7 +2098,7 @@
             "Fish",
             "Apples"
           ],
-          "hint": "Find lunch.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
@@ -2106,7 +2111,7 @@
             "Eggs",
             "Meat"
           ],
-          "hint": "Find dinner.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
@@ -2119,7 +2124,7 @@
             "Fish",
             "Chicken"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
@@ -2150,91 +2155,91 @@
       ],
       "sentences": [
         "Tom: I am thirsty!",
-        "Do you like water? Yes, I do.",
-        "Do you like milk? Yes, I do.",
-        "Do you like ayran? Yes, I do!",
-        "Ayran is a Turkish drink.",
-        "Do you like tea? Yes, I do.",
-        "Do you like coffee? No, I don't.",
-        "Eda: I like ayran, too!",
+        "Tom: Do you like water, Eda?",
+        "Eda: Yes, I do.",
+        "Eda: Do you like milk, Tom?",
+        "Tom: Yes, I do! Milk is yummy.",
+        "Tom: Ayran is a Turkish drink.",
+        "Tom: Do you like coffee, Eda?",
+        "Eda: No, I don't. I like ayran, too!",
         "Drinks are good for us!"
       ],
       "translations": [
         "Tom diyor: Susadım!",
-        "Suyu sever misin? Evet, severim.",
-        "Sütü sever misin? Evet, severim.",
-        "Ayranı sever misin? Evet, severim!",
-        "Ayran bir Türk içeceği.",
-        "Çayı sever misin? Evet, severim.",
-        "Kahveyi sever misin? Hayır, sevmem.",
-        "Eda diyor: Ben de ayran severim!",
-        "İçecekler bizim için iyi!"
+        "Tom diyor: Suyu sever misin Eda?",
+        "Eda diyor: Evet, severim.",
+        "Eda diyor: Sütü sever misin Tom?",
+        "Tom diyor: Evet, severim! Süt nefis.",
+        "Tom diyor: Ayran bir Türk içeceğidir.",
+        "Tom diyor: Kahveyi sever misin Eda?",
+        "Eda diyor: Hayır, sevmem. Ben de ayranı severim!",
+        "İçecekler bizim için iyidir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Drinks for everyone",
           "wrong": [
             "Food",
             "School"
           ],
-          "hint": "Think about the drinks.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
             8
           ]
         },
         {
-          "q": "Does Tom like ayran?",
-          "qTr": "Tom ayran sever mi?",
+          "q": "Is water yummy for Eda?",
+          "qTr": "Su Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 3.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "Where is ayran from?",
-          "qTr": "Ayran nereden gelir?",
-          "correct": "Türkiye",
+          "q": "Is ayran a Turkish drink?",
+          "qTr": "Ayran bir Türk içeceği mi?",
+          "correct": "Yes",
           "wrong": [
-            "England",
-            "France"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 6.",
           "hl": [
-            4
+            5
           ]
         },
         {
-          "q": "Does Tom like coffee?",
-          "qTr": "Tom kahve sever mi?",
+          "q": "Is coffee yummy for Eda?",
+          "qTr": "Kahve Eda için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "I like ayran, too!",
+          "q": "Is Tom thirsty?",
+          "qTr": "Tom susamış mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 1.",
           "hl": [
-            7
+            0
           ]
         }
       ]
@@ -2264,35 +2269,35 @@
       "sentences": [
         "Today is Eid al-Fitr in Türkiye.",
         "Lila: Our family is in the kitchen.",
-        "We have got many yummy foods!",
-        "We have got some chicken and some bread.",
-        "We have got some apples and some cherries.",
+        "Lila: We have got some yummy food!",
+        "Lila: We have got some chicken and some bread.",
+        "Lila: We have got some apples and some cherries.",
         "Can: Can I have some ayran, please?",
-        "Yes, you can!  the mum.",
+        "The mum: Yes, you can!",
         "Eid lunch is delicious!",
         "Happy Eid to all families!"
       ],
       "translations": [
         "Bugün Türkiye'de Ramazan Bayramı.",
         "Lila diyor: Ailemiz mutfakta.",
-        "Birçok nefis yiyeceğimiz var!",
-        "Biraz tavuğumuz ve biraz ekmeğimiz var.",
-        "Biraz elmamız ve biraz kirazımız var.",
-        "Can diyor: Biraz ayran alabilir miyim, lütfen?",
-        "Evet, alabilirsin! diyor anne.",
-        "Bayram yemeği lezzetli!",
-        "Bütün ailelere mutlu bayramlar!"
+        "Lila diyor: Biraz nefis yiyeceğimiz var!",
+        "Lila diyor: Tavuğumuz ve ekmeğimiz var.",
+        "Lila diyor: Elmalarımız ve kirazlarımız var.",
+        "Can diyor: Biraz ayran alabilir miyim lütfen?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Bayram öğle yemeği nefis!",
+        "Tüm ailelere mutlu bayramlar!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Eid lunch with family",
           "wrong": [
             "School",
             "A pet"
           ],
-          "hint": "Read sentences 1 and 7.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
             7
@@ -2300,7 +2305,7 @@
         },
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Eid al-Fitr",
           "wrong": [
             "Republic Day",
@@ -2312,39 +2317,39 @@
           ]
         },
         {
-          "q": "What food does the family have?",
-          "qTr": "Aile hangi yemeği yer?",
-          "correct": "Chicken, bread, apples, cherries",
+          "q": "What food has the family got?",
+          "qTr": "Ailenin hangi yiyecekleri var?",
+          "correct": "Chicken, bread, apples and cherries",
           "wrong": [
             "Only milk",
             "Only fish"
           ],
-          "hint": "Read sentences 4-5.",
+          "hint": "Read sentence 4.",
           "hl": [
             3,
             4
           ]
         },
         {
-          "q": "What does Can ask for?",
-          "qTr": "Can ne ister?",
-          "correct": "Some ayran",
+          "q": "Can Can have some ayran?",
+          "qTr": "Can biraz ayran alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some bread",
-            "Some apples"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "How is the Eid lunch?",
-          "qTr": "Bayram öğle yemeği nasıl?",
-          "correct": "Delicious",
+          "q": "Is the Eid lunch delicious?",
+          "qTr": "Bayram öğle yemeği nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Bad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -2376,47 +2381,47 @@
         }
       ],
       "sentences": [
-        "Lila: There are many foods I like and don't like!",
-        "I like apples. I don't like bananas.",
-        "I like broccoli. I don't like spinach.",
-        "I like milk. I don't like courgettes.",
+        "Lila: There are some foods I like and don't like!",
+        "Lila: I like apples. I don't like bananas.",
+        "Lila: I like broccoli. I don't like spinach.",
+        "Lila: I like milk. I don't like courgettes.",
         "Eda: I like cherries. I don't like beans.",
         "Tom: I like fish. I don't like meat.",
         "Lila: We like different foods!",
         "Food is fun!"
       ],
       "translations": [
-        "Lila: Sevdiğim ve sevmediğim birçok yemek var!",
-        "Elma severim. Muz sevmem.",
-        "Brokoli severim. Ispanak sevmem.",
-        "Süt severim. Kabak sevmem.",
-        "Eda: Kiraz severim. Fasulye sevmem.",
-        "Tom: Balık severim. Et sevmem.",
-        "Lila: Farklı yemekler severiz!",
-        "Yemek eğlenceli!"
+        "Lila diyor: Sevdiğim ve sevmediğim bazı yiyecekler var!",
+        "Lila diyor: Elmaları severim. Muzları sevmem.",
+        "Lila diyor: Brokoliyi severim. Ispanağı sevmem.",
+        "Lila diyor: Sütü severim. Kabakları sevmem.",
+        "Eda diyor: Kirazları severim. Fasulyeleri sevmem.",
+        "Tom diyor: Balığı severim. Eti sevmem.",
+        "Lila diyor: Farklı yiyecekleri severiz!",
+        "Yemek eğlencelidir!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin temel olarak ne hakkında?",
           "correct": "Food likes and dislikes",
           "wrong": [
             "School",
             "Pets"
           ],
-          "hint": "Think about likes.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
             6
           ]
         },
         {
-          "q": "What does Lila not like?",
-          "qTr": "Lila neyi sevmez?",
-          "correct": "Bananas",
+          "q": "Are bananas yummy for Lila?",
+          "qTr": "Muzlar Lila için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "Apples",
-            "Milk"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -2424,12 +2429,12 @@
           ]
         },
         {
-          "q": "What does Lila like (vegetable)?",
-          "qTr": "Lila neyi sever (sebze)?",
-          "correct": "Broccoli",
+          "q": "Is broccoli yummy for Lila?",
+          "qTr": "Brokoli Lila için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Spinach",
-            "Courgettes"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -2437,12 +2442,12 @@
           ]
         },
         {
-          "q": "What does Eda not like?",
-          "qTr": "Eda neyi sevmez?",
-          "correct": "Beans",
+          "q": "Are beans yummy for Eda?",
+          "qTr": "Fasulyeler Eda için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "Cherries",
-            "Apples"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -2450,12 +2455,12 @@
           ]
         },
         {
-          "q": "What does Tom not like?",
-          "qTr": "Tom neyi sevmez?",
-          "correct": "Meat",
+          "q": "Is meat yummy for Tom?",
+          "qTr": "Et Tom için nefis mi?",
+          "correct": "No",
           "wrong": [
-            "Fish",
-            "Milk"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -2492,23 +2497,23 @@
         "Eda is in the kitchen with Lila.",
         "Eda: Do you like apples, Lila?",
         "Lila: Yes, I do! Apples are yummy.",
-        "Eda: Do you like pears?",
-        "Lila: No, I don't like pears.",
-        "Eda: Do you like cherries?",
-        "Lila: Yes, I do! I like cherries a lot.",
+        "Lila: Do you like pears, Eda?",
+        "Eda: No, I don't. Pears are not yummy for me.",
+        "Eda: Do you like cherries, Lila?",
+        "Lila: Yes, I do! Cherries are yummy.",
         "Eda: I like cherries, too!",
         "Two friends like the same fruit!"
       ],
       "translations": [
-        "Eda mutfakta Lila ile.",
-        "Eda diyor: Elmaları sever misin, Lila?",
+        "Eda, Lila ile mutfakta.",
+        "Eda diyor: Elmaları sever misin Lila?",
         "Lila diyor: Evet, severim! Elmalar nefis.",
-        "Eda diyor: Armutları sever misin?",
-        "Lila diyor: Hayır, armutları sevmem.",
-        "Eda diyor: Kirazları sever misin?",
-        "Lila diyor: Evet, severim! Kirazları çok severim.",
+        "Lila diyor: Armutları sever misin Eda?",
+        "Eda diyor: Hayır, sevmem. Armutlar bana göre nefis değil.",
+        "Eda diyor: Kirazları sever misin Lila?",
+        "Lila diyor: Evet, severim! Kirazlar nefis.",
         "Eda diyor: Ben de kirazları severim!",
-        "İki arkadaş aynı meyveyi seviyor!"
+        "İki arkadaş aynı meyveyi sever!"
       ],
       "questions": [
         {
@@ -2525,8 +2530,8 @@
           ]
         },
         {
-          "q": "Does Lila like apples?",
-          "qTr": "Lila elma sever mi?",
+          "q": "Are apples yummy for Lila?",
+          "qTr": "Elmalar Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -2538,8 +2543,8 @@
           ]
         },
         {
-          "q": "Does Lila like pears?",
-          "qTr": "Lila armut sever mi?",
+          "q": "Are pears yummy for Eda?",
+          "qTr": "Armutlar Eda için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -2551,8 +2556,8 @@
           ]
         },
         {
-          "q": "Does Lila like cherries?",
-          "qTr": "Lila kiraz sever mi?",
+          "q": "Are cherries yummy for Lila?",
+          "qTr": "Kirazlar Lila için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -2564,14 +2569,14 @@
           ]
         },
         {
-          "q": "What do Eda and Lila both like?",
-          "qTr": "Eda ve Lila ikisi de neyi sever?",
-          "correct": "Cherries",
+          "q": "Are cherries yummy for both?",
+          "qTr": "Kirazlar ikisi için de nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Apples",
-            "Pears"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentences 7-8.",
+          "hint": "Read sentence 7.",
           "hl": [
             6,
             7
@@ -2602,26 +2607,26 @@
         }
       ],
       "sentences": [
-        "Can has got many vegetables in his kitchen.",
+        "Can has got some vegetables in his kitchen.",
         "Tom: Do you like broccoli, Can?",
-        "Can: No, I don't like broccoli!",
-        "Do you like cauliflower? Yes, I do.",
-        "Do you like beans? Yes, I do!",
-        "Do you like peppers? No, I don't.",
-        "Tom: I like many vegetables!",
+        "Can: No, I don't. Broccoli is not yummy for me.",
+        "Can: Do you like cauliflower, Tom?",
+        "Tom: Yes, I do! Cauliflower is yummy.",
+        "Tom: Do you like beans, Can?",
+        "Can: Yes, I do!",
         "Can: Some vegetables are yummy for me!",
         "Two friends with different tastes!"
       ],
       "translations": [
-        "Can'ın mutfağında birçok sebze var.",
-        "Tom diyor: Brokoliyi sever misin, Can?",
-        "Can diyor: Hayır, brokoliyi sevmem!",
-        "Karnabaharı sever misin? Evet, severim.",
-        "Fasulyeleri sever misin? Evet, severim!",
-        "Biberi sever misin? Hayır, sevmem.",
-        "Tom diyor: Birçok sebzeyi severim!",
+        "Can'ın mutfağında biraz sebze var.",
+        "Tom diyor: Brokoliyi sever misin Can?",
+        "Can diyor: Hayır, sevmem. Brokoli bana göre nefis değil.",
+        "Can diyor: Karnabaharı sever misin Tom?",
+        "Tom diyor: Evet, severim! Karnabahar nefis.",
+        "Tom diyor: Fasulyeleri sever misin Can?",
+        "Can diyor: Evet, severim!",
         "Can diyor: Bazı sebzeler benim için nefis!",
-        "Farklı zevkleri olan iki arkadaş!"
+        "İki arkadaş, farklı zevkler!"
       ],
       "questions": [
         {
@@ -2638,8 +2643,8 @@
           ]
         },
         {
-          "q": "Does Can like broccoli?",
-          "qTr": "Can brokoli sever mi?",
+          "q": "Is broccoli yummy for Can?",
+          "qTr": "Brokoli Can için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -2651,42 +2656,42 @@
           ]
         },
         {
-          "q": "Does Can like cauliflower?",
-          "qTr": "Can karnabahar sever mi?",
+          "q": "Is cauliflower yummy for Tom?",
+          "qTr": "Karnabahar Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "Does Can like peppers?",
-          "qTr": "Can biber sever mi?",
-          "correct": "No",
+          "q": "Are beans yummy for Can?",
+          "qTr": "Fasulyeler Can için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Yes",
+            "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
-          "correct": "I like many vegetables!",
+          "q": "Has Can got some vegetables?",
+          "qTr": "Can'ın biraz sebzesi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "I don't like food!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom in sentence 7.",
+          "hint": "Read sentence 1.",
           "hl": [
-            6
+            0
           ]
         }
       ]
@@ -2717,28 +2722,28 @@
         "Time for breakfast!",
         "Eda is in the kitchen with her family.",
         "Eda: For breakfast, I have got some bread.",
-        "I have got some eggs and some milk.",
-        "I have got some apples and some tomatoes, too.",
+        "Eda: I have got some eggs and some milk.",
+        "Eda: I have got some apples and some tomatoes, too.",
         "Mum: Can I have some tea, please?",
-        "Yes, here is some tea!",
+        "Eda: Yes, here is some tea!",
         "Eda: Enjoy your breakfast, mum!",
         "Breakfast is yummy for the family!"
       ],
       "translations": [
         "Kahvaltı zamanı!",
-        "Eda mutfakta ailesi ile.",
-        "Eda diyor: Kahvaltıda biraz ekmeğim var.",
-        "Biraz yumurtam ve biraz sütüm var.",
-        "Biraz da elmam ve biraz domatesim var.",
-        "Anne diyor: Biraz çay alabilir miyim, lütfen?",
-        "Evet, işte biraz çay!",
-        "Eda diyor: İyi kahvaltılar, anne!",
+        "Eda ailesiyle mutfakta.",
+        "Eda diyor: Kahvaltıda ekmeğim var.",
+        "Eda diyor: Yumurtalarım ve sütüm var.",
+        "Eda diyor: Elmalarım ve domateslerim de var.",
+        "Anne diyor: Biraz çay alabilir miyim lütfen?",
+        "Eda diyor: Evet, işte biraz çay!",
+        "Eda diyor: Afiyet olsun anne!",
         "Kahvaltı aile için nefis!"
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Breakfast",
           "wrong": [
             "Lunch",
@@ -2765,12 +2770,12 @@
         {
           "q": "What has Eda got for breakfast?",
           "qTr": "Eda'nın kahvaltıda nesi var?",
-          "correct": "Bread, eggs, milk, apples, tomatoes",
+          "correct": "Bread, eggs, milk, apples and tomatoes",
           "wrong": [
             "Only milk",
             "Only chicken"
           ],
-          "hint": "Read sentences 3-5.",
+          "hint": "Read sentence 3.",
           "hl": [
             2,
             3,
@@ -2778,29 +2783,29 @@
           ]
         },
         {
-          "q": "What does mum ask for?",
-          "qTr": "Anne ne ister?",
-          "correct": "Some tea",
+          "q": "Can mum have some tea?",
+          "qTr": "Anne biraz çay alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some milk",
-            "Some bread"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find mum.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Eda say to mum?",
-          "qTr": "Eda anneye ne der?",
-          "correct": "Enjoy your breakfast!",
+          "q": "Is breakfast yummy for the family?",
+          "qTr": "Kahvaltı aile için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda in sentence 8.",
+          "hint": "Read sentence 9.",
           "hl": [
-            7
+            8
           ]
         }
       ]
@@ -2831,28 +2836,28 @@
         "Time for lunch!",
         "Tom is in the kitchen with his family.",
         "Tom: For lunch, I have got some chicken.",
-        "I have got some bread and some carrots.",
+        "Tom: I have got some bread and some carrots.",
         "Mum: Can I have some water, please?",
-        "Yes, here is some water!",
+        "Tom: Yes, here is some water!",
         "Dad: Can I have some chicken, too?",
-        "Yes, here is some chicken!",
+        "Tom: Yes, here is some chicken!",
         "Tom: Lunch with my family is yummy!"
       ],
       "translations": [
         "Öğle yemeği zamanı!",
-        "Tom mutfakta ailesi ile.",
-        "Tom diyor: Öğlen biraz tavuğum var.",
-        "Biraz ekmek ve biraz havucum var.",
-        "Anne diyor: Biraz su alabilir miyim, lütfen?",
-        "Evet, işte biraz su!",
-        "Baba diyor: Biraz da tavuk alabilir miyim?",
-        "Evet, işte biraz tavuk!",
+        "Tom ailesiyle mutfakta.",
+        "Tom diyor: Öğle yemeğinde tavuğum var.",
+        "Tom diyor: Ekmeğim ve havuçlarım var.",
+        "Anne diyor: Biraz su alabilir miyim lütfen?",
+        "Tom diyor: Evet, işte biraz su!",
+        "Baba diyor: Biraz tavuk da alabilir miyim?",
+        "Tom diyor: Evet, işte biraz tavuk!",
         "Tom diyor: Ailemle öğle yemeği nefis!"
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Lunch",
           "wrong": [
             "Breakfast",
@@ -2866,52 +2871,52 @@
         {
           "q": "What has Tom got for lunch?",
           "qTr": "Tom'un öğle yemeğinde nesi var?",
-          "correct": "Chicken, bread, carrots",
+          "correct": "Chicken, bread and carrots",
           "wrong": [
             "Only milk",
             "Eggs"
           ],
-          "hint": "Read sentences 3-4.",
+          "hint": "Read sentence 3.",
           "hl": [
             2,
             3
           ]
         },
         {
-          "q": "What does mum ask for?",
-          "qTr": "Anne ne ister?",
-          "correct": "Some water",
+          "q": "Can mum have some water?",
+          "qTr": "Anne biraz su alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some milk",
-            "Some tea"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find mum.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does dad ask for?",
-          "qTr": "Baba ne ister?",
-          "correct": "Some chicken",
+          "q": "Can dad have some chicken?",
+          "qTr": "Baba biraz tavuk alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some bread",
-            "Some water"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find dad.",
+          "hint": "Read sentence 7.",
           "hl": [
             6
           ]
         },
         {
-          "q": "How is lunch?",
-          "qTr": "Öğle yemeği nasıl?",
-          "correct": "Yummy",
+          "q": "Is lunch yummy?",
+          "qTr": "Öğle yemeği nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Bad"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom in sentence 9.",
+          "hint": "Read sentence 9.",
           "hl": [
             8
           ]
@@ -2944,30 +2949,30 @@
         "Time for dinner!",
         "Lila is in the kitchen with her family.",
         "Lila: For dinner, I have got some fish.",
-        "I have got some potatoes and some lettuce.",
-        "I have got some bread, too.",
+        "Lila: I have got some potatoes and some lettuce.",
+        "Lila: I have got some bread, too.",
         "Mum: Can I have some milk?",
-        "Yes, here is some milk!",
+        "Lila: Yes, here is some milk!",
         "Lila: Do you like fish, mum?",
         "Mum: Yes, I do! Fish is yummy!",
         "Lila is happy with the dinner!"
       ],
       "translations": [
         "Akşam yemeği zamanı!",
-        "Lila mutfakta ailesi ile.",
-        "Lila diyor: Akşam yemeğinde biraz balığım var.",
-        "Biraz patates ve biraz marulum var.",
-        "Biraz ekmeğim de var.",
+        "Lila ailesiyle mutfakta.",
+        "Lila diyor: Akşam yemeğinde balığım var.",
+        "Lila diyor: Patateslerim ve marulum var.",
+        "Lila diyor: Ekmeğim de var.",
         "Anne diyor: Biraz süt alabilir miyim?",
-        "Evet, işte biraz süt!",
-        "Lila diyor: Balığı sever misin, anne?",
+        "Lila diyor: Evet, işte biraz süt!",
+        "Lila diyor: Balığı sever misin anne?",
         "Anne diyor: Evet, severim! Balık nefis!",
         "Lila akşam yemeğiyle mutlu!"
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Dinner",
           "wrong": [
             "Breakfast",
@@ -2981,12 +2986,12 @@
         {
           "q": "What has Lila got for dinner?",
           "qTr": "Lila'nın akşam yemeğinde nesi var?",
-          "correct": "Fish, potatoes, lettuce, bread",
+          "correct": "Fish, potatoes, lettuce and bread",
           "wrong": [
             "Only milk",
             "Eggs"
           ],
-          "hint": "Read sentences 3-5.",
+          "hint": "Read sentence 3.",
           "hl": [
             2,
             3,
@@ -2994,21 +2999,21 @@
           ]
         },
         {
-          "q": "What does mum ask for?",
-          "qTr": "Anne ne ister?",
-          "correct": "Some milk",
+          "q": "Can mum have some milk?",
+          "qTr": "Anne biraz süt alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some bread",
-            "Some water"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find mum.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Does mum like fish?",
-          "qTr": "Anne balık sever mi?",
+          "q": "Is fish yummy for mum?",
+          "qTr": "Balık anne için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -3020,12 +3025,12 @@
           ]
         },
         {
-          "q": "How does Lila feel?",
-          "qTr": "Lila nasıl hissediyor?",
-          "correct": "Happy",
+          "q": "Is Lila happy?",
+          "qTr": "Lila mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 10.",
           "hl": [
@@ -3057,24 +3062,28 @@
         }
       ],
       "sentences": [
-        "Can is in the kitchen.",
-        "Is there a tomato? Yes, there is.",
-        "Are there any cucumbers? Yes, there are some cucumbers.",
-        "Is there a carrot? No, there isn't.",
-        "Are there any potatoes? Yes, there are!",
-        "Are there any garlic? No, there isn't.",
-        "Eda: Is there any spinach? Yes, there is.",
-        "Many vegetables in the kitchen for us!"
+        "Can is in the kitchen with Eda.",
+        "Can: Is there a tomato?",
+        "Eda: Yes, there is.",
+        "Eda: Are there cucumbers?",
+        "Can: Yes, there are some cucumbers.",
+        "Can: Is there a carrot?",
+        "Eda: No, there isn't.",
+        "Eda: Is there garlic?",
+        "Can: No, there isn't.",
+        "There is some food in the kitchen for us!"
       ],
       "translations": [
-        "Can mutfakta.",
-        "Bir domates var mı? Evet, var.",
-        "Salatalık var mı? Evet, biraz salatalık var.",
-        "Bir havuç var mı? Hayır, yok.",
-        "Patates var mı? Evet, var!",
-        "Sarımsak var mı? Hayır, yok.",
-        "Eda diyor: Ispanak var mı? Evet, var.",
-        "Mutfakta bizim için birçok sebze!"
+        "Can, Eda ile mutfakta.",
+        "Can diyor: Bir domates var mı?",
+        "Eda diyor: Evet, var.",
+        "Eda diyor: Salatalık var mı?",
+        "Can diyor: Evet, biraz salatalık var.",
+        "Can diyor: Bir havuç var mı?",
+        "Eda diyor: Hayır, yok.",
+        "Eda diyor: Sarımsak var mı?",
+        "Can diyor: Hayır, yok.",
+        "Mutfakta bizim için biraz yiyecek var!"
       ],
       "questions": [
         {
@@ -3092,20 +3101,7 @@
         },
         {
           "q": "Is there a tomato?",
-          "qTr": "Domates var mı?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Are there any cucumbers?",
-          "qTr": "Hiç salatalık var mı?",
+          "qTr": "Bir domates var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -3117,29 +3113,42 @@
           ]
         },
         {
+          "q": "Are there cucumbers?",
+          "qTr": "Salatalık var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
           "q": "Is there a carrot?",
-          "qTr": "Havuç var mı?",
+          "qTr": "Bir havuç var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 7.",
           "hl": [
-            3
+            6
           ]
         },
         {
-          "q": "What does Eda ask about?",
-          "qTr": "Eda ne hakkında sorar?",
-          "correct": "Spinach",
+          "q": "Is there garlic?",
+          "qTr": "Sarımsak var mı?",
+          "correct": "No",
           "wrong": [
-            "Garlic",
-            "Carrots"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 9.",
           "hl": [
-            6
+            8
           ]
         }
       ]
@@ -3167,27 +3176,27 @@
         }
       ],
       "sentences": [
-        "Eda is in our kitchen with Tom.",
+        "Eda is in the kitchen with Tom.",
         "Eda: Can I have some bread, please?",
-        "Yes, you can!  Tom.",
-        "Here is some bread for you!",
+        "Tom: Yes, you can!",
+        "Tom: Here is some bread for you!",
         "Eda: Thank you, Tom!",
-        "Can I have some milk, too?",
-        "Yes, you can! Here is some milk.",
-        "Can I have some apples, please?",
-        "Yes, you can!",
+        "Eda: Can I have some milk, too?",
+        "Tom: Yes, you can! Here is some milk.",
+        "Eda: Can I have some apples, please?",
+        "Tom: Yes, you can!",
         "Eda: Tom, you are very kind!"
       ],
       "translations": [
-        "Eda mutfağımızda Tom ile.",
-        "Eda diyor: Biraz ekmek alabilir miyim, lütfen?",
-        "Evet, alabilirsin! diyor Tom.",
-        "İşte sana biraz ekmek!",
-        "Eda diyor: Teşekkürler, Tom!",
-        "Biraz süt de alabilir miyim?",
-        "Evet, alabilirsin! İşte biraz süt.",
-        "Biraz elma alabilir miyim, lütfen?",
-        "Evet, alabilirsin!",
+        "Eda, Tom ile mutfakta.",
+        "Eda diyor: Biraz ekmek alabilir miyim lütfen?",
+        "Tom diyor: Evet, alabilirsin!",
+        "Tom diyor: İşte sana biraz ekmek!",
+        "Eda diyor: Teşekkürler Tom!",
+        "Eda diyor: Biraz süt de alabilir miyim?",
+        "Tom diyor: Evet, alabilirsin! İşte biraz süt.",
+        "Eda diyor: Biraz elma alabilir miyim lütfen?",
+        "Tom diyor: Evet, alabilirsin!",
         "Eda diyor: Tom, çok naziksin!"
       ],
       "questions": [
@@ -3205,52 +3214,52 @@
           ]
         },
         {
-          "q": "What does Eda ask for first?",
-          "qTr": "Eda önce ne ister?",
-          "correct": "Some bread",
+          "q": "Can Eda have some bread?",
+          "qTr": "Eda biraz ekmek alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some apples",
-            "Some milk"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda in sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What is the answer?",
-          "qTr": "Cevap nedir?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Find Tom in sentence 3.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What else does Eda ask for?",
-          "qTr": "Eda başka ne ister?",
-          "correct": "Some milk and some apples",
+          "q": "What is the answer?",
+          "qTr": "Cevap ne?",
+          "correct": "Yes, you can!",
           "wrong": [
-            "Some chicken",
-            "Some fish"
+            "No, you can't!",
+            "Goodbye!"
           ],
-          "hint": "Read sentences 6 and 8.",
+          "hint": "Read sentence 3.",
           "hl": [
-            5,
-            7
+            2
           ]
         },
         {
-          "q": "How is Tom?",
-          "qTr": "Tom nasıl?",
-          "correct": "Very kind",
+          "q": "Can Eda have some milk and some apples?",
+          "qTr": "Eda biraz süt ve elma alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6,
+            8
+          ]
+        },
+        {
+          "q": "Is Tom kind?",
+          "qTr": "Tom nazik mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 10.",
           "hl": [
@@ -3284,35 +3293,35 @@
       "sentences": [
         "It is a hot day in our garden.",
         "Tom: I am thirsty!",
-        "Can I have some water, please?",
-        "Yes, here is some water!",
-        "Do you like ayran, Tom?",
-        "Yes, I do! Ayran is a Turkish drink.",
-        "Ayran is yummy on a hot day!",
+        "Tom: Can I have some water, please?",
+        "Lila: Yes, here is some water!",
+        "Lila: Do you like ayran, Tom?",
+        "Tom: Yes, I do! Ayran is a Turkish drink.",
+        "Tom: Ayran is yummy on a hot day!",
         "Lila: I like ayran, too!",
         "Tom: Can I have some ayran, please?",
-        "Yes, here is some ayran!"
+        "Lila: Yes, here is some ayran!"
       ],
       "translations": [
         "Bahçemizde sıcak bir gün.",
         "Tom diyor: Susadım!",
-        "Biraz su alabilir miyim, lütfen?",
-        "Evet, işte biraz su!",
-        "Ayranı sever misin, Tom?",
-        "Evet, severim! Ayran bir Türk içeceği.",
-        "Sıcak bir günde ayran nefis!",
-        "Lila diyor: Ben de ayran severim!",
-        "Tom diyor: Biraz ayran alabilir miyim, lütfen?",
-        "Evet, işte biraz ayran!"
+        "Tom diyor: Biraz su alabilir miyim lütfen?",
+        "Lila diyor: Evet, işte biraz su!",
+        "Lila diyor: Ayranı sever misin Tom?",
+        "Tom diyor: Evet, severim! Ayran bir Türk içeceğidir.",
+        "Tom diyor: Ayran sıcak bir günde nefis!",
+        "Lila diyor: Ben de ayranı severim!",
+        "Tom diyor: Biraz ayran alabilir miyim lütfen?",
+        "Lila diyor: Evet, işte biraz ayran!"
       ],
       "questions": [
         {
-          "q": "How is the day?",
-          "qTr": "Gün nasıl?",
-          "correct": "Hot",
+          "q": "Is it a hot day?",
+          "qTr": "Sıcak bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Cold",
-            "Sad"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3320,12 +3329,12 @@
           ]
         },
         {
-          "q": "How does Tom feel?",
-          "qTr": "Tom nasıl hissediyor?",
-          "correct": "Thirsty",
+          "q": "Is Tom thirsty?",
+          "qTr": "Tom susamış mı?",
+          "correct": "Yes",
           "wrong": [
-            "Hungry",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -3333,21 +3342,21 @@
           ]
         },
         {
-          "q": "What does Tom ask for first?",
-          "qTr": "Tom önce ne ister?",
-          "correct": "Some water",
+          "q": "Can Tom have some water?",
+          "qTr": "Tom biraz su alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some milk",
-            "Some tea"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find sentence 3.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Does Tom like ayran?",
-          "qTr": "Tom ayran sever mi?",
+          "q": "Is ayran yummy for Tom?",
+          "qTr": "Ayran Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -3359,12 +3368,12 @@
           ]
         },
         {
-          "q": "Where is ayran from?",
-          "qTr": "Ayran nereden gelir?",
-          "correct": "Türkiye",
+          "q": "Is ayran a Turkish drink?",
+          "qTr": "Ayran bir Türk içeceği mi?",
+          "correct": "Yes",
           "wrong": [
-            "England",
-            "France"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -3398,27 +3407,27 @@
       "sentences": [
         "Eda: What is your food for today, Can?",
         "Can: Here is my day!",
-        "For breakfast, I have got some bread and some eggs.",
-        "For lunch, I have got some chicken and some bread.",
-        "For dinner, I have got some fish and some potatoes.",
-        "I have got some water and some milk, too.",
+        "Can: For breakfast, I have got some bread and some eggs.",
+        "Can: For lunch, I have got some chicken and some bread.",
+        "Can: For dinner, I have got some fish and some potatoes.",
+        "Can: I have got some water and some milk, too.",
         "Eda: Yummy! I like your day!",
         "Can: Thank you, Eda!"
       ],
       "translations": [
-        "Eda diyor: Bugün ne yemeğin var, Can?",
-        "Can diyor: İşte günüm!",
-        "Kahvaltıda biraz ekmeğim ve biraz yumurtam var.",
-        "Öğlen biraz tavuğum ve biraz ekmeğim var.",
-        "Akşam yemeğinde biraz balığım ve biraz patatesim var.",
-        "Biraz da suyum ve biraz sütüm var.",
-        "Eda diyor: Nefis! Senin gününü seviyorum!",
-        "Can diyor: Teşekkürler, Eda!"
+        "Eda diyor: Bugün yiyeceğin ne Can?",
+        "Can diyor: İşte benim günüm!",
+        "Can diyor: Kahvaltıda ekmeğim ve yumurtalarım var.",
+        "Can diyor: Öğle yemeğinde tavuğum ve ekmeğim var.",
+        "Can diyor: Akşam yemeğinde balığım ve patateslerim var.",
+        "Can diyor: Suyum ve sütüm de var.",
+        "Eda diyor: Nefis! Gününü beğendim!",
+        "Can diyor: Teşekkürler Eda!"
       ],
       "questions": [
         {
-          "q": "What does Can have for breakfast?",
-          "qTr": "Can kahvaltıda ne yer?",
+          "q": "What has Can got for breakfast?",
+          "qTr": "Can'ın kahvaltıda nesi var?",
           "correct": "Bread and eggs",
           "wrong": [
             "Fish",
@@ -3430,8 +3439,8 @@
           ]
         },
         {
-          "q": "What does Can have for lunch?",
-          "qTr": "Can öğle yemeğinde ne yer?",
+          "q": "What has Can got for lunch?",
+          "qTr": "Can'ın öğle yemeğinde nesi var?",
           "correct": "Chicken and bread",
           "wrong": [
             "Fish",
@@ -3443,8 +3452,8 @@
           ]
         },
         {
-          "q": "What does Can have for dinner?",
-          "qTr": "Can akşam yemeğinde ne yer?",
+          "q": "What has Can got for dinner?",
+          "qTr": "Can'ın akşam yemeğinde nesi var?",
           "correct": "Fish and potatoes",
           "wrong": [
             "Chicken",
@@ -3456,8 +3465,8 @@
           ]
         },
         {
-          "q": "What does Can have to drink?",
-          "qTr": "Can ne içer?",
+          "q": "What has Can got to drink?",
+          "qTr": "Can'ın içeceği nesi var?",
           "correct": "Water and milk",
           "wrong": [
             "Tea and coffee",
@@ -3469,14 +3478,14 @@
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "I like your day!",
+          "q": "Is the day yummy for Eda?",
+          "qTr": "Gün Eda için nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda in sentence 7.",
+          "hint": "Read sentence 7.",
           "hl": [
             6
           ]
@@ -3509,11 +3518,11 @@
         "Today is the 23rd of April.",
         "It is Children's Day in Türkiye!",
         "Eda: My family is in our kitchen.",
-        "We have got many yummy foods for lunch!",
-        "I have got some chicken, some potatoes and some carrots.",
+        "Eda: We have got some yummy food for lunch!",
+        "Eda: I have got some chicken, some potatoes and some carrots.",
         "Lila: I have got some fish and some bread.",
         "Lila: Can I have some ayran, please?",
-        "Yes, here is some ayran!",
+        "Eda: Yes, here is some ayran!",
         "Eda: Happy Children's Day, Lila!",
         "Two friends, two happy lunches!"
       ],
@@ -3521,18 +3530,18 @@
         "Bugün 23 Nisan.",
         "Türkiye'de Çocuk Bayramı!",
         "Eda diyor: Ailem mutfağımızda.",
-        "Öğle yemeğinde birçok nefis yiyeceğimiz var!",
-        "Biraz tavuğum, biraz patatesim ve biraz havucum var.",
-        "Lila diyor: Biraz balığım ve biraz ekmeğim var.",
-        "Lila diyor: Biraz ayran alabilir miyim, lütfen?",
-        "Evet, işte biraz ayran!",
-        "Eda diyor: Mutlu Çocuk Bayramları, Lila!",
+        "Eda diyor: Öğle yemeği için biraz nefis yiyeceğimiz var!",
+        "Eda diyor: Tavuğum, patateslerim ve havuçlarım var.",
+        "Lila diyor: Balığım ve ekmeğim var.",
+        "Lila diyor: Biraz ayran alabilir miyim lütfen?",
+        "Eda diyor: Evet, işte biraz ayran!",
+        "Eda diyor: Çocuk Bayramı kutlu olsun Lila!",
         "İki arkadaş, iki mutlu öğle yemeği!"
       ],
       "questions": [
         {
           "q": "What date is it today?",
-          "qTr": "Bugünün tarihi nedir?",
+          "qTr": "Bugün hangi tarih?",
           "correct": "The 23rd of April",
           "wrong": [
             "The 29th of October",
@@ -3545,7 +3554,7 @@
         },
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
             "Republic Day",
@@ -3564,33 +3573,33 @@
             "Fish and bread",
             "Apples"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
           "q": "What has Lila got?",
-          "qTr": "Lila'da ne var?",
+          "qTr": "Lila'nın nesi var?",
           "correct": "Fish and bread",
           "wrong": [
             "Chicken",
             "Apples"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Lila ask for?",
-          "qTr": "Lila ne ister?",
-          "correct": "Some ayran",
+          "q": "Can Lila have some ayran?",
+          "qTr": "Lila biraz ayran alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some water",
-            "Some milk"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila in sentence 7.",
+          "hint": "Read sentence 7.",
           "hl": [
             6
           ]
@@ -3629,24 +3638,24 @@
         "Eda: Mum, can I have some water, please?",
         "Mum: Yes, you can!",
         "Eda: Can I have some coffee?",
-        "Mum: No, you can't. Coffee is for big people."
+        "Mum: No, you can't. Coffee is for mums and dads."
       ],
       "translations": [
-        "Akşam yemeği zamanı. Tom mutfakta annesiyle.",
-        "Tom: Anne, biraz ekmek alabilir miyim, lütfen?",
-        "Anne: Evet, alabilirsin. İşte ekmek.",
-        "Tom: Anne, biraz da kek alabilir miyim?",
-        "Anne: Hayır, alamazsın. Kek zamanı değil.",
-        "Tom: Tamam anne.",
-        "Eda: Anne, biraz su alabilir miyim, lütfen?",
-        "Anne: Evet, alabilirsin!",
-        "Eda: Biraz kahve alabilir miyim?",
-        "Anne: Hayır, alamazsın. Kahve büyükler için."
+        "Akşam yemeği zamanı. Tom annesiyle mutfakta.",
+        "Tom diyor: Anne, biraz ekmek alabilir miyim lütfen?",
+        "Anne diyor: Evet, alabilirsin. İşte biraz ekmek.",
+        "Tom diyor: Anne, biraz pasta da alabilir miyim?",
+        "Anne diyor: Hayır, alamazsın. Pasta zamanı değil.",
+        "Tom diyor: Tamam anne.",
+        "Eda diyor: Anne, biraz su alabilir miyim lütfen?",
+        "Anne diyor: Evet, alabilirsin!",
+        "Eda diyor: Biraz kahve alabilir miyim?",
+        "Anne diyor: Hayır, alamazsın. Kahve anneler ve babalar içindir."
       ],
       "questions": [
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Dinner",
           "wrong": [
             "Breakfast",
@@ -3658,25 +3667,25 @@
           ]
         },
         {
-          "q": "What does Tom ask for?",
-          "qTr": "Tom ne ister?",
-          "correct": "Some bread",
+          "q": "Can Tom have some bread?",
+          "qTr": "Tom biraz ekmek alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some cake",
-            "Some water"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "What is Mum's answer for cake?",
-          "qTr": "Annenin kek için cevabı nedir?",
-          "correct": "No, you can't",
+          "q": "Can Tom have some cake?",
+          "qTr": "Tom biraz pasta alabilir mi?",
+          "correct": "No",
           "wrong": [
-            "Yes, you can",
-            "Goodbye"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -3684,24 +3693,24 @@
           ]
         },
         {
-          "q": "What does Eda want?",
-          "qTr": "Eda ne ister?",
-          "correct": "Some water",
+          "q": "Can Eda have some water?",
+          "qTr": "Eda biraz su alabilir mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some coffee",
-            "Some milk"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentence 8.",
           "hl": [
-            6
+            7
           ]
         },
         {
-          "q": "What is Mum's answer for coffee?",
-          "qTr": "Annenin kahve için cevabı nedir?",
-          "correct": "No, you can't",
+          "q": "Can Eda have some coffee?",
+          "qTr": "Eda biraz kahve alabilir mi?",
+          "correct": "No",
           "wrong": [
-            "Yes, you can",
+            "Yes",
             "Maybe"
           ],
           "hint": "Read sentence 10.",
@@ -3740,7 +3749,7 @@
         "It is red and small.",
         "It is not an apple. It is not a cherry.",
         "It is yummy and sweet.",
-        "Eda: I like this red fruit a lot!",
+        "Eda: I like this red fruit!",
         "What fruit is it?",
         "It is a strawberry!"
       ],
@@ -3749,7 +3758,7 @@
         "Kırmızı ve küçük.",
         "Bir elma değil. Bir kiraz değil.",
         "Nefis ve tatlı.",
-        "Eda diyor: Bu kırmızı meyveyi çok severim!",
+        "Eda diyor: Bu kırmızı meyveyi severim!",
         "Bu hangi meyve?",
         "Çilek!"
       ],
@@ -3794,8 +3803,8 @@
           ]
         },
         {
-          "q": "Does Eda like the fruit?",
-          "qTr": "Eda meyveyi sever mi?",
+          "q": "Is the fruit yummy for Eda?",
+          "qTr": "Meyve Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -4207,8 +4216,8 @@
           ]
         },
         {
-          "q": "Does Eda like chicken?",
-          "qTr": "Eda tavuk sever mi?",
+          "q": "Is chicken yummy for Eda?",
+          "qTr": "Tavuk Eda için nefis mi?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -4220,21 +4229,21 @@
           ]
         },
         {
-          "q": "What does Tom have today?",
+          "q": "What has Tom got today?",
           "qTr": "Tom'un bugün nesi var?",
           "correct": "Fish",
           "wrong": [
             "Chicken",
             "Eggs"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Does Can like chicken?",
-          "qTr": "Can tavuk sever mi?",
+          "q": "Is chicken yummy for Can?",
+          "qTr": "Tavuk Can için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
@@ -4388,92 +4397,95 @@
           "n": "Lila"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
+          "e": "👦",
+          "n": "Can"
+        },
+        {
+          "e": "👧",
+          "n": "Eda"
         }
       ],
       "sentences": [
-        "A friend is in the kitchen.",
+        "Four friends are in the kitchen.",
         "Tom: I like water.",
         "Lila: I like milk.",
-        "Eda: I like ayran! Can I have some ayran, please?",
         "Can: I like tea.",
-        "The answer for ayran is here!",
-        "It is Eda!"
+        "Eda: Can I have some ayran, please?",
+        "Ayran is a white Turkish drink.",
+        "Eda: Ayran is delicious!"
       ],
       "translations": [
-        "Bir arkadaş mutfakta.",
+        "Dört arkadaş mutfakta.",
         "Tom diyor: Suyu severim.",
         "Lila diyor: Sütü severim.",
-        "Eda diyor: Ayranı severim! Biraz ayran alabilir miyim, lütfen?",
         "Can diyor: Çayı severim.",
-        "Ayranın cevabı burada!",
-        "Eda!"
+        "Eda diyor: Biraz ayran alabilir miyim lütfen?",
+        "Ayran beyaz bir Türk içeceğidir.",
+        "Eda diyor: Ayran nefis!"
       ],
       "questions": [
         {
-          "q": "What does Tom like?",
-          "qTr": "Tom neyi sever?",
-          "correct": "Water",
+          "q": "Where are the friends?",
+          "qTr": "Arkadaşlar nerede?",
+          "correct": "In the kitchen",
           "wrong": [
-            "Milk",
-            "Tea"
+            "In the garden",
+            "In the bedroom"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is water for Tom?",
+          "qTr": "Su Tom için mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Lila like?",
-          "qTr": "Lila neyi sever?",
-          "correct": "Milk",
+          "q": "Is milk for Lila?",
+          "qTr": "Süt Lila için mi?",
+          "correct": "Yes",
           "wrong": [
-            "Water",
-            "Tea"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Eda ask for?",
-          "qTr": "Eda ne ister?",
-          "correct": "Some ayran",
+          "q": "Is ayran for Eda?",
+          "qTr": "Ayran Eda için mi?",
+          "correct": "Yes",
           "wrong": [
-            "Some milk",
-            "Some tea"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "What does Can like?",
-          "qTr": "Can neyi sever?",
-          "correct": "Tea",
-          "wrong": [
-            "Coffee",
-            "Ayran"
-          ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Who is the answer?",
-          "qTr": "Cevap kimdir?",
-          "correct": "Eda",
+          "q": "Is ayran delicious?",
+          "qTr": "Ayran nefis mi?",
+          "correct": "Yes",
           "wrong": [
-            "Tom",
-            "Lila"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 7.",
           "hl": [
-            3,
             6
           ]
         }
@@ -4725,7 +4737,6 @@
         "Today is a special day for children in Türkiye.",
         "It is not a religious day.",
         "It is not the 29th of October.",
-        "It is in spring.",
         "The date is the 23rd of April.",
         "Eda: My family is in our kitchen with yummy food!",
         "Can: Happy day for the children!",
@@ -4736,7 +4747,6 @@
         "Bugün Türkiye'de çocuklar için özel bir gün.",
         "Bir dini gün değil.",
         "29 Ekim değil.",
-        "İlkbaharda.",
         "Tarih 23 Nisan.",
         "Eda diyor: Ailem mutfağımızda nefis yemekle!",
         "Can diyor: Çocuklar için mutlu gün!",
@@ -4759,11 +4769,24 @@
         },
         {
           "q": "What date is it?",
-          "qTr": "Bugünün tarihi nedir?",
+          "qTr": "Hangi tarih?",
           "correct": "The 23rd of April",
           "wrong": [
             "The 29th of October",
             "The 15th of July"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is the family?",
+          "qTr": "Aile nerede?",
+          "correct": "In the kitchen",
+          "wrong": [
+            "In the garden",
+            "In the bedroom"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -4771,44 +4794,31 @@
           ]
         },
         {
-          "q": "Where is the family that Eda talks about?",
-          "qTr": "Eda'nın bahsettiği aile nerede?",
-          "correct": "In the kitchen",
+          "q": "Is it a happy day for children?",
+          "qTr": "Çocuklar için mutlu bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Can say?",
-          "qTr": "Can ne der?",
-          "correct": "Happy day for the children!",
-          "wrong": [
-            "Goodbye!",
-            "Sit down!"
-          ],
-          "hint": "Find Can.",
-          "hl": [
-            6
-          ]
-        },
-        {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
             "Republic Day",
             "Victory Day"
           ],
-          "hint": "Think about children and spring.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
-            4,
-            8
+            3,
+            7
           ]
         }
       ]
