@@ -3945,29 +3945,40 @@
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
-      "cast": [],
+      "cast": [
+        {
+          "e": "👧🏻",
+          "n": "Lila"
+        },
+        {
+          "e": "👦",
+          "n": "Can"
+        }
+      ],
       "sentences": [
-        "A girl is in the kitchen.",
+        "Lila is in the kitchen.",
         "It is morning time.",
-        "She has got some bread, some eggs and some milk.",
-        "She has got some tomatoes, too.",
+        "Lila: I have got some bread, some eggs and some milk.",
+        "Lila: I have got some tomatoes, too.",
         "It is not lunch. It is not dinner.",
-        "What meal is it?",
-        "It is breakfast!"
+        "Lila: My meal is yummy!",
+        "Can: Is it breakfast?",
+        "Lila: Yes! It is breakfast!"
       ],
       "translations": [
-        "Bir kız mutfakta.",
-        "Sabah zamanı.",
-        "Biraz ekmeği, biraz yumurtası ve biraz sütü var.",
-        "Biraz domatesi de var.",
-        "Öğle değil. Akşam yemeği değil.",
-        "Bu hangi öğün?",
-        "Kahvaltı!"
+        "Lila mutfakta.",
+        "Sabah vakti.",
+        "Lila diyor: Ekmeğim, yumurtalarım ve sütüm var.",
+        "Lila diyor: Domateslerim de var.",
+        "Öğle yemeği değil. Akşam yemeği değil.",
+        "Lila diyor: Yemeğim nefis!",
+        "Can diyor: Kahvaltı mı?",
+        "Lila diyor: Evet! Bu kahvaltı!"
       ],
       "questions": [
         {
-          "q": "Where is the girl?",
-          "qTr": "Kız nerede?",
+          "q": "Where is Lila?",
+          "qTr": "Lila nerede?",
           "correct": "In the kitchen",
           "wrong": [
             "In the garden",
@@ -3979,12 +3990,12 @@
           ]
         },
         {
-          "q": "What part of the day is it?",
-          "qTr": "Günün hangi bölümü?",
-          "correct": "Morning",
+          "q": "Is it morning?",
+          "qTr": "Sabah mı?",
+          "correct": "Yes",
           "wrong": [
-            "Evening",
-            "Night"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -3992,14 +4003,14 @@
           ]
         },
         {
-          "q": "What food has she got?",
-          "qTr": "Onun hangi yemeği var?",
-          "correct": "Bread, eggs, milk, tomatoes",
+          "q": "What has Lila got?",
+          "qTr": "Lila'nın nesi var?",
+          "correct": "Bread, eggs, milk and tomatoes",
           "wrong": [
-            "Chicken and fish",
-            "Apples"
+            "Chicken and rice",
+            "Only milk"
           ],
-          "hint": "Read sentences 3-4.",
+          "hint": "Read sentence 3.",
           "hl": [
             2,
             3
@@ -4007,7 +4018,7 @@
         },
         {
           "q": "Is it dinner?",
-          "qTr": "Bu akşam yemeği mi?",
+          "qTr": "Akşam yemeği mi?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -4020,17 +4031,17 @@
         },
         {
           "q": "What meal is it?",
-          "qTr": "Bu hangi öğün?",
+          "qTr": "Hangi öğün?",
           "correct": "Breakfast",
           "wrong": [
             "Lunch",
             "Dinner"
           ],
-          "hint": "Think about morning and bread.",
+          "hint": "Read sentence 2.",
           "hl": [
             1,
-            2,
-            6
+            4,
+            7
           ]
         }
       ]
