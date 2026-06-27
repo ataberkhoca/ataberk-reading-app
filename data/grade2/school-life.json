@@ -26,13 +26,13 @@
       ],
       "sentences": [
         "What is this?",
-        "This is the school.",
+        "This is a school.",
         "Who is this?",
         "This is Miss Oli. She is a teacher.",
         "Who is he? He is Can. We are friends.",
         "Who is she? She is Eda. She is a pupil.",
         "Who is this?",
-        "This is Mr. Aras. He is the headmaster.",
+        "This is Mr. Aras. He is a headmaster.",
         "Who are you?",
         "We are pupils. We are friends!"
       ],
@@ -50,14 +50,27 @@
       ],
       "questions": [
         {
-          "q": "Who is the teacher?",
-          "qTr": "Öğretmen kim?",
-          "correct": "Miss Oli",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A school",
           "wrong": [
-            "Can",
-            "Eda"
+            "A garden",
+            "A library"
           ],
-          "hint": "Find the word teacher.",
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is Miss Oli?",
+          "qTr": "Miss Oli kim?",
+          "correct": "A teacher",
+          "wrong": [
+            "A pupil",
+            "A headmaster"
+          ],
+          "hint": "Find Miss Oli.",
           "hl": [
             3
           ]
@@ -76,19 +89,6 @@
           ]
         },
         {
-          "q": "Who is Eda?",
-          "qTr": "Eda kim?",
-          "correct": "A pupil",
-          "wrong": [
-            "A teacher",
-            "A headmaster"
-          ],
-          "hint": "Read about Eda.",
-          "hl": [
-            5
-          ]
-        },
-        {
           "q": "Who is the headmaster?",
           "qTr": "Müdür kim?",
           "correct": "Mr. Aras",
@@ -102,16 +102,16 @@
           ]
         },
         {
-          "q": "What are Eda and Can?",
-          "qTr": "Eda ve Can nedir?",
-          "correct": "Friends",
+          "q": "Is Eda a pupil?",
+          "qTr": "Eda öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "Teachers",
-            "Headmasters"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read about Eda.",
           "hl": [
-            9
+            5
           ]
         }
       ]
@@ -160,14 +160,14 @@
       ],
       "questions": [
         {
-          "q": "Who is the teacher?",
-          "qTr": "Öğretmen kim?",
-          "correct": "Miss Oli",
+          "q": "Who is Miss Oli?",
+          "qTr": "Miss Oli kim?",
+          "correct": "A teacher",
           "wrong": [
-            "Tom",
-            "Lila"
+            "A pupil",
+            "A headmaster"
           ],
-          "hint": "Find the word teacher.",
+          "hint": "Find Miss Oli.",
           "hl": [
             2
           ]
@@ -180,40 +180,40 @@
             "A teacher",
             "A headmaster"
           ],
-          "hint": "Read about Tom.",
+          "hint": "Find Tom.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Who is Lila?",
-          "qTr": "Lila kim?",
-          "correct": "A pupil",
+          "q": "Is Lila a pupil?",
+          "qTr": "Lila öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "A teacher",
-            "A headmaster"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read about Lila.",
+          "hint": "Find Lila.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Who says 'Look! This is a school'?",
-          "qTr": "'Bak! Bu bir okul' diyen kim?",
-          "correct": "Tom",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A school",
           "wrong": [
-            "Lila",
-            "Miss Oli"
+            "A garden",
+            "A canteen"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
           "q": "What are they here?",
-          "qTr": "Burada onlar nedir?",
+          "qTr": "Onlar burada nedir?",
           "correct": "Friends",
           "wrong": [
             "Teachers",
@@ -272,6 +272,19 @@
       ],
       "questions": [
         {
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A library",
+          "wrong": [
+            "A garden",
+            "A playground"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
           "q": "Where is Eda?",
           "qTr": "Eda nerede?",
           "correct": "In garden",
@@ -302,7 +315,7 @@
           "qTr": "Miss Oli nerede?",
           "correct": "In sports hall",
           "wrong": [
-            "In playground",
+            "In garden",
             "In canteen"
           ],
           "hint": "Find Miss Oli.",
@@ -311,29 +324,16 @@
           ]
         },
         {
-          "q": "What is the place for books?",
-          "qTr": "Kitaplar için olan yer ne?",
-          "correct": "A library",
+          "q": "Is there a canteen in school?",
+          "qTr": "Okulda kantin var mı?",
+          "correct": "Yes",
           "wrong": [
-            "A canteen",
-            "A garden"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find the word library.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What does Miss Oli say in the end?",
-          "qTr": "Miss Oli sonunda ne der?",
-          "correct": "See you tomorrow!",
-          "wrong": [
-            "Good night!",
-            "Sorry!"
-          ],
-          "hint": "Read the last sentence.",
-          "hl": [
-            8
+            3
           ]
         }
       ]
@@ -387,7 +387,7 @@
           "correct": "In classroom",
           "wrong": [
             "In library",
-            "In the garden"
+            "In garden"
           ],
           "hint": "Find Lila.",
           "hl": [
@@ -400,7 +400,7 @@
           "correct": "In library",
           "wrong": [
             "In classroom",
-            "In the canteen"
+            "In canteen"
           ],
           "hint": "Find Can.",
           "hl": [
@@ -412,8 +412,8 @@
           "qTr": "Miss Oli nerede?",
           "correct": "In teacher's room",
           "wrong": [
-            "In the garden",
-            "In the playground"
+            "In garden",
+            "In playground"
           ],
           "hint": "Find Miss Oli.",
           "hl": [
@@ -421,25 +421,25 @@
           ]
         },
         {
-          "q": "What is the place for food?",
-          "qTr": "Yemek için olan yer ne?",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
           "correct": "A canteen",
           "wrong": [
             "A library",
             "A garden"
           ],
-          "hint": "Find the word canteen.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Where is Can in the end?",
-          "qTr": "Can sonunda nerede?",
-          "correct": "In sports hall",
+          "q": "Is Can in the sports hall?",
+          "qTr": "Can spor salonunda mı?",
+          "correct": "Yes",
           "wrong": [
-            "In library",
-            "In the garden"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -501,61 +501,61 @@
             "Tuesday",
             "Sunday"
           ],
-          "hint": "Read the first sentences.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where are we on Tuesday?",
-          "qTr": "Salı günü neredeyiz?",
-          "correct": "In library",
+          "q": "What day are we in the library?",
+          "qTr": "Hangi gün kütüphanedeyiz?",
+          "correct": "Tuesday",
           "wrong": [
-            "In garden",
-            "In playground"
+            "Monday",
+            "Friday"
           ],
-          "hint": "Find the word Tuesday.",
+          "hint": "Find the word library.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Which day are we in the sports hall?",
-          "qTr": "Hangi gün spor salonundayız?",
-          "correct": "Thursday",
+          "q": "What day are we in the playground?",
+          "qTr": "Hangi gün oyun alanındayız?",
+          "correct": "Friday",
           "wrong": [
             "Monday",
-            "Friday"
+            "Tuesday"
           ],
-          "hint": "Find the sports hall.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Where are we on Friday?",
-          "qTr": "Cuma günü neredeyiz?",
-          "correct": "In playground",
-          "wrong": [
-            "In classroom",
-            "In library"
-          ],
-          "hint": "Find the word Friday.",
+          "hint": "Find the word playground.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Are we in the school on Sunday?",
-          "qTr": "Pazar günü okulda mıyız?",
+          "q": "Is Saturday a school day?",
+          "qTr": "Cumartesi okul günü mü?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read about Saturday, Sunday.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
+          ]
+        },
+        {
+          "q": "Is Tuesday a school day?",
+          "qTr": "Salı okul günü mü?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
           ]
         }
       ]
@@ -611,44 +611,31 @@
             "Monday",
             "Sunday"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where are they on Friday?",
-          "qTr": "Cuma günü neredeler?",
-          "correct": "In sports hall",
+          "q": "What day are we in the sports hall?",
+          "qTr": "Hangi gün spor salonundayız?",
+          "correct": "Friday",
           "wrong": [
-            "In classroom",
-            "In garden"
+            "Monday",
+            "Wednesday"
           ],
-          "hint": "Find the word Friday.",
+          "hint": "Find the sports hall.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Which days are not school days?",
-          "qTr": "Hangi günler okul günü değil?",
-          "correct": "Saturday, Sunday",
+          "q": "Is Friday a fun day?",
+          "qTr": "Cuma eğlenceli bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Monday, Tuesday",
-            "Wednesday, Thursday"
-          ],
-          "hint": "Find the word school day.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Lila say about Friday?",
-          "qTr": "Lila Cuma için ne der?",
-          "correct": "It is a fun day",
-          "wrong": [
-            "It is a sad day",
-            "It is a school day"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Lila.",
           "hl": [
@@ -656,16 +643,29 @@
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Every day is a good day",
+          "q": "Is Saturday a school day?",
+          "qTr": "Cumartesi okul günü mü?",
+          "correct": "No",
           "wrong": [
-            "Monday is bad",
-            "No day is good"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read sentence 6.",
           "hl": [
-            7
+            5
+          ]
+        },
+        {
+          "q": "What day are we in the classroom?",
+          "qTr": "Hangi gün sınıftayız?",
+          "correct": "Monday",
+          "wrong": [
+            "Friday",
+            "Sunday"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
           ]
         }
       ]
@@ -716,12 +716,12 @@
       ],
       "questions": [
         {
-          "q": "What time of day is it?",
-          "qTr": "Günün hangi vakti?",
-          "correct": "Morning",
+          "q": "Is it morning?",
+          "qTr": "Sabah mı?",
+          "correct": "Yes",
           "wrong": [
-            "Night",
-            "Afternoon"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -729,25 +729,25 @@
           ]
         },
         {
-          "q": "What does Eda say to Miss Oli?",
-          "qTr": "Eda Miss Oli'ye ne der?",
-          "correct": "Good morning",
+          "q": "Where are the pupils?",
+          "qTr": "Öğrenciler nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Goodbye",
-            "Good night"
+            "In garden",
+            "In library"
           ],
-          "hint": "Find the word morning.",
+          "hint": "Read the first sentence.",
           "hl": [
-            1
+            0
           ]
         },
         {
-          "q": "How is Miss Oli?",
-          "qTr": "Miss Oli nasıl?",
-          "correct": "Fine",
+          "q": "Who is fine?",
+          "qTr": "Kim iyi?",
+          "correct": "Miss Oli",
           "wrong": [
-            "Sad",
-            "Tired"
+            "Mr. Aras",
+            "A new teacher"
           ],
           "hint": "Find the words how are you.",
           "hl": [
@@ -755,25 +755,25 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to start?",
-          "qTr": "Miss Oli başlamak için ne der?",
-          "correct": "Let's start!",
+          "q": "Who is in the classroom?",
+          "qTr": "Sınıfta kim var?",
+          "correct": "The pupils",
           "wrong": [
-            "Goodbye!",
-            "See you!"
+            "A headmaster",
+            "A new teacher"
           ],
-          "hint": "Find the word start.",
+          "hint": "Read the first sentence.",
           "hl": [
-            7
+            0
           ]
         },
         {
-          "q": "What do the pupils say?",
-          "qTr": "Öğrenciler ne der?",
-          "correct": "Hurray!",
+          "q": "Are the pupils happy?",
+          "qTr": "Öğrenciler mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -840,55 +840,56 @@
           ]
         },
         {
-          "q": "What is the girl's name?",
-          "qTr": "Kızın adı ne?",
-          "correct": "Lila",
+          "q": "Who is the boy?",
+          "qTr": "Erkek çocuk kim?",
+          "correct": "Tom",
           "wrong": [
-            "Tom",
-            "Eda"
+            "Can",
+            "Mr. Aras"
           ],
-          "hint": "Find the word name.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What does Tom say about himself?",
-          "qTr": "Tom kendisi için ne der?",
-          "correct": "I am Tom",
-          "wrong": [
-            "Goodbye",
-            "Sorry"
-          ],
-          "hint": "Find Tom.",
+          "hint": "Find the boy.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does Tom say to Lila?",
-          "qTr": "Tom Lila'ya ne der?",
-          "correct": "Sit here, please!",
+          "q": "What is Lila?",
+          "qTr": "Lila nedir?",
+          "correct": "A new pupil",
           "wrong": [
-            "Goodbye, Lila!",
-            "What day is it?"
+            "A teacher",
+            "A headmaster"
           ],
-          "hint": "Find the word sit.",
+          "hint": "Read sentence 1.",
           "hl": [
-            6
+            0
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Welcome, Lila!",
+          "q": "Is Lila welcome?",
+          "qTr": "Lila hoş karşılandı mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye, Lila!",
-            "Sorry, Lila!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read the last sentences.",
           "hl": [
+            5,
             7
+          ]
+        },
+        {
+          "q": "Where is Lila?",
+          "qTr": "Lila nerede?",
+          "correct": "In school",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read about the school.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -937,29 +938,16 @@
       ],
       "questions": [
         {
-          "q": "What is the place for books?",
-          "qTr": "Kitaplar için olan yer ne?",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
           "correct": "A library",
           "wrong": [
             "A garden",
-            "A classroom"
+            "A canteen"
           ],
-          "hint": "Find the word library.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
-          ]
-        },
-        {
-          "q": "Who is the first person?",
-          "qTr": "İlk kişi kim?",
-          "correct": "Eda",
-          "wrong": [
-            "Can",
-            "Miss Oli"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
           ]
         },
         {
@@ -970,7 +958,7 @@
             "In playground",
             "In library"
           ],
-          "hint": "Find the word Eda.",
+          "hint": "Find Eda.",
           "hl": [
             4
           ]
@@ -983,22 +971,35 @@
             "In garden",
             "In canteen"
           ],
-          "hint": "Find the word Can.",
+          "hint": "Find Can.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Well done, everybody!",
+          "q": "Who is this?",
+          "qTr": "Bu kim?",
+          "correct": "Eda",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "Can",
+            "Miss Oli"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read sentence 3.",
           "hl": [
-            7
+            2
+          ]
+        },
+        {
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A playground",
+          "wrong": [
+            "A library",
+            "A classroom"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -1047,19 +1048,6 @@
       ],
       "questions": [
         {
-          "q": "What day is it today?",
-          "qTr": "Bugün hangi gün?",
-          "correct": "The 23rd of April",
-          "wrong": [
-            "Monday",
-            "The 29th of October"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What special day is it?",
           "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
@@ -1067,7 +1055,7 @@
             "Republic Day",
             "Victory Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -1086,12 +1074,12 @@
           ]
         },
         {
-          "q": "How does Eda feel?",
-          "qTr": "Eda nasıl hisseder?",
-          "correct": "Happy",
+          "q": "Is Eda happy?",
+          "qTr": "Eda mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Eda.",
           "hl": [
@@ -1099,16 +1087,29 @@
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Children's Day!",
+          "q": "Is today an ordinary day?",
+          "qTr": "Bugün sıradan bir gün mü?",
+          "correct": "No",
           "wrong": [
-            "Good night!",
-            "Goodbye!"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Read sentence 4.",
           "hl": [
-            5
+            3
+          ]
+        },
+        {
+          "q": "Is the day for children?",
+          "qTr": "Gün çocuklar için mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            7
           ]
         }
       ]
@@ -1158,67 +1159,67 @@
       "questions": [
         {
           "q": "What day is it?",
-          "qTr": "Bugün günlerden ne?",
+          "qTr": "Hangi gün?",
           "correct": "Monday",
           "wrong": [
             "Friday",
             "Sunday"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
           "hl": [
             0
           ]
         },
         {
-          "q": "How is Can?",
-          "qTr": "Can nasıl?",
-          "correct": "Fine",
+          "q": "Where are they?",
+          "qTr": "Neredeler?",
+          "correct": "In classroom",
           "wrong": [
-            "Sad",
-            "Tired"
+            "In garden",
+            "In library"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Can fine?",
+          "qTr": "Can iyi mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Can.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How is Eda today?",
-          "qTr": "Eda bugün nasıl?",
-          "correct": "Happy",
+          "q": "Is Eda happy?",
+          "qTr": "Eda mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Sick"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find Eda.",
           "hl": [
             6
           ]
         },
         {
-          "q": "How is Can in the end?",
-          "qTr": "Can sonunda nasıl?",
-          "correct": "Very well",
+          "q": "Who is happy today?",
+          "qTr": "Bugün kim mutlu?",
+          "correct": "Eda",
           "wrong": [
-            "Bad",
-            "Sad"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
-          ]
-        },
-        {
-          "q": "Who comes to Eda and Can?",
-          "qTr": "Eda ve Can'ın yanına kim gelir?",
-          "correct": "Lila",
-          "wrong": [
-            "Tom",
+            "Mr. Aras",
             "Miss Oli"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 7.",
           "hl": [
-            4
+            6
           ]
         }
       ]
@@ -1267,68 +1268,69 @@
       ],
       "questions": [
         {
-          "q": "What is Can today?",
-          "qTr": "Can bugün nedir?",
-          "correct": "Late",
+          "q": "Is Can late?",
+          "qTr": "Can geç mi kaldı?",
+          "correct": "Yes",
           "wrong": [
-            "Happy",
-            "Sick"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
+          "hl": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": "Where is Miss Oli?",
+          "qTr": "Miss Oli nerede?",
+          "correct": "In classroom",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Who is late?",
+          "qTr": "Kim geç kaldı?",
+          "correct": "Can",
+          "wrong": [
+            "Eda",
+            "Miss Oli"
+          ],
+          "hint": "Read about Can.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What does Can say to Miss Oli?",
-          "qTr": "Can, Miss Oli'ye ne der?",
-          "correct": "I am sorry, Miss Oli!",
+          "q": "Is Eda here?",
+          "qTr": "Eda burada mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Hello!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Is Can angry?",
+          "qTr": "Can kızgın mı?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read about Can.",
           "hl": [
             2
-          ]
-        },
-        {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "It is OK, Can",
-          "wrong": [
-            "Goodbye!",
-            "No!"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Who says hello to Can?",
-          "qTr": "Can'a kim merhaba der?",
-          "correct": "Eda",
-          "wrong": [
-            "Miss Oli",
-            "Mr. Aras"
-          ],
-          "hint": "Read sentence 7.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "What does Can say to Eda?",
-          "qTr": "Can, Eda'ya ne der?",
-          "correct": "I am sorry",
-          "wrong": [
-            "Goodbye!",
-            "How are you?"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
           ]
         }
       ]
@@ -1377,19 +1379,6 @@
       ],
       "questions": [
         {
-          "q": "What day is it today?",
-          "qTr": "Bugün hangi gün?",
-          "correct": "The 15th of July",
-          "wrong": [
-            "The 23rd of April",
-            "Monday"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What special day is it?",
           "qTr": "Hangi özel gün?",
           "correct": "Democracy Day",
@@ -1397,48 +1386,61 @@
             "Republic Day",
             "Victory Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where are the children?",
-          "qTr": "Çocuklar nerede?",
-          "correct": "In school garden",
+          "q": "Where are they?",
+          "qTr": "Neredeler?",
+          "correct": "In a school garden",
           "wrong": [
             "In library",
             "In canteen"
           ],
-          "hint": "Find the word garden.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
         },
         {
-          "q": "How does Can feel?",
-          "qTr": "Can nasıl hissediyor?",
-          "correct": "Happy",
+          "q": "Is it a special day?",
+          "qTr": "Özel bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Can.",
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is happy?",
+          "qTr": "Kim mutlu?",
+          "correct": "Eda and Can",
+          "wrong": [
+            "Mr. Aras",
+            "Miss Oli"
+          ],
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Democracy Day!",
+          "q": "Is it a national day?",
+          "qTr": "Ulusal bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Good night!",
-            "Goodbye!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Read sentence 3.",
           "hl": [
-            5
+            2
           ]
         }
       ]
@@ -1491,17 +1493,15 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Greetings in the morning",
+          "correct": "A school morning",
           "wrong": [
             "Days of the week",
             "School places"
           ],
-          "hint": "Think about what they say.",
+          "hint": "Think about the morning.",
           "hl": [
-            1,
-            2,
-            3,
-            4
+            0,
+            7
           ]
         },
         {
@@ -1518,42 +1518,42 @@
           ]
         },
         {
-          "q": "What does Miss Oli say first?",
-          "qTr": "Miss Oli önce ne der?",
-          "correct": "Good morning, everybody!",
+          "q": "Is Can fine?",
+          "qTr": "Can iyi mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Good night!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How is Can?",
-          "qTr": "Can nasıl?",
-          "correct": "Fine",
-          "wrong": [
-            "Sad",
-            "Tired"
-          ],
-          "hint": "Find Can.",
+          "hint": "Find the words how are you.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Miss Oli say to start?",
-          "qTr": "Miss Oli başlamak için ne der?",
-          "correct": "Let's start!",
+          "q": "Is it a happy morning?",
+          "qTr": "Mutlu bir sabah mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find the word start.",
+          "hint": "Read the last sentence.",
           "hl": [
-            6
+            7
+          ]
+        },
+        {
+          "q": "Is it night?",
+          "qTr": "Gece mi?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
           ]
         }
       ]
@@ -1604,18 +1604,16 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "People in school",
+          "correct": "Pupils and teachers",
           "wrong": [
             "Days of the week",
             "Greetings"
           ],
           "hint": "Think about the people.",
           "hl": [
-            0,
             1,
             2,
-            3,
-            4
+            3
           ]
         },
         {
@@ -1645,12 +1643,12 @@
           ]
         },
         {
-          "q": "What is Tom?",
-          "qTr": "Tom nedir?",
-          "correct": "A pupil",
+          "q": "Is Tom a pupil?",
+          "qTr": "Tom öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "A teacher",
-            "A headmaster"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Tom.",
           "hl": [
@@ -1658,15 +1656,16 @@
           ]
         },
         {
-          "q": "How does the writer feel?",
-          "qTr": "Yazar nasıl hisseder?",
-          "correct": "Happy",
+          "q": "Are they friends?",
+          "qTr": "Onlar arkadaş mı?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read the last sentences.",
           "hl": [
+            6,
             7
           ]
         }
@@ -1727,18 +1726,29 @@
           "hl": [
             1,
             2,
-            3,
-            4,
-            5
+            4
           ]
         },
         {
-          "q": "What is the library like?",
-          "qTr": "Kütüphane nasıl?",
-          "correct": "Quiet",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A library",
           "wrong": [
-            "Fun",
-            "Loud"
+            "A garden",
+            "A playground"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Is the library quiet?",
+          "qTr": "Kütüphane sessiz mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
           ],
           "hint": "Find the word library.",
           "hl": [
@@ -1746,29 +1756,16 @@
           ]
         },
         {
-          "q": "What is the garden like?",
-          "qTr": "Bahçe nasıl?",
-          "correct": "A fun place",
+          "q": "Is the garden a fun place?",
+          "qTr": "Bahçe eğlenceli bir yer mi?",
+          "correct": "Yes",
           "wrong": [
-            "A quiet place",
-            "A sad place"
+            "No",
+            "Maybe"
           ],
           "hint": "Find the word garden.",
           "hl": [
             4
-          ]
-        },
-        {
-          "q": "What is the playground like?",
-          "qTr": "Oyun alanı nasıl?",
-          "correct": "Fun",
-          "wrong": [
-            "Quiet",
-            "Sad"
-          ],
-          "hint": "Find the word playground.",
-          "hl": [
-            5
           ]
         },
         {
@@ -1832,10 +1829,10 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Days of the week",
+          "correct": "School days and weekend",
           "wrong": [
-            "School places",
-            "Greetings"
+            "Greetings",
+            "School places"
           ],
           "hint": "Think about the days.",
           "hl": [
@@ -1857,25 +1854,25 @@
           ]
         },
         {
-          "q": "Which days are not school days?",
-          "qTr": "Hangi günler okul günü değil?",
-          "correct": "Saturday, Sunday",
+          "q": "Is Saturday a school day?",
+          "qTr": "Cumartesi okul günü mü?",
+          "correct": "No",
           "wrong": [
-            "Monday, Tuesday",
-            "Thursday, Friday"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find the word school days.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Tom say about Friday?",
-          "qTr": "Tom Cuma için ne der?",
-          "correct": "It is a fun day",
+          "q": "Is Friday a fun day?",
+          "qTr": "Cuma eğlenceli bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "It is a sad day",
-            "It is a school day"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Tom.",
           "hl": [
@@ -1951,7 +1948,6 @@
           "hint": "Think about Lila.",
           "hl": [
             0,
-            2,
             6
           ]
         },
@@ -1969,42 +1965,42 @@
           ]
         },
         {
-          "q": "What does Eda ask first?",
-          "qTr": "Eda önce ne sorar?",
-          "correct": "What is your name?",
+          "q": "Is Lila a friend?",
+          "qTr": "Lila bir arkadaş mı?",
+          "correct": "Yes",
           "wrong": [
-            "What day is it?",
-            "Where is a garden?"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does Eda say to Lila?",
-          "qTr": "Eda Lila'ya ne der?",
-          "correct": "Sit here, Lila!",
-          "wrong": [
-            "Goodbye, Lila!",
-            "What day is it?"
-          ],
-          "hint": "Find the word sit.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is Lila?",
-          "qTr": "Lila nedir?",
-          "correct": "A friend",
-          "wrong": [
-            "A teacher",
-            "A headmaster"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the last sentences.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Where is the girl?",
+          "qTr": "Kız nerede?",
+          "correct": "In school",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Lila welcome?",
+          "qTr": "Lila hoş karşılandı mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            4
           ]
         }
       ]
@@ -2055,7 +2051,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Naming people, places",
+          "correct": "Places and people",
           "wrong": [
             "Days of the week",
             "Greetings"
@@ -2068,27 +2064,14 @@
           ]
         },
         {
-          "q": "Where are Miss Oli and the pupils?",
-          "qTr": "Miss Oli ve öğrenciler nerede?",
-          "correct": "In classroom",
-          "wrong": [
-            "In garden",
-            "In canteen"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "What is the place with books?",
-          "qTr": "Kitapların olduğu yer ne?",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
           "correct": "A library",
           "wrong": [
-            "A playground",
-            "A canteen"
+            "A garden",
+            "A playground"
           ],
-          "hint": "Find the word library.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
@@ -2101,22 +2084,35 @@
             "In garden",
             "In library"
           ],
-          "hint": "Find the word Tom.",
+          "hint": "Find Tom.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What do the pupils say to Miss Oli?",
-          "qTr": "Öğrenciler Miss Oli'ye ne der?",
-          "correct": "Thank you, Miss Oli!",
+          "q": "Where is Can?",
+          "qTr": "Can nerede?",
+          "correct": "In garden",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "In playground",
+            "In canteen"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Find Can.",
           "hl": [
-            7
+            4
+          ]
+        },
+        {
+          "q": "Where are Miss Oli and the pupils?",
+          "qTr": "Miss Oli ve öğrenciler nerede?",
+          "correct": "In classroom",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
           ]
         }
       ]
@@ -2167,30 +2163,28 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "A day in school",
+          "correct": "A school morning",
           "wrong": [
             "Days of the week",
             "A birthday party"
           ],
-          "hint": "Think about the school day.",
+          "hint": "Think about the morning.",
           "hl": [
             0,
-            3,
-            4,
-            6
+            3
           ]
         },
         {
-          "q": "What does the writer say to Miss Oli?",
-          "qTr": "Yazar Miss Oli'ye ne der?",
-          "correct": "Good morning",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A classroom",
           "wrong": [
-            "Goodbye",
-            "Good night"
+            "A library",
+            "A garden"
           ],
-          "hint": "Find the word morning.",
+          "hint": "Read sentence 4.",
           "hl": [
-            1
+            3
           ]
         },
         {
@@ -2220,12 +2214,12 @@
           ]
         },
         {
-          "q": "How does the writer feel?",
-          "qTr": "Yazar nasıl hisseder?",
-          "correct": "Happy",
+          "q": "Is the writer happy?",
+          "qTr": "Yazar mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -2280,7 +2274,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Monday in school",
+          "correct": "A school day",
           "wrong": [
             "A birthday",
             "School places"
@@ -2310,25 +2304,12 @@
           "qTr": "Öğrenciler nerede?",
           "correct": "In classroom",
           "wrong": [
-            "In library",
-            "In garden"
+            "In garden",
+            "In library"
           ],
           "hint": "Read sentence 2.",
           "hl": [
             1
-          ]
-        },
-        {
-          "q": "Who says good morning first?",
-          "qTr": "Önce kim günaydın der?",
-          "correct": "Miss Oli",
-          "wrong": [
-            "Lila",
-            "Tom"
-          ],
-          "hint": "Find the word morning.",
-          "hl": [
-            2
           ]
         },
         {
@@ -2337,11 +2318,24 @@
           "correct": "Yes",
           "wrong": [
             "No",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read about Monday.",
           "hl": [
             4
+          ]
+        },
+        {
+          "q": "Are the pupils happy?",
+          "qTr": "Öğrenciler mutlu mu?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Lila.",
+          "hl": [
+            6
           ]
         }
       ]
@@ -2392,7 +2386,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Polite words in school",
+          "correct": "Good manners",
           "wrong": [
             "Days of the week",
             "School places"
@@ -2404,38 +2398,25 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to Eda?",
-          "qTr": "Miss Oli Eda'ya ne der?",
-          "correct": "Good morning, Eda! How are you?",
+          "q": "Where are they?",
+          "qTr": "Neredeler?",
+          "correct": "In school",
           "wrong": [
-            "Goodbye, Eda!",
-            "Good night!"
+            "In garden",
+            "In library"
           ],
-          "hint": "Find Miss Oli and Eda.",
+          "hint": "Read the first sentence.",
           "hl": [
-            2
+            0
           ]
         },
         {
-          "q": "How is Eda?",
-          "qTr": "Eda nasıl?",
-          "correct": "Fine",
+          "q": "Is Tom late?",
+          "qTr": "Tom geç mi kaldı?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
-          ],
-          "hint": "Find the words how are you.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Why does Tom say sorry?",
-          "qTr": "Tom neden özür diler?",
-          "correct": "He is late",
-          "wrong": [
-            "He is happy",
-            "He is here"
+            "No",
+            "Maybe"
           ],
           "hint": "Read about Tom.",
           "hl": [
@@ -2443,14 +2424,27 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to Tom?",
-          "qTr": "Miss Oli Tom'a ne der?",
-          "correct": "That's OK, Tom! Welcome!",
+          "q": "Who is late?",
+          "qTr": "Kim geç kaldı?",
+          "correct": "Tom",
           "wrong": [
-            "Goodbye, Tom!",
-            "Sorry, Tom!"
+            "Eda",
+            "Miss Oli"
           ],
-          "hint": "Find Tom and Miss Oli.",
+          "hint": "Read about Tom.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is Tom welcome?",
+          "qTr": "Tom hoş karşılandı mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Miss Oli.",
           "hl": [
             5
           ]
@@ -2502,69 +2496,68 @@
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Republic Day in school",
+          "qTr": "Metin esas olarak ne hakkında?",
+          "correct": "A national day",
           "wrong": [
-            "A birthday",
-            "School places"
+            "A school day",
+            "A birthday"
           ],
           "hint": "Think about the special day.",
           "hl": [
             1,
-            2,
-            7
-          ]
-        },
-        {
-          "q": "What day is it today?",
-          "qTr": "Bugün günlerden ne?",
-          "correct": "The 29th of October",
-          "wrong": [
-            "The 23rd of April",
-            "Monday"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
+            2
           ]
         },
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Republic Day",
           "wrong": [
             "Children's Day",
             "Victory Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where are the children?",
-          "qTr": "Çocuklar nerede?",
-          "correct": "In school garden",
+          "q": "Where are they?",
+          "qTr": "Neredeler?",
+          "correct": "In a school garden",
           "wrong": [
             "In library",
             "In canteen"
           ],
-          "hint": "Find the word garden.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Republic Day!",
+          "q": "Is Can happy?",
+          "qTr": "Can mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Good night!",
-            "Goodbye!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Find Can.",
           "hl": [
-            5
+            4
+          ]
+        },
+        {
+          "q": "Is it a national day?",
+          "qTr": "Ulusal bir gün mü?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
           ]
         }
       ]
@@ -2616,25 +2609,25 @@
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Polite words in school",
+          "qTr": "Metin esas olarak ne hakkında?",
+          "correct": "Polite words",
           "wrong": [
-            "A birthday",
-            "Colours"
+            "Days of the week",
+            "School places"
           ],
-          "hint": "Find the polite words.",
+          "hint": "Think about the polite words.",
           "hl": [
             2,
-            7
+            6
           ]
         },
         {
-          "q": "Where is Tom at the start?",
-          "qTr": "Tom başta nerede?",
+          "q": "Where is Tom?",
+          "qTr": "Tom nerede?",
           "correct": "In garden",
           "wrong": [
             "In library",
-            "In canteen"
+            "In classroom"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -2642,42 +2635,44 @@
           ]
         },
         {
-          "q": "What does Tom say to Lila?",
-          "qTr": "Tom Lila'ya ne der?",
-          "correct": "Excuse me, Lila!",
+          "q": "Is Lila in the garden?",
+          "qTr": "Lila bahçede mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye, Lila!",
-            "Sorry, Lila!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 2.",
           "hl": [
-            2
+            1
           ]
         },
         {
-          "q": "What does Tom ask?",
-          "qTr": "Tom ne sorar?",
-          "correct": "Where is a library?",
+          "q": "Who is in the garden?",
+          "qTr": "Bahçede kim var?",
+          "correct": "Tom and Lila",
           "wrong": [
-            "How are you?",
-            "What day is it?"
+            "Miss Oli",
+            "Mr. Aras"
           ],
-          "hint": "Find the question.",
+          "hint": "Read the first sentences.",
           "hl": [
-            4
+            0,
+            1
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Come in, please",
+          "q": "Is Tom polite?",
+          "qTr": "Tom kibar mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Go home!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the polite words.",
           "hl": [
-            7
+            2,
+            6
           ]
         }
       ]
@@ -2730,7 +2725,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Polite words in school",
+          "correct": "Polite words",
           "wrong": [
             "Days of the week",
             "Colours"
@@ -2743,12 +2738,25 @@
           ]
         },
         {
-          "q": "What does Eda say first?",
-          "qTr": "Eda önce ne der?",
-          "correct": "Excuse me, Miss Oli",
+          "q": "Where is Eda?",
+          "qTr": "Eda nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Goodbye!",
-            "Good night!"
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Eda polite?",
+          "qTr": "Eda kibar mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -2756,25 +2764,12 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to Can?",
-          "qTr": "Miss Oli Can'a ne der?",
-          "correct": "Sit here, Can!",
+          "q": "Is the seat for Can?",
+          "qTr": "Koltuk Can'ın mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye, Can!",
-            "Sorry, Can!"
-          ],
-          "hint": "Find Miss Oli and Can.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Why does Eda say sorry?",
-          "qTr": "Eda neden özür diler?",
-          "correct": "It is the seat for Can",
-          "wrong": [
-            "It is Monday",
-            "It is morning"
+            "No",
+            "Maybe"
           ],
           "hint": "Read about the seat.",
           "hl": [
@@ -2782,16 +2777,16 @@
           ]
         },
         {
-          "q": "What does Can say to Eda?",
-          "qTr": "Can Eda'ya ne der?",
-          "correct": "That's OK, Eda!",
+          "q": "Who is sorry?",
+          "qTr": "Kim özür diliyor?",
+          "correct": "Eda",
           "wrong": [
-            "No!",
-            "Goodbye!"
+            "Can",
+            "Miss Oli"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read the last sentences.",
           "hl": [
-            8
+            7
           ]
         }
       ]
@@ -2842,16 +2837,15 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Eid al-Fitr",
+          "correct": "A special day",
           "wrong": [
-            "A birthday",
-            "School places"
+            "A school day",
+            "A birthday"
           ],
           "hint": "Think about the special day.",
           "hl": [
-            1,
-            2,
-            7
+            0,
+            2
           ]
         },
         {
@@ -2862,18 +2856,31 @@
             "Republic Day",
             "Victory Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "How do Eda and Can feel?",
-          "qTr": "Eda ve Can nasıl hisseder?",
-          "correct": "Happy",
+          "q": "Is it a religious day?",
+          "qTr": "Dini bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is happy?",
+          "qTr": "Kim mutlu?",
+          "correct": "Eda and Can",
+          "wrong": [
+            "Mr. Aras",
+            "Miss Oli"
           ],
           "hint": "Find Eda and Can.",
           "hl": [
@@ -2881,29 +2888,16 @@
           ]
         },
         {
-          "q": "Who is the day for?",
-          "qTr": "Gün kimin için?",
-          "correct": "Friends",
+          "q": "Is the day for friends?",
+          "qTr": "Gün arkadaşlar için mi?",
+          "correct": "Yes",
           "wrong": [
-            "Teachers only",
-            "No one"
+            "No",
+            "Maybe"
           ],
           "hint": "Read about the day.",
           "hl": [
             3
-          ]
-        },
-        {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Eid, everybody!",
-          "wrong": [
-            "Good night!",
-            "Goodbye!"
-          ],
-          "hint": "Find Miss Oli.",
-          "hl": [
-            5
           ]
         }
       ]
@@ -2958,69 +2952,68 @@
       ],
       "questions": [
         {
+          "q": "Where is the new boy?",
+          "qTr": "Yeni çocuk nerede?",
+          "correct": "In classroom",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
           "q": "Who is the new boy?",
-          "qTr": "Yeni oğlan kimdir?",
+          "qTr": "Yeni çocuk kim?",
           "correct": "Tom",
           "wrong": [
-            "Lila",
+            "Can",
             "Mr. Aras"
           ],
-          "hint": "Read the first sentences.",
+          "hint": "Read sentence 3.",
           "hl": [
-            0,
             2
           ]
         },
         {
-          "q": "What does Lila ask first?",
-          "qTr": "Lila önce ne sorar?",
-          "correct": "What is your name?",
+          "q": "Is Lila a friend?",
+          "qTr": "Lila bir arkadaş mı?",
+          "correct": "Yes",
           "wrong": [
-            "Where is a garden?",
-            "What day is it?"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila's first words.",
+          "hint": "Read about Lila.",
           "hl": [
-            1
+            6
           ]
         },
         {
-          "q": "Who says welcome?",
-          "qTr": "Kim hoş geldin der?",
-          "correct": "Miss Oli",
-          "wrong": [
-            "Tom",
-            "Lila"
-          ],
-          "hint": "Find the word welcome.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Lila say to Tom?",
-          "qTr": "Lila Tom'a ne der?",
-          "correct": "Sit here, Tom!",
-          "wrong": [
-            "Goodbye, Tom!",
-            "What day is it?"
-          ],
-          "hint": "Find the word sit.",
-          "hl": [
-            7
-          ]
-        },
-        {
-          "q": "What are Tom and Lila now?",
-          "qTr": "Tom ve Lila şimdi nedir?",
-          "correct": "Good friends",
+          "q": "What are Tom and Lila?",
+          "qTr": "Tom ve Lila nedir?",
+          "correct": "Friends",
           "wrong": [
             "Teachers",
-            "Pupils only"
+            "Headmasters"
           ],
           "hint": "Read the last sentence.",
           "hl": [
             9
+          ]
+        },
+        {
+          "q": "Is Tom welcome?",
+          "qTr": "Tom hoş karşılandı mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find Miss Oli.",
+          "hl": [
+            5
           ]
         }
       ]
@@ -3072,7 +3065,7 @@
       "questions": [
         {
           "q": "Who is the teacher?",
-          "qTr": "Öğretmen kimdir?",
+          "qTr": "Öğretmen kim?",
           "correct": "Miss Oli",
           "wrong": [
             "Mr. Aras",
@@ -3084,14 +3077,14 @@
           ]
         },
         {
-          "q": "Where is Mr. Aras?",
-          "qTr": "Mr. Aras nerede?",
-          "correct": "In teacher's room",
+          "q": "Who is the headmaster?",
+          "qTr": "Müdür kim?",
+          "correct": "Mr. Aras",
           "wrong": [
-            "In playground",
-            "In library"
+            "Miss Oli",
+            "Can"
           ],
-          "hint": "Find Mr. Aras.",
+          "hint": "Find the word headmaster.",
           "hl": [
             2
           ]
@@ -3102,7 +3095,7 @@
           "correct": "In library",
           "wrong": [
             "In garden",
-            "In canteen"
+            "In playground"
           ],
           "hint": "Find Eda.",
           "hl": [
@@ -3110,27 +3103,27 @@
           ]
         },
         {
-          "q": "Who is in the playground?",
-          "qTr": "Oyun bahçesinde kim var?",
-          "correct": "Tom",
+          "q": "Where is Tom?",
+          "qTr": "Tom nerede?",
+          "correct": "In playground",
           "wrong": [
-            "Lila",
-            "Eda"
+            "In library",
+            "In canteen"
           ],
-          "hint": "Find the word playground.",
+          "hint": "Find Tom.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What are Can, Lila, Eda and Tom?",
-          "qTr": "Can, Lila, Eda ve Tom nedir?",
-          "correct": "Pupils",
+          "q": "Are they all pupils?",
+          "qTr": "Hepsi öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "Teachers",
-            "Headmasters"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read the second to last sentence.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
           ]
@@ -3233,16 +3226,16 @@
           ]
         },
         {
-          "q": "Are they all in different places?",
-          "qTr": "Hepsi farklı yerlerde mi?",
-          "correct": "Yes",
+          "q": "Where is Miss Oli?",
+          "qTr": "Miss Oli nerede?",
+          "correct": "In teacher's room",
           "wrong": [
-            "No",
-            "Maybe"
+            "In garden",
+            "In canteen"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Find Miss Oli.",
           "hl": [
-            7
+            5
           ]
         }
       ]
@@ -3306,6 +3299,19 @@
           ]
         },
         {
+          "q": "What day is after Tuesday?",
+          "qTr": "Salı'dan sonra hangi gün?",
+          "correct": "Wednesday",
+          "wrong": [
+            "Thursday",
+            "Monday"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
           "q": "What day is after Wednesday?",
           "qTr": "Çarşamba'dan sonra hangi gün?",
           "correct": "Thursday",
@@ -3319,42 +3325,29 @@
           ]
         },
         {
-          "q": "Which days are not school days?",
-          "qTr": "Hangi günler okul günü değil?",
-          "correct": "Saturday, Sunday",
+          "q": "Is Friday a happy day?",
+          "qTr": "Cuma mutlu bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "Monday, Tuesday",
-            "Wednesday, Thursday"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find the word school day.",
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is Saturday a school day?",
+          "qTr": "Cumartesi okul günü mü?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 6.",
           "hl": [
             5
-          ]
-        },
-        {
-          "q": "What does Lila say about Saturday?",
-          "qTr": "Lila Cumartesi için ne der?",
-          "correct": "It is a good day",
-          "wrong": [
-            "It is a school day",
-            "It is a sad day"
-          ],
-          "hint": "Find Lila.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "What day is after Sunday?",
-          "qTr": "Pazar'dan sonra hangi gün?",
-          "correct": "Monday",
-          "wrong": [
-            "Friday",
-            "Wednesday"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
           ]
         }
       ]
@@ -3409,9 +3402,9 @@
       ],
       "questions": [
         {
-          "q": "Where is Eda in the morning?",
-          "qTr": "Eda sabah nerede?",
-          "correct": "In school garden",
+          "q": "Where is Eda?",
+          "qTr": "Eda nerede?",
+          "correct": "In a school garden",
           "wrong": [
             "In library",
             "In classroom"
@@ -3422,12 +3415,12 @@
           ]
         },
         {
-          "q": "How is Tom?",
-          "qTr": "Tom nasıl?",
-          "correct": "Fine",
+          "q": "Is Tom fine?",
+          "qTr": "Tom iyi mi?",
+          "correct": "Yes",
           "wrong": [
-            "Tired",
-            "Sad"
+            "No",
+            "Maybe"
           ],
           "hint": "Find the words how are you.",
           "hl": [
@@ -3435,42 +3428,42 @@
           ]
         },
         {
-          "q": "What do the pupils say to Miss Oli?",
-          "qTr": "Öğrenciler Miss Oli'ye ne der?",
-          "correct": "Good morning, Miss Oli!",
+          "q": "Where are they?",
+          "qTr": "Sonra neredeler?",
+          "correct": "In classroom",
           "wrong": [
-            "Goodbye!",
-            "See you!"
+            "In garden",
+            "In library"
           ],
-          "hint": "Find the word morning.",
+          "hint": "Read sentence 6.",
           "hl": [
-            7
+            5
           ]
         },
         {
-          "q": "What does Miss Oli say to start?",
-          "qTr": "Miss Oli başlamak için ne der?",
-          "correct": "Let's start!",
+          "q": "Is it morning?",
+          "qTr": "Sabah mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find the word start.",
+          "hint": "Read the first sentence.",
           "hl": [
-            8
+            0
           ]
         },
         {
-          "q": "What does Tom say before he goes home?",
-          "qTr": "Tom eve gitmeden önce ne der?",
-          "correct": "See you tomorrow!",
+          "q": "Is it night?",
+          "qTr": "Gece mi?",
+          "correct": "No",
           "wrong": [
-            "Good morning!",
-            "Welcome!"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read the first sentence.",
           "hl": [
-            10
+            0
           ]
         }
       ]
@@ -3501,7 +3494,7 @@
         "Miss Oli: Look! What is this?",
         "Lila: It is a classroom!",
         "Miss Oli: What is this?",
-        "Can: It is the library!",
+        "Can: It is a library!",
         "Miss Oli: Who is this?",
         "Lila: This is Can. He is a friend.",
         "Miss Oli: Who is this?",
@@ -3523,68 +3516,68 @@
       ],
       "questions": [
         {
-          "q": "What is the first thing they name?",
-          "qTr": "İlk adını söyledikleri şey nedir?",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
           "correct": "A classroom",
           "wrong": [
-            "The library",
-            "The garden"
+            "A library",
+            "A garden"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Can name?",
-          "qTr": "Can neyin adını söyler?",
-          "correct": "The library",
+          "q": "What is this?",
+          "qTr": "Bu nedir?",
+          "correct": "A library",
           "wrong": [
-            "The classroom",
-            "The garden"
+            "A classroom",
+            "A canteen"
           ],
-          "hint": "Find Can's first answer.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Who does Lila name?",
-          "qTr": "Lila kimin adını söyler?",
-          "correct": "Can",
+          "q": "Who is Can?",
+          "qTr": "Can kim?",
+          "correct": "A friend",
           "wrong": [
-            "Lila herself",
-            "Miss Oli"
+            "A teacher",
+            "A headmaster"
           ],
-          "hint": "Find what Lila says.",
+          "hint": "Read sentence 6.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Who does Can name?",
-          "qTr": "Can kimin adını söyler?",
-          "correct": "Lila",
+          "q": "Is Lila a friend?",
+          "qTr": "Lila bir arkadaş mı?",
+          "correct": "Yes",
           "wrong": [
-            "Can himself",
-            "Miss Oli"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find what Can says.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
           ]
         },
         {
-          "q": "What does Miss Oli say to the pupils?",
-          "qTr": "Miss Oli öğrencilere ne der?",
-          "correct": "Well done, everybody!",
+          "q": "Are they good pupils?",
+          "qTr": "Onlar iyi öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read the last sentences.",
+          "hint": "Read the last sentence.",
           "hl": [
-            8
+            9
           ]
         }
       ]
@@ -3637,38 +3630,38 @@
       ],
       "questions": [
         {
-          "q": "What does Miss Oli ask Eda and Tom to do?",
-          "qTr": "Miss Oli Eda ve Tom'dan ne ister?",
-          "correct": "Come here, please",
+          "q": "Is Tom here?",
+          "qTr": "Tom burada mı?",
+          "correct": "No",
           "wrong": [
-            "Sit down",
-            "Go home"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find the word come.",
+          "hint": "Read the first sentence.",
           "hl": [
-            1
+            0
           ]
         },
         {
-          "q": "What does Eda say first?",
-          "qTr": "Eda önce ne der?",
-          "correct": "Excuse me",
+          "q": "Where is Miss Oli?",
+          "qTr": "Miss Oli nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Goodbye",
-            "Sorry"
+            "In garden",
+            "In library"
           ],
-          "hint": "Find Eda's first words.",
+          "hint": "Read the first sentence.",
           "hl": [
-            2
+            0
           ]
         },
         {
-          "q": "Why does Tom say sorry?",
-          "qTr": "Tom neden özür diler?",
-          "correct": "He is late",
+          "q": "Is Tom late?",
+          "qTr": "Tom geç mi kaldı?",
+          "correct": "Yes",
           "wrong": [
-            "He is happy",
-            "He is here"
+            "No",
+            "Maybe"
           ],
           "hint": "Read about Tom.",
           "hl": [
@@ -3676,29 +3669,29 @@
           ]
         },
         {
-          "q": "What does Miss Oli say to Tom?",
-          "qTr": "Miss Oli Tom'a ne der?",
-          "correct": "That's OK, Tom!",
+          "q": "Is Eda polite?",
+          "qTr": "Eda kibar mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye, Tom!",
-            "Good night, Tom!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Tom and Miss Oli.",
+          "hint": "Find Eda.",
           "hl": [
-            7
+            2
           ]
         },
         {
-          "q": "What does Miss Oli say in the end?",
-          "qTr": "Miss Oli sonunda ne der?",
-          "correct": "You're welcome, everybody!",
+          "q": "Who is late?",
+          "qTr": "Kim geç kaldı?",
+          "correct": "Tom",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "Eda",
+            "Miss Oli"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Read about Tom.",
           "hl": [
-            9
+            6
           ]
         }
       ]
@@ -3762,8 +3755,8 @@
           ]
         },
         {
-          "q": "Where is Lila first?",
-          "qTr": "Lila önce nerede?",
+          "q": "Where is Lila?",
+          "qTr": "Lila nerede?",
           "correct": "In library",
           "wrong": [
             "In classroom",
@@ -3775,25 +3768,25 @@
           ]
         },
         {
-          "q": "Why do they go to the sports hall?",
-          "qTr": "Neden spor salonuna giderler?",
-          "correct": "It is time for sports",
+          "q": "Where are they all?",
+          "qTr": "Sonra hepsi nerede?",
+          "correct": "In sports hall",
           "wrong": [
-            "It is lunch time",
-            "It is the end"
+            "In garden",
+            "In library"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "What is Friday for the children?",
-          "qTr": "Cuma çocuklar için ne?",
-          "correct": "A fun day",
+          "q": "Is Friday a fun day?",
+          "qTr": "Cuma eğlenceli bir gün mü?",
+          "correct": "Yes",
           "wrong": [
-            "A sad day",
-            "A school test"
+            "No",
+            "Maybe"
           ],
           "hint": "Find the word Friday.",
           "hl": [
@@ -3801,16 +3794,16 @@
           ]
         },
         {
-          "q": "What does Miss Oli say in the end?",
-          "qTr": "Miss Oli sonunda ne der?",
-          "correct": "Goodbye! See you on Monday!",
+          "q": "Where is Can?",
+          "qTr": "Can nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Good morning!",
-            "Welcome!"
+            "In library",
+            "In garden"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Find Can.",
           "hl": [
-            8
+            1
           ]
         }
       ]
@@ -3861,7 +3854,7 @@
       ],
       "questions": [
         {
-          "q": "Who is new in the school?",
+          "q": "Who is new in school?",
           "qTr": "Okulda yeni olan kim?",
           "correct": "Miss Pinar",
           "wrong": [
@@ -3875,8 +3868,8 @@
           ]
         },
         {
-          "q": "What is the new person?",
-          "qTr": "Yeni kişi nedir?",
+          "q": "What is Miss Pinar?",
+          "qTr": "Miss Pınar nedir?",
           "correct": "A teacher",
           "wrong": [
             "A pupil",
@@ -3888,25 +3881,12 @@
           ]
         },
         {
-          "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
-          "correct": "Nice to meet you",
-          "wrong": [
-            "Goodbye",
-            "Sorry"
-          ],
-          "hint": "Find Tom.",
-          "hl": [
-            3
-          ]
-        },
-        {
           "q": "Where is Mr. Aras?",
           "qTr": "Mr. Aras nerede?",
           "correct": "In teacher's room",
           "wrong": [
-            "In library",
-            "In playground"
+            "In garden",
+            "In library"
           ],
           "hint": "Find Mr. Aras.",
           "hl": [
@@ -3914,16 +3894,29 @@
           ]
         },
         {
-          "q": "What is Miss Pinar like?",
-          "qTr": "Miss Pınar nasıl?",
-          "correct": "Happy",
+          "q": "Is Miss Pinar happy?",
+          "qTr": "Miss Pınar mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Read the last sentence.",
           "hl": [
             8
+          ]
+        },
+        {
+          "q": "Is Miss Pinar a pupil?",
+          "qTr": "Miss Pınar öğrenci mi?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find the word teacher.",
+          "hl": [
+            2
           ]
         }
       ]
@@ -3974,68 +3967,68 @@
       ],
       "questions": [
         {
-          "q": "What day is it today?",
-          "qTr": "Bugün günlerden ne?",
-          "correct": "The 30th of August",
-          "wrong": [
-            "The 23rd of April",
-            "Monday"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Hangi özel gün?",
           "correct": "Victory Day",
           "wrong": [
             "Republic Day",
             "Children's Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where are Miss Oli and the pupils?",
-          "qTr": "Miss Oli ve öğrenciler nerededir?",
+          "q": "Is it a national day?",
+          "qTr": "Ulusal bir gün mü?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where are the pupils?",
+          "qTr": "Öğrenciler nerede?",
           "correct": "In classroom",
           "wrong": [
             "In garden",
-            "In canteen"
+            "In library"
           ],
-          "hint": "Find the word classroom.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
         },
         {
-          "q": "How are Eda and Can today?",
-          "qTr": "Eda ve Can bugün nasıl?",
-          "correct": "Happy",
+          "q": "Who is happy?",
+          "qTr": "Kim mutlu?",
+          "correct": "Eda and Can",
           "wrong": [
-            "Sad",
-            "Tired"
+            "Mr. Aras",
+            "A new teacher"
           ],
-          "hint": "Find Eda and Can.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Victory Day!",
+          "q": "Are the pupils proud?",
+          "qTr": "Öğrenciler gururlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Good night!",
-            "Goodbye!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Read sentence 8.",
           "hl": [
-            5
+            7
           ]
         }
       ]
@@ -4091,61 +4084,62 @@
           "correct": "In classroom",
           "wrong": [
             "In garden",
-            "At home"
+            "In library"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What does Miss Oli ask?",
-          "qTr": "Miss Oli ne sorar?",
-          "correct": "How are you today?",
+          "q": "Is Eda fine?",
+          "qTr": "Eda iyi mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "How is Eda?",
-          "qTr": "Eda nasıl?",
-          "correct": "Fine",
-          "wrong": [
-            "Sad",
-            "Sick"
-          ],
-          "hint": "Read sentence 4.",
+          "hint": "Find Eda.",
           "hl": [
             3
           ]
         },
         {
-          "q": "How is Tom?",
-          "qTr": "Tom nasıl?",
-          "correct": "Very well",
+          "q": "Is Miss Oli happy?",
+          "qTr": "Miss Oli mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Tired",
-            "Sad"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Miss Oli.",
           "hl": [
-            4
+            5
           ]
         },
         {
-          "q": "How is Lila?",
-          "qTr": "Lila nasıl?",
-          "correct": "OK",
+          "q": "Who is in the classroom?",
+          "qTr": "Sınıfta kim var?",
+          "correct": "The pupils",
           "wrong": [
-            "Sad",
-            "Sick"
+            "A headmaster",
+            "A new teacher"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read the first sentences.",
+          "hl": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": "Who is OK?",
+          "qTr": "Kim iyi?",
+          "correct": "Lila",
+          "wrong": [
+            "Mr. Aras",
+            "Tom"
+          ],
+          "hint": "Read about Lila.",
           "hl": [
             7
           ]
@@ -4198,16 +4192,16 @@
       ],
       "questions": [
         {
-          "q": "Who is Tom looking for?",
-          "qTr": "Tom kimi arıyor?",
-          "correct": "Lila",
+          "q": "Where is Tom?",
+          "qTr": "Tom nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Miss Oli",
-            "Mr. Aras"
+            "In garden",
+            "In library"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read the first sentence.",
           "hl": [
-            1
+            0
           ]
         },
         {
@@ -4237,19 +4231,6 @@
           ]
         },
         {
-          "q": "What does Tom say to Lila?",
-          "qTr": "Tom Lila'ya ne der?",
-          "correct": "Good morning!",
-          "wrong": [
-            "Goodbye!",
-            "Sorry!"
-          ],
-          "hint": "Find Tom.",
-          "hl": [
-            6
-          ]
-        },
-        {
           "q": "What are Tom and Lila?",
           "qTr": "Tom ve Lila nedir?",
           "correct": "Friends",
@@ -4260,6 +4241,19 @@
           "hint": "Read sentence 2.",
           "hl": [
             1
+          ]
+        },
+        {
+          "q": "Is the garden fun?",
+          "qTr": "Bahçe eğlenceli mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read the last sentence.",
+          "hl": [
+            8
           ]
         }
       ]
@@ -4330,7 +4324,7 @@
             "Republic Day",
             "Children's Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -4343,35 +4337,35 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read the third sentence.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Who is the day for?",
-          "qTr": "Gün kimin için?",
-          "correct": "Friends",
+          "q": "Who is happy?",
+          "qTr": "Kim mutlu?",
+          "correct": "Eda and Can",
           "wrong": [
-            "Teachers",
-            "A headmaster"
+            "Mr. Aras",
+            "A teacher"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Is the day for friends?",
+          "qTr": "Gün arkadaşlar için mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
           ],
           "hint": "Read about the day.",
           "hl": [
             3
-          ]
-        },
-        {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "Happy Eid, everybody!",
-          "wrong": [
-            "Good night!",
-            "Goodbye!"
-          ],
-          "hint": "Find Miss Oli.",
-          "hl": [
-            5
           ]
         }
       ]
@@ -4403,12 +4397,12 @@
       "sentences": [
         "A woman is in classroom.",
         "She is not a pupil.",
-        "She is not the headmaster.",
+        "She is not a headmaster.",
         "She is in classroom every day.",
         "She: Good morning, everybody!",
         "Eda: Good morning!",
         "Who is the woman?",
-        "She is Miss Oli, the English teacher!"
+        "She is Miss Oli, an English teacher!"
       ],
       "translations": [
         "Sınıfta bir kadın var.",
@@ -4422,8 +4416,8 @@
       ],
       "questions": [
         {
-          "q": "Where is the woman?",
-          "qTr": "Kadın nerede?",
+          "q": "Where is she?",
+          "qTr": "O nerede?",
           "correct": "In classroom",
           "wrong": [
             "In garden",
@@ -4436,57 +4430,54 @@
         },
         {
           "q": "Is she a pupil?",
-          "qTr": "O bir öğrenci mi?",
+          "qTr": "O öğrenci mi?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Is she the headmaster?",
+          "q": "Is she a headmaster?",
           "qTr": "O müdür mü?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
-          "hint": "Read the third sentence.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Who is the woman?",
-          "qTr": "Kadın kimdir?",
+          "q": "Who is she?",
+          "qTr": "O kim?",
           "correct": "A teacher",
           "wrong": [
             "A pupil",
             "A headmaster"
           ],
-          "hint": "Think about the clues.",
+          "hint": "Read the last sentence.",
           "hl": [
-            1,
-            2,
-            3,
             7
           ]
         },
         {
-          "q": "How do we know she is a teacher?",
-          "qTr": "Onun öğretmen olduğunu nasıl anlıyoruz?",
-          "correct": "She is not a pupil. She is not the headmaster.",
+          "q": "Is she Miss Oli?",
+          "qTr": "O Miss Oli mi?",
+          "correct": "Yes",
           "wrong": [
-            "She is a pupil",
-            "She is the headmaster"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentences 2 and 3.",
+          "hint": "Read the last sentence.",
           "hl": [
-            3
+            7
           ]
         }
       ]
@@ -4520,8 +4511,8 @@
         "Children are happy here.",
         "It is a fun place.",
         "It is a place for play.",
-        "Lila: It is the playground!",
-        "Miss Oli: Yes! It is the playground!"
+        "Lila: It is a playground!",
+        "Miss Oli: Yes! It is a playground!"
       ],
       "translations": [
         "Burası okulda bir yer.",
@@ -4535,12 +4526,12 @@
       ],
       "questions": [
         {
-          "q": "Is the place a classroom?",
+          "q": "Is it a classroom?",
           "qTr": "Burası sınıf mı?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -4548,53 +4539,52 @@
           ]
         },
         {
-          "q": "What is the place like?",
-          "qTr": "Burası nasıl bir yer?",
-          "correct": "A fun place",
+          "q": "Is it a library?",
+          "qTr": "Burası kütüphane mi?",
+          "correct": "No",
           "wrong": [
-            "A sad place",
-            "A quiet place"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Find the word fun.",
+          "hint": "Read sentence 3.",
           "hl": [
-            4
+            2
           ]
         },
         {
-          "q": "What is this place for?",
-          "qTr": "Burası ne için?",
-          "correct": "For play",
+          "q": "Are children happy here?",
+          "qTr": "Çocuklar burada mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "For books",
-            "For food"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find the word play.",
+          "hint": "Read sentence 4.",
           "hl": [
-            5
+            3
           ]
         },
         {
-          "q": "Which place is it?",
-          "qTr": "Hangi yer?",
-          "correct": "The playground",
+          "q": "What is this place?",
+          "qTr": "Burası neresi?",
+          "correct": "A playground",
           "wrong": [
-            "The library",
-            "The canteen"
+            "A library",
+            "A canteen"
           ],
           "hint": "Think about the clues.",
           "hl": [
-            4,
-            5,
+            6,
             7
           ]
         },
         {
-          "q": "How do we know it is not the library?",
-          "qTr": "Kütüphane olmadığını nasıl biliyoruz?",
-          "correct": "It is a place for play",
+          "q": "Is it a place for play?",
+          "qTr": "Burası oyun için mi?",
+          "correct": "Yes",
           "wrong": [
-            "It is for books",
-            "It is quiet"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -4652,7 +4642,7 @@
           "correct": "Yes",
           "wrong": [
             "No",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -4660,44 +4650,16 @@
           ]
         },
         {
-          "q": "Is today Monday?",
-          "qTr": "Bugün Pazartesi mi?",
+          "q": "Is it Monday?",
+          "qTr": "Pazartesi mi?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
             1
-          ]
-        },
-        {
-          "q": "What day is after Wednesday?",
-          "qTr": "Çarşamba'dan sonra hangi gün?",
-          "correct": "Thursday",
-          "wrong": [
-            "Tuesday",
-            "Sunday"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Which day is today?",
-          "qTr": "Bugün hangi gün?",
-          "correct": "Thursday",
-          "wrong": [
-            "Monday",
-            "Friday"
-          ],
-          "hint": "Think about the clues.",
-          "hl": [
-            3,
-            5,
-            7
           ]
         },
         {
@@ -4711,6 +4673,33 @@
           "hint": "Read sentence 6.",
           "hl": [
             5
+          ]
+        },
+        {
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
+          "correct": "Thursday",
+          "wrong": [
+            "Tuesday",
+            "Sunday"
+          ],
+          "hint": "Think about the clues.",
+          "hl": [
+            3,
+            7
+          ]
+        },
+        {
+          "q": "Is it Tuesday?",
+          "qTr": "Salı mı?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
           ]
         }
       ]
@@ -4773,11 +4762,11 @@
         },
         {
           "q": "Is he a teacher?",
-          "qTr": "O bir öğretmen mi?",
+          "qTr": "O öğretmen mi?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -4785,8 +4774,8 @@
           ]
         },
         {
-          "q": "What is his name?",
-          "qTr": "Adı ne?",
+          "q": "Who is the new boy?",
+          "qTr": "Yeni çocuk kim?",
           "correct": "Tom",
           "wrong": [
             "Can",
@@ -4798,31 +4787,29 @@
           ]
         },
         {
-          "q": "Who is the new boy?",
-          "qTr": "Yeni çocuk kim?",
-          "correct": "A new pupil",
+          "q": "Is he a pupil?",
+          "qTr": "O öğrenci mi?",
+          "correct": "Yes",
           "wrong": [
-            "A new teacher",
-            "A new headmaster"
+            "No",
+            "Maybe"
           ],
-          "hint": "Think about the clues.",
+          "hint": "Read the last sentence.",
           "hl": [
-            1,
-            3,
             7
           ]
         },
         {
-          "q": "Who asks his name?",
-          "qTr": "Adını kim sorar?",
-          "correct": "Eda",
+          "q": "Is he Mr. Aras?",
+          "qTr": "O Mr. Aras mı?",
+          "correct": "No",
           "wrong": [
-            "Tom",
-            "Mr. Aras"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 3.",
           "hl": [
-            4
+            2
           ]
         }
       ]
@@ -4871,7 +4858,7 @@
         {
           "q": "Where is Lila?",
           "qTr": "Lila nerede?",
-          "correct": "In school garden",
+          "correct": "In a school garden",
           "wrong": [
             "In classroom",
             "In library"
@@ -4882,12 +4869,12 @@
           ]
         },
         {
-          "q": "Is it the end of the day?",
-          "qTr": "Günün sonu mu?",
+          "q": "Is it evening?",
+          "qTr": "Akşam mı?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -4895,43 +4882,42 @@
           ]
         },
         {
-          "q": "What does Lila say?",
-          "qTr": "Lila ne der?",
-          "correct": "Good morning, Miss Oli!",
+          "q": "Is it morning?",
+          "qTr": "Sabah mı?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye!",
-            "Good night!"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read the last sentence.",
           "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Is it morning or evening?",
-          "qTr": "Sabah mı akşam mı?",
-          "correct": "Morning",
-          "wrong": [
-            "Evening",
-            "Night"
-          ],
-          "hint": "Think about what Lila says.",
-          "hl": [
-            1,
             6
           ]
         },
         {
-          "q": "Where are they now?",
-          "qTr": "Şimdi neredeler?",
+          "q": "Where are they?",
+          "qTr": "Sonra neredeler?",
           "correct": "In classroom",
           "wrong": [
             "In garden",
             "In library"
           ],
-          "hint": "Find the word now.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
+          ]
+        },
+        {
+          "q": "Is it the end of the day?",
+          "qTr": "Günün sonu mu?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
           ]
         }
       ]
@@ -4962,11 +4948,11 @@
         "Eda is in the room. Miss Oli is here. Mr. Aras is here.",
         "Eda is a girl. She is a pupil.",
         "Miss Oli is a teacher.",
-        "One person is the headmaster.",
-        "Eda is a pupil. She is not the headmaster.",
-        "Miss Oli is a teacher. She is not the headmaster.",
+        "One person is a headmaster.",
+        "Eda is a pupil. She is not a headmaster.",
+        "Miss Oli is a teacher. She is not a headmaster.",
         "Who is the headmaster?",
-        "Mr. Aras is the headmaster!"
+        "Mr. Aras is a headmaster!"
       ],
       "translations": [
         "Eda odada. Miss Oli burada. Mr. Aras burada.",
@@ -4980,19 +4966,6 @@
       ],
       "questions": [
         {
-          "q": "Who is in the room?",
-          "qTr": "Odada kim var?",
-          "correct": "Eda, Miss Oli, Mr. Aras",
-          "wrong": [
-            "Only Eda",
-            "Only teachers"
-          ],
-          "hint": "Read the first sentence.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "Who is the pupil?",
           "qTr": "Öğrenci kim?",
           "correct": "Eda",
@@ -5000,7 +4973,7 @@
             "Miss Oli",
             "Mr. Aras"
           ],
-          "hint": "Find the word pupil.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -5013,9 +4986,22 @@
             "Eda",
             "Mr. Aras"
           ],
-          "hint": "Find the word teacher.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
+          ]
+        },
+        {
+          "q": "Is Eda a headmaster?",
+          "qTr": "Eda müdür mü?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read about Eda.",
+          "hl": [
+            4
           ]
         },
         {
@@ -5034,17 +5020,16 @@
           ]
         },
         {
-          "q": "How do we know Mr. Aras is the headmaster?",
-          "qTr": "Mr. Aras'ın müdür olduğunu nasıl biliyoruz?",
-          "correct": "He is not a pupil. He is not a teacher.",
+          "q": "Is Miss Oli a pupil?",
+          "qTr": "Miss Oli öğrenci mi?",
+          "correct": "No",
           "wrong": [
-            "He is a girl",
-            "He is in garden"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read sentences 5 and 6.",
+          "hint": "Read sentence 3.",
           "hl": [
-            4,
-            5
+            2
           ]
         }
       ]
@@ -5106,12 +5091,12 @@
           ]
         },
         {
-          "q": "Is it the playground?",
+          "q": "Is it a playground?",
           "qTr": "Burası oyun alanı mı?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -5119,12 +5104,12 @@
           ]
         },
         {
-          "q": "What is the place like?",
-          "qTr": "Burası nasıl bir yer?",
-          "correct": "Quiet",
+          "q": "Is it quiet?",
+          "qTr": "Burası sessiz mi?",
+          "correct": "Yes",
           "wrong": [
-            "Fun",
-            "Loud"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -5132,8 +5117,8 @@
           ]
         },
         {
-          "q": "Which place is it?",
-          "qTr": "Hangi yer?",
+          "q": "What is this place?",
+          "qTr": "Burası neresi?",
           "correct": "A library",
           "wrong": [
             "A playground",
@@ -5147,17 +5132,16 @@
           ]
         },
         {
-          "q": "How do we know it is the library?",
-          "qTr": "Kütüphane olduğunu nasıl biliyoruz?",
-          "correct": "It is a quiet place for books.",
+          "q": "What is in the library?",
+          "qTr": "Kütüphanede ne var?",
+          "correct": "Books",
           "wrong": [
-            "It is a loud place",
-            "It is a sad place"
+            "Food",
+            "Toys"
           ],
-          "hint": "Read about the books.",
+          "hint": "Read sentence 6.",
           "hl": [
-            3,
-            4
+            5
           ]
         }
       ]
@@ -5211,7 +5195,7 @@
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read the first sentence.",
           "hl": [
@@ -5232,12 +5216,12 @@
           ]
         },
         {
-          "q": "How does Tom feel?",
-          "qTr": "Tom nasıl hisseder?",
-          "correct": "Happy",
+          "q": "Is Tom happy?",
+          "qTr": "Tom mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Sad",
-            "Tired"
+            "No",
+            "Maybe"
           ],
           "hint": "Find Tom.",
           "hl": [
@@ -5245,7 +5229,7 @@
           ]
         },
         {
-          "q": "Which day is it?",
+          "q": "What day is it?",
           "qTr": "Hangi gün?",
           "correct": "Saturday",
           "wrong": [
@@ -5258,12 +5242,12 @@
           ]
         },
         {
-          "q": "Which days are not school days?",
-          "qTr": "Hangi günler okul günü değil?",
-          "correct": "Saturday, Sunday",
+          "q": "Is Saturday a school day?",
+          "qTr": "Cumartesi okul günü mü?",
+          "correct": "No",
           "wrong": [
-            "Monday, Tuesday",
-            "Wednesday, Thursday"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read the last sentence.",
           "hl": [
@@ -5336,49 +5320,50 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read the third sentence.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What is the new pupil's name?",
-          "qTr": "Yeni öğrencinin adı ne?",
+          "q": "Who is the new pupil?",
+          "qTr": "Yeni öğrenci kim?",
           "correct": "Tom",
           "wrong": [
             "Eda",
             "Can"
           ],
-          "hint": "Find the word name.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "Who is the new pupil?",
-          "qTr": "Yeni öğrenci kim?",
-          "correct": "A new boy named Tom",
-          "wrong": [
-            "A new girl",
-            "A new teacher"
-          ],
           "hint": "Think about the clues.",
           "hl": [
-            2,
-            4
+            4,
+            7
           ]
         },
         {
-          "q": "What does Eda say?",
-          "qTr": "Eda ne der?",
-          "correct": "Nice to meet you, Tom!",
+          "q": "Is the new pupil a boy?",
+          "qTr": "Yeni öğrenci erkek mi?",
+          "correct": "Yes",
           "wrong": [
-            "Goodbye",
-            "Sorry"
+            "No",
+            "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 3.",
           "hl": [
-            5
+            2
+          ]
+        },
+        {
+          "q": "Is Tom a pupil?",
+          "qTr": "Tom öğrenci mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read about Tom.",
+          "hl": [
+            1,
+            7
           ]
         }
       ]
@@ -5438,55 +5423,56 @@
           ]
         },
         {
-          "q": "Is it the 23rd of April?",
-          "qTr": "23 Nisan mı?",
+          "q": "Is it Children's Day?",
+          "qTr": "Çocuk Bayramı mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What date is it?",
-          "qTr": "Tarih nedir?",
-          "correct": "The 19th of May",
-          "wrong": [
-            "The 23rd of April",
-            "The 29th of October"
-          ],
-          "hint": "Read about the date.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Which special day is it?",
+          "q": "What special day is it?",
           "qTr": "Hangi özel gün?",
           "correct": "Youth Day",
           "wrong": [
-            "Children's Day",
-            "Republic Day"
+            "Republic Day",
+            "Victory Day"
           ],
           "hint": "Find what Miss Oli says.",
           "hl": [
-            4
+            4,
+            6
           ]
         },
         {
-          "q": "How do we know it is Youth Day?",
-          "qTr": "Gençlik Bayramı olduğunu nasıl biliyoruz?",
-          "correct": "The date is the 19th of May",
+          "q": "Is Eda happy?",
+          "qTr": "Eda mutlu mu?",
+          "correct": "Yes",
           "wrong": [
-            "Eda is sad",
-            "It is October"
+            "No",
+            "Maybe"
           ],
-          "hint": "Think about the date.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
+          ]
+        },
+        {
+          "q": "Where are the children?",
+          "qTr": "Çocuklar nerede?",
+          "correct": "In school",
+          "wrong": [
+            "In garden",
+            "In library"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
           ]
         }
       ]
@@ -5535,14 +5521,14 @@
       ],
       "questions": [
         {
-          "q": "Where is Eda?",
-          "qTr": "Eda nerede?",
-          "correct": "In teacher's room",
+          "q": "Is Eda in the teacher's room?",
+          "qTr": "Eda öğretmenler odasında mı?",
+          "correct": "Yes",
           "wrong": [
-            "In garden",
-            "In library"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read the first sentence.",
           "hl": [
             0
           ]
@@ -5553,7 +5539,7 @@
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -5561,42 +5547,42 @@
           ]
         },
         {
-          "q": "Is Eda a teacher?",
-          "qTr": "Eda öğretmen mi?",
+          "q": "Who is in the teacher's room?",
+          "qTr": "Öğretmenler odasında kim var?",
+          "correct": "Eda and Mr. Aras",
+          "wrong": [
+            "Tom",
+            "Lila"
+          ],
+          "hint": "Read the first sentence.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is Eda angry?",
+          "qTr": "Eda kızgın mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "What is the polite word?",
-          "qTr": "Kibar kelime ne?",
-          "correct": "Sorry",
+          "q": "Where is Eda?",
+          "qTr": "Eda sonunda nerede?",
+          "correct": "In classroom",
           "wrong": [
-            "Goodbye",
-            "Hello"
+            "In garden",
+            "In library"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read the last sentence.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Mr. Aras say?",
-          "qTr": "Mr. Aras ne der?",
-          "correct": "That's OK, Eda!",
-          "wrong": [
-            "Good night!",
-            "Sorry!"
-          ],
-          "hint": "Read sentence 7.",
-          "hl": [
-            6
+            7
           ]
         }
       ]
@@ -5656,25 +5642,12 @@
           ]
         },
         {
-          "q": "What does Tom ask about?",
-          "qTr": "Tom neyi sorar?",
-          "correct": "Teacher's room",
-          "wrong": [
-            "A garden",
-            "A playground"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Is it the garden?",
+          "q": "Is it a garden?",
           "qTr": "Burası bahçe mi?",
           "correct": "No",
           "wrong": [
             "Yes",
-            "Sometimes"
+            "Maybe"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -5682,31 +5655,43 @@
           ]
         },
         {
-          "q": "Which place is it?",
-          "qTr": "Hangi yer?",
+          "q": "Is it a playground?",
+          "qTr": "Burası oyun alanı mı?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Who is here?",
+          "qTr": "Burada kim var?",
+          "correct": "Miss Oli and Mr. Aras",
+          "wrong": [
+            "Pupils",
+            "A new boy"
+          ],
+          "hint": "Read sentence 4.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What is this place?",
+          "qTr": "Burası neresi?",
           "correct": "Teacher's room",
           "wrong": [
-            "A playground",
-            "A garden"
+            "A garden",
+            "A playground"
           ],
           "hint": "Think about the clues.",
           "hl": [
             4,
             5
-          ]
-        },
-        {
-          "q": "How do we know it is the teacher's room?",
-          "qTr": "Öğretmenler odası olduğunu nasıl biliyoruz?",
-          "correct": "Teachers are here",
-          "wrong": [
-            "Pupils are here",
-            "It is a garden"
-          ],
-          "hint": "Read about the teachers.",
-          "hl": [
-            3,
-            4
           ]
         }
       ]
