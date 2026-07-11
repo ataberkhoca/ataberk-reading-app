@@ -128,6 +128,10 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👦",
           "n": "Can"
         },
@@ -136,81 +140,85 @@
           "n": "Tom"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
+          "e": "👧",
+          "n": "Eda"
         }
       ],
       "sentences": [
-        "These are our things!",
-        "My notebook is purple.",
-        "His pencil is orange.",
-        "Her book is brown.",
-        "Our classroom is white.",
-        "Your crayon is black.",
-        "Their bookcase is green.",
-        "What colour is its door? Its door is red.",
-        "Our classroom is colourful!"
+        "Miss Oli: Are you ready? Show your things, please!",
+        "Can: Look here! This is my notebook. It is purple.",
+        "Miss Oli: Good job, Can! Tom, what is this?",
+        "Tom: This is my pencil. It is orange.",
+        "Miss Oli: Eda, what colour is your book?",
+        "Eda: My book is brown.",
+        "Miss Oli: You're right! Look here! This is our bookcase. It is green.",
+        "Can: Miss Oli, what colour is your crayon?",
+        "Miss Oli: My crayon is black.",
+        "Tom: What colour is the door?",
+        "Miss Oli: The door is red. Good job!"
       ],
       "translations": [
-        "Bunlar bizim eşyalarımız!",
-        "Benim defterim mor.",
-        "Onun kalemi turuncu.",
-        "Onun kitabı kahverengi.",
-        "Bizim sınıfımız beyaz.",
-        "Senin mum boyan siyah.",
-        "Onların kitaplığı yeşil.",
-        "Onun kapısı ne renk? Onun kapısı kırmızı.",
-        "Sınıfımız renkli!"
+        "Miss Oli: Hazır mısınız? Eşyalarınızı gösterin lütfen!",
+        "Can: Buraya bakın! Bu benim defterim. O mor.",
+        "Miss Oli: Aferin, Can! Tom, bu nedir?",
+        "Tom: Bu benim kalemim. O turuncu.",
+        "Miss Oli: Eda, senin kitabın ne renk?",
+        "Eda: Benim kitabım kahverengi.",
+        "Miss Oli: Haklısın! Buraya bakın! Bu bizim kitaplığımız. O yeşil.",
+        "Can: Miss Oli, senin mum boyan ne renk?",
+        "Miss Oli: Benim mum boyam siyah.",
+        "Tom: Kapı ne renk?",
+        "Miss Oli: Kapı kırmızı. Aferin!"
       ],
       "questions": [
         {
-          "q": "What colour is my notebook?",
-          "qTr": "Defterim ne renk?",
+          "q": "What colour is the notebook?",
+          "qTr": "Defter ne renk?",
           "correct": "Purple",
           "wrong": [
             "Orange",
             "Brown"
           ],
-          "hint": "Find the word notebook.",
+          "hint": "Find the notebook.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What colour is his pencil?",
-          "qTr": "Onun kurşun kalemi ne renk?",
+          "q": "What colour is the pencil?",
+          "qTr": "Kalem ne renk?",
           "correct": "Orange",
           "wrong": [
             "Purple",
             "Black"
           ],
-          "hint": "Find the word pencil.",
+          "hint": "Find the pencil.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "What colour is our classroom?",
-          "qTr": "Sınıfımız ne renk?",
-          "correct": "White",
+          "q": "What colour is the book?",
+          "qTr": "Kitap ne renk?",
+          "correct": "Brown",
           "wrong": [
             "Green",
             "Red"
           ],
-          "hint": "Find the word classroom.",
+          "hint": "Find the book.",
           "hl": [
-            4
+            5
           ]
         },
         {
-          "q": "What colour is their bookcase?",
-          "qTr": "Onların kitaplığı ne renk?",
+          "q": "What colour is the bookcase?",
+          "qTr": "Kitaplık ne renk?",
           "correct": "Green",
           "wrong": [
             "Brown",
             "Black"
           ],
-          "hint": "Find the word bookcase.",
+          "hint": "Find the bookcase.",
           "hl": [
             6
           ]
@@ -223,9 +231,9 @@
             "White",
             "Yellow"
           ],
-          "hint": "Find the word door.",
+          "hint": "Find the door.",
           "hl": [
-            7
+            10
           ]
         }
       ]
@@ -240,102 +248,110 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧🏻",
           "n": "Lila"
         },
         {
           "e": "👧",
           "n": "Eda"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
-        "Miss Oli: Let's count things.",
-        "How many pencils? Six pencils.",
-        "How many rubbers? Three rubbers.",
-        "How many books? Ten books.",
-        "How many chairs? Twenty chairs.",
-        "How many red crayons? Five red crayons.",
-        "How many blue notebooks? Four blue notebooks.",
-        "Miss Oli: Well done."
+        "Miss Oli: Are you ready? Look here!",
+        "Miss Oli: How many pencils?",
+        "Lila: Six pencils!",
+        "Miss Oli: Good job! It's her turn! Eda, how many rubbers?",
+        "Eda: Three rubbers!",
+        "Miss Oli: You're right! How many chairs?",
+        "Lila: Twenty chairs!",
+        "Miss Oli: What's next! How many red crayons?",
+        "Eda: Five red crayons!",
+        "Miss Oli: How many blue notebooks?",
+        "Lila: Four blue notebooks!",
+        "Miss Oli: Well done!"
       ],
       "translations": [
-        "Miss Oli: Haydi eşyaları sayalım.",
-        "Kaç tane kalem? Altı kalem.",
-        "Kaç tane silgi? Üç silgi.",
-        "Kaç tane kitap? On kitap.",
-        "Kaç tane sandalye? Yirmi sandalye.",
-        "Kaç tane kırmızı mum boya? Beş kırmızı mum boya.",
-        "Kaç tane mavi defter? Dört mavi defter.",
-        "Miss Oli: Aferin."
+        "Miss Oli: Hazır mısınız? Buraya bakın!",
+        "Miss Oli: Kaç tane kalem?",
+        "Lila: Altı kalem!",
+        "Miss Oli: Aferin! Sıra onda! Eda, kaç tane silgi?",
+        "Eda: Üç silgi!",
+        "Miss Oli: Haklısın! Kaç tane sandalye?",
+        "Lila: Yirmi sandalye!",
+        "Miss Oli: Sırada ne var! Kaç tane kırmızı mum boya?",
+        "Eda: Beş kırmızı mum boya!",
+        "Miss Oli: Kaç tane mavi defter?",
+        "Lila: Dört mavi defter!",
+        "Miss Oli: Aferin!"
       ],
       "questions": [
         {
           "q": "How many pencils?",
-          "qTr": "Kaç kurşun kalem var?",
+          "qTr": "Kaç tane kalem?",
           "correct": "Six",
           "wrong": [
             "Three",
             "Ten"
           ],
-          "hint": "Find the word pencils.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How many rubbers?",
-          "qTr": "Kaç silgi var?",
-          "correct": "Three",
-          "wrong": [
-            "Six",
-            "Twenty"
-          ],
-          "hint": "Find the word rubbers.",
+          "hint": "Find the pencils.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How many chairs?",
-          "qTr": "Kaç sandalye var?",
-          "correct": "Twenty",
+          "q": "How many rubbers?",
+          "qTr": "Kaç tane silgi?",
+          "correct": "Three",
           "wrong": [
-            "Ten",
-            "Five"
+            "Six",
+            "Twenty"
           ],
-          "hint": "Find the word chairs.",
+          "hint": "Find the rubbers.",
           "hl": [
             4
           ]
         },
         {
+          "q": "How many chairs?",
+          "qTr": "Kaç tane sandalye?",
+          "correct": "Twenty",
+          "wrong": [
+            "Ten",
+            "Five"
+          ],
+          "hint": "Find the chairs.",
+          "hl": [
+            6
+          ]
+        },
+        {
           "q": "How many red crayons?",
-          "qTr": "Kaç tane kırmızı boya kalemi var?",
+          "qTr": "Kaç tane kırmızı mum boya?",
           "correct": "Five",
           "wrong": [
             "Three",
             "Six"
           ],
-          "hint": "Find the words red crayons.",
+          "hint": "Find the crayons.",
           "hl": [
-            5
+            8
           ]
         },
         {
           "q": "How many blue notebooks?",
-          "qTr": "Kaç tane mavi defter var?",
+          "qTr": "Kaç tane mavi defter?",
           "correct": "Four",
           "wrong": [
             "Five",
             "Ten"
           ],
-          "hint": "Find the words blue notebooks.",
+          "hint": "Find the notebooks.",
           "hl": [
-            6
+            10
           ]
         }
       ]
@@ -350,102 +366,110 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👦🏻",
           "n": "Tom"
         },
         {
           "e": "👧",
           "n": "Eda"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
-        "How many pupils in our class? Eighteen pupils.",
-        "How many boys? Nine boys.",
-        "How many girls? Nine girls.",
-        "How many teachers? One teacher, Miss Oli.",
-        "How many windows in our classroom? Two windows.",
-        "How many doors? One door.",
-        "How many computers? Two computers.",
-        "Our class is full!"
+        "Miss Oli: Be quiet, please! Are you ready?",
+        "Tom: Yes, Miss Oli!",
+        "Miss Oli: How many pupils in our classroom?",
+        "Tom: Eighteen pupils!",
+        "Miss Oli: It's her turn! Eda, how many boys?",
+        "Eda: Nine boys!",
+        "Miss Oli: How many girls?",
+        "Tom: Nine girls!",
+        "Miss Oli: Good job! How many windows?",
+        "Eda: Two windows!",
+        "Tom: Miss Oli, how many computers?",
+        "Miss Oli: Two computers! Well done!"
       ],
       "translations": [
-        "Sınıfımızda kaç öğrenci? On sekiz öğrenci.",
-        "Kaç erkek? Dokuz erkek.",
-        "Kaç kız? Dokuz kız.",
-        "Kaç öğretmen? Bir öğretmen, Miss Oli.",
-        "Sınıfımızda kaç pencere? İki pencere.",
-        "Kaç kapı? Bir kapı.",
-        "Kaç bilgisayar? İki bilgisayar.",
-        "Sınıfımız dolu!"
+        "Miss Oli: Sessiz olun lütfen! Hazır mısınız?",
+        "Tom: Evet, Miss Oli!",
+        "Miss Oli: Sınıfımızda kaç tane öğrenci var?",
+        "Tom: On sekiz öğrenci!",
+        "Miss Oli: Sıra onda! Eda, kaç tane erkek çocuk?",
+        "Eda: Dokuz erkek çocuk!",
+        "Miss Oli: Kaç tane kız çocuk?",
+        "Tom: Dokuz kız çocuk!",
+        "Miss Oli: Aferin! Kaç tane pencere?",
+        "Eda: İki pencere!",
+        "Tom: Miss Oli, kaç tane bilgisayar?",
+        "Miss Oli: İki bilgisayar! Aferin!"
       ],
       "questions": [
         {
           "q": "How many pupils?",
-          "qTr": "Kaç öğrenci var?",
+          "qTr": "Kaç tane öğrenci?",
           "correct": "Eighteen",
           "wrong": [
             "Nine",
             "Twenty"
           ],
-          "hint": "Find the word pupils.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "How many boys?",
-          "qTr": "Kaç erkek çocuk var?",
-          "correct": "Nine",
-          "wrong": [
-            "Eighteen",
-            "Two"
-          ],
-          "hint": "Find the word boys.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How many teachers?",
-          "qTr": "Kaç öğretmen var?",
-          "correct": "One",
-          "wrong": [
-            "Two",
-            "Nine"
-          ],
-          "hint": "Find the word teachers.",
+          "hint": "Find the pupils.",
           "hl": [
             3
           ]
         },
         {
+          "q": "How many boys?",
+          "qTr": "Kaç tane erkek çocuk?",
+          "correct": "Nine",
+          "wrong": [
+            "Eighteen",
+            "Two"
+          ],
+          "hint": "Find the boys.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "How many girls?",
+          "qTr": "Kaç tane kız çocuk?",
+          "correct": "Nine",
+          "wrong": [
+            "Two",
+            "Twenty"
+          ],
+          "hint": "Find the girls.",
+          "hl": [
+            7
+          ]
+        },
+        {
           "q": "How many windows?",
-          "qTr": "Kaç pencere var?",
+          "qTr": "Kaç tane pencere?",
           "correct": "Two",
           "wrong": [
             "One",
             "Nine"
           ],
-          "hint": "Find the word windows.",
+          "hint": "Find the windows.",
           "hl": [
-            4
+            9
           ]
         },
         {
           "q": "How many computers?",
-          "qTr": "Kaç bilgisayar var?",
+          "qTr": "Kaç tane bilgisayar?",
           "correct": "Two",
           "wrong": [
             "One",
             "Three"
           ],
-          "hint": "Find the word computers.",
+          "hint": "Find the computers.",
           "hl": [
-            6
+            11
           ]
         }
       ]
@@ -460,102 +484,108 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧",
           "n": "Eda"
         },
         {
           "e": "👦",
           "n": "Can"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
-        "What is in my bag?",
-        "This is a pencil. My pencil is yellow.",
-        "This is a rubber. My rubber is white.",
-        "This is a notebook. My notebook is blue.",
-        "This is a sharpener. My sharpener is red.",
-        "This is a glue. My glue is green.",
-        "This is a pencil case. My pencil case is pink.",
-        "My bag is full!"
+        "Miss Oli: Eda, show your things, please!",
+        "Eda: Look here! This is my pencil. It is yellow.",
+        "Can: What colour is your rubber?",
+        "Eda: My rubber is white.",
+        "Can: What is this?",
+        "Eda: It is my notebook. It is blue.",
+        "Miss Oli: What colour is your sharpener, Eda?",
+        "Eda: My sharpener is red.",
+        "Can: And your glue?",
+        "Eda: My glue is green!",
+        "Miss Oli: Good job, Eda!"
       ],
       "translations": [
-        "Çantamda ne var?",
-        "Bu bir kalem. Kalemim sarı.",
-        "Bu bir silgi. Silgim beyaz.",
-        "Bu bir defter. Defterim mavi.",
-        "Bu bir kalemtıraş. Kalemtıraşım kırmızı.",
-        "Bu bir yapıştırıcı. Yapıştırıcım yeşil.",
-        "Bu bir kalem kutusu. Kalem kutum pembe.",
-        "Çantam dolu!"
+        "Miss Oli: Eda, eşyalarını göster lütfen!",
+        "Eda: Buraya bakın! Bu benim kalemim. O sarı.",
+        "Can: Senin silgin ne renk?",
+        "Eda: Benim silgim beyaz.",
+        "Can: Bu nedir?",
+        "Eda: O benim defterim. O mavi.",
+        "Miss Oli: Senin kalemtıraşın ne renk, Eda?",
+        "Eda: Benim kalemtıraşım kırmızı.",
+        "Can: Peki yapıştırıcın?",
+        "Eda: Benim yapıştırıcım yeşil!",
+        "Miss Oli: Aferin, Eda!"
       ],
       "questions": [
         {
-          "q": "What colour is my pencil?",
-          "qTr": "Kurşun kalemim ne renk?",
+          "q": "What colour is the pencil?",
+          "qTr": "Kalem ne renk?",
           "correct": "Yellow",
           "wrong": [
             "White",
             "Blue"
           ],
-          "hint": "Find the word pencil.",
+          "hint": "Find the pencil.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What colour is my rubber?",
-          "qTr": "Silgim ne renk?",
+          "q": "What colour is the rubber?",
+          "qTr": "Silgi ne renk?",
           "correct": "White",
           "wrong": [
             "Yellow",
             "Red"
           ],
-          "hint": "Find the word rubber.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What colour is my notebook?",
-          "qTr": "Defterim ne renk?",
-          "correct": "Blue",
-          "wrong": [
-            "Green",
-            "Pink"
-          ],
-          "hint": "Find the word notebook.",
+          "hint": "Find the rubber.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What colour is my sharpener?",
-          "qTr": "Kalemtıraşım ne renk?",
+          "q": "What colour is the notebook?",
+          "qTr": "Defter ne renk?",
+          "correct": "Blue",
+          "wrong": [
+            "Green",
+            "Pink"
+          ],
+          "hint": "Find the notebook.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What colour is the sharpener?",
+          "qTr": "Kalemtıraş ne renk?",
           "correct": "Red",
           "wrong": [
             "Blue",
             "Green"
           ],
-          "hint": "Find the word sharpener.",
+          "hint": "Find the sharpener.",
           "hl": [
-            4
+            7
           ]
         },
         {
-          "q": "What colour is my pencil case?",
-          "qTr": "Kalem kutum ne renk?",
-          "correct": "Pink",
+          "q": "What colour is the glue?",
+          "qTr": "Yapıştırıcı ne renk?",
+          "correct": "Green",
           "wrong": [
             "Yellow",
             "White"
           ],
-          "hint": "Find the words pencil case.",
+          "hint": "Find the glue.",
           "hl": [
-            6
+            9
           ]
         }
       ]
@@ -570,37 +600,45 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👧🏻",
-          "n": "Lila"
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
         },
         {
           "e": "👦🏻",
           "n": "Tom"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
+          "e": "👧🏻",
+          "n": "Lila"
         }
       ],
       "sentences": [
-        "This is our classroom.",
-        "This is the teacher desk. It is brown.",
-        "How many tables? Five tables.",
-        "Our Smart Board is black.",
-        "What is this? It is a bookcase. It is green.",
-        "How many chairs? Twenty chairs.",
-        "This is a clock. It is white.",
-        "Our classroom is colourful!"
+        "Miss Oli: Look here! What is this?",
+        "Tom: It is the teacher desk. It is brown.",
+        "Miss Oli: You're right! How many tables?",
+        "Lila: Five tables!",
+        "Miss Oli: Good job! What colour is our Smart Board?",
+        "Tom: It is black.",
+        "Lila: Miss Oli, what is this?",
+        "Miss Oli: It is a bookcase. It is green.",
+        "Tom: How many chairs?",
+        "Miss Oli: Twenty chairs!",
+        "Lila: What colour is the clock?",
+        "Miss Oli: The clock is white. Well done!"
       ],
       "translations": [
-        "Bu bizim sınıfımız.",
-        "Bu öğretmen masası. Kahverengi.",
-        "Kaç tane masa? Beş masa.",
-        "Akıllı tahtamız siyah.",
-        "Bu nedir? Bu bir kitaplık. Yeşil.",
-        "Kaç tane sandalye? Yirmi sandalye.",
-        "Bu bir saat. Beyaz.",
-        "Sınıfımız renkli!"
+        "Miss Oli: Buraya bakın! Bu nedir?",
+        "Tom: O öğretmen masası. O kahverengi.",
+        "Miss Oli: Haklısın! Kaç tane masa?",
+        "Lila: Beş masa!",
+        "Miss Oli: Aferin! Akıllı tahtamız ne renk?",
+        "Tom: O siyah.",
+        "Lila: Miss Oli, bu nedir?",
+        "Miss Oli: O bir kitaplık. O yeşil.",
+        "Tom: Kaç tane sandalye?",
+        "Miss Oli: Yirmi sandalye!",
+        "Lila: Saat ne renk?",
+        "Miss Oli: Saat beyaz. Aferin!"
       ],
       "questions": [
         {
@@ -618,15 +656,15 @@
         },
         {
           "q": "How many tables?",
-          "qTr": "Kaç masa var?",
+          "qTr": "Kaç tane masa?",
           "correct": "Five",
           "wrong": [
             "Twenty",
             "Two"
           ],
-          "hint": "Find the word tables.",
+          "hint": "Find the tables.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -637,9 +675,9 @@
             "Brown",
             "White"
           ],
-          "hint": "Find Smart Board.",
+          "hint": "Find the Smart Board.",
           "hl": [
-            3
+            5
           ]
         },
         {
@@ -650,9 +688,9 @@
             "White",
             "Brown"
           ],
-          "hint": "Find the word bookcase.",
+          "hint": "Find the bookcase.",
           "hl": [
-            4
+            7
           ]
         },
         {
@@ -663,9 +701,9 @@
             "Black",
             "Green"
           ],
-          "hint": "Find the word clock.",
+          "hint": "Find the clock.",
           "hl": [
-            6
+            11
           ]
         }
       ]
@@ -680,104 +718,113 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧",
           "n": "Eda"
         },
         {
           "e": "👦",
           "n": "Can"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
-        "Miss Oli is in the classroom.",
+        "Miss Oli: Be quiet, please! Are you ready?",
+        "Eda: Yes, Miss Oli!",
         "Miss Oli: Stand up, please!",
-        "The pupils are ready.",
-        "Sit down, please!",
-        "Open your book, please!",
-        "Listen, please!",
-        "Repeat, please!",
-        "Close your book, please!",
-        "Good job, everybody!"
+        "Can: Yes, Miss Oli!",
+        "Miss Oli: Sit down, please! Open your book, please!",
+        "Eda: Miss Oli, do you need help?",
+        "Miss Oli: Yes! Pass the chalk, please!",
+        "Can: Here you are!",
+        "Miss Oli: Thanks! Listen, please! Repeat, please!",
+        "Eda: A, B, C!",
+        "Miss Oli: Good job! Close your book, please!",
+        "Can: Miss Oli, can I go to the bathroom, please?",
+        "Miss Oli: Yes, you can!"
       ],
       "translations": [
-        "Miss Oli sınıfta.",
-        "Miss Oli: Ayağa kalkın, lütfen!",
-        "Öğrenciler hazır.",
-        "Oturun, lütfen!",
-        "Kitabınızı açın, lütfen!",
-        "Dinleyin, lütfen!",
-        "Tekrar edin, lütfen!",
-        "Kitabınızı kapatın, lütfen!",
-        "Aferin, herkese!"
+        "Miss Oli: Sessiz olun lütfen! Hazır mısınız?",
+        "Eda: Evet, Miss Oli!",
+        "Miss Oli: Ayağa kalkın lütfen!",
+        "Can: Evet, Miss Oli!",
+        "Miss Oli: Oturun lütfen! Kitabınızı açın lütfen!",
+        "Eda: Miss Oli, yardıma ihtiyacınız var mı?",
+        "Miss Oli: Evet! Tebeşiri uzat lütfen!",
+        "Can: Buyurun!",
+        "Miss Oli: Teşekkürler! Dinleyin lütfen! Tekrar edin lütfen!",
+        "Eda: A, B, C!",
+        "Miss Oli: Aferin! Kitabınızı kapatın lütfen!",
+        "Can: Miss Oli, tuvalete gidebilir miyim lütfen?",
+        "Miss Oli: Evet, gidebilirsin!"
       ],
       "questions": [
         {
-          "q": "Where is Miss Oli?",
-          "qTr": "Miss Oli nerede?",
-          "correct": "In the classroom",
+          "q": "What does Miss Oli say first?",
+          "qTr": "Miss Oli önce ne söyler?",
+          "correct": "Be quiet, please!",
           "wrong": [
-            "In the garden",
-            "In the library"
+            "Sit down, please!",
+            "Close your book, please!"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Find the first sentence.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What does Miss Oli say first?",
-          "qTr": "Miss Oli önce ne der?",
-          "correct": "Stand up, please!",
+          "q": "What does Miss Oli say after Stand up?",
+          "qTr": "Miss Oli 'Ayağa kalkın'dan sonra ne söyler?",
+          "correct": "Sit down, please!",
           "wrong": [
-            "Sit down, please!",
-            "Close your book!"
+            "Listen, please!",
+            "Repeat, please!"
           ],
-          "hint": "Find the first instruction.",
+          "hint": "Find Stand up.",
           "hl": [
-            1
+            4
           ]
         },
         {
-          "q": "What do the pupils do?",
-          "qTr": "Öğrenciler ne yapar?",
-          "correct": "They stand up",
+          "q": "Who passes the chalk?",
+          "qTr": "Tebeşiri kim uzatır?",
+          "correct": "Can",
           "wrong": [
-            "They sit down",
-            "They go home"
+            "Eda",
+            "Miss Oli"
           ],
-          "hint": "Find the word stand up.",
+          "hint": "Find the chalk.",
           "hl": [
-            2
+            6,
+            7
           ]
         },
         {
-          "q": "What does Miss Oli say after open your book?",
-          "qTr": "Miss Oli 'kitabını aç'tan sonra ne der?",
-          "correct": "Listen, please!",
+          "q": "What does Eda ask?",
+          "qTr": "Eda ne sorar?",
+          "correct": "Do you need help?",
           "wrong": [
-            "Stand up!",
-            "Sit down!"
+            "Can I come in?",
+            "Can I go outside?"
           ],
-          "hint": "Find the word listen.",
+          "hint": "Find Eda.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Miss Oli say to praise the pupils?",
-          "qTr": "Miss Oli öğrencileri övmek için ne der?",
-          "correct": "Good job, everybody!",
+          "q": "Where does Can want to go?",
+          "qTr": "Can nereye gitmek ister?",
+          "correct": "To the bathroom",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "Outside",
+            "To the board"
           ],
-          "hint": "Find the last sentence.",
+          "hint": "Find Can.",
           "hl": [
-            8
+            11
           ]
         }
       ]
@@ -792,50 +839,56 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧🏻",
           "n": "Lila"
         },
         {
           "e": "👦🏻",
           "n": "Tom"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
         "Miss Oli: Look at the board, please!",
-        "Come to the board, Lila!",
-        "Lila is here.",
-        "Pass the pencil, please!",
+        "Miss Oli: Come to the board, Lila!",
+        "Lila: Yes, Miss Oli!",
+        "Miss Oli: Draw it, please!",
+        "Lila: Tom, can you pass the pencil, please?",
         "Tom: Here you are, Lila!",
-        "Colour it, please!",
-        "Her picture is colourful.",
-        "Show your picture, please!",
-        "Well done, Lila!"
+        "Lila: Thanks!",
+        "Miss Oli: Colour it, please!",
+        "Lila: My picture is red, blue and green!",
+        "Miss Oli: Show your picture, please!",
+        "Lila: Look here!",
+        "Miss Oli: Well done, Lila!"
       ],
       "translations": [
-        "Miss Oli: Tahtaya bakın, lütfen!",
-        "Tahtaya gel, Lila!",
-        "Lila burada.",
-        "Kalemi uzat, lütfen!",
+        "Miss Oli: Tahtaya bakın lütfen!",
+        "Miss Oli: Tahtaya gel, Lila!",
+        "Lila: Evet, Miss Oli!",
+        "Miss Oli: Onu çiz lütfen!",
+        "Lila: Tom, kalemi uzatır mısın lütfen?",
         "Tom: Buyur, Lila!",
-        "Boya, lütfen!",
-        "Resmi rengârenk.",
-        "Resmini göster, lütfen!",
-        "Aferin, Lila!"
+        "Lila: Teşekkürler!",
+        "Miss Oli: Onu boya lütfen!",
+        "Lila: Benim resmim kırmızı, mavi ve yeşil!",
+        "Miss Oli: Resmini göster lütfen!",
+        "Lila: Buraya bakın!",
+        "Miss Oli: Aferin, Lila!"
       ],
       "questions": [
         {
           "q": "What does Miss Oli say first?",
-          "qTr": "Miss Oli önce ne der?",
+          "qTr": "Miss Oli önce ne söyler?",
           "correct": "Look at the board, please!",
           "wrong": [
-            "Sit down!",
-            "Goodbye!"
+            "Sit down, please!",
+            "Close your book, please!"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Find the first sentence.",
           "hl": [
             0
           ]
@@ -848,7 +901,7 @@
             "Tom",
             "Miss Oli"
           ],
-          "hint": "Find Lila.",
+          "hint": "Find the board.",
           "hl": [
             1,
             2
@@ -856,43 +909,42 @@
         },
         {
           "q": "Who passes the pencil?",
-          "qTr": "Kurşun kalemi kim uzatır?",
+          "qTr": "Kalemi kim uzatır?",
           "correct": "Tom",
           "wrong": [
             "Lila",
             "Miss Oli"
           ],
-          "hint": "Find the word pass.",
+          "hint": "Find the pencil.",
           "hl": [
-            3,
-            4
+            4,
+            5
           ]
         },
         {
-          "q": "What does Lila do?",
-          "qTr": "Lila ne yapar?",
-          "correct": "She colours a picture",
+          "q": "What colour is the picture?",
+          "qTr": "Resim ne renk?",
+          "correct": "Red, blue and green",
           "wrong": [
-            "She is in the garden",
-            "She is happy"
+            "Black and white",
+            "Brown and pink"
           ],
-          "hint": "Find the word colour.",
+          "hint": "Find the picture.",
           "hl": [
-            5,
-            6
+            8
           ]
         },
         {
           "q": "What does Miss Oli say to Lila?",
-          "qTr": "Miss Oli, Lila'ya ne der?",
+          "qTr": "Miss Oli Lila'ya ne söyler?",
           "correct": "Show your picture, please!",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "Sit down, please!",
+            "Be quiet, please!"
           ],
-          "hint": "Find the word picture.",
+          "hint": "Find the picture.",
           "hl": [
-            7
+            9
           ]
         }
       ]
@@ -907,6 +959,10 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧",
           "n": "Eda"
         },
@@ -915,57 +971,59 @@
           "n": "Can"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
+          "e": "👦🏻",
+          "n": "Tom"
         }
       ],
       "sentences": [
-        "Eda is ready. Her hand is up.",
-        "Eda: Can I go to the bathroom, please?",
+        "Eda: Miss Oli, can I go to the bathroom, please?",
         "Miss Oli: Yes, you can!",
         "Eda: Thanks, Miss Oli!",
-        "Now Can is next.",
-        "Can: Can I come in?",
-        "Miss Oli: Yes, you can!",
-        "Can: Can you pass the blue crayon, please?",
-        "Tom: Here you are!"
+        "Can: Miss Oli, can I come in?",
+        "Miss Oli: Yes, you can! Sit down, please!",
+        "Can: I'm sorry I'm late.",
+        "Can: Tom, can you pass the blue crayon, please?",
+        "Tom: Here you are!",
+        "Can: Thanks!",
+        "Miss Oli: Good job! It's break time now!"
       ],
       "translations": [
-        "Eda hazır. Eli havada.",
-        "Eda: Tuvalete gidebilir miyim, lütfen?",
+        "Eda: Miss Oli, tuvalete gidebilir miyim lütfen?",
         "Miss Oli: Evet, gidebilirsin!",
         "Eda: Teşekkürler, Miss Oli!",
-        "Şimdi sıra Can'da.",
-        "Can: İçeri girebilir miyim?",
-        "Miss Oli: Evet, girebilirsin!",
-        "Can: Mavi mum boyayı uzatır mısın, lütfen?",
-        "Tom: İşte buyur!"
+        "Can: Miss Oli, içeri girebilir miyim?",
+        "Miss Oli: Evet, girebilirsin! Otur lütfen!",
+        "Can: Geç kaldığım için üzgünüm.",
+        "Can: Tom, mavi mum boyayı uzatır mısın lütfen?",
+        "Tom: Buyur!",
+        "Can: Teşekkürler!",
+        "Miss Oli: Aferin! Şimdi teneffüs zamanı!"
       ],
       "questions": [
         {
-          "q": "What does Eda ask first?",
-          "qTr": "Eda önce ne sorar?",
+          "q": "What does Eda ask?",
+          "qTr": "Eda ne sorar?",
           "correct": "Can I go to the bathroom?",
           "wrong": [
             "Can I come in?",
-            "Can I sit here?"
+            "Can I go outside?"
           ],
           "hint": "Find Eda.",
           "hl": [
-            1
+            0
           ]
         },
         {
           "q": "What does Miss Oli answer Eda?",
-          "qTr": "Miss Oli, Eda'ya ne cevap verir?",
+          "qTr": "Miss Oli Eda'ya ne cevap verir?",
           "correct": "Yes, you can!",
           "wrong": [
             "No, you can't!",
-            "Goodbye!"
+            "Not yet!"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Find Eda.",
           "hl": [
-            2
+            1
           ]
         },
         {
@@ -974,37 +1032,37 @@
           "correct": "Can I come in?",
           "wrong": [
             "Can I go home?",
-            "Can I sit here?"
+            "Can I go outside?"
           ],
           "hint": "Find Can.",
           "hl": [
-            5
+            3
           ]
         },
         {
           "q": "What colour crayon does Can want?",
-          "qTr": "Can ne renk boya kalemi ister?",
+          "qTr": "Can hangi renk mum boya ister?",
           "correct": "Blue",
           "wrong": [
             "Red",
             "Yellow"
           ],
-          "hint": "Find the word crayon.",
+          "hint": "Find the crayon.",
           "hl": [
-            7
+            6
           ]
         },
         {
           "q": "What does Tom say?",
-          "qTr": "Tom ne der?",
+          "qTr": "Tom ne söyler?",
           "correct": "Here you are!",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "Thanks!",
+            "Good luck!"
           ],
           "hint": "Find Tom.",
           "hl": [
-            8
+            7
           ]
         }
       ]
@@ -1019,39 +1077,41 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👩‍🏫",
+          "n": "Miss Oli"
+        },
+        {
           "e": "👧",
           "n": "Eda"
         },
         {
           "e": "👦",
           "n": "Can"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
         }
       ],
       "sentences": [
-        "What day is it today? It is the 15th of July.",
-        "It is Democracy and National Unity Day in Türkiye.",
-        "It is a special day for our country.",
-        "Miss Oli is in the classroom.",
-        "Miss Oli: Look at the board.",
-        "It is a picture of our flag.",
-        "Our flag is red and white.",
-        "Miss Oli: It is a day to remember.",
-        "Hurray for our country!"
+        "Miss Oli: Be quiet, please! Look at the board, please!",
+        "Eda: Miss Oli, what day is it today?",
+        "Miss Oli: It is the 15th of July.",
+        "Miss Oli: It is Democracy and National Unity Day in Türkiye.",
+        "Can: What is this picture?",
+        "Miss Oli: It is our flag.",
+        "Eda: What colour is our flag?",
+        "Miss Oli: Our flag is red and white.",
+        "Can: I see!",
+        "Miss Oli: Good job! Hurray for our country!"
       ],
       "translations": [
-        "Bugün hangi gün? 15 Temmuz.",
-        "Türkiye'de Demokrasi ve Milli Birlik Günü.",
-        "Ülkemiz için özel bir gün.",
-        "Miss Oli sınıfta.",
-        "Miss Oli: Tahtaya bakın.",
-        "Bu, bayrağımızın bir resmi.",
-        "Bayrağımız kırmızı ve beyaz.",
-        "Miss Oli: Hatırlanacak bir gün.",
-        "Yaşasın ülkemiz!"
+        "Miss Oli: Sessiz olun lütfen! Tahtaya bakın lütfen!",
+        "Eda: Miss Oli, bugün günlerden ne?",
+        "Miss Oli: Bugün 15 Temmuz.",
+        "Miss Oli: Türkiye'de Demokrasi ve Millî Birlik Günü.",
+        "Can: Bu resim nedir?",
+        "Miss Oli: O bizim bayrağımız.",
+        "Eda: Bayrağımız ne renk?",
+        "Miss Oli: Bayrağımız kırmızı ve beyaz.",
+        "Can: Anladım!",
+        "Miss Oli: Aferin! Yaşasın ülkemiz!"
       ],
       "questions": [
         {
@@ -1062,34 +1122,35 @@
             "The 23rd of April",
             "The 29th of October"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Find the day.",
           "hl": [
-            0
+            2
           ]
         },
         {
-          "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "q": "What day is it in Türkiye?",
+          "qTr": "Türkiye'de hangi gün?",
           "correct": "Democracy and National Unity Day",
           "wrong": [
-            "23rd of April",
+            "Children's Day",
             "Victory Day"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Find Türkiye.",
           "hl": [
-            1
+            3
           ]
         },
         {
-          "q": "What do Eda and Can see?",
-          "qTr": "Eda ve Can ne görür?",
-          "correct": "A picture of our flag",
+          "q": "What is the picture?",
+          "qTr": "Resim nedir?",
+          "correct": "Our flag",
           "wrong": [
-            "A picture of a tree",
-            "A picture of a house"
+            "Our classroom",
+            "Our bookcase"
           ],
-          "hint": "Find Eda and Can.",
+          "hint": "Find the picture.",
           "hl": [
+            4,
             5
           ]
         },
@@ -1101,22 +1162,22 @@
             "Blue and yellow",
             "Green and black"
           ],
-          "hint": "Find the word flag.",
+          "hint": "Find the flag.",
           "hl": [
-            6
+            7
           ]
         },
         {
-          "q": "What does Miss Oli say?",
-          "qTr": "Miss Oli ne der?",
-          "correct": "It is a day to remember",
+          "q": "Who says I see?",
+          "qTr": "'Anladım' diyen kim?",
+          "correct": "Can",
           "wrong": [
-            "It is a sad day",
-            "It is the end"
+            "Eda",
+            "Miss Oli"
           ],
-          "hint": "Find Miss Oli.",
+          "hint": "Find I see.",
           "hl": [
-            7
+            8
           ]
         }
       ]
@@ -1255,23 +1316,23 @@
       ],
       "sentences": [
         "Can: Miss Oli, can I open the window, please?",
-        "Miss Oli: No, you can't, Can. It is cold today.",
-        "Can: OK, Miss Oli.",
-        "Eda: Miss Oli, can I go to the playground?",
-        "Miss Oli: No, you can't, Eda. It is lesson time.",
+        "Miss Oli: No, you can't, Can. Sit down, please!",
+        "Can: Yes, Miss Oli.",
+        "Eda: Miss Oli, can I go outside?",
+        "Miss Oli: No, you can't, Eda.",
         "Eda: Can I draw a picture, please?",
-        "Miss Oli: Yes, you can! Here is a pencil.",
-        "Eda: Thank you, Miss Oli!"
+        "Miss Oli: Yes, you can! Here you are!",
+        "Eda: Thanks, Miss Oli!"
       ],
       "translations": [
-        "Can: Miss Oli, pencereyi açabilir miyim, lütfen?",
-        "Miss Oli: Hayır, açamazsın Can. Bugün hava soğuk.",
-        "Can: Tamam, Miss Oli.",
-        "Eda: Miss Oli, oyun bahçesine gidebilir miyim?",
-        "Miss Oli: Hayır, gidemezsin Eda. Ders zamanı.",
-        "Eda: Bir resim çizebilir miyim, lütfen?",
-        "Miss Oli: Evet, çizebilirsin! İşte bir kalem.",
-        "Eda: Teşekkür ederim, Miss Oli!"
+        "Can: Miss Oli, pencereyi açabilir miyim lütfen?",
+        "Miss Oli: Hayır, açamazsın, Can. Otur lütfen!",
+        "Can: Peki, Miss Oli.",
+        "Eda: Miss Oli, dışarı çıkabilir miyim?",
+        "Miss Oli: Hayır, çıkamazsın, Eda.",
+        "Eda: Bir resim çizebilir miyim lütfen?",
+        "Miss Oli: Evet, çizebilirsin! Buyur!",
+        "Eda: Teşekkürler, Miss Oli!"
       ],
       "questions": [
         {
@@ -1282,20 +1343,20 @@
             "The door",
             "The book"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find Can.",
           "hl": [
             0
           ]
         },
         {
           "q": "What does Miss Oli answer Can?",
-          "qTr": "Miss Oli, Can'a ne cevap verir?",
+          "qTr": "Miss Oli Can'a ne cevap verir?",
           "correct": "No, you can't",
           "wrong": [
             "Yes, you can",
-            "Goodbye"
+            "Not yet"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Can.",
           "hl": [
             1
           ]
@@ -1303,25 +1364,25 @@
         {
           "q": "Where does Eda want to go?",
           "qTr": "Eda nereye gitmek ister?",
-          "correct": "To the playground",
+          "correct": "Outside",
           "wrong": [
-            "To the library",
-            "Home"
+            "To the bathroom",
+            "To the board"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find Eda.",
           "hl": [
             3
           ]
         },
         {
           "q": "What does Miss Oli answer Eda?",
-          "qTr": "Miss Oli, Eda'ya ne cevap verir?",
+          "qTr": "Miss Oli Eda'ya ne cevap verir?",
           "correct": "No, you can't",
           "wrong": [
             "Yes, you can",
-            "Goodbye"
+            "Good job"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Eda.",
           "hl": [
             4
           ]
@@ -1331,10 +1392,10 @@
           "qTr": "Eda ne yapmak ister?",
           "correct": "Draw a picture",
           "wrong": [
-            "Sing a song",
-            "Read a book"
+            "Open the door",
+            "Close the book"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the picture.",
           "hl": [
             5
           ]
