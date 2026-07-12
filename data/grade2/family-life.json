@@ -31,7 +31,7 @@
         "My mother has got long blond hair.",
         "She is tall and beautiful.",
         "Miss Oli: Your mother is very nice!",
-        "My mother is great!"
+        "Eda: My mother is great!"
       ],
       "translations": [
         "Eda diyor: Bak! Bu benim annem.",
@@ -40,7 +40,7 @@
         "Annemin uzun sarı saçları var.",
         "Uzun boylu ve güzel.",
         "Miss Oli diyor: Annen çok hoş!",
-        "Annem harika!"
+        "Eda diyor: Annem harika!"
       ],
       "questions": [
         {
@@ -134,43 +134,40 @@
         }
       ],
       "sentences": [
-        "Can: This is my mother.",
-        "Tom: Who is she?",
-        "Can: She is my mother. She has got brown eyes.",
-        "She has got short dark hair.",
-        "My mother is short and nice.",
-        "She is very beautiful.",
+        "Can: Look! This is my family photo.",
+        "Tom: Who is she? Is she your sister?",
+        "Can: No! She is not my sister. She is my mother!",
+        "My mother has got brown eyes and short dark hair.",
+        "She is short and nice.",
         "Tom: Your mother is lovely!",
-        "My mum is great!"
+        "Can: My mum is great!"
       ],
       "translations": [
-        "Can diyor: Bu benim annem.",
-        "Tom: O kim?",
-        "Can: O benim annem. Kahverengi gözleri var.",
-        "Kısa koyu saçları var.",
-        "Annem kısa boylu ve hoş.",
-        "Çok güzel.",
+        "Can diyor: Bak! Bu benim aile fotoğrafım.",
+        "Tom diyor: O kim? O senin kız kardeşin mi?",
+        "Can diyor: Hayır! O benim kız kardeşim değil. O benim annem!",
+        "Annemin kahverengi gözleri ve kısa koyu saçları var.",
+        "Kısa boylu ve hoş.",
         "Tom diyor: Annen çok şirin!",
-        "Annem harika!"
+        "Can diyor: Annem harika!"
       ],
       "questions": [
         {
           "q": "Who is she?",
-          "qTr": "O kimdir?",
+          "qTr": "O kim?",
           "correct": "My mother",
           "wrong": [
-            "My father",
-            "My grandmother"
+            "My sister",
+            "My grandma"
           ],
           "hint": "Find 'mother'.",
           "hl": [
-            1,
             2
           ]
         },
         {
           "q": "What colour eyes has she got?",
-          "qTr": "Onun gözleri ne renk?",
+          "qTr": "Gözleri ne renk?",
           "correct": "Brown",
           "wrong": [
             "Blue",
@@ -178,16 +175,16 @@
           ],
           "hint": "Find eyes.",
           "hl": [
-            2
+            3
           ]
         },
         {
           "q": "How is her hair?",
-          "qTr": "Onun saçı nasıl?",
+          "qTr": "Saçları nasıl?",
           "correct": "Short and dark",
           "wrong": [
             "Long and blond",
-            "Big and red"
+            "Short and white"
           ],
           "hint": "Find hair.",
           "hl": [
@@ -202,7 +199,7 @@
             "Tall and tired",
             "Big and sad"
           ],
-          "hint": "Find the word short.",
+          "hint": "Find mother.",
           "hl": [
             4
           ]
@@ -217,7 +214,7 @@
           ],
           "hint": "Find 'lovely'.",
           "hl": [
-            6
+            5
           ]
         }
       ]
@@ -251,7 +248,7 @@
         "He has got short blond hair.",
         "He is tall and handsome.",
         "Lila: Your father is very handsome!",
-        "My dad is great!"
+        "Tom: My dad is great!"
       ],
       "translations": [
         "Tom diyor: Bak! Bu benim babam.",
@@ -260,7 +257,7 @@
         "Kısa sarı saçları var.",
         "Uzun boylu ve yakışıklı.",
         "Lila diyor: Baban çok yakışıklı!",
-        "Babam harika!"
+        "Tom diyor: Babam harika!"
       ],
       "questions": [
         {
@@ -354,40 +351,27 @@
         }
       ],
       "sentences": [
-        "Eda: This is my father. He is my dad.",
-        "My dad has got green eyes.",
-        "He has got short dark hair.",
-        "My father is tall and handsome.",
+        "Eda: I have got a photo here.",
+        "This person has got green eyes and short dark hair.",
+        "He is tall and handsome.",
+        "Can: Who is he? Is he your brother?",
+        "Eda: No! He is not my brother. He is my father!",
         "Can: Your dad is so cool!",
-        "Eda: My dad is great!",
-        "Miss Oli: Family is very nice!"
+        "Eda: My dad is great!"
       ],
       "translations": [
-        "Eda diyor: Bu benim babam. O benim babacığım.",
-        "Babamın yeşil gözleri var.",
-        "Kısa koyu saçları var.",
-        "Babam uzun boylu ve yakışıklı.",
+        "Eda diyor: Burada bir fotoğrafım var.",
+        "Bu kişinin yeşil gözleri ve kısa koyu saçları var.",
+        "Uzun boylu ve yakışıklı.",
+        "Can diyor: O kim? O senin erkek kardeşin mi?",
+        "Eda diyor: Hayır! O benim erkek kardeşim değil. O benim babam!",
         "Can diyor: Baban çok havalı!",
-        "Eda diyor: Babam harika!",
-        "Miss Oli diyor: Aile çok güzel!"
+        "Eda diyor: Babam harika!"
       ],
       "questions": [
         {
-          "q": "Who is he?",
-          "qTr": "O kimdir?",
-          "correct": "My father",
-          "wrong": [
-            "My mother",
-            "My brother"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What colour eyes has he got?",
-          "qTr": "Onun gözleri ne renk?",
+          "qTr": "Gözleri ne renk?",
           "correct": "Green",
           "wrong": [
             "Blue",
@@ -400,28 +384,41 @@
         },
         {
           "q": "What colour hair has he got?",
-          "qTr": "Onun saçı ne renk?",
+          "qTr": "Saçları ne renk?",
           "correct": "Dark",
           "wrong": [
             "Blond",
-            "Red"
+            "White"
           ],
           "hint": "Find hair.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Is he tall?",
+          "qTr": "O uzun boylu mu?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find 'tall'.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How is the father?",
-          "qTr": "Baba nasıl?",
-          "correct": "Tall and handsome",
+          "q": "Who is he?",
+          "qTr": "O kim?",
+          "correct": "My father",
           "wrong": [
-            "Short and small",
-            "Big and tired"
+            "My brother",
+            "My grandpa"
           ],
-          "hint": "Find tall.",
+          "hint": "Find 'father'.",
           "hl": [
-            3
+            4
           ]
         },
         {
@@ -434,7 +431,7 @@
           ],
           "hint": "Find 'cool'.",
           "hl": [
-            4
+            5
           ]
         }
       ]
@@ -462,37 +459,34 @@
         }
       ],
       "sentences": [
-        "Lila: This is my big brother.",
-        "Eda: Who is he?",
-        "Lila: He is my brother. His name is Deniz.",
-        "My brother has got brown eyes.",
-        "He has got short blond hair.",
+        "Lila: Look! Deniz is here!",
+        "Eda: Who is he, Lila?",
+        "Lila: He is my big brother. His name is Deniz.",
+        "My brother has got brown eyes and short blond hair.",
         "He is tall and nice.",
         "Eda: Your brother is very handsome!",
-        "My brother is great!"
+        "Lila: My brother is great!"
       ],
       "translations": [
-        "Lila diyor: Bu benim ağabeyim.",
-        "Eda: O kim?",
-        "Lila: O benim erkek kardeşim. Onun adı Deniz.",
-        "Erkek kardeşimin kahverengi gözleri var.",
-        "Kısa sarı saçları var.",
+        "Lila diyor: Bak! Deniz burada!",
+        "Eda diyor: O kim, Lila?",
+        "Lila diyor: O benim ağabeyim. Onun adı Deniz.",
+        "Erkek kardeşimin kahverengi gözleri ve kısa sarı saçları var.",
         "Uzun boylu ve hoş.",
         "Eda diyor: Erkek kardeşin çok yakışıklı!",
-        "Erkek kardeşim harika!"
+        "Lila diyor: Erkek kardeşim harika!"
       ],
       "questions": [
         {
           "q": "Who is he?",
-          "qTr": "O kimdir?",
+          "qTr": "O kim?",
           "correct": "My brother",
           "wrong": [
             "My father",
-            "My grandfather"
+            "My grandpa"
           ],
           "hint": "Find 'brother'.",
           "hl": [
-            1,
             2
           ]
         },
@@ -501,17 +495,17 @@
           "qTr": "Onun adı nedir?",
           "correct": "Deniz",
           "wrong": [
-            "Tom",
-            "Can"
+            "Ali",
+            "Tom"
           ],
-          "hint": "Find name.",
+          "hint": "Find 'name'.",
           "hl": [
             2
           ]
         },
         {
           "q": "What colour eyes has he got?",
-          "qTr": "Onun gözleri ne renk?",
+          "qTr": "Gözleri ne renk?",
           "correct": "Brown",
           "wrong": [
             "Blue",
@@ -524,15 +518,15 @@
         },
         {
           "q": "What colour hair has he got?",
-          "qTr": "Onun saçı ne renk?",
+          "qTr": "Saçları ne renk?",
           "correct": "Blond",
           "wrong": [
             "Dark",
-            "Red"
+            "White"
           ],
           "hint": "Find hair.",
           "hl": [
-            4
+            3
           ]
         },
         {
@@ -545,7 +539,7 @@
           ],
           "hint": "Find 'handsome'.",
           "hl": [
-            6
+            5
           ]
         }
       ]
@@ -573,37 +567,34 @@
         }
       ],
       "sentences": [
-        "Eda: This is my little sister.",
+        "Eda: This is my little sister, Ela.",
         "Tom: Who is she?",
-        "Eda: She is my sister. Her name is Ela.",
-        "She has got big blue eyes.",
-        "She has got short blond hair.",
-        "My sister is small and nice.",
-        "Tom: Your sister is very beautiful!",
-        "My little sister is great!"
+        "Eda: She is my sister. Ela has got big blue eyes and short blond hair.",
+        "She is small and nice.",
+        "Tom: Your sister is very beautiful! What about me?",
+        "I have got a big sister, too. Her name is Mia.",
+        "Eda: My little sister is great!"
       ],
       "translations": [
-        "Eda diyor: Bu benim küçük kız kardeşim.",
-        "Tom: O kim?",
-        "Eda: O benim kız kardeşim. Onun adı Ela.",
-        "Büyük mavi gözleri var.",
-        "Kısa sarı saçları var.",
-        "Kız kardeşim küçük ve hoş.",
-        "Tom diyor: Kız kardeşin çok güzel!",
-        "Küçük kız kardeşim harika!"
+        "Eda diyor: Bu benim küçük kız kardeşim, Ela.",
+        "Tom diyor: O kim?",
+        "Eda diyor: O benim kız kardeşim. Ela'nın büyük mavi gözleri ve kısa sarı saçları var.",
+        "Küçük ve hoş.",
+        "Tom diyor: Kız kardeşin çok güzel! Peki ya ben?",
+        "Benim de bir ablam var. Onun adı Mia.",
+        "Eda diyor: Küçük kız kardeşim harika!"
       ],
       "questions": [
         {
           "q": "Who is she?",
-          "qTr": "O kimdir?",
+          "qTr": "O kim?",
           "correct": "My sister",
           "wrong": [
-            "My mother",
-            "My grandmother"
+            "A baby",
+            "My mother"
           ],
           "hint": "Find 'sister'.",
           "hl": [
-            1,
             2
           ]
         },
@@ -613,37 +604,37 @@
           "correct": "Ela",
           "wrong": [
             "Mia",
-            "Lila"
+            "Ayşe"
           ],
-          "hint": "Find name.",
+          "hint": "Find 'name'.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What colour eyes has she got?",
+          "qTr": "Gözleri ne renk?",
+          "correct": "Blue",
+          "wrong": [
+            "Brown",
+            "Green"
+          ],
+          "hint": "Find eyes.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What colour eyes has she got?",
-          "qTr": "Onun gözleri ne renk?",
-          "correct": "Blue",
-          "wrong": [
-            "Dark",
-            "Green"
-          ],
-          "hint": "Find eyes.",
-          "hl": [
-            3
-          ]
-        },
-        {
           "q": "How is her hair?",
-          "qTr": "Onun saçı nasıl?",
+          "qTr": "Saçları nasıl?",
           "correct": "Short and blond",
           "wrong": [
             "Long and dark",
-            "Big and red"
+            "Short and white"
           ],
           "hint": "Find hair.",
           "hl": [
-            4
+            2
           ]
         },
         {
@@ -654,9 +645,9 @@
             "Tall and tired",
             "Big and sad"
           ],
-          "hint": "Find the word small.",
+          "hint": "Find sister.",
           "hl": [
-            5
+            3
           ]
         }
       ]
@@ -684,37 +675,34 @@
         }
       ],
       "sentences": [
-        "Can: This is my grandmother.",
-        "Lila: Who is she?",
+        "Can: It's lunchtime! I'm hungry!",
+        "Lila: Look! Over there! Who is she?",
         "Can: She is my grandma. Her name is Ayşe.",
-        "My grandma has got green eyes.",
-        "She has got short dark hair.",
+        "My grandma has got green eyes and short dark hair.",
         "She is short and beautiful.",
         "Lila: Your grandma is so lovely!",
-        "My grandma is great!"
+        "Can: My grandma is great!"
       ],
       "translations": [
-        "Can diyor: Bu benim büyükannem.",
-        "Lila: O kim?",
-        "Can: O benim büyükannem. Onun adı Ayşe.",
-        "Büyükannemin yeşil gözleri var.",
-        "Kısa koyu saçları var.",
+        "Can diyor: Öğle yemeği vakti! Acıktım!",
+        "Lila diyor: Bak! Şurada! O kim?",
+        "Can diyor: O benim büyükannem. Onun adı Ayşe.",
+        "Büyükannemin yeşil gözleri ve kısa koyu saçları var.",
         "Kısa boylu ve güzel.",
         "Lila diyor: Büyükannen çok şirin!",
-        "Büyükannem harika!"
+        "Can diyor: Büyükannem harika!"
       ],
       "questions": [
         {
           "q": "Who is she?",
-          "qTr": "O kimdir?",
-          "correct": "My grandmother",
+          "qTr": "O kim?",
+          "correct": "My grandma",
           "wrong": [
             "My mother",
             "My sister"
           ],
           "hint": "Find 'grandma'.",
           "hl": [
-            1,
             2
           ]
         },
@@ -726,14 +714,14 @@
             "Ela",
             "Mia"
           ],
-          "hint": "Find name.",
+          "hint": "Find 'name'.",
           "hl": [
             2
           ]
         },
         {
           "q": "What colour eyes has she got?",
-          "qTr": "Onun gözleri ne renk?",
+          "qTr": "Gözleri ne renk?",
           "correct": "Green",
           "wrong": [
             "Blue",
@@ -746,15 +734,15 @@
         },
         {
           "q": "How is her hair?",
-          "qTr": "Onun saçı nasıl?",
+          "qTr": "Saçları nasıl?",
           "correct": "Short and dark",
           "wrong": [
             "Long and blond",
-            "Big and red"
+            "Short and white"
           ],
           "hint": "Find hair.",
           "hl": [
-            4
+            3
           ]
         },
         {
@@ -767,7 +755,7 @@
           ],
           "hint": "Find 'lovely'.",
           "hl": [
-            6
+            5
           ]
         }
       ]
@@ -795,29 +783,27 @@
         }
       ],
       "sentences": [
-        "Can: This is my grandfather.",
-        "Tom: Who is he?",
+        "Can: Look! Over there! This is my grandfather.",
+        "Tom: Who is he, Can?",
         "Can: He is my grandpa. His name is Ali.",
-        "My grandpa has got blue eyes.",
-        "He has got short white hair.",
+        "My grandpa has got blue eyes and short white hair.",
         "He is tall and handsome.",
-        "Tom: Your grandpa is so nice!",
-        "My grandpa is great!"
+        "Tom: You look great, Can! Your grandpa is so nice!",
+        "Can: My grandpa is great!"
       ],
       "translations": [
-        "Can diyor: Bu benim büyükbabam.",
-        "Tom: O kim?",
-        "Can: O benim büyükbabam. Onun adı Ali.",
-        "Büyükbabamın mavi gözleri var.",
-        "Kısa beyaz saçları var.",
+        "Can diyor: Bak! Şurada! Bu benim büyükbabam.",
+        "Tom diyor: O kim, Can?",
+        "Can diyor: O benim büyükbabam. Onun adı Ali.",
+        "Büyükbabamın mavi gözleri ve kısa beyaz saçları var.",
         "Uzun boylu ve yakışıklı.",
-        "Tom diyor: Büyükbaban çok hoş!",
-        "Büyükbabam harika!"
+        "Tom diyor: Harika görünüyorsun, Can! Büyükbaban çok hoş!",
+        "Can diyor: Büyükbabam harika!"
       ],
       "questions": [
         {
           "q": "Who is he?",
-          "qTr": "O kimdir?",
+          "qTr": "O kim?",
           "correct": "My grandfather",
           "wrong": [
             "My father",
@@ -825,7 +811,6 @@
           ],
           "hint": "Find 'grandpa'.",
           "hl": [
-            1,
             2
           ]
         },
@@ -837,17 +822,17 @@
             "Deniz",
             "Tom"
           ],
-          "hint": "Find name.",
+          "hint": "Find 'name'.",
           "hl": [
             2
           ]
         },
         {
           "q": "What colour eyes has he got?",
-          "qTr": "Onun gözleri ne renk?",
+          "qTr": "Gözleri ne renk?",
           "correct": "Blue",
           "wrong": [
-            "Dark",
+            "Brown",
             "Green"
           ],
           "hint": "Find eyes.",
@@ -857,7 +842,7 @@
         },
         {
           "q": "What colour hair has he got?",
-          "qTr": "Onun saçı ne renk?",
+          "qTr": "Saçları ne renk?",
           "correct": "White",
           "wrong": [
             "Blond",
@@ -865,20 +850,20 @@
           ],
           "hint": "Find hair.",
           "hl": [
-            4
+            3
           ]
         },
         {
           "q": "Is he tall?",
-          "qTr": "O uzun mu?",
+          "qTr": "O uzun boylu mu?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Find tall.",
+          "hint": "Find 'tall'.",
           "hl": [
-            5
+            4
           ]
         }
       ]
@@ -912,7 +897,7 @@
         "My father is tall and handsome.",
         "My big sister is beautiful. Her name is Mia.",
         "Mia is twelve years old.",
-        "My family is great!",
+        "Tom: My family is great!",
         "Eda: Your family is so nice, Tom!"
       ],
       "translations": [
@@ -922,7 +907,7 @@
         "Babam uzun boylu ve yakışıklı.",
         "Ablam güzel. Onun adı Mia.",
         "Mia on iki yaşında.",
-        "Ailem harika!",
+        "Tom diyor: Ailem harika!",
         "Eda diyor: Ailen çok hoş, Tom!"
       ],
       "questions": [
@@ -1024,7 +1009,7 @@
         "This is my little sister, Ela.",
         "Lila: My grandmother is here, too!",
         "My grandma has got white hair.",
-        "Happy Eid, everyone!"
+        "Eda: Happy Eid, everyone!"
       ],
       "translations": [
         "Bugün Türkiye'de özel bir gün.",
@@ -1035,7 +1020,7 @@
         "Bu benim küçük kız kardeşim, Ela.",
         "Lila diyor: Benim büyükannem de burada!",
         "Büyükannemin beyaz saçları var.",
-        "Herkese mutlu bayramlar!"
+        "Eda diyor: Herkese mutlu bayramlar!"
       ],
       "questions": [
         {
@@ -3259,7 +3244,7 @@
         }
       ],
       "sentences": [
-        "Today is the Festival of Sacrifice in Türkiye.",
+        "Today is Eid al-Adha in Türkiye.",
         "It is a happy religious day.",
         "Eda: My family is here today!",
         "My mother has got blue eyes.",
@@ -3286,7 +3271,7 @@
         {
           "q": "What special day is it?",
           "qTr": "Bu hangi özel gündür?",
-          "correct": "Festival of Sacrifice",
+          "correct": "Eid al-Adha",
           "wrong": [
             "Republic Day",
             "Children's Day"
@@ -3810,8 +3795,8 @@
           "n": "Eda"
         },
         {
-          "e": "👧🏻",
-          "n": "Lila"
+          "e": "👦",
+          "n": "Can"
         },
         {
           "e": "👩‍🏫",
@@ -3825,7 +3810,7 @@
         "Eda: This is my mother!",
         "My mother has got blue eyes and blond hair.",
         "Can: My mother has got brown eyes.",
-        "Whose mother is it?",
+        "Who is she?",
         "Eda: She is my mother!"
       ],
       "translations": [
@@ -3835,7 +3820,7 @@
         "Eda diyor: Bu benim annem!",
         "Annemin mavi gözleri ve sarı saçları var.",
         "Can diyor: Benim annemin kahverengi gözleri var.",
-        "Bu kimin annesi?",
+        "O kim?",
         "Eda diyor: O benim annem!"
       ],
       "questions": [
@@ -4047,7 +4032,7 @@
         "She is short and very beautiful.",
         "Her name is Ayşe.",
         "Tom: Is it your grandpa or grandma?",
-        "Can: She is my grandma!"
+        "Can: Can: She is my grandma!"
       ],
       "translations": [
         "Can diyor: Bir büyükebeveyn burada.",
@@ -4056,7 +4041,7 @@
         "Kısa boylu ve çok güzel.",
         "Onun adı Ayşe.",
         "Tom diyor: Büyükbaban mı yoksa büyükannen mi?",
-        "Can diyor: O benim büyükannem!"
+        "Can diyor: Can diyor: O benim büyükannem!"
       ],
       "questions": [
         {
@@ -4149,92 +4134,90 @@
         }
       ],
       "sentences": [
-        "A family photo is here.",
-        "One person has got white hair.",
-        "One person has got blond hair.",
-        "One person has got dark hair.",
-        "Eda: My mum has got blond hair! I have got blond hair, too!",
-        "Lila: I have got blond hair, too!",
-        "A mum in the photo has got blond hair.",
-        "Eda and Lila have got blond hair, too!"
+        "A family photo is here. Three people are in this photo.",
+        "One person has got white hair. She is a grandma.",
+        "One person has got dark hair. He is a dad.",
+        "One person has got blond hair. She is a mum.",
+        "Eda: My mum has got blond hair!",
+        "Lila: My mum has got dark hair.",
+        "Who is she?",
+        "Eda: She is my mum!"
       ],
       "translations": [
-        "Burada bir aile fotoğrafı var.",
-        "Bir kişinin beyaz saçları var.",
-        "Bir kişinin sarı saçları var.",
-        "Bir kişinin koyu saçları var.",
-        "Eda diyor: Annemin sarı saçları var! Benim de sarı saçlarım var!",
-        "Lila diyor: Benim de sarı saçlarım var!",
-        "Fotoğraftaki bir annenin sarı saçları var.",
-        "Eda ve Lila'nın da sarı saçları var!"
+        "Burada bir aile fotoğrafı var. Bu fotoğrafta üç kişi var.",
+        "Bir kişinin beyaz saçları var. O bir büyükanne.",
+        "Bir kişinin koyu saçları var. O bir baba.",
+        "Bir kişinin sarı saçları var. O bir anne.",
+        "Eda diyor: Annemin sarı saçları var!",
+        "Lila diyor: Annemin koyu saçları var.",
+        "O kim?",
+        "Eda diyor: O benim annem!"
       ],
       "questions": [
         {
-          "q": "How many people in the family photo?",
-          "qTr": "Aile fotoğrafında kaç kişi var?",
+          "q": "How many people are in the photo?",
+          "qTr": "Fotoğrafta kaç kişi var?",
           "correct": "Three",
           "wrong": [
-            "Five",
-            "Ten"
+            "Two",
+            "Five"
           ],
-          "hint": "Count from sentences 2-4.",
+          "hint": "Read sentence 1.",
           "hl": [
-            1,
-            2,
-            3
+            0
           ]
         },
         {
-          "q": "Who has white hair?",
-          "qTr": "Kimin beyaz saçı var?",
-          "correct": "One person",
+          "q": "What colour hair has the grandma got?",
+          "qTr": "Büyükannenin saçları ne renk?",
+          "correct": "White",
           "wrong": [
-            "Eda",
-            "Lila"
+            "Blond",
+            "Dark"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find grandma.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What colour hair does Eda describe?",
-          "qTr": "Eda ne renk saçı tarif eder?",
+          "q": "What colour hair has the mum in the photo got?",
+          "qTr": "Fotoğraftaki annenin saçları ne renk?",
           "correct": "Blond",
           "wrong": [
-            "White",
-            "Dark"
+            "Dark",
+            "White"
           ],
-          "hint": "Find Eda.",
+          "hint": "Find mum.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "Who else has got blond hair?",
-          "qTr": "Başka kimin sarı saçı var?",
-          "correct": "Lila",
+          "q": "What does Lila say about her mum?",
+          "qTr": "Lila annesi hakkında ne der?",
+          "correct": "Dark hair",
           "wrong": [
-            "The grandpa",
-            "The dad"
+            "Blond hair",
+            "White hair"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Lila.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Have Eda and Lila got blond hair?",
-          "qTr": "Eda ve Lila'nın sarı saçları var mı?",
+          "q": "Eda: 'She is my mum!' Has the mum in the photo got blond hair?",
+          "qTr": "Eda: 'O benim annem!' Fotoğraftaki annenin sarı saçları var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Find blond hair.",
+          "hint": "Match the hair colour.",
           "hl": [
-            4,
-            5
+            3,
+            4
           ]
         }
       ]
