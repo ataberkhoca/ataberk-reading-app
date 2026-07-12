@@ -687,21 +687,27 @@
         }
       ],
       "sentences": [
-        "Tom: Where is the bed in my house?",
-        "The bed is in the bedroom.",
-        "Where is the sofa? The sofa is in the sitting room.",
-        "Where is the coffee table? It is in the sitting room, too.",
-        "Where is the dining table? It is in the dining room.",
+        "Eda: Where is the bed in your house?",
+        "Tom: The bed is in the bedroom.",
+        "Eda: Where is the sofa?",
+        "Tom: The sofa is in the sitting room.",
+        "Eda: Where is the coffee table?",
+        "Tom: It is in the sitting room, too.",
+        "Eda: Where is the dining table?",
+        "Tom: It is in the dining room.",
         "Eda: All the furniture is in the right room!",
         "Tom is happy in his house!"
       ],
       "translations": [
-        "Tom diyor: Evimde yatak nerede?",
-        "Yatak yatak odasında.",
-        "Kanepe nerede? Kanepe oturma odasında.",
-        "Sehpa nerede? O da oturma odasında.",
-        "Yemek masası nerede? Yemek odasında.",
-        "Eda diyor: Bütün mobilyalar doğru odada!",
+        "Eda: Evinde yatak nerede?",
+        "Tom: Yatak yatak odasında.",
+        "Eda: Kanepe nerede?",
+        "Tom: Kanepe oturma odasında.",
+        "Eda: Sehpa nerede?",
+        "Tom: O da oturma odasında.",
+        "Eda: Yemek masası nerede?",
+        "Tom: Yemek odasında.",
+        "Eda: Bütün mobilyalar doğru odada!",
         "Tom evinde mutlu!"
       ],
       "questions": [
@@ -713,14 +719,14 @@
             "In the kitchen",
             "In the garden"
           ],
-          "hint": "Find bed.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
           "q": "Where is the sofa?",
-          "qTr": "Koltuk nerede?",
+          "qTr": "Kanepe nerede?",
           "correct": "In the sitting room",
           "wrong": [
             "In the bedroom",
@@ -728,7 +734,7 @@
           ],
           "hint": "Find sofa.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -741,7 +747,7 @@
           ],
           "hint": "Find coffee table.",
           "hl": [
-            3
+            5
           ]
         },
         {
@@ -754,7 +760,7 @@
           ],
           "hint": "Find dining table.",
           "hl": [
-            4
+            7
           ]
         },
         {
@@ -765,9 +771,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read the last lines.",
           "hl": [
-            5
+            8
           ]
         }
       ]
@@ -795,22 +801,22 @@
         }
       ],
       "sentences": [
-        "Can: Where is my cat Misho?",
-        "Is she in the kitchen? No!",
-        "Is she in the bedroom? No!",
-        "Misho is in the sitting room.",
-        "She is on the sofa!",
+        "Lila: Where is your cat Misho?",
+        "Can: She is not in the kitchen.",
+        "Can: She is not in the bedroom.",
+        "Lila: Misho is in the sitting room!",
+        "Lila: She is on the sofa!",
         "Lila: Sofas are nice for cats!",
-        "Can: My Misho is here!"
+        "Can: My cat Misho is here!"
       ],
       "translations": [
-        "Can diyor: Kedim Misho nerede?",
-        "Mutfakta mı? Hayır!",
-        "Yatak odasında mı? Hayır!",
-        "Misho oturma odasında.",
-        "Kanepenin üstünde!",
-        "Lila diyor: Kanepeler kediler için güzel!",
-        "Can diyor: Benim Misho burada!"
+        "Lila: Kedin Misho nerede?",
+        "Can: Mutfakta değil.",
+        "Can: Yatak odasında değil.",
+        "Lila: Misho oturma odasında!",
+        "Lila: Kanepenin üstünde!",
+        "Lila: Kanepeler kediler için hoş!",
+        "Can: Kedim Misho burada!"
       ],
       "questions": [
         {
@@ -821,7 +827,7 @@
             "Maxi",
             "Cici"
           ],
-          "hint": "Find name in sentence 1.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -873,7 +879,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read the last lines.",
           "hl": [
             5
           ]
@@ -1126,7 +1132,7 @@
         "Eda: Look at my cat Misho!",
         "She has got four paws.",
         "She has got sharp claws on her paws.",
-        "Eda: Where is Misho now?",
+        "Eda: Where is Misho?",
         "Lila: Misho is on the sofa!",
         "There are four paws on the sofa.",
         "Tom: My cat has got paws and claws, too!",
@@ -1136,7 +1142,7 @@
         "Eda: Kedim Misho'ya bak!",
         "Dört patisi var.",
         "Patilerinde keskin pençeleri var.",
-        "Eda: Misho şu an nerede?",
+        "Eda: Misho nerede?",
         "Lila: Misho kanepenin üstünde!",
         "Kanepenin üstünde dört pati var.",
         "Tom: Benim kedimin de patileri ve pençeleri var!",
@@ -1904,23 +1910,27 @@
       ],
       "sentences": [
         "Eda: Look at my house!",
-        "Where is the sofa? It is in the sitting room.",
-        "Where is the coffee table? It is in the sitting room, too.",
-        "Where is the bed? It is in the bedroom.",
-        "There is a book on the bed.",
-        "There is a small lamp on the coffee table.",
-        "Lila: Your house is so nice!",
-        "Eda is happy in her house!"
+        "Lila: Where is the sofa?",
+        "Eda: The sofa is in the sitting room.",
+        "Lila: Where is the coffee table?",
+        "Eda: It is in the sitting room, too.",
+        "Lila: Where is the bed?",
+        "Eda: The bed is in the bedroom.",
+        "Eda: There is a book on the bed.",
+        "Eda: There is a small lamp on the coffee table.",
+        "Lila: Your house is so nice!"
       ],
       "translations": [
-        "Eda diyor: Evime bak!",
-        "Kanepe nerede? Oturma odasında.",
-        "Sehpa nerede? O da oturma odasında.",
-        "Yatak nerede? Yatak odasında.",
-        "Yatakta bir kitap var.",
-        "Sehpada küçük bir lamba var.",
-        "Lila diyor: Evin çok hoş!",
-        "Eda evinde mutlu!"
+        "Eda: Evime bak!",
+        "Lila: Kanepe nerede?",
+        "Eda: Kanepe oturma odasında.",
+        "Lila: Sehpa nerede?",
+        "Eda: O da oturma odasında.",
+        "Lila: Yatak nerede?",
+        "Eda: Yatak yatak odasında.",
+        "Eda: Yatağın üstünde bir kitap var.",
+        "Eda: Sehpanın üstünde küçük bir lamba var.",
+        "Lila: Evin çok hoş!"
       ],
       "questions": [
         {
@@ -1931,16 +1941,16 @@
             "A pet",
             "A school"
           ],
-          "hint": "Think about the rooms.",
+          "hint": "Read all.",
           "hl": [
-            1,
             2,
-            3
+            4,
+            6
           ]
         },
         {
           "q": "Where is the sofa?",
-          "qTr": "Koltuk nerede?",
+          "qTr": "Kanepe nerede?",
           "correct": "In the sitting room",
           "wrong": [
             "In the bedroom",
@@ -1948,7 +1958,7 @@
           ],
           "hint": "Find sofa.",
           "hl": [
-            1
+            2
           ]
         },
         {
@@ -1961,7 +1971,7 @@
           ],
           "hint": "Find bed.",
           "hl": [
-            3
+            6
           ]
         },
         {
@@ -1972,9 +1982,9 @@
             "A lamp",
             "A cat"
           ],
-          "hint": "Find bed.",
+          "hint": "Find book.",
           "hl": [
-            4
+            7
           ]
         },
         {
@@ -1985,9 +1995,9 @@
             "A book",
             "A cat"
           ],
-          "hint": "Find coffee table.",
+          "hint": "Find lamp.",
           "hl": [
-            5
+            8
           ]
         }
       ]
@@ -2581,10 +2591,11 @@
         "Lila is here. The door is open!",
         "Eda is here! Welcome, Eda!",
         "Eda: My mum is here, too!",
-        "Come in!  Lila. Look around our house!",
-        "There is a sitting room here. There is a sofa.",
-        "There is a coffee table, too.",
-        "Where is the kitchen? It is here!",
+        "Lila: Come in! Look around our house!",
+        "Lila: There is a sitting room here. There is a sofa.",
+        "Lila: There is a coffee table, too.",
+        "Eda: Where is the kitchen?",
+        "Lila: The kitchen is here!",
         "Eda: It is a nice house!",
         "Lila is happy. Eda is her guest!"
       ],
@@ -2592,12 +2603,13 @@
         "Ding-dong! Bir kapı zili var!",
         "Lila burada. Kapı açık!",
         "Eda burada! Hoş geldin, Eda!",
-        "Eda diyor: Annem de burada!",
-        "Gel içeri! diyor Lila. Evimize bak!",
-        "Burada bir oturma odası var. Bir kanepe var.",
-        "Bir sehpa da var.",
-        "Mutfak nerede? Burada!",
-        "Eda diyor: Çok hoş bir ev!",
+        "Eda: Annem de burada!",
+        "Lila: Gel içeri! Evimize bak!",
+        "Lila: Burada bir oturma odası var. Bir kanepe var.",
+        "Lila: Bir sehpa da var.",
+        "Eda: Mutfak nerede?",
+        "Lila: Mutfak burada!",
+        "Eda: Çok hoş bir ev!",
         "Lila mutlu. Eda onun misafiri!"
       ],
       "questions": [
@@ -2622,7 +2634,7 @@
             "Eda",
             "Miss Oli"
           ],
-          "hint": "Find Lila in sentence 2.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -2635,7 +2647,7 @@
             "Her dad",
             "Her sister"
           ],
-          "hint": "Find Eda in sentence 4.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
@@ -2655,14 +2667,14 @@
           ]
         },
         {
-          "q": "Is the house nice?",
-          "qTr": "Ev hoş mu?",
-          "correct": "Yes",
+          "q": "Where is the kitchen?",
+          "qTr": "Mutfak nerede?",
+          "correct": "Here, in the house",
           "wrong": [
-            "No",
-            "Maybe"
+            "In the garden",
+            "In the school"
           ],
-          "hint": "Find the mum in sentence 9.",
+          "hint": "Find kitchen.",
           "hl": [
             8
           ]
@@ -2806,28 +2818,28 @@
         }
       ],
       "sentences": [
-        "Can: Where is my cat Misho?",
-        "Is she in the kitchen? No, she is not.",
-        "Is she in the bedroom? No, she is not.",
-        "Is she in the bathroom? No, she is not.",
-        "Misho is in the sitting room!",
-        "She is on the sofa.",
-        "Misho has got long whiskers and a long tail.",
-        "She has got claws on her four paws.",
+        "Lila: Where is your cat Misho?",
+        "Can: She is not in the kitchen.",
+        "Can: She is not in the bedroom.",
+        "Can: She is not in the bathroom.",
+        "Lila: Misho is in the sitting room!",
+        "Lila: She is on the sofa.",
+        "Can: Misho has got long whiskers and a long tail.",
+        "Can: She has got claws on her four paws.",
         "Lila: Cats are nice pets!",
-        "Can is happy now!"
+        "Can is happy!"
       ],
       "translations": [
-        "Can diyor: Kedim Misho nerede?",
-        "Mutfakta mı? Hayır, değil.",
-        "Yatak odasında mı? Hayır, değil.",
-        "Banyoda mı? Hayır, değil.",
-        "Misho oturma odasında!",
-        "Kanepenin üstünde.",
-        "Misho'nun uzun bıyıkları ve uzun bir kuyruğu var.",
-        "Dört patisinde pençeleri var.",
-        "Lila diyor: Kediler hoş evcil hayvanlar!",
-        "Can şimdi mutlu!"
+        "Lila: Kedin Misho nerede?",
+        "Can: Mutfakta değil.",
+        "Can: Yatak odasında değil.",
+        "Can: Banyoda değil.",
+        "Lila: Misho oturma odasında!",
+        "Lila: Kanepenin üstünde.",
+        "Can: Misho'nun uzun bıyıkları ve uzun bir kuyruğu var.",
+        "Can: Dört patisinde pençeleri var.",
+        "Lila: Kediler hoş evcil hayvanlar!",
+        "Can mutlu!"
       ],
       "questions": [
         {
@@ -3599,7 +3611,7 @@
         "Lila is here. The door is closed.",
         "Lila: Where is the doorbell?",
         "Eda: The doorbell is on the wall! Welcome!",
-        "Ding-dong! Lila is now in the house.",
+        "Ding-dong! Lila is in the house.",
         "Lila: Where is my bag?",
         "Eda: Your bag is on the chair.",
         "Lila: Where is my book?",
@@ -3611,7 +3623,7 @@
         "Lila burada. Kapı kapalı.",
         "Lila: Kapı zili nerede?",
         "Eda: Kapı zili duvarda! Hoş geldin!",
-        "Ding-dong! Lila şimdi evde.",
+        "Ding-dong! Lila evde.",
         "Lila: Çantam nerede?",
         "Eda: Çantan sandalyenin üstünde.",
         "Lila: Kitabım nerede?",
@@ -4139,33 +4151,33 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👧",
-          "n": "Eda"
+          "n": "Eda",
+          "e": "👧"
         },
         {
-          "e": "👦🏻",
-          "n": "Tom"
+          "n": "Tom",
+          "e": "👦"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Miss Oli"
+          "n": "Can",
+          "e": "🧒"
         }
       ],
       "sentences": [
-        "A pet is here.",
+        "A pet is in the sitting room.",
         "It is a cat. It has got green eyes and white hair.",
-        "Eda: My pet is a dog.",
-        "Tom: My pet is a goldfish.",
-        "This pet is a cat. It has got green eyes.",
+        "Eda: My pet is a dog. It has got brown eyes.",
+        "Tom: My pet is a goldfish. It has got a long tail.",
+        "Can: My pet is a cat. It has got green eyes.",
         "Who has got this pet?",
         "It is Can!"
       ],
       "translations": [
-        "Burada bir evcil hayvan var.",
-        "Bir kedi. Yeşil gözleri ve beyaz tüyleri var.",
-        "Eda diyor: Benim evcil hayvanım bir köpek.",
-        "Tom diyor: Benim evcil hayvanım bir Japon balığı.",
-        "Bu evcil hayvan bir kedi. Yeşil gözleri var.",
+        "Oturma odasında bir evcil hayvan var.",
+        "Bu bir kedi. Yeşil gözleri ve beyaz tüyleri var.",
+        "Eda: Benim evcil hayvanım bir köpek. Kahverengi gözleri var.",
+        "Tom: Benim evcil hayvanım bir Japon balığı. Uzun bir kuyruğu var.",
+        "Can: Benim evcil hayvanım bir kedi. Yeşil gözleri var.",
         "Bu evcil hayvan kimin?",
         "Can'ın!"
       ],
@@ -4204,7 +4216,7 @@
             "A cat",
             "A bird"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
@@ -4217,14 +4229,14 @@
             "A cat",
             "A bird"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
         },
         {
           "q": "Who has got this pet?",
-          "qTr": "Bu evcil hayvan kimde?",
+          "qTr": "Bu evcil hayvan kimin?",
           "correct": "Can",
           "wrong": [
             "Eda",
@@ -4588,23 +4600,21 @@
       ],
       "sentences": [
         "A pet has got a beak.",
-        "It is not a cat.",
+        "It is not a cat. It is not a dog.",
         "Lila: My cat has got whiskers, not a beak.",
-        "A bird has got a beak.",
-        "A dog has got a tail, not a beak.",
         "Can: My goldfish has got a tail, not a beak.",
+        "A dog has got a tail, not a beak.",
         "What pet has got a beak?",
-        "It is a bird!"
+        "A bird has got a beak."
       ],
       "translations": [
         "Bir evcil hayvanın gagası var.",
-        "Bir kedi değil.",
-        "Lila diyor: Kedimin bıyıkları var, gagası değil.",
-        "Bir kuşun gagası var.",
+        "Bu bir kedi değil. Bu bir köpek değil.",
+        "Lila: Kedimin bıyıkları var, gagası değil.",
+        "Can: Japon balığımın kuyruğu var, gagası değil.",
         "Bir köpeğin kuyruğu var, gagası değil.",
-        "Can diyor: Japon balığımın kuyruğu var, gagası değil.",
         "Hangi evcil hayvanın gagası var?",
-        "Bir kuş!"
+        "Bir kuşun gagası var."
       ],
       "questions": [
         {
@@ -4628,20 +4638,20 @@
             "A beak",
             "Feathers"
           ],
-          "hint": "Find Lila.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What has a bird got?",
-          "qTr": "Bir kuşun nesi var?",
-          "correct": "A beak",
+          "q": "What has the goldfish got?",
+          "qTr": "Japon balığının nesi var?",
+          "correct": "A tail, not a beak",
           "wrong": [
-            "Whiskers",
-            "Paws"
+            "A beak",
+            "Whiskers"
           ],
-          "hint": "Find Tom.",
+          "hint": "Read sentence 4.",
           "hl": [
             3
           ]
@@ -4654,7 +4664,7 @@
             "A beak",
             "Whiskers"
           ],
-          "hint": "Find Eda.",
+          "hint": "Read sentence 5.",
           "hl": [
             4
           ]
@@ -4667,10 +4677,9 @@
             "A cat",
             "A dog"
           ],
-          "hint": "Think about the body parts.",
+          "hint": "Read the last line.",
           "hl": [
-            3,
-            7
+            6
           ]
         }
       ]
@@ -4700,12 +4709,12 @@
       "sentences": [
         "Today is a special religious day in Türkiye.",
         "It is not Eid al-Fitr. It is not a national day.",
-        "It is the Festival of Sacrifice.",
+        "It is Eid al-Adha.",
         "Eda: My family is in our sitting room today!",
         "We have got many guests in our house.",
         "Tom: My family is in our house, too!",
         "What special day is it?",
-        "It is the Festival of Sacrifice!"
+        "It is Eid al-Adha!"
       ],
       "translations": [
         "Bugün Türkiye'de özel bir dini gün.",
@@ -4747,7 +4756,7 @@
         {
           "q": "What special day is it?",
           "qTr": "Bu hangi özel gündür?",
-          "correct": "Festival of Sacrifice",
+          "correct": "Eid al-Adha",
           "wrong": [
             "Eid al-Fitr",
             "Republic Day"
