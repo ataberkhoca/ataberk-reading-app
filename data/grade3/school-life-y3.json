@@ -74,8 +74,8 @@
           ]
         },
         {
-          "q": "Where is Mr. Cole now?",
-          "qTr": "Mr. Cole şimdi nerede?",
+          "q": "Where is Mr. Cole?",
+          "qTr": "Mr. Cole nerede?",
           "correct": "At the corridor",
           "wrong": [
             "At the office",
@@ -210,12 +210,12 @@
           ]
         },
         {
-          "q": "What does Maya say about the school?",
-          "qTr": "Maya okul hakkında ne der?",
-          "correct": "It has many rooms",
+          "q": "What is at school?",
+          "qTr": "Okulda ne var?",
+          "correct": "Many rooms",
           "wrong": [
-            "It is small",
-            "It has one room"
+            "One room",
+            "A small garden"
           ],
           "hint": "Find Maya in the text.",
           "hl": [
@@ -322,12 +322,12 @@
           ]
         },
         {
-          "q": "How does Maya feel about the rules?",
-          "qTr": "Maya kurallar hakkında nasıl hissediyor?",
+          "q": "How is Maya about the rules?",
+          "qTr": "Maya kurallar hakkında nasıl?",
           "correct": "She is happy with the rules",
           "wrong": [
-            "She is scared of them",
-            "She is at home"
+            "She is scared of the rules",
+            "She is angry"
           ],
           "hint": "Find Maya in the text.",
           "hl": [
@@ -389,14 +389,14 @@
             "Eight",
             "Ten"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
-          "q": "Which months are summer months?",
-          "qTr": "Hangi aylar yaz aylarıdır?",
+          "q": "What are the summer months?",
+          "qTr": "Yaz ayları nelerdir?",
           "correct": "June, July and August",
           "wrong": [
             "March, April and May",
@@ -408,8 +408,8 @@
           ]
         },
         {
-          "q": "What month is it now?",
-          "qTr": "Şimdi hangi ay?",
+          "q": "What month is it?",
+          "qTr": "Hangi aydayız?",
           "correct": "September",
           "wrong": [
             "June",
@@ -421,8 +421,8 @@
           ]
         },
         {
-          "q": "What season is it now?",
-          "qTr": "Şimdi hangi mevsim?",
+          "q": "What season is it?",
+          "qTr": "Hangi mevsimdeyiz?",
           "correct": "Autumn",
           "wrong": [
             "Winter",
@@ -441,7 +441,7 @@
             "In winter",
             "In September"
           ],
-          "hint": "Find what Ms. Hart says.",
+          "hint": "Find the words from Ms. Hart.",
           "hl": [
             8
           ]
@@ -608,21 +608,21 @@
       ],
       "questions": [
         {
-          "q": "What month is it now?",
-          "qTr": "Şimdi hangi ay?",
+          "q": "What month is it?",
+          "qTr": "Hangi aydayız?",
           "correct": "September",
           "wrong": [
             "October",
             "January"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
-          "q": "When is Maya's birthday?",
-          "qTr": "Maya'nın doğum günü ne zaman?",
+          "q": "When is your birthday, Maya?",
+          "qTr": "Doğum günün ne zaman, Maya?",
           "correct": "In May",
           "wrong": [
             "In January",
@@ -634,8 +634,8 @@
           ]
         },
         {
-          "q": "When is Leo's birthday?",
-          "qTr": "Leo'nun doğum günü ne zaman?",
+          "q": "When is your birthday, Leo?",
+          "qTr": "Doğum günün ne zaman, Leo?",
           "correct": "In January",
           "wrong": [
             "In June",
@@ -647,27 +647,27 @@
           ]
         },
         {
-          "q": "When is Mrs. Pine's birthday?",
-          "qTr": "Mrs. Pine'ın doğum günü ne zaman?",
-          "correct": "In November",
+          "q": "Who is the birthday person in November?",
+          "qTr": "Kasımda doğum günü olan kimdir?",
+          "correct": "Mrs. Pine",
           "wrong": [
-            "In August",
-            "In April"
+            "Mr. Blake",
+            "Ms. Shaw"
           ],
-          "hint": "Find Mrs. Pine in the text.",
+          "hint": "Find the word November.",
           "hl": [
             6
           ]
         },
         {
-          "q": "When is Mr. Cole's birthday?",
-          "qTr": "Mr. Cole'un doğum günü ne zaman?",
-          "correct": "In August",
+          "q": "Who is the birthday person in August?",
+          "qTr": "Ağustosta doğum günü olan kimdir?",
+          "correct": "Mr. Cole",
           "wrong": [
-            "In June",
-            "In March"
+            "Ms. Hart",
+            "Leo"
           ],
-          "hint": "Find Mr. Cole in the text.",
+          "hint": "Find the word August.",
           "hl": [
             7
           ]
@@ -718,8 +718,8 @@
       ],
       "questions": [
         {
-          "q": "What does Maya say in the morning?",
-          "qTr": "Maya sabah ne der?",
+          "q": "What is the greeting from Maya in the morning?",
+          "qTr": "Sabah Maya'dan gelen selam nedir?",
           "correct": "Good morning",
           "wrong": [
             "Good night",
@@ -731,8 +731,8 @@
           ]
         },
         {
-          "q": "What does Leo say after lunch?",
-          "qTr": "Leo öğle yemeğinden sonra ne der?",
+          "q": "What is the greeting from Leo after lunch?",
+          "qTr": "Öğle yemeğinden sonra Leo'dan gelen selam nedir?",
           "correct": "Good afternoon",
           "wrong": [
             "Good morning",
@@ -744,8 +744,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say at the end of the day?",
-          "qTr": "Ms. Hart günün sonunda ne der?",
+          "q": "What are the words from Ms. Hart at the end of the day?",
+          "qTr": "Günün sonunda Ms. Hart'ın sözleri nelerdir?",
           "correct": "Have a nice day",
           "wrong": [
             "Good morning",
@@ -757,8 +757,8 @@
           ]
         },
         {
-          "q": "What does Maya say in the evening?",
-          "qTr": "Maya akşam ne der?",
+          "q": "What is the greeting from Maya in the evening?",
+          "qTr": "Akşam Maya'dan gelen selam nedir?",
           "correct": "Good evening",
           "wrong": [
             "Good morning",
@@ -770,8 +770,8 @@
           ]
         },
         {
-          "q": "What does Leo say at night?",
-          "qTr": "Leo gece ne der?",
+          "q": "What is the greeting from Leo at night?",
+          "qTr": "Gece Leo'dan gelen selam nedir?",
           "correct": "Good night",
           "wrong": [
             "Good afternoon",
@@ -834,8 +834,8 @@
       ],
       "questions": [
         {
-          "q": "What does Leo say to Maya at the start?",
-          "qTr": "Leo başta Maya'ya ne der?",
+          "q": "What is the greeting from Leo to Maya at the start?",
+          "qTr": "Başta Leo'dan Maya'ya gelen selam nedir?",
           "correct": "Hello, Maya!",
           "wrong": [
             "Goodbye!",
@@ -886,8 +886,8 @@
           ]
         },
         {
-          "q": "What does Maya say at the end?",
-          "qTr": "Maya sonunda ne der?",
+          "q": "What is the greeting from Maya at the end?",
+          "qTr": "Sonunda Maya'dan gelen selam nedir?",
           "correct": "Goodbye, Leo!",
           "wrong": [
             "Hello, Leo!",
@@ -946,14 +946,14 @@
       ],
       "questions": [
         {
-          "q": "What month is it now?",
-          "qTr": "Şimdi hangi ay?",
+          "q": "What month is it?",
+          "qTr": "Hangi aydayız?",
           "correct": "April",
           "wrong": [
             "May",
             "March"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -1066,7 +1066,7 @@
             "April",
             "October"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -1202,8 +1202,8 @@
           ]
         },
         {
-          "q": "Who helps ill children?",
-          "qTr": "Hasta çocuklara kim yardım eder?",
+          "q": "Who is here for ill children?",
+          "qTr": "Hasta çocuklar için kim burada?",
           "correct": "Mrs. Pine",
           "wrong": [
             "Ms. Shaw",
@@ -1228,12 +1228,12 @@
           ]
         },
         {
-          "q": "Why does Kerem thank Ms. Shaw?",
-          "qTr": "Kerem, Ms. Shaw'a neden teşekkür eder?",
+          "q": "Kerem is thankful. What is the reason?",
+          "qTr": "Kerem minnettar. Sebebi nedir?",
           "correct": "For the new books",
           "wrong": [
-            "For her help",
-            "For the party"
+            "For the clean corridor",
+            "For the cake"
           ],
           "hint": "Find Kerem.",
           "hl": [
@@ -1295,7 +1295,7 @@
             "School rules",
             "A birthday party"
           ],
-          "hint": "Think about what the text shows you.",
+          "hint": "Think about all the places.",
           "hl": [
             0,
             1,
@@ -1346,8 +1346,8 @@
           ]
         },
         {
-          "q": "What does Deniz say about the school?",
-          "qTr": "Deniz okul hakkında ne der?",
+          "q": "What are the words from Deniz about the school?",
+          "qTr": "Deniz'in okul hakkındaki sözleri nelerdir?",
           "correct": "It is big and beautiful",
           "wrong": [
             "It is small",
@@ -1434,8 +1434,8 @@
           ]
         },
         {
-          "q": "What mustn't you do between the shelves?",
-          "qTr": "Rafların arasında ne yapmamalısın?",
+          "q": "What mustn't you do at the shelves?",
+          "qTr": "Rafların yanında ne yapmamalısın?",
           "correct": "Run",
           "wrong": [
             "Read",
@@ -1544,7 +1544,7 @@
             "Four",
             "Ten"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -1557,7 +1557,7 @@
             "June",
             "December"
           ],
-          "hint": "Find what Ms. Hart says.",
+          "hint": "Find the words from Ms. Hart.",
           "hl": [
             6
           ]
@@ -1767,8 +1767,8 @@
           ]
         },
         {
-          "q": "When is Leo's birthday?",
-          "qTr": "Leo'nun doğum günü ne zaman?",
+          "q": "When is your birthday, Leo?",
+          "qTr": "Doğum günün ne zaman, Leo?",
           "correct": "In May",
           "wrong": [
             "In October",
@@ -1780,8 +1780,8 @@
           ]
         },
         {
-          "q": "When is Maya's birthday?",
-          "qTr": "Maya'nın doğum günü ne zaman?",
+          "q": "When is your birthday, Maya?",
+          "qTr": "Doğum günün ne zaman, Maya?",
           "correct": "In October",
           "wrong": [
             "In May",
@@ -1793,8 +1793,8 @@
           ]
         },
         {
-          "q": "When is Ada's birthday?",
-          "qTr": "Ada'nın doğum günü ne zaman?",
+          "q": "When is your birthday, Ada?",
+          "qTr": "Doğum günün ne zaman, Ada?",
           "correct": "In January",
           "wrong": [
             "In May",
@@ -1806,8 +1806,8 @@
           ]
         },
         {
-          "q": "When is Kerem's birthday?",
-          "qTr": "Kerem'in doğum günü ne zaman?",
+          "q": "When is your birthday, Kerem?",
+          "qTr": "Doğum günün ne zaman, Kerem?",
           "correct": "In July",
           "wrong": [
             "In May",
@@ -1879,7 +1879,7 @@
             "School rules",
             "Birthday celebrations"
           ],
-          "hint": "Think about what they say to each other.",
+          "hint": "Think about the greetings.",
           "hl": [
             0,
             1,
@@ -1893,8 +1893,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say in the morning?",
-          "qTr": "Ms. Hart sabah ne der?",
+          "q": "What is the greeting from Ms. Hart in the morning?",
+          "qTr": "Sabah Ms. Hart'tan gelen selam nedir?",
           "correct": "Good morning, Maya!",
           "wrong": [
             "Good afternoon!",
@@ -1906,8 +1906,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say after lunch?",
-          "qTr": "Ms. Hart öğle yemeğinden sonra ne der?",
+          "q": "What is the greeting from Ms. Hart after lunch?",
+          "qTr": "Öğle yemeğinden sonra Ms. Hart'tan gelen selam nedir?",
           "correct": "Good afternoon!",
           "wrong": [
             "Good morning!",
@@ -1919,8 +1919,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say at the end of the day?",
-          "qTr": "Ms. Hart günün sonunda ne der?",
+          "q": "What are the words from Ms. Hart at the end of the day?",
+          "qTr": "Günün sonunda Ms. Hart'ın sözleri nelerdir?",
           "correct": "Have a nice day!",
           "wrong": [
             "See you later!",
@@ -1932,8 +1932,8 @@
           ]
         },
         {
-          "q": "Where does Maya say Good evening?",
-          "qTr": "Maya nerede 'İyi akşamlar' der?",
+          "q": "Where is Maya with the words Good evening?",
+          "qTr": "Maya 'İyi akşamlar' derken nerede?",
           "correct": "At home",
           "wrong": [
             "At school",
@@ -1994,7 +1994,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A new pupil's first day",
+          "correct": "A new pupil at school",
           "wrong": [
             "A birthday party",
             "School rules"
@@ -2020,14 +2020,14 @@
           ]
         },
         {
-          "q": "Who shows Kerem around?",
-          "qTr": "Kerem'e okulu kim gezdirir?",
+          "q": "Who is with Kerem on the tour?",
+          "qTr": "Turda Kerem'in yanında kim var?",
           "correct": "Maya",
           "wrong": [
             "Ms. Hart",
             "Mr. Cole"
           ],
-          "hint": "Find the word shows.",
+          "hint": "Find the word tour.",
           "hl": [
             3
           ]
@@ -2046,8 +2046,8 @@
           ]
         },
         {
-          "q": "What does Kerem think of the school?",
-          "qTr": "Kerem okul hakkında ne düşünür?",
+          "q": "What are the words from Kerem about the school?",
+          "qTr": "Kerem'in okul hakkındaki sözleri nelerdir?",
           "correct": "It is great",
           "wrong": [
             "It is small",
@@ -2118,14 +2118,14 @@
           ]
         },
         {
-          "q": "What month is it now?",
-          "qTr": "Şimdi hangi ay?",
+          "q": "What month is it?",
+          "qTr": "Hangi aydayız?",
           "correct": "October",
           "wrong": [
             "April",
             "June"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -2157,8 +2157,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say?",
-          "qTr": "Ms. Hart ne der?",
+          "q": "What are the words from Ms. Hart?",
+          "qTr": "Ms. Hart'ın sözleri nelerdir?",
           "correct": "Happy Republic Day!",
           "wrong": [
             "Happy Birthday!",
@@ -2340,8 +2340,8 @@
       ],
       "questions": [
         {
-          "q": "Where is Ms. Shaw's place?",
-          "qTr": "Ms. Shaw'ın yeri nerede?",
+          "q": "Where is Ms. Shaw?",
+          "qTr": "Ms. Shaw nerede?",
           "correct": "The library",
           "wrong": [
             "The office",
@@ -2367,9 +2367,9 @@
           ]
         },
         {
-          "q": "Where is Mrs. Pine's room?",
-          "qTr": "Mrs. Pine'ın odası nerede?",
-          "correct": "Near the office",
+          "q": "Where is Mrs. Pine?",
+          "qTr": "Mrs. Pine nerede?",
+          "correct": "At the office",
           "wrong": [
             "In the library",
             "On the sports field"
@@ -2394,9 +2394,9 @@
           ]
         },
         {
-          "q": "What does Ms. Hart say about the team?",
-          "qTr": "Ms. Hart takım hakkında ne der?",
-          "correct": "They are all here to help us",
+          "q": "What are the words from Ms. Hart about the team?",
+          "qTr": "Ms. Hart'ın ekip hakkındaki sözleri nelerdir?",
+          "correct": "They are all helpful",
           "wrong": [
             "They are all in the library",
             "They all know the rules"
@@ -2435,7 +2435,7 @@
         "Today she is lost in the long corridor.",
         "Ada: Where is the classroom?",
         "Mr. Cole, the caretaker, is there.",
-        "Mr Cole: Don't worry!",
+        "Mr. Cole: Don't worry!",
         "The art room is on the left.",
         "The music room is on the right.",
         "The classroom is at the library.",
@@ -2456,22 +2456,22 @@
       ],
       "questions": [
         {
-          "q": "Why is Ada lost?",
-          "qTr": "Ada neden kaybolmuştur?",
+          "q": "Ada is lost. What is the reason?",
+          "qTr": "Ada kayboldu. Sebebi nedir?",
           "correct": "She is a new pupil",
           "wrong": [
             "She is late",
             "She is ill"
           ],
-          "hint": "Read the first two sentences.",
+          "hint": "Read sentence 1 and sentence 2.",
           "hl": [
             0,
             1
           ]
         },
         {
-          "q": "Who helps Ada?",
-          "qTr": "Ada'ya kim yardım eder?",
+          "q": "Who is there for Ada?",
+          "qTr": "Ada için kim orada?",
           "correct": "Mr. Cole",
           "wrong": [
             "Ms. Hart",
@@ -2496,11 +2496,11 @@
           ]
         },
         {
-          "q": "Where is Ada's classroom?",
-          "qTr": "Ada'nın sınıfı nerede?",
-          "correct": "Next to the library",
+          "q": "Where is the classroom?",
+          "qTr": "Sınıf nerede?",
+          "correct": "At the library",
           "wrong": [
-            "Next to the gym",
+            "At the gym",
             "Upstairs"
           ],
           "hint": "Find the word classroom.",
@@ -2509,8 +2509,8 @@
           ]
         },
         {
-          "q": "How does Ada feel at the end?",
-          "qTr": "Ada sonunda nasıl hissediyor?",
+          "q": "How is Ada at the end?",
+          "qTr": "Sonunda Ada nasıl?",
           "correct": "Happy",
           "wrong": [
             "Sad",
@@ -2553,7 +2553,7 @@
         "You mustn't push pupils.",
         "You mustn't drop litter on the field.",
         "Leo and Deniz play football together.",
-        "Mr Cole: Good job, boys!",
+        "Mr. Cole: Good job, boys!",
         "Leo and Deniz: We follow the rules!"
       ],
       "translations": [
@@ -2576,7 +2576,7 @@
             "In the library",
             "In the gym"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -2595,12 +2595,12 @@
           ]
         },
         {
-          "q": "What mustn't you do to your friends?",
-          "qTr": "Arkadaşlarına ne yapmamalısın?",
-          "correct": "Push them",
+          "q": "What mustn't you do to pupils?",
+          "qTr": "Öğrencilere ne yapmamalısın?",
+          "correct": "Push pupils",
           "wrong": [
-            "Help them",
-            "Listen to them"
+            "Help pupils",
+            "Listen to pupils"
           ],
           "hint": "Find the word push.",
           "hl": [
@@ -2613,7 +2613,7 @@
           "correct": "Litter",
           "wrong": [
             "A ball",
-            "Your shoes"
+            "The shoes"
           ],
           "hint": "Find the word litter.",
           "hl": [
@@ -2703,7 +2703,7 @@
             "Yes, it is",
             "It is December"
           ],
-          "hint": "Find what Ms. Hart says about January.",
+          "hint": "Find the words from Ms. Hart about January.",
           "hl": [
             3,
             4
@@ -2806,7 +2806,7 @@
             "In November",
             "In April"
           ],
-          "hint": "Find what Ms. Hart says.",
+          "hint": "Find the words from Ms. Hart.",
           "hl": [
             2
           ]
@@ -2832,7 +2832,7 @@
             "Autumn",
             "Spring"
           ],
-          "hint": "December is in which season?",
+          "hint": "Think about December.",
           "hl": [
             5,
             6
@@ -2920,34 +2920,34 @@
       ],
       "questions": [
         {
-          "q": "When is Leo's birthday?",
-          "qTr": "Leo'nun doğum günü ne zaman?",
-          "correct": "In January",
+          "q": "Who is the birthday pupil in January?",
+          "qTr": "Ocakta doğum günü olan öğrenci kimdir?",
+          "correct": "Leo",
           "wrong": [
-            "In March",
-            "In October"
+            "Maya",
+            "Ada"
           ],
-          "hint": "Find Leo's birthday in the text.",
+          "hint": "Find the word January.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What do Maya and Ms. Hart prepare?",
-          "qTr": "Maya ve Ms. Hart ne hazırlar?",
+          "q": "Maya and Ms. Hart are ready. What is there for Leo?",
+          "qTr": "Maya ve Ms. Hart hazır. Leo için ne var?",
           "correct": "A surprise",
           "wrong": [
             "A school trip",
             "A school play"
           ],
-          "hint": "Find the word prepare in the text.",
+          "hint": "Find the word surprise.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does Maya bring?",
-          "qTr": "Maya ne getirir?",
+          "q": "What is on the table from Maya?",
+          "qTr": "Masada Maya'dan ne var?",
           "correct": "A big cake",
           "wrong": [
             "A gift",
@@ -2972,8 +2972,8 @@
           ]
         },
         {
-          "q": "What does Ms. Hart bring for Leo?",
-          "qTr": "Ms. Hart, Leo için ne getirir?",
+          "q": "What is for Leo from Ms. Hart?",
+          "qTr": "Ms. Hart'tan Leo'ya ne var?",
           "correct": "A gift",
           "wrong": [
             "A cake",
@@ -3011,7 +3011,7 @@
       "sentences": [
         "Today there is a visitor at school.",
         "Visitor: Good morning!",
-        "Mr Blake: Good morning! It is nice to see you.",
+        "Mr. Blake: Good morning! It is nice to see you.",
         "Mr. Blake is the headteacher.",
         "Here is the library, and there is the art room.",
         "This is the gym. That is the music room.",
@@ -3034,34 +3034,34 @@
       ],
       "questions": [
         {
-          "q": "Who comes to the school today?",
-          "qTr": "Bugün okula kim gelir?",
+          "q": "Who is at school today?",
+          "qTr": "Bugün okulda kim var?",
           "correct": "A visitor",
           "wrong": [
             "A new pupil",
             "A nurse"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What does the visitor say first?",
-          "qTr": "Ziyaretçi önce ne der?",
+          "q": "What is the greeting from the visitor at the start?",
+          "qTr": "Başta ziyaretçiden gelen selam nedir?",
           "correct": "Good morning",
           "wrong": [
             "Good night",
             "Good afternoon"
           ],
-          "hint": "Find the visitor's first words.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who shows the visitor around?",
-          "qTr": "Ziyaretçiye etrafı kim gezdirir?",
+          "q": "Who is with the visitor on the tour?",
+          "qTr": "Turda ziyaretçinin yanında kim var?",
           "correct": "Mr. Blake",
           "wrong": [
             "Zara",
@@ -3074,8 +3074,8 @@
           ]
         },
         {
-          "q": "What does Zara say?",
-          "qTr": "Zara ne der?",
+          "q": "What is the greeting from Zara?",
+          "qTr": "Zara'dan gelen selam nedir?",
           "correct": "Good afternoon! Welcome!",
           "wrong": [
             "Good night!",
@@ -3087,8 +3087,8 @@
           ]
         },
         {
-          "q": "What does the visitor say at the end?",
-          "qTr": "Ziyaretçi sonunda ne der?",
+          "q": "What are the words from the visitor at the end?",
+          "qTr": "Sonunda ziyaretçinin sözleri nelerdir?",
           "correct": "Thank you! Take care!",
           "wrong": [
             "Good morning!",
@@ -3156,7 +3156,7 @@
             "He is happy",
             "He is late"
           ],
-          "hint": "Find what Kerem says in the morning.",
+          "hint": "Find the words from Kerem in the morning.",
           "hl": [
             2
           ]
@@ -3270,7 +3270,7 @@
             "April",
             "October"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -3385,7 +3385,7 @@
             "January",
             "May"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -3492,22 +3492,22 @@
       ],
       "questions": [
         {
-          "q": "What is Ada's problem?",
-          "qTr": "Ada'nın sorunu nedir?",
-          "correct": "Her book is old and broken",
+          "q": "What is the problem?",
+          "qTr": "Sorun nedir?",
+          "correct": "The book is old and broken",
           "wrong": [
             "She is lost",
             "She is ill"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
             1
           ]
         },
         {
-          "q": "Which room does Ada go to?",
-          "qTr": "Ada hangi odaya gider?",
+          "q": "Where is Ada?",
+          "qTr": "Ada nerede?",
           "correct": "The library",
           "wrong": [
             "The gym",
@@ -3534,12 +3534,12 @@
           ]
         },
         {
-          "q": "How do we know she is the librarian?",
-          "qTr": "Onun kütüphaneci olduğunu nasıl anlıyoruz?",
+          "q": "She is the librarian. What is the clue?",
+          "qTr": "O kütüphanecidir. İpucu nedir?",
           "correct": "She is in the room with books",
           "wrong": [
             "She is in the gym",
-            "She is Ada's friend"
+            "She is at school"
           ],
           "hint": "Think about the room and the books.",
           "hl": [
@@ -3549,14 +3549,14 @@
           ]
         },
         {
-          "q": "How does Ada feel at the end?",
-          "qTr": "Ada sonunda nasıl hissediyor?",
+          "q": "How is Ada at the end?",
+          "qTr": "Sonunda Ada nasıl?",
           "correct": "Thankful",
           "wrong": [
             "Angry",
             "Sad"
           ],
-          "hint": "Read what Ada says.",
+          "hint": "Read the words from Ada.",
           "hl": [
             7
           ]
@@ -3609,14 +3609,14 @@
       ],
       "questions": [
         {
-          "q": "What does Zara hear?",
-          "qTr": "Zara ne duyar?",
+          "q": "What is in the school?",
+          "qTr": "Okulda ne var?",
           "correct": "Music",
           "wrong": [
             "A bell",
             "A dog"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -3635,8 +3635,8 @@
           ]
         },
         {
-          "q": "Which room is it?",
-          "qTr": "Burası hangi oda?",
+          "q": "What room is it?",
+          "qTr": "Bu hangi odadır?",
           "correct": "The music room",
           "wrong": [
             "The art room",
@@ -3650,8 +3650,8 @@
           ]
         },
         {
-          "q": "How do we know it is not the art room?",
-          "qTr": "Burasının resim odası olmadığını nasıl anlıyoruz?",
+          "q": "It is not the art room. What is the clue?",
+          "qTr": "Resim odası değil. İpucu nedir?",
           "correct": "There is no paint",
           "wrong": [
             "There is no piano",
@@ -3663,8 +3663,8 @@
           ]
         },
         {
-          "q": "How do we know it is not the gym?",
-          "qTr": "Burasının spor salonu olmadığını nasıl anlıyoruz?",
+          "q": "It is not the gym. What is the clue?",
+          "qTr": "Spor salonu değil. İpucu nedir?",
           "correct": "There are no balls",
           "wrong": [
             "There is no music",
@@ -3723,22 +3723,22 @@
       ],
       "questions": [
         {
-          "q": "Why is the floor wet?",
-          "qTr": "Zemin neden ıslak?",
+          "q": "The floor is wet. What is the reason?",
+          "qTr": "Zemin ıslak. Sebebi nedir?",
           "correct": "It is a rainy morning",
           "wrong": [
-            "Mr. Cole cleans it",
-            "Someone drops water"
+            "It is a hot day",
+            "It is a snowy day"
           ],
-          "hint": "Read the first two sentences.",
+          "hint": "Read sentence 1 and sentence 2.",
           "hl": [
             0,
             1
           ]
         },
         {
-          "q": "What does the yellow sign mean?",
-          "qTr": "Sarı işaret ne anlama gelir?",
+          "q": "What is on the yellow sign?",
+          "qTr": "Sarı işarette ne yazıyor?",
           "correct": "You mustn't run here",
           "wrong": [
             "You must run here",
@@ -3750,14 +3750,14 @@
           ]
         },
         {
-          "q": "Why does Leo walk slowly?",
-          "qTr": "Leo neden yavaş yürür?",
+          "q": "Leo is slow and careful. What is the reason?",
+          "qTr": "Leo yavaş ve dikkatli. Sebebi nedir?",
           "correct": "The floor is not safe",
           "wrong": [
             "He is tired",
             "He is late"
           ],
-          "hint": "Think about why running is dangerous.",
+          "hint": "Think about the wet floor.",
           "hl": [
             5,
             6,
@@ -3772,21 +3772,21 @@
             "Careless",
             "Lazy"
           ],
-          "hint": "Think about what Leo does.",
+          "hint": "Think about Leo.",
           "hl": [
             6,
             7
           ]
         },
         {
-          "q": "Why is a wet floor dangerous?",
-          "qTr": "Islak zemin neden tehlikelidir?",
+          "q": "A wet floor is dangerous. What is the reason?",
+          "qTr": "Islak zemin tehlikelidir. Sebebi nedir?",
           "correct": "It is not safe to run",
           "wrong": [
             "It is too cold",
             "It is too dark"
           ],
-          "hint": "Think about why Mr. Cole puts a sign.",
+          "hint": "Think about the sign.",
           "hl": [
             1,
             3,
@@ -3841,27 +3841,27 @@
       ],
       "questions": [
         {
-          "q": "What is the weather like?",
+          "q": "How is the weather?",
           "qTr": "Hava nasıl?",
           "correct": "Warm",
           "wrong": [
             "Cold",
             "Snowy"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What month is it now?",
-          "qTr": "Şimdi hangi ay?",
+          "q": "What month is it?",
+          "qTr": "Hangi aydayız?",
           "correct": "May",
           "wrong": [
             "June",
             "December"
           ],
-          "hint": "It is one month before June. Think!",
+          "hint": "June is not here. Think!",
           "hl": [
             3,
             4,
@@ -3869,8 +3869,8 @@
           ]
         },
         {
-          "q": "How do we know summer is near?",
-          "qTr": "Yazın yaklaştığını nasıl anlıyoruz?",
+          "q": "Summer is not far. What is the clue?",
+          "qTr": "Yaz uzak değil. İpucu nedir?",
           "correct": "It is warm and full of flowers",
           "wrong": [
             "It is snowing",
@@ -3883,28 +3883,28 @@
           ]
         },
         {
-          "q": "Which month comes after May?",
-          "qTr": "Mayıstan sonra hangi ay gelir?",
+          "q": "What is the month after May?",
+          "qTr": "Mayıstan sonraki ay nedir?",
           "correct": "June",
           "wrong": [
             "April",
             "March"
           ],
-          "hint": "Think about the order of the months.",
+          "hint": "Think about the months.",
           "hl": [
             4,
             8
           ]
         },
         {
-          "q": "Why is Maya happy?",
-          "qTr": "Maya neden mutludur?",
-          "correct": "The summer holiday is near",
+          "q": "Maya is happy. What is the reason?",
+          "qTr": "Maya mutlu. Sebebi nedir?",
+          "correct": "The summer holiday is in June",
           "wrong": [
             "It is cold",
             "She is ill"
           ],
-          "hint": "Think about what is coming soon.",
+          "hint": "Think about June.",
           "hl": [
             2,
             8
@@ -3956,8 +3956,8 @@
       ],
       "questions": [
         {
-          "q": "Is her birthday in May?",
-          "qTr": "Onun doğum günü mayısta mı?",
+          "q": "Is the birthday in May?",
+          "qTr": "Doğum günü mayısta mı?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -3969,8 +3969,8 @@
           ]
         },
         {
-          "q": "Is her birthday in October?",
-          "qTr": "Onun doğum günü ekimde mi?",
+          "q": "Is the birthday in October?",
+          "qTr": "Doğum günü ekimde mi?",
           "correct": "No",
           "wrong": [
             "Yes",
@@ -3982,12 +3982,12 @@
           ]
         },
         {
-          "q": "When is Maya's birthday?",
-          "qTr": "Maya'nın doğum günü ne zaman?",
-          "correct": "In October",
+          "q": "Who is the birthday pupil in October?",
+          "qTr": "Ekimde doğum günü olan öğrenci kimdir?",
+          "correct": "Maya",
           "wrong": [
-            "In May",
-            "In July"
+            "Ada",
+            "Zara"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -3995,12 +3995,12 @@
           ]
         },
         {
-          "q": "When is Ada's birthday?",
-          "qTr": "Ada'nın doğum günü ne zaman?",
-          "correct": "In January",
+          "q": "Who is the birthday pupil in January?",
+          "qTr": "Ocakta doğum günü olan öğrenci kimdir?",
+          "correct": "Ada",
           "wrong": [
-            "In May",
-            "In October"
+            "Maya",
+            "Kerem"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -4008,14 +4008,14 @@
           ]
         },
         {
-          "q": "When is the pupil's birthday?",
-          "qTr": "Öğrencinin doğum günü ne zaman?",
+          "q": "When is the birthday?",
+          "qTr": "Doğum günü ne zaman?",
           "correct": "In January",
           "wrong": [
             "In May",
             "In July"
           ],
-          "hint": "Match the clues.",
+          "hint": "Think about all the clues.",
           "hl": [
             1,
             4,
@@ -4077,7 +4077,7 @@
             "Seven",
             "Nine"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -4090,18 +4090,18 @@
             "Seven",
             "Nine"
           ],
-          "hint": "Find Ada's age.",
+          "hint": "Find Ada in the text.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Whose birthday is it?",
-          "qTr": "Kimin doğum günü?",
-          "correct": "Ada's",
+          "q": "Who is the birthday pupil?",
+          "qTr": "Doğum günü olan öğrenci kimdir?",
+          "correct": "Ada",
           "wrong": [
-            "Maya's",
-            "Leo's"
+            "Maya",
+            "Leo"
           ],
           "hint": "The candles show the age. Who is eight?",
           "hl": [
@@ -4111,12 +4111,12 @@
           ]
         },
         {
-          "q": "How do we know it is Ada's birthday?",
-          "qTr": "Ada'nın doğum günü olduğunu nasıl anlıyoruz?",
-          "correct": "The candles match her age",
+          "q": "It is the birthday of Ada. What is the clue?",
+          "qTr": "Bugün Ada'nın doğum günü. İpucu nedir?",
+          "correct": "Eight candles and Ada is eight",
           "wrong": [
-            "She has a hat",
-            "She is the oldest"
+            "Ada is nine",
+            "Ada is the oldest"
           ],
           "hint": "Eight candles and Ada is eight!",
           "hl": [
@@ -4132,7 +4132,7 @@
             "Eight",
             "Seven"
           ],
-          "hint": "Find Leo's age.",
+          "hint": "Find Leo in the text.",
           "hl": [
             3
           ]
@@ -4185,35 +4185,35 @@
       ],
       "questions": [
         {
-          "q": "What time of day does the story begin?",
-          "qTr": "Hikâye günün hangi vaktinde başlar?",
+          "q": "What time of day is it at the start?",
+          "qTr": "Başta günün hangi vakti?",
           "correct": "Morning",
           "wrong": [
             "Night",
             "Afternoon"
           ],
-          "hint": "Think about the sun and what Kerem says first.",
+          "hint": "Think about the sun.",
           "hl": [
             0,
             1
           ]
         },
         {
-          "q": "How do we know it is morning?",
-          "qTr": "Sabah olduğunu nasıl anlıyoruz?",
+          "q": "It is morning. What is the clue?",
+          "qTr": "Sabah. İpucu nedir?",
           "correct": "The sun is up",
           "wrong": [
             "It is dark",
             "The moon is up"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
         },
         {
-          "q": "Why does Kerem say good night?",
-          "qTr": "Kerem neden 'iyi geceler' der?",
+          "q": "Kerem: Good night! What is the reason?",
+          "qTr": "Kerem: İyi geceler! Sebebi nedir?",
           "correct": "It is the end of the day",
           "wrong": [
             "It is morning",
@@ -4227,9 +4227,9 @@
           ]
         },
         {
-          "q": "How do we know it is night?",
-          "qTr": "Gece olduğunu nasıl anlıyoruz?",
-          "correct": "The sun goes down and it is dark",
+          "q": "It is night. What is the clue?",
+          "qTr": "Gece. İpucu nedir?",
+          "correct": "The sun is down and it is dark",
           "wrong": [
             "The sun is up",
             "It is lunch time"
@@ -4240,14 +4240,14 @@
           ]
         },
         {
-          "q": "How does Kerem feel at the end of the day?",
-          "qTr": "Kerem günün sonunda nasıl hissediyor?",
+          "q": "How is Kerem at the end of the day?",
+          "qTr": "Günün sonunda Kerem nasıl?",
           "correct": "Tired",
           "wrong": [
             "Hungry",
             "Angry"
           ],
-          "hint": "Read the sentence before good night.",
+          "hint": "Read sentence 8.",
           "hl": [
             7
           ]
@@ -4315,14 +4315,14 @@
           ]
         },
         {
-          "q": "How do we know it is morning for Zara?",
-          "qTr": "Zara için sabah olduğunu nereden biliyoruz?",
+          "q": "It is morning for Zara. What is the clue?",
+          "qTr": "Zara için sabah. İpucu nedir?",
           "correct": "The sun is up",
           "wrong": [
             "It is dark",
             "Deniz is in bed"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0,
             3
@@ -4344,8 +4344,8 @@
           ]
         },
         {
-          "q": "How do we know it is night for Deniz?",
-          "qTr": "Deniz için gece olduğunu nereden biliyoruz?",
+          "q": "It is night for Deniz. What is the clue?",
+          "qTr": "Deniz için gece. İpucu nedir?",
           "correct": "It is dark and he is in bed",
           "wrong": [
             "The sun is up",
@@ -4365,7 +4365,7 @@
             "At home",
             "In bed"
           ],
-          "hint": "Read the first sentence.",
+          "hint": "Read sentence 1.",
           "hl": [
             0
           ]
@@ -4432,27 +4432,27 @@
           ]
         },
         {
-          "q": "How do we know it is not June or July?",
-          "qTr": "Haziran ya da Temmuz olmadığını nereden biliyoruz?",
-          "correct": "The text says it is not",
+          "q": "It is not June and not July. What is the clue?",
+          "qTr": "Haziran değil, Temmuz değil. İpucu nedir?",
+          "correct": "Sentence 3 is the clue",
           "wrong": [
             "The pupils are at school",
             "It is cold"
           ],
-          "hint": "Read the third sentence.",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Why are the pupils not at school?",
-          "qTr": "Öğrenciler neden okulda değil?",
+          "q": "The pupils are not at school. What is the reason?",
+          "qTr": "Öğrenciler okulda değil. Sebebi nedir?",
           "correct": "It is the summer holiday",
           "wrong": [
             "It is a weekend",
             "They are ill"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -4546,14 +4546,14 @@
           ]
         },
         {
-          "q": "How do we know it is not a school day?",
-          "qTr": "Okul günü olmadığını nereden biliyoruz?",
-          "correct": "The text says it is not",
+          "q": "It is not a school day. What is the clue?",
+          "qTr": "Okul günü değil. İpucu nedir?",
+          "correct": "Sentence 2 is the clue",
           "wrong": [
             "Kerem is at school",
             "It is cold"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Read sentence 2.",
           "hl": [
             1
           ]
@@ -4585,8 +4585,8 @@
           ]
         },
         {
-          "q": "Why is the food for poor people important?",
-          "qTr": "Yoksullar için yemek neden önemli?",
+          "q": "The food for poor people is important. What is the reason?",
+          "qTr": "Yoksullar için yemek önemli. Sebebi nedir?",
           "correct": "It is a day for sharing",
           "wrong": [
             "It is a birthday cake",
