@@ -120,109 +120,122 @@
     },
     {
       "id": "scan-2",
-      "title": "Our Classroom Devices",
-      "subtitle": "Find the right device or number!",
-      "icon": "💻",
+      "title": "What Time Is It?",
+      "subtitle": "Time and weather!",
+      "icon": "🕘",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
         {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
           "e": "👩‍🏫",
           "n": "Ms. Hart"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
         }
       ],
       "sentences": [
-        "There are many devices in our classroom.",
-        "There is a computer on the teacher's desk.",
-        "There is a keyboard and a mouse on the computer.",
-        "There is a microphone on the teacher's desk.",
-        "There is a Smart Board on the wall.",
-        "There are thirty tablets in the basket.",
-        "What are they? They are tablets!",
-        "How many tablets are there? There are thirty tablets.",
-        "There are thirty pupils in our class.",
-        "Every pupil has got one tablet.",
-        "Ms. Hart has got a microphone in her hand.",
-        "There are many devices in our classroom!"
+        "It is Monday morning at school.",
+        "Maya: What time is it?",
+        "Leo: It is nine o'clock.",
+        "Ms. Hart: Look outside!",
+        "Maya: How is the weather today?",
+        "Leo: It is sunny and warm.",
+        "Maya: What time is it now?",
+        "Leo: It is eleven o'clock.",
+        "Zara: How is the weather now?",
+        "Leo: It is windy!",
+        "Ms. Hart: At twelve o'clock, it is lunch time.",
+        "Maya: What nice weather for lunch time!"
       ],
       "translations": [
-        "Sınıfımızda birçok cihaz var.",
-        "Öğretmen masasında bir bilgisayar var.",
-        "Bilgisayarda bir klavye ve bir fare var.",
-        "Öğretmen masasında bir mikrofon var.",
-        "Duvarda bir Akıllı Tahta var.",
-        "Sepette otuz tane tablet var.",
-        "Onlar ne? Onlar tablet!",
-        "Kaç tane tablet var? Otuz tane tablet var.",
-        "Sınıfımızda otuz öğrenci var.",
-        "Her öğrencinin bir tableti var.",
-        "Ms. Hart'ın elinde bir mikrofon var.",
-        "Sınıfımızda birçok cihaz var!"
+        "Okulda Pazartesi sabahı.",
+        "Maya: Saat kaç?",
+        "Leo: Saat dokuz.",
+        "Ms. Hart: Dışarı bakın!",
+        "Maya: Bugün hava nasıl?",
+        "Leo: Güneşli ve ılık.",
+        "Maya: Şimdi saat kaç?",
+        "Leo: Saat on bir.",
+        "Zara: Şimdi hava nasıl?",
+        "Leo: Rüzgârlı!",
+        "Ms. Hart: Saat on ikide öğle yemeği zamanı.",
+        "Maya: Öğle yemeği için ne güzel bir hava!"
       ],
       "questions": [
         {
-          "q": "What is on the computer?",
-          "qTr": "Bilgisayarda ne var?",
-          "correct": "A keyboard and a mouse",
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
+          "correct": "Monday",
           "wrong": [
-            "A microphone and a tablet",
-            "A mouse and a basket"
+            "Tuesday",
+            "Friday"
           ],
-          "hint": "Find the word \"computer\".",
+          "hint": "Read sentence 1.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What time is it at the start?",
+          "qTr": "Başlangıçta saat kaç?",
+          "correct": "Nine o'clock",
+          "wrong": [
+            "Eleven o'clock",
+            "Twelve o'clock"
+          ],
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How many tablets are there?",
-          "qTr": "Kaç tane tablet var?",
-          "correct": "Thirty",
+          "q": "How is the weather today?",
+          "qTr": "Bugün hava nasıl?",
+          "correct": "Sunny and warm",
           "wrong": [
-            "Twenty",
-            "Forty"
+            "Cold and snowing",
+            "Windy and raining"
           ],
-          "hint": "Find the word \"tablets\".",
+          "hint": "Find the word \"today\".",
           "hl": [
-            5,
-            7
-          ]
-        },
-        {
-          "q": "Where are the tablets?",
-          "qTr": "Tabletler nerede?",
-          "correct": "In the basket",
-          "wrong": [
-            "On the wall",
-            "On the desk"
-          ],
-          "hint": "Find the word \"basket\".",
-          "hl": [
+            4,
             5
           ]
         },
         {
-          "q": "How many pupils are there?",
-          "qTr": "Kaç tane öğrenci var?",
-          "correct": "Thirty",
+          "q": "What time is it now?",
+          "qTr": "Şimdi saat kaç?",
+          "correct": "Eleven o'clock",
           "wrong": [
-            "Twenty",
-            "Forty"
+            "Nine o'clock",
+            "Twelve o'clock"
           ],
-          "hint": "Find the word \"pupils\".",
+          "hint": "Find the word \"now\".",
           "hl": [
-            8
+            6,
+            7
           ]
         },
         {
-          "q": "Who has got a microphone?",
-          "qTr": "Kimde bir mikrofon var?",
-          "correct": "Ms. Hart",
+          "q": "What time is lunch time?",
+          "qTr": "Öğle yemeği zamanı saat kaçta?",
+          "correct": "Twelve o'clock",
           "wrong": [
-            "Maya",
-            "Leo"
+            "Nine o'clock",
+            "Eleven o'clock"
           ],
-          "hint": "Find the word \"microphone\".",
+          "hint": "Find the word \"lunch\".",
           "hl": [
             10
           ]
@@ -796,105 +809,117 @@
     },
     {
       "id": "scan-8",
-      "title": "Furniture in Our Classroom",
-      "subtitle": "Find the right furniture!",
-      "icon": "🪑",
+      "title": "Classroom Instructions",
+      "subtitle": "Follow the teacher!",
+      "icon": "🙋",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
         {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
           "e": "👦",
           "n": "Leo"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
         }
       ],
       "sentences": [
-        "There is nice furniture in our classroom.",
-        "There is a teacher's desk in our classroom.",
-        "There is a teacher's chair, too.",
-        "There are student desks in three rows.",
-        "There is a tall bookshelf on the wall.",
-        "There are six lockers on the wall.",
-        "There is a basket for paper in the classroom.",
-        "How many lockers are there? There are six lockers.",
-        "Leo: Our classroom is tidy and nice!"
+        "Leo: Can I come in, Ms. Hart?",
+        "Ms. Hart: Yes, Leo. Take your seat, please!",
+        "Leo: Thank you! Ms. Hart: You're welcome!",
+        "Ms. Hart: Open page twenty-five, please!",
+        "Ms. Hart: Colour it, please! Maya: What colour?",
+        "Ms. Hart: Dark blue, please!",
+        "Ms. Hart: Now circle it, please!",
+        "Zara: Is it correct, Ms. Hart? Ms. Hart: That's correct! Nice job!",
+        "Ms. Hart: Time's over! Close your book, please!"
       ],
       "translations": [
-        "Sınıfımızda güzel mobilyalar var.",
-        "Sınıfımızda bir öğretmen masası var.",
-        "Bir de öğretmen sandalyesi var.",
-        "Üç sırada öğrenci sıraları var.",
-        "Duvarda uzun bir kitaplık var.",
-        "Duvarda altı tane dolap var.",
-        "Sınıfta kâğıtlar için bir sepet var.",
-        "Kaç tane dolap var? Altı tane dolap var.",
-        "Leo: Sınıfımız düzenli ve güzel!"
+        "Leo: İçeri girebilir miyim, Ms. Hart?",
+        "Ms. Hart: Evet, Leo. Yerine otur lütfen!",
+        "Leo: Teşekkür ederim! Ms. Hart: Rica ederim!",
+        "Ms. Hart: Sayfa yirmi beşi açın lütfen!",
+        "Ms. Hart: Boyayın lütfen! Maya: Hangi renk?",
+        "Ms. Hart: Koyu mavi lütfen!",
+        "Ms. Hart: Şimdi daire içine alın lütfen!",
+        "Zara: Doğru mu, Ms. Hart? Ms. Hart: Doğru! Güzel iş!",
+        "Ms. Hart: Süre bitti! Kitabınızı kapatın lütfen!"
       ],
       "questions": [
         {
-          "q": "Is there a teacher's chair in the classroom?",
-          "qTr": "Sınıfta bir öğretmen sandalyesi var mı?",
-          "correct": "Yes, there is.",
+          "q": "Who is at the door?",
+          "qTr": "Kapıda kim var?",
+          "correct": "Leo",
           "wrong": [
-            "No, there isn't.",
-            "Only a desk."
+            "Maya",
+            "Zara"
           ],
-          "hint": "Find the word \"chair\".",
+          "hint": "Read sentence 1.",
           "hl": [
-            2
+            0
           ]
         },
         {
-          "q": "Where is the bookshelf?",
-          "qTr": "Kitaplık nerede?",
-          "correct": "On the wall",
+          "q": "What page is it?",
+          "qTr": "Hangi sayfa?",
+          "correct": "Page twenty-five",
           "wrong": [
-            "On the board",
-            "In the basket"
+            "Page twenty",
+            "Page thirty"
           ],
-          "hint": "Find the word \"bookshelf\".",
+          "hint": "Find the word \"page\".",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "How many lockers are there?",
-          "qTr": "Kaç tane dolap var?",
-          "correct": "Six",
+          "q": "What colour is it?",
+          "qTr": "Rengi ne?",
+          "correct": "Dark blue",
           "wrong": [
-            "Three",
-            "Eight"
+            "Light green",
+            "Dark red"
           ],
-          "hint": "Find the word \"lockers\".",
+          "hint": "Find the word \"colour\".",
           "hl": [
-            5,
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Who is correct?",
+          "qTr": "Kim doğru?",
+          "correct": "Zara",
+          "wrong": [
+            "Leo",
+            "Maya"
+          ],
+          "hint": "Find the word \"correct\".",
+          "hl": [
             7
           ]
         },
         {
-          "q": "What is the basket for?",
-          "qTr": "Sepet ne için?",
-          "correct": "Paper",
+          "q": "What is the instruction at the end?",
+          "qTr": "Sondaki yönerge ne?",
+          "correct": "Close your book, please!",
           "wrong": [
-            "Books",
-            "Cards"
+            "Open your book, please!",
+            "Colour it, please!"
           ],
-          "hint": "Find the word \"basket\".",
+          "hint": "Read the last sentence.",
           "hl": [
-            6
-          ]
-        },
-        {
-          "q": "How many rows of student desks are there?",
-          "qTr": "Kaç sıra öğrenci sırası var?",
-          "correct": "Three",
-          "wrong": [
-            "Two",
-            "Six"
-          ],
-          "hint": "Find the word \"rows\".",
-          "hl": [
-            3
+            8
           ]
         }
       ]
@@ -1362,8 +1387,8 @@
     },
     {
       "id": "skim-2",
-      "title": "Colours in the Classroom",
-      "subtitle": "Read quickly and find the main idea!",
+      "title": "What Colour Is It?",
+      "subtitle": "Dark and light!",
       "icon": "🎨",
       "hlMode": "always",
       "hintMode": "button",
@@ -1380,42 +1405,50 @@
         {
           "e": "👩‍🏫",
           "n": "Ms. Hart"
+        },
+        {
+          "e": "👦🏽",
+          "n": "Kerem"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Zara"
         }
       ],
       "sentences": [
-        "Our classroom is full of colours!",
-        "Maya has got a dark blue pen.",
-        "Leo has got a light green ruler.",
-        "The teacher's chair is grey.",
-        "The bookshelf is dark brown.",
-        "The lockers are light grey.",
-        "Maya: What are they?",
-        "Leo: They are dark red coursebooks.",
-        "The bin is light blue.",
-        "The map on the wall is dark green.",
-        "Ms. Hart: What a colourful classroom!"
+        "Ms. Hart: Look at the cards on my desk!",
+        "Maya: What colour is it?",
+        "Ms. Hart: It is dark red.",
+        "Leo: What colour is it?",
+        "Ms. Hart: It is light green.",
+        "Zara: I have got a card, too. What colour is it?",
+        "Ms. Hart: It is dark purple.",
+        "Kerem: What colour is my flashcard?",
+        "Ms. Hart: It is light grey.",
+        "Maya: What colour is the duster?",
+        "Ms. Hart: It is dark brown. What a colourful classroom!"
       ],
       "translations": [
-        "Sınıfımız renklerle dolu!",
-        "Maya'nın koyu mavi bir kalemi var.",
-        "Leo'nun açık yeşil bir cetveli var.",
-        "Öğretmen sandalyesi gri.",
-        "Kitaplık koyu kahverengi.",
-        "Dolaplar açık gri.",
-        "Maya: Onlar ne?",
-        "Leo: Onlar koyu kırmızı ders kitapları.",
-        "Çöp kutusu açık mavi.",
-        "Duvardaki harita koyu yeşil.",
-        "Ms. Hart: Ne rengârenk bir sınıf!"
+        "Ms. Hart: Masamdaki kartlara bakın!",
+        "Maya: Rengi ne?",
+        "Ms. Hart: Koyu kırmızı.",
+        "Leo: Rengi ne?",
+        "Ms. Hart: Açık yeşil.",
+        "Zara: Benim de bir kartım var. Rengi ne?",
+        "Ms. Hart: Koyu mor.",
+        "Kerem: Resimli kartım ne renk?",
+        "Ms. Hart: Açık gri.",
+        "Maya: Tahta silgisi ne renk?",
+        "Ms. Hart: Koyu kahverengi. Ne rengârenk bir sınıf!"
       ],
       "questions": [
         {
           "q": "What is the text about?",
           "qTr": "Metin ne hakkında?",
-          "correct": "The colours of classroom objects",
+          "correct": "The colours of the cards",
           "wrong": [
             "Classroom devices",
-            "School subjects"
+            "The weather"
           ],
           "hint": "Look at all the colours.",
           "hl": [
@@ -1423,64 +1456,63 @@
             1,
             2,
             3,
-            4,
-            5,
-            7,
-            8,
-            9
+            4
           ]
         },
         {
-          "q": "What has Maya got?",
-          "qTr": "Maya'da ne var?",
-          "correct": "A dark blue pen",
+          "q": "What colour is the card of Zara?",
+          "qTr": "Zara'nın kartı ne renk?",
+          "correct": "Dark purple",
           "wrong": [
-            "A light green ruler",
-            "A dark red coursebook"
+            "Dark red",
+            "Light green"
           ],
-          "hint": "Find Maya in the text.",
+          "hint": "Find Zara in the text.",
           "hl": [
-            1
+            5,
+            6
           ]
         },
         {
-          "q": "What colour is the teacher's chair?",
-          "qTr": "Öğretmen sandalyesi ne renk?",
-          "correct": "Grey",
+          "q": "What colour is the flashcard of Kerem?",
+          "qTr": "Kerem'in resimli kartı ne renk?",
+          "correct": "Light grey",
           "wrong": [
             "Dark brown",
-            "Light grey"
+            "Dark purple"
           ],
-          "hint": "Find the word \"chair\".",
+          "hint": "Find Kerem in the text.",
           "hl": [
-            3
+            7,
+            8
           ]
         },
         {
-          "q": "What are the dark red objects?",
-          "qTr": "Koyu kırmızı eşyalar ne?",
-          "correct": "Coursebooks",
+          "q": "What colour is the duster?",
+          "qTr": "Tahta silgisi ne renk?",
+          "correct": "Dark brown",
           "wrong": [
-            "Rulers",
-            "Pens"
+            "Light grey",
+            "Dark red"
           ],
-          "hint": "Find the words \"dark red\".",
+          "hint": "Find the word \"duster\".",
           "hl": [
-            6,
-            7
+            9,
+            10
           ]
         },
         {
-          "q": "What colour is the map?",
-          "qTr": "Harita ne renk?",
-          "correct": "Dark green",
+          "q": "How many cards are dark?",
+          "qTr": "Kaç tane kart koyu renk?",
+          "correct": "Two",
           "wrong": [
-            "Light blue",
-            "Dark brown"
+            "One",
+            "Three"
           ],
-          "hint": "Find the word \"map\".",
+          "hint": "Find the word \"dark\".",
           "hl": [
-            9
+            2,
+            6
           ]
         }
       ]
@@ -1713,115 +1745,124 @@
     },
     {
       "id": "skim-5",
-      "title": "A Day in Numbers",
-      "subtitle": "Read quickly and find the main idea!",
-      "icon": "🔢",
+      "title": "How Many Have You Got?",
+      "subtitle": "Count and answer!",
+      "icon": "🎒",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
         {
+          "e": "👧",
+          "n": "Maya"
+        },
+        {
+          "e": "👦",
+          "n": "Leo"
+        },
+        {
           "e": "👩‍🏫",
           "n": "Ms. Hart"
         },
         {
-          "e": "👧🏽",
-          "n": "Zara"
+          "e": "👦🏽",
+          "n": "Kerem"
         },
         {
-          "e": "👦🏻",
-          "n": "Mert"
+          "e": "👧🏽",
+          "n": "Zara"
         }
       ],
       "sentences": [
-        "Numbers are everywhere in our class!",
-        "There are thirty pupils in the room.",
-        "There are forty books on the bookshelf.",
-        "It is eight o'clock in the morning.",
-        "There are twenty pens in the basket.",
-        "Mert: There are twenty-five pencils.",
-        "Zara: There are fifty cards.",
-        "How many lights are there? There are four lights.",
-        "Ms. Hart: Numbers are great! Nice job, everyone!"
+        "Ms. Hart: Let's check our school bags!",
+        "Ms. Hart: How many pens have you got, Maya?",
+        "Maya: I have got twenty pens!",
+        "Ms. Hart: How many rulers have you got, Leo?",
+        "Leo: I have got two rulers.",
+        "Ms. Hart: How many flashcards have you got, Zara?",
+        "Zara: I have got thirty flashcards.",
+        "Ms. Hart: How many cards have you got, Kerem?",
+        "Kerem: I have got fifty cards! Ms. Hart: Perfect!"
       ],
       "translations": [
-        "Sınıfımızda her yerde sayılar var!",
-        "Odada otuz öğrenci var.",
-        "Kitaplıkta kırk tane kitap var.",
-        "Sabah saat sekiz.",
-        "Sepette yirmi tane kalem var.",
-        "Mert: Yirmi beş tane kurşun kalem var.",
-        "Zara: Elli tane kart var.",
-        "Kaç tane ışık var? Dört tane ışık var.",
-        "Ms. Hart: Sayılar harika! Güzel iş, herkes!"
+        "Ms. Hart: Hadi okul çantalarımıza bakalım!",
+        "Ms. Hart: Kaç tane kalemin var, Maya?",
+        "Maya: Yirmi tane kalemim var!",
+        "Ms. Hart: Kaç tane cetvelin var, Leo?",
+        "Leo: İki tane cetvelim var.",
+        "Ms. Hart: Kaç tane resimli kartın var, Zara?",
+        "Zara: Otuz tane resimli kartım var.",
+        "Ms. Hart: Kaç tane kartın var, Kerem?",
+        "Kerem: Elli tane kartım var! Ms. Hart: Mükemmel!"
       ],
       "questions": [
         {
           "q": "What is the text about?",
           "qTr": "Metin ne hakkında?",
-          "correct": "Numbers in the classroom",
+          "correct": "The objects in their school bags",
           "wrong": [
             "The weather",
-            "Classroom colours"
+            "School subjects"
           ],
-          "hint": "Look at all the numbers.",
+          "hint": "Look at all the objects.",
           "hl": [
             0,
             1,
-            2,
-            4
+            3,
+            5,
+            7
           ]
         },
         {
-          "q": "How many pupils are there in the room?",
-          "qTr": "Odada kaç tane öğrenci var?",
-          "correct": "Thirty",
+          "q": "How many pens has Maya got?",
+          "qTr": "Maya'nın kaç tane kalemi var?",
+          "correct": "Twenty",
           "wrong": [
-            "Twenty",
-            "Forty"
+            "Two",
+            "Thirty"
           ],
-          "hint": "Find the word \"pupils\".",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How many books are there on the bookshelf?",
-          "qTr": "Kitaplıkta kaç tane kitap var?",
-          "correct": "Forty",
-          "wrong": [
-            "Thirty",
-            "Fifty"
-          ],
-          "hint": "Find the word \"books\".",
+          "hint": "Read sentence 3.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How many cards are there?",
-          "qTr": "Kaç tane kart var?",
-          "correct": "Fifty",
+          "q": "How many rulers has Leo got?",
+          "qTr": "Leo'nun kaç tane cetveli var?",
+          "correct": "Two",
           "wrong": [
-            "Forty",
+            "Twenty",
+            "Fifty"
+          ],
+          "hint": "Read sentence 5.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many flashcards has Zara got?",
+          "qTr": "Zara'nın kaç tane resimli kartı var?",
+          "correct": "Thirty",
+          "wrong": [
+            "Fifty",
             "Twenty"
           ],
-          "hint": "Find Zara in the text.",
+          "hint": "Read sentence 7.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What time is it in the morning?",
-          "qTr": "Sabah saat kaç?",
-          "correct": "Eight o'clock",
+          "q": "How many cards has Kerem got?",
+          "qTr": "Kerem'in kaç tane kartı var?",
+          "correct": "Fifty",
           "wrong": [
-            "Nine o'clock",
-            "Ten o'clock"
+            "Thirty",
+            "Two"
           ],
-          "hint": "Find the word \"morning\".",
+          "hint": "Read the last sentence.",
           "hl": [
-            3
+            8
           ]
         }
       ]
@@ -3696,9 +3737,9 @@
     },
     {
       "id": "int-11",
-      "title": "Different Days, Different Weather",
-      "subtitle": "Read carefully and answer the questions!",
-      "icon": "☁️",
+      "title": "The Four Seasons",
+      "subtitle": "What season is it?",
+      "icon": "🍂",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -3712,40 +3753,44 @@
           "n": "Leo"
         },
         {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        },
+        {
           "e": "👧🏽",
           "n": "Zara"
         }
       ],
       "sentences": [
-        "Maya: Today is a cloudy day in our city.",
-        "There are grey clouds in the sky.",
-        "Leo: My city has got a rainy day.",
-        "Leo: My city and your city are different.",
-        "It is a rainy day here. I have got my umbrella.",
-        "Zara: In my city, today is a snowy day!",
-        "I have got my hat and my gloves.",
-        "Maya: Three friends, three different days!",
-        "Cloudy, rainy and snowy days are fun!"
+        "Ms. Hart: There are four seasons in a year.",
+        "Ms. Hart: Look outside! What season is it now?",
+        "Maya: The school garden is full of flowers. It is spring!",
+        "Ms. Hart: That's correct! How is the weather in spring?",
+        "Maya: It is sunny and warm.",
+        "Leo: In summer, it is very hot. It is holiday time!",
+        "Zara: In autumn, it is windy and it is raining.",
+        "Leo: In winter, it is cold and it is snowing. It's freezing!",
+        "Ms. Hart: Every season is special. Nice job, everyone!"
       ],
       "translations": [
-        "Maya: Bugün şehrimizde bulutlu bir gün.",
-        "Gökyüzünde gri bulutlar var.",
-        "Leo: Benim şehrimde yağmurlu bir gün.",
-        "Leo: Benim şehrim ve senin şehrin farklı.",
-        "Burada yağmurlu bir gün. Şemsiyem var.",
-        "Zara: Benim şehrimde bugün karlı bir gün!",
-        "Şapkam ve eldivenlerim var.",
-        "Maya: Üç arkadaş, üç farklı gün!",
-        "Bulutlu, yağmurlu ve karlı günler eğlenceli!"
+        "Ms. Hart: Bir yılda dört mevsim var.",
+        "Ms. Hart: Dışarı bakın! Şimdi hangi mevsimdeyiz?",
+        "Maya: Okul bahçesi çiçeklerle dolu. İlkbahar!",
+        "Ms. Hart: Doğru! İlkbaharda hava nasıl?",
+        "Maya: Güneşli ve ılık.",
+        "Leo: Yazın hava çok sıcak. Tatil zamanı!",
+        "Zara: Sonbaharda rüzgârlı ve yağmur yağıyor.",
+        "Leo: Kışın hava soğuk ve kar yağıyor. Buz gibi!",
+        "Ms. Hart: Her mevsim özel. Güzel iş, herkes!"
       ],
       "questions": [
         {
-          "q": "How is the weather for Maya?",
-          "qTr": "Maya için hava nasıl?",
-          "correct": "Cloudy",
+          "q": "How many seasons are there in a year?",
+          "qTr": "Bir yılda kaç mevsim var?",
+          "correct": "Four",
           "wrong": [
-            "Rainy",
-            "Snowy"
+            "Two",
+            "Three"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3753,55 +3798,57 @@
           ]
         },
         {
-          "q": "What is in the sky?",
-          "qTr": "Gökyüzünde ne var?",
-          "correct": "Grey clouds",
+          "q": "What season is it now?",
+          "qTr": "Şimdi hangi mevsimdeyiz?",
+          "correct": "Spring",
           "wrong": [
-            "The sun",
-            "Stars"
+            "Summer",
+            "Autumn"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the word \"garden\".",
           "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How is the weather for Leo?",
-          "qTr": "Leo için hava nasıl?",
-          "correct": "Rainy",
-          "wrong": [
-            "Cloudy",
-            "Snowy"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "What has Leo got?",
-          "qTr": "Leo'da ne var?",
-          "correct": "An umbrella",
+          "q": "How is the weather in spring?",
+          "qTr": "İlkbaharda hava nasıl?",
+          "correct": "Sunny and warm",
           "wrong": [
-            "A hat",
-            "Gloves"
+            "Very hot",
+            "Cold and snowing"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the word \"spring\".",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "How is the weather for Zara?",
-          "qTr": "Zara için hava nasıl?",
-          "correct": "Snowy",
+          "q": "How is the weather in autumn?",
+          "qTr": "Sonbaharda hava nasıl?",
+          "correct": "Windy and raining",
           "wrong": [
-            "Cloudy",
-            "Rainy"
+            "Sunny and warm",
+            "Very hot"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the word \"autumn\".",
           "hl": [
-            5
+            6
+          ]
+        },
+        {
+          "q": "How is the weather in winter?",
+          "qTr": "Kışın hava nasıl?",
+          "correct": "Cold and snowing",
+          "wrong": [
+            "Windy and raining",
+            "Sunny and warm"
+          ],
+          "hint": "Find the word \"winter\".",
+          "hl": [
+            7
           ]
         }
       ]
@@ -4636,9 +4683,9 @@
     },
     {
       "id": "inf-8",
-      "title": "The Mystery Number",
-      "subtitle": "Use the clues to find the answer!",
-      "icon": "🔢",
+      "title": "The Mystery Season",
+      "subtitle": "Find the season!",
+      "icon": "❄️",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -4661,35 +4708,35 @@
         }
       ],
       "sentences": [
-        "Ms. Hart: I have got a number on a flashcard!",
-        "Ms. Hart: It is not ten. It is not fifty.",
-        "Maya: Is it twenty? Ms. Hart: No, it isn't.",
-        "Leo: Is it twenty-five? Ms. Hart: No, it isn't.",
-        "Ms. Hart: It is not twenty-six, twenty-seven, twenty-eight or twenty-nine.",
-        "Ada: Is it thirty-five? Ms. Hart: No, it isn't. It is not forty.",
-        "Ada: It is not ten, twenty or fifty. It is not twenty-five!",
-        "Ada: I know! It is thirty!",
+        "Ms. Hart: There is a season on my flashcard!",
+        "Ms. Hart: It is not hot. It is not warm.",
+        "Maya: Is it summer? Ms. Hart: No, it isn't.",
+        "Leo: Is it spring? Ms. Hart: No, it isn't.",
+        "Ms. Hart: It is cold. It is not raining.",
+        "Ada: Is it autumn? Ms. Hart: No, it isn't. It is not windy.",
+        "Ms. Hart: Look outside! There is snow in the school garden.",
+        "Ada: I know! It is winter!",
         "Ms. Hart: That's correct! Nice job, Ada!"
       ],
       "translations": [
-        "Ms. Hart: Bir resimli kartta bir sayım var!",
-        "Ms. Hart: On değil. Elli değil.",
-        "Maya: Yirmi mi? Ms. Hart: Hayır, değil.",
-        "Leo: Yirmi beş mi? Ms. Hart: Hayır, değil.",
-        "Ms. Hart: Yirmi altı, yirmi yedi, yirmi sekiz ya da yirmi dokuz değil.",
-        "Ada: Otuz beş mi? Ms. Hart: Hayır, değil. Kırk da değil.",
-        "Ada: On, yirmi ya da elli değil. Yirmi beş de değil!",
-        "Ada: Biliyorum! Otuz!",
+        "Ms. Hart: Resimli kartımda bir mevsim var!",
+        "Ms. Hart: Hava sıcak değil. Ilık değil.",
+        "Maya: Yaz mı? Ms. Hart: Hayır, değil.",
+        "Leo: İlkbahar mı? Ms. Hart: Hayır, değil.",
+        "Ms. Hart: Hava soğuk. Yağmur yağmıyor.",
+        "Ada: Sonbahar mı? Ms. Hart: Hayır, değil. Rüzgârlı değil.",
+        "Ms. Hart: Dışarı bakın! Okul bahçesinde kar var.",
+        "Ada: Biliyorum! Kış!",
         "Ms. Hart: Doğru! Güzel iş, Ada!"
       ],
       "questions": [
         {
-          "q": "What has Ms. Hart got?",
-          "qTr": "Ms. Hart'ta ne var?",
-          "correct": "A number on a flashcard",
+          "q": "What is on the flashcard of Ms. Hart?",
+          "qTr": "Ms. Hart'ın resimli kartında ne var?",
+          "correct": "A season",
           "wrong": [
-            "A coursebook",
-            "A pencil"
+            "A number",
+            "A word"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -4697,72 +4744,76 @@
           ]
         },
         {
-          "q": "Is the number ten?",
-          "qTr": "Sayı on mu?",
+          "q": "Is it summer?",
+          "qTr": "Yaz mı?",
           "correct": "No, it isn't.",
           "wrong": [
             "Yes, it is.",
-            "It is fifty."
+            "It is hot."
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
-          "q": "Is the number twenty-five?",
-          "qTr": "Sayı yirmi beş mi?",
+          "q": "Is it autumn?",
+          "qTr": "Sonbahar mı?",
           "correct": "No, it isn't.",
           "wrong": [
             "Yes, it is.",
-            "It is twenty."
+            "It is windy."
           ],
-          "hint": "Find Leo in the text.",
+          "hint": "Read sentence 6.",
           "hl": [
-            3
+            5
           ]
         },
         {
-          "q": "What is the number?",
-          "qTr": "Sayı kaç?",
-          "correct": "Thirty",
+          "q": "What is in the school garden?",
+          "qTr": "Okul bahçesinde ne var?",
+          "correct": "Snow",
           "wrong": [
-            "Twenty-five",
-            "Thirty-five"
+            "Flowers",
+            "Water"
+          ],
+          "hint": "Find the word \"garden\".",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What season is it?",
+          "qTr": "Hangi mevsimdeyiz?",
+          "correct": "Winter",
+          "wrong": [
+            "Summer",
+            "Autumn"
           ],
           "hint": "Look at all the clues.",
           "hl": [
+            1,
             4,
-            5,
             6,
             7
-          ]
-        },
-        {
-          "q": "Who is correct?",
-          "qTr": "Kim doğru?",
-          "correct": "Ada",
-          "wrong": [
-            "Maya",
-            "Leo"
-          ],
-          "hint": "Read the last sentence.",
-          "hl": [
-            7,
-            8
           ]
         }
       ]
     },
     {
       "id": "inf-9",
-      "title": "What Makes the Sound?",
-      "subtitle": "Use the clues to find the answer!",
-      "icon": "🔊",
+      "title": "The Mystery Instruction",
+      "subtitle": "What is on the board?",
+      "icon": "🔤",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
+        {
+          "e": "👧",
+          "n": "Maya"
+        },
         {
           "e": "👦",
           "n": "Leo"
@@ -4777,97 +4828,94 @@
         }
       ],
       "sentences": [
-        "There is a strange sound in the classroom.",
-        "It is not a song. It is not music.",
-        "It is the voice of Ms. Hart.",
-        "Her voice is very loud!",
-        "There is something in her hand.",
-        "It is small and black.",
-        "Leo: What is that?",
-        "Mert: I know! It is a microphone!",
-        "Ms. Hart: That's correct, Mert!"
+        "Ms. Hart is at the board.",
+        "There is a word on the white-blackboard.",
+        "It is not a number. It is not a picture.",
+        "There are letters in the word: R-U-L-E-R.",
+        "Leo: Ms. Hart, is it \"Colour it, please!\"? Ms. Hart: No, it isn't.",
+        "Maya: Is it \"Circle it, please!\"? Ms. Hart: No, it isn't.",
+        "Ms. Hart: Listen to the letters!",
+        "Mert: I know! It is \"Spell the word, please!\"",
+        "Ms. Hart: That's correct, Mert! Nice job!"
       ],
       "translations": [
-        "Sınıfta garip bir ses var.",
-        "Bir şarkı değil. Müzik değil.",
-        "Bu Ms. Hart'ın sesi.",
-        "Sesi çok yüksek!",
-        "Elinde bir şey var.",
-        "Küçük ve siyah.",
-        "Leo: Bu ne?",
-        "Mert: Biliyorum! Bir mikrofon!",
-        "Ms. Hart: Doğru, Mert!"
+        "Ms. Hart tahtada.",
+        "Beyaz-kara tahtada bir kelime var.",
+        "Bir sayı değil. Bir resim değil.",
+        "Kelimede harfler var: R-U-L-E-R.",
+        "Leo: Ms. Hart, \"Boyayın lütfen!\" mi? Ms. Hart: Hayır, değil.",
+        "Maya: \"Daire içine alın lütfen!\" mi? Ms. Hart: Hayır, değil.",
+        "Ms. Hart: Harfleri dinleyin!",
+        "Mert: Biliyorum! \"Kelimeyi heceleyin lütfen!\"",
+        "Ms. Hart: Doğru, Mert! Güzel iş!"
       ],
       "questions": [
         {
-          "q": "What is in the classroom?",
-          "qTr": "Sınıfta ne var?",
-          "correct": "A strange sound",
+          "q": "What is on the white-blackboard?",
+          "qTr": "Beyaz-kara tahtada ne var?",
+          "correct": "A word",
           "wrong": [
-            "A song",
-            "Music"
+            "A number",
+            "A picture"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read sentence 2.",
           "hl": [
-            0,
-            1
+            1,
+            2
           ]
         },
         {
-          "q": "Who is loud?",
-          "qTr": "Sesi yüksek olan kim?",
-          "correct": "Ms. Hart",
+          "q": "What are the letters?",
+          "qTr": "Harfler ne?",
+          "correct": "R-U-L-E-R",
           "wrong": [
-            "Leo",
-            "Mert"
+            "P-E-N",
+            "M-A-P"
           ],
-          "hint": "Find the word \"voice\".",
+          "hint": "Find the word \"letters\".",
           "hl": [
-            2,
             3
           ]
         },
         {
-          "q": "What is in her hand?",
-          "qTr": "Elinde ne var?",
-          "correct": "Something small and black",
+          "q": "Is it \"Colour it, please!\"?",
+          "qTr": "\"Boyayın lütfen!\" mi?",
+          "correct": "No, it isn't.",
           "wrong": [
-            "A flashcard",
-            "A coursebook"
+            "Yes, it is.",
+            "It is dark blue."
           ],
-          "hint": "Find the word \"hand\".",
+          "hint": "Find Leo in the text.",
           "hl": [
-            4,
+            4
+          ]
+        },
+        {
+          "q": "Is it \"Circle it, please!\"?",
+          "qTr": "\"Daire içine alın lütfen!\" mi?",
+          "correct": "No, it isn't.",
+          "wrong": [
+            "Yes, it is.",
+            "It is a picture."
+          ],
+          "hint": "Find Maya in the text.",
+          "hl": [
             5
           ]
         },
         {
-          "q": "What is the object?",
-          "qTr": "Nesne ne?",
-          "correct": "A microphone",
+          "q": "What is the instruction?",
+          "qTr": "Yönerge ne?",
+          "correct": "Spell the word, please!",
           "wrong": [
-            "A mouse",
-            "A keyboard"
+            "Colour it, please!",
+            "Circle it, please!"
           ],
-          "hint": "Think about the loud voice and the small black object.",
+          "hint": "Look at all the clues.",
           "hl": [
             3,
-            5,
+            6,
             7
-          ]
-        },
-        {
-          "q": "Who is correct?",
-          "qTr": "Kim doğru?",
-          "correct": "Mert",
-          "wrong": [
-            "Leo",
-            "Maya"
-          ],
-          "hint": "Read the last sentence.",
-          "hl": [
-            7,
-            8
           ]
         }
       ]
@@ -4994,7 +5042,12 @@
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
-      "cast": [],
+      "cast": [
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Hart"
+        }
+      ],
       "sentences": [
         "A lesson is in the gym.",
         "Pupils: Let's run and play!",
