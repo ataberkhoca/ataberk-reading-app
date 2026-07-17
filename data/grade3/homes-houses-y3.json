@@ -223,20 +223,20 @@
     },
     {
       "id": "scan-3",
-      "title": "What Is Mr. Tarık Doing Now?",
-      "subtitle": "Find the right action!",
-      "icon": "💧",
+      "title": "A Busy Day",
+      "subtitle": "Find the right answer!",
+      "icon": "🚜",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
         {
-          "n": "Maya",
-          "e": "👧"
-        },
-        {
           "n": "Deniz",
           "e": "🧒"
+        },
+        {
+          "n": "Maya",
+          "e": "👧"
         },
         {
           "n": "Mr. Tarık",
@@ -244,26 +244,26 @@
         }
       ],
       "sentences": [
-        "It is a busy day on Mr. Tarık's farm.",
-        "What is Mr. Tarık doing now?",
-        "He is watering the vegetables now.",
-        "What is Deniz doing at present?",
-        "He is feeding the chickens at present.",
-        "What is Maya doing now?",
-        "She is milking the cows now.",
+        "Deniz: It is a busy day on the farm!",
+        "Maya: What is Mr. Tarık doing now?",
+        "Deniz: He is watering the vegetables now.",
+        "Maya: And what are you doing, Deniz?",
+        "Deniz: I am feeding the chickens now!",
+        "Deniz: Maya, what are you doing at present?",
+        "Maya: I am milking the cows at present!",
         "Deniz: Everyone is hardworking today!",
-        "They are doing many things on the farm!"
+        "Maya: Yes, we are all busy!"
       ],
       "translations": [
-        "Mr. Tarık'ın çiftliğinde yoğun bir gün.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şimdi sebzelere su veriyor.",
-        "Deniz şu anda ne yapıyor?",
-        "Şu anda tavukları besliyor.",
-        "Maya şu an ne yapıyor?",
-        "Şimdi inekleri sağıyor.",
+        "Deniz: Çiftlikte yoğun bir gün!",
+        "Maya: Mr. Tarık şu an ne yapıyor?",
+        "Deniz: Şimdi sebzelere su veriyor.",
+        "Maya: Peki sen ne yapıyorsun, Deniz?",
+        "Deniz: Şimdi tavukları besliyorum!",
+        "Deniz: Maya, sen şu anda ne yapıyorsun?",
+        "Maya: Şu anda inekleri sağıyorum!",
         "Deniz: Herkes bugün çalışkan!",
-        "Çiftlikte birçok şey yapıyorlar!"
+        "Maya: Evet, hepimiz meşgulüz!"
       ],
       "questions": [
         {
@@ -280,8 +280,8 @@
           ]
         },
         {
-          "q": "What is Deniz doing at present?",
-          "qTr": "Deniz şu anda ne yapıyor?",
+          "q": "What is Deniz doing now?",
+          "qTr": "Deniz şu an ne yapıyor?",
           "correct": "Feeding the chickens",
           "wrong": [
             "Watering vegetables",
@@ -293,8 +293,8 @@
           ]
         },
         {
-          "q": "What is Maya doing now?",
-          "qTr": "Maya şu an ne yapıyor?",
+          "q": "What is Maya doing at present?",
+          "qTr": "Maya şu anda ne yapıyor?",
           "correct": "Milking the cows",
           "wrong": [
             "Watering vegetables",
@@ -319,12 +319,12 @@
           ]
         },
         {
-          "q": "What are they doing today?",
-          "qTr": "Bugün ne yapıyorlar?",
-          "correct": "Many things",
+          "q": "Are they all busy?",
+          "qTr": "Hepsi meşgul mü?",
+          "correct": "Yes",
           "wrong": [
-            "Nothing",
-            "One thing"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 9.",
           "hl": [
@@ -336,8 +336,8 @@
     {
       "id": "scan-4",
       "title": "Grandpa Halil at Present",
-      "subtitle": "Find the right action!",
-      "icon": "🌱",
+      "subtitle": "Find the right answer!",
+      "icon": "🌳",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -349,33 +349,29 @@
         {
           "n": "Zara",
           "e": "👧🏽"
-        },
-        {
-          "n": "Mr. Tarık",
-          "e": "👨‍🌾"
         }
       ],
       "sentences": [
         "Ada: My grandfather Halil is a farmer!",
-        "He works hard on his farm every day.",
-        "What is grandpa doing now?",
-        "He is planting trees in the field.",
-        "What is Mr. Tarık doing at present?",
-        "He is collecting eggs from the chickens.",
-        "What am I doing at present?",
-        "I am planting vegetables in the field!",
-        "Zara: Your farm is wonderful, Ada!"
+        "Zara: Where is he now?",
+        "Ada: He is on his farm at present.",
+        "Zara: What is he doing now?",
+        "Ada: He is planting trees in the field.",
+        "Zara: And what are you doing, Ada?",
+        "Ada: I am planting vegetables at present!",
+        "Zara: Your grandfather works hard!",
+        "Ada: Yes, he works on his farm every day!"
       ],
       "translations": [
         "Ada: Büyükbabam Halil bir çiftçi!",
-        "Her gün çiftliğinde çok çalışır.",
-        "Büyükbaba şu an ne yapıyor?",
-        "Tarlaya ağaç dikiyor.",
-        "Mr. Tarık şu anda ne yapıyor?",
-        "Tavuklardan yumurta topluyor.",
-        "Ben şu anda ne yapıyorum?",
-        "Tarlaya sebze ekiyorum!",
-        "Zara: Çiftliğin harika, Ada!"
+        "Zara: Şu an nerede?",
+        "Ada: Şu anda çiftliğinde.",
+        "Zara: Şu an ne yapıyor?",
+        "Ada: Tarlaya ağaç dikiyor.",
+        "Zara: Peki sen ne yapıyorsun, Ada?",
+        "Ada: Şu anda sebze ekiyorum!",
+        "Zara: Büyükbaban çok çalışıyor!",
+        "Ada: Evet, her gün çiftliğinde çalışır!"
       ],
       "questions": [
         {
@@ -392,150 +388,25 @@
           ]
         },
         {
+          "q": "Where is grandpa now?",
+          "qTr": "Büyükbaba şu an nerede?",
+          "correct": "On his farm",
+          "wrong": [
+            "At school",
+            "In a shop"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
           "q": "What is grandpa doing now?",
           "qTr": "Büyükbaba şu an ne yapıyor?",
           "correct": "Planting trees",
           "wrong": [
-            "Watering plants",
-            "Milking cows"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "What is Mr. Tarık doing at present?",
-          "qTr": "Mr. Tarık şu anda ne yapıyor?",
-          "correct": "Collecting eggs",
-          "wrong": [
-            "Sleeping",
-            "Reading"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is Ada planting?",
-          "qTr": "Ada ne ekiyor?",
-          "correct": "Vegetables",
-          "wrong": [
-            "Trees",
-            "Flowers"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
-          ]
-        },
-        {
-          "q": "How often does grandpa work hard?",
-          "qTr": "Büyükbaba ne sıklıkla çok çalışır?",
-          "correct": "Every day",
-          "wrong": [
-            "Sometimes",
-            "Never"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scan-5",
-      "title": "Every Day and Today",
-      "subtitle": "Find the right routine!",
-      "icon": "🐔",
-      "hlMode": "fade3",
-      "hintMode": "button",
-      "choices": 3,
-      "cast": [
-        {
-          "n": "Deniz",
-          "e": "🧒"
-        },
-        {
-          "n": "Mert",
-          "e": "👦🏻"
-        },
-        {
-          "n": "Mr. Tarık",
-          "e": "👨‍🌾"
-        }
-      ],
-      "sentences": [
-        "Deniz: My uncle works on his farm every day.",
-        "Every morning, he feeds the chickens.",
-        "Every day, he milks the cows.",
-        "But today, my uncle is not on the farm.",
-        "Today, Mr. Tarık is helping us.",
-        "What is Mr. Tarık doing now?",
-        "He is feeding the chickens now.",
-        "He is also watering the vegetables.",
-        "Mert: This is a special day on the farm!"
-      ],
-      "translations": [
-        "Deniz: Amcam çiftliğinde her gün çalışır.",
-        "Her sabah tavukları besler.",
-        "Her gün inekleri sağar.",
-        "Ama bugün, amcam çiftlikte değil.",
-        "Bugün Mr. Tarık bize yardım ediyor.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şu anda tavukları besliyor.",
-        "Sebzelere de su veriyor.",
-        "Mert: Bugün çiftlikte özel bir gün!"
-      ],
-      "questions": [
-        {
-          "q": "How often does the uncle work on his farm?",
-          "qTr": "Amca çiftliğinde ne sıklıkla çalışır?",
-          "correct": "Every day",
-          "wrong": [
-            "Sometimes",
-            "Never"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "What does the uncle do every morning?",
-          "qTr": "Amca her sabah ne yapar?",
-          "correct": "Feeds the chickens",
-          "wrong": [
-            "Plays guitar",
-            "Watches TV"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Is the uncle on the farm today?",
-          "qTr": "Amca bugün çiftlikte mi?",
-          "correct": "No",
-          "wrong": [
-            "Yes",
-            "Maybe"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Who is helping today?",
-          "qTr": "Bugün kim yardım ediyor?",
-          "correct": "Mr. Tarık",
-          "wrong": [
-            "The uncle",
-            "Maya"
+            "Milking cows",
+            "Sleeping"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -543,25 +414,152 @@
           ]
         },
         {
-          "q": "What is Mr. Tarık doing now?",
-          "qTr": "Mr. Tarık şimdi ne yapıyor?",
-          "correct": "Feeding the chickens",
+          "q": "What is Ada doing at present?",
+          "qTr": "Ada şu anda ne yapıyor?",
+          "correct": "Planting vegetables",
           "wrong": [
-            "Milking cows",
-            "Reading"
+            "Reading",
+            "Cooking"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "How often does grandpa work?",
+          "qTr": "Büyükbaba ne sıklıkla çalışır?",
+          "correct": "Every day",
+          "wrong": [
+            "Sometimes",
+            "Never"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan-5",
+      "title": "How Many Animals?",
+      "subtitle": "Find the right answer!",
+      "icon": "🐔",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "n": "Mert",
+          "e": "👦🏻"
+        },
+        {
+          "n": "Deniz",
+          "e": "🧒"
+        },
+        {
+          "n": "Mr. Tarık",
+          "e": "👨‍🌾"
+        }
+      ],
+      "sentences": [
+        "Mert: Look at the animals on our farm!",
+        "There are six cows in the barn.",
+        "There are four sheep here.",
+        "There are three goats, too.",
+        "Deniz: How many chickens are there?",
+        "Mert: There are ten chickens here!",
+        "Deniz: What is Mr. Tarık doing now?",
+        "Mert: He is feeding the chickens now.",
+        "Deniz: How many ducks are there?",
+        "Mr. Tarık: There are five ducks here!"
+      ],
+      "translations": [
+        "Mert: Çiftliğimizdeki hayvanlara bak!",
+        "Ahırda altı inek var.",
+        "Burada dört koyun var.",
+        "Üç keçi de var.",
+        "Deniz: Kaç tavuk var?",
+        "Mert: Burada on tavuk var!",
+        "Deniz: Mr. Tarık şu an ne yapıyor?",
+        "Mert: Şimdi tavukları besliyor.",
+        "Deniz: Kaç ördek var?",
+        "Mr. Tarık: Burada beş ördek var!"
+      ],
+      "questions": [
+        {
+          "q": "How many cows are there?",
+          "qTr": "Kaç inek var?",
+          "correct": "Six",
+          "wrong": [
+            "Four",
+            "Ten"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "How many sheep are there?",
+          "qTr": "Kaç koyun var?",
+          "correct": "Four",
+          "wrong": [
+            "Six",
+            "Three"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "How many chickens are there?",
+          "qTr": "Kaç tavuk var?",
+          "correct": "Ten",
+          "wrong": [
+            "Six",
+            "Five"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "What is Mr. Tarık doing now?",
+          "qTr": "Mr. Tarık şu an ne yapıyor?",
+          "correct": "Feeding the chickens",
+          "wrong": [
+            "Sleeping",
+            "Milking cows"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "How many ducks are there?",
+          "qTr": "Kaç ördek var?",
+          "correct": "Five",
+          "wrong": [
+            "Three",
+            "Ten"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
           ]
         }
       ]
     },
     {
       "id": "scan-6",
-      "title": "My Day on the Farm",
-      "subtitle": "Find the right activity!",
-      "icon": "🥚",
+      "title": "Houses on the Farm",
+      "subtitle": "Find the right answer!",
+      "icon": "🏡",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -576,46 +574,33 @@
         }
       ],
       "sentences": [
-        "Ada: I help my grandfather every day on his farm.",
-        "Every morning, I collect eggs from the chickens.",
-        "I feed the goats and the ducks.",
-        "My grandfather waters the plants.",
-        "He milks the cows every day.",
-        "Sometimes I bake bread with my grandmother.",
-        "Kerem: I help on my aunt's farm, too!",
-        "I do the gardening in the morning. I plant flowers."
+        "Ada: Look at the houses on this farm!",
+        "There is a big farmhouse here.",
+        "My grandfather lives in the farmhouse.",
+        "There is a small cottage on the farm.",
+        "There is a barn for the animals.",
+        "Kerem: What is your grandfather doing now?",
+        "Ada: He is baking bread in the farmhouse now!",
+        "Kerem: This farm is wonderful!"
       ],
       "translations": [
-        "Ada: Her gün büyükbabama çiftliğinde yardım ederim.",
-        "Her sabah tavuklardan yumurta toplarım.",
-        "Keçileri ve ördekleri beslerim.",
-        "Büyükbabam bitkilere su verir.",
-        "Her gün inekleri sağar.",
-        "Bazen büyükannemle ekmek pişiririm.",
-        "Kerem: Ben de halamın çiftliğinde yardım ederim!",
-        "Sabah bahçe işi yaparım. Çiçek ekerim."
+        "Ada: Bu çiftlikteki evlere bak!",
+        "Burada büyük bir çiftlik evi var.",
+        "Büyükbabam çiftlik evinde yaşar.",
+        "Çiftlikte küçük bir kulübe var.",
+        "Hayvanlar için bir ahır var.",
+        "Kerem: Büyükbaban şu an ne yapıyor?",
+        "Ada: Şimdi çiftlik evinde ekmek pişiriyor!",
+        "Kerem: Bu çiftlik harika!"
       ],
       "questions": [
         {
-          "q": "How often does Ada help her grandfather?",
-          "qTr": "Ada büyükbabasına ne sıklıkla yardım eder?",
-          "correct": "Every day",
+          "q": "What is the big house?",
+          "qTr": "Büyük ev nedir?",
+          "correct": "A farmhouse",
           "wrong": [
-            "Sometimes",
-            "Never"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "What does Ada collect every morning?",
-          "qTr": "Ada her sabah ne toplar?",
-          "correct": "Eggs",
-          "wrong": [
-            "Flowers",
-            "Vegetables"
+            "A cottage",
+            "A barn"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -623,12 +608,12 @@
           ]
         },
         {
-          "q": "What does Ada feed?",
-          "qTr": "Ada neyi besler?",
-          "correct": "Goats and ducks",
+          "q": "Who lives in the farmhouse?",
+          "qTr": "Çiftlik evinde kim yaşar?",
+          "correct": "The grandfather",
           "wrong": [
-            "Cows and horses",
-            "Sheep"
+            "The aunt",
+            "The teacher"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -636,26 +621,38 @@
           ]
         },
         {
-          "q": "What does the grandfather do?",
-          "qTr": "Büyükbaba ne yapar?",
-          "correct": "Waters the plants and milks the cows",
+          "q": "What is for the animals?",
+          "qTr": "Hayvanlar için ne var?",
+          "correct": "A barn",
           "wrong": [
-            "Goes to school",
-            "Plays football"
+            "A cottage",
+            "A field"
           ],
-          "hint": "Read sentences 4-5.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3,
             4
           ]
         },
         {
-          "q": "What does Kerem do in the morning?",
-          "qTr": "Kerem sabah ne yapar?",
-          "correct": "Gardening and planting flowers",
+          "q": "What is the grandfather doing now?",
+          "qTr": "Büyükbaba şu an ne yapıyor?",
+          "correct": "Baking bread",
           "wrong": [
-            "Sleeps",
-            "Cooks"
+            "Sleeping",
+            "Milking cows"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How is the farm?",
+          "qTr": "Çiftlik nasıl?",
+          "correct": "Wonderful",
+          "wrong": [
+            "Bad",
+            "Small"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -884,7 +881,7 @@
       "id": "scan-9",
       "title": "Every Day and Now",
       "subtitle": "Find the right answer!",
-      "icon": "🌾",
+      "icon": "🌼",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -900,30 +897,30 @@
       ],
       "sentences": [
         "Maya: My grandmother Selma lives in the village.",
-        "Every morning, she wakes up at five o'clock.",
-        "She feeds the chickens every day.",
-        "She bakes bread every morning.",
-        "But what is she doing now?",
-        "She is watering the flowers now!",
-        "What am I doing at present?",
-        "I am gardening with grandma!",
-        "Leo: You are both hardworking, Maya!"
+        "Leo: What does she do every morning?",
+        "Maya: She wakes up at five o'clock and bakes bread.",
+        "Leo: What is she doing now?",
+        "Maya: She is watering the flowers now!",
+        "Leo: And what are you doing, Maya?",
+        "Maya: I am gardening with grandma at present!",
+        "Leo: You are both hardworking!",
+        "Maya: Yes, we work every day!"
       ],
       "translations": [
         "Maya: Büyükannem Selma köyde yaşar.",
-        "Her sabah saat beşte uyanır.",
-        "Her gün tavukları besler.",
-        "Her sabah ekmek pişirir.",
-        "Ama şu an ne yapıyor?",
-        "Şu anda çiçeklere su veriyor!",
-        "Ben şu anda ne yapıyorum?",
-        "Büyükannemle bahçede çalışıyorum!",
-        "Leo: İkiniz de çalışkansınız, Maya!"
+        "Leo: Her sabah ne yapar?",
+        "Maya: Saat beşte uyanır ve ekmek pişirir.",
+        "Leo: Şu an ne yapıyor?",
+        "Maya: Şu anda çiçeklere su veriyor!",
+        "Leo: Peki sen ne yapıyorsun, Maya?",
+        "Maya: Şu anda büyükannemle bahçede çalışıyorum!",
+        "Leo: İkiniz de çalışkansınız!",
+        "Maya: Evet, her gün çalışırız!"
       ],
       "questions": [
         {
-          "q": "Where does Maya's grandmother live?",
-          "qTr": "Maya'nın büyükannesi nerede yaşar?",
+          "q": "Where does grandmother live?",
+          "qTr": "Büyükanne nerede yaşar?",
           "correct": "In the village",
           "wrong": [
             "In the city",
@@ -942,20 +939,6 @@
             "Sleeps",
             "Plays games"
           ],
-          "hint": "Read sentences 2 and 4.",
-          "hl": [
-            1,
-            3
-          ]
-        },
-        {
-          "q": "What does she feed every day?",
-          "qTr": "Her gün ne besler?",
-          "correct": "The chickens",
-          "wrong": [
-            "The cows",
-            "The horses"
-          ],
           "hint": "Read sentence 3.",
           "hl": [
             2
@@ -969,9 +952,9 @@
             "Sleeping",
             "Baking"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            5
+            4
           ]
         },
         {
@@ -982,16 +965,29 @@
             "Watching TV",
             "Cooking"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentence 7.",
           "hl": [
-            7
+            6
+          ]
+        },
+        {
+          "q": "How often do they work?",
+          "qTr": "Ne sıklıkla çalışırlar?",
+          "correct": "Every day",
+          "wrong": [
+            "Sometimes",
+            "Never"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
           ]
         }
       ]
     },
     {
       "id": "scan-10",
-      "title": "Festival Day on the Farm",
+      "title": "Eid al-Adha on the Farm",
       "subtitle": "Find the right answer!",
       "icon": "🐑",
       "hlMode": "fade3",
@@ -1012,31 +1008,31 @@
         }
       ],
       "sentences": [
-        "Today is Eid al-Adha in Türkiye.",
-        "Deniz: I am at my uncle's farm today!",
+        "Deniz: Today is Eid al-Adha in Türkiye!",
+        "Maya: Where are you today, Deniz?",
+        "Deniz: I am at my uncle's farm!",
         "There are many sheep here. There are five cows, too.",
-        "Mr. Tarık is helping us today.",
-        "What is Mr. Tarık doing now?",
-        "He is feeding the sheep at present.",
+        "Maya: What is Mr. Tarık doing now?",
+        "Deniz: He is feeding the sheep at present.",
         "My uncle is helping with the cows.",
-        "Maya: This is a special Eid day!",
-        "Happy Eid al-Adha to families!"
+        "Maya: Happy Eid al-Adha to your family!",
+        "Deniz: Happy Eid al-Adha, Maya!"
       ],
       "translations": [
-        "Bugün Türkiye'de Kurban Bayramı.",
-        "Deniz: Bugün amcamın çiftliğindeyim!",
+        "Deniz: Bugün Türkiye'de Kurban Bayramı!",
+        "Maya: Bugün neredesin, Deniz?",
+        "Deniz: Amcamın çiftliğindeyim!",
         "Burada birçok koyun var. Beş inek de var.",
-        "Mr. Tarık bugün bize yardım ediyor.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şu anda koyunları besliyor.",
+        "Maya: Mr. Tarık şu an ne yapıyor?",
+        "Deniz: Şu anda koyunları besliyor.",
         "Amcam ineklerle yardım ediyor.",
-        "Maya: Bu özel bir Bayram günü!",
-        "Ailelere mutlu bayramlar!"
+        "Maya: Ailene mutlu bayramlar!",
+        "Deniz: Mutlu bayramlar, Maya!"
       ],
       "questions": [
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Bu hangi özel gün?",
           "correct": "Eid al-Adha",
           "wrong": [
             "Eid al-Fitr",
@@ -1055,9 +1051,9 @@
             "At school",
             "In the city"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
@@ -1068,14 +1064,14 @@
             "Three",
             "Ten"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "What is Mr. Tarık doing at present?",
-          "qTr": "Mr. Tarık şu anda ne yapıyor?",
+          "q": "What is Mr. Tarık doing now?",
+          "qTr": "Mr. Tarık şu an ne yapıyor?",
           "correct": "Feeding the sheep",
           "wrong": [
             "Sleeping",
@@ -1328,7 +1324,7 @@
       "id": "skim-2",
       "title": "Hens and Eggs",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🐔",
+      "icon": "🥚",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -1344,28 +1340,28 @@
       ],
       "sentences": [
         "Ada: There are hens on my grandfather's farm.",
-        "How many hens are there?",
-        "There are seven hens in the barn.",
-        "The hens have many eggs.",
-        "Every morning, I collect the eggs.",
-        "Today, I am collecting many eggs.",
+        "Deniz: How many hens are there?",
+        "Ada: There are seven hens in the barn.",
+        "There are many eggs here.",
+        "Deniz: What are you doing today, Ada?",
+        "Ada: I am collecting the eggs now!",
         "Deniz: Hens are wonderful animals!",
-        "Ada: Eggs are good food for our family."
+        "Ada: Yes, eggs are good food for our family."
       ],
       "translations": [
         "Ada: Büyükbabamın çiftliğinde tavuklar var.",
-        "Kaç tavuk var?",
-        "Ahırda yedi tavuk var.",
-        "Tavukların birçok yumurtası var.",
-        "Her sabah yumurtaları toplarım.",
-        "Bugün birçok yumurta topluyorum.",
+        "Deniz: Kaç tavuk var?",
+        "Ada: Ahırda yedi tavuk var.",
+        "Burada birçok yumurta var.",
+        "Deniz: Bugün ne yapıyorsun, Ada?",
+        "Ada: Şimdi yumurtaları topluyorum!",
         "Deniz: Tavuklar harika hayvanlar!",
-        "Ada: Yumurtalar ailemiz için iyi besin."
+        "Ada: Evet, yumurtalar ailemiz için iyi besin."
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin çoğunlukla ne hakkında?",
           "correct": "Hens and eggs",
           "wrong": [
             "Cows",
@@ -1390,42 +1386,42 @@
           ]
         },
         {
-          "q": "What do the hens have?",
-          "qTr": "Tavuklarda ne var?",
-          "correct": "Eggs",
-          "wrong": [
-            "Milk",
-            "Vegetables"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "When does Ada collect the eggs every morning?",
-          "qTr": "Ada her sabah yumurtaları ne zaman toplar?",
-          "correct": "Every morning",
-          "wrong": [
-            "At night",
-            "Sometimes"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What is Ada doing today?",
-          "qTr": "Ada bugün ne yapıyor?",
-          "correct": "Collecting many eggs",
+          "q": "What is Ada doing now?",
+          "qTr": "Ada şu an ne yapıyor?",
+          "correct": "Collecting the eggs",
           "wrong": [
             "Sleeping",
-            "Watching TV"
+            "Cooking"
           ],
           "hint": "Read sentence 6.",
           "hl": [
             5
+          ]
+        },
+        {
+          "q": "How are hens?",
+          "qTr": "Tavuklar nasıl?",
+          "correct": "Wonderful",
+          "wrong": [
+            "Bad",
+            "Sad"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What is good food?",
+          "qTr": "İyi besin nedir?",
+          "correct": "Eggs",
+          "wrong": [
+            "Cars",
+            "Books"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
           ]
         }
       ]
@@ -1434,7 +1430,7 @@
       "id": "skim-3",
       "title": "Mr. Tarık's Busy Day",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "💧",
+      "icon": "☀️",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -1454,25 +1450,25 @@
       ],
       "sentences": [
         "Maya: It is a sunny day on the farm.",
-        "What is Mr. Tarık doing now?",
-        "He is watering the plants now.",
-        "What is Mert doing at present?",
-        "He is milking the cows at present.",
-        "What am I doing now?",
-        "I am feeding the rabbits now!",
-        "Mert: We are all hardworking today!",
-        "Many people are busy on the farm!"
+        "Mert: What is Mr. Tarık doing now?",
+        "Maya: He is watering the plants now.",
+        "Mert: And what are you doing, Maya?",
+        "Maya: I am feeding the rabbits now!",
+        "Maya: What are you doing at present, Mert?",
+        "Mert: I am milking the cows at present!",
+        "Maya: We are all hardworking today!",
+        "Mert: Yes, the farm is busy!"
       ],
       "translations": [
         "Maya: Çiftlikte güneşli bir gün.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şimdi bitkilere su veriyor.",
-        "Mert şu anda ne yapıyor?",
-        "Şu anda inekleri sağıyor.",
-        "Ben şu an ne yapıyorum?",
-        "Şu an tavşanları besliyorum!",
-        "Mert: Bugün hepimiz çalışkanız!",
-        "Çiftlikte birçok kişi meşgul!"
+        "Mert: Mr. Tarık şu an ne yapıyor?",
+        "Maya: Şimdi bitkilere su veriyor.",
+        "Mert: Peki sen ne yapıyorsun, Maya?",
+        "Maya: Şimdi tavşanları besliyorum!",
+        "Maya: Sen şu anda ne yapıyorsun, Mert?",
+        "Mert: Şu anda inekleri sağıyorum!",
+        "Maya: Bugün hepimiz çalışkanız!",
+        "Mert: Evet, çiftlik meşgul!"
       ],
       "questions": [
         {
@@ -1486,7 +1482,7 @@
           "hint": "Think about now.",
           "hl": [
             1,
-            8
+            7
           ]
         },
         {
@@ -1503,12 +1499,12 @@
           ]
         },
         {
-          "q": "What is Mert doing at present?",
-          "qTr": "Mert şu anda ne yapıyor?",
-          "correct": "Milking the cows",
+          "q": "What is Maya doing now?",
+          "qTr": "Maya şu an ne yapıyor?",
+          "correct": "Feeding the rabbits",
           "wrong": [
             "Reading",
-            "Playing"
+            "Milking cows"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -1516,12 +1512,12 @@
           ]
         },
         {
-          "q": "What is Maya doing now?",
-          "qTr": "Maya şu an ne yapıyor?",
-          "correct": "Feeding the rabbits",
+          "q": "What is Mert doing at present?",
+          "qTr": "Mert şu anda ne yapıyor?",
+          "correct": "Milking the cows",
           "wrong": [
             "Sleeping",
-            "Cooking"
+            "Baking"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -1545,9 +1541,9 @@
     },
     {
       "id": "skim-4",
-      "title": "Grandma Selma Now",
+      "title": "Grandma's Cottage",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🌻",
+      "icon": "🏠",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -1562,60 +1558,47 @@
         }
       ],
       "sentences": [
-        "Maya: My grandmother Selma is in her village.",
-        "She grows vegetables in her garden every year.",
-        "Today, she is gardening at present.",
-        "What is she doing now?",
-        "She is planting flowers in her garden.",
-        "She is also watering the vegetables.",
-        "Leo: Your grandmother grows many plants!",
-        "Today she is busy in her garden!"
+        "Maya: My grandmother Selma lives in a village.",
+        "There is a small cottage in the village.",
+        "My grandmother lives in this cottage.",
+        "There is a big farmhouse on the farm.",
+        "There is a barn for the animals, too.",
+        "Leo: What is your grandmother doing now?",
+        "Maya: She is baking bread in the cottage now!",
+        "Leo: Your grandmother's village is beautiful!"
       ],
       "translations": [
-        "Maya: Büyükannem Selma kendi köyünde.",
-        "Her yıl bahçesinde sebze yetiştirir.",
-        "Bugün şu anda bahçe işi yapıyor.",
-        "Şu an ne yapıyor?",
-        "Bahçesine çiçekler ekiyor.",
-        "Sebzelere de su veriyor.",
-        "Leo: Büyükannen birçok bitki yetiştiriyor!",
-        "Bugün bahçesinde meşgul!"
+        "Maya: Büyükannem Selma bir köyde yaşar.",
+        "Köyde küçük bir kulübe var.",
+        "Büyükannem bu kulübede yaşar.",
+        "Çiftlikte büyük bir çiftlik evi var.",
+        "Hayvanlar için bir ahır da var.",
+        "Leo: Büyükannen şu an ne yapıyor?",
+        "Maya: Şimdi kulübede ekmek pişiriyor!",
+        "Leo: Büyükannenin köyü güzel!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Grandma in her garden",
+          "qTr": "Metin çoğunlukla ne hakkında?",
+          "correct": "Houses in a village",
           "wrong": [
             "School",
-            "City"
+            "City life"
           ],
-          "hint": "Think about the garden.",
+          "hint": "Think about the houses.",
           "hl": [
             0,
-            7
-          ]
-        },
-        {
-          "q": "What does grandma grow every year?",
-          "qTr": "Büyükanne her yıl ne yetiştirir?",
-          "correct": "Vegetables",
-          "wrong": [
-            "Animals",
-            "Hens"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
             1
           ]
         },
         {
-          "q": "What is grandma doing at present?",
-          "qTr": "Büyükanne şu anda ne yapıyor?",
-          "correct": "Gardening",
+          "q": "Where does grandma live?",
+          "qTr": "Büyükanne nerede yaşar?",
+          "correct": "In a cottage",
           "wrong": [
-            "Sleeping",
-            "Cooking"
+            "In a barn",
+            "In a farmhouse"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -1623,12 +1606,12 @@
           ]
         },
         {
-          "q": "What is grandma planting?",
-          "qTr": "Büyükanne ne ekiyor?",
-          "correct": "Flowers",
+          "q": "What is for the animals?",
+          "qTr": "Hayvanlar için ne var?",
+          "correct": "A barn",
           "wrong": [
-            "Trees",
-            "Vegetables"
+            "A cottage",
+            "A shop"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -1636,25 +1619,38 @@
           ]
         },
         {
-          "q": "What does grandma grow?",
-          "qTr": "Büyükanne ne yetiştirir?",
-          "correct": "Many plants",
+          "q": "What is grandma doing now?",
+          "qTr": "Büyükanne şu an ne yapıyor?",
+          "correct": "Baking bread",
           "wrong": [
-            "Many books",
-            "Many cars"
+            "Sleeping",
+            "Milking cows"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "How is the village?",
+          "qTr": "Köy nasıl?",
+          "correct": "Beautiful",
+          "wrong": [
+            "Bad",
+            "Sad"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
           ]
         }
       ]
     },
     {
       "id": "skim-5",
-      "title": "Every Day and Now",
+      "title": "Animals on Grandpa's Farm",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "⚖️",
+      "icon": "🐄",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -1669,61 +1665,72 @@
         }
       ],
       "sentences": [
-        "Ada: My grandfather Halil works hard every day.",
-        "Every morning, he wakes up at five o'clock.",
-        "He milks the cows. He feeds the chickens.",
-        "He does the gardening every day.",
-        "But what is he doing now?",
-        "He is planting trees at present!",
-        "He is also growing new vegetables.",
-        "Zara: He is busy today, Ada!"
+        "Ada: There are many animals on my grandfather's farm.",
+        "There are seven cows in the barn.",
+        "There are five sheep here.",
+        "There are three horses, too.",
+        "Zara: What is your grandfather doing now?",
+        "Ada: He is feeding the horses now!",
+        "Zara: Your grandfather's farm is full of animals!",
+        "Ada: Yes, we love the animals!"
       ],
       "translations": [
-        "Ada: Büyükbabam Halil her gün çok çalışır.",
-        "Her sabah saat beşte uyanır.",
-        "İnekleri sağar. Tavukları besler.",
-        "Her gün bahçe işi yapar.",
-        "Ama şu an ne yapıyor?",
-        "Şu anda ağaç dikiyor!",
-        "Yeni sebzeler de yetiştiriyor.",
-        "Zara: Bugün meşgul, Ada!"
+        "Ada: Büyükbabamın çiftliğinde birçok hayvan var.",
+        "Ahırda yedi inek var.",
+        "Burada beş koyun var.",
+        "Üç at da var.",
+        "Zara: Büyükbaban şu an ne yapıyor?",
+        "Ada: Şimdi atları besliyor!",
+        "Zara: Büyükbabanın çiftliği hayvan dolu!",
+        "Ada: Evet, hayvanları çok severiz!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Grandpa's routine and now",
+          "qTr": "Metin çoğunlukla ne hakkında?",
+          "correct": "Animals on a farm",
           "wrong": [
             "School",
             "City"
           ],
-          "hint": "Think about every day and now.",
+          "hint": "Think about the animals.",
           "hl": [
-            0,
-            4
+            0
           ]
         },
         {
-          "q": "What does grandpa do every morning?",
-          "qTr": "Büyükbaba her sabah ne yapar?",
-          "correct": "Milks cows and feeds chickens",
+          "q": "How many cows are in the barn?",
+          "qTr": "Ahırda kaç inek var?",
+          "correct": "Seven",
           "wrong": [
-            "Sleeps",
-            "Plays games"
+            "Five",
+            "Three"
           ],
-          "hint": "Read sentences 2-3.",
+          "hint": "Read sentence 2.",
           "hl": [
-            1,
+            1
+          ]
+        },
+        {
+          "q": "How many sheep are there?",
+          "qTr": "Kaç koyun var?",
+          "correct": "Five",
+          "wrong": [
+            "Seven",
+            "Three"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
             2
           ]
         },
         {
-          "q": "How often does grandpa do the gardening?",
-          "qTr": "Büyükbaba ne sıklıkla bahçe işi yapar?",
-          "correct": "Every day",
+          "q": "How many horses are there?",
+          "qTr": "Kaç at var?",
+          "correct": "Three",
           "wrong": [
-            "Sometimes",
-            "Never"
+            "Five",
+            "Seven"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -1731,29 +1738,16 @@
           ]
         },
         {
-          "q": "What is grandpa doing at present?",
-          "qTr": "Büyükbaba şu anda ne yapıyor?",
-          "correct": "Planting trees",
+          "q": "What is the grandfather doing now?",
+          "qTr": "Büyükbaba şu an ne yapıyor?",
+          "correct": "Feeding the horses",
           "wrong": [
-            "Cooking",
-            "Sleeping"
+            "Sleeping",
+            "Baking"
           ],
           "hint": "Read sentence 6.",
           "hl": [
             5
-          ]
-        },
-        {
-          "q": "What is grandpa growing?",
-          "qTr": "Büyükbaba ne yetiştiriyor?",
-          "correct": "New vegetables",
-          "wrong": [
-            "Old houses",
-            "Cars"
-          ],
-          "hint": "Read sentence 7.",
-          "hl": [
-            6
           ]
         }
       ]
@@ -1867,7 +1861,7 @@
     },
     {
       "id": "skim-7",
-      "title": "My Cousin Sami at Present",
+      "title": "My Cousin Sami",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "👦",
       "hlMode": "always",
@@ -1885,39 +1879,36 @@
       ],
       "sentences": [
         "Leo: My cousin Sami is on a farm now.",
-        "He is ten years old.",
-        "He is helping the farmer today.",
-        "What is Sami doing now?",
-        "He is feeding the goats at present.",
-        "He is watering the plants, too.",
-        "He is also collecting eggs.",
-        "Kerem: Sami is a good helper on the farm!",
-        "He is having a busy day today."
+        "Kerem: How old is he?",
+        "Leo: He is ten years old.",
+        "Kerem: What is Sami doing now?",
+        "Leo: He is feeding the goats now.",
+        "Kerem: Does he help every day?",
+        "Leo: Yes, he collects the eggs every morning!",
+        "Kerem: Sami is a good helper on the farm!"
       ],
       "translations": [
         "Leo: Kuzenim Sami şu an bir çiftlikte.",
-        "On yaşında.",
-        "Bugün çiftçiye yardım ediyor.",
-        "Sami şu an ne yapıyor?",
-        "Şu anda keçileri besliyor.",
-        "Bitkilere de su veriyor.",
-        "Yumurta da topluyor.",
-        "Kerem: Sami çiftlikte iyi bir yardımcı!",
-        "Bugün yoğun bir gün geçiriyor."
+        "Kerem: Kaç yaşında?",
+        "Leo: On yaşında.",
+        "Kerem: Sami şu an ne yapıyor?",
+        "Leo: Şimdi keçileri besliyor.",
+        "Kerem: Her gün yardım eder mi?",
+        "Leo: Evet, her sabah yumurtaları toplar!",
+        "Kerem: Sami çiftlikte iyi bir yardımcı!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin çoğunlukla ne hakkında?",
           "correct": "Sami helping on a farm",
           "wrong": [
             "School",
             "City"
           ],
-          "hint": "Think about Sami's day.",
+          "hint": "Think about Sami.",
           "hl": [
-            0,
-            8
+            0
           ]
         },
         {
@@ -1928,14 +1919,14 @@
             "Five",
             "Twelve"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "What is Sami doing at present?",
-          "qTr": "Sami şu anda ne yapıyor?",
+          "q": "What is Sami doing now?",
+          "qTr": "Sami şu an ne yapıyor?",
           "correct": "Feeding the goats",
           "wrong": [
             "Sleeping",
@@ -1947,36 +1938,36 @@
           ]
         },
         {
-          "q": "What is he watering?",
-          "qTr": "O neyi suluyor?",
-          "correct": "The plants",
-          "wrong": [
-            "The animals",
-            "The school"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is he collecting?",
-          "qTr": "O ne topluyor?",
+          "q": "What does he collect every morning?",
+          "qTr": "Her sabah ne toplar?",
           "correct": "Eggs",
           "wrong": [
             "Flowers",
-            "Vegetables"
+            "Cars"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Is Sami a good helper?",
+          "qTr": "Sami iyi bir yardımcı mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentence 8.",
+          "hl": [
+            7
           ]
         }
       ]
     },
     {
       "id": "skim-8",
-      "title": "Village Days",
+      "title": "Summer in the Village",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "☀️",
       "hlMode": "always",
@@ -1994,59 +1985,46 @@
       ],
       "sentences": [
         "Zara: I go to a village in July and August!",
-        "My grandmother has got a small cottage.",
-        "Every morning, I feed the chickens.",
-        "Sometimes I water the flowers.",
-        "I bake bread with my grandmother often.",
-        "I collect eggs every day.",
-        "Ada: I help on my grandfather's farm, too!",
-        "I plant trees with my grandfather every year."
+        "There are many houses in the village.",
+        "There is a big farmhouse on my grandfather's farm.",
+        "There is a small cottage for my grandmother.",
+        "There is a barn for the animals.",
+        "Ada: What is your grandmother doing now?",
+        "Zara: She is baking bread in the cottage now!",
+        "Ada: Village houses are wonderful!"
       ],
       "translations": [
         "Zara: Temmuz ve ağustosta köye giderim!",
-        "Büyükannemin küçük bir kulübesi var.",
-        "Her sabah tavukları beslerim.",
-        "Bazen çiçeklere su veririm.",
-        "Büyükannemle sık sık ekmek pişiririm.",
-        "Her gün yumurta toplarım.",
-        "Ada: Büyükbabamın çiftliğinde ben de yardım ederim!",
-        "Büyükbabamla her yıl ağaç dikerim."
+        "Köyde birçok ev var.",
+        "Büyükbabamın çiftliğinde büyük bir çiftlik evi var.",
+        "Büyükannem için küçük bir kulübe var.",
+        "Hayvanlar için bir ahır var.",
+        "Ada: Büyükannen şu an ne yapıyor?",
+        "Zara: Şimdi kulübede ekmek pişiriyor!",
+        "Ada: Köy evleri harika!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Summer activities in a village",
+          "qTr": "Metin çoğunlukla ne hakkında?",
+          "correct": "Houses in a village",
           "wrong": [
             "School",
             "City"
           ],
-          "hint": "Think about summer.",
+          "hint": "Think about the houses.",
           "hl": [
             0,
-            7
-          ]
-        },
-        {
-          "q": "What has Zara's grandmother got?",
-          "qTr": "Zara'nın büyükannesinde ne var?",
-          "correct": "A small cottage",
-          "wrong": [
-            "A big farmhouse",
-            "A school"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
             1
           ]
         },
         {
-          "q": "What does Zara do every morning?",
-          "qTr": "Zara her sabah ne yapar?",
-          "correct": "Feeds the chickens",
+          "q": "What is on the grandfather's farm?",
+          "qTr": "Büyükbabanın çiftliğinde ne var?",
+          "correct": "A big farmhouse",
           "wrong": [
-            "Sleeps",
-            "Reads"
+            "A school",
+            "A shop"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -2054,25 +2032,38 @@
           ]
         },
         {
-          "q": "How often does she bake bread?",
-          "qTr": "O ne sıklıkla ekmek pişirir?",
-          "correct": "Often",
+          "q": "What is for the grandmother?",
+          "qTr": "Büyükanne için ne var?",
+          "correct": "A small cottage",
           "wrong": [
-            "Never",
-            "Once"
+            "A big farmhouse",
+            "A barn"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 4.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "What does Ada plant?",
-          "qTr": "Ada ne eker?",
-          "correct": "Trees",
+          "q": "What is the grandmother doing now?",
+          "qTr": "Büyükanne şu an ne yapıyor?",
+          "correct": "Baking bread",
           "wrong": [
-            "Flowers",
-            "Vegetables"
+            "Sleeping",
+            "Milking cows"
+          ],
+          "hint": "Read sentence 7.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "How are village houses?",
+          "qTr": "Köy evleri nasıl?",
+          "correct": "Wonderful",
+          "wrong": [
+            "Bad",
+            "Sad"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -2085,7 +2076,7 @@
       "id": "skim-9",
       "title": "Mr. Tarık's Daily Life",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "⚖️",
+      "icon": "🌙",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -2105,30 +2096,28 @@
       ],
       "sentences": [
         "Deniz: Mr. Tarık is a farmer.",
-        "Every day, he wakes up at five o'clock.",
-        "He milks the cows every morning.",
+        "Maya: What does he do every morning?",
+        "Deniz: He wakes up at five and milks the cows.",
         "He feeds the chickens every day.",
-        "He works hard on his farm.",
-        "But today is a special day.",
-        "What is Mr. Tarık doing now?",
-        "He is baking bread at present!",
-        "Maya: He is doing different things today!"
+        "Maya: But today is special. What is he doing now?",
+        "Deniz: He is baking bread at present!",
+        "Maya: He is doing different things today!",
+        "Deniz: Yes, today is a special day!"
       ],
       "translations": [
         "Deniz: Mr. Tarık bir çiftçi.",
-        "Her gün saat beşte uyanır.",
-        "Her sabah inekleri sağar.",
+        "Maya: Her sabah ne yapar?",
+        "Deniz: Saat beşte uyanır ve inekleri sağar.",
         "Her gün tavukları besler.",
-        "Çiftliğinde çok çalışır.",
-        "Ama bugün özel bir gün.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şu anda ekmek pişiriyor!",
-        "Maya: Bugün farklı şeyler yapıyor!"
+        "Maya: Ama bugün özel. Şu an ne yapıyor?",
+        "Deniz: Şu anda ekmek pişiriyor!",
+        "Maya: Bugün farklı şeyler yapıyor!",
+        "Deniz: Evet, bugün özel bir gün!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin çoğunlukla ne hakkında?",
           "correct": "Mr. Tarık's routine and today",
           "wrong": [
             "School",
@@ -2136,8 +2125,8 @@
           ],
           "hint": "Think about every day and today.",
           "hl": [
-            0,
-            5
+            1,
+            4
           ]
         },
         {
@@ -2148,22 +2137,35 @@
             "At seven",
             "At nine"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "What does he do every morning?",
-          "qTr": "O her sabah ne yapar?",
-          "correct": "Milks the cows",
+          "q": "What does he do every day?",
+          "qTr": "Her gün ne yapar?",
+          "correct": "Feeds the chickens",
           "wrong": [
             "Sleeps",
             "Watches TV"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
+          ]
+        },
+        {
+          "q": "What is he doing at present?",
+          "qTr": "Şu anda ne yapıyor?",
+          "correct": "Baking bread",
+          "wrong": [
+            "Milking cows",
+            "Sleeping"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
           ]
         },
         {
@@ -2174,22 +2176,9 @@
             "Normal",
             "Bad"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is he doing at present?",
-          "qTr": "O şu anda ne yapıyor?",
-          "correct": "Baking bread",
-          "wrong": [
-            "Milking cows",
-            "Sleeping"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
+            4
           ]
         }
       ]
@@ -2213,31 +2202,31 @@
         }
       ],
       "sentences": [
-        "Today is the 29th of October.",
-        "It is Republic Day in Türkiye!",
-        "Mert: I am at my grandmother's cottage today.",
-        "Her cottage is in a beautiful village.",
+        "Mert: Today is the 29th of October!",
+        "It is Republic Day in Türkiye.",
+        "Maya: Where are you today, Mert?",
+        "Mert: I am at my grandmother's cottage.",
         "There is a Turkish flag on every house.",
-        "What is my grandmother doing now?",
-        "She is baking bread at present!",
+        "Maya: What is your grandmother doing now?",
+        "Mert: She is baking bread at present!",
         "Maya: My grandmother is in her village, too!",
-        "She is happy on Republic Day!"
+        "Mert: Happy Republic Day, Maya!"
       ],
       "translations": [
-        "Bugün 29 Ekim.",
-        "Türkiye'de Cumhuriyet Bayramı!",
-        "Mert: Bugün büyükannemin kulübesindeyim.",
-        "Kulübesi güzel bir köyde.",
+        "Mert: Bugün 29 Ekim!",
+        "Türkiye'de Cumhuriyet Bayramı.",
+        "Maya: Bugün neredesin, Mert?",
+        "Mert: Büyükannemin kulübesindeyim.",
         "Her evde bir Türk bayrağı var.",
-        "Büyükannem şu an ne yapıyor?",
-        "Şu anda ekmek pişiriyor!",
-        "Maya: Benim büyükannem de kendi köyünde!",
-        "Cumhuriyet Bayramı'nda mutlu!"
+        "Maya: Büyükannen şu an ne yapıyor?",
+        "Mert: Şu anda ekmek pişiriyor!",
+        "Maya: Benim büyükannem de köyünde!",
+        "Mert: Mutlu Cumhuriyet Bayramı, Maya!"
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
+          "qTr": "Metin çoğunlukla ne hakkında?",
           "correct": "Republic Day in a village",
           "wrong": [
             "School",
@@ -2251,7 +2240,7 @@
         },
         {
           "q": "What date is it?",
-          "qTr": "Bugünün tarihi nedir?",
+          "qTr": "Bugün hangi tarih?",
           "correct": "The 29th of October",
           "wrong": [
             "The 23rd of April",
@@ -2270,9 +2259,9 @@
             "At school",
             "In the city"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -2289,8 +2278,8 @@
           ]
         },
         {
-          "q": "What is the grandmother doing at present?",
-          "qTr": "Büyükanne şu anda ne yapıyor?",
+          "q": "What is the grandmother doing now?",
+          "qTr": "Büyükanne şu an ne yapıyor?",
           "correct": "Baking bread",
           "wrong": [
             "Sleeping",
@@ -2445,11 +2434,10 @@
         "There is a big farmhouse here.",
         "There is a barn for the animals.",
         "There are two tractors in the fields.",
-        "There is green grass in the fields.",
-        "Mr. Tarık has got many horses.",
-        "There are four horses in the field.",
-        "What is Mr. Tarık doing now?",
-        "He is feeding the horses at present.",
+        "Maya: How many horses are there?",
+        "Deniz: There are four horses in the field.",
+        "Maya: What is Mr. Tarık doing now?",
+        "Deniz: He is feeding the horses at present.",
         "Maya: This farm is wonderful!"
       ],
       "translations": [
@@ -2457,11 +2445,10 @@
         "Burada büyük bir çiftlik evi var.",
         "Hayvanlar için bir ahır var.",
         "Tarlalarda iki traktör var.",
-        "Tarlalarda yeşil çimen var.",
-        "Mr. Tarık'ın birçok atı var.",
-        "Tarlada dört at var.",
-        "Mr. Tarık şu an ne yapıyor?",
-        "Şu anda atları besliyor.",
+        "Maya: Kaç at var?",
+        "Deniz: Tarlada dört at var.",
+        "Maya: Mr. Tarık şu an ne yapıyor?",
+        "Deniz: Şu anda atları besliyor.",
         "Maya: Bu çiftlik harika!"
       ],
       "questions": [
@@ -2479,42 +2466,42 @@
           ]
         },
         {
-          "q": "What is in the fields?",
-          "qTr": "Tarlalarda ne var?",
-          "correct": "Green grass",
-          "wrong": [
-            "Houses",
-            "Schools"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "How many horses are in the field?",
-          "qTr": "Tarlada kaç at var?",
+          "q": "How many horses are there?",
+          "qTr": "Kaç at var?",
           "correct": "Four",
           "wrong": [
             "Two",
             "Six"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentence 6.",
           "hl": [
-            6
+            5
           ]
         },
         {
-          "q": "What is Mr. Tarık doing at present?",
-          "qTr": "Mr. Tarık şu anda ne yapıyor?",
+          "q": "What is Mr. Tarık doing now?",
+          "qTr": "Mr. Tarık şu an ne yapıyor?",
           "correct": "Feeding the horses",
           "wrong": [
             "Sleeping",
             "Cooking"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 8.",
           "hl": [
-            8
+            7
+          ]
+        },
+        {
+          "q": "What is for the animals?",
+          "qTr": "Hayvanlar için ne var?",
+          "correct": "A barn",
+          "wrong": [
+            "A shop",
+            "A school"
+          ],
+          "hint": "Read sentence 3.",
+          "hl": [
+            2
           ]
         },
         {
@@ -2525,9 +2512,9 @@
             "Bad",
             "Small"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Read sentence 9.",
           "hl": [
-            9
+            8
           ]
         }
       ]
@@ -2536,7 +2523,7 @@
       "id": "int-2",
       "title": "Animals at My Aunt's Farm",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🦆",
+      "icon": "🦃",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -2554,22 +2541,22 @@
         "Kerem: There are many animals at my aunt's farm!",
         "There are five turkeys in the barn.",
         "There are six ducks here.",
-        "There are two donkeys in the field.",
-        "There is a small goat in the garden.",
-        "My aunt has got two horses, too.",
-        "What is my aunt doing now?",
-        "She is feeding the turkeys at present.",
+        "Mert: How many donkeys are there?",
+        "Kerem: There are two donkeys in the field.",
+        "There is a small goat, too.",
+        "Mert: What is your aunt doing now?",
+        "Kerem: She is feeding the turkeys at present.",
         "Mert: Your aunt's farm is full of animals!"
       ],
       "translations": [
         "Kerem: Halamın çiftliğinde birçok hayvan var!",
         "Ahırda beş hindi var.",
         "Burada altı ördek var.",
-        "Tarlada iki eşek var.",
-        "Bahçede küçük bir keçi var.",
-        "Halamın iki atı da var.",
-        "Halam şu an ne yapıyor?",
-        "Şu anda hindileri besliyor.",
+        "Mert: Kaç eşek var?",
+        "Kerem: Tarlada iki eşek var.",
+        "Küçük bir keçi de var.",
+        "Mert: Halan şu an ne yapıyor?",
+        "Kerem: Şu anda hindileri besliyor.",
         "Mert: Halanın çiftliği hayvan dolu!"
       ],
       "questions": [
@@ -2600,34 +2587,21 @@
           ]
         },
         {
-          "q": "How many donkeys are in the field?",
-          "qTr": "Tarlada kaç eşek var?",
+          "q": "How many donkeys are there?",
+          "qTr": "Kaç eşek var?",
           "correct": "Two",
           "wrong": [
             "Three",
             "One"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "How many horses has the aunt got?",
-          "qTr": "Teyzenin kaç atı var?",
-          "correct": "Two",
-          "wrong": [
-            "Three",
-            "Five"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is the aunt doing at present?",
-          "qTr": "Teyze şu anda ne yapıyor?",
+          "q": "What is the aunt doing now?",
+          "qTr": "Hala şu an ne yapıyor?",
           "correct": "Feeding the turkeys",
           "wrong": [
             "Milking cows",
@@ -2637,6 +2611,19 @@
           "hl": [
             7
           ]
+        },
+        {
+          "q": "What animal is small?",
+          "qTr": "Hangi hayvan küçük?",
+          "correct": "A goat",
+          "wrong": [
+            "A horse",
+            "A cow"
+          ],
+          "hint": "Read sentence 6.",
+          "hl": [
+            5
+          ]
         }
       ]
     },
@@ -2644,7 +2631,7 @@
       "id": "int-3",
       "title": "Ada Helps on the Farm",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🌷",
+      "icon": "🥚",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -2664,27 +2651,27 @@
       ],
       "sentences": [
         "Ada: I am at my grandfather's farm today!",
-        "I am helping on the farm.",
-        "What is my grandfather doing now?",
-        "He is milking the cows at present.",
-        "What am I doing now?",
-        "I am collecting eggs from the hens!",
-        "What is Zara doing at present?",
-        "She is feeding the rabbits.",
-        "Mr. Tarık is gardening at present.",
-        "Zara: Many people are busy on the farm today!"
+        "Zara: What is your grandfather doing now?",
+        "Ada: He is milking the cows at present.",
+        "Zara: And what are you doing, Ada?",
+        "Ada: I am collecting eggs from the hens now!",
+        "Ada: Zara, what are you doing at present?",
+        "Zara: I am feeding the rabbits!",
+        "Ada: Mr. Tarık is here today, too.",
+        "Zara: What is he doing now?",
+        "Ada: He is gardening at present!"
       ],
       "translations": [
         "Ada: Bugün büyükbabamın çiftliğindeyim!",
-        "Çiftlikte yardım ediyorum.",
-        "Büyükbabam şu an ne yapıyor?",
-        "Şu anda inekleri sağıyor.",
-        "Ben şu an ne yapıyorum?",
-        "Tavuklardan yumurta topluyorum!",
-        "Zara şu anda ne yapıyor?",
-        "Tavşanları besliyor.",
-        "Mr. Tarık şu anda bahçede çalışıyor.",
-        "Zara: Birçok kişi bugün çiftlikte meşgul!"
+        "Zara: Büyükbaban şu an ne yapıyor?",
+        "Ada: Şu anda inekleri sağıyor.",
+        "Zara: Peki sen ne yapıyorsun, Ada?",
+        "Ada: Şimdi tavuklardan yumurta topluyorum!",
+        "Ada: Zara, sen şu anda ne yapıyorsun?",
+        "Zara: Tavşanları besliyorum!",
+        "Ada: Mr. Tarık bugün de burada.",
+        "Zara: O şu an ne yapıyor?",
+        "Ada: Şu anda bahçede çalışıyor!"
       ],
       "questions": [
         {
@@ -2701,29 +2688,29 @@
           ]
         },
         {
-          "q": "What is the grandfather doing at present?",
-          "qTr": "Büyükbaba şu anda ne yapıyor?",
+          "q": "What is the grandfather doing now?",
+          "qTr": "Büyükbaba şu an ne yapıyor?",
           "correct": "Milking the cows",
           "wrong": [
             "Sleeping",
             "Reading"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 3.",
           "hl": [
-            3
+            2
           ]
         },
         {
           "q": "What is Ada doing now?",
-          "qTr": "Ada şimdi ne yapıyor?",
+          "qTr": "Ada şu an ne yapıyor?",
           "correct": "Collecting eggs",
           "wrong": [
             "Sleeping",
             "Watching TV"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            5
+            4
           ]
         },
         {
@@ -2734,9 +2721,9 @@
             "Cooking",
             "Reading"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentence 7.",
           "hl": [
-            7
+            6
           ]
         },
         {
@@ -2747,18 +2734,18 @@
             "Sleeping",
             "Cooking"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 10.",
           "hl": [
-            8
+            9
           ]
         }
       ]
     },
     {
       "id": "int-4",
-      "title": "Two Days at Grandma's Cottage",
+      "title": "Grandma's Village House",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "⚖️",
+      "icon": "🏡",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -2766,53 +2753,57 @@
         {
           "n": "Maya",
           "e": "👧"
+        },
+        {
+          "n": "Leo",
+          "e": "👦"
         }
       ],
       "sentences": [
-        "Maya: I am at my grandmother's cottage today.",
-        "Grandma Selma lives in this village.",
-        "Every day, she wakes up at five o'clock.",
-        "Every morning, she feeds the chickens.",
-        "She bakes bread every day.",
-        "She waters the vegetables every afternoon.",
-        "But today is different!",
-        "What is grandma doing now?",
-        "She is planting flowers at present!",
-        "She is also growing new vegetables today."
+        "Maya: I am at my grandmother's house today.",
+        "My grandmother lives in a village.",
+        "There is a small cottage in the village.",
+        "My grandmother lives in this cottage.",
+        "There is a big farmhouse on the farm.",
+        "There is a barn for the cows and the sheep.",
+        "Leo: What is your grandmother doing now?",
+        "Maya: She is baking bread in the cottage now!",
+        "Leo: Is there a field on the farm?",
+        "Maya: Yes, there is a big green field!"
       ],
       "translations": [
-        "Maya: Bugün büyükannemin kulübesindeyim.",
-        "Büyükanne Selma bu köyde yaşar.",
-        "Her gün saat beşte uyanır.",
-        "Her sabah tavukları besler.",
-        "Her gün ekmek pişirir.",
-        "Her öğleden sonra sebzelere su verir.",
-        "Ama bugün farklı!",
-        "Büyükanne şu an ne yapıyor?",
-        "Şu anda çiçek ekiyor!",
-        "Bugün yeni sebzeler de yetiştiriyor."
+        "Maya: Bugün büyükannemin evindeyim.",
+        "Büyükannem bir köyde yaşar.",
+        "Köyde küçük bir kulübe var.",
+        "Büyükannem bu kulübede yaşar.",
+        "Çiftlikte büyük bir çiftlik evi var.",
+        "İnekler ve koyunlar için bir ahır var.",
+        "Leo: Büyükannen şu an ne yapıyor?",
+        "Maya: Şimdi kulübede ekmek pişiriyor!",
+        "Leo: Çiftlikte tarla var mı?",
+        "Maya: Evet, büyük yeşil bir tarla var!"
       ],
       "questions": [
         {
-          "q": "When does grandma wake up every day?",
-          "qTr": "Büyükanne her gün ne zaman uyanır?",
-          "correct": "At five o'clock",
+          "q": "Where is Maya today?",
+          "qTr": "Maya bugün nerede?",
+          "correct": "At her grandmother's house",
           "wrong": [
-            "At seven",
-            "At nine"
+            "At school",
+            "In the city"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 1.",
           "hl": [
-            2
+            0
           ]
         },
         {
-          "q": "What does grandma do every morning?",
-          "qTr": "Büyükanne her sabah ne yapar?",
-          "correct": "Feeds the chickens",
+          "q": "Where does the grandmother live?",
+          "qTr": "Büyükanne nerede yaşar?",
+          "correct": "In a cottage",
           "wrong": [
-            "Sleeps",
-            "Plays games"
+            "In a farmhouse",
+            "In a barn"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -2820,12 +2811,12 @@
           ]
         },
         {
-          "q": "What does she water every afternoon?",
-          "qTr": "O her öğleden sonra neyi sular?",
-          "correct": "The vegetables",
+          "q": "What is the barn for?",
+          "qTr": "Ahır ne için?",
+          "correct": "The cows and the sheep",
           "wrong": [
-            "The flowers",
-            "The animals"
+            "The cars",
+            "The people"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -2833,25 +2824,25 @@
           ]
         },
         {
-          "q": "What is grandma doing at present?",
-          "qTr": "Büyükanne şu anda ne yapıyor?",
-          "correct": "Planting flowers",
+          "q": "What is grandma doing now?",
+          "qTr": "Büyükanne şu an ne yapıyor?",
+          "correct": "Baking bread",
           "wrong": [
             "Sleeping",
-            "Cooking"
+            "Milking cows"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 8.",
           "hl": [
-            8
+            7
           ]
         },
         {
-          "q": "What is she growing today?",
-          "qTr": "O bugün ne yetiştiriyor?",
-          "correct": "New vegetables",
+          "q": "What is on the farm?",
+          "qTr": "Çiftlikte ne var?",
+          "correct": "A big green field",
           "wrong": [
-            "Old cars",
-            "Houses"
+            "A big school",
+            "A shop"
           ],
           "hint": "Read sentence 10.",
           "hl": [
@@ -2862,7 +2853,7 @@
     },
     {
       "id": "int-5",
-      "title": "Festival of Sacrifice at the Farm",
+      "title": "Eid al-Adha at the Farm",
       "subtitle": "Read carefully and answer the questions!",
       "icon": "🐑",
       "hlMode": "fade3",
@@ -2883,33 +2874,31 @@
         }
       ],
       "sentences": [
-        "Today is Eid al-Adha in Türkiye.",
-        "Deniz: We are at my uncle's farm today.",
-        "There are many sheep here. There are eight sheep!",
+        "Deniz: Today is Eid al-Adha in Türkiye!",
+        "We are at my uncle's farm today.",
+        "There are eight sheep here.",
         "There are five cows in the barn.",
-        "My uncle is busy today.",
-        "What is he doing at present?",
-        "He is feeding the sheep now.",
-        "Mr. Tarık is helping today.",
-        "He is milking the cows at present.",
+        "Mert: What is your uncle doing now?",
+        "Deniz: He is feeding the sheep at present.",
+        "Mert: And what is Mr. Tarık doing?",
+        "Deniz: He is milking the cows now.",
         "Mert: Happy Eid al-Adha!"
       ],
       "translations": [
-        "Bugün Türkiye'de Kurban Bayramı.",
-        "Deniz: Bugün amcamın çiftliğindeyiz.",
-        "Burada birçok koyun var. Sekiz koyun var!",
+        "Deniz: Bugün Türkiye'de Kurban Bayramı!",
+        "Bugün amcamın çiftliğindeyiz.",
+        "Burada sekiz koyun var.",
         "Ahırda beş inek var.",
-        "Amcam bugün meşgul.",
-        "Şu an ne yapıyor?",
-        "Şu anda koyunları besliyor.",
-        "Mr. Tarık bugün yardım ediyor.",
-        "Şu anda inekleri sağıyor.",
+        "Mert: Amcan şu an ne yapıyor?",
+        "Deniz: Şu anda koyunları besliyor.",
+        "Mert: Peki Mr. Tarık ne yapıyor?",
+        "Deniz: Şu anda inekleri sağıyor.",
         "Mert: Mutlu bayramlar!"
       ],
       "questions": [
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Bu hangi özel gün?",
           "correct": "Eid al-Adha",
           "wrong": [
             "Eid al-Fitr",
@@ -2947,29 +2936,29 @@
           ]
         },
         {
-          "q": "What is the uncle doing at present?",
-          "qTr": "Amca şu anda ne yapıyor?",
+          "q": "What is the uncle doing now?",
+          "qTr": "Amca şu an ne yapıyor?",
           "correct": "Feeding the sheep",
           "wrong": [
             "Sleeping",
             "Reading"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentence 6.",
           "hl": [
-            6
+            5
           ]
         },
         {
-          "q": "What is Mr. Tarık doing at present?",
-          "qTr": "Mr. Tarık şu anda ne yapıyor?",
+          "q": "What is Mr. Tarık doing now?",
+          "qTr": "Mr. Tarık şu an ne yapıyor?",
           "correct": "Milking the cows",
           "wrong": [
             "Feeding sheep",
             "Watching TV"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 8.",
           "hl": [
-            8
+            7
           ]
         }
       ]
@@ -3196,44 +3185,48 @@
       "id": "int-8",
       "title": "Mr. Tarık's Special Day",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "⏰",
+      "icon": "🌳",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
       "cast": [
+        {
+          "n": "Deniz",
+          "e": "🧒"
+        },
+        {
+          "n": "Maya",
+          "e": "👧"
+        },
         {
           "n": "Mr. Tarık",
           "e": "👨‍🌾"
         }
       ],
       "sentences": [
-        "Mr. Tarık is a farmer.",
-        "Every morning, he wakes up at five o'clock.",
-        "He milks the cows every day.",
+        "Deniz: Mr. Tarık is a farmer.",
+        "Maya: What does he do every morning?",
+        "Deniz: He wakes up at five and milks the cows.",
         "He feeds the chickens every morning.",
-        "He waters the plants every afternoon.",
-        "He bakes bread every Saturday.",
-        "But today is a special day!",
-        "What is he doing now?",
-        "He is planting new trees at present!",
-        "Today, he is growing new vegetables, too."
+        "Maya: But today is special! What is he doing now?",
+        "Deniz: He is planting new trees at present!",
+        "Maya: Is he growing vegetables, too?",
+        "Deniz: Yes, he is growing new vegetables today!"
       ],
       "translations": [
-        "Mr. Tarık bir çiftçi.",
-        "Her sabah saat beşte uyanır.",
-        "Her gün inekleri sağar.",
+        "Deniz: Mr. Tarık bir çiftçi.",
+        "Maya: Her sabah ne yapar?",
+        "Deniz: Saat beşte uyanır ve inekleri sağar.",
         "Her sabah tavukları besler.",
-        "Her öğleden sonra bitkilere su verir.",
-        "Her cumartesi ekmek pişirir.",
-        "Ama bugün özel bir gün!",
-        "Şu an ne yapıyor?",
-        "Şu anda yeni ağaçlar dikiyor!",
-        "Bugün yeni sebzeler de yetiştiriyor."
+        "Maya: Ama bugün özel! Şu an ne yapıyor?",
+        "Deniz: Şu anda yeni ağaçlar dikiyor!",
+        "Maya: Sebze de yetiştiriyor mu?",
+        "Deniz: Evet, bugün yeni sebzeler yetiştiriyor!"
       ],
       "questions": [
         {
           "q": "What is Mr. Tarık?",
-          "qTr": "Mr. Tarık nedir?",
+          "qTr": "Mr. Tarık ne?",
           "correct": "A farmer",
           "wrong": [
             "A teacher",
@@ -3245,64 +3238,64 @@
           ]
         },
         {
-          "q": "When does he wake up every day?",
-          "qTr": "O her gün ne zaman uyanır?",
+          "q": "When does he wake up?",
+          "qTr": "Ne zaman uyanır?",
           "correct": "At five o'clock",
           "wrong": [
             "At seven",
             "At nine"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "What does he water every afternoon?",
-          "qTr": "O her öğleden sonra neyi sular?",
-          "correct": "The plants",
+          "q": "What does he do every morning?",
+          "qTr": "Her sabah ne yapar?",
+          "correct": "Feeds the chickens",
           "wrong": [
-            "The animals",
-            "The houses"
+            "Sleeps",
+            "Reads"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 4.",
           "hl": [
-            4
+            3
           ]
         },
         {
           "q": "What is he doing at present?",
-          "qTr": "O şu anda ne yapıyor?",
+          "qTr": "Şu anda ne yapıyor?",
           "correct": "Planting new trees",
           "wrong": [
             "Sleeping",
             "Watching TV"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 6.",
           "hl": [
-            8
+            5
           ]
         },
         {
           "q": "What is he growing today?",
-          "qTr": "O bugün ne yetiştiriyor?",
+          "qTr": "Bugün ne yetiştiriyor?",
           "correct": "New vegetables",
           "wrong": [
             "Old cars",
             "Buildings"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Read sentence 8.",
           "hl": [
-            9
+            7
           ]
         }
       ]
     },
     {
       "id": "int-9",
-      "title": "Grandpa Grows Many Things",
+      "title": "Grandpa's Village Home",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🌱",
+      "icon": "🏡",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -3317,50 +3310,50 @@
         }
       ],
       "sentences": [
-        "Ada: My grandfather grows many things on his farm.",
-        "He grows vegetables every year.",
-        "He grows tomatoes, peppers and beans.",
-        "He also grows flowers in the garden.",
-        "Every morning, he waters the plants.",
-        "Every day, he does the gardening for many hours.",
-        "But what is he doing now?",
-        "He is planting new trees at present.",
-        "Kerem: Your grandfather is a great farmer!",
-        "He grows wonderful things every year!"
+        "Ada: My grandfather lives in a village.",
+        "There is a big farmhouse on his farm.",
+        "My grandfather lives in the farmhouse with his family.",
+        "There is a small cottage for my aunt.",
+        "There is a big barn for the animals.",
+        "Kerem: What animals are in the barn?",
+        "Ada: There are cows, sheep and goats!",
+        "Kerem: What is your grandfather doing now?",
+        "Ada: He is watering the plants in the garden now!",
+        "Kerem: Your grandfather's village home is wonderful!"
       ],
       "translations": [
-        "Ada: Büyükbabam çiftliğinde birçok şey yetiştirir.",
-        "Her yıl sebze yetiştirir.",
-        "Domates, biber ve fasulye yetiştirir.",
-        "Bahçede çiçek de yetiştirir.",
-        "Her sabah bitkilere su verir.",
-        "Her gün uzun saatler bahçede çalışır.",
-        "Ama şu an ne yapıyor?",
-        "Şu anda yeni ağaçlar dikiyor.",
-        "Kerem: Büyükbaban harika bir çiftçi!",
-        "Her yıl harika şeyler yetiştirir!"
+        "Ada: Büyükbabam bir köyde yaşar.",
+        "Onun çiftliğinde büyük bir çiftlik evi var.",
+        "Büyükbabam ailesiyle çiftlik evinde yaşar.",
+        "Halam için küçük bir kulübe var.",
+        "Hayvanlar için büyük bir ahır var.",
+        "Kerem: Ahırda hangi hayvanlar var?",
+        "Ada: İnekler, koyunlar ve keçiler var!",
+        "Kerem: Büyükbaban şu an ne yapıyor?",
+        "Ada: Şimdi bahçede bitkilere su veriyor!",
+        "Kerem: Büyükbabanın köy evi harika!"
       ],
       "questions": [
         {
-          "q": "What does the grandfather grow every year?",
-          "qTr": "Büyükbaba her yıl ne yetiştirir?",
-          "correct": "Vegetables",
+          "q": "Where does the grandfather live?",
+          "qTr": "Büyükbaba nerede yaşar?",
+          "correct": "In a village",
           "wrong": [
-            "Cars",
-            "Houses"
+            "In a city",
+            "At school"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 1.",
           "hl": [
-            1
+            0
           ]
         },
         {
-          "q": "What vegetables does he grow?",
-          "qTr": "O hangi sebzeleri yetiştirir?",
-          "correct": "Tomatoes, peppers and beans",
+          "q": "Who lives in the farmhouse?",
+          "qTr": "Çiftlik evinde kim yaşar?",
+          "correct": "The grandfather and his family",
           "wrong": [
-            "Apples",
-            "Bananas"
+            "The aunt",
+            "The animals"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -3368,12 +3361,12 @@
           ]
         },
         {
-          "q": "What else does he grow?",
-          "qTr": "O başka ne yetiştirir?",
-          "correct": "Flowers",
+          "q": "What is for the aunt?",
+          "qTr": "Hala için ne var?",
+          "correct": "A small cottage",
           "wrong": [
-            "Animals",
-            "Books"
+            "A big farmhouse",
+            "A barn"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -3381,29 +3374,29 @@
           ]
         },
         {
-          "q": "What does he do every morning?",
-          "qTr": "O her sabah ne yapar?",
-          "correct": "Waters the plants",
+          "q": "What is in the barn?",
+          "qTr": "Ahırda ne var?",
+          "correct": "Cows, sheep and goats",
           "wrong": [
-            "Sleeps",
-            "Goes to school"
+            "Cars",
+            "Books"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentence 7.",
           "hl": [
-            4
+            6
           ]
         },
         {
-          "q": "What is he doing at present?",
-          "qTr": "O şu anda ne yapıyor?",
-          "correct": "Planting new trees",
+          "q": "What is the grandfather doing now?",
+          "qTr": "Büyükbaba şu an ne yapıyor?",
+          "correct": "Watering the plants",
           "wrong": [
             "Sleeping",
-            "Eating"
+            "Reading"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentence 9.",
           "hl": [
-            7
+            8
           ]
         }
       ]
@@ -3412,7 +3405,7 @@
       "id": "int-10",
       "title": "Children's Day in the Village",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🇹🇷",
+      "icon": "🎈",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -3427,33 +3420,31 @@
         }
       ],
       "sentences": [
-        "Today is the 23rd of April.",
-        "It is Children's Day in Türkiye!",
-        "Maya: We are in my grandmother's village today!",
-        "Many children are at the cottage now.",
-        "What are we doing today?",
-        "We are helping the farmers!",
-        "What is grandma doing at present?",
-        "She is baking bread for the children.",
+        "Maya: Today is the 23rd of April!",
+        "It is Children's Day in Türkiye.",
+        "We are in my grandmother's village today!",
+        "Zara: What are the children doing today?",
+        "Maya: We are helping the farmers!",
+        "Zara: What is your grandmother doing now?",
+        "Maya: She is baking bread for the children!",
         "Zara: Children's Day is wonderful in a village!",
-        "Happy 23rd of April!"
+        "Maya: Happy 23rd of April!"
       ],
       "translations": [
-        "Bugün 23 Nisan.",
-        "Türkiye'de Çocuk Bayramı!",
-        "Maya: Bugün büyükannemin köyündeyiz!",
-        "Şu an kulübede birçok çocuk var.",
-        "Bugün ne yapıyoruz?",
-        "Çiftçilere yardım ediyoruz!",
-        "Büyükanne şu anda ne yapıyor?",
-        "Çocuklar için ekmek pişiriyor.",
+        "Maya: Bugün 23 Nisan!",
+        "Türkiye'de Çocuk Bayramı.",
+        "Bugün büyükannemin köyündeyiz!",
+        "Zara: Çocuklar bugün ne yapıyor?",
+        "Maya: Çiftçilere yardım ediyoruz!",
+        "Zara: Büyükannen şu an ne yapıyor?",
+        "Maya: Çocuklar için ekmek pişiriyor!",
         "Zara: Köyde Çocuk Bayramı harika!",
-        "23 Nisan kutlu olsun!"
+        "Maya: Mutlu 23 Nisan!"
       ],
       "questions": [
         {
           "q": "What date is it?",
-          "qTr": "Bugünün tarihi nedir?",
+          "qTr": "Bugün hangi tarih?",
           "correct": "The 23rd of April",
           "wrong": [
             "The 29th of October",
@@ -3466,7 +3457,7 @@
         },
         {
           "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "qTr": "Bu hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
             "Republic Day",
@@ -3498,22 +3489,22 @@
             "Going to school",
             "Watching TV"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 5.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "What is grandma doing at present?",
-          "qTr": "Büyükanne şu anda ne yapıyor?",
+          "q": "What is grandma doing now?",
+          "qTr": "Büyükanne şu an ne yapıyor?",
           "correct": "Baking bread",
           "wrong": [
             "Sleeping",
             "Reading"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentence 7.",
           "hl": [
-            7
+            6
           ]
         }
       ]
