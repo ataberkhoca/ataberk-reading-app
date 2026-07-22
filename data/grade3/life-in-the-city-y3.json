@@ -22,24 +22,28 @@
         }
       ],
       "sentences": [
-        "Maya: It is breakfast time!",
-        "For breakfast, I have got some bread.",
-        "I have got some cheese and some butter.",
-        "I have got some toast and some olives.",
-        "I have got some fruit juice, too.",
-        "Leo: For breakfast, I have got some milk and a pancake.",
-        "Breakfast is delicious!",
-        "Enjoy your breakfast!"
+        "Maya: It is breakfast time, Leo!",
+        "Leo: What have you got for breakfast?",
+        "Maya: I have got some bread and some cheese.",
+        "Leo: Have you got any olives?",
+        "Maya: Yes, I have got some olives.",
+        "Leo: Have you got any butter?",
+        "Maya: No, I haven't got any butter.",
+        "Maya: What have you got, Leo?",
+        "Leo: I have got some milk and a pancake.",
+        "Maya: Enjoy your meal!"
       ],
       "translations": [
-        "Maya: Kahvaltı zamanı!",
-        "Kahvaltıda biraz ekmeğim var.",
-        "Biraz peynir ve biraz tereyağım var.",
-        "Biraz kızarmış ekmeğim ve biraz zeytinim var.",
-        "Biraz da meyve suyum var.",
-        "Leo: Kahvaltıda biraz sütüm ve bir pankekim var.",
-        "Kahvaltı lezzetli!",
-        "İyi kahvaltılar!"
+        "Maya: Kahvaltı zamanı, Leo!",
+        "Leo: Kahvaltıda neyin var?",
+        "Maya: Biraz ekmeğim ve biraz peynirim var.",
+        "Leo: Hiç zeytinin var mı?",
+        "Maya: Evet, biraz zeytinim var.",
+        "Leo: Hiç tereyağın var mı?",
+        "Maya: Hayır, hiç tereyağım yok.",
+        "Maya: Senin neyin var, Leo?",
+        "Leo: Biraz sütüm ve bir pankekim var.",
+        "Maya: Afiyet olsun!"
       ],
       "questions": [
         {
@@ -58,25 +62,23 @@
         {
           "q": "What has Maya got for breakfast?",
           "qTr": "Maya'nın kahvaltıda nesi var?",
-          "correct": "Bread, cheese, butter, toast, olives",
+          "correct": "Some bread and some cheese",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Some soup and some rice",
+            "Some pasta and some salad"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "What drink does Maya have?",
-          "qTr": "Maya ne içer?",
-          "correct": "Fruit juice",
+          "q": "Has Maya got any olives?",
+          "qTr": "Maya'nın hiç zeytini var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Coffee",
-            "Soup"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -84,29 +86,29 @@
           ]
         },
         {
-          "q": "What has Leo got for breakfast?",
-          "qTr": "Leo'nun kahvaltıda nesi var?",
-          "correct": "Milk and a pancake",
+          "q": "Has Maya got any butter?",
+          "qTr": "Maya'nın hiç tereyağı var mı?",
+          "correct": "No",
           "wrong": [
-            "Pasta",
-            "Soup"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "How is breakfast?",
-          "qTr": "Kahvaltı nasıl?",
-          "correct": "Delicious",
-          "wrong": [
-            "Bad",
-            "Sad"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "What has Leo got for breakfast?",
+          "qTr": "Leo'nun kahvaltıda nesi var?",
+          "correct": "Some milk and a pancake",
+          "wrong": [
+            "Some tea and a sandwich",
+            "Some water and a cake"
+          ],
+          "hint": "Read sentence 9.",
+          "hl": [
+            8
           ]
         }
       ]
@@ -130,24 +132,28 @@
         }
       ],
       "sentences": [
-        "Zara: It is lunch time!",
-        "For lunch, I have got some pasta.",
-        "I have got some salad and some bread.",
-        "I have got a sandwich with cheese.",
-        "Mert: For lunch, I have got some soup.",
-        "I have got some rice and some chicken.",
-        "I want some water, too.",
-        "Lunch is yummy!"
+        "Zara: It is lunch time, Mert!",
+        "Mert: What do you want for lunch?",
+        "Zara: I want some pasta and some salad.",
+        "Mert: Do you want any soup?",
+        "Zara: No, thank you.",
+        "Zara: What do you want, Mert?",
+        "Mert: I want some rice and some cheese.",
+        "Zara: Do you want any water?",
+        "Mert: Yes, I want some water, please.",
+        "Zara: Enjoy your meal!"
       ],
       "translations": [
-        "Zara: Öğle yemeği zamanı!",
-        "Öğlen biraz makarnam var.",
-        "Biraz salatam ve biraz ekmeğim var.",
-        "Peynirli bir sandviçim var.",
-        "Mert: Öğlen biraz çorbam var.",
-        "Biraz pirincim ve biraz tavuğum var.",
-        "Biraz da su istiyorum.",
-        "Öğle yemeği nefis!"
+        "Zara: Öğle yemeği zamanı, Mert!",
+        "Mert: Öğle yemeğinde ne istiyorsun?",
+        "Zara: Biraz makarna ve biraz salata istiyorum.",
+        "Mert: Hiç çorba istiyor musun?",
+        "Zara: Hayır, teşekkürler.",
+        "Zara: Sen ne istiyorsun, Mert?",
+        "Mert: Biraz pirinç ve biraz peynir istiyorum.",
+        "Zara: Hiç su istiyor musun?",
+        "Mert: Evet, biraz su istiyorum, lütfen.",
+        "Zara: Afiyet olsun!"
       ],
       "questions": [
         {
@@ -164,41 +170,39 @@
           ]
         },
         {
-          "q": "What has Zara got for lunch?",
-          "qTr": "Zara'nın öğle yemeğinde nesi var?",
-          "correct": "Pasta, salad, bread, a sandwich",
+          "q": "What does Zara want for lunch?",
+          "qTr": "Zara öğle yemeğinde ne istiyor?",
+          "correct": "Some pasta and some salad",
           "wrong": [
-            "Cake",
-            "Pancake"
+            "Some rice and some cheese",
+            "Some soup and some bread"
           ],
-          "hint": "Read sentences 2-4.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "What has Mert got for lunch?",
-          "qTr": "Mert'in öğle yemeğinde nesi var?",
-          "correct": "Soup, rice, chicken",
+          "q": "Does Zara want any soup?",
+          "qTr": "Zara hiç çorba istiyor mu?",
+          "correct": "No",
           "wrong": [
-            "Pasta",
-            "Toast"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read sentences 5-6.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            4,
-            5
+            3,
+            4
           ]
         },
         {
-          "q": "What does Mert want?",
-          "qTr": "Mert ne ister?",
-          "correct": "Water",
+          "q": "What does Mert want for lunch?",
+          "qTr": "Mert öğle yemeğinde ne istiyor?",
+          "correct": "Some rice and some cheese",
           "wrong": [
-            "Milk",
-            "Tea"
+            "Some pasta and some salad",
+            "Some soup and some bread"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -206,16 +210,17 @@
           ]
         },
         {
-          "q": "How is lunch?",
-          "qTr": "Öğle yemeği nasıl?",
-          "correct": "Yummy",
+          "q": "Does Mert want any water?",
+          "qTr": "Mert hiç su istiyor mu?",
+          "correct": "Yes",
           "wrong": [
-            "Bad",
-            "Sad"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentences 8-9.",
           "hl": [
-            7
+            7,
+            8
           ]
         }
       ]
@@ -239,24 +244,28 @@
         }
       ],
       "sentences": [
-        "Ada: It is dinner time!",
-        "For dinner, I have got some chicken.",
-        "I have got some pasta and some salad.",
-        "I want some cake, too.",
-        "Kerem: For dinner, I have got some meat.",
-        "I have got some bread and some soup.",
-        "I want some milk, please.",
-        "Dinner is delicious!"
+        "Ada: It is dinner time, Kerem!",
+        "Kerem: What do you want for dinner?",
+        "Ada: I will take some rice and some chicken.",
+        "Kerem: Do you want any soup?",
+        "Ada: Yes, I will take some soup, please.",
+        "Ada: What do you want, Kerem?",
+        "Kerem: I will take some pasta and some salad.",
+        "Ada: Do you want any cake?",
+        "Kerem: Yes, I will take some cake, please.",
+        "Ada: Enjoy your meal!"
       ],
       "translations": [
-        "Ada: Akşam yemeği zamanı!",
-        "Akşamleyin biraz tavuğum var.",
-        "Biraz makarnam ve biraz salatam var.",
-        "Biraz da kek istiyorum.",
-        "Kerem: Akşamleyin biraz etim var.",
-        "Biraz ekmeğim ve biraz çorbam var.",
-        "Biraz süt istiyorum, lütfen.",
-        "Akşam yemeği lezzetli!"
+        "Ada: Akşam yemeği zamanı, Kerem!",
+        "Kerem: Akşam yemeğinde ne istiyorsun?",
+        "Ada: Biraz pirinç ve biraz tavuk alacağım.",
+        "Kerem: Hiç çorba istiyor musun?",
+        "Ada: Evet, biraz çorba alacağım, lütfen.",
+        "Ada: Sen ne istiyorsun, Kerem?",
+        "Kerem: Biraz makarna ve biraz salata alacağım.",
+        "Ada: Hiç kek istiyor musun?",
+        "Kerem: Evet, biraz kek alacağım, lütfen.",
+        "Ada: Afiyet olsun!"
       ],
       "questions": [
         {
@@ -273,57 +282,57 @@
           ]
         },
         {
-          "q": "What has Ada got for dinner?",
-          "qTr": "Ada'nın akşam yemeğinde nesi var?",
-          "correct": "Chicken, pasta, salad",
+          "q": "What will Ada take for dinner?",
+          "qTr": "Ada akşam yemeğinde ne alacak?",
+          "correct": "Some rice and some chicken",
           "wrong": [
-            "Pancake",
-            "Toast"
+            "Some pasta and some salad",
+            "Some soup and some bread"
           ],
-          "hint": "Read sentences 2-3.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1,
             2
           ]
         },
         {
-          "q": "What does Ada want?",
-          "qTr": "Ada ne ister?",
-          "correct": "Cake",
+          "q": "Will Ada take any soup?",
+          "qTr": "Ada hiç çorba alacak mı?",
+          "correct": "Yes",
           "wrong": [
-            "Coffee",
-            "Soup"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            3
+            3,
+            4
           ]
         },
         {
-          "q": "What has Kerem got?",
-          "qTr": "Kerem'de ne var?",
-          "correct": "Meat, bread, soup",
+          "q": "What will Kerem take for dinner?",
+          "qTr": "Kerem akşam yemeğinde ne alacak?",
+          "correct": "Some pasta and some salad",
           "wrong": [
-            "Pasta",
-            "Cake"
-          ],
-          "hint": "Read sentences 5-6.",
-          "hl": [
-            4,
-            5
-          ]
-        },
-        {
-          "q": "What does Kerem want?",
-          "qTr": "Kerem ne ister?",
-          "correct": "Milk",
-          "wrong": [
-            "Water",
-            "Tea"
+            "Some rice and some chicken",
+            "Some meat and some cheese"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Will Kerem take any cake?",
+          "qTr": "Kerem hiç kek alacak mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentences 8-9.",
+          "hl": [
+            7,
+            8
           ]
         }
       ]
@@ -352,7 +361,7 @@
         "Mr. Cem: Can I take your order, please?",
         "Maya: Can I see the menu, please?",
         "Yes, of course! Here is the menu.",
-        "Maya: I will have some pasta, please.",
+        "Maya: I will take some pasta, please.",
         "Mr. Cem: Yes, of course!",
         "Maya: I will take some salad, too.",
         "Maya: Can I have the bill, please?",
@@ -402,8 +411,8 @@
           "qTr": "Maya neyi görmek ister?",
           "correct": "The menu",
           "wrong": [
-            "The garden",
-            "The bill"
+            "The bill",
+            "The salt"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -411,12 +420,12 @@
           ]
         },
         {
-          "q": "What will Maya have?",
+          "q": "What will Maya take?",
           "qTr": "Maya ne alacak?",
           "correct": "Pasta and salad",
           "wrong": [
             "Soup and bread",
-            "Cake"
+            "Rice and chicken"
           ],
           "hint": "Read sentences 6 and 8.",
           "hl": [
@@ -430,7 +439,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 9.",
           "hl": [
@@ -466,7 +475,7 @@
         "Ms. Lale is the waitress.",
         "Ms. Lale: Can I take your order, please?",
         "Zara: I will take some cake, please.",
-        "Ada: I will have some fruit juice, please.",
+        "Ada: I will take some fruit juice, please.",
         "Ms. Lale: Yes, of course!",
         "Zara: Can I have the bill, please?",
         "Ms. Lale: Yes, here is the bill.",
@@ -528,8 +537,8 @@
           "qTr": "Ada ne alacak?",
           "correct": "Fruit juice",
           "wrong": [
-            "Coffee",
-            "Tea"
+            "Tea",
+            "Milk"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -542,7 +551,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -578,7 +587,7 @@
         "I am at a takeaway place with Leo.",
         "Mr. Cem: What do you want?",
         "Deniz: I will take a sandwich, please.",
-        "Leo: I will have some pasta, please.",
+        "Leo: I will take some pasta, please.",
         "Deniz: I want some juice, too.",
         "Mr. Cem: Yes, of course! Here is your takeaway.",
         "Deniz: Thank you!"
@@ -612,8 +621,8 @@
           "qTr": "Deniz nerede?",
           "correct": "At a takeaway place",
           "wrong": [
-            "At a school",
-            "At home"
+            "At a big restaurant",
+            "At a small café"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -625,8 +634,8 @@
           "qTr": "Mr. Cem ne sorar?",
           "correct": "What do you want?",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "What have you got?",
+            "Here is the bill!"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -671,46 +680,46 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👧🏻",
-          "n": "Ada"
-        },
-        {
           "e": "👩",
           "n": "Mum"
+        },
+        {
+          "e": "👧🏻",
+          "n": "Ada"
         }
       ],
       "sentences": [
-        "Ada is at home with her family.",
-        "Ada: Mum, I want some bread, please.",
-        "Have you got any cheese?",
-        "Mum: Yes, I have got some cheese here.",
+        "Mum: Dinner is ready, Ada!",
+        "Ada: Can I have some rice, please?",
+        "Mum: Yes, you can. Here you are.",
+        "Mum: Do you want any chicken?",
+        "Ada: Yes, I want some chicken, please.",
+        "Ada: Can I have some bread, too?",
+        "Mum: Yes, of course. Here you are.",
         "Ada: Pass me the salt, please.",
-        "Mum: Here you are.",
-        "Ada: Have you got any olives?",
-        "Mum: Yes, we have got some olives.",
-        "Dinner is ready!",
-        "Enjoy your meal!"
+        "Mum: Here you are. Enjoy your meal!",
+        "Ada: Thank you, Mum. I am full!"
       ],
       "translations": [
-        "Ada ailesiyle evde.",
-        "Ada: Anne, biraz ekmek istiyorum, lütfen.",
-        "Hiç peynir var mı?",
-        "Anne: Evet, burada biraz peynir var.",
+        "Anne: Akşam yemeği hazır, Ada!",
+        "Ada: Biraz pirinç alabilir miyim, lütfen?",
+        "Anne: Evet, alabilirsin. Buyur.",
+        "Anne: Hiç tavuk istiyor musun?",
+        "Ada: Evet, biraz tavuk istiyorum, lütfen.",
+        "Ada: Biraz da ekmek alabilir miyim?",
+        "Anne: Evet, tabii ki. Buyur.",
         "Ada: Tuzu uzatır mısın, lütfen.",
-        "Anne: Buyur.",
-        "Ada: Hiç zeytin var mı?",
-        "Anne: Evet, biraz zeytinimiz var.",
-        "Akşam yemeği hazır!",
-        "Afiyet olsun!"
+        "Anne: Buyur. Afiyet olsun!",
+        "Ada: Teşekkürler, anne. Karnım doydu!"
       ],
       "questions": [
         {
-          "q": "Where is Ada?",
-          "qTr": "Ada nerede?",
-          "correct": "At home",
+          "q": "What meal is it?",
+          "qTr": "Bu hangi öğün?",
+          "correct": "Dinner",
           "wrong": [
-            "At a restaurant",
-            "At school"
+            "Breakfast",
+            "Lunch"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -718,55 +727,57 @@
           ]
         },
         {
-          "q": "What does Ada want?",
-          "qTr": "Ada ne ister?",
-          "correct": "Some bread",
+          "q": "What can Ada have first?",
+          "qTr": "Ada ilk olarak ne alabilir?",
+          "correct": "Some rice",
           "wrong": [
-            "Some pasta",
-            "Some soup"
+            "Some soup",
+            "Some cake"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentences 2-3.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
-          "q": "Has mum got cheese?",
-          "qTr": "Annenin peyniri var mı?",
+          "q": "Does Ada want any chicken?",
+          "qTr": "Ada hiç tavuk istiyor mu?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            3
+            3,
+            4
           ]
         },
         {
-          "q": "What does Ada ask mum to pass?",
-          "qTr": "Ada, anneden neyi uzatmasını ister?",
+          "q": "What does Ada ask Mum to pass?",
+          "qTr": "Ada, anneden neyi uzatmasını istiyor?",
           "correct": "The salt",
           "wrong": [
             "The bread",
             "The water"
           ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "Has mum got olives?",
-          "qTr": "Annenin zeytini var mı?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
           "hint": "Read sentence 8.",
           "hl": [
             7
+          ]
+        },
+        {
+          "q": "What does Ada say at the end?",
+          "qTr": "Ada sonunda ne diyor?",
+          "correct": "I am full!",
+          "wrong": [
+            "Dinner is ready!",
+            "Enjoy your meal!"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
           ]
         }
       ]
@@ -909,7 +920,7 @@
         "Maya and Leo are at a restaurant.",
         "Mr. Cem is the waiter today.",
         "Mr. Cem: What do you want?",
-        "Maya: I will have some salad, please.",
+        "Maya: I will take some salad, please.",
         "Leo: I will take some soup, please.",
         "Maya: I want some juice, too.",
         "Mr. Cem: Have you got any questions?",
@@ -936,7 +947,7 @@
           "correct": "Mr. Cem",
           "wrong": [
             "Ms. Lale",
-            "Mr. Tarık"
+            "Maya"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -974,7 +985,7 @@
           "qTr": "Maya başka ne de ister?",
           "correct": "Juice",
           "wrong": [
-            "Coffee",
+            "Tea",
             "Milk"
           ],
           "hint": "Read sentence 6.",
@@ -988,7 +999,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 10.",
           "hl": [
@@ -1025,7 +1036,7 @@
         "Maya is at a café with her family.",
         "Ms. Lale is the waitress.",
         "Ms. Lale: Happy Children's Day! What do you want?",
-        "Maya: I will have some cake, please.",
+        "Maya: I will take some cake, please.",
         "Kerem: I will take some fruit juice, please.",
         "Ms. Lale: Yes, of course!",
         "Maya: Can I have the bill, please?",
@@ -1076,7 +1087,7 @@
           "correct": "Ms. Lale",
           "wrong": [
             "Mr. Cem",
-            "Mr. Tarık"
+            "Kerem"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -1159,8 +1170,8 @@
           "qTr": "Maya kahvaltıda ne yer?",
           "correct": "Toast with butter and jam",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "Soup with rice and salad",
+            "Pasta with cheese and olives"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -1172,8 +1183,8 @@
           "qTr": "Leo kahvaltıda ne yer?",
           "correct": "Yogurt and honey",
           "wrong": [
-            "Cake",
-            "Pizza"
+            "Cake and tea",
+            "Soup and bread"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -1185,8 +1196,8 @@
           "qTr": "Ada kahvaltıda ne yer?",
           "correct": "Olives and cheese",
           "wrong": [
-            "Soup",
-            "Burgers"
+            "Soup and rice",
+            "Cake and juice"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -1211,8 +1222,8 @@
           "qTr": "Ada'nın büyükannesi her sabah ne yer?",
           "correct": "Yogurt and honey",
           "wrong": [
-            "Cake",
-            "Toast"
+            "Bread and butter",
+            "Toast and tea"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -1242,24 +1253,28 @@
         }
       ],
       "sentences": [
-        "Maya: I have got a big breakfast today!",
-        "I have got some toast with butter.",
-        "I have got some cheese and some olives.",
-        "I have got some fruit juice, too.",
-        "Deniz: I want some pancakes!",
-        "I want some milk, too.",
-        "Maya: My breakfast is delicious!",
-        "Breakfast is a wonderful meal for me!"
+        "Maya: Good morning, Deniz! I have got a big breakfast today.",
+        "Deniz: What have you got for breakfast?",
+        "Maya: I have got some toast with butter and some cheese.",
+        "Deniz: Have you got any olives?",
+        "Maya: Yes, I have got some olives, too.",
+        "Maya: What do you want for breakfast, Deniz?",
+        "Deniz: I want some pancakes, please.",
+        "Maya: Do you want any milk?",
+        "Deniz: Yes, I want some milk, please.",
+        "Maya: Breakfast is a wonderful meal!"
       ],
       "translations": [
-        "Maya: Bugün büyük bir kahvaltım var!",
-        "Tereyağlı kızarmış ekmeğim var.",
-        "Biraz peynir ve biraz zeytinim var.",
-        "Biraz da meyve suyum var.",
-        "Deniz: Pankek istiyorum!",
-        "Biraz da süt istiyorum.",
-        "Maya: Kahvaltım lezzetli!",
-        "Kahvaltı benim için harika bir öğün!"
+        "Maya: Günaydın, Deniz! Bugün büyük bir kahvaltım var.",
+        "Deniz: Kahvaltıda neyin var?",
+        "Maya: Tereyağlı kızarmış ekmeğim ve biraz peynirim var.",
+        "Deniz: Hiç zeytinin var mı?",
+        "Maya: Evet, biraz da zeytinim var.",
+        "Maya: Sen kahvaltıda ne istiyorsun, Deniz?",
+        "Deniz: Biraz pankek istiyorum, lütfen.",
+        "Maya: Hiç süt istiyor musun?",
+        "Deniz: Evet, biraz süt istiyorum, lütfen.",
+        "Maya: Kahvaltı harika bir öğün!"
       ],
       "questions": [
         {
@@ -1267,67 +1282,67 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "A big breakfast",
           "wrong": [
-            "A school day",
-            "A trip"
+            "A big lunch",
+            "A big dinner"
           ],
           "hint": "Think about breakfast.",
           "hl": [
             0,
-            7
+            9
           ]
         },
         {
-          "q": "What does Maya have with butter?",
-          "qTr": "Maya tereyağının yanında ne yer?",
-          "correct": "Toast",
+          "q": "What has Maya got for breakfast?",
+          "qTr": "Maya'nın kahvaltıda nesi var?",
+          "correct": "Some toast and some cheese",
           "wrong": [
-            "Bread",
-            "Pasta"
+            "Some soup and some rice",
+            "Some pasta and some salad"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "What else does Maya have?",
-          "qTr": "Maya başka ne yer?",
-          "correct": "Cheese, olives, fruit juice",
+          "q": "Has Maya got any olives?",
+          "qTr": "Maya'nın hiç zeytini var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Pasta and soup",
-            "Meat"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentences 3-4.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            2,
-            3
+            3,
+            4
           ]
         },
         {
-          "q": "What does Deniz want?",
-          "qTr": "Deniz ne ister?",
-          "correct": "Pancakes and milk",
+          "q": "What does Deniz want for breakfast?",
+          "qTr": "Deniz kahvaltıda ne istiyor?",
+          "correct": "Some pancakes",
           "wrong": [
-            "Toast",
-            "Cheese"
-          ],
-          "hint": "Read sentences 5-6.",
-          "hl": [
-            4,
-            5
-          ]
-        },
-        {
-          "q": "How is Maya's breakfast?",
-          "qTr": "Maya'nın kahvaltısı nasıl?",
-          "correct": "Delicious",
-          "wrong": [
-            "Bad",
-            "Sad"
+            "Some olives",
+            "Some cheese"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Does Deniz want any milk?",
+          "qTr": "Deniz hiç süt istiyor mu?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentences 8-9.",
+          "hl": [
+            7,
+            8
           ]
         }
       ]
@@ -1351,24 +1366,28 @@
         }
       ],
       "sentences": [
-        "Zara: I am at school for lunch!",
-        "Today I have got some rice and some chicken.",
-        "I have got a sandwich with cheese, too.",
-        "Mert: I have got some pasta for lunch.",
-        "I have got some salad with my pasta.",
-        "Zara: I want some juice, please.",
-        "Mert: I want some water.",
-        "Lunch is wonderful at school!"
+        "Zara: It is lunch time at school, Mert!",
+        "Mert: What have you got for lunch?",
+        "Zara: I have got some rice and some chicken.",
+        "Mert: Have you got any bread?",
+        "Zara: No, I haven't got any bread.",
+        "Zara: What have you got, Mert?",
+        "Mert: I have got some pasta with salad.",
+        "Zara: Do you want any water?",
+        "Mert: Yes, I want some water, please.",
+        "Zara: Lunch is wonderful at school!"
       ],
       "translations": [
-        "Zara: Öğle yemeği için okuldayım!",
-        "Bugün biraz pirincim ve biraz tavuğum var.",
-        "Peynirli bir sandviçim de var.",
-        "Mert: Öğlen biraz makarnam var.",
-        "Makarnamla biraz salatam var.",
-        "Zara: Biraz meyve suyu istiyorum, lütfen.",
-        "Mert: Biraz su istiyorum.",
-        "Okulda öğle yemeği harika!"
+        "Zara: Okulda öğle yemeği zamanı, Mert!",
+        "Mert: Öğle yemeğinde neyin var?",
+        "Zara: Biraz pirincim ve biraz tavuğum var.",
+        "Mert: Hiç ekmeğin var mı?",
+        "Zara: Hayır, hiç ekmeğim yok.",
+        "Zara: Senin neyin var, Mert?",
+        "Mert: Salatalı biraz makarnam var.",
+        "Zara: Hiç su istiyor musun?",
+        "Mert: Evet, biraz su istiyorum, lütfen.",
+        "Zara: Okulda öğle yemeği harika!"
       ],
       "questions": [
         {
@@ -1376,34 +1395,22 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Lunch at school",
           "wrong": [
-            "Breakfast",
-            "Dinner"
+            "Dinner at home",
+            "Breakfast at home"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about lunch.",
           "hl": [
-            0
+            0,
+            9
           ]
         },
         {
-          "q": "What has Zara got with rice?",
-          "qTr": "Zara'nın pilavın yanında nesi var?",
-          "correct": "Chicken",
+          "q": "What has Zara got for lunch?",
+          "qTr": "Zara'nın öğle yemeğinde nesi var?",
+          "correct": "Some rice and some chicken",
           "wrong": [
-            "Pasta",
-            "Soup"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What kind of sandwich has Zara got?",
-          "qTr": "Zara'nın ne tür bir sandviçi var?",
-          "correct": "Cheese sandwich",
-          "wrong": [
-            "Chicken sandwich",
-            "Egg sandwich"
+            "Some pasta and some salad",
+            "Some soup and some bread"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -1411,12 +1418,12 @@
           ]
         },
         {
-          "q": "What has Mert got?",
-          "qTr": "Mert'te ne var?",
-          "correct": "Pasta and salad",
+          "q": "Has Zara got any bread?",
+          "qTr": "Zara'nın hiç ekmeği var mı?",
+          "correct": "No",
           "wrong": [
-            "Rice",
-            "Soup"
+            "Yes",
+            "Maybe"
           ],
           "hint": "Read sentences 4-5.",
           "hl": [
@@ -1425,16 +1432,30 @@
           ]
         },
         {
-          "q": "What does Mert want?",
-          "qTr": "Mert ne ister?",
-          "correct": "Water",
+          "q": "What has Mert got for lunch?",
+          "qTr": "Mert'in öğle yemeğinde nesi var?",
+          "correct": "Some pasta with salad",
           "wrong": [
-            "Juice",
-            "Milk"
+            "Some rice with chicken",
+            "Some soup with bread"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "Does Mert want any water?",
+          "qTr": "Mert hiç su istiyor mu?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentences 8-9.",
+          "hl": [
+            7,
+            8
           ]
         }
       ]
@@ -1465,10 +1486,10 @@
         "Ada is at a restaurant with her family today.",
         "Mr. Cem is the waiter.",
         "Mr. Cem: Can I take your order, please?",
-        "Ada: I will have some pasta, please.",
+        "Ada: I will take some pasta, please.",
         "Ada: I will take some salad, too.",
         "Mr. Cem: Yes, of course! What about you?",
-        "Ada's father: I will have some chicken with rice.",
+        "Ada's father: I will take some chicken with rice.",
         "Ada: Can I have the bill, please?",
         "Mr. Cem: Yes, here is the bill!",
         "The family is happy at the restaurant."
@@ -1491,8 +1512,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "A family at a restaurant",
           "wrong": [
-            "At home",
-            "At school"
+            "A family at a school",
+            "A family at a café"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1517,8 +1538,8 @@
           "qTr": "Ada ne alacak?",
           "correct": "Pasta and salad",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Soup and bread",
+            "Rice and chicken"
           ],
           "hint": "Read sentences 4-5.",
           "hl": [
@@ -1531,8 +1552,8 @@
           "qTr": "Ada'nın babası ne alacak?",
           "correct": "Chicken with rice",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Pasta with cheese",
+            "Soup with bread"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -1545,7 +1566,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -1580,9 +1601,9 @@
         "Maya and Leo are at a café today.",
         "Ms. Lale is the waitress.",
         "Ms. Lale: What do you want?",
-        "Maya: I will have some cake, please.",
+        "Maya: I will take some cake, please.",
         "I will take some tea, too.",
-        "Leo: I will have some fruit juice, please.",
+        "Leo: I will take some fruit juice, please.",
         "I will take a sandwich, too.",
         "Maya: Can I have the bill, please?",
         "Ms. Lale: Yes, of course! Here is the bill.",
@@ -1606,8 +1627,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "A day at a café",
           "wrong": [
-            "At home",
-            "At a restaurant"
+            "A day at a school",
+            "A day at a restaurant"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1632,8 +1653,8 @@
           "qTr": "Maya ne alacak?",
           "correct": "Cake and tea",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "Soup and bread",
+            "Pasta and salad"
           ],
           "hint": "Read sentences 4-5.",
           "hl": [
@@ -1646,8 +1667,8 @@
           "qTr": "Leo ne alacak?",
           "correct": "Fruit juice and a sandwich",
           "wrong": [
-            "Cake",
-            "Soup"
+            "Some cake and some tea",
+            "Some soup and some bread"
           ],
           "hint": "Read sentences 6-7.",
           "hl": [
@@ -1661,7 +1682,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -1716,8 +1737,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Food in the kitchen",
           "wrong": [
-            "School",
-            "A trip"
+            "Food at a café",
+            "Food at a school"
           ],
           "hint": "Think about kitchen.",
           "hl": [
@@ -1807,7 +1828,7 @@
         "Mr. Cem is here to help.",
         "Mr. Cem: What do you want?",
         "Mert: I will take a sandwich, please.",
-        "I will have some fruit juice, too.",
+        "I will take some fruit juice, too.",
         "Deniz: I will take some pasta, please.",
         "I want some cake, too.",
         "Mr. Cem: Yes, here is your takeaway!"
@@ -1829,8 +1850,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Fast food on Friday",
           "wrong": [
-            "At school",
-            "At home"
+            "Fast food on Sunday",
+            "Fast food on Monday"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1842,8 +1863,8 @@
           "qTr": "Mert nerede?",
           "correct": "At a takeaway place",
           "wrong": [
-            "At school",
-            "At a school"
+            "At a big restaurant",
+            "At a small café"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -1915,27 +1936,29 @@
       ],
       "sentences": [
         "Maya is at home for lunch with her family.",
-        "Maya: Mum, I want some pasta, please.",
-        "Have you got any cheese for my pasta?",
-        "Mum: Yes, here is some cheese for you.",
+        "Mum: Lunch is ready! What do you want, Maya?",
+        "Maya: I want some pasta, please.",
+        "Maya: Have you got any cheese for my pasta?",
+        "Mum: Yes, I have got some cheese here.",
+        "Mum: What do you want for lunch?",
+        "Maya's little brother: I want some soup, please.",
+        "Mum: Here you are. Do you want any salad?",
+        "Maya's little brother: Yes, I want some salad, too.",
         "Maya: Pass me the salt, please.",
-        "Mum: Here you are.",
-        "Maya's little brother: I want some bread, please.",
-        "Mum: I have got some bread here!",
-        "Maya: Lunch is ready!",
-        "Enjoy your meal!"
+        "Mum: Here you are. Enjoy your meal!"
       ],
       "translations": [
         "Maya öğle yemeği için ailesiyle evde.",
-        "Maya: Anne, biraz makarna istiyorum, lütfen.",
-        "Makarnam için hiç peynir var mı?",
-        "Anne: Evet, sana biraz peynir.",
+        "Anne: Öğle yemeği hazır! Ne istiyorsun, Maya?",
+        "Maya: Biraz makarna istiyorum, lütfen.",
+        "Maya: Makarnam için hiç peynir var mı?",
+        "Anne: Evet, burada biraz peynir var.",
+        "Anne: Öğle yemeğinde ne istiyorsun?",
+        "Maya'nın küçük kardeşi: Biraz çorba istiyorum, lütfen.",
+        "Anne: Buyur. Hiç salata istiyor musun?",
+        "Maya'nın küçük kardeşi: Evet, biraz da salata istiyorum.",
         "Maya: Tuzu uzatır mısın, lütfen.",
-        "Anne: Buyur.",
-        "Maya'nın küçük kardeşi: Biraz ekmek istiyorum, lütfen.",
-        "Anne: Burada biraz ekmek var!",
-        "Maya: Öğle yemeği hazır!",
-        "Afiyet olsun!"
+        "Anne: Buyur. Afiyet olsun!"
       ],
       "questions": [
         {
@@ -1943,8 +1966,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Lunch at home",
           "wrong": [
-            "At a restaurant",
-            "At school"
+            "Lunch at school",
+            "Dinner at home"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -1953,54 +1976,55 @@
         },
         {
           "q": "What does Maya want?",
-          "qTr": "Maya ne ister?",
-          "correct": "Pasta",
+          "qTr": "Maya ne istiyor?",
+          "correct": "Some pasta",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Some soup",
+            "Some cake"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentence 3.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "Has mum got cheese?",
-          "qTr": "Annenin peyniri var mı?",
+          "q": "Has Mum got any cheese?",
+          "qTr": "Annenin hiç peyniri var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            3
-          ]
-        },
-        {
-          "q": "What does Maya ask mum to pass?",
-          "qTr": "Maya, anneden neyi uzatmasını ister?",
-          "correct": "The salt",
-          "wrong": [
-            "The bread",
-            "The water"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
+            3,
             4
           ]
         },
         {
           "q": "What does Maya's little brother want?",
-          "qTr": "Maya'nın küçük kardeşi ne ister?",
-          "correct": "Bread",
+          "qTr": "Maya'nın küçük kardeşi ne istiyor?",
+          "correct": "Some soup",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Some bread",
+            "Some pasta"
           ],
           "hint": "Read sentence 7.",
           "hl": [
             6
+          ]
+        },
+        {
+          "q": "What does Maya ask Mum to pass?",
+          "qTr": "Maya, anneden neyi uzatmasını istiyor?",
+          "correct": "The salt",
+          "wrong": [
+            "The bread",
+            "The water"
+          ],
+          "hint": "Read sentence 10.",
+          "hl": [
+            9
           ]
         }
       ]
@@ -2032,7 +2056,7 @@
         "Mr. Cem: Welcome! Can I take your order?",
         "Zara: Can I see the menu, please?",
         "Mr. Cem: Yes, of course! Here is the menu.",
-        "Zara: I will have some pasta with cheese.",
+        "Zara: I will take some pasta with cheese.",
         "Kerem: I will take some soup, please.",
         "I want some bread, too.",
         "Mr. Cem: Yes, of course!",
@@ -2057,8 +2081,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Dinner at a restaurant",
           "wrong": [
-            "At home",
-            "At school"
+            "Dinner at a school",
+            "Dinner at a café"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -2083,8 +2107,8 @@
           "qTr": "Zara ne alacak?",
           "correct": "Pasta with cheese",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Soup with bread",
+            "Rice with chicken"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -2110,7 +2134,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 9.",
           "hl": [
@@ -2129,106 +2153,112 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👧🏻",
+          "n": "Ada"
+        },
+        {
           "e": "👧",
           "n": "Maya"
         },
         {
           "e": "👩‍🍳",
           "n": "Ms. Lale"
-        },
-        {
-          "e": "👧🏻",
-          "n": "Ada"
         }
       ],
       "sentences": [
         "Ada and Maya are at a café with Ms. Lale.",
         "Ms. Lale: What do you want today?",
         "Ada: I want some cake, please.",
-        "I want some milk, too.",
-        "Maya: I want some toast with butter.",
-        "I want some fruit juice, please.",
-        "Ms. Lale: Yes, of course!",
+        "Ms. Lale: Do you want any milk?",
+        "Ada: Yes, I want some milk, too.",
+        "Ms. Lale: And what do you want, Maya?",
+        "Maya: I will take some toast with butter.",
+        "Ms. Lale: Do you want any fruit juice?",
+        "Maya: Yes, I will take some fruit juice, please.",
         "Maya: Can I have some olives, too?",
-        "Ms. Lale: Yes! Here you are!"
+        "Ms. Lale: Yes, of course! Here you are."
       ],
       "translations": [
         "Ada ve Maya Ms. Lale ile bir kafede.",
         "Ms. Lale: Bugün ne istersiniz?",
         "Ada: Biraz kek istiyorum, lütfen.",
-        "Biraz da süt istiyorum.",
-        "Maya: Tereyağlı kızarmış ekmek istiyorum.",
-        "Biraz meyve suyu istiyorum, lütfen.",
-        "Ms. Lale: Tabii ki!",
+        "Ms. Lale: Hiç süt istiyor musun?",
+        "Ada: Evet, biraz da süt istiyorum.",
+        "Ms. Lale: Peki sen ne istiyorsun, Maya?",
+        "Maya: Tereyağlı kızarmış ekmek alacağım.",
+        "Ms. Lale: Hiç meyve suyu istiyor musun?",
+        "Maya: Evet, biraz meyve suyu alacağım, lütfen.",
         "Maya: Biraz da zeytin alabilir miyim?",
-        "Ms. Lale: Evet! Buyur!"
+        "Ms. Lale: Evet, tabii ki! Buyur."
       ],
       "questions": [
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Wants at a café",
+          "correct": "Ordering food at a café",
           "wrong": [
-            "School",
-            "Home"
+            "Eating lunch at school",
+            "Making dinner at home"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about the café.",
           "hl": [
-            0
+            0,
+            10
           ]
         },
         {
           "q": "What does Ada want?",
-          "qTr": "Ada ne ister?",
-          "correct": "Cake and milk",
+          "qTr": "Ada ne istiyor?",
+          "correct": "Some cake and some milk",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "Some toast and some juice",
+            "Some soup and some bread"
           ],
-          "hint": "Read sentences 3-4.",
+          "hint": "Read sentences 3 and 5.",
           "hl": [
             2,
-            3
+            4
           ]
         },
         {
-          "q": "What does Maya want?",
-          "qTr": "Maya ne ister?",
-          "correct": "Toast with butter and juice",
+          "q": "What will Maya take?",
+          "qTr": "Maya ne alacak?",
+          "correct": "Some toast with butter",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Some pasta with cheese",
+            "Some rice with chicken"
           ],
-          "hint": "Read sentences 5-6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            4,
-            5
+            6
           ]
         },
         {
-          "q": "What will Maya have, too?",
-          "qTr": "Maya başka ne alacak?",
-          "correct": "Olives",
-          "wrong": [
-            "Cake",
-            "Soup"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
-          ]
-        },
-        {
-          "q": "What is Ms. Lale's answer?",
-          "qTr": "Ms. Lale'nin cevabı nedir?",
-          "correct": "Yes! Here you are!",
+          "q": "Will Maya take any fruit juice?",
+          "qTr": "Maya hiç meyve suyu alacak mı?",
+          "correct": "Yes",
           "wrong": [
             "No",
-            "Goodbye!"
+            "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentences 8-9.",
           "hl": [
+            7,
             8
+          ]
+        },
+        {
+          "q": "What can Maya have, too?",
+          "qTr": "Maya başka ne alabilir?",
+          "correct": "Some olives",
+          "wrong": [
+            "Some cake",
+            "Some milk"
+          ],
+          "hint": "Read sentences 10-11.",
+          "hl": [
+            9,
+            10
           ]
         }
       ]
@@ -2254,33 +2284,51 @@
       "sentences": [
         "Today is Eid al-Fitr in Türkiye.",
         "Maya: My family is at home today.",
-        "We have got many sweet foods!",
-        "We have got some cake and some pancakes.",
-        "We have got some toast with butter.",
+        "Zara: What have you got for Eid, Maya?",
+        "Maya: We have got some cake and some pancakes.",
+        "Zara: Have you got any toast with butter?",
+        "Maya: Yes, we have got some toast, too.",
         "Maya: Have you got any cake at your home, Zara?",
         "Zara: Yes! We have got some cake, too.",
-        "I want some fruit juice for Eid.",
-        "Happy Eid to our families!"
+        "Maya: What do you want for Eid, Zara?",
+        "Zara: I will take some fruit juice, please.",
+        "Maya: Happy Eid to our families!"
       ],
       "translations": [
         "Bugün Türkiye'de Ramazan Bayramı.",
         "Maya: Ailem bugün evde.",
-        "Birçok tatlı yiyeceğimiz var!",
-        "Biraz kekimiz ve biraz pankekimiz var.",
-        "Tereyağlı kızarmış ekmeğimiz var.",
-        "Maya: Evinde hiç kek var mı, Zara?",
-        "Zara: Evet! Biz de biraz kekimiz var.",
-        "Bayram için biraz meyve suyu istiyorum.",
-        "Ailelerimize mutlu bayramlar!"
+        "Zara: Bayram için neyiniz var, Maya?",
+        "Maya: Biraz kekimiz ve biraz pankekimiz var.",
+        "Zara: Tereyağlı hiç kızarmış ekmeğiniz var mı?",
+        "Maya: Evet, biraz da kızarmış ekmeğimiz var.",
+        "Maya: Senin evinde hiç kek var mı, Zara?",
+        "Zara: Evet! Bizim de biraz kekimiz var.",
+        "Maya: Bayram için ne istiyorsun, Zara?",
+        "Zara: Biraz meyve suyu alacağım, lütfen.",
+        "Maya: Ailelerimize mutlu bayramlar!"
       ],
       "questions": [
         {
-          "q": "What special day is it?",
-          "qTr": "Bu hangi özel gündür?",
+          "q": "What is the text mainly about?",
+          "qTr": "Metin esas olarak ne hakkındadır?",
+          "correct": "Eid sweets at home",
+          "wrong": [
+            "Lunch at a school",
+            "Dinner at a café"
+          ],
+          "hint": "Think about Eid.",
+          "hl": [
+            0,
+            10
+          ]
+        },
+        {
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
           "correct": "Eid al-Fitr",
           "wrong": [
-            "Republic Day",
-            "Children's Day"
+            "Children's Day",
+            "Republic Day"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -2288,25 +2336,12 @@
           ]
         },
         {
-          "q": "What does Maya's family have?",
-          "qTr": "Maya'nın ailesi ne yer?",
-          "correct": "Many sweet foods",
+          "q": "What has Maya's family got?",
+          "qTr": "Maya'nın ailesinin nesi var?",
+          "correct": "Some cake and some pancakes",
           "wrong": [
-            "Only milk",
-            "Only bread"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What sweet foods do they have?",
-          "qTr": "Hangi tatlı yiyecekleri yerler?",
-          "correct": "Cake and pancakes",
-          "wrong": [
-            "Pasta",
-            "Soup"
+            "Some soup and some bread",
+            "Some rice and some chicken"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -2314,29 +2349,31 @@
           ]
         },
         {
-          "q": "Has Zara got cake?",
-          "qTr": "Zara'nın keki var mı?",
+          "q": "Has Zara got any cake at home?",
+          "qTr": "Zara'nın evinde hiç kek var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentences 7-8.",
           "hl": [
-            6
+            6,
+            7
           ]
         },
         {
-          "q": "What does Zara want?",
-          "qTr": "Zara ne ister?",
-          "correct": "Fruit juice",
+          "q": "What will Zara take for Eid?",
+          "qTr": "Zara bayram için ne alacak?",
+          "correct": "Some juice",
           "wrong": [
-            "Milk",
-            "Tea"
+            "Some cake",
+            "Some tea"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentences 9-10.",
           "hl": [
-            7
+            8,
+            9
           ]
         }
       ]
@@ -2368,7 +2405,7 @@
         "We have pizza and burgers at the café.",
         "Kerem: I want a big pizza, please.",
         "Zara: I want a burger and some chips.",
-        "Mert: I will have a small pizza, please.",
+        "Mert: I will take a small pizza, please.",
         "After the meal, we have a biscuit and tea.",
         "Zara: I love this biscuit! It is sweet.",
         "Kerem: Pizza, burgers and biscuits — what a great Friday!"
@@ -2389,8 +2426,8 @@
           "qTr": "Metin esas olarak ne hakkındadır?",
           "correct": "Fast food with friends",
           "wrong": [
-            "Breakfast",
-            "School"
+            "Fast food at school",
+            "Fast food at home"
           ],
           "hint": "Think about Fridays.",
           "hl": [
@@ -2416,8 +2453,8 @@
           "qTr": "Kerem ne ister?",
           "correct": "A big pizza",
           "wrong": [
-            "A burger",
-            "Chips"
+            "A big burger",
+            "A big cake"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -2429,8 +2466,8 @@
           "qTr": "Zara ne ister?",
           "correct": "A burger and chips",
           "wrong": [
-            "A pizza",
-            "A biscuit"
+            "A pizza and tea",
+            "A biscuit and cake"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -2442,8 +2479,8 @@
           "qTr": "Yemekten sonra ne yerler?",
           "correct": "A biscuit and tea",
           "wrong": [
-            "Soup",
-            "Salad"
+            "A sandwich and soup",
+            "A pancake and milk"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -2474,63 +2511,65 @@
       ],
       "sentences": [
         "Ada: I love a big Turkish breakfast!",
-        "For breakfast, I have got some bread and some toast.",
-        "I have got some cheese and some butter.",
-        "I have got some olives and some tomatoes.",
-        "I have got some tea, too.",
-        "Mert: I have got some pancakes for breakfast.",
-        "I have got some fruit juice and some milk.",
+        "Mert: What have you got for breakfast, Ada?",
+        "Ada: I have got some bread, some cheese and some olives.",
+        "Mert: Have you got any tomatoes?",
+        "Ada: Yes, I have got some tomatoes, too.",
+        "Ada: What do you want for breakfast, Mert?",
+        "Mert: I will take some pancakes, please.",
+        "Ada: Do you want any tea?",
+        "Mert: Yes, I will take some tea, please.",
         "Ada: Pass me the butter, please.",
-        "Mert: Here you are!",
-        "Ada: Breakfast is delicious!"
+        "Mert: Here you are! Breakfast is delicious!"
       ],
       "translations": [
         "Ada: Büyük bir Türk kahvaltısını severim!",
-        "Kahvaltıda biraz ekmeğim ve biraz kızarmış ekmeğim var.",
-        "Biraz peynir ve biraz tereyağım var.",
-        "Biraz zeytin ve biraz domatesim var.",
-        "Biraz da çayım var.",
-        "Mert: Kahvaltıda pankeklerim var.",
-        "Biraz meyve suyu ve biraz sütüm var.",
-        "Ada: Tereyağı uzatır mısın, lütfen.",
-        "Mert: Buyur!",
-        "Ada: Kahvaltı lezzetli!"
+        "Mert: Kahvaltıda neyin var, Ada?",
+        "Ada: Biraz ekmeğim, biraz peynirim ve biraz zeytinim var.",
+        "Mert: Hiç domatesin var mı?",
+        "Ada: Evet, biraz da domatesim var.",
+        "Ada: Sen kahvaltıda ne istiyorsun, Mert?",
+        "Mert: Biraz pankek alacağım, lütfen.",
+        "Ada: Hiç çay istiyor musun?",
+        "Mert: Evet, biraz çay alacağım, lütfen.",
+        "Ada: Tereyağını uzatır mısın, lütfen.",
+        "Mert: Buyur! Kahvaltı lezzetli!"
       ],
       "questions": [
         {
-          "q": "What does Ada love?",
-          "qTr": "Ada neyi çok sever?",
-          "correct": "A big Turkish breakfast",
+          "q": "What has Ada got for breakfast?",
+          "qTr": "Ada'nın kahvaltıda nesi var?",
+          "correct": "Some bread and some cheese",
           "wrong": [
-            "School lunch",
-            "Dinner"
+            "Some pasta and some soup",
+            "Some rice and some chicken"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Read sentence 3.",
           "hl": [
-            0
-          ]
-        },
-        {
-          "q": "What does Ada have with toast?",
-          "qTr": "Ada tostun yanında ne yer?",
-          "correct": "Cheese and butter",
-          "wrong": [
-            "Pasta",
-            "Soup"
-          ],
-          "hint": "Read sentences 2-3.",
-          "hl": [
-            1,
             2
           ]
         },
         {
-          "q": "What does Mert have for breakfast?",
-          "qTr": "Mert kahvaltıda ne yer?",
-          "correct": "Pancakes, juice, milk",
+          "q": "Has Ada got any tomatoes?",
+          "qTr": "Ada'nın hiç domatesi var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "No",
+            "Maybe"
+          ],
+          "hint": "Read sentences 4-5.",
+          "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What will Mert take for breakfast?",
+          "qTr": "Mert kahvaltıda ne alacak?",
+          "correct": "Some pancakes",
+          "wrong": [
+            "Some olives",
+            "Some cheese"
           ],
           "hint": "Read sentences 6-7.",
           "hl": [
@@ -2539,29 +2578,30 @@
           ]
         },
         {
-          "q": "What does Ada ask Mert to pass?",
-          "qTr": "Ada, Mert'ten neyi uzatmasını ister?",
-          "correct": "The butter",
+          "q": "Will Mert take any tea?",
+          "qTr": "Mert hiç çay alacak mı?",
+          "correct": "Yes",
           "wrong": [
-            "The salt",
-            "The bread"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentences 8-9.",
           "hl": [
-            7
+            7,
+            8
           ]
         },
         {
-          "q": "What does Mert say?",
-          "qTr": "Mert ne der?",
-          "correct": "Here you are!",
+          "q": "What does Ada ask Mert to pass?",
+          "qTr": "Ada, Mert'ten neyi uzatmasını istiyor?",
+          "correct": "The butter",
           "wrong": [
-            "Goodbye!",
-            "No!"
+            "The bread",
+            "The cheese"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentence 10.",
           "hl": [
-            8
+            9
           ]
         }
       ]
@@ -2586,24 +2626,26 @@
       ],
       "sentences": [
         "Leo and Deniz are at school for lunch.",
-        "Leo: I want some lunch!",
-        "I have got some rice and some chicken today.",
-        "I have got a sandwich with cheese, too.",
-        "Deniz: I want some pasta for lunch.",
-        "I have got some salad with my pasta.",
-        "I want some juice, please.",
-        "Leo: I will have some cake after lunch.",
+        "Leo: What have you got for lunch, Deniz?",
+        "Deniz: I have got some pasta with salad.",
+        "Deniz: What have you got, Leo?",
+        "Leo: I have got some rice and some chicken.",
+        "Leo: Do you want any juice, Deniz?",
+        "Deniz: Yes, I will take some juice, please.",
+        "Deniz: Do you want any cake after lunch?",
+        "Leo: Yes, I will take some cake, please.",
         "Deniz: I am full now! Lunch is wonderful!"
       ],
       "translations": [
         "Leo ve Deniz öğle yemeği için okuldalar.",
-        "Leo: Öğle yemeği istiyorum!",
-        "Bugün biraz pirincim ve biraz tavuğum var.",
-        "Peynirli bir sandviçim de var.",
-        "Deniz: Öğlen biraz makarna istiyorum.",
-        "Makarnamla biraz salatam var.",
-        "Biraz meyve suyu istiyorum, lütfen.",
-        "Leo: Öğle yemeğinden sonra biraz kek alacağım.",
+        "Leo: Öğle yemeğinde neyin var, Deniz?",
+        "Deniz: Salatalı biraz makarnam var.",
+        "Deniz: Senin neyin var, Leo?",
+        "Leo: Biraz pirincim ve biraz tavuğum var.",
+        "Leo: Hiç meyve suyu istiyor musun, Deniz?",
+        "Deniz: Evet, biraz meyve suyu alacağım, lütfen.",
+        "Deniz: Öğle yemeğinden sonra hiç kek istiyor musun?",
+        "Leo: Evet, biraz kek alacağım, lütfen.",
         "Deniz: Şu an karnım doydu! Öğle yemeği harika!"
       ],
       "questions": [
@@ -2613,7 +2655,7 @@
           "correct": "At school",
           "wrong": [
             "At home",
-            "At a restaurant"
+            "At a café"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -2621,12 +2663,12 @@
           ]
         },
         {
-          "q": "What has Leo got with rice?",
-          "qTr": "Leo'nun pilavın yanında nesi var?",
-          "correct": "Chicken",
+          "q": "What has Deniz got for lunch?",
+          "qTr": "Deniz'in öğle yemeğinde nesi var?",
+          "correct": "Some pasta with salad",
           "wrong": [
-            "Pasta",
-            "Cake"
+            "Some rice with chicken",
+            "Some soup with bread"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -2634,43 +2676,43 @@
           ]
         },
         {
-          "q": "What kind of sandwich has Leo got?",
-          "qTr": "Leo'nun ne tür bir sandviçi var?",
-          "correct": "Cheese sandwich",
+          "q": "What has Leo got for lunch?",
+          "qTr": "Leo'nun öğle yemeğinde nesi var?",
+          "correct": "Some rice and some chicken",
           "wrong": [
-            "Chicken sandwich",
-            "Toast"
+            "Some pasta and some salad",
+            "Some soup and some bread"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "What does Deniz want?",
-          "qTr": "Deniz ne ister?",
-          "correct": "Pasta with salad and juice",
+          "q": "What will Deniz take?",
+          "qTr": "Deniz ne alacak?",
+          "correct": "Some juice",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Some milk",
+            "Some tea"
           ],
-          "hint": "Read sentences 5-7.",
+          "hint": "Read sentences 6-7.",
           "hl": [
-            4,
             5,
             6
           ]
         },
         {
-          "q": "How does Deniz feel after lunch?",
-          "qTr": "Deniz öğle yemeğinden sonra nasıl hisseder?",
-          "correct": "Full",
+          "q": "What will Leo take after lunch?",
+          "qTr": "Leo öğle yemeğinden sonra ne alacak?",
+          "correct": "Some cake",
           "wrong": [
-            "Hungry",
-            "Sad"
+            "Some soup",
+            "Some rice"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentences 8-9.",
           "hl": [
+            7,
             8
           ]
         }
@@ -2704,9 +2746,9 @@
         "Mr. Cem: Welcome! Can I take your order?",
         "Kerem: Can I see the menu, please?",
         "Mr. Cem: Yes, of course! Here is the menu.",
-        "Kerem: I will have some chicken with rice, please.",
+        "Kerem: I will take some chicken with rice, please.",
         "I will take some salad, too.",
-        "Kerem's father: I will have some pasta.",
+        "Kerem's father: I will take some pasta.",
         "Kerem: Can I have the bill, please?",
         "Mr. Cem: Yes, here is the bill! Goodbye!"
       ],
@@ -2754,8 +2796,8 @@
           "qTr": "Kerem ne alacak?",
           "correct": "Chicken with rice and salad",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Pasta with cheese and bread",
+            "Soup with rice and olives"
           ],
           "hint": "Read sentences 6-7.",
           "hl": [
@@ -2782,7 +2824,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More food"
+            "Some cake"
           ],
           "hint": "Read sentence 9.",
           "hl": [
@@ -2818,9 +2860,9 @@
         "Ms. Lale is the waitress.",
         "Ms. Lale: Welcome! What do you want?",
         "Maya looks at the menu.",
-        "Maya: I will have some cake, please.",
+        "Maya: I will take some cake, please.",
         "I will take some milk, too.",
-        "Ada: I will have some pancakes with juice.",
+        "Ada: I will take some pancakes with juice.",
         "Ada: I want some butter on my pancakes!",
         "Ms. Lale: Yes, of course!",
         "Ada: Can I have the bill, please?"
@@ -2856,8 +2898,8 @@
           "qTr": "Maya ne alacak?",
           "correct": "Cake and milk",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "Soup and bread",
+            "Pasta and salad"
           ],
           "hint": "Read sentences 5-6.",
           "hl": [
@@ -2870,8 +2912,8 @@
           "qTr": "Ada ne alacak?",
           "correct": "Pancakes with juice",
           "wrong": [
-            "Cake",
-            "Soup"
+            "Toast with butter",
+            "Soup with bread"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -2897,7 +2939,7 @@
           "correct": "The bill",
           "wrong": [
             "The menu",
-            "More cake"
+            "Some soup"
           ],
           "hint": "Read sentence 10.",
           "hl": [
@@ -2954,8 +2996,8 @@
           "qTr": "Zara ne ister?",
           "correct": "A big breakfast",
           "wrong": [
-            "Lunch",
-            "Dinner"
+            "A quick lunch",
+            "A big dinner"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3103,8 +3145,8 @@
           "qTr": "Anne ne der?",
           "correct": "Here you are!",
           "wrong": [
-            "Goodbye!",
-            "No!"
+            "Enjoy your meal!",
+            "Dinner is ready!"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -3153,8 +3195,8 @@
         "Mr. Cem is here to help.",
         "Mr. Cem: What do you want today?",
         "Maya: I will take a sandwich, please.",
-        "I will have some fruit juice, too.",
-        "Ada: I will have some pasta and some bread.",
+        "I will take some fruit juice, too.",
+        "Ada: I will take some pasta and some bread.",
         "Ada: Can I have a cake, too?",
         "Mr. Cem: Yes, of course! Here is your takeaway!",
         "Maya: Thank you, Mr. Cem!"
@@ -3176,8 +3218,8 @@
           "qTr": "Maya ve Ada nerede?",
           "correct": "At a takeaway place",
           "wrong": [
-            "At a restaurant",
-            "At home"
+            "At a big restaurant",
+            "At a small café"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3189,8 +3231,8 @@
           "qTr": "Maya ne alacak?",
           "correct": "A sandwich and fruit juice",
           "wrong": [
-            "Cake",
-            "Soup"
+            "A pancake and some milk",
+            "A cake and some tea"
           ],
           "hint": "Read sentences 4-5.",
           "hl": [
@@ -3203,8 +3245,8 @@
           "qTr": "Ada ne alacak?",
           "correct": "Pasta and bread",
           "wrong": [
-            "Soup",
-            "Cake"
+            "Soup and rice",
+            "Cake and juice"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -3229,8 +3271,8 @@
           "qTr": "Mr. Cem ne der?",
           "correct": "Yes, of course!",
           "wrong": [
-            "Goodbye!",
-            "No!"
+            "Enjoy your meal!",
+            "Dinner is ready!"
           ],
           "hint": "Read sentence 8.",
           "hl": [
@@ -3241,9 +3283,9 @@
     },
     {
       "id": "int-8",
-      "title": "Friends Order at the Café",
+      "title": "Friends Order at the Restaurant",
       "subtitle": "Read carefully and answer the questions!",
-      "icon": "🍵",
+      "icon": "🍽️",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -3262,37 +3304,41 @@
         }
       ],
       "sentences": [
-        "Leo and Kerem are at a café today.",
+        "Leo and Kerem are at a restaurant today.",
         "Ms. Lale is the waitress.",
         "Ms. Lale: What do you want?",
         "Leo: Have you got any sandwiches?",
         "Ms. Lale: Yes, we have got some cheese sandwiches.",
-        "Leo: I will have a cheese sandwich, please.",
-        "Kerem: I want some pancakes, please.",
+        "Leo: I will take a cheese sandwich, please.",
+        "Ms. Lale: And what do you want, Kerem?",
+        "Kerem: I will take some pancakes, please.",
         "Kerem: Have you got any olives?",
         "Ms. Lale: No, we haven't got any olives.",
-        "Leo: Can I have the bill, please?"
+        "Leo: Can I have the bill, please?",
+        "Ms. Lale: Yes, here is the bill!"
       ],
       "translations": [
-        "Leo ve Kerem bugün bir kafedeler.",
+        "Leo ve Kerem bugün bir restorandalar.",
         "Ms. Lale garson kadın.",
         "Ms. Lale: Ne istersiniz?",
         "Leo: Hiç sandviç var mı?",
         "Ms. Lale: Evet, peynirli sandviçlerimiz var.",
         "Leo: Bir peynirli sandviç alacağım, lütfen.",
-        "Kerem: Biraz pankek istiyorum, lütfen.",
+        "Ms. Lale: Peki sen ne istiyorsun, Kerem?",
+        "Kerem: Biraz pankek alacağım, lütfen.",
         "Kerem: Hiç zeytin var mı?",
-        "Ms. Lale: Hayır, hiç zeytin yok.",
-        "Leo: Hesabı alabilir miyim, lütfen?"
+        "Ms. Lale: Hayır, hiç zeytinimiz yok.",
+        "Leo: Hesabı alabilir miyim, lütfen?",
+        "Ms. Lale: Evet, işte hesap!"
       ],
       "questions": [
         {
           "q": "Where are Leo and Kerem?",
           "qTr": "Leo ve Kerem nerede?",
-          "correct": "At a café",
+          "correct": "At a restaurant",
           "wrong": [
             "At school",
-            "At a restaurant"
+            "At home"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3300,25 +3346,26 @@
           ]
         },
         {
-          "q": "Has Ms. Lale got sandwiches?",
-          "qTr": "Ms. Lale'nin sandviçi var mı?",
+          "q": "Has Ms. Lale got any sandwiches?",
+          "qTr": "Ms. Lale'nin hiç sandviçi var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentences 4-5.",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "What will Leo have?",
+          "q": "What will Leo take?",
           "qTr": "Leo ne alacak?",
           "correct": "A cheese sandwich",
           "wrong": [
-            "Pancakes",
-            "Cake"
+            "Some pancakes",
+            "Some olives"
           ],
           "hint": "Read sentence 6.",
           "hl": [
@@ -3326,29 +3373,31 @@
           ]
         },
         {
-          "q": "What does Kerem want?",
-          "qTr": "Kerem ne ister?",
-          "correct": "Pancakes",
+          "q": "What will Kerem take?",
+          "qTr": "Kerem ne alacak?",
+          "correct": "Some pancakes",
           "wrong": [
-            "A sandwich",
-            "Cake"
+            "A cheese sandwich",
+            "Some olives"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Read sentences 7-8.",
           "hl": [
-            6
+            6,
+            7
           ]
         },
         {
-          "q": "Has Ms. Lale got olives?",
-          "qTr": "Ms. Lale'nin zeytini var mı?",
+          "q": "Has Ms. Lale got any olives?",
+          "qTr": "Ms. Lale'nin hiç zeytini var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Read sentences 9-10.",
           "hl": [
-            8
+            8,
+            9
           ]
         }
       ]
@@ -3373,35 +3422,37 @@
       ],
       "sentences": [
         "Maya is hungry today!",
-        "Maya: Mum, I want some breakfast, please.",
-        "I want some toast with butter and cheese.",
-        "I want some olives, too.",
-        "I want some pancakes with juice.",
+        "Mum: Good morning, Maya! What do you want for breakfast?",
+        "Maya: I want some toast with butter and cheese.",
+        "Mum: Do you want any olives?",
+        "Maya: Yes, I want some olives, too.",
+        "Mum: Do you want any pancakes?",
+        "Maya: Yes, I will take some pancakes with juice.",
         "Mum: Oh, Maya! You want many things!",
-        "Mum: Yes, of course!",
-        "Maya: I want some cake, too!",
-        "Mum: Pass me the bread, Maya.",
-        "Maya: Here you are, mum!"
+        "Maya: Can I have some cake, too?",
+        "Mum: Yes, of course. Here you are.",
+        "Maya: Thank you, Mum. I am full!"
       ],
       "translations": [
-        "Maya bugün karnı aç!",
-        "Maya: Anne, biraz kahvaltı istiyorum, lütfen.",
-        "Tereyağ ve peynirli kızarmış ekmek istiyorum.",
-        "Biraz da zeytin istiyorum.",
-        "Meyve suyuyla pankek istiyorum.",
+        "Maya bugün çok aç!",
+        "Anne: Günaydın, Maya! Kahvaltıda ne istiyorsun?",
+        "Maya: Tereyağlı ve peynirli kızarmış ekmek istiyorum.",
+        "Anne: Hiç zeytin istiyor musun?",
+        "Maya: Evet, biraz da zeytin istiyorum.",
+        "Anne: Hiç pankek istiyor musun?",
+        "Maya: Evet, meyve suyuyla biraz pankek alacağım.",
         "Anne: Vay Maya! Birçok şey istiyorsun!",
-        "Anne: Tabii ki!",
-        "Maya: Biraz da kek istiyorum!",
-        "Anne: Ekmeği uzatır mısın, Maya.",
-        "Maya: Buyur, anne!"
+        "Maya: Biraz da kek alabilir miyim?",
+        "Anne: Evet, tabii ki. Buyur.",
+        "Maya: Teşekkürler, anne. Karnım doydu!"
       ],
       "questions": [
         {
           "q": "How does Maya feel today?",
-          "qTr": "Maya bugün nasıl hisseder?",
+          "qTr": "Maya bugün nasıl hissediyor?",
           "correct": "Hungry",
           "wrong": [
-            "Thirsty",
+            "Full",
             "Sad"
           ],
           "hint": "Read sentence 1.",
@@ -3411,11 +3462,11 @@
         },
         {
           "q": "What does Maya want with butter and cheese?",
-          "qTr": "Maya tereyağı ve peynirle ne ister?",
-          "correct": "Toast",
+          "qTr": "Maya tereyağı ve peynirle ne istiyor?",
+          "correct": "Some toast",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Some pasta",
+            "Some soup"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -3423,41 +3474,44 @@
           ]
         },
         {
-          "q": "What does Maya want with juice?",
-          "qTr": "Maya meyve suyuyla ne ister?",
-          "correct": "Pancakes",
+          "q": "Does Maya want any olives?",
+          "qTr": "Maya hiç zeytin istiyor mu?",
+          "correct": "Yes",
           "wrong": [
-            "Cake",
-            "Soup"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentences 4-5.",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "What else does Maya want?",
-          "qTr": "Maya başka ne ister?",
-          "correct": "Cake",
+          "q": "What will Maya take with juice?",
+          "qTr": "Maya meyve suyuyla ne alacak?",
+          "correct": "Some pancakes",
           "wrong": [
-            "Soup",
-            "Tea"
+            "Some olives",
+            "Some cheese"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Read sentences 6-7.",
           "hl": [
-            7
+            5,
+            6
           ]
         },
         {
-          "q": "What does Maya pass to mum?",
-          "qTr": "Maya anneye ne uzatır?",
-          "correct": "The bread",
+          "q": "What can Maya have, too?",
+          "qTr": "Maya başka ne alabilir?",
+          "correct": "Some cake",
           "wrong": [
-            "The salt",
-            "The water"
+            "Some soup",
+            "Some rice"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Read sentences 9-10.",
           "hl": [
+            8,
             9
           ]
         }
@@ -3491,7 +3545,7 @@
         "Maya is at a café with her family today.",
         "Ms. Lale is the waitress.",
         "Ms. Lale: Happy Children's Day! What do you want?",
-        "Maya: I will have some cake, please.",
+        "Maya: I will take some cake, please.",
         "Zara: I want some pancakes with fruit juice.",
         "Have you got any olives, Ms. Lale?",
         "Ms. Lale: Yes! We have got some olives.",
@@ -3554,8 +3608,8 @@
           "qTr": "Zara ne ister?",
           "correct": "Pancakes with juice",
           "wrong": [
-            "Cake",
-            "Soup"
+            "Toast with butter",
+            "Soup with bread"
           ],
           "hint": "Read sentence 7.",
           "hl": [
@@ -3598,7 +3652,7 @@
         "It is breakfast!"
       ],
       "translations": [
-        "Bir çocuk birçok yiyeceğe sahip.",
+        "Bir çocuğun birçok yiyeceği var.",
         "Biraz ekmeği ve biraz kızarmış ekmeği var.",
         "Biraz peyniri ve biraz zeytini var.",
         "İçmek için biraz meyve suyu var.",
@@ -3625,8 +3679,8 @@
           "qTr": "O başka ne yer?",
           "correct": "Cheese and olives",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "Pasta and rice",
+            "Soup and salad"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -3636,10 +3690,10 @@
         {
           "q": "What drink does she have?",
           "qTr": "O ne içer?",
-          "correct": "Fruit juice",
+          "correct": "Some juice",
           "wrong": [
-            "Coffee",
-            "Soup"
+            "Some tea",
+            "Some milk"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -3695,7 +3749,7 @@
         "There is a waitress here.",
         "Her name is Ms. Lale.",
         "It is not a restaurant. It is not a takeaway place.",
-        "The friends have got cake and juice.",
+        "The friends will take some cake and some juice.",
         "Where are they?",
         "They are at a café!"
       ],
@@ -3704,7 +3758,7 @@
         "Burada bir garson kadın var.",
         "Onun adı Ms. Lale.",
         "Bir restoran değil. Bir paket servis yeri değil.",
-        "Arkadaşların keki ve meyve suyu var.",
+        "Arkadaşlar biraz kek ve biraz meyve suyu alacak.",
         "Neredeler?",
         "Bir kafedeler!"
       ],
@@ -3749,12 +3803,12 @@
           ]
         },
         {
-          "q": "What have the friends got?",
-          "qTr": "Arkadaşlarda ne var?",
-          "correct": "Cake and juice",
+          "q": "What will the friends take?",
+          "qTr": "Arkadaşlar ne alacak?",
+          "correct": "Some cake and some juice",
           "wrong": [
-            "Soup",
-            "Pasta"
+            "Some soup and some bread",
+            "Some rice and some chicken"
           ],
           "hint": "Read sentence 5.",
           "hl": [
@@ -3786,12 +3840,18 @@
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
-      "cast": [],
+      "cast": [
+        {
+          "e": "👦",
+          "n": "Leo"
+        }
+      ],
       "sentences": [
         "A food is on the plate.",
         "It is brown.",
         "We eat it with butter and cheese.",
         "We have it for breakfast.",
+        "Leo will take this food for breakfast.",
         "It is not a sandwich. It is not pasta.",
         "What food is it?",
         "It is toast!"
@@ -3799,20 +3859,21 @@
       "translations": [
         "Bir yiyecek tabakta.",
         "Kahverengi.",
-        "Tereyağ ve peynirle yeriz.",
+        "Tereyağı ve peynirle yeriz.",
         "Kahvaltıda yeriz.",
-        "Bir sandviç değil. Bir makarna değil.",
+        "Leo kahvaltıda bu yiyeceği alacak.",
+        "Bir sandviç değil. Makarna değil.",
         "Bu hangi yiyecek?",
         "Kızarmış ekmek!"
       ],
       "questions": [
         {
           "q": "Where is the food?",
-          "qTr": "Yemek nerede?",
+          "qTr": "Yiyecek nerede?",
           "correct": "On the plate",
           "wrong": [
-            "In a bowl",
-            "In a glass"
+            "In the kitchen",
+            "At a café"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -3821,7 +3882,7 @@
         },
         {
           "q": "What colour is the food?",
-          "qTr": "Yemek ne renk?",
+          "qTr": "Yiyecek ne renk?",
           "correct": "Brown",
           "wrong": [
             "Red",
@@ -3837,8 +3898,8 @@
           "qTr": "Bunu ne ile yeriz?",
           "correct": "Butter and cheese",
           "wrong": [
-            "Soup",
-            "Salad"
+            "Soup and salad",
+            "Rice and chicken"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -3846,21 +3907,21 @@
           ]
         },
         {
-          "q": "When do we eat it?",
-          "qTr": "Bunu ne zaman yeriz?",
-          "correct": "For breakfast",
+          "q": "Who will take this food?",
+          "qTr": "Bu yiyeceği kim alacak?",
+          "correct": "Leo",
           "wrong": [
-            "For lunch",
-            "For dinner"
+            "Maya",
+            "Ada"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentence 5.",
           "hl": [
-            3
+            4
           ]
         },
         {
           "q": "What food is it?",
-          "qTr": "Bu hangi yemek?",
+          "qTr": "Bu hangi yiyecek?",
           "correct": "Toast",
           "wrong": [
             "A sandwich",
@@ -3870,7 +3931,7 @@
           "hl": [
             2,
             3,
-            6
+            7
           ]
         }
       ]
@@ -3885,18 +3946,23 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👩‍🍳",
-          "n": "Ms. Lale"
+          "e": "👧",
+          "n": "Maya"
         },
         {
           "e": "👨‍🍳",
           "n": "Mr. Cem"
+        },
+        {
+          "e": "👩‍🍳",
+          "n": "Ms. Lale"
         }
       ],
       "sentences": [
         "A person is at a restaurant.",
-        "This person is a waiter.",
-        "He is a man.",
+        "Maya: Can I see the menu, please?",
+        "This person brings the menu to Maya.",
+        "This person is a waiter. He is a man.",
         "He takes orders from people.",
         "He brings food and the bill.",
         "Mr. Cem is a waiter. Ms. Lale is a waitress.",
@@ -3905,8 +3971,9 @@
       ],
       "translations": [
         "Bir kişi bir restoranda.",
-        "Bu kişi garson.",
-        "Bir erkek.",
+        "Maya: Menüyü görebilir miyim, lütfen?",
+        "Bu kişi menüyü Maya'ya getirir.",
+        "Bu kişi garson. Bir erkek.",
         "İnsanlardan sipariş alır.",
         "Yemek ve hesap getirir.",
         "Mr. Cem garson. Ms. Lale garson kadın.",
@@ -3919,12 +3986,25 @@
           "qTr": "Kişi nerede?",
           "correct": "At a restaurant",
           "wrong": [
-            "At home",
-            "At school"
+            "At a café",
+            "At a school"
           ],
           "hint": "Read sentence 1.",
           "hl": [
             0
+          ]
+        },
+        {
+          "q": "What does Maya ask to see?",
+          "qTr": "Maya neyi görmek istiyor?",
+          "correct": "The menu",
+          "wrong": [
+            "The bill",
+            "The salt"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         },
         {
@@ -3935,23 +4015,9 @@
             "A woman",
             "A child"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What does he do?",
-          "qTr": "O ne yapar?",
-          "correct": "Takes orders and brings food",
-          "wrong": [
-            "Cooks",
-            "Cleans"
-          ],
-          "hint": "Read sentences 4-5.",
-          "hl": [
-            3,
-            4
+            3
           ]
         },
         {
@@ -3960,26 +4026,26 @@
           "correct": "Ms. Lale",
           "wrong": [
             "Mr. Cem",
-            "A customer"
+            "Maya"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "Who is the waiter?",
-          "qTr": "Garson kimdir?",
+          "q": "Who is this person?",
+          "qTr": "Bu kişi kimdir?",
           "correct": "Mr. Cem",
           "wrong": [
             "Ms. Lale",
-            "A customer"
+            "Maya"
           ],
           "hint": "Match man and waiter.",
           "hl": [
-            2,
-            5,
-            7
+            3,
+            6,
+            8
           ]
         }
       ]
@@ -4008,28 +4074,28 @@
       ],
       "sentences": [
         "A girl wants some cake at a café.",
-        "Maya wants some pasta today.",
-        "Zara wants some pancakes today.",
+        "Maya will take some pasta today.",
+        "Zara will take some pancakes today.",
         "Ada wants some cake and some juice.",
         "Who wants some cake?",
         "It is Ada!"
       ],
       "translations": [
         "Bir kız kafede biraz kek istiyor.",
-        "Maya bugün biraz makarna istiyor.",
-        "Zara bugün biraz pankek istiyor.",
+        "Maya bugün biraz makarna alacak.",
+        "Zara bugün biraz pankek alacak.",
         "Ada biraz kek ve biraz meyve suyu istiyor.",
         "Kim kek istiyor?",
         "Ada!"
       ],
       "questions": [
         {
-          "q": "What does Maya want?",
-          "qTr": "Maya ne ister?",
-          "correct": "Pasta",
+          "q": "What will Maya take?",
+          "qTr": "Maya ne alacak?",
+          "correct": "Some pasta",
           "wrong": [
-            "Cake",
-            "Pancakes"
+            "Some cake",
+            "Some pancakes"
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -4037,12 +4103,12 @@
           ]
         },
         {
-          "q": "What does Zara want?",
-          "qTr": "Zara ne ister?",
-          "correct": "Pancakes",
+          "q": "What will Zara take?",
+          "qTr": "Zara ne alacak?",
+          "correct": "Some pancakes",
           "wrong": [
-            "Cake",
-            "Pasta"
+            "Some cake",
+            "Some pasta"
           ],
           "hint": "Read sentence 3.",
           "hl": [
@@ -4051,11 +4117,11 @@
         },
         {
           "q": "What does Ada want?",
-          "qTr": "Ada ne ister?",
-          "correct": "Cake and juice",
+          "qTr": "Ada ne istiyor?",
+          "correct": "Some cake and juice",
           "wrong": [
-            "Pasta",
-            "Pancakes"
+            "Some pasta and bread",
+            "Some soup and rice"
           ],
           "hint": "Read sentence 4.",
           "hl": [
@@ -4067,8 +4133,8 @@
           "qTr": "Kızlar nerede?",
           "correct": "At a café",
           "wrong": [
-            "At home",
-            "At school"
+            "At a school",
+            "At a restaurant"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -4077,7 +4143,7 @@
         },
         {
           "q": "Who wants some cake?",
-          "qTr": "Kim biraz kek ister?",
+          "qTr": "Kim biraz kek istiyor?",
           "correct": "Ada",
           "wrong": [
             "Maya",
@@ -4111,30 +4177,38 @@
       ],
       "sentences": [
         "Mum is in the kitchen.",
-        "Kerem: Have you got any olives? No, mum hasn't got any olives.",
-        "Have you got any cheese? Yes, mum has got some cheese.",
-        "Have you got any pasta? No, mum hasn't got any pasta.",
-        "Have you got any bread? Yes, mum has got some bread.",
-        "What food has mum got?",
-        "She has got cheese and bread!"
+        "Kerem: Have you got any olives?",
+        "Mum: No, I haven't got any olives.",
+        "Kerem: Have you got any cheese?",
+        "Mum: Yes, I have got some cheese.",
+        "Kerem: Have you got any pasta?",
+        "Mum: No, I haven't got any pasta.",
+        "Kerem: Have you got any bread?",
+        "Mum: Yes, I have got some bread.",
+        "What food has Mum got?",
+        "She has got some cheese and some bread!"
       ],
       "translations": [
         "Anne mutfakta.",
-        "Kerem: Hiç zeytin var mı? Hayır, annenin hiç zeytini yok.",
-        "Hiç peynir var mı? Evet, annenin biraz peyniri var.",
-        "Hiç makarna var mı? Hayır, annenin hiç makarnası yok.",
-        "Hiç ekmek var mı? Evet, annenin biraz ekmeği var.",
+        "Kerem: Hiç zeytinin var mı?",
+        "Anne: Hayır, hiç zeytinim yok.",
+        "Kerem: Hiç peynirin var mı?",
+        "Anne: Evet, biraz peynirim var.",
+        "Kerem: Hiç makarnan var mı?",
+        "Anne: Hayır, hiç makarnam yok.",
+        "Kerem: Hiç ekmeğin var mı?",
+        "Anne: Evet, biraz ekmeğim var.",
         "Annenin hangi yiyeceği var?",
-        "Peyniri ve ekmeği var!"
+        "Biraz peyniri ve biraz ekmeği var!"
       ],
       "questions": [
         {
-          "q": "Where is mum?",
+          "q": "Where is Mum?",
           "qTr": "Anne nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "At a restaurant"
+            "At a café",
+            "At a school"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -4142,57 +4216,60 @@
           ]
         },
         {
-          "q": "Has mum got olives?",
-          "qTr": "Annenin zeytini var mı?",
+          "q": "Has Mum got any olives?",
+          "qTr": "Annenin hiç zeytini var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Read sentences 2-3.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
-          "q": "Has mum got cheese?",
-          "qTr": "Annenin peyniri var mı?",
+          "q": "Has Mum got any cheese?",
+          "qTr": "Annenin hiç peyniri var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentences 4-5.",
           "hl": [
-            2
+            3,
+            4
           ]
         },
         {
-          "q": "Has mum got pasta?",
-          "qTr": "Annenin makarnası var mı?",
+          "q": "Has Mum got any pasta?",
+          "qTr": "Annenin hiç makarnası var mı?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Read sentences 6-7.",
           "hl": [
-            3
+            5,
+            6
           ]
         },
         {
-          "q": "What does mum have?",
-          "qTr": "Anne ne yer?",
-          "correct": "Cheese and bread",
+          "q": "What food has Mum got?",
+          "qTr": "Annenin hangi yiyeceği var?",
+          "correct": "Some cheese and some bread",
           "wrong": [
-            "Olives and pasta",
-            "Soup"
+            "Some olives and some pasta",
+            "Some soup and some chicken"
           ],
-          "hint": "Match yes.",
+          "hint": "Match the yes answers.",
           "hl": [
-            2,
             4,
-            6
+            8,
+            10
           ]
         }
       ]
@@ -4207,6 +4284,10 @@
       "choices": 3,
       "cast": [
         {
+          "e": "👦",
+          "n": "The boy"
+        },
+        {
           "e": "👨‍🍳",
           "n": "Mr. Cem"
         }
@@ -4216,29 +4297,29 @@
         "He is not at home.",
         "He is not at a restaurant for a long dinner.",
         "He is not at a café for cake.",
-        "He wants a sandwich and some juice.",
-        "Mr. Cem helps the boy quickly.",
+        "The boy: Can I have a sandwich and some juice, please?",
+        "Mr. Cem: Yes, of course! Here you are.",
         "Where is the boy?",
         "He is at a takeaway place!"
       ],
       "translations": [
-        "Bir erkek hızlı yemek istiyor.",
+        "Bir oğlan çabucak yemek istiyor.",
         "Evde değil.",
         "Uzun bir akşam yemeği için restoranda değil.",
         "Kek için kafede değil.",
-        "Bir sandviç ve biraz meyve suyu istiyor.",
-        "Mr. Cem erkeğe hızlı yardım eder.",
-        "Erkek nerede?",
+        "Erkek çocuk: Bir sandviç ve biraz meyve suyu alabilir miyim, lütfen?",
+        "Mr. Cem: Evet, tabii ki! Buyur.",
+        "Oğlan nerede?",
         "Bir paket servis yerinde!"
       ],
       "questions": [
         {
-          "q": "What does the boy want quickly?",
-          "qTr": "Oğlan hızlıca ne ister?",
-          "correct": "Food",
+          "q": "Does the boy want food quickly?",
+          "qTr": "Oğlan çabucak yemek istiyor mu?",
+          "correct": "Yes",
           "wrong": [
-            "A book",
-            "A toy"
+            "No",
+            "Maybe"
           ],
           "hint": "Read sentence 1.",
           "hl": [
@@ -4259,21 +4340,22 @@
           ]
         },
         {
-          "q": "What does he want?",
-          "qTr": "O ne ister?",
+          "q": "What can the boy have?",
+          "qTr": "Oğlan ne alabilir?",
           "correct": "A sandwich and juice",
           "wrong": [
-            "Pasta",
-            "Cake"
+            "Some pasta and salad",
+            "Some soup and bread"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Read sentences 5-6.",
           "hl": [
-            4
+            4,
+            5
           ]
         },
         {
-          "q": "Who helps him?",
-          "qTr": "Ona kim yardım eder?",
+          "q": "Who helps the boy?",
+          "qTr": "Oğlana kim yardım ediyor?",
           "correct": "Mr. Cem",
           "wrong": [
             "Ms. Lale",
@@ -4289,8 +4371,8 @@
           "qTr": "Oğlan nerede?",
           "correct": "At a takeaway place",
           "wrong": [
-            "At a restaurant",
-            "At a café"
+            "At a big restaurant",
+            "At a small café"
           ],
           "hint": "Match quick and sandwich.",
           "hl": [
@@ -4329,11 +4411,11 @@
       ],
       "sentences": [
         "A boy looks at the menu at a restaurant.",
-        "The boy: I will have some pasta, please.",
+        "The boy: I will take some pasta, please.",
         "Leo wants some chicken today.",
-        "Kerem will have some pasta today.",
+        "Kerem will take some pasta today.",
         "Mert wants some soup today.",
-        "Who will have some pasta?",
+        "Who will take some pasta?",
         "It is Kerem!"
       ],
       "translations": [
@@ -4362,10 +4444,10 @@
         {
           "q": "What does the boy say?",
           "qTr": "Oğlan ne der?",
-          "correct": "I will have some pasta, please.",
+          "correct": "I will take some pasta, please.",
           "wrong": [
-            "Goodbye!",
-            "I am full!"
+            "I will take some soup, please.",
+            "I will take some cake, please."
           ],
           "hint": "Read sentence 2.",
           "hl": [
@@ -4399,7 +4481,7 @@
           ]
         },
         {
-          "q": "Who will have some pasta?",
+          "q": "Who will take some pasta?",
           "qTr": "Kim biraz makarna alacak?",
           "correct": "Kerem",
           "wrong": [
@@ -4502,8 +4584,8 @@
           "qTr": "Maya ne der?",
           "correct": "Pass me the salt, please!",
           "wrong": [
-            "Goodbye!",
-            "Sit down!"
+            "Pass me the bread, please!",
+            "Pass me the water, please!"
           ],
           "hint": "Match salt.",
           "hl": [
@@ -4524,6 +4606,7 @@
       "cast": [],
       "sentences": [
         "A family is at a café in Türkiye.",
+        "The family will take some cake and some juice.",
         "Today is a special day for children.",
         "It is not a religious day.",
         "It is not the 29th of October.",
@@ -4534,8 +4617,9 @@
       ],
       "translations": [
         "Bir aile Türkiye'de bir kafede.",
+        "Aile biraz kek ve biraz meyve suyu alacak.",
         "Bugün çocuklar için özel bir gün.",
-        "Bir dini gün değil.",
+        "Dini bir gün değil.",
         "29 Ekim değil.",
         "Bugün birçok çocuk kafelerde.",
         "Tarih 23 Nisan.",
@@ -4549,11 +4633,24 @@
           "correct": "At a café",
           "wrong": [
             "At a restaurant",
-            "At school"
+            "At a school"
           ],
           "hint": "Read sentence 1.",
           "hl": [
             0
+          ]
+        },
+        {
+          "q": "What will the family take?",
+          "qTr": "Aile ne alacak?",
+          "correct": "Some cake and juice",
+          "wrong": [
+            "Some soup and bread",
+            "Some rice and chicken"
+          ],
+          "hint": "Read sentence 2.",
+          "hl": [
+            1
           ]
         },
         {
@@ -4564,9 +4661,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Read sentence 4.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -4577,22 +4674,9 @@
             "The 29th of October",
             "The 19th of May"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Read sentence 7.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Where are many children today?",
-          "qTr": "Bugün birçok çocuk nerede?",
-          "correct": "At cafés",
-          "wrong": [
-            "At school",
-            "At home"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
+            6
           ]
         },
         {
@@ -4605,9 +4689,9 @@
           ],
           "hint": "Match the date.",
           "hl": [
-            1,
-            5,
-            7
+            2,
+            6,
+            8
           ]
         }
       ]
