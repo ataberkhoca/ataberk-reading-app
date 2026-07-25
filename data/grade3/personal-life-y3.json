@@ -54,7 +54,7 @@
       "Green",
       "Brown"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Maya's eyes.",
      "hl": [
       1
      ]
@@ -67,7 +67,7 @@
       "Blue",
       "Brown"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Leo's eyes.",
      "hl": [
       2
      ]
@@ -80,33 +80,33 @@
       "Blue",
       "Green"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Ms. Hart's eyes.",
      "hl": [
       4
      ]
     },
     {
-     "q": "How are Ms. Hart's eyelashes?",
-     "qTr": "Ms. Hart'ın kirpikleri nasıl?",
+     "q": "Has Ms. Hart got long or short eyelashes?",
+     "qTr": "Ms. Hart'ın kirpikleri uzun mu yoksa kısa mı?",
      "correct": "Long",
      "wrong": [
       "Short",
-      "Small"
+      "Little"
      ],
-     "hint": "Find eyelashes.",
+     "hint": "Find Ms. Hart's eyelashes.",
      "hl": [
       5
      ]
     },
     {
-     "q": "How is Leo's chin?",
-     "qTr": "Leo'nun çenesi nasıl?",
+     "q": "Has Leo got a big or little chin?",
+     "qTr": "Leo'nun çenesi büyük mü yoksa küçük mü?",
      "correct": "Little",
      "wrong": [
-      "Strong",
-      "Big"
+      "Big",
+      "Strong"
      ],
-     "hint": "Find chin.",
+     "hint": "Find Leo's chin.",
      "hl": [
       6
      ]
@@ -162,22 +162,22 @@
      "correct": "Long and straight",
      "wrong": [
       "Short and curly",
-      "Small and dark"
+      "Long and curly"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Ada's hair.",
      "hl": [
       2
      ]
     },
     {
-     "q": "How is Maya's hair?",
+     "q": "What is Maya's hair like?",
      "qTr": "Maya'nın saçı nasıl?",
      "correct": "Short and curly",
      "wrong": [
       "Long and straight",
-      "Long and blond"
+      "Short and straight"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Maya's hair.",
      "hl": [
       5
      ]
@@ -190,35 +190,35 @@
       "Brown",
       "Black"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Zara's hair.",
      "hl": [
       6
      ]
     },
     {
-     "q": "How are the girls?",
-     "qTr": "Kızlar nasıl?",
-     "correct": "Beautiful",
+     "q": "Has Zara got long or short hair?",
+     "qTr": "Zara'nın saçı uzun mu yoksa kısa mı?",
+     "correct": "Long",
      "wrong": [
-      "Sad",
-      "Lazy"
+      "Short",
+      "Curly"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Find Zara's hair.",
      "hl": [
-      7
+      6
      ]
     },
     {
-     "q": "Who has got long straight hair?",
-     "qTr": "Kimin uzun düz saçı var?",
-     "correct": "Ada",
+     "q": "What are the girls like?",
+     "qTr": "Kızlar nasıl?",
+     "correct": "Beautiful",
      "wrong": [
-      "Maya",
-      "Zara"
+      "Lazy",
+      "Sad"
      ],
-     "hint": "Find straight hair.",
+     "hint": "Find the girls.",
      "hl": [
-      2
+      7
      ]
     }
    ]
@@ -267,29 +267,16 @@
    ],
    "questions": [
     {
-     "q": "Whose bag is it?",
-     "qTr": "Bu kimin çantası?",
+     "q": "Whose bag is the blue one?",
+     "qTr": "Mavi çanta kimin?",
      "correct": "Kerem's",
      "wrong": [
       "Maya's",
       "Leo's"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find the blue bag.",
      "hl": [
       4
-     ]
-    },
-    {
-     "q": "What colour is the blue bag?",
-     "qTr": "Mavi çanta ne renk?",
-     "correct": "Blue",
-     "wrong": [
-      "Red",
-      "Green"
-     ],
-     "hint": "Read sentence 4.",
-     "hl": [
-      3
      ]
     },
     {
@@ -306,27 +293,40 @@
      ]
     },
     {
-     "q": "Has Kerem got a blue bag?",
-     "qTr": "Kerem'in mavi çantası var mı?",
-     "correct": "Yes",
+     "q": "What colour is Kerem's bag?",
+     "qTr": "Kerem'in çantası ne renk?",
+     "correct": "Blue",
      "wrong": [
-      "No",
-      "Maybe"
+      "Red",
+      "Green"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Kerem's bag.",
      "hl": [
       4
      ]
     },
     {
-     "q": "How is Kerem now?",
+     "q": "Has Kerem got a blue bag?",
+     "qTr": "Kerem'in mavi bir çantası var mı?",
+     "correct": "Yes",
+     "wrong": [
+      "No",
+      "Maybe"
+     ],
+     "hint": "Find Kerem's bag.",
+     "hl": [
+      4
+     ]
+    },
+    {
+     "q": "What is Kerem like now?",
      "qTr": "Kerem şimdi nasıl?",
      "correct": "Happy",
      "wrong": [
       "Sad",
       "Lazy"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Find Kerem.",
      "hl": [
       7
      ]
@@ -381,10 +381,10 @@
      "qTr": "Kerem ne giyiyor?",
      "correct": "A school uniform",
      "wrong": [
-      "A dress",
-      "Pyjamas"
+      "A pink dress",
+      "A warm coat"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Kerem's clothes.",
      "hl": [
       1
      ]
@@ -397,7 +397,7 @@
       "Blue",
       "White"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Kerem's trousers.",
      "hl": [
       2
      ]
@@ -408,22 +408,22 @@
      "correct": "A blue jacket",
      "wrong": [
       "A green coat",
-      "A red dress"
+      "A white shirt"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Mert's clothes.",
      "hl": [
       3
      ]
     },
     {
-     "q": "Where are Kerem's glasses?",
-     "qTr": "Kerem'in gözlüğü nerede?",
-     "correct": "Here",
+     "q": "Has Kerem got his glasses?",
+     "qTr": "Kerem'in gözlüğü yanında mı?",
+     "correct": "Yes",
      "wrong": [
-      "At school",
-      "In the bag"
+      "No",
+      "Maybe"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Kerem's glasses.",
      "hl": [
       5
      ]
@@ -436,7 +436,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Find the boys.",
      "hl": [
       7
      ]
@@ -496,20 +496,20 @@
       "Lazy",
       "Sad"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Deniz.",
      "hl": [
       1
      ]
     },
     {
-     "q": "How is Ms. Hart?",
+     "q": "What is Ms. Hart like?",
      "qTr": "Ms. Hart nasıl biri?",
      "correct": "Nice and good",
      "wrong": [
       "Bad and lazy",
       "Sad and weak"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Ms. Hart.",
      "hl": [
       2
      ]
@@ -520,33 +520,33 @@
      "correct": "Young",
      "wrong": [
       "Old",
-      "Sad"
+      "Weak"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Ms. Hart.",
      "hl": [
       4
      ]
     },
     {
-     "q": "How is Mert today?",
+     "q": "What is Mert like today?",
      "qTr": "Mert bugün nasıl?",
      "correct": "Sad",
      "wrong": [
       "Happy",
-      "Hardworking"
+      "Strong"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Mert.",
      "hl": [
       5
      ]
     },
     {
-     "q": "How is Leo?",
+     "q": "What is Leo like?",
      "qTr": "Leo nasıl?",
      "correct": "Happy",
      "wrong": [
       "Sad",
-      "Bad"
+      "Lazy"
      ],
      "hint": "Find Leo.",
      "hl": [
@@ -607,10 +607,10 @@
      "qTr": "Leo neye benziyor?",
      "correct": "Tall with short hair",
      "wrong": [
-      "Beautiful",
-      "Lazy"
+      "Little with long hair",
+      "Strong with curly hair"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Leo.",
      "hl": [
       1
      ]
@@ -623,7 +623,7 @@
       "Long legs",
       "Curly hair"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Kerem.",
      "hl": [
       3
      ]
@@ -631,25 +631,25 @@
     {
      "q": "What does Zara look like?",
      "qTr": "Zara neye benziyor?",
-     "correct": "Beautiful with long curly hair",
+     "correct": "Beautiful with curly hair",
      "wrong": [
-      "Tall with short hair",
-      "Sad"
+      "Handsome with short hair",
+      "Little with straight hair"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Zara.",
      "hl": [
       5
      ]
     },
     {
-     "q": "What has Ada got?",
-     "qTr": "Ada'nın nesi var?",
-     "correct": "A little head and long legs",
+     "q": "Has Ada got long or short legs?",
+     "qTr": "Ada'nın bacakları uzun mu yoksa kısa mı?",
+     "correct": "Long",
      "wrong": [
-      "Strong arms",
-      "Short hair"
+      "Short",
+      "Little"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Find Ada's legs.",
      "hl": [
       7
      ]
@@ -718,9 +718,9 @@
      "correct": "Cold and windy",
      "wrong": [
       "Sunny and warm",
-      "Hot"
+      "Hot and sunny"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the weather.",
      "hl": [
       0
      ]
@@ -730,10 +730,10 @@
      "qTr": "Mert ne giyiyor?",
      "correct": "A warm coat",
      "wrong": [
-      "A T-shirt",
-      "A dress"
+      "A blue skirt",
+      "A big hat"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Mert's clothes.",
      "hl": [
       1
      ]
@@ -743,23 +743,23 @@
      "qTr": "Kerem ne giyiyor?",
      "correct": "A jumper and boots",
      "wrong": [
-      "A skirt",
-      "Sunglasses"
+      "A skirt and shoes",
+      "A shirt and socks"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Kerem's clothes.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What has Mert got, too?",
-     "qTr": "Mert'in başka nesi var?",
+     "q": "What has Mert got?",
+     "qTr": "Mert'in nesi var?",
      "correct": "A scarf and gloves",
      "wrong": [
-      "A necklace",
-      "An umbrella"
+      "A bag and glasses",
+      "A hat and socks"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Mert's things.",
      "hl": [
       4
      ]
@@ -772,7 +772,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find the weather.",
      "hl": [
       3
      ]
@@ -828,22 +828,22 @@
      "correct": "Big sunglasses",
      "wrong": [
       "Small hats",
-      "Short skirts"
+      "Long dresses"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find Zara's clothes.",
      "hl": [
       0
      ]
     },
     {
-     "q": "Does Zara like earrings or necklaces?",
-     "qTr": "Zara küpeleri mi yoksa kolyeleri mi sever?",
+     "q": "Does Zara like necklaces or earrings?",
+     "qTr": "Zara kolyeleri mi yoksa küpeleri mi seviyor?",
      "correct": "Earrings",
      "wrong": [
       "Necklaces",
       "Boots"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Zara.",
      "hl": [
       2
      ]
@@ -853,10 +853,10 @@
      "qTr": "Maya neye bayılıyor?",
      "correct": "Pink dresses",
      "wrong": [
-      "Boots",
-      "Hats"
+      "Brown boots",
+      "Small hats"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Maya's clothes.",
      "hl": [
       3
      ]
@@ -869,7 +869,7 @@
       "Hats",
       "Necklaces"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Ada's clothes.",
      "hl": [
       6
      ]
@@ -879,10 +879,10 @@
      "qTr": "Ada neden nefret ediyor?",
      "correct": "Small hats",
      "wrong": [
-      "Boots",
-      "Dresses"
+      "Brown boots",
+      "Big necklaces"
      ],
-     "hint": "Find hate.",
+     "hint": "Find Ada.",
      "hl": [
       6
      ]
@@ -938,41 +938,54 @@
    "questions": [
     {
      "q": "Whose necklace is it?",
-     "qTr": "Bu kimin kolyesi?",
+     "qTr": "Kolye kimin?",
      "correct": "Zara's",
      "wrong": [
       "Ada's",
       "Maya's"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find the necklace.",
      "hl": [
       2
      ]
     },
     {
      "q": "Whose boots are they?",
-     "qTr": "Bunlar kimin botları?",
+     "qTr": "Botlar kimin?",
      "correct": "Kerem's",
      "wrong": [
       "Mert's",
       "Leo's"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find the boots.",
      "hl": [
       4
      ]
     },
     {
      "q": "Whose sunglasses are they?",
-     "qTr": "Bunlar kimin güneş gözlükleri?",
+     "qTr": "Güneş gözlükleri kimin?",
      "correct": "Mert's",
      "wrong": [
       "Kerem's",
       "Leo's"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find the sunglasses.",
      "hl": [
       6
+     ]
+    },
+    {
+     "q": "Whose bag is it?",
+     "qTr": "Çanta kimin?",
+     "correct": "Maya's",
+     "wrong": [
+      "Ada's",
+      "Zara's"
+     ],
+     "hint": "Find the bag.",
+     "hl": [
+      8
      ]
     },
     {
@@ -983,22 +996,9 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the things.",
      "hl": [
       0
-     ]
-    },
-    {
-     "q": "Whose bag is it?",
-     "qTr": "Bu kimin çantası?",
-     "correct": "Maya's",
-     "wrong": [
-      "Ada's",
-      "Zara's"
-     ],
-     "hint": "Read sentence 9.",
-     "hl": [
-      8
      ]
     }
    ]
@@ -1054,7 +1054,7 @@
       "The 23rd of April",
       "The 29th of October"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the date.",
      "hl": [
       0
      ]
@@ -1062,12 +1062,12 @@
     {
      "q": "What is Maya wearing?",
      "qTr": "Maya ne giyiyor?",
-     "correct": "A white T-shirt and red shorts",
+     "correct": "A T-shirt and shorts",
      "wrong": [
-      "A dress",
-      "A coat"
+      "A sweatshirt and jeans",
+      "A jumper and boots"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Maya's clothes.",
      "hl": [
       3
      ]
@@ -1075,40 +1075,40 @@
     {
      "q": "What is Leo wearing?",
      "qTr": "Leo ne giyiyor?",
-     "correct": "A blue sweatshirt and jeans",
+     "correct": "A sweatshirt and jeans",
      "wrong": [
-      "A jacket",
-      "Boots"
+      "A T-shirt and shorts",
+      "A jacket and trousers"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Leo's clothes.",
      "hl": [
       4
      ]
     },
     {
      "q": "Whose flag is it?",
-     "qTr": "Bu kimin bayrağı?",
-     "correct": "Turkish flag",
+     "qTr": "Bayrak kimin?",
+     "correct": "Turkish",
      "wrong": [
-      "Maya's flag",
-      "Leo's flag"
+      "Maya's",
+      "Leo's"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find the flag.",
      "hl": [
       6
      ]
     },
     {
-     "q": "How is Maya today?",
-     "qTr": "Maya bugün nasıl?",
-     "correct": "Excited",
+     "q": "What colour are Maya's shorts?",
+     "qTr": "Maya'nın şortu ne renk?",
+     "correct": "Red",
      "wrong": [
-      "Sad",
-      "Lazy"
+      "White",
+      "Blue"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Maya's shorts.",
      "hl": [
-      2
+      3
      ]
     }
    ]
@@ -1138,8 +1138,8 @@
    "sentences": [
     "Kerem: Is it sunny or windy today?",
     "Zara: It is sunny and warm!",
-    "Kerem: Have you got any sunglasses?",
-    "Zara: Yes, I have got some sunglasses.",
+    "Kerem: Have you got any hats?",
+    "Zara: Yes, I have got some hats.",
     "I am wearing a T-shirt and a skirt.",
     "Kerem: Have you got any boots?",
     "Zara: No! It is warm. I am wearing shoes.",
@@ -1148,8 +1148,8 @@
    "translations": [
     "Kerem: Bugün hava güneşli mi yoksa rüzgarlı mı?",
     "Zara: Hava güneşli ve sıcak!",
-    "Kerem: Hiç güneş gözlüğün var mı?",
-    "Zara: Evet, birkaç güneş gözlüğüm var.",
+    "Kerem: Hiç şapkan var mı?",
+    "Zara: Evet, birkaç şapkam var.",
     "Bir tişört ve bir etek giyiyorum.",
     "Kerem: Hiç botun var mı?",
     "Zara: Hayır! Hava sıcak. Ayakkabı giyiyorum.",
@@ -1164,7 +1164,7 @@
       "Windy",
       "Snowing"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the weather.",
      "hl": [
       1
      ]
@@ -1175,22 +1175,22 @@
      "correct": "Sunny and warm",
      "wrong": [
       "Cold and windy",
-      "Raining"
+      "Cold and snowing"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the weather.",
      "hl": [
       1
      ]
     },
     {
-     "q": "Has Zara got any sunglasses?",
-     "qTr": "Zara'nın hiç güneş gözlüğü var mı?",
+     "q": "Has Zara got any hats?",
+     "qTr": "Zara'nın hiç şapkası var mı?",
      "correct": "Yes",
      "wrong": [
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Zara's hats.",
      "hl": [
       3
      ]
@@ -1200,10 +1200,10 @@
      "qTr": "Zara ne giyiyor?",
      "correct": "A T-shirt and a skirt",
      "wrong": [
-      "A coat and boots",
-      "A jumper"
+      "A coat and a jumper",
+      "A jacket and a scarf"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Zara's clothes.",
      "hl": [
       4
      ]
@@ -1216,7 +1216,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Zara's shoes.",
      "hl": [
       6
      ]
@@ -1269,28 +1269,28 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Two girls look different",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Hair and eyes",
      "wrong": [
-      "School",
-      "A pet"
+      "Clothes and boots",
+      "Weather and days"
      ],
-     "hint": "Read sentences 1 and 5.",
+     "hint": "Think about hair.",
      "hl": [
       0,
       4
      ]
     },
     {
-     "q": "What does Zara look like?",
-     "qTr": "Zara neye benziyor?",
+     "q": "What is Zara like?",
+     "qTr": "Zara nasıl biri?",
      "correct": "Tall and beautiful",
      "wrong": [
-      "Short and sad",
-      "Lazy"
+      "Short and lazy",
+      "Little and sad"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Zara.",
      "hl": [
       1
      ]
@@ -1301,9 +1301,9 @@
      "correct": "Dark",
      "wrong": [
       "Blond",
-      "Red"
+      "Brown"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Zara's hair.",
      "hl": [
       3
      ]
@@ -1313,23 +1313,23 @@
      "qTr": "Maya nasıl biri?",
      "correct": "Pretty and happy",
      "wrong": [
-      "Bad and sad",
-      "Weak"
+      "Lazy and sad",
+      "Weak and bad"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Maya.",
      "hl": [
       5
      ]
     },
     {
-     "q": "What colour hair has Maya got?",
-     "qTr": "Maya'nın saçı ne renk?",
-     "correct": "Brown",
+     "q": "What is Maya's hair like?",
+     "qTr": "Maya'nın saçı nasıl?",
+     "correct": "Short and curly",
      "wrong": [
-      "Dark",
-      "Blond"
+      "Long and straight",
+      "Long and dark"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Maya's hair.",
      "hl": [
       6
      ]
@@ -1380,14 +1380,14 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Body parts",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Arms and teeth",
      "wrong": [
-      "School",
-      "Clothes"
+      "Hats and boots",
+      "Days and weather"
      ],
-     "hint": "Read sentences 2 and 3.",
+     "hint": "Think about the body.",
      "hl": [
       1,
       2
@@ -1396,12 +1396,12 @@
     {
      "q": "What has Leo got?",
      "qTr": "Leo'nun nesi var?",
-     "correct": "Strong arms and a strong back",
+     "correct": "Strong arms",
      "wrong": [
       "Weak arms",
       "Long hair"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Leo.",
      "hl": [
       1
      ]
@@ -1414,33 +1414,33 @@
       "One",
       "Four"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Leo's feet.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What has Deniz got?",
-     "qTr": "Deniz'in nesi var?",
-     "correct": "White teeth",
+     "q": "What colour teeth has Deniz got?",
+     "qTr": "Deniz'in dişleri ne renk?",
+     "correct": "White",
      "wrong": [
-      "Blue eyes",
-      "Boots"
+      "Blue",
+      "Brown"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Deniz's teeth.",
      "hl": [
       3
      ]
     },
     {
-     "q": "How are Leo's eyelashes?",
-     "qTr": "Leo'nun kirpikleri nasıl?",
+     "q": "Has Leo got long or short eyelashes?",
+     "qTr": "Leo'nun kirpikleri uzun mu yoksa kısa mı?",
      "correct": "Short",
      "wrong": [
       "Long",
       "Big"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Leo's eyelashes.",
      "hl": [
       4
      ]
@@ -1491,17 +1491,17 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Clothes for a trip",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Clothes and bags",
      "wrong": [
-      "Body parts",
-      "Pets"
+      "Hair and eyes",
+      "Weather and days"
      ],
-     "hint": "Read sentences 1 and 2.",
+     "hint": "Think about clothes.",
      "hl": [
-      0,
-      1
+      1,
+      3
      ]
     },
     {
@@ -1509,23 +1509,23 @@
      "qTr": "Kerem ne giyiyor?",
      "correct": "A jumper and jeans",
      "wrong": [
-      "A dress",
-      "Pyjamas"
+      "A dress and boots",
+      "A shirt and socks"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Kerem's clothes.",
      "hl": [
       1
      ]
     },
     {
-     "q": "What is on Kerem's feet?",
+     "q": "What has Kerem got on his feet?",
      "qTr": "Kerem'in ayağında ne var?",
      "correct": "Boots",
      "wrong": [
       "Shoes",
       "Socks"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Kerem's feet.",
      "hl": [
       2
      ]
@@ -1533,12 +1533,12 @@
     {
      "q": "What is Mert wearing?",
      "qTr": "Mert ne giyiyor?",
-     "correct": "A green jacket and a hat",
+     "correct": "A jacket and a hat",
      "wrong": [
-      "A red coat",
-      "A skirt"
+      "A jumper and a scarf",
+      "A coat and a shirt"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Mert's clothes.",
      "hl": [
       3
      ]
@@ -1548,10 +1548,10 @@
      "qTr": "Kerem'in nesi var?",
      "correct": "A bag and an umbrella",
      "wrong": [
-      "A necklace",
-      "Sunglasses"
+      "A hat and a necklace",
+      "A coat and an earring"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Kerem's things.",
      "hl": [
       5
      ]
@@ -1602,14 +1602,14 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Clothes preferences",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Clothes we like",
      "wrong": [
-      "Body parts",
-      "School"
+      "Hair and eyes",
+      "Weather and days"
      ],
-     "hint": "Read the whole text.",
+     "hint": "Think about clothes.",
      "hl": [
       0,
       6
@@ -1623,7 +1623,7 @@
       "Short skirts",
       "Small hats"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Zara.",
      "hl": [
       1
      ]
@@ -1633,10 +1633,10 @@
      "qTr": "Zara neyi sevmiyor?",
      "correct": "Short skirts",
      "wrong": [
-      "Dresses",
-      "Necklaces"
+      "Long dresses",
+      "Big necklaces"
      ],
-     "hint": "Find dislike.",
+     "hint": "Find Zara.",
      "hl": [
       1
      ]
@@ -1649,7 +1649,7 @@
       "Hats",
       "Skirts"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Ada.",
      "hl": [
       5
      ]
@@ -1659,10 +1659,10 @@
      "qTr": "Ada neden nefret ediyor?",
      "correct": "Small hats",
      "wrong": [
-      "Boots",
-      "Necklaces"
+      "Brown boots",
+      "Blue earrings"
      ],
-     "hint": "Find hate.",
+     "hint": "Find Ada.",
      "hl": [
       5
      ]
@@ -1715,66 +1715,66 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
      "correct": "Different characters",
      "wrong": [
-      "Clothes",
-      "Weather"
+      "Different clothes",
+      "Different days"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Think about people.",
      "hl": [
       0
      ]
     },
     {
-     "q": "How is Maya?",
-     "qTr": "Maya nasıl?",
+     "q": "What is Maya like?",
+     "qTr": "Maya nasıl biri?",
      "correct": "Happy and hardworking",
      "wrong": [
       "Sad and lazy",
-      "Bad"
+      "Bad and weak"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Maya.",
      "hl": [
       1
      ]
     },
     {
-     "q": "How is Mert?",
-     "qTr": "Mert nasıl?",
+     "q": "What is Mert like?",
+     "qTr": "Mert nasıl biri?",
      "correct": "Lazy and nice",
      "wrong": [
-      "Hardworking",
-      "Sad"
+      "Sad and bad",
+      "Weak and old"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Mert.",
      "hl": [
       2
      ]
     },
     {
-     "q": "Is Leo weak?",
-     "qTr": "Leo zayıf mı?",
-     "correct": "No",
+     "q": "Is Leo strong or weak?",
+     "qTr": "Leo güçlü mü yoksa zayıf mı?",
+     "correct": "Strong",
      "wrong": [
-      "Yes",
-      "Maybe"
+      "Weak",
+      "Lazy"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Leo.",
      "hl": [
       3
      ]
     },
     {
-     "q": "How is Ada?",
-     "qTr": "Ada nasıl?",
+     "q": "What is Ada like?",
+     "qTr": "Ada nasıl biri?",
      "correct": "Young and pretty",
      "wrong": [
       "Old and sad",
-      "Weak"
+      "Bad and weak"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Ada.",
      "hl": [
       5
      ]
@@ -1825,14 +1825,14 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Sunny weather and clothes",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "A sunny day",
      "wrong": [
-      "Body parts",
-      "School"
+      "A rainy day",
+      "A snowy day"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Think about the weather.",
      "hl": [
       1
      ]
@@ -1843,9 +1843,9 @@
      "correct": "Sunny and warm",
      "wrong": [
       "Cold and windy",
-      "Raining"
+      "Cold and raining"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the weather.",
      "hl": [
       1
      ]
@@ -1855,10 +1855,10 @@
      "qTr": "Maya ne giyiyor?",
      "correct": "A T-shirt and a skirt",
      "wrong": [
-      "A coat",
-      "Boots"
+      "A coat and a jumper",
+      "A jacket and a scarf"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Maya's clothes.",
      "hl": [
       2
      ]
@@ -1868,10 +1868,10 @@
      "qTr": "Leo ne giyiyor?",
      "correct": "A T-shirt and shorts",
      "wrong": [
-      "A jumper",
-      "A jacket"
+      "A jumper and boots",
+      "A jacket and gloves"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Leo's clothes.",
      "hl": [
       4
      ]
@@ -1882,9 +1882,9 @@
      "correct": "Sunny days",
      "wrong": [
       "Snowy days",
-      "Cold days"
+      "Windy days"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Maya.",
      "hl": [
       6
      ]
@@ -1935,67 +1935,67 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Owners of clothes",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Clothes and owners",
      "wrong": [
-      "School",
-      "Weather"
+      "Hair and eyes",
+      "Weather and days"
      ],
-     "hint": "Read sentences 1 and 8.",
+     "hint": "Think about clothes.",
      "hl": [
       0,
       7
      ]
     },
     {
-     "q": "Whose blue dress is it?",
+     "q": "Whose dress is the blue one?",
      "qTr": "Mavi elbise kimin?",
      "correct": "Ada's",
      "wrong": [
       "Maya's",
       "Zara's"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the blue dress.",
      "hl": [
       1
      ]
     },
     {
-     "q": "Whose red hat is it?",
+     "q": "Whose hat is the red one?",
      "qTr": "Kırmızı şapka kimin?",
      "correct": "Maya's",
      "wrong": [
       "Ada's",
       "Zara's"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find the red hat.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What colour is Kerem's sweatshirt?",
-     "qTr": "Kerem'in sweatshirt'ü ne renk?",
+     "q": "Is Kerem's sweatshirt green or yellow?",
+     "qTr": "Kerem'in sweatshirt'ü yeşil mi yoksa sarı mı?",
      "correct": "Green",
      "wrong": [
       "Yellow",
       "Blue"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Kerem's sweatshirt.",
      "hl": [
       4
      ]
     },
     {
-     "q": "Whose brown boots are they?",
+     "q": "Whose boots are the brown ones?",
      "qTr": "Kahverengi botlar kimin?",
      "correct": "Mert's",
      "wrong": [
       "Kerem's",
       "Leo's"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find the brown boots.",
      "hl": [
       6
      ]
@@ -2046,14 +2046,14 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
      "correct": "A new friend",
      "wrong": [
-      "Weather",
-      "Clothes"
+      "A new dress",
+      "A new hat"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Think about names.",
      "hl": [
       0
      ]
@@ -2066,7 +2066,7 @@
       "Ada",
       "Maya"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find her name.",
      "hl": [
       2
      ]
@@ -2077,24 +2077,11 @@
      "correct": "Nice and happy",
      "wrong": [
       "Sad and lazy",
-      "Bad"
+      "Bad and weak"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Zara.",
      "hl": [
       5
-     ]
-    },
-    {
-     "q": "How is Zara now?",
-     "qTr": "Zara şimdi nasıl?",
-     "correct": "Excited",
-     "wrong": [
-      "Sad",
-      "Tired"
-     ],
-     "hint": "Read sentence 7.",
-     "hl": [
-      6
      ]
     },
     {
@@ -2105,9 +2092,22 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the class.",
      "hl": [
       0
+     ]
+    },
+    {
+     "q": "Who is Zara's new friend?",
+     "qTr": "Zara'nın yeni arkadaşı kim?",
+     "correct": "Maya",
+     "wrong": [
+      "Ada",
+      "Leo"
+     ],
+     "hint": "Find Maya.",
+     "hl": [
+      3
      ]
     }
    ]
@@ -2156,14 +2156,14 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "A rainy day and clothes",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "A rainy day",
      "wrong": [
       "A sunny day",
-      "Body parts"
+      "A snowy day"
      ],
-     "hint": "Read sentences 1 and 2.",
+     "hint": "Think about the weather.",
      "hl": [
       0,
       1
@@ -2175,9 +2175,9 @@
      "correct": "Cold and windy",
      "wrong": [
       "Sunny and warm",
-      "Hot"
+      "Warm and windy"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the weather.",
      "hl": [
       1
      ]
@@ -2187,10 +2187,10 @@
      "qTr": "Deniz ne giyiyor?",
      "correct": "A coat and boots",
      "wrong": [
-      "A T-shirt",
-      "A skirt"
+      "A skirt and shoes",
+      "A shirt and socks"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Deniz's clothes.",
      "hl": [
       2
      ]
@@ -2203,7 +2203,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find the umbrellas.",
      "hl": [
       4
      ]
@@ -2216,7 +2216,7 @@
       "Sunny days",
       "Snowy days"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find Deniz.",
      "hl": [
       6
      ]
@@ -2267,27 +2267,27 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "Republic Day",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Republic Day clothes",
      "wrong": [
-      "School lessons",
-      "Pets"
+      "Sports Day clothes",
+      "Children's Day clothes"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Think about the day.",
      "hl": [
       1
      ]
     },
     {
-     "q": "What date is it?",
+     "q": "What date is it today?",
      "qTr": "Bugün ayın kaçı?",
      "correct": "The 29th of October",
      "wrong": [
       "The 23rd of April",
       "The 19th of May"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the date.",
      "hl": [
       0
      ]
@@ -2297,23 +2297,10 @@
      "qTr": "Maya ne giyiyor?",
      "correct": "A red and white dress",
      "wrong": [
-      "A blue jacket",
-      "Pyjamas"
+      "A blue and green skirt",
+      "A black and white shirt"
      ],
-     "hint": "Read sentence 3.",
-     "hl": [
-      2
-     ]
-    },
-    {
-     "q": "How is Maya today?",
-     "qTr": "Maya bugün nasıl?",
-     "correct": "Excited",
-     "wrong": [
-      "Sad",
-      "Lazy"
-     ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Maya's clothes.",
      "hl": [
       2
      ]
@@ -2321,14 +2308,27 @@
     {
      "q": "What is Kerem wearing?",
      "qTr": "Kerem ne giyiyor?",
-     "correct": "A white shirt and a red jacket",
+     "correct": "A shirt and a jacket",
      "wrong": [
-      "A dress",
-      "Boots"
+      "A dress and a necklace",
+      "A jumper and a scarf"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Kerem's clothes.",
      "hl": [
       4
+     ]
+    },
+    {
+     "q": "Whose flag is it?",
+     "qTr": "Bayrak kimin?",
+     "correct": "Turkish",
+     "wrong": [
+      "Maya's",
+      "Kerem's"
+     ],
+     "hint": "Find the flag.",
+     "hl": [
+      6
      ]
     }
    ]
@@ -2379,66 +2379,66 @@
    ],
    "questions": [
     {
-     "q": "What is the text mainly about?",
-     "qTr": "Metin çoğunlukla ne hakkında?",
-     "correct": "People are different",
+     "q": "What is the text about?",
+     "qTr": "Metin ne hakkında?",
+     "correct": "Different people",
      "wrong": [
-      "Food",
-      "Weather"
+      "Different clothes",
+      "Different days"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Think about people.",
      "hl": [
       0
      ]
     },
     {
-     "q": "How are some people (height)?",
-     "qTr": "Bazı insanlar nasıldır (boy)?",
-     "correct": "Tall or short",
+     "q": "Are all people the same?",
+     "qTr": "Bütün insanlar aynı mı?",
+     "correct": "No",
      "wrong": [
-      "Happy or sad",
-      "Hot or cold"
+      "Yes",
+      "Maybe"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the people.",
      "hl": [
-      1
+      0
      ]
     },
     {
-     "q": "How are some people (age)?",
-     "qTr": "Bazı insanlar nasıldır (yaş)?",
-     "correct": "Young or old",
+     "q": "Some people are young. What are some people?",
+     "qTr": "Bazı insanlar genç. Bazı insanlar nasıl?",
+     "correct": "Old",
      "wrong": [
-      "Strong or weak",
-      "Sunny"
+      "Short",
+      "Sad"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find the young people.",
      "hl": [
       3
      ]
     },
     {
-     "q": "How are some people (body)?",
-     "qTr": "Bazı insanlar nasıldır (vücut)?",
-     "correct": "Strong or weak",
+     "q": "Some people are strong. What are some people?",
+     "qTr": "Bazı insanlar güçlü. Bazı insanlar nasıl?",
+     "correct": "Weak",
      "wrong": [
-      "Tall or short",
-      "Rainy"
+      "Tall",
+      "Young"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find the strong people.",
      "hl": [
       4
      ]
     },
     {
      "q": "Is every person good?",
-     "qTr": "Her insan iyi midir?",
+     "qTr": "Her insan iyi mi?",
      "correct": "Yes",
      "wrong": [
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Find every person.",
      "hl": [
       6
      ]
@@ -2495,14 +2495,14 @@
    ],
    "questions": [
     {
-     "q": "What does Maya look like (hair)?",
+     "q": "What is Maya's hair like?",
      "qTr": "Maya'nın saçı nasıl?",
-     "correct": "Long, curly, brown",
+     "correct": "Long and curly",
      "wrong": [
-      "Short, straight",
-      "Small, dark"
+      "Short and straight",
+      "Little and dark"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Look at Maya.",
      "hl": [
       1
      ]
@@ -2515,7 +2515,7 @@
       "Green",
       "Brown"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Maya.",
      "hl": [
       2
      ]
@@ -2528,33 +2528,33 @@
       "Brown",
       "Dark"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Leo.",
      "hl": [
       6
      ]
     },
     {
-     "q": "How is Leo's chin?",
-     "qTr": "Leo'nun çenesi nasıl?",
+     "q": "Has Leo got a strong or weak chin?",
+     "qTr": "Leo'nun çenesi güçlü mü yoksa zayıf mı?",
      "correct": "Strong",
      "wrong": [
       "Weak",
-      "Sad"
+      "Little"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Look at Leo.",
      "hl": [
       7
      ]
     },
     {
-     "q": "How is Leo?",
-     "qTr": "Leo nasıl?",
+     "q": "What is Leo like?",
+     "qTr": "Leo nasıl biri?",
      "correct": "Tall and nice",
      "wrong": [
       "Short and lazy",
-      "Sad"
+      "Little and sad"
      ],
-     "hint": "Read sentence 9.",
+     "hint": "Look at Leo.",
      "hl": [
       8
      ]
@@ -2613,14 +2613,14 @@
    ],
    "questions": [
     {
-     "q": "What is Zara wearing today?",
-     "qTr": "Zara bugün ne takıyor?",
+     "q": "What is Zara wearing?",
+     "qTr": "Zara ne takıyor?",
      "correct": "Red earrings and a yellow necklace",
      "wrong": [
-      "A dress",
-      "Boots"
+      "Blue earrings and a green necklace",
+      "Pink earrings and a white necklace"
      ],
-     "hint": "Read sentences 2 and 3.",
+     "hint": "Look at Zara.",
      "hl": [
       1,
       2
@@ -2634,7 +2634,7 @@
       "Necklaces",
       "Sunglasses"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Ada.",
      "hl": [
       3
      ]
@@ -2645,35 +2645,35 @@
      "correct": "Blue earrings",
      "wrong": [
       "Red earrings",
-      "A necklace"
+      "Green earrings"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Look at Ada.",
      "hl": [
       4
      ]
     },
     {
-     "q": "Whose red earrings are they?",
+     "q": "Whose earrings are the red ones?",
      "qTr": "Kırmızı küpeler kimin?",
      "correct": "Zara's",
      "wrong": [
       "Ada's",
       "Maya's"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Zara.",
      "hl": [
       6
      ]
     },
     {
-     "q": "Whose blue earrings are they?",
+     "q": "Whose earrings are the blue ones?",
      "qTr": "Mavi küpeler kimin?",
      "correct": "Ada's",
      "wrong": [
       "Zara's",
       "Maya's"
      ],
-     "hint": "Read sentence 9.",
+     "hint": "Look at Ada.",
      "hl": [
       8
      ]
@@ -2732,10 +2732,10 @@
      "qTr": "Kerem nasıl biri?",
      "correct": "Hardworking and happy",
      "wrong": [
-      "Lazy and bad",
-      "Sad and weak"
+      "Lazy and sad",
+      "Weak and bad"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Kerem.",
      "hl": [
       2
      ]
@@ -2745,10 +2745,10 @@
      "qTr": "Ada nasıl biri?",
      "correct": "Young and pretty",
      "wrong": [
-      "Old and sad",
-      "Tall and strong"
+      "Old and lazy",
+      "Sad and weak"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Look at Ada.",
      "hl": [
       4
      ]
@@ -2759,9 +2759,9 @@
      "correct": "Lazy and nice",
      "wrong": [
       "Strong and good",
-      "Hardworking"
+      "Sad and old"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Mert.",
      "hl": [
       6
      ]
@@ -2771,10 +2771,10 @@
      "qTr": "Maya nasıl biri?",
      "correct": "Happy and hardworking",
      "wrong": [
-      "Lazy",
-      "Sad"
+      "Lazy and sad",
+      "Weak and bad"
      ],
-     "hint": "Read sentence 9.",
+     "hint": "Look at Maya.",
      "hl": [
       8
      ]
@@ -2787,7 +2787,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at Maya.",
      "hl": [
       0
      ]
@@ -2846,10 +2846,10 @@
      "qTr": "Mert neye bayılıyor?",
      "correct": "Sweatshirts",
      "wrong": [
-      "Hats",
-      "Uniforms"
+      "Dresses",
+      "Necklaces"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Mert.",
      "hl": [
       2
      ]
@@ -2859,23 +2859,23 @@
      "qTr": "Mert ne giyiyor?",
      "correct": "A blue sweatshirt",
      "wrong": [
-      "A dress",
-      "Boots"
+      "A pink dress",
+      "A green jacket"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Mert.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What colour are Mert's favourite jeans?",
-     "qTr": "Mert'in en sevdiği kot pantolon ne renk?",
+     "q": "What colour are Mert's jeans?",
+     "qTr": "Mert'in kot pantolonu ne renk?",
      "correct": "Green",
      "wrong": [
       "Blue",
       "Black"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Look at Mert.",
      "hl": [
       4
      ]
@@ -2883,12 +2883,12 @@
     {
      "q": "What is Maya wearing?",
      "qTr": "Maya ne giyiyor?",
-     "correct": "A pink dress with flowers",
+     "correct": "A pink dress",
      "wrong": [
-      "A skirt",
-      "A jacket"
+      "A blue skirt",
+      "A green jumper"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Maya.",
      "hl": [
       6
      ]
@@ -2898,10 +2898,10 @@
      "qTr": "Maya neye bayılıyor?",
      "correct": "Necklaces and earrings",
      "wrong": [
-      "Boots",
-      "Hats"
+      "Jumpers and sweatshirts",
+      "Boots and trousers"
      ],
-     "hint": "Read sentence 9.",
+     "hint": "Look at Maya.",
      "hl": [
       8
      ]
@@ -2956,12 +2956,12 @@
     {
      "q": "How is the weather?",
      "qTr": "Hava nasıl?",
-     "correct": "Raining and cold",
+     "correct": "Cold and raining",
      "wrong": [
       "Sunny and warm",
-      "Snowing"
+      "Warm and windy"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at Deniz.",
      "hl": [
       0
      ]
@@ -2969,12 +2969,12 @@
     {
      "q": "What is Deniz wearing?",
      "qTr": "Deniz ne giyiyor?",
-     "correct": "A jacket, boots, a scarf",
+     "correct": "A jacket, boots and a scarf",
      "wrong": [
-      "A dress",
-      "Sunglasses"
+      "A dress, shoes and a hat",
+      "A jumper, socks and a bag"
      ],
-     "hint": "Read sentences 2 and 3.",
+     "hint": "Look at Deniz.",
      "hl": [
       1,
       2
@@ -2983,12 +2983,12 @@
     {
      "q": "What is Leo wearing?",
      "qTr": "Leo ne giyiyor?",
-     "correct": "A coat, jeans, a hat",
+     "correct": "A coat, jeans and a hat",
      "wrong": [
-      "A T-shirt",
-      "Boots"
+      "A skirt, socks and a bag",
+      "A dress, boots and a scarf"
      ],
-     "hint": "Read sentences 5 and 6.",
+     "hint": "Look at Leo.",
      "hl": [
       4,
       5
@@ -3002,20 +3002,20 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Look at Leo.",
      "hl": [
       7
      ]
     },
     {
-     "q": "Are the friends ready for the rain?",
-     "qTr": "Arkadaşlar yağmura hazır mı?",
+     "q": "Are the children ready for the rain?",
+     "qTr": "Çocuklar yağmura hazır mı?",
      "correct": "Yes",
      "wrong": [
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 9.",
+     "hint": "Look at Ms. Hart.",
      "hl": [
       8
      ]
@@ -3066,66 +3066,66 @@
    ],
    "questions": [
     {
-     "q": "Whose pink dress is it?",
+     "q": "Whose dress is the pink one?",
      "qTr": "Pembe elbise kimin?",
      "correct": "Maya's",
      "wrong": [
       "Ada's",
       "Zara's"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Look at Maya.",
      "hl": [
       1
      ]
     },
     {
-     "q": "Whose green jumper is it?",
+     "q": "Whose jumper is the green one?",
      "qTr": "Yeşil kazak kimin?",
      "correct": "Leo's",
      "wrong": [
       "Mert's",
       "Kerem's"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Ada.",
      "hl": [
       2
      ]
     },
     {
-     "q": "Whose yellow necklace is it?",
+     "q": "Whose necklace is the yellow one?",
      "qTr": "Sarı kolye kimin?",
      "correct": "Ada's",
      "wrong": [
       "Maya's",
       "Zara's"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Maya.",
      "hl": [
       3
      ]
     },
     {
-     "q": "Whose brown boots are they?",
+     "q": "Whose boots are the brown ones?",
      "qTr": "Kahverengi botlar kimin?",
      "correct": "Kerem's",
      "wrong": [
       "Mert's",
       "Leo's"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Look at Ada.",
      "hl": [
       4
      ]
     },
     {
-     "q": "Whose big sunglasses are they?",
+     "q": "Whose sunglasses are the big ones?",
      "qTr": "Büyük güneş gözlükleri kimin?",
      "correct": "Mert's",
      "wrong": [
       "Kerem's",
       "Leo's"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Look at Maya.",
      "hl": [
       5
      ]
@@ -3182,15 +3182,14 @@
     {
      "q": "What does Kerem love?",
      "qTr": "Kerem neye bayılıyor?",
-     "correct": "Sweatshirts, jeans, school uniform",
+     "correct": "Sweatshirts and jeans",
      "wrong": [
-      "Dresses",
-      "Necklaces"
+      "Dresses and necklaces",
+      "Skirts and earrings"
      ],
-     "hint": "Read sentences 2 and 3.",
+     "hint": "Look at Kerem.",
      "hl": [
-      1,
-      2
+      1
      ]
     },
     {
@@ -3198,10 +3197,10 @@
      "qTr": "Kerem neyi sevmiyor?",
      "correct": "Dresses and necklaces",
      "wrong": [
-      "Jeans",
-      "Sweatshirts"
+      "Sweatshirts and jeans",
+      "Trousers and boots"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Kerem.",
      "hl": [
       3
      ]
@@ -3209,14 +3208,13 @@
     {
      "q": "What does Zara love?",
      "qTr": "Zara neye bayılıyor?",
-     "correct": "Dresses, necklaces, earrings",
+     "correct": "Necklaces and earrings",
      "wrong": [
-      "Jeans",
-      "Sweatshirts"
+      "Jumpers and sweatshirts",
+      "Trousers and boots"
      ],
-     "hint": "Read sentences 5 and 6.",
+     "hint": "Look at Zara.",
      "hl": [
-      4,
       5
      ]
     },
@@ -3225,10 +3223,10 @@
      "qTr": "Zara neyi sevmiyor?",
      "correct": "Jeans and sweatshirts",
      "wrong": [
-      "Dresses",
-      "Earrings"
+      "Dresses and necklaces",
+      "Skirts and earrings"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Zara.",
      "hl": [
       6
      ]
@@ -3241,7 +3239,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Look at Kerem.",
      "hl": [
       7
      ]
@@ -3298,15 +3296,14 @@
     {
      "q": "What is Maya wearing?",
      "qTr": "Maya ne giyiyor?",
-     "correct": "A blue dress, white socks, a necklace",
+     "correct": "A blue dress and white socks",
      "wrong": [
-      "A jacket",
-      "Boots"
+      "A green skirt and black boots",
+      "A pink shirt and brown shoes"
      ],
-     "hint": "Read sentences 2 and 3.",
+     "hint": "Look at Maya.",
      "hl": [
-      1,
-      2
+      1
      ]
     },
     {
@@ -3314,10 +3311,10 @@
      "qTr": "Leo ne giyiyor?",
      "correct": "A green sweatshirt and jeans",
      "wrong": [
-      "A dress",
-      "Pyjamas"
+      "A yellow jumper and boots",
+      "A white shirt and trousers"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Leo.",
      "hl": [
       3
      ]
@@ -3327,10 +3324,10 @@
      "qTr": "Ada ne giyiyor?",
      "correct": "A yellow skirt and earrings",
      "wrong": [
-      "A dress",
-      "Boots"
+      "A blue dress and necklaces",
+      "A green jumper and glasses"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Look at Ada.",
      "hl": [
       4
      ]
@@ -3343,7 +3340,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 7.",
+     "hint": "Look at Maya.",
      "hl": [
       6
      ]
@@ -3356,7 +3353,7 @@
       "Yellow",
       "Green"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Look at Maya.",
      "hl": [
       1
      ]
@@ -3418,20 +3415,20 @@
       "Seven",
       "Nine"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at Maya.",
      "hl": [
       0
      ]
     },
     {
-     "q": "What does Maya look like (hair)?",
+     "q": "What is Maya's hair like?",
      "qTr": "Maya'nın saçı nasıl?",
-     "correct": "Long, curly, brown",
+     "correct": "Long and curly",
      "wrong": [
-      "Short, straight",
-      "Big, dark"
+      "Short and straight",
+      "Little and dark"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Zara.",
      "hl": [
       2
      ]
@@ -3442,9 +3439,9 @@
      "correct": "Happy and hardworking",
      "wrong": [
       "Sad and lazy",
-      "Bad"
+      "Weak and bad"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Look at Zara.",
      "hl": [
       5
      ]
@@ -3452,12 +3449,12 @@
     {
      "q": "What is Maya wearing?",
      "qTr": "Maya ne giyiyor?",
-     "correct": "A pink dress, white socks, a yellow necklace",
+     "correct": "A pink dress and white socks",
      "wrong": [
-      "Jeans",
-      "Boots"
+      "A blue skirt and black boots",
+      "A green shirt and brown shoes"
      ],
-     "hint": "Read sentences 8 and 9.",
+     "hint": "Look at Zara.",
      "hl": [
       7,
       8
@@ -3471,7 +3468,7 @@
       "Green",
       "Brown"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Zara.",
      "hl": [
       3
      ]
@@ -3529,9 +3526,9 @@
      "correct": "Eid al-Fitr",
      "wrong": [
       "Republic Day",
-      "Children's Day"
+      "Sports Day"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at the first sentence.",
      "hl": [
       0
      ]
@@ -3539,53 +3536,51 @@
     {
      "q": "What is Maya wearing?",
      "qTr": "Maya ne giyiyor?",
-     "correct": "A red dress, white shoes, a necklace",
+     "correct": "A red dress and white shoes",
      "wrong": [
-      "A jacket",
-      "Boots"
+      "A blue skirt and black boots",
+      "A green shirt and brown socks"
      ],
-     "hint": "Read sentences 3 and 4.",
+     "hint": "Look at Maya.",
      "hl": [
-      2,
-      3
+      2
      ]
     },
     {
      "q": "What is Kerem wearing?",
      "qTr": "Kerem ne giyiyor?",
-     "correct": "A white shirt, blue jeans, a jacket",
+     "correct": "A white shirt and blue jeans",
      "wrong": [
-      "A dress",
-      "Pyjamas"
+      "A red dress and white shoes",
+      "A green jumper and black boots"
      ],
-     "hint": "Read sentences 6 and 7.",
+     "hint": "Look at Kerem.",
      "hl": [
-      5,
-      6
+      5
      ]
     },
     {
-     "q": "Whose new earrings are they?",
+     "q": "Whose earrings are the new ones?",
      "qTr": "Yeni küpeler kimin?",
      "correct": "Zara's",
      "wrong": [
       "Maya's",
       "Ada's"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Look at Maya.",
      "hl": [
       7
      ]
     },
     {
-     "q": "How is Maya today?",
+     "q": "What is Maya like today?",
      "qTr": "Maya bugün nasıl?",
      "correct": "Excited",
      "wrong": [
       "Sad",
       "Lazy"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Look at Maya.",
      "hl": [
       1
      ]
@@ -3640,42 +3635,55 @@
    ],
    "questions": [
     {
-     "q": "How is the weather for Maya?",
-     "qTr": "Maya için hava nasıl?",
+     "q": "How is the weather in Maya's city?",
+     "qTr": "Maya'nın şehrinde hava nasıl?",
      "correct": "Cold",
      "wrong": [
       "Sunny",
-      "Rainy"
+      "Raining"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at Maya.",
      "hl": [
       0
      ]
     },
     {
-     "q": "What is Maya wearing for the cold day?",
-     "qTr": "Maya soğuk gün için ne giyiyor?",
+     "q": "What is Maya wearing?",
+     "qTr": "Maya ne giyiyor?",
      "correct": "A coat and a scarf",
      "wrong": [
-      "A T-shirt",
-      "Shorts"
+      "A shirt and a skirt",
+      "A dress and a hat"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Look at Maya.",
      "hl": [
       0
      ]
     },
     {
-     "q": "How is the weather for Leo?",
-     "qTr": "Leo için hava nasıl?",
+     "q": "How is the weather in Leo's city?",
+     "qTr": "Leo'nun şehrinde hava nasıl?",
      "correct": "Sunny",
      "wrong": [
       "Cold",
-      "Rainy"
+      "Raining"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Look at Leo.",
      "hl": [
       2
+     ]
+    },
+    {
+     "q": "How is the weather in Ada's city?",
+     "qTr": "Ada'nın şehrinde hava nasıl?",
+     "correct": "Raining",
+     "wrong": [
+      "Sunny",
+      "Snowing"
+     ],
+     "hint": "Look at Ada.",
+     "hl": [
+      4
      ]
     },
     {
@@ -3684,24 +3692,11 @@
      "correct": "A jacket",
      "wrong": [
       "A coat",
-      "A T-shirt"
+      "A jumper"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Look at Ada.",
      "hl": [
       5
-     ]
-    },
-    {
-     "q": "How is the weather for Ada?",
-     "qTr": "Ada için hava nasıl?",
-     "correct": "Rainy",
-     "wrong": [
-      "Sunny",
-      "Snowing"
-     ],
-     "hint": "Read sentence 5.",
-     "hl": [
-      4
      ]
     }
    ]
@@ -3761,7 +3756,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Look at Leo.",
      "hl": [
       1
      ]
@@ -3774,20 +3769,20 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Look at Leo.",
      "hl": [
       3
      ]
     },
     {
-     "q": "Has Maya got any earrings?",
-     "qTr": "Maya'nın hiç küpesi var mı?",
-     "correct": "Yes",
+     "q": "What has Maya got in her bag?",
+     "qTr": "Maya'nın çantasında ne var?",
+     "correct": "Some earrings",
      "wrong": [
-      "No",
-      "Maybe"
+      "Some jumpers",
+      "Some hats"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Look at Maya.",
      "hl": [
       5
      ]
@@ -3800,20 +3795,20 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 8.",
+     "hint": "Look at Maya.",
      "hl": [
       7
      ]
     },
     {
-     "q": "Are all friends the same?",
+     "q": "Are all the friends the same?",
      "qTr": "Bütün arkadaşlar aynı mı?",
      "correct": "No",
      "wrong": [
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 10.",
+     "hint": "Look at Zara.",
      "hl": [
       9
      ]
@@ -3864,27 +3859,14 @@
    ],
    "questions": [
     {
-     "q": "What colour hair has the friend got?",
-     "qTr": "Arkadaşın saçı ne renk?",
-     "correct": "Brown",
-     "wrong": [
-      "Blond",
-      "Black"
-     ],
-     "hint": "Read sentence 2.",
-     "hl": [
-      1
-     ]
-    },
-    {
-     "q": "How is her hair?",
+     "q": "What is her hair like?",
      "qTr": "Onun saçı nasıl?",
      "correct": "Long and curly",
      "wrong": [
       "Short and straight",
-      "Big and dark"
+      "Little and dark"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find her hair.",
      "hl": [
       1
      ]
@@ -3897,7 +3879,7 @@
       "Brown",
       "Green"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find her eyes.",
      "hl": [
       2
      ]
@@ -3908,25 +3890,37 @@
      "correct": "Happy and hardworking",
      "wrong": [
       "Sad and lazy",
-      "Bad"
+      "Weak and bad"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find her character.",
      "hl": [
       3
      ]
     },
     {
-     "q": "Who is the friend?",
-     "qTr": "Arkadaş kim?",
+     "q": "Has she got dark hair?",
+     "qTr": "Onun koyu renk saçı var mı?",
+     "correct": "No",
+     "wrong": [
+      "Yes",
+      "Maybe"
+     ],
+     "hint": "Find her hair.",
+     "hl": [
+      1
+     ]
+    },
+    {
+     "q": "Who is this friend?",
+     "qTr": "Bu arkadaş kim?",
      "correct": "Maya",
      "wrong": [
       "Ada",
       "Zara"
      ],
-     "hint": "Read all the clues.",
+     "hint": "Her hair is brown and curly. Her dress is pink.",
      "hl": [
       1,
-      2,
       3,
       4
      ]
@@ -3982,7 +3976,7 @@
       "A girl",
       "A teacher"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the friend.",
      "hl": [
       0
      ]
@@ -3992,10 +3986,10 @@
      "qTr": "O nasıl biri?",
      "correct": "Lazy and nice",
      "wrong": [
-      "Hardworking",
-      "Bad"
+      "Strong and good",
+      "Sad and old"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find his character.",
      "hl": [
       1
      ]
@@ -4008,7 +4002,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find his character.",
      "hl": [
       2
      ]
@@ -4021,20 +4015,20 @@
       "Blond",
       "Black"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find his hair.",
      "hl": [
       3
      ]
     },
     {
-     "q": "Who is he?",
-     "qTr": "O kim?",
+     "q": "Who is this friend?",
+     "qTr": "Bu arkadaş kim?",
      "correct": "Mert",
      "wrong": [
       "Leo",
       "Kerem"
      ],
-     "hint": "Read all the clues.",
+     "hint": "He is lazy. He is not hardworking.",
      "hl": [
       1,
       2,
@@ -4094,20 +4088,33 @@
       "Yellow",
       "Blue"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find the dress.",
      "hl": [
       2
      ]
     },
     {
-     "q": "Has Ada got a pink dress?",
-     "qTr": "Ada'nın pembe elbisesi var mı?",
+     "q": "Is it a blue dress?",
+     "qTr": "Bu mavi bir elbise mi?",
      "correct": "No",
      "wrong": [
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find the dress.",
+     "hl": [
+      1
+     ]
+    },
+    {
+     "q": "What colour is Ada's dress?",
+     "qTr": "Ada'nın elbisesi ne renk?",
+     "correct": "Yellow",
+     "wrong": [
+      "Pink",
+      "Blue"
+     ],
+     "hint": "Find Ada's dress.",
      "hl": [
       4
      ]
@@ -4120,37 +4127,24 @@
       "Pink",
       "Yellow"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Zara's dress.",
      "hl": [
       5
      ]
     },
     {
-     "q": "What colour is Ada's dress?",
-     "qTr": "Ada'nın elbisesi ne renk?",
-     "correct": "Yellow",
-     "wrong": [
-      "Pink",
-      "Blue"
-     ],
-     "hint": "Read sentence 5.",
-     "hl": [
-      4
-     ]
-    },
-    {
-     "q": "Whose pink dress is it?",
-     "qTr": "Pembe elbise kimin?",
+     "q": "Whose dress is it?",
+     "qTr": "Elbise kimin?",
      "correct": "Maya's",
      "wrong": [
       "Ada's",
       "Zara's"
      ],
-     "hint": "Read the clues.",
+     "hint": "It is not yellow. It is not blue.",
      "hl": [
+      1,
       2,
-      3,
-      7
+      3
      ]
     }
    ]
@@ -4195,14 +4189,14 @@
    ],
    "questions": [
     {
-     "q": "How big is the body part?",
-     "qTr": "Vücut parçası ne kadar büyük?",
+     "q": "Is it small or big?",
+     "qTr": "Küçük mü yoksa büyük mü?",
      "correct": "Small",
      "wrong": [
       "Big",
       "Long"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the body part.",
      "hl": [
       0
      ]
@@ -4215,7 +4209,7 @@
       "Pink",
       "Red"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the colour.",
      "hl": [
       0
      ]
@@ -4228,33 +4222,33 @@
       "On your face",
       "In your hair"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the place.",
      "hl": [
       1
      ]
     },
     {
      "q": "Is it an eye?",
-     "qTr": "Bir göz mü?",
+     "qTr": "Bu bir göz mü?",
      "correct": "No",
      "wrong": [
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find the body part.",
      "hl": [
       3
      ]
     },
     {
      "q": "What body part is it?",
-     "qTr": "Hangi vücut parçası?",
+     "qTr": "Bu hangi vücut parçası?",
      "correct": "A tooth",
      "wrong": [
-      "A nose",
+      "An ear",
       "An eye"
      ],
-     "hint": "Read the clues.",
+     "hint": "It is not an eye. It is not an ear.",
      "hl": [
       0,
       1,
@@ -4312,11 +4306,24 @@
      "correct": "Cold and raining",
      "wrong": [
       "Sunny and warm",
-      "Snowing"
+      "Warm and windy"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the weather.",
      "hl": [
       0
+     ]
+    },
+    {
+     "q": "Is it sunny?",
+     "qTr": "Hava güneşli mi?",
+     "correct": "No",
+     "wrong": [
+      "Yes",
+      "Maybe"
+     ],
+     "hint": "Find the weather.",
+     "hl": [
+      1
      ]
     },
     {
@@ -4324,50 +4331,36 @@
      "qTr": "Deniz'in nesi var?",
      "correct": "A warm coat",
      "wrong": [
-      "A T-shirt",
-      "Sunglasses"
+      "A big hat",
+      "A blue skirt"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Deniz's coat.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What is Deniz not wearing?",
-     "qTr": "Deniz ne giymiyor?",
-     "correct": "A T-shirt",
-     "wrong": [
-      "A coat",
-      "Boots"
-     ],
-     "hint": "Read sentence 5.",
-     "hl": [
-      4
-     ]
-    },
-    {
      "q": "What is Deniz wearing?",
      "qTr": "Deniz ne giyiyor?",
-     "correct": "A coat, boots, a scarf",
+     "correct": "Boots and a scarf",
      "wrong": [
-      "A dress",
-      "Shorts"
+      "Shoes and a hat",
+      "Socks and a bag"
      ],
-     "hint": "Read sentences 3 and 4.",
+     "hint": "Find Deniz's clothes.",
      "hl": [
-      2,
       3
      ]
     },
     {
-     "q": "What clothes for cold weather?",
-     "qTr": "Soğuk hava için hangi kıyafetler?",
-     "correct": "A coat, boots, a scarf",
+     "q": "What clothes are good for cold weather?",
+     "qTr": "Soğuk hava için hangi kıyafetler iyi?",
+     "correct": "A coat and boots",
      "wrong": [
-      "A T-shirt",
-      "Shorts"
+      "A skirt and shoes",
+      "A T-shirt and shorts"
      ],
-     "hint": "Read the clues.",
+     "hint": "It is not warm. He is not wearing a T-shirt.",
      "hl": [
       0,
       3,
@@ -4427,20 +4420,33 @@
       "Blue",
       "Yellow"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the jumper.",
      "hl": [
       0
      ]
     },
     {
-     "q": "What does Mert dislike?",
-     "qTr": "Mert neyi sevmiyor?",
-     "correct": "Jumpers",
+     "q": "What does Maya love?",
+     "qTr": "Maya neye bayılıyor?",
+     "correct": "Red clothes",
      "wrong": [
-      "Sweatshirts",
-      "Boots"
+      "Green jumpers",
+      "Blue dresses"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Maya.",
+     "hl": [
+      1
+     ]
+    },
+    {
+     "q": "Does Mert like jumpers?",
+     "qTr": "Mert kazakları seviyor mu?",
+     "correct": "No",
+     "wrong": [
+      "Yes",
+      "Maybe"
+     ],
+     "hint": "Find Mert.",
      "hl": [
       2
      ]
@@ -4450,40 +4456,27 @@
      "qTr": "Kerem neye bayılıyor?",
      "correct": "His green jumper",
      "wrong": [
-      "Red clothes",
-      "Dresses"
+      "Her red dress",
+      "His blue jacket"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Kerem.",
      "hl": [
       3
      ]
     },
     {
-     "q": "What does Maya love?",
-     "qTr": "Maya neye bayılıyor?",
-     "correct": "Red clothes",
-     "wrong": [
-      "Green clothes",
-      "Jumpers"
-     ],
-     "hint": "Read sentence 2.",
-     "hl": [
-      1
-     ]
-    },
-    {
-     "q": "Whose green jumper is it?",
-     "qTr": "Yeşil kazak kimin?",
+     "q": "Whose jumper is it?",
+     "qTr": "Kazak kimin?",
      "correct": "Kerem's",
      "wrong": [
       "Mert's",
       "Maya's"
      ],
-     "hint": "Read the clues.",
+     "hint": "Maya loves red clothes. Mert dislikes jumpers.",
      "hl": [
+      1,
       2,
-      3,
-      5
+      3
      ]
     }
    ]
@@ -4537,7 +4530,7 @@
       "Yellow",
       "Blue"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the earrings.",
      "hl": [
       0
      ]
@@ -4550,7 +4543,7 @@
       "Red",
       "Blue"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find Maya's earrings.",
      "hl": [
       1
      ]
@@ -4563,37 +4556,38 @@
       "Red",
       "Yellow"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find Ada's earrings.",
      "hl": [
       2
      ]
     },
     {
-     "q": "What colour are Zara's earrings?",
-     "qTr": "Zara'nın küpeleri ne renk?",
-     "correct": "Red",
+     "q": "Are they Maya's earrings?",
+     "qTr": "Bunlar Maya'nın küpeleri mi?",
+     "correct": "No",
      "wrong": [
-      "Yellow",
-      "Blue"
+      "Yes",
+      "Maybe"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Maya's earrings.",
      "hl": [
-      3
+      1
      ]
     },
     {
-     "q": "Whose red earrings are they?",
-     "qTr": "Kırmızı küpeler kimin?",
+     "q": "Whose earrings are they?",
+     "qTr": "Küpeler kimin?",
      "correct": "Zara's",
      "wrong": [
       "Maya's",
       "Ada's"
      ],
-     "hint": "Read the clues.",
+     "hint": "They are not yellow. They are not blue.",
      "hl": [
       0,
-      3,
-      5
+      1,
+      2,
+      3
      ]
     }
    ]
@@ -4644,27 +4638,27 @@
    ],
    "questions": [
     {
-     "q": "What is the girl wearing (bottom)?",
-     "qTr": "Kız altına ne giyiyor?",
+     "q": "What is the girl wearing?",
+     "qTr": "Kız ne giyiyor?",
      "correct": "A yellow skirt",
      "wrong": [
-      "Blue jeans",
-      "A red dress"
+      "A blue dress",
+      "A green jumper"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find her skirt.",
      "hl": [
       1
      ]
     },
     {
-     "q": "What is the girl wearing (top)?",
-     "qTr": "Kız üstüne ne giyiyor?",
-     "correct": "A white jumper",
+     "q": "What colour is her jumper?",
+     "qTr": "Onun kazağı ne renk?",
+     "correct": "White",
      "wrong": [
-      "A green jacket",
-      "A pink dress"
+      "Yellow",
+      "Blue"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find her jumper.",
      "hl": [
       2
      ]
@@ -4677,36 +4671,35 @@
       "Brown",
       "Dark"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find her hair.",
      "hl": [
       3
      ]
     },
     {
-     "q": "What is she like?",
-     "qTr": "O nasıl biri?",
-     "correct": "Little and pretty",
+     "q": "Has she got dark hair?",
+     "qTr": "Onun koyu renk saçı var mı?",
+     "correct": "No",
      "wrong": [
-      "Tall and strong",
-      "Bad"
+      "Yes",
+      "Maybe"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find her hair.",
      "hl": [
-      4
+      3
      ]
     },
     {
-     "q": "Who is the girl?",
-     "qTr": "Kız kim?",
+     "q": "Who is this girl?",
+     "qTr": "Bu kız kim?",
      "correct": "Ada",
      "wrong": [
       "Maya",
       "Zara"
      ],
-     "hint": "Read all the clues.",
+     "hint": "Her hair is blond. Her skirt is yellow.",
      "hl": [
       1,
-      2,
       3,
       4
      ]
@@ -4761,25 +4754,25 @@
      "qTr": "Hava nasıl?",
      "correct": "Sunny and warm",
      "wrong": [
-      "Raining",
-      "Snowing"
+      "Cold and raining",
+      "Cold and snowing"
      ],
-     "hint": "Read sentence 1.",
+     "hint": "Find the weather.",
      "hl": [
       0
      ]
     },
     {
-     "q": "What is Maya not wearing?",
-     "qTr": "Maya ne giymiyor?",
-     "correct": "A coat",
+     "q": "Is it snowing?",
+     "qTr": "Kar yağıyor mu?",
+     "correct": "No",
      "wrong": [
-      "A T-shirt",
-      "Sunglasses"
+      "Yes",
+      "Maybe"
      ],
-     "hint": "Read sentence 3.",
+     "hint": "Find the weather.",
      "hl": [
-      2
+      1
      ]
     },
     {
@@ -4787,23 +4780,23 @@
      "qTr": "Maya ne giyiyor?",
      "correct": "A T-shirt and a skirt",
      "wrong": [
-      "A coat",
-      "Boots"
+      "A coat and a jumper",
+      "A jacket and a scarf"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find Maya's clothes.",
      "hl": [
       3
      ]
     },
     {
-     "q": "What has Maya got, too?",
-     "qTr": "Maya'nın başka nesi var?",
+     "q": "What has Maya got?",
+     "qTr": "Maya'nın nesi var?",
      "correct": "A hat",
      "wrong": [
-      "Boots",
-      "A jumper"
+      "A coat",
+      "A scarf"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Maya's hat.",
      "hl": [
       5
      ]
@@ -4816,11 +4809,11 @@
       "Winter",
       "Autumn"
      ],
-     "hint": "Read the clues.",
+     "hint": "It is not raining. She is not wearing a coat.",
      "hl": [
       0,
-      3,
-      7
+      2,
+      3
      ]
     }
    ]
@@ -4869,14 +4862,14 @@
    ],
    "questions": [
     {
-     "q": "Is today a religious day?",
-     "qTr": "Bugün dini bir gün mü?",
+     "q": "Is it a religious day?",
+     "qTr": "Bu dini bir gün mü?",
      "correct": "No",
      "wrong": [
       "Yes",
       "Maybe"
      ],
-     "hint": "Read sentence 2.",
+     "hint": "Find the day.",
      "hl": [
       1
      ]
@@ -4889,20 +4882,20 @@
       "Summer",
       "Winter"
      ],
-     "hint": "Read sentence 4.",
+     "hint": "Find the season.",
      "hl": [
       3
      ]
     },
     {
-     "q": "What colours is Maya's dress?",
-     "qTr": "Maya'nın elbisesi ne renk?",
-     "correct": "Red and white",
+     "q": "What is Maya wearing?",
+     "qTr": "Maya ne giyiyor?",
+     "correct": "A red and white dress",
      "wrong": [
-      "Blue and yellow",
-      "Green"
+      "A blue and green skirt",
+      "A black and white shirt"
      ],
-     "hint": "Read sentence 5.",
+     "hint": "Find Maya's dress.",
      "hl": [
       4
      ]
@@ -4913,9 +4906,9 @@
      "correct": "A white shirt",
      "wrong": [
       "A red dress",
-      "Boots"
+      "A blue jacket"
      ],
-     "hint": "Read sentence 6.",
+     "hint": "Find Kerem's shirt.",
      "hl": [
       5
      ]
@@ -4923,16 +4916,16 @@
     {
      "q": "What special day is it?",
      "qTr": "Bu hangi özel gün?",
-     "correct": "Children's Day, 23rd of April",
+     "correct": "Children's Day",
      "wrong": [
       "Republic Day",
-      "Victory Day"
+      "Sports Day"
      ],
-     "hint": "Read the clues.",
+     "hint": "It is not a religious day. It is not the 29th of October.",
      "hl": [
       1,
-      3,
-      7
+      2,
+      3
      ]
     }
    ]
