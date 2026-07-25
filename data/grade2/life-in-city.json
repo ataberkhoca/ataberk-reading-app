@@ -49,8 +49,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the apples.",
           "hl": [
+            1,
             2
           ]
         },
@@ -62,8 +63,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the strawberries.",
           "hl": [
+            3,
             4
           ]
         },
@@ -75,8 +77,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the bananas.",
           "hl": [
+            5,
             6
           ]
         },
@@ -88,7 +91,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the fruits.",
           "hl": [
             7
           ]
@@ -101,9 +104,10 @@
             "Tom",
             "Can"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the names.",
           "hl": [
-            1
+            1,
+            2
           ]
         }
       ]
@@ -150,30 +154,29 @@
       ],
       "questions": [
         {
-          "q": "What has Can got in the kitchen?",
-          "qTr": "Can'ın mutfağında ne var?",
-          "correct": "Some fruits",
+          "q": "What has Can got?",
+          "qTr": "Can'ın nesi var?",
+          "correct": "Oranges and grapes",
           "wrong": [
-            "Some pets",
-            "Some flowers"
+            "Apples and bananas",
+            "Lemons and pears"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find Can.",
           "hl": [
-            0
+            1,
+            2
           ]
         },
         {
-          "q": "What fruits has Can got?",
-          "qTr": "Can'ın hangi meyveleri var?",
-          "correct": "Oranges, grapes and cherries",
+          "q": "Has Can got some cherries?",
+          "qTr": "Can'ın kirazları var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Apples and bananas",
-            "Tomatoes"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the cherries.",
           "hl": [
-            1,
-            2,
             3
           ]
         },
@@ -185,8 +188,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Tom.",
           "hl": [
+            4,
             5
           ]
         },
@@ -198,23 +202,23 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the oranges.",
           "hl": [
             6,
             7
           ]
         },
         {
-          "q": "Are the fruits colourful?",
-          "qTr": "Meyveler renkli mi?",
-          "correct": "Yes",
+          "q": "Where are the fruits?",
+          "qTr": "Meyveler nerede?",
+          "correct": "In the kitchen",
           "wrong": [
-            "No",
-            "Maybe"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Find the fruits.",
           "hl": [
-            8
+            0
           ]
         }
       ]
@@ -266,8 +270,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the carrots.",
           "hl": [
+            1,
             2
           ]
         },
@@ -279,8 +284,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the lettuce.",
           "hl": [
+            3,
             4
           ]
         },
@@ -292,8 +298,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the garlic.",
           "hl": [
+            5,
             6
           ]
         },
@@ -305,7 +312,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the vegetables.",
           "hl": [
             7
           ]
@@ -318,9 +325,10 @@
             "Tom",
             "Can"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the names.",
           "hl": [
-            1
+            1,
+            2
           ]
         }
       ]
@@ -369,28 +377,27 @@
         {
           "q": "What has Can got on the plate?",
           "qTr": "Can'ın tabağında ne var?",
-          "correct": "Some vegetables",
+          "correct": "Potatoes and beans",
           "wrong": [
-            "Some fruits",
-            "Some milk"
+            "Carrots and lettuce",
+            "Tomatoes and onions"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the plate.",
           "hl": [
-            0
+            1,
+            2
           ]
         },
         {
-          "q": "What vegetables has Can got?",
-          "qTr": "Can'ın hangi sebzeleri var?",
-          "correct": "Potatoes, beans and peppers",
+          "q": "Has Can got some peppers?",
+          "qTr": "Can'ın biberleri var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Carrots and lettuce",
-            "Spinach"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the peppers.",
           "hl": [
-            1,
-            2,
             3
           ]
         },
@@ -402,8 +409,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Lila.",
           "hl": [
+            4,
             5
           ]
         },
@@ -415,8 +423,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the broccoli.",
           "hl": [
+            6,
             7
           ]
         },
@@ -428,7 +437,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Find the vegetables.",
           "hl": [
             8
           ]
@@ -484,23 +493,35 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find Tom.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What drinks has Tom got?",
-          "qTr": "Tom'un hangi içecekleri var?",
-          "correct": "Water, milk and ayran",
+          "q": "What has Tom got?",
+          "qTr": "Tom'un nesi var?",
+          "correct": "Water and milk",
           "wrong": [
             "Tea and coffee",
-            "Juice"
+            "Bread and eggs"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the drinks.",
           "hl": [
             1,
-            2,
+            2
+          ]
+        },
+        {
+          "q": "Has Tom got some ayran?",
+          "qTr": "Tom'un ayranı var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find the ayran.",
+          "hl": [
             3
           ]
         },
@@ -512,8 +533,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Can.",
           "hl": [
+            4,
             5
           ]
         },
@@ -525,22 +547,10 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the coffee.",
           "hl": [
+            6,
             7
-          ]
-        },
-        {
-          "q": "Are drinks nice for us?",
-          "qTr": "İçecekler bizim için güzel mi?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 9.",
-          "hl": [
-            8
           ]
         }
       ]
@@ -589,28 +599,27 @@
         {
           "q": "What has Eda got on the plate?",
           "qTr": "Eda'nın tabağında ne var?",
-          "correct": "Some food",
+          "correct": "Bread and eggs",
           "wrong": [
-            "Some toys",
-            "Some books"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the plate.",
           "hl": [
-            0
+            1,
+            2
           ]
         },
         {
-          "q": "What food has Eda got?",
-          "qTr": "Eda'nın hangi yiyecekleri var?",
-          "correct": "Bread, eggs and chicken",
+          "q": "Has Eda got some chicken?",
+          "qTr": "Eda'nın tavuğu var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Apples",
-            "Carrots"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the chicken.",
           "hl": [
-            1,
-            2,
             3
           ]
         },
@@ -622,8 +631,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Tom.",
           "hl": [
+            4,
             5
           ]
         },
@@ -635,8 +645,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the meat.",
           "hl": [
+            6,
             7
           ]
         },
@@ -648,7 +659,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Find the food.",
           "hl": [
             8
           ]
@@ -702,24 +713,23 @@
             "Lunch",
             "Dinner"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the meal.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What has Lila got for breakfast?",
-          "qTr": "Lila'nın kahvaltıda nesi var?",
-          "correct": "Bread, eggs, milk and tomatoes",
+          "q": "What has Lila got?",
+          "qTr": "Lila'nın nesi var?",
+          "correct": "Bread and eggs",
           "wrong": [
-            "Chicken and beans",
-            "Only milk"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Lila.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
@@ -730,35 +740,36 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the eggs.",
           "hl": [
+            4,
             5
           ]
         },
         {
-          "q": "What has Can got for breakfast?",
-          "qTr": "Can'ın kahvaltıda nesi var?",
+          "q": "What has Can got?",
+          "qTr": "Can'ın nesi var?",
           "correct": "Bread and ayran",
           "wrong": [
-            "Eggs and milk",
-            "Tea and biscuits"
+            "Milk and cherries",
+            "Fish and tea"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find Can.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Is it time for breakfast?",
-          "qTr": "Kahvaltı zamanı mı?",
+          "q": "Has Lila got some tomatoes?",
+          "qTr": "Lila'nın domatesleri var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the tomatoes.",
           "hl": [
-            0
+            3
           ]
         }
       ]
@@ -810,35 +821,34 @@
             "Breakfast",
             "Dinner"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the meal.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What has Tom got for lunch?",
-          "qTr": "Tom'un öğle yemeğinde nesi var?",
-          "correct": "Chicken, bread, carrots and water",
+          "q": "What has Tom got?",
+          "qTr": "Tom'un nesi var?",
+          "correct": "Chicken and bread",
           "wrong": [
-            "Bread and eggs",
-            "Tea"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Tom.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "What has Eda got for lunch?",
-          "qTr": "Eda'nın öğle yemeğinde nesi var?",
+          "q": "What has Eda got?",
+          "qTr": "Eda'nın nesi var?",
           "correct": "Fish and potatoes",
           "wrong": [
-            "Chicken and rice",
-            "Only milk"
+            "Chicken and carrots",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Eda.",
           "hl": [
             4
           ]
@@ -851,8 +861,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the fish.",
           "hl": [
+            5,
             6
           ]
         },
@@ -864,7 +875,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the lunch.",
           "hl": [
             7
           ]
@@ -917,10 +928,23 @@
           "qTr": "Eda nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find Eda.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Who is with Eda?",
+          "qTr": "Eda ile kim var?",
+          "correct": "Mum",
+          "wrong": [
+            "Dad",
+            "Lila"
+          ],
+          "hint": "Find the names.",
           "hl": [
             0
           ]
@@ -933,39 +957,24 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the bread.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What is the mum's answer?",
-          "qTr": "Annenin cevabı ne?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Can Eda have some milk and some apples?",
-          "qTr": "Eda biraz süt ve elma alabilir mi?",
+          "q": "Can Eda have some milk?",
+          "qTr": "Eda biraz süt alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the milk.",
           "hl": [
             4,
-            5,
-            6,
-            7
+            5
           ]
         },
         {
@@ -976,7 +985,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Find the kitchen.",
           "hl": [
             8
           ]
@@ -1025,14 +1034,14 @@
       ],
       "questions": [
         {
-          "q": "What date is it today?",
-          "qTr": "Bugün hangi tarih?",
+          "q": "What day is it today?",
+          "qTr": "Bugün hangi gün?",
           "correct": "The 23rd of April",
           "wrong": [
-            "The 29th of October",
-            "The 15th of July"
+            "The 23rd of May",
+            "The 23rd of June"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the date.",
           "hl": [
             0
           ]
@@ -1042,26 +1051,25 @@
           "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
-            "Republic Day",
-            "Victory Day"
+            "Eid al-Fitr",
+            "Republic Day"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the special day.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What has Eda got for lunch?",
-          "qTr": "Eda'nın öğle yemeğinde nesi var?",
-          "correct": "Chicken, potatoes and ayran",
+          "q": "What has Eda got?",
+          "qTr": "Eda'nın nesi var?",
+          "correct": "Chicken and potatoes",
           "wrong": [
-            "Fish and bread",
-            "Apples"
+            "Fish and carrots",
+            "Meat and tomatoes"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Eda.",
           "hl": [
-            4,
-            5
+            4
           ]
         },
         {
@@ -1069,32 +1077,32 @@
           "qTr": "Can'ın nesi var?",
           "correct": "Bread and eggs",
           "wrong": [
-            "Chicken and fish",
-            "Carrots"
+            "Milk and cherries",
+            "Fish and beans"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find Can.",
           "hl": [
             7
           ]
         },
         {
-          "q": "Is the family happy today?",
-          "qTr": "Aile bugün mutlu mu?",
+          "q": "Has Eda got some ayran?",
+          "qTr": "Eda'nın ayranı var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the ayran.",
           "hl": [
-            6
+            5
           ]
         }
       ]
     },
     {
       "id": "scan-11",
-      "title": "What's in Our Kitchen?",
+      "title": "Food in Our Kitchen",
       "subtitle": "Find the right answer!",
       "icon": "🥬",
       "hlMode": "fade3",
@@ -1140,15 +1148,16 @@
       ],
       "questions": [
         {
-          "q": "Is there a banana in the kitchen?",
-          "qTr": "Mutfakta bir muz var mı?",
+          "q": "Is there a banana?",
+          "qTr": "Bir muz var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the banana.",
           "hl": [
+            0,
             1
           ]
         },
@@ -1160,8 +1169,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find the potatoes.",
           "hl": [
+            2,
             3
           ]
         },
@@ -1173,8 +1183,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the courgettes.",
           "hl": [
+            4,
             5
           ]
         },
@@ -1186,8 +1197,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the cauliflower.",
           "hl": [
+            6,
             7
           ]
         },
@@ -1199,8 +1211,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Find the cherries.",
           "hl": [
+            8,
             9
           ]
         }
@@ -1248,14 +1261,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Liking fruits",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Fruits",
           "wrong": [
             "Vegetables",
             "Drinks"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about fruits.",
           "hl": [
             0,
             7
@@ -1269,8 +1282,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the apples.",
           "hl": [
+            1,
             2
           ]
         },
@@ -1282,8 +1296,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the cherries.",
           "hl": [
+            3,
             4
           ]
         },
@@ -1295,8 +1310,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the pears.",
           "hl": [
+            5,
             6
           ]
         },
@@ -1308,7 +1324,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the fruits.",
           "hl": [
             7
           ]
@@ -1355,16 +1371,17 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Liking vegetables",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Vegetables",
           "wrong": [
             "Fruits",
             "Drinks"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about vegetables.",
           "hl": [
-            0
+            0,
+            7
           ]
         },
         {
@@ -1375,8 +1392,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the carrots.",
           "hl": [
+            1,
             2
           ]
         },
@@ -1388,8 +1406,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the cucumbers.",
           "hl": [
+            3,
             4
           ]
         },
@@ -1401,29 +1420,31 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the broccoli.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "Who is with Can?",
-          "qTr": "Can ile kim var?",
-          "correct": "Lila",
+          "q": "Who is with Lila?",
+          "qTr": "Lila ile kim var?",
+          "correct": "Can",
           "wrong": [
-            "Eda",
-            "Tom"
+            "Tom",
+            "Eda"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the names.",
           "hl": [
-            1
+            1,
+            2
           ]
         }
       ]
     },
     {
       "id": "skim-3",
-      "title": "Is There Any Food in the Kitchen?",
+      "title": "Is There Food in the Kitchen?",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🍌",
       "hlMode": "always",
@@ -1465,15 +1486,16 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Food in the kitchen",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Fruits",
           "wrong": [
-            "School",
-            "Pets"
+            "Vegetables",
+            "Drinks"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Think about fruits.",
           "hl": [
+            0,
             9
           ]
         },
@@ -1485,8 +1507,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the banana.",
           "hl": [
+            1,
             2
           ]
         },
@@ -1498,8 +1521,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the apples.",
           "hl": [
+            3,
             4
           ]
         },
@@ -1511,8 +1535,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the oranges.",
           "hl": [
+            5,
             6
           ]
         },
@@ -1524,8 +1549,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Find the cherries.",
           "hl": [
+            7,
             8
           ]
         }
@@ -1575,15 +1601,16 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Food in a fridge",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Vegetables",
           "wrong": [
-            "School",
-            "Pets"
+            "Fruits",
+            "Drinks"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Think about vegetables.",
           "hl": [
+            0,
             9
           ]
         },
@@ -1595,8 +1622,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the tomato.",
           "hl": [
+            1,
             2
           ]
         },
@@ -1608,22 +1636,10 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the cucumbers.",
           "hl": [
+            3,
             4
-          ]
-        },
-        {
-          "q": "Is there garlic?",
-          "qTr": "Sarımsak var mı?",
-          "correct": "No",
-          "wrong": [
-            "Yes",
-            "Maybe"
-          ],
-          "hint": "Read sentence 9.",
-          "hl": [
-            8
           ]
         },
         {
@@ -1634,9 +1650,24 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the peppers.",
           "hl": [
+            5,
             6
+          ]
+        },
+        {
+          "q": "Is there garlic?",
+          "qTr": "Sarımsak var mı?",
+          "correct": "No",
+          "wrong": [
+            "Yes",
+            "Maybe"
+          ],
+          "hint": "Find the garlic.",
+          "hl": [
+            7,
+            8
           ]
         }
       ]
@@ -1683,18 +1714,17 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Tom asking for food",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Food",
           "wrong": [
-            "Food in school",
-            "Tom in the garden"
+            "Fruits",
+            "Vegetables"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Think about food.",
           "hl": [
-            1,
-            3,
-            5
+            0,
+            8
           ]
         },
         {
@@ -1705,7 +1735,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find Tom.",
           "hl": [
             0
           ]
@@ -1718,37 +1748,36 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the bread.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What is the answer?",
-          "qTr": "Cevap ne?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Can Tom have some milk and some eggs?",
-          "qTr": "Tom biraz süt ve yumurta alabilir mi?",
+          "q": "Can Tom have some milk?",
+          "qTr": "Tom biraz süt alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find the milk.",
           "hl": [
             3,
-            4,
+            4
+          ]
+        },
+        {
+          "q": "Can Tom have some eggs?",
+          "qTr": "Tom biraz yumurta alabilir mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find the eggs.",
+          "hl": [
             5,
             6
           ]
@@ -1797,42 +1826,42 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Dinner time",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Dinner",
           "wrong": [
             "Breakfast",
             "Lunch"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about meals.",
           "hl": [
-            0
+            0,
+            8
           ]
         },
         {
-          "q": "What has Lila got for dinner?",
-          "qTr": "Lila'nın akşam yemeğinde nesi var?",
-          "correct": "Chicken, potatoes, beans and water",
+          "q": "What has Lila got?",
+          "qTr": "Lila'nın nesi var?",
+          "correct": "Chicken and potatoes",
           "wrong": [
-            "Bread and eggs",
-            "Only milk"
+            "Fish and cherries",
+            "Meat and tomatoes"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Lila.",
           "hl": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
-          "q": "What has Tom got for dinner?",
-          "qTr": "Tom'un akşam yemeğinde nesi var?",
+          "q": "What has Tom got?",
+          "qTr": "Tom'un nesi var?",
           "correct": "Fish and bread",
           "wrong": [
-            "Chicken",
-            "Apples"
+            "Milk and cherries",
+            "Eggs and beans"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Tom.",
           "hl": [
             4
           ]
@@ -1845,8 +1874,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the fish.",
           "hl": [
+            5,
             6
           ]
         },
@@ -1858,7 +1888,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the dinner.",
           "hl": [
             7
           ]
@@ -1905,17 +1935,17 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "A friend asking for food",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Food",
           "wrong": [
-            "School",
-            "A pet"
+            "Fruits",
+            "Vegetables"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Think about food.",
           "hl": [
-            1,
-            5
+            0,
+            7
           ]
         },
         {
@@ -1926,21 +1956,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the water.",
           "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What is the answer?",
-          "qTr": "Cevap ne?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
+            1,
             2
           ]
         },
@@ -1952,9 +1970,10 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the bread.",
           "hl": [
-            5
+            5,
+            6
           ]
         },
         {
@@ -1962,12 +1981,26 @@
           "qTr": "Arkadaşlar nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the friends.",
           "hl": [
+            0,
             7
+          ]
+        },
+        {
+          "q": "Who is with Eda?",
+          "qTr": "Eda ile kim var?",
+          "correct": "Lila",
+          "wrong": [
+            "Tom",
+            "Can"
+          ],
+          "hint": "Find the names.",
+          "hl": [
+            1
           ]
         }
       ]
@@ -2010,18 +2043,17 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Food for three meals",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Meals",
           "wrong": [
-            "School",
-            "Pets"
+            "Fruits",
+            "Vegetables"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Think about meals.",
           "hl": [
-            1,
-            2,
-            3
+            0,
+            6
           ]
         },
         {
@@ -2029,10 +2061,10 @@
           "qTr": "Can'ın kahvaltıda nesi var?",
           "correct": "Bread and eggs",
           "wrong": [
-            "Chicken",
-            "Fish"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the breakfast.",
           "hl": [
             1
           ]
@@ -2042,38 +2074,38 @@
           "qTr": "Can'ın öğle yemeğinde nesi var?",
           "correct": "Chicken and bread",
           "wrong": [
-            "Fish",
-            "Apples"
+            "Fish and beans",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the lunch.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What has Can got for dinner?",
-          "qTr": "Can'ın akşam yemeğinde nesi var?",
-          "correct": "Fish",
+          "q": "Has Can got some fish?",
+          "qTr": "Can'ın balığı var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Eggs",
-            "Meat"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find the fish.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What has Tom got for lunch?",
-          "qTr": "Tom'un öğle yemeğinde nesi var?",
-          "correct": "Meat",
+          "q": "What has Tom got for breakfast?",
+          "qTr": "Tom'un kahvaltıda nesi var?",
+          "correct": "Eggs and bread",
           "wrong": [
-            "Fish",
-            "Chicken"
+            "Milk and cherries",
+            "Fish and beans"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Tom.",
           "hl": [
-            4
+            5
           ]
         }
       ]
@@ -2120,14 +2152,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Drinks for everyone",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Drinks",
           "wrong": [
-            "Food",
-            "School"
+            "Fruits",
+            "Vegetables"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about drinks.",
           "hl": [
             0,
             8
@@ -2141,22 +2173,24 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the water.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "Is ayran a Turkish drink?",
-          "qTr": "Ayran bir Türk içeceği mi?",
+          "q": "Is milk yummy for Tom?",
+          "qTr": "Süt Tom için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the milk.",
           "hl": [
-            5
+            3,
+            4
           ]
         },
         {
@@ -2167,22 +2201,23 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the coffee.",
           "hl": [
+            6,
             7
           ]
         },
         {
-          "q": "Is Tom thirsty?",
-          "qTr": "Tom susamış mı?",
+          "q": "Is ayran a Turkish drink?",
+          "qTr": "Ayran bir Türk içeceği mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the ayran.",
           "hl": [
-            0
+            5
           ]
         }
       ]
@@ -2233,14 +2268,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Eid lunch with family",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Lunch",
           "wrong": [
-            "School",
-            "A pet"
+            "Breakfast",
+            "Dinner"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about meals.",
           "hl": [
             0,
             7
@@ -2251,25 +2286,37 @@
           "qTr": "Hangi özel gün?",
           "correct": "Eid al-Fitr",
           "wrong": [
-            "Republic Day",
-            "Children's Day"
+            "Children's Day",
+            "Republic Day"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the special day.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What food has the family got?",
-          "qTr": "Ailenin hangi yiyecekleri var?",
-          "correct": "Chicken, bread, apples and cherries",
+          "q": "What has the family got?",
+          "qTr": "Ailenin nesi var?",
+          "correct": "Chicken and bread",
           "wrong": [
-            "Only milk",
-            "Only fish"
+            "Fish and beans",
+            "Meat and tomatoes"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find the family.",
           "hl": [
-            3,
+            3
+          ]
+        },
+        {
+          "q": "Has the family got some cherries?",
+          "qTr": "Ailenin kirazları var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Find the cherries.",
+          "hl": [
             4
           ]
         },
@@ -2281,23 +2328,10 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the ayran.",
           "hl": [
             5,
             6
-          ]
-        },
-        {
-          "q": "Is the Eid lunch delicious?",
-          "qTr": "Bayram öğle yemeği nefis mi?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
           ]
         }
       ]
@@ -2346,14 +2380,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin temel olarak ne hakkında?",
-          "correct": "Food likes and dislikes",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkında?",
+          "correct": "Food",
           "wrong": [
-            "School",
-            "Pets"
+            "Drinks",
+            "Meals"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Think about food.",
           "hl": [
             0,
             6
@@ -2367,7 +2401,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find the bananas.",
           "hl": [
             1
           ]
@@ -2380,7 +2414,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find the broccoli.",
           "hl": [
             2
           ]
@@ -2393,7 +2427,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find the beans.",
           "hl": [
             4
           ]
@@ -2406,7 +2440,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find the meat.",
           "hl": [
             5
           ]
@@ -2461,10 +2495,10 @@
           "qTr": "Eda ve Lila nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at Eda.",
           "hl": [
             0
           ]
@@ -2477,8 +2511,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Lila.",
           "hl": [
+            1,
             2
           ]
         },
@@ -2490,8 +2525,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Eda.",
           "hl": [
+            3,
             4
           ]
         },
@@ -2503,20 +2539,21 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Lila.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "Are cherries yummy for both?",
-          "qTr": "Kirazlar ikisi için de nefis mi?",
+          "q": "Are cherries yummy for Eda?",
+          "qTr": "Kirazlar Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Eda.",
           "hl": [
             6,
             7
@@ -2570,10 +2607,10 @@
           "qTr": "Sebzeler nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In a shop"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at Can.",
           "hl": [
             0
           ]
@@ -2586,8 +2623,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Can.",
           "hl": [
+            1,
             2
           ]
         },
@@ -2599,8 +2637,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Tom.",
           "hl": [
+            3,
             4
           ]
         },
@@ -2612,7 +2651,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Can.",
           "hl": [
             5,
             6
@@ -2626,9 +2665,10 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the kitchen.",
           "hl": [
-            0
+            0,
+            7
           ]
         }
       ]
@@ -2682,50 +2722,50 @@
             "Lunch",
             "Dinner"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the family.",
           "hl": [
             0
           ]
         },
         {
-          "q": "Where is Eda?",
-          "qTr": "Eda nerede?",
-          "correct": "In the kitchen",
+          "q": "What has Eda got?",
+          "qTr": "Eda'nın nesi var?",
+          "correct": "Bread and eggs",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What has Eda got for breakfast?",
-          "qTr": "Eda'nın kahvaltıda nesi var?",
-          "correct": "Bread, eggs, milk, apples and tomatoes",
-          "wrong": [
-            "Only milk",
-            "Only chicken"
-          ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Eda.",
           "hl": [
             2,
-            3,
-            4
+            3
           ]
         },
         {
-          "q": "Can mum have some tea?",
+          "q": "Can Mum have some tea?",
           "qTr": "Anne biraz çay alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Mum.",
           "hl": [
-            5
+            5,
+            6
+          ]
+        },
+        {
+          "q": "Has Eda got some tomatoes?",
+          "qTr": "Eda'nın domatesleri var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Look at Eda.",
+          "hl": [
+            4
           ]
         },
         {
@@ -2736,7 +2776,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Look at the family.",
           "hl": [
             8
           ]
@@ -2796,62 +2836,64 @@
             "Breakfast",
             "Dinner"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the family.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What has Tom got for lunch?",
-          "qTr": "Tom'un öğle yemeğinde nesi var?",
-          "correct": "Chicken, bread and carrots",
+          "q": "What has Tom got?",
+          "qTr": "Tom'un nesi var?",
+          "correct": "Chicken and bread",
           "wrong": [
-            "Only milk",
-            "Eggs"
+            "Fish and beans",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Tom.",
           "hl": [
             2,
             3
           ]
         },
         {
-          "q": "Can mum have some water?",
+          "q": "Can Mum have some water?",
           "qTr": "Anne biraz su alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Mum.",
           "hl": [
-            4
+            4,
+            5
           ]
         },
         {
-          "q": "Can dad have some chicken?",
+          "q": "Can Dad have some chicken?",
           "qTr": "Baba biraz tavuk alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Dad.",
           "hl": [
-            6
+            6,
+            7
           ]
         },
         {
-          "q": "Is lunch yummy?",
-          "qTr": "Öğle yemeği nefis mi?",
+          "q": "Has Tom got some carrots?",
+          "qTr": "Tom'un havuçları var mı?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Look at Tom.",
           "hl": [
-            8
+            3
           ]
         }
       ]
@@ -2907,49 +2949,50 @@
             "Breakfast",
             "Lunch"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the family.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What has Lila got for dinner?",
-          "qTr": "Lila'nın akşam yemeğinde nesi var?",
-          "correct": "Fish, potatoes, lettuce and bread",
+          "q": "What has Lila got?",
+          "qTr": "Lila'nın nesi var?",
+          "correct": "Fish and potatoes",
           "wrong": [
-            "Only milk",
-            "Eggs"
+            "Chicken and carrots",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Lila.",
           "hl": [
             2,
-            3,
-            4
+            3
           ]
         },
         {
-          "q": "Can mum have some milk?",
+          "q": "Can Mum have some milk?",
           "qTr": "Anne biraz süt alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Mum.",
           "hl": [
-            5
+            5,
+            6
           ]
         },
         {
-          "q": "Is fish yummy for mum?",
+          "q": "Is fish yummy for Mum?",
           "qTr": "Balık anne için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Look at Mum.",
           "hl": [
+            7,
             8
           ]
         },
@@ -2961,7 +3004,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Look at Lila.",
           "hl": [
             9
           ]
@@ -3012,14 +3055,14 @@
       ],
       "questions": [
         {
-          "q": "Where is Can?",
-          "qTr": "Can nerede?",
+          "q": "Where are Can and Eda?",
+          "qTr": "Can ve Eda nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at Can.",
           "hl": [
             0
           ]
@@ -3032,8 +3075,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Eda.",
           "hl": [
+            1,
             2
           ]
         },
@@ -3045,8 +3089,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Can.",
           "hl": [
+            3,
             4
           ]
         },
@@ -3058,8 +3103,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Eda.",
           "hl": [
+            5,
             6
           ]
         },
@@ -3071,8 +3117,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Look at Can.",
           "hl": [
+            7,
             8
           ]
         }
@@ -3122,14 +3169,14 @@
       ],
       "questions": [
         {
-          "q": "Who is in the kitchen with Eda?",
-          "qTr": "Eda ile mutfakta kim var?",
+          "q": "Who is with Eda?",
+          "qTr": "Eda ile kim var?",
           "correct": "Tom",
           "wrong": [
             "Lila",
             "Can"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the names.",
           "hl": [
             0
           ]
@@ -3142,36 +3189,37 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Look at Tom.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What is the answer?",
-          "qTr": "Cevap ne?",
-          "correct": "Yes, you can!",
-          "wrong": [
-            "No, you can't!",
-            "Goodbye!"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Can Eda have some milk and some apples?",
-          "qTr": "Eda biraz süt ve elma alabilir mi?",
+          "q": "Can Eda have some milk?",
+          "qTr": "Eda biraz süt alabilir mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Tom.",
           "hl": [
-            6,
+            5,
+            6
+          ]
+        },
+        {
+          "q": "Can Eda have some apples?",
+          "qTr": "Eda biraz elma alabilir mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Look at Tom.",
+          "hl": [
+            7,
             8
           ]
         },
@@ -3183,7 +3231,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Look at Eda.",
           "hl": [
             9
           ]
@@ -3234,19 +3282,6 @@
       ],
       "questions": [
         {
-          "q": "Is it a hot day?",
-          "qTr": "Sıcak bir gün mü?",
-          "correct": "Yes",
-          "wrong": [
-            "No",
-            "Maybe"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "Is Tom thirsty?",
           "qTr": "Tom susamış mı?",
           "correct": "Yes",
@@ -3254,7 +3289,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Look at Tom.",
           "hl": [
             1
           ]
@@ -3267,9 +3302,10 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Lila.",
           "hl": [
-            2
+            2,
+            3
           ]
         },
         {
@@ -3280,8 +3316,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Tom.",
           "hl": [
+            4,
             5
           ]
         },
@@ -3293,9 +3330,23 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Tom.",
           "hl": [
             5
+          ]
+        },
+        {
+          "q": "Can Tom have some ayran?",
+          "qTr": "Tom biraz ayran alabilir mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Look at Lila.",
+          "hl": [
+            8,
+            9
           ]
         }
       ]
@@ -3344,10 +3395,10 @@
           "qTr": "Can'ın kahvaltıda nesi var?",
           "correct": "Bread and eggs",
           "wrong": [
-            "Fish",
-            "Apples"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Can.",
           "hl": [
             2
           ]
@@ -3357,10 +3408,10 @@
           "qTr": "Can'ın öğle yemeğinde nesi var?",
           "correct": "Chicken and bread",
           "wrong": [
-            "Fish",
-            "Apples"
+            "Fish and beans",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Look at Can.",
           "hl": [
             3
           ]
@@ -3370,36 +3421,36 @@
           "qTr": "Can'ın akşam yemeğinde nesi var?",
           "correct": "Fish and potatoes",
           "wrong": [
-            "Chicken",
-            "Eggs"
+            "Chicken and carrots",
+            "Milk and cherries"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Can.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What has Can got to drink?",
-          "qTr": "Can'ın içeceği nesi var?",
+          "q": "What drinks has Can got?",
+          "qTr": "Can'ın hangi içecekleri var?",
           "correct": "Water and milk",
           "wrong": [
             "Tea and coffee",
-            "Ayran"
+            "Bread and eggs"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Can.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Is the day yummy for Eda?",
-          "qTr": "Gün Eda için nefis mi?",
+          "q": "Is the food yummy for Eda?",
+          "qTr": "Yemek Eda için nefis mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Eda.",
           "hl": [
             6
           ]
@@ -3450,40 +3501,28 @@
       ],
       "questions": [
         {
-          "q": "What date is it today?",
-          "qTr": "Bugün hangi tarih?",
-          "correct": "The 23rd of April",
-          "wrong": [
-            "The 29th of October",
-            "The 15th of July"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What special day is it?",
           "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
-            "Republic Day",
-            "Victory Day"
+            "Eid al-Fitr",
+            "Republic Day"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Look at the date.",
           "hl": [
+            0,
             1
           ]
         },
         {
-          "q": "What has Eda got for lunch?",
-          "qTr": "Eda'nın öğle yemeğinde nesi var?",
-          "correct": "Chicken, potatoes and carrots",
+          "q": "What has Eda got?",
+          "qTr": "Eda'nın nesi var?",
+          "correct": "Chicken and potatoes",
           "wrong": [
-            "Fish and bread",
-            "Apples"
+            "Fish and cherries",
+            "Meat and tomatoes"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Eda.",
           "hl": [
             4
           ]
@@ -3493,10 +3532,10 @@
           "qTr": "Lila'nın nesi var?",
           "correct": "Fish and bread",
           "wrong": [
-            "Chicken",
-            "Apples"
+            "Milk and cherries",
+            "Eggs and beans"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Look at Lila.",
           "hl": [
             5
           ]
@@ -3509,9 +3548,23 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Eda.",
           "hl": [
-            6
+            6,
+            7
+          ]
+        },
+        {
+          "q": "Has Eda got some carrots?",
+          "qTr": "Eda'nın havuçları var mı?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Look at Eda.",
+          "hl": [
+            4
           ]
         }
       ]
@@ -3571,7 +3624,7 @@
             "Breakfast",
             "Lunch"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the kitchen.",
           "hl": [
             0
           ]
@@ -3584,8 +3637,9 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Look at Mum.",
           "hl": [
+            1,
             2
           ]
         },
@@ -3597,8 +3651,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Look at Mum.",
           "hl": [
+            3,
             4
           ]
         },
@@ -3610,7 +3665,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Look at Mum.",
           "hl": [
             6,
             7
@@ -3624,8 +3679,9 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Look at Mum.",
           "hl": [
+            8,
             9
           ]
         }
@@ -3675,23 +3731,10 @@
           "qTr": "Meyvenin rengi ne?",
           "correct": "Red",
           "wrong": [
-            "Yellow",
-            "Green"
+            "Green",
+            "Yellow"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "How big is the fruit?",
-          "qTr": "Meyve ne kadar büyük?",
-          "correct": "Small",
-          "wrong": [
-            "Big",
-            "Long"
-          ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not green. It is not yellow.",
           "hl": [
             1
           ]
@@ -3704,7 +3747,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not an apple. It is not a cherry.",
           "hl": [
             2
           ]
@@ -3717,9 +3760,23 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "It is yummy and sweet.",
           "hl": [
+            3,
             4
+          ]
+        },
+        {
+          "q": "Where is the fruit?",
+          "qTr": "Meyve nerede?",
+          "correct": "On the table",
+          "wrong": [
+            "In the fridge",
+            "In the kitchen"
+          ],
+          "hint": "It is not in the fridge.",
+          "hl": [
+            0
           ]
         },
         {
@@ -3730,7 +3787,7 @@
             "An apple",
             "A cherry"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is red and small. It is not a cherry.",
           "hl": [
             1,
             2,
@@ -3775,19 +3832,6 @@
       ],
       "questions": [
         {
-          "q": "Where is the vegetable?",
-          "qTr": "Sebze nerede?",
-          "correct": "In the kitchen",
-          "wrong": [
-            "In the garden",
-            "In a shop"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What colour is it?",
           "qTr": "Rengi ne?",
           "correct": "Orange",
@@ -3795,7 +3839,7 @@
             "Red",
             "Green"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not red. It is not green.",
           "hl": [
             1
           ]
@@ -3808,22 +3852,35 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not a tomato. It is not a pepper.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Is it a pepper?",
-          "qTr": "Biber mi?",
-          "correct": "No",
+          "q": "Where is the vegetable?",
+          "qTr": "Sebze nerede?",
+          "correct": "In the kitchen",
           "wrong": [
-            "Yes",
+            "In the fridge",
+            "On the table"
+          ],
+          "hint": "It is not on the table.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is the vegetable yummy for Can?",
+          "qTr": "Sebze Can için nefis mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is an orange vegetable.",
           "hl": [
-            2
+            3
           ]
         },
         {
@@ -3834,7 +3891,7 @@
             "A tomato",
             "A pepper"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is orange. It is not a pepper.",
           "hl": [
             1,
             5
@@ -3880,27 +3937,14 @@
       ],
       "questions": [
         {
-          "q": "Where is the drink?",
-          "qTr": "İçecek nerede?",
-          "correct": "In a glass",
-          "wrong": [
-            "In a cup",
-            "In a bottle"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
           "q": "What colour is the drink?",
           "qTr": "İçeceğin rengi ne?",
           "correct": "White",
           "wrong": [
-            "Brown",
-            "Red"
+            "Red",
+            "Green"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not red. It is not green.",
           "hl": [
             1
           ]
@@ -3913,20 +3957,33 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not water. It is not milk.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Where is the drink from?",
-          "qTr": "İçecek nereden?",
-          "correct": "Türkiye",
+          "q": "Where is the drink?",
+          "qTr": "İçecek nerede?",
+          "correct": "In a glass",
           "wrong": [
-            "Italy",
-            "France"
+            "In the fridge",
+            "On the table"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "It is not on the table.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "Is it a Turkish drink?",
+          "qTr": "Bir Türk içeceği mi?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "It is from Türkiye.",
           "hl": [
             3
           ]
@@ -3939,7 +3996,7 @@
             "Water",
             "Milk"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is white. It is not milk.",
           "hl": [
             1,
             3,
@@ -3992,10 +4049,10 @@
           "qTr": "Lila nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "She is not at the table.",
           "hl": [
             0
           ]
@@ -4008,7 +4065,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not dinner time.",
           "hl": [
             1
           ]
@@ -4016,15 +4073,14 @@
         {
           "q": "What has Lila got?",
           "qTr": "Lila'nın nesi var?",
-          "correct": "Bread, eggs, milk and tomatoes",
+          "correct": "Bread and eggs",
           "wrong": [
-            "Chicken and rice",
-            "Only milk"
+            "Fish and beans",
+            "Meat and cherries"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "She has got some milk, too.",
           "hl": [
-            2,
-            3
+            2
           ]
         },
         {
@@ -4035,7 +4091,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "It is not lunch. It is not dinner.",
           "hl": [
             4
           ]
@@ -4048,7 +4104,7 @@
             "Lunch",
             "Dinner"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is morning time. It is not lunch.",
           "hl": [
             1,
             4,
@@ -4101,10 +4157,10 @@
           "qTr": "Tabakta ne var?",
           "correct": "Chicken and bread",
           "wrong": [
-            "Fish and apples",
-            "Eggs"
+            "Fish and beans",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not fish.",
           "hl": [
             0
           ]
@@ -4117,20 +4173,20 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Chicken is not yummy for one friend.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What has Tom got today?",
-          "qTr": "Tom'un bugün nesi var?",
-          "correct": "Fish",
+          "q": "Has Tom got some fish?",
+          "qTr": "Tom'un balığı var mı?",
+          "correct": "Yes",
           "wrong": [
-            "Chicken",
-            "Eggs"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "One friend has got fish today.",
           "hl": [
             2
           ]
@@ -4143,20 +4199,20 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Chicken is yummy for one friend.",
           "hl": [
             3
           ]
         },
         {
           "q": "Who has got the plate?",
-          "qTr": "Tabak kimde?",
+          "qTr": "Tabak kimin?",
           "correct": "Can",
           "wrong": [
             "Eda",
             "Tom"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Chicken is on the plate. It is not for Eda.",
           "hl": [
             0,
             3,
@@ -4205,10 +4261,10 @@
           "qTr": "Yiyecek nereden?",
           "correct": "The sea",
           "wrong": [
-            "The farm",
-            "The garden"
+            "The kitchen",
+            "The fridge"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not from the kitchen.",
           "hl": [
             0
           ]
@@ -4221,33 +4277,33 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not chicken. It is not meat.",
           "hl": [
             1
           ]
         },
         {
-          "q": "How is the food?",
-          "qTr": "Yiyecek nasıl?",
-          "correct": "White and small",
+          "q": "Is it white?",
+          "qTr": "Beyaz mı?",
+          "correct": "Yes",
           "wrong": [
-            "Red and big",
-            "Green and long"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not red. It is not green.",
           "hl": [
             2
           ]
         },
         {
-          "q": "For what meal is this food?",
-          "qTr": "Bu yiyecek hangi öğün için?",
-          "correct": "For dinner",
+          "q": "Is it for dinner?",
+          "qTr": "Akşam yemeği için mi?",
+          "correct": "Yes",
           "wrong": [
-            "For breakfast",
-            "For lunch"
+            "No",
+            "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "It is not for breakfast.",
           "hl": [
             3
           ]
@@ -4260,7 +4316,7 @@
             "Chicken",
             "Meat"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is from the sea. It is not meat.",
           "hl": [
             0,
             2,
@@ -4319,10 +4375,10 @@
           "qTr": "Arkadaşlar nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "They are not at the table.",
           "hl": [
             0
           ]
@@ -4335,35 +4391,35 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Milk is for Lila.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Is milk for Lila?",
-          "qTr": "Süt Lila için mi?",
+          "q": "Is tea for Can?",
+          "qTr": "Çay Can için mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Water is for Tom.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "Is ayran for Eda?",
-          "qTr": "Ayran Eda için mi?",
+          "q": "Is ayran a Turkish drink?",
+          "qTr": "Ayran bir Türk içeceği mi?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "It is white. It is from Türkiye.",
           "hl": [
-            4
+            5
           ]
         },
         {
@@ -4374,7 +4430,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "One friend is happy with ayran.",
           "hl": [
             6
           ]
@@ -4422,9 +4478,9 @@
           "correct": "Red",
           "wrong": [
             "Green",
-            "Yellow"
+            "Orange"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not green. It is not orange.",
           "hl": [
             0
           ]
@@ -4437,46 +4493,46 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not a strawberry. It is not a cherry.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where is the food?",
-          "qTr": "Yiyecek nerede?",
-          "correct": "On a plate",
+          "q": "Is it a fruit?",
+          "qTr": "Meyve mi?",
+          "correct": "No",
           "wrong": [
-            "In a glass",
-            "In a box"
+            "Yes",
+            "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not a fruit. It is a vegetable.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "What else is on the plate?",
-          "qTr": "Tabakta başka ne var?",
+          "q": "What is with it on the plate?",
+          "qTr": "Tabakta yanında ne var?",
           "correct": "Lettuce",
           "wrong": [
             "Bread",
-            "Rice"
+            "Cherries"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is a green vegetable.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What is the food?",
-          "qTr": "Yiyecek ne?",
+          "q": "What food is it?",
+          "qTr": "Hangi yiyecek?",
           "correct": "A tomato",
           "wrong": [
             "A strawberry",
             "A cherry"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is red. It is a vegetable.",
           "hl": [
             0,
             3,
@@ -4529,23 +4585,23 @@
           "qTr": "Çocuk nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "He is not at the table.",
           "hl": [
             0
           ]
         },
         {
           "q": "What has he got?",
-          "qTr": "Nesi var?",
+          "qTr": "Onun nesi var?",
           "correct": "Chicken and potatoes",
           "wrong": [
-            "Fish and rice",
-            "Eggs and bread"
+            "Fish and beans",
+            "Eggs and tomatoes"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "He has got some water, too.",
           "hl": [
             1
           ]
@@ -4558,7 +4614,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "It is not breakfast time.",
           "hl": [
             3
           ]
@@ -4571,7 +4627,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "It is not dinner time.",
           "hl": [
             4
           ]
@@ -4584,7 +4640,7 @@
             "Breakfast",
             "Dinner"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "It is not breakfast. It is not dinner.",
           "hl": [
             3,
             4,
@@ -4633,14 +4689,14 @@
       ],
       "questions": [
         {
-          "q": "Is today a religious day?",
-          "qTr": "Bugün dini bir gün mü?",
+          "q": "Is it a religious day?",
+          "qTr": "Dini bir gün mü?",
           "correct": "No",
           "wrong": [
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not a religious day.",
           "hl": [
             1
           ]
@@ -4650,10 +4706,10 @@
           "qTr": "Hangi tarih?",
           "correct": "The 23rd of April",
           "wrong": [
-            "The 29th of October",
-            "The 15th of July"
+            "The 23rd of May",
+            "The 23rd of June"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "It is not the 29th of October.",
           "hl": [
             3
           ]
@@ -4663,24 +4719,25 @@
           "qTr": "Aile nerede?",
           "correct": "In the kitchen",
           "wrong": [
-            "In the garden",
-            "In the bedroom"
+            "In the fridge",
+            "At the table"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "They are not at the table.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Is it a happy day for children?",
-          "qTr": "Çocuklar için mutlu bir gün mü?",
+          "q": "Is it a day for children?",
+          "qTr": "Çocuklar için bir gün mü?",
           "correct": "Yes",
           "wrong": [
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "It is a happy day for children.",
           "hl": [
+            0,
             5
           ]
         },
@@ -4689,10 +4746,10 @@
           "qTr": "Hangi özel gün?",
           "correct": "Children's Day",
           "wrong": [
-            "Republic Day",
-            "Victory Day"
+            "Eid al-Fitr",
+            "Republic Day"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is the 23rd of April. It is not a religious day.",
           "hl": [
             0,
             3,
