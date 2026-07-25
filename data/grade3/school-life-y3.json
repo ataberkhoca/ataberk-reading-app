@@ -55,7 +55,7 @@
             "Mr. Cole",
             "Ms. Shaw"
           ],
-          "hint": "Find the word headteacher in the text.",
+          "hint": "Find the headteacher.",
           "hl": [
             2
           ]
@@ -68,7 +68,7 @@
             "Ms. Hart",
             "Ms. Shaw"
           ],
-          "hint": "Find the word nurse in the text.",
+          "hint": "Find the school nurse.",
           "hl": [
             3
           ]
@@ -81,7 +81,7 @@
             "At the office",
             "At the library"
           ],
-          "hint": "Find Mr. Cole in the text.",
+          "hint": "Find Mr. Cole.",
           "hl": [
             5
           ]
@@ -94,7 +94,7 @@
             "Mrs. Pine",
             "Ms. Hart"
           ],
-          "hint": "Find the word librarian in the text.",
+          "hint": "Find the librarian.",
           "hl": [
             6
           ]
@@ -107,7 +107,7 @@
             "Teachers",
             "Caretakers"
           ],
-          "hint": "Find Maya and Leo in the text.",
+          "hint": "Find Maya and Leo.",
           "hl": [
             7
           ]
@@ -165,7 +165,7 @@
             "One",
             "Two"
           ],
-          "hint": "Find the word classrooms in the text.",
+          "hint": "Find the classrooms.",
           "hl": [
             3
           ]
@@ -178,7 +178,7 @@
             "One",
             "Eight"
           ],
-          "hint": "Find the word caretakers in the text.",
+          "hint": "Find the caretakers.",
           "hl": [
             4
           ]
@@ -191,7 +191,7 @@
             "Two",
             "Eight"
           ],
-          "hint": "Find the words art room in the text.",
+          "hint": "Find the art room.",
           "hl": [
             1
           ]
@@ -199,12 +199,12 @@
         {
           "q": "Is there a gym?",
           "qTr": "Spor salonu var mı?",
-          "correct": "Yes, there is one gym.",
+          "correct": "Yes, there is one gym",
           "wrong": [
-            "No, there isn't.",
-            "There are two gyms."
+            "No, there is no gym",
+            "Yes, there are two gyms"
           ],
-          "hint": "Find the word gym in the text.",
+          "hint": "Find the gym.",
           "hl": [
             5
           ]
@@ -215,9 +215,9 @@
           "correct": "Many rooms",
           "wrong": [
             "One room",
-            "A small garden"
+            "Two rooms"
           ],
-          "hint": "Find Maya in the text.",
+          "hint": "Find Maya.",
           "hl": [
             7
           ]
@@ -274,10 +274,10 @@
           "qTr": "Sabah ne yapmalısın?",
           "correct": "Be on time",
           "wrong": [
-            "Run",
-            "Shout"
+            "Be late",
+            "Be loud"
           ],
-          "hint": "Find the words on time in the text.",
+          "hint": "Find the morning rule.",
           "hl": [
             1
           ]
@@ -290,7 +290,7 @@
             "The corridor",
             "The library"
           ],
-          "hint": "Find the word clean in the text.",
+          "hint": "Find the classroom.",
           "hl": [
             3
           ]
@@ -303,7 +303,7 @@
             "In the classroom",
             "In the gym"
           ],
-          "hint": "Find the word run in the text.",
+          "hint": "Find the word run.",
           "hl": [
             4
           ]
@@ -316,7 +316,7 @@
             "In the corridor",
             "In the office"
           ],
-          "hint": "Find the word shout in the text.",
+          "hint": "Find the word shout.",
           "hl": [
             5
           ]
@@ -324,12 +324,12 @@
         {
           "q": "How is Maya about the rules?",
           "qTr": "Maya kurallar hakkında nasıl?",
-          "correct": "She is happy with the rules",
+          "correct": "She is happy",
           "wrong": [
-            "She is scared of the rules",
+            "She is scared",
             "She is angry"
           ],
-          "hint": "Find Maya in the text.",
+          "hint": "Find Maya.",
           "hl": [
             7
           ]
@@ -389,7 +389,7 @@
             "Eight",
             "Ten"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the months.",
           "hl": [
             0
           ]
@@ -402,7 +402,7 @@
             "March, April and May",
             "September, October and November"
           ],
-          "hint": "Find the word summer in the text.",
+          "hint": "Find the summer months.",
           "hl": [
             3
           ]
@@ -415,7 +415,7 @@
             "June",
             "December"
           ],
-          "hint": "Find the question what month in the text.",
+          "hint": "Find the word month.",
           "hl": [
             5
           ]
@@ -428,7 +428,7 @@
             "Winter",
             "Summer"
           ],
-          "hint": "Find the word autumn in the text.",
+          "hint": "Find the word autumn.",
           "hl": [
             6
           ]
@@ -438,10 +438,10 @@
           "qTr": "Yaz tatili ne zaman?",
           "correct": "In June, July and August",
           "wrong": [
-            "In winter",
-            "In September"
+            "In December and January",
+            "In March and April"
           ],
-          "hint": "Find the words from Ms. Hart.",
+          "hint": "Find the summer holiday.",
           "hl": [
             8
           ]
@@ -501,7 +501,7 @@
             "June",
             "April"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Find the word month.",
           "hl": [
             1
           ]
@@ -514,7 +514,7 @@
             "In December",
             "In February"
           ],
-          "hint": "Find the words book day in the text.",
+          "hint": "Find the book day.",
           "hl": [
             3
           ]
@@ -525,9 +525,9 @@
           "correct": "In the sports hall",
           "wrong": [
             "In the art room",
-            "In the library"
+            "In the music room"
           ],
-          "hint": "Find the words music show in the text.",
+          "hint": "Find the music show.",
           "hl": [
             4
           ]
@@ -540,7 +540,7 @@
             "In April",
             "In September"
           ],
-          "hint": "Find the words sports day in the text.",
+          "hint": "Find the sports day.",
           "hl": [
             5
           ]
@@ -553,7 +553,7 @@
             "In October",
             "In December"
           ],
-          "hint": "Find the words summer holiday in the text.",
+          "hint": "Find the summer holiday.",
           "hl": [
             7
           ]
@@ -615,7 +615,7 @@
             "October",
             "January"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the word month.",
           "hl": [
             0
           ]
@@ -628,7 +628,7 @@
             "In January",
             "In March"
           ],
-          "hint": "Find Maya in the text.",
+          "hint": "Find Maya.",
           "hl": [
             2
           ]
@@ -641,7 +641,7 @@
             "In June",
             "In April"
           ],
-          "hint": "Find Leo in the text.",
+          "hint": "Find Leo.",
           "hl": [
             3
           ]
@@ -665,7 +665,7 @@
           "correct": "Mr. Cole",
           "wrong": [
             "Ms. Hart",
-            "Leo"
+            "Ms. Shaw"
           ],
           "hint": "Find the word August.",
           "hl": [
@@ -725,7 +725,7 @@
             "Good night",
             "Good evening"
           ],
-          "hint": "Find the word morning in the text.",
+          "hint": "Find the word morning.",
           "hl": [
             0
           ]
@@ -738,7 +738,7 @@
             "Good morning",
             "Good night"
           ],
-          "hint": "Find the word lunch in the text.",
+          "hint": "Find the word afternoon.",
           "hl": [
             2
           ]
@@ -748,10 +748,10 @@
           "qTr": "Günün sonunda Ms. Hart'ın sözleri nelerdir?",
           "correct": "Have a nice day",
           "wrong": [
-            "Good morning",
-            "Good evening"
+            "See you later",
+            "Have a nice weekend"
           ],
-          "hint": "Find the end of the day in the text.",
+          "hint": "Find the end of the day.",
           "hl": [
             3
           ]
@@ -764,7 +764,7 @@
             "Good morning",
             "Good afternoon"
           ],
-          "hint": "Find the word evening in the text.",
+          "hint": "Find the word evening.",
           "hl": [
             5
           ]
@@ -775,9 +775,9 @@
           "correct": "Good night",
           "wrong": [
             "Good afternoon",
-            "See you later"
+            "Good evening"
           ],
-          "hint": "Find the word night in the text.",
+          "hint": "Find the word night.",
           "hl": [
             6
           ]
@@ -838,10 +838,10 @@
           "qTr": "Başta Leo'dan Maya'ya gelen selam nedir?",
           "correct": "Hello, Maya!",
           "wrong": [
-            "Goodbye!",
+            "Goodbye, Maya!",
             "Good night!"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Leo.",
           "hl": [
             1
           ]
@@ -854,7 +854,7 @@
             "The librarian",
             "The caretaker"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Find Mr. Blake.",
           "hl": [
             3
           ]
@@ -867,7 +867,7 @@
             "In the library",
             "In the gym"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Find the pupils.",
           "hl": [
             6
           ]
@@ -880,7 +880,7 @@
             "Small",
             "Sad"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Find the playground.",
           "hl": [
             7
           ]
@@ -893,7 +893,7 @@
             "Hello, Leo!",
             "Sorry, Leo!"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Find the word goodbye.",
           "hl": [
             9
           ]
@@ -953,7 +953,7 @@
             "May",
             "March"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the word month.",
           "hl": [
             0
           ]
@@ -961,12 +961,12 @@
         {
           "q": "What is the 23rd of April?",
           "qTr": "23 Nisan nedir?",
-          "correct": "National Sovereignty and Children's Day",
+          "correct": "Children's Day",
           "wrong": [
-            "A birthday party",
-            "A school trip"
+            "Republic Day",
+            "Victory Day"
           ],
-          "hint": "Find the words special day in the text.",
+          "hint": "Find the special day.",
           "hl": [
             1,
             2
@@ -980,7 +980,7 @@
             "Many books",
             "Many cakes"
           ],
-          "hint": "Find the word flags in the text.",
+          "hint": "Find the flags.",
           "hl": [
             3
           ]
@@ -993,7 +993,7 @@
             "Blue and green",
             "Yellow and black"
           ],
-          "hint": "Find the word stage in the text.",
+          "hint": "Find the school stage.",
           "hl": [
             4
           ]
@@ -1003,10 +1003,10 @@
           "qTr": "Müzik nerede?",
           "correct": "In the sports hall",
           "wrong": [
-            "In the library",
-            "In the office"
+            "In the music room",
+            "In the art room"
           ],
-          "hint": "Find the word music in the text.",
+          "hint": "Find the word music.",
           "hl": [
             6
           ]
@@ -1066,7 +1066,7 @@
             "April",
             "October"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the word month.",
           "hl": [
             0
           ]
@@ -1074,12 +1074,12 @@
         {
           "q": "What is the 10th of November?",
           "qTr": "10 Kasım nedir?",
-          "correct": "A special day for Atatürk",
+          "correct": "A day for Atatürk",
           "wrong": [
-            "Children's Day",
-            "A birthday"
+            "A day for children",
+            "A day for sports"
           ],
-          "hint": "Find the words special day in the text.",
+          "hint": "Find the special day.",
           "hl": [
             1,
             2
@@ -1093,7 +1093,7 @@
             "In the library",
             "In the gym"
           ],
-          "hint": "Find the word photo in the text.",
+          "hint": "Find the big photo.",
           "hl": [
             3
           ]
@@ -1104,9 +1104,9 @@
           "correct": "Quiet and respectful",
           "wrong": [
             "Loud and busy",
-            "Late"
+            "Late and tired"
           ],
-          "hint": "Find the word pupils in the text.",
+          "hint": "Find the pupils.",
           "hl": [
             5
           ]
@@ -1117,9 +1117,9 @@
           "correct": "In the sports hall",
           "wrong": [
             "In the art room",
-            "In the office"
+            "In the music room"
           ],
-          "hint": "Find the word ceremony in the text.",
+          "hint": "Find the ceremony.",
           "hl": [
             6
           ]
@@ -1174,12 +1174,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "The people who help at school",
+          "correct": "The kind people at school",
           "wrong": [
             "The rooms at school",
             "The months of the year"
           ],
-          "hint": "Think about who the text talks about.",
+          "hint": "Think about the people.",
           "hl": [
             0,
             1,
@@ -1196,7 +1196,7 @@
             "Mrs. Pine",
             "Mr. Cole"
           ],
-          "hint": "Find the word librarian.",
+          "hint": "Find the librarian.",
           "hl": [
             1
           ]
@@ -1219,7 +1219,7 @@
           "qTr": "Mr. Blake nerede?",
           "correct": "At the big office",
           "wrong": [
-            "In the library",
+            "In the big library",
             "On the sports field"
           ],
           "hint": "Find Mr. Blake.",
@@ -1233,7 +1233,7 @@
           "correct": "For the new books",
           "wrong": [
             "For the clean corridor",
-            "For the cake"
+            "For the birthday cake"
           ],
           "hint": "Find Kerem.",
           "hl": [
@@ -1290,10 +1290,10 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A tour of the school places",
+          "correct": "The places at school",
           "wrong": [
-            "School rules",
-            "A birthday party"
+            "The rules at school",
+            "The birthdays at school"
           ],
           "hint": "Think about all the places.",
           "hl": [
@@ -1311,10 +1311,10 @@
           "qTr": "Müzik odasında ne var?",
           "correct": "A piano",
           "wrong": [
-            "Books",
-            "Pictures"
+            "A book",
+            "A picture"
           ],
-          "hint": "Find the word music room.",
+          "hint": "Find the music room.",
           "hl": [
             2
           ]
@@ -1325,9 +1325,9 @@
           "correct": "Outside",
           "wrong": [
             "Upstairs",
-            "In the library"
+            "At home"
           ],
-          "hint": "Find the word sports field.",
+          "hint": "Find the sports field.",
           "hl": [
             4
           ]
@@ -1338,9 +1338,9 @@
           "correct": "Upstairs",
           "wrong": [
             "Outside",
-            "In the corridor"
+            "At school"
           ],
-          "hint": "Find the word office.",
+          "hint": "Find the office.",
           "hl": [
             5
           ]
@@ -1350,8 +1350,8 @@
           "qTr": "Deniz'in okul hakkındaki sözleri nelerdir?",
           "correct": "It is big and beautiful",
           "wrong": [
-            "It is small",
-            "It is old"
+            "It is small and old",
+            "It is new and quiet"
           ],
           "hint": "Find Deniz.",
           "hl": [
@@ -1390,7 +1390,7 @@
         "You mustn't run at the shelves.",
         "You mustn't eat in the library.",
         "Leo and Zara read a book together.",
-        "Ms. Shaw: Good job! You know the rules."
+        "Ms. Shaw: Good job! The rules are easy!"
       ],
       "translations": [
         "Kütüphane sessiz bir yerdir.",
@@ -1400,7 +1400,7 @@
         "Rafların yanında koşmamalısın.",
         "Kütüphanede yemek yememelisin.",
         "Leo ve Zara birlikte bir kitap okur.",
-        "Ms. Shaw diyor: Aferin! Kuralları biliyorsunuz."
+        "Ms. Shaw: Aferin! Kurallar kolay!"
       ],
       "questions": [
         {
@@ -1409,9 +1409,9 @@
           "correct": "Rules in the library",
           "wrong": [
             "Rules in the gym",
-            "A birthday party"
+            "Rules in the classroom"
           ],
-          "hint": "Think about where the rules are for.",
+          "hint": "Think about the rules.",
           "hl": [
             0,
             2,
@@ -1452,7 +1452,7 @@
           "correct": "Eat",
           "wrong": [
             "Read",
-            "Be quiet"
+            "Sit"
           ],
           "hint": "Find the word eat.",
           "hl": [
@@ -1465,7 +1465,7 @@
           "correct": "Read a book together",
           "wrong": [
             "Run in the library",
-            "Eat lunch"
+            "Shout at the shelves"
           ],
           "hint": "Find Leo and Zara.",
           "hl": [
@@ -1524,10 +1524,10 @@
           "qTr": "Metin esas olarak ne hakkında?",
           "correct": "Months and seasons",
           "wrong": [
-            "School rules",
-            "Birthdays"
+            "Places and rooms",
+            "People and jobs"
           ],
-          "hint": "Think about the twelve months.",
+          "hint": "Think about the months.",
           "hl": [
             0,
             1,
@@ -1544,7 +1544,7 @@
             "Four",
             "Ten"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the months.",
           "hl": [
             0
           ]
@@ -1557,7 +1557,7 @@
             "June",
             "December"
           ],
-          "hint": "Find the words from Ms. Hart.",
+          "hint": "Find Ms. Hart.",
           "hl": [
             6
           ]
@@ -1584,7 +1584,7 @@
             "Flags",
             "Books"
           ],
-          "hint": "Find the word garden.",
+          "hint": "Find the school garden.",
           "hl": [
             7,
             8
@@ -1640,12 +1640,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "The months of a school year",
+          "correct": "The months at school",
           "wrong": [
             "The people at school",
-            "School rules"
+            "The rules at school"
           ],
-          "hint": "Think about the months in the text.",
+          "hint": "Think about the months.",
           "hl": [
             0,
             1,
@@ -1676,7 +1676,7 @@
             "In March",
             "In May"
           ],
-          "hint": "Find the words winter holiday.",
+          "hint": "Find the winter holiday.",
           "hl": [
             3
           ]
@@ -1686,10 +1686,10 @@
           "qTr": "Çiçekler nerede?",
           "correct": "In the school garden",
           "wrong": [
-            "In the classroom",
+            "In the big classroom",
             "On the sports field"
           ],
-          "hint": "Find the word flowers.",
+          "hint": "Find the flowers.",
           "hl": [
             5
           ]
@@ -1702,7 +1702,7 @@
             "September",
             "November"
           ],
-          "hint": "Read the last sentences.",
+          "hint": "Find Zara.",
           "hl": [
             7
           ]
@@ -1755,10 +1755,10 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Asking about birthdays",
+          "correct": "Birthday months",
           "wrong": [
             "School rules",
-            "Food"
+            "School places"
           ],
           "hint": "Think about birthdays.",
           "hl": [
@@ -1774,7 +1774,7 @@
             "In October",
             "In January"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Find Leo.",
           "hl": [
             1
           ]
@@ -1787,7 +1787,7 @@
             "In May",
             "In July"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Find Maya.",
           "hl": [
             2
           ]
@@ -1800,7 +1800,7 @@
             "In May",
             "In March"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Find Ada.",
           "hl": [
             4
           ]
@@ -1813,7 +1813,7 @@
             "In May",
             "In March"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Find Kerem.",
           "hl": [
             5
           ]
@@ -1874,7 +1874,7 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Greetings during the school day",
+          "correct": "Greetings at school",
           "wrong": [
             "School rules",
             "Birthday celebrations"
@@ -1897,10 +1897,10 @@
           "qTr": "Sabah Ms. Hart'tan gelen selam nedir?",
           "correct": "Good morning, Maya!",
           "wrong": [
-            "Good afternoon!",
-            "Have a nice day!"
+            "Good afternoon, Maya!",
+            "Good night, Maya!"
           ],
-          "hint": "Read the beginning.",
+          "hint": "Find the word morning.",
           "hl": [
             2
           ]
@@ -1913,7 +1913,7 @@
             "Good morning!",
             "Good night!"
           ],
-          "hint": "Find the word lunch.",
+          "hint": "Find the word afternoon.",
           "hl": [
             5
           ]
@@ -1924,7 +1924,7 @@
           "correct": "Have a nice day!",
           "wrong": [
             "See you later!",
-            "Take care!"
+            "Have a nice weekend!"
           ],
           "hint": "Find the end of the day.",
           "hl": [
@@ -1937,9 +1937,9 @@
           "correct": "At home",
           "wrong": [
             "At school",
-            "In the corridor"
+            "At the gym"
           ],
-          "hint": "Find Good evening.",
+          "hint": "Find the word evening.",
           "hl": [
             9
           ]
@@ -1994,12 +1994,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A new pupil at school",
+          "correct": "A new pupil",
           "wrong": [
             "A birthday party",
-            "School rules"
+            "A summer holiday"
           ],
-          "hint": "Think about who is new at school.",
+          "hint": "Think about Kerem.",
           "hl": [
             0,
             1,
@@ -2014,7 +2014,7 @@
             "Leo",
             "Deniz"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Find the word new.",
           "hl": [
             1
           ]
@@ -2024,8 +2024,8 @@
           "qTr": "Turda Kerem'in yanında kim var?",
           "correct": "Maya",
           "wrong": [
-            "Ms. Hart",
-            "Mr. Cole"
+            "Ada",
+            "Zara"
           ],
           "hint": "Find the word tour.",
           "hl": [
@@ -2038,9 +2038,9 @@
           "correct": "Upstairs",
           "wrong": [
             "Outside",
-            "In the gym"
+            "At home"
           ],
-          "hint": "Find the word office.",
+          "hint": "Find the office.",
           "hl": [
             6
           ]
@@ -2106,12 +2106,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Republic Day at school",
+          "correct": "A national day at school",
           "wrong": [
-            "A birthday party",
-            "School rules"
+            "A birthday at school",
+            "A sports day at school"
           ],
-          "hint": "Think about the special day in the text.",
+          "hint": "Think about the national day.",
           "hl": [
             1,
             2
@@ -2125,7 +2125,7 @@
             "April",
             "June"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Find the word month.",
           "hl": [
             0
           ]
@@ -2148,10 +2148,10 @@
           "qTr": "Okulda ne var?",
           "correct": "Red flags",
           "wrong": [
-            "Cakes",
-            "Books"
+            "Big cakes",
+            "New books"
           ],
-          "hint": "Find the word flags.",
+          "hint": "Find the flags.",
           "hl": [
             3
           ]
@@ -2161,8 +2161,8 @@
           "qTr": "Ms. Hart'ın sözleri nelerdir?",
           "correct": "Happy Republic Day!",
           "wrong": [
-            "Happy Birthday!",
-            "Good night!"
+            "Happy Children's Day!",
+            "Happy New Year!"
           ],
           "hint": "Find Ms. Hart.",
           "hl": [
@@ -2222,7 +2222,7 @@
           "correct": "Eid al-Fitr",
           "wrong": [
             "A birthday party",
-            "School rules"
+            "A school day"
           ],
           "hint": "Think about the special day.",
           "hl": [
@@ -2236,9 +2236,9 @@
           "correct": "Baklava and chocolate",
           "wrong": [
             "Books and pens",
-            "Flags"
+            "Flags and photos"
           ],
-          "hint": "Find the word table.",
+          "hint": "Find the big table.",
           "hl": [
             3
           ]
@@ -2251,7 +2251,7 @@
             "Sports shoes",
             "School bags"
           ],
-          "hint": "Find the word children.",
+          "hint": "Find the children.",
           "hl": [
             4
           ]
@@ -2261,10 +2261,10 @@
           "qTr": "Maya'nın hediyesi nedir?",
           "correct": "A red bicycle",
           "wrong": [
-            "A cake",
-            "A book"
+            "A red cake",
+            "A red book"
           ],
-          "hint": "Find the word gift.",
+          "hint": "Find the gift.",
           "hl": [
             6
           ]
@@ -2275,7 +2275,7 @@
           "correct": "At home",
           "wrong": [
             "At school",
-            "In the library"
+            "At the gym"
           ],
           "hint": "Find the word home.",
           "hl": [
@@ -2347,7 +2347,7 @@
             "The office",
             "The gym"
           ],
-          "hint": "Find Ms. Shaw.",
+          "hint": "Look at Ms. Shaw.",
           "hl": [
             2,
             3
@@ -2361,7 +2361,7 @@
             "Mr. Blake",
             "Ms. Shaw"
           ],
-          "hint": "Find the word caretaker.",
+          "hint": "Look at the caretaker.",
           "hl": [
             5
           ]
@@ -2372,9 +2372,9 @@
           "correct": "At the office",
           "wrong": [
             "In the library",
-            "On the sports field"
+            "In the gym"
           ],
-          "hint": "Find Mrs. Pine.",
+          "hint": "Look at Mrs. Pine.",
           "hl": [
             8,
             9
@@ -2388,7 +2388,7 @@
             "The caretaker",
             "The librarian"
           ],
-          "hint": "Find Mr. Blake.",
+          "hint": "Look at Mr. Blake.",
           "hl": [
             10
           ]
@@ -2398,10 +2398,10 @@
           "qTr": "Ms. Hart'ın ekip hakkındaki sözleri nelerdir?",
           "correct": "They are all helpful",
           "wrong": [
-            "They are all in the library",
-            "They all know the rules"
+            "They are all busy",
+            "They are all new"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Look at Ms. Hart.",
           "hl": [
             12
           ]
@@ -2460,10 +2460,10 @@
           "qTr": "Ada kayboldu. Sebebi nedir?",
           "correct": "She is a new pupil",
           "wrong": [
-            "She is late",
-            "She is ill"
+            "She is very late",
+            "She is very ill"
           ],
-          "hint": "Read sentence 1 and sentence 2.",
+          "hint": "Look at Ada.",
           "hl": [
             0,
             1
@@ -2477,7 +2477,7 @@
             "Ms. Hart",
             "Ms. Shaw"
           ],
-          "hint": "Find the word caretaker.",
+          "hint": "Look at the caretaker.",
           "hl": [
             3
           ]
@@ -2488,9 +2488,9 @@
           "correct": "On the left",
           "wrong": [
             "On the right",
-            "Upstairs"
+            "At the library"
           ],
-          "hint": "Find the word art room.",
+          "hint": "Look at the art room.",
           "hl": [
             5
           ]
@@ -2501,9 +2501,9 @@
           "correct": "At the library",
           "wrong": [
             "At the gym",
-            "Upstairs"
+            "On the right"
           ],
-          "hint": "Find the word classroom.",
+          "hint": "Look at the classroom.",
           "hl": [
             7
           ]
@@ -2516,7 +2516,7 @@
             "Sad",
             "Lost"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Look at the end.",
           "hl": [
             9
           ]
@@ -2554,7 +2554,7 @@
         "You mustn't drop litter on the field.",
         "Leo and Deniz play football together.",
         "Mr. Cole: Good job, boys!",
-        "Leo and Deniz: We follow the rules!"
+        "Leo and Deniz: We are good pupils!"
       ],
       "translations": [
         "Leo ve Deniz spor sahasında.",
@@ -2565,7 +2565,7 @@
         "Sahaya çöp atmamalısın.",
         "Leo ve Deniz birlikte futbol oynuyor.",
         "Aferin, çocuklar! diyor Mr. Cole.",
-        "Leo ve Deniz: Kurallara uyarız!"
+        "Leo ve Deniz: Biz iyi öğrencileriz!"
       ],
       "questions": [
         {
@@ -2573,10 +2573,10 @@
           "qTr": "Leo ve Deniz nerede?",
           "correct": "On the sports field",
           "wrong": [
-            "In the library",
-            "In the gym"
+            "In the big library",
+            "In the school gym"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at Leo and Deniz.",
           "hl": [
             0
           ]
@@ -2589,7 +2589,7 @@
             "A hat",
             "A coat"
           ],
-          "hint": "Find the word wear.",
+          "hint": "Look at the word wear.",
           "hl": [
             2
           ]
@@ -2600,9 +2600,9 @@
           "correct": "Push pupils",
           "wrong": [
             "Help pupils",
-            "Listen to pupils"
+            "Wear shoes"
           ],
-          "hint": "Find the word push.",
+          "hint": "Look at the word push.",
           "hl": [
             4
           ]
@@ -2612,10 +2612,10 @@
           "qTr": "Sahaya ne atmamalısın?",
           "correct": "Litter",
           "wrong": [
-            "A ball",
-            "The shoes"
+            "Shoes",
+            "Balls"
           ],
-          "hint": "Find the word litter.",
+          "hint": "Look at the word litter.",
           "hl": [
             5
           ]
@@ -2628,7 +2628,7 @@
             "Basketball",
             "Tennis"
           ],
-          "hint": "Find the word football.",
+          "hint": "Look at Leo and Deniz.",
           "hl": [
             6
           ]
@@ -2687,10 +2687,10 @@
           "qTr": "Duvarda ne var?",
           "correct": "A big calendar",
           "wrong": [
-            "A photo",
-            "A board"
+            "A big photo",
+            "A big board"
           ],
-          "hint": "Read the second sentence.",
+          "hint": "Look at the wall.",
           "hl": [
             1
           ]
@@ -2698,12 +2698,12 @@
         {
           "q": "Is it January?",
           "qTr": "Ocak ayında mıyız?",
-          "correct": "No, it is not",
+          "correct": "No, it is not January",
           "wrong": [
-            "Yes, it is",
-            "It is December"
+            "Yes, it is January",
+            "Yes, it is December"
           ],
-          "hint": "Find the words from Ms. Hart about January.",
+          "hint": "Look at Ms. Hart.",
           "hl": [
             3,
             4
@@ -2717,7 +2717,7 @@
             "Flags",
             "Books"
           ],
-          "hint": "Find the word garden.",
+          "hint": "Look at Maya.",
           "hl": [
             5
           ]
@@ -2730,7 +2730,7 @@
             "January",
             "December"
           ],
-          "hint": "Read the last sentences.",
+          "hint": "Look at the end.",
           "hl": [
             8
           ]
@@ -2743,7 +2743,7 @@
             "Winter",
             "Summer"
           ],
-          "hint": "Think about the flowers and the warm weather.",
+          "hint": "Look at Leo.",
           "hl": [
             7,
             8
@@ -2806,7 +2806,7 @@
             "In November",
             "In April"
           ],
-          "hint": "Find the words from Ms. Hart.",
+          "hint": "Look at Ms. Hart.",
           "hl": [
             2
           ]
@@ -2819,7 +2819,7 @@
             "December",
             "March"
           ],
-          "hint": "Find the word autumn.",
+          "hint": "Look at the word autumn.",
           "hl": [
             4
           ]
@@ -2832,7 +2832,7 @@
             "Autumn",
             "Spring"
           ],
-          "hint": "Think about December.",
+          "hint": "Look at Ada.",
           "hl": [
             5,
             6
@@ -2843,10 +2843,10 @@
           "qTr": "Gösteri nerede?",
           "correct": "In the sports hall",
           "wrong": [
-            "In the classroom",
-            "In the library"
+            "In the music room",
+            "In the art room"
           ],
-          "hint": "Find the word show.",
+          "hint": "Look at the show.",
           "hl": [
             7
           ]
@@ -2856,10 +2856,10 @@
           "qTr": "Gösteride ne var?",
           "correct": "A piano and a guitar",
           "wrong": [
-            "A cake and balloons",
-            "Books"
+            "A cake and a gift",
+            "A book and a pen"
           ],
-          "hint": "Find the word piano.",
+          "hint": "Look at the word piano.",
           "hl": [
             7
           ]
@@ -2927,7 +2927,7 @@
             "Maya",
             "Ada"
           ],
-          "hint": "Find the word January.",
+          "hint": "Look at the word January.",
           "hl": [
             1
           ]
@@ -2937,10 +2937,10 @@
           "qTr": "Maya ve Ms. Hart hazır. Leo için ne var?",
           "correct": "A surprise",
           "wrong": [
-            "A school trip",
-            "A school play"
+            "A test",
+            "A lesson"
           ],
-          "hint": "Find the word surprise.",
+          "hint": "Look at Maya and Ms. Hart.",
           "hl": [
             3
           ]
@@ -2950,10 +2950,10 @@
           "qTr": "Masada Maya'dan ne var?",
           "correct": "A big cake",
           "wrong": [
-            "A gift",
-            "A balloon"
+            "A big gift",
+            "A big balloon"
           ],
-          "hint": "Find Maya in the text.",
+          "hint": "Look at Maya.",
           "hl": [
             5
           ]
@@ -2966,7 +2966,7 @@
             "Six",
             "Ten"
           ],
-          "hint": "Find the word candles in the text.",
+          "hint": "Look at the cake.",
           "hl": [
             6
           ]
@@ -2979,7 +2979,7 @@
             "A cake",
             "A balloon"
           ],
-          "hint": "Find Ms. Hart in the text.",
+          "hint": "Look at Ms. Hart.",
           "hl": [
             7
           ]
@@ -3039,9 +3039,9 @@
           "correct": "A visitor",
           "wrong": [
             "A new pupil",
-            "A nurse"
+            "A new nurse"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the school today.",
           "hl": [
             0
           ]
@@ -3054,7 +3054,7 @@
             "Good night",
             "Good afternoon"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Look at the visitor.",
           "hl": [
             1
           ]
@@ -3064,10 +3064,10 @@
           "qTr": "Turda ziyaretçinin yanında kim var?",
           "correct": "Mr. Blake",
           "wrong": [
-            "Zara",
+            "Mr. Cole",
             "Ms. Hart"
           ],
-          "hint": "Find the word headteacher.",
+          "hint": "Look at the headteacher.",
           "hl": [
             3,
             4
@@ -3076,12 +3076,12 @@
         {
           "q": "What is the greeting from Zara?",
           "qTr": "Zara'dan gelen selam nedir?",
-          "correct": "Good afternoon! Welcome!",
+          "correct": "Good afternoon!",
           "wrong": [
             "Good night!",
-            "Goodbye!"
+            "Good evening!"
           ],
-          "hint": "Find Zara.",
+          "hint": "Look at Zara.",
           "hl": [
             6
           ]
@@ -3091,10 +3091,10 @@
           "qTr": "Sonunda ziyaretçinin sözleri nelerdir?",
           "correct": "Thank you! Take care!",
           "wrong": [
-            "Good morning!",
-            "I am lost!"
+            "Good morning! See you!",
+            "Have a nice day!"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Look at the end.",
           "hl": [
             9
           ]
@@ -3153,10 +3153,10 @@
           "qTr": "Kerem sabah nasıl?",
           "correct": "He is not good",
           "wrong": [
-            "He is happy",
-            "He is late"
+            "He is very happy",
+            "He is very late"
           ],
-          "hint": "Find the words from Kerem in the morning.",
+          "hint": "Look at Kerem in the morning.",
           "hl": [
             2
           ]
@@ -3169,7 +3169,7 @@
             "Ms. Hart",
             "Ms. Shaw"
           ],
-          "hint": "Find the word nurse.",
+          "hint": "Look at the school nurse.",
           "hl": [
             3
           ]
@@ -3182,7 +3182,7 @@
             "In the gym",
             "In the library"
           ],
-          "hint": "Find Mrs. Pine in the text.",
+          "hint": "Look at Mrs. Pine.",
           "hl": [
             3
           ]
@@ -3195,7 +3195,7 @@
             "He is ill",
             "He is tired"
           ],
-          "hint": "Find the word afternoon.",
+          "hint": "Look at Kerem in the afternoon.",
           "hl": [
             7
           ]
@@ -3205,10 +3205,10 @@
           "qTr": "Sonunda cevap nedir?",
           "correct": "I am good, thanks!",
           "wrong": [
-            "I am ill!",
-            "Good night!"
+            "I am not good!",
+            "I am very ill!"
           ],
-          "hint": "Read the last sentence.",
+          "hint": "Look at the end.",
           "hl": [
             9
           ]
@@ -3270,7 +3270,7 @@
             "April",
             "October"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the word month.",
           "hl": [
             0
           ]
@@ -3278,12 +3278,12 @@
         {
           "q": "What is the 19th of May?",
           "qTr": "19 Mayıs nedir?",
-          "correct": "Commemoration of Atatürk, Youth and Sports Day",
+          "correct": "A day for sports",
           "wrong": [
-            "Children's Day",
-            "Republic Day"
+            "A day for books",
+            "A day for music"
           ],
-          "hint": "Find the words special day.",
+          "hint": "Look at the special day.",
           "hl": [
             1,
             2
@@ -3294,10 +3294,10 @@
           "qTr": "Öğrenciler nerede?",
           "correct": "On the sports field",
           "wrong": [
-            "In the library",
-            "In the gym"
+            "In the big library",
+            "In the school gym"
           ],
-          "hint": "Find the word pupils.",
+          "hint": "Look at the pupils.",
           "hl": [
             4
           ]
@@ -3307,10 +3307,10 @@
           "qTr": "Kerem'in yanında ne var?",
           "correct": "A big Turkish flag",
           "wrong": [
-            "A cake",
-            "A book"
+            "A big red cake",
+            "A big new book"
           ],
-          "hint": "Find Kerem in the text.",
+          "hint": "Look at Kerem.",
           "hl": [
             6
           ]
@@ -3321,9 +3321,9 @@
           "correct": "Music and dance",
           "wrong": [
             "Books and desks",
-            "Flowers"
+            "Cakes and gifts"
           ],
-          "hint": "Find the word music.",
+          "hint": "Look at the field.",
           "hl": [
             7
           ]
@@ -3385,7 +3385,7 @@
             "January",
             "May"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Look at the word month.",
           "hl": [
             0
           ]
@@ -3395,10 +3395,10 @@
           "qTr": "1 Ocak nedir?",
           "correct": "The New Year",
           "wrong": [
-            "Children's Day",
-            "A birthday"
+            "A school day",
+            "A sports day"
           ],
-          "hint": "Find the word January.",
+          "hint": "Look at the word January.",
           "hl": [
             2
           ]
@@ -3411,7 +3411,7 @@
             "In the gym",
             "In the office"
           ],
-          "hint": "Find the word tree.",
+          "hint": "Look at the tree.",
           "hl": [
             4
           ]
@@ -3422,9 +3422,9 @@
           "correct": "Red and yellow",
           "wrong": [
             "Blue and green",
-            "Black"
+            "Black and white"
           ],
-          "hint": "Find the word lights.",
+          "hint": "Look at the lights.",
           "hl": [
             5
           ]
@@ -3435,9 +3435,9 @@
           "correct": "Deniz",
           "wrong": [
             "Leo",
-            "Ms. Hart"
+            "Maya"
           ],
-          "hint": "Find the word gift.",
+          "hint": "Look at Leo.",
           "hl": [
             6
           ]
@@ -3496,10 +3496,10 @@
           "qTr": "Sorun nedir?",
           "correct": "The book is old and broken",
           "wrong": [
-            "She is lost",
-            "She is ill"
+            "The book is new and clean",
+            "The book is not here"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "The book is not good for class.",
           "hl": [
             0,
             1
@@ -3513,7 +3513,7 @@
             "The gym",
             "The office"
           ],
-          "hint": "Think about a quiet room with many shelves and books.",
+          "hint": "It is a quiet room. There are many books.",
           "hl": [
             3,
             4
@@ -3527,7 +3527,7 @@
             "The nurse",
             "The headteacher"
           ],
-          "hint": "Think about who works with books.",
+          "hint": "She is with the books every day.",
           "hl": [
             5,
             8
@@ -3536,12 +3536,12 @@
         {
           "q": "She is the librarian. What is the clue?",
           "qTr": "O kütüphanecidir. İpucu nedir?",
-          "correct": "She is in the room with books",
+          "correct": "She is with the books",
           "wrong": [
-            "She is in the gym",
-            "She is at school"
+            "She is with the balls",
+            "She is with the flags"
           ],
-          "hint": "Think about the room and the books.",
+          "hint": "It is a quiet room. There are many shelves.",
           "hl": [
             3,
             4,
@@ -3556,7 +3556,7 @@
             "Angry",
             "Sad"
           ],
-          "hint": "Read the words from Ada.",
+          "hint": "There is a new book for Ada.",
           "hl": [
             7
           ]
@@ -3613,10 +3613,10 @@
           "qTr": "Okulda ne var?",
           "correct": "Music",
           "wrong": [
-            "A bell",
-            "A dog"
+            "Paint",
+            "Balls"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Zara is happy. There is a lovely sound.",
           "hl": [
             0
           ]
@@ -3626,10 +3626,10 @@
           "qTr": "Odada ne var?",
           "correct": "A piano and a drum",
           "wrong": [
-            "Balls and paint",
-            "Books and desks"
+            "A ball and a bat",
+            "A book and a desk"
           ],
-          "hint": "Read about the things in the room.",
+          "hint": "There is a piano. There is a drum.",
           "hl": [
             2
           ]
@@ -3640,9 +3640,9 @@
           "correct": "The music room",
           "wrong": [
             "The art room",
-            "The gym"
+            "The sports hall"
           ],
-          "hint": "Think about the piano, drum and song.",
+          "hint": "There is a piano, a drum and a song.",
           "hl": [
             2,
             3,
@@ -3657,7 +3657,7 @@
             "There is no piano",
             "There is no music"
           ],
-          "hint": "Think about what is NOT in the room.",
+          "hint": "In the art room, there is paint.",
           "hl": [
             6
           ]
@@ -3670,7 +3670,7 @@
             "There is no music",
             "There is no door"
           ],
-          "hint": "Think about what a gym needs.",
+          "hint": "In the gym, there are balls.",
           "hl": [
             6
           ]
@@ -3730,7 +3730,7 @@
             "It is a hot day",
             "It is a snowy day"
           ],
-          "hint": "Read sentence 1 and sentence 2.",
+          "hint": "It is not a sunny day.",
           "hl": [
             0,
             1
@@ -3744,7 +3744,7 @@
             "You must run here",
             "This is the gym"
           ],
-          "hint": "Think about the sign and the wet floor.",
+          "hint": "The sign is from Mr. Cole. The floor is wet.",
           "hl": [
             3
           ]
@@ -3754,10 +3754,10 @@
           "qTr": "Leo yavaş ve dikkatli. Sebebi nedir?",
           "correct": "The floor is not safe",
           "wrong": [
-            "He is tired",
-            "He is late"
+            "The floor is very clean",
+            "The floor is not wet"
           ],
-          "hint": "Think about the wet floor.",
+          "hint": "Leo is careful at the sign.",
           "hl": [
             5,
             6,
@@ -3772,7 +3772,7 @@
             "Careless",
             "Lazy"
           ],
-          "hint": "Think about Leo.",
+          "hint": "Leo is slow. Leo is not fast.",
           "hl": [
             6,
             7
@@ -3783,10 +3783,10 @@
           "qTr": "Islak zemin tehlikelidir. Sebebi nedir?",
           "correct": "It is not safe to run",
           "wrong": [
-            "It is too cold",
-            "It is too dark"
+            "It is not warm in here",
+            "It is not clean in here"
           ],
-          "hint": "Think about the sign.",
+          "hint": "The sign is for the wet floor.",
           "hl": [
             1,
             3,
@@ -3848,7 +3848,7 @@
             "Cold",
             "Snowy"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not cold. It is not snowy.",
           "hl": [
             0
           ]
@@ -3861,7 +3861,7 @@
             "June",
             "December"
           ],
-          "hint": "June is not here. Think!",
+          "hint": "It is one month to the summer holiday. It is not June.",
           "hl": [
             3,
             4,
@@ -3871,12 +3871,12 @@
         {
           "q": "Summer is not far. What is the clue?",
           "qTr": "Yaz uzak değil. İpucu nedir?",
-          "correct": "It is warm and full of flowers",
+          "correct": "It is warm and there are flowers",
           "wrong": [
-            "It is snowing",
-            "The school is closed"
+            "It is cold and there is snow",
+            "It is dark and there is rain"
           ],
-          "hint": "Think about the weather and the garden.",
+          "hint": "The weather is warm. The garden is full of flowers.",
           "hl": [
             0,
             1
@@ -3890,7 +3890,7 @@
             "April",
             "March"
           ],
-          "hint": "Think about the months.",
+          "hint": "May is here. What is after May?",
           "hl": [
             4,
             8
@@ -3901,10 +3901,10 @@
           "qTr": "Maya mutlu. Sebebi nedir?",
           "correct": "The summer holiday is in June",
           "wrong": [
-            "It is cold",
-            "She is ill"
+            "The summer holiday is in May",
+            "The winter holiday is in June"
           ],
-          "hint": "Think about June.",
+          "hint": "It is one month to the holiday.",
           "hl": [
             2,
             8
@@ -3963,7 +3963,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "The birthday is not in May.",
           "hl": [
             1
           ]
@@ -3976,7 +3976,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "The birthday is not in October.",
           "hl": [
             3
           ]
@@ -3989,7 +3989,7 @@
             "Ada",
             "Zara"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "In October, there is a birthday.",
           "hl": [
             4
           ]
@@ -4002,7 +4002,7 @@
             "Maya",
             "Kerem"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "In January, there is a birthday.",
           "hl": [
             4
           ]
@@ -4015,7 +4015,7 @@
             "In May",
             "In July"
           ],
-          "hint": "Think about all the clues.",
+          "hint": "It is not in May. It is not in July. It is not in October.",
           "hl": [
             1,
             4,
@@ -4077,7 +4077,7 @@
             "Seven",
             "Nine"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Count the candles on the cake.",
           "hl": [
             1
           ]
@@ -4090,7 +4090,7 @@
             "Seven",
             "Nine"
           ],
-          "hint": "Find Ada in the text.",
+          "hint": "Ada is not seven. Ada is not nine.",
           "hl": [
             4
           ]
@@ -4103,7 +4103,7 @@
             "Maya",
             "Leo"
           ],
-          "hint": "The candles show the age. Who is eight?",
+          "hint": "There are eight candles. Who is eight?",
           "hl": [
             1,
             4,
@@ -4115,10 +4115,10 @@
           "qTr": "Bugün Ada'nın doğum günü. İpucu nedir?",
           "correct": "Eight candles and Ada is eight",
           "wrong": [
-            "Ada is nine",
-            "Ada is the oldest"
+            "Eight candles and Ada is nine",
+            "Eight candles and Ada is seven"
           ],
-          "hint": "Eight candles and Ada is eight!",
+          "hint": "The candles and the age are the same.",
           "hl": [
             1,
             4
@@ -4132,7 +4132,7 @@
             "Eight",
             "Seven"
           ],
-          "hint": "Find Leo in the text.",
+          "hint": "Leo is not eight. Leo is not seven.",
           "hl": [
             3
           ]
@@ -4192,7 +4192,7 @@
             "Night",
             "Afternoon"
           ],
-          "hint": "Think about the sun.",
+          "hint": "The sun is up. Kerem is in bed.",
           "hl": [
             0,
             1
@@ -4203,10 +4203,10 @@
           "qTr": "Sabah. İpucu nedir?",
           "correct": "The sun is up",
           "wrong": [
-            "It is dark",
+            "The sun is down",
             "The moon is up"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not dark at the start.",
           "hl": [
             0
           ]
@@ -4216,10 +4216,10 @@
           "qTr": "Kerem: İyi geceler! Sebebi nedir?",
           "correct": "It is the end of the day",
           "wrong": [
-            "It is morning",
-            "It is lunch time"
+            "It is the start of the day",
+            "It is the time for lunch"
           ],
-          "hint": "Think about the dark sky and tired Kerem.",
+          "hint": "It is dark. Kerem is tired.",
           "hl": [
             6,
             7,
@@ -4229,12 +4229,12 @@
         {
           "q": "It is night. What is the clue?",
           "qTr": "Gece. İpucu nedir?",
-          "correct": "The sun is down and it is dark",
+          "correct": "The sun is down",
           "wrong": [
             "The sun is up",
             "It is lunch time"
           ],
-          "hint": "Read about the sky at home.",
+          "hint": "At home, the sun is not up.",
           "hl": [
             6
           ]
@@ -4247,7 +4247,7 @@
             "Hungry",
             "Angry"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "It is the end of a long day.",
           "hl": [
             7
           ]
@@ -4307,7 +4307,7 @@
             "Good night",
             "Good evening"
           ],
-          "hint": "Think about the sun and the school bag.",
+          "hint": "The sun is up. Zara is at school.",
           "hl": [
             0,
             2,
@@ -4319,10 +4319,10 @@
           "qTr": "Zara için sabah. İpucu nedir?",
           "correct": "The sun is up",
           "wrong": [
-            "It is dark",
+            "The sun is down",
             "Deniz is in bed"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "It is not the afternoon. It is not the evening.",
           "hl": [
             0,
             3
@@ -4336,7 +4336,7 @@
             "Good morning",
             "Good afternoon"
           ],
-          "hint": "Think about the dark sky and the bed.",
+          "hint": "It is dark. Deniz is in bed.",
           "hl": [
             4,
             6,
@@ -4346,12 +4346,12 @@
         {
           "q": "It is night for Deniz. What is the clue?",
           "qTr": "Deniz için gece. İpucu nedir?",
-          "correct": "It is dark and he is in bed",
+          "correct": "It is dark",
           "wrong": [
-            "The sun is up",
-            "He is at school"
+            "It is warm",
+            "It is morning"
           ],
-          "hint": "Read about Deniz at home.",
+          "hint": "Deniz is not at school. He is in bed.",
           "hl": [
             4,
             5
@@ -4365,7 +4365,7 @@
             "At home",
             "In bed"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Zara is with a big school bag.",
           "hl": [
             0
           ]
@@ -4425,23 +4425,23 @@
             "June",
             "July"
           ],
-          "hint": "It is a summer month. It is not June and not July.",
+          "hint": "It is a summer month. It is not June. It is not July.",
           "hl": [
             2,
             7
           ]
         },
         {
-          "q": "It is not June and not July. What is the clue?",
-          "qTr": "Haziran değil, Temmuz değil. İpucu nedir?",
-          "correct": "Sentence 3 is the clue",
+          "q": "It is a summer month. What is the clue?",
+          "qTr": "Bu bir yaz ayı. İpucu nedir?",
+          "correct": "The weather is warm",
           "wrong": [
-            "The pupils are at school",
-            "It is cold"
+            "The weather is cold",
+            "The weather is snowy"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "It is not a cold month.",
           "hl": [
-            2
+            0
           ]
         },
         {
@@ -4449,10 +4449,10 @@
           "qTr": "Öğrenciler okulda değil. Sebebi nedir?",
           "correct": "It is the summer holiday",
           "wrong": [
-            "It is a weekend",
-            "They are ill"
+            "It is a school day",
+            "It is a cold day"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "It is not a school day.",
           "hl": [
             1
           ]
@@ -4462,10 +4462,10 @@
           "qTr": "Her sokakta ne var?",
           "correct": "Turkish flags",
           "wrong": [
-            "Cakes",
-            "Books"
+            "Big cakes",
+            "New books"
           ],
-          "hint": "Find the word street.",
+          "hint": "In every street, there is red and white.",
           "hl": [
             3
           ]
@@ -4476,9 +4476,9 @@
           "correct": "Victory Day",
           "wrong": [
             "Children's Day",
-            "The New Year"
+            "Republic Day"
           ],
-          "hint": "Think about the national day.",
+          "hint": "It is a big national day in August.",
           "hl": [
             5,
             7
@@ -4537,38 +4537,39 @@
           "correct": "Eid al-Adha",
           "wrong": [
             "A birthday",
-            "A school day"
+            "A weekend"
           ],
-          "hint": "It is not a birthday and not a school day. Think!",
+          "hint": "It is not a birthday. It is not a school day.",
           "hl": [
             1,
             8
           ]
         },
         {
-          "q": "It is not a school day. What is the clue?",
-          "qTr": "Okul günü değil. İpucu nedir?",
-          "correct": "Sentence 2 is the clue",
+          "q": "It is a family day. What is the clue?",
+          "qTr": "Bu bir aile günü. İpucu nedir?",
+          "correct": "Kerem is with Grandma and Grandpa",
           "wrong": [
-            "Kerem is at school",
-            "It is cold"
+            "Kerem is with Ms. Hart",
+            "Kerem is with Mr. Cole"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "The family is together on this day.",
           "hl": [
-            1
+            2,
+            3
           ]
         },
         {
-          "q": "Who is with Kerem?",
-          "qTr": "Kerem'in yanında kim var?",
-          "correct": "Grandma and Grandpa",
+          "q": "What is on the table?",
+          "qTr": "Sofrada ne var?",
+          "correct": "Sweets and chocolate",
           "wrong": [
-            "Ms. Hart",
-            "Mr. Cole"
+            "Books and pens",
+            "Balls and paint"
           ],
-          "hint": "Find Kerem in the text.",
+          "hint": "There is a table at home.",
           "hl": [
-            3
+            4
           ]
         },
         {
@@ -4579,7 +4580,7 @@
             "The teacher",
             "The nurse"
           ],
-          "hint": "Find the word door.",
+          "hint": "The kind people are at the door.",
           "hl": [
             5
           ]
@@ -4589,10 +4590,10 @@
           "qTr": "Yoksullar için yemek önemli. Sebebi nedir?",
           "correct": "It is a day for sharing",
           "wrong": [
-            "It is a birthday cake",
-            "It is for school"
+            "It is a day for gifts",
+            "It is a day for school"
           ],
-          "hint": "Read about the food and sharing.",
+          "hint": "There is food for poor people.",
           "hl": [
             6
           ]
