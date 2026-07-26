@@ -1978,18 +1978,54 @@ body:has(#screen-game.active) .ud-corner { display:none !important; }
 body:has(#screen-game.active)::after { opacity:.2; }
 
 /* ── 7 · One header, one back rule ──────────────────────────── */
-.back-btn {
-  width:42px; height:42px; padding:0; border-radius:50%;
-  font-size:0; justify-content:center; gap:0;
+/* Geri tuşu — elle çizilmiş kutu + eskiz oku.
+   Hover kırmızıya kaçmaz: kâğıt sararır (marker'la işaretlenmiş gibi).
+   Geri dönmek bir uyarı değil, sakin bir hareket. */
+.back-btn, .profile-select-back {
+  position:relative; min-height:52px; height:auto; width:auto; min-width:106px;
+  padding:0 16px 0 40px; margin-right:2px;
+  display:flex; align-items:center; flex-shrink:0;
+  border:none; border-radius:14px; box-shadow:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFFDF7' stroke='%232B3A55' stroke-width='2.6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:center; background-size:100% 100%;
+  font-family:'Caveat',cursive; font-weight:700; font-size:21px; line-height:1;
+  color:#2B3A55; cursor:pointer; text-decoration:none; white-space:nowrap;
+  transition:background-image .18s ease, transform .14s ease;
+  -webkit-tap-highlight-color:transparent; touch-action:manipulation;
 }
-.back-btn::before { content:'←'; font-size:18px; line-height:1; }
-.profile-select-back {
-  width:42px; height:42px; padding:0; border-radius:50%;
-  border:3px solid #1A1A1A; background:#fff; box-shadow:3px 3px 0 #1A1A1A;
-  font-size:0; display:flex; align-items:center; justify-content:center;
-  text-decoration:none; cursor:pointer;
+/* çizilmiş ok — kutunun içinde */
+.back-btn::before, .profile-select-back::before {
+  content:''; position:absolute; left:13px; top:50%; margin-top:-7px;
+  width:26px; height:13px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='13'%3E%3Cpath d='M24 6.5H3M8 2 3 6.5 8 11' stroke='%232B3A55' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/26px 13px;
+  transition:transform .18s ease;
 }
-.profile-select-back::before { content:'←'; font-size:18px; color:#1A1A1A; }
+/* hover / focus — kâğıt sararır, ok sola kayar */
+.back-btn:hover, .profile-select-back:hover,
+.back-btn:focus-visible, .profile-select-back:focus-visible {
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFF4D6' stroke='%232B3A55' stroke-width='2.9' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+.back-btn:hover::before, .profile-select-back:hover::before,
+.back-btn:focus-visible::before, .profile-select-back:focus-visible::before {
+  transform:translateX(-4px);
+}
+/* basılı — sarı dolgu, hafifçe içe basar */
+.back-btn:active, .profile-select-back:active {
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFD93D' stroke='%232B3A55' stroke-width='3' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
+  transform:translate(1px,2px);
+}
+.back-btn:active::before, .profile-select-back:active::before {
+  transform:translateX(-5px);
+}
+.back-btn:focus-visible, .profile-select-back:focus-visible {
+  outline:3px solid #3A7BD5; outline-offset:4px;
+}
+/* profil seçim ekranı içeriğini ortalıyor — geri tuşu solda kalsın */
+.profile-select-back { align-self:flex-start; }
+@media (prefers-reduced-motion: reduce) {
+  .back-btn, .back-btn::before,
+  .profile-select-back, .profile-select-back::before { transition:none; }
+}
 .screen-header > div:not([class]) { display:flex; flex-direction:column-reverse; }
 .screen-header-sub {
   font-family:'Caveat',cursive; font-weight:700; font-size:16px;
@@ -2023,13 +2059,18 @@ body:has(#screen-game.active)::after { opacity:.2; }
   box-shadow:4px 4px 0 #1A1A1A; padding:16px 18px; gap:14px;
   transition:background .18s, transform .15s, box-shadow .15s;
 }
+/* Sınıf numarası — elle çizilmiş daire içinde, defter kalemiyle yazılmış */
 .sinif-chip {
-  width:46px; height:46px; flex-shrink:0; border:2.5px solid #1A1A1A;
-  border-radius:14px; background:var(--gc-lt, #FFF0F0); color:var(--gc, #FF6B6B);
-  font-family:'Baloo 2',cursive; font-weight:600; font-size:24px; line-height:1;
+  width:62px; height:62px; flex-shrink:0; border:none; border-radius:0;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 5 C58 4 76 22 75 41 C74 60 58 76 39 75 C21 74 5 58 5 39 C5 21 21 6 40 5Z' fill='%23FFFDF7' stroke='%232B3A55' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center/100% 100%;
+  color:var(--gc, #FF6B6B);
+  font-family:'Caveat',cursive; font-weight:700; font-size:38px; line-height:1;
   display:flex; align-items:center; justify-content:center;
-  transition:background .18s, color .18s;
+  padding-bottom:3px; transition:background-image .18s;
 }
+/* uzunluk göstergesi — çizilmiş kitap sırası */
+.sinif-books { display:flex; align-items:flex-end; gap:4px; margin-top:5px; color:var(--gc-lt,#FFF0F0); transition:color .18s; }
+.sinif-books svg { display:block; }
 .sinif-card.aktif .sinif-left { flex-direction:row; align-items:center; gap:14px; }
 .sinif-card.aktif .sinif-num { color:#1A1A1A; font-size:24px; }
 .sinif-card.aktif .sinif-sub { color:#6E7688 !important; }
@@ -2047,7 +2088,10 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .sinif-card.aktif:active .sinif-sub { color:rgba(255,255,255,.9) !important; }
 .sinif-card.aktif:hover .sinif-chip,
 .sinif-card.aktif:focus-visible .sinif-chip,
-.sinif-card.aktif:active .sinif-chip { background:#fff; color:var(--gc, #FF6B6B); }
+.sinif-card.aktif:active .sinif-chip { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 5 C58 4 76 22 75 41 C74 60 58 76 39 75 C21 74 5 58 5 39 C5 21 21 6 40 5Z' fill='%23ffffff' stroke='%232B3A55' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.sinif-card.aktif:hover .sinif-books,
+.sinif-card.aktif:focus-visible .sinif-books,
+.sinif-card.aktif:active .sinif-books { color:#fff; }
 .sinif-card.aktif:hover .sinif-go,
 .sinif-card.aktif:focus-visible .sinif-go,
 .sinif-card.aktif:active .sinif-go { background:#fff; color:var(--gc,#FF6B6B); border-color:#fff; }
@@ -2101,6 +2145,33 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .stats-empty-ico { font-size:34px; }
 .stats-empty-t { font-family:'Baloo 2',cursive; font-weight:600; font-size:20px; color:#1A1A1A; }
 .stats-empty-s { font-size:13px; font-weight:800; color:#6E7688; line-height:1.5; }
+
+/* ── 4+5 · Leave-activity confirm ────────────────────────────── */
+.leave-overlay {
+  position:fixed; inset:0; z-index:400; background:rgba(26,26,26,.5);
+  display:flex; align-items:center; justify-content:center; padding:24px;
+}
+.leave-overlay.hidden { display:none; }
+.leave-card {
+  width:100%; max-width:340px; background:#FFFBF0; border:3px solid #1A1A1A;
+  border-radius:22px; box-shadow:7px 7px 0 #1A1A1A; padding:24px 22px;
+  display:flex; flex-direction:column; gap:12px; text-align:center;
+  animation:cardPop .35s cubic-bezier(.34,1.56,.64,1);
+}
+.leave-ico { font-size:36px; line-height:1; }
+.leave-t { font-family:'Baloo 2',cursive; font-weight:600; font-size:22px; color:#1A1A1A; line-height:1.1; }
+.leave-s { font-size:13.5px; font-weight:800; color:#6E7688; line-height:1.5; }
+.leave-btns { display:flex; flex-direction:column; gap:10px; margin-top:4px; }
+.leave-btn {
+  min-height:52px; border-radius:16px; border:3px solid #1A1A1A;
+  font-family:'Baloo 2',cursive; font-weight:600; font-size:17px; cursor:pointer;
+  box-shadow:4px 4px 0 #1A1A1A; transition:all .15s;
+}
+.leave-btn:hover { transform:translate(-2px,-2px); box-shadow:6px 6px 0 #1A1A1A; }
+.leave-btn:active { transform:translate(2px,2px); box-shadow:2px 2px 0 #1A1A1A; }
+.leave-btn:focus-visible { outline:3px solid #3A7BD5; outline-offset:3px; }
+.leave-stay { background:#FFD93D; color:#1A1A1A; }
+.leave-go { background:#fff; color:#B02525; }
 
 /* ── 6 · The translation feature announces itself ────────────── */
 .story-body { font-size:17px !important; }
@@ -2207,7 +2278,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <div class="screen" id="screen-game">
   <div class="game-topbar">
-    <button class="back-btn" onclick="goBackFromGame()">Metinler</button>
+    <button class="back-btn" onclick="goBack('screen-text-select')">Metinler</button>
     <div class="game-topbar-info">
       <div class="game-topbar-title" id="game-topbar-title">Tarama</div>
       <div class="game-topbar-sub">School Life</div>
@@ -2297,7 +2368,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- PROFİL SEÇİM EKRANI -->
 <div class="screen" id="screen-profile-select">
   <div class="profile-select-wrap">
-    <button class="profile-select-back" onclick="showScreen('screen-intro')">↰ Giriş</button>
+    <button class="profile-select-back" onclick="goBack('screen-intro')">↰ Giriş</button>
     <div class="profile-select-title">Kim oynuyor?</div>
     <div class="profile-select-sub">Profilini seç veya yeni bir profil oluştur</div>
     <div class="profile-grid" id="profile-grid">
@@ -2312,7 +2383,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- PROFİL OLUŞTURMA EKRANI -->
 <div class="screen" id="screen-profil">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
+    <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Profilini Oluştur</div>
       <div class="screen-header-sub">Hadi tanışalım!</div>
@@ -2349,7 +2420,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- PROFİL İSTATİSTİK EKRANI -->
 <div class="screen" id="screen-stats">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
+    <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Profilim</div>
       <div class="screen-header-sub">İlerleme durumun</div>
@@ -2361,6 +2432,20 @@ body:has(#screen-game.active)::after { opacity:.2; }
   </div>
   <div class="stats-scroll" id="stats-scroll">
     <!-- JS tarafından doldurulur -->
+  </div>
+</div>
+
+<!-- ETKİNLİKTEN ÇIKIŞ ONAYI -->
+<div class="leave-overlay hidden" id="leave-modal-overlay" role="dialog" aria-modal="true"
+     aria-labelledby="leave-modal-title" onclick="if(event.target===this)cancelLeaveGame()">
+  <div class="leave-card">
+    <div class="leave-ico">✋</div>
+    <div class="leave-t" id="leave-modal-title">Şimdi çıkarsan cevapların kaybolur</div>
+    <div class="leave-s">Bu metni bitirirsen yıldızların kaydedilir. Devam etmek ister misin?</div>
+    <div class="leave-btns">
+      <button class="leave-btn leave-stay" onclick="cancelLeaveGame()">↩ Okumaya devam et</button>
+      <button class="leave-btn leave-go" onclick="confirmLeaveGame()">Yine de çık</button>
+    </div>
   </div>
 </div>
 
@@ -2396,7 +2481,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- ROZETLER EKRANI -->
 <div class="screen" id="screen-badges">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-stats')">← Geri</button>
+    <button class="back-btn" onclick="goBack('screen-stats')">← Geri</button>
     <div>
       <div class="screen-header-title">Rozetlerim</div>
       <div class="screen-header-sub" id="badges-screen-sub">0 / 15 kazanıldı</div>
@@ -2436,7 +2521,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- NASIL KULLANILIR EKRANI -->
 <div class="screen" id="screen-nasil">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
+    <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Nasıl Kullanılır?</div>
       <div class="screen-header-sub">Adım adım rehber</div>
@@ -2483,7 +2568,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- HAKKIMIZDA EKRANI -->
 <div class="screen" id="screen-hakkinda">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
+    <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Hakkımızda</div>
       <div class="screen-header-sub">Ataberk Hoca</div>
@@ -2519,7 +2604,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- ETKİNLİK SEÇİMİ EKRANI -->
 <div class="screen" id="screen-etkinlik">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-theme')">Konular</button>
+    <button class="back-btn" onclick="goBack('screen-theme')">Konular</button>
     <div>
       <div class="screen-header-title">Etkinlik Seçimi</div>
       <div class="screen-header-sub">Ne çalışmak istersin?</div>
@@ -2572,7 +2657,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- METİN SEÇİMİ EKRANI -->
 <div class="screen" id="screen-text-select">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-etkinlik')">Etkinlikler</button>
+    <button class="back-btn" onclick="goBack('screen-etkinlik')">Etkinlikler</button>
     <div>
       <div class="screen-header-title" id="ts-title">Metin Seçimi</div>
       <div class="screen-header-sub" id="ts-sub">Hangi hikayeyi okumak istersin?</div>
@@ -2596,7 +2681,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- SINIF SEÇİMİ EKRANI -->
 <div class="screen" id="screen-sinif">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-intro')">Giriş</button>
+    <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Sınıf Seçimi</div>
       <div class="screen-header-sub">Hangi sınıftasın?</div>
@@ -2614,6 +2699,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div>
           <div class="sinif-num">2. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade2">kısa ve kolay metinler</div>
+          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -2625,6 +2711,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div>
           <div class="sinif-num">3. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade3">biraz daha uzun metinler</div>
+          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="15" height="13" viewBox="0 0 15 13" aria-hidden="true"><path d="M2 2 h11 v9 h-11 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 5 h11" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -2636,6 +2723,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div>
           <div class="sinif-num">4. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade4">en uzun metinler</div>
+          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="15" height="13" viewBox="0 0 15 13" aria-hidden="true"><path d="M2 2 h11 v9 h-11 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 5 h11" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" aria-hidden="true"><path d="M2 2 h13 v12 h-13 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 7 h13" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -2646,7 +2734,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 <!-- THEME SEÇİMİ EKRANI -->
 <div class="screen" id="screen-theme">
   <div class="screen-header">
-    <button class="back-btn" onclick="showScreen('screen-sinif')">Sınıf</button>
+    <button class="back-btn" onclick="goBack('screen-sinif')">Sınıf</button>
     <div>
       <div class="screen-header-title">Konu Seçimi</div>
       <div class="screen-header-sub">Hangi konuyu çalışmak istersin?</div>
@@ -2667,12 +2755,149 @@ body:has(#screen-game.active)::after { opacity:.2; }
 // ════════════════════════════════════════
 //  NAVIGASYON
 // ════════════════════════════════════════
+// Geri tuşu artık sabit bir hedefe değil, gerçekten gelinen ekrana döner.
+const NAV_STACK = [];
+let _navGoingBack = false;
+
+// Geri tuşunda yazan kelime = gidilecek ekranın adı
+const SCREEN_LABELS = {
+  'screen-intro':          'Giriş',
+  'screen-profile-select': 'Profiller',
+  'screen-profil':         'Profil',
+  'screen-sinif':          'Sınıflar',
+  'screen-theme':          'Konular',
+  'screen-etkinlik':       'Etkinlikler',
+  'screen-text-select':    'Metinler',
+  'screen-game':           'Metin',
+  'screen-stats':          'Profilim',
+  'screen-badges':         'Rozetler',
+  'screen-nasil':          'Nasıl Kullanılır',
+  'screen-hakkinda':       'Hakkımızda',
+  'screen-celeb':          'Kutlama'
+};
+
 function showScreen(id) {
   // Ekran değişince açık kalmış çeviri pop-up'ını kapat
   if (typeof closeTrPopup === 'function') closeTrPopup();
+  const current = document.querySelector('.screen.active');
+  if (current && current.id !== id && !_navGoingBack) {
+    NAV_STACK.push(current.id);
+    if (NAV_STACK.length > 20) NAV_STACK.shift();
+    // ileri gidiş = bir history girdisi (cihazın geri tuşu için)
+    if (typeof _navFromPop !== 'undefined' && !_navFromPop) {
+      history.pushState({ screen: id }, '');
+      _historyDepth++;
+    }
+  }
+  if (id !== 'screen-game') _leaveApproved = false;
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   onScreenChange(id);
+  updateBackLabel();
+}
+
+// ── Cihaz/tarayıcı geri tuşu ──
+// Her ileri gidişte bir history girdisi bırakırız; Android'in geri tuşu
+// uygulamayı kapatmak yerine ekranlar arasında geri yürür.
+let _navFromPop = false;
+let _historyDepth = 0;
+
+// ── Etkinlikten çıkış onayı ──
+let _pendingLeave = null;
+let _leaveFromPop = false;
+let _leaveApproved = false; // onay verildi: history.back() sonrası tekrar sormayalım
+
+function gameHasProgress() {
+  // Etkinlik bittiyse cevaplar zaten kaydedildi — uyarı gereksiz ve yanlış olur
+  const ov = document.getElementById('cw-overlay');
+  if (ov && ov.classList.contains('visible')) return false;
+  try {
+    if (DATA && DATA[cur] && qIdx >= DATA[cur].questions.length) return false;
+  } catch (e) {}
+  return (typeof qIdx === 'number' && qIdx > 0) || (typeof score === 'number' && score > 0);
+}
+
+// Oyun ekranındaysa ve cevap verilmişse önce sorar, sonra çıkar
+function requestLeaveGame(action) {
+  if (_leaveApproved) { action(); return; }
+  const active = document.querySelector('.screen.active');
+  if (!active || active.id !== 'screen-game' || !gameHasProgress()) { action(); return; }
+  _pendingLeave = action;
+  const ov = document.getElementById('leave-modal-overlay');
+  if (!ov) { action(); return; }
+  ov.classList.remove('hidden');
+  const stay = ov.querySelector('.leave-stay');
+  if (stay) stay.focus();
+}
+
+function cancelLeaveGame() {
+  _pendingLeave = null;
+  document.getElementById('leave-modal-overlay').classList.add('hidden');
+  // Cihaz geri tuşuyla gelindiyse tükettiğimiz history girdisini geri koy
+  if (_leaveFromPop) {
+    _leaveFromPop = false;
+    history.pushState({ screen: 'screen-game' }, '');
+    _historyDepth++;
+  }
+}
+
+function confirmLeaveGame() {
+  const action = _pendingLeave;
+  _pendingLeave = null;
+  _leaveFromPop = false;
+  _leaveApproved = true;
+  document.getElementById('leave-modal-overlay').classList.add('hidden');
+  if (action) action();
+  // güvenlik ağı: gezinme bir şekilde gerçekleşmezse bayrak takılı kalmasın
+  setTimeout(function () { _leaveApproved = false; }, 600);
+}
+
+// Tek geri fonksiyonu — yığın boşsa ekranın kendi güvenli hedefine düşer
+function goBack(fallback) {
+  requestLeaveGame(function () {
+    // history girdisi varsa onu tüket: popstate gezinmeyi yürütür
+    if (_historyDepth > 0) { history.back(); return; }
+    _navGoingBack = true;
+    const prev = NAV_STACK.pop() || fallback || 'screen-intro';
+    showScreen(prev);
+    _navGoingBack = false;
+  });
+}
+
+window.addEventListener('popstate', function () {
+  _historyDepth = Math.max(0, _historyDepth - 1);
+  const doBack = function () {
+    _navFromPop = true; _navGoingBack = true;
+    const prev = NAV_STACK.pop() || 'screen-intro';
+    showScreen(prev);
+    _navGoingBack = false; _navFromPop = false;
+  };
+  const active = document.querySelector('.screen.active');
+  if (active && active.id === 'screen-game' && gameHasProgress()) {
+    _leaveFromPop = true;
+    requestLeaveGame(doBack);
+  } else {
+    doBack();
+  }
+});
+
+// Escape = "okumaya devam et"
+document.addEventListener('keydown', function (e) {
+  if (e.key !== 'Escape') return;
+  const ov = document.getElementById('leave-modal-overlay');
+  if (ov && !ov.classList.contains('hidden')) { e.preventDefault(); cancelLeaveGame(); }
+});
+
+// Aktif ekranın geri tuşuna, dönülecek ekranın adını yaz
+function updateBackLabel() {
+  const scr = document.querySelector('.screen.active');
+  if (!scr) return;
+  const btn = scr.querySelector('.back-btn, .profile-select-back');
+  if (!btn) return;
+  const prev = NAV_STACK[NAV_STACK.length - 1];
+  const label = SCREEN_LABELS[prev] || 'Geri';
+  btn.textContent = label;
+  btn.setAttribute('aria-label', label + ' ekranına dön');
 }
 
 
@@ -2720,6 +2945,9 @@ function onScreenChange(screenId) {
   }
   if (screenId === 'screen-theme') {
     renderThemeList();
+  }
+  if (screenId === 'screen-text-select' && typeof cur !== 'undefined' && cur && TOPIC_TEXTS) {
+    renderTextSelect(cur);
   }
 }
 
@@ -2990,13 +3218,16 @@ function anotherTextSameSkill(){
 }
 function goBackFromGame(){
   // Oyun ekranından "Metinler" butonu — şu anki becerinin metin seçimine dön
-  // ve listeyi yenile (stats güncel olsun)
+  // ve listeyi yenile (stats güncel olsun). Yığında iz bırakmaz: bu bir geri hareketi.
+  if (NAV_STACK[NAV_STACK.length - 1] === 'screen-text-select') NAV_STACK.pop();
+  _navGoingBack = true;
   if (cur && TOPIC_TEXTS) {
     renderTextSelect(cur);
     showScreen('screen-text-select');
   } else {
     showScreen('screen-etkinlik');
   }
+  _navGoingBack = false;
 }
 function confetti(){
   const wrap=document.getElementById('confetti-wrap');wrap.innerHTML='';
