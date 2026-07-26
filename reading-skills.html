@@ -1444,10 +1444,10 @@ button.celeb-retry {
 /* Rozet Ekranı */
 #screen-badges { background: #FFFBF0; }
 /* ── Çıkartma albümü (rozet ekranı) ── */
-.ba-tabs { display:flex; gap:6px; overflow-x:auto; padding:0 0 10px; }
-.ba-tabs::-webkit-scrollbar { display:none; }
-.ba-tab { flex:0 0 auto; font-family:'Baloo 2',cursive; font-weight:600; font-size:12px; color:#577240;
-  background:#fff; border:2.5px solid #1A1A1A; border-radius:12px; padding:7px 12px; cursor:pointer;
+.ba-tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; padding:0 0 12px; }
+.ba-tab { min-width:0; font-family:'Baloo 2',cursive; font-weight:600; font-size:12.5px; color:#577240;
+  background:#fff; border:2.5px solid #1A1A1A; border-radius:12px; padding:8px 6px; cursor:pointer;
+  text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   box-shadow:2px 2px 0 #1A1A1A; transition:transform .1s, box-shadow .1s; }
 .ba-tab.active { background:#F9844A; color:#fff; }
 .ba-tab:active { transform:translate(2px,2px); box-shadow:0 0 0 #1A1A1A; }
@@ -3072,6 +3072,7 @@ function onScreenChange(screenId) {
   }
   if (screenId === 'screen-sinif') {
     renderGradeSubs();
+    prefetchAllTotals();
   }
   if (screenId === 'screen-theme') {
     renderThemeList();
@@ -3609,23 +3610,26 @@ function getTextStats(topic, skill, textId) {
 }
 
 // Tüm temaların metin sayısını önceden yükler — öğrenci temaya girmeden sayı görünür
-let _prefetching = {};
+let _prefetching = {}, _prefetchFailed = {};
 async function prefetchTopicTotals(grade) {
   if (_prefetching[grade]) return;
   const topics = GRADE_TOPICS[grade] || [];
   let totals = {};
   try { totals = JSON.parse(localStorage.getItem('ataberk_topic_totals') || '{}'); } catch(e) {}
-  const missing = topics.filter(t => !totals[t.key]);
+  const missing = topics.filter(t => !totals[t.key] && !_prefetchFailed[t.key]);
   if (!missing.length) return;
   _prefetching[grade] = true;
   await Promise.all(missing.map(async t => {
     try {
-      const r = await fetch('data/' + grade + '/' + t.key + '.json');
-      if (!r.ok) return;
+      const ctl = new AbortController();
+      const to = setTimeout(() => ctl.abort(), 4000);
+      const r = await fetch('data/' + grade + '/' + t.key + '.json', { signal: ctl.signal });
+      clearTimeout(to);
+      if (!r.ok) { _prefetchFailed[t.key] = true; return; }
       const j = await r.json();
       const n = (j.scan||[]).length + (j.skim||[]).length + (j.int||[]).length + (j.inf||[]).length;
-      if (n) totals[t.key] = n;
-    } catch(e) {}
+      if (n) totals[t.key] = n; else _prefetchFailed[t.key] = true;
+    } catch(e) { _prefetchFailed[t.key] = true; }
   }));
   try { localStorage.setItem('ataberk_topic_totals', JSON.stringify(totals)); } catch(e) {}
   _prefetching[grade] = false;
@@ -5024,7 +5028,7 @@ updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
 initKeyboardNav();
 renderThemeList();
-prefetchAllTotals();
+setTimeout(() => prefetchTopicTotals(currentGrade), 900);
 
 /* === KUTLAMA HAVUZU MOTORU === */
 /* ═══════════════════════════════════════════
