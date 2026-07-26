@@ -2338,7 +2338,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <svg class="sb-boxline" viewBox="0 0 360 60" preserveAspectRatio="none"><path d="M6 8 Q180 2 354 7 Q358 30 352 52 Q180 58 8 53 Q2 30 6 8Z" stroke="#2B3A55" stroke-width="2.5" fill="none"/></svg>
       <div class="sb-field">
         <span class="sb-ico" id="sb-frog">🐸</span>
-        <input type="text" id="sb-name" placeholder="Adını yaz..." aria-label="Adın">
+        <input type="text" id="sb-name" placeholder="Adını yaz..." aria-label="Adın" maxlength="20" autocapitalize="words" onkeydown="if(event.key==='Enter'){event.preventDefault();handleStart();}">
       </div>
     </div>
     <div class="sb-hint">↑ ismini buraya yaz</div>
@@ -2386,10 +2386,11 @@ body:has(#screen-game.active)::after { opacity:.2; }
     <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Profilini Oluştur</div>
-      <div class="screen-header-sub">Hadi tanışalım!</div>
+      <div class="screen-header-sub" id="profil-header-sub">Hadi tanışalım!</div>
     </div>
   </div>
   <div class="profil-form">
+    <div id="profil-greet" style="display:none;font-family:'Baloo 2',cursive;font-weight:600;font-size:20px;color:#2B3A55;background:#FFF6D6;border:2px solid #1A1A1A;border-radius:14px;box-shadow:3px 3px 0 #1A1A1A;padding:12px 16px;text-align:center;"></div>
     <div>
       <div class="profil-section-title" id="avatar-label">Avatarını seç</div>
       <div class="avatar-grid" role="radiogroup" aria-labelledby="avatar-label">
@@ -2406,7 +2407,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       </div>
     </div>
     <div>
-      <label class="profil-section-title" for="profil-input">Adın ne?</label>
+      <label class="profil-section-title" for="profil-input" id="profil-name-label">Adın ne?</label>
       <div class="profil-input-wrap">
         <input class="profil-input" id="profil-input" type="text"
                placeholder="Adını yaz..." maxlength="20"
@@ -3907,7 +3908,7 @@ function selectProfile(profileId) {
 function startNewProfile() {
   // Profil oluşturma ekranına git (mevcut screen-profil)
   // saveProfil() içindeki MAX_PROFILES kontrolü zaten var
-  showScreen('screen-profil');
+  goToCreateProfile('');
 }
 
 function goToActiveProfileStats() {
@@ -3920,12 +3921,46 @@ function goToActiveProfileStats() {
 
 // handleStart — Hiç profil yoksa profil oluşturma ekranına, en az 1 profil varsa profil seçim ekranına
 function handleStart() {
+  const field = document.getElementById('sb-name');
+  const typed = field ? field.value.trim() : '';
   const profiles = loadProfiles();
-  if (profiles.length === 0) {
-    showScreen('screen-profil');
-  } else {
-    showScreen('screen-profile-select');
+
+  if (typed) {
+    const norm = s => s.toLocaleLowerCase('tr').replace(/\s+/g, ' ').trim();
+    const match = profiles.find(p => norm(p.name) === norm(typed));
+    if (match) {
+      selectProfile(match.id);
+      showToast('Tekrar hoş geldin, ' + match.name + '! 👋', 'success', 2200);
+      if (field) field.value = '';
+      return;
+    }
+    goToCreateProfile(typed);
+    if (field) field.value = '';
+    return;
   }
+
+  if (profiles.length === 0) goToCreateProfile('');
+  else showScreen('screen-profile-select');
+}
+
+// Profil oluşturma ekranını hazırlar; prefill varsa isim dolu gelir
+function goToCreateProfile(prefill) {
+  showScreen('screen-profil');
+  const input = document.getElementById('profil-input');
+  const greet = document.getElementById('profil-greet');
+  const label = document.getElementById('profil-name-label');
+  const sub   = document.getElementById('profil-header-sub');
+  if (input) input.value = prefill || '';
+  if (greet) {
+    if (prefill) {
+      greet.textContent = 'Merhaba ' + prefill + '! 👋 Şimdi bir avatar seç.';
+      greet.style.display = 'block';
+    } else {
+      greet.style.display = 'none';
+    }
+  }
+  if (label) label.textContent = prefill ? 'Adın (istersen değiştir)' : 'Adın ne?';
+  if (sub) sub.textContent = prefill ? 'Son bir adım kaldı!' : 'Hadi tanışalım!';
 }
 
 
