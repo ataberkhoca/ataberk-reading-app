@@ -1959,6 +1959,170 @@ body.intro-mode::after { display: none !important; }
 body.intro-mode #ud-doodles,
 body.intro-mode .ud-corner { display: none !important; }
 
+/* ═══════════════════════════════════════════════════════════════
+   V2 — DESIGN REVIEW REVISIONS
+   1 doodle discipline · 2 style split · 3 hierarchy · 5 empty states
+   6 reading affordance · 7 header + contrast · 8 progress
+═══════════════════════════════════════════════════════════════ */
+
+/* ── 1 · Doodles stay decoration, never compete with content ── */
+#ud-doodles { opacity: .5; }
+.ud-corner { opacity: .22 !important; }
+body:not(.intro-mode) .screen.active::before {
+  content:''; position:fixed; top:0; bottom:0; left:50%;
+  transform:translateX(-50%); width:min(100%,468px);
+  background:rgba(251,250,242,.9); z-index:-1; pointer-events:none;
+}
+body:has(#screen-game.active) #ud-doodles,
+body:has(#screen-game.active) .ud-corner { display:none !important; }
+body:has(#screen-game.active)::after { opacity:.2; }
+
+/* ── 7 · One header, one back rule ──────────────────────────── */
+.back-btn {
+  width:42px; height:42px; padding:0; border-radius:50%;
+  font-size:0; justify-content:center; gap:0;
+}
+.back-btn::before { content:'←'; font-size:18px; line-height:1; }
+.profile-select-back {
+  width:42px; height:42px; padding:0; border-radius:50%;
+  border:3px solid #1A1A1A; background:#fff; box-shadow:3px 3px 0 #1A1A1A;
+  font-size:0; display:flex; align-items:center; justify-content:center;
+  text-decoration:none; cursor:pointer;
+}
+.profile-select-back::before { content:'←'; font-size:18px; color:#1A1A1A; }
+.screen-header > div:not([class]) { display:flex; flex-direction:column-reverse; }
+.screen-header-sub {
+  font-family:'Caveat',cursive; font-weight:700; font-size:16px;
+  color:#3A7BD5; margin:0 0 1px; letter-spacing:0;
+}
+.screen-header-title { font-size:23px; }
+.header-profil { padding:0; width:40px; height:40px; justify-content:center; border-radius:50%; }
+.header-profil-name { display:none; }
+.header-profil-av { font-size:19px; }
+
+/* ── 2 · Sketch = page voice, outline = tappable ─────────────── */
+.etkinlik-en, .text-card-en {
+  font-family:'Caveat',cursive !important; font-weight:700 !important;
+  font-size:16px !important; color:#3A7BD5 !important;
+  letter-spacing:0 !important; text-transform:none !important; opacity:1 !important;
+}
+.etkinlik-desc {
+  color:#6E7688 !important; font-size:12.5px; line-height:1.45;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}
+.text-select-intro-sub, .theme-desc, .sinif-sub, .topic-stat-detail { color:#6E7688 !important; }
+.q-num { color:#6E7688; }
+.q-label { color:rgba(255,255,255,.78); }
+#skill-en { color:rgba(0,0,0,.5); }
+
+/* ── 3 · Three tiers: primary / content / secondary ──────────── */
+/* Her sınıf eşit ağırlıkta ve kendi renginde davetkâr;
+   dokunma/hover ile kart tamamen o renge boyanır. */
+.sinif-card.aktif {
+  position:relative; background:#fff; border:3px solid #1A1A1A;
+  box-shadow:4px 4px 0 #1A1A1A; padding:16px 18px; gap:14px;
+  transition:background .18s, transform .15s, box-shadow .15s;
+}
+.sinif-chip {
+  width:46px; height:46px; flex-shrink:0; border:2.5px solid #1A1A1A;
+  border-radius:14px; background:var(--gc-lt, #FFF0F0); color:var(--gc, #FF6B6B);
+  font-family:'Baloo 2',cursive; font-weight:600; font-size:24px; line-height:1;
+  display:flex; align-items:center; justify-content:center;
+  transition:background .18s, color .18s;
+}
+.sinif-card.aktif .sinif-left { flex-direction:row; align-items:center; gap:14px; }
+.sinif-card.aktif .sinif-num { color:#1A1A1A; font-size:24px; }
+.sinif-card.aktif .sinif-sub { color:#6E7688 !important; }
+.sinif-card.aktif:hover,
+.sinif-card.aktif:focus-visible,
+.sinif-card.aktif:active {
+  background:var(--gc, #FF6B6B);
+  transform:translate(-2px,-2px); box-shadow:7px 7px 0 #1A1A1A;
+}
+.sinif-card.aktif:hover .sinif-num,
+.sinif-card.aktif:focus-visible .sinif-num,
+.sinif-card.aktif:active .sinif-num { color:#fff; }
+.sinif-card.aktif:hover .sinif-sub,
+.sinif-card.aktif:focus-visible .sinif-sub,
+.sinif-card.aktif:active .sinif-sub { color:rgba(255,255,255,.9) !important; }
+.sinif-card.aktif:hover .sinif-chip,
+.sinif-card.aktif:focus-visible .sinif-chip,
+.sinif-card.aktif:active .sinif-chip { background:#fff; color:var(--gc, #FF6B6B); }
+.sinif-card.aktif:hover .sinif-go,
+.sinif-card.aktif:focus-visible .sinif-go,
+.sinif-card.aktif:active .sinif-go { background:#fff; color:var(--gc,#FF6B6B); border-color:#fff; }
+.sinif-go {
+  margin-left:auto; flex-shrink:0; width:34px; height:34px; border-radius:50%;
+  border:2.5px solid #1A1A1A; background:var(--gc-lt,#FFF0F0); color:#1A1A1A;
+  display:flex; align-items:center; justify-content:center;
+  font-size:15px; font-weight:900; transition:background .18s, color .18s, border-color .18s;
+}
+.sinif-badge, .theme-badge { display:none; }
+
+/* ── 8 · Progress made visible ───────────────────────────────── */
+.theme-card { padding:14px 16px; }
+.theme-ring { flex-shrink:0; margin-left:8px; }
+.theme-ring circle.trk { stroke:#F0EBDD; }
+.theme-ring text { font-family:'Baloo 2',cursive; font-weight:700; }
+.mastery-card {
+  background:#fff; border:3px solid #1A1A1A; border-radius:18px;
+  box-shadow:4px 4px 0 #1A1A1A; padding:14px 15px; margin:0 20px 14px;
+  display:flex; flex-direction:column; gap:10px;
+}
+.mastery-title { font-size:10px; font-weight:900; letter-spacing:.09em; color:#6E7688; }
+.mastery-row { display:flex; align-items:center; gap:9px; }
+.mastery-name { font-size:11.5px; font-weight:900; width:96px; flex-shrink:0; }
+.mastery-track { flex:1; height:11px; background:#F0EBDD; border-radius:99px; overflow:hidden; }
+.mastery-fill { display:block; height:100%; border-radius:99px; }
+.mastery-pct { font-size:10.5px; font-weight:900; color:#6E7688; width:34px; text-align:right; }
+
+/* ── 5 · Empty states that invite ────────────────────────────── */
+.invite-card {
+  background:#6BCB77; border:3px solid #1A1A1A; border-radius:20px;
+  box-shadow:5px 5px 0 #1A1A1A; padding:18px; margin:4px 0 10px;
+  display:flex; align-items:center; gap:14px; cursor:pointer; width:100%;
+  text-align:left; font-family:'Nunito',sans-serif; transition:all .15s;
+}
+.invite-card:hover { transform:translate(-2px,-2px); box-shadow:7px 7px 0 #1A1A1A; }
+.invite-txt { flex:1; min-width:0; }
+.invite-card, .invite-note { grid-column:1 / -1; }
+.invite-av {
+  width:52px; height:52px; flex-shrink:0; border:2.5px solid #1A1A1A;
+  border-radius:16px; background:#fff; display:flex; align-items:center;
+  justify-content:center; font-size:26px;
+}
+.invite-t { display:block; white-space:nowrap; font-family:'Baloo 2',cursive; font-weight:600; font-size:19px; color:#fff; line-height:1.05; }
+.invite-s { display:block; font-size:12px; font-weight:800; color:rgba(255,255,255,.92); margin-top:2px; }
+.invite-note { font-size:12px; font-weight:800; color:#8A8474; text-align:center; line-height:1.5; margin-top:4px; }
+.stats-empty {
+  margin:0 20px; background:#fff; border:3px dashed #1A1A1A; border-radius:20px;
+  padding:22px 20px; text-align:center; display:flex; flex-direction:column; gap:8px;
+}
+.stats-empty-ico { font-size:34px; }
+.stats-empty-t { font-family:'Baloo 2',cursive; font-weight:600; font-size:20px; color:#1A1A1A; }
+.stats-empty-s { font-size:13px; font-weight:800; color:#6E7688; line-height:1.5; }
+
+/* ── 6 · The translation feature announces itself ────────────── */
+.story-body { font-size:17px !important; }
+.story-body .s { border-bottom:2px dotted #9DBBE8; border-radius:4px 4px 0 0; }
+.story-body .s.sys-hl, .story-body .s.user-hl { border-bottom-color:transparent; }
+.tr-affordance {
+  margin:10px 14px -4px; display:flex; align-items:center; gap:6px;
+  font-size:11px; font-weight:900; color:#3A7BD5;
+}
+.tr-affordance::before { content:'🌐'; font-size:12px; }
+.story-body .s.tr-coach {
+  background:#EAF2FE; box-shadow:0 0 0 3px #9DBBE8;
+  animation:trCoach 1.9s ease-in-out infinite;
+}
+@keyframes trCoach {
+  0%,100% { box-shadow:0 0 0 3px #9DBBE8; }
+  50%     { box-shadow:0 0 0 5px rgba(157,187,232,.55); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .story-body .s.tr-coach { animation:none; }
+}
+
 </style>
 </head>
 <body>
@@ -2061,6 +2225,7 @@ body.intro-mode .ud-corner { display: none !important; }
     <div class="story-card" id="story-card">
       <div class="story-top" id="story-top"></div>
       <div class="cast-panel" id="cast-panel"></div>
+      <div class="tr-affordance">Cümleye dokun → Türkçesi</div>
       <div class="story-body" id="story-body"></div>
     </div>
     <div class="q-card" id="q-card">
@@ -2443,28 +2608,37 @@ body.intro-mode .ud-corner { display: none !important; }
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" onclick="selectGrade('grade2')" role="button" tabindex="0">
+    <div class="sinif-card aktif" style="--gc:#FF6B6B;--gc-lt:#FFF0F0;" onclick="selectGrade('grade2')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-num">2. Sınıf</div>
-        <div class="sinif-sub">Primary 2</div>
+        <div class="sinif-chip">2</div>
+        <div>
+          <div class="sinif-num">2. Sınıf</div>
+          <div class="sinif-sub" id="sinif-sub-grade2">kısa ve kolay metinler</div>
+        </div>
       </div>
-      <div class="sinif-badge">Başla →</div>
+      <div class="sinif-go">→</div>
     </div>
 
-    <div class="sinif-card aktif" onclick="selectGrade('grade3')" role="button" tabindex="0">
+    <div class="sinif-card aktif" style="--gc:#00B4D8;--gc-lt:#E6F9FD;" onclick="selectGrade('grade3')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-num">3. Sınıf</div>
-        <div class="sinif-sub">Primary 3</div>
+        <div class="sinif-chip">3</div>
+        <div>
+          <div class="sinif-num">3. Sınıf</div>
+          <div class="sinif-sub" id="sinif-sub-grade3">biraz daha uzun metinler</div>
+        </div>
       </div>
-      <div class="sinif-badge">Başla →</div>
+      <div class="sinif-go">→</div>
     </div>
 
-    <div class="sinif-card aktif" onclick="selectGrade('grade4')" role="button" tabindex="0">
+    <div class="sinif-card aktif" style="--gc:#6BCB77;--gc-lt:#EAF7EE;" onclick="selectGrade('grade4')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-num">4. Sınıf</div>
-        <div class="sinif-sub">Primary 4</div>
+        <div class="sinif-chip">4</div>
+        <div>
+          <div class="sinif-num">4. Sınıf</div>
+          <div class="sinif-sub" id="sinif-sub-grade4">en uzun metinler</div>
+        </div>
       </div>
-      <div class="sinif-badge">Başla →</div>
+      <div class="sinif-go">→</div>
     </div>
   </div>
 </div>
@@ -2483,7 +2657,6 @@ body.intro-mode .ud-corner { display: none !important; }
     </div>
   </div>
 
-  <div class="theme-list">
   <div class="theme-list" id="theme-list">
     <!-- renderThemeList() tarafından dinamik olarak doldurulur -->
   </div>
@@ -2541,6 +2714,12 @@ function onScreenChange(screenId) {
   }
   if (screenId === 'screen-badges') {
     renderBadgeScreen();
+  }
+  if (screenId === 'screen-stats') {
+    renderStats();
+  }
+  if (screenId === 'screen-theme') {
+    renderThemeList();
   }
 }
 
@@ -2619,6 +2798,10 @@ function renderStory(){
   const d=DATA[cur];
   document.getElementById('cast-panel').innerHTML=d.cast.map(c=>`<div class="cast-pill">${c.e} ${c.n}</div>`).join('');
   document.getElementById('story-body').innerHTML=d.sentences.map((s,i)=>`<span class="s" data-i="${i}" onclick="toggleHL(this)">${s}</span> `).join('');
+  if(!localStorage.getItem('ataberk_tr_coach')){
+    const first=document.querySelector('#story-body .s');
+    if(first)first.classList.add('tr-coach');
+  }
   const card=document.getElementById('story-card');
   card.style.animation='none';card.offsetHeight;card.style.animation='';
 }
@@ -2626,6 +2809,9 @@ function toggleHL(el){
   // Çeviri özelliği: kullanıcı highlight'ı (mavi) + popup
   // Sistem highlight'ı olan cümlelere de tıklanabilir (cevap bulunduktan sonra çeviriye bakma)
   const sentenceEl = el;
+  // İlk dokunuştan sonra coach mark bir daha gösterilmez
+  localStorage.setItem('ataberk_tr_coach','1');
+  document.querySelectorAll('.s.tr-coach').forEach(s=>s.classList.remove('tr-coach'));
   const idx = parseInt(sentenceEl.dataset.i);
   const trText = (DATA[cur].translations && DATA[cur].translations[idx]) || '(çeviri henüz eklenmedi)';
 
@@ -2872,7 +3058,14 @@ function renderThemeList() {
   const list = document.querySelector('.theme-list');
   if (!list) return;
 
-  list.innerHTML = topics.map(t => `
+  list.innerHTML = topics.map(t => {
+    let p = { done:0, total:0, pct:0 };
+    try { p = topicProgress(t.key) || p; } catch(e) {}
+    const pct  = Math.max(0, Math.min(100, p.pct || 0));
+    const off  = 126 - (126 * pct / 100);
+    const col  = pct >= 100 ? '#6BCB77' : pct > 0 ? '#F2C14E' : '#F0EBDD';
+    const lbl  = p.total ? (p.done + '/' + p.total) : '–';
+    return `
     <div class="theme-card aktif" onclick="selectTopic('${t.key}')" role="button" tabindex="0">
       <div class="theme-left">
         <div class="theme-icon">${t.icon}</div>
@@ -2881,9 +3074,15 @@ function renderThemeList() {
           <div class="theme-desc">${t.desc}</div>
         </div>
       </div>
-      <div class="theme-badge">Başla →</div>
-    </div>
-  `).join('');
+      <svg class="theme-ring" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+        <circle class="trk" cx="22" cy="22" r="20" fill="none" stroke-width="5"></circle>
+        <circle cx="22" cy="22" r="20" fill="none" stroke="${col}" stroke-width="5"
+                stroke-linecap="round" stroke-dasharray="126" stroke-dashoffset="${off}"
+                transform="rotate(-90 22 22)"></circle>
+        <text x="22" y="26" text-anchor="middle" font-size="12" fill="#1A1A1A">${lbl}</text>
+      </svg>
+    </div>`;
+  }).join('');
 }
 
 function selectTopic(topicKey) {
@@ -3418,18 +3617,33 @@ function renderProfileSelect() {
       </div>
     `);
   });
-  // Boş slot sayısı = MAX_PROFILES - mevcut profil sayısı (en az 1 boş slot olsun ki yeni eklenebilsin)
-  const emptySlots = Math.max(0, MAX_PROFILES - profiles.length);
-  for (let i = 0; i < emptySlots; i++) {
-    cards.push(`
-      <div class="profile-card empty" onclick="startNewProfile()"
-           role="button" tabindex="0" aria-label="Yeni profil oluştur">
-        <div class="profile-card-avatar">+</div>
-        <div class="profile-card-name">Yeni Profil</div>
-      </div>
-    `);
+  // Kapasiteyi boşluk olarak göstermeyiz: tek bir davet kartı,
+  // profil sayısı arttıkça yeni slot kendiliğinden açılır.
+  const sub = document.querySelector('.profile-select-sub');
+  if (profiles.length === 0) {
+    grid.innerHTML = `
+      <button class="invite-card" onclick="startNewProfile()">
+        <span class="invite-av">🦊</span>
+        <span class="invite-txt">
+          <span class="invite-t">Profil oluştur</span>
+          <span class="invite-s">isim + bir hayvan seç</span>
+        </span>
+      </button>
+      <div class="invite-note">Kardeşin de okuyacaksa sonra ekleyebilirsin — ${MAX_PROFILES} kişiye kadar.</div>`;
+    if (sub) sub.textContent = 'Başlamak için bir profil oluştur';
+  } else {
+    if (sub) sub.textContent = 'Profilini seç ya da yeni bir profil ekle';
+    if (profiles.length < MAX_PROFILES) {
+      cards.push(`
+        <div class="profile-card empty" onclick="startNewProfile()"
+             role="button" tabindex="0" aria-label="Yeni profil oluştur">
+          <div class="profile-card-avatar">+</div>
+          <div class="profile-card-name">Profil ekle</div>
+        </div>
+      `);
+    }
+    grid.innerHTML = cards.join('');
   }
-  grid.innerHTML = cards.join('');
   // Dinamik eklenen kartlara klavye desteği bağla
   grid.querySelectorAll('[role="button"]').forEach(makeKeyboardClickable);
 
@@ -4019,7 +4233,47 @@ function renderStats() {
 
   const playHTML = `<button class="stats-play-btn" onclick="showScreen('screen-sinif')">▶ Okumaya Başla</button>`;
 
-  scroll.innerHTML = heroHTML + playHTML + gridHTML + renderBadgePreview() + topicsHTML + editHTML;
+  // Beceri hâkimiyeti — hâlihazırda kayıtlı bestScore/total üzerinden
+  const SK_META = {
+    scan:{ico:'🔍', name:'Tarama',         col:'#FF6B6B'},
+    skim:{ico:'⚡', name:'Hızlı Okuma',    col:'#F2C14E'},
+    int: {ico:'🔬', name:'Dikkatli Okuma', col:'#7B2FBE'},
+    inf: {ico:'🧩', name:'Çıkarım',        col:'#00B4D8'}
+  };
+  const skAgg = {scan:[0,0], skim:[0,0], int:[0,0], inf:[0,0]};
+  Object.values(stats).forEach(topicData => {
+    Object.entries(topicData).forEach(([sk, v]) => {
+      if (!skAgg[sk]) return;
+      skAgg[sk][0] += v.bestScore || 0;
+      skAgg[sk][1] += v.total || 0;
+    });
+  });
+  const masteryHTML = `
+    <div class="mastery-card">
+      <div class="mastery-title">BECERİLERİM</div>
+      ${Object.keys(SK_META).map(sk => {
+        const m = SK_META[sk], a = skAgg[sk];
+        const pct = a[1] ? Math.round(a[0] / a[1] * 100) : 0;
+        return `<div class="mastery-row">
+          <span class="mastery-name">${m.ico} ${m.name}</span>
+          <span class="mastery-track"><span class="mastery-fill" style="width:${pct}%;background:${m.col}"></span></span>
+          <span class="mastery-pct">${pct}%</span>
+        </div>`;
+      }).join('')}
+    </div>`;
+
+  // Veri yoksa: boş sayfa değil, davet
+  if (totalDone === 0) {
+    scroll.innerHTML = heroHTML + `
+      <div class="stats-empty">
+        <div class="stats-empty-ico">⭐</div>
+        <div class="stats-empty-t">Yıldızların burada birikecek</div>
+        <div class="stats-empty-s">Bir metni bitirdiğinde yıldızların, rozetlerin ve becerilerin bu sayfada görünmeye başlar.</div>
+      </div>` + playHTML + editHTML;
+    return;
+  }
+
+  scroll.innerHTML = heroHTML + playHTML + gridHTML + masteryHTML + renderBadgePreview() + topicsHTML + editHTML;
 }
 
 // Header rozetine tıklayınca profil seçim ekranına git (profil değiştirmek için).
@@ -4066,6 +4320,15 @@ function initKeyboardNav() {
 }
 
 // Başlangıç
+// Sınıf kartlarındaki alt satırlara gerçek konu sayısını yaz
+(function fillGradeCounts(){
+  ['grade2','grade3','grade4'].forEach(g => {
+    const el = document.getElementById('sinif-sub-' + g);
+    const n = (GRADE_TOPICS[g] || []).length;
+    if (el && n) el.textContent = n + ' konu · ' + el.textContent;
+  });
+})();
+
 const _profilInit = getActiveProfile();
 updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
