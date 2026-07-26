@@ -1616,6 +1616,44 @@ button.celeb-retry {
 .stats-badge-mini.locked { background: #F0F0F0; filter: grayscale(1); opacity: 0.4; }
 .stats-badge-more { font-size: 12px; font-weight: 700; color: #888; }
 
+/* ── Profil sayfası uyumu: tüm bölümler aynı kart ölçüsü ve tipografi ── */
+.stats-scroll .stats-sec,
+.stats-scroll .mastery-card,
+.stats-scroll .nu-card,
+.stats-scroll .stats-badge-preview {
+  width:100%; box-sizing:border-box; margin:0; background:#fff;
+  border:3px solid #1A1A1A; border-radius:18px; box-shadow:4px 4px 0 #1A1A1A;
+  padding:15px 16px;
+}
+.stats-sec-title,
+.stats-scroll .mastery-title,
+.stats-scroll .nu-title,
+.stats-scroll .stats-badge-preview-title {
+  font-family:'Baloo 2',cursive; font-weight:800; font-size:12px; letter-spacing:.09em;
+  text-transform:uppercase; color:#6E7688; margin:0 0 11px;
+}
+.stats-scroll .stats-badge-preview-top { margin-bottom:0; }
+.stats-scroll .stats-badge-preview-title { margin:0; }
+.stats-scroll .stats-badge-mini-row { margin-top:11px; }
+.stats-scroll .mastery-card { gap:0; }
+.stats-scroll .mastery-row + .mastery-row { margin-top:9px; }
+.stats-scroll .mastery-name { width:108px; font-size:12.5px; font-weight:800; }
+.stats-scroll .mastery-pct { font-size:11.5px; font-weight:800; width:38px; }
+.stats-scroll .nu-row,
+.stats-scroll .topic-stat-row {
+  background:#FFFBF0; border:2px solid #1A1A1A; border-radius:13px;
+  box-shadow:none; padding:9px 10px; margin:0;
+}
+.stats-scroll .topic-stat-row + .topic-stat-row { margin-top:8px; }
+.stats-scroll .topic-stat-row:hover { transform:none; box-shadow:none; }
+.stats-scroll .stats-grade-tabs { margin:0 0 10px; }
+.stats-scroll .nu-name,
+.stats-scroll .topic-stat-name { font-size:13.5px; font-weight:800; color:#1A1A1A; }
+.stats-scroll .nu-left,
+.stats-scroll .topic-stat-detail { font-size:11.5px; font-weight:700; color:#8A7F6A; }
+.stats-scroll .nu-frac,
+.stats-scroll .topic-stat-badge { font-size:13px; font-weight:800; }
+
 /* ── Yaklaştığın rozetler (1d) ── */
 .nu-card{background:#fff;border:2.5px solid #1A1A1A;border-radius:16px;box-shadow:3px 3px 0 #1A1A1A;padding:12px;margin-bottom:14px}
 .nu-title{font-size:12px;font-weight:900;letter-spacing:.08em;color:#8A7F6A;margin-bottom:9px}
@@ -2790,8 +2828,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div class="sinif-chip">2</div>
         <div>
           <div class="sinif-num">2. Sınıf</div>
-          <div class="sinif-sub" id="sinif-sub-grade2">kısa ve kolay metinler</div>
-          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
+          <div class="sinif-sub" id="sinif-sub-grade2">6 tema</div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -2802,8 +2839,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div class="sinif-chip">3</div>
         <div>
           <div class="sinif-num">3. Sınıf</div>
-          <div class="sinif-sub" id="sinif-sub-grade3">biraz daha uzun metinler</div>
-          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="15" height="13" viewBox="0 0 15 13" aria-hidden="true"><path d="M2 2 h11 v9 h-11 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 5 h11" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
+          <div class="sinif-sub" id="sinif-sub-grade3">6 tema</div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -2814,8 +2850,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div class="sinif-chip">4</div>
         <div>
           <div class="sinif-num">4. Sınıf</div>
-          <div class="sinif-sub" id="sinif-sub-grade4">en uzun metinler</div>
-          <div class="sinif-books" aria-hidden="true"><svg width="13" height="10" viewBox="0 0 13 10" aria-hidden="true"><path d="M2 2 h9 v6 h-9 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 4 h9" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="15" height="13" viewBox="0 0 15 13" aria-hidden="true"><path d="M2 2 h11 v9 h-11 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 5 h11" stroke="#2B3A55" stroke-width="1.6"></path></svg><svg width="17" height="16" viewBox="0 0 17 16" aria-hidden="true"><path d="M2 2 h13 v12 h-13 z" fill="currentColor" stroke="#2B3A55" stroke-width="2" stroke-linejoin="round"></path><path d="M2 7 h13" stroke="#2B3A55" stroke-width="1.6"></path></svg></div>
+          <div class="sinif-sub" id="sinif-sub-grade4">6 tema</div>
         </div>
       </div>
       <div class="sinif-go">→</div>
@@ -3034,6 +3069,9 @@ function onScreenChange(screenId) {
   }
   if (screenId === 'screen-stats') {
     renderStats();
+  }
+  if (screenId === 'screen-sinif') {
+    renderGradeSubs();
   }
   if (screenId === 'screen-theme') {
     renderThemeList();
@@ -3380,6 +3418,7 @@ function renderThemeList() {
   const topics = GRADE_TOPICS[currentGrade] || GRADE_TOPICS['grade2'];
   const list = document.querySelector('.theme-list');
   if (!list) return;
+  prefetchTopicTotals(currentGrade);
 
   list.innerHTML = topics.map(t => {
     let p = { done:0, total:0, pct:0 };
@@ -3567,6 +3606,56 @@ function getTextStats(topic, skill, textId) {
     const profileData = all[profile.id];
     return (profileData && profileData[topic] && profileData[topic][skill] && profileData[topic][skill][textId]) || null;
   } catch(e) { return null; }
+}
+
+// Tüm temaların metin sayısını önceden yükler — öğrenci temaya girmeden sayı görünür
+let _prefetching = {};
+async function prefetchTopicTotals(grade) {
+  if (_prefetching[grade]) return;
+  const topics = GRADE_TOPICS[grade] || [];
+  let totals = {};
+  try { totals = JSON.parse(localStorage.getItem('ataberk_topic_totals') || '{}'); } catch(e) {}
+  const missing = topics.filter(t => !totals[t.key]);
+  if (!missing.length) return;
+  _prefetching[grade] = true;
+  await Promise.all(missing.map(async t => {
+    try {
+      const r = await fetch('data/' + grade + '/' + t.key + '.json');
+      if (!r.ok) return;
+      const j = await r.json();
+      const n = (j.scan||[]).length + (j.skim||[]).length + (j.int||[]).length + (j.inf||[]).length;
+      if (n) totals[t.key] = n;
+    } catch(e) {}
+  }));
+  try { localStorage.setItem('ataberk_topic_totals', JSON.stringify(totals)); } catch(e) {}
+  _prefetching[grade] = false;
+  renderThemeList();
+  renderGradeSubs();
+}
+function prefetchAllTotals() {
+  ['grade2','grade3','grade4'].forEach(g => prefetchTopicTotals(g));
+}
+
+// Sınıf kartlarındaki alt satır — tema ve hikâye sayısı (ikon/açıklama yerine)
+function gradeTotals(g) {
+  const topics = GRADE_TOPICS[g] || [];
+  let total = 0, known = 0, done = 0;
+  topics.forEach(t => {
+    const n = getTopicTotal(t.key);
+    if (n) { known++; total += n; done += Math.min(countDoneTexts(t.key), n); }
+  });
+  return { themes: topics.length, complete: topics.length > 0 && known === topics.length, total, done };
+}
+function renderGradeSubs() {
+  ['grade2','grade3','grade4'].forEach(g => {
+    const el = document.getElementById('sinif-sub-' + g);
+    if (!el) return;
+    const s = gradeTotals(g);
+    if (!s.complete || !s.total) { el.textContent = s.themes + ' tema'; return; }
+    el.textContent = s.done > 0
+      ? s.themes + ' tema · ' + s.done + '/' + s.total + ' hikâye okundu'
+      : s.themes + ' tema · ' + s.total + ' hikâye';
+  });
 }
 
 // Tema ilerlemesi — temadaki toplam metne göre (kalibrasyon)
@@ -4691,7 +4780,7 @@ function renderBadgePreview() {
   return `
     <div class="stats-badge-preview" onclick="showBadgeScreen()">
       <div class="stats-badge-preview-top">
-        <div class="stats-badge-preview-title">🏅 Rozetlerim</div>
+        <div class="stats-badge-preview-title">Rozetlerim</div>
         <div class="stats-badge-count">${earned.length} / ${total}</div>
       </div>
       <div class="stats-badge-mini-row">
@@ -4833,7 +4922,7 @@ function renderStats() {
         <div class="topic-stat-badge">${badge}</div>
       </div>`;
   });
-  const topicsHTML = '<div class="stats-section-title">Konular</div>' + tabsHTML + rowsHTML;
+  const topicsHTML = '<div class="stats-sec"><div class="stats-sec-title">Konular</div>' + tabsHTML + rowsHTML + '</div>';
 
   const editHTML = `<button class="stats-edit-btn" onclick="showScreen('screen-profile-select')">🔄 Profil Değiştir</button>`;
 
@@ -4879,7 +4968,8 @@ function renderStats() {
     return;
   }
 
-  scroll.innerHTML = heroHTML + playHTML + gridHTML + masteryHTML + renderNextUpShelf() + renderBadgePreview() + topicsHTML + editHTML;
+  // Sıra: Konular → Rozetlerim → Yaklaştığın rozetler → Becerilerim
+  scroll.innerHTML = heroHTML + playHTML + gridHTML + topicsHTML + renderBadgePreview() + renderNextUpShelf() + masteryHTML + editHTML;
 }
 
 // Header rozetine tıklayınca profil seçim ekranına git (profil değiştirmek için).
@@ -4927,19 +5017,14 @@ function initKeyboardNav() {
 
 // Başlangıç
 // Sınıf kartlarındaki alt satırlara gerçek konu sayısını yaz
-(function fillGradeCounts(){
-  ['grade2','grade3','grade4'].forEach(g => {
-    const el = document.getElementById('sinif-sub-' + g);
-    const n = (GRADE_TOPICS[g] || []).length;
-    if (el && n) el.textContent = n + ' konu · ' + el.textContent;
-  });
-})();
+renderGradeSubs();
 
 const _profilInit = getActiveProfile();
 updateIntroProfilBadge(_profilInit);
 showScreen('screen-intro');
 initKeyboardNav();
 renderThemeList();
+prefetchAllTotals();
 
 /* === KUTLAMA HAVUZU MOTORU === */
 /* ═══════════════════════════════════════════
