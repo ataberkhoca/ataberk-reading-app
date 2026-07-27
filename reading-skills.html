@@ -83,6 +83,13 @@ body::before{
 .hint-zone{margin-bottom:13px;}
 .hint-btn{display:inline-flex;align-items:center;gap:5px;font-family:'Nunito',sans-serif;font-size:12px;font-weight:900;color:#1A1A1A;background:#FFD93D;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;border-radius:99px;padding:6px 14px;cursor:pointer;transition:all .15s;}
 .hint-btn:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 #1A1A1A;}
+.tr-row{display:flex;align-items:flex-start;gap:9px;margin-bottom:16px;}
+.tr-row .q-text{margin-bottom:0;flex:1;}
+.tr-chip{flex-shrink:0;font-family:'Baloo 2',cursive;font-weight:800;font-size:14px;color:#1A1A1A;background:#FFF3CC;border:2.5px solid #1A1A1A;box-shadow:2px 3px 0 #1A1A1A;border-radius:12px;padding:6px 11px;cursor:pointer;user-select:none;transition:background .15s,box-shadow .15s,transform .15s;}
+.tr-chip:hover{transform:translate(-1px,-1px);box-shadow:3px 4px 0 #1A1A1A;}
+.tr-chip.on{background:#FFD93D;box-shadow:0 0 0 #1A1A1A;transform:translate(1px,2px);}
+.tr-line{font-family:'Nunito',sans-serif;font-weight:700;font-size:14.5px;line-height:1.5;color:#1A1A1A;background:#FFFBEA;border-left:5px solid #FFD93D;border-radius:0 10px 10px 0;padding:9px 11px;margin-bottom:13px;animation:trFade .15s ease;}
+@keyframes trFade{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 .hint-visible{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:900;color:#1A1A1A;background:#FFD93D;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;border-radius:99px;padding:6px 14px;animation:pillPop .2s ease;}
 
 .choices{display:flex;flex-direction:column;gap:9px;}
@@ -913,6 +920,27 @@ body.intro-mode .blob{display:none !important;}
 }
 .profil-input::placeholder { color: #BBB; }
 
+/* ── 2a · Sınıf profil oluşturmada sorulur, bir kez ── */
+.grade-row { display:flex; gap:9px; }
+.grade-opt { flex:1; text-align:center; padding:14px 0; border-radius:14px; border:2.5px solid #DDD7CA;
+  background:#fff; font-family:'Baloo 2',cursive; font-weight:700; font-size:17px; color:#8A8578;
+  cursor:pointer; transition:transform .12s, border-color .12s, background .12s, color .12s; }
+.grade-opt:hover { transform:translateY(-2px); border-color:#1A1A1A; color:#1A1A1A; }
+.grade-opt.selected { background:#FFD93D; border-color:#1A1A1A; color:#1A1A1A; box-shadow:3px 3px 0 #1A1A1A; }
+.profil-save-btn.asleep { opacity:.4; pointer-events:none; }
+
+/* ── 2a · Kaldığın yerden devam — girişte tek dokunuş ── */
+.sb-resume { display:flex; align-items:center; gap:12px; width:100%; max-width:330px; margin:0 auto 14px;
+  background:#fff; border:2.5px solid #2B3A55; border-radius:16px; box-shadow:3px 4px 0 #2B3A55;
+  padding:11px 13px; cursor:pointer; text-align:left; transition:transform .12s, box-shadow .12s; }
+.sb-resume:hover { transform:translate(-1px,-1px); box-shadow:4px 5px 0 #2B3A55; }
+.sb-resume-ico { font-size:26px; flex-shrink:0; }
+.sb-resume-k { font-family:'Nunito',sans-serif; font-weight:900; font-size:10.5px; letter-spacing:.12em; color:#8A8578; }
+.sb-resume-t { font-family:'Baloo 2',cursive; font-weight:700; font-size:16px; color:#2B3A55; line-height:1.2; margin-top:2px; }
+.sb-resume-s { font-family:'Nunito',sans-serif; font-weight:700; font-size:11.5px; color:#8A8578; margin-top:1px; }
+.sb-resume-go { margin-left:auto; font-size:19px; color:#2B3A55; flex-shrink:0; }
+
+
 .profil-save-btn {
   width: 100%;
   background: #6BCB77;
@@ -1706,6 +1734,26 @@ button.celeb-retry {
 .bcal-done{margin-top:11px;background:#6BCB77;border:2.5px solid #1A1A1A;border-radius:13px;box-shadow:3px 3px 0 #1A1A1A;padding:8px;text-align:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:13.5px;color:#1A1A1A}
 @media (prefers-reduced-motion:reduce){.bcal-fly{animation:none}}
 
+/* ── 2b · Boş yuva: kilitli rozet ödülü göstermez ── */
+.ba-socket{position:absolute;top:4px;left:4px;right:4px;bottom:18px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:22px;color:#CBBFA0;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(214,201,168,.16) 6px 12px);}
+.ba-slot.locked .ba-lbl.goal{color:#8A7B5A;font-weight:700;}
+
+/* ── 2b · EN YAKIN: en yakın rozet albümün üstünde ── */
+.ba-near{background:#fff;border:2.5px solid #1A1A1A;border-radius:16px;box-shadow:3px 3px 0 #1A1A1A;padding:12px 13px;margin-bottom:12px;cursor:pointer;}
+.ba-near-lbl{font-family:'Nunito',sans-serif;font-weight:900;font-size:10.5px;letter-spacing:.12em;color:#8A8578;}
+.ba-near-row{display:flex;align-items:center;gap:11px;margin-top:9px;}
+.ba-near-sock{width:42px;height:42px;flex-shrink:0;border-radius:13px;border:2.5px dashed #D6C9A8;background:#FBF8EE;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:19px;color:#CBBFA0;}
+.ba-near-name{font-family:'Nunito',sans-serif;font-weight:800;font-size:14px;color:#1A1A1A;line-height:1.25;}
+.ba-near-track{height:9px;border-radius:3px;background:#EDE7DA;overflow:hidden;margin:6px 0 4px;}
+.ba-near-fill{height:100%;background:#6BCB77;border-radius:3px;transition:width .4s ease;}
+.ba-near-left{font-family:'Nunito',sans-serif;font-weight:800;font-size:11.5px;color:#8A8578;}
+
+/* ── 2b · Albüm ilerlemesi: kazanılanı say, eksiği sayma ── */
+.ba-bar{display:flex;align-items:center;gap:9px;border-top:1.5px dashed #D6C9A8;padding-top:9px;}
+.ba-bar-track{flex:1;height:10px;border-radius:4px;background:#EDE7DA;overflow:hidden;}
+.ba-bar-fill{height:100%;background:#6BCB77;border-radius:4px;}
+.ba-bar-txt{font-family:'Baloo 2',cursive;font-weight:700;font-size:12px;color:#577240;}
+
 /* ── Gölge: kilitli gizemli rozet (1e) ── */
 .ba-ph.sil{filter:brightness(0);opacity:.72}
 .ba-lbl.sil{letter-spacing:.14em}
@@ -1772,6 +1820,36 @@ button.celeb-retry {
 .bc-btn:hover { transform: translate(-2px,-2px); box-shadow: 7px 7px 0 #1A1A1A; }
 .bc-btn:active { transform: translate(2px,2px); box-shadow: 2px 2px 0 #1A1A1A; }
 @media (prefers-reduced-motion:reduce){ .bc-card{animation:none} .bc-foil{animation:none;opacity:.5} }
+
+/* ═══════════════════════════════════════════
+   SONUÇ EKRANI (rs-) — kutlama değil, kanıt.
+   Cevabın geçtiği cümleyi geri gösterir; tek birincil buton.
+   #cw-overlay kabuğunu yeniden kullanır, böylece mevcut
+   retrySkill / nextSkill / goBack çağrıları aynen çalışır.
+═══════════════════════════════════════════ */
+.rs-wrap{width:100%;max-width:430px;min-height:100dvh;margin:0 auto;background:#FBFAF2;display:flex;flex-direction:column;padding:26px 22px 24px;box-sizing:border-box;}
+.rs-kicker{font-family:'Nunito',sans-serif;font-weight:900;font-size:11px;letter-spacing:.16em;color:#8A8578;}
+.rs-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:29px;color:#1A1A1A;line-height:1.1;margin-top:3px;}
+.rs-scorerow{display:flex;align-items:center;gap:8px;margin-top:16px;}
+.rs-star{width:42px;height:42px;border-radius:12px;border:2.5px solid #1A1A1A;display:flex;align-items:center;justify-content:center;font-size:20px;background:#fff;color:#DDD7CA;}
+.rs-star.on{background:#FFD93D;color:#1A1A1A;animation:rsStar .3s ease backwards;}
+.rs-star.on:nth-child(2){animation-delay:.09s}.rs-star.on:nth-child(3){animation-delay:.18s}
+@keyframes rsStar{from{transform:scale(.5);opacity:0}to{transform:none;opacity:1}}
+.rs-score{flex:1;text-align:right;font-family:'Nunito',sans-serif;font-weight:800;font-size:14px;color:#4A4A4A;}
+.rs-card{margin-top:16px;background:#fff;border:3px solid #1A1A1A;border-radius:20px;box-shadow:4px 4px 0 #1A1A1A;padding:15px 16px;}
+.rs-card-label{font-family:'Nunito',sans-serif;font-weight:900;font-size:11px;letter-spacing:.12em;color:#8A8578;}
+.rs-proof{font-family:'Nunito',sans-serif;font-size:17px;line-height:1.65;color:#1A1A1A;margin-top:9px;}
+.rs-proof mark{background:#FFE9A8;box-shadow:0 0 0 3px #FFE9A8;border-radius:3px;color:#1A1A1A;font-weight:800;}
+.rs-proof-tr{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;color:#8A8578;margin-top:11px;}
+.rs-q{font-family:'Nunito',sans-serif;font-weight:800;font-size:13.5px;color:#4A4A4A;margin-top:11px;padding-top:11px;border-top:2px solid #EDE7DA;}
+.rs-feedback{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;line-height:1.55;color:#4A4A4A;margin-top:9px;}
+.rs-btns{margin-top:auto;padding-top:18px;display:flex;flex-direction:column;gap:9px;}
+.rs-bp{width:100%;font-family:'Baloo 2',cursive;font-weight:700;font-size:20px;color:#FBFAF2;background:#1A1A1A;border:none;border-radius:18px;padding:15px 0;cursor:pointer;transition:background .15s;}
+.rs-bp:hover{background:#3A7BD5;}
+.rs-brow{display:flex;gap:9px;}
+.rs-bs{flex:1;font-family:'Baloo 2',cursive;font-weight:700;font-size:15px;color:#4A4A4A;background:transparent;border:2.5px solid #DDD7CA;border-radius:15px;padding:11px 0;cursor:pointer;transition:border-color .15s,color .15s;}
+.rs-bs:hover{border-color:#1A1A1A;color:#1A1A1A;}
+@media(prefers-reduced-motion:reduce){.rs-star.on{animation:none}}
 
 /* ═══════════════════════════════════════════
    KUTLAMA HAVUZU — 6 DÜNYA (cw- = celebration world)
@@ -2365,7 +2443,9 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <!-- ═══ 6 DÜNYA KUTLAMA OVERLAY'İ (havuz buraya doldurur) ═══ -->
 <div class="cw-overlay" id="cw-overlay">
-  <div class="cw-phone" id="cw-phone">
+  <!-- 1c sonuç ekranı buraya render edilir -->
+  <div class="rs-wrap" id="rs-wrap"></div>
+  <div class="cw-phone" id="cw-phone" style="display:none">
     <div class="cw-scene" id="cw-scene"></div>
     <div class="cw-body">
       <div class="cw-title" id="cw-title"></div>
@@ -2413,7 +2493,11 @@ body:has(#screen-game.active)::after { opacity:.2; }
     </div>
     <div class="q-card" id="q-card">
       <div class="q-label" id="q-label">Scanning — Q1</div>
-      <div class="q-text" id="q-text"></div>
+      <div class="tr-row">
+        <div class="q-text" id="q-text"></div>
+        <div class="tr-chip" id="tr-chip" role="button" tabindex="0" onclick="toggleQuestionTr()">Türkçe</div>
+      </div>
+      <div id="tr-line-zone"></div>
       <div class="hint-zone" id="hint-zone"></div>
       <div class="choices" id="choices"></div>
       <div id="feedback-zone"></div>
@@ -2444,6 +2528,9 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div class="intro-profil-name" id="intro-name">İsim</div>
       </div>
     </div>
+
+    <!-- kaldığın yerden devam (JS doldurur) -->
+    <div id="sb-resume-wrap"></div>
 
     <!-- isim alanı (davetkâr; gerçek kayıt profil ekranında) -->
     <div class="sb-box">
@@ -2526,7 +2613,15 @@ body:has(#screen-game.active)::after { opacity:.2; }
                autocomplete="given-name" autocapitalize="words" />
       </div>
     </div>
-    <button class="profil-save-btn" onclick="saveProfil()">✅ Hazır!</button>
+    <div>
+      <div class="profil-section-title" id="grade-label">Kaçıncı sınıfsın?</div>
+      <div class="grade-row" role="radiogroup" aria-labelledby="grade-label">
+        <div class="grade-opt" data-grade="grade2" onclick="selectProfileGrade(this)" role="radio" aria-checked="false" tabindex="0">2</div>
+        <div class="grade-opt" data-grade="grade3" onclick="selectProfileGrade(this)" role="radio" aria-checked="false" tabindex="-1">3</div>
+        <div class="grade-opt" data-grade="grade4" onclick="selectProfileGrade(this)" role="radio" aria-checked="false" tabindex="-1">4</div>
+      </div>
+    </div>
+    <button class="profil-save-btn asleep" id="profil-save-btn" onclick="saveProfil()">✅ Hazır!</button>
   </div>
 </div>
 
@@ -3054,9 +3149,18 @@ function onScreenChange(screenId) {
   if (screenId === 'screen-profile-select') {
     renderProfileSelect();
   }
+  if (screenId === 'screen-intro') {
+    renderResumeCard();
+  }
   if (screenId === 'screen-profil') {
     const input = document.getElementById('profil-input');
-    if (input) input.value = '';
+    if (input) { input.value = ''; input.oninput = refreshSaveBtn; }
+    selectedGrade = null;
+    document.querySelectorAll('.grade-opt').forEach(function(g) {
+      g.classList.remove('selected');
+      g.setAttribute('aria-checked', 'false');
+    });
+    refreshSaveBtn();
     selectedAvatar = '🐱';
     document.querySelectorAll('.avatar-opt').forEach(a => {
       a.classList.toggle('selected', a.dataset.av === '🐱');
@@ -3260,10 +3364,14 @@ function renderQ(){
   document.getElementById('q-text').textContent=q.q;
   document.getElementById('q-num').textContent=`Soru ${qIdx+1} / ${tot}`;
   document.getElementById('prog').style.width=`${(qIdx/tot)*100}%`;
+  // Türkçe: soruya ait çeviri, dokununca açık kalır, her soruda sıfırlanır
+  qTrOpen = (d.hintMode === 'always');
+  renderQuestionTr();
   const hz=document.getElementById('hint-zone');
-  if(d.hintMode==='always') hintUsedThisActivity=true;
-  const hintText=(q.qTr||q.hint||'');
-  hz.innerHTML=d.hintMode==='always'?`<div class="hint-visible">💡 ${hintText}</div>`:`<button class="hint-btn" onclick="showHint('${hintText.replace(/'/g,"\\'")}')">💡 Soruyu Türkçe gör</button>`;
+  const realHint = (q.hint && q.hint !== q.qTr) ? q.hint : '';
+  hz.innerHTML = realHint
+    ? `<button class="hint-btn" onclick="showHint('${realHint.replace(/'/g,"\\'")}')">💡 İpucu</button>`
+    : '';
   document.getElementById('feedback-zone').innerHTML='';
   const pool=shuffle([q.correct,...q.wrong.slice(0,d.choices-1)]);
   const letters=['A','B','C','D'];
@@ -3271,6 +3379,20 @@ function renderQ(){
   applyHL(q.hl);
   if(d.timer){let left=d.timer;timerInt=setInterval(()=>{left--;if(left<=0)clearInterval(timerInt);},1000);}
 }
+let qTrOpen = false;
+// Sorunun Türkçesi — ipucu değil, erişim aracı: rozeti etkilemez.
+function renderQuestionTr(){
+  const zone = document.getElementById('tr-line-zone');
+  const chip = document.getElementById('tr-chip');
+  if (!zone || !chip) return;
+  const q = DATA[cur] && DATA[cur].questions[qIdx];
+  const tr = (q && (q.qTr || q.hint)) || '';
+  chip.style.display = tr ? '' : 'none';
+  chip.classList.toggle('on', qTrOpen && !!tr);
+  chip.setAttribute('aria-pressed', qTrOpen && !!tr ? 'true' : 'false');
+  zone.innerHTML = (qTrOpen && tr) ? `<div class="tr-line">${tr}</div>` : '';
+}
+function toggleQuestionTr(){ qTrOpen = !qTrOpen; renderQuestionTr(); }
 function showHint(t){hintUsedThisActivity=true;document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
 let missedQuestions = [];
 
@@ -3493,9 +3615,69 @@ async function startSkill(sk, textId) {
   // Game topbar'a metin başlığını da ekle (alt satır olarak)
   const topbarTitle = document.getElementById('game-topbar-title');
   if (topbarTitle) topbarTitle.textContent = SKILLS[sk].label + ' · ' + chosen.title;
+  saveResume(sk, chosen);
   showScreen('screen-game');
   renderStory();
   renderQ();
+}
+
+/* ══════════════════════════════════════════
+   2a · Kaldığın yerden devam
+   Menü zincirini her gün yeniden yürümek zorunda kalmasın:
+   son okunan metin girişte tek dokunuşla açılır.
+══════════════════════════════════════════ */
+function resumeKey() {
+  const p = getActiveProfile();
+  return p ? 'ataberk_resume_' + p.id : null;
+}
+function saveResume(skill, text) {
+  const k = resumeKey();
+  if (!k || !text) return;
+  try {
+    localStorage.setItem(k, JSON.stringify({
+      grade: currentGrade, topic: currentTopic, skill: skill,
+      textId: text.id, title: text.title || '', at: Date.now(),
+    }));
+  } catch(e) {}
+}
+function loadResume() {
+  const k = resumeKey();
+  if (!k) return null;
+  try {
+    const r = JSON.parse(localStorage.getItem(k) || 'null');
+    if (!r || !r.skill || !r.topic || !GRADE_TOPICS[r.grade]) return null;
+    if (!SKILLS[r.skill]) return null;
+    return r;
+  } catch(e) { return null; }
+}
+function renderResumeCard() {
+  const wrap = document.getElementById('sb-resume-wrap');
+  if (!wrap) return;
+  const r = loadResume();
+  const p = getActiveProfile();
+  if (!r || !p) { wrap.innerHTML = ''; return; }
+  const meta = (TOPIC_META && TOPIC_META[r.topic]) || {};
+  const icon = meta.icon || '📖';
+  const themeName = meta.name || r.topic;
+  wrap.innerHTML =
+    '<button class="sb-resume" onclick="resumeLast()">' +
+      '<span class="sb-resume-ico">' + icon + '</span>' +
+      '<span>' +
+        '<span class="sb-resume-k">KALDIĞIN YERDEN</span>' +
+        '<span class="sb-resume-t">' + escapeHtml(r.title || themeName) + '</span>' +
+        '<span class="sb-resume-s">' + escapeHtml(themeName) + ' · ' + escapeHtml(SKILLS[r.skill].label) + '</span>' +
+      '</span>' +
+      '<span class="sb-resume-go">→</span>' +
+    '</button>';
+}
+function resumeLast() {
+  const r = loadResume();
+  if (!r) return;
+  currentGrade = r.grade;
+  currentTopic = r.topic;
+  TOPIC_TEXTS = null;
+  DATA = null;
+  startSkill(r.skill, r.textId);
 }
 
 // ════════════════════════════════════════
@@ -3902,7 +4084,7 @@ function setActiveProfile(profileId) {
   localStorage.setItem('ataberk_active_profile', profileId);
 }
 
-function createProfile(name, avatar) {
+function createProfile(name, avatar, grade) {
   const profiles = loadProfiles();
   if (profiles.length >= MAX_PROFILES) {
     return { ok: false, error: 'max-reached' };
@@ -3911,6 +4093,7 @@ function createProfile(name, avatar) {
     id: 'p_' + Date.now(),
     name: name.trim(),
     avatar: avatar,
+    grade: grade || null,
     createdAt: Date.now()
   };
   profiles.push(profile);
@@ -3973,6 +4156,29 @@ function selectAvatar(el) {
   selectedAvatar = el.dataset.av;
 }
 
+let selectedGrade = null;
+// Sınıf bir profil özelliği: bir kez sorulur, her gün tekrar sorulmaz.
+function selectProfileGrade(el) {
+  document.querySelectorAll('.grade-opt').forEach(function(g) {
+    g.classList.remove('selected');
+    g.setAttribute('aria-checked', 'false');
+    g.setAttribute('tabindex', '-1');
+  });
+  el.classList.add('selected');
+  el.setAttribute('aria-checked', 'true');
+  el.setAttribute('tabindex', '0');
+  selectedGrade = el.dataset.grade;
+  refreshSaveBtn();
+}
+// Buton isim ve sınıf dolana kadar uyanmaz.
+function refreshSaveBtn() {
+  const btn = document.getElementById('profil-save-btn');
+  const input = document.getElementById('profil-input');
+  if (!btn || !input) return;
+  const ready = !!input.value.trim() && !!selectedGrade;
+  btn.classList.toggle('asleep', !ready);
+}
+
 function saveProfil() {
   // "Profili Kaydet" butonu — yeni profil oluşturur veya max kontrolü yapar
   const name = document.getElementById('profil-input').value.trim();
@@ -3981,7 +4187,11 @@ function saveProfil() {
     document.getElementById('profil-input').focus();
     return;
   }
-  const result = createProfile(name, selectedAvatar);
+  if (!selectedGrade) {
+    showToast('Kaçıncı sınıf olduğunu seç. 👇', 'error', 2500);
+    return;
+  }
+  const result = createProfile(name, selectedAvatar, selectedGrade);
   if (!result.ok) {
     if (result.error === 'max-reached') {
       showToast(`En fazla ${MAX_PROFILES} profil olabilir.`, 'error', 3000);
@@ -3989,7 +4199,8 @@ function saveProfil() {
     return;
   }
   updateIntroProfilBadge(result.profile);
-  showScreen('screen-sinif');
+  // Sınıf zaten soruldu — doğrudan temalara.
+  selectGrade(selectedGrade);
 }
 
 function updateIntroProfilBadge(profil) {
@@ -4086,7 +4297,9 @@ function selectProfile(profileId) {
   const profile = getActiveProfile();
   if (!profile) return; // savunmacı kontrol — profil bir şekilde silinmişse
   updateIntroProfilBadge(profile);
-  showScreen('screen-sinif');
+  // Sınıf profilde kayıtlıysa sınıf ekranını atla — bir kez soruldu.
+  if (profile.grade && GRADE_TOPICS[profile.grade]) selectGrade(profile.grade);
+  else showScreen('screen-sinif');
 }
 
 function startNewProfile() {
@@ -4725,6 +4938,34 @@ function closeBadgePopup() {
   }
 }
 
+// Sayfadaki kilitli rozetlerden ilerlemesi ölçülebilen ve en çok yol
+// alınmış olanı seçer. Ölçülemiyorsa kart hiç çizilmez (boş çubuk yok).
+function renderNearBadge(badges, earned) {
+  let best = null;
+  badges.forEach(function(b) {
+    if (earned.includes(b.id)) return;
+    if (BADGE_RIDDLES[b.id]) return;
+    const pr = badgeProgress(b);
+    if (!pr || !pr.max || pr.cur <= 0) return;
+    const ratio = pr.cur / pr.max;
+    if (!best || ratio > best.ratio) best = { b: b, pr: pr, ratio: ratio };
+  });
+  if (!best) return '';
+  const pct = Math.round(best.ratio * 100);
+  const left = Math.max(0, best.pr.max - best.pr.cur);
+  return `<div class="ba-near" onclick="openBadgeDetail('${best.b.id}')">
+    <div class="ba-near-lbl">EN YAKIN</div>
+    <div class="ba-near-row">
+      <div class="ba-near-sock">?</div>
+      <div style="flex:1">
+        <div class="ba-near-name">${escapeHtml(best.b.desc || best.b.name)}</div>
+        <div class="ba-near-track"><div class="ba-near-fill" style="width:${pct}%"></div></div>
+        <div class="ba-near-left">${best.pr.cur} / ${best.pr.max} · ${left} kaldı</div>
+      </div>
+    </div>
+  </div>`;
+}
+
 function renderBadgeScreen() {
   const earned = loadBadges();
   const total = BADGE_DEFS.length;
@@ -4747,21 +4988,33 @@ function renderBadgeScreen() {
         <span class="ba-lbl">${b.name}</span>
       </div>`;
     }
+    // Boş yuva: ödülü gösterme, ne yapılacağını göster.
     const mystery = !!BADGE_RIDDLES[b.id];
+    const pr = badgeProgress(b);
+    const goal = (pr && pr.max) ? `${Math.max(0, pr.max - pr.cur)} kaldı` : null;
+    const lbl = mystery ? '???' : (goal || b.name);
     return `<div class="ba-slot locked" onclick="openBadgeDetail('${b.id}')">
-      <div class="ba-ph${mystery ? ' sil' : ''}">${b.icon}</div>
-      <span class="ba-lbl${mystery ? ' sil' : ''}">${mystery ? '???' : b.name}</span>
+      <div class="ba-socket">?</div>
+      <span class="ba-lbl${mystery ? ' sil' : ''}${goal && !mystery ? ' goal' : ''}">${lbl}</span>
     </div>`;
   }).join('');
 
+  // EN YAKIN — ölçülebilen en yakın rozet, albümün üstünde tek bakışta.
+  const nearCard = renderNearBadge(badges, earned);
+  const pagePct = badges.length ? Math.round((earnedCount / badges.length) * 100) : 0;
+
   document.getElementById('badges-scroll').innerHTML = `
     <div class="ba-tabs">${tabs}</div>
+    ${nearCard}
     <div class="ba-album">
       <div class="ba-spiral"><span></span><span></span><span></span><span></span><span></span><span></span></div>
       <div class="ba-title">${page.title}</div>
       <div class="ba-sub">${page.sub}</div>
       <div class="ba-slots">${slots}</div>
-      <div class="ba-foot"><span>🌟 ${earnedCount} kazanıldı</span><span>◌ ${badges.length - earnedCount} kilitli</span></div>
+      <div class="ba-bar">
+        <div class="ba-bar-track"><div class="ba-bar-fill" style="width:${pagePct}%"></div></div>
+        <span class="ba-bar-txt">${earnedCount} / ${badges.length}</span>
+      </div>
     </div>
     <button class="ba-cert-btn" onclick="openCert()">📸 Öğretmenine göster</button>`;
 }
@@ -5498,6 +5751,91 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
     rt = setTimeout(build, 300);
   });
 })();
+
+/* ═══════════════════════════════════════════
+   1c SONUÇ EKRANI — cwShow devralınır.
+   Altı animasyonlu dünya yerine tek sakin ekran: cevabın
+   geçtiği cümle geri gösterilir, kanıtla birlikte.
+═══════════════════════════════════════════ */
+function rsEsc(s){
+  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+// Cümlenin içinde doğru cevabı işaretle; birebir geçmiyorsa cümleyi olduğu gibi ver.
+function rsProofHTML(sentence, answer){
+  const s = String(sentence || {});
+  const a = String(answer || '').trim();
+  if (!a) return rsEsc(s);
+  const at = s.toLowerCase().indexOf(a.toLowerCase());
+  if (at < 0) return rsEsc(s);
+  return rsEsc(s.slice(0, at)) + '<mark>' + rsEsc(s.slice(at, at + a.length)) + '</mark>' + rsEsc(s.slice(at + a.length));
+}
+// Kanıt için soru seç: önce yanlış yapılan (öğretici olan o), yoksa son soru.
+function rsPickProof(d){
+  const qs = (d && d.questions) || [];
+  const missed = (typeof missedQuestions !== 'undefined' && missedQuestions.length) ? missedQuestions[0] : null;
+  const q = missed || qs[qs.length - 1];
+  if (!q) return null;
+  const idx = (q.hl && q.hl.length) ? q.hl[0] : -1;
+  const stated = idx >= 0 && d.sentences && d.sentences[idx] != null;
+  return {
+    q: q,
+    wasMissed: !!missed,
+    stated: stated,
+    sentence: stated ? d.sentences[idx] : '',
+    tr: (stated && d.translations && d.translations[idx]) ? d.translations[idx] : '',
+  };
+}
+window.cwShow = function(score, tot, skill, topic){
+  const d = DATA[cur] || {};
+  const pct = tot ? score / tot : 0;
+  const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
+  const pr = rsPickProof(d);
+
+  let feedback = '';
+  try { feedback = generateFeedback(skill, score, tot, missedQuestions) || ''; } catch(e) {}
+  if (feedback && typeof feedback === 'object') feedback = feedback.text || feedback.message || '';
+
+  let proofCard = '';
+  if (pr && pr.stated) {
+    proofCard =
+      '<div class="rs-card">' +
+        '<div class="rs-card-label">' + (pr.wasMissed ? 'CEVAP BURADAYDI' : 'CEVABI BURADAN BULDUN') + '</div>' +
+        '<div class="rs-proof">' + rsProofHTML(pr.sentence, pr.q.correct) + '</div>' +
+        (pr.tr ? '<div class="rs-proof-tr">' + rsEsc(pr.tr) + '</div>' : '') +
+        '<div class="rs-q">' + rsEsc(pr.q.q) + ' → ' + rsEsc(pr.q.correct) + '</div>' +
+      '</div>';
+  } else if (pr) {
+    proofCard =
+      '<div class="rs-card">' +
+        '<div class="rs-card-label">BU SORU TAHMİN İSTİYORDU</div>' +
+        '<div class="rs-proof">' + rsEsc(pr.q.q) + '</div>' +
+        '<div class="rs-proof-tr">Cevap metinde yazmıyordu: ' + rsEsc(pr.q.correct) + '. Bunu ipuçlarından çıkarman gerekiyordu.</div>' +
+      '</div>';
+  }
+
+  const starsHTML = [0,1,2].map(function(i){
+    return '<div class="rs-star' + (i < stars ? ' on' : '') + '">★</div>';
+  }).join('');
+
+  document.getElementById('rs-wrap').innerHTML =
+    '<div class="rs-kicker">BİTTİ</div>' +
+    '<div class="rs-title">' + rsEsc(d.title || (SKILLS[skill] && SKILLS[skill].label) || '') + '</div>' +
+    '<div class="rs-scorerow">' + starsHTML +
+      '<div class="rs-score">' + score + ' / ' + tot + ' doğru</div></div>' +
+    proofCard +
+    (feedback ? '<div class="rs-card"><div class="rs-card-label">' + rsEsc((SKILLS[skill] && SKILLS[skill].label) || 'BECERİ').toUpperCase() + '</div><div class="rs-feedback">' + rsEsc(feedback) + '</div></div>' : '') +
+    '<div class="rs-btns">' +
+      '<button class="rs-bp" onclick="nextSkill()">Sıradaki etkinlik →</button>' +
+      '<div class="rs-brow">' +
+        '<button class="rs-bs" onclick="retrySkill()">Bir daha oku</button>' +
+        '<button class="rs-bs" onclick="goToSkillsMenu()">Bugünlük yeter</button>' +
+      '</div>' +
+    '</div>';
+
+  const ov = document.getElementById('cw-overlay');
+  ov.classList.add('visible');
+  ov.scrollTop = 0;
+};
 </script>
 
 </body>
