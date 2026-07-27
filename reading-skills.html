@@ -921,20 +921,24 @@ body.intro-mode .blob{display:none !important;}
 .profil-save-btn.asleep { opacity:.4; pointer-events:none; }
 
 /* ── 2a · Kim okuyor? — dönen öğrenci isim yazmaz, yüzüne dokunur ── */
-.sb-who-lbl { font-family:'Caveat',cursive; font-weight:700; font-size:20px; color:#2B3A55;
-  margin:2px 0 9px; text-align:center; }
-.sb-who-row { display:flex; flex-wrap:wrap; justify-content:center; gap:9px; margin-bottom:14px; }
-.sb-who-chip { display:flex; align-items:center; gap:8px; background:#FFFDF7;
-  border:2.5px solid #2B3A55; border-radius:15px; padding:8px 13px 8px 9px; cursor:pointer;
-  box-shadow:3px 4px 0 rgba(43,58,85,.22); transition:transform .13s, box-shadow .13s; }
-.sb-who-chip:hover { transform:translate(-1px,-1px); box-shadow:4px 5px 0 rgba(43,58,85,.22); }
-.sb-who-chip:active { transform:translate(1px,2px); box-shadow:1px 2px 0 rgba(43,58,85,.22); }
-.sb-who-av { width:34px; height:34px; border-radius:50%; border:2px solid #2B3A55; background:#FFF4D6;
-  display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
-.sb-who-name { font-family:'Baloo 2',cursive; font-weight:700; font-size:16px; color:#2B3A55; }
-.sb-who-add { background:transparent; border:2.5px dashed #B9C0CC; box-shadow:none; }
+.sb-who-lbl { font-family:'Caveat',cursive; font-weight:700; font-size:23px; color:#2B3A55;
+  margin:4px 0 12px; text-align:center; }
+.sb-who-row { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-bottom:18px; }
+/* Çocuk parmağı için: en az 72px yüksekliğinde, geniş dokunma alanı. */
+.sb-who-chip { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px;
+  min-width:104px; min-height:112px; padding:14px 14px 12px; background:#FFFDF7;
+  border:3px solid #2B3A55; border-radius:20px; cursor:pointer;
+  box-shadow:4px 5px 0 rgba(43,58,85,.22); transition:transform .13s, box-shadow .13s; }
+.sb-who-chip:hover { transform:translate(-2px,-2px); box-shadow:6px 7px 0 rgba(43,58,85,.22); }
+.sb-who-chip:active { transform:translate(2px,3px); box-shadow:1px 2px 0 rgba(43,58,85,.22); }
+.sb-who-av { width:56px; height:56px; border-radius:50%; border:2.5px solid #2B3A55; background:#FFF4D6;
+  display:flex; align-items:center; justify-content:center; font-size:30px; flex-shrink:0; }
+.sb-who-name { font-family:'Baloo 2',cursive; font-weight:700; font-size:18px; color:#2B3A55;
+  line-height:1.1; max-width:96px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.sb-who-add { background:transparent; border:3px dashed #B9C0CC; box-shadow:none; }
+.sb-who-add .sb-who-av { background:transparent; border-style:dashed; border-color:#B9C0CC; color:#8A8578; font-size:32px; }
 .sb-who-add .sb-who-name { color:#8A8578; font-weight:600; }
-.sb-who-add:hover { border-color:#2B3A55; box-shadow:none; transform:none; }
+.sb-who-add:hover { border-color:#2B3A55; box-shadow:none; transform:translateY(-2px); }
 
 /* ── Kaldığın yerden — tek satır, temaların üstünde ── */
 /* Girişte büyük bir kart olarak durduğunda ekranı boğuyordu; ayrıca
@@ -1836,42 +1840,6 @@ button.celeb-retry {
 @media (prefers-reduced-motion:reduce){ .bc-card{animation:none} .bc-foil{animation:none;opacity:.5} }
 
 /* ═══════════════════════════════════════════
-   SONUÇ EKRANI (rs-) — kutlama değil, kanıt.
-   Uygulamanın defter dili: krem kâğıt, sol kırmızı marj çizgisi,
-   lacivert mürekkep, Caveat el yazısı etiketler.
-═══════════════════════════════════════════ */
-.rs-wrap{position:relative;width:100%;max-width:430px;min-height:100dvh;margin:0 auto;
-  background:#FBFAF2;display:flex;flex-direction:column;padding:26px 22px 24px 42px;box-sizing:border-box;}
-/* sol kırmızı marj çizgisi — defterin kendisi */
-.rs-wrap::before{content:'';position:absolute;top:0;bottom:0;left:30px;width:2px;background:#E8A0A8;opacity:.55;pointer-events:none;}
-.rs-kicker{font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#9AA3B2;}
-.rs-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:28px;color:#2B3A55;line-height:1.12;margin-top:1px;}
-.rs-scorerow{display:flex;align-items:center;gap:8px;margin-top:15px;}
-.rs-star{width:40px;height:40px;border-radius:12px;border:2.6px solid #2B3A55;display:flex;align-items:center;justify-content:center;font-size:19px;background:#FFFDF7;color:#D8D2C4;}
-.rs-star.on{background:#FFD93D;color:#2B3A55;animation:rsStar .3s ease backwards;}
-.rs-star.on:nth-child(2){animation-delay:.09s}.rs-star.on:nth-child(3){animation-delay:.18s}
-@keyframes rsStar{from{transform:scale(.5);opacity:0}to{transform:none;opacity:1}}
-.rs-score{flex:1;text-align:right;font-family:'Caveat',cursive;font-weight:700;font-size:20px;color:#577240;}
-.rs-card{margin-top:15px;background:#FFFDF7;border:2.6px solid #2B3A55;border-radius:18px;box-shadow:3px 4px 0 #2B3A55;padding:14px 16px;}
-.rs-card-label{font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#9AA3B2;}
-.rs-proof{font-family:'Nunito',sans-serif;font-weight:600;font-size:17px;line-height:1.6;color:#2B3A55;margin-top:6px;}
-.rs-proof mark{background:#FFF4D6;box-shadow:0 0 0 3px #FFF4D6;border-radius:3px;color:#2B3A55;font-weight:800;}
-.rs-proof-tr{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;color:#9AA3B2;margin-top:9px;}
-.rs-q{font-family:'Nunito',sans-serif;font-weight:800;font-size:13.5px;color:#577240;margin-top:10px;padding-top:10px;border-top:2px dashed #D6C9A8;}
-.rs-feedback{font-family:'Nunito',sans-serif;font-weight:600;font-size:14.5px;line-height:1.55;color:#2B3A55;margin-top:6px;}
-.rs-btns{margin-top:auto;padding-top:20px;display:flex;flex-direction:column;gap:10px;}
-.rs-bp{width:100%;font-family:'Baloo 2',cursive;font-weight:700;font-size:20px;color:#FFFDF7;background:#E64B4B;
-  border:3px solid #2B3A55;border-radius:18px;padding:14px 0;cursor:pointer;box-shadow:4px 5px 0 #2B3A55;
-  transition:transform .14s ease, box-shadow .14s ease;}
-.rs-bp:hover{transform:translate(-1px,-1px);box-shadow:5px 6px 0 #2B3A55;}
-.rs-bp:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #2B3A55;}
-.rs-brow{display:flex;gap:10px;}
-.rs-bs{flex:1;font-family:'Caveat',cursive;font-weight:700;font-size:20px;color:#2B3A55;background:#FFFDF7;
-  border:2.6px dashed #D6C9A8;border-radius:15px;padding:10px 0;cursor:pointer;transition:border-color .15s, color .15s;}
-.rs-bs:hover{border-color:#2B3A55;color:#E64B4B;}
-@media(prefers-reduced-motion:reduce){.rs-star.on{animation:none}}
-
-/* ═══════════════════════════════════════════
    KUTLAMA HAVUZU — 6 DÜNYA (cw- = celebration world)
    showResult() bu overlay'i doldurup gösterir.
 ═══════════════════════════════════════════ */
@@ -2454,9 +2422,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <!-- ═══ 6 DÜNYA KUTLAMA OVERLAY'İ (havuz buraya doldurur) ═══ -->
 <div class="cw-overlay" id="cw-overlay">
-  <!-- 1c sonuç ekranı buraya render edilir -->
-  <div class="rs-wrap" id="rs-wrap"></div>
-  <div class="cw-phone" id="cw-phone" style="display:none">
+  <div class="cw-phone" id="cw-phone">
     <div class="cw-scene" id="cw-scene"></div>
     <div class="cw-body">
       <div class="cw-title" id="cw-title"></div>
@@ -5833,90 +5799,7 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
   });
 })();
 
-/* ═══════════════════════════════════════════
-   1c SONUÇ EKRANI — cwShow devralınır.
-   Altı animasyonlu dünya yerine tek sakin ekran: cevabın
-   geçtiği cümle geri gösterilir, kanıtla birlikte.
-═══════════════════════════════════════════ */
-function rsEsc(s){
-  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-}
-// Cümlenin içinde doğru cevabı işaretle; birebir geçmiyorsa cümleyi olduğu gibi ver.
-function rsProofHTML(sentence, answer){
-  const s = String(sentence || {});
-  const a = String(answer || '').trim();
-  if (!a) return rsEsc(s);
-  const at = s.toLowerCase().indexOf(a.toLowerCase());
-  if (at < 0) return rsEsc(s);
-  return rsEsc(s.slice(0, at)) + '<mark>' + rsEsc(s.slice(at, at + a.length)) + '</mark>' + rsEsc(s.slice(at + a.length));
-}
-// Kanıt için soru seç: önce yanlış yapılan (öğretici olan o), yoksa son soru.
-function rsPickProof(d){
-  const qs = (d && d.questions) || [];
-  const missed = (typeof missedQuestions !== 'undefined' && missedQuestions.length) ? missedQuestions[0] : null;
-  const q = missed || qs[qs.length - 1];
-  if (!q) return null;
-  const idx = (q.hl && q.hl.length) ? q.hl[0] : -1;
-  const stated = idx >= 0 && d.sentences && d.sentences[idx] != null;
-  return {
-    q: q,
-    wasMissed: !!missed,
-    stated: stated,
-    sentence: stated ? d.sentences[idx] : '',
-    tr: (stated && d.translations && d.translations[idx]) ? d.translations[idx] : '',
-  };
-}
-window.cwShow = function(score, tot, skill, topic){
-  const d = DATA[cur] || {};
-  const pct = tot ? score / tot : 0;
-  const stars = pct === 1 ? 3 : pct >= .67 ? 2 : pct >= .4 ? 1 : 0;
-  const pr = rsPickProof(d);
 
-  let feedback = '';
-  try { feedback = generateFeedback(skill, score, tot, missedQuestions) || ''; } catch(e) {}
-  if (feedback && typeof feedback === 'object') feedback = feedback.text || feedback.message || '';
-
-  let proofCard = '';
-  if (pr && pr.stated) {
-    proofCard =
-      '<div class="rs-card">' +
-        '<div class="rs-card-label">' + (pr.wasMissed ? 'CEVAP BURADAYDI' : 'CEVABI BURADAN BULDUN') + '</div>' +
-        '<div class="rs-proof">' + rsProofHTML(pr.sentence, pr.q.correct) + '</div>' +
-        (pr.tr ? '<div class="rs-proof-tr">' + rsEsc(pr.tr) + '</div>' : '') +
-        '<div class="rs-q">' + rsEsc(pr.q.q) + ' → ' + rsEsc(pr.q.correct) + '</div>' +
-      '</div>';
-  } else if (pr) {
-    proofCard =
-      '<div class="rs-card">' +
-        '<div class="rs-card-label">BU SORU TAHMİN İSTİYORDU</div>' +
-        '<div class="rs-proof">' + rsEsc(pr.q.q) + '</div>' +
-        '<div class="rs-proof-tr">Cevap metinde yazmıyordu: ' + rsEsc(pr.q.correct) + '. Bunu ipuçlarından çıkarman gerekiyordu.</div>' +
-      '</div>';
-  }
-
-  const starsHTML = [0,1,2].map(function(i){
-    return '<div class="rs-star' + (i < stars ? ' on' : '') + '">★</div>';
-  }).join('');
-
-  document.getElementById('rs-wrap').innerHTML =
-    '<div class="rs-kicker">BİTTİ</div>' +
-    '<div class="rs-title">' + rsEsc(d.title || (SKILLS[skill] && SKILLS[skill].label) || '') + '</div>' +
-    '<div class="rs-scorerow">' + starsHTML +
-      '<div class="rs-score">' + score + ' / ' + tot + ' doğru</div></div>' +
-    proofCard +
-    (feedback ? '<div class="rs-card"><div class="rs-card-label">' + rsEsc((SKILLS[skill] && SKILLS[skill].label) || 'BECERİ').toUpperCase() + '</div><div class="rs-feedback">' + rsEsc(feedback) + '</div></div>' : '') +
-    '<div class="rs-btns">' +
-      '<button class="rs-bp" onclick="nextSkill()">Sıradaki etkinlik →</button>' +
-      '<div class="rs-brow">' +
-        '<button class="rs-bs" onclick="retrySkill()">Bir daha oku</button>' +
-        '<button class="rs-bs" onclick="goToSkillsMenu()">Bugünlük yeter</button>' +
-      '</div>' +
-    '</div>';
-
-  const ov = document.getElementById('cw-overlay');
-  ov.classList.add('visible');
-  ov.scrollTop = 0;
-};
 </script>
 
 </body>
