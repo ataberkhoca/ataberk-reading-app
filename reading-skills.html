@@ -83,12 +83,23 @@ body::before{
 .hint-zone{margin-bottom:13px;}
 .hint-btn{display:inline-flex;align-items:center;gap:5px;font-family:'Nunito',sans-serif;font-size:12px;font-weight:900;color:#1A1A1A;background:#FFD93D;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;border-radius:99px;padding:6px 14px;cursor:pointer;transition:all .15s;}
 .hint-btn:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 #1A1A1A;}
-.tr-row{display:flex;align-items:flex-start;gap:9px;margin-bottom:16px;}
+/* Soru + Türkçe düğmesi — uygulamanın defter paleti */
+.tr-row{display:flex;align-items:flex-start;gap:9px;margin-bottom:14px;}
 .tr-row .q-text{margin-bottom:0;flex:1;}
-.tr-chip{flex-shrink:0;font-family:'Baloo 2',cursive;font-weight:800;font-size:14px;color:#1A1A1A;background:#FFF3CC;border:2.5px solid #1A1A1A;box-shadow:2px 3px 0 #1A1A1A;border-radius:12px;padding:6px 11px;cursor:pointer;user-select:none;transition:background .15s,box-shadow .15s,transform .15s;}
-.tr-chip:hover{transform:translate(-1px,-1px);box-shadow:3px 4px 0 #1A1A1A;}
-.tr-chip.on{background:#FFD93D;box-shadow:0 0 0 #1A1A1A;transform:translate(1px,2px);}
-.tr-line{font-family:'Nunito',sans-serif;font-weight:700;font-size:14.5px;line-height:1.5;color:#1A1A1A;background:#FFFBEA;border-left:5px solid #FFD93D;border-radius:0 10px 10px 0;padding:9px 11px;margin-bottom:13px;animation:trFade .15s ease;}
+.tr-chip{flex-shrink:0;font-family:'Caveat',cursive;font-weight:700;font-size:19px;line-height:1;
+  color:#2B3A55;background:#FFFDF7;border:2.5px solid #2B3A55;box-shadow:2px 3px 0 #2B3A55;
+  border-radius:12px;padding:8px 12px;cursor:pointer;user-select:none;
+  transition:background .15s,box-shadow .13s,transform .13s;}
+.tr-chip:hover{transform:translate(-1px,-1px);box-shadow:3px 4px 0 #2B3A55;}
+.tr-chip.on{background:#FFD93D;box-shadow:1px 1px 0 #2B3A55;transform:translate(1px,2px);}
+.tr-line{font-family:'Nunito',sans-serif;font-weight:700;font-size:15px;line-height:1.5;color:#2B3A55;
+  background:#FFFDF7;border:2.2px dashed #2B3A55;border-radius:12px;padding:9px 12px;margin-bottom:13px;
+  animation:trFade .15s ease;}
+
+/* İlk yanlıştan sonra: cevabın geçtiği cümleye yönlendiren not */
+.anchor-note{display:flex;align-items:center;gap:8px;margin-top:12px;font-family:'Caveat',cursive;
+  font-weight:700;font-size:19px;color:#2B3A55;background:#FFF4D6;
+  border:2.2px solid #2B3A55;border-radius:13px;padding:8px 12px;animation:trFade .18s ease;}
 @keyframes trFade{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
 .hint-visible{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:900;color:#1A1A1A;background:#FFD93D;border:2.5px solid #1A1A1A;box-shadow:2px 2px 0 #1A1A1A;border-radius:99px;padding:6px 14px;animation:pillPop .2s ease;}
 
@@ -909,16 +920,35 @@ body.intro-mode .blob{display:none !important;}
 .grade-opt.selected { background:#FFD93D; border-color:#1A1A1A; color:#1A1A1A; box-shadow:3px 3px 0 #1A1A1A; }
 .profil-save-btn.asleep { opacity:.4; pointer-events:none; }
 
-/* ── 2a · Kaldığın yerden devam — girişte tek dokunuş ── */
-.sb-resume { display:flex; align-items:center; gap:12px; width:100%; max-width:330px; margin:0 auto 14px;
-  background:#fff; border:2.5px solid #2B3A55; border-radius:16px; box-shadow:3px 4px 0 #2B3A55;
-  padding:11px 13px; cursor:pointer; text-align:left; transition:transform .12s, box-shadow .12s; }
-.sb-resume:hover { transform:translate(-1px,-1px); box-shadow:4px 5px 0 #2B3A55; }
-.sb-resume-ico { font-size:26px; flex-shrink:0; }
-.sb-resume-k { font-family:'Nunito',sans-serif; font-weight:900; font-size:10.5px; letter-spacing:.12em; color:#8A8578; }
-.sb-resume-t { font-family:'Baloo 2',cursive; font-weight:700; font-size:16px; color:#2B3A55; line-height:1.2; margin-top:2px; }
-.sb-resume-s { font-family:'Nunito',sans-serif; font-weight:700; font-size:11.5px; color:#8A8578; margin-top:1px; }
-.sb-resume-go { margin-left:auto; font-size:19px; color:#2B3A55; flex-shrink:0; }
+/* ── 2a · Kim okuyor? — dönen öğrenci isim yazmaz, yüzüne dokunur ── */
+.sb-who-lbl { font-family:'Caveat',cursive; font-weight:700; font-size:20px; color:#2B3A55;
+  margin:2px 0 9px; text-align:center; }
+.sb-who-row { display:flex; flex-wrap:wrap; justify-content:center; gap:9px; margin-bottom:14px; }
+.sb-who-chip { display:flex; align-items:center; gap:8px; background:#FFFDF7;
+  border:2.5px solid #2B3A55; border-radius:15px; padding:8px 13px 8px 9px; cursor:pointer;
+  box-shadow:3px 4px 0 rgba(43,58,85,.22); transition:transform .13s, box-shadow .13s; }
+.sb-who-chip:hover { transform:translate(-1px,-1px); box-shadow:4px 5px 0 rgba(43,58,85,.22); }
+.sb-who-chip:active { transform:translate(1px,2px); box-shadow:1px 2px 0 rgba(43,58,85,.22); }
+.sb-who-av { width:34px; height:34px; border-radius:50%; border:2px solid #2B3A55; background:#FFF4D6;
+  display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+.sb-who-name { font-family:'Baloo 2',cursive; font-weight:700; font-size:16px; color:#2B3A55; }
+.sb-who-add { background:transparent; border:2.5px dashed #B9C0CC; box-shadow:none; }
+.sb-who-add .sb-who-name { color:#8A8578; font-weight:600; }
+.sb-who-add:hover { border-color:#2B3A55; box-shadow:none; transform:none; }
+
+/* ── Kaldığın yerden — tek satır, temaların üstünde ── */
+/* Girişte büyük bir kart olarak durduğunda ekranı boğuyordu; ayrıca
+   hangi çocuğa ait olduğu belirsizdi. Artık profil seçildikten SONRA,
+   tema listesinin üstünde ince bir satır olarak duruyor. */
+.rz-bar { display:flex; align-items:center; gap:9px; margin:0 16px 10px;
+  background:#FFF4D6; border:2.2px solid #2B3A55; border-radius:13px;
+  padding:8px 11px; cursor:pointer; text-align:left; width:calc(100% - 32px);
+  transition:transform .13s, background .13s; }
+.rz-bar:hover { transform:translateY(-1px); background:#FFEFC2; }
+.rz-ico { font-size:17px; flex-shrink:0; }
+.rz-txt { font-family:'Caveat',cursive; font-weight:700; font-size:19px; color:#2B3A55;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1; }
+.rz-go { font-family:'Baloo 2',cursive; font-weight:700; font-size:15px; color:#E64B4B; flex-shrink:0; }
 
 
 .profil-save-btn {
@@ -2451,7 +2481,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <div class="screen" id="screen-game">
   <div class="game-topbar">
-    <button class="back-btn" onclick="goBack('screen-text-select')">Metinler</button>
+    <button class="back-btn" onclick="requestLeaveGame(goBackFromGame)">Metinler</button>
     <div class="game-topbar-info">
       <div class="game-topbar-title" id="game-topbar-title">Tarama</div>
       <div class="game-topbar-sub">School Life</div>
@@ -2471,6 +2501,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <div class="cast-panel" id="cast-panel"></div>
       <div class="tr-affordance">Cümleye dokun → Türkçesi</div>
       <div class="story-body" id="story-body"></div>
+      <div id="anchor-note"></div>
     </div>
     <div class="q-card" id="q-card">
       <div class="q-label" id="q-label">Scanning — Q1</div>
@@ -2510,10 +2541,11 @@ body:has(#screen-game.active)::after { opacity:.2; }
       </div>
     </div>
 
-    <!-- kaldığın yerden devam (JS doldurur) -->
-    <div id="sb-resume-wrap"></div>
+    <!-- dönen öğrenci: isim yazmadan yüzüne dokunur (JS doldurur) -->
+    <div id="sb-who"></div>
 
-    <!-- isim alanı (davetkâr; gerçek kayıt profil ekranında) -->
+    <!-- ilk kez giren: isim alanı + Başla -->
+    <div id="sb-firstrun">
     <div class="sb-box">
       <svg class="sb-boxline" viewBox="0 0 360 60" preserveAspectRatio="none"><path d="M6 8 Q180 2 354 7 Q358 30 352 52 Q180 58 8 53 Q2 30 6 8Z" stroke="#2B3A55" stroke-width="2.5" fill="none"/></svg>
       <div class="sb-field">
@@ -2535,6 +2567,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       </button>
       <span class="sb-arrow">↙ bas!</span>
     </div>
+    </div><!-- /sb-firstrun -->
 
     <div class="sb-links">
       <button onclick="showScreen('screen-nasil')">Nasıl Kullanılır?</button>
@@ -2948,6 +2981,8 @@ body:has(#screen-game.active)::after { opacity:.2; }
     </div>
   </div>
 
+  <div id="rz-slot"></div>
+
   <div class="theme-list" id="theme-list">
     <!-- renderThemeList() tarafından dinamik olarak doldurulur -->
   </div>
@@ -3097,6 +3132,13 @@ function updateBackLabel() {
   if (!scr) return;
   const btn = scr.querySelector('.back-btn, .profile-select-back');
   if (!btn) return;
+  // Oyun ekranının geri tuşu her zaman hikâye listesine döner — etiketi
+  // yığına göre değişmesin, yoksa buton yaptığı işi yanlış söyler.
+  if (scr.id === 'screen-game') {
+    btn.textContent = 'Metinler';
+    btn.setAttribute('aria-label', 'Hikâye listesine dön');
+    return;
+  }
   const prev = NAV_STACK[NAV_STACK.length - 1];
   const label = SCREEN_LABELS[prev] || 'Geri';
   btn.textContent = label;
@@ -3131,7 +3173,10 @@ function onScreenChange(screenId) {
     renderProfileSelect();
   }
   if (screenId === 'screen-intro') {
-    renderResumeCard();
+    renderIntroGate();
+  }
+  if (screenId === 'screen-theme') {
+    renderResumeBar();
   }
   if (screenId === 'screen-profil') {
     const input = document.getElementById('profil-input');
@@ -3345,6 +3390,8 @@ function renderQ(){
   document.getElementById('q-text').textContent=q.q;
   document.getElementById('q-num').textContent=`Soru ${qIdx+1} / ${tot}`;
   document.getElementById('prog').style.width=`${(qIdx/tot)*100}%`;
+  const an = document.getElementById('anchor-note');
+  if (an) an.innerHTML = '';
   // Türkçe: soruya ait çeviri, dokununca açık kalır, her soruda sıfırlanır
   qTrOpen = (d.hintMode === 'always');
   renderQuestionTr();
@@ -3374,6 +3421,26 @@ function renderQuestionTr(){
   zone.innerHTML = (qTrOpen && tr) ? `<div class="tr-line">${tr}</div>` : '';
 }
 function toggleQuestionTr(){ qTrOpen = !qTrOpen; renderQuestionTr(); }
+/* İlk yanlış cevaptan sonra: cevabın geçtiği cümleyi işaretle ve
+   çocuğu oraya yönlendir. Cevap söylenmez — yer gösterilir. */
+function showAnchor(q){
+  const note=document.getElementById('anchor-note');
+  const has=q.hl&&q.hl.length;
+  if(has){
+    restoreHL(q.hl);
+    const first=document.querySelector(`.s[data-i="${q.hl[0]}"]`);
+    const sa=document.getElementById('scroll-area');
+    if(first&&sa){
+      const top=first.getBoundingClientRect().top-sa.getBoundingClientRect().top+sa.scrollTop;
+      sa.scrollTop=Math.max(0,top-90);
+    }
+  }
+  if(note){
+    note.innerHTML=has
+      ? '<div class="anchor-note"><span>👆</span><span>Cevap işaretli cümlede — bir daha oku.</span></div>'
+      : '<div class="anchor-note"><span>🤔</span><span>Cevap metinde yazmıyor — ipuçlarından düşün.</span></div>';
+  }
+}
 function showHint(t){hintUsedThisActivity=true;document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
 let missedQuestions = [];
 
@@ -3391,6 +3458,8 @@ function pick(btn){
   } else {
     attempts++;btn.classList.add('wrong');btn.disabled=true;
     setTimeout(()=>{btn.classList.remove('wrong');if(attempts<2){document.querySelectorAll('.choice:not(.correct)').forEach(b=>b.disabled=false);btn.disabled=true;}},420);
+    // İlk yanlışta cevap verilmez, nereye bakılacağı verilir.
+    if(attempts===1) showAnchor(q);
     if(attempts>=2){
       locked=true;
       if(!missedQuestions.includes(q)) missedQuestions.push(q);
@@ -3631,24 +3700,49 @@ function loadResume() {
     return r;
   } catch(e) { return null; }
 }
-function renderResumeCard() {
-  const wrap = document.getElementById('sb-resume-wrap');
-  if (!wrap) return;
+/* Giriş ekranı iki hâlde çalışır:
+   · hiç profil yoksa → isim alanı + Başla (davet)
+   · profil varsa → "Kim okuyor?" + yüzler; kimse isim yazmaz. */
+function renderIntroGate() {
+  const who = document.getElementById('sb-who');
+  const form = document.getElementById('sb-firstrun');
+  const badge = document.getElementById('intro-profil-wrap');
+  if (!who || !form) return;
+  const profiles = loadProfiles();
+  if (!profiles.length) {
+    who.innerHTML = '';
+    form.style.display = '';
+    if (badge) badge.style.display = 'none';
+    return;
+  }
+  form.style.display = 'none';
+  if (badge) badge.style.display = 'none';
+  const chips = profiles.map(function(p) {
+    return '<button class="sb-who-chip" onclick="selectProfile(\'' + p.id + '\')">' +
+      '<span class="sb-who-av">' + escapeHtml(p.avatar || '🐱') + '</span>' +
+      '<span class="sb-who-name">' + escapeHtml(p.name) + '</span>' +
+    '</button>';
+  }).join('');
+  const add = profiles.length < MAX_PROFILES
+    ? '<button class="sb-who-chip sb-who-add" onclick="startNewProfile()">' +
+        '<span class="sb-who-av">+</span><span class="sb-who-name">Yeni</span></button>'
+    : '';
+  who.innerHTML = '<div class="sb-who-lbl">Kim okuyor?</div>' +
+    '<div class="sb-who-row">' + chips + add + '</div>';
+}
+
+/* Kaldığın yerden — profil seçildikten sonra, tema listesinin üstünde. */
+function renderResumeBar() {
+  const slot = document.getElementById('rz-slot');
+  if (!slot) return;
   const r = loadResume();
-  const p = getActiveProfile();
-  if (!r || !p) { wrap.innerHTML = ''; return; }
+  if (!r) { slot.innerHTML = ''; return; }
   const meta = (TOPIC_META && TOPIC_META[r.topic]) || {};
-  const icon = meta.icon || '📖';
-  const themeName = meta.name || r.topic;
-  wrap.innerHTML =
-    '<button class="sb-resume" onclick="resumeLast()">' +
-      '<span class="sb-resume-ico">' + icon + '</span>' +
-      '<span>' +
-        '<span class="sb-resume-k">KALDIĞIN YERDEN</span>' +
-        '<span class="sb-resume-t">' + escapeHtml(r.title || themeName) + '</span>' +
-        '<span class="sb-resume-s">' + escapeHtml(themeName) + ' · ' + escapeHtml(SKILLS[r.skill].label) + '</span>' +
-      '</span>' +
-      '<span class="sb-resume-go">→</span>' +
+  slot.innerHTML =
+    '<button class="rz-bar" onclick="resumeLast()">' +
+      '<span class="rz-ico">' + (meta.icon || '📖') + '</span>' +
+      '<span class="rz-txt">Kaldığın yer: ' + escapeHtml(r.title || meta.name || '') + '</span>' +
+      '<span class="rz-go">Devam →</span>' +
     '</button>';
 }
 function resumeLast() {
@@ -3658,7 +3752,12 @@ function resumeLast() {
   currentTopic = r.topic;
   TOPIC_TEXTS = null;
   DATA = null;
-  startSkill(r.skill, r.textId);
+  Promise.resolve(startSkill(r.skill, r.textId)).then(function() {
+    // Kısayol iz bırakmadığı için geri tuşu ana menüye düşüyordu.
+    // Gerçekten gelinmiş gibi bir iz kur: geri → hikâye listesi.
+    NAV_STACK.length = 0;
+    NAV_STACK.push('screen-theme', 'screen-etkinlik');
+  });
 }
 
 // ════════════════════════════════════════
@@ -4120,6 +4219,7 @@ function confirmDeleteProfile() {
   document.getElementById('delete-modal-overlay').classList.add('hidden');
   renderProfileSelect();
   updateAllProfileBadges();
+  renderIntroGate();
 }
 
 // ── UI handlers ──
