@@ -267,27 +267,7 @@ body.intro-mode .blob{display:none !important;}
   margin-bottom: 8px;
 }
 
-.back-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px 8px 10px;
-  border-radius: 99px;
-  border: 3px solid #1A1A1A;
-  background: #fff;
-  box-shadow: 3px 3px 0 #1A1A1A;
-  font-family: 'Baloo 2', cursive;font-weight:600;
-  font-size: 14px;
-  color: #1A1A1A;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: all .15s;
-  -webkit-tap-highlight-color: transparent;
-  white-space: nowrap;
-}
-.back-btn::before { content: '←'; font-size: 16px; }
-.back-btn:hover  { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 #1A1A1A; }
-.back-btn:active { transform: translate(2px,2px);  box-shadow: 1px 1px 0 #1A1A1A; }
+/* .back-btn kuralları tek yerde toplandı — aşağıdaki "One back rule" bölümüne bakın. */
 
 /* Header profil rozeti */
 .header-profil {
@@ -1698,7 +1678,11 @@ button.celeb-retry {
 
 /* ── Rozet destesi (1b) + sıradaki hedef (1c) ── */
 .bc-deck{position:relative}
-.bc-edge{position:absolute;inset:0;border-radius:22px;border:3px solid #1A1A1A;background:#FFF3CF}
+/* Arkadaki kartlar öndeki kartla aynı paletten: koyu lacivert gövde,
+   sönük altın kenar. Krem kâğıt rengi desteyi ikiye bölüyordu. */
+.bc-edge{position:absolute;inset:0;border-radius:22px;border:3px solid rgba(244,163,0,.42);
+  background:linear-gradient(160deg,#22355a,#132644);box-shadow:0 10px 24px -10px rgba(0,0,0,.55)}
+.bc-edge.e2{border-color:rgba(244,163,0,.24);background:linear-gradient(160deg,#1b2c4a,#0f1d33)}
 .bc-edge.e1{transform:rotate(5deg) translate(9px,7px)}
 .bc-edge.e2{transform:rotate(-4deg) translate(-7px,4px)}
 .bc-top{display:flex;align-items:center;justify-content:space-between;width:100%;gap:8px}
@@ -1823,32 +1807,38 @@ button.celeb-retry {
 
 /* ═══════════════════════════════════════════
    SONUÇ EKRANI (rs-) — kutlama değil, kanıt.
-   Cevabın geçtiği cümleyi geri gösterir; tek birincil buton.
-   #cw-overlay kabuğunu yeniden kullanır, böylece mevcut
-   retrySkill / nextSkill / goBack çağrıları aynen çalışır.
+   Uygulamanın defter dili: krem kâğıt, sol kırmızı marj çizgisi,
+   lacivert mürekkep, Caveat el yazısı etiketler.
 ═══════════════════════════════════════════ */
-.rs-wrap{width:100%;max-width:430px;min-height:100dvh;margin:0 auto;background:#FBFAF2;display:flex;flex-direction:column;padding:26px 22px 24px;box-sizing:border-box;}
-.rs-kicker{font-family:'Nunito',sans-serif;font-weight:900;font-size:11px;letter-spacing:.16em;color:#8A8578;}
-.rs-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:29px;color:#1A1A1A;line-height:1.1;margin-top:3px;}
-.rs-scorerow{display:flex;align-items:center;gap:8px;margin-top:16px;}
-.rs-star{width:42px;height:42px;border-radius:12px;border:2.5px solid #1A1A1A;display:flex;align-items:center;justify-content:center;font-size:20px;background:#fff;color:#DDD7CA;}
-.rs-star.on{background:#FFD93D;color:#1A1A1A;animation:rsStar .3s ease backwards;}
+.rs-wrap{position:relative;width:100%;max-width:430px;min-height:100dvh;margin:0 auto;
+  background:#FBFAF2;display:flex;flex-direction:column;padding:26px 22px 24px 42px;box-sizing:border-box;}
+/* sol kırmızı marj çizgisi — defterin kendisi */
+.rs-wrap::before{content:'';position:absolute;top:0;bottom:0;left:30px;width:2px;background:#E8A0A8;opacity:.55;pointer-events:none;}
+.rs-kicker{font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#9AA3B2;}
+.rs-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:28px;color:#2B3A55;line-height:1.12;margin-top:1px;}
+.rs-scorerow{display:flex;align-items:center;gap:8px;margin-top:15px;}
+.rs-star{width:40px;height:40px;border-radius:12px;border:2.6px solid #2B3A55;display:flex;align-items:center;justify-content:center;font-size:19px;background:#FFFDF7;color:#D8D2C4;}
+.rs-star.on{background:#FFD93D;color:#2B3A55;animation:rsStar .3s ease backwards;}
 .rs-star.on:nth-child(2){animation-delay:.09s}.rs-star.on:nth-child(3){animation-delay:.18s}
 @keyframes rsStar{from{transform:scale(.5);opacity:0}to{transform:none;opacity:1}}
-.rs-score{flex:1;text-align:right;font-family:'Nunito',sans-serif;font-weight:800;font-size:14px;color:#4A4A4A;}
-.rs-card{margin-top:16px;background:#fff;border:3px solid #1A1A1A;border-radius:20px;box-shadow:4px 4px 0 #1A1A1A;padding:15px 16px;}
-.rs-card-label{font-family:'Nunito',sans-serif;font-weight:900;font-size:11px;letter-spacing:.12em;color:#8A8578;}
-.rs-proof{font-family:'Nunito',sans-serif;font-size:17px;line-height:1.65;color:#1A1A1A;margin-top:9px;}
-.rs-proof mark{background:#FFE9A8;box-shadow:0 0 0 3px #FFE9A8;border-radius:3px;color:#1A1A1A;font-weight:800;}
-.rs-proof-tr{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;color:#8A8578;margin-top:11px;}
-.rs-q{font-family:'Nunito',sans-serif;font-weight:800;font-size:13.5px;color:#4A4A4A;margin-top:11px;padding-top:11px;border-top:2px solid #EDE7DA;}
-.rs-feedback{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;line-height:1.55;color:#4A4A4A;margin-top:9px;}
-.rs-btns{margin-top:auto;padding-top:18px;display:flex;flex-direction:column;gap:9px;}
-.rs-bp{width:100%;font-family:'Baloo 2',cursive;font-weight:700;font-size:20px;color:#FBFAF2;background:#1A1A1A;border:none;border-radius:18px;padding:15px 0;cursor:pointer;transition:background .15s;}
-.rs-bp:hover{background:#3A7BD5;}
-.rs-brow{display:flex;gap:9px;}
-.rs-bs{flex:1;font-family:'Baloo 2',cursive;font-weight:700;font-size:15px;color:#4A4A4A;background:transparent;border:2.5px solid #DDD7CA;border-radius:15px;padding:11px 0;cursor:pointer;transition:border-color .15s,color .15s;}
-.rs-bs:hover{border-color:#1A1A1A;color:#1A1A1A;}
+.rs-score{flex:1;text-align:right;font-family:'Caveat',cursive;font-weight:700;font-size:20px;color:#577240;}
+.rs-card{margin-top:15px;background:#FFFDF7;border:2.6px solid #2B3A55;border-radius:18px;box-shadow:3px 4px 0 #2B3A55;padding:14px 16px;}
+.rs-card-label{font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#9AA3B2;}
+.rs-proof{font-family:'Nunito',sans-serif;font-weight:600;font-size:17px;line-height:1.6;color:#2B3A55;margin-top:6px;}
+.rs-proof mark{background:#FFF4D6;box-shadow:0 0 0 3px #FFF4D6;border-radius:3px;color:#2B3A55;font-weight:800;}
+.rs-proof-tr{font-family:'Nunito',sans-serif;font-weight:600;font-size:14px;color:#9AA3B2;margin-top:9px;}
+.rs-q{font-family:'Nunito',sans-serif;font-weight:800;font-size:13.5px;color:#577240;margin-top:10px;padding-top:10px;border-top:2px dashed #D6C9A8;}
+.rs-feedback{font-family:'Nunito',sans-serif;font-weight:600;font-size:14.5px;line-height:1.55;color:#2B3A55;margin-top:6px;}
+.rs-btns{margin-top:auto;padding-top:20px;display:flex;flex-direction:column;gap:10px;}
+.rs-bp{width:100%;font-family:'Baloo 2',cursive;font-weight:700;font-size:20px;color:#FFFDF7;background:#E64B4B;
+  border:3px solid #2B3A55;border-radius:18px;padding:14px 0;cursor:pointer;box-shadow:4px 5px 0 #2B3A55;
+  transition:transform .14s ease, box-shadow .14s ease;}
+.rs-bp:hover{transform:translate(-1px,-1px);box-shadow:5px 6px 0 #2B3A55;}
+.rs-bp:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #2B3A55;}
+.rs-brow{display:flex;gap:10px;}
+.rs-bs{flex:1;font-family:'Caveat',cursive;font-weight:700;font-size:20px;color:#2B3A55;background:#FFFDF7;
+  border:2.6px dashed #D6C9A8;border-radius:15px;padding:10px 0;cursor:pointer;transition:border-color .15s, color .15s;}
+.rs-bs:hover{border-color:#2B3A55;color:#E64B4B;}
 @media(prefers-reduced-motion:reduce){.rs-star.on{animation:none}}
 
 /* ═══════════════════════════════════════════
@@ -2168,48 +2158,39 @@ body:has(#screen-game.active) .ud-corner { display:none !important; }
 body:has(#screen-game.active)::after { opacity:.2; }
 
 /* ── 7 · One header, one back rule ──────────────────────────── */
-/* Geri tuşu — elle çizilmiş kutu + eskiz oku.
-   Hover kırmızıya kaçmaz: kâğıt sararır (marker'la işaretlenmiş gibi).
-   Geri dönmek bir uyarı değil, sakin bir hareket. */
+/* Geri tuşu — kutu değil, kalemle çizilmiş bir işaret.
+   Kutu ve sert gölge kaldırıldı: eğri kenarlı kutunun arkasındaki
+   dikdörtgen gölge butondan büyük görünüyordu. Şimdi hover yalnızca
+   etiketin altındaki kırmızı çizgiyi canlandırır — hiçbir şey taşmaz. */
 .back-btn, .profile-select-back {
-  position:relative; min-height:52px; height:auto; width:auto; min-width:106px;
-  padding:0 16px 0 40px; margin-right:2px;
-  display:flex; align-items:center; flex-shrink:0;
-  border:none; border-radius:14px; box-shadow:none;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFFDF7' stroke='%232B3A55' stroke-width='2.6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-repeat:no-repeat; background-position:center; background-size:100% 100%;
-  font-family:'Caveat',cursive; font-weight:700; font-size:21px; line-height:1;
-  color:#2B3A55; cursor:pointer; text-decoration:none; white-space:nowrap;
-  transition:background-image .18s ease, transform .14s ease;
+  position:relative; display:inline-flex; align-items:center; gap:8px;
+  min-height:44px; padding:5px 2px 9px 0; margin:0 2px 0 0;
+  border:none; border-radius:0; background:transparent; box-shadow:none;
+  font-family:'Caveat',cursive; font-weight:700; font-size:23px; line-height:1;
+  color:#2B3A55; cursor:pointer; text-decoration:none; white-space:nowrap; flex-shrink:0;
+  transition:color .16s ease, transform .14s ease;
   -webkit-tap-highlight-color:transparent; touch-action:manipulation;
 }
-/* çizilmiş ok — kutunun içinde */
+/* çizilmiş ok */
 .back-btn::before, .profile-select-back::before {
-  content:''; position:absolute; left:13px; top:50%; margin-top:-7px;
-  width:26px; height:13px;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='13'%3E%3Cpath d='M24 6.5H3M8 2 3 6.5 8 11' stroke='%232B3A55' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/26px 13px;
+  content:''; width:30px; height:15px; flex-shrink:0;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='15'%3E%3Cpath d='M28 7.5H4M10 2 4 7.5 10 13' stroke='%232B3A55' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/30px 15px;
   transition:transform .18s ease;
 }
-/* hover / focus — kâğıt sararır, ok sola kayar */
+/* etiketin altındaki elle çizilmiş çizgi */
+.back-btn::after, .profile-select-back::after {
+  content:''; position:absolute; left:38px; right:2px; bottom:3px; height:7px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='7' preserveAspectRatio='none'%3E%3Cpath d='M2 4.5 Q30 1.5 60 4 T118 3' stroke='%23E64B4B' stroke-width='2.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center/100% 100%;
+  opacity:.5; transition:opacity .18s ease, transform .18s ease;
+}
 .back-btn:hover, .profile-select-back:hover,
-.back-btn:focus-visible, .profile-select-back:focus-visible {
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFF4D6' stroke='%232B3A55' stroke-width='2.9' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
-}
+.back-btn:focus-visible, .profile-select-back:focus-visible { color:#E64B4B; }
 .back-btn:hover::before, .profile-select-back:hover::before,
-.back-btn:focus-visible::before, .profile-select-back:focus-visible::before {
-  transform:translateX(-4px);
-}
-/* basılı — sarı dolgu, hafifçe içe basar */
-.back-btn:active, .profile-select-back:active {
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='60' preserveAspectRatio='none'%3E%3Cpath d='M5 7 Q100 2 195 6 Q198 30 194 54 Q100 58 6 53 Q2 30 5 7Z' fill='%23FFD93D' stroke='%232B3A55' stroke-width='3' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E");
-  transform:translate(1px,2px);
-}
-.back-btn:active::before, .profile-select-back:active::before {
-  transform:translateX(-5px);
-}
-.back-btn:focus-visible, .profile-select-back:focus-visible {
-  outline:3px solid #3A7BD5; outline-offset:4px;
-}
+.back-btn:focus-visible::before, .profile-select-back:focus-visible::before { transform:translateX(-5px); }
+.back-btn:hover::after, .profile-select-back:hover::after,
+.back-btn:focus-visible::after, .profile-select-back:focus-visible::after { opacity:1; transform:translateY(1px); }
+.back-btn:active, .profile-select-back:active { transform:translateY(1px); }
+.back-btn:focus-visible, .profile-select-back:focus-visible { outline:3px solid #3A7BD5; outline-offset:3px; border-radius:6px; }
 /* profil seçim ekranı içeriğini ortalıyor — geri tuşu solda kalsın */
 .profile-select-back { align-self:flex-start; }
 @media (prefers-reduced-motion: reduce) {
