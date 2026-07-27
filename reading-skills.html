@@ -123,6 +123,38 @@ body::before{
 .next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
 .next-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
 
+/* ══ OKUMA KAPISI (read-first gate) ══════════════════════════ */
+.read-gate{background:#FFFDF7;border-radius:24px;border:3px solid #1A1A1A;
+  box-shadow:5px 5px 0 #1A1A1A;padding:18px 18px 16px;display:flex;flex-direction:column;gap:10px;
+  animation:cardPop .4s .08s cubic-bezier(.34,1.56,.64,1) backwards;}
+.read-gate-title{font-family:'Baloo 2',cursive;font-weight:600;font-size:21px;color:#2B3A55;
+  display:flex;align-items:center;gap:8px;line-height:1.15;}
+.read-gate-sub{font-family:'Nunito',sans-serif;font-weight:700;font-size:13.5px;line-height:1.5;color:#5A6B85;}
+.read-gate-steps{display:flex;flex-direction:column;gap:5px;font-family:'Caveat',cursive;
+  font-weight:700;font-size:18px;color:#2B3A55;background:#FFF4D6;border:2.2px dashed #2B3A55;
+  border-radius:13px;padding:9px 12px;}
+.read-gate-btn{margin-top:4px;width:100%;background:var(--ac);color:#fff;font-family:'Baloo 2',cursive;
+  font-weight:600;font-size:18px;border-radius:16px;padding:15px;display:flex;align-items:center;
+  justify-content:center;gap:8px;cursor:pointer;border:3px solid #1A1A1A;box-shadow:4px 4px 0 #1A1A1A;
+  text-shadow:2px 2px 0 rgba(0,0,0,.15);transition:all .15s;}
+.read-gate-btn:hover:not(:disabled){transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
+.read-gate-btn:active:not(:disabled){transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
+.read-gate-btn:disabled{background:#E6E0D2;color:#9A9384;cursor:default;box-shadow:2px 2px 0 #1A1A1A;
+  transform:none;text-shadow:none;}
+.read-gate-wait{font-family:'Nunito',sans-serif;font-weight:800;font-size:12px;color:#9A9384;text-align:center;}
+
+/* Yanlış cevaptan sonra cümleyi YENİDEN çarpan vurgu.
+   sys-hl zaten açıkken class tekrar eklendiğinde tarayıcı animasyonu
+   yeniden başlatmaz; bu ayrı sınıf + reflow ile her seferinde oynar. */
+@keyframes hlPulse{
+  0%{transform:scale(1) rotate(-1.5deg);box-shadow:0 0 0 3px #1A1A1A;}
+  30%{transform:scale(1.07) rotate(1.5deg);box-shadow:0 0 0 7px #FF6B35;}
+  60%{transform:scale(1) rotate(-1deg);box-shadow:0 0 0 3px #1A1A1A;}
+  80%{transform:scale(1.05) rotate(1deg);box-shadow:0 0 0 6px #FF6B35;}
+  100%{transform:scale(1) rotate(0);box-shadow:0 0 0 3px #1A1A1A;}}
+.s.hl-pulse{animation:hlPulse .85s cubic-bezier(.34,1.56,.64,1);}
+@media (prefers-reduced-motion:reduce){.s.hl-pulse{animation:none;}}
+
 /* RESULT — eski sade ekran CSS'i kaldırıldı (yerini cw- havuzu aldı) */
 
 
@@ -2469,6 +2501,17 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <div class="story-body" id="story-body"></div>
       <div id="anchor-note"></div>
     </div>
+    <div class="read-gate" id="read-gate" style="display:none">
+      <div class="read-gate-title"><span>📖</span><span>Önce hikâyeyi oku</span></div>
+      <div class="read-gate-sub">Acele etme. Anlamadığın bir cümle olursa üstüne dokun — Türkçesi çıkar.</div>
+      <div class="read-gate-steps">
+        <div>1 · Hikâyeyi baştan sona oku</div>
+        <div>2 · Hazır olunca sorulara geç</div>
+        <div>3 · Hikâye kaybolmaz, sorularda da okuyabilirsin</div>
+      </div>
+      <button class="read-gate-btn" id="read-gate-btn" onclick="beginQuestions()">Okudum, sorulara geç →</button>
+      <div class="read-gate-wait" id="read-gate-wait"></div>
+    </div>
     <div class="q-card" id="q-card">
       <div class="q-label" id="q-label">Scanning — Q1</div>
       <div class="tr-row">
@@ -3312,42 +3355,129 @@ document.addEventListener('click', function(e){
   if (e.target.closest('.s')) return;
   closeTrPopup();
 });
+/* ══ VURGU ZAMANLAYICI YÖNETİMİ ══════════════════════════════
+   Eski hata: applyHL'in kurduğu sönme zamanlayıcısı restoreHL
+   çağrıldığında iptal edilmiyordu. Çocuk vurgu sönmeden önce yanlış
+   cevap verirse cümle yeniden işaretleniyor, ama bekleyen zamanlayıcı
+   saniyeler sonra ateşleyip onu tekrar söndürüyordu.
+   Çözüm: (a) tüm zamanlayıcılar tek listede, (b) hlLocked bayrağı —
+   bir kez yanlış cevap verildiğinde o soru boyunca vurgu sabit kalır. */
+let hlTimers = [];      // bekleyen tüm vurgu zamanlayıcıları
+let hlLocked  = false;  // true → hiçbir otomatik sönme çalışmaz
+function hlDelay(fn, ms){ const t = setTimeout(fn, ms); hlTimers.push(t); return t; }
+function clearHLTimers(){ hlTimers.forEach(clearTimeout); hlTimers = []; }
+
 function applyHL(idx){
-  clearTimeout(hlTimer);clearHL();
-  if(!idx||!idx.length)return;
-  const mode=DATA[cur].hlMode;
-  if(mode==='none')return;
+  clearHLTimers(); clearHL();
+  if(!idx || !idx.length) return;
+  const mode = DATA[cur].hlMode;
+  if(mode === 'none') return;
   idx.forEach(i=>{const el=document.querySelector(`.s[data-i="${i}"]`);if(el)el.classList.add('sys-hl');});
-  if(mode==='fade3')hlTimer=setTimeout(clearHL,3000);
-  if(mode==='fade10'){
-    // Skimming: son 1 saniyede smooth fade-out
+  if(hlLocked) return;   // yanlış cevaptan sonra sabitlendi → sönmesin
+  if(mode === 'fade3') hlDelay(()=>{ if(hlLocked) return; clearHL(); }, 3000);
+  if(mode === 'fade10'){
+    // Skimming: son 1 saniyede yumuşak sönme
     const fadeStart = (DATA[cur].timer * 1000) - 1000;
-    hlTimer=setTimeout(()=>{
-      // Son 1sn fade-out başlat (sistem highlight'ları yumuşak söndür)
+    hlDelay(()=>{
+      if(hlLocked) return;
       document.querySelectorAll('.s.sys-hl').forEach(s => {
         s.style.transition = 'background 1s ease-out, box-shadow 1s ease-out, opacity 1s ease-out';
         s.style.background = 'transparent';
-        s.style.boxShadow = '0 0 0 0 transparent';
-        s.style.opacity = '1';
+        s.style.boxShadow  = '0 0 0 0 transparent';
+        s.style.opacity    = '1';
       });
-      // 1sn sonra class'ları temizle ve story body'i de soluk hale getir
-      setTimeout(()=>{
+      // İç zamanlayıcı da listeye giriyor — eskiden takip edilmiyordu ve
+      // sonraki soruya taşıp metni haksız yere soluklaştırabiliyordu.
+      hlDelay(()=>{
+        if(hlLocked) return;
         clearHL();
-        document.querySelectorAll('.s.sys-hl').forEach(s => {
-          s.style.transition = '';
-          s.style.background = '';
-          s.style.boxShadow = '';
-        });
         const sb=document.getElementById('story-body');
-        sb.style.transition='opacity .8s';sb.style.opacity='.1';
+        if(sb){ sb.style.transition='opacity .8s'; sb.style.opacity='.1'; }
       }, 1000);
     }, fadeStart);
   }
 }
-function clearHL(){document.querySelectorAll('.s').forEach(s=>{s.classList.remove('sys-hl');s.style.transition='';s.style.background='';s.style.boxShadow='';s.style.opacity='';});}
-function restoreHL(idx){clearHL();(idx||[]).forEach(i=>{const el=document.querySelector(`.s[data-i="${i}"]`);if(el)el.classList.add('sys-hl');});}
+function clearHL(){
+  document.querySelectorAll('.s').forEach(s=>{
+    s.classList.remove('sys-hl');
+    s.classList.remove('hl-pulse');
+    s.style.transition=''; s.style.background=''; s.style.boxShadow=''; s.style.opacity='';
+  });
+}
+/* Yanlış cevaptan sonra çağrılır: bekleyen sönmeleri iptal eder,
+   vurguyu kilitler, skimming'de solmuş metni geri getirir. */
+function restoreHL(idx){
+  clearHLTimers();
+  hlLocked = true;
+  clearHL();
+  const sb = document.getElementById('story-body');
+  if(sb){ sb.style.transition='opacity .3s'; sb.style.opacity='1'; }
+  (idx||[]).forEach(i=>{const el=document.querySelector(`.s[data-i="${i}"]`);if(el)el.classList.add('sys-hl');});
+}
+/* Vurgu zaten açıksa class'ı tekrar eklemek animasyonu yeniden başlatmaz.
+   Reflow zorlayarak her seferinde görünür bir darbe veriyoruz. */
+function pulseHL(idx){
+  (idx||[]).forEach(i=>{
+    const el=document.querySelector(`.s[data-i="${i}"]`);
+    if(!el) return;
+    el.classList.remove('hl-pulse');
+    void el.offsetWidth;
+    el.classList.add('hl-pulse');
+  });
+}
+
+/* ══ OKUMA AŞAMASI ═══════════════════════════════════════════
+   Sorular metinle birlikte açılmıyor. Önce sadece hikâye + kapı kartı;
+   çocuk 'Okudum' deyince sorular ve vurgu zamanlayıcıları başlıyor. */
+const READ_GATE_BY_SKILL = { scan:true, skim:true, int:true, inf:true };
+const READ_GATE_MIN_SEC  = 0;   // >0 yaparsan düğme o kadar saniye kilitli kalır
+let readGateTimer = null;
+
+function enterReadingPhase(){
+  clearHLTimers(); clearInterval(timerInt); clearInterval(readGateTimer);
+  hlLocked = false; clearHL();
+  qIdx = 0; locked = false; attempts = 0;
+  const gate = document.getElementById('read-gate');
+  const qc   = document.getElementById('q-card');
+  const sb   = document.getElementById('story-body');
+  if(sb){ sb.style.transition=''; sb.style.opacity='1'; }
+  const an = document.getElementById('anchor-note'); if(an) an.innerHTML='';
+  if(!READ_GATE_BY_SKILL[cur]){ if(gate) gate.style.display='none'; if(qc) qc.style.display=''; renderQ(); return; }
+  if(qc) qc.style.display='none';
+  if(gate) gate.style.display='';
+  document.getElementById('prog').style.width='0%';
+  document.getElementById('q-num').textContent='Okuma zamanı 📖';
+  const btn=document.getElementById('read-gate-btn');
+  const wait=document.getElementById('read-gate-wait');
+  if(btn && wait){
+    if(READ_GATE_MIN_SEC > 0){
+      let left = READ_GATE_MIN_SEC;
+      btn.disabled = true;
+      wait.textContent = left + ' saniye daha oku…';
+      readGateTimer = setInterval(()=>{
+        left--;
+        if(left <= 0){ clearInterval(readGateTimer); btn.disabled=false; wait.textContent=''; }
+        else wait.textContent = left + ' saniye daha oku…';
+      }, 1000);
+    } else { btn.disabled=false; wait.textContent=''; }
+  }
+  const sa=document.getElementById('scroll-area'); if(sa) sa.scrollTop=0;
+}
+
+function beginQuestions(){
+  clearInterval(readGateTimer);
+  const gate=document.getElementById('read-gate');
+  const qc  =document.getElementById('q-card');
+  if(gate) gate.style.display='none';
+  if(qc){
+    qc.style.display='';
+    qc.style.animation='none'; void qc.offsetWidth; qc.style.animation='';
+  }
+  renderQ();   // vurgu zamanlayıcıları ancak burada başlar
+}
 function renderQ(){
-  clearTimeout(hlTimer);clearInterval(timerInt);
+  clearHLTimers();clearInterval(timerInt);
+  hlLocked=false;                    // her yeni soruda vurgu kilidi açılır
   locked=false;attempts=0;
   if(qIdx===0) missedQuestions=[];
   const d=DATA[cur];const q=d.questions[qIdx];const tot=d.questions.length;
@@ -3394,6 +3524,7 @@ function showAnchor(q){
   const has=q.hl&&q.hl.length;
   if(has){
     restoreHL(q.hl);
+    pulseHL(q.hl);   // zaten sarıysa bile gözle görülür bir hareket
     const first=document.querySelector(`.s[data-i="${q.hl[0]}"]`);
     const sa=document.getElementById('scroll-area');
     if(first&&sa){
@@ -3430,6 +3561,7 @@ function pick(btn){
       locked=true;
       if(!missedQuestions.includes(q)) missedQuestions.push(q);
       restoreHL(q.hl);
+      pulseHL(q.hl);
       setTimeout(()=>{
         document.querySelectorAll('.choice').forEach(b=>{
           b.disabled=true;
@@ -3445,7 +3577,7 @@ function pick(btn){
   }
 }
 function advQ(){
-  clearHL();qIdx++;
+  clearHLTimers();hlLocked=false;clearHL();qIdx++;
   if(qIdx>=DATA[cur].questions.length){showResult();}
   else{renderQ();document.getElementById('scroll-area').scrollTop=0;}
 }
@@ -3456,7 +3588,7 @@ function showResult(){
   if(score/tot===1)confetti();
   onActivityComplete(score, tot, cur, currentTopic);
 }
-function retrySkill(){document.getElementById('cw-overlay').classList.remove('visible');qIdx=0;score=0;locked=false;attempts=0;hintUsedThisActivity=false;document.getElementById('score-chip').textContent='⭐ 0';renderStory();renderQ();}
+function retrySkill(){document.getElementById('cw-overlay').classList.remove('visible');qIdx=0;score=0;locked=false;attempts=0;hintUsedThisActivity=false;document.getElementById('score-chip').textContent='⭐ 0';renderStory();enterReadingPhase();}
 function nextSkill(){
   const order=['scan','skim','int','inf'];
   const nextIdx=(order.indexOf(cur)+1)%order.length;
@@ -3622,7 +3754,7 @@ async function startSkill(sk, textId) {
   DATA[sk] = chosen;
   currentTextId = chosen.id;
 
-  clearTimeout(hlTimer); clearInterval(timerInt);
+  clearHLTimers(); hlLocked = false; clearInterval(timerInt);
   cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = []; hintUsedThisActivity = false;
   setVars(sk);
   document.getElementById('skill-tr').textContent = SKILLS[sk].label;
@@ -3634,7 +3766,7 @@ async function startSkill(sk, textId) {
   saveResume(sk, chosen);
   showScreen('screen-game');
   renderStory();
-  renderQ();
+  enterReadingPhase();   // sorular değil, önce okuma kapısı
 }
 
 /* ══════════════════════════════════════════
