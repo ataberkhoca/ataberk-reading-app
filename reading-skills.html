@@ -392,6 +392,26 @@ body.intro-mode .blob{display:none !important;}
 .sinif-card.yakinda .sinif-num { color: #BBB; }
 .sinif-card.yakinda .sinif-sub { color: #CCC; }
 
+/* ══ SINIF DEĞİŞTİRİCİ — tema ekranında hep görünür ═══════════
+   Profilde sınıf kayıtlıysa selectProfile() sınıf ekranını atlıyordu ve
+   geri tuşu NAV_STACK'e göre Giriş'e dönüyordu; sınıf ekranı erişilemez
+   hale geliyordu. Bu çubuk sınıf ekranına doğrudan bir kapı açar. */
+.grade-switch{display:flex;align-items:center;gap:10px;margin:0 16px 10px;
+  background:#fff;border:2.5px solid #1A1A1A;border-radius:14px;box-shadow:3px 3px 0 #1A1A1A;
+  padding:9px 12px;cursor:pointer;text-align:left;width:calc(100% - 32px);
+  transition:transform .13s,box-shadow .13s;-webkit-tap-highlight-color:transparent;}
+.grade-switch:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 #1A1A1A;}
+.grade-switch:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #1A1A1A;}
+.gs-chip{flex-shrink:0;width:32px;height:32px;border-radius:10px;display:flex;align-items:center;
+  justify-content:center;font-family:'Baloo 2',cursive;font-weight:600;font-size:18px;color:#fff;
+  border:2.5px solid #1A1A1A;background:var(--gsc,#FF6B6B);}
+.gs-txt{flex:1;font-family:'Baloo 2',cursive;font-weight:600;font-size:17px;color:#1A1A1A;line-height:1.15;}
+.gs-sub{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:11px;color:#9A9384;}
+.gs-go{flex-shrink:0;font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#1A1A1A;
+  background:#FFD93D;border:2px solid #1A1A1A;border-radius:99px;padding:3px 12px;}
+/* Sınıf ekranında 'şu an buradasın' işareti */
+.sinif-card.simdi{outline:4px dashed #1A1A1A;outline-offset:4px;}
+
 .sinif-left { display: flex; flex-direction: column; gap: 3px; }
 .sinif-num {
   font-family: 'Baloo 2', cursive;font-weight:600;
@@ -2941,7 +2961,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
   </div>
 
   <div class="sinif-list">
-    <div class="sinif-card aktif" style="--gc:#FF6B6B;--gc-lt:#FFF0F0;" onclick="selectGrade('grade2')" role="button" tabindex="0">
+    <div class="sinif-card aktif" id="sinif-card-grade2" style="--gc:#FF6B6B;--gc-lt:#FFF0F0;" onclick="selectGrade('grade2')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-chip">2</div>
         <div>
@@ -2952,7 +2972,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <div class="sinif-go">→</div>
     </div>
 
-    <div class="sinif-card aktif" style="--gc:#00B4D8;--gc-lt:#E6F9FD;" onclick="selectGrade('grade3')" role="button" tabindex="0">
+    <div class="sinif-card aktif" id="sinif-card-grade3" style="--gc:#00B4D8;--gc-lt:#E6F9FD;" onclick="selectGrade('grade3')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-chip">3</div>
         <div>
@@ -2963,7 +2983,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <div class="sinif-go">→</div>
     </div>
 
-    <div class="sinif-card aktif" style="--gc:#6BCB77;--gc-lt:#EAF7EE;" onclick="selectGrade('grade4')" role="button" tabindex="0">
+    <div class="sinif-card aktif" id="sinif-card-grade4" style="--gc:#6BCB77;--gc-lt:#EAF7EE;" onclick="selectGrade('grade4')" role="button" tabindex="0">
       <div class="sinif-left">
         <div class="sinif-chip">4</div>
         <div>
@@ -2990,6 +3010,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
     </div>
   </div>
 
+  <div id="gs-slot"></div>
   <div id="rz-slot"></div>
 
   <div class="theme-list" id="theme-list">
@@ -3185,6 +3206,7 @@ function onScreenChange(screenId) {
     renderIntroGate();
   }
   if (screenId === 'screen-theme') {
+    renderGradeSwitch();
     renderResumeBar();
   }
   if (screenId === 'screen-profil') {
@@ -3649,6 +3671,27 @@ function shuffle(a){const r=[...a];for(let i=r.length-1;i>0;i--){const j=Math.fl
 
 setVars('scan'); // CSS renk değişkenlerini ayarla — DATA olmadan render etme
 
+/* Sınıf ekranına ileri gidiş — goBack() değil, çünkü goBack history'yi
+   tüketip NAV_STACK'teki önceki ekrana (çoğu zaman Giriş) döner. */
+function goToGradeSelect() { showScreen('screen-sinif'); }
+
+const GRADE_COLORS = { grade2:'#FF6B6B', grade3:'#00B4D8', grade4:'#6BCB77' };
+
+function renderGradeSwitch() {
+  const slot = document.getElementById('gs-slot');
+  if (!slot) return;
+  const g = currentGrade;
+  const n = (GRADE_TOPICS[g] || []).length;
+  slot.innerHTML =
+    '<button class="grade-switch" onclick="goToGradeSelect()" ' +
+      'aria-label="Sınıf değiştir" style="--gsc:' + (GRADE_COLORS[g] || '#FF6B6B') + '">' +
+      '<span class="gs-chip">' + String(g).replace('grade','') + '</span>' +
+      '<span class="gs-txt">' + (GRADE_LABELS[g] || '') +
+        '<span class="gs-sub">' + n + ' tema · başka sınıfa da bakabilirsin</span></span>' +
+      '<span class="gs-go">değiştir</span>' +
+    '</button>';
+}
+
 function selectGrade(grade) {
   currentGrade = grade;
   TOPIC_TEXTS = null;
@@ -4012,13 +4055,18 @@ function gradeTotals(g) {
 }
 function renderGradeSubs() {
   ['grade2','grade3','grade4'].forEach(g => {
+    // Şu an açık olan sınıfı görünür kıl — çocuk nerede olduğunu bilsin
+    const card = document.getElementById('sinif-card-' + g);
+    if (card) card.classList.toggle('simdi', g === currentGrade);
     const el = document.getElementById('sinif-sub-' + g);
     if (!el) return;
     const s = gradeTotals(g);
-    if (!s.complete || !s.total) { el.textContent = s.themes + ' tema'; return; }
-    el.textContent = s.done > 0
+    let txt;
+    if (!s.complete || !s.total) txt = s.themes + ' tema';
+    else txt = s.done > 0
       ? s.themes + ' tema · ' + s.done + '/' + s.total + ' hikâye okundu'
       : s.themes + ' tema · ' + s.total + ' hikâye';
+    el.textContent = (g === currentGrade ? '📍 Şu an burada · ' : '') + txt;
   });
 }
 
