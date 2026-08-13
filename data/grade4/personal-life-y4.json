@@ -45,7 +45,7 @@
         "Nora: O zaman saçlarım uzun ve inceydi. Şimdi kısa ve kalın!",
         "Sam: Saçlarım açık renkliydi ve yüzüm yuvarlaktı. Şimdi yüzüm daha ince.",
         "Leyla: Fotoğrafta saçlarım düzdü. Şimdi koyu ve dalgalı.",
-        "Ms. Reed: Gözleriniz parlaktı ve gülümsemeleriniz güler yüzlüydü — tıpkı bugünkü gibi.",
+        "Ms. Reed: Gözleriniz parlaktı ve gülümsemeleriniz dostçaydı — tıpkı bugünkü gibi.",
         "Nora: Sam altı yaşında benden daha kısaydı. Şimdi benden daha uzun!",
         "Sam: Nora da benden daha sessizdi. Bugün hâlâ daha sessiz!",
         "Leyla: Küçük kardeşimden daha tatlıydım. O herkesten daha yaramazdı!",
@@ -54,55 +54,55 @@
       ],
       "questions": [
         {
-          "q": "Whose hair was long and thin at six?",
-          "qTr": "Altı yaşında kimin saçları uzun ve inceydi?",
-          "correct": "Nora's hair",
+          "q": "What did Nora's hair look like at six?",
+          "qTr": "Nora altı yaşındayken saçı nasıl görünüyordu?",
+          "correct": "Long and thin",
           "wrong": [
-            "Sam's hair",
-            "Leyla's hair"
+            "Short and thick",
+            "Dark and wavy"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın saçını bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What was Sam's face like at six?",
-          "qTr": "Sam'in yüzü altı yaşında nasıldı?",
-          "correct": "It was round",
+          "q": "What does Sam's face look like now?",
+          "qTr": "Sam'in yüzü şimdi nasıl görünüyor?",
+          "correct": "It is thinner",
           "wrong": [
-            "It was thin",
-            "It was long"
+            "It is rounder",
+            "It is bigger"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'in yüzünü bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Who was taller at six — Nora or Sam?",
-          "qTr": "Altı yaşında kim daha uzundu — Nora mı Sam mi?",
-          "correct": "Nora was taller",
+          "q": "How old were the children in the photo?",
+          "qTr": "Fotoğraftaki çocuklar kaç yaşındaydı?",
+          "correct": "They were six",
           "wrong": [
-            "Sam was taller",
-            "They were the same"
+            "They were nine",
+            "They were seven"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Eski sınıf fotoğrafını bul.",
           "hl": [
-            5
+            0
           ]
         },
         {
-          "q": "How was Leyla's hair in the photo?",
-          "qTr": "Fotoğrafta Leyla'nın saçı nasıldı?",
-          "correct": "It was straight",
+          "q": "Who was taller than Nora at six?",
+          "qTr": "Altı yaşında Nora'dan daha uzun olan kimdi?",
+          "correct": "Nobody was taller",
           "wrong": [
-            "It was wavy",
-            "It was short"
+            "Sam was taller",
+            "Leyla was taller"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Altı yaşındaki Sam'i bul.",
           "hl": [
-            3
+            5
           ]
         },
         {
@@ -111,9 +111,9 @@
           "correct": "Leyla's brother",
           "wrong": [
             "Leyla's sister",
-            "Sam's brother"
+            "Nora's brother"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'nın küçük kardeşini bul.",
           "hl": [
             7
           ]
@@ -168,29 +168,42 @@
       ],
       "questions": [
         {
-          "q": "What is Nora wearing on a cloudy, cool Monday?",
-          "qTr": "Nora bulutlu, serin bir pazartesi ne giyiyor?",
+          "q": "What is Nora wearing on Monday?",
+          "qTr": "Nora pazartesi ne giyiyor?",
           "correct": "A cardigan and leggings",
           "wrong": [
             "A sundress and sandals",
             "A raincoat and trainers"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Pazartesi'yi bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Sam prefer on a foggy, misty Tuesday?",
-          "qTr": "Sam sisli, puslu bir salı neyi tercih eder?",
+          "q": "What kind of clothing does Sam prefer on Tuesday?",
+          "qTr": "Sam salı günü ne tür kıyafet tercih eder?",
           "correct": "Something waterproof",
           "wrong": [
             "Something warm",
-            "Something cool"
+            "Something light"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Salı'yı bul.",
           "hl": [
             4
+          ]
+        },
+        {
+          "q": "Is there anything warm in Nora's wardrobe?",
+          "qTr": "Nora'nın gardırobunda sıcak bir şey var mı?",
+          "correct": "Her thick hoodie",
+          "wrong": [
+            "Her thin blouse",
+            "Her new sandals"
+          ],
+          "hint": "Nora'nın gardırobunu bul.",
+          "hl": [
+            2
           ]
         },
         {
@@ -201,33 +214,20 @@
             "Stormy and humid",
             "Foggy and misty"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Perşembe'yi bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What is Leyla wearing on Wednesday?",
-          "qTr": "Leyla çarşamba ne giyiyor?",
-          "correct": "A blouse, a belt and leggings",
+          "q": "What kind of clothing does Sam prefer at home?",
+          "qTr": "Sam evde ne tür kıyafet tercih eder?",
+          "correct": "His warm pyjamas",
           "wrong": [
-            "A sundress, a hat and sandals",
-            "A cardigan, a scarf and gloves"
+            "His grey raincoat",
+            "His old trainers"
           ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Sam prefer at home?",
-          "qTr": "Sam evde neyi tercih eder?",
-          "correct": "His pyjamas",
-          "wrong": [
-            "His raincoat",
-            "His trainers"
-          ],
-          "hint": "Read sentence 10.",
+          "hint": "Sam'in evini bul.",
           "hl": [
             9
           ]
@@ -282,14 +282,14 @@
       ],
       "questions": [
         {
-          "q": "When is Nora's birthday?",
-          "qTr": "Nora'nın doğum günü ne zaman?",
+          "q": "When was Nora's birthday?",
+          "qTr": "Nora'nın doğum günü ne zamandı?",
           "correct": "On the 14th of February",
           "wrong": [
-            "On the 3rd of July",
-            "On the 17th of September"
+            "On the 17th of September",
+            "On the 3rd of July"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'nın doğum gününü bul.",
           "hl": [
             0
           ]
@@ -297,53 +297,53 @@
         {
           "q": "What did Leyla do on her birthday?",
           "qTr": "Leyla doğum gününde ne yaptı?",
-          "correct": "She painted a picture and baked a cake",
+          "correct": "She painted and baked",
           "wrong": [
-            "She watched a film and danced at a party",
-            "She acted in the school play with Nora"
+            "She watched and danced",
+            "She played and laughed"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Leyla'nın doğum gününü bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What did Sam do on the 1st of April?",
-          "qTr": "Sam 1 Nisan'da ne yaptı?",
-          "correct": "He joked with Leyla",
-          "wrong": [
-            "He watched a parade",
-            "He waved a flag"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
           "q": "What did the class do on the 9th of May?",
           "qTr": "Sınıf 9 Mayıs'ta ne yaptı?",
-          "correct": "They cleaned the garden and planted flowers",
+          "correct": "They cleaned and planted",
           "wrong": [
-            "They danced and marched at the school",
-            "They waved flags and clapped at the ceremony"
+            "They danced and marched",
+            "They waved and clapped"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "9 Mayıs'ı bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Which date does Sam love the most?",
-          "qTr": "Sam en çok hangi tarihi sever?",
-          "correct": "The 3rd of July",
+          "q": "What did the children do on the 30th of August?",
+          "qTr": "Çocuklar 30 Ağustos'ta ne yaptı?",
+          "correct": "They watched a parade",
           "wrong": [
-            "The 14th of February",
-            "The 23rd of April"
+            "They painted a picture",
+            "They planted the flowers"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "30 Ağustos'u bul.",
           "hl": [
-            9
+            7
+          ]
+        },
+        {
+          "q": "When was the school ceremony with flags?",
+          "qTr": "Bayraklı okul töreni ne zamandı?",
+          "correct": "On the 29th of October",
+          "wrong": [
+            "On the 23rd of April",
+            "On the 19th of May"
+          ],
+          "hint": "Bayrakları bul.",
+          "hl": [
+            8
           ]
         }
       ]
@@ -408,40 +408,40 @@
       ],
       "questions": [
         {
-          "q": "Who did Nora paint?",
-          "qTr": "Nora kimi boyadı?",
-          "correct": "Mr. Tan",
+          "q": "What does Mr. Tan look like?",
+          "qTr": "Mr. Tan nasıl görünüyor?",
+          "correct": "He has a moustache",
           "wrong": [
-            "Ms. Reed",
-            "Her grandfather"
+            "He has fair hair",
+            "He has huge shoulders"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Mr. Tan'ı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did Nora copy on Mr. Tan's face?",
-          "qTr": "Nora, Mr. Tan'ın yüzünde neyi kopyaladı?",
-          "correct": "His moustache and beard",
+          "q": "What does Ms. Reed's hair look like?",
+          "qTr": "Ms. Reed'in saçı nasıl görünüyor?",
+          "correct": "Fair and wavy",
           "wrong": [
-            "His round face and neck",
-            "His fair and wavy hair"
+            "Thick and dark",
+            "Short and straight"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "Whose shoulders are huge?",
-          "qTr": "Kimin omuzları kocaman?",
-          "correct": "Leyla's grandfather",
+          "q": "What does Leyla's grandfather look like?",
+          "qTr": "Leyla'nın dedesi nasıl görünüyor?",
+          "correct": "Round face, huge shoulders",
           "wrong": [
-            "Sam's grandfather",
-            "Nora's grandfather"
+            "Thin face, medium shoulders",
+            "Fair hair, bright eyes"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'nın dedesini bul.",
           "hl": [
             3
           ]
@@ -452,22 +452,22 @@
           "correct": "Her bright green eyes",
           "wrong": [
             "Her fair wavy hair",
-            "Her round little face"
+            "Her long thin neck"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Burnu bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Where did Leyla start her portrait?",
-          "qTr": "Leyla portresine nereden başladı?",
+          "q": "What did Leyla start with?",
+          "qTr": "Leyla neyle başladı?",
           "correct": "The neck and shoulders",
           "wrong": [
             "The hair and eyes",
-            "The face and nose"
+            "The face and beard"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'nın ilk adımını bul.",
           "hl": [
             7
           ]
@@ -522,14 +522,14 @@
       ],
       "questions": [
         {
-          "q": "What could Nora play when she was six?",
-          "qTr": "Nora altı yaşındayken ne çalabiliyordu?",
-          "correct": "The piano",
+          "q": "What could Nora do when she was six?",
+          "qTr": "Nora altı yaşındayken ne yapabiliyordu?",
+          "correct": "She could play the piano",
           "wrong": [
-            "The guitar",
-            "The violin"
+            "She could ride a bike",
+            "She could write her name"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Altı yaşındaki Nora'yı bul.",
           "hl": [
             0
           ]
@@ -537,12 +537,12 @@
         {
           "q": "What could Sam do at six?",
           "qTr": "Sam altı yaşında ne yapabiliyordu?",
-          "correct": "Swim in the pool",
+          "correct": "He could swim",
           "wrong": [
-            "Ride a big bike",
-            "Sing five songs"
+            "He could dance",
+            "He could draw"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Altı yaşındaki Sam'i bul.",
           "hl": [
             2
           ]
@@ -550,14 +550,27 @@
         {
           "q": "What could Leyla do when she was six?",
           "qTr": "Leyla altı yaşındayken ne yapabiliyordu?",
-          "correct": "Sing five songs",
+          "correct": "She could sing five songs",
           "wrong": [
-            "Ride a big bike",
-            "Write a long story"
+            "She could speak two languages",
+            "She could write long stories"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Altı yaşındaki Leyla'yı bul.",
           "hl": [
             4
+          ]
+        },
+        {
+          "q": "What could Sam not do when he was five?",
+          "qTr": "Sam beş yaşındayken ne yapamıyordu?",
+          "correct": "He could not ride a bike",
+          "wrong": [
+            "He could not swim in a pool",
+            "He could not play with friends"
+          ],
+          "hint": "Beş yaşındaki Sam'i bul.",
+          "hl": [
+            7
           ]
         },
         {
@@ -568,22 +581,9 @@
             "A small picture",
             "A round flag"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Geçen ayı bul.",
           "hl": [
             5
-          ]
-        },
-        {
-          "q": "What did Leyla finish yesterday?",
-          "qTr": "Leyla dün neyi bitirdi?",
-          "correct": "Her first story",
-          "wrong": [
-            "Her first poster",
-            "Her first song"
-          ],
-          "hint": "Read sentence 9.",
-          "hl": [
-            8
           ]
         }
       ]
@@ -644,66 +644,66 @@
       ],
       "questions": [
         {
-          "q": "Who was faster at seven — Nora or Sam?",
-          "qTr": "Yedi yaşında kim daha hızlıydı — Nora mı Sam mi?",
+          "q": "Who was faster at seven?",
+          "qTr": "Yedi yaşında kim daha hızlıydı?",
           "correct": "Nora was faster",
           "wrong": [
             "Sam was faster",
-            "They were the same"
+            "Leyla was faster"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Yedi yaşını bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who is more careful in every race?",
-          "qTr": "Her yarışta daha dikkatli olan kimdir?",
-          "correct": "Leyla",
+          "q": "Who was braver on the climbing frame?",
+          "qTr": "Tırmanma parkurunda kim daha cesurdu?",
+          "correct": "Nora was braver",
           "wrong": [
-            "Sam",
-            "Nora"
+            "Sam was braver",
+            "Leyla was braver"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Tırmanma parkurunu bul.",
           "hl": [
-            3
+            2
+          ]
+        },
+        {
+          "q": "Who is more hardworking in the lessons?",
+          "qTr": "Derslerde kim daha çalışkan?",
+          "correct": "Leyla is",
+          "wrong": [
+            "Sam is",
+            "Nora is"
+          ],
+          "hint": "Mr. Demir'in derslerini bul.",
+          "hl": [
+            4
           ]
         },
         {
           "q": "Whose jump was longer?",
           "qTr": "Kimin atlayışı daha uzundu?",
-          "correct": "Leyla's jump",
+          "correct": "Leyla's jump was longer",
           "wrong": [
-            "Nora's jump",
-            "Sam's jump"
+            "Nora's jump was longer",
+            "Sam's jump was longer"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Atlayışı bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What does Leyla say about Sam?",
-          "qTr": "Leyla, Sam hakkında ne der?",
-          "correct": "He is funnier and naughtier",
-          "wrong": [
-            "He is quieter and kinder",
-            "He is faster and stronger"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
-          ]
-        },
-        {
           "q": "What is more important than winning?",
           "qTr": "Kazanmaktan daha önemli olan nedir?",
-          "correct": "Being kinder to each other",
+          "correct": "Being kinder",
           "wrong": [
-            "Being faster than the others",
-            "Being stronger than last year"
+            "Being faster",
+            "Being stronger"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Ms. Reed'in cümlesini bul.",
           "hl": [
             8
           ]
@@ -769,7 +769,7 @@
             "Clear and sunny",
             "Foggy and misty"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "2 Mayıs'ı bul.",
           "hl": [
             1
           ]
@@ -777,25 +777,25 @@
         {
           "q": "What did the class do on the 5th of May?",
           "qTr": "Sınıf 5 Mayıs'ta ne yaptı?",
-          "correct": "They stayed inside and painted",
+          "correct": "They painted pictures",
           "wrong": [
-            "They played football outside",
-            "They marched at the ceremony"
+            "They played football",
+            "They marched outside"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "5 Mayıs'ı bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Why did the cars use their lights?",
-          "qTr": "Arabalar farlarını neden kullandı?",
-          "correct": "It was foggy and misty",
+          "q": "When was the weather foggy and misty?",
+          "qTr": "Hava ne zaman sisli ve pusluydu?",
+          "correct": "On the 4th of May",
           "wrong": [
-            "It was freezing and cloudy",
-            "It was warm and humid"
+            "On the 6th of May",
+            "On the 3rd of May"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Arabaların farlarını bul.",
           "hl": [
             3
           ]
@@ -808,20 +808,20 @@
             "Freezing and cloudy",
             "Windy and cool"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "19 Mayıs'ı bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What is the weather like now?",
-          "qTr": "Şu anda hava nasıl?",
+          "q": "What is the weather like today?",
+          "qTr": "Bugün hava nasıl?",
           "correct": "It is raining",
           "wrong": [
             "It is foggy",
             "It is windy"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Pencerenin dışını bul.",
           "hl": [
             8
           ]
@@ -876,27 +876,27 @@
       ],
       "questions": [
         {
-          "q": "What does Nora enjoy wearing on hot days?",
-          "qTr": "Nora sıcak günlerde ne giymekten hoşlanır?",
-          "correct": "The yellow sundress and flats",
+          "q": "What kind of clothing does Nora enjoy on hot days?",
+          "qTr": "Nora sıcak günlerde ne tür kıyafetten hoşlanır?",
+          "correct": "The sundress and flats",
           "wrong": [
-            "The blue blouse and trainers",
-            "The thick cardigan and gloves"
+            "The blouse and trainers",
+            "The cardigan and gloves"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sıcak günleri bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Nora prefer to wear on cool days?",
-          "qTr": "Nora serin günlerde ne giymeyi tercih eder?",
-          "correct": "The blue blouse and trainers",
+          "q": "What kind of clothing does Nora prefer on cool days?",
+          "qTr": "Nora serin günlerde ne tür kıyafet tercih eder?",
+          "correct": "The blouse and trainers",
           "wrong": [
-            "The yellow sundress and flats",
-            "The raincoat and the boots"
+            "The sundress and flats",
+            "The raincoat and boots"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Serin günleri bul.",
           "hl": [
             2
           ]
@@ -909,33 +909,33 @@
             "A hoodie",
             "A helmet"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Pazartesi gününü bul.",
           "hl": [
             3
           ]
         },
         {
           "q": "What fits Sam like a glove?",
-          "qTr": "Sam'e tam oturan nedir?",
+          "qTr": "Sam'e ne tam oturuyor?",
           "correct": "His helmet",
           "wrong": [
             "His hoodie",
             "His belt"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'in bisikletini bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Leyla prefer on rainy days?",
-          "qTr": "Leyla yağmurlu günlerde neyi tercih eder?",
+          "q": "What kind of clothing does Leyla prefer on rainy days?",
+          "qTr": "Leyla yağmurlu günlerde ne tür kıyafet tercih eder?",
           "correct": "The raincoat and boots",
           "wrong": [
             "The cardigan and gloves",
             "The blouse and leggings"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Yağmurlu günleri bul.",
           "hl": [
             6
           ]
@@ -993,7 +993,7 @@
         "Ms. Çelik: Herkes yardım etti. Nora, sen altı yaşında ne yapabiliyordun?",
         "Nora: Şarkı söyleyebiliyordum ama dans edemiyordum. Şimdi ikisini de yapabiliyorum!",
         "Leyla: Altı yaşında çizim yapabiliyordum ama çizimlerim çok küçüktü.",
-        "Mr. Demir: Sizin yaşınızdayken hobim futboldu. Çok iyi vuruş yapabiliyordum!",
+        "Mr. Demir: Sizin yaşınızdayken hobim futboldu. Topa çok iyi vurabiliyordum!",
         "Ms. Çelik: Eski hobiler, yeni hobiler — her yetenek bir yerden başladı!"
       ],
       "questions": [
@@ -1005,20 +1005,20 @@
             "She played the guitar",
             "She carried the posters"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın gösterisini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What couldn't Sam do at six?",
-          "qTr": "Sam altı yaşında ne yapamıyordu?",
+          "q": "What could Sam not do when he was six?",
+          "qTr": "Sam altı yaşındayken ne yapamıyordu?",
           "correct": "Play the guitar",
           "wrong": [
-            "Play football",
-            "Paint a poster"
+            "Kick a ball",
+            "Draw a picture"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Altı yaşındaki Sam'i bul.",
           "hl": [
             2
           ]
@@ -1031,33 +1031,33 @@
             "He painted the posters",
             "He danced with Leyla"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Merdivenleri bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What could Nora do at six?",
-          "qTr": "Nora altı yaşında ne yapabiliyordu?",
+          "q": "What could Nora do when she was six?",
+          "qTr": "Nora altı yaşındayken ne yapabiliyordu?",
           "correct": "She could sing",
           "wrong": [
             "She could dance",
             "She could draw"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Altı yaşındaki Nora'yı bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What was Mr. Demir's hobby?",
-          "qTr": "Mr. Demir'in hobisi neydi?",
+          "q": "What were Mr. Demir's hobbies at their age?",
+          "qTr": "Mr. Demir'in onların yaşındayken hobileri nelerdi?",
           "correct": "Football",
           "wrong": [
-            "Dancing",
-            "Drawing"
+            "Painting",
+            "Swimming"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Mr. Demir'i bul.",
           "hl": [
             8
           ]
@@ -1112,40 +1112,40 @@
       ],
       "questions": [
         {
-          "q": "What is new in Nora's wardrobe?",
-          "qTr": "Nora'nın gardırobunda yeni olan nedir?",
+          "q": "Is there anything new in Nora's wardrobe?",
+          "qTr": "Nora'nın gardırobunda yeni bir şey var mı?",
           "correct": "A beautiful blouse",
           "wrong": [
-            "A new bracelet",
+            "A silver bracelet",
             "A warm cardigan"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın gardırobunu bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Nora prefer in summer?",
-          "qTr": "Nora yazın neyi tercih eder?",
+          "q": "What kind of clothing does Nora prefer in summer?",
+          "qTr": "Nora yazın ne tür kıyafet tercih eder?",
           "correct": "Flip-flops",
           "wrong": [
             "Slippers",
             "Trainers"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Plajı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What is on Nora's desk?",
-          "qTr": "Nora'nın masasında ne var?",
-          "correct": "A bracelet",
+          "q": "Is there anything on Nora's desk?",
+          "qTr": "Nora'nın masasında bir şey var mı?",
+          "correct": "A new bracelet",
           "wrong": [
-            "A ring",
-            "A blouse"
+            "A silver ring",
+            "A blue blouse"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'nın masasını bul.",
           "hl": [
             5
           ]
@@ -1158,7 +1158,7 @@
             "On the desk",
             "In the wardrobe"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Güneş gözlüklerini bul.",
           "hl": [
             7
           ]
@@ -1169,9 +1169,9 @@
           "correct": "Warm slippers",
           "wrong": [
             "New flats",
-            "A bracelet"
+            "Bright sunglasses"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Leyla'nın hediyesini bul.",
           "hl": [
             8
           ]
@@ -1222,8 +1222,8 @@
         "Ms. Reed: Dün ne yaptınız? Her şeyi anlatın!",
         "Nora: Sabah parka yürüdüm ve köpeğimle oynadım.",
         "Nora: Sonra annemle öğle yemeği pişirdim. Birlikte büyük bir salata hazırladık!",
-        "Nora: Öğleden sonra müzik dinledim ve odamda bir resim boyadım.",
-        "Nora: Bir saat de İngilizce çalıştım. Etkinlik kitabımdan yeni kelimeler pratik ettim.",
+        "Nora: Öğleden sonra müzik dinledim ve odamda bir resim yaptım.",
+        "Nora: Bir saat de İngilizce çalıştım. Etkinlik kitabımdan yeni kelimeler çalıştım.",
         "Sam: Sabah bir futbol maçı izledim. Takımım üç gol attı!",
         "Sam: Ondan sonra odamı temizledim. Çok dağınıktı!",
         "Sam: Sonra arkadaşlarıma katıldım ve bahçede basketbol oynadık.",
@@ -1232,14 +1232,14 @@
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "What the pupils did yesterday",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "Yesterday",
           "wrong": [
-            "What the pupils do every day",
-            "What the pupils enjoy wearing"
+            "Clothes",
+            "Weather"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Dünü düşün.",
           "hl": [
             0,
             1,
@@ -1249,51 +1249,51 @@
         {
           "q": "What did Nora do in the afternoon?",
           "qTr": "Nora öğleden sonra ne yaptı?",
-          "correct": "She listened to music and painted",
+          "correct": "She listened and painted",
           "wrong": [
-            "She cooked lunch with her mum",
-            "She visited her grandmother"
+            "She cooked and prepared",
+            "She visited and laughed"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Öğleden sonrayı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What did Sam do after the match?",
-          "qTr": "Sam maçtan sonra ne yaptı?",
-          "correct": "He cleaned his messy room",
+          "q": "What did Sam do after the football match?",
+          "qTr": "Sam futbol maçından sonra ne yaptı?",
+          "correct": "He cleaned his room",
           "wrong": [
-            "He played basketball outside",
-            "He visited his grandmother"
+            "He painted a poster",
+            "He studied his English"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Futbol maçını bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What did Sam do with his friends?",
-          "qTr": "Sam arkadaşlarıyla ne yaptı?",
+          "q": "What did Sam and his friends do?",
+          "qTr": "Sam ve arkadaşları ne yaptı?",
           "correct": "They played basketball",
           "wrong": [
-            "They watched a film",
-            "They studied English"
+            "They watched football",
+            "They cooked lunch"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam'in arkadaşlarını bul.",
           "hl": [
             7
           ]
         },
         {
-          "q": "What did Leyla paint in the evening?",
-          "qTr": "Leyla akşam ne boyadı?",
-          "correct": "A poster for the ceremony",
+          "q": "When was the ceremony in Leyla's poster?",
+          "qTr": "Leyla'nın afişindeki tören ne zamandı?",
+          "correct": "On the 19th of May",
           "wrong": [
-            "A picture in her room",
-            "A card for her grandmother"
+            "On the 14th of February",
+            "On the 9th of May"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Leyla'nın afişini bul.",
           "hl": [
             9
           ]
@@ -1352,14 +1352,14 @@
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "What the pupils were like at six",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "The past",
           "wrong": [
-            "What the pupils did yesterday",
-            "What the pupils prefer wearing"
+            "The weather",
+            "The clothes"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Altı yaşını düşün.",
           "hl": [
             0,
             1,
@@ -1367,53 +1367,53 @@
           ]
         },
         {
-          "q": "What could Nora do well when she was six?",
-          "qTr": "Nora altı yaşındayken neyi iyi yapabiliyordu?",
-          "correct": "She could draw really well",
+          "q": "What could Nora do when she was six?",
+          "qTr": "Nora altı yaşındayken ne yapabiliyordu?",
+          "correct": "She could draw well",
           "wrong": [
-            "She could sing beautifully",
-            "She could run very fast"
+            "She could sing well",
+            "She could run fast"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Altı yaşındaki Nora'yı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who was taller at six — Nora or Sam?",
-          "qTr": "Altı yaşında kim daha uzundu — Nora mı Sam mi?",
-          "correct": "Nora was taller than Sam",
+          "q": "Who was taller than Sam at six?",
+          "qTr": "Altı yaşında Sam'den daha uzun olan kimdi?",
+          "correct": "Nora was taller",
           "wrong": [
-            "Sam was taller than Nora",
-            "They were the same height"
+            "Leyla was taller",
+            "Nobody was taller"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Altı yaşındaki Sam'i bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What was Leyla's voice like at six?",
-          "qTr": "Leyla'nın sesi altı yaşında nasıldı?",
-          "correct": "It was stronger than today",
+          "q": "What was Leyla like at six?",
+          "qTr": "Leyla altı yaşında nasıldı?",
+          "correct": "She was braver",
           "wrong": [
-            "It was quieter than today",
-            "It was the same as today"
+            "She was quieter",
+            "She was kinder"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sahneyi bul.",
           "hl": [
-            8
+            7
           ]
         },
         {
-          "q": "What does Ms. Reed say about the pupils?",
-          "qTr": "Ms. Reed öğrenciler hakkında ne der?",
-          "correct": "They are kinder and more hardworking",
+          "q": "Who is more hardworking now?",
+          "qTr": "Şimdi kim daha çalışkan?",
+          "correct": "All the pupils",
           "wrong": [
-            "They were braver when they were six",
-            "They are quieter than two years ago"
+            "Only the girls",
+            "Only two pupils"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Ms. Reed'in son cümlesini bul.",
           "hl": [
             9
           ]
@@ -1463,7 +1463,7 @@
         "Nora: Sıcak havalarda elbise giymeyi tercih ederim. Açık günlerde yazlık elbisemi giymeyi severim!",
         "Nora: Bulutlu veya serin olduğunda hırkamı giymeyi tercih ederim. Tam oturuyor!",
         "Nora: Dondurucu bir akşamda sıcak terliklerden daha iyi bir şey var mı? Soğuk ayaklardan hoşlanmam!",
-        "Sam: Her gün spor ayakkabılarımı giymeyi severim. Hem eski hem yeni çiftim rahat.",
+        "Sam: Her gün spor ayakkabılarımı giymeyi severim. Eski çiftim de yeni çiftim de rahat.",
         "Sam: Fırtınalı olduğunda yağmurluğumu ve kapüşonlumu giymeyi tercih ederim. Islak hiçbir şeyden hoşlanmam!",
         "Leyla: Parlak renkler giymeyi severim. Her sabah neşeli bir şey seçmeyi tercih ederim.",
         "Leyla: Sisli veya puslu günlerde atkımı ve eldivenlerimi giymeyi tercih ederim. Bütün atkılarım renkli!",
@@ -1472,14 +1472,14 @@
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "What the pupils prefer wearing in different weather",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "Clothes",
           "wrong": [
-            "The school uniform rules for all the pupils",
-            "What the pupils did in the Art lesson"
+            "Hobbies",
+            "Birthdays"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Kıyafetleri düşün.",
           "hl": [
             0,
             1,
@@ -1487,14 +1487,14 @@
           ]
         },
         {
-          "q": "What does Nora prefer to wear on cloudy or cool days?",
-          "qTr": "Nora bulutlu veya serin günlerde ne giymeyi tercih eder?",
+          "q": "What kind of clothing does Nora prefer on cool days?",
+          "qTr": "Nora serin günlerde ne tür kıyafet tercih eder?",
           "correct": "Her cardigan",
           "wrong": [
             "Her sundress",
-            "Her slippers"
+            "Her raincoat"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Serin günleri bul.",
           "hl": [
             2
           ]
@@ -1505,22 +1505,22 @@
           "correct": "His trainers",
           "wrong": [
             "His raincoat",
-            "His hoodie"
+            "His pyjamas"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sam'in çiftlerini bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Leyla prefer on foggy or misty days?",
-          "qTr": "Leyla sisli veya puslu günlerde neyi tercih eder?",
-          "correct": "Her scarf and gloves",
+          "q": "What kind of clothing does Leyla prefer on misty days?",
+          "qTr": "Leyla puslu günlerde ne tür kıyafet tercih eder?",
+          "correct": "A scarf and gloves",
           "wrong": [
-            "Her cardigan and flats",
-            "Her trainers and shorts"
+            "A blouse and flats",
+            "A hoodie and shorts"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Puslu günleri bul.",
           "hl": [
             7
           ]
@@ -1530,10 +1530,10 @@
           "qTr": "Leyla okula ne giymekten hoşlanmaz?",
           "correct": "Pyjamas",
           "wrong": [
-            "A hoodie",
-            "A cardigan"
+            "Cardigans",
+            "Trainers"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Okulu bul.",
           "hl": [
             8
           ]
@@ -1583,7 +1583,7 @@
         "Mrs. Yıldız: Mideniz vücudunuzun ortasındadır. Diliniz yemeği tatmanıza yardım eder.",
         "Mrs. Yıldız: İki diziniz, on parmağınız ve on ayak parmağınız var.",
         "Mrs. Yıldız: Boynunuz başınızla omuzlarınızın arasındadır.",
-        "Nora: Dün ayak parmaklarımı üç kez saydım! Onda bitirdim.",
+        "Nora: Dün ayak parmaklarımı üç kez saydım! Sonunda on tane çıktı.",
         "Sam: Görsel Sanatlar dersinde bir yüz boyadım. Kalın bir bıyık ve kısa bir sakal ekledim!",
         "Nora: Midem Sam'inkinden daha küçük, ama parmaklarım onunkinden daha uzun.",
         "Sam: Leyla'nın yuvarlak bir yüzü ve orta boy bir burnu var. Benim yüzüm onunkinden daha uzun.",
@@ -1592,14 +1592,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Body parts and what they do",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "Our bodies",
           "wrong": [
-            "Weather and clothes for school",
-            "Old hobbies and past abilities"
+            "Our clothes",
+            "Our hobbies"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Vücudumuzu düşün.",
           "hl": [
             1,
             2,
@@ -1607,42 +1607,42 @@
           ]
         },
         {
-          "q": "What does the tongue help you do?",
-          "qTr": "Dil ne yapmana yardım eder?",
+          "q": "What does your tongue help you do?",
+          "qTr": "Dilin ne yapmana yardım eder?",
           "correct": "Taste food",
           "wrong": [
-            "Walk and run",
-            "See colours"
+            "Carry bags",
+            "Kick balls"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Dili bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did Sam add to the painted face?",
-          "qTr": "Sam boyadığı yüze ne ekledi?",
-          "correct": "A moustache and a beard",
+          "q": "What did Nora do yesterday?",
+          "qTr": "Nora dün ne yaptı?",
+          "correct": "She counted her toes",
           "wrong": [
-            "A neck and two shoulders",
-            "Ten fingers and ten toes"
+            "She painted a face",
+            "She practised a dance"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'nın dününü bul.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "Whose fingers are longer?",
-          "qTr": "Kimin parmakları daha uzun?",
-          "correct": "Nora's fingers",
+          "q": "What does Leyla's face look like?",
+          "qTr": "Leyla'nın yüzü nasıl görünüyor?",
+          "correct": "Round with a medium nose",
           "wrong": [
-            "Sam's fingers",
-            "Leyla's fingers"
+            "Thin with a bright smile",
+            "Long with a short beard"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'yı bul.",
           "hl": [
-            6
+            7
           ]
         },
         {
@@ -1653,7 +1653,7 @@
             "Her fingers and toes",
             "Her neck and tongue"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Leyla'nın dansını bul.",
           "hl": [
             8
           ]
@@ -1708,14 +1708,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A snow day and old winter abilities",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "Winter",
           "wrong": [
-            "A hot summer day at the beach",
-            "A school trip to the forest"
+            "Summer",
+            "Clothes"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Havayı düşün.",
           "hl": [
             0,
             3,
@@ -1728,48 +1728,48 @@
           "correct": "It is raining",
           "wrong": [
             "It is snowing",
-            "It is sunny"
+            "It is freezing"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Leyla'nın penceresini bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What could Nora make when she was six?",
+          "q": "What could Nora do when she was six?",
           "qTr": "Nora altı yaşındayken ne yapabiliyordu?",
-          "correct": "A huge snowball",
+          "correct": "Make a huge snowball",
           "wrong": [
-            "A big snowman",
-            "A hot soup"
+            "Skate on the ice",
+            "Walk on the snow"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Altı yaşındaki Nora'yı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What did Nora's mum cook yesterday?",
-          "qTr": "Nora'nın annesi dün ne pişirdi?",
-          "correct": "Hot soup",
+          "q": "What did Nora's mum do yesterday?",
+          "qTr": "Nora'nın annesi dün ne yaptı?",
+          "correct": "She cooked hot soup",
           "wrong": [
-            "Cold salad",
-            "Warm bread"
+            "She counted the snowballs",
+            "She closed all the windows"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Nora'nın annesini bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What couldn't Leyla do at six?",
-          "qTr": "Leyla altı yaşında ne yapamıyordu?",
+          "q": "What could Leyla not do when she was six?",
+          "qTr": "Leyla altı yaşındayken ne yapamıyordu?",
           "correct": "Walk on the ice",
           "wrong": [
-            "Skate on the ice",
-            "Make a snowball"
+            "Play in the snow",
+            "Skate in the street"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Altı yaşındaki Leyla'yı bul.",
           "hl": [
             8
           ]
@@ -1826,20 +1826,20 @@
         "Sam: Bakın — tam oturuyor!",
         "Leyla: Kemer benimkinden daha uzun, ama rengi daha parlak.",
         "Mr. Tan: Bu kravat okul kravatlarından daha eski. Senin mi, Sam?",
-        "Sam: Hayır, kravatlardan hoşlanmam! Gardırobum kapüşonlu dolu.",
+        "Sam: Hayır, kravatlardan hoşlanmam! Gardırobum kapüşonlularla dolu.",
         "Nora: Bu kutuya bakmayı severim. Bir mağazadan daha ilginç!",
         "Ms. Reed: Boş bir kutu dolu olandan daha iyidir — eşyalarınızı eve götürün!"
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Things in the missing things box",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "A box",
           "wrong": [
-            "New clothes in a big shop",
-            "The weather chart of the class"
+            "A shop",
+            "A wardrobe"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Kayıp eşyaları düşün.",
           "hl": [
             0,
             1,
@@ -1847,42 +1847,42 @@
           ]
         },
         {
-          "q": "What is inside the box?",
-          "qTr": "Kutunun içinde ne var?",
-          "correct": "A helmet, a belt, a tie and a ring",
+          "q": "Is there anything small in the box?",
+          "qTr": "Kutuda küçük bir şey var mı?",
+          "correct": "A ring",
           "wrong": [
-            "A blouse, a skirt, a cardigan and flats",
-            "A hoodie, a scarf, gloves and slippers"
+            "A belt",
+            "A tie"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Why is the ring not Nora's?",
-          "qTr": "Yüzük neden Nora'nın değil?",
-          "correct": "It is smaller than her finger",
-          "wrong": [
-            "It is bigger than her finger",
-            "It is older than her ring"
-          ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nın parmağını bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Whose helmet is it?",
-          "qTr": "Kask kimin?",
+          "q": "Whose helmet is in the box?",
+          "qTr": "Kutudaki kask kimin?",
           "correct": "It is Sam's",
           "wrong": [
             "It is Nora's",
             "It is Leyla's"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Bisikleti bul.",
           "hl": [
             3
+          ]
+        },
+        {
+          "q": "What does Leyla say about the belt?",
+          "qTr": "Leyla kemer hakkında ne der?",
+          "correct": "It is longer than hers",
+          "wrong": [
+            "It is older than the ties",
+            "It is smaller than her ring"
+          ],
+          "hint": "Kemeri bul.",
+          "hl": [
+            5
           ]
         },
         {
@@ -1893,7 +1893,7 @@
             "Helmets",
             "Hoodies"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam'in gardırobunu bul.",
           "hl": [
             7
           ]
@@ -1952,14 +1952,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Hobbies when the pupils were six",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "Old hobbies",
           "wrong": [
-            "Clothes for a rainy school day",
-            "The weather of the whole week"
+            "New clothes",
+            "Cold weather"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Hobileri düşün.",
           "hl": [
             0,
             1,
@@ -1967,14 +1967,14 @@
           ]
         },
         {
-          "q": "What were Nora's hobbies?",
-          "qTr": "Nora'nın hobileri nelerdi?",
+          "q": "What were Nora's hobbies when she was six?",
+          "qTr": "Nora altı yaşındayken hobileri nelerdi?",
           "correct": "Drawing and reading",
           "wrong": [
-            "Football and climbing",
-            "Singing and dancing"
+            "Singing and dancing",
+            "Playing and climbing"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın hobilerini bul.",
           "hl": [
             1
           ]
@@ -1982,12 +1982,12 @@
         {
           "q": "Why was Sam's mum angry?",
           "qTr": "Sam'in annesi neden kızgındı?",
-          "correct": "He climbed the highest tree",
+          "correct": "He climbed a tree",
           "wrong": [
-            "He played football at home",
-            "He stayed inside for days"
+            "He stayed inside",
+            "He played football"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Bahçedeki en yüksek ağacı bul.",
           "hl": [
             4
           ]
@@ -2000,7 +2000,7 @@
             "Reading and painting",
             "Drawing and climbing"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'nın hobilerini bul.",
           "hl": [
             7
           ]
@@ -2008,12 +2008,12 @@
         {
           "q": "What was Ms. Reed like when she was a child?",
           "qTr": "Ms. Reed çocukken nasıldı?",
-          "correct": "She was clever but naughty",
+          "correct": "Clever but naughty",
           "wrong": [
-            "She was quiet but angry",
-            "She was sweet but lazy"
+            "Quiet but angry",
+            "Sweet but lazy"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
             8
           ]
@@ -2076,14 +2076,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "A birthday calendar for Mr. Tan",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "A present",
           "wrong": [
-            "A weather chart for the classroom",
-            "A big box of missing school things"
+            "A holiday",
+            "A lesson"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Tarihleri düşün.",
           "hl": [
             0,
             1,
@@ -2091,14 +2091,14 @@
           ]
         },
         {
-          "q": "When is Mr. Tan's last day?",
-          "qTr": "Mr. Tan'ın son günü ne zaman?",
-          "correct": "The 20th of June",
+          "q": "When was Mr. Tan's last day at school?",
+          "qTr": "Mr. Tan'ın okuldaki son günü ne zamandı?",
+          "correct": "On the 20th of June",
           "wrong": [
-            "The 12th of June",
-            "The 15th of June"
+            "On the 12th of June",
+            "On the 15th of June"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Mr. Tan'ı bul.",
           "hl": [
             0
           ]
@@ -2108,23 +2108,23 @@
           "qTr": "Sınıf 12 Haziran'da ne yaptı?",
           "correct": "They painted a calendar",
           "wrong": [
-            "They wrapped the present",
-            "They planned a big party"
+            "They wrapped a present",
+            "They prepared a card"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "12 Haziran'ı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "When is Leyla's birthday?",
-          "qTr": "Leyla'nın doğum günü ne zaman?",
-          "correct": "The 6th of March",
+          "q": "When was Leyla's birthday?",
+          "qTr": "Leyla'nın doğum günü ne zamandı?",
+          "correct": "On the 6th of March",
           "wrong": [
-            "The 14th of February",
-            "The 3rd of July"
+            "On the 14th of February",
+            "On the 11th of April"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'nın doğum gününü bul.",
           "hl": [
             3
           ]
@@ -2137,7 +2137,7 @@
             "They painted the calendar",
             "They marked the birthdays"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "15 Haziran'ı bul.",
           "hl": [
             5
           ]
@@ -2196,14 +2196,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Packing clothes for different weather",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "A school trip",
           "wrong": [
-            "Comparing the pupils in the class",
-            "Old hobbies when they were six"
+            "A birthday party",
+            "A sports lesson"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Çantaları düşün.",
           "hl": [
             0,
             1,
@@ -2213,38 +2213,38 @@
         {
           "q": "When is the school trip?",
           "qTr": "Okul gezisi ne zaman?",
-          "correct": "The 4th of June",
+          "correct": "On the 4th of June",
           "wrong": [
-            "The 4th of July",
-            "The 14th of June"
+            "On the 4th of July",
+            "On the 6th of June"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Okul gezisini bul.",
           "hl": [
             0
           ]
         },
         {
           "q": "What does Nora enjoy wearing on clear days?",
-          "qTr": "Nora açık günlerde ne takmaktan hoşlanır?",
+          "qTr": "Nora açık günlerde ne giymekten hoşlanır?",
           "correct": "Sandals and sunglasses",
           "wrong": [
-            "A raincoat and hoodie",
-            "A thick warm cardigan"
+            "Raincoat and hoodie",
+            "Cardigan and gloves"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Açık günleri bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Sam prefer for a stormy afternoon?",
-          "qTr": "Sam fırtınalı bir öğleden sonra için neyi tercih eder?",
-          "correct": "His raincoat and hoodie",
+          "q": "Is there anything in Sam's bag for a storm?",
+          "qTr": "Sam'in çantasında fırtına için bir şey var mı?",
+          "correct": "A raincoat and hoodie",
           "wrong": [
-            "His shorts and sandals",
-            "His sunglasses and flats"
+            "A sundress and sandals",
+            "A cardigan and gloves"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Fırtınalı öğleden sonrayı bul.",
           "hl": [
             3
           ]
@@ -2255,9 +2255,9 @@
           "correct": "Something warm",
           "wrong": [
             "Something light",
-            "Something wet"
+            "Something bright"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Tepeyi bul.",
           "hl": [
             5
           ]
@@ -2320,14 +2320,14 @@
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "The class photo day at school",
+          "q": "What is the text about?",
+          "qTr": "Metin ne hakkındadır?",
+          "correct": "A class photo",
           "wrong": [
-            "A school trip to the forest",
-            "The box of missing school things"
+            "A school trip",
+            "A sports day"
           ],
-          "hint": "Think about the whole text.",
+          "hint": "Fotoğrafı düşün.",
           "hl": [
             0,
             1,
@@ -2335,14 +2335,14 @@
           ]
         },
         {
-          "q": "Who is absent today?",
-          "qTr": "Bugün kim eksik?",
-          "correct": "None of the pupils",
+          "q": "Which pupils are absent today?",
+          "qTr": "Bugün hangi öğrenciler eksik?",
+          "correct": "None of them",
           "wrong": [
-            "All of the girls",
-            "Both Sam and Leyla"
+            "Both of them",
+            "All of them"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Ms. Reed'in ilk cümlesini bul.",
           "hl": [
             1
           ]
@@ -2352,23 +2352,23 @@
           "qTr": "Nora'dan daha uzun olan kimdir?",
           "correct": "Both Sam and Leyla",
           "wrong": [
-            "Only Sam",
-            "None of them"
+            "Only Sam and Mr. Tan",
+            "None of the pupils"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Ön sırayı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What is Sam's tie like?",
-          "qTr": "Sam'in kravatı nasıl?",
+          "q": "What does Sam's tie look like?",
+          "qTr": "Sam'in kravatı nasıl görünüyor?",
           "correct": "It is thin",
           "wrong": [
             "It is thick",
             "It is round"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'in kravatını bul.",
           "hl": [
             3
           ]
@@ -2381,7 +2381,7 @@
             "Leyla's hair",
             "Sam's hair"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'nın saçını bul.",
           "hl": [
             7
           ]
@@ -2442,71 +2442,73 @@
         "Leyla: Üç yıl önce 12 Eylül'de Greenfield School'a başladım.",
         "Leyla: İlk gün gergindim. Kimseyle konuşamıyordum — ama Ms. Reed bana gülümsedi!",
         "Ms. Reed: Hikayeleriniz harika. Bunu bir anı kitabı olarak kullanmaktan çekinmeyin!",
-        "Ms. Reed: Lütfen haberleşelim — geçmişiniz bugün sizin bir parçanız!"
+        "Ms. Reed: Lütfen haberleşelim — geçmişiniz bugünkü halinizin bir parçası!"
       ],
       "questions": [
         {
-          "q": "When is Nora's birthday?",
-          "qTr": "Nora'nın doğum günü ne zaman?",
-          "correct": "On the 14th of February",
+          "q": "Why could Nora draw animals so well at five?",
+          "qTr": "Nora beş yaşında hayvanları neden bu kadar iyi çizebiliyordu?",
+          "correct": "She could not read yet",
           "wrong": [
-            "On the 12th of September",
-            "On the 1st of March"
+            "She lived in a big flat",
+            "She walked to the park daily"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "How old was Nora when she lived in a small flat?",
+          "qTr": "Nora küçük bir dairede yaşarken kaç yaşındaydı?",
+          "correct": "She was five",
+          "wrong": [
+            "She was six",
+            "She was nine"
+          ],
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What could Nora do well when she was five?",
-          "qTr": "Nora beş yaşındayken neyi iyi yapabiliyordu?",
-          "correct": "She could draw animals",
+          "q": "Who could kick a ball further than Sam?",
+          "qTr": "Sam'den daha uzağa top vurabilen kimdi?",
+          "correct": "Nobody could",
           "wrong": [
-            "She could read books",
-            "She could cook dinner"
+            "His dad could",
+            "His brother could"
           ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "What could Sam do better than his brother?",
-          "qTr": "Sam kardeşinden daha iyi ne yapabiliyordu?",
-          "correct": "Kick a ball further",
-          "wrong": [
-            "Cook a big dinner",
-            "Read a long book"
-          ],
-          "hint": "Read sentence 7.",
+          "hint": "Sam'e bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "When did Leyla start at Greenfield School?",
-          "qTr": "Leyla Greenfield Okulu'na ne zaman başladı?",
-          "correct": "On the 12th of September",
+          "q": "Why did Sam help his dad every evening?",
+          "qTr": "Sam neden her akşam babasına yardım ederdi?",
+          "correct": "He could not cook",
           "wrong": [
-            "On the 14th of February",
-            "On the 1st of September"
+            "He could not read",
+            "He could not play"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sam'e bak.",
           "hl": [
-            8
+            7
           ]
         },
         {
-          "q": "How was Leyla on her 1st day?",
-          "qTr": "Leyla ilk gününde nasıldı?",
-          "correct": "She was nervous",
+          "q": "Why was Leyla happy on her 1st day?",
+          "qTr": "Leyla ilk gününde neden mutluydu?",
+          "correct": "Ms. Reed smiled at her",
           "wrong": [
-            "She was angry",
-            "She was sleepy"
+            "Her friends played with her",
+            "Her teacher walked with her"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            8,
             9
           ]
         }
@@ -2564,68 +2566,70 @@
       ],
       "questions": [
         {
-          "q": "Who is taller now — Nora or Sam?",
-          "qTr": "Şimdi kim daha uzun — Nora mı Sam mi?",
-          "correct": "Nora is taller than Sam",
+          "q": "Who was taller two years ago?",
+          "qTr": "İki yıl önce kim daha uzundu?",
+          "correct": "Sam was taller",
           "wrong": [
-            "Sam is taller than Nora",
-            "They are the same height"
+            "Nora was taller",
+            "Leyla was taller"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Sam say about Nora?",
-          "qTr": "Sam, Nora hakkında ne der?",
-          "correct": "She is more careful and hardworking",
+          "q": "Who is more careful in class?",
+          "qTr": "Sınıfta kim daha dikkatli?",
+          "correct": "Nora is",
           "wrong": [
-            "She is funnier and braver than him",
-            "She is quieter and stronger than him"
+            "Sam is",
+            "Leyla is"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'e bak.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Who could lift heavier boxes at seven?",
-          "qTr": "Yedi yaşında kim daha ağır kutular kaldırabiliyordu?",
-          "correct": "Sam could",
+          "q": "Why is Sam faster than Nora today?",
+          "qTr": "Sam bugün neden Nora'dan daha hızlı?",
+          "correct": "He was always faster",
           "wrong": [
-            "Leyla could",
-            "Nora could"
+            "He was always braver",
+            "He was always stronger"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Sam'e bak.",
           "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What could Sam do at seven?",
+          "qTr": "Sam yedi yaşında ne yapabiliyordu?",
+          "correct": "Lift heavy boxes",
+          "wrong": [
+            "Run very fast",
+            "Draw wavy hair"
+          ],
+          "hint": "Leyla'ya bak.",
+          "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "What does Nora say about Leyla's hair?",
-          "qTr": "Nora, Leyla'nın saçı hakkında ne der?",
-          "correct": "It is longer and wavier",
+          "q": "What does Leyla's hair look like?",
+          "qTr": "Leyla'nın saçı nasıl görünüyor?",
+          "correct": "Long and wavy",
           "wrong": [
-            "It is shorter and straighter",
-            "It is thicker and darker"
+            "Short and thick",
+            "Fair and round"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            6,
             7
-          ]
-        },
-        {
-          "q": "What does Ms. Reed say is the most important thing?",
-          "qTr": "Ms. Reed en önemli şeyin ne olduğunu söyler?",
-          "correct": "They are all better than last year",
-          "wrong": [
-            "Being the tallest in the class",
-            "Being the most careful pupil"
-          ],
-          "hint": "Read sentence 10.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -2682,66 +2686,70 @@
       ],
       "questions": [
         {
-          "q": "What is in the summer box?",
-          "qTr": "Yaz kutusunda ne var?",
-          "correct": "Sandals, flip-flops and sunglasses",
-          "wrong": [
-            "Gloves, a scarf and a belt",
-            "A cardigan and leggings"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does Nora enjoy wearing on hot days?",
-          "qTr": "Nora sıcak günlerde ne giymekten hoşlanır?",
+          "q": "Is there anything for hot days in the cupboard?",
+          "qTr": "Dolapta sıcak günler için bir şey var mı?",
           "correct": "The flip-flops",
           "wrong": [
-            "The sandals",
-            "The gloves"
+            "The thick scarf",
+            "The blue leggings"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "What does Sam dislike in the winter box?",
-          "qTr": "Sam kış kutusunda neden hoşlanmaz?",
-          "correct": "The belt",
+          "q": "What kind of clothing does Nora prefer for school?",
+          "qTr": "Nora okul için ne tür kıyafet tercih eder?",
+          "correct": "The sandals",
           "wrong": [
             "The gloves",
-            "The scarf"
+            "The leggings"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "Why does Sam enjoy the winter box?",
+          "qTr": "Sam kış kutusundan neden hoşlanır?",
+          "correct": "He prefers warm gloves",
+          "wrong": [
+            "He prefers black belts",
+            "He prefers school ties"
+          ],
+          "hint": "Sam'e bak.",
+          "hl": [
+            3,
             5
           ]
         },
         {
-          "q": "What does Leyla prefer to wear with a hoodie?",
-          "qTr": "Leyla kapüşonluyla ne giymeyi tercih eder?",
-          "correct": "The blue leggings",
+          "q": "What kind of clothing does Leyla dislike?",
+          "qTr": "Leyla ne tür kıyafetten hoşlanmaz?",
+          "correct": "Anything tight",
           "wrong": [
-            "The light cardigan",
-            "The black belt"
+            "Anything warm",
+            "Anything bright"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            6,
             7
           ]
         },
         {
-          "q": "What is in the cupboard for a school ceremony?",
-          "qTr": "Dolapta okul töreni için ne var?",
+          "q": "Is there anything for a school ceremony?",
+          "qTr": "Okul töreni için bir şey var mı?",
           "correct": "The school tie",
           "wrong": [
-            "The thick scarf",
-            "The light cardigan"
+            "The light cardigan",
+            "The black belt"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Nora'ya bak.",
           "hl": [
             8
           ]
@@ -2790,22 +2798,23 @@
         "Mrs. Yıldız: Parmağın iyi. Oynarken dikkatli ol!",
         "Nora: Mrs. Yıldız, midem ağrıyor ve dilim çok kuru.",
         "Mrs. Yıldız: Su iç ve on dakika dinlen. Bütün sabah güneşte miydin?",
-        "Nora: Evet! Omuzlarım sıcaktı ve boynum kızarmıştı.",
+        "Nora: Evet! Omuzlarım sıcaktı ve boynum kızarıktı.",
         "Mrs. Yıldız: Sandalyeye otur. Sana şimdi yardım edebilirim.",
         "Sam: Altı yaşındayken buraya tek başıma gelemiyordum. Şimdi gelebiliyorum!"
       ],
       "questions": [
         {
-          "q": "What hurts Sam?",
-          "qTr": "Sam'in nesi ağrıyor?",
-          "correct": "His knee",
+          "q": "Why does Sam's knee hurt today?",
+          "qTr": "Sam'in dizi bugün neden ağrıyor?",
+          "correct": "There was a PE problem",
           "wrong": [
-            "His tongue",
-            "His neck"
+            "There was a long walk",
+            "There was a bike ride"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam'e bak.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
@@ -2813,49 +2822,52 @@
           "qTr": "Sam'in başka nesi ağrıyor?",
           "correct": "His finger and toe",
           "wrong": [
-            "His neck and shoulders",
-            "His stomach and tongue"
+            "His neck and stomach",
+            "His tongue and knee"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'e bak.",
           "hl": [
+            2,
             3
           ]
         },
         {
-          "q": "What is wrong with Nora?",
-          "qTr": "Nora'nın nesi var?",
-          "correct": "Her stomach hurts",
+          "q": "Why is Nora's tongue very dry?",
+          "qTr": "Nora'nın dili neden çok kuru?",
+          "correct": "She was in the sun",
           "wrong": [
-            "Her knee hurts",
-            "Her finger hurts"
+            "She was in the rain",
+            "She was in the pool"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            5
+            5,
+            6,
+            7
           ]
         },
         {
-          "q": "How were Nora's shoulders?",
-          "qTr": "Nora'nın omuzları nasıldı?",
-          "correct": "They were hot",
+          "q": "What does Nora's neck look like?",
+          "qTr": "Nora'nın boynu nasıl görünüyor?",
+          "correct": "It is red",
           "wrong": [
-            "They were cold",
-            "They were fine"
+            "It is dry",
+            "It is thin"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
           ]
         },
         {
-          "q": "What couldn't Sam do when he was six?",
+          "q": "What could Sam not do when he was six?",
           "qTr": "Sam altı yaşındayken ne yapamıyordu?",
           "correct": "Come here alone",
           "wrong": [
             "Play in PE lessons",
-            "Drink a glass of water"
+            "Rest for ten minutes"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Sam'e bak.",
           "hl": [
             9
           ]
@@ -2897,11 +2909,11 @@
         "Sam: We tried, we practised, we learned — and now we are nine!"
       ],
       "translations": [
-        "Nora: Size büyüme hikayemi anlatmak istiyorum. Sam, bana bir şey sor!",
+        "Nora: Size büyüme hikayemi anlatmak istiyorum. Sam, ne istersen sor!",
         "Sam: Üç yaşındayken ne yapabiliyordun?",
         "Nora: Yürüyebiliyordum ama iyi konuşamıyordum. Sessiz küçük bir kızdım.",
         "Sam: Peki beş yaşında?",
-        "Nora: Kısa kelimeler okuyabiliyordum. Her hafta anneme bir resim boyardım!",
+        "Nora: Kısa kelimeler okuyabiliyordum. Her hafta anneme bir resim yapardım!",
         "Leyla: Beş yaşındayken okuyamıyordum. Ama büyükanneme tatlı şarkılar söyleyebiliyordum.",
         "Sam: Ben hiç şarkı söyleyemiyordum! Kız kardeşim güldü ve ona kızdım.",
         "Nora: Yedi yaşında yüzebiliyordum ama bisiklete binemiyordum. Her pazar çalışırdım!",
@@ -2910,29 +2922,30 @@
       ],
       "questions": [
         {
-          "q": "What could Nora do when she was three?",
-          "qTr": "Nora üç yaşındayken ne yapabiliyordu?",
-          "correct": "She could walk",
+          "q": "How old was Nora when she could walk?",
+          "qTr": "Nora yürüyebildiğinde kaç yaşındaydı?",
+          "correct": "She was three",
           "wrong": [
-            "She could read",
-            "She could swim"
+            "She was five",
+            "She was seven"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "What did Nora paint when she was five?",
-          "qTr": "Nora beş yaşındayken ne boyadı?",
-          "correct": "A picture for her mum",
+          "q": "What was Nora like when she was three?",
+          "qTr": "Nora üç yaşındayken nasıldı?",
+          "correct": "She was quiet",
           "wrong": [
-            "A poster for her class",
-            "A card for her grandmother"
+            "She was angry",
+            "She was naughty"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            4
+            2
           ]
         },
         {
@@ -2941,35 +2954,36 @@
           "correct": "Sing sweet songs",
           "wrong": [
             "Read short words",
-            "Ride a small bike"
+            "Ride small bikes"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            4,
             5
           ]
         },
         {
           "q": "Why was Sam angry with his sister?",
           "qTr": "Sam kız kardeşine neden kızdı?",
-          "correct": "Because she laughed",
+          "correct": "He could not sing",
           "wrong": [
-            "Because she practised",
-            "Because she was quiet"
+            "He could not swim",
+            "He could not draw"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Sam'e bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What couldn't Nora do at seven?",
-          "qTr": "Nora yedi yaşında ne yapamıyordu?",
-          "correct": "Ride a bike",
+          "q": "Why did Nora practise every Sunday?",
+          "qTr": "Nora neden her pazar çalışırdı?",
+          "correct": "She could not ride",
           "wrong": [
-            "Swim in the pool",
-            "Read short words"
+            "She could not swim",
+            "She could not walk"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
           ]
@@ -3014,7 +3028,7 @@
         "Nora: Ailemin iki yıl önceki bu fotoğrafına bak. Şimdikinden daha küçük ve daha kısaydım.",
         "Nora: Babamın sakalı o zaman inceydi. Şimdi daha kalın ve daha koyu!",
         "Sam: Dedemin bıyığı kocaman. Babamınkinden daha büyük!",
-        "Sam: Altı yaşımdayken abim benden çok daha uzundu. Daha zekiydi de.",
+        "Sam: Altı yaşındayken abim benden çok daha uzundu. Daha zekiydi de.",
         "Leyla: Ablamın orta uzunlukta saçları var. Benimki onunkinden daha uzun ve daha dalgalı.",
         "Leyla: Kuzenim cesur. Benden daha cesur — en yüksek ağaçlara tırmanır!",
         "Nora: Beş yaşında yaramaz bir çocuktum. Şimdi çok daha dikkatliyim!",
@@ -3024,66 +3038,66 @@
       ],
       "questions": [
         {
-          "q": "How was Nora two years ago?",
+          "q": "What was Nora like two years ago?",
           "qTr": "Nora iki yıl önce nasıldı?",
           "correct": "Younger and shorter",
           "wrong": [
             "Older and taller",
             "Braver and funnier"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'ya bak.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What is Nora's dad's beard like now?",
-          "qTr": "Nora'nın babasının sakalı şimdi nasıl?",
-          "correct": "Thicker and darker",
+          "q": "What does Nora's dad look like now?",
+          "qTr": "Nora'nın babası şimdi nasıl görünüyor?",
+          "correct": "He has a thick beard",
           "wrong": [
-            "Thinner and lighter",
-            "Longer and wavier"
+            "He has a huge moustache",
+            "He has medium-length hair"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Whose moustache is bigger?",
-          "qTr": "Kimin bıyığı daha büyük?",
+          "q": "Whose moustache is the biggest?",
+          "qTr": "Kimin bıyığı en büyük?",
           "correct": "Sam's grandfather's",
           "wrong": [
             "Sam's father's",
             "Nora's father's"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'e bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Whose hair is longer?",
-          "qTr": "Kimin saçı daha uzun?",
-          "correct": "Leyla's hair",
+          "q": "Who was taller than Sam when he was six?",
+          "qTr": "Sam altı yaşındayken ondan daha uzun olan kimdi?",
+          "correct": "His brother was",
           "wrong": [
-            "Her sister's hair",
-            "Her cousin's hair"
+            "His grandfather was",
+            "His cousin was"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sam'e bak.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "Who climbs the highest trees?",
-          "qTr": "En yüksek ağaçlara kim tırmanır?",
-          "correct": "Leyla's cousin",
+          "q": "Why can Leyla's cousin climb the highest trees?",
+          "qTr": "Leyla'nın kuzeni neden en yüksek ağaçlara tırmanabilir?",
+          "correct": "She is braver",
           "wrong": [
-            "Leyla's sister",
-            "Sam's brother"
+            "She is taller",
+            "She is older"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             5
           ]
@@ -3146,68 +3160,70 @@
       ],
       "questions": [
         {
-          "q": "When did the class start the reading club?",
-          "qTr": "Sınıf okuma kulübünü ne zaman başlattı?",
+          "q": "When was the reading club first open?",
+          "qTr": "Okuma kulübü ilk ne zaman açıldı?",
           "correct": "On the 8th of October",
           "wrong": [
             "On the 16th of October",
             "On the 2nd of November"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did the class do on the 16th of October?",
-          "qTr": "Sınıf 16 Ekim'de ne yaptı?",
+          "q": "What did the class do in the school garden?",
+          "qTr": "Sınıf okul bahçesinde ne yaptı?",
           "correct": "They planted small trees",
           "wrong": [
-            "They visited the museum",
-            "They cooked hot soup"
+            "They cooked hot soup",
+            "They painted a timeline"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'e bak.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "When did the class visit the science museum?",
-          "qTr": "Sınıf bilim müzesini ne zaman ziyaret etti?",
-          "correct": "On the 2nd of November",
+          "q": "Why did Leyla love the 2nd of November?",
+          "qTr": "Leyla 2 Kasım'ı neden çok sevdi?",
+          "correct": "She visited the museum",
           "wrong": [
-            "On the 11th of December",
-            "On the 5th of March"
+            "She practised the songs",
+            "She danced at the show"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What did the class do on the 11th of December?",
-          "qTr": "Sınıf 11 Aralık'ta ne yaptı?",
-          "correct": "They cooked soup",
-          "wrong": [
-            "They planted trees",
-            "They scored goals"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "When did the class dance at the ceremony?",
-          "qTr": "Sınıf törende ne zaman dans etti?",
+          "q": "When was the school ceremony?",
+          "qTr": "Okul töreni ne zamandı?",
           "correct": "On the 23rd of April",
           "wrong": [
             "On the 20th of April",
             "On the 14th of May"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
+          ]
+        },
+        {
+          "q": "Why did the class prepare a surprise in May?",
+          "qTr": "Sınıf mayısta neden bir sürpriz hazırladı?",
+          "correct": "It was for Mr. Tan",
+          "wrong": [
+            "It was for the show",
+            "It was for the club"
+          ],
+          "hint": "Sam'e bak.",
+          "hl": [
+            7,
+            8
           ]
         }
       ]
@@ -3250,7 +3266,7 @@
         "Nora: Bugün çantanda özel bir şey var mı? Gösterip anlatmayı severim!",
         "Sam: Evet, bir şey var! Eski futbol fotoğrafımı göstermeyi tercih ederim.",
         "Nora: Bende de bir şey var — büyükannemin gümüş yüzüğü ve yeni bilekliğim.",
-        "Leyla: Bilekliği yüzükten daha çok takmayı severim. Daha parlak!",
+        "Leyla: Bilekliği takmayı yüzükten daha çok severim. Daha parlak!",
         "Sam: Yüzüklerden hoşlanmam. Futbol için ellerimin serbest olmasını tercih ederim!",
         "Nora: Ödev için hikaye yazmayı tercih ederim. Hayvanlar hakkında yazmayı severim.",
         "Sam: Ödev için matematik yapmayı tercih ederim. Sayılar bana eğlenceli geliyor!",
@@ -3260,67 +3276,70 @@
       ],
       "questions": [
         {
-          "q": "What does Sam prefer to show?",
-          "qTr": "Sam neyi göstermeyi tercih eder?",
-          "correct": "His old football photo",
-          "wrong": [
-            "His grandmother's silver ring",
-            "His sister's new bracelet"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does Nora have in her bag?",
-          "qTr": "Nora'nın çantasında ne var?",
+          "q": "Is there anything in Nora's bag today?",
+          "qTr": "Nora'nın çantasında bugün bir şey var mı?",
           "correct": "A ring and a bracelet",
           "wrong": [
             "A photo and a story",
             "A book and a pencil"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Which one does Leyla enjoy wearing more?",
-          "qTr": "Leyla hangisini takmayı daha çok sever?",
-          "correct": "The bracelet",
+          "q": "Why does Leyla enjoy the bracelet more?",
+          "qTr": "Leyla bilekliği neden daha çok sever?",
+          "correct": "It is brighter",
           "wrong": [
-            "The ring",
-            "The photo"
+            "It is bigger",
+            "It is older"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            2,
             3
           ]
         },
         {
-          "q": "What does Nora prefer for homework?",
-          "qTr": "Nora ödev için neyi tercih eder?",
-          "correct": "Writing stories",
+          "q": "Why does Sam dislike rings?",
+          "qTr": "Sam neden yüzüklerden hoşlanmaz?",
+          "correct": "He prefers free hands",
           "wrong": [
-            "Doing Maths",
-            "Drawing animals"
+            "He prefers old photos",
+            "He prefers silver things"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'e bak.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "When does Leyla prefer to draw?",
-          "qTr": "Leyla ne zaman çizmeyi tercih eder?",
-          "correct": "On Sunday mornings",
+          "q": "What kind of homework does Nora prefer?",
+          "qTr": "Nora ne tür ödev tercih eder?",
+          "correct": "Writing animal stories",
           "wrong": [
-            "On Monday evenings",
-            "On Friday afternoons"
+            "Doing Maths numbers",
+            "Drawing Sunday pictures"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            5,
+            6
+          ]
+        },
+        {
+          "q": "What is Leyla wearing when she draws at home?",
+          "qTr": "Leyla evde çizim yaparken ne giyiyor?",
+          "correct": "Her pyjamas",
+          "wrong": [
+            "Her bracelet",
+            "Her trainers"
+          ],
+          "hint": "Leyla'ya bak.",
+          "hl": [
+            6,
             7
           ]
         }
@@ -3362,7 +3381,7 @@
       ],
       "translations": [
         "Nora: Geçen hafta tuhaftı! 1 Mart'ta sabah sisli ve serindi.",
-        "Sam: 2 Mart'ta hava fırtınalıydı. Evde kaldım ve bütün öğleden sonra resim boyadım.",
+        "Sam: 2 Mart'ta hava fırtınalıydı. Evde kaldım ve bütün öğleden sonra resim yaptım.",
         "Leyla: 3 Mart'ta gün nemliydi. Teneffüste kıyafetlerimiz ıslaktı!",
         "Nora: 4 Mart'ta hava pusluydu. Yağmurluğum okulda çok işe yaradı.",
         "Sam: Şimdi dışarı bak — yine yağmur yağıyor!",
@@ -3374,68 +3393,69 @@
       ],
       "questions": [
         {
-          "q": "What was the weather like on the 1st of March?",
-          "qTr": "1 Mart'ta hava nasıldı?",
-          "correct": "Foggy and cool",
+          "q": "When was the weather foggy and cool?",
+          "qTr": "Hava ne zaman sisli ve serindi?",
+          "correct": "On the 1st of March",
           "wrong": [
-            "Windy and cloudy",
-            "Clear and beautiful"
+            "On the 3rd of March",
+            "On the 6th of March"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'ya bak.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What did Sam do on the 2nd of March?",
-          "qTr": "Sam 2 Mart'ta ne yaptı?",
-          "correct": "He stayed at home and painted",
+          "q": "Why did Sam stay at home on the 2nd of March?",
+          "qTr": "Sam 2 Mart'ta neden evde kaldı?",
+          "correct": "The day was stormy",
           "wrong": [
-            "He played in the school garden",
-            "He walked to school with Leyla"
+            "The day was misty",
+            "The day was humid"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam'e bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What is the weather like now?",
-          "qTr": "Şu anda hava nasıl?",
-          "correct": "It is raining",
+          "q": "Why were the clothes wet on the 3rd of March?",
+          "qTr": "3 Mart'ta kıyafetler neden ıslaktı?",
+          "correct": "The day was humid",
           "wrong": [
-            "It is snowing",
-            "It is sunny"
+            "The day was freezing",
+            "The day was cloudy"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            4
+            2
           ]
         },
         {
-          "q": "What was the weather like on the 6th of March?",
-          "qTr": "6 Mart'ta hava nasıldı?",
-          "correct": "Freezing",
+          "q": "Why was Nora's cardigan useful on the 6th of March?",
+          "qTr": "Nora'nın hırkası 6 Mart'ta neden işe yaradı?",
+          "correct": "The day was freezing",
           "wrong": [
-            "Humid",
-            "Misty"
+            "The day was stormy",
+            "The day was misty"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Nora'ya bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What happened to Sam's scarf?",
-          "qTr": "Sam'in atkısına ne oldu?",
-          "correct": "It jumped off his neck",
+          "q": "What kind of weather does Nora prefer?",
+          "qTr": "Nora ne tür hava tercih eder?",
+          "correct": "A clear morning",
           "wrong": [
-            "It stayed in his school bag",
-            "It covered his cold shoulders"
+            "A stormy morning",
+            "A humid morning"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            7
+            8,
+            9
           ]
         }
       ]
@@ -3492,41 +3512,43 @@
       ],
       "questions": [
         {
-          "q": "What is happening on the hill outside?",
-          "qTr": "Dışarıda tepede ne oluyor?",
+          "q": "Is there anything new on the board today?",
+          "qTr": "Bugün panoda yeni bir şey var mı?",
+          "correct": "A weather word",
+          "wrong": [
+            "A bike helmet",
+            "A misty picture"
+          ],
+          "hint": "Sam'e bak.",
+          "hl": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": "What is the weather like on the hill?",
+          "qTr": "Tepede hava nasıl?",
           "correct": "It is snowing",
           "wrong": [
             "It is raining",
             "It is clearing"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who added a weather word this morning?",
-          "qTr": "Bu sabah kim bir hava kelimesi ekledi?",
-          "correct": "All of the pupils",
-          "wrong": [
-            "None of the pupils",
-            "Only Sam and Nora"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What did Leyla add to the board?",
-          "qTr": "Leyla panoya ne ekledi?",
+          "q": "Which weather word did Leyla add?",
+          "qTr": "Leyla hangi hava kelimesini ekledi?",
           "correct": "Cloudy",
           "wrong": [
             "Freezing",
             "Stormy"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            3,
             4
           ]
         },
@@ -3535,25 +3557,27 @@
           "qTr": "Mr. Demir onların yaşındayken ne yapabiliyordu?",
           "correct": "Name every cloud",
           "wrong": [
-            "Ride a fast bike",
-            "Paint a misty morning"
+            "Read every chart",
+            "Paint every morning"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Mr. Demir'e bak.",
           "hl": [
+            4,
             5
           ]
         },
         {
-          "q": "What does Sam need for the bike ride?",
-          "qTr": "Sam bisiklet yolculuğu için neye ihtiyaç duyar?",
-          "correct": "His helmet",
+          "q": "Why do the pupils wait in the hall?",
+          "qTr": "Öğrenciler neden salonda bekler?",
+          "correct": "The weather is stormy",
           "wrong": [
-            "His raincoat",
-            "His thick scarf"
+            "The weather is snowing",
+            "The weather is misty"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            6
+            6,
+            7
           ]
         }
       ]
@@ -3616,64 +3640,68 @@
           "qTr": "Ms. Reed kimi tarif ediyor?",
           "correct": "Sam",
           "wrong": [
-            "Leyla",
-            "Nora"
+            "Nora",
+            "Leyla"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'dan daha uzun. Leyla'dan daha kısa.",
           "hl": [
+            1,
             4,
             8
           ]
         },
         {
-          "q": "Is this pupil taller or shorter than Leyla?",
-          "qTr": "Bu öğrenci Leyla'dan daha uzun mu daha kısa mı?",
-          "correct": "Shorter than Leyla",
+          "q": "What does this pupil's hair look like?",
+          "qTr": "Bu öğrencinin saçı nasıl görünüyor?",
+          "correct": "Wavy and thick",
           "wrong": [
-            "Taller than Leyla",
-            "The same as Leyla"
+            "Long and thin",
+            "Fair and short"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Whose hair is thicker — this pupil's or Leyla's?",
-          "qTr": "Kimin saçı daha kalın — bu öğrencinin mi Leyla'nın mı?",
-          "correct": "This pupil's hair",
-          "wrong": [
-            "Leyla's hair",
-            "Nora's hair"
-          ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nınkinden daha dalgalı. Leyla'nınkinden daha kalın.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What couldn't this pupil do at six?",
-          "qTr": "Bu öğrenci altı yaşında ne yapamıyordu?",
-          "correct": "Swim",
+          "q": "Who is quieter — Nora or this pupil?",
+          "qTr": "Kim daha sessiz — Nora mı bu öğrenci mi?",
+          "correct": "Nora is quieter",
           "wrong": [
-            "Ride a bike",
-            "Draw animals"
+            "Leyla is quieter",
+            "Both are quieter"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Bu öğrenci daha sessiz değil. Daha komik ve daha cesur.",
           "hl": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": "What could this pupil not do at six?",
+          "qTr": "Bu öğrenci altı yaşında ne yapamıyordu?",
+          "correct": "Swim in a pool",
+          "wrong": [
+            "Ride a small bike",
+            "Draw a funny cat"
+          ],
+          "hint": "Bisiklete binebiliyordu. Ama hepsini değil.",
+          "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "What does Ms. Reed say about this pupil?",
-          "qTr": "Ms. Reed bu öğrenci hakkında ne der?",
-          "correct": "He is naughtier than everyone",
+          "q": "Who is more careful — Leyla or this pupil?",
+          "qTr": "Kim daha dikkatli — Leyla mı bu öğrenci mi?",
+          "correct": "Leyla is more careful",
           "wrong": [
-            "He is quieter than everyone",
-            "He is more careful than everyone"
+            "Nora is more careful",
+            "Both are more careful"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Bu öğrenci daha dikkatli değil. Odadaki en yaramaz kişi.",
           "hl": [
+            7,
             8
           ]
         }
@@ -3716,12 +3744,12 @@
       "translations": [
         "Nora: Dün sınıfımızda tuhaf bir şey oldu!",
         "Nora: Saat dokuzda duvarda kocaman bir resim fark ettim.",
-        "Sam: Biri sıramı pencereye taşıdı ve üzerine bir kutu koydu.",
+        "Sam: Biri sıramı pencerenin yanına taşıdı ve üzerine bir kutu koydu.",
         "Leyla: Resimde kalın bıyıklı komik bir kedi vardı!",
         "Nora: Kutunun üzerindeki küçük bir kart her şeyi açıkladı: 'Sana sürpriz yapmak istedik!'",
         "Sam: Sonra dolabın kapağı açıldı ve üç çocuk dışarı fırladı!",
         "Nora: Güldüler ve alkışladılar. Harika bir sürprizdi!",
-        "Leyla: Kedi resmini ben boyadım. Nora, senin komik çizimini kopyaladım!",
+        "Leyla: Kedi resmini ben yaptım. Nora, senin komik çizimini kopyaladım!",
         "Sam: Bu adil değil! Geçen ay kimse bana sürpriz planlamadı!",
         "Nora: Dur — sana da bir şey hazırladık. Kutunun içine bak!"
       ],
@@ -3731,10 +3759,10 @@
           "qTr": "Üç çocuk dolapta neden saklandı?",
           "correct": "To surprise the class",
           "wrong": [
-            "To clean the classroom",
-            "To paint a big picture"
+            "To paint a picture",
+            "To open a small box"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Karttaki cümleyi düşün. Sonra dolaptan çıktılar.",
           "hl": [
             4,
             5
@@ -3746,49 +3774,51 @@
           "correct": "A huge picture",
           "wrong": [
             "A small card",
-            "An open cupboard"
+            "A funny desk"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Kutunun içinde değildi. Duvardaydı.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who painted the cat picture?",
-          "qTr": "Kedi resmini kim boyadı?",
+          "q": "Who painted the cat with the moustache?",
+          "qTr": "Bıyıklı kediyi kim yaptı?",
           "correct": "Leyla",
           "wrong": [
             "Nora",
             "Sam"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora değil — kopyalanan çizim onundu.",
           "hl": [
+            3,
             7
           ]
         },
         {
           "q": "Why does Sam say \"It's not fair!\"?",
           "qTr": "Sam neden \"Bu adil değil!\" der?",
-          "correct": "No one surprised him",
+          "correct": "Nobody surprised him",
           "wrong": [
-            "No one painted for him",
-            "No one moved his desk"
+            "Nobody painted for him",
+            "Nobody helped him yesterday"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Geçen ayı düşün. Onun için bir sürpriz yoktu.",
           "hl": [
             8
           ]
         },
         {
-          "q": "What is inside the box?",
-          "qTr": "Kutunun içinde ne var?",
-          "correct": "A surprise for Sam",
+          "q": "Is there anything for Sam in the box?",
+          "qTr": "Kutuda Sam için bir şey var mı?",
+          "correct": "Yes, a surprise",
           "wrong": [
-            "A picture of a cat",
-            "A card from Leyla"
+            "No, only cards",
+            "No, only pictures"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Sam yanılıyor. Son cümleyi düşün.",
           "hl": [
+            8,
             9
           ]
         }
@@ -3834,7 +3864,7 @@
       ],
       "translations": [
         "Ms. Çelik: Hadi bir tahmin oyunu oynayalım! Vücudunuzun bir parçasını düşünüyorum.",
-        "Ms. Çelik: Onlardan on tane var. Ayaklarınızda bulunurlar.",
+        "Ms. Çelik: Onlardan on taneniz var. Ayaklarınızda bulunurlar.",
         "Nora: Parmak mı? Hayır — parmaklar ellerimizde!",
         "Sam: Ayak parmağı! Altı yaşında bütün ayak parmaklarımı on saniyede sayabiliyordum.",
         "Ms. Çelik: Doğru! Şimdi sıradaki. Ağzınızın içinde.",
@@ -3846,29 +3876,31 @@
       ],
       "questions": [
         {
-          "q": "Why is the first part not a finger?",
-          "qTr": "İlk parça neden parmak değil?",
-          "correct": "Fingers are on our hands",
-          "wrong": [
-            "Fingers are in our mouths",
-            "Fingers are inside our legs"
-          ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What was the first answer?",
-          "qTr": "İlk cevap neydi?",
+          "q": "Which part of the body is the first answer?",
+          "qTr": "İlk cevap vücudun hangi parçası?",
           "correct": "A toe",
           "wrong": [
             "A finger",
             "A tongue"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Ellerimizde değil. Ayaklarımızda ve on tane.",
           "hl": [
+            1,
+            2,
             3
+          ]
+        },
+        {
+          "q": "Why is the first answer not a finger?",
+          "qTr": "İlk cevap neden parmak değil?",
+          "correct": "Fingers are on hands",
+          "wrong": [
+            "Fingers are in legs",
+            "Fingers are in mouths"
+          ],
+          "hint": "On tane var ama yeri farklı.",
+          "hl": [
+            2
           ]
         },
         {
@@ -3876,10 +3908,10 @@
           "qTr": "Sam altı yaşındayken ne yapabiliyordu?",
           "correct": "Count all his toes",
           "wrong": [
-            "Carry a heavy bag",
+            "Carry his heavy bag",
             "Name every body part"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "On saniyeyi düşün. Ayaklarıyla ilgili.",
           "hl": [
             3
           ]
@@ -3887,26 +3919,28 @@
         {
           "q": "Which part is inside your mouth?",
           "qTr": "Ağzınızın içinde hangi parça var?",
-          "correct": "The tongue",
+          "correct": "A tongue",
           "wrong": [
-            "The stomach",
-            "The knee"
+            "A stomach",
+            "A shoulder"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Ayaklarda değil, ortada değil. Dondurma için kullanılır.",
           "hl": [
+            4,
             5
           ]
         },
         {
-          "q": "Which part is in the middle of your body?",
-          "qTr": "Vücudunuzun ortasında hangi parça var?",
-          "correct": "The stomach",
+          "q": "Why is the third answer not a knee?",
+          "qTr": "Üçüncü cevap neden diz değil?",
+          "correct": "Knees are in legs",
           "wrong": [
-            "The knee",
-            "The shoulder"
+            "Knees are on feet",
+            "Knees are on hands"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Vücudun ortası değil. Daha aşağıda.",
           "hl": [
+            6,
             7
           ]
         }
@@ -3967,60 +4001,65 @@
             "Cook, read and swim",
             "Ride, cook and sing"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Üç şeyi yapabiliyordu. Mutfakta değil.",
           "hl": [
+            1,
+            2,
             9
           ]
         },
         {
-          "q": "Which bike could Sam ride?",
-          "qTr": "Sam hangi bisiklete binebiliyordu?",
-          "correct": "A small bike",
+          "q": "Which bike could Sam not ride at six?",
+          "qTr": "Sam altı yaşında hangi bisiklete binemiyordu?",
+          "correct": "The big one",
           "wrong": [
-            "A big bike",
-            "Both bikes"
+            "The small one",
+            "The new one"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Bir bisiklete binebiliyordu, diğerine binemiyordu.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What could Sam play on the piano?",
-          "qTr": "Sam piyanoda ne çalabiliyordu?",
+          "q": "What could Sam play at six?",
+          "qTr": "Sam altı yaşında ne çalabiliyordu?",
           "correct": "Three notes",
           "wrong": [
             "Ten songs",
             "Two dances"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Bir enstrüman çalabiliyordu ama çok az.",
           "hl": [
+            3,
             4
           ]
         },
         {
           "q": "What did Sam do every evening after school?",
           "qTr": "Sam okuldan sonra her akşam ne yapardı?",
-          "correct": "He played in the street",
+          "correct": "He played football",
           "wrong": [
-            "He washed the plates",
-            "He practised the piano"
+            "He washed plates",
+            "He practised swimming"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Cumartesi değil, her akşam. Sokakta.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "How did Sam help his mum?",
-          "qTr": "Sam annesine nasıl yardım ederdi?",
-          "correct": "He washed the plates",
+          "q": "Why did Sam wash all the plates?",
+          "qTr": "Sam neden bütün tabakları yıkardı?",
+          "correct": "He could not cook",
           "wrong": [
-            "He cooked the dinner",
-            "He cleaned the street"
+            "He could not swim",
+            "He could not play"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Mutfakta yardım etti. Ama yemek yapmadı.",
           "hl": [
+            7,
             8
           ]
         }
@@ -4066,7 +4105,7 @@
       ],
       "translations": [
         "Mrs. Yıldız: Hava durumu günlüğüne bakın. Hangi günü tarif ediyorum?",
-        "Mrs. Yıldız: Bu gün hava nemliydi ve tepeler griydi.",
+        "Mrs. Yıldız: O gün hava nemliydi ve tepeler griydi.",
         "Mrs. Yıldız: Arabalar sabah saat onda farlarını kullandı.",
         "Nora: 15 Ocak mıydı? O gün hava dondurucu ve açıktı.",
         "Mrs. Yıldız: Hayır. Benim günümde gökyüzü hiç açık değildi.",
@@ -4085,21 +4124,22 @@
             "The 15th of January",
             "The 17th of January"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Açık değildi. Rüzgârlı değildi.",
           "hl": [
-            7,
-            8
+            4,
+            6,
+            7
           ]
         },
         {
           "q": "Why is it not the 15th of January?",
           "qTr": "Neden 15 Ocak değil?",
-          "correct": "That day was clear",
+          "correct": "The sky was clear",
           "wrong": [
-            "That day was stormy",
-            "That day was foggy"
+            "The sky was grey",
+            "The wind was strong"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "O gün gökyüzü farklıydı. Dondurucuydu.",
           "hl": [
             3,
             4
@@ -4108,39 +4148,41 @@
         {
           "q": "Why is it not the 17th of January?",
           "qTr": "Neden 17 Ocak değil?",
-          "correct": "There was no wind",
+          "correct": "The wind was strong",
           "wrong": [
-            "There was no rain",
-            "There was no sun"
+            "The air was wet",
+            "The sky was grey"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Onun gününde her şey durgundu.",
           "hl": [
             5,
             6
           ]
         },
         {
-          "q": "What did the cars do at ten o'clock?",
-          "qTr": "Arabalar saat onda ne yaptı?",
-          "correct": "They used their lights",
+          "q": "What was the weather like on her day?",
+          "qTr": "Onun gününde hava nasıldı?",
+          "correct": "Foggy and still",
           "wrong": [
-            "They stopped on the hill",
-            "They waited in the rain"
+            "Clear and windy",
+            "Stormy and cool"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Arabalar farlarını kullandı. Rüzgâr yoktu.",
           "hl": [
-            2
+            1,
+            2,
+            6
           ]
         },
         {
-          "q": "What does Sam enjoy?",
-          "qTr": "Sam neyi sever?",
-          "correct": "A foggy walk in the forest",
+          "q": "What kind of weather does Sam prefer?",
+          "qTr": "Sam ne tür hava tercih eder?",
+          "correct": "A sunny morning",
           "wrong": [
-            "A stormy day in the garden",
-            "A freezing morning at school"
+            "A foggy morning",
+            "A stormy morning"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Ormanda sisi sever. Ama tercihi başka.",
           "hl": [
             9
           ]
@@ -4184,7 +4226,7 @@
       "translations": [
         "Sam: Nora dışarıda, bahçede. Bugün ne giyiyor?",
         "Leyla: Bileğinde bir şey var mı? Sanırım gümüş bir şey görüyorum.",
-        "Sam: Evet — yeni bilekliğini her gün takmayı seviyor.",
+        "Sam: Evet — yeni bilekliğini her gün takmayı sever.",
         "Leyla: Şort mu giyiyor? Sıcak öğleden sonralarda şortu tercih eder.",
         "Sam: Hayır, bugün değil. Sabah serin ve pusluydu.",
         "Leyla: O zaman yazlık elbisesini tercih eder. Bacaklarının üşümesinden hoşlanmaz!",
@@ -4199,25 +4241,27 @@
           "qTr": "Nora bugün ne giyiyor?",
           "correct": "A sundress and sandals",
           "wrong": [
-            "Shorts and flip-flops",
-            "A cardigan and trainers"
+            "A raincoat and trainers",
+            "A cardigan and flip-flops"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Şort değil. Parmak arası terlik değil.",
           "hl": [
+            4,
             5,
             7
           ]
         },
         {
-          "q": "What is on Nora's wrist?",
-          "qTr": "Nora'nın bileğinde ne var?",
-          "correct": "Her new bracelet",
+          "q": "Is there anything silver on Nora?",
+          "qTr": "Nora'nın üzerinde gümüş bir şey var mı?",
+          "correct": "Yes, on her wrist",
           "wrong": [
-            "Her big sunglasses",
-            "Her silver ring"
+            "Yes, on her feet",
+            "Yes, on her face"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Ayaklarında değil, yüzünde değil.",
           "hl": [
+            1,
             2
           ]
         },
@@ -4229,8 +4273,9 @@
             "The morning was hot",
             "The morning was sunny"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sıcak öğleden sonraları şort giyer. Bugün öyle değil.",
           "hl": [
+            3,
             4
           ]
         },
@@ -4242,20 +4287,20 @@
             "In the garden",
             "At the school"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Bahçe için başka bir şey tercih eder.",
           "hl": [
             7
           ]
         },
         {
-          "q": "What is on Nora's face?",
-          "qTr": "Nora'nın yüzünde ne var?",
-          "correct": "Her sunglasses",
+          "q": "Is there anything on Nora's face?",
+          "qTr": "Nora'nın yüzünde bir şey var mı?",
+          "correct": "Her big sunglasses",
           "wrong": [
-            "Her bracelet",
-            "Her scarf"
+            "Her new bracelet",
+            "Her thick scarf"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Bileğindeki değil. Güneşli günler için.",
           "hl": [
             8
           ]
@@ -4304,7 +4349,7 @@
         "Ms. Reed: Öğrenciyi tahmin edin! Bu öğrenci herkese karşı arkadaş canlısı.",
         "Ms. Reed: Bu öğrenci Sam'den daha sessiz ama Leyla'dan daha komik.",
         "Sam: Bu öğrenci altı yaşında şarkı söyleyebiliyor muydu?",
-        "Ms. Reed: Evet, ve bu öğrenci dans da edebiliyordu. Ama pek iyi değil!",
+        "Ms. Reed: Evet, bu öğrenci dans da edebiliyordu. Ama pek iyi değildi!",
         "Leyla: Bu öğrenci benden daha uzun mu?",
         "Ms. Reed: Hayır, bu öğrenci senden daha kısa ve her derste daha dikkatli.",
         "Sam: Bu öğrenci tatlı ve cesur mu?",
@@ -4321,21 +4366,22 @@
             "Leyla",
             "Sam"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'den daha sessiz. Leyla'dan daha kısa.",
           "hl": [
+            1,
             5,
-            7
+            8
           ]
         },
         {
-          "q": "Is this pupil quieter or louder than Sam?",
-          "qTr": "Bu öğrenci Sam'den daha sessiz mi daha gürültülü mü?",
-          "correct": "Quieter than Sam",
+          "q": "Who is funnier — Leyla or this pupil?",
+          "qTr": "Kim daha komik — Leyla mı bu öğrenci mi?",
+          "correct": "This pupil is funnier",
           "wrong": [
-            "Louder than Sam",
-            "The same as Sam"
+            "Leyla is funnier",
+            "Both are funnier"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam'den daha sessiz ama Leyla gibi değil.",
           "hl": [
             1
           ]
@@ -4348,33 +4394,35 @@
             "Climb and swim",
             "Read and write"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "İki şey yapabiliyordu. İkincisi çok iyi değildi.",
           "hl": [
+            2,
             3
           ]
         },
         {
           "q": "Who is braver on the climbing frame?",
           "qTr": "Tırmanma parkurunda kim daha cesur?",
-          "correct": "This pupil",
+          "correct": "This pupil is braver",
           "wrong": [
-            "Sam",
-            "Leyla"
+            "Sam is braver",
+            "Leyla is braver"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam değil. Çok tatlı olan kişi.",
           "hl": [
+            6,
             7
           ]
         },
         {
-          "q": "What is this pupil's hair like?",
-          "qTr": "Bu öğrencinin saçı nasıl?",
+          "q": "What does this pupil's hair look like?",
+          "qTr": "Bu öğrencinin saçı nasıl görünüyor?",
           "correct": "Thick and medium-length",
           "wrong": [
             "Thin and very long",
             "Fair and very short"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Çok uzun değil, çok kısa değil.",
           "hl": [
             8
           ]
@@ -4418,11 +4466,11 @@
       "translations": [
         "Sam: Sınıfımızdaki bir doğum gününü düşünüyorum. Tarihi tahmin edin!",
         "Sam: Bu doğum günü kışın değil. O gün hava sıcaktı.",
-        "Nora: 3 Temmuz muydu? Okul bahçesinde dans etmiştik.",
+        "Nora: 3 Temmuz muydu? Okul bahçesinde dans ettik.",
         "Sam: Hayır. Benim tarihim temmuzdan önce ama nisandan sonra.",
         "Leyla: O zaman mayıs veya haziranda. 19 Mayıs mıydı?",
         "Sam: Hayır — 19 Mayıs'ta törende yürüyüş yaptık. Benim tarihim daha sakin.",
-        "Nora: 6 Haziran mı? O gün biri için pasta pişirmiştik!",
+        "Nora: 6 Haziran mı? O gün biri için pasta pişirdik!",
         "Sam: Evet! 6 Haziran'da Leyla'nın kuzeninin doğum gününü kutladık.",
         "Leyla: Hatırlıyorum! Bütün öğleden sonra kart boyadık ve oyun oynadık.",
         "Nora: 6 Haziran — yılın en sıcak ve en mutlu tarihi!"
@@ -4436,9 +4484,10 @@
             "The 3rd of July",
             "The 19th of May"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Temmuzdan önce. Nisandan sonra. Sessiz bir gün.",
           "hl": [
-            6,
+            3,
+            5,
             7
           ]
         },
@@ -4450,33 +4499,34 @@
             "The weather was cool",
             "The weather was foggy"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Dondurucu bir gün değildi.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did the class do on the 19th of May?",
-          "qTr": "Sınıf 19 Mayıs'ta ne yaptı?",
-          "correct": "They marched at the ceremony",
+          "q": "Why is it not the 19th of May?",
+          "qTr": "Neden 19 Mayıs değil?",
+          "correct": "That day was noisy",
           "wrong": [
-            "They baked a cake for a friend",
-            "They danced in the school garden"
+            "That day was foggy",
+            "That day was quiet"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "O gün törende yürüdüler. Sam'in günü daha sakin.",
           "hl": [
+            4,
             5
           ]
         },
         {
           "q": "What did the class do on the 3rd of July?",
           "qTr": "Sınıf 3 Temmuz'da ne yaptı?",
-          "correct": "They danced in the garden",
+          "correct": "They danced outside",
           "wrong": [
-            "They painted birthday cards",
-            "They marched at the ceremony"
+            "They marched outside",
+            "They painted outside"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Yürüyüş yapmadılar. Okul bahçesindeydiler.",
           "hl": [
             2
           ]
@@ -4484,13 +4534,14 @@
         {
           "q": "What did the class do on the 6th of June?",
           "qTr": "Sınıf 6 Haziran'da ne yaptı?",
-          "correct": "They painted cards and played games",
+          "correct": "They baked and painted",
           "wrong": [
-            "They marched and clapped at the ceremony",
-            "They cleaned and tidied the whole classroom"
+            "They marched and clapped",
+            "They danced and practised"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Bütün öğleden sonrayı düşün. Bir pasta vardı.",
           "hl": [
+            6,
             8
           ]
         }
@@ -4555,7 +4606,7 @@
             "Sam",
             "Nora"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam Nora'dan uzun. Ama en uzun değil.",
           "hl": [
             1,
             3
@@ -4569,20 +4620,21 @@
             "Sam",
             "Leyla"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "En uzun değil, ortada da değil.",
           "hl": [
-            1
+            1,
+            3
           ]
         },
         {
-          "q": "Who is cleverer at Maths?",
-          "qTr": "Matematikte kim daha zeki?",
-          "correct": "Leyla",
+          "q": "Who is cleverer at Maths — Nora or Leyla?",
+          "qTr": "Matematikte kim daha zeki — Nora mı Leyla mı?",
+          "correct": "Leyla is cleverer",
           "wrong": [
-            "Nora",
-            "Sam"
+            "Nora is cleverer",
+            "Both are cleverer"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sayılarla daha hızlı olan kişi.",
           "hl": [
             4
           ]
@@ -4595,22 +4647,23 @@
             "Nora's hair",
             "Leyla's hair"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Orta uzunlukta değil. En uzun da değil.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Where does Nora prefer to stand?",
-          "qTr": "Nora nerede durmayı tercih eder?",
-          "correct": "In the middle",
+          "q": "Why does Leyla prefer the front of the line?",
+          "qTr": "Leyla neden sıranın önünü tercih eder?",
+          "correct": "She is braver",
           "wrong": [
-            "At the front",
-            "At the back"
+            "She is taller",
+            "She is quicker"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam ön tarafı sevmez. Leyla farklı.",
           "hl": [
-            7
+            7,
+            8
           ]
         }
       ]
@@ -4674,62 +4727,67 @@
             "Monday",
             "Tuesday"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Futbol günü değil. Yağmur günü değil.",
           "hl": [
-            6,
-            9
+            3,
+            5,
+            6
           ]
         },
         {
           "q": "Why is it not Monday?",
           "qTr": "Neden pazartesi değil?",
-          "correct": "The boys played football",
+          "correct": "The boys played outside",
           "wrong": [
             "The rain was very heavy",
-            "The snow covered the garden"
+            "The snow was very deep"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Onun gününde kimse bahçede oynamadı.",
           "hl": [
+            2,
             3
           ]
         },
         {
           "q": "Why is it not Tuesday?",
           "qTr": "Neden salı değil?",
-          "correct": "There was no rain on his day",
+          "correct": "There was no rain",
           "wrong": [
-            "There was no snow on his day",
-            "There was no wind on his day"
+            "There was no snow",
+            "There was no wind"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Salı günü çok yağmurluydu. Onun günü değil.",
           "hl": [
             4,
             5
           ]
         },
         {
-          "q": "What did Sam carry on Wednesday?",
-          "qTr": "Sam çarşamba günü ne taşıdı?",
-          "correct": "His helmet",
+          "q": "What was the weather like on his day?",
+          "qTr": "Onun gününde hava nasıldı?",
+          "correct": "It was snowing",
           "wrong": [
-            "His silver ring",
-            "His warm leggings"
+            "It was raining",
+            "It was clearing"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Yağmur yoktu ama beyaz bir şey vardı.",
           "hl": [
-            7
+            5,
+            6
           ]
         },
         {
-          "q": "What did Nora look for in the snow?",
-          "qTr": "Nora karda ne aradı?",
+          "q": "Is there anything of Nora's in the snow?",
+          "qTr": "Karda Nora'ya ait bir şey var mı?",
           "correct": "Her silver ring",
           "wrong": [
             "Her warm leggings",
             "Her bike helmet"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Kask Sam'in. Tayt üzerindeydi.",
           "hl": [
+            6,
+            7,
             8
           ]
         }
