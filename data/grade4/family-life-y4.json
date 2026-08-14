@@ -3455,9 +3455,9 @@
   "inf": [
     {
       "id": "inf-1",
-      "title": "What Is This Person's Job?",
+      "title": "Ms. Reed's Guessing Game",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🔍",
+      "icon": "🩺",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -3480,109 +3480,104 @@
         }
       ],
       "sentences": [
-        "Ms. Reed played a guessing game. \"I will describe a person's job. You guess what it is!\"",
-        "\"This person works in the most important building in the neighbourhood.\"",
-        "\"Every day, they check people who are not well. They help them feel better.\"",
-        "\"They wear special clothes to work. They use the most important tools to test people.\"",
-        "\"They work with a team of the most caring people in the city.\"",
-        "\"Yesterday, this person saw fifty patients. It was the busiest day of the month!\"",
-        "\"This person woke up at six, drove to work and came home at nine in the evening.\"",
-        "\"They are the most hardworking person in their family. Their children are very proud of them.\"",
-        "Nora whispered to Sam: \"I think I know! They check people, wear special clothes and work in a big building…\"",
-        "Sam's eyes went wide: \"Is it a doctor or a nurse?\"",
-        "Nora nodded: \"Both work there — but this person checks patients and helps them get better. Not this time, Sam — it's not a nurse!\"",
-        "Ms. Reed smiled: \"Go ahead, Nora — who is it?\" Nora stood up: \"A doctor!\""
+        "Ms. Reed: I am thinking of a job. Ask me your questions, then guess!",
+        "Nora: Does this person work at the hospital?",
+        "Ms. Reed: Yes. Yesterday this person checked fifty patients — the busiest day of the month.",
+        "Sam: Then it is a nurse! My mummy is a nurse at the same hospital.",
+        "Ms. Reed: Not this time, Sam. Nurses help this person, but they do not choose the medicine.",
+        "Leyla: A cleaner works there too. My aunt cleans the children's rooms every morning.",
+        "Ms. Reed: A cleaner does not check patients. This person wrote the medicine on a card.",
+        "Nora: My daddy came home at nine yesterday, and he wrote cards all evening!",
+        "Sam: Wait — your daddy is the tallest man at that hospital, and he checks patients…",
+        "Nora: It is a doctor! Ms. Reed, you described my daddy."
       ],
       "translations": [
-        "Ms. Reed bir tahmin oyunu oynadı. \"Bir kişinin mesleğini anlatacağım. Ne olduğunu tahmin edin!\"",
-        "\"Bu kişi mahalledeki en önemli binada çalışıyor.\"",
-        "\"Her gün iyi hissetmeyen insanları kontrol ediyorlar. Onların daha iyi hissetmelerine yardımcı oluyorlar.\"",
-        "\"İşe özel kıyafetler giyiyorlar. İnsanları test etmek için en önemli aletleri kullanıyorlar.\"",
-        "\"Şehirdeki en ilgili insanlardan oluşan bir ekiple çalışıyorlar.\"",
-        "\"Dün bu kişi elli hasta gördü. Ayın en yoğun günüydü!\"",
-        "\"Bu kişi saat altıda uyandı, işe gitti ve akşam dokuzda eve geldi.\"",
-        "\"Ailelerinin en çalışkan insanı. Çocukları onlarla çok gurur duyuyor.\"",
-        "Nora Sam'e fısıldadı: \"Sanırım biliyorum! İnsanları kontrol ediyorlar, özel kıyafetler giyiyorlar ve büyük bir binada çalışıyorlar…\"",
-        "Sam'in gözleri büyüdü: \"Doktor mu hemşire mi?\"",
-        "Nora başını salladı: \"İkisi de orada çalışıyor — ama bu kişi hastaları kontrol ediyor ve iyileşmelerine yardımcı oluyor. Bu sefer değil Sam — hemşire değil!\"",
-        "Ms. Reed gülümsedi: \"Buyur Nora — kim bu?\" Nora ayağa kalktı: \"Doktor!\""
+        "Ms. Reed: Bir meslek düşünüyorum. Sorularınızı sorun, sonra tahmin edin!",
+        "Nora: Bu kişi hastanede mi çalışır?",
+        "Ms. Reed: Evet. Dün bu kişi elli hastayı kontrol etti — ayın en yoğun günü.",
+        "Sam: O zaman hemşire! Annem aynı hastanede hemşire.",
+        "Ms. Reed: Bu sefer olmaz Sam. Hemşireler bu kişiye yardım eder ama ilacı onlar seçmez.",
+        "Leyla: Orada temizlik görevlisi de çalışır. Halam her sabah çocuk odalarını temizler.",
+        "Ms. Reed: Temizlik görevlisi hastaları kontrol etmez. Bu kişi ilacı bir karta yazdı.",
+        "Nora: Babam dün akşam dokuzda eve geldi ve bütün akşam kart yazdı!",
+        "Sam: Dur — baban o hastanedeki en uzun adam ve hastaları kontrol ediyor…",
+        "Nora: Bu bir doktor! Ms. Reed, babamı tarif ettiniz."
       ],
       "questions": [
         {
-          "q": "What is the mystery person's job?",
-          "qTr": "Gizemli kişinin mesleği nedir?",
+          "q": "What is the job in the game?",
+          "qTr": "Oyundaki meslek nedir?",
           "correct": "A doctor",
           "wrong": [
             "A nurse",
-            "A scientist"
+            "A cleaner"
           ],
-          "hint": "Read what Nora says at the end of the text.",
+          "hint": "Hastanede çalışan, hastaları kontrol eden ve ilacı seçen kişiyi düşün.",
           "hl": [
-            9,
-            10,
-            11
+            2,
+            6
           ]
         },
         {
-          "q": "Where does this person work?",
-          "qTr": "Bu kişi nerede çalışır?",
-          "correct": "In a hospital",
+          "q": "Why is it not a nurse?",
+          "qTr": "Neden hemşire değil?",
+          "correct": "Nurses do not choose medicine",
           "wrong": [
-            "In a laboratory",
-            "In a school"
+            "Nurses do not work there",
+            "Nurses do not help people"
           ],
-          "hint": "Think about the most important building where sick people go.",
+          "hint": "Sam'in tahminini ele, Ms. Reed'in cevabına bak.",
           "hl": [
-            1,
+            4
+          ]
+        },
+        {
+          "q": "Why is it not a cleaner?",
+          "qTr": "Neden temizlik görevlisi değil?",
+          "correct": "Cleaners do not check patients",
+          "wrong": [
+            "Cleaners do not work mornings",
+            "Cleaners do not clean rooms"
+          ],
+          "hint": "Leyla'nın tahminini ele.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did this person do yesterday?",
+          "qTr": "Bu kişi dün ne yaptı?",
+          "correct": "Checked fifty patients",
+          "wrong": [
+            "Cleaned fifty rooms",
+            "Wrote fifty letters"
+          ],
+          "hint": "Dünü anlatan cümleyi bul, diğer iki seçeneği ele.",
+          "hl": [
             2
           ]
         },
         {
-          "q": "How many patients did this person see yesterday?",
-          "qTr": "Bu kişi dün kaç hasta gördü?",
-          "correct": "Fifty",
+          "q": "Whose daddy is the answer?",
+          "qTr": "Cevap kimin babası?",
+          "correct": "Nora's daddy",
           "wrong": [
-            "Forty",
-            "Thirty"
+            "Sam's daddy",
+            "Leyla's daddy"
           ],
-          "hint": "Find the word patients in the text.",
+          "hint": "Son iki cümledeki ipuçlarını birleştir.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What clue does Nora use to decide it is not a nurse?",
-          "qTr": "Nora bunun bir hemşire olmadığına karar vermek için hangi ipucunu kullanır?",
-          "correct": "This person checks patients and helps them get better",
-          "wrong": [
-            "This person wears special clothes",
-            "This person works in a big building"
-          ],
-          "hint": "Read what Nora says to Sam.",
-          "hl": [
-            10
-          ]
-        },
-        {
-          "q": "What time did this person come home yesterday?",
-          "qTr": "Bu kişi dün eve saat kaçta geldi?",
-          "correct": "At nine in the evening",
-          "wrong": [
-            "At eight in the evening",
-            "At seven in the evening"
-          ],
-          "hint": "Find the word came home in the text.",
-          "hl": [
-            6
+            7,
+            8
           ]
         }
       ]
     },
     {
       "id": "inf-2",
-      "title": "What Really Happened on Sunday?",
+      "title": "The Wrong Box at the Market",
       "subtitle": "Use the clues to find the answer!",
-      "icon": "🎭",
+      "icon": "📦",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -3594,341 +3589,106 @@
         {
           "e": "👦",
           "n": "Sam"
-        },
-        {
-          "e": "👧🏽",
-          "n": "Leyla"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "On Sunday morning, something unusual happened at the Greenfield market.",
-        "Sam's dad drove there to buy groceries, but he forgot his wallet at home!",
-        "He went back, got the wallet and drove to the market again. That took an hour!",
-        "When he finally got there, he met Nora's grandpa at the vegetable stall.",
-        "Nora's grandpa came to sell his tomatoes and fruit — but he brought the wrong box!",
-        "He opened the box and found his gardening tools inside. He left the tomatoes at home!",
-        "Sam's dad laughed and said: \"Don't worry! Let's go to the greengrocer's instead.\"",
-        "They walked to the greengrocer's together and bought everything they needed.",
-        "On the way back, they stopped at the bakery and got fresh bread too.",
-        "Sam's dad drove Nora's grandpa home first, then went home himself.",
-        "When Sam's dad told the family what happened, everyone laughed for a long time.",
-        "Sam said: \"Sounds fun! Next Sunday, I'm coming to the market with you, Dad!\""
+        "Sam: Something strange happened at the Greenfield market on Sunday morning.",
+        "Sam: My daddy drove there to buy groceries, but he forgot his wallet at home.",
+        "Sam: He went back, got the wallet and drove to the market again — the slowest shopping of his life!",
+        "Nora: My grandpa was there too. He came to sell his tomatoes at the vegetable stall.",
+        "Nora: He opened his box and found his gardening tools inside. The tomatoes stayed at home!",
+        "Sam: My daddy laughed and told him: \"Don't worry! Let's go to the greengrocer's instead.\"",
+        "Sam: They walked there together and bought everything on the list.",
+        "Nora: On the way back they stopped at the bakery and got the freshest bread of the day.",
+        "Sam: My daddy drove your grandpa home first, then came home himself at two o'clock.",
+        "Nora: Sounds fun! Next Sunday I am coming to the market with both of them."
       ],
       "translations": [
-        "Pazar sabahı Greenfield marketinde alışılmadık bir şey oldu.",
-        "Sam'in babası market alışverişi yapmak için oraya gitti — ama cüzdanını evde unuttu!",
-        "Geri döndü, cüzdanı aldı ve tekrar markete gitti. Bu bir saat sürdü!",
-        "Sonunda oraya vardığında sebze tezgahında Nora'nın dedesini gördü.",
-        "Nora'nın dedesi domates ve meyvelerini satmaya geldi — ama yanlış kutuyu getirdi!",
-        "Kutuyu açtı ve içinde bahçe aletlerini buldu. Domatesleri evde bırakmıştı!",
-        "Sam'in babası güldü ve dedi: \"Merak etme! Bunun yerine manava gidelim.\"",
-        "Birlikte manava yürüdüler ve ihtiyaçları olan her şeyi aldılar.",
-        "Geri dönerken fırında durdular ve taze ekmek de aldılar.",
-        "Sam'in babası önce Nora'nın dedesini eve bıraktı, sonra kendisi eve gitti.",
-        "Sam'in babası aileye olanları anlattığında herkes uzun süre güldü.",
-        "Sam dedi: \"Kulağa eğlenceli geliyor! Gelecek Pazar markete seninle geliyorum, Baba!\""
+        "Sam: Pazar sabahı Greenfield marketinde tuhaf bir şey oldu.",
+        "Sam: Babam alışveriş için oraya arabayla gitti ama cüzdanını evde unuttu.",
+        "Sam: Geri döndü, cüzdanı aldı ve tekrar markete gitti — hayatının en yavaş alışverişi!",
+        "Nora: Dedem de oradaydı. Sebze tezgâhında domateslerini satmaya gelmişti.",
+        "Nora: Kutusunu açtı ve içinde bahçe aletlerini buldu. Domatesler evde kalmıştı!",
+        "Sam: Babam güldü ve ona dedi ki: \"Merak etme! Hadi onun yerine manava gidelim.\"",
+        "Sam: Birlikte oraya yürüdüler ve listedeki her şeyi aldılar.",
+        "Nora: Dönüş yolunda fırında durdular ve günün en taze ekmeğini aldılar.",
+        "Sam: Babam önce dedeni eve bıraktı, sonra saat ikide kendisi eve geldi.",
+        "Nora: Kulağa eğlenceli geliyor! Gelecek Pazar ikisiyle birlikte ben de markete geliyorum."
       ],
       "questions": [
         {
-          "q": "Why did Sam's dad go back home from the market?",
-          "qTr": "Sam'in babası pazardan eve neden geri döndü?",
+          "q": "Why did Sam's daddy go back home?",
+          "qTr": "Sam'in babası neden eve geri döndü?",
           "correct": "He forgot his wallet",
           "wrong": [
-            "He forgot his shopping list",
-            "He met Nora's grandpa"
+            "He forgot his list",
+            "He lost his tomatoes"
           ],
-          "hint": "Find why Sam's dad turned back in the text.",
+          "hint": "Markete iki kez gitme sebebini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did Nora's grandpa find in his box at the market?",
-          "qTr": "Nora'nın büyükbabası pazarda kutusunda ne buldu?",
+          "q": "What did Nora's grandpa find in his box?",
+          "qTr": "Nora'nın dedesi kutusunda ne buldu?",
           "correct": "His gardening tools",
           "wrong": [
-            "His tomatoes",
-            "His wallet"
+            "His red tomatoes",
+            "His lost wallet"
           ],
-          "hint": "Find the word box in the text.",
+          "hint": "Kutunun içini anlatan cümleyi bul, diğer iki seçeneği ele.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "Where did Sam's dad and Nora's grandpa go instead of the market?",
-          "qTr": "Sam'in babası ve Nora'nın büyükbabası pazar yerine nereye gitti?",
-          "correct": "To the greengrocer's",
+          "q": "Where did they buy the food?",
+          "qTr": "Yiyecekleri nereden aldılar?",
+          "correct": "At the greengrocer's",
           "wrong": [
-            "To the bakery",
-            "To the café"
+            "At the market",
+            "At the bakery"
           ],
-          "hint": "Find the word instead in the text.",
+          "hint": "Marketten vazgeçtikleri anı bul.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "What did they get from the bakery on the way back?",
-          "qTr": "Dönüş yolunda fırından ne aldılar?",
-          "correct": "Fresh bread",
+          "q": "What did they get at the bakery?",
+          "qTr": "Fırından ne aldılar?",
+          "correct": "The freshest bread",
           "wrong": [
-            "Vegetables and fruit",
-            "Milk and eggs"
+            "The reddest tomatoes",
+            "The heaviest tools"
           ],
-          "hint": "Find the word bakery in the text.",
+          "hint": "Dönüş yolunu bul.",
           "hl": [
-            8
+            7
           ]
         },
         {
-          "q": "How did Sam's family feel when they heard the story?",
-          "qTr": "Sam'in ailesi hikâyeyi duyunca nasıl hissetti?",
-          "correct": "They laughed for a long time",
+          "q": "Who did Sam's daddy drive home first?",
+          "qTr": "Sam'in babası önce kimi eve bıraktı?",
+          "correct": "Nora's grandpa",
           "wrong": [
-            "They felt sorry for Dad",
-            "They were angry"
+            "Nora's grandma",
+            "Sam's brother"
           ],
-          "hint": "Find what happened when Sam's dad told the story.",
+          "hint": "Son iki cümledeki sırayı takip et.",
           "hl": [
-            10
+            8
           ]
         }
       ]
     },
     {
       "id": "inf-3",
-      "title": "Which Job Is This?",
+      "title": "The Card at the Bus Stop",
       "subtitle": "Use the clues to find the job!",
-      "icon": "🔍",
-      "hlMode": "fade3",
-      "hintMode": "always",
-      "choices": 3,
-      "cast": [
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        },
-        {
-          "e": "👧",
-          "n": "Nora"
-        },
-        {
-          "e": "👦",
-          "n": "Sam"
-        }
-      ],
-      "sentences": [
-        "There is a person who works in our city.",
-        "This person is not a teacher. This person is not a doctor.",
-        "This person is not a singer.",
-        "This person checks teeth every day.",
-        "This person helps children when they have a toothache.",
-        "This person works at a special clinic.",
-        "What job is this?",
-        "This is a dentist!"
-      ],
-      "translations": [
-        "Şehrimizde çalışan bir kişi var.",
-        "Bu kişi öğretmen değil. Bu kişi doktor değil.",
-        "Bu kişi şarkıcı değil.",
-        "Bu kişi her gün dişleri kontrol eder.",
-        "Bu kişi diş ağrısı olan çocuklara yardım eder.",
-        "Bu kişi özel bir klinikte çalışır.",
-        "Bu hangi meslek?",
-        "Bu bir diş hekimi!"
-      ],
-      "questions": [
-        {
-          "q": "Is this person a teacher?",
-          "qTr": "Bu kişi bir öğretmen mi?",
-          "correct": "No",
-          "wrong": [
-            "Yes",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does this person check?",
-          "qTr": "Bu kişi neyi kontrol eder?",
-          "correct": "Teeth",
-          "wrong": [
-            "Cars",
-            "Houses"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Who does this person help?",
-          "qTr": "Bu kişi kime yardım eder?",
-          "correct": "Children with toothache",
-          "wrong": [
-            "Sick adults",
-            "Old people"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "Where does this person work?",
-          "qTr": "Bu kişi nerede çalışır?",
-          "correct": "At a clinic",
-          "wrong": [
-            "At a school",
-            "At a farm"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is the job?",
-          "qTr": "Bu meslek nedir?",
-          "correct": "A dentist",
-          "wrong": [
-            "A nurse",
-            "A doctor"
-          ],
-          "hint": "Match all clues.",
-          "hl": [
-            3,
-            5,
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "id": "inf-4",
-      "title": "Who Wears the Uniform?",
-      "subtitle": "Use the clues to find the job!",
-      "icon": "🛡️",
-      "hlMode": "fade3",
-      "hintMode": "always",
-      "choices": 3,
-      "cast": [
-        {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        },
-        {
-          "e": "👧",
-          "n": "Nora"
-        }
-      ],
-      "sentences": [
-        "There is a person who wears a special uniform every day.",
-        "This person is not a teacher. This person is not a chef.",
-        "This person is not an artist.",
-        "This person drives a special car with lights and sounds.",
-        "This person keeps the city safe.",
-        "This person works at a police station.",
-        "What job is this?",
-        "This is a police officer!"
-      ],
-      "translations": [
-        "Her gün özel bir üniforma giyen bir kişi var.",
-        "Bu kişi öğretmen değil. Bu kişi şef değil.",
-        "Bu kişi sanatçı değil.",
-        "Bu kişi ışıklı ve sesli özel bir araba sürer.",
-        "Bu kişi şehri güvende tutar.",
-        "Bu kişi polis karakolunda çalışır.",
-        "Bu hangi meslek?",
-        "Bu bir polis memuru!"
-      ],
-      "questions": [
-        {
-          "q": "What does this person wear?",
-          "qTr": "Bu kişi ne giyer?",
-          "correct": "A uniform",
-          "wrong": [
-            "A dress",
-            "A suit"
-          ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "Is this person a teacher?",
-          "qTr": "Bu kişi bir öğretmen mi?",
-          "correct": "No",
-          "wrong": [
-            "Yes",
-            "Maybe"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does this person drive?",
-          "qTr": "Bu kişi ne sürer?",
-          "correct": "A special car",
-          "wrong": [
-            "A truck",
-            "A bus"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Where does this person work?",
-          "qTr": "Bu kişi nerede çalışır?",
-          "correct": "At a police station",
-          "wrong": [
-            "At a school",
-            "At a hospital"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is the job?",
-          "qTr": "Bu meslek nedir?",
-          "correct": "A police officer",
-          "wrong": [
-            "A driver",
-            "A doctor"
-          ],
-          "hint": "Match all clues.",
-          "hl": [
-            3,
-            5,
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "id": "inf-5",
-      "title": "Which Place Is This?",
-      "subtitle": "Use the clues to find the place!",
-      "icon": "🏨",
+      "icon": "🦷",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -3947,98 +3707,333 @@
         }
       ],
       "sentences": [
-        "There is a special place in our city.",
-        "It is not a hospital. It is not a school.",
-        "It is not a museum.",
-        "People go there to watch films on a big screen.",
-        "Families and friends sit together in dark rooms.",
-        "People eat popcorn and drink juice while watching.",
-        "What place is this?",
-        "It is the cinema!"
+        "Sam: I found a card at the bus stop. It says \"Come back in six months.\"",
+        "Nora: A teacher writes cards like that? No — teachers see us every day.",
+        "Leyla: My aunt is a nurse. Nurses do not send people away for six months.",
+        "Sam: The card has the smallest picture of a tooth in the corner.",
+        "Nora: Then it is not a doctor. Doctors check the whole body, not one tooth.",
+        "Leyla: My cousin went to this person last winter. She had the cleanest teeth in her class!",
+        "Sam: So this person checks teeth and helps children with a toothache.",
+        "Nora: My grandma saw this person yesterday. She came home with a new toothbrush.",
+        "Leyla: Look at the bottom — it says \"Greenfield Clinic, room three\".",
+        "Sam: It is a dentist's card. Let's take it to the clinic tomorrow."
       ],
       "translations": [
-        "Şehrimizde özel bir yer var.",
-        "Hastane değil. Okul değil.",
-        "Müze değil.",
-        "İnsanlar büyük ekranda film izlemek için oraya gider.",
-        "Aileler ve arkadaşlar karanlık odalarda birlikte otururlar.",
-        "İzlerken patlamış mısır yer ve meyve suyu içerler.",
-        "Bu hangi yer?",
-        "Sinema!"
+        "Sam: Otobüs durağında bir kart buldum. Üstünde \"Altı ay sonra tekrar gelin\" yazıyor.",
+        "Nora: Öğretmen böyle kart yazar mı? Hayır — öğretmenler bizi her gün görür.",
+        "Leyla: Halam hemşire. Hemşireler insanları altı aylığına göndermez.",
+        "Sam: Kartın köşesinde en küçük diş resmi var.",
+        "Nora: O zaman doktor değil. Doktorlar tek dişi değil, bütün vücudu kontrol eder.",
+        "Leyla: Kuzenim geçen kış bu kişiye gitti. Sınıfındaki en temiz dişlere sahipti!",
+        "Sam: Demek bu kişi dişleri kontrol eder ve diş ağrısı olan çocuklara yardım eder.",
+        "Nora: Büyükannem dün bu kişiyi gördü. Eve yeni bir diş fırçasıyla geldi.",
+        "Leyla: Alt tarafa bak — \"Greenfield Kliniği, üç numaralı oda\" yazıyor.",
+        "Sam: Bu bir diş hekiminin kartı. Hadi yarın kliniğe götürelim."
       ],
       "questions": [
         {
-          "q": "Is it a hospital?",
-          "qTr": "Burası bir hastane mi?",
-          "correct": "No",
+          "q": "Whose card is it?",
+          "qTr": "Bu kimin kartı?",
+          "correct": "A dentist's card",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "A teacher's card",
+            "A doctor's card"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Diş resmini ve kliniği birleştir.",
+          "hl": [
+            3,
+            6
+          ]
+        },
+        {
+          "q": "Why is it not a teacher?",
+          "qTr": "Neden öğretmen değil?",
+          "correct": "Teachers see us every day",
+          "wrong": [
+            "Teachers work at a clinic",
+            "Teachers check children's teeth"
+          ],
+          "hint": "Nora'nın ilk cümlesiyle ele.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What do people watch there?",
-          "qTr": "İnsanlar orada ne izler?",
-          "correct": "Films",
+          "q": "Why is it not a doctor?",
+          "qTr": "Neden doktor değil?",
+          "correct": "Doctors check the whole body",
           "wrong": [
-            "Books",
-            "Concerts"
+            "Doctors work in a school",
+            "Doctors send cards every month"
           ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "How are the rooms?",
-          "qTr": "Odalar nasıl?",
-          "correct": "Dark",
-          "wrong": [
-            "Bright",
-            "Sunny"
-          ],
-          "hint": "Read sentence 5.",
+          "hint": "Dişle vücudu karşılaştıran cümleye bak, diğerlerini ele.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What do people eat there?",
-          "qTr": "İnsanlar orada ne yer?",
-          "correct": "Popcorn",
+          "q": "What did Leyla's cousin have after her visit?",
+          "qTr": "Leyla'nın kuzeninin ziyaretten sonra nesi vardı?",
+          "correct": "The cleanest teeth",
           "wrong": [
-            "Pasta",
-            "Soup"
+            "The newest toothbrush",
+            "The smallest picture"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Geçen kışı bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What place is it?",
-          "qTr": "Burası hangi yerdir?",
-          "correct": "The cinema",
+          "q": "Where is this person's room?",
+          "qTr": "Bu kişinin odası nerede?",
+          "correct": "Greenfield Clinic, room three",
           "wrong": [
-            "The library",
-            "The cafe"
+            "Greenfield School, room two",
+            "Greenfield Hospital, room one"
           ],
-          "hint": "Match all clues.",
+          "hint": "Kartın alt tarafındaki yazıya bak.",
           "hl": [
-            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-4",
+      "title": "The Blue Coat at the Door",
+      "subtitle": "Use the clues to find the job!",
+      "icon": "👮",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Nora: Somebody in a blue uniform knocked on our door this morning.",
+        "Sam: A chef? My uncle wears white at the restaurant, not blue.",
+        "Leyla: A driver, then? My daddy drives the school bus, but he wears his own clothes.",
+        "Nora: This person did not come for food or for the bus. He came about our neighbour's lost dog.",
+        "Sam: An artist wears old clothes with paint on them. This person had a shiny badge.",
+        "Nora: He drove a car with lights on the roof and parked it at the station corner.",
+        "Leyla: He found the dog behind the bakery — the fastest search on our street!",
+        "Nora: He gave the dog back and wrote something in a small black book.",
+        "Sam: My uncle stands at that same corner every day in the same blue uniform.",
+        "Leyla: Then it is a police officer, and he is the kindest one in Greenfield."
+      ],
+      "translations": [
+        "Nora: Bu sabah mavi üniformalı biri kapımızı çaldı.",
+        "Sam: Şef mi? Amcam restoranda mavi değil beyaz giyer.",
+        "Leyla: Sürücü o zaman? Babam okul otobüsü kullanır ama kendi kıyafetlerini giyer.",
+        "Nora: Bu kişi yemek ya da otobüs için gelmedi. Komşumuzun kayıp köpeği için geldi.",
+        "Sam: Ressamlar üstü boyalı eski kıyafetler giyer. Bu kişinin parlak bir rozeti vardı.",
+        "Nora: Tavanında ışıklar olan bir araba sürdü ve onu istasyon köşesine park etti.",
+        "Leyla: Köpeği fırının arkasında buldu — sokağımızdaki en hızlı arama!",
+        "Nora: Köpeği geri verdi ve küçük siyah bir deftere bir şeyler yazdı.",
+        "Sam: Amcam her gün aynı köşede aynı mavi üniformayla durur.",
+        "Leyla: O zaman bu bir polis memuru ve Greenfield'daki en nazik olanı."
+      ],
+      "questions": [
+        {
+          "q": "Who came to Nora's door?",
+          "qTr": "Nora'nın kapısına kim geldi?",
+          "correct": "A police officer",
+          "wrong": [
+            "A shop assistant",
+            "A young driver"
+          ],
+          "hint": "Rozeti, ışıklı arabayı ve istasyon köşesini birleştir.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "Why is it not a chef?",
+          "qTr": "Neden şef değil?",
+          "correct": "Chefs wear white clothes",
+          "wrong": [
+            "Chefs drive fast cars",
+            "Chefs work at stations"
+          ],
+          "hint": "Sam'in ilk tahminini ele.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Why is it not a driver?",
+          "qTr": "Neden sürücü değil?",
+          "correct": "Drivers wear their own clothes",
+          "wrong": [
+            "Drivers work at the bakery",
+            "Drivers do not find dogs"
+          ],
+          "hint": "Leyla'nın tahminini ele.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where did he find the dog?",
+          "qTr": "Köpeği nerede buldu?",
+          "correct": "Behind the bakery",
+          "wrong": [
+            "Behind the station",
+            "Behind the school"
+          ],
+          "hint": "Aramanın sonucunu bul.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Who else wears the same uniform?",
+          "qTr": "Aynı üniformayı başka kim giyer?",
+          "correct": "Sam's uncle",
+          "wrong": [
+            "Leyla's daddy",
+            "Nora's neighbour"
+          ],
+          "hint": "Aynı köşede duran kişiyi bul.",
+          "hl": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inf-5",
+      "title": "The Ticket in the Winter Coat",
+      "subtitle": "Use the clues to find the place!",
+      "icon": "🎟️",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        }
+      ],
+      "sentences": [
+        "Leyla: I found an old ticket in my winter coat. Where did I use it?",
+        "Sam: The library? No — the library gives cards, not tickets.",
+        "Nora: The museum, then? My class went there in May, but those tickets were green.",
+        "Leyla: This ticket is blue, and it says \"Row 8, Seat 12\".",
+        "Sam: The theatre has rows and seats too. Did you see a singer there?",
+        "Leyla: No. On the back it says \"Popcorn: 20 lira\" — the biggest bag they sell.",
+        "Nora: A theatre does not sell popcorn. My daddy took me to a dark room with a big screen.",
+        "Leyla: Yes! I went with my grandpa, and we ate popcorn in the dark.",
+        "Sam: Was it the longest film of the year? My cousin sat there for three hours.",
+        "Leyla: The cinema, of course — and my grandpa slept through the last hour."
+      ],
+      "translations": [
+        "Leyla: Kışlık montumda eski bir bilet buldum. Onu nerede kullandım?",
+        "Sam: Kütüphane mi? Hayır — kütüphane bilet değil kart verir.",
+        "Nora: Müze o zaman? Sınıfım Mayıs'ta oraya gitti ama o biletler yeşildi.",
+        "Leyla: Bu bilet mavi ve üstünde \"8. Sıra, 12. Koltuk\" yazıyor.",
+        "Sam: Tiyatroda da sıralar ve koltuklar var. Orada bir şarkıcı mı gördün?",
+        "Leyla: Hayır. Arkasında \"Patlamış mısır: 20 lira\" yazıyor — sattıkları en büyük paket.",
+        "Nora: Tiyatro patlamış mısır satmaz. Babam beni büyük ekranlı karanlık bir odaya götürdü.",
+        "Leyla: Evet! Dedemle gittim ve karanlıkta patlamış mısır yedik.",
+        "Sam: Yılın en uzun filmi miydi? Kuzenim orada üç saat oturdu.",
+        "Leyla: Sinema tabii ki — ve dedem son bir saat boyunca uyudu."
+      ],
+      "questions": [
+        {
+          "q": "Where did Leyla use the ticket?",
+          "qTr": "Leyla bileti nerede kullandı?",
+          "correct": "At the cinema",
+          "wrong": [
+            "At the theatre",
+            "At the museum"
+          ],
+          "hint": "Patlamış mısırı ve karanlık odayı birleştir.",
+          "hl": [
             5,
-            7
+            6
+          ]
+        },
+        {
+          "q": "Why is it not the library?",
+          "qTr": "Neden kütüphane değil?",
+          "correct": "Libraries give cards",
+          "wrong": [
+            "Libraries sell popcorn",
+            "Libraries have big screens"
+          ],
+          "hint": "Sam'in ilk tahminini ele.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Why is it not the museum?",
+          "qTr": "Neden müze değil?",
+          "correct": "Museum tickets are green",
+          "wrong": [
+            "Museum tickets are blue",
+            "Museum tickets have rows"
+          ],
+          "hint": "Bilet rengine bak.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "Why is it not the theatre?",
+          "qTr": "Neden tiyatro değil?",
+          "correct": "Theatres do not sell popcorn",
+          "wrong": [
+            "Theatres do not have seats",
+            "Theatres do not have rows"
+          ],
+          "hint": "Biletin arkasındaki yazıyı ele al.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "Who went with Leyla?",
+          "qTr": "Leyla'yla kim gitti?",
+          "correct": "Her grandpa",
+          "wrong": [
+            "Her grandma",
+            "Her daddy"
+          ],
+          "hint": "Son cümlede uyuyan kişiyi bul.",
+          "hl": [
+            7,
+            9
           ]
         }
       ]
     },
     {
       "id": "inf-6",
-      "title": "What Is Sam Doing?",
+      "title": "The Missing Lead",
       "subtitle": "Use the clues to find the errand!",
       "icon": "🐕",
       "hlMode": "fade3",
@@ -4046,12 +4041,12 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
           "e": "👧",
           "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
         },
         {
           "e": "👧🏽",
@@ -4059,100 +4054,104 @@
         }
       ],
       "sentences": [
-        "Sam is doing a special family errand.",
-        "He is not buying groceries.",
-        "He is not taking the rubbish out.",
-        "He is not picking up his sister.",
-        "He is at the park with someone furry.",
-        "He has a lead in his hand.",
-        "What is Sam doing?",
-        "He is taking the dog for a walk!"
+        "Sam's mummy: Sam is not in his room. His shoes are gone, and the lead is gone too.",
+        "Nora: Is he buying groceries? No — the greengrocer's is closed on Sunday mornings.",
+        "Leyla: The rubbish, then? I saw the bin by the door, and it is still full.",
+        "Nora: He is not picking up the children from school. There is no school today.",
+        "Sam's mummy: He is not setting the table either — the table is completely empty.",
+        "Leyla: Look through the window! Somebody is running in the park with something furry.",
+        "Nora: That is the muddiest dog in Greenfield, and Sam is holding the lead.",
+        "Sam's mummy: He took the dog out at eight. He is the fastest walker in our family.",
+        "Sam: We are back! The dog went into the water, and now my shoes are wet.",
+        "Sam's mummy: Go ahead — wash the dog first, then wash those shoes."
       ],
       "translations": [
-        "Sam özel bir aile işi yapıyor.",
-        "Sebze meyve almıyor.",
-        "Çöpü dışarı çıkarmıyor.",
-        "Kız kardeşini almıyor.",
-        "Tüylü biriyle parkta.",
-        "Elinde bir tasma var.",
-        "Sam ne yapıyor?",
-        "Köpeği yürüyüşe çıkarıyor!"
+        "Sam'in annesi: Sam odasında değil. Ayakkabıları yok, tasma da yok.",
+        "Nora: Alışveriş mi yapıyor? Hayır — manav Pazar sabahları kapalı.",
+        "Leyla: Çöp o zaman? Kapının yanındaki kovayı gördüm, hâlâ dolu.",
+        "Nora: Çocukları okuldan almıyor. Bugün okul yok.",
+        "Sam'in annesi: Masayı da kurmuyor — masa tamamen boş.",
+        "Leyla: Pencereden bakın! Biri parkta tüylü bir şeyle koşuyor.",
+        "Nora: O Greenfield'daki en çamurlu köpek ve tasmayı Sam tutuyor.",
+        "Sam'in annesi: Köpeği sekizde çıkardı. Ailemizdeki en hızlı yürüyücü o.",
+        "Sam: Döndük! Köpek suya girdi ve şimdi ayakkabılarım ıslak.",
+        "Sam'in annesi: Hadi bakalım — önce köpeği yıka, sonra o ayakkabıları."
       ],
       "questions": [
         {
-          "q": "Is Sam buying groceries?",
-          "qTr": "Sam market alışverişi mi yapıyor?",
-          "correct": "No",
+          "q": "What is Sam doing?",
+          "qTr": "Sam ne yapıyor?",
+          "correct": "Taking the dog out",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Buying the family groceries",
+            "Picking up the children"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Tasmayı ve parktaki tüylü şeyi birleştir.",
+          "hl": [
+            0,
+            5
+          ]
+        },
+        {
+          "q": "Why is he not buying groceries?",
+          "qTr": "Neden alışveriş yapmıyor?",
+          "correct": "The greengrocer's is closed today",
+          "wrong": [
+            "The greengrocer's is very far",
+            "The greengrocer's has no fruit"
+          ],
+          "hint": "Nora'nın ilk cümlesiyle ele.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where is Sam?",
-          "qTr": "Sam nerede?",
-          "correct": "At the park",
+          "q": "Why is he not taking the rubbish out?",
+          "qTr": "Neden çöpü çıkarmıyor?",
+          "correct": "The bin is still full",
           "wrong": [
-            "At home",
-            "At school"
+            "The bin is very small",
+            "The bin is in the park"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'nın gördüğü şeye bak.",
           "hl": [
-            4
+            2
           ]
         },
         {
-          "q": "What is in Sam's hand?",
-          "qTr": "Sam'in elinde ne var?",
-          "correct": "A lead",
+          "q": "Who is holding the lead?",
+          "qTr": "Tasmayı kim tutuyor?",
+          "correct": "Sam",
           "wrong": [
-            "A book",
-            "A ball"
+            "Nora",
+            "Leyla"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Pencereden bakan cümleleri birleştir.",
           "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Who is with Sam?",
-          "qTr": "Sam'in yanında kim var?",
-          "correct": "Someone furry",
-          "wrong": [
-            "His mum",
-            "A friend"
-          ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What is Sam doing?",
-          "qTr": "Sam ne yapıyor?",
-          "correct": "Taking the dog for a walk",
-          "wrong": [
-            "Buying groceries",
-            "Picking up sister"
-          ],
-          "hint": "Match all clues.",
-          "hl": [
-            4,
             5,
-            7
+            6
+          ]
+        },
+        {
+          "q": "What happened to Sam's shoes?",
+          "qTr": "Sam'in ayakkabılarına ne oldu?",
+          "correct": "They got wet",
+          "wrong": [
+            "They got lost",
+            "They got old"
+          ],
+          "hint": "Sam'in son sözlerini bul.",
+          "hl": [
+            8
           ]
         }
       ]
     },
     {
       "id": "inf-7",
-      "title": "Who Is the Kindest?",
+      "title": "The Warm Plate on the Table",
       "subtitle": "Use the clues to find the family member!",
-      "icon": "💖",
+      "icon": "🍲",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -4171,91 +4170,93 @@
         }
       ],
       "sentences": [
-        "There is a kind family member in Nora's home.",
-        "This person is not her brother. This person is not her sister.",
-        "This person is not her daddy.",
-        "This person is a woman.",
-        "This person makes wonderful food for everyone.",
-        "This person tells the best bedtime stories.",
-        "Who is this family member?",
-        "It is Nora's mummy!"
+        "Nora: Somebody left a warm plate on our table and went out. Who cooked it?",
+        "Sam: Your mummy? She is at school until four — she teaches Class 1 all day.",
+        "Leyla: Your daddy, then? He drove to the hospital at seven this morning.",
+        "Nora: My brother is at football, and my sister went to the library with her friends.",
+        "Sam: Your grandpa? No — your grandpa lives in another city now.",
+        "Nora: The plate has soup with carrots. This person cooks at the hospital café every morning.",
+        "Leyla: She is the kindest person in your family. She helped our neighbour last week too.",
+        "Nora: And there is a note here: \"I made the biggest pot, so give some to Sam.\"",
+        "Sam: She wrote my name! She remembered my birthday last month too.",
+        "Nora: It was my grandma — she came at eleven and left before we woke up."
       ],
       "translations": [
-        "Nora'nın evinde kibar bir aile üyesi var.",
-        "Bu kişi abisi değil. Bu kişi kız kardeşi değil.",
-        "Bu kişi babası değil.",
-        "Bu kişi bir kadın.",
-        "Bu kişi herkes için harika yemekler yapar.",
-        "Bu kişi en iyi yatak öncesi hikayelerini anlatır.",
-        "Bu aile üyesi kim?",
-        "Nora'nın annesi!"
+        "Nora: Biri masamıza sıcak bir tabak bırakmış ve çıkmış. Bunu kim pişirdi?",
+        "Sam: Annen mi? O dörde kadar okulda — bütün gün 1. sınıfa ders verir.",
+        "Leyla: Baban o zaman? Bu sabah yedide hastaneye gitti.",
+        "Nora: Kardeşim futbolda, ablam da arkadaşlarıyla kütüphaneye gitti.",
+        "Sam: Deden mi? Hayır — deden artık başka bir şehirde yaşıyor.",
+        "Nora: Tabakta havuçlu çorba var. Bu kişi her sabah hastane kafesinde yemek pişirir.",
+        "Leyla: O senin ailendeki en nazik kişi. Geçen hafta komşumuza da yardım etti.",
+        "Nora: Ve burada bir not var: \"En büyük tencereyi yaptım, Sam'e de biraz ver.\"",
+        "Sam: Adımı yazmış! Geçen ay doğum günümü de hatırlamıştı.",
+        "Nora: Büyükannemmiş — on birde gelmiş ve biz uyanmadan gitmiş."
       ],
       "questions": [
         {
-          "q": "Is the person her brother?",
-          "qTr": "Kişi onun erkek kardeşi mi?",
-          "correct": "No",
+          "q": "Who cooked the soup?",
+          "qTr": "Çorbayı kim pişirdi?",
+          "correct": "Nora's grandma",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Nora's mummy",
+            "Nora's sister"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Hastane kafesinde yemek yapan kişiyi bul.",
+          "hl": [
+            5,
+            9
+          ]
+        },
+        {
+          "q": "Why is it not Nora's mummy?",
+          "qTr": "Neden Nora'nın annesi değil?",
+          "correct": "She is at school today",
+          "wrong": [
+            "She is at the hospital",
+            "She is in another city"
+          ],
+          "hint": "Sam'in ilk tahminini ele.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Is the person her daddy?",
-          "qTr": "Kişi onun babası mı?",
-          "correct": "No",
+          "q": "Where did Nora's sister go?",
+          "qTr": "Nora'nın ablası nereye gitti?",
+          "correct": "To the library",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "To the hospital",
+            "To the café"
           ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Is the person a man or a woman?",
-          "qTr": "Kişi bir erkek mi yoksa kadın mı?",
-          "correct": "A woman",
-          "wrong": [
-            "A man",
-            "A child"
-          ],
-          "hint": "Read sentence 4.",
+          "hint": "Nora'nın üçüncü cümlesini bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does this person do?",
-          "qTr": "Bu kişi ne iş yapar?",
-          "correct": "Makes wonderful food",
+          "q": "Why is it not Nora's grandpa?",
+          "qTr": "Neden Nora'nın dedesi değil?",
+          "correct": "He lives in another city",
           "wrong": [
-            "Drives a car",
-            "Cleans the city"
+            "He works at the hospital",
+            "He is at football today"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sam'in ikinci tahminini ele.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Who is this person?",
-          "qTr": "Bu kişi kimdir?",
-          "correct": "Nora's mummy",
+          "q": "What did the note say?",
+          "qTr": "Notta ne yazıyordu?",
+          "correct": "Give some to Sam",
           "wrong": [
-            "Her sister",
-            "Her grandma"
+            "Give some to Leyla",
+            "Give some to grandpa"
           ],
-          "hint": "Match the clues.",
+          "hint": "Kâğıttaki yazıyı bul.",
           "hl": [
-            3,
-            4,
-            5,
             7
           ]
         }
@@ -4263,20 +4264,20 @@
     },
     {
       "id": "inf-8",
-      "title": "What Is Grandpa's Habit?",
+      "title": "The Muddy Boots by the Door",
       "subtitle": "Use the clues to find the habit!",
-      "icon": "🌱",
+      "icon": "🥾",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
       "cast": [
         {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
           "e": "👧",
           "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
         },
         {
           "e": "👧🏽",
@@ -4284,100 +4285,103 @@
         }
       ],
       "sentences": [
-        "Sam's grandpa has a special weekend habit.",
-        "He doesn't watch films on Sundays.",
-        "He doesn't ride a bike on Saturdays.",
-        "He doesn't read before bed.",
-        "He is in the garden every Sunday morning.",
-        "He grows beautiful flowers and vegetables.",
-        "What is grandpa's habit?",
-        "He gardens on Sundays!"
+        "Leyla: My grandpa has one habit that never changes on Sundays.",
+        "Nora: Does he watch films? My daddy loves watching films on Sunday afternoons.",
+        "Leyla: Not my grandpa. Our television was broken all last month and he never noticed.",
+        "Sam: A bike ride, then? My mummy loves riding her bike on Saturdays.",
+        "Leyla: His bike has no wheels. It stood in the garage for three years!",
+        "Nora: Reading before bed? My grandma reads every single night.",
+        "Leyla: He falls asleep after two pages. Look at his boots — they are the muddiest in our house.",
+        "Sam: He came in with seeds in his pocket this morning, too.",
+        "Leyla: He loves gardening, and every Sunday he plants something new.",
+        "Nora: Then those are the happiest boots in Greenfield."
       ],
       "translations": [
-        "Sam'in dedesinin özel bir hafta sonu alışkanlığı var.",
-        "Pazarları film izlemez.",
-        "Cumartesi günleri bisiklete binmez.",
-        "Yatmadan önce okumaz.",
-        "Her Pazar sabahı bahçededir.",
-        "Güzel çiçekler ve sebzeler yetiştirir.",
-        "Dedenin alışkanlığı nedir?",
-        "Pazarları bahçede çalışır!"
+        "Leyla: Dedemin Pazar günleri hiç değişmeyen bir alışkanlığı var.",
+        "Nora: Film mi izler? Babam Pazar öğleden sonraları film izlemeyi sever.",
+        "Leyla: Dedem değil. Televizyonumuz geçen ay boyunca bozuktu ve o hiç fark etmedi.",
+        "Sam: Bisiklet turu o zaman? Annem Cumartesileri bisiklete binmeyi sever.",
+        "Leyla: Bisikletinin tekerleği yok. Üç yıldır garajda duruyor!",
+        "Nora: Yatmadan önce okumak mı? Büyükannem her gece okur.",
+        "Leyla: O iki sayfadan sonra uyuyakalır. Botlarına bakın — evimizdeki en çamurlu botlar.",
+        "Sam: Bu sabah cebinde tohumlarla içeri girdi ayrıca.",
+        "Leyla: Bahçeyle uğraşmayı sever ve her Pazar yeni bir şey eker.",
+        "Nora: O zaman bunlar Greenfield'daki en mutlu botlar."
       ],
       "questions": [
         {
-          "q": "Does grandpa watch films on Sundays?",
-          "qTr": "Büyükbaba pazarları film izler mi?",
-          "correct": "No",
+          "q": "What is grandpa's Sunday habit?",
+          "qTr": "Dedenin Pazar alışkanlığı nedir?",
+          "correct": "Gardening",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Cycling",
+            "Reading"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Çamurlu botları ve tohumları birleştir.",
           "hl": [
-            1
+            6,
+            8
           ]
         },
         {
-          "q": "Does grandpa ride a bike on Saturdays?",
-          "qTr": "Büyükbaba cumartesileri bisiklete biner mi?",
-          "correct": "No",
+          "q": "Why does he not watch films?",
+          "qTr": "Neden film izlemez?",
+          "correct": "Their television was broken",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Their television was very new",
+            "Their television was too big"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nın ilk tahminini ele.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Where is grandpa every Sunday morning?",
-          "qTr": "Büyükbaba her pazar sabahı nerede?",
-          "correct": "In the garden",
+          "q": "Why does he not ride a bike?",
+          "qTr": "Neden bisiklete binmez?",
+          "correct": "His bike has no wheels",
           "wrong": [
-            "At the cinema",
-            "In the kitchen"
+            "His bike is very small",
+            "His bike is at the shop"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Garajdaki bisiklete bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does he grow?",
-          "qTr": "O ne yetiştirir?",
-          "correct": "Flowers and vegetables",
+          "q": "What did Sam see in grandpa's pocket?",
+          "qTr": "Sam dedenin cebinde ne gördü?",
+          "correct": "Some seeds",
           "wrong": [
-            "Animals",
-            "Cars"
+            "Some books",
+            "Some boots"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Bu sabahı anlatan cümleyi bul.",
           "hl": [
-            5
+            7
           ]
         },
         {
-          "q": "What is his habit?",
-          "qTr": "Onun alışkanlığı nedir?",
-          "correct": "Gardens on Sundays",
+          "q": "What are the muddiest things in the house?",
+          "qTr": "Evdeki en çamurlu şeyler nelerdir?",
+          "correct": "Grandpa's boots",
           "wrong": [
-            "Reads before bed",
-            "Watches films"
+            "Grandpa's books",
+            "Grandpa's seeds"
           ],
-          "hint": "Match all clues.",
+          "hint": "Kapının yanına bak.",
           "hl": [
-            4,
-            5,
-            7
+            6
           ]
         }
       ]
     },
     {
       "id": "inf-9",
-      "title": "Which Day Is It?",
+      "title": "The Clues in the Kitchen",
       "subtitle": "Use the clues to find the day!",
-      "icon": "📅",
+      "icon": "🗓️",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -4391,98 +4395,100 @@
           "n": "Sam"
         },
         {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
+          "e": "👧🏽",
+          "n": "Leyla"
         }
       ],
       "sentences": [
-        "Today is a busy day in Nora's family.",
-        "It is not Monday. It is not Tuesday.",
-        "It is not Wednesday.",
-        "It is not a weekend.",
-        "On this day, her family goes to the bakery early in the morning.",
-        "On this day, her brother takes the rubbish out before school.",
-        "On this day, her daddy picks up the family pizza in the evening.",
-        "Which day is it?",
-        "It is Friday!"
+        "Nora: I woke up and nobody told me the day, so I read the clues in our kitchen.",
+        "Nora: It is not Saturday or Sunday — my school bag is by the door.",
+        "Sam: Monday? On Mondays your mummy does the shopping and the bags sit on the table.",
+        "Nora: The table is empty, so it is not Monday.",
+        "Leyla: On Tuesdays and Wednesdays your brother takes the rubbish out. Is the bin full?",
+        "Nora: It is still full, so those two days are out. On Thursdays my grandma comes with soup.",
+        "Nora: There is no pot on the cooker, so it is not Thursday either.",
+        "Sam: But there is a bakery bag here, and your family goes to the bakery on one morning only.",
+        "Nora: Yes — and my daddy picks up the pizza on that evening. He wrote it on the calendar.",
+        "Leyla: It is Friday! The busiest morning and the laziest evening of your week."
       ],
       "translations": [
-        "Bugün Nora'nın ailesinde yoğun bir gün.",
-        "Pazartesi değil. Salı değil.",
-        "Çarşamba değil.",
-        "Hafta sonu da değil.",
-        "Bu gün ailesi sabah erken fırına gider.",
-        "Bu gün abisi okuldan önce çöpü dışarı çıkarır.",
-        "Bu gün babası akşam aile pizzasını alır.",
-        "Hangi gün?",
-        "Cuma!"
+        "Nora: Uyandım ve kimse bana günü söylemedi, ben de mutfaktaki ipuçlarını okudum.",
+        "Nora: Cumartesi ya da Pazar değil — okul çantam kapının yanında.",
+        "Sam: Pazartesi mi? Pazartesileri annen alışveriş yapar ve torbalar masada durur.",
+        "Nora: Masa boş, yani Pazartesi değil.",
+        "Leyla: Salı ve Çarşamba günleri kardeşin çöpü çıkarır. Kova dolu mu?",
+        "Nora: Hâlâ dolu, yani o iki gün de elendi. Perşembeleri büyükannem çorbayla gelir.",
+        "Nora: Ocakta tencere yok, yani Perşembe de değil.",
+        "Sam: Ama burada bir fırın torbası var ve ailen sadece bir sabah fırına gider.",
+        "Nora: Evet — ve babam o akşam pizzayı alır. Takvime yazmıştı.",
+        "Leyla: Cuma! Haftanın en yoğun sabahı ve en tembel akşamı."
       ],
       "questions": [
         {
-          "q": "Is it Monday?",
-          "qTr": "Pazartesi mi?",
-          "correct": "No",
+          "q": "Which day is it?",
+          "qTr": "Hangi gün?",
+          "correct": "Friday",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Thursday",
+            "Monday"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Fırın torbasını ve pizza akşamını birleştir.",
+          "hl": [
+            7,
+            8
+          ]
+        },
+        {
+          "q": "Why is it not the weekend?",
+          "qTr": "Neden hafta sonu değil?",
+          "correct": "Her school bag is out",
+          "wrong": [
+            "Her school bag is lost",
+            "Her school bag is full"
+          ],
+          "hint": "İlk ipucunu ele.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Is it a weekend?",
-          "qTr": "Hafta sonu mu?",
-          "correct": "No",
+          "q": "Why is it not Monday?",
+          "qTr": "Neden Pazartesi değil?",
+          "correct": "The table is empty",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "The table is dirty",
+            "The table is small"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Alışveriş torbalarını ele.",
           "hl": [
+            2,
             3
           ]
         },
         {
-          "q": "Where does the family go in the morning?",
-          "qTr": "Aile sabah nereye gider?",
-          "correct": "To the bakery",
+          "q": "Why is it not Thursday?",
+          "qTr": "Neden Perşembe değil?",
+          "correct": "There is no soup pot",
           "wrong": [
-            "To school",
-            "To the cinema"
+            "There is no school bag",
+            "There is no bakery bag"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Büyükannenin geldiği günü ele.",
           "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What does the brother do?",
-          "qTr": "Erkek kardeş ne yapar?",
-          "correct": "Takes the rubbish out",
-          "wrong": [
-            "Cooks dinner",
-            "Reads books"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Which day is it?",
-          "qTr": "Bugün hangi gün?",
-          "correct": "Friday",
-          "wrong": [
-            "Saturday",
-            "Sunday"
-          ],
-          "hint": "Match all clues.",
-          "hl": [
-            3,
-            4,
             5,
+            6
+          ]
+        },
+        {
+          "q": "Who wrote the pizza evening on the calendar?",
+          "qTr": "Pizza akşamını takvime kim yazdı?",
+          "correct": "Nora's daddy",
+          "wrong": [
+            "Nora's brother",
+            "Nora's grandma"
+          ],
+          "hint": "Takvimi anlatan cümleyi bul.",
+          "hl": [
             8
           ]
         }
@@ -4490,9 +4496,9 @@
     },
     {
       "id": "inf-10",
-      "title": "What Did Mummy Do Yesterday?",
-      "subtitle": "Use the clues to find the action!",
-      "icon": "⏪",
+      "title": "The Heavy Bag",
+      "subtitle": "Use the clues to find the place!",
+      "icon": "📚",
       "hlMode": "fade3",
       "hintMode": "always",
       "choices": 3,
@@ -4511,91 +4517,93 @@
         }
       ],
       "sentences": [
-        "Yesterday, Nora's mummy did something special.",
-        "She didn't go to the market.",
-        "She didn't take the dog for a walk.",
-        "She didn't set the table for dinner.",
-        "She didn't go to the cinema.",
-        "She went to a special place to learn something new.",
-        "She read many books and wrote many notes.",
-        "What did Nora's mummy do yesterday?",
-        "She went to the library!"
+        "Nora: My mummy came home at seven yesterday with a heavy bag. Where did she go?",
+        "Sam: The market? No — there was no food in the bag, only paper.",
+        "Leyla: The cinema, then? My family went last week, and nobody carries a bag there.",
+        "Nora: She did not take the dog for a walk. My grandpa took him out at five.",
+        "Nora: She did not set the table either. My brother set it before she came in.",
+        "Sam: So what was in the bag? Show us!",
+        "Nora: Six books, and every book has a card in the front with a date on it.",
+        "Leyla: My daddy brings books like that home. He gives them back after two weeks.",
+        "Nora: She wrote notes all evening — the longest list I ever saw on our table.",
+        "Sam: She went to the library, and she took the heaviest books on the shelf."
       ],
       "translations": [
-        "Dün Nora'nın annesi özel bir şey yaptı.",
-        "Pazara gitmedi.",
-        "Köpeği yürüyüşe çıkarmadı.",
-        "Akşam yemeği için sofrayı kurmadı.",
-        "Sinemaya gitmedi.",
-        "Yeni bir şey öğrenmek için özel bir yere gitti.",
-        "Birçok kitap okudu ve birçok not yazdı.",
-        "Nora'nın annesi dün ne yaptı?",
-        "Kütüphaneye gitti!"
+        "Nora: Annem dün yedide ağır bir çantayla eve geldi. Nereye gitmişti?",
+        "Sam: Market mi? Hayır — çantada yiyecek yoktu, sadece kâğıt vardı.",
+        "Leyla: Sinema o zaman? Ailem geçen hafta gitti ve oraya kimse çanta taşımaz.",
+        "Nora: Köpeği yürüyüşe çıkarmadı. Dedem onu beşte çıkardı.",
+        "Nora: Masayı da kurmadı. Kardeşim o içeri girmeden önce kurmuştu.",
+        "Sam: Peki çantada ne vardı? Göster bize!",
+        "Nora: Altı kitap ve her kitabın ön tarafında tarihli bir kart var.",
+        "Leyla: Babam da eve böyle kitaplar getirir. İki hafta sonra geri verir.",
+        "Nora: Bütün akşam not yazdı — masamızda gördüğüm en uzun liste.",
+        "Sam: Kütüphaneye gitmiş ve raftaki en ağır kitapları almış."
       ],
       "questions": [
         {
-          "q": "Did she go to the market?",
-          "qTr": "Pazara gitti mi?",
-          "correct": "No",
+          "q": "Where did Nora's mummy go?",
+          "qTr": "Nora'nın annesi nereye gitti?",
+          "correct": "To the library",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "To the market",
+            "To the cinema"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Tarihli kartları olan kitapları düşün.",
+          "hl": [
+            6,
+            7
+          ]
+        },
+        {
+          "q": "Why is it not the market?",
+          "qTr": "Neden market değil?",
+          "correct": "There was no food",
+          "wrong": [
+            "There was no bag",
+            "There was no card"
+          ],
+          "hint": "Sam'in ilk tahminini ele.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Did she go to the cinema?",
-          "qTr": "Sinemaya gitti mi?",
-          "correct": "No",
+          "q": "Who took the dog out?",
+          "qTr": "Köpeği kim çıkardı?",
+          "correct": "Nora's grandpa",
           "wrong": [
-            "Yes",
-            "Maybe"
+            "Nora's brother",
+            "Nora's mummy"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Saat beşi bul.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "Why did she go there?",
-          "qTr": "Oraya neden gitti?",
-          "correct": "To learn something new",
+          "q": "What was in the bag?",
+          "qTr": "Çantada ne vardı?",
+          "correct": "Six heavy books",
           "wrong": [
-            "To sleep",
-            "To eat"
+            "Six long lists",
+            "Six old cards"
           ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What did she do?",
-          "qTr": "O ne yaptı?",
-          "correct": "Read books and wrote notes",
-          "wrong": [
-            "Cooked",
-            "Sang"
-          ],
-          "hint": "Read sentence 7.",
+          "hint": "Çantanın içini gösteren cümleyi bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Where did mummy go?",
-          "qTr": "Anne nereye gitti?",
-          "correct": "To the library",
+          "q": "What did mummy do all evening?",
+          "qTr": "Anne bütün akşam ne yaptı?",
+          "correct": "She wrote some notes",
           "wrong": [
-            "To the cinema",
-            "To the bank"
+            "She read some books",
+            "She set the table"
           ],
-          "hint": "Match all clues.",
+          "hint": "Akşamı anlatan cümleyi bul.",
           "hl": [
-            6,
             8
           ]
         }
