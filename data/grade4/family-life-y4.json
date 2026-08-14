@@ -4,7 +4,7 @@
   "scan": [
     {
       "id": "scan-1",
-      "title": "Jobs in Our Family",
+      "title": "Career Day at School",
       "subtitle": "Find the right job and action!",
       "icon": "👨‍👩‍👧",
       "hlMode": "fade3",
@@ -29,101 +29,101 @@
         }
       ],
       "sentences": [
-        "Hi! I am Nora. Let me tell you about the jobs in my family!",
-        "My mummy is a teacher. She teaches children at a primary school every day.",
-        "My daddy is a doctor. He checks patients at the hospital and helps them get better.",
-        "My grandpa is a farmer. He grows vegetables and fruit on his farm.",
-        "My grandma is a cook. She cooks the most delicious meals for our whole family!",
-        "Sam's mum is a nurse. She helps doctors and takes care of patients.",
-        "Sam's dad is a driver. He drives a big lorry and delivers things to shops and markets.",
-        "Leyla's mum is a scientist. She tests new medicines at a laboratory.",
-        "Leyla's dad is a writer. He writes books and articles for a newspaper.",
-        "There are so many different jobs in the world — and all people are important!"
+        "Ms. Reed: Today is Career Day! Your families are here to tell us about their jobs.",
+        "Nora: My mummy is a teacher. She teaches the little children in Class 1.",
+        "Nora: And my daddy? He works at the city hospital — he is a doctor.",
+        "Nora's daddy: I checked forty patients yesterday. It was the busiest day of my month.",
+        "Leyla: Look at my grandpa's pumpkin! He grew the biggest one in our city this year.",
+        "Leyla: My grandpa is a farmer. He brought it to school this morning, and it did not go through our door.",
+        "Sam: My mummy works at the same hospital as Nora's daddy. She is a nurse.",
+        "Sam: My daddy drove all the families here today. He is a driver.",
+        "Ms. Reed: Excellent! And Nora's grandma cooked our lunch. She is a cook at the hospital café.",
+        "Sam: That's great! Look — Leyla's grandpa is cutting the pumpkin now."
       ],
       "translations": [
-        "Merhaba! Ben Nora. Size ailemizdeki meslekler hakkında anlatayım!",
-        "Annem öğretmen. Her gün bir ilkokulda çocuklara ders veriyor.",
-        "Babam doktor. Hastanede hastaları kontrol ediyor ve iyileşmelerine yardımcı oluyor.",
-        "Dedem çiftçi. Çiftliğinde sebze ve meyve yetiştiriyor.",
-        "Büyükannem aşçı. Tüm ailemiz için en lezzetli yemekleri pişiriyor!",
-        "Sam'in annesi hemşire. Doktorlara yardım ediyor ve hastalara bakıyor.",
-        "Sam'in babası sürücü. Büyük bir kamyon sürüyor ve dükkan ve marketlere malzeme teslim ediyor.",
-        "Leyla'nın annesi bilim insanı. Bir laboratuvarda yeni ilaçları test ediyor.",
-        "Leyla'nın babası yazar. Bir gazete için kitap ve makaleler yazıyor.",
-        "Dünyada pek çok farklı meslek var — ve tüm insanlar önemli!"
+        "Ms. Reed: Bugün Meslek Günü! Aileleriniz bize işlerini anlatmak için burada.",
+        "Nora: Annem öğretmen. 1. sınıftaki küçük çocuklara ders verir.",
+        "Nora: Peki babam? Şehir hastanesinde çalışır — o bir doktor.",
+        "Nora'nın babası: Dün kırk hastayı kontrol ettim. Ayımın en yoğun günüydü.",
+        "Leyla: Dedemin balkabağına bakın! Bu yıl şehrimizdeki en büyüğünü yetiştirdi.",
+        "Leyla: Dedem çiftçi. Onu bu sabah okula getirdi ve kapımızdan geçmedi.",
+        "Sam: Annem Nora'nın babasıyla aynı hastanede çalışır. O bir hemşire.",
+        "Sam: Babam bugün bütün aileleri buraya arabayla getirdi. O bir sürücü.",
+        "Ms. Reed: Mükemmel! Nora'nın büyükannesi de öğle yemeğimizi pişirdi. Hastane kafesinde aşçıdır.",
+        "Sam: Bu harika! Bakın — Leyla'nın dedesi şimdi balkabağını kesiyor."
       ],
       "questions": [
         {
-          "q": "What does Nora's daddy do?",
-          "qTr": "Nora'nın babası ne iş yapar?",
-          "correct": "He checks patients and helps them",
+          "q": "What did Nora's daddy do yesterday?",
+          "qTr": "Nora'nın babası dün ne yaptı?",
+          "correct": "He checked forty patients",
           "wrong": [
-            "He teaches children",
-            "He grows vegetables"
+            "He drove the families",
+            "He cooked our lunch"
           ],
-          "hint": "Find the word daddy in the text.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What does Nora's grandpa do?",
-          "qTr": "Nora'nın büyükbabası ne iş yapar?",
-          "correct": "He grows vegetables and fruit",
-          "wrong": [
-            "He cooks meals",
-            "He drives a lorry"
-          ],
-          "hint": "Find the word grandpa in the text.",
+          "hint": "Dünü bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does Sam's dad do?",
-          "qTr": "Sam'in babası ne iş yapar?",
-          "correct": "He drives a lorry and delivers things",
+          "q": "Who grew the biggest pumpkin?",
+          "qTr": "En büyük balkabağını kim yetiştirdi?",
+          "correct": "Leyla's grandpa",
           "wrong": [
-            "He tests medicines",
-            "He writes books"
+            "Nora's grandma",
+            "Sam's daddy"
           ],
-          "hint": "Find Sam's dad in the text.",
+          "hint": "Balkabağını bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "Where does Sam's mummy work?",
+          "qTr": "Sam'in annesi nerede çalışır?",
+          "correct": "At the city hospital",
+          "wrong": [
+            "At the school library",
+            "At the city bakery"
+          ],
+          "hint": "Sam'in annesini bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What does Leyla's mum do?",
-          "qTr": "Leyla'nın annesi ne iş yapar?",
-          "correct": "She tests new medicines",
+          "q": "What is Nora's grandma's job?",
+          "qTr": "Nora'nın büyükannesinin işi nedir?",
+          "correct": "She is a cook",
           "wrong": [
-            "She writes books",
-            "She helps doctors"
+            "She is a nurse",
+            "She is a teacher"
           ],
-          "hint": "Find Leyla's mum in the text.",
+          "hint": "Öğle yemeğini bul.",
           "hl": [
-            7
+            8
           ]
         },
         {
-          "q": "What does Leyla's dad do?",
-          "qTr": "Leyla'nın babası ne iş yapar?",
-          "correct": "He writes books and articles",
+          "q": "Who drove the families to school?",
+          "qTr": "Aileleri okula kim getirdi?",
+          "correct": "Sam's daddy",
           "wrong": [
-            "He drives a lorry",
-            "He checks patients"
+            "Leyla's grandpa",
+            "Nora's mummy"
           ],
-          "hint": "Find Leyla's dad in the text.",
+          "hint": "Aileleri bul.",
           "hl": [
-            8
+            7
           ]
         }
       ]
     },
     {
       "id": "scan-2",
-      "title": "Our Neighbourhood",
-      "subtitle": "Find the right place and errand!",
+      "title": "Leyla's First Saturday in Greenfield",
+      "subtitle": "Find the right place!",
       "icon": "🏘️",
       "hlMode": "fade3",
       "hintMode": "button",
@@ -140,61 +140,57 @@
         {
           "e": "👧🏽",
           "n": "Leyla"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Greenfield is a wonderful neighbourhood! There are so many places here.",
-        "There is a hospital near the park. Nora's daddy works there every day.",
-        "Next to the hospital, there is a chemist's. People buy medicines there.",
-        "There is a bakery on the main street. The baker sells fresh bread every morning.",
-        "Next to the bakery, there is a butcher's and a greengrocer's. Mum buys meat and vegetables there.",
-        "There is a big market near the station. Families do their shopping there at the weekend.",
-        "The library is between the museum and the cinema. Sam visits the library every Saturday.",
-        "There is a café next to the theatre. People meet friends and drink tea there.",
-        "There is a post office near the bank. Leyla's dad sends his articles from the post office.",
-        "There is also a barber's, a hairdresser's and a hotel near the city centre. Our neighbourhood has everything!"
+        "Leyla: We moved to Greenfield last week. Where do I find everything?",
+        "Nora: Don't worry! Come with us — my daddy works at the hospital, next to the park and the bank.",
+        "Sam: The chemist's is next to the hospital. My grandma got her medicine there yesterday.",
+        "Nora: I love walking down the main street on Saturdays. That is the oldest bakery in our city, and they sell bread from six.",
+        "Leyla: My mummy loves baking, so we need the greengrocer's and the butcher's too.",
+        "Sam: Both are next to the bakery, and the barber's is opposite. Come on, the market is opening now!",
+        "Nora: Sam and I love meeting at this café after school. The theatre and the hairdresser's are across the street.",
+        "Leyla: And the library? I love reading before bed, so I need books!",
+        "Sam: It sits between the museum and the cinema — the biggest library in Greenfield.",
+        "Leyla: Thank you! Catch you later — I am running to the post office with my mummy."
       ],
       "translations": [
-        "Greenfield harika bir mahalle! Burada pek çok yer var.",
-        "Parkın yakınında bir hastane var. Nora'nın babası her gün orada çalışıyor.",
-        "Hastanenin yanında bir eczane var. İnsanlar orada ilaç alıyor.",
-        "Ana caddede bir fırın var. Fırıncı her sabah taze ekmek satıyor.",
-        "Fırının yanında bir kasap ve bir manav var. Anne orada et ve sebze alıyor.",
-        "İstasyonun yakınında büyük bir market var. Aileler hafta sonu orada alışveriş yapıyor.",
-        "Kütüphane müze ile sinema arasında. Sam her Cumartesi kütüphaneyi ziyaret ediyor.",
-        "Tiyatronun yanında bir kafe var. İnsanlar orada arkadaşlarıyla buluşuyor ve çay içiyor.",
-        "Bankanın yakınında bir postane var. Leyla'nın babası makalelerini postaneden gönderiyor.",
-        "Şehir merkezinin yakınında bir berber, bir kuaför ve bir otel de var. Mahallemizde her şey var!"
+        "Leyla: Geçen hafta Greenfield'a taşındık. Her şeyi nerede bulurum?",
+        "Nora: Merak etme! Bizimle gel — babam parkın ve bankanın yanındaki hastanede çalışır.",
+        "Sam: Eczane hastanenin yanında. Büyükannem ilacını dün oradan aldı.",
+        "Nora: Cumartesileri ana caddede yürümeyi severim. Şurası şehrimizin en eski fırını, altıdan itibaren ekmek satarlar.",
+        "Leyla: Annem ekmek yapmayı sever, o yüzden manav ile kasap da lazım.",
+        "Sam: İkisi de fırının yanında, berber de karşısında. Hadi, market şimdi açılıyor!",
+        "Nora: Sam ve ben okuldan sonra bu kafede buluşmayı severiz. Tiyatro ve kuaför caddenin karşısında.",
+        "Leyla: Peki kütüphane? Yatmadan önce okumayı severim, kitap lazım bana!",
+        "Sam: Müze ile sinemanın arasında — Greenfield'ın en büyük kütüphanesi.",
+        "Leyla: Teşekkürler! Sonra görüşürüz — annemle postaneye koşuyorum."
       ],
       "questions": [
         {
           "q": "What is next to the hospital?",
           "qTr": "Hastanenin yanında ne var?",
-          "correct": "A chemist's",
+          "correct": "The chemist's",
           "wrong": [
-            "A bakery",
-            "A café"
+            "The bakery",
+            "The station"
           ],
-          "hint": "Find the word hospital in the text.",
+          "hint": "Hastaneyi bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does the baker sell every morning?",
-          "qTr": "Fırıncı her sabah ne satar?",
-          "correct": "Fresh bread",
+          "q": "Which two shops does Leyla's mummy need?",
+          "qTr": "Leyla'nın annesine hangi iki dükkân lazım?",
+          "correct": "The greengrocer's and the butcher's",
           "wrong": [
-            "Meat and vegetables",
-            "Medicines"
+            "The bakery and the café",
+            "The museum and the theatre"
           ],
-          "hint": "Find the word bakery in the text.",
+          "hint": "Leyla'nın annesini bul.",
           "hl": [
-            3
+            4
           ]
         },
         {
@@ -202,36 +198,36 @@
           "qTr": "Kütüphane nerede?",
           "correct": "Between the museum and the cinema",
           "wrong": [
-            "Next to the hospital",
-            "Near the station"
+            "Next to the hospital and park",
+            "Across from the theatre and café"
           ],
-          "hint": "Find the word library in the text.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "What does Leyla's dad do at the post office?",
-          "qTr": "Leyla'nın babası postanede ne yapar?",
-          "correct": "He sends his articles",
-          "wrong": [
-            "He buys medicines",
-            "He meets friends"
-          ],
-          "hint": "Find the words post office in the text.",
+          "hint": "Kütüphaneyi bul.",
           "hl": [
             8
           ]
         },
         {
-          "q": "Which three places are near the city centre?",
-          "qTr": "Şehir merkezine yakın hangi üç yer var?",
-          "correct": "A barber's, a hairdresser's and a hotel",
+          "q": "What does Nora love doing on Saturdays?",
+          "qTr": "Nora Cumartesileri ne yapmayı sever?",
+          "correct": "Walking down the main street",
           "wrong": [
-            "A bakery, a butcher's and a greengrocer's",
-            "A café, a theatre and a museum"
+            "Meeting friends at the market",
+            "Reading books at the library"
           ],
-          "hint": "Find the words city centre in the text.",
+          "hint": "Cumartesileri bul.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where is Leyla going at the end?",
+          "qTr": "Leyla sonunda nereye gidiyor?",
+          "correct": "To the post office",
+          "wrong": [
+            "To the city station",
+            "To the old bakery"
+          ],
+          "hint": "Leyla'nın son sözünü bul.",
           "hl": [
             9
           ]
@@ -240,9 +236,9 @@
     },
     {
       "id": "scan-3",
-      "title": "What Do We Like Doing?",
+      "title": "A Rainy Sunday",
       "subtitle": "Find the right habit and activity!",
-      "icon": "❤️",
+      "icon": "🌧️",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -258,109 +254,105 @@
         {
           "e": "👧🏽",
           "n": "Leyla"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Every family has their favourite habits. Let me tell you about ours!",
-        "My mummy loves reading before bed. She reads every single night!",
-        "My daddy likes going for a walk every Sunday morning. He walks to the park and back.",
-        "My grandpa loves gardening on Sundays. He grows the most beautiful flowers!",
-        "My grandma likes watching films on Sunday evenings. She loves old black-and-white films.",
-        "Sam loves riding his bike on Saturdays. He rides to the market and the park.",
-        "Sam's mum likes meeting friends at the café every Friday. She loves drinking tea with them.",
-        "Leyla loves going to the cinema every Saturday with her dad. They both love watching films!",
-        "Leyla's mum likes listening to music while she works. She loves classical music the most.",
-        "We all have different habits — but we all love spending time together the most!"
+        "Nora: It rained all Sunday morning. Nobody did their usual thing!",
+        "Nora: My grandpa loves gardening on Sundays, but he sat by the window with his seeds.",
+        "Nora: My mummy read her book at ten in the morning. She loves reading before bed, not at breakfast!",
+        "Sam: I love riding my bike on Saturdays and on Sundays too, but my bike stayed in the garage.",
+        "Sam: My mummy loves meeting friends at the café, so she called them and they came to our house.",
+        "Leyla: My daddy and I love going to the cinema every Saturday. Yesterday the film was the longest one this year!",
+        "Leyla: My mummy loves listening to music while she works, so she put the radio on for everyone.",
+        "Nora: My grandma goes for a walk at ten, but she made popcorn instead. That was the best idea of the day.",
+        "Sam: Sounds fun! We all love watching films on Sundays, so we watched one together in the living room.",
+        "Nora: At four the rain stopped — and my grandpa ran straight into the garden."
       ],
       "translations": [
-        "Her ailenin favori alışkanlıkları vardır. Size bizimkiler hakkında anlatayım!",
-        "Annem yatmadan önce okumayı seviyor. Her gece okuyor!",
-        "Babam her Pazar sabahı yürüyüşe gitmeyi seviyor. Parka kadar yürüyüp geri dönüyor.",
-        "Dedem Pazar günleri bahçeyle uğraşmayı seviyor. En güzel çiçekleri yetiştiriyor!",
-        "Büyükannem Pazar akşamları film izlemeyi seviyor. Eski siyah-beyaz filmleri seviyor.",
-        "Sam Cumartesi günleri bisiklet sürmeyi seviyor. Markete ve parka kadar gidiyor.",
-        "Sam'in annesi her Cuma kafede arkadaşlarıyla buluşmayı seviyor. Onlarla çay içmeyi seviyor.",
-        "Leyla her Cumartesi babasıyla sinemaya gitmeyi seviyor. İkisi de film izlemeyi çok seviyor!",
-        "Leyla'nın annesi çalışırken müzik dinlemeyi seviyor. En çok klasik müziği seviyor.",
-        "Hepimizin farklı alışkanlıkları var — ama hepimiz en çok birlikte vakit geçirmeyi seviyoruz!"
+        "Nora: Pazar sabahı boyunca yağmur yağdı. Kimse her zamanki şeyini yapamadı!",
+        "Nora: Dedem Pazar günleri bahçeyle uğraşmayı sever ama tohumlarıyla pencerenin yanına oturdu.",
+        "Nora: Annem kitabını sabah onda okudu. Yatmadan önce okumayı sever, kahvaltıda değil!",
+        "Sam: Cumartesileri ve Pazarları da bisiklete binmeyi severim ama bisikletim garajda kaldı.",
+        "Sam: Annem kafede arkadaşlarıyla buluşmayı sever, o yüzden onları aradı ve bize geldiler.",
+        "Leyla: Babam ve ben her Cumartesi sinemaya gitmeyi severiz. Dün film bu yılın en uzunuydu!",
+        "Leyla: Annem çalışırken müzik dinlemeyi sever, o yüzden herkes için radyoyu açtı.",
+        "Nora: Büyükannem saat onda yürüyüşe çıkar ama onun yerine patlamış mısır yaptı. Günün en güzel fikri buydu.",
+        "Sam: Kulağa eğlenceli geliyor! Hepimiz Pazar günleri film izlemeyi severiz, o yüzden oturma odasında birlikte bir tane izledik.",
+        "Nora: Saat dörtte yağmur durdu — ve dedem doğruca bahçeye koştu."
       ],
       "questions": [
         {
-          "q": "What does Nora's mummy love doing every night?",
-          "qTr": "Nora'nın annesi her gece ne yapmayı çok sever?",
-          "correct": "Reading before bed",
+          "q": "Where did Nora's grandpa sit on Sunday morning?",
+          "qTr": "Nora'nın dedesi Pazar sabahı nereye oturdu?",
+          "correct": "By the window",
           "wrong": [
-            "Going for a walk",
-            "Watching films"
+            "In the garden",
+            "At the café"
           ],
-          "hint": "Find the word mummy in the text.",
+          "hint": "Pazar sabahını bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Nora's grandpa love doing on Sundays?",
-          "qTr": "Nora'nın büyükbabası pazarları ne yapmayı çok sever?",
-          "correct": "Gardening",
+          "q": "When did Nora's mummy read her book?",
+          "qTr": "Nora'nın annesi kitabını ne zaman okudu?",
+          "correct": "At ten in the morning",
           "wrong": [
-            "Walking to the park",
-            "Watching films"
+            "At four in the evening",
+            "At eight before her bed"
           ],
-          "hint": "Find the word grandpa in the text.",
+          "hint": "Nora'nın annesini bul.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "Where does Sam ride his bike on Saturdays?",
-          "qTr": "Sam cumartesileri bisikletini nerede sürer?",
-          "correct": "To the market and the park",
-          "wrong": [
-            "To the cinema and the café",
-            "To the library and the museum"
-          ],
-          "hint": "Find Sam and the word bike in the text.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Sam's mum like doing every Friday?",
-          "qTr": "Sam'in annesi her cuma ne yapmayı sever?",
+          "q": "What does Sam's mummy love doing?",
+          "qTr": "Sam'in annesi ne yapmayı sever?",
           "correct": "Meeting friends at the café",
           "wrong": [
-            "Going to the cinema",
-            "Listening to music"
+            "Watching films at the cinema",
+            "Riding her bike on Saturdays"
           ],
-          "hint": "Find Sam's mum in the text.",
+          "hint": "Sam'in annesini bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla's mummy love doing while she works?",
+          "qTr": "Leyla'nın annesi çalışırken ne yapmayı sever?",
+          "correct": "Listening to music",
+          "wrong": [
+            "Reading her book",
+            "Making some popcorn"
+          ],
+          "hint": "Radyoyu bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What does Leyla's mum like doing while she works?",
-          "qTr": "Leyla'nın annesi çalışırken ne yapmayı sever?",
-          "correct": "Listening to music",
+          "q": "What happened at four o'clock?",
+          "qTr": "Saat dörtte ne oldu?",
+          "correct": "The rain stopped",
           "wrong": [
-            "Watching films",
-            "Reading books"
+            "The film started",
+            "The friends came"
           ],
-          "hint": "Find Leyla's mum in the text.",
+          "hint": "Saat dördü bul.",
           "hl": [
-            8
+            9
           ]
         }
       ]
     },
     {
       "id": "scan-4",
-      "title": "More Jobs in Our Community",
+      "title": "The City Festival",
       "subtitle": "Find the right job!",
-      "icon": "👮",
+      "icon": "🎪",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -379,102 +371,102 @@
         }
       ],
       "sentences": [
-        "Nora: My aunt is a dentist. She checks teeth and helps children smile.",
-        "Sam: My uncle is a police officer. He helps people in our city.",
-        "Leyla: My cousin is a singer. She sings at concerts every weekend.",
-        "Nora: Our imam at the mosque is a kind man. He teaches us about good values.",
-        "Sam: My grandma's friend is a famous singer. Last week, she sang at our city centre.",
-        "Leyla: My dad's cousin is a police officer, too. He drives a police car around the city.",
-        "Nora: Our dentist's name is Mrs. Aydın. She is the kindest dentist in our city.",
-        "Sam: My imam is more kind than anyone I know.",
-        "Leyla: A singer makes people happy with music. A dentist helps people with teeth.",
-        "Nora: All of these jobs are important in our community!"
+        "Nora: The city festival started at ten. Hundreds of people were on the main street!",
+        "Leyla: My cousin sang on the stage. She is a singer, and she wore a silver jacket.",
+        "Sam: I shouted \"You look so cool!\" from the front, and she heard me.",
+        "Nora: My aunt and a nurse gave free check-ups in a small tent. My aunt is a dentist.",
+        "Nora: She checked my teeth and told me they are the cleanest in my class.",
+        "Sam: My uncle stood at the corner in his blue uniform. He is a police officer.",
+        "Sam: He helped an old person find the station. That was the kindest thing I saw all day.",
+        "Leyla: Our imam came at noon, and two teachers from our school came with him.",
+        "Leyla: He taught us an old song about the city, and everybody sang it together.",
+        "Nora: Then the rain came, and the fastest runner in our family carried the chairs home — my grandma!"
       ],
       "translations": [
-        "Nora: Halam diş hekimi. Dişleri kontrol eder ve çocukların gülümsemesine yardım eder.",
-        "Sam: Amcam polis memuru. Şehrimizdeki insanlara yardım eder.",
-        "Leyla: Kuzenim şarkıcı. Her hafta sonu konserlerde şarkı söyler.",
-        "Nora: Camimizdeki imam kibar bir adam. Bize iyi değerleri öğretir.",
-        "Sam: Anneannemin arkadaşı ünlü bir şarkıcı. Geçen hafta şehir merkezimizde söyledi.",
-        "Leyla: Babamın kuzeni de polis memuru. Şehirde polis arabası sürer.",
-        "Nora: Dişçimizin adı Mrs. Aydın. Şehrimizdeki en kibar diş hekimi.",
-        "Sam: İmamım tanıdığım herkesten daha kibar.",
-        "Leyla: Bir şarkıcı insanları müzikle mutlu eder. Diş hekimi insanlara dişlerle ilgili yardım eder.",
-        "Nora: Bu mesleklerin hepsi toplumumuzda önemli!"
+        "Nora: Şehir festivali saat onda başladı. Ana caddede yüzlerce insan vardı!",
+        "Leyla: Kuzenim sahnede şarkı söyledi. O bir şarkıcı ve gümüş bir ceket giymişti.",
+        "Sam: Ön taraftan \"Çok havalı görünüyorsun!\" diye bağırdım ve beni duydu.",
+        "Nora: Halam ve bir hemşire küçük bir çadırda ücretsiz kontrol yaptılar. Halam diş hekimi.",
+        "Nora: Dişlerimi kontrol etti ve sınıfımdaki en temiz dişler olduğunu söyledi.",
+        "Sam: Amcam mavi üniformasıyla köşede duruyordu. O bir polis memuru.",
+        "Sam: Yaşlı bir kişiye istasyonu bulmasında yardım etti. Bütün gün gördüğüm en nazik şeydi.",
+        "Leyla: İmamımız öğlen geldi ve okulumuzdan iki öğretmen de onunla geldi.",
+        "Leyla: Bize şehir hakkında eski bir şarkı öğretti ve herkes birlikte söyledi.",
+        "Nora: Sonra yağmur geldi ve ailemizin en hızlı koşucusu sandalyeleri eve taşıdı — büyükannem!"
       ],
       "questions": [
         {
-          "q": "What is Nora's aunt?",
-          "qTr": "Nora'nın teyzesi ne iş yapar?",
-          "correct": "A dentist",
+          "q": "What is Leyla's cousin's job?",
+          "qTr": "Leyla'nın kuzeninin işi nedir?",
+          "correct": "She is a singer",
           "wrong": [
-            "A teacher",
-            "A nurse"
+            "She is a dentist",
+            "She is a teacher"
           ],
-          "hint": "Read sentence 1.",
-          "hl": [
-            0
-          ]
-        },
-        {
-          "q": "What is Sam's uncle?",
-          "qTr": "Sam'in amcası ne iş yapar?",
-          "correct": "A police officer",
-          "wrong": [
-            "A singer",
-            "A dentist"
-          ],
-          "hint": "Read sentence 2.",
+          "hint": "Gümüş ceketi bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What is Leyla's cousin?",
-          "qTr": "Leyla'nın kuzeni ne iş yapar?",
-          "correct": "A singer",
+          "q": "Who checked Nora's teeth?",
+          "qTr": "Nora'nın dişlerini kim kontrol etti?",
+          "correct": "Her aunt",
           "wrong": [
-            "A police officer",
-            "A dentist"
+            "Her grandma",
+            "The nurse"
           ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "What does the imam do?",
-          "qTr": "İmam ne yapar?",
-          "correct": "Teaches good values",
-          "wrong": [
-            "Drives cars",
-            "Sings songs"
-          ],
-          "hint": "Read sentence 4.",
+          "hint": "Çadırı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does a singer do?",
-          "qTr": "Bir şarkıcı ne yapar?",
-          "correct": "Makes people happy with music",
+          "q": "What did Sam's uncle do at the corner?",
+          "qTr": "Sam'in amcası köşede ne yaptı?",
+          "correct": "He helped an old man",
           "wrong": [
-            "Checks teeth",
-            "Drives cars"
+            "He sang an old song",
+            "He gave free check-ups"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Mavi üniformayı bul.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did the imam teach the children?",
+          "qTr": "İmam çocuklara ne öğretti?",
+          "correct": "An old city song",
+          "wrong": [
+            "A new dance step",
+            "A short street rule"
+          ],
+          "hint": "Öğlen vaktini bul.",
           "hl": [
             8
+          ]
+        },
+        {
+          "q": "Who carried the chairs home?",
+          "qTr": "Sandalyeleri eve kim taşıdı?",
+          "correct": "Nora's grandma",
+          "wrong": [
+            "Nora's aunt",
+            "Sam's uncle"
+          ],
+          "hint": "Yağmuru bul.",
+          "hl": [
+            9
           ]
         }
       ]
     },
     {
       "id": "scan-5",
-      "title": "Jobs in the City Centre",
+      "title": "Sam's Birthday Lunch",
       "subtitle": "Find the right person!",
-      "icon": "👨‍🍳",
+      "icon": "🎂",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -493,100 +485,100 @@
         }
       ],
       "sentences": [
-        "There are many jobs in our city centre.",
-        "Nora's mum's brother is a chef. He cooks delicious food at a restaurant.",
-        "Sam's aunt is a waitress at a café. She brings food and drinks to the customers.",
-        "Leyla's uncle is a waiter at a hotel restaurant. He works in the evenings.",
-        "My friend's father is a shop assistant. He helps people find the right things at the supermarket.",
-        "My cousin is a secretary at a big company. She writes emails and answers phone calls.",
-        "Sam: A chef makes wonderful meals!",
-        "Leyla: A waitress and a waiter both serve food to people.",
-        "Nora: A shop assistant works in shops. A secretary works in offices.",
-        "Sam: Each job is special in its own way!"
+        "Sam: We had my birthday lunch at the hotel restaurant on Saturday.",
+        "Leyla: My uncle is a waiter there! He brought your cake, right?",
+        "Sam: Yes! And a waitress gave me a paper crown. I wore it all day.",
+        "Nora: My aunt is the cook at that hotel. She loves cooking for big parties.",
+        "Sam: The men and women in the kitchen sang a birthday song with us.",
+        "Leyla: After lunch we went shopping. That shop sells the best presents in the city!",
+        "Sam: A shop assistant helped Leyla find my present. I love looking at the shop windows!",
+        "Nora: My cousin is a secretary in the office above that shop. She writes emails all day.",
+        "Nora: My cousin came down and ate cake with us. I asked the waiter for more cake.",
+        "Sam: Not this time! The chef is taking the last piece to table four."
       ],
       "translations": [
-        "Şehir merkezimizde birçok meslek var.",
-        "Nora'nın dayısı şef. Bir restoranda lezzetli yemekler yapar.",
-        "Sam'in halası bir kafede garson kadın. Müşterilere yiyecek ve içecek getirir.",
-        "Leyla'nın amcası bir otel restoranında garson erkek. Akşamları çalışır.",
-        "Arkadaşımın babası tezgahtar. Süpermarkette insanlara doğru şeyleri bulmada yardım eder.",
-        "Kuzenim büyük bir şirkette sekreter. E-posta yazar ve telefon çağrılarına cevap verir.",
-        "Sam: Şef harika yemekler yapar!",
-        "Leyla: Garson kadın ve garson erkek ikisi de insanlara yemek servisi yapar.",
-        "Nora: Tezgahtar dükkânlarda çalışır. Sekreter ofislerde çalışır.",
-        "Sam: Her meslek kendine göre özel!"
+        "Sam: Doğum günü yemeğimi Cumartesi otel restoranında yedik.",
+        "Leyla: Amcam orada garson! Pastanı o getirdi, değil mi?",
+        "Sam: Evet! Bir garson kız da bana kâğıt taç verdi. Bütün gün taktım.",
+        "Nora: Halam o otelde aşçı. Büyük partiler için yemek pişirmeyi sever.",
+        "Sam: Mutfaktaki kadınlar ve erkekler bizimle bir doğum günü şarkısı söylediler.",
+        "Leyla: Yemekten sonra alışverişe gittik. O dükkân şehirdeki en güzel hediyeleri satar!",
+        "Sam: Bir tezgâhtar Leyla'nın hediyemi bulmasına yardım etti. Vitrinlere bakmayı severim!",
+        "Nora: Kuzenim o dükkânın üstündeki ofiste sekreter. Bütün gün e-posta yazar.",
+        "Nora: Kuzenim aşağı indi ve bizimle pasta yedi. Garsondan biraz daha pasta istedim.",
+        "Sam: Bu sefer olmaz! Şef son dilimi dört numaralı masaya götürüyor."
       ],
       "questions": [
         {
-          "q": "What is Nora's uncle?",
-          "qTr": "Nora'nın amcası ne iş yapar?",
-          "correct": "A chef",
+          "q": "Where did Sam have his birthday lunch?",
+          "qTr": "Sam doğum günü yemeğini nerede yedi?",
+          "correct": "At the hotel restaurant",
           "wrong": [
-            "A waiter",
-            "A secretary"
+            "At the city bakery",
+            "At the school café"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Cumartesiyi bul.",
+          "hl": [
+            0
+          ]
+        },
+        {
+          "q": "What is Leyla's uncle's job?",
+          "qTr": "Leyla'nın amcasının işi nedir?",
+          "correct": "He is a waiter",
+          "wrong": [
+            "He is a chef",
+            "He is a driver"
+          ],
+          "hint": "Leyla'nın amcasını bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What is Sam's aunt?",
-          "qTr": "Sam'in teyzesi ne iş yapar?",
+          "q": "Who gave Sam a paper crown?",
+          "qTr": "Sam'e kâğıt tacı kim verdi?",
           "correct": "A waitress",
           "wrong": [
-            "A chef",
-            "A nurse"
+            "A secretary",
+            "A cleaner"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Kâğıt tacı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Where does Leyla's uncle work?",
-          "qTr": "Leyla'nın amcası nerede çalışır?",
-          "correct": "At a hotel restaurant",
+          "q": "What does Nora's aunt love doing?",
+          "qTr": "Nora'nın halası ne yapmayı sever?",
+          "correct": "Cooking for big parties",
           "wrong": [
-            "At a school",
-            "At a bank"
+            "Writing emails all day",
+            "Buying things in shops"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Nora'nın halasını bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What does a shop assistant do?",
-          "qTr": "Bir tezgâhtar ne yapar?",
-          "correct": "Helps people find things",
+          "q": "Where does Nora's cousin work?",
+          "qTr": "Nora'nın kuzeni nerede çalışır?",
+          "correct": "In the office above the shop",
           "wrong": [
-            "Cooks food",
-            "Sings songs"
+            "In the kitchen at the hotel",
+            "At the market in the city"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'nın kuzenini bul.",
           "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What does a secretary do?",
-          "qTr": "Bir sekreter ne yapar?",
-          "correct": "Writes emails and answers calls",
-          "wrong": [
-            "Cooks meals",
-            "Drives cars"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
+            7
           ]
         }
       ]
     },
     {
       "id": "scan-6",
-      "title": "Hands That Create and Care",
+      "title": "The Wall We Painted",
       "subtitle": "Find the right job!",
       "icon": "🎨",
       "hlMode": "fade3",
@@ -607,102 +599,102 @@
         }
       ],
       "sentences": [
-        "There are many jobs that create beautiful things or help our city.",
-        "Nora's neighbour is an artist. She draws and paints wonderful pictures.",
-        "Sam's grandfather was a worker at a factory many years ago.",
-        "He built many machines with his strong hands.",
-        "Leyla's aunt is a cleaner at the hospital. She cleans the rooms every morning.",
-        "Nora: My neighbour, the artist, painted my portrait last month!",
-        "Sam: My grandpa was a worker. He worked hard for our family.",
-        "Leyla: Cleaners do important work. They keep our places clean and safe.",
-        "Nora: I love drawing and painting. Maybe I will be an artist one day!",
-        "Sam: Workers, artists, cleaners — all jobs are important!"
+        "Nora: My neighbour is an artist. Yesterday she painted our school wall with us.",
+        "Nora: She drew the lines first, and then twenty children painted inside them.",
+        "Sam: My grandpa was a worker at a factory a long time ago. He built machines with his hands.",
+        "Sam: Last night he showed me a photo. He was the youngest worker in that photo!",
+        "Leyla: My aunt is a cleaner at the hospital. She cleans the children's rooms every morning.",
+        "Leyla: She found my lost hat there last week and brought it to our door.",
+        "Nora: The artist gave me the biggest brush. My hands were green for two days.",
+        "Sam: My grandpa came to school, looked at our wall for a long time and said, \"Good job!\"",
+        "Sam: He told us it was the brightest thing on our street.",
+        "Nora: This morning a cleaner washed the corridor — but nobody touched our wall."
       ],
       "translations": [
-        "Güzel şeyler yaratan veya şehrimize yardım eden birçok meslek var.",
-        "Nora'nın komşusu sanatçı. Harika resimler çizer ve boyar.",
-        "Sam'in dedesi yıllar önce bir fabrikada işçiydi.",
-        "Güçlü elleriyle birçok makine yaptı.",
-        "Leyla'nın halası hastanede temizlikçi. Her sabah odaları temizler.",
-        "Nora: Komşum, sanatçı, geçen ay portremi yaptı!",
-        "Sam: Dedem işçiydi. Ailemiz için çok çalıştı.",
-        "Leyla: Temizlikçiler önemli iş yapar. Yerlerimizi temiz ve güvenli tutar.",
-        "Nora: Çizmeyi ve boyamayı severim. Belki bir gün sanatçı olurum!",
-        "Sam: İşçiler, sanatçılar, temizlikçiler — bütün işler önemli!"
+        "Nora: Komşum ressam. Dün bizimle birlikte okul duvarımızı boyadı.",
+        "Nora: Önce çizgileri çizdi, sonra yirmi çocuk içlerini boyadı.",
+        "Sam: Dedem uzun zaman önce bir fabrikada işçiydi. Elleriyle makineler yaptı.",
+        "Sam: Dün gece bana bir fotoğraf gösterdi. O fotoğraftaki en genç işçiydi!",
+        "Leyla: Halam hastanede temizlik görevlisi. Her sabah çocuk odalarını temizler.",
+        "Leyla: Geçen hafta kayıp şapkamı orada buldu ve kapımıza getirdi.",
+        "Nora: Ressam bana en büyük fırçayı verdi. Ellerim iki gün boyunca yeşil kaldı.",
+        "Sam: Dedem okula geldi, duvarımıza uzun süre baktı ve \"Aferin!\" dedi.",
+        "Sam: Bize sokağımızdaki en parlak şey olduğunu söyledi.",
+        "Nora: Bu sabah bir temizlik görevlisi koridoru yıkadı — ama kimse duvarımıza dokunmadı."
       ],
       "questions": [
         {
-          "q": "What is Nora's neighbour?",
-          "qTr": "Nora'nın komşusu ne iş yapar?",
-          "correct": "An artist",
+          "q": "What did Nora's neighbour do yesterday?",
+          "qTr": "Nora'nın komşusu dün ne yaptı?",
+          "correct": "She painted our school wall",
           "wrong": [
-            "A worker",
-            "A cleaner"
+            "She cleaned the hospital rooms",
+            "She built a big new machine"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Dünü bul.",
           "hl": [
-            1
+            0
           ]
         },
         {
-          "q": "What did Sam's grandfather do?",
-          "qTr": "Sam'in büyükbabası ne yaptı?",
+          "q": "What was Sam's grandpa's job?",
+          "qTr": "Sam'in dedesinin işi neydi?",
           "correct": "He was a worker",
           "wrong": [
             "He was an artist",
             "He was a cleaner"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Fabrikayı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What did Sam's grandfather build?",
-          "qTr": "Sam'in büyükbabası ne inşa etti?",
-          "correct": "Machines",
+          "q": "What did Leyla's aunt find?",
+          "qTr": "Leyla'nın halası ne buldu?",
+          "correct": "Leyla's lost hat",
           "wrong": [
-            "Houses",
-            "Bikes"
+            "Nora's green brush",
+            "Sam's old photo"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Geçen haftayı bul.",
           "hl": [
-            3
+            5
           ]
         },
         {
-          "q": "What is Leyla's aunt?",
-          "qTr": "Leyla'nın teyzesi ne iş yapar?",
-          "correct": "A cleaner",
+          "q": "What did the artist give Nora?",
+          "qTr": "Ressam Nora'ya ne verdi?",
+          "correct": "The biggest brush",
           "wrong": [
-            "An artist",
-            "A worker"
+            "The oldest photo",
+            "The greenest paint"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Yeşil elleri bul.",
           "hl": [
-            4
+            6
           ]
         },
         {
-          "q": "What does an artist do?",
-          "qTr": "Bir ressam ne yapar?",
-          "correct": "Draws and paints",
+          "q": "What did Sam's grandpa say about the wall?",
+          "qTr": "Sam'in dedesi duvar hakkında ne söyledi?",
+          "correct": "It was the brightest thing",
           "wrong": [
-            "Cooks",
-            "Drives"
+            "It was the biggest machine",
+            "It was the cleanest corridor"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Dedenin sözlerini bul.",
           "hl": [
-            1
+            8
           ]
         }
       ]
     },
     {
       "id": "scan-7",
-      "title": "Family Errands on Saturday",
+      "title": "Family Errands on Friday",
       "subtitle": "Find the right errand!",
-      "icon": "🛒",
+      "icon": "🧺",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -721,102 +713,102 @@
         }
       ],
       "sentences": [
-        "Saturday morning is busy in our family.",
-        "My mummy does the shopping at the market every Saturday.",
-        "My daddy takes the rubbish out before breakfast.",
-        "My brother picks up our little sister from her dance class today.",
-        "I set the table for breakfast every morning before school.",
-        "Sam: I take my dog for a walk after school every day.",
-        "My grandpa goes shopping at the bakery on Sundays.",
-        "Leyla: My family buys groceries at the greengrocer's every Friday.",
-        "Sam: My mum picks up my baby brother from nursery at five o'clock.",
-        "Nora: We all help with the errands. Family help is important!"
+        "Nora: Grandma is coming at six, and this is the busiest Friday of the month!",
+        "Nora's mummy: I am doing the shopping at the market now. Go ahead and set the table, Nora.",
+        "Nora: My daddy took the rubbish out at seven this morning.",
+        "Sam: My mummy is picking up the children from school today. She takes my baby brother too.",
+        "Leyla: I bought groceries at the greengrocer's after lunch, but the bakery was closed.",
+        "Nora: Calm down, Leyla — my daddy is buying bread at the market right now.",
+        "Sam: I am taking the dog for a walk. Nora, are you setting the table?",
+        "Nora: I set it an hour ago — the fastest job in this house! Then I went shopping with my grandpa.",
+        "Leyla: My grandpa is cleaning the windows. He cleans them every Friday.",
+        "Nora: The door! Grandma is early — and the table is ready."
       ],
       "translations": [
-        "Cumartesi sabahı ailemizde yoğundur.",
-        "Annem her Cumartesi pazarda alışveriş yapar.",
-        "Babam kahvaltıdan önce çöpü dışarı çıkarır.",
-        "Abim bugün küçük kız kardeşimi dans kursundan alır.",
-        "Okuldan önce her sabah kahvaltı için sofrayı kurarım.",
-        "Sam: Her gün okuldan sonra köpeğimi yürüyüşe çıkarırım.",
-        "Dedem Pazarları fırınada alışveriş yapar.",
-        "Leyla: Ailem her Cuma manavda sebze meyve alır.",
-        "Sam: Annem saat beşte küçük kardeşimi kreşten alır.",
-        "Nora: Hepimiz iş işlerinde yardım ederiz. Aile yardımı önemlidir!"
+        "Nora: Büyükannem altıda geliyor ve bu ayın en yoğun Cuma günü!",
+        "Nora'nın annesi: Şu an markette alışveriş yapıyorum. Hadi Nora, sen masayı kur.",
+        "Nora: Babam bu sabah yedide çöpü çıkardı.",
+        "Sam: Annem bugün çocukları okuldan alıyor. Bebek kardeşimi de yanına alır.",
+        "Leyla: Öğleden sonra manavdan sebze meyve aldım ama fırın kapalıydı.",
+        "Nora: Sakin ol Leyla — babam şu anda marketten ekmek alıyor.",
+        "Sam: Ben köpeği yürüyüşe çıkarıyorum. Nora, masayı kuruyor musun?",
+        "Nora: Bir saat önce kurdum — bu evdeki en hızlı iş! Sonra dedemle alışverişe gittim.",
+        "Leyla: Dedem camları siliyor. Her Cuma siler.",
+        "Nora: Kapı! Büyükannem erken geldi — ve masa hazır."
       ],
       "questions": [
         {
-          "q": "What does Nora's mummy do at the market?",
-          "qTr": "Nora'nın annesi pazarda ne yapar?",
-          "correct": "Does the shopping",
+          "q": "What did Nora's daddy do at seven?",
+          "qTr": "Nora'nın babası yedide ne yaptı?",
+          "correct": "He took the rubbish out",
           "wrong": [
-            "Cleans",
-            "Sings"
+            "He bought bread at market",
+            "He set the kitchen table"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What does Nora's daddy do?",
-          "qTr": "Nora'nın babası ne iş yapar?",
-          "correct": "Takes the rubbish out",
-          "wrong": [
-            "Cooks",
-            "Sleeps"
-          ],
-          "hint": "Read sentence 3.",
+          "hint": "Sabah yediyi bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Nora do every morning?",
-          "qTr": "Nora her sabah ne yapar?",
-          "correct": "Sets the table",
+          "q": "Who is picking up the children from school?",
+          "qTr": "Çocukları okuldan kim alıyor?",
+          "correct": "Sam's mummy",
           "wrong": [
-            "Takes dog out",
-            "Buys groceries"
+            "Nora's daddy",
+            "Leyla's grandpa"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Okulu bul.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Where did Leyla buy groceries?",
+          "qTr": "Leyla alışverişi nereden yaptı?",
+          "correct": "At the greengrocer's",
+          "wrong": [
+            "At the market",
+            "At the bakery"
+          ],
+          "hint": "Leyla'yı bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Sam do every day?",
-          "qTr": "Sam her gün ne yapar?",
-          "correct": "Takes dog for a walk",
+          "q": "What is Sam doing?",
+          "qTr": "Sam ne yapıyor?",
+          "correct": "Taking the dog for a walk",
           "wrong": [
-            "Cooks",
-            "Cleans"
+            "Picking the children up from school",
+            "Doing the shopping at the market"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'i bul.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "What does Leyla's family buy?",
-          "qTr": "Leyla'nın ailesi ne alır?",
-          "correct": "Groceries",
+          "q": "What does Leyla's grandpa do every Friday?",
+          "qTr": "Leyla'nın dedesi her Cuma ne yapar?",
+          "correct": "He cleans the windows",
           "wrong": [
-            "Books",
-            "Clothes"
+            "He buys the groceries",
+            "He sets the table"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Her Cumayı bul.",
           "hl": [
-            7
+            8
           ]
         }
       ]
     },
     {
       "id": "scan-8",
-      "title": "Our Family Traditions",
+      "title": "A Noisy Sunday at Nora's House",
       "subtitle": "Find the right habit!",
-      "icon": "📖",
+      "icon": "📻",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -835,102 +827,102 @@
         }
       ],
       "sentences": [
-        "Every family has special habits — long-lasting ones!",
-        "Nora's mummy reads before bed every night. It is her favourite time.",
-        "Sam's grandma gardens on Sundays. She grows beautiful flowers.",
-        "Leyla's family visits the library every Saturday. They love books!",
-        "Nora's daddy watches films on Sunday afternoons in the living room.",
-        "Sam's family goes to the restaurant on the first Friday of every month.",
-        "Leyla rides her bike on Saturdays in the park.",
-        "Nora's grandpa drinks milk every morning. He says it is good for him.",
-        "Sam goes to the cinema with his cousin every Saturday afternoon.",
-        "Leyla: Habits make our family life special!"
+        "Nora: Sunday afternoon at our house is the noisiest time of the week.",
+        "Nora: My grandpa loves gardening on Sundays. He is in the garden right now.",
+        "Nora: My daddy loves watching films on Sunday afternoons. He started one at two o'clock.",
+        "Leyla: I rode my bike here. Sam and I love meeting at Nora's house on Sundays.",
+        "Sam: We went to the cinema yesterday, and we visit the library every Saturday too.",
+        "Nora: At three the film stopped. My daddy's face was the funniest thing that day!",
+        "Sam: Nora's mummy loves listening to music, so she put the radio on.",
+        "Leyla: We danced in the living room. That was the best Sunday of the month.",
+        "Nora: At eight my grandma went upstairs. She reads before bed every night, and she drinks milk every morning.",
+        "Sam: The film started again at nine — and nobody watched it."
       ],
       "translations": [
-        "Her ailenin özel alışkanlıkları vardır — uzun süreli olanlar!",
-        "Nora'nın annesi her gece yatmadan önce kitap okur. En sevdiği zamanı.",
-        "Sam'in büyükannesi Pazarları bahçede çalışır. Güzel çiçekler yetiştirir.",
-        "Leyla'nın ailesi her Cumartesi kütüphaneyi ziyaret eder. Kitapları severler!",
-        "Nora'nın babası Pazar öğleden sonraları oturma odasında film izler.",
-        "Sam'in ailesi her ayın ilk Cuması restorana gider.",
-        "Leyla Cumartesileri parkta bisiklete biner.",
-        "Nora'nın dedesi her sabah süt içer. İyi geldiğini söyler.",
-        "Sam her Cumartesi öğleden sonra kuzeniyle sinemaya gider.",
-        "Leyla: Alışkanlıklar aile hayatımızı özel yapar!"
+        "Nora: Evimizde Pazar öğleden sonrası haftanın en gürültülü zamanıdır.",
+        "Nora: Dedem Pazar günleri bahçeyle uğraşmayı sever. Şu an bahçede.",
+        "Nora: Babam Pazar öğleden sonraları film izlemeyi sever. Saat ikide bir tane başlattı.",
+        "Leyla: Buraya bisikletimle geldim. Sam ve ben Pazar günleri Nora'nın evinde buluşmayı severiz.",
+        "Sam: Dün sinemaya gittik, ayrıca her Cumartesi kütüphaneyi ziyaret ederiz.",
+        "Nora: Saat üçte film durdu. Babamın o günkü yüz ifadesi en komik şeydi!",
+        "Sam: Nora'nın annesi müzik dinlemeyi sever, o yüzden radyoyu açtı.",
+        "Leyla: Oturma odasında dans ettik. Ayın en güzel Pazar günüydü.",
+        "Nora: Sekizde büyükannem yukarı çıktı. Her gece yatmadan önce okur, her sabah da süt içer.",
+        "Sam: Film dokuzda tekrar başladı — ve kimse izlemedi."
       ],
       "questions": [
         {
-          "q": "When does Nora's mummy read?",
-          "qTr": "Nora'nın annesi ne zaman okur?",
-          "correct": "Before bed every night",
+          "q": "What does Nora's grandpa love doing on Sundays?",
+          "qTr": "Nora'nın dedesi Pazar günleri ne yapmayı sever?",
+          "correct": "Gardening",
           "wrong": [
-            "In the morning",
-            "At lunch"
+            "Cycling",
+            "Cooking"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Dedeyi bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "When does Sam's grandma garden?",
-          "qTr": "Sam'in büyükannesi ne zaman bahçe işi yapar?",
-          "correct": "On Sundays",
+          "q": "How did Leyla come to Nora's house?",
+          "qTr": "Leyla Nora'nın evine nasıl geldi?",
+          "correct": "She rode her bike",
           "wrong": [
-            "On Mondays",
-            "On Fridays"
+            "She took the bus",
+            "She went by car"
           ],
-          "hint": "Read sentence 3.",
-          "hl": [
-            2
-          ]
-        },
-        {
-          "q": "Where does Leyla's family visit?",
-          "qTr": "Leyla'nın ailesi nereyi ziyaret eder?",
-          "correct": "The library",
-          "wrong": [
-            "The cinema",
-            "The market"
-          ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "When does Sam's family go to the restaurant?",
-          "qTr": "Sam'in ailesi restorana ne zaman gider?",
-          "correct": "First Friday of every month",
+          "q": "What happened at three o'clock?",
+          "qTr": "Saat üçte ne oldu?",
+          "correct": "The film stopped",
           "wrong": [
-            "Every day",
-            "Never"
+            "The music started",
+            "The radio broke"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Saat üçü bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Nora's grandpa drink every morning?",
-          "qTr": "Nora'nın büyükbabası her sabah ne içer?",
-          "correct": "Milk",
+          "q": "What does Nora's mummy love doing?",
+          "qTr": "Nora'nın annesi ne yapmayı sever?",
+          "correct": "Listening to music",
           "wrong": [
-            "Water",
-            "Juice"
+            "Watching old films",
+            "Riding her bike"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Radyoyu bul.",
           "hl": [
-            7
+            6
+          ]
+        },
+        {
+          "q": "When does Nora's grandma read?",
+          "qTr": "Nora'nın büyükannesi ne zaman okur?",
+          "correct": "Before bed every night",
+          "wrong": [
+            "After lunch every day",
+            "At school every morning"
+          ],
+          "hint": "Saat sekizi bul.",
+          "hl": [
+            8
           ]
         }
       ]
     },
     {
       "id": "scan-9",
-      "title": "My Big Family Tree",
+      "title": "Grandma's Photo Box",
       "subtitle": "Find the right family member!",
-      "icon": "🌳",
+      "icon": "📷",
       "hlMode": "fade3",
       "hintMode": "button",
       "choices": 3,
@@ -949,93 +941,93 @@
         }
       ],
       "sentences": [
-        "Nora: My family is big. Let me tell you about everyone!",
-        "My brother is twelve years old. He is a clever student.",
-        "My sister is six years old. She is sweet and naughty.",
-        "My cousin works in the city. She is a writer.",
-        "Sam: My uncle is a farmer. He grows vegetables in the village.",
-        "My aunt is a nurse at the hospital. She helps sick people every day.",
-        "Leyla: My grandma was a teacher many years ago. She taught at a primary school.",
-        "My grandpa was a driver. He drove a bus in our city.",
-        "Sam: My brother is the funniest in our family!",
-        "Nora: My sister is the kindest. Every family member is special!"
+        "Nora: Ms. Reed gave us family tree homework, so my grandma opened her old photo box.",
+        "Nora: My grandma was a teacher a long time ago. She taught at a primary school for thirty years.",
+        "Nora: My grandpa was a driver. He drove a bus in our city and knew every street.",
+        "Sam: My uncle is a farmer. He grows food in a small village near our city.",
+        "Sam: Last summer he sent us a box of tomatoes. It was the heaviest box in our house!",
+        "Leyla: My aunt is a nurse at the hospital. She helped my grandma there last winter.",
+        "Leyla: My cousin is a scientist. She tests water in a laboratory near the station.",
+        "Nora: My sister writes stories in a green notebook. She is the youngest writer in our family!",
+        "Sam: In one photo my grandma held a baby. That baby was my daddy!",
+        "Nora: We put the photos on a big paper — and the tree did not fit on the page."
       ],
       "translations": [
-        "Nora: Ailem büyük. Size herkesi anlatayım!",
-        "Abim on iki yaşında. Zeki bir öğrenci.",
-        "Kız kardeşim altı yaşında. Tatlı ve yaramaz.",
-        "Kuzenim şehirde çalışıyor. Yazar.",
-        "Sam: Amcam çiftçi. Köyde sebze yetiştirir.",
-        "Halam hastanede hemşire. Her gün hasta insanlara yardım eder.",
-        "Leyla: Büyükannem yıllar önce öğretmendi. Bir ilkokulda öğretmenlik yaptı.",
-        "Dedem şofördü. Şehrimizde otobüs sürerdi.",
-        "Sam: Abim ailemizde en komik olan!",
-        "Nora: Kız kardeşim en kibar olan. Her aile üyesi özel!"
+        "Nora: Ms. Reed bize aile ağacı ödevi verdi, bu yüzden büyükannem eski fotoğraf kutusunu açtı.",
+        "Nora: Büyükannem uzun zaman önce öğretmendi. Otuz yıl boyunca bir ilkokulda ders verdi.",
+        "Nora: Dedem sürücüydü. Şehrimizde otobüs sürdü ve her sokağı bilirdi.",
+        "Sam: Amcam çiftçi. Şehrimize yakın küçük bir köyde yiyecek yetiştirir.",
+        "Sam: Geçen yaz bize bir kutu domates gönderdi. Evimizdeki en ağır kutuydu!",
+        "Leyla: Teyzem hastanede hemşire. Geçen kış büyükanneme orada yardım etti.",
+        "Leyla: Kuzenim bilim insanı. İstasyona yakın bir laboratuvarda su testi yapar.",
+        "Nora: Kız kardeşim yeşil bir deftere hikâyeler yazar. Ailemizdeki en genç yazar o!",
+        "Sam: Bir fotoğrafta büyükannem bir bebeği kucağında tutuyordu. O bebek babamdı!",
+        "Nora: Fotoğrafları büyük bir kâğıda koyduk — ve ağaç sayfaya sığmadı."
       ],
       "questions": [
         {
-          "q": "How old is Nora's brother?",
-          "qTr": "Nora'nın erkek kardeşi kaç yaşında?",
-          "correct": "Twelve",
+          "q": "What was Nora's grandma's job?",
+          "qTr": "Nora'nın büyükannesinin işi neydi?",
+          "correct": "She was a teacher",
           "wrong": [
-            "Six",
-            "Ten"
+            "She was a nurse",
+            "She was a driver"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Otuz yılı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What is Nora's cousin?",
-          "qTr": "Nora'nın kuzeni ne iş yapar?",
-          "correct": "A writer",
+          "q": "What did Nora's grandpa drive?",
+          "qTr": "Nora'nın dedesi ne sürdü?",
+          "correct": "A city bus",
           "wrong": [
-            "A teacher",
-            "A farmer"
+            "A big lorry",
+            "A school car"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Nora'nın dedesini bul.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "What is Sam's uncle?",
-          "qTr": "Sam'in amcası ne iş yapar?",
-          "correct": "A farmer",
+          "q": "What did Sam's uncle send last summer?",
+          "qTr": "Sam'in amcası geçen yaz ne gönderdi?",
+          "correct": "A box of tomatoes",
           "wrong": [
-            "A teacher",
-            "A writer"
+            "A green story notebook",
+            "A photo of grandma"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Geçen yazı bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What was Leyla's grandma?",
-          "qTr": "Leyla'nın büyükannesi ne iş yapardı?",
-          "correct": "A teacher",
+          "q": "What is Leyla's cousin's job?",
+          "qTr": "Leyla'nın kuzeninin işi nedir?",
+          "correct": "She is a scientist",
           "wrong": [
-            "A farmer",
-            "A nurse"
+            "She is a farmer",
+            "She is a writer"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Laboratuvarı bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What did Leyla's grandpa drive?",
-          "qTr": "Leyla'nın büyükbabası ne sürdü?",
-          "correct": "A bus",
+          "q": "Who did Nora's grandma hold in the photo?",
+          "qTr": "Nora'nın büyükannesi fotoğrafta kimi tutuyordu?",
+          "correct": "Sam's daddy",
           "wrong": [
-            "A taxi",
-            "A truck"
+            "Nora's sister",
+            "Leyla's cousin"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Fotoğrafı bul.",
           "hl": [
-            7
+            8
           ]
         }
       ]
@@ -1063,93 +1055,93 @@
         }
       ],
       "sentences": [
-        "Last night, our family had a wonderful evening together.",
-        "I read a new book about animals last night.",
-        "My mummy made delicious dinner for everyone.",
-        "My daddy came home late from work. He brought a cake!",
-        "We ate dinner together at the table.",
-        "Sam: My grandpa told us stories about his childhood last night.",
-        "Leyla: I wrote a letter to my pen friend last night.",
-        "Sam: My mummy sang lullabies to my baby sister.",
-        "Nora: I gave my brother a hug before bed.",
-        "Sam: Last night was a beautiful family night for all of us!"
+        "Nora: Last night was the busiest evening of our week.",
+        "Nora: I read a new book about animals. My mummy brought it from the library.",
+        "Nora: My daddy came home late from the hospital. He brought a cake from the bakery!",
+        "Sam: My grandpa told us stories at the table. He was a worker, and he knows all the old machines.",
+        "Leyla: I wrote a letter to my pen friend in America and put it in the post office box.",
+        "Leyla: I wrote \"mommy\" on it, not \"mummy\" — that is the American word!",
+        "Sam: My mummy sang to my baby sister. She has the softest voice in our family.",
+        "Sam: Then she went to the hospital at nine. She is a nurse, and last night was her night at work.",
+        "Nora: We walked past the cinema and the café on our way home. Both were still open.",
+        "Nora: I gave my brother the last piece of cake — and he gave me the smallest one back."
       ],
       "translations": [
-        "Dün gece ailemiz birlikte harika bir akşam geçirdi.",
-        "Dün gece hayvanlar hakkında yeni bir kitap okudum.",
-        "Annem herkes için lezzetli akşam yemeği yaptı.",
-        "Babam işten geç eve geldi. Bir pasta getirdi!",
-        "Hep birlikte sofrada akşam yemeği yedik.",
-        "Sam: Dedem dün gece çocukluk anılarını bize anlattı.",
-        "Leyla: Dün gece kalem arkadaşıma bir mektup yazdım.",
-        "Sam: Annem küçük kız kardeşime ninniler söyledi.",
-        "Nora: Yatmadan önce abime sarıldım.",
-        "Sam: Dün gece hepimiz için güzel bir aile gecesiydi!"
+        "Nora: Dün gece haftamızın en yoğun akşamıydı.",
+        "Nora: Hayvanlarla ilgili yeni bir kitap okudum. Annem onu kütüphaneden getirdi.",
+        "Nora: Babam hastaneden eve geç geldi. Fırından bir pasta getirdi!",
+        "Sam: Dedem masada bize hikâyeler anlattı. İşçiydi ve bütün eski makineleri bilir.",
+        "Leyla: Amerika'daki mektup arkadaşıma bir mektup yazdım ve postane kutusuna attım.",
+        "Leyla: Üstüne \"mummy\" değil \"mommy\" yazdım — Amerikancası bu!",
+        "Sam: Annem bebek kardeşime şarkı söyledi. Ailemizdeki en yumuşak sese sahip.",
+        "Sam: Sonra saat dokuzda hastaneye gitti. O bir hemşire ve dün gece iş gecesiydi.",
+        "Nora: Eve dönerken sinemanın ve kafenin önünden geçtik. İkisi de hâlâ açıktı.",
+        "Nora: Pastanın son dilimini kardeşime verdim — o da bana en küçüğünü geri verdi."
       ],
       "questions": [
         {
-          "q": "What did Nora read?",
-          "qTr": "Nora ne okudu?",
+          "q": "What did Nora read last night?",
+          "qTr": "Nora dün gece ne okudu?",
           "correct": "A book about animals",
           "wrong": [
-            "A poem",
-            "A newspaper"
+            "A letter from America",
+            "A story about machines"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did her daddy bring?",
-          "qTr": "Onun babası ne getirdi?",
-          "correct": "A cake",
+          "q": "Where did Nora's daddy bring the cake from?",
+          "qTr": "Nora'nın babası pastayı nereden getirdi?",
+          "correct": "From the bakery",
           "wrong": [
-            "A book",
-            "Flowers"
+            "From the library",
+            "From the café"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Pastayı bul.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "What did Sam's grandpa tell?",
-          "qTr": "Sam'in büyükbabası ne anlattı?",
-          "correct": "Stories",
+          "q": "What did Leyla write on her letter?",
+          "qTr": "Leyla mektubunun üstüne ne yazdı?",
+          "correct": "The word mommy",
           "wrong": [
-            "Songs",
-            "Jokes"
+            "The word grandma",
+            "The word bakery"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Amerika'yı bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What did Leyla write?",
-          "qTr": "Leyla ne yazdı?",
-          "correct": "A letter",
+          "q": "Why did Sam's mummy go to the hospital?",
+          "qTr": "Sam'in annesi neden hastaneye gitti?",
+          "correct": "She is a nurse",
           "wrong": [
-            "A story",
-            "A poem"
+            "She is a driver",
+            "She is a cleaner"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Saat dokuzu bul.",
           "hl": [
-            6
+            7
           ]
         },
         {
-          "q": "What did Sam's mummy sing?",
-          "qTr": "Sam'in annesi hangi şarkıyı söyledi?",
-          "correct": "Lullabies",
+          "q": "Which two places were still open?",
+          "qTr": "Hangi iki yer hâlâ açıktı?",
+          "correct": "The cinema and the café",
           "wrong": [
-            "Pop songs",
-            "Rock music"
+            "The bakery and the library",
+            "The market and the station"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Eve dönüş yolunu bul.",
           "hl": [
-            7
+            8
           ]
         }
       ]
