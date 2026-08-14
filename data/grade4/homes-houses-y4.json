@@ -1135,9 +1135,9 @@
   "skim": [
     {
       "id": "skim-1",
-      "title": "Then and Now — The Sea Is Changing",
+      "title": "Two Photos of Greenfield Beach",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "🌊",
+      "icon": "📷",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
@@ -1160,93 +1160,88 @@
         }
       ],
       "sentences": [
-        "Guess what? The sea near Greenfield has changed a lot in the last ten years.",
-        "Ten years ago, there were a lot of dolphins near the coast. Children could see them from the beach.",
-        "There were many seals on the rocks too. They loved diving and splashing in the clean water.",
-        "There was not much plastic in the sea then. The water was clear and blue.",
-        "But today, there is a lot of plastic in the water. There are many fishing nets near the shore too.",
-        "There are no seals on the rocks now. They moved to cleaner waters far away. What a shame!",
-        "There are not many dolphins near the coast anymore. Pollution scared them away.",
-        "There was a lot of fish in the sea ten years ago. Now there is not much fish left.",
-        "Ms. Reed says: \"That's a good point — we must act now before it is too late!\"",
-        "Nora says: \"I think things will get better if we work together. Don't worry — we can do this!\""
+        "Nora brings an old photo of the beach from her grandma's box.",
+        "Nora: This photo is ten years old. Look at the rocks!",
+        "Sam: There were a lot of seals on them. Today there are no seals.",
+        "Leyla: The water was clear and blue in the old photo.",
+        "Nora: Now there is a lot of plastic near the shore. Pollution comes from our town.",
+        "Ms. Reed: There were dolphins near the coast then. Children watched them from the sand.",
+        "Sam: And now there are no dolphins here. What a shame!",
+        "Leyla: My uncle says the sea was cold in summer. Now it is warm.",
+        "Ms. Reed: That is climate change, Leyla. Warm water moves animals to new homes.",
+        "Nora: Don't worry! We should put both photos on the school wall. People need to see this."
       ],
       "translations": [
-        "Biliyor musunuz? Greenfield yakınlarındaki deniz son on yılda çok değişti.",
-        "On yıl önce kıyıda çok sayıda yunus vardı. Çocuklar onları sahilden görebiliyordu.",
-        "Kayalıklarda da pek çok fok vardı. Temiz suda dalış yapmayı ve sıçramayı seviyorlardı.",
-        "O zamanlar denizde çok fazla plastik yoktu. Su berrak ve maviydi.",
-        "Ama bugün suda çok fazla plastik var. Kıyı yakınında da çok sayıda balıkçı ağı var.",
-        "Artık kayalıklarda fok yok. Uzaktaki daha temiz sulara taşındılar. Ne yazık!",
-        "Kıyıda artık pek fazla yunus yok. Kirlilik onları korkutup uzaklaştırdı.",
-        "On yıl önce denizde çok fazla balık vardı. Şimdi pek az balık kaldı.",
-        "Ms. Reed diyor: \"Bu iyi bir nokta — çok geç olmadan harekete geçmeliyiz!\"",
-        "Nora diyor: \"Birlikte çalışırsak işlerin daha iyi olacağını düşünüyorum. Merak etmeyin — bunu başarabiliriz!\""
+        "Nora büyükannesinin kutusundan sahilin eski bir fotoğrafını getiriyor.",
+        "Nora: Bu fotoğraf on yaşında. Kayalara bakın!",
+        "Sam: Üzerlerinde bir sürü fok vardı. Bugün hiç fok yok.",
+        "Leyla: Eski fotoğrafta su berrak ve maviydi.",
+        "Nora: Şimdi kıyıya yakın bir sürü plastik var. Kirlilik kasabamızdan geliyor.",
+        "Ms. Reed: O zaman kıyının yakınında yunuslar vardı. Çocuklar onları kumdan izlerdi.",
+        "Sam: Ve şimdi burada hiç yunus yok. Ne yazık!",
+        "Leyla: Amcam yazın denizin soğuk olduğunu söylüyor. Şimdi ılık.",
+        "Ms. Reed: Bu iklim değişikliği, Leyla. Ilık su hayvanları yeni yuvalara taşır.",
+        "Nora: Merak etmeyin! İki fotoğrafı da okul duvarına asmalıyız. İnsanların bunu görmesi gerek."
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "How the sea near Greenfield has changed over ten years",
+          "q": "What is this text mainly about?",
+          "correct": "How the beach changed",
           "wrong": [
-            "What marine animals eat",
-            "How to build a beach house"
+            "How to take photos",
+            "Where the dolphins sleep"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "Eski fotoğrafla bugünün neden karşılaştırıldığını düşün.",
           "hl": [
-            0,
             1,
-            4
-          ]
-        },
-        {
-          "q": "What was the sea like ten years ago?",
-          "qTr": "Deniz on yıl önce nasıldı?",
-          "correct": "Clear, blue and not much plastic",
-          "wrong": [
-            "Dirty and full of fishing nets",
-            "Warm and stormy"
-          ],
-          "hint": "Find the words ten years ago in the text.",
-          "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Why are there no seals on the rocks now?",
-          "qTr": "Şimdi kayalarda neden hiç fok yok?",
-          "correct": "They moved to cleaner waters",
-          "wrong": [
-            "They were hunted",
-            "They got trapped in fishing nets"
-          ],
-          "hint": "Find the word seals in the text.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What happened to the dolphins near the coast?",
-          "qTr": "Kıyının yakınındaki yunuslara ne oldu?",
-          "correct": "Pollution scared them away",
-          "wrong": [
-            "Climate change made them leave",
-            "Fishing nets trapped them"
-          ],
-          "hint": "Find the word dolphins near the end of the text.",
-          "hl": [
+            2,
             6
           ]
         },
         {
-          "q": "What does Nora think about the future?",
-          "qTr": "Nora gelecek hakkında ne düşünür?",
-          "correct": "Things will get better if they work together",
+          "q": "What were on the rocks ten years ago?",
+          "correct": "A lot of seals",
           "wrong": [
-            "Things will get worse",
-            "Nothing will change"
+            "A lot of crabs",
+            "A lot of nets"
           ],
-          "hint": "Find Nora at the end of the text.",
+          "hint": "Sam'in kayalar hakkındaki cümlesini bul.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Where does the pollution come from?",
+          "correct": "From their town",
+          "wrong": [
+            "From the rocks",
+            "From the boats"
+          ],
+          "hint": "Nora'nın plastikten söz ettiği cümleyi bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Leyla's uncle say about the sea?",
+          "correct": "It was cold in summer",
+          "wrong": [
+            "It was warm in winter",
+            "It was clean in spring"
+          ],
+          "hint": "Leyla'nın amcasından bahsettiği cümleyi bul.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Nora say about the photos?",
+          "correct": "Put them on the school wall",
+          "wrong": [
+            "Give them to her grandma",
+            "Keep them in the box"
+          ],
+          "hint": "Nora'nın son cümlesindeki fikri bul.",
           "hl": [
             9
           ]
@@ -1255,7 +1250,7 @@
     },
     {
       "id": "skim-2",
-      "title": "How Can We Help?",
+      "title": "What Should We Do?",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🌍",
       "hlMode": "always",
@@ -1280,102 +1275,97 @@
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"What should we do to protect marine animals? Let's think together!\"",
-        "Nora said: \"We should stop using so much plastic. We shouldn't buy things with too much plastic packaging.\"",
-        "\"We should take our rubbish home from the beach. We mustn't leave any waste near the water.\"",
-        "Sam said: \"We should join beach clean-up days. That's interesting — even children can make a difference!\"",
-        "\"We shouldn't throw anything into rivers or lakes. Waste reaches the ocean very quickly.\"",
-        "Leyla said: \"We should learn more about marine animals and their habitats. Knowledge is the best protection!\"",
-        "\"We mustn't buy things made from sharks or sea turtles. Hunting must stop.\"",
-        "Ms. Reed said: \"That's a good point, Leyla. We should also support organisations that protect the ocean.\"",
-        "\"We shouldn't ignore climate change either. A warmer ocean is the worst thing for marine life.\"",
-        "Sam said: \"What a shame that so many animals are in danger! But I think things will get better if we all try.\""
+        "Ms. Reed: What should we do to protect marine animals? Let's make one list together.",
+        "Nora: We should say no to plastic bottles at home. Every bottle reaches the sea one day.",
+        "Sam: And we should take our rubbish home from the beach.",
+        "Leyla: That's interesting. Even children make a difference.",
+        "Nora: We shouldn't throw waste into rivers or lakes. Waste reaches the ocean very quickly.",
+        "Sam: You mustn't hunt sea turtles. Hunting is a big danger for them.",
+        "Leyla: You mustn't leave a fishing net in the water either.",
+        "Nora: Guess what? Knowledge is the best protection. We should learn about habitats first.",
+        "Sam: Our list has six ideas now. Ms. Reed, is that enough for one poster?",
+        "Ms. Reed: That's a good point, Sam. Six clear ideas are enough for one poster."
       ],
       "translations": [
-        "Ms. Reed sordu: \"Deniz hayvanlarını korumak için ne yapmalıyız? Birlikte düşünelim!\"",
-        "Nora dedi: \"Bu kadar çok plastik kullanmayı bırakmalıyız. Çok fazla plastik ambalajlı şeyler satın almamalıyız.\"",
-        "\"Çöpümüzü sahilden eve götürmeliyiz. Su yakınına hiç atık bırakmamalıyız.\"",
-        "Sam dedi: \"Sahil temizleme günlerine katılmalıyız. İlginç — çocuklar bile fark yaratabilir!\"",
-        "\"Nehirlere veya göllere hiçbir şey atmamalıyız. Atıklar çok hızlı okyanusa ulaşıyor.\"",
-        "Leyla dedi: \"Deniz hayvanları ve habitatları hakkında daha fazla öğrenmeliyiz. Bilgi en iyi korumadır!\"",
-        "\"Köpekbalığı veya deniz kaplumbağasından yapılmış şeyler satın almamalıyız. Avcılık durmalı.\"",
-        "Ms. Reed dedi: \"Bu iyi bir nokta, Leyla. Aynı zamanda okyanusları koruyan organizasyonları da desteklemeliyiz.\"",
-        "\"İklim değişikliğini de görmezden gelmemeliyiz. Daha sıcak bir okyanus deniz yaşamı için en kötü şey.\"",
-        "Sam dedi: \"Bu kadar çok hayvanın tehlikede olması ne yazık! Ama hepimiz çabalarsak işlerin daha iyi olacağını düşünüyorum.\""
+        "Ms. Reed: Deniz hayvanlarını korumak için ne yapmalıyız? Hadi birlikte tek bir liste yapalım.",
+        "Nora: Evde plastik şişelere hayır demeliyiz. Her şişe bir gün denize ulaşır.",
+        "Sam: Ve çöpümüzü sahilden eve götürmeliyiz.",
+        "Leyla: Bu ilginç. Çocuklar bile fark yaratır.",
+        "Nora: Nehirlere ya da göllere atık atmamalıyız. Atık okyanusa çok çabuk ulaşır.",
+        "Sam: Deniz kaplumbağalarını avlamamalısın. Avcılık onlar için büyük bir tehlikedir.",
+        "Leyla: Suda balıkçı ağı da bırakmamalısın.",
+        "Nora: Biliyor musunuz? Bilgi en iyi korumadır. Önce habitatları öğrenmeliyiz.",
+        "Sam: Listemizde şimdi altı fikir var. Ms. Reed, bir poster için bu yeterli mi?",
+        "Ms. Reed: Bu iyi bir nokta, Sam. Altı net fikir bir poster için yeterli."
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "What people should do to protect marine animals",
+          "q": "What is this text mainly about?",
+          "correct": "Ways to protect marine animals",
           "wrong": [
-            "What marine animals eat",
-            "How the sea has changed"
+            "Places to visit by water",
+            "Weather at the beach"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "Sınıfın birlikte ne hazırladığını düşün.",
           "hl": [
             0,
             1,
-            3
+            4
           ]
         },
         {
-          "q": "What does Nora say about plastic?",
-          "qTr": "Nora plastik hakkında ne der?",
-          "correct": "We should stop using so much plastic",
+          "q": "What does Nora say about plastic bottles?",
+          "correct": "Say no to them",
           "wrong": [
-            "We should throw it in the river",
-            "We should buy more plastic things"
+            "Buy them again",
+            "Leave them there"
           ],
-          "hint": "Find Nora and the word plastic in the text.",
+          "hint": "Nora'nın plastik şişelerle ilgili ilk cümlesini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What should people do on beach clean-up days?",
-          "qTr": "İnsanlar plaj temizliği günlerinde ne yapmalı?",
-          "correct": "Join them and collect rubbish",
+          "q": "Where shouldn't people throw waste?",
+          "correct": "Into rivers or lakes",
           "wrong": [
-            "Watch marine animals",
-            "Learn about habitats"
+            "Into rubbish bins",
+            "Into the school bin"
           ],
-          "hint": "Find the words beach clean-up in the text.",
+          "hint": "Nora'nın atıkla ilgili cümlesini bul.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "Why mustn't people buy things made from sharks or sea turtles?",
-          "qTr": "İnsanlar neden köpekbalığı veya deniz kaplumbağasından yapılmış şeyler almamalı?",
-          "correct": "Because hunting must stop",
+          "q": "What mustn't you hunt?",
+          "correct": "Sea turtles",
           "wrong": [
-            "Because they are expensive",
-            "Because they are ugly"
+            "Small crabs",
+            "Big whales"
           ],
-          "hint": "Find the word mustn't in the text.",
+          "hint": "Sam'in yasak dediği avı bul.",
           "hl": [
-            6
+            5
           ]
         },
         {
-          "q": "What does Ms. Reed say is the worst thing for marine life?",
-          "qTr": "Ms. Reed deniz canlıları için en kötü şeyin ne olduğunu söyler?",
-          "correct": "A warmer ocean",
+          "q": "What does Nora call the best protection?",
+          "correct": "Knowledge",
           "wrong": [
-            "Plastic pollution",
-            "Fishing nets"
+            "A poster",
+            "A net"
           ],
-          "hint": "Find the word worst in the text.",
+          "hint": "Nora'nın \"Guess what?\" dedikten sonraki cümlesini bul.",
           "hl": [
-            8
+            7
           ]
         }
       ]
     },
     {
       "id": "skim-3",
-      "title": "What Will the Weather Be Like?",
+      "title": "The Prediction Board",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🌤️",
       "hlMode": "always",
@@ -1400,103 +1390,212 @@
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"What do you think the weather will be like this weekend? Make your best prediction!\"",
-        "Nora said: \"I think Saturday will be the best day of the week. It will be clear and sunny!\"",
-        "\"I think we will see dolphins from the beach. That will be the best moment of the weekend!\"",
-        "Sam said: \"I think Sunday will be the worst day. It will be stormy and the waves will be huge.\"",
-        "\"It will be the worst weather for a houseboat — it will rock a lot on the waves!\"",
-        "Leyla said: \"I think it will be misty in the morning but it will get clearer in the afternoon.\"",
-        "\"I think the best time to visit the lake will be after lunch. The water will be calm and beautiful.\"",
-        "Ms. Reed said: \"That's interesting! What will be the best activity for each type of weather?\"",
-        "Nora answered: \"If it is sunny, the best activity will be swimming. If it is stormy, the worst idea will be going out!\"",
-        "Sam laughed: \"The best prediction is always the one that comes true. We will find out on Saturday!\""
+        "Ms. Reed puts a big prediction board on the classroom wall.",
+        "Ms. Reed: What do you think the weather will be like this weekend?",
+        "Nora: I think Saturday will be sunny. My family goes to the beach on sunny days.",
+        "Sam: I am not sure. Look at those dark clouds over the sea!",
+        "Leyla: I think Sunday will be stormy. The waves get big before a storm and the dolphins swim away.",
+        "Sam: Guess what? My prediction is different. I think it will be misty in the morning.",
+        "Ms. Reed: Write your names next to your predictions, please.",
+        "Nora: Sunny weather is the best weather for a beach day.",
+        "Leyla: And stormy weather is the worst weather for a houseboat!",
+        "Ms. Reed: We will check the board on Monday. Don't worry, every prediction is useful."
       ],
       "translations": [
-        "Ms. Reed sordu: \"Bu hafta sonu hava nasıl olacak sence? En iyi tahminini yap!\"",
-        "Nora dedi: \"Sanırım Cumartesi haftanın en iyi günü olacak. Açık ve güneşli olacak!\"",
-        "\"Sahilden yunusları göreceğimizi düşünüyorum. Bu hafta sonunun en iyi anı olacak!\"",
-        "Sam dedi: \"Sanırım Pazar en kötü gün olacak. Fırtınalı olacak ve dalgalar çok büyük olacak.\"",
-        "\"Yüzen ev için en kötü hava olacak — dalgalarda çok sallanacak!\"",
-        "Leyla dedi: \"Sabah sisli olacağını ama öğleden sonra açılacağını düşünüyorum.\"",
-        "\"Gölü ziyaret etmek için en iyi zamanın öğle yemeğinden sonra olacağını düşünüyorum. Su sakin ve güzel olacak.\"",
-        "Ms. Reed dedi: \"Bu ilginç! Her hava türü için en iyi etkinlik ne olacak?\"",
-        "Nora cevapladı: \"Güneşliyse en iyi etkinlik yüzmek olacak. Fırtınalıysa dışarı çıkmak en kötü fikir olacak!\"",
-        "Sam güldü: \"En iyi tahmin her zaman gerçekleşen. Cumartesi öğreneceğiz!\""
+        "Ms. Reed sınıf duvarına büyük bir tahmin panosu asıyor.",
+        "Ms. Reed: Sizce bu hafta sonu hava nasıl olacak?",
+        "Nora: Bence cumartesi güneşli olacak. Ailem güneşli günlerde sahile gider.",
+        "Sam: Emin değilim. Denizin üstündeki şu kara bulutlara bakın!",
+        "Leyla: Bence pazar fırtınalı olacak. Fırtınadan önce dalgalar büyür ve yunuslar uzaklaşır.",
+        "Sam: Biliyor musunuz? Benim tahminim farklı. Bence sabah puslu olacak.",
+        "Ms. Reed: Lütfen tahminlerinizin yanına adınızı yazın.",
+        "Nora: Güneşli hava bir sahil günü için en iyi havadır.",
+        "Leyla: Ve fırtınalı hava bir tekne ev için en kötü havadır!",
+        "Ms. Reed: Panoyu pazartesi kontrol edeceğiz. Merak etmeyin, her tahmin işe yarar."
       ],
       "questions": [
         {
-          "q": "What is the main idea of this text?",
-          "qTr": "Bu metnin ana fikri nedir?",
-          "correct": "Making weather predictions for the weekend",
+          "q": "What is this text mainly about?",
+          "correct": "Making weather predictions",
           "wrong": [
-            "Describing dangers for marine animals",
+            "Counting marine animals",
             "Comparing types of houses"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "Metnin başından sonuna kadar çocukların ne yaptığını düşün.",
           "hl": [
-            0,
             1,
-            3
-          ]
-        },
-        {
-          "q": "What does Nora predict for Saturday?",
-          "qTr": "Nora cumartesi için ne tahmin eder?",
-          "correct": "It will be clear and sunny",
-          "wrong": [
-            "It will be stormy",
-            "It will be misty"
-          ],
-          "hint": "Find Nora and Saturday in the text.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Why does Sam think Sunday will be the worst day for a houseboat?",
-          "qTr": "Sam neden pazarın tekne ev için en kötü gün olacağını düşünür?",
-          "correct": "Because it will be stormy and the waves will be huge",
-          "wrong": [
-            "Because it will be too sunny",
-            "Because it will be freezing"
-          ],
-          "hint": "Find Sam and Sunday in the text.",
-          "hl": [
-            3,
+            2,
             4
           ]
         },
         {
-          "q": "When does Leyla think is the best time to visit the lake?",
-          "qTr": "Leyla gölü ziyaret etmek için en iyi zamanın ne zaman olduğunu düşünür?",
-          "correct": "After lunch",
+          "q": "What does Nora think about Saturday?",
+          "correct": "It will be sunny",
           "wrong": [
-            "In the morning",
-            "In the evening"
+            "It will be stormy",
+            "It will be misty"
           ],
-          "hint": "Find Leyla and lake in the text.",
+          "hint": "Nora'nın cumartesi için söylediğini bul.",
           "hl": [
-            6
+            2
           ]
         },
         {
-          "q": "What does Nora say is the worst idea in stormy weather?",
-          "qTr": "Nora fırtınalı havada en kötü fikrin ne olduğunu söyler?",
-          "correct": "Going out",
+          "q": "What does Leyla predict for Sunday?",
+          "correct": "It will be stormy",
           "wrong": [
-            "Swimming",
-            "Visiting the lake"
+            "It will be sunny",
+            "It will be warm"
           ],
-          "hint": "Find Nora and the word stormy in the text.",
+          "hint": "Leyla'nın pazar için söylediğini bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the worst weather for a houseboat?",
+          "correct": "Stormy weather",
+          "wrong": [
+            "Sunny weather",
+            "Misty weather"
+          ],
+          "hint": "Tekne evden söz eden cümleyi bul.",
           "hl": [
             8
+          ]
+        },
+        {
+          "q": "When do they check the board?",
+          "correct": "On Monday",
+          "wrong": [
+            "On Saturday",
+            "On Sunday"
+          ],
+          "hint": "Ms. Reed'in son cümlesindeki günü bul.",
+          "hl": [
+            9
           ]
         }
       ]
     },
     {
       "id": "skim-4",
-      "title": "Life in Lagoons and Rivers",
+      "title": "Sam's Lagoon Holiday",
+      "subtitle": "Read quickly and find the main idea!",
+      "icon": "🏞️",
+      "hlMode": "always",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
+        }
+      ],
+      "sentences": [
+        "Sam tells the class about his summer holiday by the water.",
+        "Sam: My family stayed in a lake house for one week last August.",
+        "Sam: There were twenty small fish near the water. I counted them in one minute!",
+        "Leyla: How many crabs did you see?",
+        "Sam: Not many on the lake. But we drove to a lagoon on Friday.",
+        "Sam: The lagoon was warm and calm. There were a lot of crabs on the sandy floor.",
+        "Nora: Guess what? A lagoon is the best home for young fish.",
+        "Sam: We visited a river too. There is no sand there, only stones.",
+        "Leyla: How much water moves in a river?",
+        "Ms. Reed: A lot of water, Leyla. That's interesting: lakes are calm but rivers never stop."
+      ],
+      "translations": [
+        "Sam sınıfa su kenarındaki yaz tatilini anlatıyor.",
+        "Sam: Ailem geçen ağustosta bir hafta göl evinde kaldı.",
+        "Sam: Suyun yanında yirmi küçük balık vardı. Onları bir dakikada saydım!",
+        "Leyla: Kaç yengeç gördün?",
+        "Sam: Gölde fazla yoktu. Ama cuma günü bir lagüne gittik.",
+        "Sam: Lagün ılık ve sakindi. Kumlu zeminde bir sürü yengeç vardı.",
+        "Nora: Biliyor musunuz? Lagün küçük balıklar için en iyi yuvadır.",
+        "Sam: Bir nehri de ziyaret ettik. Orada hiç kum yok, sadece taşlar.",
+        "Leyla: Bir nehirde ne kadar su akar?",
+        "Ms. Reed: Bir sürü su, Leyla. Bu ilginç: göller sakindir ama nehirler hiç durmaz."
+      ],
+      "questions": [
+        {
+          "q": "What is this text mainly about?",
+          "correct": "Sam's holiday by the water",
+          "wrong": [
+            "Dangers for marine animals",
+            "Rules for the beach"
+          ],
+          "hint": "Sam'in sınıfa baştan sona ne anlattığını düşün.",
+          "hl": [
+            1,
+            4,
+            7
+          ]
+        },
+        {
+          "q": "Where did Sam's family stay?",
+          "correct": "In a lake house",
+          "wrong": [
+            "In a beach house",
+            "On a houseboat"
+          ],
+          "hint": "Sam'in ailesinin kaldığı yeri bul.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "Where did they go on Friday?",
+          "correct": "To a lagoon",
+          "wrong": [
+            "To a river",
+            "To a beach"
+          ],
+          "hint": "Sam'in cuma gününü anlattığı cümleyi bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is in the river instead of sand?",
+          "correct": "Only stones",
+          "wrong": [
+            "Only crabs",
+            "Only fish"
+          ],
+          "hint": "Sam'in nehirden söz ettiği cümleyi bul.",
+          "hl": [
+            7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say about rivers?",
+          "correct": "They never stop",
+          "wrong": [
+            "They are calm",
+            "They are warm"
+          ],
+          "hint": "Ms. Reed'in göl ile nehri karşılaştırdığı cümleyi bul.",
+          "hl": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skim-5",
+      "title": "The Sea Then and Now",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🌊",
       "hlMode": "always",
@@ -1504,219 +1603,107 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        },
-        {
           "e": "👧",
           "n": "Nora"
         },
         {
           "e": "👦",
           "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Lagoons and rivers are special homes for many animals.",
-        "A lagoon is calm and warm. Many small colourful fish live there.",
-        "Crabs hide in the rocks of the lagoon. Starfish crawl on the sandy floor.",
-        "Sea turtles sometimes visit lagoons to rest in the calm water.",
-        "Rivers are different. Their water moves all the time.",
-        "River fish are smaller than ocean fish. They swim against the current.",
-        "Some crabs live in rivers, too. They crawl in the muddy water.",
-        "Sam: My family went to a famous lagoon last year. It was beautiful!",
-        "Leyla: I saw many small fish in our river last week.",
-        "Ms. Reed: Lagoons and rivers are precious homes — we must protect them!"
+        "Ms. Reed shows two photos of the same sea on the classroom screen.",
+        "Ms. Reed: This photo is from ten years ago. This one is from today.",
+        "Nora: In the old photo there were a lot of dolphins. Dolphins splash and jump when they play.",
+        "Sam: And now there are no dolphins in this part of the sea. What a shame!",
+        "Leyla: There were many octopuses in these rocks too. Octopuses hide in small holes.",
+        "Nora: Today there are only two. Ten years ago the water was clean.",
+        "Ms. Reed: There was one shark near this beach every summer. Now there are no sharks.",
+        "Sam: Guess what? There were no fishing nets here ten years ago.",
+        "Leyla: And now there are a lot of nets. That is the big change.",
+        "Ms. Reed: That's a good point, Leyla. The sea is the same, but the animals are not."
       ],
       "translations": [
-        "Lagünler ve nehirler birçok hayvan için özel evlerdir.",
-        "Lagün sakin ve ılıktır. Birçok küçük renkli balık orada yaşar.",
-        "Yengeçler lagünün kayalarında saklanır. Deniz yıldızları kumlu zeminde yürür.",
-        "Deniz kaplumbağaları bazen sakin suda dinlenmek için lagünleri ziyaret eder.",
-        "Nehirler farklıdır. Suları her zaman hareket eder.",
-        "Nehir balıkları okyanus balıklarından daha küçüktür. Akıntıya karşı yüzerler.",
-        "Bazı yengeçler de nehirlerde yaşar. Çamurlu suda yürürler.",
-        "Sam: Ailem geçen yıl ünlü bir lagüne gitti. Çok güzeldi!",
-        "Leyla: Geçen hafta nehrimizde birçok küçük balık gördüm.",
-        "Ms. Reed: Lagünler ve nehirler değerli evler — onları korumalıyız!"
+        "Ms. Reed sınıf ekranında aynı denizin iki fotoğrafını gösteriyor.",
+        "Ms. Reed: Bu fotoğraf on yıl öncesinden. Bu ise bugünden.",
+        "Nora: Eski fotoğrafta bir sürü yunus vardı. Yunuslar oynarken su sıçratır ve zıplar.",
+        "Sam: Ve şimdi denizin bu bölümünde hiç yunus yok. Ne yazık!",
+        "Leyla: Bu kayalarda da birçok ahtapot vardı. Ahtapotlar küçük deliklere saklanır.",
+        "Nora: Bugün sadece iki tane var. On yıl önce su temizdi.",
+        "Ms. Reed: Her yaz bu sahilin yakınında bir köpekbalığı vardı. Şimdi hiç köpekbalığı yok.",
+        "Sam: Biliyor musunuz? On yıl önce burada hiç balıkçı ağı yoktu.",
+        "Leyla: Ve şimdi bir sürü ağ var. Büyük değişim bu.",
+        "Ms. Reed: Bu iyi bir nokta, Leyla. Deniz aynı ama hayvanlar değil."
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Lagoons and rivers as homes",
+          "q": "What is this text mainly about?",
+          "correct": "How the sea changed",
           "wrong": [
-            "Deep oceans",
-            "City life"
+            "How to build houses",
+            "What marine animals eat"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "İki fotoğrafın neden yan yana konduğunu düşün.",
           "hl": [
-            0
+            1,
+            3,
+            8
           ]
         },
         {
-          "q": "How is a lagoon?",
-          "qTr": "Lagün nasıldır?",
-          "correct": "Calm and warm",
+          "q": "What were there a lot of in the old photo?",
+          "correct": "Dolphins",
           "wrong": [
-            "Cold and dark",
-            "Dry"
+            "Sharks",
+            "Nets"
           ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "What do crabs do in lagoons?",
-          "qTr": "Yengeçler lagünlerde ne yapar?",
-          "correct": "Hide in rocks",
-          "wrong": [
-            "Fly high",
-            "Sleep on sand"
-          ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nın eski fotoğrafta gördüğünü bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "How are river fish?",
-          "qTr": "Nehir balıkları nasıl?",
-          "correct": "Smaller than ocean fish",
-          "wrong": [
-            "Bigger than whales",
-            "Very dangerous"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What did Sam visit?",
-          "qTr": "Sam nereyi ziyaret etti?",
-          "correct": "A famous lagoon",
-          "wrong": [
-            "A school",
-            "A market"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
-            7
-          ]
-        }
-      ]
-    },
-    {
-      "id": "skim-5",
-      "title": "Where Marine Animals Live",
-      "subtitle": "Read quickly and find the main idea!",
-      "icon": "🌍",
-      "hlMode": "always",
-      "hintMode": "button",
-      "choices": 3,
-      "cast": [
-        {
-          "e": "👧",
-          "n": "Nora"
-        },
-        {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        }
-      ],
-      "sentences": [
-        "Marine animals live in different places around the world.",
-        "Whales live in the deep ocean. They dive and swim long distances.",
-        "Sharks live in oceans and seas. They hunt for fish every day.",
-        "Dolphins live in oceans, seas and sometimes in rivers!",
-        "Sea turtles live in oceans and lagoons. They jump from beach to beach.",
-        "Octopuses hide in coral and rocks. They live mostly in seas.",
-        "Crabs live everywhere — on the beach, in lagoons and even in rivers.",
-        "Jellyfish move slowly in the warm sea water.",
-        "Seals live near rocky beaches. They splash in the cold sea water.",
-        "Each animal has its own special home in the world's waters."
-      ],
-      "translations": [
-        "Deniz hayvanları dünyada farklı yerlerde yaşar.",
-        "Balinalar derin okyanusta yaşar. Dalar ve uzun mesafeler yüzerler.",
-        "Köpekbalıkları okyanus ve denizlerde yaşar. Her gün balık avlarlar.",
-        "Yunuslar okyanus, deniz ve bazen nehirlerde de yaşar!",
-        "Deniz kaplumbağaları okyanus ve lagünlerde yaşar. Plajdan plaja atlarlar.",
-        "Ahtapotlar mercanlarda ve kayalarda saklanır. Çoğunlukla denizlerde yaşarlar.",
-        "Yengeçler her yerde yaşar — plajda, lagünlerde ve hatta nehirlerde.",
-        "Denizanaları ılık deniz suyunda yavaşça hareket eder.",
-        "Foklar kayalık plajların yakınında yaşar. Soğuk deniz suyunda sıçrarlar.",
-        "Her hayvanın dünyanın sularında kendi özel evi vardır."
-      ],
-      "questions": [
-        {
-          "q": "Where do whales live?",
-          "qTr": "Balinalar nerede yaşar?",
-          "correct": "Deep ocean",
-          "wrong": [
-            "Rivers only",
-            "Lagoons only"
-          ],
-          "hint": "Read sentence 2.",
-          "hl": [
-            1
-          ]
-        },
-        {
-          "q": "Where do dolphins live?",
-          "qTr": "Yunuslar nerede yaşar?",
-          "correct": "Oceans, seas, rivers",
-          "wrong": [
-            "Only deserts",
-            "On land"
-          ],
-          "hint": "Read sentence 4.",
-          "hl": [
-            3
-          ]
-        },
-        {
           "q": "Where do octopuses hide?",
-          "qTr": "Ahtapotlar nerede saklanır?",
-          "correct": "In coral and rocks",
+          "correct": "In small holes",
           "wrong": [
-            "In the sky",
-            "On the beach"
+            "In the sand",
+            "In the nets"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'nın ahtapotlar hakkındaki cümlesini bul.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "Where do jellyfish move?",
-          "qTr": "Denizanaları nerede hareket eder?",
-          "correct": "In warm sea water",
+          "q": "How many sharks are near the beach now?",
+          "correct": "No sharks",
           "wrong": [
-            "On land",
-            "In rivers only"
+            "One shark",
+            "Two sharks"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Ms. Reed'in köpekbalıklarını anlattığı cümleyi bul.",
           "hl": [
-            7
+            6
           ]
         },
         {
-          "q": "Where do seals live?",
-          "qTr": "Foklar nerede yaşar?",
-          "correct": "Near rocky beaches",
+          "q": "What is there a lot of now?",
+          "correct": "Fishing nets",
           "wrong": [
-            "In deserts",
-            "In mountains"
+            "Dolphins",
+            "Octopuses"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sam ile Leyla'nın ağlar hakkında söylediklerini bul.",
           "hl": [
+            7,
             8
           ]
         }
@@ -1724,17 +1711,13 @@
     },
     {
       "id": "skim-6",
-      "title": "Dangers and Their Causes",
+      "title": "The Rules Meeting",
       "subtitle": "Read quickly and find the main idea!",
-      "icon": "⚠️",
+      "icon": "📋",
       "hlMode": "always",
       "hintMode": "button",
       "choices": 3,
       "cast": [
-        {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        },
         {
           "e": "👧",
           "n": "Nora"
@@ -1742,103 +1725,109 @@
         {
           "e": "👦",
           "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Marine animals face many dangers today.",
-        "Climate change is a big problem. The sea water becomes warmer every year.",
-        "Some animals cannot live in warm water. They lose their homes.",
-        "Pollution from cities reaches the sea through rivers.",
-        "Plastic and waste hurt fish, dolphins and sea turtles.",
-        "Fishing nets are dangerous, too. Animals get stuck in them.",
-        "Hunting is another big danger. Some animals are in big trouble.",
-        "Nora: My grandpa says the sea was much cleaner when he was a child.",
-        "Sam: We must do something now — for our oceans and for the animals!",
-        "Ms. Reed: When we know the dangers, we can find ways to help!"
+        "The school council meets in the library to write six beach rules.",
+        "Ms. Reed: Our town needs new beach rules. Who starts?",
+        "Nora: Rule one. You mustn't throw plastic into the sea. Plastic is pollution.",
+        "Sam: Rule two. You mustn't leave a fishing net on the sand.",
+        "Leyla: Rule three. You mustn't hunt marine animals. Hunting is a danger for whales and sharks.",
+        "Nora: Rule four. You mustn't feed the seals on the rocks.",
+        "Sam: Rule five. You mustn't drive a car onto the beach. That is not good for the sand.",
+        "Leyla: Rule six is different. Climate change is the worst danger of all.",
+        "Nora: One town does not stop climate change. But every town helps a little.",
+        "Ms. Reed: That's a good point, Nora. Six rules go on the sign next week. Don't worry, people read signs!"
       ],
       "translations": [
-        "Deniz hayvanları bugün birçok tehlikeyle yüz yüze.",
-        "İklim değişikliği büyük bir sorun. Deniz suyu her yıl daha sıcak hale geliyor.",
-        "Bazı hayvanlar sıcak suda yaşayamaz. Evlerini kaybederler.",
-        "Şehirlerden gelen kirlilik nehirler aracılığıyla denize ulaşır.",
-        "Plastik ve atık balıklara, yunuslara ve deniz kaplumbağalarına zarar verir.",
-        "Balık ağları da tehlikelidir. Hayvanlar onlara takılır.",
-        "Avlanma başka büyük bir tehlikedir. Bazı hayvanlar büyük belada.",
-        "Nora: Dedem çocukken denizin çok daha temiz olduğunu söyler.",
-        "Sam: Şimdi bir şey yapmalıyız — okyanuslarımız ve hayvanlar için!",
-        "Ms. Reed: Tehlikeleri bildiğimizde yardım yolları bulabiliriz!"
+        "Okul meclisi altı sahil kuralı yazmak için kütüphanede toplanıyor.",
+        "Ms. Reed: Kasabamızın yeni sahil kurallarına ihtiyacı var. Kim başlıyor?",
+        "Nora: Bir numaralı kural. Denize plastik atmamalısın. Plastik kirliliktir.",
+        "Sam: İki numaralı kural. Kumda balıkçı ağı bırakmamalısın.",
+        "Leyla: Üç numaralı kural. Deniz hayvanlarını avlamamalısın. Avcılık balinalar ve köpekbalıkları için bir tehlikedir.",
+        "Nora: Dört numaralı kural. Kayalardaki fokları beslememelisin.",
+        "Sam: Beş numaralı kural. Sahile arabayla girmemelisin. Bu kum için iyi değil.",
+        "Leyla: Altı numaralı kural farklı. İklim değişikliği hepsinin en kötü tehlikesi.",
+        "Nora: Bir kasaba iklim değişikliğini durdurmaz. Ama her kasaba biraz yardım eder.",
+        "Ms. Reed: Bu iyi bir nokta, Nora. Altı kural gelecek hafta tabelaya gidiyor. Merak etmeyin, insanlar tabelaları okur!"
       ],
       "questions": [
         {
-          "q": "What is the text mainly about?",
-          "qTr": "Metin esas olarak ne hakkındadır?",
-          "correct": "Dangers for marine animals",
+          "q": "What is this text mainly about?",
+          "correct": "Writing new rules for the beach",
           "wrong": [
-            "Animal toys",
-            "Marine sports"
+            "Counting animals on the rocks",
+            "Predicting the weather at sea"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Meclisin toplantıda ne ürettiğini düşün.",
           "hl": [
-            0
+            1,
+            2,
+            9
           ]
         },
         {
-          "q": "What happens to sea water with climate change?",
-          "qTr": "İklim değişikliğiyle deniz suyuna ne olur?",
-          "correct": "It becomes warmer",
+          "q": "What mustn't you throw into the sea?",
+          "correct": "Plastic",
           "wrong": [
-            "It freezes",
-            "It disappears"
+            "Sand",
+            "Signs"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın bir numaralı kuralını bul.",
           "hl": [
-            1
+            2
           ]
         },
         {
-          "q": "How does pollution reach the sea?",
-          "qTr": "Kirlilik denize nasıl ulaşır?",
-          "correct": "Through rivers",
+          "q": "What is a danger for whales and sharks?",
+          "correct": "Hunting",
           "wrong": [
-            "By plane",
-            "By bus"
+            "Feeding",
+            "Driving"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'nın üç numaralı kuralını bul.",
           "hl": [
-            3
+            4
           ]
         },
         {
-          "q": "What is dangerous in nets?",
-          "qTr": "Ağlarda tehlikeli olan nedir?",
-          "correct": "Animals get stuck",
+          "q": "Which danger is not a rule?",
+          "correct": "Climate change",
           "wrong": [
-            "They are too long",
-            "They float away"
+            "Fishing nets",
+            "Hunting"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'nın \"farklı\" dediği kuralı bul.",
           "hl": [
-            5
+            7,
+            8
           ]
         },
         {
-          "q": "What does Nora's grandpa say?",
-          "qTr": "Nora'nın büyükbabası ne der?",
-          "correct": "Sea was cleaner",
+          "q": "Where do the six rules go?",
+          "correct": "On the sign",
           "wrong": [
-            "Sea is fine",
-            "Sea is the same"
+            "On the sand",
+            "On the rocks"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Ms. Reed'in son cümlesini bul.",
           "hl": [
-            7
+            9
           ]
         }
       ]
     },
     {
       "id": "skim-7",
-      "title": "Our Predictions for Tomorrow",
+      "title": "Next Summer at Our Beach",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🔭",
       "hlMode": "always",
@@ -1856,103 +1845,104 @@
         {
           "e": "👧🏽",
           "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"What do you think will happen tomorrow?\"",
-        "Nora said: \"I think tomorrow will be sunny and warm.\"",
-        "\"My family will go to the beach. We will see many people there.\"",
-        "Sam said: \"I think it will rain tomorrow. The clouds are dark.\"",
-        "\"If it rains, we won't go to the beach. We will stay at home.\"",
-        "Leyla said: \"I think tomorrow will be a clear day.\"",
-        "\"My family will visit the lake. We will see many fish there.\"",
-        "Nora: I think next year, our beach will be cleaner.",
-        "Sam: I hope the sea won't be in danger in the future.",
-        "Ms. Reed: Predictions help us think about our future!"
+        "Ms. Reed: Next summer is far away. What do you think will happen at our beach?",
+        "Nora: I think the sand will be clean. Our club works there every month.",
+        "Sam: I am not sure, Nora. There are many visitors in July and August.",
+        "Leyla: Guess what? My family will go to the lake instead. It is quiet there.",
+        "Nora: But many children come to our beach. They learn about the animals here.",
+        "Sam: That's a good point. Our club needs new members next year.",
+        "Leyla: There are no seals on the rocks this summer. I think they will come back.",
+        "Nora: Seals need quiet water. A quiet beach is the best beach for them.",
+        "Sam: Don't worry, Leyla. We start early in the morning next summer.",
+        "Ms. Reed: Good predictions, everyone. We will read them again next September."
       ],
       "translations": [
-        "Ms. Reed sordu: \"Yarın sizce ne olacak?\"",
-        "Nora dedi: \"Bence yarın güneşli ve ılık olacak.\"",
-        "\"Ailem plaja gidecek. Orada birçok insan göreceğiz.\"",
-        "Sam dedi: \"Bence yarın yağmur yağacak. Bulutlar koyu.\"",
-        "\"Yağmur yağarsa plaja gitmeyeceğiz. Evde kalacağız.\"",
-        "Leyla dedi: \"Bence yarın açık bir gün olacak.\"",
-        "\"Ailem gölü ziyaret edecek. Orada birçok balık göreceğiz.\"",
-        "Nora: Bence gelecek yıl plajımız daha temiz olacak.",
-        "Sam: Umarım deniz gelecekte tehlikede olmayacak.",
-        "Ms. Reed: Tahminler geleceğimizi düşünmemize yardım eder!"
+        "Ms. Reed: Gelecek yaz çok uzak. Sizce sahilimizde ne olacak?",
+        "Nora: Bence kum temiz olacak. Kulübümüz orada her ay çalışıyor.",
+        "Sam: Emin değilim, Nora. Temmuz ve ağustosta birçok ziyaretçi var.",
+        "Leyla: Biliyor musunuz? Ailem onun yerine göle gidecek. Orası sessiz.",
+        "Nora: Ama sahilimize birçok çocuk geliyor. Burada hayvanları öğreniyorlar.",
+        "Sam: Bu iyi bir nokta. Kulübümüzün gelecek yıl yeni üyelere ihtiyacı var.",
+        "Leyla: Bu yaz kayalarda hiç fok yok. Bence geri gelecekler.",
+        "Nora: Fokların sessiz suya ihtiyacı var. Sessiz bir sahil onlar için en iyi sahildir.",
+        "Sam: Merak etme, Leyla. Gelecek yaz sabah erken başlıyoruz.",
+        "Ms. Reed: Güzel tahminler, herkes. Onları gelecek eylülde tekrar okuyacağız."
       ],
       "questions": [
         {
-          "q": "What does Nora think about tomorrow?",
-          "qTr": "Nora yarın hakkında ne düşünür?",
-          "correct": "Sunny and warm",
+          "q": "What is this text mainly about?",
+          "correct": "Predictions about next summer",
           "wrong": [
-            "Rainy",
-            "Snowy"
+            "Rules for the beach club",
+            "Animals in the lagoon"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Ms. Reed'in sorusunun tüm metni nasıl yönlendirdiğini düşün.",
+          "hl": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "q": "Why does Nora think the sand will be clean?",
+          "correct": "Her club works there",
+          "wrong": [
+            "Her family lives there",
+            "Her school is near"
+          ],
+          "hint": "Nora'nın ilk tahminini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Sam think will happen?",
-          "qTr": "Sam ne olacağını düşünür?",
-          "correct": "It will rain",
+          "q": "Where will Leyla's family go?",
+          "correct": "To the lake",
           "wrong": [
-            "It will be sunny",
-            "It will snow"
+            "To the beach",
+            "To the lagoon"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'nın ailesinden söz ettiği cümleyi bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What will Sam's family do if it rains?",
-          "qTr": "Yağmur yağarsa Sam'in ailesi ne yapacak?",
-          "correct": "Stay at home",
+          "q": "What is on the rocks this summer?",
+          "correct": "No seals",
           "wrong": [
-            "Go to the beach",
-            "Travel"
+            "Many seals",
+            "Two seals"
           ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What will Leyla's family visit?",
-          "qTr": "Leyla'nın ailesi nereyi ziyaret edecek?",
-          "correct": "The lake",
-          "wrong": [
-            "The beach",
-            "The mountain"
-          ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'nın kayalar hakkındaki cümlesini bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What does Sam hope for the future?",
-          "qTr": "Sam gelecek için ne umar?",
-          "correct": "Sea won't be in danger",
+          "q": "When will they read the predictions again?",
+          "correct": "Next September",
           "wrong": [
-            "No more sea",
-            "Less fish"
+            "Next August",
+            "Next July"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Ms. Reed'in son cümlesindeki ayı bul.",
           "hl": [
-            8
+            9
           ]
         }
       ]
     },
     {
       "id": "skim-8",
-      "title": "The Best and Worst in the Sea",
+      "title": "The Best and the Worst",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🏆",
       "hlMode": "always",
@@ -1960,113 +1950,115 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👩‍🏫",
-          "n": "Ms. Reed"
-        },
-        {
           "e": "👧",
           "n": "Nora"
         },
         {
           "e": "👦",
           "n": "Sam"
+        },
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👩‍🏫",
+          "n": "Ms. Reed"
         }
       ],
       "sentences": [
-        "Marine animals are amazing — but some are special in different ways.",
-        "Dolphins are the best swimmers in the ocean. They jump and dive beautifully.",
-        "Whales are the biggest animals in the sea. They are also the loudest.",
-        "Plastic is the worst danger for sea turtles.",
-        "Pollution is the worst problem for our oceans today.",
-        "Sam: Sharks are the best hunters in the deep sea.",
-        "Leyla: The Mediterranean has the worst plastic problem in our area.",
-        "Nora: My favourite is the dolphin — the best friend of sailors!",
-        "Sam: The seal is the best swimmer near the rocks.",
-        "Ms. Reed: Each animal has the best skill for its life in the sea!"
+        "Ms. Reed writes two words on the board: best and worst.",
+        "Ms. Reed: Every animal is good at one thing. Who starts?",
+        "Nora: Dolphins are the best swimmers in the ocean. They jump and splash all day.",
+        "Sam: Sharks are the best hunters. They find a fish from very far away.",
+        "Leyla: An octopus has no bones. It goes into a very small hole.",
+        "Nora: That's interesting! So the octopus is the best at hiding.",
+        "Ms. Reed: Now the other word. What is the worst danger for a sea turtle?",
+        "Sam: Plastic. A turtle eats a lot of plastic in the sea.",
+        "Leyla: What a shame! Our sea has a big plastic problem.",
+        "Ms. Reed: That's a good point. Every animal has the best skill for its own home."
       ],
       "translations": [
-        "Deniz hayvanları harika — ama bazıları farklı şekillerde özel.",
-        "Yunuslar okyanustaki en iyi yüzücülerdir. Güzelce zıplar ve dalarlar.",
-        "Balinalar denizdeki en büyük hayvanlardır. Aynı zamanda en gürültülüler.",
-        "Plastik deniz kaplumbağaları için en kötü tehlikedir.",
-        "Kirlilik bugün okyanuslarımız için en kötü sorundur.",
-        "Sam: Köpekbalıkları derin denizdeki en iyi avcılardır.",
-        "Leyla: Akdeniz, bölgemizdeki en kötü plastik sorununa sahip.",
-        "Nora: Favorim yunus — denizcilerin en iyi arkadaşı!",
-        "Sam: Fok kayalıkların yanındaki en iyi yüzücüdür.",
-        "Ms. Reed: Her hayvanın denizdeki yaşamı için en iyi becerisi vardır!"
+        "Ms. Reed tahtaya iki kelime yazıyor: best ve worst.",
+        "Ms. Reed: Her hayvan bir şeyde iyidir. Kim başlıyor?",
+        "Nora: Yunuslar okyanustaki en iyi yüzücülerdir. Bütün gün zıplar ve su sıçratırlar.",
+        "Sam: Köpekbalıkları en iyi avcılardır. Çok uzaktan bir balığı bulurlar.",
+        "Leyla: Bir ahtapotun kemiği yoktur. Çok küçük bir deliğe girer.",
+        "Nora: Bu ilginç! Yani ahtapot saklanmada en iyisidir.",
+        "Ms. Reed: Şimdi diğer kelime. Bir deniz kaplumbağası için en kötü tehlike nedir?",
+        "Sam: Plastik. Bir kaplumbağa denizde bir sürü plastik yer.",
+        "Leyla: Ne yazık! Denizimizin büyük bir plastik sorunu var.",
+        "Ms. Reed: Bu iyi bir nokta. Her hayvanın kendi yuvası için en iyi becerisi vardır."
       ],
       "questions": [
         {
-          "q": "Who are the best swimmers in the ocean?",
-          "qTr": "Okyanustaki en iyi yüzücüler kimdir?",
-          "correct": "Dolphins",
+          "q": "What is this text mainly about?",
+          "correct": "Best and worst in the sea",
           "wrong": [
-            "Crabs",
-            "Starfish"
+            "How to swim in the sea",
+            "Where to build a house"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Ms. Reed'in tahtaya yazdığı iki kelimenin metni nasıl ikiye böldüğünü düşün.",
           "hl": [
-            1
+            0,
+            1,
+            6
           ]
         },
         {
-          "q": "What are the biggest animals?",
-          "qTr": "En büyük hayvanlar nelerdir?",
-          "correct": "Whales",
+          "q": "Which animals are the best swimmers?",
+          "correct": "Dolphins",
           "wrong": [
             "Sharks",
-            "Dolphins"
+            "Octopuses"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nın ilk cümlesini bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What is the worst danger for sea turtles?",
-          "qTr": "Deniz kaplumbağaları için en kötü tehlike nedir?",
+          "q": "Why does an octopus go into a small hole?",
+          "correct": "It has no bones",
+          "wrong": [
+            "It is very small",
+            "It is very fast"
+          ],
+          "hint": "Leyla'nın ahtapot hakkındaki cümlesini bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What is the worst danger for a sea turtle?",
           "correct": "Plastic",
           "wrong": [
-            "Cold water",
-            "Sun"
+            "Sharks",
+            "Cold water"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Ms. Reed'in sorusuna Sam'in verdiği cevabı bul.",
           "hl": [
-            3
-          ]
-        },
-        {
-          "q": "Who are the best hunters?",
-          "qTr": "En iyi avcılar kimdir?",
-          "correct": "Sharks",
-          "wrong": [
-            "Whales",
-            "Crabs"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What is Nora's favourite animal?",
-          "qTr": "Nora'nın en sevdiği hayvan hangisidir?",
-          "correct": "The dolphin",
-          "wrong": [
-            "The whale",
-            "The shark"
-          ],
-          "hint": "Read sentence 8.",
-          "hl": [
+            6,
             7
+          ]
+        },
+        {
+          "q": "What does Ms. Reed say at the end?",
+          "correct": "Every animal has the best skill",
+          "wrong": [
+            "Every animal lives in the sea",
+            "Every animal eats small fish"
+          ],
+          "hint": "Ms. Reed'in son cümlesini bul.",
+          "hl": [
+            9
           ]
         }
       ]
     },
     {
       "id": "skim-9",
-      "title": "Houses by the Water",
+      "title": "Three Homes by the Water",
       "subtitle": "Read quickly and find the main idea!",
       "icon": "🏠",
       "hlMode": "always",
@@ -2074,12 +2066,12 @@
       "choices": 3,
       "cast": [
         {
-          "e": "👦",
-          "n": "Sam"
-        },
-        {
           "e": "👧",
           "n": "Nora"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
         },
         {
           "e": "👧🏽",
@@ -2087,91 +2079,88 @@
         }
       ],
       "sentences": [
-        "Some people live in special houses by the water!",
-        "A beach house is on or near the beach. The sound of waves is everywhere.",
-        "From a beach house, you can see the sea every morning.",
-        "A lake house is by a calm lake. It is quiet and peaceful.",
-        "From a lake house, you can see fish and ducks every day.",
-        "A houseboat is the most special — it is a house on the water!",
-        "People sleep, eat and play on their houseboat.",
-        "Sam: My uncle lives on a houseboat. It moves slowly with the water.",
-        "Leyla: My grandparents have a lake house. We visit them every summer.",
-        "Nora: A house by the water is a wonderful home!"
+        "Three friends talk about the homes in their families.",
+        "Sam: My uncle lives on a houseboat. I stayed there for two nights last summer.",
+        "Nora: How much noise is there on a houseboat?",
+        "Sam: Not much. Only the water. But there is no garden, and that is the worst part.",
+        "Leyla: My grandparents have a lake house. We visited them in July.",
+        "Leyla: There were a lot of small fish near the water. I counted forty in one hour!",
+        "Nora: My aunt has a beach house. Many people walk past her window every morning.",
+        "Sam: Guess what? A beach house has the best view of the sea.",
+        "Leyla: That's interesting. So a houseboat moves, a lake house is quiet, and a beach house is busy.",
+        "Nora: Don't worry, Sam. A garden is nice, but a home on the water is special."
       ],
       "translations": [
-        "Bazı insanlar suyun yanında özel evlerde yaşar!",
-        "Plaj evi plajda veya yakınındadır. Dalgaların sesi her yerdedir.",
-        "Plaj evinden her sabah denizi görebilirsin.",
-        "Göl evi sakin bir gölün yanındadır. Sessiz ve huzurludur.",
-        "Göl evinden her gün balık ve ördek görebilirsin.",
-        "Houseboat en özelidir — bu sudaki bir evdir!",
-        "İnsanlar houseboat'larında uyur, yer ve oyun oynar.",
-        "Sam: Amcam bir houseboat'ta yaşar. Suyla yavaşça hareket eder.",
-        "Leyla: Büyükannem ve dedemin bir göl evi var. Her yaz onları ziyaret ederiz.",
-        "Nora: Suyun yanındaki bir ev harika bir yuvadır!"
+        "Üç arkadaş ailelerindeki evler hakkında konuşuyor.",
+        "Sam: Amcam bir tekne evde yaşıyor. Geçen yaz orada iki gece kaldım.",
+        "Nora: Bir tekne evde ne kadar gürültü var?",
+        "Sam: Fazla değil. Sadece su. Ama bahçe yok ve en kötü kısmı bu.",
+        "Leyla: Büyükannemlerin bir göl evi var. Onları temmuzda ziyaret ettik.",
+        "Leyla: Suyun yanında bir sürü küçük balık vardı. Bir saatte kırk tane saydım!",
+        "Nora: Teyzemin bir plaj evi var. Her sabah birçok insan penceresinin önünden geçiyor.",
+        "Sam: Biliyor musunuz? Bir plaj evinin denize en iyi manzarası vardır.",
+        "Leyla: Bu ilginç. Yani tekne ev hareket eder, göl evi sessizdir ve plaj evi hareketlidir.",
+        "Nora: Merak etme, Sam. Bahçe güzeldir ama suyun üstündeki bir ev özeldir."
       ],
       "questions": [
         {
-          "q": "Where is a beach house?",
-          "qTr": "Plaj evi nerede olur?",
-          "correct": "On or near the beach",
+          "q": "What is this text mainly about?",
+          "correct": "Three homes by the water",
           "wrong": [
-            "In the mountains",
-            "In a city"
+            "Three holidays in July",
+            "Three animals in the lake"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Üç arkadaşın sırayla neyi anlattığını düşün.",
           "hl": [
-            1
+            0,
+            3,
+            8
           ]
         },
         {
-          "q": "How is a lake house?",
-          "qTr": "Göl evi nasıldır?",
-          "correct": "Quiet and peaceful",
+          "q": "What is the worst part of a houseboat?",
+          "correct": "There is no garden",
           "wrong": [
-            "Noisy and busy",
-            "Cold and dark"
+            "There is much noise",
+            "There is no water"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'in tekne evle ilgili şikâyetini bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What is a houseboat?",
-          "qTr": "Tekne ev nedir?",
-          "correct": "A house on the water",
+          "q": "How many fish did Leyla count?",
+          "correct": "Forty fish",
           "wrong": [
-            "A house in the air",
-            "A house in the desert"
+            "Fourteen fish",
+            "Four fish"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'nın göl evinde saydığı sayıyı bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Who lives on a houseboat?",
-          "qTr": "Tekne evde kim yaşar?",
-          "correct": "Sam's uncle",
+          "q": "Which home has the best view of the sea?",
+          "correct": "The beach house",
           "wrong": [
-            "Nora's mum",
-            "Leyla's aunt"
+            "The lake house",
+            "The houseboat"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam'in \"Guess what?\" dedikten sonraki cümlesini bul.",
           "hl": [
             7
           ]
         },
         {
-          "q": "Who has a lake house?",
-          "qTr": "Kimin göl evi var?",
-          "correct": "Leyla's grandparents",
+          "q": "How does Leyla describe a lake house?",
+          "correct": "It is quiet",
           "wrong": [
-            "Nora's family",
-            "Sam's friends"
+            "It is busy",
+            "It moves"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Leyla'nın üç evi birden özetlediği cümleyi bul.",
           "hl": [
             8
           ]
@@ -2202,92 +2191,89 @@
       ],
       "sentences": [
         "Three friends meet at the beach on a sunny Saturday.",
-        "Nora: Guess what? I saw a sea turtle at the beach last week!",
+        "Nora: Guess what? I saw a sea turtle near the rocks last week!",
         "Sam: That's interesting! Where did you see it?",
-        "Nora: Near the rocks. But it was tired because of the plastic.",
-        "Leyla: What a shame! We must clean our beach.",
+        "Nora: Behind the big rock. But it was tired because of the plastic.",
+        "Leyla: What a shame! We should clean our beach.",
         "Sam: That's a good point. Let's start a beach-cleaning club!",
         "Nora: Excellent idea! When should we start?",
         "Leyla: This Sunday. Don't worry, I will tell our other friends.",
-        "Sam: Guess what? My grandpa will help us. He loves the sea.",
-        "Nora: That's interesting! We will make a big difference together."
+        "Sam: My grandpa will help us. He walks on this beach every morning.",
+        "Nora: Then we should meet here at nine o'clock. We make a big difference together."
       ],
       "translations": [
-        "Üç arkadaş güneşli bir Cumartesi günü sahilde buluşur.",
-        "Nora: Bil bakalım ne oldu? Geçen hafta plajda bir deniz kaplumbağası gördüm!",
-        "Sam: Bu ilginç! Nerede gördün?",
-        "Nora: Kayaların yanında. Ama plastik yüzünden yorgundu.",
-        "Leyla: Ne yazık! Plajımızı temizlemeliyiz.",
-        "Sam: Güzel bir nokta. Bir plaj temizleme kulübü başlatalım!",
+        "Üç arkadaş güneşli bir cumartesi sahilde buluşuyor.",
+        "Nora: Biliyor musunuz? Geçen hafta kayaların yanında bir deniz kaplumbağası gördüm!",
+        "Sam: Bu ilginç! Onu nerede gördün?",
+        "Nora: Büyük kayanın arkasında. Ama plastik yüzünden yorgundu.",
+        "Leyla: Ne yazık! Sahilimizi temizlemeliyiz.",
+        "Sam: Bu iyi bir nokta. Hadi bir sahil temizleme kulübü kuralım!",
         "Nora: Harika fikir! Ne zaman başlamalıyız?",
-        "Leyla: Bu Pazar. Endişelenme, diğer arkadaşlarımıza söyleyeceğim.",
-        "Sam: Bil bakalım! Dedem bize yardım edecek. Denizi çok sever.",
-        "Nora: Bu ilginç! Birlikte büyük bir fark yaratacağız."
+        "Leyla: Bu pazar. Merak etme, diğer arkadaşlarımıza söyleyeceğim.",
+        "Sam: Dedem bize yardım edecek. Bu sahilde her sabah yürür.",
+        "Nora: O zaman burada saat dokuzda buluşmalıyız. Birlikte büyük bir fark yaratıyoruz."
       ],
       "questions": [
         {
-          "q": "What did Nora see?",
-          "qTr": "Nora ne gördü?",
+          "q": "What is this text mainly about?",
+          "correct": "Starting a beach-cleaning club",
+          "wrong": [
+            "Swimming with a turtle",
+            "Building a beach house"
+          ],
+          "hint": "Sohbetin nereden başlayıp neye dönüştüğünü düşün.",
+          "hl": [
+            1,
+            5,
+            9
+          ]
+        },
+        {
+          "q": "What did Nora see near the rocks?",
           "correct": "A sea turtle",
           "wrong": [
             "A whale",
             "A shark"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın geçen hafta gördüğünü bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What does Sam say to Nora?",
-          "qTr": "Sam, Nora'ya ne der?",
-          "correct": "That's interesting!",
+          "q": "Why was the sea turtle tired?",
+          "correct": "Because of the plastic",
           "wrong": [
-            "Goodbye!",
-            "Sorry!"
+            "Because of the sun",
+            "Because of the waves"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'nın kaplumbağayı anlattığı cümleyi bul.",
           "hl": [
-            2
+            3
           ]
         },
         {
-          "q": "How does Leyla feel about it?",
-          "qTr": "Leyla bu konuda nasıl hisseder?",
-          "correct": "What a shame!",
+          "q": "When does the club start?",
+          "correct": "This Sunday",
           "wrong": [
-            "Happy",
-            "Confused"
+            "This Saturday",
+            "Next Monday"
           ],
-          "hint": "Read sentence 5.",
-          "hl": [
-            4
-          ]
-        },
-        {
-          "q": "What does Sam suggest?",
-          "qTr": "Sam ne önerir?",
-          "correct": "A beach-cleaning club",
-          "wrong": [
-            "A football team",
-            "A music club"
-          ],
-          "hint": "Read sentence 6.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "What does Leyla say at the end?",
-          "qTr": "Leyla sonunda ne der?",
-          "correct": "Don't worry",
-          "wrong": [
-            "Goodbye",
-            "Hello"
-          ],
-          "hint": "Read sentence 8.",
+          "hint": "Leyla'nın verdiği günü bul.",
           "hl": [
             7
+          ]
+        },
+        {
+          "q": "What time do they meet?",
+          "correct": "At nine o'clock",
+          "wrong": [
+            "At ten o'clock",
+            "At eight o'clock"
+          ],
+          "hint": "Nora'nın son cümlesindeki saati bul.",
+          "hl": [
+            9
           ]
         }
       ]
