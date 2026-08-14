@@ -54,12 +54,25 @@
       ],
       "questions": [
         {
+          "q": "What is Nora's mummy's job?",
+          "qTr": "Nora'nın annesinin işi nedir?",
+          "correct": "A teacher",
+          "wrong": [
+            "A nurse",
+            "A cook"
+          ],
+          "hint": "Nora'nın annesini bul.",
+          "hl": [
+            1
+          ]
+        },
+        {
           "q": "What did Nora's daddy do yesterday?",
           "qTr": "Nora'nın babası dün ne yaptı?",
-          "correct": "He checked forty patients",
+          "correct": "He checked patients",
           "wrong": [
-            "He drove the families",
-            "He cooked our lunch"
+            "He cooked lunch",
+            "He drove families"
           ],
           "hint": "Dünü bul.",
           "hl": [
@@ -82,10 +95,10 @@
         {
           "q": "Where does Sam's mummy work?",
           "qTr": "Sam'in annesi nerede çalışır?",
-          "correct": "At the city hospital",
+          "correct": "At the hospital",
           "wrong": [
-            "At the school library",
-            "At the city bakery"
+            "At the library",
+            "At the bakery"
           ],
           "hint": "Sam'in annesini bul.",
           "hl": [
@@ -93,29 +106,16 @@
           ]
         },
         {
-          "q": "What is Nora's grandma's job?",
-          "qTr": "Nora'nın büyükannesinin işi nedir?",
-          "correct": "She is a cook",
+          "q": "What does Nora's grandma do?",
+          "qTr": "Nora'nın büyükannesi ne iş yapar?",
+          "correct": "She cooks lunch",
           "wrong": [
-            "She is a nurse",
-            "She is a teacher"
+            "She drives families",
+            "She checks patients"
           ],
           "hint": "Öğle yemeğini bul.",
           "hl": [
             8
-          ]
-        },
-        {
-          "q": "Who drove the families to school?",
-          "qTr": "Aileleri okula kim getirdi?",
-          "correct": "Sam's daddy",
-          "wrong": [
-            "Leyla's grandpa",
-            "Nora's mummy"
-          ],
-          "hint": "Aileleri bul.",
-          "hl": [
-            7
           ]
         }
       ]
@@ -173,7 +173,7 @@
           "correct": "The chemist's",
           "wrong": [
             "The bakery",
-            "The station"
+            "The theatre"
           ],
           "hint": "Hastaneyi bul.",
           "hl": [
@@ -181,38 +181,38 @@
           ]
         },
         {
-          "q": "Which two shops does Leyla's mummy need?",
-          "qTr": "Leyla'nın annesine hangi iki dükkân lazım?",
-          "correct": "The greengrocer's and the butcher's",
+          "q": "Where do they sell bread from six?",
+          "qTr": "Altıdan itibaren nerede ekmek satarlar?",
+          "correct": "At the bakery",
           "wrong": [
-            "The bakery and the café",
-            "The museum and the theatre"
+            "At the market",
+            "At the butcher's"
           ],
-          "hint": "Leyla'nın annesini bul.",
+          "hint": "Ekmeği bul.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "Where is the library?",
-          "qTr": "Kütüphane nerede?",
-          "correct": "Between the museum and the cinema",
+          "q": "What is opposite the bakery?",
+          "qTr": "Fırının karşısında ne var?",
+          "correct": "The barber's",
           "wrong": [
-            "Next to the hospital and park",
-            "Across from the theatre and café"
+            "The theatre",
+            "The library"
           ],
-          "hint": "Kütüphaneyi bul.",
+          "hint": "Fırını bul.",
           "hl": [
-            8
+            5
           ]
         },
         {
-          "q": "What does Nora love doing on Saturdays?",
+          "q": "What does Nora like doing on Saturdays?",
           "qTr": "Nora Cumartesileri ne yapmayı sever?",
-          "correct": "Walking down the main street",
+          "correct": "Walking down the street",
           "wrong": [
-            "Meeting friends at the market",
-            "Reading books at the library"
+            "Reading books before bed",
+            "Baking bread every morning"
           ],
           "hint": "Cumartesileri bul.",
           "hl": [
@@ -224,7 +224,7 @@
           "qTr": "Leyla sonunda nereye gidiyor?",
           "correct": "To the post office",
           "wrong": [
-            "To the city station",
+            "To the city museum",
             "To the old bakery"
           ],
           "hint": "Leyla'nın son sözünü bul.",
@@ -282,14 +282,14 @@
       ],
       "questions": [
         {
-          "q": "Where did Nora's grandpa sit on Sunday morning?",
-          "qTr": "Nora'nın dedesi Pazar sabahı nereye oturdu?",
-          "correct": "By the window",
+          "q": "What does Nora's grandpa like doing on Sundays?",
+          "qTr": "Nora'nın dedesi Pazar günleri ne yapmayı sever?",
+          "correct": "Gardening",
           "wrong": [
-            "In the garden",
-            "At the café"
+            "Cooking",
+            "Cycling"
           ],
-          "hint": "Pazar sabahını bul.",
+          "hint": "Dedeyi bul.",
           "hl": [
             1
           ]
@@ -297,23 +297,23 @@
         {
           "q": "When did Nora's mummy read her book?",
           "qTr": "Nora'nın annesi kitabını ne zaman okudu?",
-          "correct": "At ten in the morning",
+          "correct": "At ten",
           "wrong": [
-            "At four in the evening",
-            "At eight before her bed"
+            "At four",
+            "At eight"
           ],
-          "hint": "Nora'nın annesini bul.",
+          "hint": "Kitabı bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Sam's mummy love doing?",
+          "q": "What does Sam's mummy like doing?",
           "qTr": "Sam'in annesi ne yapmayı sever?",
-          "correct": "Meeting friends at the café",
+          "correct": "Meeting friends",
           "wrong": [
-            "Watching films at the cinema",
-            "Riding her bike on Saturdays"
+            "Watching films",
+            "Riding bikes"
           ],
           "hint": "Sam'in annesini bul.",
           "hl": [
@@ -321,12 +321,12 @@
           ]
         },
         {
-          "q": "What does Leyla's mummy love doing while she works?",
-          "qTr": "Leyla'nın annesi çalışırken ne yapmayı sever?",
+          "q": "What does Leyla's mummy like doing?",
+          "qTr": "Leyla'nın annesi ne yapmayı sever?",
           "correct": "Listening to music",
           "wrong": [
-            "Reading her book",
-            "Making some popcorn"
+            "Watching old films",
+            "Reading before bed"
           ],
           "hint": "Radyoyu bul.",
           "hl": [
@@ -334,16 +334,16 @@
           ]
         },
         {
-          "q": "What happened at four o'clock?",
-          "qTr": "Saat dörtte ne oldu?",
-          "correct": "The rain stopped",
+          "q": "What did Nora's grandma make?",
+          "qTr": "Nora'nın büyükannesi ne yaptı?",
+          "correct": "Popcorn",
           "wrong": [
-            "The film started",
-            "The friends came"
+            "Bread",
+            "Soup"
           ],
-          "hint": "Saat dördü bul.",
+          "hint": "Saat onu bul.",
           "hl": [
-            9
+            7
           ]
         }
       ]
@@ -398,10 +398,10 @@
         {
           "q": "What is Leyla's cousin's job?",
           "qTr": "Leyla'nın kuzeninin işi nedir?",
-          "correct": "She is a singer",
+          "correct": "A singer",
           "wrong": [
-            "She is a dentist",
-            "She is a teacher"
+            "A dentist",
+            "A teacher"
           ],
           "hint": "Gümüş ceketi bul.",
           "hl": [
@@ -409,12 +409,12 @@
           ]
         },
         {
-          "q": "Who checked Nora's teeth?",
-          "qTr": "Nora'nın dişlerini kim kontrol etti?",
-          "correct": "Her aunt",
+          "q": "What does Nora's aunt like doing?",
+          "qTr": "Nora'nın halası ne yapmayı sever?",
+          "correct": "Helping people",
           "wrong": [
-            "Her grandma",
-            "The nurse"
+            "Singing songs",
+            "Teaching children"
           ],
           "hint": "Çadırı bul.",
           "hl": [
@@ -422,42 +422,43 @@
           ]
         },
         {
-          "q": "What did Sam's uncle do at the corner?",
-          "qTr": "Sam'in amcası köşede ne yaptı?",
-          "correct": "He helped an old man",
+          "q": "What did Nora's aunt check?",
+          "qTr": "Nora'nın halası neyi kontrol etti?",
+          "correct": "Nora's teeth",
           "wrong": [
-            "He sang an old song",
-            "He gave free check-ups"
+            "Nora's jacket",
+            "Nora's chair"
+          ],
+          "hint": "Halayı bul.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "What does Sam's uncle do?",
+          "qTr": "Sam'in amcası ne iş yapar?",
+          "correct": "He helps people",
+          "wrong": [
+            "He teaches songs",
+            "He checks teeth"
           ],
           "hint": "Mavi üniformayı bul.",
           "hl": [
+            5,
             6
           ]
         },
         {
           "q": "What did the imam teach the children?",
           "qTr": "İmam çocuklara ne öğretti?",
-          "correct": "An old city song",
+          "correct": "An old song",
           "wrong": [
-            "A new dance step",
-            "A short street rule"
+            "A new game",
+            "A short rule"
           ],
-          "hint": "Öğlen vaktini bul.",
+          "hint": "İmamı bul.",
           "hl": [
             8
-          ]
-        },
-        {
-          "q": "Who carried the chairs home?",
-          "qTr": "Sandalyeleri eve kim taşıdı?",
-          "correct": "Nora's grandma",
-          "wrong": [
-            "Nora's aunt",
-            "Sam's uncle"
-          ],
-          "hint": "Yağmuru bul.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -512,10 +513,10 @@
         {
           "q": "Where did Sam have his birthday lunch?",
           "qTr": "Sam doğum günü yemeğini nerede yedi?",
-          "correct": "At the hotel restaurant",
+          "correct": "At the restaurant",
           "wrong": [
-            "At the city bakery",
-            "At the school café"
+            "At the greengrocer's",
+            "At the bakery"
           ],
           "hint": "Cumartesiyi bul.",
           "hl": [
@@ -525,10 +526,10 @@
         {
           "q": "What is Leyla's uncle's job?",
           "qTr": "Leyla'nın amcasının işi nedir?",
-          "correct": "He is a waiter",
+          "correct": "A waiter",
           "wrong": [
-            "He is a chef",
-            "He is a driver"
+            "A driver",
+            "A cleaner"
           ],
           "hint": "Leyla'nın amcasını bul.",
           "hl": [
@@ -541,7 +542,7 @@
           "correct": "A waitress",
           "wrong": [
             "A secretary",
-            "A cleaner"
+            "A scientist"
           ],
           "hint": "Kâğıt tacı bul.",
           "hl": [
@@ -549,27 +550,27 @@
           ]
         },
         {
-          "q": "What does Nora's aunt love doing?",
+          "q": "What does Nora's aunt like doing?",
           "qTr": "Nora'nın halası ne yapmayı sever?",
-          "correct": "Cooking for big parties",
+          "correct": "Cooking for parties",
           "wrong": [
-            "Writing emails all day",
-            "Buying things in shops"
+            "Writing long emails",
+            "Selling small presents"
           ],
-          "hint": "Nora'nın halasını bul.",
+          "hint": "Oteldeki aşçıyı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Where does Nora's cousin work?",
-          "qTr": "Nora'nın kuzeni nerede çalışır?",
-          "correct": "In the office above the shop",
+          "q": "What is Nora's cousin's job?",
+          "qTr": "Nora'nın kuzeninin işi nedir?",
+          "correct": "A secretary",
           "wrong": [
-            "In the kitchen at the hotel",
-            "At the market in the city"
+            "A waitress",
+            "A cook"
           ],
-          "hint": "Nora'nın kuzenini bul.",
+          "hint": "Ofisi bul.",
           "hl": [
             7
           ]
@@ -624,25 +625,38 @@
       ],
       "questions": [
         {
-          "q": "What did Nora's neighbour do yesterday?",
-          "qTr": "Nora'nın komşusu dün ne yaptı?",
-          "correct": "She painted our school wall",
+          "q": "What is Nora's neighbour's job?",
+          "qTr": "Nora'nın komşusunun işi nedir?",
+          "correct": "An artist",
           "wrong": [
-            "She cleaned the hospital rooms",
-            "She built a big new machine"
+            "A worker",
+            "A cleaner"
           ],
-          "hint": "Dünü bul.",
+          "hint": "Komşuyu bul.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What was Sam's grandpa's job?",
-          "qTr": "Sam'in dedesinin işi neydi?",
-          "correct": "He was a worker",
+          "q": "What did the artist draw first?",
+          "qTr": "Ressam önce ne çizdi?",
+          "correct": "The lines",
           "wrong": [
-            "He was an artist",
-            "He was a cleaner"
+            "The wall",
+            "The photo"
+          ],
+          "hint": "Ressamı bul.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Sam's grandpa build?",
+          "qTr": "Sam'in dedesi ne yaptı?",
+          "correct": "Machines",
+          "wrong": [
+            "Walls",
+            "Brushes"
           ],
           "hint": "Fabrikayı bul.",
           "hl": [
@@ -650,16 +664,16 @@
           ]
         },
         {
-          "q": "What did Leyla's aunt find?",
-          "qTr": "Leyla'nın halası ne buldu?",
-          "correct": "Leyla's lost hat",
+          "q": "What does Leyla's aunt do?",
+          "qTr": "Leyla'nın halası ne iş yapar?",
+          "correct": "She cleans rooms",
           "wrong": [
-            "Nora's green brush",
-            "Sam's old photo"
+            "She builds machines",
+            "She paints walls"
           ],
-          "hint": "Geçen haftayı bul.",
+          "hint": "Leyla'nın halasını bul.",
           "hl": [
-            5
+            4
           ]
         },
         {
@@ -673,19 +687,6 @@
           "hint": "Yeşil elleri bul.",
           "hl": [
             6
-          ]
-        },
-        {
-          "q": "What did Sam's grandpa say about the wall?",
-          "qTr": "Sam'in dedesi duvar hakkında ne söyledi?",
-          "correct": "It was the brightest thing",
-          "wrong": [
-            "It was the biggest machine",
-            "It was the cleanest corridor"
-          ],
-          "hint": "Dedenin sözlerini bul.",
-          "hl": [
-            8
           ]
         }
       ]
@@ -738,12 +739,25 @@
       ],
       "questions": [
         {
+          "q": "What is Nora's mummy doing now?",
+          "qTr": "Nora'nın annesi şimdi ne yapıyor?",
+          "correct": "Doing the shopping",
+          "wrong": [
+            "Setting the table",
+            "Cleaning the windows"
+          ],
+          "hint": "Marketi bul.",
+          "hl": [
+            1
+          ]
+        },
+        {
           "q": "What did Nora's daddy do at seven?",
           "qTr": "Nora'nın babası yedide ne yaptı?",
           "correct": "He took the rubbish out",
           "wrong": [
-            "He bought bread at market",
-            "He set the kitchen table"
+            "He bought some bread out",
+            "He set the family table"
           ],
           "hint": "Sabah yediyi bul.",
           "hl": [
@@ -768,8 +782,8 @@
           "qTr": "Leyla alışverişi nereden yaptı?",
           "correct": "At the greengrocer's",
           "wrong": [
-            "At the market",
-            "At the bakery"
+            "At the bakery",
+            "At the hairdresser's"
           ],
           "hint": "Leyla'yı bul.",
           "hl": [
@@ -777,27 +791,14 @@
           ]
         },
         {
-          "q": "What is Sam doing?",
-          "qTr": "Sam ne yapıyor?",
-          "correct": "Taking the dog for a walk",
+          "q": "What is Leyla's grandpa doing?",
+          "qTr": "Leyla'nın dedesi ne yapıyor?",
+          "correct": "Cleaning the windows",
           "wrong": [
-            "Picking the children up from school",
-            "Doing the shopping at the market"
+            "Setting the table",
+            "Doing the shopping"
           ],
-          "hint": "Sam'i bul.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "What does Leyla's grandpa do every Friday?",
-          "qTr": "Leyla'nın dedesi her Cuma ne yapar?",
-          "correct": "He cleans the windows",
-          "wrong": [
-            "He buys the groceries",
-            "He sets the table"
-          ],
-          "hint": "Her Cumayı bul.",
+          "hint": "Leyla'nın dedesini bul.",
           "hl": [
             8
           ]
@@ -852,46 +853,46 @@
       ],
       "questions": [
         {
-          "q": "What does Nora's grandpa love doing on Sundays?",
+          "q": "What does Nora's grandpa like doing on Sundays?",
           "qTr": "Nora'nın dedesi Pazar günleri ne yapmayı sever?",
           "correct": "Gardening",
           "wrong": [
-            "Cycling",
-            "Cooking"
+            "Dancing",
+            "Cycling"
           ],
-          "hint": "Dedeyi bul.",
+          "hint": "Bahçeyi bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "How did Leyla come to Nora's house?",
-          "qTr": "Leyla Nora'nın evine nasıl geldi?",
-          "correct": "She rode her bike",
+          "q": "What does Nora's daddy like doing on Sundays?",
+          "qTr": "Nora'nın babası Pazar günleri ne yapmayı sever?",
+          "correct": "Watching films",
           "wrong": [
-            "She took the bus",
-            "She went by car"
+            "Reading books",
+            "Riding bikes"
           ],
-          "hint": "Leyla'yı bul.",
+          "hint": "Saat ikiyi bul.",
           "hl": [
-            3
+            2
           ]
         },
         {
-          "q": "What happened at three o'clock?",
-          "qTr": "Saat üçte ne oldu?",
-          "correct": "The film stopped",
+          "q": "How often does Sam visit the library?",
+          "qTr": "Sam kütüphaneye ne sıklıkla gider?",
+          "correct": "Every Saturday",
           "wrong": [
-            "The music started",
-            "The radio broke"
+            "Every morning",
+            "Every evening"
           ],
-          "hint": "Saat üçü bul.",
+          "hint": "Kütüphaneyi bul.",
           "hl": [
-            5
+            4
           ]
         },
         {
-          "q": "What does Nora's mummy love doing?",
+          "q": "What does Nora's mummy like doing?",
           "qTr": "Nora'nın annesi ne yapmayı sever?",
           "correct": "Listening to music",
           "wrong": [
@@ -904,14 +905,14 @@
           ]
         },
         {
-          "q": "When does Nora's grandma read?",
-          "qTr": "Nora'nın büyükannesi ne zaman okur?",
-          "correct": "Before bed every night",
+          "q": "How often does Nora's grandma drink milk?",
+          "qTr": "Nora'nın büyükannesi ne sıklıkla süt içer?",
+          "correct": "Every morning",
           "wrong": [
-            "After lunch every day",
-            "At school every morning"
+            "Every Saturday",
+            "Every afternoon"
           ],
-          "hint": "Saat sekizi bul.",
+          "hint": "Sütü bul.",
           "hl": [
             8
           ]
@@ -968,10 +969,10 @@
         {
           "q": "What was Nora's grandma's job?",
           "qTr": "Nora'nın büyükannesinin işi neydi?",
-          "correct": "She was a teacher",
+          "correct": "A teacher",
           "wrong": [
-            "She was a nurse",
-            "She was a driver"
+            "A driver",
+            "A nurse"
           ],
           "hint": "Otuz yılı bul.",
           "hl": [
@@ -981,10 +982,10 @@
         {
           "q": "What did Nora's grandpa drive?",
           "qTr": "Nora'nın dedesi ne sürdü?",
-          "correct": "A city bus",
+          "correct": "A bus",
           "wrong": [
-            "A big lorry",
-            "A school car"
+            "A car",
+            "A bike"
           ],
           "hint": "Nora'nın dedesini bul.",
           "hl": [
@@ -992,25 +993,25 @@
           ]
         },
         {
-          "q": "What did Sam's uncle send last summer?",
-          "qTr": "Sam'in amcası geçen yaz ne gönderdi?",
-          "correct": "A box of tomatoes",
+          "q": "What does Sam's uncle like doing?",
+          "qTr": "Sam'in amcası ne yapmayı sever?",
+          "correct": "Growing food",
           "wrong": [
-            "A green story notebook",
-            "A photo of grandma"
+            "Testing water",
+            "Writing stories"
           ],
-          "hint": "Geçen yazı bul.",
+          "hint": "Köyü bul.",
           "hl": [
-            4
+            3
           ]
         },
         {
           "q": "What is Leyla's cousin's job?",
           "qTr": "Leyla'nın kuzeninin işi nedir?",
-          "correct": "She is a scientist",
+          "correct": "A scientist",
           "wrong": [
-            "She is a farmer",
-            "She is a writer"
+            "A farmer",
+            "A writer"
           ],
           "hint": "Laboratuvarı bul.",
           "hl": [
@@ -1082,10 +1083,10 @@
         {
           "q": "What did Nora read last night?",
           "qTr": "Nora dün gece ne okudu?",
-          "correct": "A book about animals",
+          "correct": "A new book",
           "wrong": [
-            "A letter from America",
-            "A story about machines"
+            "A long letter",
+            "An old photo"
           ],
           "hint": "Nora'yı bul.",
           "hl": [
@@ -1098,7 +1099,7 @@
           "correct": "From the bakery",
           "wrong": [
             "From the library",
-            "From the café"
+            "From the hospital"
           ],
           "hint": "Pastayı bul.",
           "hl": [
@@ -1108,23 +1109,23 @@
         {
           "q": "What did Leyla write on her letter?",
           "qTr": "Leyla mektubunun üstüne ne yazdı?",
-          "correct": "The word mommy",
+          "correct": "Mommy",
           "wrong": [
-            "The word grandma",
-            "The word bakery"
+            "Grandma",
+            "Mummy"
           ],
-          "hint": "Amerika'yı bul.",
+          "hint": "Mektubu bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Why did Sam's mummy go to the hospital?",
-          "qTr": "Sam'in annesi neden hastaneye gitti?",
-          "correct": "She is a nurse",
+          "q": "What is Sam's mummy's job?",
+          "qTr": "Sam'in annesinin işi nedir?",
+          "correct": "A nurse",
           "wrong": [
-            "She is a driver",
-            "She is a cleaner"
+            "A cook",
+            "A writer"
           ],
           "hint": "Saat dokuzu bul.",
           "hl": [
@@ -1132,16 +1133,16 @@
           ]
         },
         {
-          "q": "Which two places were still open?",
-          "qTr": "Hangi iki yer hâlâ açıktı?",
-          "correct": "The cinema and the café",
+          "q": "What did Sam's grandpa do at the table?",
+          "qTr": "Sam'in dedesi masada ne yaptı?",
+          "correct": "He told stories",
           "wrong": [
-            "The bakery and the library",
-            "The market and the station"
+            "He sang songs",
+            "He wrote letters"
           ],
-          "hint": "Eve dönüş yolunu bul.",
+          "hint": "Masayı bul.",
           "hl": [
-            8
+            3
           ]
         }
       ]
@@ -1194,23 +1195,36 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "What Nora's family did yesterday",
+          "correct": "A busy family day",
           "wrong": [
-            "What Nora's family does every day",
-            "What jobs Nora's family have"
+            "A long family holiday",
+            "A quiet family Sunday"
           ],
-          "hint": "İlk cümleyi düşün.",
+          "hint": "Aileyi düşün.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What did Nora's grandma make at lunchtime?",
-          "qTr": "Nora'nın büyükannesi öğle vakti ne yaptı?",
-          "correct": "A big pot of soup",
+          "q": "What did Nora's daddy do in the morning?",
+          "qTr": "Nora'nın babası sabah ne yaptı?",
+          "correct": "He saw patients",
           "wrong": [
-            "A plate of fresh bread",
-            "A box of green fruit"
+            "He made soup",
+            "He got fruit"
+          ],
+          "hint": "Sabahı bul.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What did Nora's grandma make?",
+          "qTr": "Nora'nın büyükannesi ne yaptı?",
+          "correct": "Soup",
+          "wrong": [
+            "Bread",
+            "Eggs"
           ],
           "hint": "Öğle vaktini bul.",
           "hl": [
@@ -1223,7 +1237,7 @@
           "correct": "To the market",
           "wrong": [
             "To the bakery",
-            "To the hospital"
+            "To the school"
           ],
           "hint": "Bisikleti bul.",
           "hl": [
@@ -1231,27 +1245,14 @@
           ]
         },
         {
-          "q": "Why was the soup cold?",
-          "qTr": "Çorba neden soğuktu?",
-          "correct": "Nobody turned the cooker on",
-          "wrong": [
-            "Grandma made it too early",
-            "The family came home late"
-          ],
-          "hint": "Akşamı bul.",
-          "hl": [
-            7
-          ]
-        },
-        {
           "q": "What did the family eat at eight?",
           "qTr": "Aile sekizde ne yedi?",
           "correct": "Eggs and bread",
           "wrong": [
-            "Soup and vegetables",
-            "Fruit and cake"
+            "Soup and fruit",
+            "Milk and cake"
           ],
-          "hint": "Son cümleyi bul.",
+          "hint": "Saat sekizi bul.",
           "hl": [
             9
           ]
@@ -1312,27 +1313,40 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Family records on the class board",
+          "correct": "Family records",
           "wrong": [
-            "Family jobs in the neighbourhood",
-            "Family habits at the weekend"
+            "Family errands",
+            "Family holidays"
           ],
-          "hint": "Panonun adını düşün.",
+          "hint": "Panoyu düşün.",
           "hl": [
             0
           ]
         },
         {
-          "q": "Who is the kindest in Nora's family?",
-          "qTr": "Nora'nın ailesinde en nazik kim?",
+          "q": "Who is the kindest person in Nora's family?",
+          "qTr": "Nora'nın ailesindeki en nazik kişi kim?",
           "correct": "Her grandma",
           "wrong": [
-            "Her daddy",
-            "Her mummy"
+            "Her mummy",
+            "Her daddy"
           ],
-          "hint": "Nora'nın ilk sözlerini bul.",
+          "hint": "Komşuları bul.",
           "hl": [
             1
+          ]
+        },
+        {
+          "q": "What does Nora's grandma like doing?",
+          "qTr": "Nora'nın büyükannesi ne yapmayı sever?",
+          "correct": "Baking",
+          "wrong": [
+            "Gardening",
+            "Reading"
+          ],
+          "hint": "Hastane kafesini bul.",
+          "hl": [
+            2
           ]
         },
         {
@@ -1341,9 +1355,9 @@
           "correct": "The longest carrot",
           "wrong": [
             "The biggest pumpkin",
-            "The oldest tree"
+            "The oldest tomato"
           ],
-          "hint": "Leyla'yı bul.",
+          "hint": "Geçen yazı bul.",
           "hl": [
             4
           ]
@@ -1359,20 +1373,6 @@
           "hint": "Hastaneyi bul.",
           "hl": [
             5
-          ]
-        },
-        {
-          "q": "What happened at the end?",
-          "qTr": "Sonunda ne oldu?",
-          "correct": "Sam's daddy won the record",
-          "wrong": [
-            "Nora's daddy took the board",
-            "Leyla's grandpa drew a carrot"
-          ],
-          "hint": "Son iki cümleyi bul.",
-          "hl": [
-            8,
-            9
           ]
         }
       ]
@@ -1431,12 +1431,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "What friends' families love doing",
+          "correct": "Weekend family habits",
           "wrong": [
-            "What families did last summer",
-            "What jobs the families have"
+            "Weekend family errands",
+            "Weekend family records"
           ],
-          "hint": "Ms. Reed'in sorusunu düşün.",
+          "hint": "Hafta sonunu düşün.",
           "hl": [
             0
           ]
@@ -1447,7 +1447,7 @@
           "correct": "To Nora's house",
           "wrong": [
             "To Leyla's house",
-            "To the library"
+            "To Sam's house"
           ],
           "hint": "Sam'i bul.",
           "hl": [
@@ -1455,12 +1455,12 @@
           ]
         },
         {
-          "q": "What does Leyla's family love doing every Saturday?",
-          "qTr": "Leyla'nın ailesi her Cumartesi ne yapmayı sever?",
+          "q": "What does Leyla's family like doing on Saturdays?",
+          "qTr": "Leyla'nın ailesi Cumartesileri ne yapmayı sever?",
           "correct": "Going to the library",
           "wrong": [
             "Walking in the park",
-            "Meeting friends at the café"
+            "Meeting at the café"
           ],
           "hint": "Cumartesiyi bul.",
           "hl": [
@@ -1468,12 +1468,12 @@
           ]
         },
         {
-          "q": "What did Nora and Leyla's grandpa do before lunch?",
-          "qTr": "Nora ile Leyla'nın dedesi öğle yemeğinden önce ne yaptı?",
-          "correct": "They planted some seeds",
+          "q": "What did Nora do before lunch?",
+          "qTr": "Nora öğle yemeğinden önce ne yaptı?",
+          "correct": "She planted seeds",
           "wrong": [
-            "They read some books",
-            "They walked the dog"
+            "She read books",
+            "She walked dogs"
           ],
           "hint": "Öğle yemeğini bul.",
           "hl": [
@@ -1481,12 +1481,12 @@
           ]
         },
         {
-          "q": "What does Nora's grandma love doing while she cooks?",
-          "qTr": "Nora'nın büyükannesi yemek yaparken ne yapmayı sever?",
+          "q": "What does Nora's grandma like doing?",
+          "qTr": "Nora'nın büyükannesi ne yapmayı sever?",
           "correct": "Listening to music",
           "wrong": [
-            "Telling old stories",
-            "Reading her book"
+            "Riding a bike",
+            "Reading a book"
           ],
           "hint": "Radyoyu bul.",
           "hl": [
@@ -1547,14 +1547,14 @@
       ],
       "questions": [
         {
-          "q": "What is the class doing?",
-          "qTr": "Sınıf ne yapıyor?",
-          "correct": "Drawing a neighbourhood map",
+          "q": "What is the text mainly about?",
+          "qTr": "Metin esas olarak ne hakkında?",
+          "correct": "A neighbourhood map",
           "wrong": [
-            "Visiting the city museum",
-            "Writing about their families"
+            "A neighbourhood party",
+            "A neighbourhood shop"
           ],
-          "hint": "Ms. Reed'in ilk cümlesini düşün.",
+          "hint": "Mahalleyi düşün.",
           "hl": [
             0
           ]
@@ -1565,7 +1565,7 @@
           "correct": "Nora's daddy",
           "wrong": [
             "Sam's uncle",
-            "Nora's dentist"
+            "Leyla's aunt"
           ],
           "hint": "Hastaneyi bul.",
           "hl": [
@@ -1573,12 +1573,12 @@
           ]
         },
         {
-          "q": "What is Sam's aunt doing right now?",
-          "qTr": "Sam'in halası şu anda ne yapıyor?",
-          "correct": "She is writing emails",
+          "q": "What is Sam's aunt doing now?",
+          "qTr": "Sam'in halası şimdi ne yapıyor?",
+          "correct": "Writing emails",
           "wrong": [
-            "She is colouring the map",
-            "She is cooking some food"
+            "Colouring maps",
+            "Cooking dinner"
           ],
           "hint": "Bankayı bul.",
           "hl": [
@@ -1586,8 +1586,8 @@
           ]
         },
         {
-          "q": "Who is Mr. Tan?",
-          "qTr": "Mr. Tan kimdir?",
+          "q": "What is Mr. Tan's job?",
+          "qTr": "Mr. Tan'ın işi nedir?",
           "correct": "A shop assistant",
           "wrong": [
             "A police officer",
@@ -1599,16 +1599,16 @@
           ]
         },
         {
-          "q": "What does Ms. Reed ask for at the end?",
-          "qTr": "Ms. Reed sonunda ne ister?",
-          "correct": "The museum, market and barber's",
+          "q": "Where is the singer practising?",
+          "qTr": "Şarkıcı nerede prova yapıyor?",
+          "correct": "In the theatre",
           "wrong": [
-            "The hospital, bank and theatre",
-            "The station, shop and restaurant"
+            "In the station",
+            "In the museum"
           ],
-          "hint": "Son cümleyi bul.",
+          "hint": "Şarkıcıyı bul.",
           "hl": [
-            9
+            8
           ]
         }
       ]
@@ -1663,12 +1663,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "The family doing mummy's errands",
+          "correct": "Family errands",
           "wrong": [
-            "The family cooking a big dinner",
-            "The family walking in the park"
+            "Family records",
+            "Family photos"
           ],
-          "hint": "Herkesin neden meşgul olduğunu düşün.",
+          "hint": "Ev işlerini düşün.",
           "hl": [
             0
           ]
@@ -1692,7 +1692,7 @@
           "correct": "Taking the rubbish out",
           "wrong": [
             "Setting the kitchen table",
-            "Buying groceries at the shop"
+            "Buying the family groceries"
           ],
           "hint": "Kutuyu bul.",
           "hl": [
@@ -1704,8 +1704,8 @@
           "qTr": "Sam alışverişi nereden yaptı?",
           "correct": "At the greengrocer's",
           "wrong": [
-            "At the market",
-            "At the bakery"
+            "At the bakery",
+            "At the barber's"
           ],
           "hint": "Sam'i bul.",
           "hl": [
@@ -1713,16 +1713,16 @@
           ]
         },
         {
-          "q": "What did mummy say at one o'clock?",
-          "qTr": "Anne saat birde ne söyledi?",
-          "correct": "Nobody woke her up",
+          "q": "What did Nora's grandma make?",
+          "qTr": "Nora'nın büyükannesi ne yaptı?",
+          "correct": "Soup",
           "wrong": [
-            "The soup was cold",
-            "The kitchen was dirty"
+            "Bread",
+            "Cake"
           ],
-          "hint": "Son cümleyi bul.",
+          "hint": "Saat onu bul.",
           "hl": [
-            9
+            5
           ]
         }
       ]
@@ -1777,23 +1777,23 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "A week with grandma at home",
+          "correct": "A week with grandma",
           "wrong": [
-            "A trip to the city library",
-            "A film night at the cinema"
+            "A day at school",
+            "A trip by bike"
           ],
-          "hint": "Hangi haftanın anlatıldığını düşün.",
+          "hint": "Büyükanneyi düşün.",
           "hl": [
             0
           ]
         },
         {
-          "q": "What does Nora love doing before bed?",
+          "q": "What does Nora like doing before bed?",
           "qTr": "Nora yatmadan önce ne yapmayı sever?",
-          "correct": "Reading her book",
+          "correct": "Reading",
           "wrong": [
-            "Telling old stories",
-            "Watching a film"
+            "Cooking",
+            "Dancing"
           ],
           "hint": "Yatmadan önceyi bul.",
           "hl": [
@@ -1801,12 +1801,12 @@
           ]
         },
         {
-          "q": "What book did grandma take from the library?",
-          "qTr": "Büyükanne kütüphaneden hangi kitabı aldı?",
+          "q": "What book did grandma take?",
+          "qTr": "Büyükanne hangi kitabı aldı?",
           "correct": "An old cookery book",
           "wrong": [
-            "A big film book",
-            "A small garden book"
+            "A new garden book",
+            "A short animal book"
           ],
           "hint": "Rafı bul.",
           "hl": [
@@ -1816,10 +1816,10 @@
         {
           "q": "What did grandma do on Sunday?",
           "qTr": "Büyükanne Pazar günü ne yaptı?",
-          "correct": "She planted some seeds",
+          "correct": "She planted seeds",
           "wrong": [
-            "She watched a film",
-            "She met some friends"
+            "She watched films",
+            "She met friends"
           ],
           "hint": "Pazar gününü bul.",
           "hl": [
@@ -1827,16 +1827,16 @@
           ]
         },
         {
-          "q": "What happened at the cinema on Friday?",
-          "qTr": "Cuma günü sinemada ne oldu?",
-          "correct": "Grandma slept in the film",
+          "q": "How often did grandma drink milk?",
+          "qTr": "Büyükanne ne sıklıkla süt içti?",
+          "correct": "Every morning",
           "wrong": [
-            "Grandma read a big book",
-            "Grandma talked to her friends"
+            "Every Sunday",
+            "Every evening"
           ],
-          "hint": "Cumayı bul.",
+          "hint": "Sütü bul.",
           "hl": [
-            8
+            7
           ]
         }
       ]
@@ -1891,12 +1891,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Sam's grandpa's old school days",
+          "correct": "Grandpa's school days",
           "wrong": [
-            "Sam's grandpa's job at a factory",
-            "Sam's grandpa's holiday at a farm"
+            "Grandpa's factory work",
+            "Grandpa's farm animals"
           ],
-          "hint": "Sam'in ilk cümlesini düşün.",
+          "hint": "Dedeyi düşün.",
           "hl": [
             0
           ]
@@ -1904,27 +1904,27 @@
         {
           "q": "Where did Sam's grandpa go to school?",
           "qTr": "Sam'in dedesi hangi okula gitti?",
-          "correct": "To a small village school",
+          "correct": "In a village",
           "wrong": [
-            "To a big city school",
-            "To a new farm school"
+            "In a city",
+            "On a farm"
           ],
-          "hint": "Tek derslikli okulu bul.",
+          "hint": "Tek dersliği bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did Sam say about his grandpa's brothers and sisters?",
-          "qTr": "Sam, dedesinin kardeşleri hakkında ne söyledi?",
-          "correct": "Three brothers, two sisters",
+          "q": "What did his mummy make every day?",
+          "qTr": "Annesi her gün ne hazırlardı?",
+          "correct": "Lunch",
           "wrong": [
-            "Two brothers, three sisters",
-            "Three brothers, one sister"
+            "Milk",
+            "Bread"
           ],
-          "hint": "Kardeşleri bul.",
+          "hint": "Peyniri bul.",
           "hl": [
-            2
+            5
           ]
         },
         {
@@ -1932,8 +1932,8 @@
           "qTr": "Pazar günleri ne yapardı?",
           "correct": "He saw his grandparents",
           "wrong": [
-            "He read a long book",
-            "He met his best friend"
+            "He read a book",
+            "He met a friend"
           ],
           "hint": "Pazar gününü bul.",
           "hl": [
@@ -1941,16 +1941,16 @@
           ]
         },
         {
-          "q": "What happened when he was nine?",
-          "qTr": "Dokuz yaşındayken ne oldu?",
-          "correct": "He read the longest book",
+          "q": "How often do they meet now?",
+          "qTr": "Şimdi ne sıklıkla buluşuyorlar?",
+          "correct": "Every Friday",
           "wrong": [
-            "He met his first friend",
-            "He made a new cloth bag"
+            "Every Sunday",
+            "Every morning"
           ],
-          "hint": "Dokuz yaşını bul.",
+          "hint": "Kafeyi bul.",
           "hl": [
-            8
+            9
           ]
         }
       ]
@@ -2005,12 +2005,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "A family dinner at a restaurant",
+          "correct": "A family dinner",
           "wrong": [
-            "A family walk near the theatre",
-            "A family party at Nora's house"
+            "A family holiday",
+            "A family record"
           ],
-          "hint": "İlk cümleyi düşün.",
+          "hint": "Restoranı düşün.",
           "hl": [
             0
           ]
@@ -2034,7 +2034,7 @@
           "correct": "Chicken with rice",
           "wrong": [
             "Pasta with soup",
-            "Pizza with salad"
+            "Pizza with bread"
           ],
           "hint": "Nora'nın babasını bul.",
           "hl": [
@@ -2042,25 +2042,25 @@
           ]
         },
         {
-          "q": "How long did the food take?",
-          "qTr": "Yemek ne kadar sürdü?",
-          "correct": "Twenty minutes",
+          "q": "Who helped the waiter?",
+          "qTr": "Garsona kim yardım etti?",
+          "correct": "The waitress",
           "wrong": [
-            "Forty minutes",
-            "One hour"
+            "The chef",
+            "The cook"
           ],
-          "hint": "Sam'in sorusunu bul.",
+          "hint": "Yirmi dakikayı bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Who is Leyla's aunt?",
-          "qTr": "Leyla'nın teyzesi kimdir?",
-          "correct": "A waitress there",
+          "q": "What is Leyla's aunt's job?",
+          "qTr": "Leyla'nın teyzesinin işi nedir?",
+          "correct": "A waitress",
           "wrong": [
-            "A chef there",
-            "A cook there"
+            "A chef",
+            "A cook"
           ],
           "hint": "Leyla'yı bul.",
           "hl": [
@@ -2119,12 +2119,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Old newspapers about family members",
+          "correct": "Old family newspapers",
           "wrong": [
-            "New jobs in the big city",
-            "A school prize for teachers"
+            "New family photographs",
+            "Old family holidays"
           ],
-          "hint": "Herkesin ne getirdiğini düşün.",
+          "hint": "Gazeteleri düşün.",
           "hl": [
             0
           ]
@@ -2132,23 +2132,23 @@
         {
           "q": "What was Sam's grandpa's job?",
           "qTr": "Sam'in dedesinin işi neydi?",
-          "correct": "He was a worker",
+          "correct": "A worker",
           "wrong": [
-            "He was a writer",
-            "He was a singer"
+            "A writer",
+            "A singer"
           ],
-          "hint": "1970'i bul.",
+          "hint": "Fabrikayı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Why did Nora's grandma get a prize?",
-          "qTr": "Nora'nın büyükannesi neden ödül aldı?",
-          "correct": "She was the kindest teacher",
+          "q": "Who is the kindest teacher in the city?",
+          "qTr": "Şehirdeki en nazik öğretmen kim?",
+          "correct": "Nora's grandma",
           "wrong": [
-            "She built the biggest machine",
-            "She wrote the shortest story"
+            "Leyla's aunt",
+            "Sam's sister"
           ],
           "hint": "Ödülü bul.",
           "hl": [
@@ -2156,29 +2156,29 @@
           ]
         },
         {
-          "q": "When did Leyla's aunt get her photo in the paper?",
-          "qTr": "Leyla'nın teyzesinin fotoğrafı gazeteye ne zaman çıktı?",
-          "correct": "Last winter",
+          "q": "What did Leyla's aunt do in the snow?",
+          "qTr": "Leyla'nın teyzesi karda ne yaptı?",
+          "correct": "She helped a person",
           "wrong": [
-            "Last summer",
-            "Last Friday"
+            "She built a machine",
+            "She wrote a story"
           ],
-          "hint": "Leyla'nın teyzesini bul.",
+          "hint": "Karı bul.",
           "hl": [
-            5
+            6
           ]
         },
         {
-          "q": "Whose paper goes on the wall first?",
-          "qTr": "Duvara önce kimin gazetesi asılır?",
-          "correct": "Sam's grandpa's",
+          "q": "What is Nora's cousin's job?",
+          "qTr": "Nora'nın kuzeninin işi nedir?",
+          "correct": "A writer",
           "wrong": [
-            "Nora's grandma's",
-            "Leyla's aunt's"
+            "A worker",
+            "A teacher"
           ],
-          "hint": "Son cümleyi bul.",
+          "hint": "Altı kelimeyi bul.",
           "hl": [
-            9
+            8
           ]
         }
       ]
@@ -2233,12 +2233,12 @@
         {
           "q": "What is the text mainly about?",
           "qTr": "Metin esas olarak ne hakkında?",
-          "correct": "Getting ready for Nora's party",
+          "correct": "A birthday party",
           "wrong": [
-            "Going shopping at the bakery",
-            "Cleaning the garden on Sunday"
+            "A shopping morning",
+            "A garden afternoon"
           ],
-          "hint": "Herkesin niçin acele ettiğini düşün.",
+          "hint": "Partiyi düşün.",
           "hl": [
             0
           ]
@@ -2246,10 +2246,10 @@
         {
           "q": "What is Nora's grandma doing?",
           "qTr": "Nora'nın büyükannesi ne yapıyor?",
-          "correct": "She is cooking",
+          "correct": "Cooking",
           "wrong": [
-            "She is walking",
-            "She is washing"
+            "Walking",
+            "Washing"
           ],
           "hint": "Mutfağı bul.",
           "hl": [
@@ -2262,7 +2262,7 @@
           "correct": "Nora's daddy",
           "wrong": [
             "Nora's mummy",
-            "Leyla's grandpa"
+            "Nora's brother"
           ],
           "hint": "Saat üçü bul.",
           "hl": [
@@ -2270,29 +2270,29 @@
           ]
         },
         {
-          "q": "What does Sam love doing?",
+          "q": "What does Sam like doing?",
           "qTr": "Sam ne yapmayı sever?",
           "correct": "Carrying heavy things",
           "wrong": [
             "Washing the chairs",
             "Setting the table"
           ],
-          "hint": "Leyla'nın sözlerini bul.",
+          "hint": "Kurdeleyi bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Where are Sam and Leyla in sentence 6?",
-          "qTr": "6. cümlede Sam ve Leyla nerede?",
-          "correct": "At the bakery",
+          "q": "What is Nora's grandpa doing today?",
+          "qTr": "Nora'nın dedesi bugün ne yapıyor?",
+          "correct": "Washing the chairs",
           "wrong": [
-            "In the garden",
-            "At the door"
+            "Carrying the box",
+            "Setting the table"
           ],
-          "hint": "Pastayı bul.",
+          "hint": "Bahçeyi bul.",
           "hl": [
-            6
+            5
           ]
         }
       ]
@@ -2358,7 +2358,7 @@
             "He helped thirty patients",
             "He taught sixty children"
           ],
-          "hint": "Nora'nın ilk cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -2366,53 +2366,53 @@
         {
           "q": "When did Nora's daddy come home?",
           "qTr": "Nora'nın babası eve ne zaman geldi?",
-          "correct": "At eight in the evening",
+          "correct": "At eight",
           "wrong": [
-            "At seven in the morning",
-            "At nine in the evening"
+            "At seven",
+            "At nine"
           ],
-          "hint": "Sabah ve akşam saatlerine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What did Leyla's grandpa sell at the market?",
-          "qTr": "Leyla'nın dedesi markette ne sattı?",
+          "q": "What did Leyla's grandpa sell?",
+          "qTr": "Leyla'nın dedesi ne sattı?",
           "correct": "The heaviest box",
           "wrong": [
             "The longest route",
             "The newest medicine"
           ],
-          "hint": "Markete bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What did Nora's mummy do last week?",
-          "qTr": "Nora'nın annesi geçen hafta ne yaptı?",
-          "correct": "She taught sixty children",
+          "q": "Who is the kindest teacher in her school?",
+          "qTr": "Okulundaki en nazik öğretmen kim?",
+          "correct": "Nora's mummy",
           "wrong": [
-            "She helped thirty patients",
-            "She checked forty patients"
+            "Sam's mummy",
+            "Leyla's aunt"
           ],
-          "hint": "Geçen haftayı anlatan cümleye bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "Where does Ms. Reed put Leyla's paper?",
-          "qTr": "Ms. Reed Leyla'nın kâğıdını nereye koyar?",
-          "correct": "On the classroom door",
+          "q": "What did Leyla's aunt do?",
+          "qTr": "Leyla'nın halası ne yaptı?",
+          "correct": "She tested medicine",
           "wrong": [
-            "On the busiest wall",
-            "On the school window"
+            "She taught children",
+            "She checked patients"
           ],
-          "hint": "Son cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            9
+            7
           ]
         }
       ]
@@ -2465,14 +2465,14 @@
       ],
       "questions": [
         {
-          "q": "Where did Nora's mummy go first on Saturday?",
-          "qTr": "Nora'nın annesi Cumartesi önce nereye gitti?",
+          "q": "Where did Nora's mummy go first?",
+          "qTr": "Nora'nın annesi önce nereye gitti?",
           "correct": "To the bakery",
           "wrong": [
             "To the market",
             "To the chemist's"
           ],
-          "hint": "Kahvaltıya bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -2480,12 +2480,12 @@
         {
           "q": "What did Nora's daddy do at the chemist's?",
           "qTr": "Nora'nın babası eczanede ne yaptı?",
-          "correct": "He bought some medicine",
+          "correct": "He bought medicine",
           "wrong": [
-            "He sent a big package",
-            "He got a new haircut"
+            "He sent packages",
+            "He read books"
           ],
-          "hint": "Bisikleti anlatan cümleye bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             3
           ]
@@ -2495,36 +2495,36 @@
           "qTr": "Sam'in babası postaneden sonra nereye gitti?",
           "correct": "To the bank",
           "wrong": [
-            "To the barber's",
-            "To the café"
+            "To the café",
+            "To the cinema"
           ],
-          "hint": "Koliyi gönderdikten sonrasına bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
         },
         {
-          "q": "How long did Sam's mummy stay at the café?",
-          "qTr": "Sam'in annesi kafede ne kadar kaldı?",
-          "correct": "Two hours",
+          "q": "What did Leyla's daddy do at the café?",
+          "qTr": "Leyla'nın babası kafede ne yaptı?",
+          "correct": "He wrote",
           "wrong": [
-            "One hour",
-            "Three hours"
+            "He talked",
+            "He slept"
           ],
-          "hint": "Sam'in ikinci cümlesine bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            6
+            7
           ]
         },
         {
-          "q": "What did Leyla and her mummy do after the hairdresser's?",
-          "qTr": "Leyla ve annesi kuaförden sonra ne yaptı?",
-          "correct": "They went to the cinema",
+          "q": "Where did Leyla go after the hairdresser's?",
+          "qTr": "Leyla kuaförden sonra nereye gitti?",
+          "correct": "To the cinema",
           "wrong": [
-            "They went to the library",
-            "They went to the market"
+            "To the library",
+            "To the theatre"
           ],
-          "hint": "Kuaförden sonrasına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             8
           ]
@@ -2583,16 +2583,29 @@
       ],
       "questions": [
         {
-          "q": "What does Nora's grandpa love doing on Sundays?",
+          "q": "What does Nora's grandpa like doing on Sundays?",
           "qTr": "Nora'nın dedesi Pazar günleri ne yapmayı sever?",
           "correct": "Gardening",
           "wrong": [
-            "Cycling",
-            "Cooking"
+            "Cooking",
+            "Driving"
           ],
-          "hint": "Nora'nın ilk cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
+          ]
+        },
+        {
+          "q": "What does Nora's grandma like doing?",
+          "qTr": "Nora'nın büyükannesi ne yapmayı sever?",
+          "correct": "Reading before bed",
+          "wrong": [
+            "Working at night",
+            "Sitting at cafés"
+          ],
+          "hint": "Nora'ya bak.",
+          "hl": [
+            2
           ]
         },
         {
@@ -2601,35 +2614,22 @@
           "correct": "Sam's mummy",
           "wrong": [
             "Sam's daddy",
-            "Nora's grandma"
+            "Leyla's mummy"
           ],
-          "hint": "Masayı kuran kişiye bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Sam's daddy love doing at the weekend?",
-          "qTr": "Sam'in babası hafta sonu ne yapmayı sever?",
-          "correct": "Cooking the best soup",
+          "q": "What does Leyla's mummy like doing?",
+          "qTr": "Leyla'nın annesi ne yapmayı sever?",
+          "correct": "Working late",
           "wrong": [
-            "Driving to new places",
-            "Setting the family table"
+            "Reading books",
+            "Setting tables"
           ],
-          "hint": "Hafta sonunu anlatan cümleye bak.",
-          "hl": [
-            5
-          ]
-        },
-        {
-          "q": "Where does Leyla's mummy work?",
-          "qTr": "Leyla'nın annesi nerede çalışır?",
-          "correct": "At her laboratory",
-          "wrong": [
-            "At the café",
-            "At the school"
-          ],
-          "hint": "Leyla'nın annesine bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -2642,7 +2642,7 @@
             "The funniest list",
             "The oldest book"
           ],
-          "hint": "Dokuz yüz sayfaya bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             8
           ]
@@ -2699,25 +2699,38 @@
         {
           "q": "What is Nora's aunt's job?",
           "qTr": "Nora'nın halasının işi nedir?",
-          "correct": "She is a dentist",
+          "correct": "A dentist",
           "wrong": [
-            "She is a singer",
-            "She is a waitress"
+            "A singer",
+            "A waitress"
           ],
-          "hint": "Nora'nın ilk cevabına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What did Sam's uncle find behind the bakery?",
-          "qTr": "Sam'in amcası fırının arkasında ne buldu?",
+          "q": "What does Nora's aunt like doing?",
+          "qTr": "Nora'nın halası ne yapmayı sever?",
+          "correct": "Helping children",
+          "wrong": [
+            "Singing songs",
+            "Finding things"
+          ],
+          "hint": "Nora'ya bak.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "What did Sam's uncle find?",
+          "qTr": "Sam'in amcası ne buldu?",
           "correct": "A lost dog",
           "wrong": [
-            "A lost bag",
-            "A lost key"
+            "A big shop",
+            "An old clinic"
           ],
-          "hint": "Geçen haftaya bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             4
           ]
@@ -2730,7 +2743,7 @@
             "At the hotel",
             "At the mosque"
           ],
-          "hint": "Geçen yazı anlatan cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -2743,22 +2756,9 @@
             "He helps customers",
             "He checks teeth"
           ],
-          "hint": "Camiye bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
-          ]
-        },
-        {
-          "q": "Who works the longest hours?",
-          "qTr": "En uzun saatler kim çalışır?",
-          "correct": "Leyla's cousin",
-          "wrong": [
-            "Nora's aunt",
-            "Sam's uncle"
-          ],
-          "hint": "Son cümleye bak.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -2815,23 +2815,23 @@
           "qTr": "Nora'nın annesi ne yapıyor?",
           "correct": "Setting the table",
           "wrong": [
-            "Taking the rubbish out",
-            "Walking the family dog"
+            "Taking the dog",
+            "Doing the shopping"
           ],
-          "hint": "Büyükannenin gelişine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "When does Nora's brother take the rubbish out?",
-          "qTr": "Nora'nın kardeşi çöpü ne zaman çıkarır?",
+          "q": "How often does Nora's brother take the rubbish out?",
+          "qTr": "Nora'nın kardeşi ne sıklıkla çöpü çıkarır?",
           "correct": "Every Tuesday and Thursday",
           "wrong": [
             "Every Monday and Friday",
-            "Every Wednesday and Saturday"
+            "Every Sunday and Saturday"
           ],
-          "hint": "Nora'nın üçüncü cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             3
           ]
@@ -2844,7 +2844,7 @@
             "Nora's daddy",
             "Nora's brother"
           ],
-          "hint": "Leyla'nın gördüğü kişiye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
@@ -2855,9 +2855,9 @@
           "correct": "She did the shopping",
           "wrong": [
             "She set the table",
-            "She walked the dog"
+            "She took the dog"
           ],
-          "hint": "Sabahı anlatan cümleye bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             8
           ]
@@ -2870,7 +2870,7 @@
             "To the market",
             "To the school"
           ],
-          "hint": "Köpeğe bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             6
           ]
@@ -2927,64 +2927,64 @@
         {
           "q": "Where did Leyla's family go?",
           "qTr": "Leyla'nın ailesi nereye gitti?",
-          "correct": "To her grandpa's village",
+          "correct": "To a village",
           "wrong": [
-            "To the city museum",
-            "To her school garden"
+            "To a museum",
+            "To a market"
           ],
-          "hint": "İlk cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             0
           ]
         },
         {
-          "q": "How long was the road?",
-          "qTr": "Yol ne kadar sürdü?",
-          "correct": "Two hours",
-          "wrong": [
-            "One hour",
-            "Three hours"
-          ],
-          "hint": "Yolu anlatan cümleye bak.",
-          "hl": [
-            1
-          ]
-        },
-        {
           "q": "What did Leyla's grandma make for lunch?",
           "qTr": "Leyla'nın büyükannesi öğle yemeğine ne yaptı?",
-          "correct": "Soup, bread and cake",
+          "correct": "Soup and bread",
           "wrong": [
-            "Pizza, rice and soup",
-            "Bread, milk and fruit"
+            "Milk and eggs",
+            "Rice and fruit"
           ],
-          "hint": "Öğle yemeğine bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             3
           ]
         },
         {
+          "q": "What does Leyla's grandpa grow?",
+          "qTr": "Leyla'nın dedesi ne yetiştirir?",
+          "correct": "The biggest tomatoes",
+          "wrong": [
+            "The longest carrots",
+            "The freshest apples"
+          ],
+          "hint": "Nora'ya bak.",
+          "hl": [
+            4
+          ]
+        },
+        {
           "q": "What did Leyla do behind the house?",
           "qTr": "Leyla evin arkasında ne yaptı?",
-          "correct": "She drew the chicks",
+          "correct": "She drew chicks",
           "wrong": [
-            "She read a book",
-            "She sang old songs"
+            "She read books",
+            "She sang songs"
           ],
-          "hint": "Civcivleri anlatan cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What was the heaviest thing in the car?",
-          "qTr": "Arabadaki en ağır şey neydi?",
-          "correct": "A basket of vegetables",
+          "q": "What did Leyla's grandpa give them?",
+          "qTr": "Leyla'nın dedesi onlara ne verdi?",
+          "correct": "Vegetables",
           "wrong": [
-            "A basket of bread",
-            "A box of apple cake"
+            "Chickens",
+            "Pictures"
           ],
-          "hint": "Son cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             9
           ]
@@ -3043,43 +3043,43 @@
       ],
       "questions": [
         {
-          "q": "What does Nora's grandma love doing?",
+          "q": "What does Nora's grandma like doing?",
           "qTr": "Nora'nın büyükannesi ne yapmayı sever?",
           "correct": "Reading before bed",
           "wrong": [
             "Walking before work",
             "Drinking milk daily"
           ],
-          "hint": "Pazartesi saat dokuza bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What did Sam's family see last week?",
-          "qTr": "Sam'in ailesi geçen hafta ne izledi?",
-          "correct": "The longest film",
+          "q": "How often does Sam's family go to the cinema?",
+          "qTr": "Sam'in ailesi ne sıklıkla sinemaya gider?",
+          "correct": "Every Saturday",
           "wrong": [
-            "The strangest book",
-            "The oldest diary"
+            "Every morning",
+            "Every Sunday"
           ],
-          "hint": "Sam'in ikinci cümlesine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
-            4
+            3
           ]
         },
         {
-          "q": "When does Leyla visit the library?",
-          "qTr": "Leyla kütüphaneye ne zaman gider?",
-          "correct": "Every Saturday morning",
+          "q": "What does Leyla's mummy like doing?",
+          "qTr": "Leyla'nın annesi ne yapmayı sever?",
+          "correct": "Choosing books",
           "wrong": [
-            "Every Sunday evening",
-            "Every Monday afternoon"
+            "Watching films",
+            "Drinking milk"
           ],
-          "hint": "Leyla'nın satırına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            5
+            6
           ]
         },
         {
@@ -3087,10 +3087,10 @@
           "qTr": "Nora'nın babası işten önce ne yapar?",
           "correct": "He goes for a walk",
           "wrong": [
-            "He reads the newspaper first",
-            "He watches a short film"
+            "He reads a long book",
+            "He drinks a cold milk"
           ],
-          "hint": "Sabah altı buçuğa bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
           ]
@@ -3098,12 +3098,12 @@
         {
           "q": "What did Sam's grandpa do for forty years?",
           "qTr": "Sam'in dedesi kırk yıl boyunca ne yaptı?",
-          "correct": "He drank milk before breakfast",
+          "correct": "He drank milk",
           "wrong": [
-            "He read books before bedtime",
-            "He walked before his work"
+            "He read books",
+            "He watched films"
           ],
-          "hint": "Kırk yıla bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             8
           ]
@@ -3162,27 +3162,27 @@
       ],
       "questions": [
         {
-          "q": "What are the nurses doing at the hospital?",
-          "qTr": "Hemşireler hastanede ne yapıyor?",
+          "q": "What are the nurses doing?",
+          "qTr": "Hemşireler ne yapıyor?",
           "correct": "Helping an old person",
           "wrong": [
             "Sending a big package",
-            "Buying some medicine there"
+            "Buying some new medicine"
           ],
-          "hint": "Hastane kapısına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "What is the cook putting in the window?",
-          "qTr": "Aşçı vitrine ne koyuyor?",
-          "correct": "The freshest bread",
+          "q": "What is the cook doing?",
+          "qTr": "Aşçı ne yapıyor?",
+          "correct": "Putting bread out",
           "wrong": [
-            "The biggest lock",
-            "The oldest map"
+            "Sending a package",
+            "Waiting for people"
           ],
-          "hint": "Fırına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             3
           ]
@@ -3195,20 +3195,20 @@
             "At the barber's",
             "At the chemist's"
           ],
-          "hint": "Sam'in ilk cümlesine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Why can nobody go into the butcher's?",
-          "qTr": "Kasaba neden kimse giremiyor?",
-          "correct": "It is closed today",
+          "q": "Which place is closed today?",
+          "qTr": "Bugün hangi yer kapalı?",
+          "correct": "The butcher's",
           "wrong": [
-            "It is very full",
-            "It is too small"
+            "The bakery",
+            "The cinema"
           ],
-          "hint": "Kasabı anlatan cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -3221,7 +3221,7 @@
             "The biggest lock",
             "The freshest bread"
           ],
-          "hint": "Mayıs ayına bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             8
           ]
@@ -3280,14 +3280,14 @@
       ],
       "questions": [
         {
-          "q": "What does Nora's mummy love doing on Saturdays?",
+          "q": "What does Nora's mummy like doing on Saturdays?",
           "qTr": "Nora'nın annesi Cumartesileri ne yapmayı sever?",
           "correct": "Reading in the garden",
           "wrong": [
-            "Riding her bike outside",
-            "Cooking in the kitchen"
+            "Cooking in the kitchen",
+            "Playing in the park"
           ],
-          "hint": "Nora'nın fotoğrafına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -3295,25 +3295,25 @@
         {
           "q": "Why is Nora's daddy not in the photo?",
           "qTr": "Nora'nın babası neden fotoğrafta yok?",
-          "correct": "He took the photo",
+          "correct": "He took it",
           "wrong": [
-            "He went to work",
-            "He rode his bike"
+            "He sent it",
+            "He wore it"
           ],
-          "hint": "Nora'nın ikinci cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What happened to Sam's grandpa that day?",
-          "qTr": "Sam'in dedesine o gün ne oldu?",
+          "q": "What did Sam's grandpa do that day?",
+          "qTr": "Sam'in dedesi o gün ne yaptı?",
           "correct": "He fell asleep",
           "wrong": [
             "He cooked lunch",
             "He met friends"
           ],
-          "hint": "Eski filmlere bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
@@ -3324,22 +3324,22 @@
           "correct": "From the café",
           "wrong": [
             "From the park",
-            "From the village"
+            "From the museum"
           ],
-          "hint": "Sam'in son cümlesine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What did Leyla's little sister wear?",
-          "qTr": "Leyla'nın küçük kardeşi ne giydi?",
-          "correct": "Leyla's hat",
+          "q": "What does Leyla's sister like doing?",
+          "qTr": "Leyla'nın kardeşi ne yapmayı sever?",
+          "correct": "Playing in the park",
           "wrong": [
-            "Leyla's coat",
-            "Leyla's shoes"
+            "Reading in the garden",
+            "Cooking in the kitchen"
           ],
-          "hint": "Parktaki cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             8
           ]
@@ -3398,14 +3398,14 @@
       ],
       "questions": [
         {
-          "q": "Who is the kindest in Nora's family?",
-          "qTr": "Nora'nın ailesinde en nazik kim?",
+          "q": "Who is the kindest person in Nora's family?",
+          "qTr": "Nora'nın ailesindeki en nazik kişi kim?",
           "correct": "Her grandma",
           "wrong": [
             "Her brother",
             "Her daddy"
           ],
-          "hint": "Nora'nın ilk cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -3413,25 +3413,25 @@
         {
           "q": "What did Nora's brother do yesterday?",
           "qTr": "Nora'nın kardeşi dün ne yaptı?",
-          "correct": "He made everybody laugh",
+          "correct": "He made people laugh",
           "wrong": [
             "He helped a neighbour",
-            "He told a long story"
+            "He told a story"
           ],
-          "hint": "Akşam yemeğine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Who is the busiest in Sam's family?",
-          "qTr": "Sam'in ailesinde en yoğun kim?",
+          "q": "Who is the busiest person in Sam's family?",
+          "qTr": "Sam'in ailesindeki en yoğun kişi kim?",
           "correct": "His mummy",
           "wrong": [
             "His grandpa",
             "His cousin"
           ],
-          "hint": "Hastaneyi anlatan cümleye bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             4
           ]
@@ -3439,25 +3439,25 @@
         {
           "q": "What did Leyla's uncle find?",
           "qTr": "Leyla'nın amcası ne buldu?",
-          "correct": "A neighbour's dog",
+          "correct": "A dog",
           "wrong": [
-            "An old factory photo",
-            "A running shoe"
+            "A photo",
+            "A story"
           ],
-          "hint": "Fırının arkasına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What does Leyla's aunt love doing?",
+          "q": "What does Leyla's aunt like doing?",
           "qTr": "Leyla'nın halası ne yapmayı sever?",
-          "correct": "Painting at night",
+          "correct": "Painting",
           "wrong": [
-            "Telling old stories",
-            "Running every morning"
+            "Running",
+            "Laughing"
           ],
-          "hint": "Leyla'nın halasına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             7
           ]
@@ -3525,7 +3525,7 @@
             "A nurse",
             "A cleaner"
           ],
-          "hint": "Hastanede çalışan, hastaları kontrol eden ve ilacı seçen kişiyi düşün.",
+          "hint": "Hastanede çalışır. Hastaları kontrol eder. İlacı o seçer.",
           "hl": [
             2,
             6
@@ -3539,7 +3539,7 @@
             "Nurses do not work there",
             "Nurses do not help people"
           ],
-          "hint": "Sam'in tahminini ele, Ms. Reed'in cevabına bak.",
+          "hint": "Hemşireler bu kişiye yardım eder. Ama ilacı seçmez.",
           "hl": [
             4
           ]
@@ -3552,20 +3552,21 @@
             "Cleaners do not work mornings",
             "Cleaners do not clean rooms"
           ],
-          "hint": "Leyla'nın tahminini ele.",
+          "hint": "Temizlik görevlisi odaları temizler. Hastaları kontrol etmez.",
           "hl": [
+            5,
             6
           ]
         },
         {
           "q": "What did this person do yesterday?",
           "qTr": "Bu kişi dün ne yaptı?",
-          "correct": "Checked fifty patients",
+          "correct": "He checked patients",
           "wrong": [
-            "Cleaned fifty rooms",
-            "Wrote fifty letters"
+            "He cleaned rooms",
+            "He helped nurses"
           ],
-          "hint": "Dünü anlatan cümleyi bul, diğer iki seçeneği ele.",
+          "hint": "Elli hasta. Ayın en yoğun günü.",
           "hl": [
             2
           ]
@@ -3578,7 +3579,7 @@
             "Sam's daddy",
             "Leyla's daddy"
           ],
-          "hint": "Son iki cümledeki ipuçlarını birleştir.",
+          "hint": "Dokuzda eve geldi. Kart yazdı. Hastaneye bakar.",
           "hl": [
             7,
             8
@@ -3631,15 +3632,16 @@
       "questions": [
         {
           "q": "Why did Sam's daddy go back home?",
-          "qTr": "Sam'in babası neden eve geri döndü?",
+          "qTr": "Sam'in babası neden eve döndü?",
           "correct": "He forgot his wallet",
           "wrong": [
             "He forgot his list",
             "He lost his tomatoes"
           ],
-          "hint": "Markete iki kez gitme sebebini bul.",
+          "hint": "Markete iki kez gitti. Bir şeyi evde unuttu.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
@@ -3650,7 +3652,7 @@
             "His red tomatoes",
             "His lost wallet"
           ],
-          "hint": "Kutunun içini anlatan cümleyi bul, diğer iki seçeneği ele.",
+          "hint": "Domatesler evde kaldı. Kutuda başka bir şey vardı.",
           "hl": [
             4
           ]
@@ -3663,7 +3665,7 @@
             "At the market",
             "At the bakery"
           ],
-          "hint": "Marketten vazgeçtikleri anı bul.",
+          "hint": "Markette olmadı. Fırın değildi. Yürüyerek gittiler.",
           "hl": [
             5,
             6
@@ -3677,7 +3679,7 @@
             "The reddest tomatoes",
             "The heaviest tools"
           ],
-          "hint": "Dönüş yolunu bul.",
+          "hint": "Dönüş yolunda durdular. Günün en tazesiydi.",
           "hl": [
             7
           ]
@@ -3690,7 +3692,7 @@
             "Nora's grandma",
             "Sam's brother"
           ],
-          "hint": "Son iki cümledeki sırayı takip et.",
+          "hint": "Kendisi ikide geldi. Ondan önce başka biri gitti.",
           "hl": [
             8
           ]
@@ -3752,10 +3754,10 @@
             "A teacher's card",
             "A doctor's card"
           ],
-          "hint": "Diş resmini ve kliniği birleştir.",
+          "hint": "Küçük bir diş resmi. Klinik, üç numaralı oda.",
           "hl": [
             3,
-            6
+            8
           ]
         },
         {
@@ -3763,11 +3765,12 @@
           "qTr": "Neden öğretmen değil?",
           "correct": "Teachers see us every day",
           "wrong": [
-            "Teachers work at a clinic",
-            "Teachers check children's teeth"
+            "Teachers work at big clinics",
+            "Teachers check our teeth daily"
           ],
-          "hint": "Nora'nın ilk cümlesiyle ele.",
+          "hint": "Kart altı ay sonrasını söylüyor. Öğretmeni her gün görürsün.",
           "hl": [
+            0,
             1
           ]
         },
@@ -3779,35 +3782,37 @@
             "Doctors work in a school",
             "Doctors send cards every month"
           ],
-          "hint": "Dişle vücudu karşılaştıran cümleye bak, diğerlerini ele.",
+          "hint": "Kartta sadece bir diş var. Doktor tek dişe bakmaz.",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "What did Leyla's cousin have after her visit?",
-          "qTr": "Leyla'nın kuzeninin ziyaretten sonra nesi vardı?",
+          "q": "What did Leyla's cousin have?",
+          "qTr": "Leyla'nın kuzeninin nesi vardı?",
           "correct": "The cleanest teeth",
           "wrong": [
             "The newest toothbrush",
             "The smallest picture"
           ],
-          "hint": "Geçen kışı bul.",
+          "hint": "Geçen kış gitti. Sonra sınıfında en iyisiydi.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Where is this person's room?",
-          "qTr": "Bu kişinin odası nerede?",
-          "correct": "Greenfield Clinic, room three",
+          "q": "What does this person do?",
+          "qTr": "Bu kişi ne iş yapar?",
+          "correct": "He checks teeth",
           "wrong": [
-            "Greenfield School, room two",
-            "Greenfield Hospital, room one"
+            "He cleans rooms",
+            "He teaches children"
           ],
-          "hint": "Kartın alt tarafındaki yazıya bak.",
+          "hint": "Diş ağrısı olan çocuklar. Diş fırçası. Klinik.",
           "hl": [
-            8
+            6,
+            7
           ]
         }
       ]
@@ -3867,7 +3872,7 @@
             "A shop assistant",
             "A young driver"
           ],
-          "hint": "Rozeti, ışıklı arabayı ve istasyon köşesini birleştir.",
+          "hint": "Mavi üniforma. Parlak rozet. Tavanında ışık olan araba.",
           "hl": [
             4,
             5
@@ -3881,9 +3886,10 @@
             "Chefs drive fast cars",
             "Chefs work at stations"
           ],
-          "hint": "Sam'in ilk tahminini ele.",
+          "hint": "Bu kişi mavi giymiş. Yemek için de gelmedi.",
           "hl": [
-            1
+            1,
+            3
           ]
         },
         {
@@ -3894,22 +3900,23 @@
             "Drivers work at the bakery",
             "Drivers do not find dogs"
           ],
-          "hint": "Leyla'nın tahminini ele.",
+          "hint": "Sürücünün üniforması yok. Otobüs için de gelmedi.",
           "hl": [
-            2
+            2,
+            3
           ]
         },
         {
-          "q": "Where did he find the dog?",
-          "qTr": "Köpeği nerede buldu?",
-          "correct": "Behind the bakery",
+          "q": "Why is it not an artist?",
+          "qTr": "Neden ressam değil?",
+          "correct": "Artists wear old clothes",
           "wrong": [
-            "Behind the station",
-            "Behind the school"
+            "Artists wear blue uniforms",
+            "Artists carry black books"
           ],
-          "hint": "Aramanın sonucunu bul.",
+          "hint": "Ressamın kıyafeti boyalı ve eskidir. Bu kişide rozet var.",
           "hl": [
-            6
+            4
           ]
         },
         {
@@ -3920,7 +3927,7 @@
             "Leyla's daddy",
             "Nora's neighbour"
           ],
-          "hint": "Aynı köşede duran kişiyi bul.",
+          "hint": "Aynı köşe. Aynı mavi üniforma. Her gün.",
           "hl": [
             8
           ]
@@ -3982,7 +3989,7 @@
             "At the theatre",
             "At the museum"
           ],
-          "hint": "Patlamış mısırı ve karanlık odayı birleştir.",
+          "hint": "Patlamış mısır. Karanlık oda. Büyük ekran.",
           "hl": [
             5,
             6
@@ -3994,10 +4001,11 @@
           "correct": "Libraries give cards",
           "wrong": [
             "Libraries sell popcorn",
-            "Libraries have big screens"
+            "Libraries show films"
           ],
-          "hint": "Sam'in ilk tahminini ele.",
+          "hint": "Elinde bilet var. Kütüphane bilet vermez.",
           "hl": [
+            0,
             1
           ]
         },
@@ -4009,7 +4017,7 @@
             "Museum tickets are blue",
             "Museum tickets have rows"
           ],
-          "hint": "Bilet rengine bak.",
+          "hint": "Bu bilet mavi. Müzeninki başka renkti.",
           "hl": [
             2,
             3
@@ -4023,8 +4031,9 @@
             "Theatres do not have seats",
             "Theatres do not have rows"
           ],
-          "hint": "Biletin arkasındaki yazıyı ele al.",
+          "hint": "Biletin arkasında patlamış mısır yazıyor. Tiyatroda satılmaz.",
           "hl": [
+            5,
             6
           ]
         },
@@ -4034,9 +4043,9 @@
           "correct": "Her grandpa",
           "wrong": [
             "Her grandma",
-            "Her daddy"
+            "Her cousin"
           ],
-          "hint": "Son cümlede uyuyan kişiyi bul.",
+          "hint": "Film izlemeyi sever. Son saatte uyudu.",
           "hl": [
             7,
             9
@@ -4096,10 +4105,10 @@
           "qTr": "Sam ne yapıyor?",
           "correct": "Taking the dog out",
           "wrong": [
-            "Buying the family groceries",
+            "Doing the family shopping",
             "Picking up the children"
           ],
-          "hint": "Tasmayı ve parktaki tüylü şeyi birleştir.",
+          "hint": "Tasma yok. Parkta tüylü bir şey. Ayakkabıları da yok.",
           "hl": [
             0,
             5
@@ -4113,7 +4122,7 @@
             "The greengrocer's is very far",
             "The greengrocer's has no fruit"
           ],
-          "hint": "Nora'nın ilk cümlesiyle ele.",
+          "hint": "Bugün Pazar sabahı. Manav bugün açık değil.",
           "hl": [
             1
           ]
@@ -4121,28 +4130,27 @@
         {
           "q": "Why is he not taking the rubbish out?",
           "qTr": "Neden çöpü çıkarmıyor?",
-          "correct": "The bin is still full",
+          "correct": "The bin is still full there",
           "wrong": [
-            "The bin is very small",
+            "The bin is very small today",
             "The bin is in the park"
           ],
-          "hint": "Leyla'nın gördüğü şeye bak.",
+          "hint": "Kova kapının yanında duruyor. İçi hâlâ dolu.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Who is holding the lead?",
-          "qTr": "Tasmayı kim tutuyor?",
-          "correct": "Sam",
+          "q": "Why is he not setting the table?",
+          "qTr": "Neden masayı kurmuyor?",
+          "correct": "The table is empty",
           "wrong": [
-            "Nora",
-            "Leyla"
+            "The table is broken",
+            "The table is outside"
           ],
-          "hint": "Pencereden bakan cümleleri birleştir.",
+          "hint": "Masaya bakıldı. Üstünde hiçbir şey yok.",
           "hl": [
-            5,
-            6
+            4
           ]
         },
         {
@@ -4153,7 +4161,7 @@
             "They got lost",
             "They got old"
           ],
-          "hint": "Sam'in son sözlerini bul.",
+          "hint": "Köpek suya girdi. Sam de yanındaydı.",
           "hl": [
             8
           ]
@@ -4215,7 +4223,7 @@
             "Nora's mummy",
             "Nora's sister"
           ],
-          "hint": "Hastane kafesinde yemek yapan kişiyi bul.",
+          "hint": "Bir kadın. Hastane kafesinde aşçı. On birde geldi.",
           "hl": [
             5,
             9
@@ -4224,27 +4232,27 @@
         {
           "q": "Why is it not Nora's mummy?",
           "qTr": "Neden Nora'nın annesi değil?",
-          "correct": "She is at school today",
+          "correct": "She is at school",
           "wrong": [
-            "She is at the hospital",
-            "She is in another city"
+            "She is at football",
+            "She is at hospital"
           ],
-          "hint": "Sam'in ilk tahminini ele.",
+          "hint": "Dörde kadar 1. sınıfa ders veriyor. Evde değil.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where did Nora's sister go?",
-          "qTr": "Nora'nın ablası nereye gitti?",
-          "correct": "To the library",
+          "q": "Why is it not Nora's daddy?",
+          "qTr": "Neden Nora'nın babası değil?",
+          "correct": "He is at the hospital",
           "wrong": [
-            "To the hospital",
-            "To the café"
+            "He is at the library",
+            "He is at the school"
           ],
-          "hint": "Nora'nın üçüncü cümlesini bul.",
+          "hint": "Sabah yedide arabayla çıktı. Hâlâ dönmedi.",
           "hl": [
-            3
+            2
           ]
         },
         {
@@ -4253,9 +4261,9 @@
           "correct": "He lives in another city",
           "wrong": [
             "He works at the hospital",
-            "He is at football today"
+            "He plays football every day"
           ],
-          "hint": "Sam'in ikinci tahminini ele.",
+          "hint": "Artık burada oturmuyor. Çok uzakta.",
           "hl": [
             4
           ]
@@ -4268,9 +4276,10 @@
             "Give some to Leyla",
             "Give some to grandpa"
           ],
-          "hint": "Kâğıttaki yazıyı bul.",
+          "hint": "Bir isim yazılmıştı. Doğum gününü de hatırlıyordu.",
           "hl": [
-            7
+            7,
+            8
           ]
         }
       ]
@@ -4330,7 +4339,7 @@
             "Cycling",
             "Reading"
           ],
-          "hint": "Çamurlu botları ve tohumları birleştir.",
+          "hint": "Çamurlu botlar. Cebinde tohumlar. Her Pazar bir şey eker.",
           "hl": [
             6,
             8
@@ -4341,10 +4350,10 @@
           "qTr": "Neden film izlemez?",
           "correct": "Their television was broken",
           "wrong": [
-            "Their television was very new",
-            "Their television was too big"
+            "Their television was new",
+            "Their television was big"
           ],
-          "hint": "Nora'nın ilk tahminini ele.",
+          "hint": "Bir ay boyunca çalışmadı. O bunu hiç fark etmedi.",
           "hl": [
             2
           ]
@@ -4355,37 +4364,37 @@
           "correct": "His bike has no wheels",
           "wrong": [
             "His bike is very small",
-            "His bike is at the shop"
+            "His bike is at school"
           ],
-          "hint": "Garajdaki bisiklete bak.",
+          "hint": "Bisiklet üç yıldır garajda. Eksik bir parçası var.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What did Sam see in grandpa's pocket?",
-          "qTr": "Sam dedenin cebinde ne gördü?",
+          "q": "Why does he not read before bed?",
+          "qTr": "Neden yatmadan önce okumaz?",
+          "correct": "He falls asleep quickly",
+          "wrong": [
+            "He reads at school",
+            "He gives books away"
+          ],
+          "hint": "İki sayfa okuyor. Sonrasını getiremiyor.",
+          "hl": [
+            6
+          ]
+        },
+        {
+          "q": "What did Sam see in his pocket?",
+          "qTr": "Sam cebinde ne gördü?",
           "correct": "Some seeds",
           "wrong": [
             "Some books",
             "Some boots"
           ],
-          "hint": "Bu sabahı anlatan cümleyi bul.",
+          "hint": "Bu sabah içeri girdi. Cebinde bahçe için bir şey vardı.",
           "hl": [
             7
-          ]
-        },
-        {
-          "q": "What are the muddiest things in the house?",
-          "qTr": "Evdeki en çamurlu şeyler nelerdir?",
-          "correct": "Grandpa's boots",
-          "wrong": [
-            "Grandpa's books",
-            "Grandpa's seeds"
-          ],
-          "hint": "Kapının yanına bak.",
-          "hl": [
-            6
           ]
         }
       ]
@@ -4445,7 +4454,7 @@
             "Thursday",
             "Monday"
           ],
-          "hint": "Fırın torbasını ve pizza akşamını birleştir.",
+          "hint": "Fırın torbası var. O akşam pizza alınır. Takvimde yazıyor.",
           "hl": [
             7,
             8
@@ -4459,7 +4468,7 @@
             "Her school bag is lost",
             "Her school bag is full"
           ],
-          "hint": "İlk ipucunu ele.",
+          "hint": "Çanta kapının yanında duruyor. Demek okul var.",
           "hl": [
             1
           ]
@@ -4472,10 +4481,24 @@
             "The table is dirty",
             "The table is small"
           ],
-          "hint": "Alışveriş torbalarını ele.",
+          "hint": "Pazartesileri alışveriş torbaları masada olur. Masada bir şey yok.",
           "hl": [
             2,
             3
+          ]
+        },
+        {
+          "q": "Why is it not Tuesday or Wednesday?",
+          "qTr": "Neden Salı ya da Çarşamba değil?",
+          "correct": "The bin is still full",
+          "wrong": [
+            "The bin is very small",
+            "The bin is quite new"
+          ],
+          "hint": "O günlerde çöp çıkarılır. Kova hâlâ boşaltılmamış.",
+          "hl": [
+            4,
+            5
           ]
         },
         {
@@ -4486,23 +4509,10 @@
             "There is no school bag",
             "There is no bakery bag"
           ],
-          "hint": "Büyükannenin geldiği günü ele.",
+          "hint": "Perşembeleri büyükanne çorba getirir. Ocakta bir şey yok.",
           "hl": [
             5,
             6
-          ]
-        },
-        {
-          "q": "Who wrote the pizza evening on the calendar?",
-          "qTr": "Pizza akşamını takvime kim yazdı?",
-          "correct": "Nora's daddy",
-          "wrong": [
-            "Nora's brother",
-            "Nora's grandma"
-          ],
-          "hint": "Takvimi anlatan cümleyi bul.",
-          "hl": [
-            8
           ]
         }
       ]
@@ -4562,7 +4572,7 @@
             "To the market",
             "To the cinema"
           ],
-          "hint": "Tarihli kartları olan kitapları düşün.",
+          "hint": "Altı kitap. Her birinde tarihli bir kart. İki hafta sonra geri verilir.",
           "hl": [
             6,
             7
@@ -4576,46 +4586,46 @@
             "There was no bag",
             "There was no card"
           ],
-          "hint": "Sam'in ilk tahminini ele.",
+          "hint": "Çanta ağırdı ama içinde sadece kâğıt vardı.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Who took the dog out?",
-          "qTr": "Köpeği kim çıkardı?",
-          "correct": "Nora's grandpa",
+          "q": "Why is it not the cinema?",
+          "qTr": "Neden sinema değil?",
+          "correct": "Nobody carries bags there",
           "wrong": [
-            "Nora's brother",
-            "Nora's mummy"
+            "Nobody carries books there",
+            "Nobody carries cards there"
           ],
-          "hint": "Saat beşi bul.",
+          "hint": "Sinemaya ağır çanta götürülmez.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Why did she not walk the dog?",
+          "qTr": "Neden köpeği gezdirmedi?",
+          "correct": "Her grandpa took him",
+          "wrong": [
+            "Her brother took him",
+            "Her daddy took him"
+          ],
+          "hint": "Köpek beşte çıkarıldı. Bunu başka biri yaptı.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What was in the bag?",
-          "qTr": "Çantada ne vardı?",
-          "correct": "Six heavy books",
+          "q": "What did she do all evening?",
+          "qTr": "Bütün akşam ne yaptı?",
+          "correct": "She wrote notes",
           "wrong": [
-            "Six long lists",
-            "Six old cards"
+            "She read books",
+            "She set tables"
           ],
-          "hint": "Çantanın içini gösteren cümleyi bul.",
-          "hl": [
-            6
-          ]
-        },
-        {
-          "q": "What did mummy do all evening?",
-          "qTr": "Anne bütün akşam ne yaptı?",
-          "correct": "She wrote some notes",
-          "wrong": [
-            "She read some books",
-            "She set the table"
-          ],
-          "hint": "Akşamı anlatan cümleyi bul.",
+          "hint": "Masada çok uzun bir liste vardı.",
           "hl": [
             8
           ]
