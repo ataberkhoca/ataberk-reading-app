@@ -29,19 +29,21 @@
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"Can you sort these foods into healthy and unhealthy groups?\"",
+        "Ms. Reed: Can you sort these foods into healthy and unhealthy groups?",
         "Healthy foods give our bodies energy and help us grow. We should eat them every day!",
         "Green salad, spinach, broccoli, peas and cauliflower are all healthy vegetables.",
         "Fruits like apples, oranges, bananas, strawberries, plums and lemons are healthy too.",
         "Fish, chicken, turkey, eggs, yogurt, nuts and brown rice are also great healthy choices.",
         "But some foods are unhealthy. Chips, sweets, biscuits and soda have too much sugar and fat.",
-        "Chocolate, ice cream, cake, noodles, burgers and sausages are unhealthy if we eat too many.",
+        "Chocolate, ice-cream, cake, noodles, burgers and sausages are unhealthy if we eat too many.",
         "Pizza, pasta and lemonade can be unhealthy if we have them too often.",
-        "Nora said: \"I love sweets and biscuits — but I know I should eat more fruit and vegetables!\"",
-        "Ms. Reed smiled: \"That's enough sweets for today, Nora — let's have some nuts instead!\""
+        "Nora: I love sweets and biscuits.",
+        "Nora: But I know I should eat more fruit and vegetables!",
+        "Ms. Reed: That's enough sweets for today, Nora.",
+        "Ms. Reed: Let's have a few nuts instead!"
       ],
       "translations": [
-        "Ms. Reed sordu: \"Bu yiyecekleri sağlıklı ve sağlıksız gruplara ayırabilir misiniz?\"",
+        "Ms. Reed: Bu yiyecekleri sağlıklı ve sağlıksız gruplara ayırabilir misiniz?",
         "Sağlıklı yiyecekler vücudumuza enerji verir ve büyümemize yardımcı olur. Her gün yemeliyiz!",
         "Yeşil salata, ıspanak, brokoli, bezelye ve karnabahar sağlıklı sebzelerdir.",
         "Elma, portakal, muz, çilek, erik ve limon gibi meyveler de sağlıklı.",
@@ -49,8 +51,10 @@
         "Ama bazı yiyecekler sağlıksız. Cips, şeker, bisküvi ve gazlı içeceklerde çok fazla şeker ve yağ var.",
         "Çikolata, dondurma, pasta, erişte, burger ve sosis çok fazla yersek sağlıksız.",
         "Pizza, makarna ve limonata çok sık içersek sağlıksız olabilir.",
-        "Nora dedi: \"Şeker ve bisküvileri seviyorum — ama daha fazla meyve ve sebze yemem gerektiğini biliyorum!\"",
-        "Ms. Reed gülümsedi: \"Bugünlük bu kadar şeker yeter Nora — bunun yerine biraz kuruyemiş yiyelim!\""
+        "Nora: Şeker ve bisküvileri seviyorum.",
+        "Nora: Ama daha fazla meyve ve sebze yemem gerektiğini biliyorum!",
+        "Ms. Reed: Bugünlük bu kadar şeker yeter Nora.",
+        "Ms. Reed: Bunun yerine birkaç kuruyemiş yiyelim!"
       ],
       "questions": [
         {
@@ -61,7 +65,7 @@
             "Healthy fruits",
             "Unhealthy foods"
           ],
-          "hint": "Find peas and cauliflower in the text.",
+          "hint": "Bezelye ve karnabaharı bul.",
           "hl": [
             2
           ]
@@ -72,9 +76,9 @@
           "correct": "Brown rice and yogurt",
           "wrong": [
             "Chips and soda",
-            "Cake and ice cream"
+            "Cake and ice-cream"
           ],
-          "hint": "Find the sentence about healthy protein foods.",
+          "hint": "Esmer pirinç ve yoğurdu bul.",
           "hl": [
             4
           ]
@@ -84,10 +88,10 @@
           "qTr": "Cipsler, şekerler ve bisküvilerde çok fazla olan nedir?",
           "correct": "Sugar and fat",
           "wrong": [
-            "Vitamins",
-            "Protein"
+            "Vitamins and minerals",
+            "Protein and calcium"
           ],
-          "hint": "Find chips, sweets and biscuits in the text.",
+          "hint": "Cips, şeker ve bisküviyi bul.",
           "hl": [
             5
           ]
@@ -100,9 +104,9 @@
             "Sweets and biscuits",
             "Chocolate and cake"
           ],
-          "hint": "Find Nora in the text.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            8
+            9
           ]
         },
         {
@@ -113,9 +117,9 @@
             "Fruit",
             "Yogurt"
           ],
-          "hint": "Find what Ms. Reed says at the end of the text.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            9
+            11
           ]
         }
       ]
@@ -147,27 +151,27 @@
         }
       ],
       "sentences": [
-        "Every country has special dishes. Let's travel the world through food!",
+        "Every country has special dishes, and our class is going to taste them all this term!",
         "Türkiye is famous for kebab. People in Türkiye also love eating soup, yogurt and fresh bread.",
-        "Italy is famous for pizza and pasta. Italian food uses a lot of tomatoes, cheese and olive oil.",
+        "Italy is famous for pizza and pasta. Italian food is often served with fresh green salad and lemon.",
         "England is famous for fish and chips. People in England also love biscuits and tea!",
-        "Greece is famous for moussaka. Greek food uses a lot of vegetables, olive oil and cheese.",
-        "Mexico is famous for tacos. Mexican food is often spicy and uses a lot of corn and beans.",
-        "Algeria is famous for falafel and couscous. North African food is full of spices and flavour.",
+        "Greece is famous for moussaka. Greek food uses a lot of vegetables like spinach and cauliflower.",
+        "Mexico is famous for tacos. Mexican food is often spicy and uses a lot of chicken and peas.",
+        "Algeria is famous for falafel. Algerian food is full of fresh vegetables, spices and flavour.",
         "The United States of America is famous for burgers. Americans also love pizza, noodles and soda!",
-        "Spain, Germany and Azerbaijan also have wonderful dishes that people love all over the world.",
+        "Spain, Germany and Azerbaijan also have wonderful dishes — our class is going to try them one day!",
         "Turkish Republic of Northern Cyprus and Azerbaijan share many dishes with Türkiye — because they share the same culture and language!"
       ],
       "translations": [
-        "Her ülkenin özel yemekleri vardır. Yemek aracılığıyla dünyayı gezelim!",
+        "Her ülkenin özel yemekleri vardır ve sınıfımız bu dönem hepsini tadacak!",
         "Türkiye kebapla ünlüdür. Türkiye'deki insanlar aynı zamanda çorba, yoğurt ve taze ekmek yemeyi sever.",
-        "İtalya pizza ve makarna ile ünlüdür. İtalyan mutfağı çok domates, peynir ve zeytinyağı kullanır.",
+        "İtalya pizza ve makarna ile ünlüdür. İtalyan yemekleri genellikle taze yeşil salata ve limonla servis edilir.",
         "İngiltere balık ve cips ile ünlüdür. İngiltere'deki insanlar bisküvi ve çayı da sever!",
-        "Yunanistan musakka ile ünlüdür. Yunan mutfağı çok sebze, zeytinyağı ve peynir kullanır.",
-        "Meksika taco ile ünlüdür. Meksika mutfağı genellikle baharatlıdır ve çok mısır ve fasulye kullanır.",
-        "Cezayir falafel ve kuskus ile ünlüdür. Kuzey Afrika mutfağı baharat ve lezzetle doludur.",
+        "Yunanistan musakka ile ünlüdür. Yunan mutfağı ıspanak ve karnabahar gibi çok sebze kullanır.",
+        "Meksika taco ile ünlüdür. Meksika mutfağı genellikle baharatlıdır ve çok tavuk ve bezelye kullanır.",
+        "Cezayir falafel ile ünlüdür. Cezayir mutfağı taze sebze, baharat ve lezzetle doludur.",
         "Amerika Birleşik Devletleri burger ile ünlüdür. Amerikalılar aynı zamanda pizza, erişte ve gazlı içecekleri sever!",
-        "İspanya, Almanya ve Azerbaycan'ın da dünya genelinde insanların sevdiği harika yemekleri var.",
+        "İspanya, Almanya ve Azerbaycan'ın da harika yemekleri var — sınıfımız bir gün onları deneyecek!",
         "Kuzey Kıbrıs Türk Cumhuriyeti ve Azerbaycan, Türkiye ile pek çok yemeği paylaşır — çünkü aynı kültürü ve dili paylaşırlar!"
       ],
       "questions": [
@@ -179,7 +183,7 @@
             "Italy",
             "Algeria"
           ],
-          "hint": "Find the word moussaka in the text.",
+          "hint": "Musakkayı bul.",
           "hl": [
             4
           ]
@@ -192,7 +196,7 @@
             "Falafel",
             "Fish and chips"
           ],
-          "hint": "Find Mexico in the text.",
+          "hint": "Meksika'yı bul.",
           "hl": [
             5
           ]
@@ -200,12 +204,12 @@
         {
           "q": "What does Mexican food often use?",
           "qTr": "Meksika yemekleri sık sık ne kullanır?",
-          "correct": "Corn and beans",
+          "correct": "Chicken and peas",
           "wrong": [
-            "Tomatoes and cheese",
-            "Olive oil and spices"
+            "Fish and lemon",
+            "Milk and nuts"
           ],
-          "hint": "Find Mexico and the word uses in the text.",
+          "hint": "Meksika mutfağını bul.",
           "hl": [
             5
           ]
@@ -218,7 +222,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Find the United States of America in the text.",
+          "hint": "Amerika Birleşik Devletleri'ni bul.",
           "hl": [
             7
           ]
@@ -231,7 +235,7 @@
             "Because they are neighbours",
             "Because they use the same ingredients"
           ],
-          "hint": "Find the last sentence of the text.",
+          "hint": "Kuzey Kıbrıs Türk Cumhuriyeti ve Azerbaycan'ı bul.",
           "hl": [
             9
           ]
@@ -265,28 +269,56 @@
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"What are you going to do in the summer holidays? Tell me your plans!\"",
-        "Nora said: \"We are going to go to Italy next week. I am so excited — amazing!\"",
-        "\"We are going to visit Rome and eat the most delicious pizza there. I'm starving just thinking about it!\"",
-        "Sam said: \"My family is going to go to England this summer. We are going to try fish and chips!\"",
-        "\"My dad is going to visit a football stadium too. After you, Dad — I want to go first!\"",
-        "Leyla said: \"We are going to stay in Türkiye this summer. We are going to go to the seaside!\"",
-        "\"We are going to eat fresh fish, kebab and lots of fruit. I can't wait!\"",
-        "Ms. Reed said: \"I am going to visit Greece this year. I am going to try moussaka for the first time!\"",
-        "Nora asked: \"Are you going to bring us anything from Greece, Ms. Reed?\" Ms. Reed laughed: \"Never mind — I will bring you lots of stories!\"",
-        "Sam said: \"Thanks for everything, Ms. Reed! Have a wonderful holiday — we are going to miss you!\""
+        "Ms. Reed: What are you going to do in the summer holidays?",
+        "Ms. Reed: Tell me your plans!",
+        "Nora: We are going to go to Italy next week.",
+        "Nora: I am so excited.",
+        "Nora: Amazing!",
+        "Nora: We are going to visit Rome and eat the most delicious pizza there.",
+        "Nora: I'm starving just thinking about it!",
+        "Sam: My family is going to go to England this summer.",
+        "Sam: We are going to try fish and chips!",
+        "Sam: My dad is going to visit a football stadium too.",
+        "Sam: After you, Dad!",
+        "Sam: I want to go first!",
+        "Leyla: We are going to stay in Türkiye this summer.",
+        "Leyla: We are going to go to the seaside!",
+        "Leyla: We are going to eat fresh fish, kebab and lots of fruit.",
+        "Leyla: I can't wait!",
+        "Ms. Reed: I am going to visit Greece this year.",
+        "Ms. Reed: I am going to try moussaka for the first time!",
+        "Nora: Are you going to bring us anything from Greece, Ms. Reed?",
+        "Ms. Reed: Never mind!",
+        "Ms. Reed: I will bring you lots of stories!",
+        "Sam: Thanks for everything, Ms. Reed!",
+        "Sam: Have a wonderful holiday!",
+        "Sam: We are going to miss you!"
       ],
       "translations": [
-        "Ms. Reed sordu: \"Yaz tatilinde ne yapacaksınız? Planlarınızı anlatın!\"",
-        "Nora dedi: \"Gelecek hafta İtalya'ya gidiyoruz. Çok heyecanlıyım — inanılmaz!\"",
-        "\"Roma'yı ziyaret edeceğiz ve orada en lezzetli pizzayı yiyeceğiz. Sadece düşünmek bile acıktırıyor!\"",
-        "Sam dedi: \"Ailem bu yaz İngiltere'ye gidecek. Balık ve cips deneyeceğiz!\"",
-        "\"Babam da bir futbol stadyumunu ziyaret edecek. Buyurun Baba — ben önce gitmek istiyorum!\"",
-        "Leyla dedi: \"Bu yaz Türkiye'de kalacağız. Sahile gideceğiz!\"",
-        "\"Taze balık, kebap ve bol meyve yiyeceğiz. Sabırsızlanıyorum!\"",
-        "Ms. Reed dedi: \"Bu yıl Yunanistan'ı ziyaret edeceğim. İlk kez musakka deneyeceğim!\"",
-        "Nora sordu: \"Yunanistan'dan bize bir şey getirecek misiniz, Ms. Reed?\" Ms. Reed güldü: \"Boşver — size bir sürü hikaye getireceğim!\"",
-        "Sam dedi: \"Her şey için teşekkürler, Ms. Reed! Harika bir tatil geçirin — sizi özleyeceğiz!\""
+        "Ms. Reed: Yaz tatilinde ne yapacaksınız?",
+        "Ms. Reed: Planlarınızı anlatın!",
+        "Nora: Gelecek hafta İtalya'ya gidiyoruz.",
+        "Nora: Çok heyecanlıyım.",
+        "Nora: İnanılmaz!",
+        "Nora: Roma'yı ziyaret edeceğiz ve orada en lezzetli pizzayı yiyeceğiz.",
+        "Nora: Sadece düşünmek bile acıktırıyor!",
+        "Sam: Ailem bu yaz İngiltere'ye gidecek.",
+        "Sam: Balık ve cips deneyeceğiz!",
+        "Sam: Babam da bir futbol stadyumunu ziyaret edecek.",
+        "Sam: Buyurun Baba!",
+        "Sam: Ben önce gitmek istiyorum!",
+        "Leyla: Bu yaz Türkiye'de kalacağız.",
+        "Leyla: Sahile gideceğiz!",
+        "Leyla: Taze balık, kebap ve bol meyve yiyeceğiz.",
+        "Leyla: Sabırsızlanıyorum!",
+        "Ms. Reed: Bu yıl Yunanistan'ı ziyaret edeceğim.",
+        "Ms. Reed: İlk kez musakka deneyeceğim!",
+        "Nora: Yunanistan'dan bize bir şey getirecek misiniz, Ms. Reed?",
+        "Ms. Reed: Boşver!",
+        "Ms. Reed: Size bir sürü hikaye getireceğim!",
+        "Sam: Her şey için teşekkürler, Ms. Reed!",
+        "Sam: Harika bir tatil geçirin!",
+        "Sam: Sizi özleyeceğiz!"
       ],
       "questions": [
         {
@@ -297,9 +329,9 @@
             "England",
             "Greece"
           ],
-          "hint": "Find Nora in the text.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            1
+            2
           ]
         },
         {
@@ -307,12 +339,12 @@
           "qTr": "Sam'in babası İngiltere'de nereyi ziyaret edecek?",
           "correct": "A football stadium",
           "wrong": [
-            "A museum",
-            "A restaurant"
+            "A history museum",
+            "A famous restaurant"
           ],
-          "hint": "Find Sam's dad in the text.",
+          "hint": "Sam'in babasını bul.",
           "hl": [
-            4
+            9
           ]
         },
         {
@@ -320,12 +352,13 @@
           "qTr": "Leyla yazını nerede geçirecek?",
           "correct": "In Türkiye at the seaside",
           "wrong": [
-            "In Italy",
-            "In Greece"
+            "In Italy at the museum",
+            "In Greece at the market"
           ],
-          "hint": "Find Leyla in the text.",
+          "hint": "Leyla'yı bul.",
           "hl": [
-            5
+            12,
+            13
           ]
         },
         {
@@ -336,22 +369,22 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Find Ms. Reed and Greece in the text.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            7
+            17
           ]
         },
         {
           "q": "What does Ms. Reed say she will bring back for the class?",
           "qTr": "Ms. Reed sınıf için ne getireceğini söyler?",
-          "correct": "Lots of stories",
+          "correct": "Stories",
           "wrong": [
             "Moussaka",
             "Biscuits"
           ],
-          "hint": "Find what Ms. Reed says she will bring.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            8
+            20
           ]
         }
       ]
@@ -381,9 +414,9 @@
       "sentences": [
         "Nora: I have a wonderful healthy breakfast every morning.",
         "I drink a glass of milk. Milk makes my bones strong.",
-        "I eat fresh strawberry and grapes from our garden.",
+        "I eat fresh strawberry, grapes and banana from our garden.",
         "Sam: I love cherry and pear for my breakfast.",
-        "My mum cuts the pear into small pieces. I eat the cherries with yogurt.",
+        "My mum cuts a few pears into small pieces. I eat a little yogurt with my cherries.",
         "Leyla: I have a green salad with lettuce, tomato and cucumber.",
         "Nora: I eat fresh fruit every day — strawberry, grapes and cherry.",
         "Sam: Milk and pear are my favourites!",
@@ -393,9 +426,9 @@
       "translations": [
         "Nora: Her sabah harika bir sağlıklı kahvaltı yaparım.",
         "Bir bardak süt içerim. Süt kemiklerimi güçlü yapar.",
-        "Bahçemizden taze çilek ve üzüm yerim.",
+        "Bahçemizden taze çilek, üzüm ve muz yerim.",
         "Sam: Kahvaltıda kiraz ve armut severim.",
-        "Annem armudu küçük parçalara keser. Kirazları yoğurtla yerim.",
+        "Annem birkaç armudu küçük parçalara keser. Kirazlarımla biraz yoğurt yerim.",
         "Leyla: Marul, domates ve salatalıkla yeşil salata yerim.",
         "Nora: Her gün taze meyve yerim — çilek, üzüm ve kiraz.",
         "Sam: Süt ve armut favorilerim!",
@@ -411,7 +444,7 @@
             "Soda",
             "Lemonade"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
             1
           ]
@@ -419,12 +452,12 @@
         {
           "q": "What fruit does Nora eat?",
           "qTr": "Nora hangi meyveyi yer?",
-          "correct": "Strawberry and grapes",
+          "correct": "Strawberry, grapes and banana",
           "wrong": [
-            "Apple and pear",
-            "Banana"
+            "Apple, pear and orange",
+            "Plum, lemon and cherry"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'yı bul.",
           "hl": [
             2
           ]
@@ -434,10 +467,10 @@
           "qTr": "Sam neyi çok sever?",
           "correct": "Cherry and pear",
           "wrong": [
-            "Lemon",
-            "Plum"
+            "Lemon and orange",
+            "Plum and apple"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'i bul.",
           "hl": [
             3
           ]
@@ -447,10 +480,10 @@
           "qTr": "Leyla'nın salatasında ne var?",
           "correct": "Lettuce, tomato, cucumber",
           "wrong": [
-            "Eggs, milk",
-            "Cake"
+            "Eggs, milk and bread",
+            "Cake, soda and chips"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             5
           ]
@@ -463,7 +496,7 @@
             "Broccoli",
             "Spinach"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             8
           ]
@@ -501,8 +534,8 @@
         "We drank a lot of soda and lemonade at the party.",
         "Nora: The chocolate cake was amazing! I ate three pieces!",
         "Sam: Ice-cream is my favourite cold treat in summer.",
-        "Leyla: Chocolate and ice-cream — what a perfect party!",
-        "Nora: But our mums said: not too much chocolate every day!"
+        "Leyla: Chocolate and ice-cream — what a perfect party! We are going to have the same treats next year!",
+        "Nora's mum: That's enough chocolate for one party!"
       ],
       "translations": [
         "Geçen hafta sonu kuzenim harika bir doğum günü partisi verdi.",
@@ -513,8 +546,8 @@
         "Partide çok soda ve limonata içtik.",
         "Nora: Çikolatalı pasta harikaydı! Üç parça yedim!",
         "Sam: Dondurma yazın favori soğuk ikramım.",
-        "Leyla: Çikolata ve dondurma — ne mükemmel bir parti!",
-        "Nora: Ama annemler dedi: her gün çok çikolata olmaz!"
+        "Leyla: Çikolata ve dondurma — ne mükemmel bir parti! Gelecek yıl da aynı ikramları yiyeceğiz!",
+        "Nora'nın annesi: Bir parti için bu kadar çikolata yeter!"
       ],
       "questions": [
         {
@@ -522,10 +555,10 @@
           "qTr": "Masada ne vardı?",
           "correct": "A chocolate cake",
           "wrong": [
-            "Pizza",
-            "Pasta"
+            "A pizza slice",
+            "A pasta bowl"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Masayı bul.",
           "hl": [
             1
           ]
@@ -538,7 +571,7 @@
             "Salad",
             "Soup"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Akşam yemeğini bul.",
           "hl": [
             2
           ]
@@ -551,7 +584,7 @@
             "Chocolate",
             "Strawberry"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'i bul.",
           "hl": [
             3
           ]
@@ -561,10 +594,10 @@
           "qTr": "Ne içtiler?",
           "correct": "Soda and lemonade",
           "wrong": [
-            "Milk",
-            "Water"
+            "Milk and juice",
+            "Water and tea"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "İçecekleri bul.",
           "hl": [
             5
           ]
@@ -577,7 +610,7 @@
             "Bad",
             "Boring"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Çikolatalı pastayı bul.",
           "hl": [
             6
           ]
@@ -609,24 +642,24 @@
       "sentences": [
         "Ms. Reed: Children, look at this kitchen. There is little healthy food here.",
         "There are few vegetables in the fridge. Only one tomato!",
-        "There is little milk in the bottle. We need to buy more.",
+        "There is little turkey in the freezer. We need to buy more.",
         "There are few apples in the basket. Just two!",
         "Nora: My grandmother has a few cucumbers in her garden.",
         "There is a little broccoli in the kitchen. It is healthy!",
         "Sam: My family has a little yogurt and a few eggs in the fridge.",
-        "We always need a few healthy things for the week.",
+        "We always need a few peas and a little meat for the week.",
         "Leyla: Few people eat healthy food every day. But it is important!",
         "Ms. Reed: Few or many, healthy food is the best choice for our bodies!"
       ],
       "translations": [
         "Ms. Reed: Çocuklar, bu mutfağa bakın. Burada az sağlıklı yemek var.",
         "Buzdolabında az sebze var. Sadece bir domates!",
-        "Şişede az süt var. Daha fazla almamız gerekiyor.",
+        "Dondurucuda az hindi eti var. Daha fazla almamız gerekiyor.",
         "Sepette az elma var. Sadece iki!",
         "Nora: Büyükannemin bahçesinde birkaç salatalık var.",
         "Mutfakta biraz brokoli var. Sağlıklı!",
         "Sam: Ailemin buzdolabında biraz yoğurt ve birkaç yumurta var.",
-        "Hafta için her zaman birkaç sağlıklı şeye ihtiyacımız var.",
+        "Hafta için her zaman birkaç bezelye ve biraz ete ihtiyacımız var.",
         "Leyla: Az insan her gün sağlıklı yemek yer. Ama önemli!",
         "Ms. Reed: Az veya çok, sağlıklı yemek vücudumuz için en iyi seçim!"
       ],
@@ -639,7 +672,7 @@
             "A lot",
             "Much"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Mutfağı bul.",
           "hl": [
             0
           ]
@@ -652,7 +685,7 @@
             "Many",
             "A lot"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Buzdolabındaki sebzeleri bul.",
           "hl": [
             1
           ]
@@ -665,7 +698,7 @@
             "Many",
             "None"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Büyükannenin salatalıklarını bul.",
           "hl": [
             4
           ]
@@ -678,7 +711,7 @@
             "A lot",
             "None"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Brokoliyi bul.",
           "hl": [
             5
           ]
@@ -691,7 +724,7 @@
             "Many",
             "None"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Yumurtaları bul.",
           "hl": [
             6
           ]
@@ -722,9 +755,14 @@
       ],
       "sentences": [
         "Today, the class is tasting different foods from many countries!",
-        "Nora tries a small piece of moussaka. \"It tastes good!\" she says.",
-        "Sam tries a falafel. \"Amazing! It tastes good!\" he says.",
-        "Leyla tries a small taco. \"Wow! It tastes good with this sauce!\"",
+        "Nora tries a small piece of moussaka.",
+        "Nora: It tastes good!",
+        "Sam tries a falafel.",
+        "Sam: Amazing!",
+        "Sam: It tastes good!",
+        "Leyla tries a small taco.",
+        "Leyla: Wow!",
+        "Leyla: It tastes good with this sauce!",
         "Ms. Reed: Now try this brown rice with chicken.",
         "Nora: It tastes good! I love it.",
         "Sam: This kebab tastes good with green salad.",
@@ -734,9 +772,14 @@
       ],
       "translations": [
         "Bugün sınıf birçok ülkeden farklı yemekleri tadıyor!",
-        "Nora küçük bir parça musakka dener. \"Lezzetli!\" der.",
-        "Sam falafel dener. \"Harika! Lezzetli!\" der.",
-        "Leyla küçük bir tako dener. \"Vay! Bu sosla lezzetli!\"",
+        "Nora küçük bir parça musakka dener.",
+        "Nora: Lezzetli!",
+        "Sam falafel dener.",
+        "Sam: Harika!",
+        "Sam: Lezzetli!",
+        "Leyla küçük bir tako dener.",
+        "Leyla: Vay!",
+        "Leyla: Bu sosla lezzetli!",
         "Ms. Reed: Şimdi bu esmer pirinçle tavuğu dene.",
         "Nora: Lezzetli! Çok severim.",
         "Sam: Bu kebap yeşil salatayla lezzetli.",
@@ -753,7 +796,7 @@
             "Falafel",
             "Taco"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
             1
           ]
@@ -763,12 +806,13 @@
           "qTr": "Sam ne der?",
           "correct": "Amazing! It tastes good!",
           "wrong": [
-            "Bad",
-            "Boring"
+            "Terrible! It tastes bad!",
+            "Boring! It tastes strange!"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'i bul.",
           "hl": [
-            2
+            4,
+            5
           ]
         },
         {
@@ -776,25 +820,25 @@
           "qTr": "Leyla neyi dener?",
           "correct": "A small taco",
           "wrong": [
-            "Pizza",
-            "Brown rice"
+            "A big pizza",
+            "Some brown rice"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'yı bul.",
           "hl": [
-            3
+            6
           ]
         },
         {
           "q": "What does Ms. Reed give them?",
           "qTr": "Ms. Reed onlara ne verir?",
-          "correct": "Brown rice with chicken",
+          "correct": "Brown rice and chicken",
           "wrong": [
-            "Cake",
-            "Pizza"
+            "Cake and biscuits",
+            "Pizza and pasta"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            4
+            9
           ]
         },
         {
@@ -802,12 +846,12 @@
           "qTr": "Sam kebap hakkında ne der?",
           "correct": "It tastes good with salad",
           "wrong": [
-            "It is bad",
-            "It is cold"
+            "It tastes bad with salad",
+            "It tastes cold with rice"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Sam'i bul.",
           "hl": [
-            6
+            11
           ]
         }
       ]
@@ -840,11 +884,11 @@
         "Sam: My family is going to go to Mexico in July.",
         "We are going to eat tacos and meet local children.",
         "Leyla: I am going to travel to Azerbaijan with my grandparents.",
-        "We are going to eat plov, a famous Azerbaijani dish.",
+        "We are going to eat brown rice and chicken, a famous Azerbaijani meal.",
         "Nora: My uncle is going to visit Algeria next year.",
         "He is going to try a few new dishes there.",
-        "Sam: My aunt is going to fly to the United States of America in August.",
-        "Leyla: We are all going to have amazing summers!"
+        "Sam: My aunt is going to fly to the United States of America in August. She is going to eat a burger there!",
+        "Leyla: We are all going to have wonderful summers!"
       ],
       "translations": [
         "Nora: Gelecek ay kuzenimi Almanya'da ziyaret edeceğim.",
@@ -852,10 +896,10 @@
         "Sam: Ailem Temmuz'da Meksika'ya gidecek.",
         "Tako yiyeceğiz ve yerli çocuklarla tanışacağız.",
         "Leyla: Büyükannem ve dedemle Azerbaycan'a seyahat edeceğim.",
-        "Plov yiyeceğiz, ünlü bir Azerbaycan yemeği.",
+        "Esmer pirinç ve tavuk yiyeceğiz, ünlü bir Azerbaycan yemeği.",
         "Nora: Amcam gelecek yıl Cezayir'i ziyaret edecek.",
         "Orada birkaç yeni yemek deneyecek.",
-        "Sam: Halam Ağustos'ta Amerika Birleşik Devletleri'ne uçacak.",
+        "Sam: Halam Ağustos'ta Amerika Birleşik Devletleri'ne uçacak. Orada bir burger yiyecek!",
         "Leyla: Hepimizin harika yazları olacak!"
       ],
       "questions": [
@@ -867,7 +911,7 @@
             "Spain",
             "Italy"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'yı bul.",
           "hl": [
             0
           ]
@@ -877,10 +921,10 @@
           "qTr": "Nora Almanya'da ne yiyecek?",
           "correct": "Sausage and brown bread",
           "wrong": [
-            "Pizza",
-            "Tacos"
+            "Pizza and pasta",
+            "Tacos and rice"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Almanya'yı bul.",
           "hl": [
             1
           ]
@@ -893,7 +937,7 @@
             "Germany",
             "Italy"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'in ailesini bul.",
           "hl": [
             2
           ]
@@ -906,7 +950,7 @@
             "Mexico",
             "Germany"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             4
           ]
@@ -919,7 +963,7 @@
             "America",
             "Italy"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Nora'nın amcasını bul.",
           "hl": [
             6
           ]
@@ -954,7 +998,7 @@
         "I think we will see many people there.",
         "Sam: I think it will rain next week.",
         "We are going to stay at home and watch films.",
-        "Leyla: I think summer will be amazing this year.",
+        "Leyla: I think summer will be great this year.",
         "I am going to travel to my grandmother's village.",
         "Nora: I think we will eat delicious food on our holidays.",
         "Sam: I am going to try moussaka in Greece next month!",
@@ -966,7 +1010,7 @@
         "Bence orada birçok insan göreceğiz.",
         "Sam: Bence gelecek hafta yağmur yağacak.",
         "Evde kalıp film izleyeceğiz.",
-        "Leyla: Bence bu yıl yaz harika olacak.",
+        "Leyla: Bence bu yıl yaz güzel olacak.",
         "Büyükannemin köyüne seyahat edeceğim.",
         "Nora: Bence tatilde lezzetli yemekler yiyeceğiz.",
         "Sam: Gelecek ay Yunanistan'da musakka deneyeceğim!",
@@ -978,10 +1022,10 @@
           "qTr": "Nora yarın hakkında ne düşünür?",
           "correct": "It will be sunny",
           "wrong": [
-            "It will rain",
-            "It will snow"
+            "It will be rainy",
+            "It will be snowy"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'yı bul.",
           "hl": [
             0
           ]
@@ -994,7 +1038,7 @@
             "The mountain",
             "The city"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın ailesini bul.",
           "hl": [
             1
           ]
@@ -1004,10 +1048,10 @@
           "qTr": "Sam ne olacağını düşünür?",
           "correct": "It will rain",
           "wrong": [
-            "It will be sunny",
-            "Snow"
+            "It will snow",
+            "It will shine"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'i bul.",
           "hl": [
             3
           ]
@@ -1015,12 +1059,12 @@
         {
           "q": "What is Sam's family going to do?",
           "qTr": "Sam'in ailesi ne yapacak?",
-          "correct": "Stay at home",
+          "correct": "Stay home",
           "wrong": [
-            "Travel",
-            "Swim"
+            "Go swimming",
+            "Go travelling"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sam'in ailesini bul.",
           "hl": [
             4
           ]
@@ -1033,7 +1077,7 @@
             "Tacos",
             "Falafel"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sam'i bul.",
           "hl": [
             8
           ]
@@ -1063,26 +1107,26 @@
         }
       ],
       "sentences": [
-        "Ms. Reed: Which is the most delicious dish in each country?",
+        "Ms. Reed: We are going to travel around the world today! Which is the most delicious dish in each country?",
         "Nora: Pizza is the most famous dish in Italy.",
-        "Pasta is also amazing in Italy. But pizza is the most delicious!",
+        "Pasta is also delicious in Italy. But pizza is the most delicious!",
         "Sam: Tacos are the best dishes in Mexico. They are spicy and full of flavour.",
         "Leyla: Moussaka is the most special dish in Greece.",
         "Nora: Kebab is the best dish in Türkiye. Everyone loves it!",
         "Sam: Falafel is the most popular dish in Algeria.",
-        "Leyla: Brown rice with chicken is amazing in Azerbaijan.",
+        "Leyla: Brown rice with chicken is delicious in Azerbaijan.",
         "Nora: Fish and chips is the most famous dish in England.",
         "Ms. Reed: Every country has the best dish for its people!"
       ],
       "translations": [
-        "Ms. Reed: Her ülkede en lezzetli yemek hangisi?",
+        "Ms. Reed: Bugün dünyayı gezeceğiz! Her ülkede en lezzetli yemek hangisi?",
         "Nora: Pizza İtalya'nın en ünlü yemeği.",
-        "Makarna da İtalya'da harika. Ama pizza en lezzetli!",
+        "Makarna da İtalya'da lezzetli. Ama pizza en lezzetli!",
         "Sam: Tako Meksika'nın en iyi yemeği. Baharatlı ve lezzet dolu.",
         "Leyla: Musakka Yunanistan'ın en özel yemeği.",
         "Nora: Kebap Türkiye'nin en iyi yemeği. Herkes çok sever!",
         "Sam: Falafel Cezayir'in en popüler yemeği.",
-        "Leyla: Tavuklu esmer pirinç Azerbaycan'da harika.",
+        "Leyla: Tavuklu esmer pirinç Azerbaycan'da lezzetli.",
         "Nora: Fish and chips İngiltere'nin en ünlü yemeği.",
         "Ms. Reed: Her ülkenin halkı için en iyi yemeği var!"
       ],
@@ -1095,7 +1139,7 @@
             "Pasta",
             "Soup"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "İtalya'yı bul.",
           "hl": [
             1
           ]
@@ -1108,7 +1152,7 @@
             "Pizza",
             "Kebab"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Meksika'yı bul.",
           "hl": [
             3
           ]
@@ -1121,7 +1165,7 @@
             "Kebab",
             "Pizza"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Yunanistan'ı bul.",
           "hl": [
             4
           ]
@@ -1134,7 +1178,7 @@
             "Pizza",
             "Falafel"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Türkiye'yi bul.",
           "hl": [
             5
           ]
@@ -1147,7 +1191,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "İngiltere'yi bul.",
           "hl": [
             8
           ]
@@ -1183,28 +1227,48 @@
         }
       ],
       "sentences": [
-        "Ms. Reed announced: \"Next Friday, we are going to have a class cooking activity. Amazing!\"",
-        "\"We are going to make a healthy salad together. Let's decide what to put in it!\"",
-        "Nora said: \"We are going to use a little olive oil and a few cucumbers.\"",
-        "\"I am going to add a little lemon juice too. It makes the salad taste good!\"",
-        "Sam said: \"We are going to put in a few tomatoes and a little salt. That's enough!\"",
-        "\"I am also going to add a few olives. But only a few — I know some people don't like them!\"",
-        "Leyla said: \"We are going to use little sugar in this salad — it is a savoury dish, not a sweet one!\"",
-        "\"But I am going to add a few nuts on top. They make it crunchy and healthy.\"",
-        "Ms. Reed said: \"I'm starving just listening to you! We are going to need a few bowls and spoons too.\"",
-        "Nora laughed: \"After you, Ms. Reed — you are going to get the first taste!\""
+        "Ms. Reed: Next Friday, we are going to have a class cooking activity.",
+        "Ms. Reed: Amazing!",
+        "Ms. Reed: We are going to make a healthy salad together.",
+        "Ms. Reed: Let's decide what to put in it!",
+        "Nora: We are going to use a few peas and a few cucumbers.",
+        "Nora: I am going to add a little lemon juice too.",
+        "Nora: It makes the salad taste good!",
+        "Sam: We are going to put in a few tomatoes and a little salt.",
+        "Sam: That's enough!",
+        "Sam: I am also going to add a few nuts.",
+        "Sam: But only a few.",
+        "Sam: I know some people don't like nuts!",
+        "Leyla: We are going to use little sugar in this salad.",
+        "Leyla: It is a savoury dish, not a sweet one!",
+        "Leyla: But I am going to add a few nuts on top.",
+        "Leyla: They make it crunchy and healthy.",
+        "Ms. Reed: I'm starving just listening to you!",
+        "Ms. Reed: We are going to need a few bowls and spoons too.",
+        "Nora: After you, Ms. Reed!",
+        "Nora: You are going to get the first taste!"
       ],
       "translations": [
-        "Ms. Reed duyurdu: \"Gelecek Cuma bir sınıf yemek pişirme etkinliği yapacağız. İnanılmaz!\"",
-        "\"Birlikte sağlıklı bir salata yapacağız. Ne koyacağımıza karar verelim!\"",
-        "Nora dedi: \"Biraz zeytinyağı ve birkaç salatalık kullanacağız.\"",
-        "\"Biraz limon suyu da ekleyeceğim. Salatayı lezzetli yapıyor!\"",
-        "Sam dedi: \"Birkaç domates ve biraz tuz koyacağız. Bu kadar yeter!\"",
-        "\"Birkaç zeytin de ekleyeceğim. Ama sadece birkaç — bazı insanların onları sevmediğini biliyorum!\"",
-        "Leyla dedi: \"Bu salataya az şeker kullanacağız — tuzlu bir yemek, tatlı değil!\"",
-        "\"Ama üstüne birkaç fındık ekleyeceğim. Çıtır çıtır ve sağlıklı yapıyor.\"",
-        "Ms. Reed dedi: \"Sizi dinlerken acıktım! Birkaç kase ve kaşığa da ihtiyacımız olacak.\"",
-        "Nora güldü: \"Buyurun Ms. Reed — ilk tadı siz alacaksınız!\""
+        "Ms. Reed: Gelecek Cuma bir sınıf yemek pişirme etkinliği yapacağız.",
+        "Ms. Reed: İnanılmaz!",
+        "Ms. Reed: Birlikte sağlıklı bir salata yapacağız.",
+        "Ms. Reed: Ne koyacağımıza karar verelim!",
+        "Nora: Birkaç bezelye ve birkaç salatalık kullanacağız.",
+        "Nora: Biraz limon suyu da ekleyeceğim.",
+        "Nora: Salatayı lezzetli yapıyor!",
+        "Sam: Birkaç domates ve biraz tuz koyacağız.",
+        "Sam: Bu kadar yeter!",
+        "Sam: Birkaç fındık da ekleyeceğim.",
+        "Sam: Ama sadece birkaç.",
+        "Sam: Bazı insanların fındığı sevmediğini biliyorum!",
+        "Leyla: Bu salataya az şeker kullanacağız.",
+        "Leyla: Tuzlu bir yemek, tatlı değil!",
+        "Leyla: Ama üstüne birkaç fındık ekleyeceğim.",
+        "Leyla: Çıtır çıtır ve sağlıklı yapıyor.",
+        "Ms. Reed: Sizi dinlerken acıktım!",
+        "Ms. Reed: Birkaç kase ve kaşığa da ihtiyacımız olacak.",
+        "Nora: Buyurun Ms. Reed!",
+        "Nora: İlk tadı siz alacaksınız!"
       ],
       "questions": [
         {
@@ -1215,38 +1279,42 @@
             "Comparing healthy and unhealthy food",
             "Describing dishes from different countries"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "Yemek planlamasını düşün.",
           "hl": [
             0,
             1,
-            2
+            2,
+            3,
+            4
           ]
         },
         {
           "q": "What is Nora going to add to the salad?",
           "qTr": "Nora salataya ne ekleyecek?",
-          "correct": "A little olive oil, a few cucumbers and a little lemon juice",
+          "correct": "A few peas, a few cucumbers and a little lemon juice",
           "wrong": [
-            "A few tomatoes and a little salt",
-            "A few nuts and a little sugar"
+            "A few tomatoes, a little salt and a few nuts",
+            "A few nuts, a little sugar and a little salt"
           ],
-          "hint": "Find Nora in the text.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            2,
-            3
+            4,
+            5,
+            6
           ]
         },
         {
-          "q": "Why does Sam say only a few olives?",
-          "qTr": "Sam neden sadece birkaç zeytin der?",
+          "q": "Why does Sam say only a few nuts?",
+          "qTr": "Sam neden sadece birkaç fındık der?",
           "correct": "Because some people don't like them",
           "wrong": [
             "Because they are unhealthy",
             "Because they are expensive"
           ],
-          "hint": "Find Sam and the word olives in the text.",
+          "hint": "Sam'i bul.",
           "hl": [
-            5
+            10,
+            11
           ]
         },
         {
@@ -1257,9 +1325,10 @@
             "They are going to add a lot of sugar",
             "They are not going to use any sugar"
           ],
-          "hint": "Find Leyla and the word sugar in the text.",
+          "hint": "Leyla'yı bul.",
           "hl": [
-            6
+            12,
+            13
           ]
         },
         {
@@ -1270,9 +1339,10 @@
             "Nora",
             "Sam"
           ],
-          "hint": "Find the last sentence of the text.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            9
+            18,
+            19
           ]
         }
       ]
@@ -1304,28 +1374,50 @@
         }
       ],
       "sentences": [
-        "Ms. Reed asked: \"Which country's food do you think is the most delicious in the world?\"",
-        "Nora said: \"I think Italian food is the most delicious. We are going to Italy and I am going to eat pizza every day!\"",
-        "\"Pizza is the most popular dish in the world. You can find it in every country!\"",
-        "Sam said: \"I think Turkish food is the best. Kebab is the most flavourful dish I have ever tried!\"",
-        "\"We are going to a kebab restaurant on Saturday. I am going to order the biggest one!\"",
-        "Leyla said: \"I think Mexican food is the most exciting. Tacos are the most colourful and fun dish!\"",
-        "\"My mum is going to make tacos at home next week. She is going to use a few different sauces.\"",
-        "Ms. Reed said: \"That's interesting — I think Greek food is the healthiest. Moussaka uses the most vegetables!\"",
-        "\"I am going to cook moussaka at home this weekend. It is the most comforting dish on a cold evening.\"",
-        "Sam laughed: \"The best dish is always the one in front of you — I'm starving! When are we going to eat?\""
+        "Ms. Reed: Which country's food do you think is the most delicious in the world?",
+        "Nora: I think Italian food is the most delicious.",
+        "Nora: We are going to Italy and I am going to eat pizza every day!",
+        "Nora: Pizza is the most popular dish in the world.",
+        "Nora: You can find it in every country!",
+        "Sam: I think Turkish food is the best.",
+        "Sam: Kebab is the most flavourful dish I have ever tried!",
+        "Sam: We are going to a kebab restaurant on Saturday.",
+        "Sam: I am going to order the biggest one!",
+        "Leyla: I think Mexican food is the most exciting.",
+        "Leyla: Tacos are the most colourful and fun dish!",
+        "Leyla: My mum is going to make tacos at home next week.",
+        "Leyla: She is going to use a few different sauces.",
+        "Ms. Reed: That's interesting.",
+        "Ms. Reed: I think Greek food is the healthiest.",
+        "Ms. Reed: Moussaka uses the most vegetables!",
+        "Ms. Reed: I am going to cook moussaka at home this weekend.",
+        "Ms. Reed: It is the most comforting dish on a cold evening.",
+        "Sam: The best dish is always the one in front of you.",
+        "Sam: I'm starving!",
+        "Sam: When are we going to eat?"
       ],
       "translations": [
-        "Ms. Reed sordu: \"Sizce dünyanın en lezzetli yemeği hangi ülkenin?\"",
-        "Nora dedi: \"Bence İtalyan mutfağı en lezzetli. İtalya'ya gidiyoruz ve her gün pizza yiyeceğim!\"",
-        "\"Pizza dünyanın en popüler yemeği. Her ülkede bulabilirsiniz!\"",
-        "Sam dedi: \"Bence Türk mutfağı en iyisi. Kebap şimdiye kadar denediğim en lezzetli yemek!\"",
-        "\"Cumartesi bir kebap restoranına gidiyoruz. En büyüğünü sipariş edeceğim!\"",
-        "Leyla dedi: \"Bence Meksika mutfağı en heyecanlı. Taco en renkli ve eğlenceli yemek!\"",
-        "\"Annem gelecek hafta evde taco yapacak. Birkaç farklı sos kullanacak.\"",
-        "Ms. Reed dedi: \"Bu ilginç — bence Yunan mutfağı en sağlıklısı. Musakka en fazla sebzeyi kullanıyor!\"",
-        "\"Bu hafta sonu evde musakka pişireceğim. Soğuk bir akşamda en rahatlatıcı yemek.\"",
-        "Sam güldü: \"En iyi yemek her zaman önünüzdeki — acıktım! Ne zaman yiyeceğiz?\""
+        "Ms. Reed: Sizce dünyanın en lezzetli yemeği hangi ülkenin?",
+        "Nora: Bence İtalyan mutfağı en lezzetli.",
+        "Nora: İtalya'ya gidiyoruz ve her gün pizza yiyeceğim!",
+        "Nora: Pizza dünyanın en popüler yemeği.",
+        "Nora: Her ülkede bulabilirsiniz!",
+        "Sam: Bence Türk mutfağı en iyisi.",
+        "Sam: Kebap şimdiye kadar denediğim en lezzetli yemek!",
+        "Sam: Cumartesi bir kebap restoranına gidiyoruz.",
+        "Sam: En büyüğünü sipariş edeceğim!",
+        "Leyla: Bence Meksika mutfağı en heyecanlı.",
+        "Leyla: Taco en renkli ve eğlenceli yemek!",
+        "Leyla: Annem gelecek hafta evde taco yapacak.",
+        "Leyla: Birkaç farklı sos kullanacak.",
+        "Ms. Reed: Bu ilginç.",
+        "Ms. Reed: Bence Yunan mutfağı en sağlıklısı.",
+        "Ms. Reed: Musakka en fazla sebzeyi kullanıyor!",
+        "Ms. Reed: Bu hafta sonu evde musakka pişireceğim.",
+        "Ms. Reed: Soğuk bir akşamda en rahatlatıcı yemek.",
+        "Sam: En iyi yemek her zaman önünüzdeki.",
+        "Sam: Acıktım!",
+        "Sam: Ne zaman yiyeceğiz?"
       ],
       "questions": [
         {
@@ -1336,11 +1428,13 @@
             "Planning a class cooking activity",
             "Describing healthy and unhealthy food"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "En lezzetli yemekleri düşün.",
           "hl": [
             0,
             1,
-            3
+            2,
+            5,
+            6
           ]
         },
         {
@@ -1351,9 +1445,10 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Find Sam in the text.",
+          "hint": "Sam'i bul.",
           "hl": [
-            3
+            5,
+            6
           ]
         },
         {
@@ -1364,9 +1459,10 @@
             "Moussaka",
             "Kebab"
           ],
-          "hint": "Find Leyla's mum in the text.",
+          "hint": "Leyla'nın annesini bul.",
           "hl": [
-            6
+            11,
+            12
           ]
         },
         {
@@ -1375,11 +1471,12 @@
           "correct": "Because moussaka uses the most vegetables",
           "wrong": [
             "Because it has the least sugar",
-            "Because it uses olive oil"
+            "Because it uses fresh lemon"
           ],
-          "hint": "Find Ms. Reed and Greek food in the text.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            7
+            14,
+            15
           ]
         },
         {
@@ -1390,9 +1487,10 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Find Ms. Reed and the word weekend in the text.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            8
+            16,
+            17
           ]
         }
       ]
@@ -1425,27 +1523,47 @@
       ],
       "sentences": [
         "The last day of school is next week. Everyone is talking about their holiday plans!",
-        "Nora said: \"We are going to fly to Italy on Monday. I think it will be sunny and warm there!\"",
-        "\"We are going to stay in Rome for five days. I think we will see the most amazing things!\"",
-        "Sam said: \"We are not going to travel abroad this year. We are going to stay in Türkiye.\"",
-        "\"We are going to visit my grandparents in the village. I think it will be the best holiday ever!\"",
-        "\"Grandma is going to cook the most delicious food for us. I think she will make kebab every day!\"",
-        "Leyla said: \"We are going to go to the Turkish Republic of Northern Cyprus this summer. Amazing!\"",
-        "\"We are going to meet our cousins there. I think we will swim in the sea every day.\"",
-        "Ms. Reed said: \"Thanks for everything, class! I am going to miss you all so much.\"",
-        "\"I think next year will be even better. Have a wonderful summer — never mind the small things and enjoy every moment!\""
+        "Nora: We are going to fly to Italy on Monday.",
+        "Nora: I think it will be sunny and warm there!",
+        "Nora: We are going to stay in Rome for five days.",
+        "Nora: I think we will see the most wonderful things!",
+        "Sam: We are not going to travel abroad this year.",
+        "Sam: We are going to stay in Türkiye.",
+        "Sam: We are going to visit my grandparents in the village.",
+        "Sam: I think it will be the best holiday ever!",
+        "Sam: Grandma is going to cook the most delicious food for us.",
+        "Sam: I think she will make kebab every day!",
+        "Leyla: We are going to go to the Turkish Republic of Northern Cyprus this summer.",
+        "Leyla: Amazing!",
+        "Leyla: We are going to meet our cousins there.",
+        "Leyla: I think we will swim in the sea every day.",
+        "Ms. Reed: Thanks for everything, class!",
+        "Ms. Reed: I am going to miss you all so much.",
+        "Ms. Reed: I think next year will be even better.",
+        "Ms. Reed: Have a wonderful summer.",
+        "Ms. Reed: Never mind the small things and enjoy every moment!"
       ],
       "translations": [
         "Okulun son günü gelecek hafta. Herkes tatil planlarından bahsediyor!",
-        "Nora dedi: \"Pazartesi günü İtalya'ya uçacağız. Bence orada güneşli ve sıcak olacak!\"",
-        "\"Roma'da beş gün kalacağız. Bence en inanılmaz şeyleri göreceğiz!\"",
-        "Sam dedi: \"Bu yıl yurt dışına gitmeyeceğiz. Türkiye'de kalacağız.\"",
-        "\"Köyde büyükannem ve büyükbabamı ziyaret edeceğiz. Bence şimdiye kadarki en iyi tatil olacak!\"",
-        "\"Büyükannem bizim için en lezzetli yemekleri pişirecek. Bence her gün kebap yapacak!\"",
-        "Leyla dedi: \"Bu yaz Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz. İnanılmaz!\"",
-        "\"Orada kuzenlerimizle buluşacağız. Bence her gün denizde yüzeceğiz.\"",
-        "Ms. Reed dedi: \"Her şey için teşekkürler, sınıf! Hepinizi çok özleyeceğim.\"",
-        "\"Bence gelecek yıl daha da iyi olacak. Harika bir yaz geçirin — küçük şeyleri umursamayın ve her anın tadını çıkarın!\""
+        "Nora: Pazartesi günü İtalya'ya uçacağız.",
+        "Nora: Bence orada güneşli ve sıcak olacak!",
+        "Nora: Roma'da beş gün kalacağız.",
+        "Nora: Bence en güzel şeyleri göreceğiz!",
+        "Sam: Bu yıl yurt dışına gitmeyeceğiz.",
+        "Sam: Türkiye'de kalacağız.",
+        "Sam: Köyde büyükannem ve büyükbabamı ziyaret edeceğiz.",
+        "Sam: Bence şimdiye kadarki en iyi tatil olacak!",
+        "Sam: Büyükannem bizim için en lezzetli yemekleri pişirecek.",
+        "Sam: Bence her gün kebap yapacak!",
+        "Leyla: Bu yaz Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz.",
+        "Leyla: İnanılmaz!",
+        "Leyla: Orada kuzenlerimizle buluşacağız.",
+        "Leyla: Bence her gün denizde yüzeceğiz.",
+        "Ms. Reed: Her şey için teşekkürler, sınıf!",
+        "Ms. Reed: Hepinizi çok özleyeceğim.",
+        "Ms. Reed: Bence gelecek yıl daha da iyi olacak.",
+        "Ms. Reed: Harika bir yaz geçirin.",
+        "Ms. Reed: Küçük şeyleri umursamayın ve her anın tadını çıkarın!"
       ],
       "questions": [
         {
@@ -1456,11 +1574,13 @@
             "The last lesson of the year",
             "Comparing dishes from different countries"
           ],
-          "hint": "Think about what the whole text is about.",
+          "hint": "Tatil planlarını düşün.",
           "hl": [
             0,
             1,
-            3
+            2,
+            5,
+            6
           ]
         },
         {
@@ -1471,9 +1591,10 @@
             "Cloudy and cool",
             "Stormy and cold"
           ],
-          "hint": "Find Nora and Italy in the text.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            1
+            1,
+            2
           ]
         },
         {
@@ -1481,26 +1602,29 @@
           "qTr": "Sam tatilini nerede geçirecek?",
           "correct": "In Türkiye visiting grandparents",
           "wrong": [
-            "In Italy",
-            "In the Turkish Republic of Northern Cyprus"
+            "In Italy with Ms. Reed",
+            "In Spain at the beach"
           ],
-          "hint": "Find Sam in the text.",
+          "hint": "Sam'i bul.",
           "hl": [
-            3,
-            4
+            5,
+            6,
+            7,
+            8
           ]
         },
         {
           "q": "Where is Leyla going to go this summer?",
           "qTr": "Leyla bu yaz nereye gidecek?",
-          "correct": "To the Turkish Republic of Northern Cyprus",
+          "correct": "Northern Cyprus",
           "wrong": [
-            "To Italy",
-            "To Greece"
+            "Italy",
+            "Greece"
           ],
-          "hint": "Find Leyla in the text.",
+          "hint": "Leyla'yı bul.",
           "hl": [
-            6
+            11,
+            12
           ]
         },
         {
@@ -1511,9 +1635,9 @@
             "It will be the same",
             "It will be harder"
           ],
-          "hint": "Find what Ms. Reed says about next year.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
-            9
+            17
           ]
         }
       ]
@@ -1546,11 +1670,11 @@
         "There were also fresh strawberry, grapes, pear and a glass of milk.",
         "On the other plate, there was chocolate cake, ice-cream and biscuits.",
         "There were also a few sweets, a soda and a piece of pizza.",
-        "Ms. Reed asked: \"Which plate is the healthy one?\"",
+        "Ms. Reed: Which plate is the healthy one?",
         "Nora: The salad plate is the healthy one. It has milk, fruit and vegetables.",
         "Sam: The other plate has too much sugar — chocolate cake, soda and ice-cream.",
         "Leyla: We should eat the healthy plate every day.",
-        "Ms. Reed: We can eat the unhealthy food sometimes, but not every day!"
+        "Ms. Reed: We can eat the unhealthy food sometimes, but not every day! We are going to plan healthy lunches together this month."
       ],
       "translations": [
         "Ms. Reed sınıfa iki tabak yemek gösterdi.",
@@ -1558,11 +1682,11 @@
         "Ayrıca taze çilek, üzüm, armut ve bir bardak süt vardı.",
         "Diğer tabakta çikolatalı pasta, dondurma ve bisküviler vardı.",
         "Ayrıca birkaç şeker, bir soda ve bir parça pizza vardı.",
-        "Ms. Reed sordu: \"Hangi tabak sağlıklı olan?\"",
+        "Ms. Reed: Hangi tabak sağlıklı olan?",
         "Nora: Salata tabağı sağlıklı olan. Sütü, meyvesi ve sebzeleri var.",
         "Sam: Diğer tabakta çok şeker var — çikolatalı pasta, soda ve dondurma.",
         "Leyla: Sağlıklı tabağı her gün yemeliyiz.",
-        "Ms. Reed: Sağlıksız yemeği bazen yiyebiliriz, ama her gün değil!"
+        "Ms. Reed: Sağlıksız yemeği bazen yiyebiliriz, ama her gün değil! Bu ay birlikte sağlıklı öğle yemekleri planlayacağız."
       ],
       "questions": [
         {
@@ -1573,7 +1697,7 @@
             "School trip",
             "Cooking class"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "İki tabağı düşün.",
           "hl": [
             0
           ]
@@ -1583,10 +1707,10 @@
           "qTr": "Sağlıklı tabakta ne vardı?",
           "correct": "Salad, fruit, milk",
           "wrong": [
-            "Cake, ice-cream",
-            "Pizza, soda"
+            "Cake, ice-cream, biscuits",
+            "Pizza, soda, chips"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sağlıklı tabağı bul.",
           "hl": [
             1
           ]
@@ -1596,10 +1720,10 @@
           "qTr": "Diğer tabakta ne vardı?",
           "correct": "Cake, ice-cream, biscuits",
           "wrong": [
-            "Fruit, milk",
-            "Salad"
+            "Fruit, milk and bread",
+            "Salad, spinach and broccoli"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Diğer tabağı bul.",
           "hl": [
             3
           ]
@@ -1612,7 +1736,7 @@
             "The cake plate",
             "The pizza plate"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Nora'yı bul.",
           "hl": [
             6
           ]
@@ -1625,7 +1749,7 @@
             "Eat cake every day",
             "Never eat fruit"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Ms. Reed'i bul.",
           "hl": [
             9
           ]
@@ -1657,26 +1781,26 @@
       "sentences": [
         "Nora and Sam are making lunch together in the kitchen.",
         "Nora: I have a few tomatoes for our salad. That is good!",
-        "Sam: But there is little cheese in the fridge. We need more!",
-        "Nora: We can put a little olive oil on the salad. Just a small amount.",
+        "Sam: But there is little spinach in the fridge. We need more!",
+        "Nora: We can put a little lemon on the salad. Just a small amount.",
         "Sam: There are few cucumbers today. Only one or two!",
         "Leyla brings some food from her bag.",
         "Leyla: I have a few cucumbers and a little yogurt!",
-        "Nora: Amazing! Now we have a few of everything!",
+        "Nora: Wonderful! Now we have a few of everything!",
         "Sam: There is little time before lunch. Let's cook fast!",
-        "Leyla: When we share, even a little food becomes a great meal!"
+        "Leyla: When we share, even a little food becomes a great meal! We are going to cook together every week."
       ],
       "translations": [
         "Nora ve Sam mutfakta birlikte öğle yemeği yapıyor.",
         "Nora: Salata için birkaç domatesim var. Bu iyi!",
-        "Sam: Ama buzdolabında az peynir var. Daha fazlasına ihtiyacımız var!",
-        "Nora: Salataya biraz zeytinyağı koyabiliriz. Sadece az miktarda.",
+        "Sam: Ama buzdolabında az ıspanak var. Daha fazlasına ihtiyacımız var!",
+        "Nora: Salataya biraz limon koyabiliriz. Sadece az miktarda.",
         "Sam: Bugün az salatalık var. Sadece bir veya iki tane!",
         "Leyla çantasından bir miktar yemek getirir.",
         "Leyla: Birkaç salatalığım ve biraz yoğurdum var!",
         "Nora: Harika! Şimdi her şeyden birkaç tane var!",
         "Sam: Öğle yemeğinden önce az zaman var. Hızlı pişirelim!",
-        "Leyla: Paylaştığımızda az yemek bile harika bir öğün olur!"
+        "Leyla: Paylaştığımızda az yemek bile harika bir öğün olur! Her hafta birlikte pişireceğiz."
       ],
       "questions": [
         {
@@ -1684,23 +1808,23 @@
           "qTr": "Nora'da ne var?",
           "correct": "A few tomatoes",
           "wrong": [
-            "A lot of cheese",
-            "No vegetables"
+            "A lot of spinach",
+            "No fresh vegetables"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "How much cheese is in the fridge?",
-          "qTr": "Buzdolabında ne kadar peynir var?",
+          "q": "How much spinach is in the fridge?",
+          "qTr": "Buzdolabında ne kadar ıspanak var?",
           "correct": "Little",
           "wrong": [
             "A lot",
             "None"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Buzdolabındaki ıspanağı bul.",
           "hl": [
             2
           ]
@@ -1713,7 +1837,7 @@
             "Many",
             "None"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Salatalıkları bul.",
           "hl": [
             4
           ]
@@ -1724,9 +1848,9 @@
           "correct": "Cucumbers and yogurt",
           "wrong": [
             "Cake and soda",
-            "Only sweets"
+            "Only biscuits and cake"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             6
           ]
@@ -1739,7 +1863,7 @@
             "A lot",
             "None"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sam'i bul.",
           "hl": [
             8
           ]
@@ -1777,8 +1901,8 @@
         "In Algeria, falafel is a popular food for everyone.",
         "In England, fish and chips is the favourite at the weekend.",
         "In Germany, sausage with bread is a classic meal.",
-        "In Azerbaijan, families cook brown rice with chicken or lamb.",
-        "Ms. Reed: Food traditions tell us about people and their cultures!"
+        "In Azerbaijan, families cook brown rice with chicken or meat.",
+        "Ms. Reed: Food traditions tell us about people and their cultures! Next month, we are going to cook one dish from each country."
       ],
       "translations": [
         "Her ülkenin özel yemek gelenekleri vardır.",
@@ -1789,8 +1913,8 @@
         "Cezayir'de falafel herkes için popüler bir yemektir.",
         "İngiltere'de fish and chips hafta sonu favorisidir.",
         "Almanya'da ekmekli sosis klasik bir yemektir.",
-        "Azerbaycan'da aileler tavuk veya kuzu ile esmer pirinç pişirir.",
-        "Ms. Reed: Yemek gelenekleri bize insanları ve kültürlerini anlatır!"
+        "Azerbaycan'da aileler tavuk veya et ile esmer pirinç pişirir.",
+        "Ms. Reed: Yemek gelenekleri bize insanları ve kültürlerini anlatır! Gelecek ay her ülkeden bir yemek pişireceğiz."
       ],
       "questions": [
         {
@@ -1801,7 +1925,7 @@
             "Sports",
             "Schools"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Farklı ülkelerin yemek geleneklerini düşün.",
           "hl": [
             0
           ]
@@ -1811,10 +1935,10 @@
           "qTr": "Türkiye'de aileler ne yer?",
           "correct": "Kebab, yogurt, brown rice",
           "wrong": [
-            "Pizza, pasta",
-            "Tacos"
+            "Pizza, pasta and salad",
+            "Tacos, rice and peas"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Türkiye'yi bul.",
           "hl": [
             1
           ]
@@ -1827,7 +1951,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Yunanistan'ı bul.",
           "hl": [
             3
           ]
@@ -1840,7 +1964,7 @@
             "Pasta",
             "Tacos"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "İngiltere'yi bul.",
           "hl": [
             6
           ]
@@ -1850,10 +1974,10 @@
           "qTr": "Almanya'da klasik bir yemek nedir?",
           "correct": "Sausage with bread",
           "wrong": [
-            "Pizza",
-            "Tacos"
+            "Pizza and pasta",
+            "Tacos and rice"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Almanya'yı bul.",
           "hl": [
             7
           ]
@@ -1891,7 +2015,7 @@
         "Sam: That's enough planning! We need to write it down.",
         "Leyla: Never mind the writing — let's just talk about it!",
         "Nora: We are going to eat the most delicious food in Spain.",
-        "Sam: Thanks for everything, Nora. Your plans always sound amazing.",
+        "Sam: Thanks for everything, Nora. Your plans always sound wonderful.",
         "Leyla: I am going to remember this day forever!"
       ],
       "translations": [
@@ -1915,7 +2039,7 @@
             "School lessons",
             "Cleaning"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Yaz planlarını düşün.",
           "hl": [
             0
           ]
@@ -1928,7 +2052,7 @@
             "Goodbye!",
             "Hello!"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
             1
           ]
@@ -1941,7 +2065,7 @@
             "Greece",
             "Mexico"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'nın ailesini bul.",
           "hl": [
             4
           ]
@@ -1954,7 +2078,7 @@
             "Goodbye",
             "Hello"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'i bul.",
           "hl": [
             5
           ]
@@ -1964,10 +2088,10 @@
           "qTr": "Sam, Nora'ya ne için teşekkür eder?",
           "correct": "Everything",
           "wrong": [
-            "The food",
-            "The book"
+            "Food",
+            "Books"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Sam'i bul.",
           "hl": [
             8
           ]
@@ -1998,23 +2122,37 @@
       ],
       "sentences": [
         "Ms. Reed organised a special world food tasting day at school.",
-        "First, the children tried a small piece of Turkish kebab. \"It tastes good!\" said Nora.",
-        "Then, they tasted Italian pizza. \"Amazing!\" said Sam. \"It tastes good!\"",
-        "After that, they tried Mexican tacos. Leyla said: \"Wow! It tastes good with the sauce!\"",
-        "Next, they tasted Greek moussaka. Everyone said: \"It tastes good!\"",
-        "They also tried Algerian falafel. \"Amazing!\" the children said together.",
+        "First, the children tried a small piece of Turkish kebab.",
+        "Nora: It tastes good!",
+        "Then, they tasted Italian pizza.",
+        "Sam: Amazing!",
+        "Sam: It tastes good!",
+        "After that, they tried Mexican tacos.",
+        "Leyla: Wow!",
+        "Leyla: It tastes good with the sauce!",
+        "Next, they tasted Greek moussaka.",
+        "Everyone: It tastes good!",
+        "They also tried Algerian falafel.",
+        "The children: Delicious!",
         "Nora: The English fish and chips tastes good with lemon.",
         "Sam: I'm starving again — all this food tastes so good!",
         "Leyla: Every dish from every country tastes good in its own way.",
-        "Ms. Reed: Thanks for everything, children! That was an amazing food day!"
+        "Ms. Reed: Thanks for everything, children! That was a wonderful food day!"
       ],
       "translations": [
         "Ms. Reed okulda özel bir dünya yemek tadım günü düzenledi.",
-        "İlk olarak çocuklar küçük bir parça Türk kebabı denedi. \"Lezzetli!\" dedi Nora.",
-        "Sonra İtalyan pizza tattılar. \"Harika!\" dedi Sam. \"Lezzetli!\"",
-        "Sonra Meksika tako denediler. Leyla dedi: \"Vay! Sosla lezzetli!\"",
-        "Sonra Yunan musakka tattılar. Herkes dedi: \"Lezzetli!\"",
-        "Cezayir falafel de denediler. \"Harika!\" dediler çocuklar birlikte.",
+        "İlk olarak çocuklar küçük bir parça Türk kebabı denedi.",
+        "Nora: Lezzetli!",
+        "Sonra İtalyan pizza tattılar.",
+        "Sam: Harika!",
+        "Sam: Lezzetli!",
+        "Sonra Meksika tako denediler.",
+        "Leyla: Vay!",
+        "Leyla: Sosla lezzetli!",
+        "Sonra Yunan musakka tattılar.",
+        "Herkes: Lezzetli!",
+        "Cezayir falafel de denediler.",
+        "Çocuklar: Lezzetli!",
         "Nora: İngiliz fish and chips limonla lezzetli.",
         "Sam: Tekrar açlıktan ölüyorum — bütün bu yemekler çok lezzetli!",
         "Leyla: Her ülkenin her yemeği kendi tarzında lezzetli.",
@@ -2029,7 +2167,7 @@
             "School sports",
             "Friends"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Dünya yemek tadım gününü düşün.",
           "hl": [
             0
           ]
@@ -2039,12 +2177,12 @@
           "qTr": "Nora kebap hakkında ne dedi?",
           "correct": "It tastes good!",
           "wrong": [
-            "It is bad",
-            "Goodbye"
+            "It tastes bad!",
+            "It tastes strange!"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            1
+            2
           ]
         },
         {
@@ -2052,12 +2190,13 @@
           "qTr": "Sam pizza hakkında ne dedi?",
           "correct": "Amazing! It tastes good!",
           "wrong": [
-            "Goodbye",
-            "Sorry"
+            "Terrible! It tastes bad!",
+            "Boring! It tastes strange!"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'i bul.",
           "hl": [
-            2
+            4,
+            5
           ]
         },
         {
@@ -2066,11 +2205,11 @@
           "correct": "With lemon",
           "wrong": [
             "With salt",
-            "Cold"
+            "With ice"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Nora'yı bul.",
           "hl": [
-            6
+            13
           ]
         },
         {
@@ -2078,12 +2217,12 @@
           "qTr": "Sam sonunda ne der?",
           "correct": "Food tastes so good",
           "wrong": [
-            "Goodbye",
-            "I'm tired"
+            "Food tastes so bad",
+            "Food tastes very strange"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Sam'i bul.",
           "hl": [
-            7
+            14
           ]
         }
       ]
@@ -2112,7 +2251,7 @@
       ],
       "sentences": [
         "Last summer, our families travelled to different countries.",
-        "Nora: My family went to Spain. We ate fresh oranges and seafood every day.",
+        "Nora: My family went to Spain. We ate fresh oranges and fish every day.",
         "Sam: My family went to Mexico. We tried tacos with different sauces.",
         "Leyla: My family went to Northern Cyprus. We had grilled fish and salads.",
         "Nora: I drank fresh lemonade every afternoon in Spain.",
@@ -2124,7 +2263,7 @@
       ],
       "translations": [
         "Geçen yaz ailelerimiz farklı ülkelere seyahat etti.",
-        "Nora: Ailem İspanya'ya gitti. Her gün taze portakal ve deniz mahsulleri yedik.",
+        "Nora: Ailem İspanya'ya gitti. Her gün taze portakal ve balık yedik.",
         "Sam: Ailem Meksika'ya gitti. Farklı soslarla tako denedik.",
         "Leyla: Ailem Kuzey Kıbrıs'a gitti. Izgara balık ve salatalar yedik.",
         "Nora: İspanya'da her öğleden sonra taze limonata içtim.",
@@ -2143,7 +2282,7 @@
             "Mexico",
             "Cyprus"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'nın ailesini bul.",
           "hl": [
             1
           ]
@@ -2153,10 +2292,10 @@
           "qTr": "Sam'in ailesi neyi denedi?",
           "correct": "Tacos with sauces",
           "wrong": [
-            "Pizza",
-            "Pasta"
+            "Pizza with tomato",
+            "Pasta with lemon"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'in ailesini bul.",
           "hl": [
             2
           ]
@@ -2166,10 +2305,10 @@
           "qTr": "Leyla Kıbrıs'ta ne yedi?",
           "correct": "Grilled fish and salads",
           "wrong": [
-            "Pizza",
-            "Tacos"
+            "Grilled chicken and rice",
+            "Boiled eggs and bread"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             3
           ]
@@ -2179,10 +2318,10 @@
           "qTr": "Nora İspanya'da ne içti?",
           "correct": "Fresh lemonade",
           "wrong": [
-            "Milk",
-            "Soda"
+            "Fresh milk",
+            "Cold soda"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'yı bul.",
           "hl": [
             4
           ]
@@ -2195,7 +2334,7 @@
             "Cake",
             "Pizza"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'yı bul.",
           "hl": [
             7
           ]
@@ -2255,9 +2394,9 @@
           "correct": "Turkish restaurant",
           "wrong": [
             "Italian restaurant",
-            "Beach"
+            "City park"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sınıfı bul.",
           "hl": [
             1
           ]
@@ -2267,10 +2406,10 @@
           "qTr": "Neyi tadacaklar?",
           "correct": "Kebab, soup, brown rice",
           "wrong": [
-            "Pizza",
-            "Tacos"
+            "Pizza, pasta and salad",
+            "Tacos, rice and peas"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Restoranı bul.",
           "hl": [
             3
           ]
@@ -2283,7 +2422,7 @@
             "The cake",
             "The drinks"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'yı bul.",
           "hl": [
             4
           ]
@@ -2296,7 +2435,7 @@
             "A book",
             "A football"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'yı bul.",
           "hl": [
             5
           ]
@@ -2306,10 +2445,10 @@
           "qTr": "Sam ne göreceklerini düşünür?",
           "correct": "Real chefs",
           "wrong": [
-            "Singers",
-            "Cars"
+            "Famous singers",
+            "Old cars"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Sam'i bul.",
           "hl": [
             6
           ]
@@ -2345,28 +2484,52 @@
         }
       ],
       "sentences": [
-        "Ms. Reed said: \"Today we are going to plan a healthy meal together. I'm starving — let's start!\"",
-        "\"First, we are going to make a vegetable soup. We are going to need a few carrots and a little salt.\"",
-        "Nora said: \"I am going to add a few peas and a little olive oil. That will make it tastier!\"",
-        "\"We are going to put in a little water first, then add the vegetables one by one.\"",
-        "Sam said: \"Are we going to add any meat? A few small pieces of chicken will make it more filling!\"",
-        "Ms. Reed said: \"Good idea! We are going to add a little chicken stock too. That's enough for the soup.\"",
-        "Leyla said: \"What are we going to have with the soup? I think a little brown rice will be perfect!\"",
-        "\"We are going to cook a few eggs too. A boiled egg with soup is the healthiest lunch!\"",
-        "Ms. Reed said: \"Excellent! We are also going to prepare a small green salad with a little lemon juice.\"",
-        "Nora laughed: \"A little of everything makes the best meal! I am going to eat it all — never mind the diet!\""
+        "Ms. Reed: Today we are going to plan a healthy meal together.",
+        "Ms. Reed: I'm starving.",
+        "Ms. Reed: Let's start!",
+        "Ms. Reed: First, we are going to make a vegetable soup.",
+        "Ms. Reed: We are going to need a few carrots and a little salt.",
+        "Nora: I am going to add a few peas and a little pasta.",
+        "Nora: That will make it tastier!",
+        "Nora: We are going to put in a little water first, then add the vegetables one by one.",
+        "Sam: Are we going to add any meat?",
+        "Sam: A few small pieces of chicken will make it more filling!",
+        "Ms. Reed: Good idea!",
+        "Ms. Reed: We are going to add a little chicken stock too.",
+        "Ms. Reed: That's enough for the soup.",
+        "Leyla: What are we going to have with the soup?",
+        "Leyla: I think a little brown rice will be perfect!",
+        "Leyla: We are going to cook a few eggs too.",
+        "Leyla: A boiled egg with soup is the healthiest lunch!",
+        "Ms. Reed: Excellent!",
+        "Ms. Reed: We are also going to prepare a small green salad with a little lemon juice.",
+        "Nora: A little of everything makes the best meal!",
+        "Nora: I am going to eat it all.",
+        "Nora: Never mind the diet!"
       ],
       "translations": [
-        "Ms. Reed dedi: \"Bugün birlikte sağlıklı bir yemek planlayacağız. Acıktım — başlayalım!\"",
-        "\"Önce bir sebze çorbası yapacağız. Birkaç havuç ve biraz tuza ihtiyacımız olacak.\"",
-        "Nora dedi: \"Birkaç bezelye ve biraz zeytinyağı ekleyeceğim. Bu onu daha lezzetli yapacak!\"",
-        "\"Önce biraz su koyacağız, sonra sebzeleri tek tek ekleyeceğiz.\"",
-        "Sam dedi: \"Et ekleyecek miyiz? Birkaç küçük tavuk parçası daha doyurucu yapacak!\"",
-        "Ms. Reed dedi: \"İyi fikir! Biraz tavuk suyu da ekleyeceğiz. Çorba için bu kadar yeter.\"",
-        "Leyla dedi: \"Çorbayla ne yiyeceğiz? Bence biraz esmer pirinç mükemmel olur!\"",
-        "\"Birkaç yumurta da pişireceğiz. Çorbayla haşlanmış yumurta en sağlıklı öğle yemeği!\"",
-        "Ms. Reed dedi: \"Mükemmel! Biraz limon suyuyla küçük bir yeşil salata da hazırlayacağız.\"",
-        "Nora güldü: \"Her şeyden biraz en iyi yemeği yapar! Hepsini yiyeceğim — diyeti umursamayın!\""
+        "Ms. Reed: Bugün birlikte sağlıklı bir yemek planlayacağız.",
+        "Ms. Reed: Acıktım.",
+        "Ms. Reed: Başlayalım!",
+        "Ms. Reed: Önce bir sebze çorbası yapacağız.",
+        "Ms. Reed: Birkaç havuç ve biraz tuza ihtiyacımız olacak.",
+        "Nora: Birkaç bezelye ve biraz makarna ekleyeceğim.",
+        "Nora: Bu onu daha lezzetli yapacak!",
+        "Nora: Önce biraz su koyacağız, sonra sebzeleri tek tek ekleyeceğiz.",
+        "Sam: Et ekleyecek miyiz?",
+        "Sam: Birkaç küçük tavuk parçası daha doyurucu yapacak!",
+        "Ms. Reed: İyi fikir!",
+        "Ms. Reed: Biraz tavuk suyu da ekleyeceğiz.",
+        "Ms. Reed: Çorba için bu kadar yeter.",
+        "Leyla: Çorbayla ne yiyeceğiz?",
+        "Leyla: Bence biraz esmer pirinç mükemmel olur!",
+        "Leyla: Birkaç yumurta da pişireceğiz.",
+        "Leyla: Çorbayla haşlanmış yumurta en sağlıklı öğle yemeği!",
+        "Ms. Reed: Mükemmel!",
+        "Ms. Reed: Biraz limon suyuyla küçük bir yeşil salata da hazırlayacağız.",
+        "Nora: Her şeyden biraz en iyi yemeği yapar!",
+        "Nora: Hepsini yiyeceğim.",
+        "Nora: Diyeti umursamayın!"
       ],
       "questions": [
         {
@@ -2375,24 +2538,24 @@
           "correct": "A vegetable soup",
           "wrong": [
             "A green salad",
-            "Boiled eggs"
+            "Some boiled eggs"
           ],
-          "hint": "Find the word first in the text.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
-            1
+            3
           ]
         },
         {
           "q": "What is Nora going to add to the soup?",
           "qTr": "Nora çorbaya ne ekleyecek?",
-          "correct": "A few peas and a little olive oil",
+          "correct": "A few peas and a little pasta",
           "wrong": [
             "A few carrots and a little salt",
-            "A little chicken stock"
+            "A few eggs and a little rice"
           ],
-          "hint": "Find Nora in the text.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            2
+            5
           ]
         },
         {
@@ -2400,12 +2563,12 @@
           "qTr": "Sam çorbayı daha doyurucu yapmak için ne eklemeyi önerir?",
           "correct": "A few small pieces of chicken",
           "wrong": [
-            "A few eggs",
-            "A little brown rice"
+            "A few small pieces of turkey",
+            "A few small pieces of fish"
           ],
-          "hint": "Find Sam in the text.",
+          "hint": "Sam'e bak.",
           "hl": [
-            4
+            9
           ]
         },
         {
@@ -2413,12 +2576,12 @@
           "qTr": "Leyla çorbanın yanında ne olması gerektiğini düşünür?",
           "correct": "A little brown rice",
           "wrong": [
-            "A few carrots",
+            "A few green peas",
             "A little lemon juice"
           ],
-          "hint": "Find Leyla in the text.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            6
+            14
           ]
         },
         {
@@ -2426,12 +2589,12 @@
           "qTr": "Ayrıca ne hazırlayacaklar?",
           "correct": "A small green salad with a little lemon juice",
           "wrong": [
-            "A bowl of pasta",
-            "A plate of chips"
+            "A large bowl of pasta and rice",
+            "A big plate of chips and salad"
           ],
-          "hint": "Find Ms. Reed's last suggestion in the text.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
-            8
+            18
           ]
         }
       ]
@@ -2463,28 +2626,44 @@
         }
       ],
       "sentences": [
-        "Ms. Reed announced: \"Next month, our class is going to do a World Food Tour project. Amazing!\"",
-        "\"Each group is going to choose a country and find out about its most famous dishes.\"",
-        "Nora's group is going to research Italy. \"Italian food is the most popular in the world!\" said Nora.",
-        "\"We are going to make a poster about pizza and pasta. We are going to write about the most delicious recipes.\"",
-        "Sam's group is going to research Türkiye. \"Turkish food is the tastiest!\" said Sam.",
-        "\"We are going to present kebab, soup and yogurt. Kebab is the most famous Turkish dish abroad.\"",
-        "Leyla's group is going to research Mexico and Algeria. \"These are the most exciting cuisines!\" said Leyla.",
-        "\"We are going to compare tacos and falafel. I think falafel is the healthiest dish of all!\"",
-        "Ms. Reed said: \"We are also going to learn about dishes from Azerbaijan and Northern Cyprus.\"",
-        "\"Those countries share the most delicious dishes with Türkiye. It will be the best project of the year!\""
+        "Ms. Reed: Next month, our class is going to do a World Food Tour project.",
+        "Ms. Reed: Amazing!",
+        "Ms. Reed: Each group is going to choose a country and find out about its most famous dishes.",
+        "Nora's group is going to research Italy.",
+        "Nora: Italian food is the most popular in the world!",
+        "Nora: We are going to make a poster about pizza and pasta.",
+        "Nora: We are going to write about the most delicious recipes.",
+        "Sam's group is going to research Türkiye.",
+        "Sam: Turkish food is the tastiest!",
+        "Sam: We are going to present kebab, soup and yogurt.",
+        "Sam: Kebab is the most famous Turkish dish abroad.",
+        "Leyla's group is going to research Mexico and Algeria.",
+        "Leyla: These are the most exciting cuisines!",
+        "Leyla: We are going to compare tacos and falafel.",
+        "Leyla: I think falafel is the healthiest dish of all!",
+        "Ms. Reed: We are also going to learn about dishes from Azerbaijan and Northern Cyprus.",
+        "Ms. Reed: Those countries share the most delicious dishes with Türkiye.",
+        "Ms. Reed: It will be the best project of the year!"
       ],
       "translations": [
-        "Ms. Reed duyurdu: \"Gelecek ay sınıfımız bir Dünya Yemek Turu projesi yapacak. İnanılmaz!\"",
-        "\"Her grup bir ülke seçecek ve o ülkenin en ünlü yemeklerini araştıracak.\"",
-        "Nora'nın grubu İtalya'yı araştıracak. \"İtalyan mutfağı dünyanın en popüleri!\" dedi Nora.",
-        "\"Pizza ve makarna hakkında poster yapacağız. En lezzetli tarifleri yazacağız.\"",
-        "Sam'in grubu Türkiye'yi araştıracak. \"Türk mutfağı en lezzetlisi!\" dedi Sam.",
-        "\"Kebap, çorba ve yoğurt sunacağız. Kebap yurt dışındaki en ünlü Türk yemeği.\"",
-        "Leyla'nın grubu Meksika ve Cezayir'i araştıracak. \"Bunlar en heyecanlı mutfaklar!\" dedi Leyla.",
-        "\"Taco ve falafeli karşılaştıracağız. Bence falafel tüm yemekler arasında en sağlıklısı!\"",
-        "Ms. Reed dedi: \"Azerbaycan ve Kuzey Kıbrıs'taki yemekleri de öğreneceğiz.\"",
-        "\"Bu ülkeler Türkiye ile en lezzetli yemekleri paylaşıyor. Yılın en iyi projesi olacak!\""
+        "Ms. Reed: Gelecek ay sınıfımız bir Dünya Yemek Turu projesi yapacak.",
+        "Ms. Reed: İnanılmaz!",
+        "Ms. Reed: Her grup bir ülke seçecek ve o ülkenin en ünlü yemeklerini araştıracak.",
+        "Nora'nın grubu İtalya'yı araştıracak.",
+        "Nora: İtalyan mutfağı dünyanın en popüleri!",
+        "Nora: Pizza ve makarna hakkında poster yapacağız.",
+        "Nora: En lezzetli tarifleri yazacağız.",
+        "Sam'in grubu Türkiye'yi araştıracak.",
+        "Sam: Türk mutfağı en lezzetlisi!",
+        "Sam: Kebap, çorba ve yoğurt sunacağız.",
+        "Sam: Kebap yurt dışındaki en ünlü Türk yemeği.",
+        "Leyla'nın grubu Meksika ve Cezayir'i araştıracak.",
+        "Leyla: Bunlar en heyecanlı mutfaklar!",
+        "Leyla: Taco ve falafeli karşılaştıracağız.",
+        "Leyla: Bence falafel tüm yemekler arasında en sağlıklısı!",
+        "Ms. Reed: Azerbaycan ve Kuzey Kıbrıs'taki yemekleri de öğreneceğiz.",
+        "Ms. Reed: Bu ülkeler Türkiye ile en lezzetli yemekleri paylaşıyor.",
+        "Ms. Reed: Yılın en iyi projesi olacak!"
       ],
       "questions": [
         {
@@ -2495,7 +2674,7 @@
             "A cooking activity",
             "A trip abroad"
           ],
-          "hint": "Find the words next month in the text.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             0
           ]
@@ -2508,9 +2687,9 @@
             "Kebab and soup",
             "Tacos and falafel"
           ],
-          "hint": "Find Nora's group in the text.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            3
+            5
           ]
         },
         {
@@ -2521,9 +2700,9 @@
             "Soup",
             "Yogurt"
           ],
-          "hint": "Find Sam's group in the text.",
+          "hint": "Sam'e bak.",
           "hl": [
-            5
+            10
           ]
         },
         {
@@ -2534,9 +2713,9 @@
             "Pizza and pasta",
             "Kebab and soup"
           ],
-          "hint": "Find Leyla's group in the text.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            7
+            13
           ]
         },
         {
@@ -2547,10 +2726,10 @@
             "They are going to present their dishes",
             "They have the healthiest food"
           ],
-          "hint": "Find Azerbaijan and Northern Cyprus in the text.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
-            8,
-            9
+            15,
+            16
           ]
         }
       ]
@@ -2582,32 +2761,60 @@
         }
       ],
       "sentences": [
-        "Ms. Reed said: \"Before the holidays, I want you to write a food diary for your trip. What are you going to eat?\"",
-        "Nora wrote: \"We are going to Italy next week. I am going to try pizza, pasta and gelato every day!\"",
-        "\"I think Italian breakfasts will be different from Turkish ones. I am going to write about everything I taste.\"",
-        "\"I am also going to visit a local market. I think there will be a lot of fresh fruit and vegetables there.\"",
-        "Sam wrote: \"We are going to stay in Türkiye. Grandma is going to cook kebab, soup and fresh bread for us.\"",
-        "\"I think her food will be the most delicious in the world. I am going to eat a little of everything!\"",
-        "\"We are also going to pick fresh fruit from the garden. I think there will be cherries, plums and apricots.\"",
-        "Leyla wrote: \"We are going to the Turkish Republic of Northern Cyprus. I am going to try local dishes there.\"",
-        "\"I think the food will be very similar to Turkish food. But I am going to look for something new too!\"",
-        "\"I am going to keep a photo diary of every meal. Thanks for everything, Ms. Reed — this is the best idea!\"",
-        "Ms. Reed smiled: \"Amazing! I think your food diaries will be the most interesting reading of the summer.\"",
-        "\"I am going to read them all in September. Have a wonderful holiday — enjoy every bite!\""
+        "Ms. Reed: Before the holidays, I want you to write a food diary for your trip.",
+        "Ms. Reed: What are you going to eat?",
+        "Nora: We are going to Italy next week.",
+        "Nora: I am going to try pizza, pasta and ice-cream every day!",
+        "Nora: I think Italian breakfasts will be different from Turkish ones.",
+        "Nora: I am going to write about everything I taste.",
+        "Nora: I am also going to visit a local market.",
+        "Nora: I think there will be a lot of fresh fruit and vegetables there.",
+        "Sam: We are going to stay in Türkiye.",
+        "Sam: Grandma is going to cook kebab, soup and fresh bread for us.",
+        "Sam: I think her food will be the most delicious in the world.",
+        "Sam: I am going to eat a little of everything!",
+        "Sam: We are also going to pick fresh fruit from the garden.",
+        "Sam: I think there will be cherries, plums and grapes.",
+        "Leyla: We are going to the Turkish Republic of Northern Cyprus.",
+        "Leyla: I am going to try local dishes there.",
+        "Leyla: I think the food will be very similar to Turkish food.",
+        "Leyla: But I am going to look for something new too!",
+        "Leyla: I am going to keep a photo diary of every meal.",
+        "Leyla: Thanks for everything, Ms. Reed.",
+        "Leyla: This is the best idea!",
+        "Ms. Reed: Amazing!",
+        "Ms. Reed: I think your food diaries will be the most interesting reading of the summer.",
+        "Ms. Reed: I am going to read them all in September.",
+        "Ms. Reed: Have a wonderful holiday.",
+        "Ms. Reed: Enjoy every bite!"
       ],
       "translations": [
-        "Ms. Reed dedi: \"Tatilden önce geziniz için bir yemek günlüğü yazmanızı istiyorum. Ne yiyeceksiniz?\"",
-        "Nora yazdı: \"Gelecek hafta İtalya'ya gidiyoruz. Her gün pizza, makarna ve dondurma deneyeceğim!\"",
-        "\"İtalyan kahvaltılarının Türk kahvaltılarından farklı olacağını düşünüyorum. Tattığım her şeyi yazacağım.\"",
-        "\"Ayrıca yerel bir pazarı da ziyaret edeceğim. Bence orada çok taze meyve ve sebze olacak.\"",
-        "Sam yazdı: \"Türkiye'de kalacağız. Büyükannem bizim için kebap, çorba ve taze ekmek pişirecek.\"",
-        "\"Bence onun yemeği dünyanın en lezzetlisi olacak. Her şeyden biraz yiyeceğim!\"",
-        "\"Bahçeden taze meyve de toplayacağız. Bence kiraz, erik ve kayısı olacak.\"",
-        "Leyla yazdı: \"Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz. Orada yerel yemekler deneyeceğim.\"",
-        "\"Bence yemekler Türk yemeklerine çok benzeyecek. Ama yeni bir şey de arayacağım!\"",
-        "\"Her öğünün fotoğraf günlüğünü tutacağım. Her şey için teşekkürler Ms. Reed — bu en iyi fikir!\"",
-        "Ms. Reed gülümsedi: \"İnanılmaz! Bence yemek günlükleriniz yazın en ilginç okuması olacak.\"",
-        "\"Eylül'de hepsini okuyacağım. Harika bir tatil geçirin — her lokmanın tadını çıkarın!\""
+        "Ms. Reed: Tatilden önce geziniz için bir yemek günlüğü yazmanızı istiyorum.",
+        "Ms. Reed: Ne yiyeceksiniz?",
+        "Nora: Gelecek hafta İtalya'ya gidiyoruz.",
+        "Nora: Her gün pizza, makarna ve dondurma deneyeceğim!",
+        "Nora: İtalyan kahvaltılarının Türk kahvaltılarından farklı olacağını düşünüyorum.",
+        "Nora: Tattığım her şeyi yazacağım.",
+        "Nora: Ayrıca yerel bir pazarı da ziyaret edeceğim.",
+        "Nora: Bence orada çok taze meyve ve sebze olacak.",
+        "Sam: Türkiye'de kalacağız.",
+        "Sam: Büyükannem bizim için kebap, çorba ve taze ekmek pişirecek.",
+        "Sam: Bence onun yemeği dünyanın en lezzetlisi olacak.",
+        "Sam: Her şeyden biraz yiyeceğim!",
+        "Sam: Bahçeden taze meyve de toplayacağız.",
+        "Sam: Bence kiraz, erik ve üzüm olacak.",
+        "Leyla: Kuzey Kıbrıs Türk Cumhuriyeti'ne gidiyoruz.",
+        "Leyla: Orada yerel yemekler deneyeceğim.",
+        "Leyla: Bence yemekler Türk yemeklerine çok benzeyecek.",
+        "Leyla: Ama yeni bir şey de arayacağım!",
+        "Leyla: Her öğünün fotoğraf günlüğünü tutacağım.",
+        "Leyla: Her şey için teşekkürler Ms. Reed.",
+        "Leyla: Bu en iyi fikir!",
+        "Ms. Reed: İnanılmaz!",
+        "Ms. Reed: Bence yemek günlükleriniz yazın en ilginç okuması olacak.",
+        "Ms. Reed: Eylül'de hepsini okuyacağım.",
+        "Ms. Reed: Harika bir tatil geçirin.",
+        "Ms. Reed: Her lokmanın tadını çıkarın!"
       ],
       "questions": [
         {
@@ -2618,7 +2825,7 @@
             "A poster about world food",
             "A letter to a pen friend"
           ],
-          "hint": "Find what Ms. Reed asks at the beginning.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             0
           ]
@@ -2631,9 +2838,9 @@
             "The same as Turkish ones",
             "Better than Turkish ones"
           ],
-          "hint": "Find Nora and the word breakfast in the text.",
+          "hint": "Nora'ya bak.",
           "hl": [
-            2
+            4
           ]
         },
         {
@@ -2644,9 +2851,9 @@
             "The healthiest in the world",
             "The most different"
           ],
-          "hint": "Find Sam and grandma in the text.",
+          "hint": "Sam'e bak.",
           "hl": [
-            5
+            10
           ]
         },
         {
@@ -2657,9 +2864,9 @@
             "She thinks it will be completely different",
             "She thinks it will be the unhealthiest"
           ],
-          "hint": "Find Leyla and Northern Cyprus in the text.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            8
+            16
           ]
         },
         {
@@ -2670,9 +2877,9 @@
             "A written diary about the weather",
             "A list of places she visits"
           ],
-          "hint": "Find Leyla and the word diary in the text.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            9
+            18
           ]
         }
       ]
@@ -2701,10 +2908,10 @@
       ],
       "sentences": [
         "Nora: Let's make a healthy breakfast together!",
-        "Nora: We need a few eggs and a little butter for the eggs.",
+        "Nora: We need a few eggs and a little milk for the eggs.",
         "Sam: I am going to bring a few strawberries and a little milk.",
         "Leyla: We are going to use a few pieces of brown bread and some yogurt.",
-        "Nora: Let's add a few grapes and a little honey for sweetness.",
+        "Nora: Let's add a few grapes and a little apple juice for sweetness.",
         "Sam: We have a few cherries from my garden, too.",
         "Leyla: Are we going to drink milk or fresh orange juice?",
         "Nora: We are going to have both! Milk for me and juice for you.",
@@ -2713,10 +2920,10 @@
       ],
       "translations": [
         "Nora: Birlikte sağlıklı bir kahvaltı yapalım!",
-        "Nora: Yumurtalar için birkaç yumurtaya ve biraz tereyağına ihtiyacımız var.",
+        "Nora: Yumurtalar için birkaç yumurtaya ve biraz süte ihtiyacımız var.",
         "Sam: Birkaç çilek ve biraz süt getireceğim.",
         "Leyla: Birkaç parça esmer ekmek ve biraz yoğurt kullanacağız.",
-        "Nora: Tatlılık için birkaç üzüm ve biraz bal ekleyelim.",
+        "Nora: Tatlılık için birkaç üzüm ve biraz elma suyu ekleyelim.",
         "Sam: Bahçemden birkaç kiraz da var.",
         "Leyla: Süt mü yoksa taze portakal suyu mu içeceğiz?",
         "Nora: İkisini de alacağız! Süt benim için, su sizin için.",
@@ -2727,12 +2934,12 @@
         {
           "q": "What does Nora need for the eggs?",
           "qTr": "Nora yumurtalar için neye ihtiyaç duyar?",
-          "correct": "A few eggs and butter",
+          "correct": "A few eggs and milk",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "A few eggs and juice",
+            "A few eggs and yogurt"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -2742,10 +2949,10 @@
           "qTr": "Sam ne getirecek?",
           "correct": "Strawberries and milk",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "Grapes and juice",
+            "Cherries and yogurt"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Sam'e bak.",
           "hl": [
             2
           ]
@@ -2753,12 +2960,12 @@
         {
           "q": "What sweetener does Nora suggest?",
           "qTr": "Nora hangi tatlandırıcıyı önerir?",
-          "correct": "A little honey",
+          "correct": "A little apple juice",
           "wrong": [
             "A lot of sugar",
-            "Chocolate"
+            "A little chocolate"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'ya bak.",
           "hl": [
             4
           ]
@@ -2771,7 +2978,7 @@
             "Pears",
             "Lemons"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
@@ -2781,10 +2988,10 @@
           "qTr": "Ne içecekler?",
           "correct": "Both milk and juice",
           "wrong": [
-            "Only soda",
-            "Only water"
+            "Only fizzy soda",
+            "Only cold water"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
           ]
@@ -2816,7 +3023,7 @@
       "sentences": [
         "Last summer, Nora's family travelled to Northern Cyprus.",
         "They stayed in a small beach house for two weeks.",
-        "Every morning, they ate a healthy breakfast with bread, cheese, olives and tomatoes.",
+        "Every morning, they ate a healthy breakfast with bread, eggs, yogurt and tomatoes.",
         "Nora drank a glass of milk and ate a few cherries every day.",
         "For lunch, they ate grilled fish with green salad and lemon.",
         "Nora: The lemon made the fish taste good!",
@@ -2828,7 +3035,7 @@
       "translations": [
         "Geçen yaz Nora'nın ailesi Kuzey Kıbrıs'a seyahat etti.",
         "İki hafta küçük bir plaj evinde kaldılar.",
-        "Her sabah ekmek, peynir, zeytin ve domateslerle sağlıklı bir kahvaltı yaptılar.",
+        "Her sabah ekmek, yumurta, yoğurt ve domateslerle sağlıklı bir kahvaltı yaptılar.",
         "Nora her gün bir bardak süt içti ve birkaç kiraz yedi.",
         "Öğle yemeğinde yeşil salata ve limonla ızgara balık yediler.",
         "Nora: Limon balığı lezzetli yaptı!",
@@ -2846,7 +3053,7 @@
             "Italy",
             "Mexico"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'ya bak.",
           "hl": [
             0
           ]
@@ -2854,12 +3061,12 @@
         {
           "q": "What did they eat for breakfast?",
           "qTr": "Kahvaltıda ne yediler?",
-          "correct": "Bread, cheese, olives",
+          "correct": "Bread, eggs, yogurt",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "Chips, soda, cake",
+            "Noodles, biscuits, chocolate"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
@@ -2872,7 +3079,7 @@
             "Soda",
             "Lemonade"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Nora'ya bak.",
           "hl": [
             3
           ]
@@ -2882,10 +3089,10 @@
           "qTr": "Öğle yemeğinde ne yediler?",
           "correct": "Grilled fish with salad",
           "wrong": [
-            "Tacos",
-            "Pizza"
+            "Grilled chicken with rice",
+            "Baked chicken with pasta"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'ya bak.",
           "hl": [
             4
           ]
@@ -2898,7 +3105,7 @@
             "Bad",
             "Boring"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Nora'ya bak.",
           "hl": [
             9
           ]
@@ -2930,7 +3137,7 @@
       "sentences": [
         "Nora, Sam and Leyla are having lunch with new international friends today.",
         "Their friend Marco from Italy brings pizza and pasta.",
-        "Nora: It tastes good! The cheese is amazing!",
+        "Nora: It tastes good! The pizza is amazing!",
         "Their friend Carlos from Mexico brings tacos with vegetables.",
         "Sam: Wow! The tacos taste good with these spicy sauces!",
         "Their friend Elif from Türkiye brings kebab and brown rice.",
@@ -2942,7 +3149,7 @@
       "translations": [
         "Nora, Sam ve Leyla bugün yeni uluslararası arkadaşlarıyla öğle yemeği yiyorlar.",
         "İtalya'dan arkadaşları Marco pizza ve makarna getiriyor.",
-        "Nora: Lezzetli! Peynir harika!",
+        "Nora: Lezzetli! Pizza harika!",
         "Meksika'dan arkadaşları Carlos sebzeli tako getiriyor.",
         "Sam: Vay! Tako bu baharatlı soslarla lezzetli!",
         "Türkiye'den arkadaşları Elif kebap ve esmer pirinç getiriyor.",
@@ -2960,7 +3167,7 @@
             "Carlos from Mexico",
             "Elif from Türkiye"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Marco'ya bak.",
           "hl": [
             1
           ]
@@ -2973,7 +3180,7 @@
             "Marco from Italy",
             "Yusuf from Algeria"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Carlos'a bak.",
           "hl": [
             3
           ]
@@ -2986,7 +3193,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Elif'e bak.",
           "hl": [
             5
           ]
@@ -2999,7 +3206,7 @@
             "With sauce",
             "Without anything"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -3009,10 +3216,10 @@
           "qTr": "Nora falafeli nasıl beğenir?",
           "correct": "With a little lemon",
           "wrong": [
-            "With cheese",
-            "Cold"
+            "With a little yogurt",
+            "With a little salt"
           ],
-          "hint": "Read sentence 9.",
+          "hint": "Nora'ya bak.",
           "hl": [
             8
           ]
@@ -3074,7 +3281,7 @@
             "Algeria",
             "Azerbaijan"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'ya bak.",
           "hl": [
             0
           ]
@@ -3084,10 +3291,10 @@
           "qTr": "Nora Berlin'de neyi deneyecek?",
           "correct": "Sausage with brown bread",
           "wrong": [
-            "Tacos",
-            "Pizza"
+            "Kebab with green salad",
+            "Falafel with brown rice"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -3100,7 +3307,7 @@
             "Germany",
             "Mexico"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'e bak.",
           "hl": [
             3
           ]
@@ -3110,10 +3317,10 @@
           "qTr": "Sam pazarda neyi deneyecek?",
           "correct": "New vegetables",
           "wrong": [
-            "Cake",
-            "Soda"
+            "Sweet cake",
+            "Cold soda"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
@@ -3126,7 +3333,7 @@
             "Algeria",
             "Germany"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -3185,10 +3392,10 @@
           "qTr": "Nora'nın annesi ne öğretir?",
           "correct": "Healthy ingredients",
           "wrong": [
-            "Sports",
-            "Music"
+            "School sports",
+            "Piano music"
           ],
-          "hint": "Read sentence 1.",
+          "hint": "Nora'ya bak.",
           "hl": [
             0
           ]
@@ -3198,10 +3405,10 @@
           "qTr": "Limon salataya ne katar?",
           "correct": "Makes it taste good",
           "wrong": [
-            "Makes it cold",
-            "Makes it dry"
+            "Makes it taste bad",
+            "Makes it very dry"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Limonu bul.",
           "hl": [
             2
           ]
@@ -3211,10 +3418,10 @@
           "qTr": "Sam'in ailesi her hafta ne yer?",
           "correct": "Brown rice",
           "wrong": [
-            "Pizza",
-            "Soda"
+            "White rice",
+            "Fried rice"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Sam'e bak.",
           "hl": [
             3
           ]
@@ -3224,10 +3431,10 @@
           "qTr": "Leyla'nın büyükannesi ne yapar?",
           "correct": "Plum jam",
           "wrong": [
-            "Cake",
-            "Pizza"
+            "Apple jam",
+            "Cherry jam"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
@@ -3237,10 +3444,10 @@
           "qTr": "Nora ne yapacak?",
           "correct": "Lemon chicken with brown rice",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "Plum chicken with pasta",
+            "Lemon fish with salad"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Nora'ya bak.",
           "hl": [
             5
           ]
@@ -3302,7 +3509,7 @@
             "Goodbye!",
             "Hello!"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam'e bak.",
           "hl": [
             1
           ]
@@ -3315,7 +3522,7 @@
             "Goodbye",
             "Hurry up"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             2
           ]
@@ -3325,10 +3532,10 @@
           "qTr": "Leyla'nın annesi ne yaptı?",
           "correct": "Fresh pasta",
           "wrong": [
-            "Pizza",
-            "Tacos"
+            "Fresh salad",
+            "Fresh soup"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
@@ -3341,7 +3548,7 @@
             "Cake",
             "Cookies"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -3351,10 +3558,10 @@
           "qTr": "Leyla sonunda ne der?",
           "correct": "Thanks for everything",
           "wrong": [
-            "Goodbye",
-            "I'm tired"
+            "See you later",
+            "I am tired"
           ],
-          "hint": "Read sentence 10.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             9
           ]
@@ -3387,7 +3594,7 @@
         "Ms. Reed: Let's make a list of healthy snacks for the week.",
         "Nora: We can have a few strawberries and a little yogurt for Monday.",
         "Sam: For Tuesday, a few grapes and a little brown bread will be good.",
-        "Leyla: For Wednesday, we can have a few pears and a little honey.",
+        "Leyla: For Wednesday, we can have a few pears and a little yogurt.",
         "Nora: But there is little milk in my fridge. I need to buy more!",
         "Sam: For Thursday, a few cherries and a little nuts will be amazing.",
         "Leyla: For Friday, we can eat a little plum jam on toast.",
@@ -3399,7 +3606,7 @@
         "Ms. Reed: Hafta için sağlıklı atıştırmalıklar listesi yapalım.",
         "Nora: Pazartesi için birkaç çilek ve biraz yoğurt alabiliriz.",
         "Sam: Salı için birkaç üzüm ve biraz esmer ekmek iyi olur.",
-        "Leyla: Çarşamba için birkaç armut ve biraz bal alabiliriz.",
+        "Leyla: Çarşamba için birkaç armut ve biraz yoğurt alabiliriz.",
         "Nora: Ama buzdolabımda az süt var. Daha fazla almam gerek!",
         "Sam: Perşembe için birkaç kiraz ve biraz fındık harika olur.",
         "Leyla: Cuma için tostta biraz erik reçeli yiyebiliriz.",
@@ -3413,10 +3620,10 @@
           "qTr": "Pazartesi için ne var?",
           "correct": "Strawberries and yogurt",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "Chips and soda",
+            "Biscuits and cake"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Nora'ya bak.",
           "hl": [
             1
           ]
@@ -3424,12 +3631,12 @@
         {
           "q": "What is for Wednesday?",
           "qTr": "Çarşamba için ne var?",
-          "correct": "Pears and honey",
+          "correct": "Pears and yogurt",
           "wrong": [
-            "Cake",
-            "Tacos"
+            "Cake and soda",
+            "Chips and pizza"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             3
           ]
@@ -3439,10 +3646,10 @@
           "qTr": "Nora'nın buzdolabında ne var?",
           "correct": "Little milk",
           "wrong": [
-            "A lot of milk",
+            "Much milk",
             "No milk"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Nora'ya bak.",
           "hl": [
             4
           ]
@@ -3452,10 +3659,10 @@
           "qTr": "Cuma için ne var?",
           "correct": "Plum jam on toast",
           "wrong": [
-            "Pizza",
-            "Cake"
+            "Cherry jam on toast",
+            "Lemon jam on toast"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             6
           ]
@@ -3465,10 +3672,10 @@
           "qTr": "Hafta sonu için neler var?",
           "correct": "Lemons for lemonade",
           "wrong": [
-            "Pizza",
-            "Soda"
+            "Grapes for juice",
+            "Cherries for jam"
           ],
-          "hint": "Read sentence 8.",
+          "hint": "Nora'ya bak.",
           "hl": [
             7
           ]
@@ -3504,32 +3711,54 @@
         }
       ],
       "sentences": [
-        "Sam found a mystery postcard in Ms. Reed's classroom. \"Can you guess where we are going to go?\" it said.",
-        "First clue: \"This country is in Europe. It is famous for its ancient history and beautiful islands.\"",
-        "Second clue: \"The most famous dish from this country uses a lot of vegetables, olive oil and cheese.\"",
-        "Third clue: \"People in this country love eating yogurt, olives and fresh bread for breakfast.\"",
-        "Fourth clue: \"The weather there is warm and sunny in summer. The sea is the most beautiful blue colour.\"",
-        "Fifth clue: \"We are going to visit the most famous ancient ruins in this country. They are thousands of years old!\"",
-        "Nora whispered: \"It is not Italy — Italian food uses tomatoes and the most famous dish is pizza…\"",
-        "\"It is not Spain either — the most famous Spanish dish is paella, not a vegetable dish with cheese.\"",
-        "Leyla said: \"A vegetable dish with olive oil and cheese, beautiful islands, ancient ruins — I think I know!\"",
-        "Sam said: \"And the sea is the most beautiful blue — that is the biggest clue of all!\"",
-        "Leyla stood up: \"We are going to go to Greece! The dish is moussaka!\"",
-        "Ms. Reed clapped: \"Excellent! We are going to visit Athens and try the most delicious moussaka. I can't wait!\""
+        "Sam found a mystery postcard in Ms. Reed's classroom.",
+        "Postcard: Can you guess where we are going to go?",
+        "First clue: This country is in Europe.",
+        "First clue: It is famous for its ancient history and beautiful islands.",
+        "Second clue: The most famous dish from this country uses a lot of vegetables like spinach and cauliflower.",
+        "Third clue: People in this country love eating yogurt and fresh bread for breakfast.",
+        "Fourth clue: The weather there is warm and sunny in summer.",
+        "Fourth clue: The sea is the most beautiful blue colour.",
+        "Fifth clue: We are going to visit the most famous ancient ruins in this country.",
+        "Fifth clue: They are thousands of years old!",
+        "Nora: It is not Italy.",
+        "Nora: Italian food uses tomatoes and the most famous dish is pizza…",
+        "Nora: It is not Spain either.",
+        "Nora: The most famous Spanish holiday food is fresh oranges and lemons, not a vegetable dish.",
+        "Leyla: A vegetable dish with spinach and cauliflower, beautiful islands, ancient ruins.",
+        "Leyla: I think I know!",
+        "Sam: And the sea is the most beautiful blue.",
+        "Sam: That is the biggest clue of all!",
+        "Leyla: We are going to go to Greece!",
+        "Leyla: The dish is moussaka!",
+        "Ms. Reed: Excellent!",
+        "Ms. Reed: We are going to visit Athens and try the most delicious moussaka.",
+        "Ms. Reed: I can't wait!"
       ],
       "translations": [
-        "Sam Ms. Reed'in sınıfında gizemli bir kartpostal buldu. \"Nereye gideceğimizi tahmin edebilir misiniz?\" yazıyordu.",
-        "Birinci ipucu: \"Bu ülke Avrupa'da. Antik tarihi ve güzel adalarıyla ünlü.\"",
-        "İkinci ipucu: \"Bu ülkenin en ünlü yemeği çok sebze, zeytinyağı ve peynir kullanıyor.\"",
-        "Üçüncü ipucu: \"Bu ülkedeki insanlar kahvaltıda yoğurt, zeytin ve taze ekmek yemeyi seviyor.\"",
-        "Dördüncü ipucu: \"Yazın hava sıcak ve güneşli. Deniz en güzel mavi renk.\"",
-        "Beşinci ipucu: \"Bu ülkedeki en ünlü antik kalıntıları ziyaret edeceğiz. Binlerce yıl öncesinden kalma!\"",
-        "Nora fısıldadı: \"İtalya değil — İtalyan mutfağı domates kullanıyor ve en ünlü yemek pizza…\"",
-        "\"İspanya da değil — en ünlü İspanyol yemeği paella, peynirli sebze yemeği değil.\"",
-        "Leyla dedi: \"Zeytinyağı ve peynirle yapılan sebze yemeği, güzel adalar, antik kalıntılar — bence biliyorum!\"",
-        "Sam dedi: \"Ve deniz en güzel mavi — bu en büyük ipucu!\"",
-        "Leyla ayağa kalktı: \"Yunanistan'a gideceğiz! Yemek musakka!\"",
-        "Ms. Reed alkışladı: \"Mükemmel! Atina'yı ziyaret edecek ve en lezzetli musakkayi deneyeceğiz. Sabırsızlanıyorum!\""
+        "Sam Ms. Reed'in sınıfında gizemli bir kartpostal buldu.",
+        "Kartpostal: Nereye gideceğimizi tahmin edebilir misiniz?",
+        "Birinci ipucu: Bu ülke Avrupa'da.",
+        "Birinci ipucu: Antik tarihi ve güzel adalarıyla ünlü.",
+        "İkinci ipucu: Bu ülkenin en ünlü yemeği ıspanak ve karnabahar gibi çok sebze kullanıyor.",
+        "Üçüncü ipucu: Bu ülkedeki insanlar kahvaltıda yoğurt ve taze ekmek yemeyi seviyor.",
+        "Dördüncü ipucu: Yazın hava sıcak ve güneşli.",
+        "Dördüncü ipucu: Deniz en güzel mavi renk.",
+        "Beşinci ipucu: Bu ülkedeki en ünlü antik kalıntıları ziyaret edeceğiz.",
+        "Beşinci ipucu: Binlerce yıl öncesinden kalma!",
+        "Nora: İtalya değil.",
+        "Nora: İtalyan mutfağı domates kullanıyor ve en ünlü yemek pizza…",
+        "Nora: İspanya da değil.",
+        "Nora: En meşhur İspanyol tatil yemeği taze portakal ve limon, sebze yemeği değil.",
+        "Leyla: Ispanak ve karnabaharla yapılan sebze yemeği, güzel adalar, antik kalıntılar.",
+        "Leyla: Bence biliyorum!",
+        "Sam: Ve deniz en güzel mavi.",
+        "Sam: Bu en büyük ipucu!",
+        "Leyla: Yunanistan'a gideceğiz!",
+        "Leyla: Yemek musakka!",
+        "Ms. Reed: Mükemmel!",
+        "Ms. Reed: Atina'yı ziyaret edeceğiz ve en lezzetli musakkayı deneyeceğiz.",
+        "Ms. Reed: Sabırsızlanıyorum!"
       ],
       "questions": [
         {
@@ -3540,10 +3769,13 @@
             "Italy",
             "Spain"
           ],
-          "hint": "Read what Leyla says near the end.",
+          "hint": "Bu ülke Avrupa'da, adalarıyla ünlü ve yemeğinde ıspanak, karnabahar gibi sebzeler var.",
           "hl": [
-            10,
-            11
+            18,
+            19,
+            20,
+            21,
+            22
           ]
         },
         {
@@ -3552,12 +3784,13 @@
           "correct": "Moussaka",
           "wrong": [
             "Pizza",
-            "Paella"
+            "Kebab"
           ],
-          "hint": "Find the second clue and Leyla's answer.",
+          "hint": "Bu yemekte ıspanak ve karnabahar gibi çok sebze var.",
           "hl": [
-            2,
-            10
+            4,
+            18,
+            19
           ]
         },
         {
@@ -3568,9 +3801,10 @@
             "Because Italy is not in Europe",
             "Because Italy has no ancient ruins"
           ],
-          "hint": "Find what Nora whispers in the text.",
+          "hint": "İtalyan yemeğinde domates var ve en ünlü yemek pizza.",
           "hl": [
-            6
+            10,
+            11
           ]
         },
         {
@@ -3581,9 +3815,10 @@
             "The ancient ruins",
             "The breakfast food"
           ],
-          "hint": "Find what Sam says in the text.",
+          "hint": "Deniz en güzel mavi renkte.",
           "hl": [
-            9
+            16,
+            17
           ]
         },
         {
@@ -3594,9 +3829,11 @@
             "Rome",
             "Mexico City"
           ],
-          "hint": "Find what Ms. Reed says at the end.",
+          "hint": "Ms. Reed en lezzetli musakkayı bu ünlü şehirde deneyecek.",
           "hl": [
-            11
+            20,
+            21,
+            22
           ]
         }
       ]
@@ -3629,31 +3866,53 @@
       ],
       "sentences": [
         "Sam wrote a secret plan in his notebook. Ms. Reed found it and read it to the class!",
-        "\"Step 1: I am going to wake up early on Saturday morning.\"",
-        "\"Step 2: I am going to go to the market with Mum. We are going to buy a few tomatoes, a little olive oil and some fresh herbs.\"",
-        "\"Step 3: I am going to pick a few cherries and plums from Grandpa's garden.\"",
-        "\"Step 4: I am going to come home and wash all the vegetables and fruit carefully.\"",
-        "\"Step 5: I am going to put a little salt and a few drops of lemon juice in the bowl.\"",
-        "\"Step 6: I am going to mix everything together. I am going to add a few nuts on top too.\"",
-        "\"Step 7: I am going to set the table nicely. After you, Grandma — you are going to sit at the head of the table!\"",
-        "\"Step 8: I am going to call everyone to the table and say: I'm starving — but today this meal is for you!\"",
-        "Ms. Reed smiled and looked at Sam: \"So, what are you going to make?\"",
-        "Sam went red: \"It is… a surprise salad! I am going to make it for Grandma's birthday!\"",
-        "The class laughed. Nora said: \"That is the most thoughtful gift — and it sounds delicious!\""
+        "Step 1: I am going to wake up early on Saturday morning.",
+        "Step 2: I am going to go to the market with Mum.",
+        "Step 2: We are going to buy a few tomatoes, a little lemon and some fresh herbs.",
+        "Step 3: I am going to pick a few cherries and plums from Grandpa's garden.",
+        "Step 4: I am going to come home and wash all the vegetables and fruit carefully.",
+        "Step 5: I am going to put a little salt and a few drops of lemon juice in the bowl.",
+        "Step 6: I am going to mix everything together.",
+        "Step 6: I am going to add a few nuts on top too.",
+        "Step 7: I am going to set the table nicely.",
+        "Step 7: After you, Grandma!",
+        "Step 7: You are going to sit at the head of the table!",
+        "Step 8: I am going to call everyone to the table.",
+        "Step 8: I'm starving.",
+        "Step 8: But today this meal is for you!",
+        "Ms. Reed smiled and looked at Sam.",
+        "Ms. Reed: So, what are you going to make?",
+        "Sam went red.",
+        "Sam: It is… a surprise salad!",
+        "Sam: I am going to make it for Grandma's birthday!",
+        "The class laughed.",
+        "Nora: That is the most thoughtful gift.",
+        "Nora: And it sounds delicious!"
       ],
       "translations": [
         "Sam defterine gizli bir plan yazdı. Ms. Reed onu buldu ve sınıfa okudu!",
-        "\"Adım 1: Cumartesi sabahı erken uyanacağım.\"",
-        "\"Adım 2: Annemle markete gideceğim. Birkaç domates, biraz zeytinyağı ve taze otlar alacağız.\"",
-        "\"Adım 3: Dedemin bahçesinden birkaç kiraz ve erik toplayacağım.\"",
-        "\"Adım 4: Eve gelip tüm sebze ve meyveleri dikkatlice yıkayacağım.\"",
-        "\"Adım 5: Kaseye biraz tuz ve birkaç damla limon suyu koyacağım.\"",
-        "\"Adım 6: Her şeyi birlikte karıştıracağım. Üstüne birkaç fındık da ekleyeceğim.\"",
-        "\"Adım 7: Masayı güzelce kuracağım. Buyurun Büyükannem — masanın başına oturacaksınız!\"",
-        "\"Adım 8: Herkesi masaya çağıracağım ve şunu söyleyeceğim: Acıktım — ama bugün bu yemek sizin için!\"",
-        "Ms. Reed gülümsedi ve Sam'e baktı: \"Peki, ne yapacaksın?\"",
-        "Sam kızardı: \"Bu… sürpriz salata! Büyükannemin doğum günü için yapacağım!\"",
-        "Sınıf güldü. Nora dedi: \"Bu en düşünceli hediye — ve kulağa çok lezzetli geliyor!\""
+        "Adım 1: Cumartesi sabahı erken uyanacağım.",
+        "Adım 2: Annemle markete gideceğim.",
+        "Adım 2: Birkaç domates, biraz limon ve taze otlar alacağız.",
+        "Adım 3: Dedemin bahçesinden birkaç kiraz ve erik toplayacağım.",
+        "Adım 4: Eve gelip tüm sebze ve meyveleri dikkatlice yıkayacağım.",
+        "Adım 5: Kaseye biraz tuz ve birkaç damla limon suyu koyacağım.",
+        "Adım 6: Her şeyi birlikte karıştıracağım.",
+        "Adım 6: Üstüne birkaç fındık da ekleyeceğim.",
+        "Adım 7: Masayı güzelce kuracağım.",
+        "Adım 7: Buyurun Büyükannem!",
+        "Adım 7: Masanın başına oturacaksınız!",
+        "Adım 8: Herkesi masaya çağıracağım.",
+        "Adım 8: Acıktım.",
+        "Adım 8: Ama bugün bu yemek sizin için!",
+        "Ms. Reed gülümsedi ve Sam'e baktı.",
+        "Ms. Reed: Peki, ne yapacaksın?",
+        "Sam kızardı.",
+        "Sam: Bu… sürpriz salata!",
+        "Sam: Büyükannemin doğum günü için yapacağım!",
+        "Sınıf güldü.",
+        "Nora: Bu en düşünceli hediye.",
+        "Nora: Ve kulağa çok lezzetli geliyor!"
       ],
       "questions": [
         {
@@ -3664,23 +3923,26 @@
             "A soup for Ms. Reed",
             "A fruit bowl for the class"
           ],
-          "hint": "Read what Sam says when Ms. Reed asks him.",
+          "hint": "Bu, Sam'in büyükannesi için hazırladığı bir doğum günü sürprizi.",
           "hl": [
-            10,
-            11
+            18,
+            19,
+            21,
+            22
           ]
         },
         {
-          "q": "Where is Sam going to get the tomatoes and olive oil?",
-          "qTr": "Sam domatesleri ve zeytinyağını nereden alacak?",
+          "q": "Where is Sam going to get the tomatoes and lemon?",
+          "qTr": "Sam domatesleri ve limonu nereden alacak?",
           "correct": "From the market with his mum",
           "wrong": [
             "From Grandpa's garden",
             "From the school kitchen"
           ],
-          "hint": "Find Step 2 in the text.",
+          "hint": "Sam bunları annesiyle bir yerden alacak.",
           "hl": [
-            2
+            2,
+            3
           ]
         },
         {
@@ -3691,9 +3953,9 @@
             "From the market",
             "From the supermarket"
           ],
-          "hint": "Find Step 3 in the text.",
+          "hint": "Sam bunları dedesinin bahçesinden toplayacak.",
           "hl": [
-            3
+            4
           ]
         },
         {
@@ -3702,11 +3964,11 @@
           "correct": "A little salt and a few drops of lemon juice",
           "wrong": [
             "A little sugar and a few nuts",
-            "A little olive oil and a few tomatoes"
+            "A little lemon and a few tomatoes"
           ],
-          "hint": "Find Step 5 in the text.",
+          "hint": "Kâseye tuz ve limon suyu damlaları koyacak.",
           "hl": [
-            5
+            6
           ]
         },
         {
@@ -3717,9 +3979,10 @@
             "It is the strangest gift",
             "It is the most expensive gift"
           ],
-          "hint": "Find what Nora says at the end of the text.",
+          "hint": "Nora bu hediyenin en düşünceli hediye olduğunu söylüyor.",
           "hl": [
-            11
+            21,
+            22
           ]
         }
       ]
@@ -3775,7 +4038,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Süt değil, çilek de değil.",
           "hl": [
             1
           ]
@@ -3788,7 +4051,7 @@
             "Red",
             "Yellow"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Yeşil bir sebze.",
           "hl": [
             3
           ]
@@ -3801,7 +4064,7 @@
             "Small and soft",
             "Round and sweet"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Uzun ve çıtır çıtır.",
           "hl": [
             4
           ]
@@ -3814,7 +4077,7 @@
             "In cake",
             "In soda"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sıklıkla salatalarda kullanılır.",
           "hl": [
             5
           ]
@@ -3827,7 +4090,7 @@
             "A pear",
             "A strawberry"
           ],
-          "hint": "Match all clues.",
+          "hint": "Yeşil, uzun ve çıtır bir sebze. Salatalarda kullanılır.",
           "hl": [
             3,
             4,
@@ -3864,7 +4127,7 @@
         "It is not fish and chips.",
         "It is a popular dish from Algeria.",
         "It is small and round.",
-        "It is made from chickpeas.",
+        "It is made from vegetables.",
         "What dish is it?",
         "It is falafel!"
       ],
@@ -3874,7 +4137,7 @@
         "Fish and chips değil.",
         "Cezayir'den popüler bir yemek.",
         "Küçük ve yuvarlak.",
-        "Nohuttan yapılır.",
+        "Sebzelerden yapılır.",
         "Bu hangi yemek?",
         "Falafel!"
       ],
@@ -3887,7 +4150,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Pizza değil, tako da değil.",
           "hl": [
             1
           ]
@@ -3900,7 +4163,7 @@
             "Italy",
             "Mexico"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Cezayir'den popüler bir yemek.",
           "hl": [
             3
           ]
@@ -3913,7 +4176,7 @@
             "Big and flat",
             "Long and thin"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Küçük ve yuvarlak.",
           "hl": [
             4
           ]
@@ -3921,12 +4184,12 @@
         {
           "q": "What is it made from?",
           "qTr": "Bu neyden yapılır?",
-          "correct": "Chickpeas",
+          "correct": "Vegetables",
           "wrong": [
             "Meat",
-            "Cheese"
+            "Brown rice"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sebzelerden yapılır.",
           "hl": [
             5
           ]
@@ -3939,7 +4202,7 @@
             "Moussaka",
             "Kebab"
           ],
-          "hint": "Match all clues.",
+          "hint": "Cezayir'den, küçük ve yuvarlak, sebzelerden yapılan bir yemek.",
           "hl": [
             3,
             5,
@@ -3999,7 +4262,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "İtalya'ya gitmiyor, Türkiye'ye de gitmiyor.",
           "hl": [
             1
           ]
@@ -4012,7 +4275,7 @@
             "Sweet food",
             "Cold food"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Baharatlı yemekleri olan bir ülke.",
           "hl": [
             4
           ]
@@ -4025,7 +4288,7 @@
             "Pizza",
             "Falafel"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Sam her gün tako yiyecek.",
           "hl": [
             5
           ]
@@ -4038,7 +4301,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Yunanistan'a gitmiyor.",
           "hl": [
             3
           ]
@@ -4051,7 +4314,7 @@
             "Italy",
             "Greece"
           ],
-          "hint": "Match all clues.",
+          "hint": "Baharatlı yemekleri var ve her gün tako yiyecek.",
           "hl": [
             4,
             5,
@@ -4062,7 +4325,7 @@
     },
     {
       "id": "inf-6",
-      "title": "Healthy or Unhealthy?",
+      "title": "Which Cold Treat Is It?",
       "subtitle": "Use the clues to decide!",
       "icon": "❓",
       "hlMode": "fade3",
@@ -4111,7 +4374,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sebze değil, meyve de değil.",
           "hl": [
             1
           ]
@@ -4124,7 +4387,7 @@
             "Vitamins",
             "Water"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Şeker dolu.",
           "hl": [
             3
           ]
@@ -4137,7 +4400,7 @@
             "Before school",
             "At lunch"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Çocuklar bunu yemekten sonra sever.",
           "hl": [
             4
           ]
@@ -4150,7 +4413,7 @@
             "Hot and spicy",
             "Sour"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Soğuk ve tatlı.",
           "hl": [
             5
           ]
@@ -4163,7 +4426,7 @@
             "A cucumber",
             "A pear"
           ],
-          "hint": "Match all clues.",
+          "hint": "Şeker dolu, soğuk ve tatlı bir yiyecek — sağlıksız.",
           "hl": [
             3,
             5,
@@ -4223,7 +4486,7 @@
             "Cookies",
             "Apples"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Bardaktaki bir içecekten bahsediyor.",
           "hl": [
             1
           ]
@@ -4236,7 +4499,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Süt teker teker sayılamaz.",
           "hl": [
             2
           ]
@@ -4249,7 +4512,7 @@
             "No milk",
             "A lot"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Biraz var ama çok değil.",
           "hl": [
             3
           ]
@@ -4262,7 +4525,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 6.",
+          "hint": "Süt sayılamaz bir maddedir.",
           "hl": [
             5
           ]
@@ -4275,7 +4538,7 @@
             "A few",
             "Many"
           ],
-          "hint": "Match all clues.",
+          "hint": "Süt sayılamaz ve azdır.",
           "hl": [
             5,
             7
@@ -4336,7 +4599,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Kahvaltı ve öğle yemeği yemedi.",
           "hl": [
             1
           ]
@@ -4349,7 +4612,7 @@
             "Morning",
             "Noon"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Şimdi akşam yemeği zamanı.",
           "hl": [
             3
           ]
@@ -4362,7 +4625,7 @@
             "He is tired",
             "He is happy"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Sam çok aç olduğunu göstermek istiyor.",
           "hl": [
             4
           ]
@@ -4375,7 +4638,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Bu ifade 'After you' değil.",
           "hl": [
             6
           ]
@@ -4388,7 +4651,7 @@
             "After you",
             "Thanks"
           ],
-          "hint": "Match all clues.",
+          "hint": "Sam çok aç. Bu ifade 'Thanks for everything' ve 'After you' değil.",
           "hl": [
             4,
             5,
@@ -4424,8 +4687,8 @@
         "Sam tastes pizza. He says it is good.",
         "Leyla tastes tacos. She says they are good, too.",
         "Nora tastes moussaka. She says it is the most delicious of all!",
-        "She says: \"The eggplant and meat together are amazing.\"",
-        "\"Greek moussaka is the best dish for me.\"",
+        "Nora: The vegetables and meat together are amazing.",
+        "Nora: Greek moussaka is the best dish for me.",
         "Which dish is the most delicious for Nora?",
         "Moussaka is the most delicious!"
       ],
@@ -4434,8 +4697,8 @@
         "Sam pizza tadıyor. İyi olduğunu söylüyor.",
         "Leyla tako tadıyor. O da iyi olduğunu söylüyor.",
         "Nora musakka tadıyor. Hepsinin en lezzetlisi olduğunu söylüyor!",
-        "Diyor ki: \"Patlıcan ve et birlikte harika.\"",
-        "\"Yunan musakka benim için en iyi yemek.\"",
+        "Nora: Sebzeler ve et birlikte harika.",
+        "Nora: Yunan musakka benim için en iyi yemek.",
         "Nora için hangi yemek en lezzetli?",
         "Musakka en lezzetli!"
       ],
@@ -4448,7 +4711,7 @@
             "Tacos",
             "Moussaka"
           ],
-          "hint": "Read sentence 2.",
+          "hint": "Sam bir İtalyan yemeği tadıyor.",
           "hl": [
             1
           ]
@@ -4461,7 +4724,7 @@
             "Pizza",
             "Moussaka"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Leyla bir Meksika yemeği tadıyor.",
           "hl": [
             2
           ]
@@ -4474,7 +4737,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Read sentence 4.",
+          "hint": "Nora en lezzetli yemeği tadıyor.",
           "hl": [
             3
           ]
@@ -4482,12 +4745,12 @@
         {
           "q": "What is in moussaka?",
           "qTr": "Musakkanın içinde ne var?",
-          "correct": "Eggplant and meat",
+          "correct": "Vegetables and meat",
           "wrong": [
-            "Cheese only",
+            "Brown rice only",
             "Sugar"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "İçinde sebze ve et var.",
           "hl": [
             4
           ]
@@ -4500,7 +4763,7 @@
             "Pizza",
             "Tacos"
           ],
-          "hint": "Match the clues.",
+          "hint": "Nora'nın yemeği en lezzetlisi ve içinde sebze ile et var.",
           "hl": [
             3,
             5,
@@ -4562,7 +4825,7 @@
             "Nothing",
             "A book"
           ],
-          "hint": "Read sentence 3.",
+          "hint": "Biletleri ve hazır çantası var.",
           "hl": [
             2
           ]
@@ -4575,7 +4838,7 @@
             "Yes",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Bu bir tahmin değil.",
           "hl": [
             4
           ]
@@ -4588,7 +4851,7 @@
             "No",
             "Maybe"
           ],
-          "hint": "Read sentence 5.",
+          "hint": "Bu planlanmış bir eylem.",
           "hl": [
             4
           ]
@@ -4601,7 +4864,7 @@
             "Will",
             "Should"
           ],
-          "hint": "Read sentence 7.",
+          "hint": "Planlanmış eylemler için özel bir yapı kullanılır.",
           "hl": [
             6
           ]
@@ -4614,7 +4877,7 @@
             "I will travel",
             "I may travel"
           ],
-          "hint": "Match the clues.",
+          "hint": "Bu planlanmış bir eylem, tahmin değil.",
           "hl": [
             6,
             8
