@@ -1187,13 +1187,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "How the beach changed",
+          "q": "What is this text about?",
+          "correct": "A beach in two years",
           "wrong": [
-            "How to take photos",
-            "Where the dolphins sleep"
+            "A lagoon in two years",
+            "A river in two years"
           ],
-          "hint": "Eski fotoğrafla bugünün neden karşılaştırıldığını düşün.",
+          "hint": "Değişimi düşün.",
           "hl": [
             1,
             2,
@@ -1201,51 +1201,52 @@
           ]
         },
         {
-          "q": "What were on the rocks ten years ago?",
-          "correct": "A lot of seals",
+          "q": "How many seals are on the rocks today?",
+          "correct": "No seals",
           "wrong": [
-            "A lot of crabs",
-            "A lot of nets"
+            "Two seals",
+            "Ten seals"
           ],
-          "hint": "Sam'in kayalar hakkındaki cümlesini bul.",
+          "hint": "Kayaları bul.",
           "hl": [
+            1,
             2
+          ]
+        },
+        {
+          "q": "What was the water like in the old photo?",
+          "correct": "Clear and blue",
+          "wrong": [
+            "Warm and grey",
+            "Cold and dark"
+          ],
+          "hint": "Suyu bul.",
+          "hl": [
+            3
           ]
         },
         {
           "q": "Where does the pollution come from?",
           "correct": "From their town",
           "wrong": [
-            "From the rocks",
-            "From the boats"
+            "From their lake",
+            "From their beach"
           ],
-          "hint": "Nora'nın plastikten söz ettiği cümleyi bul.",
+          "hint": "Plastiği bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What does Leyla's uncle say about the sea?",
-          "correct": "It was cold in summer",
+          "q": "What was the sea like in summer?",
+          "correct": "It was cold",
           "wrong": [
-            "It was warm in winter",
-            "It was clean in spring"
+            "It was warm",
+            "It was clean"
           ],
-          "hint": "Leyla'nın amcasından bahsettiği cümleyi bul.",
+          "hint": "Leyla'nın amcasını bul.",
           "hl": [
             7
-          ]
-        },
-        {
-          "q": "What does Nora say about the photos?",
-          "correct": "Put them on the school wall",
-          "wrong": [
-            "Give them to her grandma",
-            "Keep them in the box"
-          ],
-          "hint": "Nora'nın son cümlesindeki fikri bul.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -1302,13 +1303,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Ways to protect marine animals",
+          "q": "What is this text about?",
+          "correct": "How to help sea animals",
           "wrong": [
-            "Places to visit by water",
-            "Weather at the beach"
+            "How to find sea animals",
+            "How to draw sea animals"
           ],
-          "hint": "Sınıfın birlikte ne hazırladığını düşün.",
+          "hint": "Korumayı düşün.",
           "hl": [
             0,
             1,
@@ -1316,25 +1317,25 @@
           ]
         },
         {
-          "q": "What does Nora say about plastic bottles?",
-          "correct": "Say no to them",
+          "q": "What should they say no to?",
+          "correct": "Plastic bottles",
           "wrong": [
-            "Buy them again",
-            "Leave them there"
+            "Fishing nets",
+            "Beach houses"
           ],
-          "hint": "Nora'nın plastik şişelerle ilgili ilk cümlesini bul.",
+          "hint": "Nora'nın ilk fikrini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where shouldn't people throw waste?",
-          "correct": "Into rivers or lakes",
+          "q": "Where shouldn't they throw waste?",
+          "correct": "Into rivers",
           "wrong": [
-            "Into rubbish bins",
-            "Into the school bin"
+            "Into boxes",
+            "Into houses"
           ],
-          "hint": "Nora'nın atıkla ilgili cümlesini bul.",
+          "hint": "Atığı bul.",
           "hl": [
             4
           ]
@@ -1344,23 +1345,24 @@
           "correct": "Sea turtles",
           "wrong": [
             "Small crabs",
-            "Big whales"
+            "Young seals"
           ],
-          "hint": "Sam'in yasak dediği avı bul.",
+          "hint": "Sam'in kuralını bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What does Nora call the best protection?",
-          "correct": "Knowledge",
+          "q": "How many ideas are on the list?",
+          "correct": "Six",
           "wrong": [
-            "A poster",
-            "A net"
+            "Two",
+            "Ten"
           ],
-          "hint": "Nora'nın \"Guess what?\" dedikten sonraki cümlesini bul.",
+          "hint": "Listeyi bul.",
           "hl": [
-            7
+            8,
+            9
           ]
         }
       ]
@@ -1417,13 +1419,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Making weather predictions",
+          "q": "What is this text about?",
+          "correct": "Weather for the weekend",
           "wrong": [
-            "Counting marine animals",
-            "Comparing types of houses"
+            "Animals in the lagoon",
+            "Houses near the water"
           ],
-          "hint": "Metnin başından sonuna kadar çocukların ne yaptığını düşün.",
+          "hint": "Havayı düşün.",
           "hl": [
             1,
             2,
@@ -1431,25 +1433,25 @@
           ]
         },
         {
-          "q": "What does Nora think about Saturday?",
-          "correct": "It will be sunny",
+          "q": "What will Saturday be like?",
+          "correct": "Sunny",
           "wrong": [
-            "It will be stormy",
-            "It will be misty"
+            "Stormy",
+            "Misty"
           ],
-          "hint": "Nora'nın cumartesi için söylediğini bul.",
+          "hint": "Nora'nın tahminini bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What does Leyla predict for Sunday?",
-          "correct": "It will be stormy",
+          "q": "What will Sunday be like?",
+          "correct": "Stormy",
           "wrong": [
-            "It will be sunny",
-            "It will be warm"
+            "Sunny",
+            "Warm"
           ],
-          "hint": "Leyla'nın pazar için söylediğini bul.",
+          "hint": "Leyla'nın tahminini bul.",
           "hl": [
             4
           ]
@@ -1461,19 +1463,19 @@
             "Sunny weather",
             "Misty weather"
           ],
-          "hint": "Tekne evden söz eden cümleyi bul.",
+          "hint": "Tekne evi bul.",
           "hl": [
             8
           ]
         },
         {
-          "q": "When do they check the board?",
+          "q": "When will they check the board?",
           "correct": "On Monday",
           "wrong": [
-            "On Saturday",
-            "On Sunday"
+            "On Sunday",
+            "On Saturday"
           ],
-          "hint": "Ms. Reed'in son cümlesindeki günü bul.",
+          "hint": "Panoyu bul.",
           "hl": [
             9
           ]
@@ -1532,13 +1534,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Sam's holiday by the water",
+          "q": "What is this text about?",
+          "correct": "A holiday by the water",
           "wrong": [
-            "Dangers for marine animals",
-            "Rules for the beach"
+            "A lesson about the water",
+            "A rule about the water"
           ],
-          "hint": "Sam'in sınıfa baştan sona ne anlattığını düşün.",
+          "hint": "Tatili düşün.",
           "hl": [
             1,
             4,
@@ -1546,51 +1548,52 @@
           ]
         },
         {
-          "q": "Where did Sam's family stay?",
-          "correct": "In a lake house",
+          "q": "When did Sam's family stay in a lake house?",
+          "correct": "In August",
           "wrong": [
-            "In a beach house",
-            "On a houseboat"
+            "In July",
+            "In June"
           ],
-          "hint": "Sam'in ailesinin kaldığı yeri bul.",
+          "hint": "Göl evini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Where did they go on Friday?",
-          "correct": "To a lagoon",
+          "q": "How many small fish were near the water?",
+          "correct": "Twenty",
           "wrong": [
-            "To a river",
-            "To a beach"
+            "Twelve",
+            "Two"
           ],
-          "hint": "Sam'in cuma gününü anlattığı cümleyi bul.",
+          "hint": "Balıkları bul.",
           "hl": [
-            4
+            2
           ]
         },
         {
-          "q": "What is in the river instead of sand?",
+          "q": "Where were there a lot of crabs?",
+          "correct": "In the lagoon",
+          "wrong": [
+            "In the river",
+            "In the lake"
+          ],
+          "hint": "Yengeçleri bul.",
+          "hl": [
+            4,
+            5
+          ]
+        },
+        {
+          "q": "What is in the river?",
           "correct": "Only stones",
           "wrong": [
-            "Only crabs",
-            "Only fish"
+            "Only sand",
+            "Only crabs"
           ],
-          "hint": "Sam'in nehirden söz ettiği cümleyi bul.",
+          "hint": "Nehri bul.",
           "hl": [
             7
-          ]
-        },
-        {
-          "q": "What does Ms. Reed say about rivers?",
-          "correct": "They never stop",
-          "wrong": [
-            "They are calm",
-            "They are warm"
-          ],
-          "hint": "Ms. Reed'in göl ile nehri karşılaştırdığı cümleyi bul.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -1647,13 +1650,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "How the sea changed",
+          "q": "What is this text about?",
+          "correct": "Sea animals then and now",
           "wrong": [
-            "How to build houses",
-            "What marine animals eat"
+            "Sea houses then and now",
+            "Sea rules then and now"
           ],
-          "hint": "İki fotoğrafın neden yan yana konduğunu düşün.",
+          "hint": "Hayvanları düşün.",
           "hl": [
             1,
             3,
@@ -1661,49 +1664,50 @@
           ]
         },
         {
-          "q": "What were there a lot of in the old photo?",
-          "correct": "Dolphins",
+          "q": "How many dolphins are there now?",
+          "correct": "No dolphins",
           "wrong": [
-            "Sharks",
-            "Nets"
+            "Two dolphins",
+            "Ten dolphins"
           ],
-          "hint": "Nora'nın eski fotoğrafta gördüğünü bul.",
+          "hint": "Yunusları bul.",
           "hl": [
-            2
+            2,
+            3
           ]
         },
         {
           "q": "Where do octopuses hide?",
           "correct": "In small holes",
           "wrong": [
-            "In the sand",
-            "In the nets"
+            "In small nets",
+            "In small boats"
           ],
-          "hint": "Leyla'nın ahtapotlar hakkındaki cümlesini bul.",
+          "hint": "Ahtapotları bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "How many sharks are near the beach now?",
-          "correct": "No sharks",
+          "q": "How many sharks were there every summer?",
+          "correct": "One",
           "wrong": [
-            "One shark",
-            "Two sharks"
+            "Two",
+            "Ten"
           ],
-          "hint": "Ms. Reed'in köpekbalıklarını anlattığı cümleyi bul.",
+          "hint": "Köpekbalığını bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "What is there a lot of now?",
-          "correct": "Fishing nets",
+          "q": "How many fishing nets are there now?",
+          "correct": "A lot",
           "wrong": [
-            "Dolphins",
-            "Octopuses"
+            "Not one",
+            "Only two"
           ],
-          "hint": "Sam ile Leyla'nın ağlar hakkında söylediklerini bul.",
+          "hint": "Ağları bul.",
           "hl": [
             7,
             8
@@ -1763,13 +1767,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Writing new rules for the beach",
+          "q": "What is this text about?",
+          "correct": "New rules for the beach",
           "wrong": [
-            "Counting animals on the rocks",
-            "Predicting the weather at sea"
+            "New homes for the beach",
+            "New games for the beach"
           ],
-          "hint": "Meclisin toplantıda ne ürettiğini düşün.",
+          "hint": "Kuralları düşün.",
           "hl": [
             1,
             2,
@@ -1781,11 +1785,23 @@
           "correct": "Plastic",
           "wrong": [
             "Sand",
-            "Signs"
+            "Water"
           ],
-          "hint": "Nora'nın bir numaralı kuralını bul.",
+          "hint": "Bir numaralı kuralı bul.",
           "hl": [
             2
+          ]
+        },
+        {
+          "q": "What mustn't you leave on the sand?",
+          "correct": "A fishing net",
+          "wrong": [
+            "A plastic bottle",
+            "A waste bag"
+          ],
+          "hint": "İki numaralı kuralı bul.",
+          "hl": [
+            3
           ]
         },
         {
@@ -1795,34 +1811,21 @@
             "Feeding",
             "Driving"
           ],
-          "hint": "Leyla'nın üç numaralı kuralını bul.",
+          "hint": "Üç numaralı kuralı bul.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Which danger is not a rule?",
+          "q": "What is the worst danger of all?",
           "correct": "Climate change",
           "wrong": [
             "Fishing nets",
-            "Hunting"
+            "Plastic bottles"
           ],
-          "hint": "Leyla'nın \"farklı\" dediği kuralı bul.",
+          "hint": "Altı numaralı kuralı bul.",
           "hl": [
-            7,
-            8
-          ]
-        },
-        {
-          "q": "Where do the six rules go?",
-          "correct": "On the sign",
-          "wrong": [
-            "On the sand",
-            "On the rocks"
-          ],
-          "hint": "Ms. Reed'in son cümlesini bul.",
-          "hl": [
-            9
+            7
           ]
         }
       ]
@@ -1879,13 +1882,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Predictions about next summer",
+          "q": "What is this text about?",
+          "correct": "Our beach next summer",
           "wrong": [
-            "Rules for the beach club",
-            "Animals in the lagoon"
+            "Our lake last winter",
+            "Our river last autumn"
           ],
-          "hint": "Ms. Reed'in sorusunun tüm metni nasıl yönlendirdiğini düşün.",
+          "hint": "Geleceği düşün.",
           "hl": [
             0,
             1,
@@ -1893,13 +1896,13 @@
           ]
         },
         {
-          "q": "Why does Nora think the sand will be clean?",
-          "correct": "Her club works there",
+          "q": "What will the sand be like?",
+          "correct": "Clean",
           "wrong": [
-            "Her family lives there",
-            "Her school is near"
+            "Warm",
+            "Dark"
           ],
-          "hint": "Nora'nın ilk tahminini bul.",
+          "hint": "Nora'nın tahminini bul.",
           "hl": [
             1
           ]
@@ -1908,34 +1911,34 @@
           "q": "Where will Leyla's family go?",
           "correct": "To the lake",
           "wrong": [
-            "To the beach",
-            "To the lagoon"
+            "To the sea",
+            "To the beach"
           ],
-          "hint": "Leyla'nın ailesinden söz ettiği cümleyi bul.",
+          "hint": "Leyla'nın ailesini bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "What is on the rocks this summer?",
+          "q": "How many seals are on the rocks?",
           "correct": "No seals",
           "wrong": [
-            "Many seals",
-            "Two seals"
+            "Two seals",
+            "Many seals"
           ],
-          "hint": "Leyla'nın kayalar hakkındaki cümlesini bul.",
+          "hint": "Kayaları bul.",
           "hl": [
             6
           ]
         },
         {
-          "q": "When will they read the predictions again?",
+          "q": "When will they read the predictions?",
           "correct": "Next September",
           "wrong": [
-            "Next August",
-            "Next July"
+            "Next December",
+            "Next February"
           ],
-          "hint": "Ms. Reed'in son cümlesindeki ayı bul.",
+          "hint": "Ms. Reed'in sözünü bul.",
           "hl": [
             9
           ]
@@ -1994,13 +1997,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Best and worst in the sea",
+          "q": "What is this text about?",
+          "correct": "The best and the worst",
           "wrong": [
-            "How to swim in the sea",
-            "Where to build a house"
+            "The first and the last",
+            "The old and the new"
           ],
-          "hint": "Ms. Reed'in tahtaya yazdığı iki kelimenin metni nasıl ikiye böldüğünü düşün.",
+          "hint": "İki kelimeyi düşün.",
           "hl": [
             0,
             1,
@@ -2008,25 +2011,37 @@
           ]
         },
         {
-          "q": "Which animals are the best swimmers?",
-          "correct": "Dolphins",
+          "q": "What are dolphins the best at?",
+          "correct": "Swimming",
           "wrong": [
-            "Sharks",
-            "Octopuses"
+            "Hunting",
+            "Hiding"
           ],
-          "hint": "Nora'nın ilk cümlesini bul.",
+          "hint": "Yunusları bul.",
           "hl": [
             2
           ]
         },
         {
-          "q": "Why does an octopus go into a small hole?",
-          "correct": "It has no bones",
+          "q": "What are sharks the best at?",
+          "correct": "Hunting",
           "wrong": [
-            "It is very small",
-            "It is very fast"
+            "Swimming",
+            "Jumping"
           ],
-          "hint": "Leyla'nın ahtapot hakkındaki cümlesini bul.",
+          "hint": "Köpekbalıklarını bul.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "What does an octopus have?",
+          "correct": "No bones",
+          "wrong": [
+            "No arms",
+            "No holes"
+          ],
+          "hint": "Ahtapotu bul.",
           "hl": [
             4
           ]
@@ -2035,25 +2050,13 @@
           "q": "What is the worst danger for a sea turtle?",
           "correct": "Plastic",
           "wrong": [
-            "Sharks",
-            "Cold water"
+            "Hunting",
+            "Sharks"
           ],
-          "hint": "Ms. Reed'in sorusuna Sam'in verdiği cevabı bul.",
+          "hint": "Deniz kaplumbağasını bul.",
           "hl": [
             6,
             7
-          ]
-        },
-        {
-          "q": "What does Ms. Reed say at the end?",
-          "correct": "Every animal has the best skill",
-          "wrong": [
-            "Every animal lives in the sea",
-            "Every animal eats small fish"
-          ],
-          "hint": "Ms. Reed'in son cümlesini bul.",
-          "hl": [
-            9
           ]
         }
       ]
@@ -2106,13 +2109,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
+          "q": "What is this text about?",
           "correct": "Three homes by the water",
           "wrong": [
-            "Three holidays in July",
-            "Three animals in the lake"
+            "Three animals in the water",
+            "Three dangers in the water"
           ],
-          "hint": "Üç arkadaşın sırayla neyi anlattığını düşün.",
+          "hint": "Evleri düşün.",
           "hl": [
             0,
             3,
@@ -2120,49 +2123,50 @@
           ]
         },
         {
-          "q": "What is the worst part of a houseboat?",
-          "correct": "There is no garden",
+          "q": "How much noise is on a houseboat?",
+          "correct": "Not much",
           "wrong": [
-            "There is much noise",
-            "There is no water"
+            "Too much",
+            "So much"
           ],
-          "hint": "Sam'in tekne evle ilgili şikâyetini bul.",
+          "hint": "Tekne evi bul.",
           "hl": [
+            2,
             3
           ]
         },
         {
-          "q": "How many fish did Leyla count?",
-          "correct": "Forty fish",
+          "q": "How many small fish did Leyla count?",
+          "correct": "Forty",
           "wrong": [
-            "Fourteen fish",
-            "Four fish"
+            "Fourteen",
+            "Four"
           ],
-          "hint": "Leyla'nın göl evinde saydığı sayıyı bul.",
+          "hint": "Göl evini bul.",
           "hl": [
             5
           ]
         },
         {
-          "q": "Which home has the best view of the sea?",
-          "correct": "The beach house",
+          "q": "What does a beach house have?",
+          "correct": "The best view",
           "wrong": [
-            "The lake house",
-            "The houseboat"
+            "The worst noise",
+            "The best garden"
           ],
-          "hint": "Sam'in \"Guess what?\" dedikten sonraki cümlesini bul.",
+          "hint": "Plaj evini bul.",
           "hl": [
             7
           ]
         },
         {
-          "q": "How does Leyla describe a lake house?",
+          "q": "What is a lake house like?",
           "correct": "It is quiet",
           "wrong": [
             "It is busy",
-            "It moves"
+            "It is small"
           ],
-          "hint": "Leyla'nın üç evi birden özetlediği cümleyi bul.",
+          "hint": "Leyla'nın özetini bul.",
           "hl": [
             8
           ]
@@ -2217,13 +2221,13 @@
       ],
       "questions": [
         {
-          "q": "What is this text mainly about?",
-          "correct": "Starting a beach-cleaning club",
+          "q": "What is this text about?",
+          "correct": "A club for the beach",
           "wrong": [
-            "Swimming with a turtle",
-            "Building a beach house"
+            "A house near the beach",
+            "A trip along the beach"
           ],
-          "hint": "Sohbetin nereden başlayıp neye dönüştüğünü düşün.",
+          "hint": "Yeni bir fikri düşün.",
           "hl": [
             1,
             5,
@@ -2234,46 +2238,46 @@
           "q": "What did Nora see near the rocks?",
           "correct": "A sea turtle",
           "wrong": [
-            "A whale",
-            "A shark"
+            "A young seal",
+            "A big shark"
           ],
-          "hint": "Nora'nın geçen hafta gördüğünü bul.",
+          "hint": "Nora'nın haberini bul.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Why was the sea turtle tired?",
-          "correct": "Because of the plastic",
+          "q": "What was near the sea turtle?",
+          "correct": "The plastic",
           "wrong": [
-            "Because of the sun",
-            "Because of the waves"
+            "The rocks",
+            "The waves"
           ],
-          "hint": "Nora'nın kaplumbağayı anlattığı cümleyi bul.",
+          "hint": "Kaplumbağayı bul.",
           "hl": [
             3
           ]
         },
         {
-          "q": "When does the club start?",
+          "q": "When will the club start?",
           "correct": "This Sunday",
           "wrong": [
             "This Saturday",
-            "Next Monday"
+            "This Monday"
           ],
-          "hint": "Leyla'nın verdiği günü bul.",
+          "hint": "Leyla'nın gününü bul.",
           "hl": [
             7
           ]
         },
         {
-          "q": "What time do they meet?",
-          "correct": "At nine o'clock",
+          "q": "What time will they meet?",
+          "correct": "At nine",
           "wrong": [
-            "At ten o'clock",
-            "At eight o'clock"
+            "At ten",
+            "At eight"
           ],
-          "hint": "Nora'nın son cümlesindeki saati bul.",
+          "hint": "Buluşmayı bul.",
           "hl": [
             9
           ]
