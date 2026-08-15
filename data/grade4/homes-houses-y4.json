@@ -2338,63 +2338,65 @@
       ],
       "questions": [
         {
-          "q": "Which animal is the best swimmer?",
-          "correct": "The dolphin",
+          "q": "What does Sam say about the dolphin?",
+          "correct": "It is the best jumper",
           "wrong": [
-            "The octopus",
-            "The starfish"
+            "It is the best hider",
+            "It is the best hunter"
           ],
-          "hint": "Mr. Demir'in ilk sorusuna Sam'in verdiği cevaba bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What does a jellyfish have?",
+          "q": "What does the jellyfish have?",
           "correct": "No bones",
           "wrong": [
-            "Two arms",
-            "Big eyes"
+            "No arms",
+            "No holes"
           ],
-          "hint": "Leyla'nın küçük tanktaki hayvanı anlattığı cümleye bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "Which animal is the best at hiding?",
-          "correct": "The octopus",
+          "q": "What is the octopus the best at?",
+          "correct": "Hiding",
           "wrong": [
-            "The dolphin",
-            "The jellyfish"
+            "Jumping",
+            "Hunting"
           ],
-          "hint": "Saklanma sorusunun cevabına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             5,
             6
           ]
         },
         {
-          "q": "How long does a starfish need for a new arm?",
-          "correct": "One month",
+          "q": "What does the starfish grow in one month?",
+          "correct": "A new arm",
           "wrong": [
-            "One second",
-            "One year"
+            "A new hole",
+            "A new home"
           ],
-          "hint": "Leyla'nın denizyıldızı hakkındaki sayısına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            7,
             8
           ]
         },
         {
           "q": "What is the worst danger for these animals?",
-          "correct": "A lot of plastic",
+          "correct": "Plastic",
           "wrong": [
-            "A lot of noise",
-            "A lot of sand"
+            "Hunting",
+            "Sharks"
           ],
-          "hint": "Mr. Demir'in son cümlesine bak.",
+          "hint": "Mr. Demir'e bak.",
           "hl": [
             9
           ]
@@ -2457,10 +2459,11 @@
           "correct": "No waste",
           "wrong": [
             "Two bags",
-            "Many crabs"
+            "Ten crabs"
           ],
-          "hint": "Babanın ilk sabah söylediğine bak.",
+          "hint": "Babaya bak.",
           "hl": [
+            0,
             1
           ]
         },
@@ -2471,45 +2474,47 @@
             "Her father",
             "Her mother"
           ],
-          "hint": "Nora'nın yengeçleri kiminle saydığına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             2
           ]
         },
         {
-          "q": "What was in the bags after one hour?",
+          "q": "What was in the two bags?",
           "correct": "Plastic bottles",
           "wrong": [
-            "Small crabs",
-            "Fishing nets"
+            "Fishing nets",
+            "Small crabs"
           ],
-          "hint": "Ailenin bir saatlik çalışmasının sonucuna bak.",
+          "hint": "Anneye bak.",
           "hl": [
+            3,
             4
           ]
         },
         {
-          "q": "How many seals were on the rock in Grandpa's school days?",
-          "correct": "Twenty seals",
+          "q": "How many seals were on that rock then?",
+          "correct": "Twenty",
           "wrong": [
-            "Twelve seals",
-            "Two seals"
+            "Twelve",
+            "Two"
           ],
-          "hint": "Dedenin verdiği sayıya bak.",
+          "hint": "Dedeye bak.",
           "hl": [
-            5
+            5,
+            6
           ]
         },
         {
-          "q": "What did Nora write in her book?",
-          "correct": "Tell the class in September",
+          "q": "What was the water like in August then?",
+          "correct": "It was cold",
           "wrong": [
-            "Come back in August again",
-            "Clean the beach in July"
+            "It was warm",
+            "It was clean"
           ],
-          "hint": "Nora'nın akşam yazdığı tek satıra bak.",
+          "hint": "Dedeye bak.",
           "hl": [
-            9
+            7
           ]
         }
       ]
@@ -2566,49 +2571,50 @@
       ],
       "questions": [
         {
-          "q": "How often does the club walk the beach?",
-          "correct": "Every Saturday",
+          "q": "When should the club walk the beach?",
+          "correct": "On Saturdays",
           "wrong": [
-            "Every Sunday",
-            "Every Monday"
+            "On Sundays",
+            "On Mondays"
           ],
-          "hint": "Nora'nın ilk önerisindeki güne bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "Why does Sam ask for a notebook?",
-          "correct": "Numbers help people listen",
+          "q": "What should they count in a notebook?",
+          "correct": "The waste",
           "wrong": [
-            "Numbers are easy to write",
-            "Numbers look good on paper"
+            "The crabs",
+            "The rocks"
           ],
-          "hint": "Sam'in neden defter istediğine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             3
           ]
         },
         {
-          "q": "When do they show the numbers?",
+          "q": "When should they show the numbers?",
           "correct": "In June",
           "wrong": [
             "In May",
             "In July"
           ],
-          "hint": "Leyla'nın verdiği aya bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What mustn't the children take home?",
+          "q": "What mustn't the club take home?",
           "correct": "Crabs or starfish",
           "wrong": [
             "Bags or bottles",
-            "Sand or stones"
+            "Nets or stones"
           ],
-          "hint": "Nora'nın ilk yasağına bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             5
           ]
@@ -2620,7 +2626,7 @@
             "Near the small lake",
             "Near the school gate"
           ],
-          "hint": "Leyla'nın plastiği gördüğü yere bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             7
           ]
@@ -2680,13 +2686,14 @@
       "questions": [
         {
           "q": "How many small fish did Nora count?",
-          "correct": "Sixty fish",
+          "correct": "Sixty",
           "wrong": [
-            "Sixteen fish",
-            "Six fish"
+            "Sixteen",
+            "Six"
           ],
-          "hint": "Nora'nın durduğu sayıya bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
             2
           ]
         },
@@ -2694,10 +2701,10 @@
           "q": "What do the crabs do when the class walks?",
           "correct": "They crawl away",
           "wrong": [
-            "They hide in rocks",
-            "They dive down"
+            "They swim away",
+            "They jump away"
           ],
-          "hint": "Sam'in yengeçlerin tepkisini anlattığı yere bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             3
           ]
@@ -2707,34 +2714,34 @@
           "correct": "Only one",
           "wrong": [
             "Only two",
-            "Only three"
+            "Only ten"
           ],
-          "hint": "Leyla'nın sayfasındaki sayıya bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "How many pieces of plastic did Sam find?",
-          "correct": "Eleven pieces",
+          "q": "How much plastic was in Sam's book?",
+          "correct": "Too much",
           "wrong": [
-            "Seven pieces",
-            "Sixty pieces"
+            "Not much",
+            "So much"
           ],
-          "hint": "Nora'nın sorusuna Sam'in verdiği sayıya bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5,
             6
           ]
         },
         {
-          "q": "What was in the lagoon ten years ago?",
+          "q": "What was in this lagoon ten years ago?",
           "correct": "No plastic",
           "wrong": [
-            "Many starfish",
-            "Two bottles"
+            "Ten starfish",
+            "Sixty crabs"
           ],
-          "hint": "Ms. Reed'in on yıl öncesi için söylediğine bak.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             7
           ]
@@ -2793,25 +2800,26 @@
       ],
       "questions": [
         {
-          "q": "How many crabs are on the first page?",
-          "correct": "Forty crabs",
+          "q": "How many crabs were under the big rock?",
+          "correct": "Forty",
           "wrong": [
-            "Fourteen crabs",
-            "Four crabs"
+            "Fourteen",
+            "Four"
           ],
-          "hint": "Sam'in ilk sayfada okuduğu sayıya bak.",
+          "hint": "Sam'e bak.",
           "hl": [
+            2,
             3
           ]
         },
         {
-          "q": "What is under the big rock today?",
+          "q": "How many crabs are under that rock today?",
           "correct": "No crabs",
           "wrong": [
             "Two crabs",
-            "Many crabs"
+            "Ten crabs"
           ],
-          "hint": "Nora'nın Sam'e verdiği karşılığa bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             3,
             4
@@ -2821,36 +2829,38 @@
           "q": "What was in the lagoon in two thousand?",
           "correct": "Many jellyfish",
           "wrong": [
-            "Many seals",
-            "Many crabs"
+            "Many starfish",
+            "Many seals"
           ],
-          "hint": "İkinci sayfadaki hayvana bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
         },
         {
-          "q": "What was the water like in April?",
-          "correct": "Clean and cold",
+          "q": "How many jellyfish do they see now?",
+          "correct": "Only two",
           "wrong": [
-            "Warm and clean",
-            "Cold and dirty"
+            "Only ten",
+            "Only forty"
           ],
-          "hint": "Son sayfada suyun anlatıldığı yere bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
-            7
+            5,
+            6
           ]
         },
         {
-          "q": "What does Ms. Reed say about the change?",
-          "correct": "It goes one way",
+          "q": "What was the water like in April then?",
+          "correct": "Clean and cold",
           "wrong": [
-            "It goes both ways",
-            "It comes back again"
+            "Warm and clean",
+            "Cold and dark"
           ],
-          "hint": "Ms. Reed'in kapanış cümlesine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
-            9
+            7,
+            8
           ]
         }
       ]
@@ -2908,49 +2918,49 @@
       "questions": [
         {
           "q": "How many bags of waste were there one year ago?",
-          "correct": "Nine bags",
+          "correct": "Nine",
           "wrong": [
-            "Three bags",
-            "One bag"
+            "Three",
+            "One"
           ],
-          "hint": "Ms. Reed'in bir yıl öncesi için verdiği sayıya bak.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "How many bags are there now?",
-          "correct": "Three bags",
+          "q": "How many bags of waste are there now?",
+          "correct": "Three",
           "wrong": [
-            "Nine bags",
-            "Two bags"
+            "Nine",
+            "Two"
           ],
-          "hint": "Sam'in Ms. Reed'e verdiği karşılığa bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "What will the school send?",
+          "q": "What will the school send next year?",
           "correct": "Two new classes",
           "wrong": [
             "Two new signs",
             "Two new books"
           ],
-          "hint": "Leyla'nın okuldan gelecek yardıma bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "What was on the sand last year?",
-          "correct": "No sign",
+          "q": "How many signs were on the sand last year?",
+          "correct": "No signs",
           "wrong": [
-            "One sign",
-            "Two signs"
+            "Two signs",
+            "Ten signs"
           ],
-          "hint": "Sam'in geçen yılı anlattığı cümleye bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             5
           ]
@@ -2959,11 +2969,12 @@
           "q": "Where will the second sign go?",
           "correct": "Near the rocks",
           "wrong": [
-            "Near the school",
-            "Near the lagoon"
+            "Near the water",
+            "Near the school"
           ],
-          "hint": "Nora'nın ikinci tabela için seçtiği yere bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            5,
             6
           ]
         }
@@ -3021,64 +3032,65 @@
       ],
       "questions": [
         {
-          "q": "Which home is the best for a whale?",
+          "q": "What is the best home for a whale?",
           "correct": "The ocean",
           "wrong": [
-            "The lake",
+            "The lagoon",
             "The river"
           ],
-          "hint": "Sam'in balina için seçtiği habitata bak.",
+          "hint": "Sam'e bak.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "Why is a lagoon the best home for a crab?",
-          "correct": "It crawls on sand",
+          "q": "What is the best home for a crab?",
+          "correct": "The lagoon",
           "wrong": [
-            "It dives very deep",
-            "It swims very fast"
+            "The ocean",
+            "The river"
           ],
-          "hint": "Nora'nın yengeç hakkındaki sebebine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             3
           ]
         },
         {
-          "q": "Why is a river the worst home for a jellyfish?",
-          "correct": "It needs salt water",
+          "q": "What is the worst home for a jellyfish?",
+          "correct": "The river",
           "wrong": [
-            "It needs warm water",
-            "It needs deep water"
+            "The ocean",
+            "The lagoon"
           ],
-          "hint": "Leyla'nın denizanası hakkındaki sebebine bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
             4
           ]
         },
         {
-          "q": "Why is the lagoon good for a young fish?",
-          "correct": "There are no hunters",
+          "q": "What is in the lagoon for a young fish?",
+          "correct": "No hunters",
           "wrong": [
-            "There are no plants",
-            "There are no rocks"
+            "No plants",
+            "No stones"
           ],
-          "hint": "Nora'nın lagünü ikinci kez seçme sebebine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "What does Ms. Reed say at the end?",
-          "correct": "A home is good for somebody",
+          "q": "What is the worst place for a shark?",
+          "correct": "The lake",
           "wrong": [
-            "A home is good for everybody",
-            "A home is good for nobody"
+            "The sea",
+            "The lagoon"
           ],
-          "hint": "Ms. Reed'in kapanış cümlesine bak.",
+          "hint": "Sam'e bak.",
           "hl": [
-            9
+            7
           ]
         }
       ]
@@ -3138,61 +3150,62 @@
           "q": "What mustn't the children take onto the sand?",
           "correct": "A plastic bottle",
           "wrong": [
-            "A count book",
-            "A big bag"
+            "A fishing net",
+            "A big notebook"
           ],
-          "hint": "Bir numaralı kurala bak.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             1
           ]
         },
         {
-          "q": "Why mustn't they take a crab home?",
-          "correct": "It lives on the beach",
+          "q": "What mustn't the children take home?",
+          "correct": "A crab",
           "wrong": [
-            "It sleeps all day",
-            "It eats our food"
+            "A bag",
+            "A bottle"
           ],
-          "hint": "Ms. Reed'in ikinci kuraldan sonraki açıklamasına bak.",
+          "hint": "Sam'e bak.",
           "hl": [
+            2,
             3
           ]
         },
         {
           "q": "How many seals were on the rocks last May?",
-          "correct": "Three seals",
+          "correct": "Three",
           "wrong": [
-            "Two seals",
-            "One seal"
+            "Two",
+            "One"
           ],
-          "hint": "Nora'nın verdiği sayıya bak.",
+          "hint": "Nora'ya bak.",
+          "hl": [
+            4
+          ]
+        },
+        {
+          "q": "How many seals are on the rocks now?",
+          "correct": "Only one",
+          "wrong": [
+            "Only two",
+            "Only three"
+          ],
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             4,
             5
           ]
         },
         {
-          "q": "Why mustn't they feed the seals?",
-          "correct": "Our food is the worst",
+          "q": "What mustn't the children feed?",
+          "correct": "The seals",
           "wrong": [
-            "Our food is too small",
-            "Our food is too warm"
+            "The crabs",
+            "The turtles"
           ],
-          "hint": "Dört numaralı kuralın sebebine bak.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
             7
-          ]
-        },
-        {
-          "q": "What was on that beach two years ago?",
-          "correct": "No rules",
-          "wrong": [
-            "Three rules",
-            "Four rules"
-          ],
-          "hint": "Sam'in iki yıl öncesi için söylediğine bak.",
-          "hl": [
-            8
           ]
         }
       ]
@@ -3250,62 +3263,63 @@
       "questions": [
         {
           "q": "Where will Grandpa go first?",
-          "correct": "North on the river",
+          "correct": "On the river",
           "wrong": [
-            "South on the lake",
-            "East on the sea"
+            "On the lake",
+            "On the sea"
           ],
-          "hint": "Leyla'nın sorusuna dedenin verdiği ilk cevaba bak.",
+          "hint": "Dedeye bak.",
           "hl": [
             1,
             2
           ]
         },
         {
-          "q": "Why will he stop before the stones?",
-          "correct": "There is not much water",
+          "q": "How much water is under a houseboat?",
+          "correct": "Not much",
           "wrong": [
-            "There are many birds here",
-            "There is a beach house"
+            "Too much",
+            "So much"
           ],
-          "hint": "Sam'in sorusundan sonraki açıklamaya bak.",
+          "hint": "Dedeye bak.",
           "hl": [
             3,
             4
           ]
         },
         {
-          "q": "Whose beach house is at the end of the river?",
-          "correct": "Nora's aunt's",
+          "q": "What is at the end of the river?",
+          "correct": "A beach house",
           "wrong": [
-            "Leyla's grandpa's",
-            "Sam's uncle's"
+            "A big lagoon",
+            "A small lake"
           ],
-          "hint": "Nora'nın \"Guess what?\" dedikten sonraki cümlesine bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
             5
           ]
         },
         {
-          "q": "When will he come to the lake house?",
+          "q": "When will Grandpa come to the lake house?",
           "correct": "In August",
           "wrong": [
             "In June",
             "In July"
           ],
-          "hint": "Leyla'nın verdiği aya bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            6,
             7
           ]
         },
         {
-          "q": "What does Grandpa call the best road?",
+          "q": "What is the best road for Grandpa?",
           "correct": "A slow river",
           "wrong": [
             "A quiet lake",
             "A wide sea"
           ],
-          "hint": "Dedenin kapanış cümlesine bak.",
+          "hint": "Dedeye bak.",
           "hl": [
             8
           ]
@@ -3365,62 +3379,67 @@
       "questions": [
         {
           "q": "How many bottles were there last year?",
-          "correct": "Ninety bottles",
+          "correct": "Ninety",
           "wrong": [
-            "Nineteen bottles",
-            "Thirty bottles"
+            "Nineteen",
+            "Thirty"
           ],
-          "hint": "Nora'nın ilk satırda okuduğu sayıya bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            1,
             2
           ]
         },
         {
-          "q": "How many nets are there this year?",
+          "q": "How many bottles are there this year?",
+          "correct": "Thirty",
+          "wrong": [
+            "Ninety",
+            "Twenty"
+          ],
+          "hint": "Sam'e bak.",
+          "hl": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": "How many fishing nets are there this year?",
           "correct": "No nets",
           "wrong": [
             "Many nets",
             "Two nets"
           ],
-          "hint": "Nora'nın ikinci satır için verdiği cevaba bak.",
+          "hint": "Nora'ya bak.",
           "hl": [
+            4,
             5
           ]
         },
         {
-          "q": "What helps with the fishing nets?",
-          "correct": "The sign near the rocks",
+          "q": "What is near the rocks?",
+          "correct": "The sign",
           "wrong": [
-            "The bag near the gate",
-            "The book on the wall"
+            "The chart",
+            "The book"
           ],
-          "hint": "Ms. Reed'in ikinci satırı açıkladığı yere bak.",
+          "hint": "Ms. Reed'e bak.",
           "hl": [
+            5,
             6
           ]
         },
         {
-          "q": "Which line is the worst on the chart?",
+          "q": "What is the worst line on the chart?",
           "correct": "Pollution",
           "wrong": [
-            "Fishing nets",
-            "Plastic bottles"
+            "Bottles",
+            "Nets"
           ],
-          "hint": "Leyla'nın grafik hakkındaki yargısına bak.",
+          "hint": "Leyla'ya bak.",
           "hl": [
+            7,
             8
-          ]
-        },
-        {
-          "q": "How many lines go down?",
-          "correct": "Two lines",
-          "wrong": [
-            "Three lines",
-            "One line"
-          ],
-          "hint": "Ms. Reed'in kapanış cümlesindeki sayıma bak.",
-          "hl": [
-            9
           ]
         }
       ]
