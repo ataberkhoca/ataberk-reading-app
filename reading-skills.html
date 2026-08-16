@@ -1908,7 +1908,6 @@ button.celeb-retry {
 .cw-sb .v{font-family:'Baloo 2',cursive;font-weight:600;font-size:26px;line-height:1;color:#1A1A1A}
 .cw-sb .l{font-size:10px;font-weight:900;margin-top:3px;letter-spacing:.3px;color:#777}
 .cw-sb.ok .v{color:#2E9E5B}.cw-sb.err .v{color:#E5383B}
-.cw-cast{margin-top:13px;font-size:12px;font-weight:800;text-align:center;line-height:1.4;opacity:0;animation:cwFu .6s .8s ease-out forwards;padding:0 6px}
 .cw-msg{margin-top:8px;font-size:12.5px;font-weight:700;text-align:center;line-height:1.5;padding:0 8px;opacity:0;animation:cwFu .6s .95s ease-out forwards;max-width:300px}
 .cw-btns{margin-top:auto;padding-top:18px;width:100%;max-width:300px;display:flex;flex-direction:column;gap:10px;opacity:0;animation:cwFu .6s 1.1s ease-out forwards}
 .cw-bp{font-family:'Baloo 2',cursive;font-weight:600;border-radius:18px;padding:15px 20px;cursor:pointer;border:3px solid #1A1A1A;font-size:18px;background:#FFD93D;color:#1A1A1A;box-shadow:5px 5px 0 #1A1A1A;transition:all .15s}
@@ -1927,22 +1926,14 @@ button.celeb-retry {
 @media (prefers-reduced-motion:reduce){.cw-star.on{animation:none}.cw-stars{animation:none!important;opacity:1!important}}
 
 /* figür satırı (ortak) */
-.cw-figrow{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:14px;z-index:6}
-.cw-fig{display:flex;flex-direction:column;align-items:center;opacity:0;will-change:transform}
-.cw-fig .em{font-size:28px;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
-.cw-fig .nm{font-size:9px;font-weight:900;margin-top:2px;padding:1px 7px;border-radius:99px}
-.cw-fig.on{animation:cwFigIn .5s cubic-bezier(.34,1.6,.5,1) forwards,cwBob 2.6s ease-in-out infinite}
-@keyframes cwFigIn{0%{opacity:0;transform:translateY(12px) scale(.7)}100%{opacity:1;transform:translateY(0) scale(1)}}
-@keyframes cwBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 
 /* ===== GÖKYÜZÜ ===== */
 .cw-sky{background:linear-gradient(180deg,#1B1F3B,#3D348B)}
 .cw-sky .cw-scene{background:radial-gradient(ellipse at 70% 20%,rgba(255,246,214,.12),transparent 60%)}
 .cw-sky .cw-title{color:#FFF6D6;text-shadow:3px 3px 0 #1A1A1A}.cw-sky .cw-sub{color:#B9BEEA}
 .cw-sky .cw-badge{background:#FFF6D6;color:#2A2D5A}
-.cw-sky .cw-cast,.cw-sky .cw-msg{color:#CDD2F5}
+.cw-sky .cw-msg{color:#CDD2F5}
 .cw-sky .cw-bt{color:#9CA2D8;border-color:rgba(255,255,255,.3)}
-.cw-sky .cw-fig .nm{background:rgba(255,246,214,.18);color:#FFF6D6}
 .cw-skystar{position:absolute;background:#fff;border-radius:50%;animation:cwTw 3s ease-in-out infinite}
 @keyframes cwTw{0%,100%{opacity:.15}50%{opacity:.7}}
 .cw-moon{position:absolute;top:22px;right:26px;width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#FFF6D6,#F2D58A);box-shadow:0 0 24px rgba(242,213,138,.5);opacity:0;animation:cwScale 1.2s .2s ease-out forwards}
@@ -1958,9 +1949,8 @@ button.celeb-retry {
 .cw-reef{background:linear-gradient(180deg,#90E0EF,#48CAE4 35%,#0096C7 80%,#023E8A)}
 .cw-reef .cw-title{color:#fff;text-shadow:3px 3px 0 #1A1A1A}.cw-reef .cw-sub{color:#CAF0F8}
 .cw-reef .cw-badge{background:#fff;color:#0096C7}
-.cw-reef .cw-cast,.cw-reef .cw-msg{color:#EAFBFF}
+.cw-reef .cw-msg{color:#EAFBFF}
 .cw-reef .cw-bt{color:#CAF0F8;border-color:rgba(255,255,255,.4)}
-.cw-reef .cw-fig .nm{background:rgba(255,255,255,.28);color:#fff}
 .cw-reefray{position:absolute;top:-30px;width:40px;height:160%;background:linear-gradient(180deg,rgba(255,255,255,.22),transparent);transform:skewX(-12deg);animation:cwRay 7s ease-in-out infinite}
 @keyframes cwRay{0%,100%{opacity:.3}50%{opacity:.6}}
 .cw-reefbub{position:absolute;border-radius:50%;background:rgba(255,255,255,.25);border:1px solid rgba(255,255,255,.4);animation:cwBub linear infinite}
@@ -1969,8 +1959,6 @@ button.celeb-retry {
 .cw-coral.on{animation:cwCoral .8s cubic-bezier(.34,1.6,.5,1) forwards,cwCoralSway 4s 1s ease-in-out infinite}
 @keyframes cwCoral{0%{opacity:0;transform:scale(.2) translateY(20px)}60%{transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
 @keyframes cwCoralSway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
-.cw-reef .cw-fig.on{animation:cwFishIn .9s ease-out forwards,cwFishDrift 5s ease-in-out infinite}
-@keyframes cwFishIn{0%{opacity:0;transform:translateY(50px) scale(.6)}100%{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes cwFishDrift{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
 
 /* ===== ROBOT (yeni) ===== */
@@ -1978,9 +1966,8 @@ button.celeb-retry {
 .cw-robot .cw-title{color:#B5530A;text-shadow:2px 2px 0 rgba(26,26,26,.13)}
 .cw-robot .cw-sub{color:#BE6A1B}
 .cw-robot .cw-badge{background:#FFE2B0;color:#7A3B05}
-.cw-robot .cw-cast{color:#BE6A1B}.cw-robot .cw-msg{color:#B5530A}
+.cw-robot .cw-msg{color:#B5530A}
 .cw-robot .cw-bt{color:#BE6A1B;border-color:rgba(26,26,26,.22)}
-.cw-robot .cw-fig .nm{background:rgba(255,255,255,.85);color:#8A4B0E}
 .cw-robot .cw-scene svg{width:100%;height:100%;display:block}
 .cw-robot .rb-out{stroke:#1A1A1A;stroke-width:3;stroke-linejoin:round}
 .cw-robot .rb-rays{transform-box:fill-box;transform-origin:center;animation:cwrbRay 70s linear infinite}
@@ -2017,9 +2004,8 @@ button.celeb-retry {
 .cw-garden .cw-title{color:#2E4A1C;text-shadow:2px 2px 0 rgba(26,26,26,.13)}
 .cw-garden .cw-sub{color:#5E7A3E}
 .cw-garden .cw-badge{background:#A6D86A;color:#22330F}
-.cw-garden .cw-cast{color:#5E7A3E}.cw-garden .cw-msg{color:#2E4A1C}
+.cw-garden .cw-msg{color:#2E4A1C}
 .cw-garden .cw-bt{color:#5E7A3E;border-color:rgba(26,26,26,.22)}
-.cw-garden .cw-fig .nm{background:rgba(255,255,255,.9);color:#2E4A1C}
 .cw-garden .cw-scene svg{width:100%;height:100%;display:block}
 .cw-garden .g-stem{fill:none;stroke:#3E6B23;stroke-width:4.5;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200}
 .cw-garden .g-stem.grow{animation:cwgGrow .8s cubic-bezier(.4,0,.2,1) forwards}
@@ -2045,9 +2031,8 @@ button.celeb-retry {
 .cw-rocket{background:linear-gradient(180deg,#0B0A26 0%,#241452 42%,#3A1E5C 66%,#1C123F 100%)}
 .cw-rocket .cw-title{color:#fff;text-shadow:3px 3px 0 #1A1A1A}.cw-rocket .cw-sub{color:#C2B6F5}
 .cw-rocket .cw-badge{background:#FFF6D6;color:#3B1A5C}
-.cw-rocket .cw-cast{color:#C2B6F5}.cw-rocket .cw-msg{color:#D7CEFA}
+.cw-rocket .cw-msg{color:#D7CEFA}
 .cw-rocket .cw-bt{color:#C2B6F5;border-color:rgba(255,255,255,.28)}
-.cw-rocket .cw-fig .nm{background:rgba(255,255,255,.16);color:#E8E0FF}
 .cw-rocket .cw-scene svg{width:100%;height:100%;display:block}
 .cw-rocket .kr-tw{animation:cwkTw 3s ease-in-out infinite}
 @keyframes cwkTw{0%,100%{opacity:.2}50%{opacity:1}}
@@ -2073,9 +2058,8 @@ button.celeb-retry {
 .cw-fener{background:linear-gradient(180deg,#16263A,#1E3A52 40%,#2A5570 75%,#3E7A8C)}
 .cw-fener .cw-title{color:#FFEC9A;text-shadow:3px 3px 0 #1A1A1A}.cw-fener .cw-sub{color:#AFCBD8}
 .cw-fener .cw-badge{background:#FFEC9A;color:#16344A}
-.cw-fener .cw-cast{color:#DCEAF2}.cw-fener .cw-msg{color:#C5DAE4}
+.cw-fener .cw-msg{color:#C5DAE4}
 .cw-fener .cw-bt{color:#AFCBD8;border-color:rgba(255,255,255,.3)}
-.cw-fener .cw-fig .nm{background:rgba(255,255,255,.16);color:#FFEC9A}
 .cw-fnstar{position:absolute;background:#DCEAF2;border-radius:50%;animation:cwTw 3.5s ease-in-out infinite}
 .cw-fnbeamwrap{position:absolute;left:50%;bottom:96px;width:0;height:0;z-index:2}
 .cw-fnbeam{position:absolute;left:0;top:0;transform-origin:left top;width:150px;height:80px;background:linear-gradient(95deg,rgba(255,236,170,.5),transparent 60%);clip-path:polygon(0 0,100% 38%,100% 56%,0 0);opacity:0}
@@ -2485,7 +2469,6 @@ body:has(#screen-game.active)::after { opacity:.2; }
         <div class="cw-sb err"><span class="v" id="cw-wn">0</span><span class="l">❌ YANLIŞ</span></div>
       </div>
       <div class="cw-stars" id="cw-stars"></div>
-      <div class="cw-cast" id="cw-cast"></div>
       <div class="cw-msg" id="cw-msg"></div>
       <div class="cw-btns">
         <button class="cw-bp" onclick="retrySkill()">↻ Tekrar Dene</button>
@@ -5541,10 +5524,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
     return choice;
   }
 
-  // cast'i güvenli al (yoksa boş)
-  function cwCast(){
-    try{ return (DATA[cur].cast||[]).map(c=>({e:c.e||'⭐',n:c.n||''})); }catch(e){ return []; }
-  }
   function cwTaskTitle(){
     try{ return DATA[cur].title||''; }catch(e){ return ''; }
   }
@@ -5560,8 +5539,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
     document.getElementById('cw-title').textContent = ratio>=0.8?'Harika Okudun!':ratio>=0.5?'Güzel İş!':'Az Daha!';
     document.getElementById('cw-sub').textContent = (cwTaskIcon()?cwTaskIcon()+' ':'')+cwTaskTitle();
     document.getElementById('cw-badge').textContent = (topic?topic+' · ':'')+skillTr;
-    const names=cwCast().map(c=>c.n).filter(Boolean);
-    document.getElementById('cw-cast').textContent = names.length?('👋 Bugünkü hikaye: '+names.join(', ')):'';
     document.getElementById('cw-msg').textContent = ratio>=0.8
       ? 'Hikayedeki bilgileri çok iyi buldun. '+skillTr+' becerin çok güçlü! 💪'
       : ratio>=0.5 ? 'Güzel iş! '+skillTr+' becerini biraz daha çalışınca harika olacak. 🌟'
@@ -5573,18 +5550,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
   }
   function cwCountUp(id,t,d){setTimeout(()=>{const el=document.getElementById(id);if(!el)return;let c=0;if(t<=0){el.textContent='0';return;}const g=()=>{if(c<t){el.textContent=++c;setTimeout(g,110)}};g();},d);}
 
-  // figür satırı (insan = cast emoji)
-  function cwFigRow(figs,opts){
-    opts=opts||{};
-    const row=document.createElement('div');row.className='cw-figrow';
-    if(opts.bottom)row.style.bottom=opts.bottom;
-    figs.forEach(f=>{const d=document.createElement('div');d.className='cw-fig';
-      d.innerHTML=`<span class="em"${opts.small?' style="font-size:24px"':''}>${f.e}</span>`+(f.n?`<span class="nm">${f.n}</span>`:'');
-      row.appendChild(d);});
-    return row;
-  }
-  function cwAnimRow(row,delay){const ds=delay||600;[...row.children].forEach((c,i)=>setTimeout(()=>c.classList.add('on'),ds+i*180));}
-  function cwFigCount(score,tot,max){const correct=Math.max(0,Math.min(score,tot));const cast=cwCast();return Math.max(1,Math.min(correct,cast.length,max||5));}
 
   // ───── SAHNE KURUCULAR ─────
   const CW_SCENES={
@@ -5607,9 +5572,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
         scene.appendChild(l);setTimeout(()=>l.classList.add('on'),600+i*180);
       }
       els.forEach((e,i)=>{if(e.lit)setTimeout(()=>e.el.classList.add('on'),300+i*180);});
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)).map(c=>({e:'',n:c.n})),{bottom:'8px'});
-      // gökyüzünde sadece isimler (yıldız zaten skoru gösteriyor)
-      scene.appendChild(row);cwAnimRow(row,300+correct*180);
     },
     reef(scene,score,tot){
       [25,55,82].forEach((l,i)=>{const r=document.createElement('div');r.className='cw-reefray';r.style.left=l+'%';r.style.animationDelay=(i*2)+'s';scene.appendChild(r);});
@@ -5617,7 +5579,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
       ['🪸','🌿','🪸','🌱'].forEach((c,i)=>{const cr=document.createElement('div');cr.className='cw-coral';cr.textContent=c;cr.style.left=(4+i*30)+'%';cr.style.fontSize=(24+Math.random()*8)+'px';scene.appendChild(cr);setTimeout(()=>cr.classList.add('on'),300+i*160);});
       const fishPos=[[12,30],[78,38],[68,20],[18,22]];
       ['🐠','🐟','🐡','🐠'].forEach((f,i)=>{const d=document.createElement('div');d.textContent=f;d.style.cssText=`position:absolute;left:${fishPos[i][0]}%;top:${fishPos[i][1]}%;font-size:17px;opacity:0;filter:drop-shadow(0 2px 3px rgba(0,60,90,.3));z-index:5;transition:opacity .6s`;scene.appendChild(d);setTimeout(()=>{d.style.opacity='.85';d.style.animation='cwFishDrift '+(4+Math.random()*2)+'s ease-in-out infinite';},600+i*150);});
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'10px'});scene.appendChild(row);cwAnimRow(row,700);
     },
     robot(scene,score,tot){
       const ratio=tot?Math.max(0,Math.min(score,tot))/tot:0, stars=cwStars(ratio);
@@ -5669,7 +5630,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
       const bot=scene.querySelector('#cwrbBot'), cells=[...scene.querySelectorAll('.rb-cell')];
       cells.forEach((c,i)=>{ if(i<stars) setTimeout(()=>c.classList.add('on'), 500+i*260); });
       if(stars===3) setTimeout(()=>{ if(bot) bot.classList.add('charged'); }, 500+3*260);
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'6px',small:true});scene.appendChild(row);cwAnimRow(row,1000);
     },
     garden(scene,score,tot){
       const correct=Math.max(0,Math.min(score,tot));
@@ -5695,7 +5655,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
         setTimeout(()=>{const b=f.querySelector('.g-bloom');if(b)b.classList.add('on');},t+520);
       }});
       if(tot>0 && correct>=tot){const bee=scene.querySelector('.g-bee');if(bee)setTimeout(()=>bee.classList.add('fly'),1300);}
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'6px',small:true});scene.appendChild(row);cwAnimRow(row,950);
     },
     rocket(scene,score,tot){
       const ratio=tot?Math.max(0,Math.min(score,tot))/tot:0, stars=cwStars(ratio);
@@ -5742,7 +5701,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
         const r=scene.querySelector('#cwkRocket');
         if(r) setTimeout(()=>r.animate([{transform:'translateY(0)'},{transform:'translateY(-6px)'},{transform:'translateY(0)'}],{duration:700,iterations:2}),700);
       }
-      const row=cwFigRow(cwCast().slice(0,cwFigCount(score,tot,5)),{bottom:'6px',small:true});scene.appendChild(row);cwAnimRow(row,1000);
     },
     fener(scene,score,tot){
       for(let i=0;i<24;i++){const s=document.createElement('div');s.className='cw-fnstar';const z=1+Math.random()*2;s.style.cssText=`width:${z}px;height:${z}px;left:${Math.random()*100}%;top:${Math.random()*55}%;animation-delay:${Math.random()*3.5}s`;scene.appendChild(s);}
@@ -5754,13 +5712,6 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
       bw.appendChild(b1);bw.appendChild(b2);scene.appendChild(bw);
       const ratio=tot?Math.max(0,Math.min(score,tot))/tot:0;
       setTimeout(()=>{if(ratio>0){scene.querySelector('#cwLamp').classList.add('on');const str=0.3+ratio*0.5;b1.style.opacity=str;b2.style.opacity=str*0.7;b1.classList.add('lit');b2.classList.add('lit');}},900);
-      const figs=cwCast().slice(0,cwFigCount(score,tot,4));
-      const row=document.createElement('div');row.className='cw-figrow';row.style.cssText='position:absolute;bottom:8px;left:0;right:0;display:flex;justify-content:space-between;padding:0 18px;z-index:6';
-      const left=document.createElement('div');left.style.cssText='display:flex;gap:8px';
-      const right=document.createElement('div');right.style.cssText='display:flex;gap:8px';
-      figs.forEach((f,i)=>{const d=document.createElement('div');d.className='cw-fig';d.innerHTML=`<span class="em">${f.e}</span><span class="nm">${f.n}</span>`;(i%2===0?left:right).appendChild(d);});
-      row.appendChild(left);row.appendChild(right);scene.appendChild(row);
-      cwAnimRow(left,1300);cwAnimRow(right,1400);
     }
   };
 
