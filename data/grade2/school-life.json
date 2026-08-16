@@ -25,27 +25,27 @@
     }
    ],
    "sentences": [
-    "What is this?",
+    "Eda: What is this?",
     "This is a school.",
-    "Who is this?",
+    "Miss Oli: Who is this?",
     "This is Miss Oli. She is a teacher.",
-    "Who is he? He is Can. We are friends.",
-    "Who is she? She is Eda. She is a pupil.",
-    "Who is this?",
+    "Can: Who is he? Eda: He is Can. We are friends.",
+    "Miss Oli: Who is she? Can: She is Eda. She is a pupil.",
+    "Eda: Who is this?",
     "This is Mr. Aras. He is a headmaster.",
-    "Who are you?",
+    "Miss Oli: Who are you?",
     "We are pupils. We are friends!"
    ],
    "translations": [
-    "Bu nedir?",
+    "Eda: Bu nedir?",
     "Bu bir okul.",
-    "Bu kim?",
+    "Miss Oli: Bu kim?",
     "Bu Miss Oli. O bir öğretmen.",
-    "O kim? O Can. Biz arkadaşız.",
-    "O kim? O Eda. O bir öğrenci.",
-    "Bu kim?",
+    "Can: O kim? Eda: O Can. Biz arkadaşız.",
+    "Miss Oli: O kim? Can: O Eda. O bir öğrenci.",
+    "Eda: Bu kim?",
     "Bu Mr. Aras. O bir müdür.",
-    "Siz kimsiniz?",
+    "Miss Oli: Siz kimsiniz?",
     "Biz öğrenciyiz. Biz arkadaşız!"
    ],
    "questions": [
@@ -363,8 +363,8 @@
    "sentences": [
     "Hello! Where is Lila?",
     "She is in classroom.",
-    "Where is Can? He is in library.",
-    "Where is Miss Oli? She is in teacher's room.",
+    "Lila: Where is Can? Miss Oli: He is in library.",
+    "Can: Where is Miss Oli? Lila: She is in teacher's room.",
     "Miss Oli: What is this? This is a canteen.",
     "Miss Oli: What is this? This is a lunch hall.",
     "Lila: Where are you?",
@@ -373,8 +373,8 @@
    "translations": [
     "Merhaba! Lila nerede?",
     "O sınıfta.",
-    "Can nerede? O kütüphanede.",
-    "Miss Oli nerede? O öğretmenler odasında.",
+    "Lila: Can nerede? Miss Oli: O kütüphanede.",
+    "Can: Miss Oli nerede? Lila: O öğretmenler odasında.",
     "Miss Oli: Bu nedir? Bu bir kantin.",
     "Miss Oli: Bu nedir? Bu bir yemekhane.",
     "Lila: Neredesin?",
@@ -1358,7 +1358,7 @@
     }
    ],
    "sentences": [
-    "What day is it today? It is the 15th of July.",
+    "Eda: What day is it today? Can: It is the 15th of July.",
     "It is Democracy Day.",
     "It is a special national day in Türkiye.",
     "We are in school garden.",
@@ -1368,7 +1368,7 @@
     "It is a special day for Türkiye!"
    ],
    "translations": [
-    "Bugün hangi gün? 15 Temmuz.",
+    "Eda: Bugün hangi gün? Can: 15 Temmuz.",
     "Demokrasi Günü.",
     "Türkiye'de özel bir milli gün.",
     "Okul bahçesindeyiz.",
@@ -1586,7 +1586,7 @@
     "Mr. Aras is a headmaster.",
     "Tom is a pupil. He is a friend.",
     "Lila is a pupil. She is a friend.",
-    "Who are they? They are pupils.",
+    "Miss Oli: Who are they? Tom: They are pupils.",
     "We are all friends here.",
     "I am happy. We are friends!"
    ],
@@ -1596,7 +1596,7 @@
     "Mr. Aras bir müdür.",
     "Tom bir öğrenci. O bir arkadaş.",
     "Lila bir öğrenci. O bir arkadaş.",
-    "Onlar kim? Onlar öğrenci.",
+    "Miss Oli: Onlar kim? Tom: Onlar öğrenci.",
     "Hepimiz burada arkadaşız.",
     "Mutluyum. Biz arkadaşız!"
    ],
@@ -2251,7 +2251,7 @@
     }
    ],
    "sentences": [
-    "What day is it today?",
+    "Lila: What day is it today?",
     "It is Monday. We are in classroom.",
     "Miss Oli: Good morning, everybody!",
     "Pupils: Good morning, Miss Oli!",
@@ -2261,7 +2261,7 @@
     "Miss Oli: Let's start!"
    ],
    "translations": [
-    "Bugün hangi gün?",
+    "Lila: Bugün hangi gün?",
     "Bugün Pazartesi. Sınıftayız.",
     "Miss Oli: Günaydın, herkese!",
     "Öğrenciler: Günaydın, Miss Oli!",
@@ -2474,7 +2474,7 @@
     }
    ],
    "sentences": [
-    "What day is it today? It is the 29th of October.",
+    "Can: What day is it today? Eda: It is the 29th of October.",
     "It is Republic Day in Türkiye.",
     "It is a happy national day.",
     "We are in school garden.",
@@ -2484,7 +2484,7 @@
     "We are happy today!"
    ],
    "translations": [
-    "Bugün hangi gün? 29 Ekim.",
+    "Can: Bugün hangi gün? Eda: 29 Ekim.",
     "Türkiye'de Cumhuriyet Bayramı.",
     "Mutlu bir milli gün.",
     "Okul bahçesindeyiz.",
@@ -3047,7 +3047,7 @@
     "Can is a friend. He is a boy.",
     "Lila is a friend. She is a girl.",
     "Eda is a pupil. She is in library.",
-    "Who is in playground? Tom is in playground.",
+    "Eda: Who is in playground? Can: Tom is in playground.",
     "We are all pupils.",
     "We are happy together."
    ],
@@ -3058,7 +3058,7 @@
     "Can bir arkadaş. O bir erkek çocuk.",
     "Lila bir arkadaş. O bir kız çocuk.",
     "Eda bir öğrenci. O kütüphanede.",
-    "Oyun alanında kim var? Tom oyun alanında.",
+    "Eda: Oyun alanında kim var? Can: Tom oyun alanında.",
     "Hepimiz öğrenciyiz.",
     "Birlikte mutluyuz."
    ],
@@ -3154,22 +3154,22 @@
    ],
    "sentences": [
     "Today is a school day.",
-    "Where is Eda? She is in classroom.",
-    "Where is Can? He is in library.",
-    "Where is Lila? She is in garden.",
-    "Where is Tom? He is in playground.",
-    "Where is Miss Oli? She is in teacher's room.",
-    "Where is Mr. Aras? He is in canteen.",
+    "Lila: Where is Eda? Can: She is in classroom.",
+    "Eda: Where is Can? Lila: He is in library.",
+    "Can: Where is Lila? Eda: She is in garden.",
+    "Can: Where is Tom? Eda: He is in playground.",
+    "Lila: Where is Miss Oli? Can: She is in teacher's room.",
+    "Eda: Where is Mr. Aras? Can: He is in canteen.",
     "We are all in different places."
    ],
    "translations": [
     "Bugün bir okul günü.",
-    "Eda nerede? O sınıfta.",
-    "Can nerede? O kütüphanede.",
-    "Lila nerede? O bahçede.",
-    "Tom nerede? O oyun alanında.",
-    "Miss Oli nerede? O öğretmenler odasında.",
-    "Mr. Aras nerede? O kantinde.",
+    "Lila: Eda nerede? Can: O sınıfta.",
+    "Eda: Can nerede? Lila: O kütüphanede.",
+    "Can: Lila nerede? Eda: O bahçede.",
+    "Can: Tom nerede? Eda: O oyun alanında.",
+    "Lila: Miss Oli nerede? Can: O öğretmenler odasında.",
+    "Eda: Mr. Aras nerede? Can: O kantinde.",
     "Hepimiz farklı yerlerdeyiz."
    ],
    "questions": [
@@ -3265,8 +3265,8 @@
    "sentences": [
     "Miss Oli: What day is it today?",
     "Can: It is Tuesday.",
-    "What day is after Tuesday? It is Wednesday.",
-    "What day is after Wednesday? It is Thursday.",
+    "Miss Oli: What day is after Tuesday? Can: It is Wednesday.",
+    "Can: What day is after Wednesday? Miss Oli: It is Thursday.",
     "Friday is a happy day!",
     "Saturday is not a school day. Sunday is not a school day.",
     "Lila: Saturday is a good day!",
@@ -3276,8 +3276,8 @@
    "translations": [
     "Miss Oli: Bugün hangi gün?",
     "Can: Salı.",
-    "Salı'dan sonraki gün ne? Çarşamba.",
-    "Çarşamba'dan sonraki gün ne? Perşembe.",
+    "Miss Oli: Salı'dan sonraki gün ne? Can: Çarşamba.",
+    "Can: Çarşamba'dan sonraki gün ne? Miss Oli: Perşembe.",
     "Cuma mutlu bir gün!",
     "Cumartesi okul günü değil. Pazar okul günü değil.",
     "Lila: Cumartesi güzel bir gün!",
@@ -3719,7 +3719,7 @@
     }
    ],
    "sentences": [
-    "What day is it today? It is Friday.",
+    "Can: What day is it today? Lila: It is Friday.",
     "Can is in classroom. Lila is in library.",
     "Miss Oli: Come here, please! It is time for sports.",
     "Now they are all in sports hall.",
@@ -3730,7 +3730,7 @@
     "Now it is end of day. Miss Oli: Goodbye! See you on Monday!"
    ],
    "translations": [
-    "Bugün hangi gün? Cuma.",
+    "Can: Bugün hangi gün? Lila: Cuma.",
     "Can sınıfta. Lila kütüphanede.",
     "Miss Oli: Buraya gelin, lütfen! Spor zamanı.",
     "Şimdi hepsi spor salonunda.",
@@ -3944,7 +3944,7 @@
     }
    ],
    "sentences": [
-    "What day is it today? It is the 30th of August.",
+    "Eda: What day is it today? Can: It is the 30th of August.",
     "It is Victory Day in Türkiye.",
     "It is a special national day.",
     "Miss Oli is in classroom. Pupils are here.",
@@ -3955,7 +3955,7 @@
     "Welcome to Victory Day, friends!"
    ],
    "translations": [
-    "Bugün hangi gün? 30 Ağustos.",
+    "Eda: Bugün hangi gün? Can: 30 Ağustos.",
     "Türkiye'de Zafer Bayramı.",
     "Özel bir milli gün.",
     "Miss Oli sınıfta. Öğrenciler burada.",
@@ -4281,7 +4281,7 @@
     }
    ],
    "sentences": [
-    "What day is it today? It is a special day.",
+    "Eda: What day is it today? Can: It is a special day.",
     "It is Eid al-Adha in Türkiye.",
     "It is a happy religious day.",
     "Today is a day for friends.",
@@ -4292,7 +4292,7 @@
     "Children: Hurray! It is Eid today!"
    ],
    "translations": [
-    "Bugün hangi gün? Özel bir gün.",
+    "Eda: Bugün hangi gün? Can: Özel bir gün.",
     "Türkiye'de Kurban Bayramı.",
     "Mutlu bir dini gün.",
     "Bugün arkadaşlar için bir gün.",
@@ -4401,7 +4401,7 @@
     "She is in classroom every day.",
     "She: Good morning, everybody!",
     "Eda: Good morning!",
-    "Who is the woman?",
+    "Eda: Who is the woman?",
     "She is Miss Oli, an English teacher!"
    ],
    "translations": [
@@ -4411,7 +4411,7 @@
     "O her gün sınıfta.",
     "O: Günaydın, herkese!",
     "Eda: Günaydın!",
-    "Kadın kim?",
+    "Eda: Kadın kim?",
     "O Miss Oli, İngilizce öğretmeni!"
    ],
    "questions": [
@@ -4622,7 +4622,7 @@
     "It is after Wednesday.",
     "Eda: I am happy today!",
     "Tomorrow is Friday.",
-    "What day is it today?",
+    "Eda: What day is it today?",
     "Miss Oli: It is Thursday!"
    ],
    "translations": [
@@ -4632,7 +4632,7 @@
     "Çarşamba'dan sonra.",
     "Eda: Bugün mutluyum!",
     "Yarın Cuma.",
-    "Bugün hangi gün?",
+    "Eda: Bugün hangi gün?",
     "Miss Oli: Perşembe!"
    ],
    "questions": [
@@ -4733,7 +4733,7 @@
     "He is a kid.",
     "Eda: Hello! What is your name?",
     "Tom: My name is Tom.",
-    "Who is the new boy?",
+    "Tom: Who is the new boy?",
     "Eda: He is Tom, a new pupil!"
    ],
    "translations": [
@@ -4743,7 +4743,7 @@
     "O bir çocuk.",
     "Eda: Merhaba! Adın ne?",
     "Tom: Benim adım Tom.",
-    "Yeni çocuk kim?",
+    "Tom: Yeni çocuk kim?",
     "Eda: O Tom, yeni bir öğrenci!"
    ],
    "questions": [
@@ -4951,7 +4951,7 @@
     "One person is a headmaster.",
     "Eda is a pupil. She is not a headmaster.",
     "Miss Oli is a teacher. She is not a headmaster.",
-    "Who is the headmaster?",
+    "Eda: Who is the headmaster?",
     "Mr. Aras is a headmaster!"
    ],
    "translations": [
@@ -4961,7 +4961,7 @@
     "Bir kişi müdür.",
     "Eda bir öğrenci. O müdür değil.",
     "Miss Oli bir öğretmen. O müdür değil.",
-    "Müdür kim?",
+    "Eda: Müdür kim?",
     "Mr. Aras müdür!"
    ],
    "questions": [
@@ -5286,7 +5286,7 @@
     "Boy: Hello! My name is Tom.",
     "Eda: Nice to meet you, Tom!",
     "Tom: Nice to meet you, Eda!",
-    "Who is the new pupil?"
+    "Tom: Who is the new pupil?"
    ],
    "translations": [
     "Eda sınıfta.",
@@ -5296,7 +5296,7 @@
     "Çocuk: Merhaba! Adım Tom.",
     "Eda: Tanıştığıma memnun oldum, Tom!",
     "Tom: Tanıştığıma memnun oldum, Eda!",
-    "Yeni öğrenci kim?"
+    "Tom: Yeni öğrenci kim?"
    ],
    "questions": [
     {
@@ -5397,7 +5397,7 @@
     "Eda is happy. Can is happy, too.",
     "Miss Oli: Happy Youth Day, everybody!",
     "Eda: Happy Youth Day, Miss Oli!",
-    "What special day is it?"
+    "Eda: What special day is it?"
    ],
    "translations": [
     "Bugün okulda özel bir gün.",
@@ -5406,7 +5406,7 @@
     "Eda mutlu. Can da mutlu.",
     "Miss Oli: Gençlik Bayramı kutlu olsun, herkes!",
     "Eda: Gençlik Bayramı kutlu olsun, Miss Oli!",
-    "Hangi özel gün?"
+    "Eda: Hangi özel gün?"
    ],
    "questions": [
     {
@@ -5504,7 +5504,7 @@
     "Teacher's room is not for pupils.",
     "Eda is not a teacher. She is a pupil.",
     "Eda is polite. She is not angry.",
-    "What is the polite word?",
+    "Mr. Aras: What is the polite word?",
     "Eda: Sorry, Mr. Aras!",
     "Mr. Aras: That's OK, Eda!",
     "Now Eda is in classroom."
@@ -5514,7 +5514,7 @@
     "Öğretmenler odası öğrenciler için değil.",
     "Eda öğretmen değil. O bir öğrenci.",
     "Eda kibar. O kızgın değil.",
-    "Kibar kelime ne?",
+    "Mr. Aras: Kibar kelime ne?",
     "Eda: Özür dilerim, Mr. Aras!",
     "Mr. Aras: Sorun değil, Eda!",
     "Şimdi Eda sınıfta."
@@ -5616,7 +5616,7 @@
     "Miss Oli is here. Mr. Aras is here, too.",
     "It is a room for teachers.",
     "Pupils are not here.",
-    "What is this place?"
+    "Tom: What is this place?"
    ],
    "translations": [
     "Tom yeni bir öğrenci.",
@@ -5625,7 +5625,7 @@
     "Miss Oli burada. Mr. Aras da burada.",
     "Burası öğretmenler için bir oda.",
     "Öğrenciler burada değil.",
-    "Burası neresi?"
+    "Tom: Burası neresi?"
    ],
    "questions": [
     {
