@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "reading-skills-server",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "C:/Users/bagat/OneDrive/Desktop/ataberk-reading-app"],
+      "port": 8123
+    }
+  ]
+}

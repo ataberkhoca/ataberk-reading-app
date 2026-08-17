@@ -2114,7 +2114,7 @@
     }
    ],
    "sentences": [
-    "Today is the 19th of May.",
+    "Today is 19 May.",
     "It is Commemoration of Atatürk, Youth and Sports Day.",
     "Lila: My family is here today!",
     "My mum has got blond hair.",
@@ -2122,7 +2122,7 @@
     "Tom: My family is here, too!",
     "My mum is nice. My dad is handsome.",
     "We are with our families today!",
-    "Happy 19th of May!"
+    "Happy 19 May!"
    ],
    "translations": [
     "Bugün 19 Mayıs.",
@@ -2153,10 +2153,10 @@
     {
      "q": "What date is it today?",
      "qTr": "Bugünün tarihi nedir?",
-     "correct": "The 19th of May",
+     "correct": "19 May",
      "wrong": [
-      "The 23rd of April",
-      "The 15th of July"
+      "23 April",
+      "15 July"
      ],
      "hint": "Günü bul.",
      "hl": [
@@ -3608,7 +3608,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "O küçük. O dört yaşında.",
+     "hint": "Yedi değil, on da değil — cümleye bak.",
      "hl": [
       1
      ]
@@ -3662,7 +3662,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "O küçük. O dört yaşında.",
+     "hint": "Boyuna ve yaşına bak, hangi aile üyesi olabilir?",
      "hl": [
       4
      ]
@@ -3720,7 +3720,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "O on yaşında. O uzun boylu.",
+     "hint": "Dört değil, yedi de değil — cümleye bak.",
      "hl": [
       1
      ]
@@ -3759,7 +3759,7 @@
       "The little baby",
       "The tall father"
      ],
-     "hint": "O on yaşında. O uzun boylu.",
+     "hint": "Bebek değil, baba değil. Peki kim?",
      "hl": [
       4,
       5,
@@ -3774,7 +3774,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "O on yaşında. O uzun boylu.",
+     "hint": "Hikâyenin son cümlesini hatırla.",
      "hl": [
       4
      ]
@@ -3884,7 +3884,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Eda'nın annesinin mavi gözleri var.",
+     "hint": "Metnin başındaki göz rengini hatırla.",
      "hl": [
       1,
       4
@@ -3943,7 +3943,7 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "O on iki yaşında. O uzun boylu.",
+     "hint": "'O annem değil, bebek değil' cümlesini bul.",
      "hl": [
       1
      ]
@@ -3982,7 +3982,7 @@
       "The little baby",
       "The tall mother"
      ],
-     "hint": "O on iki yaşında. Uzun koyu saçları var.",
+     "hint": "Anne değil, bebek değil. Peki kim?",
      "hl": [
       2,
       7
@@ -3996,7 +3996,7 @@
       "The big mother",
       "The little baby"
      ],
-     "hint": "O on iki yaşında. O bir bebek değil.",
+     "hint": "Anne değil, bebek de değil.",
      "hl": [
       5
      ]
@@ -4214,7 +4214,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Eda'nın annesinin sarı saçları var.",
+     "hint": "Eda'nın az önce söylediği cümleyi hatırla.",
      "hl": [
       3,
       4
@@ -4325,7 +4325,7 @@
       "No",
       "Maybe"
      ],
-     "hint": "Tom'un babasının mavi gözleri var.",
+     "hint": "Metnin başındaki göz rengini hatırla.",
      "hl": [
       1,
       4
@@ -4358,7 +4358,7 @@
    "sentences": [
     "Today is a special day in Türkiye.",
     "It is not a national day.",
-    "It is not the 23rd of April. It is not the 19th of May.",
+    "It is not 23 April. It is not 19 May.",
     "It is a religious day. Families are together.",
     "Eda: I have got new clothes!",
     "Lila: My grandma is here today!",
@@ -4384,20 +4384,20 @@
       "Yes",
       "Maybe"
      ],
-     "hint": "Dini bir gün. Aileler bir arada.",
+     "hint": "Metindeki ilk cümleye bak, ne olmadığını söylüyor.",
      "hl": [
       1
      ]
     },
     {
-     "q": "Is today the 23rd of April?",
+     "q": "Is today 23 April?",
      "qTr": "Bugün 23 Nisan mı?",
      "correct": "No",
      "wrong": [
       "Yes",
       "Maybe"
      ],
-     "hint": "O 19 Mayıs da değil. Dini bir gün.",
+     "hint": "O 19 Mayıs da değil.",
      "hl": [
       2
      ]

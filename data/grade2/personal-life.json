@@ -760,8 +760,8 @@
      ]
     },
     {
-     "q": "What kind of day is today?",
-     "qTr": "Bugün nasıl bir gün?",
+     "q": "What is today like?",
+     "qTr": "Bugün nasıl?",
      "correct": "Sunny",
      "wrong": [
       "Cold",
@@ -2303,12 +2303,12 @@
      ]
     },
     {
-     "q": "What kind of day is it?",
-     "qTr": "Bu nasıl bir gün?",
-     "correct": "A religious day",
+     "q": "Why is today special?",
+     "qTr": "Bugün neden özel?",
+     "correct": "It is a religious day",
      "wrong": [
-      "A birthday party",
-      "A school day"
+      "It is a birthday party",
+      "It is a school day"
      ],
      "hint": "Günü bul.",
      "hl": [
@@ -2401,8 +2401,8 @@
      ]
     },
     {
-     "q": "What kind of day is it for Eda?",
-     "qTr": "Eda için nasıl bir gün?",
+     "q": "How is the day for Eda?",
+     "qTr": "Eda için gün nasıl?",
      "correct": "A rainy day",
      "wrong": [
       "A snowy day",
@@ -2427,8 +2427,8 @@
      ]
     },
     {
-     "q": "What kind of day is it for Tom?",
-     "qTr": "Tom için nasıl bir gün?",
+     "q": "How is the day for Tom?",
+     "qTr": "Tom için gün nasıl?",
      "correct": "A snowy day",
      "wrong": [
       "A rainy day",
@@ -3486,7 +3486,7 @@
     }
    ],
    "sentences": [
-    "Miss Oli: Today is the 29th of October.",
+    "Miss Oli: Today is 29 October.",
     "Miss Oli: Türkiye is happy today! It is Republic Day!",
     "Tom: I have got special clothes for today.",
     "Tom: I have got a white shirt and red trousers.",
@@ -3511,10 +3511,10 @@
     {
      "q": "What date is it today?",
      "qTr": "Bugünün tarihi nedir?",
-     "correct": "The 29th of October",
+     "correct": "29 October",
      "wrong": [
-      "The 23rd of April",
-      "The 15th of July"
+      "23 April",
+      "15 July"
      ],
      "hint": "Tarihe bak.",
      "hl": [
@@ -3677,13 +3677,13 @@
     },
     {
      "q": "What has Tom got?",
-     "qTr": "Neden Tom değil?",
+     "qTr": "Tom'da ne var?",
      "correct": "Tom is short. He has got dark hair.",
      "wrong": [
       "Tom is tall. He has got dark hair.",
       "Tom is tall. He has got blond hair."
      ],
-     "hint": "Tom uzun değil. Tom'un koyu saçları var.",
+     "hint": "Tom uzun değil. Saçının rengine bak.",
      "hl": [
       5
      ]
@@ -3894,7 +3894,7 @@
       "Hot",
       "Raining"
      ],
-     "hint": "Kıyafetler soğuk günler için.",
+     "hint": "Eda'nın ne giydiğine bak.",
      "hl": [
       0,
       1,
@@ -4053,7 +4053,7 @@
     }
    ],
    "sentences": [
-    "Eda: I have got something on my body.",
+    "Eda: There is an object on my body.",
     "Eda: It is not on my head.",
     "Eda: It is not on my feet.",
     "Eda: It is on my nose.",
@@ -4133,7 +4133,7 @@
       "It is on my head",
       "It is on my feet"
      ],
-     "hint": "Burnumda.",
+     "hint": "Baş değil, ayak değil. Peki nerede?",
      "hl": [
       3
      ]
@@ -4241,7 +4241,7 @@
       "The pink dress",
       "The blue dress"
      ],
-     "hint": "Sarı elbiseyi eşleştir.",
+     "hint": "Miss Oli'nin söylediklerini hatırla, kıyafetlere bak.",
      "hl": [
       2,
       3
@@ -4354,7 +4354,7 @@
       "It is hot on Monday",
       "It is cold on Tuesday"
      ],
-     "hint": "Perşembe kar yağıyor.",
+     "hint": "Bugünün havasını, diğer günlerle karşılaştır.",
      "hl": [
       4,
       5
@@ -4573,13 +4573,13 @@
     },
     {
      "q": "What has Eda got?",
-     "qTr": "Neden Eda değil?",
+     "qTr": "Eda'da ne var?",
      "correct": "Eda: I have got blue eyes",
      "wrong": [
       "Eda: I have got dark eyes",
       "Eda: I have got green eyes"
      ],
-     "hint": "Eda'nın mavi gözleri var, sarı saçı değil.",
+     "hint": "Eda'nın kendi hakkında söylediği cümleye bak.",
      "hl": [
       1
      ]
@@ -4641,12 +4641,12 @@
      ]
     },
     {
-     "q": "What kind of day is it?",
-     "qTr": "Bu nasıl bir gün?",
-     "correct": "A religious day",
+     "q": "Is today a religious day?",
+     "qTr": "Bugün dini bir gün mü?",
+     "correct": "Yes",
      "wrong": [
-      "A national day",
-      "A school day"
+      "No",
+      "Maybe"
      ],
      "hint": "Günü bul.",
      "hl": [
@@ -4681,7 +4681,7 @@
     },
     {
      "q": "What day is it today?",
-     "qTr": "Neden Çocuk Bayramı değil?",
+     "qTr": "Bugün günlerden ne?",
      "correct": "It is a religious day",
      "wrong": [
       "It is a school day",
@@ -4798,7 +4798,7 @@
       "Six",
       "Eight"
      ],
-     "hint": "Yedi değil. Dokuz yaşında.",
+     "hint": "Altı değil, sekiz de değil.",
      "hl": [
       5,
       7
