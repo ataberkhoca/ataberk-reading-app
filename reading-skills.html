@@ -29,8 +29,6 @@ body::before{
 .blob-2{width:180px;height:180px;background:#FFD93D;opacity:.1;bottom:60px;left:-60px;}
 .blob-3{width:140px;height:140px;background:#6BCB77;opacity:.09;top:38%;right:-40px;}
 
-.app{width:100%;max-width:430px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;position:relative;z-index:1;}
-
 
 
 /* PROGRESS */
@@ -123,7 +121,7 @@ body::before{
 .next-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #1A1A1A;}
 .next-btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #1A1A1A;}
 
-/* ══ OKUMA KAPISI (read-first gate) ══════════════════════════ */
+/* OKUMA KAPISI (read-first gate) */
 .read-gate{background:#FFFDF7;border-radius:24px;border:3px solid #1A1A1A;
   box-shadow:5px 5px 0 #1A1A1A;padding:18px 18px 16px;display:flex;flex-direction:column;gap:10px;
   animation:cardPop .4s .08s cubic-bezier(.34,1.56,.64,1) backwards;}
@@ -164,18 +162,11 @@ body::before{
 
 :root{--ac:#FF6B6B;--ac-dark:#8B1C26;--ac-mid:#FFB3B3;--ac-lt:#FFF0F0;}
 
-/* ══════════════════════════════
-   EKRAN SİSTEMİ
-══════════════════════════════ */
+/* EKRAN SİSTEMİ */
 .screen { display:none; width:100%; max-width:430px; margin:0 auto; min-height:100dvh; flex-direction:column; position:relative; z-index:1; }
 .screen.active { display:flex; }
 
-/* ══════════════════════════════
-   GİRİŞ EKRANI
-══════════════════════════════ */
-/* ══════════════════════════════
-   GİRİŞ EKRANI — Eskiz Defteri
-══════════════════════════════ */
+/* GİRİŞ EKRANI — Eskiz Defteri */
 #screen-intro{
   align-items:center;
   justify-content:center;
@@ -184,7 +175,7 @@ body::before{
   position:relative;
   overflow:hidden;
   font-family:'Patrick Hand',cursive;
-  /* dar .app container'ından taşıp tüm pencereyi kapla */
+  /* dar .screen container'ından taşıp tüm pencereyi kapla */
   position:fixed;
   inset:0;
   width:100vw;
@@ -293,9 +284,7 @@ body.intro-mode .blob{display:none !important;}
 }
 
 
-/* ══════════════════════════════
-   SINIF SEÇİMİ EKRANI
-══════════════════════════════ */
+/* SINIF SEÇİMİ EKRANI */
 #screen-sinif {
   flex-direction: column;
   justify-content: center;
@@ -381,18 +370,7 @@ body.intro-mode .blob{display:none !important;}
 .sinif-card.aktif .sinif-num { color: #fff; }
 .sinif-card.aktif .sinif-sub { color: rgba(255,255,255,.75); }
 
-.sinif-card.yakinda {
-  background: #F7F7F7;
-  border-color: #CCC;
-  box-shadow: 4px 4px 0 #CCC;
-  cursor: not-allowed;
-}
-.sinif-card.yakinda:hover  { transform: none; box-shadow: 4px 4px 0 #CCC; }
-.sinif-card.yakinda:active { transform: none; }
-.sinif-card.yakinda .sinif-num { color: #BBB; }
-.sinif-card.yakinda .sinif-sub { color: #CCC; }
-
-/* ══ SINIF DEĞİŞTİRİCİ — tema ekranında hep görünür ═══════════
+/* SINIF DEĞİŞTİRİCİ — tema ekranında hep görünür.
    Profilde sınıf kayıtlıysa selectProfile() sınıf ekranını atlıyordu ve
    geri tuşu NAV_STACK'e göre Giriş'e dönüyordu; sınıf ekranı erişilemez
    hale geliyordu. Bu çubuk sınıf ekranına doğrudan bir kapı açar. */
@@ -425,29 +403,7 @@ body.intro-mode .blob{display:none !important;}
   color: #888;
 }
 
-.sinif-badge {
-  font-family: 'Baloo 2', cursive;font-weight:600;
-  font-size: 12px;
-  padding: 5px 14px;
-  border-radius: 99px;
-  border: 2.5px solid #1A1A1A;
-}
-.sinif-card.aktif .sinif-badge {
-  background: #fff;
-  color: #FF6B6B;
-  border-color: #fff;
-}
-.sinif-card.yakinda .sinif-badge {
-  background: #FFD93D;
-  color: #1A1A1A;
-  border-color: #CCC;
-  font-size: 11px;
-}
-
-
-/* ══════════════════════════════
-   THEME SEÇİMİ EKRANI
-══════════════════════════════ */
+/* THEME SEÇİMİ EKRANI */
 #screen-theme {
   flex-direction: column;
   justify-content: center;
@@ -485,15 +441,6 @@ body.intro-mode .blob{display:none !important;}
 .theme-card:hover  { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 #1A1A1A; }
 .theme-card:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
 
-.theme-card.yakinda {
-  background: #F7F7F7;
-  border-color: #CCC;
-  box-shadow: 4px 4px 0 #CCC;
-  cursor: not-allowed;
-}
-.theme-card.yakinda:hover  { transform: none; box-shadow: 4px 4px 0 #CCC; }
-.theme-card.yakinda:active { transform: none; }
-
 .theme-left {
   display: flex;
   align-items: center;
@@ -508,10 +455,6 @@ body.intro-mode .blob{display:none !important;}
   font-size: 22px;
   flex-shrink: 0;
 }
-.theme-card.yakinda .theme-icon {
-  border-color: #CCC;
-  opacity: .5;
-}
 
 .theme-info { display: flex; flex-direction: column; gap: 3px; }
 .theme-name {
@@ -520,39 +463,13 @@ body.intro-mode .blob{display:none !important;}
   color: #1A1A1A;
   line-height: 1;
 }
-.theme-card.yakinda .theme-name { color: #BBB; }
 .theme-desc {
   font-size: 12px;
   font-weight: 700;
   color: #888;
 }
-.theme-card.yakinda .theme-desc { color: #CCC; }
 
-.theme-badge {
-  font-family: 'Baloo 2', cursive;font-weight:600;
-  font-size: 12px;
-  padding: 5px 14px;
-  border-radius: 99px;
-  border: 2.5px solid #1A1A1A;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.theme-card.aktif .theme-badge {
-  background: #FF6B6B;
-  color: #fff;
-  border-color: #1A1A1A;
-}
-.theme-card.yakinda .theme-badge {
-  background: #FFD93D;
-  color: #1A1A1A;
-  border-color: #CCC;
-  font-size: 11px;
-}
-
-
-/* ══════════════════════════════
-   ETKİNLİK SEÇİMİ EKRANI
-══════════════════════════════ */
+/* ETKİNLİK SEÇİMİ EKRANI */
 #screen-etkinlik {
   flex-direction: column;
   justify-content: center;
@@ -610,9 +527,7 @@ body.intro-mode .blob{display:none !important;}
   font-size: 20px; color: #CCC; flex-shrink: 0;
 }
 
-/* ═══════════════════════════════════════ */
-/*  METİN SEÇİM EKRANI — Sticker book stili */
-/* ═══════════════════════════════════════ */
+/* METİN SEÇİM EKRANI — Sticker book stili */
 .text-select-intro {
   background: var(--ac, #FF6B6B);
   border: 3px solid #1A1A1A;
@@ -794,13 +709,6 @@ body.intro-mode .blob{display:none !important;}
 }
 
 
-/* ── GİRİŞ EKRANI LİNKLER ── */
-.intro-link-row {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 4px;
-}
 .intro-link-pill {
   font-family: 'Baloo 2', cursive;font-weight:600;
   font-size: 12px;
@@ -826,9 +734,7 @@ body.intro-mode .blob{display:none !important;}
 .stats-play-btn:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
 
 
-/* ══════════════════════════════
-   NASIL KULLANILIR & HAKKIMIZDA
-══════════════════════════════ */
+/* NASIL KULLANILIR & HAKKIMIZDA */
 #screen-nasil, #screen-hakkinda {
   flex-direction: column;
   padding: 0 0 40px;
@@ -894,9 +800,7 @@ body.intro-mode .blob{display:none !important;}
 }
 
 
-/* ══════════════════════════════
-   PROFİL OLUŞTURMA EKRANI
-══════════════════════════════ */
+/* PROFİL OLUŞTURMA EKRANI */
 #screen-profil {
   flex-direction: column;
   justify-content: center;
@@ -1050,9 +954,7 @@ body.intro-mode .blob{display:none !important;}
 }
 
 
-/* ══════════════════════════════
-   PROFİL İSTATİSTİK EKRANI
-══════════════════════════════ */
+/* PROFİL İSTATİSTİK EKRANI */
 #screen-stats {
   flex-direction: column;
   padding: 0 0 40px;
@@ -1120,10 +1022,6 @@ body.intro-mode .blob{display:none !important;}
   color: #AAA; margin-top: 4px;
 }
 
-.stats-section-title {
-  font-family: 'Baloo 2', cursive;font-weight:600;
-  font-size: 15px; color: #888; margin-bottom: 2px;
-}
 .stats-grade-tabs { display:flex; gap:8px; margin:6px 0 14px; }
 .stats-grade-tab {
   flex:1; font-family:'Baloo 2',cursive; font-weight:600; font-size:13px; color:#1A1A1A;
@@ -1184,14 +1082,12 @@ body.intro-mode .blob{display:none !important;}
 
 /* Çift tap zoom'u engelle — user-scalable=no olmadan */
 button, .choice, .sinif-card, .theme-card, .etkinlik-card,
-.intro-btn, .back-btn, .fab-main, .fab-pp, .avatar-opt {
+.back-btn, .avatar-opt {
   touch-action: manipulation;
 }
 
 
-/* ══════════════════════════════
-   KUTLAMA EKRANI
-══════════════════════════════ */
+/* KUTLAMA EKRANI */
 #screen-celeb {
   flex-direction: column;
   justify-content: flex-start;
@@ -1292,7 +1188,6 @@ button.celeb-retry {
   outline-offset: 2px;
 }
 .back-btn:focus-visible,
-.intro-btn:focus-visible,
 .sinif-card:focus-visible,
 .theme-card:focus-visible,
 .etkinlik-card:focus-visible {
@@ -1531,9 +1426,7 @@ button.celeb-retry {
 }
 .delete-modal-btn.confirm:hover { background: #e05555; }
 
-/* ════════════════════════════════════════
-   ROZET SİSTEMİ
-════════════════════════════════════════ */
+/* ROZET SİSTEMİ */
 
 /* Rozet Ekranı */
 #screen-badges { background: #FFFBF0; }
@@ -1558,7 +1451,6 @@ button.celeb-retry {
 .ba-slot .ba-lbl { position:absolute; bottom:6px; left:2px; right:2px; text-align:center;
   font-family:'Baloo 2',cursive; font-weight:600; font-size:9px; color:#8A7B5A; line-height:1.1; }
 .ba-slot.locked .ba-lbl { color:#B8A98A; }
-.ba-ghost { font-size:20px; opacity:.18; margin-bottom:14px; }
 .ba-sticker { position:absolute; top:4px; left:4px; right:4px; bottom:18px; border-radius:12px;
   display:flex; align-items:center; justify-content:center; font-size:24px;
   background:radial-gradient(circle at 30% 25%,#fff,#F4F0E2); border:2px solid #fff;
@@ -1572,13 +1464,9 @@ button.celeb-retry {
   background:linear-gradient(90deg,transparent,rgba(255,255,255,.85),transparent); transform:skewX(-20deg);
   animation:baSweep 1.4s 1s ease-out; }
 @keyframes baSweep { 0%{left:-60%} 100%{left:120%} }
-.ba-foot { display:flex; justify-content:space-between; font-family:'Baloo 2',cursive; font-weight:600;
-  font-size:12px; color:#577240; border-top:1.5px dashed #D6C9A8; padding-top:8px; }
 /* Tıklanabilir slot + kilitli placeholder */
 .ba-slot { cursor:pointer; transition:transform .12s; }
 .ba-slot:active { transform:scale(.94); }
-.ba-ph { position:absolute; top:4px; left:4px; right:4px; bottom:18px; border-radius:12px;
-  display:flex; align-items:center; justify-content:center; font-size:24px; filter:grayscale(1); opacity:.26; }
 .ba-slot.locked::after { content:"?"; position:absolute; top:5px; right:9px; font-family:'Baloo 2',cursive;
   font-weight:700; font-size:11px; color:#C7B68E; }
 /* Rozet detay (spotlight) */
@@ -1609,63 +1497,6 @@ button.celeb-retry {
 .bd-desc { font-family:'Baloo 2',cursive; font-weight:600; font-size:13.5px; color:#5A4F3A; line-height:1.5;
   background:#FBF6E6; border:2px dashed #D6C9A8; border-radius:14px; padding:11px 13px; }
 .badges-scroll { padding: 0 16px 24px; overflow-y: auto; flex: 1; }
-.badge-category { margin-bottom: 24px; }
-.badge-cat-title {
-  font-size: 12px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: #888;
-  margin-bottom: 10px;
-}
-.badge-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-}
-.badge-card {
-  background: white;
-  border: 2.5px solid #1A1A1A;
-  border-radius: 16px;
-  padding: 14px 10px;
-  box-shadow: 3px 3px 0 #1A1A1A;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 5px;
-}
-.badge-card.locked {
-  background: #F5F5F5;
-  border-color: #CCC;
-  box-shadow: 2px 2px 0 #CCC;
-}
-.badge-card-icon { font-size: 2rem; line-height: 1; }
-.badge-card.locked .badge-card-icon { filter: grayscale(1); opacity: 0.35; }
-.badge-card-name { font-size: 13px; font-weight: 800; color: #1A1A1A; }
-.badge-card.locked .badge-card-name { color: #AAA; }
-.badge-card-desc { font-size: 11px; color: #888; line-height: 1.4; }
-.badge-card.locked .badge-card-desc { color: #CCC; }
-.badge-earned-tag {
-  background: #6BCB77;
-  border: 2px solid #1A1A1A;
-  border-radius: 20px;
-  padding: 2px 8px;
-  font-size: 10px;
-  font-weight: 900;
-  color: white;
-  margin-top: 2px;
-}
-.badge-lock-tag {
-  background: #EEE;
-  border: 2px solid #CCC;
-  border-radius: 20px;
-  padding: 2px 8px;
-  font-size: 10px;
-  font-weight: 700;
-  color: #AAA;
-  margin-top: 2px;
-}
 
 /* Stats ekranına rozet önizleme */
 .stats-badge-preview {
@@ -1748,7 +1579,7 @@ button.celeb-retry {
 .stats-scroll .nu-frac,
 .stats-scroll .topic-stat-badge { font-size:13px; font-weight:800; }
 
-/* ── Yaklaştığın rozetler (1d) ── */
+/* ── Yaklaştığın rozetler ── */
 .nu-card{background:#fff;border:2.5px solid #1A1A1A;border-radius:16px;box-shadow:3px 3px 0 #1A1A1A;padding:12px;margin-bottom:14px}
 .nu-title{font-size:12px;font-weight:900;letter-spacing:.08em;color:#8A7F6A;margin-bottom:9px}
 .nu-row{display:flex;align-items:center;gap:10px;background:#FFFBF0;border:2px solid #1A1A1A;border-radius:13px;padding:8px 9px;cursor:pointer;transition:all .15s}
@@ -1762,7 +1593,7 @@ button.celeb-retry {
 .nu-left{font-size:11px;font-weight:700;color:#8A7F6A}
 .nu-frac{font-family:'Caveat',cursive;font-weight:700;font-size:15px;color:#1A1A1A}
 
-/* ── Rozet destesi (1b) + sıradaki hedef (1c) ── */
+/* ── Rozet destesi + sıradaki hedef ── */
 .bc-deck{position:relative}
 /* Arkadaki kartlar öndeki kartla aynı paletten: koyu lacivert gövde,
    sönük altın kenar. Krem kâğıt rengi desteyi ikiye bölüyordu. */
@@ -1787,7 +1618,7 @@ button.celeb-retry {
 .bc-next-lbl{font-family:'Caveat',cursive;font-weight:700;font-size:14px;color:#AEBBD4;width:100%;text-align:left;margin-top:8px}
 .bc-next-lbl.hidden{display:none}
 
-/* ── Albüme yapıştırma (1a) ── */
+/* ── Albüme yapıştırma ── */
 .bcal{width:288px;background:#FFFBF0;border:3px solid #1A1A1A;border-radius:20px;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:16px;box-sizing:border-box;animation:fadeIn .25s ease}
 .bcal.hidden{display:none}
 .bcal-t{font-family:'Baloo 2',cursive;font-weight:800;font-size:16px;color:#1A1A1A}
@@ -1804,11 +1635,11 @@ button.celeb-retry {
 .bcal-done{margin-top:11px;background:#6BCB77;border:2.5px solid #1A1A1A;border-radius:13px;box-shadow:3px 3px 0 #1A1A1A;padding:8px;text-align:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:13.5px;color:#1A1A1A}
 @media (prefers-reduced-motion:reduce){.bcal-fly{animation:none}}
 
-/* ── 2b · Boş yuva: kilitli rozet ödülü göstermez ── */
+/* ── Boş yuva: kilitli rozet ödülü göstermez ── */
 .ba-socket{position:absolute;top:4px;left:4px;right:4px;bottom:18px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:22px;color:#CBBFA0;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(214,201,168,.16) 6px 12px);}
 .ba-slot.locked .ba-lbl.goal{color:#8A7B5A;font-weight:700;}
 
-/* ── 2b · EN YAKIN: en yakın rozet albümün üstünde ── */
+/* ── En yakın rozet, albümün üstünde ── */
 .ba-near{background:#fff;border:2.5px solid #1A1A1A;border-radius:16px;box-shadow:3px 3px 0 #1A1A1A;padding:12px 13px;margin-bottom:12px;cursor:pointer;}
 .ba-near-lbl{font-family:'Nunito',sans-serif;font-weight:900;font-size:10.5px;letter-spacing:.12em;color:#8A8578;}
 .ba-near-row{display:flex;align-items:center;gap:11px;margin-top:9px;}
@@ -1818,17 +1649,13 @@ button.celeb-retry {
 .ba-near-fill{height:100%;background:#6BCB77;border-radius:3px;transition:width .4s ease;}
 .ba-near-left{font-family:'Nunito',sans-serif;font-weight:800;font-size:11.5px;color:#8A8578;}
 
-/* ── 2b · Albüm ilerlemesi: kazanılanı say, eksiği sayma ── */
+/* ── Albüm ilerlemesi: kazanılanı say, eksiği sayma ── */
 .ba-bar{display:flex;align-items:center;gap:9px;border-top:1.5px dashed #D6C9A8;padding-top:9px;}
 .ba-bar-track{flex:1;height:10px;border-radius:4px;background:#EDE7DA;overflow:hidden;}
 .ba-bar-fill{height:100%;background:#6BCB77;border-radius:4px;}
 .ba-bar-txt{font-family:'Baloo 2',cursive;font-weight:700;font-size:12px;color:#577240;}
 
-/* ── Gölge: kilitli gizemli rozet (1e) ── */
-.ba-ph.sil{filter:brightness(0);opacity:.72}
-.ba-lbl.sil{letter-spacing:.14em}
-
-/* ── Öğretmenine göster (1g) ── */
+/* ── Öğretmenine göster ── */
 .cert-overlay{position:fixed;inset:0;background:rgba(20,26,45,.78);z-index:1150;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:22px;animation:fadeIn .2s ease;overflow-y:auto}
 .cert-overlay.hidden{display:none}
 .cert-card{width:100%;max-width:320px;background:#FFFBF0;border:3px solid #1A1A1A;border-radius:20px;box-shadow:6px 6px 0 #1A1A1A;padding:18px;text-align:center}
@@ -1891,10 +1718,8 @@ button.celeb-retry {
 .bc-btn:active { transform: translate(2px,2px); box-shadow: 2px 2px 0 #1A1A1A; }
 @media (prefers-reduced-motion:reduce){ .bc-card{animation:none} .bc-foil{animation:none;opacity:.5} }
 
-/* ═══════════════════════════════════════════
-   KUTLAMA HAVUZU — 6 DÜNYA (cw- = celebration world)
-   showResult() bu overlay'i doldurup gösterir.
-═══════════════════════════════════════════ */
+/* KUTLAMA HAVUZU — 6 DÜNYA (cw- = celebration world)
+   showResult() bu overlay'i doldurup gösterir. */
 .cw-overlay{position:fixed;inset:0;z-index:300;opacity:0;pointer-events:none;transition:opacity .35s;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .cw-overlay.visible{opacity:1;pointer-events:all}
 .cw-phone{width:100%;max-width:430px;min-height:100dvh;margin:0 auto;position:relative;display:block}
@@ -2076,13 +1901,11 @@ button.celeb-retry {
 .cw-fntower{width:38px;height:70px;margin:-1px auto 0;background:repeating-linear-gradient(0deg,#F2F2EC 0 13px,#E8554A 13px 26px);clip-path:polygon(18% 100%,82% 100%,70% 0,30% 0);border-radius:3px 3px 0 0}
 @keyframes cwFnHouse{to{opacity:1;transform:translateX(-50%) translateY(0)}}
 
-/* ═══════════════════════════════════════════
-   EVRENSEL ESKİZ DEFTERİ ZEMİNİ
+/* EVRENSEL ESKİZ DEFTERİ ZEMİNİ
    Intro'daki eskiz estetiği tüm temasız ekranlara uygulanır.
    Tema seçildikten sonraki ekranlar (etkinlik, text-select, game)
    ileride kendi tema sahnelerine geçecek — o zaman bu kurallar
-   tema-spesifik kurallarla override edilecek.
-═══════════════════════════════════════════ */
+   tema-spesifik kurallarla override edilecek. */
 
 /* (1) Defter kağıdı — eski noktalı zemini sıfırlar */
 body::before {
@@ -2173,13 +1996,7 @@ body.intro-mode::after { display: none !important; }
 body.intro-mode #ud-doodles,
 body.intro-mode .ud-corner { display: none !important; }
 
-/* ═══════════════════════════════════════════════════════════════
-   V2 — DESIGN REVIEW REVISIONS
-   1 doodle discipline · 2 style split · 3 hierarchy · 5 empty states
-   6 reading affordance · 7 header + contrast · 8 progress
-═══════════════════════════════════════════════════════════════ */
-
-/* ── 1 · Doodles stay decoration, never compete with content ── */
+/* Doodles stay decoration, never compete with content */
 #ud-doodles { opacity: .5; }
 .ud-corner { opacity: .22 !important; }
 body:not(.intro-mode) .screen.active::before {
@@ -2191,7 +2008,7 @@ body:has(#screen-game.active) #ud-doodles,
 body:has(#screen-game.active) .ud-corner { display:none !important; }
 body:has(#screen-game.active)::after { opacity:.2; }
 
-/* ── 7 · One header, one back rule ──────────────────────────── */
+/* One header, one back rule */
 /* Geri tuşu — kutu değil, kalemle çizilmiş bir işaret.
    Kutu ve sert gölge kaldırıldı: eğri kenarlı kutunun arkasındaki
    dikdörtgen gölge butondan büyük görünüyordu. Şimdi hover yalnızca
@@ -2241,7 +2058,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .header-profil-name { display:none; }
 .header-profil-av { font-size:19px; }
 
-/* ── 2 · Sketch = page voice, outline = tappable ─────────────── */
+/* Sketch = page voice, outline = tappable */
 .etkinlik-en, .text-card-en {
   font-family:'Caveat',cursive !important; font-weight:700 !important;
   font-size:16px !important; color:#3A7BD5 !important;
@@ -2256,7 +2073,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .q-label { color:rgba(255,255,255,.78); }
 #skill-en { color:rgba(0,0,0,.5); }
 
-/* ── 3 · Three tiers: primary / content / secondary ──────────── */
+/* Three tiers: primary / content / secondary */
 /* Her sınıf eşit ağırlıkta ve kendi renginde davetkâr;
    dokunma/hover ile kart tamamen o renge boyanır. */
 .sinif-card.aktif {
@@ -2306,9 +2123,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
   display:flex; align-items:center; justify-content:center;
   font-size:15px; font-weight:900; transition:background .18s, color .18s, border-color .18s;
 }
-.sinif-badge, .theme-badge { display:none; }
-
-/* ── 8 · Progress made visible ───────────────────────────────── */
+/* Progress made visible */
 .theme-card { padding:14px 16px; }
 .theme-ring { flex-shrink:0; margin-left:8px; }
 .theme-ring circle.trk { stroke:#F0EBDD; }
@@ -2325,7 +2140,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .mastery-fill { display:block; height:100%; border-radius:99px; }
 .mastery-pct { font-size:10.5px; font-weight:900; color:#6E7688; width:34px; text-align:right; }
 
-/* ── 5 · Empty states that invite ────────────────────────────── */
+/* Empty states that invite */
 .invite-card {
   background:#6BCB77; border:3px solid #1A1A1A; border-radius:20px;
   box-shadow:5px 5px 0 #1A1A1A; padding:18px; margin:4px 0 10px;
@@ -2351,7 +2166,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .stats-empty-t { font-family:'Baloo 2',cursive; font-weight:600; font-size:20px; color:#1A1A1A; }
 .stats-empty-s { font-size:13px; font-weight:800; color:#6E7688; line-height:1.5; }
 
-/* ── 4+5 · Leave-activity confirm ────────────────────────────── */
+/* Leave-activity confirm */
 .leave-overlay {
   position:fixed; inset:0; z-index:400; background:rgba(26,26,26,.5);
   display:flex; align-items:center; justify-content:center; padding:24px;
@@ -2378,7 +2193,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .leave-stay { background:#FFD93D; color:#1A1A1A; }
 .leave-go { background:#fff; color:#B02525; }
 
-/* ── 6 · The translation feature announces itself ────────────── */
+/* The translation feature announces itself */
 .story-body { font-size:17px !important; }
 .story-body .s { border-bottom:2px dotted #9DBBE8; border-radius:4px 4px 0 0; }
 .story-body .s.sys-hl, .story-body .s.user-hl { border-bottom-color:transparent; }
@@ -2456,7 +2271,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <!-- eski result-overlay kaldırıldı; yerini cw-overlay (6 dünyalı havuz) aldı -->
 
-<!-- ═══ 6 DÜNYA KUTLAMA OVERLAY'İ (havuz buraya doldurur) ═══ -->
+<!-- 6 DÜNYA KUTLAMA OVERLAY'İ (havuz buraya doldurur) -->
 <div class="cw-overlay" id="cw-overlay">
   <div class="cw-phone" id="cw-phone">
     <div class="cw-scene" id="cw-scene"></div>
@@ -3003,9 +2818,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
 <script>
 
-// ════════════════════════════════════════
-//  NAVIGASYON
-// ════════════════════════════════════════
+// NAVIGASYON
 // Geri tuşu artık sabit bir hedefe değil, gerçekten gelinen ekrana döner.
 const NAV_STACK = [];
 let _navGoingBack = false;
@@ -3159,11 +2972,7 @@ function updateBackLabel() {
 }
 
 
-// ════════════════════════════════════════
-//  HOOK FONKSİYONLARI
-//  Yeni özellikler buraya eklenir:
-//  ses, bildirim, streak sayacı vs.
-// ════════════════════════════════════════
+// HOOK FONKSİYONLARI — yeni özellikler buraya eklenir: ses, bildirim, streak sayacı vs.
 
 function onActivityComplete(score, total, skill, topic) {
   const pct = score / total;
@@ -3360,7 +3169,7 @@ document.addEventListener('click', function(e){
   if (e.target.closest('.s')) return;
   closeTrPopup();
 });
-/* ══ VURGU ZAMANLAYICI YÖNETİMİ ══════════════════════════════
+/* VURGU ZAMANLAYICI YÖNETİMİ
    Eski hata: applyHL'in kurduğu sönme zamanlayıcısı restoreHL
    çağrıldığında iptal edilmiyordu. Çocuk vurgu sönmeden önce yanlış
    cevap verirse cümle yeniden işaretleniyor, ama bekleyen zamanlayıcı
@@ -3431,7 +3240,7 @@ function pulseHL(idx){
   });
 }
 
-/* ══ OKUMA AŞAMASI ═══════════════════════════════════════════
+/* OKUMA AŞAMASI
    Sorular metinle birlikte açılmıyor. Önce sadece hikâye + kapı kartı;
    çocuk 'Okudum' deyince sorular ve vurgu zamanlayıcıları başlıyor. */
 const READ_GATE_BY_SKILL = { scan:true, skim:true, int:true, inf:true };
@@ -3484,7 +3293,6 @@ function renderQ(){
   clearHLTimers();clearInterval(timerInt);
   hlLocked=false;                    // her yeni soruda vurgu kilidi açılır
   locked=false;attempts=0;
-  if(qIdx===0) missedQuestions=[];
   const d=DATA[cur];const q=d.questions[qIdx];const tot=d.questions.length;
   document.getElementById('story-body').style.opacity='1';
   document.getElementById('q-label').textContent=`${SKILLS[cur].label} — S${qIdx+1}`;
@@ -3544,7 +3352,6 @@ function showAnchor(q){
   }
 }
 function showHint(t){hintUsedThisActivity=true;document.getElementById('hint-zone').innerHTML=`<div class="hint-visible">💡 ${t}</div>`;}
-let missedQuestions = [];
 
 function pick(btn){
   if(locked)return;
@@ -3564,7 +3371,6 @@ function pick(btn){
     if(attempts===1) showAnchor(q);
     if(attempts>=2){
       locked=true;
-      if(!missedQuestions.includes(q)) missedQuestions.push(q);
       restoreHL(q.hl);
       pulseHL(q.hl);
       setTimeout(()=>{
@@ -3781,7 +3587,7 @@ async function startSkill(sk, textId) {
   currentTextId = chosen.id;
 
   clearHLTimers(); hlLocked = false; clearInterval(timerInt);
-  cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; missedQuestions = []; hintUsedThisActivity = false;
+  cur = sk; qIdx = 0; score = 0; locked = false; attempts = 0; hintUsedThisActivity = false;
   setVars(sk);
   document.getElementById('skill-tr').textContent = SKILLS[sk].label;
   document.getElementById('skill-en').textContent = CFG[sk].label;
@@ -3795,11 +3601,8 @@ async function startSkill(sk, textId) {
   enterReadingPhase();   // sorular değil, önce okuma kapısı
 }
 
-/* ══════════════════════════════════════════
-   2a · Kaldığın yerden devam
-   Menü zincirini her gün yeniden yürümek zorunda kalmasın:
-   son okunan metin girişte tek dokunuşla açılır.
-══════════════════════════════════════════ */
+/* Kaldığın yerden devam — menü zincirini her gün yeniden yürümek
+   zorunda kalmasın: son okunan metin girişte tek dokunuşla açılır. */
 function resumeKey() {
   const p = getActiveProfile();
   return p ? 'ataberk_resume_' + p.id : null;
@@ -3884,9 +3687,7 @@ function resumeLast() {
   });
 }
 
-// ════════════════════════════════════════
-//  METİN SEÇİM EKRANI
-// ════════════════════════════════════════
+// METİN SEÇİM EKRANI
 
 async function selectSkill(sk) {
   // Veri yükle — henüz yüklenmediyse
@@ -4105,126 +3906,7 @@ function saveTextStats(topic, skill, textId, score, total, stars) {
 
 
 
-// ════════════════════════════════════════
-//  FEEDBACK SİSTEMİ
-// ════════════════════════════════════════
-
-// Soru kategorisi belirle
-function getQuestionCategory(q) {
-  const text = q.q.toLowerCase();
-  if (text.startsWith('where'))              return 'where';
-  if (text.startsWith('who'))                return 'who';
-  if (text.startsWith('what is this mainly')) return 'main-idea';
-  if (text.startsWith('is ') || text.startsWith('are ') || text.startsWith('has ')) return 'yes-no';
-  if (text.startsWith('how'))                return 'how';
-  return 'general';
-}
-
-// Etkinlik bazında feedback şablonları
-const FEEDBACK_TEMPLATES = {
-  scan: {
-    perfect: [
-      "Harika! Metinde aradığın bilgiyi çok hızlı buldun. Tarama becerin çok güçlü! 🎯",
-      "Mükemmel! Tüm soruları doğru cevapladın. Metni baştan sona okumadan doğru yerlere baktın! 🔍",
-    ],
-    good: [
-      "Çok iyi gidiyorsun! Küçük bir ipucu: Tarama yaparken önce soruyu oku, sonra o kelimeyi metinde ara.",
-      "Güzel iş! Kaçırdığın sorularda metindeki anahtar kelimeleri bulmaya çalış.",
-    ],
-    where_miss: "Yer sorularında dikkat et! 'in', 'at', 'on' gibi kelimelerin yanındaki yerlere bak.",
-    who_miss:   "Kim sorularında karakterlerin rollerini bul — öğretmen mi, öğrenci mi, müdür mü?",
-    yesno_miss: "Evet/Hayır sorularında cevabı doğrudan metinde ara. Sarı cümle sana ipucu verir!",
-    general:    "Metni tekrar oku ve her cümlenin ne söylediğine dikkat et.",
-  },
-  skim: {
-    perfect: [
-      "Süper! Metni hızlıca okuyup ana konuyu çok iyi yakaladın! ⚡",
-      "Harika! Hızlı okuma becerin gerçekten çok iyi. Her kelimeyi okumadan ana fikri buldun!",
-    ],
-    good: [
-      "İyi gidiyorsun! Hızlı okumada ilk ve son cümlelere özellikle dikkat et — genellikle ana fikir orada olur.",
-      "Güzel! Bir sonraki seferde başlıklara ve ilk cümlelere hızlıca göz at.",
-    ],
-    mainidea_miss: "Ana fikir sorularında metnin tamamına bak — tek bir cümle değil, genel konu nedir?",
-    general:       "Hızlı okumada tüm metni okumak zorunda değilsin — sadece önemli yerlere odaklan.",
-  },
-  int: {
-    perfect: [
-      "Mükemmel! Metni çok dikkatli okudun ve hiçbir detayı kaçırmadın! 🔬",
-      "Harika! Dikkatli okuma becerin çok güçlü. Her cümleyi anlayarak okudun!",
-    ],
-    good: [
-      "Çok iyi! Dikkatli okumada her cümleyi anlamaya çalış — bazen cevap tek bir kelimede saklı olabilir.",
-      "Güzel iş! Kaçırdığın sorularda sarı vurgulu cümleleri tekrar oku.",
-    ],
-    where_miss: "Yer sorularında 'in the...', 'at the...' ifadelerine dikkat et.",
-    who_miss:   "Dikkatli oku — her karakter farklı bir role sahip. Onları birbirine karıştırmamaya çalış.",
-    general:    "Her cümleyi dikkatlice oku. Bazen cevap çok kısa ve net bir cümlede saklıdır.",
-  },
-  inf: {
-    perfect: [
-      "Olağanüstü! Metinde yazılmayanları düşünerek harika çıkarımlar yaptın! 🧩",
-      "Süper! Çıkarım yapmak çok zor bir beceri ama sen çok iyi başardın!",
-    ],
-    good: [
-      "Çıkarım yapmak zor ama sen iyi deniyorsun! İpucu: Metinde yazılmayanı bulmak için yazılanları birleştir.",
-      "Güzel deneme! Çıkarım sorularında 'metinde ne yazıyor?' ve 'bu ne anlama gelir?' diye sor kendine.",
-    ],
-    general: "Çıkarım sorularında metinde doğrudan cevap aramak yerine ipuçlarını birleştirmeye çalış.",
-  },
-};
-
-// Yanlış soruların kategorilerini analiz et
-function analyzeMissedQuestions(missedQuestions, skill) {
-  if (!missedQuestions.length) return null;
-
-  const templates = FEEDBACK_TEMPLATES[skill] || FEEDBACK_TEMPLATES.scan;
-  const categories = missedQuestions.map(q => getQuestionCategory(q));
-
-  // En çok yanlış yapılan kategori
-  const catCount = {};
-  categories.forEach(c => { catCount[c] = (catCount[c]||0) + 1; });
-  const topCat = Object.entries(catCount).sort((a,b)=>b[1]-a[1])[0][0];
-
-  // Kategori bazlı özel mesaj
-  if (topCat === 'where' && templates.where_miss) return templates.where_miss;
-  if (topCat === 'who'   && templates.who_miss)   return templates.who_miss;
-  if (topCat === 'yes-no' && templates.yesno_miss) return templates.yesno_miss;
-  if (topCat === 'main-idea' && templates.mainidea_miss) return templates.mainidea_miss;
-  return templates.general;
-}
-
-function generateFeedback(skill, score, total, missedQuestions) {
-  const templates = FEEDBACK_TEMPLATES[skill] || FEEDBACK_TEMPLATES.scan;
-  const pct = score / total;
-
-  if (pct === 1) {
-    // 3 yıldız — mükemmel
-    const msgs = templates.perfect;
-    return msgs[Math.floor(Math.random() * msgs.length)];
-  }
-
-  if (pct >= 0.67) {
-    // 2 yıldız — iyi ama mükemmel değil
-    const base = templates.good[Math.floor(Math.random() * templates.good.length)];
-    const specific = analyzeMissedQuestions(missedQuestions, skill);
-    return specific ? base + ' ' + specific : base;
-  }
-
-  if (pct >= 0.4) {
-    // 1 yıldız — kategori bazlı yönlendirme
-    const specific = analyzeMissedQuestions(missedQuestions, skill);
-    return specific || templates.general;
-  }
-
-  // 0 yıldız — teşvik edici
-  return templates.general + ' Tekrar denemekten çekinme, her seferinde daha iyi olacaksın! 💪';
-}
-
-
-// ════════════════════════════════════════
-//  KUTLAMA SİSTEMİ
-// ════════════════════════════════════════
+// KUTLAMA SİSTEMİ
 function isTopicComplete(topic) {
   const stats = loadStats();
   const topicData = stats[topic];
@@ -4254,9 +3936,7 @@ function retryFromCeleb() {
   showScreen('screen-etkinlik');
 }
 
-// ════════════════════════════════════════
-//  PROFİL SİSTEMİ — Çoklu profil (max 4)
-// ════════════════════════════════════════
+// PROFİL SİSTEMİ — Çoklu profil (max 4)
 //
 // Veri yapısı (localStorage):
 //   ataberk_profiles        → [{id, name, avatar, createdAt}, ...]
@@ -4571,9 +4251,7 @@ function goToCreateProfile(prefill) {
 }
 
 
-// ════════════════════════════════════════
-//  İSTATİSTİK SİSTEMİ
-// ════════════════════════════════════════
+// İSTATİSTİK SİSTEMİ
 
 const TOPIC_META = {
   'school-life':     { icon:'🏫', name:'School Life' },
@@ -4636,9 +4314,7 @@ function saveActivityStats(topic, skill, score, total, stars) {
   localStorage.setItem('ataberk_stats', JSON.stringify(all));
 }
 
-// ════════════════════════════════════════
-//  ROZET SİSTEMİ
-// ════════════════════════════════════════
+// ROZET SİSTEMİ
 
 // ── Çıkartma albümü rozet modeli ──
 const SKILL_BADGES = [
@@ -4669,7 +4345,7 @@ const EFFORT_BADGES = [
   { id: 'reread',   icon: '🔁', name: 'Tekrar Okudum',    desc: 'Aynı hikâyeyi ikinci kez oku' },
   { id: 'brave',    icon: '🌱', name: 'Cesur Okur',       desc: 'Başka bir sınıfın metnini de dene' },
 ];
-// Kilitli "Başarılar" ve şampiyon rozetleri için bilmeceler (1e)
+// Kilitli "Başarılar" ve şampiyon rozetleri için bilmeceler
 const BADGE_RIDDLES = {
   first_text: 'Her şey benimle başlar. İlk hikâyeni bitir, oradayım.',
   perfect:    'Tek bir hata bile yapmadığın gün ben senin olurum.',
@@ -4875,7 +4551,7 @@ function bumpStreak(stars) {
   } catch(e) { return 0; }
 }
 
-// ── Çaba rozeti yardımcıları (1f) ──
+// ── Çaba rozeti yardımcıları ──
 function _dayKey(d) {
   return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 }
@@ -5029,7 +4705,7 @@ function checkBadges(score, total, stars, skill, topic, opts) {
 
 let _bcList = [], _bcIdx = 0;
 
-// Kazanılan rozetler tek deste olarak gösterilir (1b)
+// Kazanılan rozetler tek deste olarak gösterilir
 function showNextBadgePopup() {
   if (_badgeShowing || _badgeQueue.length === 0) return;
   _bcList = _badgeQueue.filter(id => !!getBadgeById(id));
@@ -5048,7 +4724,7 @@ function _bcResetStage() {
   document.getElementById('bc-btn').style.display = '';
 }
 
-// En yakın kilitli rozet — kutlamanın altında hedef olarak gösterilir (1c)
+// En yakın kilitli rozet — kutlamanın altında hedef olarak gösterilir
 function nextGoalBadge() {
   const earned = loadBadges();
   let best = null;
@@ -5122,7 +4798,7 @@ function advanceBadgeCard() {
   else closeBadgePopup();
 }
 
-// Tema rozeti → çıkartma albümdeki boş yuvasına uçar (1a)
+// Tema rozeti → çıkartma albümdeki boş yuvasına uçar
 function playAlbumPlacement(themeId, done) {
   const topic = themeId.slice(6);
   const g = gradeOfTopic(topic);
@@ -5269,7 +4945,7 @@ function renderBadgePreview() {
     </div>`;
 }
 
-// ── Yaklaştığın rozetler rafı (1d) ──
+// ── Yaklaştığın rozetler rafı ──
 function renderNextUpShelf() {
   const earned = loadBadges();
   const cands = [];
@@ -5298,7 +4974,7 @@ function renderNextUpShelf() {
   return `<div class="nu-card"><div class="nu-title">YAKLAŞTIĞIN ROZETLER</div>${rows}</div>`;
 }
 
-// ── Öğretmenine göster kartı (1g) ──
+// ── Öğretmenine göster kartı ──
 const CERT_MONTHS = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
 function openCert() {
   const p = getActiveProfile();
@@ -5325,7 +5001,6 @@ function closeCert() {
   document.getElementById('cert-overlay').classList.add('hidden');
 }
 
-// ════════════════════════════════════════
 function renderStats() {
   const profil = getActiveProfile();
   const stats  = loadStats();
@@ -5469,15 +5144,7 @@ function showToast(message, type = 'info', duration = 2000) {
   _toastTimer = setTimeout(() => t.classList.remove('show'), duration);
 }
 
-// Yakında toast — geriye dönük uyumluluk için (HTML'de onclick'ler var)
-function showYakindaToast() {
-  showToast('🚀 Yakında geliyor!', 'info');
-}
-
-
-// ════════════════════════════════════════
-//  KEYBOARD HELPER
-// ════════════════════════════════════════
+// KEYBOARD HELPER
 function makeKeyboardClickable(el) {
   if (!el) return;
   el.addEventListener('keydown', function(e) {
@@ -5505,10 +5172,7 @@ initKeyboardNav();
 renderThemeList();
 setTimeout(() => prefetchTopicTotals(currentGrade), 900);
 
-/* === KUTLAMA HAVUZU MOTORU === */
-/* ═══════════════════════════════════════════
-   KUTLAMA HAVUZU MOTORU — 6 dünya, çeşitlilik kuralı
-═══════════════════════════════════════════ */
+// KUTLAMA HAVUZU MOTORU — 6 dünya, çeşitlilik kuralı
 (function(){
   const CW_WORLDS=['sky','reef','robot','garden','rocket','fener'];
   let cwLast=null; // arka arkaya aynı gelmesin
@@ -5754,9 +5418,7 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
 })();
 
 
-/* ════════════════════════════════════════
-   GİRİŞ EKRANI — Eskiz Defteri etkileşimleri
-   ════════════════════════════════════════ */
+// GİRİŞ EKRANI — Eskiz Defteri etkileşimleri
 (function(){
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -5877,13 +5539,11 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
 <div class="toast" id="toast"></div>
 
 <script>
-/* ═══════════════════════════════════════════
-   UNİVERSAL DOODLE MOTORU
+/* UNİVERSAL DOODLE MOTORU
    İntro'daki gibi tüm viewport'a 22 doodle dağıtır. İçerik kartları
    solid arka plana sahip olduğu için arkalarındaki doodle'ları otomatik
    olarak kapatır; aralarında ve kenarlarında kalan boşluklardan doodle'lar
-   sızar — "yaşayan defter" hissi bu sayede oluşur.
-═══════════════════════════════════════════ */
+   sızar — "yaşayan defter" hissi bu sayede oluşur. */
 (function(){
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var ITEMS = ['abc','★','book 📖','hello ~','123 ♪','read','a b c','cat 🐱','☀','dog 🐶','fun!','play','✦','school','run','happy :)','+','✎','apple 🍎','word','sky','friend ♡','♪♫','✪'];
