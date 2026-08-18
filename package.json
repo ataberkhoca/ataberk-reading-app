@@ -1,0 +1,29 @@
+{
+  "name": "ataberk-reading-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync-www": "node scripts/sync-www.js",
+    "cap:sync": "npm run sync-www && npx cap sync android",
+    "cap:open": "npx cap open android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataberkhoca/ataberk-reading-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ataberkhoca/ataberk-reading-app/issues"
+  },
+  "homepage": "https://github.com/ataberkhoca/ataberk-reading-app#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0"
+  }
+}
