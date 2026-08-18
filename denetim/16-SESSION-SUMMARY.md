@@ -115,6 +115,59 @@ standard applied throughout the audit itself.
 - No data file was ever hand-edited — every change went through a Python script with an
   assertion on the old value, so every edit is exactly traceable.
 
+## Phase 3 — Live play-testing as a student (Grades 2, 3, 4)
+
+After the data-fix phase, the app was actually run in a browser (served over HTTP via
+`py -m http.server`, not opened as a `file://` page, since `fetch()` for the JSON data requires
+a real origin) and played through as a student at each grade level — creating profiles, picking
+themes, answering questions, finishing full skill sets — rather than just re-reading the JSON
+source. This is a different check than the audit: it catches bugs that live in the app's
+JavaScript (`reading-skills.html`), which no amount of reading the data files can catch, since
+the data can be perfectly correct while the code that displays it is wrong.
+
+**Confirmed live, working correctly:** the hint-leak fix in `personal-life.json` (inf-1) and the
+`qTr` translation fix in `classroom-life-y4.json` both render correctly in the running app —
+today's data fixes are real, not just JSON-file changes that happen to look right.
+
+**Two app-code bugs were found this way and fixed** (neither is a data-file issue — both are in
+`reading-skills.html`'s JavaScript, and both are label/metadata dictionaries that were missing
+entries for the Grade 3/4 "-y3"/"-y4" suffixed topic keys, unlike their sibling dictionaries
+which normalize the suffix before lookup):
+
+1. **`CW_SKILL_TR` label mismatch** — the post-text celebration message named the Skimming skill
+   "Göz Atma" and Intensive Reading "Derin Okuma" here, while every other label dictionary in the
+   file (and the actual skill menu) uses "Hızlı Okuma" and "Dikkatli Okuma." A student finishing
+   a Skimming text would see the achievement/celebration text call it something the app never
+   calls it anywhere else. Fixed to match: `{scan:'Tarama', skim:'Hızlı Okuma', int:'Dikkatli
+   Okuma', inf:'Çıkarım'}`. Verified live: after finishing a Skimming text, the badge/message now
+   correctly reads "Hızlı Okuma."
+2. **`TOPIC_META` missing Grade 3/4 keys** — this dictionary (feeds the theme-completion
+   celebration screen and the "kaldığın yer" resume bar) only had entries for the 6 base topic
+   keys (`school-life`, `classroom-life`, ...). Grade 3 and Grade 4 use suffixed keys
+   (`school-life-y3`, `school-life-y4`, ...) for `currentTopic`, and the lookup here does **not**
+   strip the suffix the way the sibling `cwTopicLabel()` helper does. Result: any Grade 3 or
+   Grade 4 student who finished all 4 skills for a theme would see the big completion screen
+   title render as the raw internal key — e.g. **"school-life-y4 Bitti!"** instead of "School
+   Life Bitti!" — and the resume bar would show a generic 📖 instead of the theme's real icon.
+   This affected 12 of 18 theme×grade combinations (all of Grade 3 and Grade 4) and was one of
+   the most user-visible bugs found all session, since it's a full-screen title, not fine print.
+   Fixed by adding all 12 suffixed keys to `TOPIC_META` with the same icon/name as their base
+   entry. Verified live: `TOPIC_META['school-life-y4']` through `TOPIC_META['life-in-the-city-y3']`
+   all resolve to the correct `{icon, name}` pair.
+
+A broader sweep of `reading-skills.html` for similar hardcoded-label duplication was done after
+finding these two: the skill-label dictionary at the main menu (~line 3237), the badge/achievement
+definitions (~line 4633), and the stats-chart color dictionary (~line 5400) were all checked and
+are consistent. The theme-name arrays (`GRADE_TOPICS`, ~line 3689-3711) and the
+`CW_TOPIC_NAME`/`cwTopicLabel()` pair (~line 5507) were also checked and are safe — the latter
+already has an explicit suffix-stripping normalizer, which is what `TOPIC_META`'s two call sites
+were missing.
+
+**Other live-testing observations (not bugs, no action needed):** navigation between
+profile-switcher → theme list → skill list → text flowed correctly at all three grade levels; the
+"Kim okuyor?" (who's reading) multi-profile system worked as expected when switching between a
+simulated Grade 2, Grade 3, and Grade 4 student.
+
 ## Where to look for more detail
 
 Full findings, per-file pedagogical scoring, and the original audit methodology live in
