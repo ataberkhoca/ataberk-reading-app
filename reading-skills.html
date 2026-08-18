@@ -44,11 +44,11 @@ body::before{
 .q-num{font-size:11px;font-weight:800;color:#AAA;margin-top:5px;text-align:right;}
 
 /* SCROLL */
-.scroll-area{flex:1;overflow-y:auto;padding:14px 16px 36px;display:flex;flex-direction:column;gap:14px;}
+.scroll-area{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:14px 16px 36px;display:flex;flex-direction:column;gap:14px;}
 .scroll-area::-webkit-scrollbar{display:none;}
 
 /* STORY CARD */
-.story-card{background:#fff;border-radius:24px;border:3px solid #1A1A1A;box-shadow:5px 5px 0 #1A1A1A;overflow:hidden;animation:cardPop .4s cubic-bezier(.34,1.56,.64,1);}
+.story-card{background:#fff;border-radius:24px;border:3px solid #1A1A1A;box-shadow:5px 5px 0 #1A1A1A;overflow:hidden;flex-shrink:0;animation:cardPop .4s cubic-bezier(.34,1.56,.64,1);}
 @keyframes cardPop{from{opacity:0;transform:scale(.92) rotate(-1.5deg)}to{opacity:1;transform:scale(1) rotate(0)}}
 .story-top{height:8px;background:var(--ac);transition:background .3s;}
 .cast-panel{padding:12px 14px 0;display:flex;flex-wrap:wrap;gap:7px;}
@@ -163,7 +163,7 @@ body::before{
 :root{--ac:#FF6B6B;--ac-dark:#8B1C26;--ac-mid:#FFB3B3;--ac-lt:#FFF0F0;}
 
 /* EKRAN SİSTEMİ */
-.screen { display:none; width:100%; max-width:430px; margin:0 auto; min-height:100dvh; flex-direction:column; position:relative; z-index:1; }
+.screen { display:none; width:100%; max-width:430px; margin:0 auto; height:100dvh; max-height:100dvh; flex-direction:column; position:relative; z-index:1; overflow-x:hidden; overflow-y:auto; -webkit-overflow-scrolling:touch; }
 .screen.active { display:flex; }
 
 /* GİRİŞ EKRANI — Eskiz Defteri */
@@ -547,6 +547,7 @@ body.intro-mode .blob{display:none !important;}
 .text-select-list {
   flex: 1;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 8px 16px 24px;
   display: flex;
   flex-direction: column;
@@ -565,6 +566,7 @@ body.intro-mode .blob{display:none !important;}
   position: relative;
   animation: cardPop .4s cubic-bezier(.34,1.56,.64,1) backwards;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .text-card:nth-child(1) { animation-delay: .05s; }
 .text-card:nth-child(2) { animation-delay: .12s; }
@@ -736,6 +738,7 @@ body.intro-mode .blob{display:none !important;}
 .info-scroll {
   flex: 1;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 20px 20px 0;
   display: flex;
   flex-direction: column;
@@ -846,6 +849,7 @@ body.intro-mode .blob{display:none !important;}
   border-radius: 16px;
   box-shadow: 4px 4px 0 #1A1A1A;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .profil-input {
   width: 100%;
@@ -956,6 +960,7 @@ body.intro-mode .blob{display:none !important;}
 .stats-scroll {
   flex: 1;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 16px 20px 0;
   display: flex;
   flex-direction: column;
@@ -1086,8 +1091,8 @@ button, .choice, .sinif-card, .theme-card, .etkinlik-card,
   justify-content: flex-start;
   align-items: center;
   padding: 30px 20px 40px;
-  min-height: 100dvh;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   background: radial-gradient(ellipse 85% 55% at 50% 0%, #4a3a26, #261c12);
 }
 .sb-page {
@@ -1489,7 +1494,7 @@ button.celeb-retry {
 .bd-prog-text { font-family:'Baloo 2',cursive; font-weight:700; font-size:12px; color:#577240; margin-top:5px; }
 .bd-desc { font-family:'Baloo 2',cursive; font-weight:600; font-size:13.5px; color:#5A4F3A; line-height:1.5;
   background:#FBF6E6; border:2px dashed #D6C9A8; border-radius:14px; padding:11px 13px; }
-.badges-scroll { padding: 0 16px 24px; overflow-y: auto; flex: 1; }
+.badges-scroll { padding: 0 16px 24px; overflow-y: auto; -webkit-overflow-scrolling: touch; flex: 1; }
 
 /* Stats ekranına rozet önizleme */
 .stats-badge-preview {

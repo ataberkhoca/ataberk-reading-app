@@ -3,10 +3,9 @@
   "configurations": [
     {
       "name": "reading-app",
-      "runtimeExecutable": "py",
-      "runtimeArgs": ["-m", "http.server", "8080"],
-      "port": 8080,
-      "url": "http://localhost:8080/reading-skills.html"
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\bagat\\Projects\\ataberk-reading-app\\scripts\\dev-server.js"],
+      "port": 8080
     }
   ]
 }
