@@ -774,6 +774,15 @@ body.intro-mode .blob{display:none !important;}
   line-height: 1.6;
 }
 
+.contact-links { display:flex; flex-direction:column; gap:8px; margin-top:10px; }
+.contact-link {
+  display:flex; align-items:center; gap:9px;
+  background:#FFF8E8; border:2.5px solid #1A1A1A; border-radius:14px;
+  padding:11px 14px; font-family:'Nunito',sans-serif; font-weight:800; font-size:13.5px;
+  color:#1A1A1A; text-decoration:none; box-shadow:2px 2px 0 #1A1A1A; transition:all .15s;
+}
+.contact-link:active { transform:translate(2px,2px); box-shadow:0 0 0 #1A1A1A; }
+
 .hakkinda-hero {
   background: #FF6B6B;
   border: 3px solid #1A1A1A;
@@ -2675,6 +2684,15 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <div class="info-card-icon">👨‍🏫</div>
       <div class="info-card-title">Kim Yaptı?</div>
       <div class="info-card-text">Bu uygulama, bir İngilizce öğretmeni olan Ataberk Hoca tarafından sınıf deneyimiyle öğrencileri için tasarlanmış ve geliştirilmiştir.</div>
+    </div>
+    <div class="info-card">
+      <div class="info-card-icon">📩</div>
+      <div class="info-card-title">İletişim</div>
+      <div class="info-card-text">Sorularınız, önerileriniz veya geri bildirimleriniz için bana ulaşabilirsiniz.</div>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:bagataberk@gmail.com">✉️ bagataberk@gmail.com</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/ataberk-bag/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+      </div>
     </div>
   </div>
 </div>
