@@ -4,3 +4,12 @@ node_modules/
 # www/ tamamen üretilmiş bir çıktı — kaynak reading-skills.html + data/'dır.
 # npm run sync-www ile yeniden oluşturulur, git'e alınmaz.
 www/
+
+# Android/Gradle build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/*.iml
