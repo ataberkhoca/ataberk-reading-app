@@ -366,10 +366,6 @@ body.intro-mode .blob{display:none !important;}
 .sinif-card:hover  { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 #1A1A1A; }
 .sinif-card:active { transform: translate(2px,2px);  box-shadow: 2px 2px 0 #1A1A1A; }
 
-.sinif-card.aktif { background: #FF6B6B; }
-.sinif-card.aktif .sinif-num { color: #fff; }
-.sinif-card.aktif .sinif-sub { color: rgba(255,255,255,.75); }
-
 /* SINIF DEĞİŞTİRİCİ — tema ekranında hep görünür.
    Profilde sınıf kayıtlıysa selectProfile() sınıf ekranını atlıyordu ve
    geri tuşu NAV_STACK'e göre Giriş'e dönüyordu; sınıf ekranı erişilemez
@@ -387,9 +383,6 @@ body.intro-mode .blob{display:none !important;}
 .gs-sub{display:block;font-family:'Nunito',sans-serif;font-weight:800;font-size:11px;color:#9A9384;}
 .gs-go{flex-shrink:0;font-family:'Caveat',cursive;font-weight:700;font-size:18px;color:#1A1A1A;
   background:#FFD93D;border:2px solid #1A1A1A;border-radius:99px;padding:3px 12px;}
-/* Sınıf ekranında 'şu an buradasın' işareti */
-.sinif-card.simdi{outline:4px dashed #1A1A1A;outline-offset:4px;}
-
 .sinif-left { display: flex; flex-direction: column; gap: 3px; }
 .sinif-num {
   font-family: 'Baloo 2', cursive;font-weight:600;
@@ -2028,7 +2021,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 /* çizilmiş ok */
 .back-btn::before, .profile-select-back::before {
   content:''; width:16px; height:8px; flex-shrink:0;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='15'%3E%3Cpath d='M28 7.5H4M10 2 4 7.5 10 13' stroke='%231A1A1A' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/16px 8px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='15'%3E%3Cpath d='M28 7.5H4M11 1 4 7.5 11 14' stroke='%231A1A1A' stroke-width='2.6' fill='none' stroke-linecap='square' stroke-linejoin='miter'/%3E%3C/svg%3E") no-repeat center/16px 8px;
   transition:transform .18s ease;
 }
 .back-btn:hover, .profile-select-back:hover,
@@ -2080,15 +2073,19 @@ body:has(#screen-game.active)::after { opacity:.2; }
   box-shadow:4px 4px 0 #1A1A1A; padding:16px 18px; gap:14px;
   transition:background .18s, transform .15s, box-shadow .15s;
 }
-/* Sınıf numarası — elle çizilmiş daire içinde, defter kalemiyle yazılmış */
+/* Öğrencinin şu an okuduğu sınıf — hafif bir ton farkıyla belli olsun,
+   göze batmasın. Kartın kendi rengiyle (--gc-lt) boyanır. */
+.sinif-card.aktif.simdi { background:var(--gc-lt,#FFF0F0); }
+/* Sınıf rozeti — düz daire, avatar emojiyi taşır */
 .sinif-chip {
-  width:62px; height:62px; flex-shrink:0; border:none; border-radius:0;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 5 C58 4 76 22 75 41 C74 60 58 76 39 75 C21 74 5 58 5 39 C5 21 21 6 40 5Z' fill='%23FFFDF7' stroke='%232B3A55' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center/100% 100%;
-  color:var(--gc, #FF6B6B);
-  font-family:'Caveat',cursive; font-weight:700; font-size:38px; line-height:1;
+  width:62px; height:62px; flex-shrink:0; border-radius:50%;
+  border:2.5px solid #1A1A1A; background:#FFFDF7;
   display:flex; align-items:center; justify-content:center;
-  padding-bottom:3px; transition:background-image .18s;
+  transition:background .18s;
 }
+.sinif-chip svg { width:42px; height:42px; display:block; }
+/* rozetin rengi kartın kendi renginden gelir (--gc) */
+.sinif-chip .gc-fill { fill:var(--gc, #FF6B6B); }
 /* uzunluk göstergesi — çizilmiş kitap sırası */
 .sinif-books { display:flex; align-items:flex-end; gap:4px; margin-top:5px; color:var(--gc-lt,#FFF0F0); transition:color .18s; }
 .sinif-books svg { display:block; }
@@ -2109,18 +2106,29 @@ body:has(#screen-game.active)::after { opacity:.2; }
 .sinif-card.aktif:active .sinif-sub { color:rgba(255,255,255,.9) !important; }
 .sinif-card.aktif:hover .sinif-chip,
 .sinif-card.aktif:focus-visible .sinif-chip,
-.sinif-card.aktif:active .sinif-chip { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 5 C58 4 76 22 75 41 C74 60 58 76 39 75 C21 74 5 58 5 39 C5 21 21 6 40 5Z' fill='%23ffffff' stroke='%232B3A55' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.sinif-card.aktif:active .sinif-chip { background:#fff; }
 .sinif-card.aktif:hover .sinif-books,
 .sinif-card.aktif:focus-visible .sinif-books,
 .sinif-card.aktif:active .sinif-books { color:#fff; }
 .sinif-card.aktif:hover .sinif-go,
 .sinif-card.aktif:focus-visible .sinif-go,
-.sinif-card.aktif:active .sinif-go { background:#fff; color:var(--gc,#FF6B6B); border-color:#fff; }
+.sinif-card.aktif:active .sinif-go {
+  background:#fff; border-color:#1A1A1A;
+  transform:rotate(0deg) translate(-1px,-1px); box-shadow:3px 3px 0 #1A1A1A;
+}
+/* Kart içindeki gitme oku — geri tuşuyla aynı sekme dili, ters yöne çevrilmiş */
 .sinif-go {
-  margin-left:auto; flex-shrink:0; width:34px; height:34px; border-radius:50%;
-  border:2.5px solid #1A1A1A; background:var(--gc-lt,#FFF0F0); color:#1A1A1A;
+  position:relative; margin-left:auto; flex-shrink:0; width:36px; height:32px;
+  background:var(--gc,#FF6B6B); border:2.5px solid #1A1A1A; border-radius:6px 14px 14px 6px;
+  box-shadow:2px 2px 0 #1A1A1A;
   display:flex; align-items:center; justify-content:center;
-  font-size:15px; font-weight:900; transition:background .18s, color .18s, border-color .18s;
+  transform:rotate(-4deg);
+  transition:background .18s, border-color .18s, transform .16s ease, box-shadow .16s ease;
+}
+.sinif-go::before {
+  content:''; width:15px; height:8px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='15'%3E%3Cpath d='M28 7.5H4M11 1 4 7.5 11 14' stroke='%231A1A1A' stroke-width='2.6' fill='none' stroke-linecap='square' stroke-linejoin='miter'/%3E%3C/svg%3E") no-repeat center/15px 8px;
+  transform:scaleX(-1);
 }
 /* Progress made visible */
 .theme-card { padding:14px 16px; }
@@ -2760,35 +2768,63 @@ body:has(#screen-game.active)::after { opacity:.2; }
   <div class="sinif-list">
     <div class="sinif-card aktif" id="sinif-card-grade2" style="--gc:#FF6B6B;--gc-lt:#FFF0F0;" onclick="selectGrade('grade2')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-chip">2</div>
+        <div class="sinif-chip">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle class="gc-fill" cx="32" cy="36" r="18" stroke="#1A1A1A" stroke-width="2.6"/>
+            <path d="M24 22 Q26 14 30 20" fill="none" stroke="#1A1A1A" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M46 34 L58 38 L46 42 Z" fill="#FFD93D" stroke="#1A1A1A" stroke-width="2.4" stroke-linejoin="round"/>
+            <circle cx="26" cy="32" r="2.6" fill="#1A1A1A"/>
+            <circle cx="38" cy="32" r="2.6" fill="#1A1A1A"/>
+          </svg>
+        </div>
         <div>
           <div class="sinif-num">2. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade2">6 tema</div>
         </div>
       </div>
-      <div class="sinif-go">→</div>
+      <div class="sinif-go"></div>
     </div>
 
     <div class="sinif-card aktif" id="sinif-card-grade3" style="--gc:#00B4D8;--gc-lt:#E6F9FD;" onclick="selectGrade('grade3')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-chip">3</div>
+        <div class="sinif-chip">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <ellipse class="gc-fill" cx="23" cy="18" rx="6" ry="14" stroke="#1A1A1A" stroke-width="2.4" transform="rotate(-14 23 18)"/>
+            <ellipse class="gc-fill" cx="41" cy="18" rx="6" ry="14" stroke="#1A1A1A" stroke-width="2.4" transform="rotate(14 41 18)"/>
+            <circle class="gc-fill" cx="32" cy="38" r="18" stroke="#1A1A1A" stroke-width="2.6"/>
+            <circle cx="26" cy="36" r="2.6" fill="#1A1A1A"/>
+            <circle cx="38" cy="36" r="2.6" fill="#1A1A1A"/>
+            <ellipse cx="32" cy="43" rx="2.6" ry="2" fill="#1A1A1A"/>
+          </svg>
+        </div>
         <div>
           <div class="sinif-num">3. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade3">6 tema</div>
         </div>
       </div>
-      <div class="sinif-go">→</div>
+      <div class="sinif-go"></div>
     </div>
 
     <div class="sinif-card aktif" id="sinif-card-grade4" style="--gc:#6BCB77;--gc-lt:#EAF7EE;" onclick="selectGrade('grade4')" role="button" tabindex="0">
       <div class="sinif-left">
-        <div class="sinif-chip">4</div>
+        <div class="sinif-chip">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path class="gc-fill" d="M20 20 L26 28 L14 28 Z" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+            <path class="gc-fill" d="M44 20 L50 28 L38 28 Z" stroke="#1A1A1A" stroke-width="2.2" stroke-linejoin="round"/>
+            <circle class="gc-fill" cx="32" cy="36" r="19" stroke="#1A1A1A" stroke-width="2.6"/>
+            <circle cx="24" cy="34" r="7.5" fill="#fff" stroke="#1A1A1A" stroke-width="2.2"/>
+            <circle cx="40" cy="34" r="7.5" fill="#fff" stroke="#1A1A1A" stroke-width="2.2"/>
+            <circle cx="24" cy="34" r="3" fill="#1A1A1A"/>
+            <circle cx="40" cy="34" r="3" fill="#1A1A1A"/>
+            <path d="M29 42 L32 46 L35 42 Z" fill="#FFD93D" stroke="#1A1A1A" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+        </div>
         <div>
           <div class="sinif-num">4. Sınıf</div>
           <div class="sinif-sub" id="sinif-sub-grade4">6 tema</div>
         </div>
       </div>
-      <div class="sinif-go">→</div>
+      <div class="sinif-go"></div>
     </div>
   </div>
 </div>
