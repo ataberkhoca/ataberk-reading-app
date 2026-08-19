@@ -164,6 +164,20 @@ body::before{
 
 /* EKRAN SİSTEMİ */
 .screen { display:none; width:100%; max-width:430px; margin:0 auto; height:100dvh; max-height:100dvh; flex-direction:column; position:relative; z-index:1; overflow-x:hidden; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+/* Alt sekme çubuğu görünürken ekranlar onun altında kalmasın diye yüksekliği küçülür */
+body.has-navbar .screen { height:calc(100dvh - 60px); max-height:calc(100dvh - 60px); }
+
+/* ── Alt sekme çubuğu ── */
+.bottom-nav { display:none; position:fixed; left:50%; transform:translateX(-50%); bottom:0;
+  width:100%; max-width:430px; grid-template-columns:repeat(4,1fr); background:#fff;
+  border-top:3px solid #1A1A1A; z-index:150; padding-bottom:env(safe-area-inset-bottom,0); }
+body.has-navbar .bottom-nav { display:grid; }
+.bn-tab { display:flex; flex-direction:column; align-items:center; gap:3px; padding:9px 0 8px;
+  background:none; border:none; cursor:pointer; font-family:'Baloo 2',cursive; font-weight:600;
+  font-size:10.5px; color:#9AAE7E; -webkit-tap-highlight-color:transparent; }
+.bn-ic { font-size:21px; line-height:1; filter:grayscale(1); opacity:.55; transition:filter .15s,opacity .15s; }
+.bn-tab.active { color:#FF6B6B; }
+.bn-tab.active .bn-ic { filter:none; opacity:1; }
 .screen.active { display:flex; }
 
 /* GİRİŞ EKRANI — Eskiz Defteri */
@@ -915,6 +929,23 @@ body.intro-mode .blob{display:none !important;}
 .rz-txt { font-family:'Caveat',cursive; font-weight:700; font-size:19px; color:#2B3A55;
   white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex:1; }
 .rz-go { font-family:'Baloo 2',cursive; font-weight:700; font-size:15px; color:#E64B4B; flex-shrink:0; }
+
+/* ── Ana Sayfa (alt sekme çubuğunun ilk sekmesi) ── */
+.home-body { padding:6px 16px 20px; display:flex; flex-direction:column; gap:16px; }
+.home-resume-lbl { font-family:'Nunito',sans-serif; font-weight:900; font-size:10.5px;
+  letter-spacing:.1em; color:#9AAE7E; margin:0 16px 8px; }
+.home-empty-card { background:#fff; border:3px solid #1A1A1A; border-radius:20px; padding:26px 20px;
+  text-align:center; box-shadow:4px 4px 0 #1A1A1A; }
+.home-empty-em { font-size:38px; margin-bottom:8px; }
+.home-empty-title { font-family:'Baloo 2',cursive; font-weight:700; font-size:17px; color:#1A1A1A; margin-bottom:14px; }
+.home-empty-btn { font-family:'Baloo 2',cursive; font-weight:700; font-size:14px; color:#1A1A1A;
+  background:#FFD93D; border:2.5px solid #1A1A1A; border-radius:99px; padding:10px 22px;
+  cursor:pointer; box-shadow:3px 3px 0 #1A1A1A; transition:transform .1s,box-shadow .1s; }
+.home-empty-btn:active { transform:translate(2px,2px); box-shadow:0 0 0 #1A1A1A; }
+.home-links { display:flex; flex-direction:column; gap:9px; margin-top:auto; }
+.home-links button { font-family:'Baloo 2',cursive; font-weight:600; font-size:13px; color:#6B6255;
+  background:#fff; border:2.5px solid #1A1A1A; border-radius:14px; padding:11px 14px;
+  text-align:left; cursor:pointer; box-shadow:2px 2px 0 #1A1A1A; }
 
 
 .profil-save-btn {
@@ -2790,6 +2821,28 @@ body:has(#screen-game.active)::after { opacity:.2; }
   </div>
 </div>
 
+<!-- ANA SAYFA — alt sekme çubuğunun "Ana Sayfa" hedefi -->
+<div class="screen" id="screen-home">
+  <div class="screen-header">
+    <div>
+      <div class="screen-header-title" id="home-greet">Merhaba! 👋</div>
+      <div class="screen-header-sub">Bugün ne okumak istersin?</div>
+    </div>
+    <div class="header-profil" id="hp-home" onclick="handleBadgeClick()" role="button" tabindex="0">
+      <div class="header-profil-av" id="hp-av-home">🐱</div>
+      <div class="header-profil-name" id="hp-name-home">Profil</div>
+    </div>
+  </div>
+
+  <div class="home-body">
+    <div id="home-resume-slot"></div>
+    <div class="home-links">
+      <button onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</button>
+      <button onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</button>
+    </div>
+  </div>
+</div>
+
 <!-- SINIF SEÇİMİ EKRANI -->
 <div class="screen" id="screen-sinif">
   <div class="screen-header">
@@ -2900,6 +2953,7 @@ let _navGoingBack = false;
 // Geri tuşunda yazan kelime = gidilecek ekranın adı
 const SCREEN_LABELS = {
   'screen-intro':          'Giriş',
+  'screen-home':           'Ana Sayfa',
   'screen-profile-select': 'Profiller',
   'screen-profil':         'Profil',
   'screen-sinif':          'Sınıflar',
@@ -3069,7 +3123,32 @@ function onActivityComplete(score, total, skill, topic) {
   checkBadges(score, total, stars, skill, topic, { hintUsed: hintUsedThisActivity, prevStars });
 }
 
+// Alt sekme çubuğu — hangi ekranda hangi sekmenin aktif görüneceği.
+// Haritada olmayan ekranlarda (Giriş, Oyun, Profil vb.) çubuk tamamen gizlenir.
+const BOTTOM_NAV_SCREENS = {
+  'screen-home':        'home',
+  'screen-sinif':        'browse',
+  'screen-theme':        'browse',
+  'screen-etkinlik':     'browse',
+  'screen-text-select':  'browse',
+  'screen-badges':       'badges',
+  'screen-stats':        'stats',
+};
+function updateBottomNav(screenId) {
+  const bar = document.getElementById('bottom-nav');
+  if (!bar) return;
+  const tab = BOTTOM_NAV_SCREENS[screenId] || null;
+  document.body.classList.toggle('has-navbar', !!tab);
+  bar.querySelectorAll('.bn-tab').forEach(function(b) {
+    b.classList.toggle('active', b.dataset.tab === tab);
+  });
+}
+
 function onScreenChange(screenId) {
+  updateBottomNav(screenId);
+  if (screenId === 'screen-home') {
+    renderHomeScreen();
+  }
   if (screenId === 'screen-profile-select') {
     renderProfileSelect();
   }
@@ -3737,9 +3816,10 @@ function renderIntroGate() {
     '<div class="sb-who-row">' + chips + add + '</div>';
 }
 
-/* Kaldığın yerden — profil seçildikten sonra, tema listesinin üstünde. */
-function renderResumeBar() {
-  const slot = document.getElementById('rz-slot');
+/* Kaldığın yerden — profil seçildikten sonra, tema listesinin üstünde
+   ve Ana Sayfa'da (slotId verilirse orada) tek satır olarak görünür. */
+function renderResumeBar(slotId) {
+  const slot = document.getElementById(slotId || 'rz-slot');
   if (!slot) return;
   const r = loadResume();
   if (!r) { slot.innerHTML = ''; return; }
@@ -3750,6 +3830,48 @@ function renderResumeBar() {
       '<span class="rz-txt">Kaldığın yer: ' + escapeHtml(r.title || meta.name || '') + '</span>' +
       '<span class="rz-go">Devam →</span>' +
     '</button>';
+}
+
+/* Ana Sayfa — kaldığın yer varsa öne çıkarır, yoksa yeni bir hikâyeye davet eder. */
+function renderHomeScreen() {
+  const p = getActiveProfile();
+  const greet = document.getElementById('home-greet');
+  if (greet) greet.textContent = (p ? 'Merhaba, ' + escapeHtml(p.name) + '!' : 'Merhaba!') + ' 👋';
+  const slot = document.getElementById('home-resume-slot');
+  if (!slot) return;
+  const r = loadResume();
+  if (r) {
+    const meta = (TOPIC_META && TOPIC_META[r.topic]) || {};
+    slot.innerHTML =
+      '<div class="home-resume-lbl">KALDIĞIN YER</div>' +
+      '<button class="rz-bar" onclick="resumeLast()">' +
+        '<span class="rz-ico">' + (meta.icon || '📖') + '</span>' +
+        '<span class="rz-txt">' + escapeHtml(r.title || meta.name || '') + '</span>' +
+        '<span class="rz-go">Devam →</span>' +
+      '</button>';
+  } else {
+    slot.innerHTML =
+      '<div class="home-empty-card">' +
+        '<div class="home-empty-em">📚</div>' +
+        '<div class="home-empty-title">Bugün ne okumak istersin?</div>' +
+        '<button class="home-empty-btn" onclick="goToBrowse()">Hikâye Seç →</button>' +
+      '</div>';
+  }
+}
+
+/* Metinler sekmesi — profilde kayıtlı sınıfın konu listesine direkt götürür. */
+function goToBrowse() {
+  const p = getActiveProfile();
+  if (p && p.grade && GRADE_TOPICS[p.grade]) selectGrade(p.grade);
+  else showScreen('screen-sinif');
+}
+
+/* Alt sekme çubuğundaki dört hedefin tek giriş noktası. */
+function showTab(tab) {
+  if (tab === 'home')   { showScreen('screen-home'); return; }
+  if (tab === 'browse') { goToBrowse(); return; }
+  if (tab === 'badges') { showBadgeScreen(); return; }
+  if (tab === 'stats')  { goToActiveProfileStats(); return; }
 }
 function resumeLast() {
   const r = loadResume();
@@ -4185,7 +4307,7 @@ function updateIntroProfilBadge(profil) {
     }
   }
   // Header rozetleri
-  const ids = ['sinif','theme','etkinlik','nasil','hakkinda','stats','textselect'];
+  const ids = ['home','sinif','theme','etkinlik','nasil','hakkinda','stats','textselect'];
   ids.forEach(sid => {
     const avEl   = document.getElementById('hp-av-'   + sid);
     const nameEl = document.getElementById('hp-name-' + sid);
@@ -4267,9 +4389,9 @@ function selectProfile(profileId) {
   const profile = getActiveProfile();
   if (!profile) return; // savunmacı kontrol — profil bir şekilde silinmişse
   updateIntroProfilBadge(profile);
-  // Sınıf profilde kayıtlıysa sınıf ekranını atla — bir kez soruldu.
-  if (profile.grade && GRADE_TOPICS[profile.grade]) selectGrade(profile.grade);
-  else showScreen('screen-sinif');
+  // Profil seçildikten sonra Ana Sayfa'ya iner — kaldığı yer varsa tek
+  // dokunuşla devam eder, yoksa "Hikâye Seç" ile Metinler'e geçer.
+  showTab('home');
 }
 
 function startNewProfile() {
@@ -5810,6 +5932,22 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
 
 
 </script>
+
+<!-- Alt sekme çubuğu — Ana Sayfa/Metinler/Rozetler/Profilim arasında tek dokunuşla geçiş -->
+<nav class="bottom-nav" id="bottom-nav">
+  <button class="bn-tab" data-tab="home" onclick="showTab('home')">
+    <span class="bn-ic">🏠</span><span class="bn-lbl">Ana Sayfa</span>
+  </button>
+  <button class="bn-tab" data-tab="browse" onclick="showTab('browse')">
+    <span class="bn-ic">📖</span><span class="bn-lbl">Metinler</span>
+  </button>
+  <button class="bn-tab" data-tab="badges" onclick="showTab('badges')">
+    <span class="bn-ic">🏅</span><span class="bn-lbl">Rozetlerim</span>
+  </button>
+  <button class="bn-tab" data-tab="stats" onclick="showTab('stats')">
+    <span class="bn-ic">⭐</span><span class="bn-lbl">Profilim</span>
+  </button>
+</nav>
 
 </body>
 </html>
