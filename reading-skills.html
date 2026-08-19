@@ -5423,7 +5423,10 @@ function renderStats() {
 
   const playHTML = `<button class="stats-play-btn" onclick="showScreen('screen-sinif')">▶ Okumaya Başla</button>`;
 
-  // Beceri hâkimiyeti — hâlihazırda kayıtlı bestScore/total üzerinden
+  // Beceri hâkimiyeti — HER denenen metnin en iyi skoru üzerinden (topic
+  // başına tek "en iyi deneme" değil). Eskiden bir konuda denenen 3 metinden
+  // sadece en iyisi sayılıyordu; bir metinde 5/5 alan öğrenci, o konuda
+  // denediği daha zayıf metinler görmezden gelinerek anında %100 görüyordu.
   const SK_META = {
     scan:{ico:'🔍', name:'Tarama',         col:'#FF6B6B'},
     skim:{ico:'⚡', name:'Hızlı Okuma',    col:'#F2C14E'},
@@ -5431,11 +5434,14 @@ function renderStats() {
     inf: {ico:'🧩', name:'Çıkarım',        col:'#00B4D8'}
   };
   const skAgg = {scan:[0,0], skim:[0,0], int:[0,0], inf:[0,0]};
-  Object.values(stats).forEach(topicData => {
-    Object.entries(topicData).forEach(([sk, v]) => {
+  Object.values(_allTextStats()).forEach(topicData => {
+    Object.entries(topicData).forEach(([sk, textMap]) => {
       if (!skAgg[sk]) return;
-      skAgg[sk][0] += v.bestScore || 0;
-      skAgg[sk][1] += v.total || 0;
+      Object.values(textMap).forEach(t => {
+        if (!((t.attempts || 0) > 0)) return;
+        skAgg[sk][0] += t.bestScore || 0;
+        skAgg[sk][1] += t.bestTotal || 0;
+      });
     });
   });
   const masteryHTML = `
