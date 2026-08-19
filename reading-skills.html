@@ -4968,6 +4968,54 @@ function questStreak() {
   } catch(e) { return 0; }
 }
 
+// ── Günlük hatırlatma bildirimi ──
+// Sadece gerçek Android uygulamasında çalışır (web önizlemede Capacitor
+// global'i yok, sessizce hiçbir şey yapmaz). Her gün 17:30'da AMA yalnızca
+// o günün görevi henüz tamamlanmadıysa gönderilir — okulda/uykuda rahatsız
+// etmeyecek, gereksiz yere de bildirim atmayacak bir saat.
+const REMINDER_HOUR = 17, REMINDER_MIN = 30, REMINDER_NOTIF_ID = 9001;
+function getLocalNotifPlugin() {
+  try {
+    if (typeof Capacitor === 'undefined' || !Capacitor.Plugins) return null;
+    return Capacitor.Plugins.LocalNotifications || null;
+  } catch(e) { return null; }
+}
+// İlk etkinlik tamamlandığında bir kez izin ister — bağlam varken sorulunca
+// kabul olasılığı daha yüksek, uygulama açılışında hemen sorup ürkütmez.
+function maybeRequestNotifPermission() {
+  const LN = getLocalNotifPlugin();
+  if (!LN) return;
+  if (localStorage.getItem('ataberk_notif_asked')) return;
+  localStorage.setItem('ataberk_notif_asked', '1');
+  LN.requestPermissions().then(function() { scheduleOrCancelDailyReminder(); }).catch(function(){});
+}
+function scheduleOrCancelDailyReminder() {
+  const LN = getLocalNotifPlugin();
+  if (!LN) return;
+  LN.checkPermissions().then(function(perm) {
+    if (perm.display !== 'granted') return;
+    if (isTodayQuestComplete()) {
+      LN.cancel({ notifications: [{ id: REMINDER_NOTIF_ID }] }).catch(function(){});
+      return;
+    }
+    const now = new Date();
+    const fireAt = new Date(now.getFullYear(), now.getMonth(), now.getDate(), REMINDER_HOUR, REMINDER_MIN, 0);
+    if (fireAt <= now) fireAt.setDate(fireAt.getDate() + 1);
+    LN.schedule({
+      notifications: [{
+        id: REMINDER_NOTIF_ID,
+        title: 'Ataberk Hoca',
+        body: 'Bugünün okuma görevini henüz tamamlamadın. Birkaç dakikan var mı? 📖',
+        schedule: { at: fireAt, allowWhileIdle: true },
+      }]
+    }).catch(function(){});
+  }).catch(function(){});
+}
+// Uygulama gün değiştikten sonra ön plana gelirse hatırlatıcıyı yeniden kur.
+document.addEventListener('visibilitychange', function() {
+  if (document.visibilityState === 'visible') scheduleOrCancelDailyReminder();
+});
+
 function loadBadges() {
   const profile = getActiveProfile();
   if (!profile) return [];
@@ -5062,6 +5110,7 @@ function checkBadges(score, total, stars, skill, topic, opts) {
   if (totalDone >= 10)  grant('texts10');
   if (totalDone >= 50)  grant('texts50');
   if (totalDone >= 100) grant('texts100');
+  if (totalDone === 1) maybeRequestNotifPermission(); // ilk etkinlik — bağlam varken izin iste
 
   // Beceri kilometre taşları — 5 metin ve 5 metinde 3 yıldız
   if (skill) {
@@ -5093,6 +5142,7 @@ function checkBadges(score, total, stars, skill, topic, opts) {
   if (qStreak >= 3)  grant('quest3');
   if (qStreak >= 7)  grant('quest7');
   if (qStreak >= 30) grant('quest30');
+  scheduleOrCancelDailyReminder(); // görev tamamlandıysa bugünkü hatırlatmayı iptal eder
 
   if (newBadges.length > 0) {
     _badgeQueue.push(...newBadges);
