@@ -1643,8 +1643,10 @@ button.celeb-retry {
 @media (prefers-reduced-motion:reduce){.bcal-fly{animation:none}}
 
 /* ── Boş yuva: kilitli rozet ödülü göstermez ── */
-.ba-socket{position:absolute;top:4px;left:4px;right:4px;bottom:18px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:'Baloo 2',cursive;font-weight:800;font-size:22px;color:#CBBFA0;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(214,201,168,.16) 6px 12px);}
-.ba-slot.locked .ba-lbl.goal{color:#8A7B5A;font-weight:700;}
+.ba-socket{position:absolute;top:4px;left:4px;right:4px;bottom:18px;border-radius:12px;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;font-size:24px;line-height:1;
+  background:radial-gradient(circle at 30% 25%,#fff,#F4F0E2);border:2px solid #fff;
+  filter:grayscale(1) opacity(.5);}
 
 /* ── En yakın rozet, albümün üstünde ── */
 .ba-near{background:#fff;border:2.5px solid #1A1A1A;border-radius:16px;box-shadow:3px 3px 0 #1A1A1A;padding:12px 13px;margin-bottom:12px;cursor:pointer;}
@@ -4431,26 +4433,6 @@ const EFFORT_BADGES = [
   { id: 'reread',   icon: '🔁', name: 'Tekrar Okudum',    desc: 'Aynı hikâyeyi ikinci kez oku' },
   { id: 'brave',    icon: '🌱', name: 'Cesur Okur',       desc: 'Başka bir sınıfın metnini de dene' },
 ];
-// Kilitli "Başarılar" ve şampiyon rozetleri için bilmeceler
-const BADGE_RIDDLES = {
-  first_text: 'Her şey benimle başlar. İlk hikâyeni bitir, oradayım.',
-  perfect:    'Tek bir hata bile yapmadığın gün ben senin olurum.',
-  star3:      'Üç tanem var ve hepsini birden isterim.',
-  streak3:    'Üç hikâye, üç kez kusursuz. Arada duraksarsan baştan başlarız.',
-  no_hint:    'Kimseye sormadan başardığında gelirim.',
-  persist:    'İlk seferde beni bulamazsın. İkinci seferde bir daha bak.',
-  all_skills: 'Dört kardeşiz. Aynı temada dördümüzü de topla.',
-  explorer:   'Üç farklı sınıfın kapısını çal; hepsinde seni beklerim.',
-  spiral:     'Aynı temayı iki ayrı sınıfta okursan izimi görürsün.',
-  texts10:    'Sayfaları devirdikçe yaklaşırım. Onuncuda buluşuruz.',
-  texts50:    'Ellinci hikâyede seni kutlamak için bekliyorum.',
-  texts100:   'Yüz hikâye. Az okur beni görür.',
-  graduate:   'Bütün temalar bittiğinde kapıda ben olurum.',
-  collector:  'En son ben gelirim. Diğerlerinin hepsi albümde olmalı.',
-  champion_grade2: 'Bir sınıfın altı temasını da bitirene altın veririm.',
-  champion_grade3: 'Bir sınıfın altı temasını da bitirene altın veririm.',
-  champion_grade4: 'Bir sınıfın altı temasını da bitirene altın veririm.',
-};
 const BADGE_PAGES = [
   { id: 'g2',    title: '2. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade2' },
   { id: 'g3',    title: '3. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade3' },
@@ -4582,9 +4564,7 @@ function openBadgeDetail(id) {
   const st = document.getElementById('bd-status');
   st.textContent = isE ? '✓ Kazanıldı' : '🔒 Henüz kazanılmadı';
   st.className = 'bd-status' + (isE ? '' : ' locked');
-  const riddle = BADGE_RIDDLES[id];
-  document.getElementById('bd-name').textContent = (!isE && riddle) ? '???' : b.name;
-  document.getElementById('bd-desc').textContent = (!isE && riddle) ? '🔮 ' + riddle : '🎯 ' + b.desc;
+  document.getElementById('bd-desc').textContent = '🎯 ' + b.desc;
   const pw = document.getElementById('bd-prog');
   const pr = isE ? null : badgeProgress(b);
   if (pr && pr.max > 0) {
@@ -4917,10 +4897,9 @@ function renderBadgeCard() {
   if (nx) {
     const pct = Math.round(nx.pr.cur / nx.pr.max * 100);
     const left = nx.pr.max - nx.pr.cur;
-    const mystery = !!BADGE_RIDDLES[nx.def.id];
     nb.innerHTML = '<div class="bc-next-ico">' + nx.def.icon + '</div>' +
       '<div style="flex:1;min-width:0">' +
-        '<div class="bc-next-name">' + (mystery ? '???' : nx.def.name) + '</div>' +
+        '<div class="bc-next-name">' + nx.def.name + '</div>' +
         '<div class="bc-next-track"><div class="bc-next-fill" style="width:' + pct + '%"></div></div>' +
         '<div class="bc-next-txt">' + nx.pr.cur + ' / ' + nx.pr.max + ' — ' + left + ' adım kaldı!</div>' +
       '</div>';
@@ -4991,11 +4970,9 @@ function closeBadgePopup() {
   }
 }
 
-// Sayfadaki kilitli rozetlerden "en yakın"ı seçer. Her sayfada tutarlı bir
-// deneyim için üç kademeli çalışır:
+// Sayfadaki kilitli rozetlerden "en yakın"ı seçer:
 //  1) Ölçülebilir ilerlemesi olan, en çok yol alınmış rozet → ilerleme çubuğu.
-//  2) Ölçülemeyen ama gizemli olmayan (adı görünen) kilitli bir rozet → adı + davet.
-//  3) Sayfada kalan her şey gizemliyse → kimliğini açık etmeden bir "sırada" ipucu.
+//  2) Ölçülebilir ilerlemesi olan hiçbiri yoksa → sıradaki kilitli rozet, adı + davet.
 // Sayfadaki her rozet kazanılmışsa hiçbir şey gösterilmez.
 function renderNearBadge(badges, earned) {
   const locked = badges.filter(b => !earned.includes(b.id));
@@ -5003,7 +4980,6 @@ function renderNearBadge(badges, earned) {
 
   let best = null;
   locked.forEach(function(b) {
-    if (BADGE_RIDDLES[b.id]) return;
     const pr = badgeProgress(b);
     if (!pr || !pr.max || pr.cur <= 0) return;
     const ratio = pr.cur / pr.max;
@@ -5015,7 +4991,7 @@ function renderNearBadge(badges, earned) {
     return `<div class="ba-near" onclick="openBadgeDetail('${best.b.id}')">
       <div class="ba-near-lbl">EN YAKIN</div>
       <div class="ba-near-row">
-        <div class="ba-near-sock">?</div>
+        <div class="ba-near-sock">${best.b.icon}</div>
         <div style="flex:1">
           <div class="ba-near-name">${escapeHtml(best.b.desc || best.b.name)}</div>
           <div class="ba-near-track"><div class="ba-near-fill" style="width:${pct}%"></div></div>
@@ -5025,27 +5001,14 @@ function renderNearBadge(badges, earned) {
     </div>`;
   }
 
-  const plain = locked.find(b => !BADGE_RIDDLES[b.id]);
-  if (plain) {
-    return `<div class="ba-near" onclick="openBadgeDetail('${plain.id}')">
-      <div class="ba-near-lbl">EN YAKIN</div>
-      <div class="ba-near-row">
-        <div class="ba-near-sock">?</div>
-        <div style="flex:1">
-          <div class="ba-near-name">${escapeHtml(plain.desc || plain.name)}</div>
-          <div class="ba-near-left">Hemen dene, kazan!</div>
-        </div>
-      </div>
-    </div>`;
-  }
-
-  return `<div class="ba-near" style="cursor:default">
+  const next = locked[0];
+  return `<div class="ba-near" onclick="openBadgeDetail('${next.id}')">
     <div class="ba-near-lbl">EN YAKIN</div>
     <div class="ba-near-row">
-      <div class="ba-near-sock">🔮</div>
+      <div class="ba-near-sock">${next.icon}</div>
       <div style="flex:1">
-        <div class="ba-near-name">Sırada gizemli bir rozet var</div>
-        <div class="ba-near-left">Okumaya devam et, ne olduğunu keşfet!</div>
+        <div class="ba-near-name">${escapeHtml(next.desc || next.name)}</div>
+        <div class="ba-near-left">Hemen dene, kazan!</div>
       </div>
     </div>
   </div>`;
@@ -5073,14 +5036,10 @@ function renderBadgeScreen() {
         <span class="ba-lbl">${b.name}</span>
       </div>`;
     }
-    // Boş yuva: ödülü gösterme, ne yapılacağını göster.
-    const mystery = !!BADGE_RIDDLES[b.id];
-    const pr = badgeProgress(b);
-    const goal = (pr && pr.max) ? `${Math.max(0, pr.max - pr.cur)} kaldı` : null;
-    const lbl = mystery ? '???' : (goal || b.name);
+    // Boş yuva: rozetin gerçek görseli soluk gösterilir, adı tıklanınca açılır.
     return `<div class="ba-slot locked" onclick="openBadgeDetail('${b.id}')">
-      <div class="ba-socket">?</div>
-      <span class="ba-lbl${mystery ? ' sil' : ''}${goal && !mystery ? ' goal' : ''}">${lbl}</span>
+      <div class="ba-socket">${b.icon}</div>
+      <span class="ba-lbl">???</span>
     </div>`;
   }).join('');
 
@@ -5147,11 +5106,10 @@ function renderNextUpShelf() {
   const rows = cands.slice(0, 3).map(c => {
     const pct = Math.round(c.ratio * 100);
     const left = c.pr.max - c.pr.cur;
-    const mystery = !!BADGE_RIDDLES[c.b.id];
     return `<div class="nu-row" onclick="openBadgeDetail('${c.b.id}')">
       <div class="nu-ico">${c.b.icon}</div>
       <div class="nu-info">
-        <div class="nu-name">${mystery ? '???' : c.b.name}</div>
+        <div class="nu-name">${c.b.name}</div>
         <div class="nu-track"><div class="nu-fill" style="width:${pct}%"></div></div>
         <div class="nu-left">${left} adım kaldı</div>
       </div>
