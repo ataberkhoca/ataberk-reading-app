@@ -5036,10 +5036,11 @@ function renderBadgeScreen() {
         <span class="ba-lbl">${b.name}</span>
       </div>`;
     }
-    // Boş yuva: rozetin gerçek görseli soluk gösterilir, adı tıklanınca açılır.
+    // Boş yuva: rozetin gerçek görseli soluk gösterilir, adı görünür — nasıl
+    // kazanılacağı sadece tıklanınca açılan detayda söylenir.
     return `<div class="ba-slot locked" onclick="openBadgeDetail('${b.id}')">
       <div class="ba-socket">${b.icon}</div>
-      <span class="ba-lbl">???</span>
+      <span class="ba-lbl">${b.name}</span>
     </div>`;
   }).join('');
 
