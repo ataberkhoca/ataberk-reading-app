@@ -935,6 +935,17 @@ body.intro-mode .blob{display:none !important;}
    stilini almaz — Rozetler/Profilim'de zaten kullanılan kalın çerçeveli
    kart dilini (info-card, next-btn, stat-box) yeniden kullanır. */
 .home-body { padding:6px 16px 20px; display:flex; flex-direction:column; gap:14px; }
+.quest-card { background:#fff; border:3px solid #1A1A1A; border-radius:20px; padding:14px 16px;
+  box-shadow:4px 4px 0 #1A1A1A; }
+.quest-card.done { background:#EAF7EE; }
+.quest-top { display:flex; align-items:center; gap:11px; margin-bottom:10px; }
+.quest-ico { font-size:26px; flex-shrink:0; }
+.quest-lbl { font-family:'Nunito',sans-serif; font-weight:900; font-size:10px; letter-spacing:.09em; color:#9AAE7E; }
+.quest-text { font-family:'Baloo 2',cursive; font-weight:700; font-size:14.5px; color:#1A1A1A; margin-top:1px; }
+.quest-track { height:10px; background:#F0EBDD; border-radius:99px; overflow:hidden; }
+.quest-fill { display:block; height:100%; background:#FFD93D; border-radius:99px; transition:width .3s ease; }
+.quest-card.done .quest-fill { background:#6BCB77; }
+.quest-count { text-align:right; font-size:11px; font-weight:800; color:#AAA; margin-top:4px; }
 .home-quick-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
 .home-quick-stats .stat-box { padding:11px 6px 9px; }
 .home-quick-stats .stat-num { font-size:21px; }
@@ -2832,6 +2843,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
   <div class="home-body">
     <div id="home-resume-slot"></div>
+    <div id="home-quest-slot"></div>
     <div class="home-quick-stats" id="home-quick-stats"></div>
     <div class="home-links">
       <button onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</button>
@@ -3858,6 +3870,26 @@ function renderHomeScreen() {
     }
   }
 
+  const questSlot = document.getElementById('home-quest-slot');
+  if (questSlot) {
+    const quest = pickTodayQuest();
+    const cur = questProgress(quest, todayActivitySignals());
+    const done = cur >= quest.goal;
+    const pct = Math.round(Math.min(1, cur / quest.goal) * 100);
+    questSlot.innerHTML =
+      '<div class="quest-card' + (done ? ' done' : '') + '">' +
+        '<div class="quest-top">' +
+          '<span class="quest-ico">' + (done ? '✅' : quest.icon) + '</span>' +
+          '<div>' +
+            '<div class="quest-lbl">GÜNÜN GÖREVİ</div>' +
+            '<div class="quest-text">' + (done ? 'Bugün tamamlandı!' : quest.label) + '</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="quest-track"><div class="quest-fill" style="width:' + pct + '%"></div></div>' +
+        '<div class="quest-count">' + cur + ' / ' + quest.goal + '</div>' +
+      '</div>';
+  }
+
   const statsGrid = document.getElementById('home-quick-stats');
   if (statsGrid) {
     let stars = 0;
@@ -4568,12 +4600,19 @@ const EFFORT_BADGES = [
   { id: 'reread',   icon: '🔁', name: 'Tekrar Okudum',    desc: 'Aynı hikâyeyi ikinci kez oku' },
   { id: 'brave',    icon: '🌱', name: 'Cesur Okur',       desc: 'Başka bir sınıfın metnini de dene' },
 ];
+// Günlük Görev serisi — her gün değişen küçük hedefi üst üste tamamlamak için
+const DAILY_QUEST_BADGES = [
+  { id: 'quest3',  icon: '🔥', name: '3 Gün Görev Serisi',  desc: 'Üst üste 3 gün günlük görevi tamamla' },
+  { id: 'quest7',  icon: '🌟', name: '7 Gün Görev Serisi',  desc: 'Üst üste 7 gün günlük görevi tamamla' },
+  { id: 'quest30', icon: '👑', name: '30 Gün Görev Serisi', desc: 'Üst üste 30 gün günlük görevi tamamla' },
+];
 const BADGE_PAGES = [
   { id: 'g2',    title: '2. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade2' },
   { id: 'g3',    title: '3. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade3' },
   { id: 'g4',    title: '4. Sınıf',   sub: 'Rozetleri topla',     type: 'theme', grade: 'grade4' },
   { id: 'skill', title: 'Beceriler',  sub: 'Dört okuma becerisi', type: 'list',  badges: SKILL_BADGES },
   { id: 'effort',title: 'Çaba',       sub: 'Doğru cevap değil, devam etmek', type: 'list', badges: EFFORT_BADGES },
+  { id: 'daily', title: 'Günlük',     sub: 'Her gün bir görev',   type: 'list',  badges: DAILY_QUEST_BADGES },
   { id: 'ach',   title: 'Başarılar',  sub: 'Kilometre taşları',   type: 'list',  badges: ACH_BADGES },
 ];
 // Yıl şampiyonu — her sınıfın 6 temasını da bitirince
@@ -4621,6 +4660,7 @@ const BADGE_DEFS = (() => {
   });
   SKILL_BADGES.forEach(b => arr.push(b));
   EFFORT_BADGES.forEach(b => arr.push(b));
+  DAILY_QUEST_BADGES.forEach(b => arr.push(b));
   ACH_BADGES.forEach(b => arr.push(b));
   return arr;
 })();
@@ -4685,6 +4725,9 @@ function badgeProgress(b) {
   if (id.indexOf('master_') === 0) return clamp(countSkillMasteryAll(id.slice(7)), 5);
   if (id.indexOf('grade10_') === 0) return clamp(countDoneTextsForGrade(id.slice(8)), 10);
   if (id.indexOf('grade30_') === 0) return clamp(countDoneTextsForGrade(id.slice(8)), 30);
+  if (id === 'quest3')  return clamp(questStreak(), 3);
+  if (id === 'quest7')  return clamp(questStreak(), 7);
+  if (id === 'quest30') return clamp(questStreak(), 30);
   return null; // first_*, star3, perfect, no_hint, persist, spiral → ilerleme gösterilmez
 }
 function openBadgeDetail(id) {
@@ -4848,6 +4891,83 @@ function anyRereadText() {
     Object.values(td).some(sd => Object.values(sd).some(t => (t.attempts || 0) >= 2)));
 }
 
+// ── Günlük Görev ──
+// Profil+tarihe göre sabit ama günden güne değişen bir hedef seçilir.
+// Yalnızca zaten kayıtlı veriden (lastPlayed, bestStars, skill) okur —
+// ayrı bir izleme alanı gerektirmez.
+const DAILY_QUESTS = [
+  { id: 'text1',     icon: '📖', label: 'Bugün 1 metin bitir',          goal: 1 },
+  { id: 'text2',     icon: '📚', label: 'Bugün 2 metin bitir',          goal: 2 },
+  { id: 'star3',     icon: '⭐', label: 'Bugün bir metinde 3 yıldız al', goal: 1 },
+  { id: 'twoskills', icon: '🔄', label: 'Bugün 2 farklı beceri dene',   goal: 2 },
+];
+function todayActivitySignals() {
+  const pd = _allTextStats();
+  const todayKey = _dayKey(new Date());
+  const texts = new Set(), skills = new Set();
+  let got3Star = false;
+  Object.entries(pd).forEach(([topic, topicData]) => {
+    Object.entries(topicData).forEach(([sk, textMap]) => {
+      Object.entries(textMap).forEach(([id, t]) => {
+        if (!t.lastPlayed || _dayKey(new Date(t.lastPlayed)) !== todayKey) return;
+        texts.add(topic + ':' + sk + ':' + id);
+        skills.add(sk);
+        if ((t.bestStars || 0) >= 3) got3Star = true;
+      });
+    });
+  });
+  return { textsToday: texts.size, skillsToday: skills.size, got3StarToday: got3Star };
+}
+// Aynı gün + aynı profil için hep aynı görevi verir, gün değişince değişir.
+function pickTodayQuest() {
+  const p = getActiveProfile();
+  const key = _dayKey(new Date()) + '|' + (p ? p.id : '');
+  let hash = 0;
+  for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
+  return DAILY_QUESTS[hash % DAILY_QUESTS.length];
+}
+function questProgress(quest, sig) {
+  if (quest.id === 'text1' || quest.id === 'text2') return Math.min(sig.textsToday, quest.goal);
+  if (quest.id === 'star3') return sig.got3StarToday ? 1 : 0;
+  if (quest.id === 'twoskills') return Math.min(sig.skillsToday, quest.goal);
+  return 0;
+}
+function isTodayQuestComplete() {
+  const quest = pickTodayQuest();
+  return questProgress(quest, todayActivitySignals()) >= quest.goal;
+}
+// Görev tamamlanan günler — ataberk_days ile aynı desen, ayrı anahtar.
+function markQuestDayIfComplete() {
+  if (!isTodayQuestComplete()) return;
+  try {
+    const p = getActiveProfile();
+    if (!p) return;
+    const all = JSON.parse(localStorage.getItem('ataberk_quest_days') || '{}');
+    const list = all[p.id] || [];
+    const today = _dayKey(new Date());
+    if (!list.includes(today)) {
+      list.push(today);
+      all[p.id] = list.slice(-90);
+      localStorage.setItem('ataberk_quest_days', JSON.stringify(all));
+    }
+  } catch(e) {}
+}
+function questStreak() {
+  try {
+    const p = getActiveProfile();
+    if (!p) return 0;
+    const list = (JSON.parse(localStorage.getItem('ataberk_quest_days') || '{}'))[p.id] || [];
+    if (!list.length) return 0;
+    const set = new Set(list);
+    const d = new Date();
+    if (!set.has(_dayKey(d))) d.setDate(d.getDate() - 1);
+    if (!set.has(_dayKey(d))) return 0;
+    let n = 0;
+    while (set.has(_dayKey(d))) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  } catch(e) { return 0; }
+}
+
 function loadBadges() {
   const profile = getActiveProfile();
   if (!profile) return [];
@@ -4966,6 +5086,13 @@ function checkBadges(score, total, stars, skill, topic, opts) {
 
   // Koleksiyoncu — collector hariç tüm rozetler
   if (loadBadges().length >= BADGE_DEFS.length - 1) grant('collector');
+
+  // Günlük Görev — bugünkü hedef tamamlandıysa günü işaretle, seriye göre rozet ver
+  markQuestDayIfComplete();
+  const qStreak = questStreak();
+  if (qStreak >= 3)  grant('quest3');
+  if (qStreak >= 7)  grant('quest7');
+  if (qStreak >= 30) grant('quest30');
 
   if (newBadges.length > 0) {
     _badgeQueue.push(...newBadges);
