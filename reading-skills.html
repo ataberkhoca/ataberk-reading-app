@@ -3873,7 +3873,7 @@ function renderHomeScreen() {
   const questSlot = document.getElementById('home-quest-slot');
   if (questSlot) {
     const quest = pickTodayQuest();
-    const cur = questProgress(quest, todayActivitySignals());
+    const cur = questProgress(quest, todayActivitySignals(getActiveQuestTopic()));
     const done = cur >= quest.goal;
     const pct = Math.round(Math.min(1, cur / quest.goal) * 100);
     questSlot.innerHTML =
@@ -3882,7 +3882,7 @@ function renderHomeScreen() {
           '<span class="quest-ico">' + (done ? '✅' : quest.icon) + '</span>' +
           '<div>' +
             '<div class="quest-lbl">GÜNÜN GÖREVİ</div>' +
-            '<div class="quest-text">' + (done ? 'Bugün tamamlandı!' : quest.label) + '</div>' +
+            '<div class="quest-text">' + (done ? 'Bugün tamamlandı!' : questLabel(quest)) + '</div>' +
           '</div>' +
         '</div>' +
         '<div class="quest-track"><div class="quest-fill" style="width:' + pct + '%"></div></div>' +
@@ -4135,7 +4135,8 @@ function saveTextStats(topic, skill, textId, score, total, stars, title) {
     const profileData = all[profile.id];
     if (!profileData[topic]) profileData[topic] = {};
     if (!profileData[topic][skill]) profileData[topic][skill] = {};
-    const cur = profileData[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0, title: title || '' };
+    const cur = profileData[topic][skill][textId] ||
+      { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0, title: title || '', firstCompletedAt: Date.now() };
     cur.attempts = (cur.attempts || 0) + 1;
     if (title) cur.title = title;
     if (score > (cur.bestScore || 0)) {
@@ -4893,24 +4894,40 @@ function anyRereadText() {
 
 // ── Günlük Görev ──
 // Profil+tarihe göre sabit ama günden güne değişen bir hedef seçilir.
-// Yalnızca zaten kayıtlı veriden (lastPlayed, bestStars, skill) okur —
-// ayrı bir izleme alanı gerektirmez.
+// Müfredat açısından iki kural önemli:
+//  1) Sadece o öğrencinin İLK KEZ tamamladığı metinler sayılır — dün
+//     bitirdiği bir metni bugün tekrar açması görevi "bedavaya" tamamlatmaz
+//     (firstCompletedAt, saveTextStats'te sadece kayıt ilk oluşurken yazılır).
+//  2) Görev, öğrencinin O AN İÇİNDE OLDUĞU temaya (loadResume().topic) göre
+//     hesaplanır — okulda henüz işlenmemiş ileri bir temadan metin istemez.
+//     O tema tamamen bitmişse (yapacak yeni metin kalmamışsa) kapsamı kaldırır.
 const DAILY_QUESTS = [
-  { id: 'text1',     icon: '📖', label: 'Bugün 1 metin bitir',          goal: 1 },
-  { id: 'text2',     icon: '📚', label: 'Bugün 2 metin bitir',          goal: 2 },
-  { id: 'star3',     icon: '⭐', label: 'Bugün bir metinde 3 yıldız al', goal: 1 },
-  { id: 'twoskills', icon: '🔄', label: 'Bugün 2 farklı beceri dene',   goal: 2 },
+  { id: 'text1',     icon: '📖', label: 'Bugün {topic} temasından 1 yeni metin bitir',          goal: 1 },
+  { id: 'text2',     icon: '📚', label: 'Bugün {topic} temasından 2 yeni metin bitir',          goal: 2 },
+  { id: 'star3',     icon: '⭐', label: 'Bugün {topic} temasından bir metinde 3 yıldız al',      goal: 1 },
+  { id: 'twoskills', icon: '🔄', label: 'Bugün {topic} temasında 2 farklı beceri dene',          goal: 2 },
 ];
-function todayActivitySignals() {
+// Görevin hangi temayla sınırlı olacağını döndürür; null = sınırsız (henüz
+// başlanmamış ya da o tema tamamen bitmiş — bir sonrakine geçilmiş demektir).
+function getActiveQuestTopic() {
+  const r = loadResume();
+  if (!r || !r.topic) return null;
+  const prog = topicProgress(r.topic);
+  if (prog.total > 0 && prog.done >= prog.total) return null; // tema bitti, kapsamı kaldır
+  return r.topic;
+}
+function todayActivitySignals(topic) {
   const pd = _allTextStats();
   const todayKey = _dayKey(new Date());
   const texts = new Set(), skills = new Set();
   let got3Star = false;
-  Object.entries(pd).forEach(([topic, topicData]) => {
+  Object.entries(pd).forEach(([tp, topicData]) => {
+    if (topic && tp !== topic) return;
     Object.entries(topicData).forEach(([sk, textMap]) => {
       Object.entries(textMap).forEach(([id, t]) => {
-        if (!t.lastPlayed || _dayKey(new Date(t.lastPlayed)) !== todayKey) return;
-        texts.add(topic + ':' + sk + ':' + id);
+        // Sadece bu metnin İLK KEZ tamamlandığı gün bugünse sayılır — tekrar okuma değil.
+        if (!t.firstCompletedAt || _dayKey(new Date(t.firstCompletedAt)) !== todayKey) return;
+        texts.add(tp + ':' + sk + ':' + id);
         skills.add(sk);
         if ((t.bestStars || 0) >= 3) got3Star = true;
       });
@@ -4926,6 +4943,14 @@ function pickTodayQuest() {
   for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
   return DAILY_QUESTS[hash % DAILY_QUESTS.length];
 }
+// Görev etiketindeki {topic} yerine gerçek tema adını (ya da kapsam yoksa
+// genel bir ifadeyi) yerleştirir.
+function questLabel(quest) {
+  const topic = getActiveQuestTopic();
+  const meta = topic && TOPIC_META ? TOPIC_META[topic] : null;
+  const topicName = meta ? meta.name : 'şu anki';
+  return quest.label.replace('{topic}', topicName);
+}
 function questProgress(quest, sig) {
   if (quest.id === 'text1' || quest.id === 'text2') return Math.min(sig.textsToday, quest.goal);
   if (quest.id === 'star3') return sig.got3StarToday ? 1 : 0;
@@ -4934,7 +4959,7 @@ function questProgress(quest, sig) {
 }
 function isTodayQuestComplete() {
   const quest = pickTodayQuest();
-  return questProgress(quest, todayActivitySignals()) >= quest.goal;
+  return questProgress(quest, todayActivitySignals(getActiveQuestTopic())) >= quest.goal;
 }
 // Görev tamamlanan günler — ataberk_days ile aynı desen, ayrı anahtar.
 function markQuestDayIfComplete() {
