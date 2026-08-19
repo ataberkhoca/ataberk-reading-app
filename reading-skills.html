@@ -3873,9 +3873,10 @@ function renderHomeScreen() {
 
 /* Metinler sekmesi — profilde kayıtlı sınıfın konu listesine direkt götürür. */
 function goToBrowse() {
-  const p = getActiveProfile();
-  if (p && p.grade && GRADE_TOPICS[p.grade]) selectGrade(p.grade);
-  else showScreen('screen-sinif');
+  // Doğrudan konuya atlamak Sınıf Seçimi'ni akıştan tamamen kaybettiriyordu
+  // (başka bir sınıfı denemek isteyenler için de gizliyordu). Klasik akışın
+  // ilk adımı olan Sınıf Seçimi'ne her zaman uğrar.
+  showScreen('screen-sinif');
 }
 
 /* Alt sekme çubuğundaki dört hedefin tek giriş noktası. */
