@@ -1455,11 +1455,11 @@ button.celeb-retry {
 .ba-slots { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:10px; }
 .ba-slot { aspect-ratio:1; border-radius:14px; border:2.5px dashed #D6C9A8; position:relative;
   background:#FBF8EE; display:flex; flex-direction:column; align-items:center; justify-content:center; }
-.ba-slot .ba-lbl { position:absolute; bottom:6px; left:2px; right:2px; text-align:center;
+.ba-slot .ba-lbl { position:absolute; bottom:6px; left:2px; right:2px; text-align:center; z-index:2;
   font-family:'Baloo 2',cursive; font-weight:600; font-size:9px; color:#8A7B5A; line-height:1.1; }
 .ba-slot.locked .ba-lbl { color:#B8A98A; }
 .ba-sticker { position:absolute; top:4px; left:4px; right:4px; bottom:18px; border-radius:12px;
-  display:flex; align-items:center; justify-content:center; font-size:24px;
+  display:flex; align-items:center; justify-content:center; font-size:24px; line-height:1; overflow:hidden;
   background:radial-gradient(circle at 30% 25%,#fff,#F4F0E2); border:2px solid #fff;
   box-shadow:0 3px 8px rgba(0,0,0,.15); animation:baPeel .6s cubic-bezier(.34,1.7,.5,1) backwards; }
 @keyframes baPeel { 0%{opacity:0;transform:scale(0) rotate(-40deg)} 55%{transform:scale(1.18) rotate(8deg)} 100%{opacity:1;transform:scale(1) rotate(0)} }
@@ -1665,16 +1665,30 @@ button.celeb-retry {
 /* ── Öğretmenine göster ── */
 .cert-overlay{position:fixed;inset:0;background:rgba(20,26,45,.78);z-index:1150;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:22px;animation:fadeIn .2s ease;overflow-y:auto}
 .cert-overlay.hidden{display:none}
-.cert-card{width:100%;max-width:320px;background:#FFFBF0;border:3px solid #1A1A1A;border-radius:20px;box-shadow:6px 6px 0 #1A1A1A;padding:18px;text-align:center}
+.cert-card{width:100%;max-width:340px;background:#FFFBF0;border:3px solid #1A1A1A;border-radius:20px;box-shadow:6px 6px 0 #1A1A1A;padding:18px;text-align:center}
 .cert-brand{font-family:'Caveat',cursive;font-weight:700;font-size:16px;color:#E64B4B}
 .cert-rule{border-top:2px dashed #D6C9A8;margin:10px 0 12px}
 .cert-who{display:flex;align-items:center;justify-content:center;gap:10px}
 .cert-av{width:40px;height:40px;border:2.5px solid #1A1A1A;border-radius:50%;background:#FFD93D;display:flex;align-items:center;justify-content:center;font-size:22px}
 .cert-name{font-family:'Baloo 2',cursive;font-weight:800;font-size:20px;color:#1A1A1A}
-.cert-em{font-size:58px;line-height:1;margin-top:12px}
-.cert-bn{font-family:'Baloo 2',cursive;font-weight:800;font-size:18px;color:#1A1A1A;margin-top:4px}
-.cert-bd{font-family:'Baloo 2',cursive;font-weight:600;font-size:12.5px;color:#6B6255}
-.cert-chip{display:inline-block;margin-top:12px;background:#6BCB77;border:2.5px solid #1A1A1A;border-radius:99px;padding:3px 12px;font-family:'Baloo 2',cursive;font-weight:800;font-size:12px;color:#1A1A1A}
+.cert-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:14px}
+.cert-summary-box{background:#fff;border:2px solid #1A1A1A;border-radius:12px;padding:8px 4px}
+.cert-summary-num{font-family:'Baloo 2',cursive;font-weight:800;font-size:17px;color:#1A1A1A}
+.cert-summary-lbl{font-size:9.5px;font-weight:800;color:#6B6255;margin-top:2px}
+.cert-section-lbl{font-family:'Baloo 2',cursive;font-weight:600;font-size:13px;color:#6B6255;text-align:left;margin:16px 0 8px}
+.cert-badges-grid{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-start}
+.cert-badge-ic{display:flex;align-items:center;justify-content:center;width:34px;height:34px;font-size:18px;background:#fff;border:2px solid #1A1A1A;border-radius:10px}
+.cert-stories{display:flex;flex-direction:column;gap:8px;text-align:left;max-height:260px;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-right:2px}
+.cert-story-row{display:flex;align-items:center;gap:9px;background:#fff;border:2px solid #E8E0CC;border-radius:12px;padding:8px 10px}
+.cert-story-ic{font-size:17px;flex-shrink:0}
+.cert-story-info{flex:1;min-width:0}
+.cert-story-title{font-family:'Nunito',sans-serif;font-weight:800;font-size:12.5px;color:#1A1A1A;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cert-story-meta{font-size:10px;font-weight:700;color:#9A8F78;margin-top:1px}
+.cert-story-stars{flex-shrink:0;text-align:right}
+.cert-story-stars-glyph{display:block;color:#F2C14E;font-size:13px;letter-spacing:1px}
+.cert-story-score{display:block;font-size:9.5px;font-weight:800;color:#8A8578;margin-top:1px}
+.cert-story-empty{font-size:12.5px;font-weight:700;color:#9A8F78;text-align:center;padding:10px}
+.cert-chip{display:inline-block;margin-top:14px;background:#6BCB77;border:2.5px solid #1A1A1A;border-radius:99px;padding:3px 12px;font-family:'Baloo 2',cursive;font-weight:800;font-size:12px;color:#1A1A1A}
 .cert-hint{font-family:'Baloo 2',cursive;font-weight:700;font-size:12.5px;color:#FFF6D6;text-align:center;max-width:300px;line-height:1.5}
 .cert-close{font-family:'Baloo 2',cursive;font-weight:800;font-size:15px;color:#1A1A1A;background:#FFD93D;border:3px solid #1A1A1A;border-radius:99px;box-shadow:4px 4px 0 #1A1A1A;padding:9px 22px;cursor:pointer}
 .ba-cert-btn{width:100%;margin-top:12px;font-family:'Baloo 2',cursive;font-weight:800;font-size:14.5px;color:#1A1A1A;background:#fff;border:2.5px solid #1A1A1A;border-radius:14px;box-shadow:3px 3px 0 #1A1A1A;padding:10px;cursor:pointer}
@@ -3043,7 +3057,12 @@ function onActivityComplete(score, total, skill, topic) {
   }
   saveActivityStats(topic, skill, score, total, stars);
   if (typeof currentTextId !== 'undefined' && currentTextId) {
-    saveTextStats(topic, skill, currentTextId, score, total, stars);
+    let textTitle = '';
+    if (TOPIC_TEXTS && TOPIC_TEXTS[skill]) {
+      const tObj = TOPIC_TEXTS[skill].find(t => t.id === currentTextId);
+      if (tObj) textTitle = tObj.title || '';
+    }
+    saveTextStats(topic, skill, currentTextId, score, total, stars, textTitle);
   }
   checkBadges(score, total, stars, skill, topic, { hintUsed: hintUsedThisActivity, prevStars });
 }
@@ -3938,7 +3957,7 @@ function topicProgress(topic) {
   return { done, total, pct };
 }
 
-function saveTextStats(topic, skill, textId, score, total, stars) {
+function saveTextStats(topic, skill, textId, score, total, stars, title) {
   try {
     const profile = getActiveProfile();
     if (!profile) return; // Aktif profil yoksa kayıt yapma
@@ -3947,8 +3966,9 @@ function saveTextStats(topic, skill, textId, score, total, stars) {
     const profileData = all[profile.id];
     if (!profileData[topic]) profileData[topic] = {};
     if (!profileData[topic][skill]) profileData[topic][skill] = {};
-    const cur = profileData[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0 };
+    const cur = profileData[topic][skill][textId] || { attempts: 0, bestScore: 0, bestTotal: total, bestStars: 0, title: title || '' };
     cur.attempts = (cur.attempts || 0) + 1;
+    if (title) cur.title = title;
     if (score > (cur.bestScore || 0)) {
       cur.bestScore = score;
       cur.bestTotal = total;
@@ -4380,6 +4400,14 @@ const SKILL_BADGES = [
   { id: 'first_skim', icon: '⚡', name: 'Hızlı Okuma',    desc: 'İlk Hızlı Okuma metnini tamamla' },
   { id: 'first_int',  icon: '🔬', name: 'Dikkatli Okuma', desc: 'İlk Dikkatli Okuma metnini tamamla' },
   { id: 'first_inf',  icon: '🧩', name: 'Çıkarım',        desc: 'İlk Çıkarım metnini tamamla' },
+  { id: 'five_scan', icon: '📈', name: '5 Tarama',         desc: '5 Tarama metni tamamla' },
+  { id: 'five_skim', icon: '📈', name: '5 Hızlı Okuma',    desc: '5 Hızlı Okuma metni tamamla' },
+  { id: 'five_int',  icon: '📈', name: '5 Dikkatli Okuma', desc: '5 Dikkatli Okuma metni tamamla' },
+  { id: 'five_inf',  icon: '📈', name: '5 Çıkarım',        desc: '5 Çıkarım metni tamamla' },
+  { id: 'master_scan', icon: '🏅', name: 'Tarama Ustası',         desc: '5 Tarama metninde 3 yıldız al' },
+  { id: 'master_skim', icon: '🏅', name: 'Hızlı Okuma Ustası',    desc: '5 Hızlı Okuma metninde 3 yıldız al' },
+  { id: 'master_int',  icon: '🏅', name: 'Dikkatli Okuma Ustası', desc: '5 Dikkatli Okuma metninde 3 yıldız al' },
+  { id: 'master_inf',  icon: '🏅', name: 'Çıkarım Ustası',        desc: '5 Çıkarım metninde 3 yıldız al' },
 ];
 const ACH_BADGES = [
   { id: 'first_text', icon: '🌟', name: 'İlk Adım',     desc: 'İlk metni oku' },
@@ -4437,6 +4465,21 @@ const CHAMPION_BADGES = {
   grade3: { id: 'champion_grade3', icon: '🥇', name: '3. Sınıf Şampiyonu', desc: '3. sınıfın tüm temalarını tamamla' },
   grade4: { id: 'champion_grade4', icon: '🥇', name: '4. Sınıf Şampiyonu', desc: '4. sınıfın tüm temalarını tamamla' },
 };
+// Sınıf bazlı okunan metin sayısı kilometre taşları
+const GRADE_MILESTONE_BADGES = {
+  grade2: [
+    { id: 'grade10_grade2', icon: '📘', name: '2. Sınıf: 10 Metin', desc: '2. sınıfta 10 metin tamamla' },
+    { id: 'grade30_grade2', icon: '📕', name: '2. Sınıf: 30 Metin', desc: '2. sınıfta 30 metin tamamla' },
+  ],
+  grade3: [
+    { id: 'grade10_grade3', icon: '📘', name: '3. Sınıf: 10 Metin', desc: '3. sınıfta 10 metin tamamla' },
+    { id: 'grade30_grade3', icon: '📕', name: '3. Sınıf: 30 Metin', desc: '3. sınıfta 30 metin tamamla' },
+  ],
+  grade4: [
+    { id: 'grade10_grade4', icon: '📘', name: '4. Sınıf: 10 Metin', desc: '4. sınıfta 10 metin tamamla' },
+    { id: 'grade30_grade4', icon: '📕', name: '4. Sınıf: 30 Metin', desc: '4. sınıfta 30 metin tamamla' },
+  ],
+};
 // Bir sayfanın rozet listesini döndürür (tema sayfaları GRADE_TOPICS'ten üretilir)
 function badgePageBadges(page) {
   if (page.type === 'theme') {
@@ -4444,6 +4487,7 @@ function badgePageBadges(page) {
       id: 'theme_' + t.key, icon: t.icon, name: t.name,
       desc: t.name + ' temasını tamamla', topic: t.key, holoCheck: true
     }));
+    (GRADE_MILESTONE_BADGES[page.grade] || []).forEach(b => arr.push(b));
     const ch = CHAMPION_BADGES[page.grade];
     if (ch) arr.push({ id: ch.id, icon: ch.icon, name: ch.name, desc: ch.desc });
     return arr;
@@ -4455,6 +4499,7 @@ const BADGE_DEFS = (() => {
   const arr = [];
   ['grade2','grade3','grade4'].forEach(g => {
     (GRADE_TOPICS[g] || []).forEach(t => arr.push({ id: 'theme_'+t.key, icon: t.icon, name: t.name, desc: t.name+' temasını tamamla' }));
+    (GRADE_MILESTONE_BADGES[g] || []).forEach(b => arr.push(b));
     if (CHAMPION_BADGES[g]) arr.push(CHAMPION_BADGES[g]);
   });
   SKILL_BADGES.forEach(b => arr.push(b));
@@ -4519,6 +4564,10 @@ function badgeProgress(b) {
     Object.values(st).forEach(ts => { const c = ['scan','skim','int','inf'].filter(s => ts[s]).length; if (c > mx) mx = c; });
     return clamp(mx, 4);
   }
+  if (id.indexOf('five_') === 0)   return clamp(countSkillTextsAll(id.slice(5)), 5);
+  if (id.indexOf('master_') === 0) return clamp(countSkillMasteryAll(id.slice(7)), 5);
+  if (id.indexOf('grade10_') === 0) return clamp(countDoneTextsForGrade(id.slice(8)), 10);
+  if (id.indexOf('grade30_') === 0) return clamp(countDoneTextsForGrade(id.slice(8)), 30);
   return null; // first_*, star3, perfect, no_hint, persist, spiral → ilerleme gösterilmez
 }
 function openBadgeDetail(id) {
@@ -4583,6 +4632,42 @@ function gradesPlayed() {
     if (any) set.add(gradeOfTopic(key));
   });
   return set;
+}
+// Bir beceride (tüm temalar genelinde) tamamlanan farklı metin sayısı
+function countSkillTextsAll(skill) {
+  const pd = _allTextStats();
+  let n = 0;
+  Object.values(pd).forEach(td => {
+    const sd = td[skill];
+    if (!sd) return;
+    Object.values(sd).forEach(t => { if ((t.attempts||0) > 0) n++; });
+  });
+  return n;
+}
+// Bir beceride (tüm temalar genelinde) 3 yıldız alınan farklı metin sayısı
+function countSkillMasteryAll(skill) {
+  const pd = _allTextStats();
+  let n = 0;
+  Object.values(pd).forEach(td => {
+    const sd = td[skill];
+    if (!sd) return;
+    Object.values(sd).forEach(t => { if ((t.bestStars||0) >= 3) n++; });
+  });
+  return n;
+}
+// Bir sınıfın temalarında tamamlanan farklı metin sayısı
+function countDoneTextsForGrade(g) {
+  const pd = _allTextStats();
+  const topics = (GRADE_TOPICS[g] || []).map(t => t.key);
+  let n = 0;
+  topics.forEach(topic => {
+    const td = pd[topic];
+    if (!td) return;
+    const ids = new Set();
+    Object.values(td).forEach(sd => Object.entries(sd).forEach(([id, t]) => { if ((t.attempts||0)>0) ids.add(id); }));
+    n += ids.size;
+  });
+  return n;
 }
 function topicAll3Star(topic) {
   const total = getTopicTotal(topic);
@@ -4743,6 +4828,18 @@ function checkBadges(score, total, stars, skill, topic, opts) {
   if (totalDone >= 50)  grant('texts50');
   if (totalDone >= 100) grant('texts100');
 
+  // Beceri kilometre taşları — 5 metin ve 5 metinde 3 yıldız
+  if (skill) {
+    if (countSkillTextsAll(skill) >= 5)   grant('five_' + skill);
+    if (countSkillMasteryAll(skill) >= 5) grant('master_' + skill);
+  }
+
+  // Sınıf kilometre taşları — o sınıfta okunan metin sayısı
+  const gKey = gradeOfTopic(topic);
+  const gradeDone = countDoneTextsForGrade(gKey);
+  if (gradeDone >= 10) grant('grade10_' + gKey);
+  if (gradeDone >= 30) grant('grade30_' + gKey);
+
   // Kâşif — 3 farklı sınıf
   if (gradesPlayed().size >= 3) grant('explorer');
 
@@ -4894,29 +4991,61 @@ function closeBadgePopup() {
   }
 }
 
-// Sayfadaki kilitli rozetlerden ilerlemesi ölçülebilen ve en çok yol
-// alınmış olanı seçer. Ölçülemiyorsa kart hiç çizilmez (boş çubuk yok).
+// Sayfadaki kilitli rozetlerden "en yakın"ı seçer. Her sayfada tutarlı bir
+// deneyim için üç kademeli çalışır:
+//  1) Ölçülebilir ilerlemesi olan, en çok yol alınmış rozet → ilerleme çubuğu.
+//  2) Ölçülemeyen ama gizemli olmayan (adı görünen) kilitli bir rozet → adı + davet.
+//  3) Sayfada kalan her şey gizemliyse → kimliğini açık etmeden bir "sırada" ipucu.
+// Sayfadaki her rozet kazanılmışsa hiçbir şey gösterilmez.
 function renderNearBadge(badges, earned) {
+  const locked = badges.filter(b => !earned.includes(b.id));
+  if (locked.length === 0) return '';
+
   let best = null;
-  badges.forEach(function(b) {
-    if (earned.includes(b.id)) return;
+  locked.forEach(function(b) {
     if (BADGE_RIDDLES[b.id]) return;
     const pr = badgeProgress(b);
     if (!pr || !pr.max || pr.cur <= 0) return;
     const ratio = pr.cur / pr.max;
     if (!best || ratio > best.ratio) best = { b: b, pr: pr, ratio: ratio };
   });
-  if (!best) return '';
-  const pct = Math.round(best.ratio * 100);
-  const left = Math.max(0, best.pr.max - best.pr.cur);
-  return `<div class="ba-near" onclick="openBadgeDetail('${best.b.id}')">
+  if (best) {
+    const pct = Math.round(best.ratio * 100);
+    const left = Math.max(0, best.pr.max - best.pr.cur);
+    return `<div class="ba-near" onclick="openBadgeDetail('${best.b.id}')">
+      <div class="ba-near-lbl">EN YAKIN</div>
+      <div class="ba-near-row">
+        <div class="ba-near-sock">?</div>
+        <div style="flex:1">
+          <div class="ba-near-name">${escapeHtml(best.b.desc || best.b.name)}</div>
+          <div class="ba-near-track"><div class="ba-near-fill" style="width:${pct}%"></div></div>
+          <div class="ba-near-left">${best.pr.cur} / ${best.pr.max} · ${left} kaldı</div>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  const plain = locked.find(b => !BADGE_RIDDLES[b.id]);
+  if (plain) {
+    return `<div class="ba-near" onclick="openBadgeDetail('${plain.id}')">
+      <div class="ba-near-lbl">EN YAKIN</div>
+      <div class="ba-near-row">
+        <div class="ba-near-sock">?</div>
+        <div style="flex:1">
+          <div class="ba-near-name">${escapeHtml(plain.desc || plain.name)}</div>
+          <div class="ba-near-left">Hemen dene, kazan!</div>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  return `<div class="ba-near" style="cursor:default">
     <div class="ba-near-lbl">EN YAKIN</div>
     <div class="ba-near-row">
-      <div class="ba-near-sock">?</div>
+      <div class="ba-near-sock">🔮</div>
       <div style="flex:1">
-        <div class="ba-near-name">${escapeHtml(best.b.desc || best.b.name)}</div>
-        <div class="ba-near-track"><div class="ba-near-fill" style="width:${pct}%"></div></div>
-        <div class="ba-near-left">${best.pr.cur} / ${best.pr.max} · ${left} kaldı</div>
+        <div class="ba-near-name">Sırada gizemli bir rozet var</div>
+        <div class="ba-near-left">Okumaya devam et, ne olduğunu keşfet!</div>
       </div>
     </div>
   </div>`;
@@ -5034,14 +5163,67 @@ function renderNextUpShelf() {
 
 // ── Öğretmenine göster kartı ──
 const CERT_MONTHS = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
+function certStars(n) { return '★★★'.slice(0, n) + '☆☆☆'.slice(0, 3 - n); }
+// Şimdiye kadar denenmiş her metni, en güncel oynanandan en eskiye sıralı döndürür
+function certStoryRows() {
+  const pd = _allTextStats();
+  const rows = [];
+  ['grade2','grade3','grade4'].forEach(g => {
+    (GRADE_TOPICS[g] || []).forEach(meta => {
+      const td = pd[meta.key];
+      if (!td) return;
+      ['scan','skim','int','inf'].forEach(sk => {
+        const sd = td[sk];
+        if (!sd) return;
+        Object.values(sd).forEach(t => {
+          if (!((t.attempts||0) > 0)) return;
+          rows.push({
+            grade: g, topicName: meta.name, skillEmoji: (SKILLS[sk]||{}).emoji || '📖',
+            title: t.title || (meta.name + ' · ' + ((SKILLS[sk]||{}).label || sk)),
+            stars: t.bestStars || 0, score: t.bestScore || 0, total: t.bestTotal || 0,
+            lastPlayed: t.lastPlayed || 0
+          });
+        });
+      });
+    });
+  });
+  rows.sort((a, b) => b.lastPlayed - a.lastPlayed);
+  return rows;
+}
 function openCert() {
   const p = getActiveProfile();
   const earned = loadBadges();
-  const last = earned.length ? getBadgeById(earned[earned.length - 1]) : null;
-  let stars = 0;
-  Object.values(loadStats()).forEach(td => Object.values(td).forEach(v => { stars += v.stars || 0; }));
+  let stars = 0, correct = 0;
+  Object.values(loadStats()).forEach(td => Object.values(td).forEach(v => {
+    stars += v.stars || 0;
+    correct += v.bestScore || 0;
+  }));
   const d = new Date();
   const date = d.getDate() + ' ' + CERT_MONTHS[d.getMonth()] + ' ' + d.getFullYear();
+
+  const badgesHTML = earned.length
+    ? earned.map(id => {
+        const b = getBadgeById(id);
+        return b ? `<span class="cert-badge-ic" title="${escapeHtml(b.name)}">${b.icon}</span>` : '';
+      }).join('')
+    : `<div class="cert-story-empty">Henüz rozet kazanılmadı.</div>`;
+
+  const rows = certStoryRows();
+  const storiesHTML = rows.length
+    ? rows.map(r => `
+      <div class="cert-story-row">
+        <span class="cert-story-ic">${r.skillEmoji}</span>
+        <div class="cert-story-info">
+          <div class="cert-story-title">${escapeHtml(r.title)}</div>
+          <div class="cert-story-meta">${escapeHtml(r.topicName)} · ${GRADE_LABELS[r.grade] || ''}</div>
+        </div>
+        <div class="cert-story-stars">
+          <span class="cert-story-stars-glyph">${certStars(r.stars)}</span>
+          <span class="cert-story-score">${r.score}/${r.total}</span>
+        </div>
+      </div>`).join('')
+    : `<div class="cert-story-empty">Henüz tamamlanan hikâye yok.</div>`;
+
   document.getElementById('cert-card').innerHTML = `
     <div class="cert-brand">Ataberk Hoca · Okuma Becerileri</div>
     <div class="cert-rule"></div>
@@ -5049,10 +5231,17 @@ function openCert() {
       <div class="cert-av">${p ? p.avatar : '🐱'}</div>
       <div class="cert-name">${p ? escapeHtml(p.name) : 'Öğrenci'}</div>
     </div>
-    <div class="cert-em">${last ? last.icon : '📖'}</div>
-    <div class="cert-bn">${last ? last.name : 'Okumaya başladı'}</div>
-    <div class="cert-bd">${last ? last.desc : 'İlk hikâyesini bekliyor'}</div>
-    <div class="cert-chip">${date} · ${earned.length} rozet · ${stars} ⭐</div>`;
+    <div class="cert-summary">
+      <div class="cert-summary-box"><div class="cert-summary-num">${earned.length}</div><div class="cert-summary-lbl">🏅 Rozet</div></div>
+      <div class="cert-summary-box"><div class="cert-summary-num">${stars}</div><div class="cert-summary-lbl">⭐ Yıldız</div></div>
+      <div class="cert-summary-box"><div class="cert-summary-num">${rows.length}</div><div class="cert-summary-lbl">📖 Hikâye</div></div>
+      <div class="cert-summary-box"><div class="cert-summary-num">${correct}</div><div class="cert-summary-lbl">✅ Doğru</div></div>
+    </div>
+    <div class="cert-section-lbl">Kazanılan Rozetler</div>
+    <div class="cert-badges-grid">${badgesHTML}</div>
+    <div class="cert-section-lbl">Okunan Hikâyeler</div>
+    <div class="cert-stories">${storiesHTML}</div>
+    <div class="cert-chip">${date}</div>`;
   document.getElementById('cert-overlay').classList.remove('hidden');
 }
 function closeCert() {
