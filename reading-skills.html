@@ -2513,7 +2513,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
   <svg class="sb-corner sb-cloud" viewBox="0 0 120 50"><path d="M20 40 Q10 40 10 30 Q10 20 22 20 Q24 8 40 10 Q54 4 60 18 Q78 14 80 30 Q92 30 92 40 Z" fill="none" stroke="#3A7BD5" stroke-width="3"/></svg>
 
   <div class="sb-content">
-    <div class="sb-eyebrow">Ataberk Hoca</div>
+    <div class="sb-eyebrow">Ataberk Hoca - İlkokul İngilizce Okuma Becerileri</div>
     <div class="sb-title">Okuma<span>Becerileri</span>
       <svg class="sb-underline" viewBox="0 0 240 18"><path d="M4 10 Q60 2 120 9 T236 6" stroke="#E64B4B" stroke-width="4.5" fill="none" stroke-linecap="round"/></svg>
     </div>
@@ -2561,7 +2561,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
       <button onclick="showScreen('screen-hakkinda')">Hakkımızda</button>
     </div>
 
-    <div class="sb-footer">Ataberk Hoca © 2025</div>
+    <div class="sb-footer">Ataberk Hoca - İlkokul İngilizce Okuma Becerileri © 2025</div>
   </div>
 </div>
 
@@ -2797,7 +2797,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
     <button class="back-btn" onclick="goBack('screen-intro')">Giriş</button>
     <div>
       <div class="screen-header-title">Hakkımızda</div>
-      <div class="screen-header-sub">Ataberk Hoca</div>
+      <div class="screen-header-sub">Ataberk Hoca - İlkokul İngilizce Okuma Becerileri</div>
     </div>
     <div class="header-profil" id="hp-hakkinda" onclick="handleBadgeClick()" role="button" tabindex="0">
       <div class="header-profil-av" id="hp-av-hakkinda">🐱</div>
@@ -2807,7 +2807,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
   <div class="info-scroll">
     <div class="hakkinda-hero">
       <div class="hakkinda-hero-title">📚 Ataberk Hoca</div>
-      <div class="hakkinda-hero-sub">Reading Skills</div>
+      <div class="hakkinda-hero-sub">İlkokul İngilizce Okuma Becerileri</div>
     </div>
     <div class="info-card">
       <div class="info-card-icon">🎯</div>
@@ -5276,7 +5276,7 @@ function scheduleOrCancelDailyReminder() {
     LN.schedule({
       notifications: [{
         id: REMINDER_NOTIF_ID,
-        title: 'Ataberk Hoca',
+        title: 'Ataberk Hoca - İlkokul İngilizce Okuma Becerileri',
         body: 'Bugünün okuma görevini henüz tamamlamadın. Birkaç dakikan var mı? 📖',
         schedule: { at: fireAt, allowWhileIdle: true },
       }]
@@ -5776,7 +5776,7 @@ function openCert() {
     : `<div class="cert-story-empty">Henüz tamamlanan hikâye yok.</div>`;
 
   document.getElementById('cert-card').innerHTML = `
-    <div class="cert-brand">Ataberk Hoca · Okuma Becerileri</div>
+    <div class="cert-brand">Ataberk Hoca - İlkokul İngilizce Okuma Becerileri</div>
     <div class="cert-rule"></div>
     <div class="cert-who">
       <div class="cert-av">${p ? p.avatar : '🐱'}</div>
