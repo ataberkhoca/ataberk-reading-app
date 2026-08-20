@@ -955,13 +955,12 @@ body.intro-mode .blob{display:none !important;}
 .today-row.done .today-row-ic { background:#EAF7EE; }
 .today-row.done .today-row-btn { background:#EAF7EE; }
 
-/* İstatistik çubuğu — tek şeritte 3 sütun (ayrı kutular yerine) */
-.home-quick-stats { display:flex; background:#fff; border:3px solid #1A1A1A; border-radius:18px;
-  box-shadow:4px 4px 0 #1A1A1A; overflow:hidden; }
-.home-quick-stats .stat-box { flex:1; text-align:center; padding:11px 4px; background:none;
+/* İstatistik şeridi — "Bugün" kartının üçüncü bölümü, tek şeritte 3 sütun */
+.today-stats { display:flex; border-top:2px dashed #EEE6D0; background:#FBF8F0; padding:10px 18px; }
+.today-stats .stat-box { flex:1; text-align:center; padding:5px 4px; background:none;
   border:none; box-shadow:none; border-radius:0; }
-.home-quick-stats .stat-box + .stat-box { border-left:2px solid #EEE6D0; }
-.home-quick-stats .stat-num { font-size:19px; }
+.today-stats .stat-box + .stat-box { border-left:2px solid #EEE6D0; }
+.today-stats .stat-num { font-size:18px; }
 
 /* Linkler — yan yana kompakt buton çifti */
 .home-links { display:flex; gap:8px; }
@@ -2858,7 +2857,6 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
   <div class="home-body">
     <div id="home-today-slot"></div>
-    <div class="home-quick-stats" id="home-quick-stats"></div>
     <div class="home-links">
       <button onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</button>
       <button onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</button>
@@ -3906,19 +3904,18 @@ function renderHomeScreen() {
         questAction +
       '</div>';
 
-    todaySlot.innerHTML = '<div class="today-card"><div class="today-lbl">BUGÜN</div>' + row1 + row2 + '</div>';
-  }
-
-  const statsGrid = document.getElementById('home-quick-stats');
-  if (statsGrid) {
     let stars = 0;
     Object.values(loadStats()).forEach(td => Object.values(td).forEach(v => { stars += v.stars || 0; }));
     const badgeCount = loadBadges().length;
     const streak = dayStreak();
-    statsGrid.innerHTML =
-      '<div class="stat-box"><div class="stat-num">' + stars + '</div><div class="stat-lbl">⭐ Yıldız</div></div>' +
-      '<div class="stat-box"><div class="stat-num">' + badgeCount + '</div><div class="stat-lbl">🏅 Rozet</div></div>' +
-      '<div class="stat-box"><div class="stat-num">' + streak + '</div><div class="stat-lbl">🔥 Gün Serisi</div></div>';
+    const statsRow =
+      '<div class="today-stats">' +
+        '<div class="stat-box"><div class="stat-num">' + stars + '</div><div class="stat-lbl">⭐ Yıldız</div></div>' +
+        '<div class="stat-box"><div class="stat-num">' + badgeCount + '</div><div class="stat-lbl">🏅 Rozet</div></div>' +
+        '<div class="stat-box"><div class="stat-num">' + streak + '</div><div class="stat-lbl">🔥 Gün Serisi</div></div>' +
+      '</div>';
+
+    todaySlot.innerHTML = '<div class="today-card"><div class="today-lbl">BUGÜN</div>' + row1 + row2 + statsRow + '</div>';
   }
 }
 
