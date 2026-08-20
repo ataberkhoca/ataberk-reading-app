@@ -955,12 +955,39 @@ body.intro-mode .blob{display:none !important;}
 .today-row.done .today-row-ic { background:#EAF7EE; }
 .today-row.done .today-row-btn { background:#EAF7EE; }
 
-/* İstatistik şeridi — "Bugün" kartının üçüncü bölümü, tek şeritte 3 sütun */
+/* İstatistik şeridi — "Bugün" kartının üçüncü bölümü, tek şeritte sütunlar */
 .today-stats { display:flex; border-top:2px dashed #EEE6D0; background:#FBF8F0; padding:10px 18px; }
 .today-stats .stat-box { flex:1; text-align:center; padding:5px 4px; background:none;
   border:none; box-shadow:none; border-radius:0; }
 .today-stats .stat-box + .stat-box { border-left:2px solid #EEE6D0; }
 .today-stats .stat-num { font-size:18px; }
+
+/* Haftalık takvim şeridi — "Bugün" kartının dördüncü bölümü, gün serisini görselleştirir */
+.week-row { padding:10px 18px 14px; border-top:2px dashed #EEE6D0; }
+.week-eyebrow { font-family:'Nunito',sans-serif; font-weight:900; font-size:9.5px; letter-spacing:.08em;
+  color:#8A8578; margin-bottom:8px; }
+.week-dots { display:flex; justify-content:space-between; }
+.week-dot { display:flex; flex-direction:column; align-items:center; gap:5px; }
+.week-dot-lbl { font-family:'Nunito',sans-serif; font-weight:800; font-size:9.5px; color:#C9C2AD; }
+.week-dot-c { width:24px; height:24px; border-radius:50%; background:#F4F0E2; border:2px solid #EEE6D0;
+  display:flex; align-items:center; justify-content:center; font-size:11px; color:transparent; }
+.week-dot.done .week-dot-c { background:#6BCB77; border-color:#1A1A1A; color:#fff; }
+.week-dot.today .week-dot-lbl { color:#1A1A1A; }
+.week-dot.today .week-dot-c { border-color:#1A1A1A; border-width:2.5px; }
+
+/* "Önerilen hikâye" kartı — kaldığın yer kartının yanına, öğrencinin en zayıf becerisinden yeni bir metin önerir */
+.suggest-card { background:#fff; border:3px solid #1A1A1A; border-radius:22px;
+  box-shadow:5px 5px 0 #1A1A1A; overflow:hidden; }
+.suggest-lbl { font-family:'Nunito',sans-serif; font-weight:900; font-size:9.5px; letter-spacing:.09em;
+  color:#E8927C; padding:14px 18px 0; }
+.suggest-row { display:flex; align-items:center; gap:12px; padding:12px 18px 16px; }
+.suggest-ic { width:44px; height:44px; border-radius:13px; background:#FFF0E8; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center; font-size:21px; }
+.suggest-x { flex:1; min-width:0; }
+.suggest-t { font-family:'Baloo 2',cursive; font-weight:700; font-size:13.5px; color:#1A1A1A; }
+.suggest-s { font-size:11px; font-weight:700; color:#8A8578; margin-top:2px; }
+.suggest-btn { font-family:'Baloo 2',cursive; font-weight:700; font-size:11.5px; color:#1A1A1A;
+  background:#FFD93D; border:2px solid #1A1A1A; border-radius:10px; padding:8px 12px; flex-shrink:0; cursor:pointer; }
 
 /* "Yaklaşan rozet" kartı — en yakın kilitli rozete ilerleme, boş alanı doldurur */
 .next-badge-card { background:#fff; border:3px solid #1A1A1A; border-radius:22px;
@@ -2869,6 +2896,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
   <div class="home-body">
     <div id="home-today-slot"></div>
+    <div id="home-suggest-slot"></div>
     <div id="home-next-badge-slot"></div>
     <div class="home-links">
       <button onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</button>
@@ -3920,15 +3948,47 @@ function renderHomeScreen() {
     let stars = 0;
     Object.values(loadStats()).forEach(td => Object.values(td).forEach(v => { stars += v.stars || 0; }));
     const badgeCount = loadBadges().length;
-    const streak = dayStreak();
     const statsRow =
       '<div class="today-stats">' +
         '<div class="stat-box"><div class="stat-num">' + stars + '</div><div class="stat-lbl">⭐ Yıldız</div></div>' +
         '<div class="stat-box"><div class="stat-num">' + badgeCount + '</div><div class="stat-lbl">🏅 Rozet</div></div>' +
-        '<div class="stat-box"><div class="stat-num">' + streak + '</div><div class="stat-lbl">🔥 Gün Serisi</div></div>' +
       '</div>';
 
-    todaySlot.innerHTML = '<div class="today-card"><div class="today-lbl">BUGÜN</div>' + row1 + row2 + statsRow + '</div>';
+    // Gün serisi artık sayı yerine son 7 günün nokta şeridiyle gösteriliyor.
+    const week = weekActivity();
+    const weekRow =
+      '<div class="week-row">' +
+        '<div class="week-eyebrow">BU HAFTA</div>' +
+        '<div class="week-dots">' +
+          week.map(function(w) {
+            return '<div class="week-dot' + (w.done ? ' done' : '') + (w.isToday ? ' today' : '') + '">' +
+              '<div class="week-dot-lbl">' + w.label + '</div>' +
+              '<div class="week-dot-c">' + (w.done ? '✓' : '') + '</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+      '</div>';
+
+    todaySlot.innerHTML = '<div class="today-card"><div class="today-lbl">BUGÜN</div>' + row1 + row2 + statsRow + weekRow + '</div>';
+  }
+
+  const sugSlot = document.getElementById('home-suggest-slot');
+  if (sugSlot) {
+    suggestedStory().then(function(sug) {
+      if (!sug) { sugSlot.innerHTML = ''; return; }
+      sugSlot.innerHTML =
+        '<div class="suggest-card">' +
+          '<div class="suggest-lbl">SANA ÖZEL ÖNERİ</div>' +
+          '<div class="suggest-row">' +
+            '<div class="suggest-ic">' + sug.icon + '</div>' +
+            '<div class="suggest-x">' +
+              '<div class="suggest-t">' + escapeHtml(sug.title) + '</div>' +
+              '<div class="suggest-s">' + escapeHtml(sug.skillLabel) + ' becerini geliştir</div>' +
+            '</div>' +
+            '<button class="suggest-btn" onclick="startSuggestedText(\'' + sug.grade + '\',\'' + sug.topic + '\',\'' + sug.skill + '\',\'' + sug.textId + '\')">Oku</button>' +
+          '</div>' +
+        '</div>';
+    });
   }
 
   const nbSlot = document.getElementById('home-next-badge-slot');
@@ -3966,6 +4026,75 @@ function nearestBadge() {
     if (pct > bestPct) { bestPct = pct; best = { b: b, pr: pr }; }
   });
   return best;
+}
+
+/* Son 7 takvim gününün okuma günlüğü — Ana Sayfa'daki haftalık takvim şeridi için. */
+function weekActivity() {
+  const p = getActiveProfile();
+  const list = p ? ((JSON.parse(localStorage.getItem('ataberk_days') || '{}'))[p.id] || []) : [];
+  const set = new Set(list);
+  const dayLetter = { 0: 'P', 1: 'P', 2: 'S', 3: 'Ç', 4: 'P', 5: 'C', 6: 'C' }; // Paz,Pzt,Sal,Çar,Per,Cum,Cmt
+  const out = [];
+  const today = new Date();
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    out.push({ label: dayLetter[d.getDay()], done: set.has(_dayKey(d)), isToday: i === 0 });
+  }
+  return out;
+}
+
+/* Öğrencinin şu anki (müfredata uygun) temasından, en zayıf olduğu beceride
+   henüz denemediği bir metin önerir — "Sana Özel Öneri" kartı için. */
+async function suggestedStory() {
+  const topic = getActiveQuestTopic();
+  if (!topic) return null;
+  const r = loadResume();
+  if (!r) return null;
+  const grade = r.grade;
+
+  let json;
+  try {
+    const res = await fetch(`data/${grade}/${topic}.json`);
+    if (!res.ok) return null;
+    json = await res.json();
+  } catch(e) { return null; }
+
+  const skillsOrder = ['scan', 'skim', 'int', 'inf'];
+  const stats = loadStats()[topic] || {};
+  const allTs = _allTextStats()[topic] || {};
+  const sorted = skillsOrder.slice().sort((a, b) => {
+    const sa = stats[a] ? (stats[a].stars || 0) : -1;
+    const sb = stats[b] ? (stats[b].stars || 0) : -1;
+    return sa - sb;
+  });
+
+  for (const sk of sorted) {
+    const doneIds = new Set();
+    const skMap = allTs[sk] || {};
+    Object.keys(skMap).forEach(id => { if ((skMap[id].attempts || 0) > 0) doneIds.add(id); });
+    const texts = json[sk] || [];
+    const t = texts.find(x => !doneIds.has(x.id));
+    if (t) {
+      return {
+        grade: grade, topic: topic, skill: sk, textId: t.id,
+        title: t.title || '', icon: SKILLS[sk].emoji, skillLabel: SKILLS[sk].label,
+      };
+    }
+  }
+  return null;
+}
+
+/* "Sana Özel Öneri" kartının Oku butonu — resumeLast() ile aynı desende, önerilen metne direkt girer. */
+function startSuggestedText(grade, topic, skill, textId) {
+  currentGrade = grade;
+  currentTopic = topic;
+  TOPIC_TEXTS = null;
+  DATA = null;
+  Promise.resolve(startSkill(skill, textId)).then(function() {
+    NAV_STACK.length = 0;
+    NAV_STACK.push('screen-theme', 'screen-etkinlik');
+  });
 }
 
 /* Metinler sekmesi — profilde kayıtlı sınıfın konu listesine direkt götürür. */
