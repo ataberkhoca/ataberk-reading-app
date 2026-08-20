@@ -962,6 +962,18 @@ body.intro-mode .blob{display:none !important;}
 .today-stats .stat-box + .stat-box { border-left:2px solid #EEE6D0; }
 .today-stats .stat-num { font-size:18px; }
 
+/* "Yaklaşan rozet" kartı — en yakın kilitli rozete ilerleme, boş alanı doldurur */
+.next-badge-card { background:#fff; border:3px solid #1A1A1A; border-radius:22px;
+  box-shadow:5px 5px 0 #1A1A1A; overflow:hidden; padding-bottom:14px; cursor:pointer; }
+.nb-row { display:flex; align-items:center; gap:12px; padding:10px 18px 0; }
+.nb-ic { width:38px; height:38px; border-radius:12px; background:#F4F0E2; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center; font-size:18px; }
+.nb-x { flex:1; min-width:0; }
+.nb-name { font-family:'Baloo 2',cursive; font-weight:700; font-size:13px; color:#1A1A1A; }
+.nb-track { margin-top:7px; height:8px; background:#F0EBDD; border-radius:99px; overflow:hidden; }
+.nb-fill { height:100%; background:linear-gradient(90deg,#F9C74F,#F9844A); border-radius:99px; }
+.nb-num { font-size:11px; font-weight:700; color:#8A8578; flex-shrink:0; }
+
 /* Linkler — yan yana kompakt buton çifti */
 .home-links { display:flex; gap:8px; }
 .home-links button { flex:1; font-family:'Baloo 2',cursive; font-weight:600; font-size:11.5px; color:#1A1A1A;
@@ -2857,6 +2869,7 @@ body:has(#screen-game.active)::after { opacity:.2; }
 
   <div class="home-body">
     <div id="home-today-slot"></div>
+    <div id="home-next-badge-slot"></div>
     <div class="home-links">
       <button onclick="showScreen('screen-nasil')">❓ Nasıl Kullanılır</button>
       <button onclick="showScreen('screen-hakkinda')">ℹ️ Hakkımızda</button>
@@ -3917,6 +3930,42 @@ function renderHomeScreen() {
 
     todaySlot.innerHTML = '<div class="today-card"><div class="today-lbl">BUGÜN</div>' + row1 + row2 + statsRow + '</div>';
   }
+
+  const nbSlot = document.getElementById('home-next-badge-slot');
+  if (nbSlot) {
+    const nb = nearestBadge();
+    if (nb) {
+      const pct = Math.round(nb.pr.cur / nb.pr.max * 100);
+      nbSlot.innerHTML =
+        '<div class="next-badge-card" onclick="showScreen(\'screen-badges\')">' +
+          '<div class="today-lbl">YAKINDA KAZANACAĞIN ROZET</div>' +
+          '<div class="nb-row">' +
+            '<div class="nb-ic">' + nb.b.icon + '</div>' +
+            '<div class="nb-x">' +
+              '<div class="nb-name">' + escapeHtml(nb.b.name) + '</div>' +
+              '<div class="nb-track"><div class="nb-fill" style="width:' + pct + '%"></div></div>' +
+            '</div>' +
+            '<div class="nb-num">' + nb.pr.cur + '/' + nb.pr.max + '</div>' +
+          '</div>' +
+        '</div>';
+    } else {
+      nbSlot.innerHTML = '';
+    }
+  }
+}
+
+/* Kilitli rozetler arasından tamamlanmaya en yakın olanı bulur (Ana Sayfa kartı için). */
+function nearestBadge() {
+  const earned = loadBadges();
+  let best = null, bestPct = -1;
+  BADGE_DEFS.forEach(b => {
+    if (earned.includes(b.id)) return;
+    const pr = badgeProgress(b);
+    if (!pr || !pr.max) return;
+    const pct = pr.cur / pr.max;
+    if (pct > bestPct) { bestPct = pct; best = { b: b, pr: pr }; }
+  });
+  return best;
 }
 
 /* Metinler sekmesi — profilde kayıtlı sınıfın konu listesine direkt götürür. */
