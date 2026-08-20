@@ -4016,10 +4016,14 @@ function renderHomeScreen() {
 
 /* Kilitli rozetler arasından tamamlanmaya en yakın olanı bulur (Ana Sayfa kartı için). */
 function nearestBadge() {
+  const p = getActiveProfile();
+  const myGrade = p ? p.grade : null;
   const earned = loadBadges();
   let best = null, bestPct = -1;
   BADGE_DEFS.forEach(b => {
     if (earned.includes(b.id)) return;
+    const g = badgeGradeOf(b);
+    if (g && myGrade && g !== myGrade) return; // başka sınıfın rozetini önerme
     const pr = badgeProgress(b);
     if (!pr || !pr.max) return;
     const pct = pr.cur / pr.max;
@@ -4469,7 +4473,6 @@ function confirmDeleteProfile() {
   _pendingDeleteId = null;
   document.getElementById('delete-modal-overlay').classList.add('hidden');
   renderProfileSelect();
-  updateAllProfileBadges();
   renderIntroGate();
 }
 
@@ -4628,6 +4631,11 @@ function selectProfile(profileId) {
   setActiveProfile(profileId);
   const profile = getActiveProfile();
   if (!profile) return; // savunmacı kontrol — profil bir şekilde silinmişse
+  // currentGrade oturum boyunca sadece bir konu taranınca güncelleniyordu;
+  // profil seçilir seçilmez kendi sınıfına ayarlanmazsa ekranlar (Sınıf
+  // Seçimi'ndeki "şu an burada" işareti, Profilim'in üst bilgisi vb.)
+  // varsayılan 2. Sınıf'ı gösteriyordu.
+  currentGrade = profile.grade;
   updateIntroProfilBadge(profile);
   // Profil seçildikten sonra Ana Sayfa'ya iner — kaldığı yer varsa tek
   // dokunuşla devam eder, yoksa "Hikâye Seç" ile Metinler'e geçer.
@@ -4876,6 +4884,19 @@ function getBadgeById(id) {
     if (ch && ch.id === id) return ch;
   }
   return SKILL_BADGES.concat(EFFORT_BADGES).concat(ACH_BADGES).find(b => b.id === id) || BADGE_DEFS.find(b => b.id === id);
+}
+// Bir rozetin hangi sınıfa ait olduğunu döndürür (tema/kilometre taşı/şampiyon);
+// beceri/çaba/günlük/başarı rozetleri sınıftan bağımsızdır → null.
+function badgeGradeOf(b) {
+  const id = b.id;
+  if (id.indexOf('grade10_') === 0 || id.indexOf('grade30_') === 0) return id.slice(8);
+  if (id.indexOf('champion_') === 0) return id.slice(9);
+  if (id.indexOf('theme_') === 0) {
+    for (const g of ['grade2', 'grade3', 'grade4']) {
+      if ((GRADE_TOPICS[g] || []).some(t => 'theme_' + t.key === id)) return g;
+    }
+  }
+  return null;
 }
 // Kilitli rozetler için "ne kadar kaldı" — gerçek kazanma koşullarıyla aynı
 function badgeProgress(b) {
@@ -5392,10 +5413,14 @@ function _bcResetStage() {
 
 // En yakın kilitli rozet — kutlamanın altında hedef olarak gösterilir
 function nextGoalBadge() {
+  const p = getActiveProfile();
+  const myGrade = p ? p.grade : null;
   const earned = loadBadges();
   let best = null;
   BADGE_DEFS.forEach(b => {
     if (earned.includes(b.id)) return;
+    const g = badgeGradeOf(b);
+    if (g && myGrade && g !== myGrade) return; // başka sınıfın rozetini hedef gösterme
     const pr = badgeProgress(b);
     if (!pr || pr.max <= 0 || pr.cur <= 0 || pr.cur >= pr.max) return;
     const ratio = pr.cur / pr.max;
@@ -5596,7 +5621,11 @@ function renderBadgeScreen() {
 }
 
 function showBadgeScreen() {
-  _badgePage = 0;
+  // Varsayılan olarak her zaman 2. Sınıf'ta açılıyordu — profilin kendi
+  // sınıfına ait sayfadan başlamalı (yoksa 2. Sınıf'a düşer).
+  const p = getActiveProfile();
+  const gradeIdx = p ? BADGE_PAGES.findIndex(pg => pg.grade === p.grade) : -1;
+  _badgePage = gradeIdx >= 0 ? gradeIdx : 0;
   renderBadgeScreen();
   showScreen('screen-badges');
 }
@@ -5760,7 +5789,7 @@ function renderStats() {
       <div class="stats-hero-av">${profil ? profil.avatar : '🐱'}</div>
       <div>
         <div class="stats-hero-name">${profil ? profil.name : 'Öğrenci'}</div>
-        <div class="stats-hero-sub">${GRADE_LABELS[currentGrade] || '2. Sınıf'}</div>
+        <div class="stats-hero-sub">${GRADE_LABELS[profil && profil.grade] || '2. Sınıf'}</div>
       </div>
     </div>`;
 
@@ -5774,7 +5803,7 @@ function renderStats() {
     </div>`;
 
   // Konu listesi — sınıf sekmeleriyle (uzun kaydırma yerine)
-  const activeGrade = statsGradeTab || currentGrade || 'grade2';
+  const activeGrade = statsGradeTab || (profil && profil.grade) || currentGrade || 'grade2';
   const tabsHTML = `<div class="stats-grade-tabs">` +
     ['grade2','grade3','grade4'].map(g =>
       `<button class="stats-grade-tab${g===activeGrade?' active':''}" onclick="setStatsGrade('${g}')">${GRADE_LABELS[g]}</button>`
