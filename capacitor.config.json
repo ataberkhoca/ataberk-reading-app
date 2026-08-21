@@ -1,5 +1,17 @@
 {
   "appId": "com.ataberkhoca.readingskills",
   "appName": "Ataberk Hoca - İlkokul İngilizce Okuma Becerileri",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 400,
+      "launchAutoHide": true,
+      "backgroundColor": "#FFFBF0",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": false
+    }
+  }
 }
