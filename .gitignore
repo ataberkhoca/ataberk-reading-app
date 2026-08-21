@@ -13,3 +13,7 @@ android/local.properties
 android/.idea/
 android/*.iml
 android/app/*.iml
+
+# Release imzalama — asla git'e girmemeli, kaybedilirse uygulama bir daha güncellenemez
+android/keystore/
+android/keystore.properties
