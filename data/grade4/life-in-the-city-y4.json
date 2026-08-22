@@ -3718,6 +3718,118 @@
      ]
     }
    ]
+  },
+  {
+   "id": "int-11",
+   "title": "Mother's Day Plans",
+   "subtitle": "Read carefully and answer the questions!",
+   "icon": "💐",
+   "hlMode": "fade3",
+   "hintMode": "button",
+   "choices": 3,
+   "cast": [
+    {
+     "e": "👧",
+     "n": "Nora"
+    },
+    {
+     "e": "👦",
+     "n": "Sam"
+    },
+    {
+     "e": "👩‍🏫",
+     "n": "Ms. Reed"
+    }
+   ],
+   "sentences": [
+    "Ms. Reed: What are you going to do for Mother's Day, children?",
+    "Nora: I am going to cook a green salad for my mum.",
+    "Sam: I am going to buy fresh strawberries and lemon for my mum's cake.",
+    "Nora: We are going to eat at a nice café in the city.",
+    "Sam: What are you going to order there, Nora?",
+    "Nora: We are going to order soup, fish and a big fruit plate.",
+    "Ms. Reed: That sounds like a delicious Mother's Day!",
+    "Sam: I am also going to write a card for my mum.",
+    "Nora: Mother's Day is going to be the best day this month!"
+   ],
+   "translations": [
+    "Ms. Reed: Anneler Günü için ne yapacaksınız, çocuklar?",
+    "Nora: Anneme yeşil salata yapacağım.",
+    "Sam: Annemin pastası için taze çilek ve limon alacağım.",
+    "Nora: Şehirde güzel bir kafede yiyeceğiz.",
+    "Sam: Orada ne sipariş edeceksin, Nora?",
+    "Nora: Çorba, balık ve büyük bir meyve tabağı sipariş edeceğiz.",
+    "Ms. Reed: Kulağa lezzetli bir Anneler Günü gibi geliyor!",
+    "Sam: Ben de anneme bir kart yazacağım.",
+    "Nora: Anneler Günü bu ayın en güzel günü olacak!"
+   ],
+   "questions": [
+    {
+     "q": "What is Nora going to cook?",
+     "qTr": "Nora ne pişirecek?",
+     "correct": "A green salad",
+     "wrong": [
+      "Fish and chips",
+      "Pasta"
+     ],
+     "hint": "Nora'ya bak.",
+     "hl": [
+      1
+     ]
+    },
+    {
+     "q": "What is Sam going to buy?",
+     "qTr": "Sam ne alacak?",
+     "correct": "Strawberries and lemon",
+     "wrong": [
+      "Apples and cheese",
+      "Bread and butter"
+     ],
+     "hint": "Sam'e bak.",
+     "hl": [
+      2
+     ]
+    },
+    {
+     "q": "Where are they going to eat?",
+     "qTr": "Nerede yiyecekler?",
+     "correct": "At a café in the city",
+     "wrong": [
+      "At home",
+      "At school"
+     ],
+     "hint": "Dördüncü cümleye bak.",
+     "hl": [
+      3
+     ]
+    },
+    {
+     "q": "What are they going to order?",
+     "qTr": "Ne sipariş edecekler?",
+     "correct": "Soup, fish and fruit",
+     "wrong": [
+      "Pizza and salad",
+      "Cake and juice"
+     ],
+     "hint": "Nora'nın siparişine bak.",
+     "hl": [
+      5
+     ]
+    },
+    {
+     "q": "What is Sam also going to do?",
+     "qTr": "Sam ayrıca ne yapacak?",
+     "correct": "Write a card",
+     "wrong": [
+      "Buy a gift",
+      "Make a video"
+     ],
+     "hint": "Sam'in son cümlesine bak.",
+     "hl": [
+      7
+     ]
+    }
+   ]
   }
  ],
  "inf": [

@@ -4792,6 +4792,112 @@
           ]
         }
       ]
+    },
+    {
+      "id": "inf-11",
+      "title": "Whose Special Day Is It?",
+      "subtitle": "Use the clues to find the answer!",
+      "icon": "👔",
+      "hlMode": "fade3",
+      "hintMode": "always",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧🏽",
+          "n": "Leyla"
+        },
+        {
+          "e": "👦",
+          "n": "Sam"
+        }
+      ],
+      "sentences": [
+        "Sam: Guess whose special day it is today!",
+        "Sam: This person was taller than me when I was seven.",
+        "Sam: This person could fix my bicycle when I was six.",
+        "Sam: This person was the kindest person in my family last year.",
+        "Leyla: Is it your mother, Sam?",
+        "Sam: No, it isn't. It's a man in my family.",
+        "Leyla: I know! It's your father! Happy Father's Day!",
+        "Sam: Yes! Today is Father's Day!"
+      ],
+      "translations": [
+        "Sam: Bugün kimin özel günü, tahmin et!",
+        "Sam: Ben yedi yaşındayken bu kişi benden daha uzundu.",
+        "Sam: Ben altı yaşındayken bu kişi bisikletimi tamir edebiliyordu.",
+        "Sam: Bu kişi geçen yıl ailemdeki en kibar kişiydi.",
+        "Leyla: Annen mi, Sam?",
+        "Sam: Hayır, değil. Ailemden bir erkek.",
+        "Leyla: Biliyorum! Baban! Mutlu Babalar Günü!",
+        "Sam: Evet! Bugün Babalar Günü!"
+      ],
+      "questions": [
+        {
+          "q": "Was this person taller than Sam?",
+          "qTr": "Bu kişi Sam'den daha uzun muydu?",
+          "correct": "Yes, he was",
+          "wrong": [
+            "No, he wasn't",
+            "Yes, he is"
+          ],
+          "hint": "İkinci cümleye bak.",
+          "hl": [
+            1
+          ]
+        },
+        {
+          "q": "What could this person do when Sam was six?",
+          "qTr": "Sam altı yaşındayken bu kişi ne yapabiliyordu?",
+          "correct": "Fix his bicycle",
+          "wrong": [
+            "Cook dinner",
+            "Sing songs"
+          ],
+          "hint": "Üçüncü cümleye bak.",
+          "hl": [
+            2
+          ]
+        },
+        {
+          "q": "Was this person the kindest in the family?",
+          "qTr": "Bu kişi ailedeki en kibar kişi miydi?",
+          "correct": "Yes, he was",
+          "wrong": [
+            "No, he wasn't",
+            "Yes, he is"
+          ],
+          "hint": "Dördüncü cümleye bak.",
+          "hl": [
+            3
+          ]
+        },
+        {
+          "q": "Is it Sam's mother?",
+          "qTr": "Sam'in annesi mi?",
+          "correct": "No, it isn't",
+          "wrong": [
+            "Yes, it is",
+            "Yes, it was"
+          ],
+          "hint": "Sam'in cevabına bak.",
+          "hl": [
+            5
+          ]
+        },
+        {
+          "q": "Whose special day is it?",
+          "qTr": "Kimin özel günü?",
+          "correct": "Sam's father",
+          "wrong": [
+            "Sam's mother",
+            "Sam's grandfather"
+          ],
+          "hint": "Leyla'nın cevabına bak.",
+          "hl": [
+            6
+          ]
+        }
+      ]
     }
   ]
 }

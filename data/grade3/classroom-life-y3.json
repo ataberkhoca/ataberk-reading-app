@@ -3623,9 +3623,9 @@
   },
   {
    "id": "int-10",
-   "title": "The Children's Day Quiz",
+   "title": "The Teachers' Day Surprise",
    "subtitle": "Read carefully and answer the questions!",
-   "icon": "🎉",
+   "icon": "🌷",
    "hlMode": "fade3",
    "hintMode": "button",
    "choices": 3,
@@ -3644,37 +3644,37 @@
     }
    ],
    "sentences": [
-    "It is 23 April today.",
-    "It is ten o'clock. It is the Life Study lesson.",
-    "Ms. Hart: Today there is a special quiz!",
-    "There are twenty questions about children.",
-    "Ms. Hart: Answer the question, please!",
-    "Ms. Hart: How many points have you got, Maya? Maya: Ten points! Ms. Hart: That's correct!",
-    "Ms. Hart: How many points have you got, Kerem? Kerem: Ten points, too! Ms. Hart: Perfect!",
-    "Ms. Hart: You are both winners today!",
-    "Here is a prize for everyone. Happy Children's Day!",
-    "Ms. Hart: Nice job, everyone!"
+    "It is 24 November today.",
+    "It is nine o'clock. It is the Life Study lesson.",
+    "Maya: Today there is a special surprise!",
+    "There are twenty cards for Ms. Hart.",
+    "Kerem: Give the card, please!",
+    "Ms. Hart: What is this, Maya? Maya: It is a card for you! Ms. Hart: Thank you!",
+    "Ms. Hart: And this, Kerem? Kerem: It is a card, too! Ms. Hart: Perfect!",
+    "Ms. Hart: You are both so kind today!",
+    "Here is a group photo for everyone. Happy Teachers' Day!",
+    "Ms. Hart: Nice surprise, everyone!"
    ],
    "translations": [
-    "Bugün 23 Nisan.",
-    "Saat on. Hayat Bilgisi dersi.",
-    "Ms. Hart: Bugün özel bir yarışma var!",
-    "Çocuklar hakkında yirmi tane soru var.",
-    "Ms. Hart: Soruyu cevaplayın lütfen!",
-    "Ms. Hart: Kaç puanın var, Maya? Maya: On puan! Ms. Hart: Doğru!",
-    "Ms. Hart: Kaç puanın var, Kerem? Kerem: Benim de on puanım var! Ms. Hart: Mükemmel!",
-    "Ms. Hart: Bugün ikiniz de kazanansınız!",
-    "Herkes için bir ödül var. 23 Nisan kutlu olsun!",
-    "Ms. Hart: Güzel iş, herkes!"
+    "Bugün 24 Kasım.",
+    "Saat dokuz. Hayat Bilgisi dersi.",
+    "Maya: Bugün özel bir sürpriz var!",
+    "Ms. Hart için yirmi tane kart var.",
+    "Kerem: Kartı ver, lütfen!",
+    "Ms. Hart: Bu ne, Maya? Maya: Sizin için bir kart! Ms. Hart: Teşekkürler!",
+    "Ms. Hart: Peki bu, Kerem? Kerem: Benim de bir kartım var! Ms. Hart: Mükemmel!",
+    "Ms. Hart: Bugün ikiniz de çok naziksiniz!",
+    "Herkes için bir grup fotoğrafı var. Öğretmenler Günü kutlu olsun!",
+    "Ms. Hart: Güzel sürpriz, herkes!"
    ],
    "questions": [
     {
      "q": "What day is it today?",
      "qTr": "Bugün hangi gün?",
-     "correct": "23 April",
+     "correct": "24 November",
      "wrong": [
-      "29 October",
-      "19 May"
+      "23 April",
+      "29 October"
      ],
      "hint": "Özel günümüze bak.",
      "hl": [
@@ -3684,9 +3684,9 @@
     {
      "q": "What time is it?",
      "qTr": "Saat kaç?",
-     "correct": "Ten o'clock",
+     "correct": "Nine o'clock",
      "wrong": [
-      "Nine o'clock",
+      "Ten o'clock",
       "Two o'clock"
      ],
      "hint": "Hayat Bilgisi dersimize bak.",
@@ -3695,25 +3695,25 @@
      ]
     },
     {
-     "q": "How many questions are there in the quiz?",
-     "qTr": "Yarışmada kaç tane soru var?",
+     "q": "How many cards are there for Ms. Hart?",
+     "qTr": "Ms. Hart için kaç kart var?",
      "correct": "Twenty",
      "wrong": [
       "Ten",
       "Thirty"
      ],
-     "hint": "Yarışmamıza bak.",
+     "hint": "Kartlara bak.",
      "hl": [
       3
      ]
     },
     {
-     "q": "How many points has Maya got?",
-     "qTr": "Maya'nın kaç puanı var?",
-     "correct": "Ten",
+     "q": "What does Maya give?",
+     "qTr": "Maya ne veriyor?",
+     "correct": "A card",
      "wrong": [
-      "Twenty",
-      "Five"
+      "A prize",
+      "A photo"
      ],
      "hint": "Maya'ya bak.",
      "hl": [
@@ -3721,8 +3721,8 @@
      ]
     },
     {
-     "q": "Who are the winners?",
-     "qTr": "Kazananlar kim?",
+     "q": "Who is kind today?",
+     "qTr": "Bugün kim nazik?",
      "correct": "Maya and Kerem",
      "wrong": [
       "Maya and Leo",

@@ -1182,6 +1182,114 @@
           "qTr": "Sabahın en iyi haberi nedir?"
         }
       ]
+    },
+    {
+      "id": "scan-11",
+      "title": "Eid al-Adha at the Beach House",
+      "subtitle": "Find the right answer!",
+      "icon": "🏖️",
+      "hlMode": "fade3",
+      "hintMode": "button",
+      "choices": 3,
+      "cast": [
+        {
+          "e": "👧",
+          "n": "Aslı"
+        },
+        {
+          "e": "👴",
+          "n": "Grandpa"
+        }
+      ],
+      "sentences": [
+        "Aslı: Grandpa, we are staying at your beach house for Eid al-Adha!",
+        "Grandpa: I think the weather will be sunny and warm tomorrow.",
+        "Aslı: What will we eat for the Eid breakfast?",
+        "Grandpa: I think we will eat simit, cheese and olives by the sea.",
+        "Aslı: Will the whole family come to the beach house?",
+        "Grandpa: Yes, I think twelve people will come for Eid al-Adha.",
+        "Aslı: Will we swim in the sea after breakfast?",
+        "Grandpa: I think the sea will be a little cold, but we will swim!",
+        "Aslı: This will be the best Eid al-Adha at the beach house!"
+      ],
+      "translations": [
+        "Aslı: Dede, Kurban Bayramı için senin sahil evinde kalıyoruz!",
+        "Dede: Sanırım yarın hava güneşli ve sıcak olacak.",
+        "Aslı: Bayram kahvaltısında ne yiyeceğiz?",
+        "Dede: Sanırım deniz kenarında simit, peynir ve zeytin yiyeceğiz.",
+        "Aslı: Bütün aile sahil evine gelecek mi?",
+        "Dede: Evet, sanırım Kurban Bayramı için on iki kişi gelecek.",
+        "Aslı: Kahvaltıdan sonra denizde yüzecek miyiz?",
+        "Dede: Sanırım deniz biraz soğuk olacak, ama yüzeceğiz!",
+        "Aslı: Bu, sahil evindeki en güzel Kurban Bayramı olacak!"
+      ],
+      "questions": [
+        {
+          "q": "What does Grandpa think the weather will be like?",
+          "correct": "Sunny and warm",
+          "wrong": [
+            "Cold and windy",
+            "Cloudy and foggy"
+          ],
+          "hint": "Dedeye bak.",
+          "hl": [
+            1
+          ],
+          "qTr": "Dede havanın nasıl olacağını düşünüyor?"
+        },
+        {
+          "q": "What will they eat for breakfast?",
+          "correct": "Simit, cheese and olives",
+          "wrong": [
+            "Pancakes and juice",
+            "Soup and bread"
+          ],
+          "hint": "Bayram kahvaltısına bak.",
+          "hl": [
+            3
+          ],
+          "qTr": "Kahvaltıda ne yiyecekler?"
+        },
+        {
+          "q": "How many people will come for Eid al-Adha?",
+          "correct": "Twelve",
+          "wrong": [
+            "Eight",
+            "Twenty"
+          ],
+          "hint": "Dedeye bak.",
+          "hl": [
+            5
+          ],
+          "qTr": "Kurban Bayramı için kaç kişi gelecek?"
+        },
+        {
+          "q": "Will they swim after breakfast?",
+          "correct": "Yes",
+          "wrong": [
+            "No",
+            "Maybe"
+          ],
+          "hint": "Son cümlelere bak.",
+          "hl": [
+            7
+          ],
+          "qTr": "Kahvaltıdan sonra yüzecekler mi?"
+        },
+        {
+          "q": "What special day are they celebrating?",
+          "correct": "Eid al-Adha",
+          "wrong": [
+            "Eid al-Fitr",
+            "New Year"
+          ],
+          "hint": "Aslı'nın ilk cümlesine bak.",
+          "hl": [
+            0
+          ],
+          "qTr": "Hangi özel günü kutluyorlar?"
+        }
+      ]
     }
   ],
   "skim": [

@@ -1337,9 +1337,9 @@
   },
   {
    "id": "scan-13",
-   "title": "A Special Day in July",
+   "title": "19 May at School",
    "subtitle": "Find the right answer!",
-   "icon": "🇹🇷",
+   "icon": "🏃",
    "hlMode": "fade3",
    "hintMode": "button",
    "choices": 3,
@@ -1358,22 +1358,22 @@
     }
    ],
    "sentences": [
-    "Eda: What day is it today? Can: It is 15 July.",
-    "It is Democracy Day.",
+    "Eda: What day is it today? Can: It is 19 May.",
+    "It is Youth and Sports Day.",
     "It is a special national day in Türkiye.",
     "We are in school garden.",
     "Eda is happy. Can is happy.",
-    "Miss Oli: Happy Democracy Day!",
+    "Miss Oli: Happy 19 May!",
     "Children: Hurray!",
     "It is a special day for Türkiye!"
    ],
    "translations": [
-    "Eda: Bugün hangi gün? Can: 15 Temmuz.",
-    "Demokrasi Günü.",
+    "Eda: Bugün hangi gün? Can: 19 Mayıs.",
+    "Gençlik ve Spor Bayramı.",
     "Türkiye'de özel bir milli gün.",
     "Okul bahçesindeyiz.",
     "Eda mutlu. Can mutlu.",
-    "Miss Oli: Demokrasi Günü kutlu olsun!",
+    "Miss Oli: 19 Mayıs kutlu olsun!",
     "Çocuklar: Yaşasın!",
     "Türkiye için özel bir gün!"
    ],
@@ -1381,7 +1381,7 @@
     {
      "q": "What special day is it?",
      "qTr": "Hangi özel gün?",
-     "correct": "Democracy Day",
+     "correct": "Youth and Sports Day",
      "wrong": [
       "Republic Day",
       "Victory Day"
@@ -4268,9 +4268,9 @@
   },
   {
    "id": "int-13",
-   "title": "Eid al-Adha",
+   "title": "10 November",
    "subtitle": "Read carefully and answer the questions!",
-   "icon": "🌙",
+   "icon": "🕊️",
    "hlMode": "fade3",
    "hintMode": "button",
    "choices": 3,
@@ -4290,25 +4290,25 @@
    ],
    "sentences": [
     "Eda: What day is it today? Can: It is a special day.",
-    "It is Eid al-Adha in Türkiye.",
-    "It is a happy religious day.",
-    "Today is a day for friends.",
-    "Eda is happy. Can is happy, too.",
-    "Miss Oli: Happy Eid, everybody!",
-    "Eda: Happy Eid, Miss Oli!",
-    "Can: Happy Eid, Eda!",
-    "Children: Hurray! It is Eid today!"
+    "It is 10 November in Türkiye.",
+    "It is a special day for Atatürk.",
+    "Today is a quiet day for our school.",
+    "Eda is quiet. Can is quiet, too.",
+    "Miss Oli: Let's remember Atatürk, everybody!",
+    "Eda: Silence for Atatürk, Miss Oli!",
+    "Can: Silence for Atatürk, Eda!",
+    "Children: It is 10 November today!"
    ],
    "translations": [
     "Eda: Bugün hangi gün? Can: Özel bir gün.",
-    "Türkiye'de Kurban Bayramı.",
-    "Mutlu bir dini gün.",
-    "Bugün arkadaşlar için bir gün.",
-    "Eda mutlu. Can da mutlu.",
-    "Miss Oli: Bayramınız kutlu olsun, herkes!",
-    "Eda: Bayramınız kutlu olsun, Miss Oli!",
-    "Can: Bayramın kutlu olsun, Eda!",
-    "Çocuklar: Yaşasın! Bugün Bayram!"
+    "Türkiye'de 10 Kasım.",
+    "Atatürk için özel bir gün.",
+    "Bugün okulumuz için sessiz bir gün.",
+    "Eda sessiz. Can da sessiz.",
+    "Miss Oli: Atatürk'ü analım, herkes!",
+    "Eda: Atatürk için sessizlik, Miss Oli!",
+    "Can: Atatürk için sessizlik, Eda!",
+    "Çocuklar: Bugün 10 Kasım!"
    ],
    "questions": [
     {
@@ -4327,53 +4327,53 @@
     {
      "q": "What special day is it?",
      "qTr": "Hangi özel gün?",
-     "correct": "Eid al-Adha",
+     "correct": "10 November",
      "wrong": [
-      "Republic Day",
-      "Children's Day"
+      "23 April",
+      "29 October"
      ],
-     "hint": "Bayrama bak.",
+     "hint": "Tarihe bak.",
      "hl": [
       1
      ]
     },
     {
-     "q": "Is it a religious day?",
-     "qTr": "Dini bir gün mü?",
+     "q": "Is it a quiet day?",
+     "qTr": "Sessiz bir gün mü?",
      "correct": "Yes",
      "wrong": [
       "No",
       "Maybe"
      ],
-     "hint": "Dini güne bak.",
+     "hint": "Sessiz güne bak.",
+     "hl": [
+      3
+     ]
+    },
+    {
+     "q": "Who is this day for?",
+     "qTr": "Bu gün kimin için?",
+     "correct": "Atatürk",
+     "wrong": [
+      "Miss Oli",
+      "A teacher"
+     ],
+     "hint": "Atatürk'e bak.",
      "hl": [
       2
      ]
     },
     {
-     "q": "Who is happy?",
-     "qTr": "Kim mutlu?",
-     "correct": "Eda and Can",
-     "wrong": [
-      "Tom and Lila",
-      "Mr. Aras and Lila"
-     ],
-     "hint": "Eda ve Can'a bak.",
-     "hl": [
-      4
-     ]
-    },
-    {
-     "q": "Is the day for friends?",
-     "qTr": "Gün arkadaşlar için mi?",
+     "q": "Are Eda and Can quiet?",
+     "qTr": "Eda ve Can sessiz mi?",
      "correct": "Yes",
      "wrong": [
       "No",
       "Maybe"
      ],
-     "hint": "Arkadaşlara bak.",
+     "hint": "Eda ve Can'a bak.",
      "hl": [
-      3
+      4
      ]
     }
    ]

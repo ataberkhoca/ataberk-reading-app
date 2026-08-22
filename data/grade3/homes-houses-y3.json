@@ -2853,9 +2853,9 @@
   },
   {
    "id": "int-5",
-   "title": "Eid al-Adha at the Farm",
+   "title": "Father's Day at the Farm",
    "subtitle": "Read carefully and answer the questions!",
-   "icon": "🐑",
+   "icon": "🚜",
    "hlMode": "fade3",
    "hintMode": "button",
    "choices": 3,
@@ -2874,34 +2874,34 @@
     }
    ],
    "sentences": [
-    "Deniz: Today is Eid al-Adha in Türkiye!",
-    "We are at my uncle's farm today.",
+    "Deniz: Today is Father's Day in Türkiye!",
+    "We are at my father's farm today.",
     "There are eight sheep here.",
     "There are five cows in the barn.",
-    "Mert: What is your uncle doing now?",
+    "Mert: What is your father doing now?",
     "Deniz: He is feeding the sheep at present.",
     "Mert: And what is Mr. Tarık doing?",
-    "Deniz: He is milking the cows now.",
-    "Mert: Happy Eid al-Adha!"
+    "Deniz: He is milking the cows now. He is my father!",
+    "Mert: Happy Father's Day!"
    ],
    "translations": [
-    "Deniz: Bugün Türkiye'de Kurban Bayramı!",
-    "Bugün amcamın çiftliğindeyiz.",
+    "Deniz: Bugün Türkiye'de Babalar Günü!",
+    "Bugün babamın çiftliğindeyiz.",
     "Burada sekiz koyun var.",
     "Ahırda beş inek var.",
-    "Mert: Amcan şu an ne yapıyor?",
+    "Mert: Baban şu an ne yapıyor?",
     "Deniz: Şu anda koyunları besliyor.",
     "Mert: Peki Mr. Tarık ne yapıyor?",
-    "Deniz: Şu anda inekleri sağıyor.",
-    "Mert: Mutlu bayramlar!"
+    "Deniz: Şu anda inekleri sağıyor. O benim babam!",
+    "Mert: Mutlu Babalar Günü!"
    ],
    "questions": [
     {
      "q": "What special day is it?",
      "qTr": "Bu hangi özel gün?",
-     "correct": "Eid al-Adha",
+     "correct": "Father's Day",
      "wrong": [
-      "Eid al-Fitr",
+      "Mother's Day",
       "Republic Day"
      ],
      "hint": "Deniz'e bak.",
@@ -2936,27 +2936,27 @@
      ]
     },
     {
-     "q": "What is the uncle doing now?",
-     "qTr": "Amca şu an ne yapıyor?",
+     "q": "What is the father doing now?",
+     "qTr": "Baba şu an ne yapıyor?",
      "correct": "Feeding the sheep",
      "wrong": [
       "Milking the cows",
       "Watering the plants"
      ],
-     "hint": "Amcaya bak.",
+     "hint": "Babaya bak.",
      "hl": [
       5
      ]
     },
     {
-     "q": "What is Mr. Tarık doing now?",
-     "qTr": "Mr. Tarık şu an ne yapıyor?",
-     "correct": "Milking the cows",
+     "q": "Who is Mr. Tarık?",
+     "qTr": "Mr. Tarık kimdir?",
+     "correct": "Deniz's father",
      "wrong": [
-      "Feeding the sheep",
-      "Watering the plants"
+      "Deniz's uncle",
+      "Mert's father"
      ],
-     "hint": "Mr. Tarık'a bak.",
+     "hint": "Son cümleye bak.",
      "hl": [
       7
      ]

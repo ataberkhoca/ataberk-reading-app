@@ -2365,6 +2365,120 @@
      "qTr": "4. sınıfta kaç öğrenci var?"
     }
    ]
+  },
+  {
+   "id": "skim-11",
+   "title": "19 May Last Year",
+   "subtitle": "Read quickly and find the main idea!",
+   "icon": "🏃",
+   "hlMode": "always",
+   "hintMode": "button",
+   "choices": 3,
+   "cast": [
+    {
+     "e": "👩‍🏫",
+     "n": "Ms. Reed"
+    },
+    {
+     "e": "👧",
+     "n": "Nora"
+    },
+    {
+     "e": "👦",
+     "n": "Sam"
+    }
+   ],
+   "sentences": [
+    "Ms. Reed: What was 19 May like last year, children?",
+    "Nora: It was Youth and Sports Day, Ms. Reed.",
+    "Sam: The weather was sunny and warm last year.",
+    "Nora: There was a big ceremony in the school garden.",
+    "Sam: I was in the running race with my class.",
+    "Nora: I was in the dance group with Leyla.",
+    "Ms. Reed: Who was the fastest runner last year, Sam?",
+    "Sam: I was the fastest runner in my class!",
+    "Ms. Reed: What a wonderful 19 May it was!"
+   ],
+   "translations": [
+    "Ms. Reed: Geçen yıl 19 Mayıs nasıldı, çocuklar?",
+    "Nora: Gençlik ve Spor Bayramıydı, Ms. Reed.",
+    "Sam: Geçen yıl hava güneşli ve sıcaktı.",
+    "Nora: Okul bahçesinde büyük bir tören vardı.",
+    "Sam: Sınıfımla koşu yarışındaydım.",
+    "Nora: Leyla ile dans grubundaydım.",
+    "Ms. Reed: Geçen yıl en hızlı koşucu kimdi, Sam?",
+    "Sam: Sınıfımın en hızlı koşucusuydum!",
+    "Ms. Reed: Ne harika bir 19 Mayıs'tı!"
+   ],
+   "questions": [
+    {
+     "q": "What is this text mainly about?",
+     "correct": "19 May last year",
+     "wrong": [
+      "A rainy school day",
+      "A birthday party"
+     ],
+     "hint": "Geçen yılı düşün.",
+     "hl": [
+      0,
+      1,
+      8
+     ],
+     "qTr": "Bu metin esas olarak ne hakkında?"
+    },
+    {
+     "q": "What was 19 May last year?",
+     "correct": "Youth and Sports Day",
+     "wrong": [
+      "Republic Day",
+      "Children's Day"
+     ],
+     "hint": "Nora'ya bak.",
+     "hl": [
+      1
+     ],
+     "qTr": "Geçen yıl 19 Mayıs neydi?"
+    },
+    {
+     "q": "What was the weather like?",
+     "correct": "Sunny and warm",
+     "wrong": [
+      "Cold and windy",
+      "Cloudy and rainy"
+     ],
+     "hint": "Sam'e bak.",
+     "hl": [
+      2
+     ],
+     "qTr": "Hava nasıldı?"
+    },
+    {
+     "q": "Where was the big ceremony?",
+     "correct": "In the school garden",
+     "wrong": [
+      "In the main hall",
+      "In the classroom"
+     ],
+     "hint": "Nora'ya bak.",
+     "hl": [
+      3
+     ],
+     "qTr": "Büyük tören neredeydi?"
+    },
+    {
+     "q": "Who was the fastest runner?",
+     "correct": "Sam",
+     "wrong": [
+      "Nora",
+      "Leyla"
+     ],
+     "hint": "Son cevaba bak.",
+     "hl": [
+      7
+     ],
+     "qTr": "En hızlı koşucu kimdi?"
+    }
+   ]
   }
  ],
  "int": [
@@ -3957,9 +4071,9 @@
   },
   {
    "id": "inf-4",
-   "title": "Which Date Is Special?",
+   "title": "Which Day Is Special?",
    "subtitle": "Use the clues to find the date!",
-   "icon": "📅",
+   "icon": "🍎",
    "hlMode": "fade3",
    "hintMode": "always",
    "choices": 3,
@@ -3978,28 +4092,28 @@
     }
    ],
    "sentences": [
-    "Ms. Reed: Guess the special day in April, children!",
-    "Ms. Reed: It is not the 1st of April. It is not the 30th.",
+    "Ms. Reed: Guess the special day in November, children!",
+    "Ms. Reed: It is not the 1st of November. It is not the 30th.",
     "Ms. Reed: It is not the 10th. It is not the 15th.",
-    "Ms. Reed: It is not the 25th of April.",
-    "Ms. Reed: Children sing songs and read poems on this day.",
-    "Nora: Is it a Turkish holiday, Ms. Reed?",
-    "Ms. Reed: Yes, it is. It is Children's Day in Türkiye.",
-    "Sam: I know it! It is the 23rd of April!"
+    "Ms. Reed: It is not the 20th of November.",
+    "Ms. Reed: Children give cards and flowers to their teachers on this day.",
+    "Nora: Is it a special day for teachers, Ms. Reed?",
+    "Ms. Reed: Yes, it is. It is Teachers' Day in Türkiye.",
+    "Sam: I know it! It is the 24th of November!"
    ],
    "translations": [
-    "Ms. Reed: Nisan'daki özel günü tahmin edin, çocuklar!",
-    "Ms. Reed: 1 Nisan değil. 30'u da değil.",
+    "Ms. Reed: Kasım'daki özel günü tahmin edin, çocuklar!",
+    "Ms. Reed: 1 Kasım değil. 30'u da değil.",
     "Ms. Reed: 10'u değil. 15'i değil.",
-    "Ms. Reed: 25 Nisan değil.",
-    "Ms. Reed: Bu günde çocuklar şarkı söyler ve şiir okur.",
-    "Nora: Türk bayramı mı, Ms. Reed?",
-    "Ms. Reed: Evet, öyle. Türkiye'de Çocuk Bayramı.",
-    "Sam: Biliyorum! 23 Nisan!"
+    "Ms. Reed: 20 Kasım değil.",
+    "Ms. Reed: Bu günde çocuklar öğretmenlerine kart ve çiçek verir.",
+    "Nora: Öğretmenler için özel bir gün mü, Ms. Reed?",
+    "Ms. Reed: Evet, öyle. Türkiye'de Öğretmenler Günü.",
+    "Sam: Biliyorum! 24 Kasım!"
    ],
    "questions": [
     {
-     "q": "Is it the 1st of April?",
+     "q": "Is it the 1st of November?",
      "correct": "No, it isn't",
      "wrong": [
       "Yes, it is",
@@ -4009,10 +4123,10 @@
      "hl": [
       1
      ],
-     "qTr": "1 Nisan mı?"
+     "qTr": "1 Kasım mı?"
     },
     {
-     "q": "Is it the 15th of April?",
+     "q": "Is it the 15th of November?",
      "correct": "No, it isn't",
      "wrong": [
       "Yes, it is",
@@ -4022,43 +4136,43 @@
      "hl": [
       2
      ],
-     "qTr": "15 Nisan mı?"
+     "qTr": "15 Kasım mı?"
     },
     {
-     "q": "What do children do on this day?",
-     "correct": "Sing songs and read poems",
+     "q": "What do children give to their teachers?",
+     "correct": "Cards and flowers",
      "wrong": [
-      "Study Maths and write words",
-      "Count chairs and make charts"
+      "Books and pens",
+      "Games and toys"
      ],
-     "hint": "Okul günü değil. Bir tatil günü.",
+     "hint": "Okul günü. Bir tatil günü değil.",
      "hl": [
       4
      ],
-     "qTr": "Çocuklar bu günde ne yapar?"
+     "qTr": "Çocuklar öğretmenlerine ne verir?"
     },
     {
-     "q": "Is this day a Turkish holiday?",
+     "q": "Is this day special for teachers?",
      "correct": "Yes, it is",
      "wrong": [
       "No, it isn't",
       "Yes, it was"
      ],
-     "hint": "İngilizlere ait bir gün değil. Bir Türk bayramı.",
+     "hint": "Öğretmenlere ait bir gün.",
      "hl": [
       5,
       6
      ],
-     "qTr": "Bu gün bir Türk bayramı mı?"
+     "qTr": "Bu gün öğretmenler için özel mi?"
     },
     {
      "q": "Which date is it?",
-     "correct": "The 23rd of April",
+     "correct": "The 24th of November",
      "wrong": [
-      "The 25th of April",
-      "The 15th of April"
+      "The 20th of November",
+      "The 15th of November"
      ],
-     "hint": "Ayın biri, onu, on beşi ya da yirmi beşi değil.",
+     "hint": "Ayın biri, onu, on beşi ya da yirmisi değil.",
      "hl": [
       1,
       2,
