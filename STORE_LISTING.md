@@ -1,7 +1,7 @@
 # Play Store Listing Metni
 
 ## Uygulama Adı (Play Console "App name" — max 30 karakter)
-İlkokul İngilizce Okuma (23 karakter)
+İlkokul İngilizce Reading (25 karakter)
 
 ## Kısa Açıklama (max 80 karakter)
 Hikâyelerle İngilizce okuma pratiği — 2, 3, 4. sınıf, MEB uyumlu, reklamsız
@@ -10,7 +10,7 @@ Hikâyelerle İngilizce okuma pratiği — 2, 3, 4. sınıf, MEB uyumlu, reklams
 
 📖 İlkokul öğrencileri için hikâyelerle İngilizce okuma pratiği
 
-Ataberk Hoca, 2, 3 ve 4. sınıf öğrencilerinin İngilizce okuma becerilerini eğlenceli hikâyeler üzerinden geliştirmesi için tasarlandı. Kurallar ezberletmek yerine, çocuğunuzun dünyasından konularla (okul, aile, arkadaşlar, şehir hayatı) dört temel okuma becerisini adım adım kazandırır.
+İlkokul İngilizce Reading, 2, 3 ve 4. sınıf öğrencilerinin İngilizce okuma becerilerini eğlenceli hikâyeler üzerinden geliştirmesi için tasarlandı. Kurallar ezberletmek yerine, çocuğunuzun dünyasından konularla (okul, aile, arkadaşlar, şehir hayatı) dört temel okuma becerisini adım adım kazandırır.
 
 🎯 DÖRT OKUMA BECERİSİ
 • Tarama (Scanning) — Metinde aradığı bilgiyi hızlıca bulma
@@ -38,6 +38,6 @@ Tüm metinler, Türkiye Yüzyılı Maarif Modeli müfredatına uygun olarak, sı
 ✅ REKLAM YOK, HESAP YOK, TAKİP YOK
 Uygulama tamamen çevrimdışı çalışır. Hiçbir kişisel veri bir sunucuya gönderilmez — her şey yalnızca cihazınızda kalır. Reklam yok, uygulama içi satın alma yok, üçüncü taraf takip yazılımı yok.
 
-Ataberk Hoca, sınıfında yıllarca öğrencileriyle çalışmış bir İngilizce öğretmeni tarafından, gerçek bir ihtiyaçtan yola çıkarak geliştirilmiştir.
+İlkokul İngilizce Reading, sınıfında yıllarca öğrencileriyle çalışmış bir İngilizce öğretmeni tarafından, gerçek bir ihtiyaçtan yola çıkarak geliştirilmiştir.
 
 Sorularınız ve önerileriniz için: bagataberk@gmail.com
