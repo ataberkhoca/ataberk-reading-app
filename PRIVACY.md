@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-**Ataberk Hoca - İlkokul İngilizce Okuma Becerileri**
+**İlkokul İngilizce Reading**
 
 Son güncelleme: 21 Ağustos 2026
 
