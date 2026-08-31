@@ -12,6 +12,13 @@ fs.rmSync(WWW, { recursive: true, force: true });
 fs.mkdirSync(WWW, { recursive: true });
 
 fs.copyFileSync(path.join(ROOT, 'reading-skills.html'), path.join(WWW, 'index.html'));
-fs.cpSync(path.join(ROOT, 'data'), path.join(WWW, 'data'), { recursive: true });
+fs.cpSync(path.join(ROOT, 'data'), path.join(WWW, 'data'), {
+  recursive: true,
+  // .claude/ is Claude Code tooling config, not app content — never ship it.
+  filter: (src) => !src.split(path.sep).includes('.claude'),
+});
+fs.copyFileSync(path.join(ROOT, 'manifest.json'), path.join(WWW, 'manifest.json'));
+fs.copyFileSync(path.join(ROOT, 'sw.js'), path.join(WWW, 'sw.js'));
+fs.copyFileSync(path.join(ROOT, 'icon-512.png'), path.join(WWW, 'icon-512.png'));
 
-console.log('www/ senkronize edildi: index.html + data/');
+console.log('www/ senkronize edildi: index.html + data/ + manifest.json + sw.js + icon-512.png');

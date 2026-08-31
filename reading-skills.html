@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>İlkokul İngilizce Reading</title>
+<meta name="theme-color" content="#FFFBF0">
+<meta name="description" content="Hikayelerle İngilizce okuma pratiği - ilkokul 2, 3, 4. sınıf">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-512.png">
+<link rel="apple-touch-icon" href="icon-512.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="İngilizce Okuma">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
 <style>
@@ -6423,5 +6431,16 @@ setTimeout(() => prefetchTopicTotals(currentGrade), 900);
   </button>
 </nav>
 
+<script>
+// Service worker sadece gerçek bir tarayıcıda (web/PWA sürümünde) kayıt edilir.
+// Android (Capacitor) veya masaüstü (Electron) uygulaması içindeyken atlanır —
+// o sürümler zaten kendi paketlenmiş varlıklarını kullanıyor, ekstra bir
+// service worker katmanına ihtiyaçları yok.
+if ('serviceWorker' in navigator && !window.Capacitor && !window.electronAPI && !navigator.userAgent.includes('Electron')) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
 </body>
 </html>
