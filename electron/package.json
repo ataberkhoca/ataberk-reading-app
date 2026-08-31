@@ -1,6 +1,6 @@
 {
   "name": "ataberk-reading-app-electron",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An Amazing Capacitor App",
   "author": {
     "name": "",
@@ -18,7 +18,8 @@
     "electron:start": "npm run build && electron --inspect=5858 ./",
     "electron:pack": "npm run build && electron-builder build --dir -c ./electron-builder.config.json",
     "electron:make": "npm run build && electron-builder build -c ./electron-builder.config.json -p always",
-    "electron:build:linux": "npm run build && electron-builder build --linux -c ./electron-builder.config.json -p never"
+    "electron:build:linux": "npm run build && electron-builder build --linux -c ./electron-builder.config.json -p never",
+    "electron:build:win": "npm run build && electron-builder build --win -c ./electron-builder.config.json -p never"
   },
   "dependencies": {
     "@capacitor-community/electron": "^5.0.0",
