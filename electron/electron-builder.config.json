@@ -1,5 +1,6 @@
 {
-  "appId": "com.yourdoamnin.yourapp",
+  "appId": "com.ataberkhoca.readingskills",
+  "productName": "Ilkokul Ingilizce Reading",
   "directories": {
     "buildResources": "resources"
   },
@@ -22,7 +23,14 @@
     "icon": "assets/appIcon.ico"
   },
   "mac": {
-    "category": "your.app.category.type",
+    "category": "public.app-category.education",
     "target": "dmg"
+  },
+  "linux": {
+    "target": ["deb", "AppImage"],
+    "icon": "assets/appIcon.png",
+    "category": "Education",
+    "synopsis": "Hikayelerle Ingilizce okuma pratigi - ilkokul 2, 3, 4. sinif",
+    "maintainer": "Ataberk Hoca <bagataberk@gmail.com>"
   }
 }

@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sync-www": "node scripts/sync-www.js",
     "cap:sync": "npm run sync-www && npx cap sync android",
+    "cap:sync:electron": "npm run sync-www && npx cap sync @capacitor-community/electron",
     "cap:open": "npx cap open android"
   },
   "repository": {
