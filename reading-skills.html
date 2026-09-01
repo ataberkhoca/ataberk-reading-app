@@ -187,6 +187,11 @@ body.has-navbar .bottom-nav { display:grid; }
 .bn-tab.active { color:#FF6B6B; }
 .bn-tab.active .bn-ic { filter:none; opacity:1; }
 .screen.active { display:flex; }
+/* Masaüstü/tablet tarayıcılarda dar telefon sütunu yerine daha ferah bir kart göster */
+@media (min-width:700px){
+  .screen{ max-width:680px; }
+  .bottom-nav{ max-width:680px; }
+}
 
 /* GİRİŞ EKRANI — Eskiz Defteri */
 #screen-intro{
