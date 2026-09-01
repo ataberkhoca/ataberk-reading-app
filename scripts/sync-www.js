@@ -18,7 +18,15 @@ fs.cpSync(path.join(ROOT, 'data'), path.join(WWW, 'data'), {
   filter: (src) => !src.split(path.sep).includes('.claude'),
 });
 fs.copyFileSync(path.join(ROOT, 'manifest.json'), path.join(WWW, 'manifest.json'));
-fs.copyFileSync(path.join(ROOT, 'sw.js'), path.join(WWW, 'sw.js'));
+
+// sw.js'in CACHE_NAME'ini her build'de tazeler — aksi halde dosya byte-byte aynı
+// kaldığı için tarayıcı yeni bir service worker sürümü olduğunu hiç fark etmez ve
+// eski önbellek (dolayısıyla eski reading-skills.html) sonsuza kadar sunulmaya devam eder.
+const swSrc = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+const buildId = new Date().toISOString().replace(/[:.]/g, '-');
+const swOut = swSrc.replace(/const CACHE_NAME = '[^']*';/, `const CACHE_NAME = 'ataberk-hoca-${buildId}';`);
+fs.writeFileSync(path.join(WWW, 'sw.js'), swOut);
+
 fs.copyFileSync(path.join(ROOT, 'icon-512.png'), path.join(WWW, 'icon-512.png'));
 
-console.log('www/ senkronize edildi: index.html + data/ + manifest.json + sw.js + icon-512.png');
+console.log('www/ senkronize edildi: index.html + data/ + manifest.json + sw.js (yeni cache sürümü) + icon-512.png');
